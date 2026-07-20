@@ -12,13 +12,10 @@
 [character_subs]
 2020 = "二六"
 2056 = "四六"
-
 # 2259 = "赤井"
 2335 = "？？？"
 2297 = "電車段長"
-
 # 2162 = "技工Ａ"
-
 # 2163 = "技工Ｂ"
 
 [script]
@@ -27,1611 +24,1267 @@
 # display as 二六
 # JP: 「ん…………」
 1590 = "「Ừm......」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「……なにこれ。勉強にならない。全然。\n\x%l電車;#00ffc040;電車%l;#;、一両も出てこない」
-1190 = "「......Cái gì thế này. Chẳng học được gì\ncả. Hoàn toàn không.\n\\x%l電車;#00ffc040;Tàu điện%l;#;, một toa cũng không có.」"
-
+1190 = "「......Cái gì thế này. Chẳng học được gì cả. Hoàn toàn không.\n\\x%l電車;#00ffc040;Tàu điện%l;#;, một toa cũng không có.」"
 # monologue
 # JP: \x%l電車;#00ffc040;電車%l;#;だけじゃない。気動車も。機関車も。\n鉄道要素がまるでない。
-2012 = "Không chỉ \\x%l電車;#00ffc040;tàu điện%l;#;. Toa xe tự hành cũng\nkhông. Đầu máy cũng không.\nHoàn toàn không có chút yếu tố đường sắt\nnào."
-
+2012 = "Không chỉ \\x%l電車;#00ffc040;tàu điện%l;#;. Toa xe tự hành cũng không. Đầu máy cũng không.\nHoàn toàn không có chút yếu tố đường sắt nào."
 # 【ニイロク】
 # display as 二六
 # JP: 「学園も、[しょうわ,1]正和鉄道でも[いわくら,1]岩鞍でもない。\n鉄道員を養成してない」
-1796 = "「Ngôi trường này cũng không phải Đường sắt\nShowa hay trường Iwakura.\nKhông đào tạo nhân viên đường sắt.」"
-
+1796 = "「Ngôi trường này cũng không phải Đường sắt Showa hay trường Iwakura.\nKhông đào tạo nhân viên đường sắt.」"
 # monologue
 # JP: ページを先までめくってみても、やっぱりおなじ。\nシロおねえちゃんが、なんか勘違いしたのかも。
-2102 = "Lật tiếp mấy trang nữa, kết quả vẫn y như\nvậy.\nChắc là chị Shiro đã nhầm lẫn ở đâu đó\nrồi."
-
+2102 = "Lật tiếp mấy trang nữa, kết quả vẫn y như vậy.\nChắc là chị Shiro đã nhầm lẫn ở đâu đó rồi."
 # 【ニイロク】
 # display as 二六
 # JP: 「シロおねえちゃん？　いま届く？\n乗務中？？」
 1617 = "「Chị Shiro? Chị nghe thấy không?\nĐang làm nhiệm vụ à??」"
-
 # 【シロ】
 # display as 四六
 # JP: 「あらニイロクちゃん。大丈夫よ？\nいまは、お夕飯の支度中」
 1547 = "「Ôi bé Niiroku. Chị nghe đây?\nChị đang chuẩn bị bữa tối.」"
-
 # monologue
 # JP: よかった。シロおねえちゃん粉蔵にいた。\n共感、邪魔にならないみたい。
 2072 = "May quá. Chị Shiro đang ở Kokura.\nCộng cảm, có vẻ không làm phiền chị ấy."
-
 # 【シロ】
 # display as 四六
 # JP: 「どうしたの？\nまたお勉強のお悩みかしら？」
-1661 = "「Sao thế?\nLại có chuyện gì vướng mắc trong học tập\nà?」"
-
+1661 = "「Sao thế?\nLại có chuyện gì vướng mắc trong học tập à?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「そのこと。借りたマンガ。少女マンガのこと」
-1699 = "「Chuyện đó đấy. Quyển manga mượn của chị.\nQuyển shoujo manga ấy.」"
-
+1699 = "「Chuyện đó đấy. Quyển manga mượn của chị. Quyển shoujo manga ấy.」"
 # 【シロ】
 # display as 四六
 # JP: 「あらら、むつかしすぎた？」
 1545 = "「Chà chà, khó quá sao em?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「むつかしいも何も。勉強になるところがない。\n鉄道が出てこないし、学園生だって旗も振らない」
-1497 = "「Khó hay không khó gì chứ. Chẳng có chỗ\nnào để học hỏi cả.\nĐường sắt không thấy xuất hiện, học sinh\ntrong trường cũng chẳng vẫy cờ.」"
-
+1497 = "「Khó hay không khó gì chứ. Chẳng có chỗ nào để học hỏi cả.\nĐường sắt không thấy xuất hiện, học sinh trong trường cũng chẳng vẫy cờ.」"
 # 【シロ】
 # display as 四六
 # JP: 「あらあら」
 1541 = "「Chà chà.」"
-
 # monologue
 # JP: ケラケラと、シロおねえちゃんの笑いの共感。\n笑われる理由が不明。だから聞く。
-2274 = "Qua cộng cảm, tôi nghe thấy tiếng cười\nkhanh khách của chị Shiro.\nKhông rõ lý do tại sao chị ấy lại cười.\nNên tôi phải hỏi."
-
+2274 = "Qua cộng cảm, tôi nghe thấy tiếng cười khanh khách của chị Shiro.\nKhông rõ lý do tại sao chị ấy lại cười. Nên tôi phải hỏi."
 # 【ニイロク】
 # display as 二六
 # JP: 「なにがおかしいの？」
 1743 = "「Có gì buồn cười sao?」"
-
 # 【シロ】
 # display as 四六
 # JP: 「鉄道のこと教えられるマンガなんてなくない？\nあたしらレイルロオド相手にさ」
-1553 = "「Làm gì có cuốn manga nào dạy được kiến\nthức đường sắt cơ chứ?\nNhất là với những Railord như chúng ta.」"
-
+1553 = "「Làm gì có cuốn manga nào dạy được kiến thức đường sắt cơ chứ?\nNhất là với những Railord như chúng ta.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「あ。そうかも」
 1586 = "「A. Có lẽ vậy.」"
-
 # monologue
 # JP: 普段読む技術書とか仕様書とくらべると、\n情報密度、マンガ、かなり薄そう。
-2268 = "So với các sách kỹ thuật hay tài liệu đặc\ntả thường đọc,\nmật độ thông tin trong manga có vẻ khá\nmỏng."
-
+2268 = "So với các sách kỹ thuật hay tài liệu đặc tả thường đọc,\nmật độ thông tin trong manga có vẻ khá mỏng."
 # 【ニイロク】
 # display as 二六
 # JP: 「じゃあ、なんでシロおねえちゃんは」
 1860 = "「Vậy, tại sao chị Shiro lại...」"
-
 # 【シロ】
 # display as 四六
 # JP: 「ニイロクちゃんがあたしに一番相談してくること、\nなぁに？」
-1463 = "「Chuyện mà bé Niiroku hay hỏi ý kiến chị\nnhất,\nlà chuyện gì nào?」"
-
+1463 = "「Chuyện mà bé Niiroku hay hỏi ý kiến chị nhất,\nlà chuyện gì nào?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「決まってる。赤井運転士のこと。\n自分はもっと、赤井運転士とお話ししたい」
-1878 = "「Rõ ràng quá rồi. Chuyện của lái tàu Akai.\nEm muốn được nói chuyện nhiều hơn với lái\ntàu Akai.」"
-
+1878 = "「Rõ ràng quá rồi. Chuyện của lái tàu Akai.\nEm muốn được nói chuyện nhiều hơn với lái tàu Akai.」"
 # 【シロ】
 # display as 四六
 # JP: 「そうよね？　それじゃあ、シロおねえちゃんは、\nニイロクちゃんに何のお勉強させてあげたいかな？」
-1641 = "「Đúng không nào? Vậy thì, chị Shiro\nđang muốn bé Niiroku học hỏi điều gì đây\nnhỉ?」"
-
+1641 = "「Đúng không nào? Vậy thì, chị Shiro\nđang muốn bé Niiroku học hỏi điều gì đây nhỉ?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「は！\nわかった。と思う。このマンガには、きっと」
-1570 = "「A!\nEm hiểu rồi. Chắc vậy. Trong cuốn manga\nnày, chắc chắn có...」"
-
+1570 = "「A!\nEm hiểu rồi. Chắc vậy. Trong cuốn manga này, chắc chắn có...」"
 # monologue
 # JP: 回路をパチンと切り替える。\n鉄道のお勉強のためじゃなく。
 2135 = "Đóng ngắt mạch điện cái tách.\nKhông phải để học về đường sắt."
-
 # monologue
 # JP: 赤井運転士ともっと仲良くなるためのヒント。\nそれがもし、この中にこめられているなら――！
-2119 = "Những gợi ý để trở nên thân thiết hơn với\nlái tàu Akai.\nNếu như chúng được ẩn chứa trong cuốn sách\nnày――!"
-
+2119 = "Những gợi ý để trở nên thân thiết hơn với lái tàu Akai.\nNếu như chúng được ẩn chứa trong cuốn sách này――!"
 # 【ニイロク】
 # display as 二六
 # JP: 「わ――おお――おお――ふむ――ふむ」
 1536 = "「Oa——ồ——ồ——hừm——hừm.」"
-
 # 【シロ】
 # display as 四六
 # JP: 「わかったみたい？　ね。\nじゃ、がんばってね～」
 1761 = "「Có vẻ em hiểu rồi nhỉ?\nVậy, cố lên nha~」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あ、うん。ありがと、シロおねえちゃん。\n……えと、つづき――うん――うん――ほおぉ」
 1580 = "「A, vâng. Cảm ơn chị Shiro.\n......Ừm, phần tiếp theo——ừm——ừm——ồ.」"
-
 # monologue
 # JP: すごい。情報密度。濃い。\nすごい、マンガ。感動的によくわかる。
-2087 = "Tuyệt quá. Mật độ thông tin. Dày đặc.\nTuyệt quá, manga. Hiểu rõ đến mức cảm động\nluôn."
-
+2087 = "Tuyệt quá. Mật độ thông tin. Dày đặc.\nTuyệt quá, manga. Hiểu rõ đến mức cảm động luôn."
 # monologue
 # JP: 女の子と男の子。どういうふうに仲良くなるか。\n完璧すぎる。これこそ。マニュアル！
-2179 = "Con gái và con trai. Làm thế nào để trở\nnên thân thiết.\nQuá hoàn hảo. Đây chính là. Sổ tay hướng\ndẫn!"
-
+2179 = "Con gái và con trai. Làm thế nào để trở nên thân thiết.\nQuá hoàn hảo. Đây chính là. Sổ tay hướng dẫn!"
 # 【ニイロク】
 # display as 二六
 # JP: 「それに……わかった。\nわかった、気が、する」
 1788 = "「Hơn nữa...... em hiểu rồi.\nCó cảm giác, là đã hiểu rồi.」"
-
 # monologue
 # JP: 赤井運転士のことをもっと知りたい。\nもっとどんどん仲良くなりたい、この感情。
-2150 = "Muốn biết nhiều hơn về lái tàu Akai.\nMuốn ngày càng trở nên thân thiết hơn, thứ\ncảm xúc này."
-
+2150 = "Muốn biết nhiều hơn về lái tàu Akai.\nMuốn ngày càng trở nên thân thiết hơn, thứ cảm xúc này."
 # monologue
 # JP: この感情がなんて名前か、\n自分は、わかったような気がする。
 2176 = "Thứ cảm xúc này mang tên là gì,\ntôi có cảm giác mình đã hiểu ra rồi."
-
 # 【ニイロク】
 # display as 二六
 # JP: 「けど――」
 1515 = "「Nhưng mà——」"
-
 # monologue
 # JP: 本当にそうか、自信がもてない。\n最新鋭機の自分がもしも、勘違いしたら恥ずかしい。
-2127 = "Tôi không tự tin, liệu có thực sự là vậy\nkhông.\nNếu cỗ máy hiện đại nhất là tôi mà lại\nhiểu nhầm thì xấu hổ lắm."
-
+2127 = "Tôi không tự tin, liệu có thực sự là vậy không.\nNếu cỗ máy hiện đại nhất là tôi mà lại hiểu nhầm thì xấu hổ lắm."
 # monologue
 # JP: もっと多面的に情報を得て、整理して、\n第三者レビューももらうのがいい。
-2278 = "Tốt nhất là nên thu thập thông tin đa\nchiều hơn, tổng hợp lại,\nvà nhờ bên thứ ba đánh giá."
-
+2278 = "Tốt nhất là nên thu thập thông tin đa chiều hơn, tổng hợp lại,\nvà nhờ bên thứ ba đánh giá."
 # 【ニイロク】
 # display as 二六
 # JP: 「うん」
 1600 = "「Ừm.」"
-
 # monologue
 # JP: もやもやしてたのが、ちょっと変わる。\nなくなったんじゃなくって、もっと膨らんで。
-2038 = "Cảm giác bứt rứt trong lòng, đã có chút\nthay đổi.\nKhông phải là biến mất, mà là phình to\nhơn."
-
+2038 = "Cảm giác bứt rứt trong lòng, đã có chút thay đổi.\nKhông phải là biến mất, mà là phình to hơn."
 # monologue
 # JP: 膨らんで――そう。\nもやもやじゃなくて、ふわふわになってる。
-2098 = "Phình to hơn——đúng vậy.\nKhông còn là bứt rứt nữa, mà trở nên lâng\nlâng."
-
+2098 = "Phình to hơn——đúng vậy.\nKhông còn là bứt rứt nữa, mà trở nên lâng lâng."
 # 【ニイロク】
 # display as 二六
 # JP: 「うん。うん。……うふふふふふ」
 1592 = "「Ừm. Ừm. ......Ư fufufufu.」"
-
 # monologue
 # JP: 楽しい。幸せ。\nわからないものがわかるの、楽しい。
-2094 = "Vui quá. Hạnh phúc quá.\nHiểu được những điều mình chưa biết, thật\nlà vui."
-
+2094 = "Vui quá. Hạnh phúc quá.\nHiểu được những điều mình chưa biết, thật là vui."
 # monologue
 # JP: わかってないかもしれないけれど、\n間違いだったら、恥ずかしいけど、それも楽しい。
-2284 = "Dù có thể tôi vẫn chưa hiểu rõ,\ndù có nhầm lẫn thì sẽ rất xấu hổ, nhưng\nthế cũng vui."
-
+2284 = "Dù có thể tôi vẫn chưa hiểu rõ,\ndù có nhầm lẫn thì sẽ rất xấu hổ, nhưng thế cũng vui."
 # 【ニイロク】
 # display as 二六
 # JP: 「恋。――恋！」
 1672 = "「Tình yêu. ——Tình yêu!」"
-
 # monologue
 # JP: 恋かどうかを確かめる。まずはそこから。
-2302 = "Xác nhận xem đó có phải là tình yêu hay\nkhông. Trước tiên bắt đầu từ đó."
-
+2302 = "Xác nhận xem đó có phải là tình yêu hay không. Trước tiên bắt đầu từ đó."
 # monologue
 # JP: そのための方法だったら、\nこの中に、きっとたくさん詰まってる。
-2232 = "Nếu là phương pháp để làm điều đó,\nthì trong cuốn sách này, chắc chắn có chứa\nrất nhiều."
-
+2232 = "Nếu là phương pháp để làm điều đó,\nthì trong cuốn sách này, chắc chắn có chứa rất nhiều."
 # 【ニイロク】
 # display as 二六
 # JP: 「読みなおす。今度はちゃんと\nレジュメ作成しながら、読む」
 1689 = "「Đọc lại thôi. Lần này phải đàng hoàng\nvừa lập dàn ý, vừa đọc.」"
-
 # monologue
 # JP: 一ページだって、一コマだって無駄にしない。\n全部のセリフを、全ての行動を暗記する。
-2128 = "Dù chỉ một trang, hay một khung hình cũng\nkhông được bỏ lỡ.\nPhải học thuộc lòng toàn bộ lời thoại,\ntoàn bộ hành động."
-
+2128 = "Dù chỉ một trang, hay một khung hình cũng không được bỏ lỡ.\nPhải học thuộc lòng toàn bộ lời thoại, toàn bộ hành động."
 # monologue
 # JP: それから可能な限り多数回の実践をして、\n分散分析して、必要があれば多重比較。
-2207 = "Sau đó thực hành nhiều lần nhất có thể,\nphân tích phương sai, nếu cần thiết thì so\nsánh đa chiều."
-
+2207 = "Sau đó thực hành nhiều lần nhất có thể,\nphân tích phương sai, nếu cần thiết thì so sánh đa chiều."
 # 【ニイロク】
 # display as 二六
 # JP: 「そうしたら、シロ姉にもレビューしてもらう。\nそれで、恋かどうかを適正に解釈できる……うん！」
-1747 = "「Sau đó, nhờ chị Shiro đánh giá giúp.\nNhư vậy, sẽ có thể giải thích chính xác\nxem đó có phải là tình yêu hay không......\nừm!」"
-
+1747 = "「Sau đó, nhờ chị Shiro đánh giá giúp.\nNhư vậy, sẽ có thể giải thích chính xác xem đó có phải là tình yêu hay không...... ừm!」"
 # monologue
 # JP: 決めたら、するだけ。自分だったら、必ず出来る。\n最新鋭で最優秀。帝鉄史上最高スペックなんだから。
-2171 = "Đã quyết định rồi thì cứ làm thôi. Nếu là\ntôi, chắc chắn sẽ làm được.\nLà hiện đại nhất, xuất sắc nhất. Sở hữu\nthông số kỹ thuật cao nhất trong lịch sử\nĐường sắt Hoàng gia cơ mà."
-
+2171 = "Đã quyết định rồi thì cứ làm thôi. Nếu là tôi, chắc chắn sẽ làm được.\nLà hiện đại nhất, xuất sắc nhất. Sở hữu thông số kỹ thuật cao nhất trong lịch sử Đường sắt Hoàng gia cơ mà."
 # 【ニイロク】
 # display as 二六
 # JP: 「買い物リスト。焼きたてのトースト。\nどこで売ってる？　……ね！　シロおねえちゃん？」
-1825 = "「Danh sách mua sắm. Bánh mì nướng mới ra\nlò.\nBán ở đâu nhỉ? ......Nè! Chị Shiro?」"
-
+1825 = "「Danh sách mua sắm. Bánh mì nướng mới ra lò.\nBán ở đâu nhỉ? ......Nè! Chị Shiro?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「トースト焦げ、良し。寝癖、良し。ブラシ、良し」
-1521 = "「Độ cháy của bánh mì, tốt. Tóc vểnh, tốt.\nLược chải, tốt.」"
-
+1521 = "「Độ cháy của bánh mì, tốt. Tóc vểnh, tốt. Lược chải, tốt.」"
 # monologue
 # JP: \x%l指差喚呼;#00ffc040;指差喚呼%l;#;。\n手順もきっちり確認しなおす。
 50 = "\\x%l指差喚呼;#00ffc040;Chỉ tay hô xác nhận%l;#;.\nQuy trình cũng phải kiểm tra lại cẩn thận."
-
 # 【ニイロク】
 # display as 二六
 # JP: 「焦げたトーストくわえる。ブラシ寝ぐせ直す。\n曲がり角、ぶつかる。そのあと、再会」
-1520 = "「Ngậm miếng bánh mì nướng hơi cháy. Dùng\nlược chải lại mái tóc vểnh.\nGóc rẽ, va chạm. Sau đó, hội ngộ.」"
-
+1520 = "「Ngậm miếng bánh mì nướng hơi cháy. Dùng lược chải lại mái tóc vểnh.\nGóc rẽ, va chạm. Sau đó, hội ngộ.」"
 # monologue
 # JP: うん、完璧。\nけど……一点だけ、自分のスペックでは無理だった。
-2053 = "Ừm, hoàn hảo.\nNhưng...... có một điểm duy nhất, với\nthông số kỹ thuật của tôi thì không thể\nlàm được."
-
+2053 = "Ừm, hoàn hảo.\nNhưng...... có một điểm duy nhất, với thông số kỹ thuật của tôi thì không thể làm được."
 # monologue
 # JP: いや、諦めるのよくない。\nギリギリまで、粘ってみるべき。
 2018 = "Không, bỏ cuộc là không tốt.\nNên kiên trì thử cho đến phút cuối cùng."
-
 # 【ニイロク】
 # display as 二六
 # JP: 「ひっへはーひ！　ひほふひほふっ！」
 1526 = "「Hí ha hi! Hi ho hu hi ho hu!」"
-
 # monologue
 # JP: ……やはり。無理。
 1153 = "......Quả nhiên. Là không thể."
-
 # monologue
 # JP: トーストを口にくわえたままだと、\n『いっけーない！　遅刻遅刻っ』って、言えない。
-2047 = "Nếu cứ ngậm bánh mì trong miệng,\nthì không thể nói 'Chết rồi! Trễ mất trễ\nmất' được."
-
+2047 = "Nếu cứ ngậm bánh mì trong miệng,\nthì không thể nói 'Chết rồi! Trễ mất trễ mất' được."
 # 【ニイロク】
 # display as 二六
 # JP: 「でも、マンガではやってる。\n絶対、解決方法はあるはず……」
-1452 = "「Nhưng, trong manga vẫn làm được mà.\nChắc chắn, phải có cách giải quyết\nchứ......」"
-
+1452 = "「Nhưng, trong manga vẫn làm được mà.\nChắc chắn, phải có cách giải quyết chứ......」"
 # 【ニイロク】
 # display as 二六
 # JP: 「仮説をたてて検証する。いつものルーチン。\n大丈夫。自分のスペックなら必ず矛盾を解消できる」
-1872 = "「Lập giả thuyết và kiểm chứng. Vẫn là quy\ntrình thường ngày.\nKhông sao. Với thông số kỹ thuật của mình,\nnhất định có thể giải quyết được mâu thuẫn\nnày.」"
-
+1872 = "「Lập giả thuyết và kiểm chứng. Vẫn là quy trình thường ngày.\nKhông sao. Với thông số kỹ thuật của mình, nhất định có thể giải quyết được mâu thuẫn này.」"
 # 【赤井】
 # display as 赤井
 # JP: 「おや、ニイロクさんおはようござ――おっと、\n[かんがえごと,3]演算処理の最中でしたか」
-1579 = "「Ô, chào buổi sáng Niiroku――Ái chà,\ncô đang trong quá trình xử lý tính toán\nsao.」"
-
+1579 = "「Ô, chào buổi sáng Niiroku――Ái chà,\ncô đang trong quá trình xử lý tính toán sao.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「仮説16。鼻と上唇の間でパンを保持している。\n[リジェクト,3]仮説却下。ビジュアル的に恋が芽生えなくなる」
-1498 = "「Giả thuyết 16. Giữ bánh mì giữa mũi và\nmôi trên.\nBác bỏ giả thuyết. Về mặt hình ảnh sẽ làm\nmất đi cảm giác nảy nở tình yêu.」"
-
+1498 = "「Giả thuyết 16. Giữ bánh mì giữa mũi và môi trên.\nBác bỏ giả thuyết. Về mặt hình ảnh sẽ làm mất đi cảm giác nảy nở tình yêu.」"
 # 【赤井】
 # display as 赤井
 # JP: 「……お邪魔をしては悪そうですね。\nそれではニイロクさん、またのちほど」
-1205 = "「......Có vẻ như tôi đang làm phiền cô\nrồi.\nVậy thì Niiroku, hẹn gặp lại sau nhé.」"
-
+1205 = "「......Có vẻ như tôi đang làm phiền cô rồi.\nVậy thì Niiroku, hẹn gặp lại sau nhé.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「仮説31。[リジェクト,1]却下。仮説32。却下。仮説33――\nじゃない！　時間。赤井運転士が来ちゃう」
-1499 = "「Giả thuyết 31. Bác bỏ. Giả thuyết 32. Bác\nbỏ. Giả thuyết 33――\nKhông phải! Thời gian. Lái tàu Akai sắp\nđến rồi.」"
-
+1499 = "「Giả thuyết 31. Bác bỏ. Giả thuyết 32. Bác bỏ. Giả thuyết 33――\nKhông phải! Thời gian. Lái tàu Akai sắp đến rồi.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「来た！？　はわわ！　あ、すごい、マンガの通り。\nじゃなくて――はむっ！　ん！　ひははひゃ！」
-1770 = "「Đến rồi!? Hawawa! A, tuyệt quá, y như\ntrong manga.\nKhông phải――ngoạm! Ưm! Hi ha ha hya!」"
-
+1770 = "「Đến rồi!? Hawawa! A, tuyệt quá, y như trong manga.\nKhông phải――ngoạm! Ưm! Hi ha ha hya!」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ひっへはーひ！　ひほふひほふっ！！」
 1527 = "「Hí ha hi! Hi ho hu hi ho hu!!」"
-
 # 【電車区長】
 # display as ？？？
 # JP: 「うおっ！！？」
 1557 = "「U oá!!?」"
-
 # monologue
 # JP: （どっし～～ん！！）
 2332 = "（Rầm!!）"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「『きゃっ！？』」
 1213 = "「『Á!?』」"
-
 # 【電車区長】
 # display as ？？？
 # JP: 「イテテテ――おお、大丈夫と？」
 1634 = "「Ui da――ồ, cô không sao chứ?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「『だ、大丈夫ですっ』――って？　え？　\n――“と”？」
 1166 = "「『Tôi, tôi không sao』――hả? Hả?\n――'Chứ'?」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「ニイロクと？\nご自慢のセンサーば、どぎゃんした？」
-1467 = "「Niiroku hả?\nCái cảm biến đáng tự hào của cô, bị sao\nvậy?」"
-
+1467 = "「Niiroku hả?\nCái cảm biến đáng tự hào của cô, bị sao vậy?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「電車区長！？\nなんで！？　なんで電車区長！？」
-1900 = "「Đoạn trưởng xe điện!?\nTại sao!? Tại sao lại là Đoạn trưởng xe\nđiện!?」"
-
+1900 = "「Đoạn trưởng xe điện!?\nTại sao!? Tại sao lại là Đoạn trưởng xe điện!?」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「なんでもかんでも、出会い頭やけん――ん？\nなぁんでこぎゃんとこに焦げたトーストば？」
-1659 = "「Chuyện gì ra chuyện đó, đâm sầm vào nhau\nthì――hửm?\nSao ở chỗ này lại có miếng bánh mì nướng\ncháy thế kia?」"
-
+1659 = "「Chuyện gì ra chuyện đó, đâm sầm vào nhau thì――hửm?\nSao ở chỗ này lại có miếng bánh mì nướng cháy thế kia?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「な、な、なんでもない！　乗務。試験。\nあの。自分。乗務。いく。ます。失礼っ」
-1726 = "「Kh-Kh-Không có gì! Nhiệm vụ. Thử nghiệm.\nCái đó. Tôi. Đi. Làm. Nhiệm vụ đây. Xin\nphép.」"
-
+1726 = "「Kh-Kh-Không có gì! Nhiệm vụ. Thử nghiệm.\nCái đó. Tôi. Đi. Làm. Nhiệm vụ đây. Xin phép.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「最新鋭機がおかしか挙動ば、冗談にもならん――\nああ、いや……ま、同じことかの……」
-1802 = "「Cỗ máy hiện đại nhất mà có hành động kỳ\nlạ thì không phải chuyện đùa đâu――\nA, không...... chà, chắc cũng giống nhau\nthôi......」"
-
+1802 = "「Cỗ máy hiện đại nhất mà có hành động kỳ lạ thì không phải chuyện đùa đâu――\nA, không...... chà, chắc cũng giống nhau thôi......」"
 # 【ニイロク】
 # display as 二六
 # JP: 「……こないだのは、失敗に含まれない。\nなぜなら、『自分と赤井運転士はもう出会ってる』」
-1182 = "「......Lần trước, không được tính là thất\nbại.\nBởi vì, 'Tôi và lái tàu Akai đã gặp nhau\nrồi'.」"
-
+1182 = "「......Lần trước, không được tính là thất bại.\nBởi vì, 'Tôi và lái tàu Akai đã gặp nhau rồi'.」"
 # monologue
 # JP: 前提条件が間違ってたから、\n適切ではない結果が返った。それだけのこと。
-2170 = "Vì điều kiện tiền đề đã sai,\nnên kết quả trả về không phù hợp. Chỉ vậy\nthôi."
-
+2170 = "Vì điều kiện tiền đề đã sai,\nnên kết quả trả về không phù hợp. Chỉ vậy thôi."
 # 【ニイロク】
 # display as 二六
 # JP: 「必要なのは、『出会ってからの好感度アップ』。\nそのための最適解は、『フリースロー』」
-1749 = "「Điều cần thiết là 'Tăng độ hảo cảm sau\nkhi gặp mặt'.\nGiải pháp tối ưu cho việc đó là 'Ném\nphạt'.」"
-
+1749 = "「Điều cần thiết là 'Tăng độ hảo cảm sau khi gặp mặt'.\nGiải pháp tối ưu cho việc đó là 'Ném phạt'.」"
 # monologue
 # JP: 第一印象は最悪のアイツ。\nけど、放課後の体育館で一人で秘密の特訓。
-2205 = "Ấn tượng đầu tiên về hắn ta cực kỳ tồi tệ.\nNhưng, hắn lại bí mật tập luyện một mình\ntrong nhà thể chất sau giờ học."
-
+2205 = "Ấn tượng đầu tiên về hắn ta cực kỳ tồi tệ.\nNhưng, hắn lại bí mật tập luyện một mình trong nhà thể chất sau giờ học."
 # monologue
 # JP: 信じられないようなフリースローが鮮やかに決まって\nヒロインの胸がきゅん！　ってなる。
-2214 = "Cú ném phạt đẹp mắt đến khó tin đã ghi bàn\nkhiến trái tim nữ chính rung động! Là vậy\nđó."
-
+2214 = "Cú ném phạt đẹp mắt đến khó tin đã ghi bàn\nkhiến trái tim nữ chính rung động! Là vậy đó."
 # 【ニイロク】
 # display as 二六
 # JP: 「男女を入換え、自分がフリースローする。\n赤井運転士の胸がきゅん！　好感度は確実に上昇」
-1855 = "「Hoán đổi nam nữ, mình sẽ là người ném\nphạt.\nTrái tim lái tàu Akai sẽ rung động! Độ hảo\ncảm chắc chắn sẽ tăng.」"
-
+1855 = "「Hoán đổi nam nữ, mình sẽ là người ném phạt.\nTrái tim lái tàu Akai sẽ rung động! Độ hảo cảm chắc chắn sẽ tăng.」"
 # monologue
 # JP: 計算はこれで間違いないし、\nそのための特訓も十分にした。
 2249 = "Tính toán như vậy là không sai,\nmình cũng đã tập luyện đủ cho việc đó rồi."
-
 # monologue
 # JP: あとは、終業時間をまって……\nさん、にぃ、いち――よし！
 2167 = "Việc còn lại là đợi đến giờ tan làm......\nBa, hai, một――được rồi!"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あの、赤井運転士！」
 1808 = "「Cái đó, lái tàu Akai!」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「ああ、ニイロクさん。お疲れ様です」
 1577 = "「A, Niiroku. Cô vất vả rồi.」"
-
 # monologue
 # JP: やった！　やっぱり、いつもと同じ缶のお茶。\n同じ空き缶で特訓をした。だから、絶対大丈夫。
-2337 = "Thành công rồi! Quả nhiên là lon trà giống\nnhư mọi khi.\nMình đã tập luyện với chiếc lon rỗng y\nhệt. Nên chắc chắn sẽ ổn thôi."
-
+2337 = "Thành công rồi! Quả nhiên là lon trà giống như mọi khi.\nMình đã tập luyện với chiếc lon rỗng y hệt. Nên chắc chắn sẽ ổn thôi."
 # 【ニイロク】
 # display as 二六
 # JP: 「缶。それ、捨てる？」
 1867 = "「Cái lon. Anh, vứt đi sao?」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「はい。飲み終わってますからね」
 1594 = "「Đúng vậy. Vì tôi uống xong rồi.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「なら、貸して」
 1881 = "「Vậy, cho tôi mượn.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「構いませんが――え？」
 1785 = "「Cũng được thôi nhưng――hả?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「見てて」
 1489 = "「Nhìn nhé.」"
-
 # monologue
 # JP: 弾道計算。\n全ての演算機器の原点。
 2157 = "Tính toán đường đạn.\nKhởi điểm của mọi thiết bị tính toán."
-
 # monologue
 # JP: 計算を実践するだけの高度な身体機能も、\n最新鋭で最高性能の自分には備わってる――から！
-2229 = "Chức năng cơ thể ở mức độ cao đủ để thực\nhành tính toán,\nbản thân tôi, một cỗ máy hiện đại nhất và\ncó hiệu suất cao nhất, cũng được trang\nbị――đầy đủ!"
-
+2229 = "Chức năng cơ thể ở mức độ cao đủ để thực hành tính toán,\nbản thân tôi, một cỗ máy hiện đại nhất và có hiệu suất cao nhất, cũng được trang bị――đầy đủ!"
 # monologue
 # JP: （しゅっ！）
 2328 = "（Vút!）"
-
 # 【赤井】
 # display as 赤井
 # JP: 「おお！」
 1612 = "「Ồ!」"
-
 # monologue
 # JP: （カコん！　カラ……ん！）
 2324 = "（Cộc! Leng... keng!）"
-
 # 【赤井】
 # display as 赤井
 # JP: 「いやいや、これはお見事ですね」
 1540 = "「Chà chà, thật là đẹp mắt.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「それほどでも――！！？」
 1856 = "「Cũng bình thường th――!!?」"
-
 # 【電車区長】
 # display as ？？？
 # JP: 「よっ！」
 1588 = "「Dô!」"
-
 # monologue
 # JP: （シュルルルル！　カコンっ！！！）
 2327 = "（Vù u u u! Cộc!!!）"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「なっ！？　あんな遠くから！！？」
 1780 = "「Cái gì!? Từ khoảng cách xa như vậy!!?」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「空き缶スローば、若いもんには負けられんたい」
-1813 = "「Ném lon rỗng thì, tôi không thể thua mấy\nngười trẻ được.」"
-
+1813 = "「Ném lon rỗng thì, tôi không thể thua mấy người trẻ được.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「む――自分も、その距離くらい。なんてことない」
-1556 = "「Hứ――khoảng cách đó, tôi cũng làm được.\nChẳng có gì to tát.」"
-
+1556 = "「Hứ――khoảng cách đó, tôi cũng làm được. Chẳng có gì to tát.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「ははぁん？　良かたい！\n空き缶残らずもって[こ]来ぉ！」
 1604 = "「Hả? Được thôi!\nMang hết lon rỗng ra đây!」"
-
 # 【技工Ａ】
 # display as 技工Ａ
 # JP: 「おお！　電車区長とニイロクばやりあうと！？」
-1614 = "「Ồ! Đoạn trưởng xe điện và Niiroku định so\ntài sao!?」"
-
+1614 = "「Ồ! Đoạn trưởng xe điện và Niiroku định so tài sao!?」"
 # 【技工Ｂ】
 # display as 技工Ｂ
 # JP: 「空き缶スローのレジェンドと\n最新鋭の特急系電車レイルロオドの一騎打ちばい！」
-1694 = "「Cuộc đối đầu giữa huyền thoại ném lon\nrỗng\nvà Railord tàu điện tốc hành hiện đại\nnhất!」"
-
+1694 = "「Cuộc đối đầu giữa huyền thoại ném lon rỗng\nvà Railord tàu điện tốc hành hiện đại nhất!」"
 # 【ニイロク】
 # display as 二六
 # JP: 「んっ！」
 1601 = "「Hứ!」"
-
 # monologue
 # JP: （カコンっ！）
 2320 = "（Cộc!）"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「ほいさっ！」
 1608 = "「Hây a!」"
-
 # monologue
 # JP: （スコンっ！）
 # 2320 = "（咣當！）" 
-
 # 【ニイロク】
 # display as 二六
 # JP: 「やっ！」
 1523 = "「Ây!」"
-
 # monologue
 # JP: （カコンっ！）
 # 2320 = "（咣當！）" 
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「こらさっ！」
 1609 = "「Dô ta!」"
-
 # monologue
 # JP: （スコンっ！）
 # 2320 = "（咣當！）" 
-
 # 【赤井】
 # display as 赤井
 # JP: 「これは長引きそうですね……\nすみません、お先に失礼しますね」
 1762 = "「Có vẻ chuyện này sẽ kéo dài đây......\nXin lỗi, tôi xin phép đi trước nhé.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「しつこい――っ！」
 1635 = "「Dai dẳng quá――!」"
-
 # monologue
 # JP: （カコンッ）
 2321 = "（Cộc）"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「どっこいしょ！」
 1554 = "「Hây dô!」"
-
 # monologue
 # JP: （スコンッ！）
 # 2320 = "（咣當！）" 
-
 # 【技工Ａ】
 # display as 技工Ａ
 # JP: 「ふたりとも９本連続！　\nしかも全部がセンターインでの成功ったい！」
 1474 = "「Cả hai đều trúng 9 lần liên tiếp!\nHơn nữa tất cả đều trúng ngay giữa tâm!」"
-
 # 【技工Ｂ】
 # display as 技工Ｂ
 # JP: 「こらぁ決着、つかんかもしれんね」
-1849 = "「Thế này thì không biết bao giờ mới phân\nthắng bại được đây.」"
-
+1849 = "「Thế này thì không biết bao giờ mới phân thắng bại được đây.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「つける。決着。――電車区長。次のワンスロー。\n自分は、全部のセンサーを切る。から」
-1506 = "「Phân. Thắng bại. ――Đoạn trưởng xe điện.\nCú ném tiếp theo.\nTôi, sẽ tắt toàn bộ cảm biến. Của mình.」"
-
+1506 = "「Phân. Thắng bại. ――Đoạn trưởng xe điện. Cú ném tiếp theo.\nTôi, sẽ tắt toàn bộ cảm biến. Của mình.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「よかったい！　ワシは目隠しで投げっとよ」
 1630 = "「Được thôi! Vậy tôi sẽ bịt mắt ném.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「ん」
 # 1600 = "「嗯」" 
-
 # monologue
 # JP: 手を伸ばす。缶を受け取る――受け取れてるはず。\n触感・重量センサーもオフにしてるけど、大丈夫。
-2131 = "Đưa tay ra. Nhận lấy cái lon――chắc là nhận\nđược rồi.\nDù đã tắt cảm biến xúc giác và trọng\nlượng, nhưng không sao."
-
+2131 = "Đưa tay ra. Nhận lấy cái lon――chắc là nhận được rồi.\nDù đã tắt cảm biến xúc giác và trọng lượng, nhưng không sao."
 # monologue
 # JP: 今までの９本と、変わらぬ挙動。\n落ち着いて、それをトレースすればいいだけ。
-2035 = "Hành động giống hệt như 9 lần trước.\nChỉ cần bình tĩnh và lặp lại y như vậy là\nđược."
-
+2035 = "Hành động giống hệt như 9 lần trước.\nChỉ cần bình tĩnh và lặp lại y như vậy là được."
 # monologue
 # JP: （シュッ――）
 2325 = "（Vút――）"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「えっ！？」
 1531 = "「Hả!?」"
-
 # monologue
 # JP: （ガッ！　カツン！！　コロコロコロコロ）
 2322 = "（Cộc! Cạch!! Lăn lăn lăn lăn）"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「ウソ！？　外したっ！！？」
 1904 = "「Không thể nào!? Trượt rồi!!?」"
-
 # monologue
 # JP: （カコンっ！！！）
 2319 = "（Cộc!!!）"
-
 # 【技工Ａ】
 # display as 技工Ａ
 # JP: 「凄かっ！　さすがはレジェンドばい！！！」
-1767 = "「Tuyệt quá! Quả không hổ danh là huyền\nthoại!!!」"
-
+1767 = "「Tuyệt quá! Quả không hổ danh là huyền thoại!!!」"
 # 【技工Ｂ】
 # display as 技工Ｂ
 # JP: 「けど、ニイロクも惜しかったとよー」
-1459 = "「Nhưng mà, Niiroku cũng suýt nữa thì được\nrồi——」"
-
+1459 = "「Nhưng mà, Niiroku cũng suýt nữa thì được rồi——」"
 # 【ニイロク】
 # display as 二六
 # JP: 「っ！！」
 1560 = "「Ư!!」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あ」
 1564 = "「A.」"
-
 # monologue
 # JP: ……床の上。転がってるのはスチール缶。\nいままでの、全部アルミ缶だったのに。
-1156 = "......Trên sàn nhà. Cái đang lăn lóc kia\nlà một lon thép.\nTrong khi từ nãy đến giờ, toàn bộ đều là\nlon nhôm."
-
+1156 = "......Trên sàn nhà. Cái đang lăn lóc kia là một lon thép.\nTrong khi từ nãy đến giờ, toàn bộ đều là lon nhôm."
 # 【電車区長】
 # display as 電車段長
 # JP: 「さすがは最新鋭特急系電車レイルロオドたい。\nここまで食い下がった相手は、初めてとよ」
-1769 = "「Quả không hổ danh là Railord tàu điện tốc\nhành hiện đại nhất.\nNgười bám đuổi được đến mức này, cô là\nngười đầu tiên đấy.」"
-
+1769 = "「Quả không hổ danh là Railord tàu điện tốc hành hiện đại nhất.\nNgười bám đuổi được đến mức này, cô là người đầu tiên đấy.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「――さすが、電車区長。\nこの粉蔵工場の、実質的な最高責任者」
-1161 = "「――Quả không hổ danh, Đoạn trưởng xe điện.\nNgười chịu trách nhiệm cao nhất trên thực\ntế của nhà máy Kokura này.」"
-
+1161 = "「――Quả không hổ danh, Đoạn trưởng xe điện.\nNgười chịu trách nhiệm cao nhất trên thực tế của nhà máy Kokura này.」"
 # monologue
 # JP: 電車区長の目隠し。分厚い。\n外さないままでも、自分の方を正確に向いてる。
-2299 = "Bịt mắt của Đoạn trưởng xe điện. Rất dày.\nDù không tháo ra, ông ấy vẫn hướng mặt\nchính xác về phía mình."
-
+2299 = "Bịt mắt của Đoạn trưởng xe điện. Rất dày.\nDù không tháo ra, ông ấy vẫn hướng mặt chính xác về phía mình."
 # monologue
 # JP: 電車区長の缶は、そういえばバラバラだった。\nみんなから集めた缶を、順番に渡してただけだから。
-2228 = "Nhắc mới nhớ, những chiếc lon của Đoạn\ntrưởng xe điện rất lộn xộn.\nBởi vì ông ấy chỉ nhận lần lượt những\nchiếc lon được thu thập từ mọi người."
-
+2228 = "Nhắc mới nhớ, những chiếc lon của Đoạn trưởng xe điện rất lộn xộn.\nBởi vì ông ấy chỉ nhận lần lượt những chiếc lon được thu thập từ mọi người."
 # 【ニイロク】
 # display as 二六
 # JP: 「確率が極端に偏差していた。\n自分は、その極端な偏差を正常値と誤認した」
-1718 = "「Xác suất đã có sự sai lệch cực độ.\nTôi đã nhận định nhầm sự sai lệch cực độ\nđó là giá trị bình thường.」"
-
+1718 = "「Xác suất đã có sự sai lệch cực độ.\nTôi đã nhận định nhầm sự sai lệch cực độ đó là giá trị bình thường.」"
 # monologue
 # JP: 失敗の理由は、ひどく単純。\nしかも相手は電車区長。人間だから、疲労する。
-2075 = "Lý do thất bại, cực kỳ đơn giản.\nHơn nữa đối thủ lại là Đoạn trưởng xe\nđiện. Là con người, nên sẽ mệt mỏi."
-
+2075 = "Lý do thất bại, cực kỳ đơn giản.\nHơn nữa đối thủ lại là Đoạn trưởng xe điện. Là con người, nên sẽ mệt mỏi."
 # monologue
 # JP: ――自分が成功し続けていれば、いつかは勝てた。\nなのに、負けた。勝負を焦って、慢心した。
-1143 = "――Nếu mình cứ tiếp tục thành công, kiểu gì\ncũng sẽ thắng.\nVậy mà, mình lại thua. Vì nôn nóng phân\nthắng bại, vì quá tự mãn."
-
+1143 = "――Nếu mình cứ tiếp tục thành công, kiểu gì cũng sẽ thắng.\nVậy mà, mình lại thua. Vì nôn nóng phân thắng bại, vì quá tự mãn."
 # 【ニイロク】
 # display as 二六
 # JP: 「恥ずかしい。赤井運転士がどう思ったか――！？」
-1631 = "「Xấu hổ quá. Lái tàu Akai sẽ nghĩ sao\nđây――!?」"
-
+1631 = "「Xấu hổ quá. Lái tàu Akai sẽ nghĩ sao đây――!?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「いない！？　なんでっ！？」
 1441 = "「Không có ở đây!? Tại sao!?」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「うおっ！？　なんばっ！？」
 1559 = "「U oá!? Gì vậy!?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「赤井運転士！　赤井運転士、どうしていないの？」
-1834 = "「Lái tàu Akai! Lái tàu Akai, tại sao lại\nkhông có ở đây?」"
-
+1834 = "「Lái tàu Akai! Lái tàu Akai, tại sao lại không có ở đây?」"
 # 【技工Ａ】
 # display as 技工Ａ
 # JP: 「赤井？　やったら……のぉ」
 1840 = "「Akai? Nếu vậy thì......」"
-
 # 【技工Ｂ】
 # display as 技工Ｂ
 # JP: 「赤井さんば、最初の方にこっそり帰っていったとよ。\n勝負の邪魔ばせんよーにって感じで」
-1832 = "「Anh Akai, đã lẳng lặng đi về từ lúc mới\nbắt đầu rồi.\nChắc là không muốn làm phiền trận đấu\nđấy.」"
-
+1832 = "「Anh Akai, đã lẳng lặng đi về từ lúc mới bắt đầu rồi.\nChắc là không muốn làm phiền trận đấu đấy.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「帰った！？　最初の方に！？　見てなかったの？\nそれじゃあ――それじゃあ意味ないしっ！」
-1621 = "「Đi về rồi!? Từ lúc mới bắt đầu!? Anh ấy\nkhông xem sao?\nNếu vậy thì――nếu vậy thì còn ý nghĩa gì\nnữa chứ!」"
-
+1621 = "「Đi về rồi!? Từ lúc mới bắt đầu!? Anh ấy không xem sao?\nNếu vậy thì――nếu vậy thì còn ý nghĩa gì nữa chứ!」"
 # monologue
 # JP: っていうかこれ、途中からスポ根になっちゃってた。\n自分は、ラブコメしたいのに！
-2254 = "Nói đúng hơn là, từ giữa chừng nó đã biến\nthành manga thể thao nhiệt huyết mất rồi.\nTrong khi mình, lại muốn diễn một bộ hài\nkịch lãng mạn cơ mà!"
-
+2254 = "Nói đúng hơn là, từ giữa chừng nó đã biến thành manga thể thao nhiệt huyết mất rồi.\nTrong khi mình, lại muốn diễn một bộ hài kịch lãng mạn cơ mà!"
 # 【ニイロク】
 # display as 二六
 # JP: 「ああああああ～」
 1567 = "「A a a a a a~」"
-
 # 【技工Ａ】
 # display as 技工Ａ
 # JP: 「なっ！？　泣きよったと！？」
 1576 = "「Gì cơ!? Cô ấy khóc rồi!?」"
-
 # 【技工Ｂ】
 # display as 技工Ｂ
 # JP: 「どぎゃんしたとよ？\n動作不良じゃったらエラいこと」
 1852 = "「Sao vậy?\nNếu là trục trặc thì rắc rối to đấy.」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「よか」
 1800 = "「Thôi.」"
-
 # 【技工Ａ】
 # display as 技工Ａ
 # JP: 「区長？」
 1719 = "「Đoạn trưởng?」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「よかたい。理由ば、ちゃあんとあって\n嘆いとるだけのことやけんのう」
 1448 = "「Không sao đâu. Chỉ là có lý do chính đáng\nnên mới than vãn vậy thôi.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「……こないだの失敗の原因は明快。\n『まわりに人が多すぎた』こと」
-1184 = "「......Nguyên nhân thất bại lần trước rất\nrõ ràng.\nĐó là 'xung quanh có quá nhiều người'.」"
-
+1184 = "「......Nguyên nhân thất bại lần trước rất rõ ràng.\nĐó là 'xung quanh có quá nhiều người'.」"
 # monologue
 # JP: 同じ失敗を繰り返すなんて、最新鋭機には――\nううん、鉄道従事者には許されないこと。
-2133 = "Lặp lại cùng một sai lầm, đối với cỗ máy\nhiện đại nhất――\nKhông, đối với người làm đường sắt là điều\nkhông thể chấp nhận được."
-
+2133 = "Lặp lại cùng một sai lầm, đối với cỗ máy hiện đại nhất――\nKhông, đối với người làm đường sắt là điều không thể chấp nhận được."
 # 【ニイロク】
 # display as 二六
 # JP: 「鉄道は経験工学。自分はその集大成。大丈夫――\nこのプランなら、ただ赤井運転士を待てばいい」
-1891 = "「Đường sắt là ngành kỹ thuật dựa trên kinh\nnghiệm. Mình chính là sự đúc kết của những\nđiều đó. Không sao――\nVới kế hoạch này, chỉ cần đợi lái tàu Akai\nlà được.」"
-
+1891 = "「Đường sắt là ngành kỹ thuật dựa trên kinh nghiệm. Mình chính là sự đúc kết của những điều đó. Không sao――\nVới kế hoạch này, chỉ cần đợi lái tàu Akai là được.」"
 # monologue
 # JP: 終業後すぐの外出予定は確認してる。\n赤井運転士が傘を持って出てないことも。
-2138 = "Đã xác nhận lịch trình đi ra ngoài ngay\nsau giờ làm việc.\nCả việc lái tàu Akai không mang theo ô khi\nra ngoài nữa."
-
+2138 = "Đã xác nhận lịch trình đi ra ngoài ngay sau giờ làm việc.\nCả việc lái tàu Akai không mang theo ô khi ra ngoài nữa."
 # monologue
 # JP: ここなら絶対、赤井運転士が通るはずだし、\nこの雨で、こんなところで長話する人もいないはず。
-2154 = "Ở đây thì chắc chắn lái tàu Akai sẽ đi\nngang qua,\nvà với cơn mưa này, cũng sẽ chẳng có ai\nđứng nói chuyện phiếm ở một nơi như thế\nnày."
-
+2154 = "Ở đây thì chắc chắn lái tàu Akai sẽ đi ngang qua,\nvà với cơn mưa này, cũng sẽ chẳng có ai đứng nói chuyện phiếm ở một nơi như thế này."
 # 【ニイロク】
 # display as 二六
 # JP: 「セリフも簡単。くわえるパンも無いから、明瞭。\n『傘ないの？　もう、しょうがないなぁ、ほら』」
-1517 = "「Lời thoại cũng đơn giản. Không ngậm bánh\nmì nên phát âm cũng rõ ràng.\n'Anh không có ô sao? Thiệt tình, hết cách\nvới anh, đây này'.」"
-
+1517 = "「Lời thoại cũng đơn giản. Không ngậm bánh mì nên phát âm cũng rõ ràng.\n'Anh không có ô sao? Thiệt tình, hết cách với anh, đây này'.」"
 # 【赤井】
 # display as 赤井
 # JP: 「おや、ニイロクさん」
 1542 = "「Ô, Niiroku.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「わわ！？　もう来たっ！！？」
 1538 = "「Oa oa!? Đã đến rồi sao!!?」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「え？　何か早すぎましたか？」
 1606 = "「Hả? Tôi đến hơi sớm sao?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「う、ううん。早すぎない。ジャストタイミング」
 1727 = "「Kh-Không. Không sớm đâu. Rất đúng lúc.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「ジャスト？　ああ、私にご用でしたか」
 1495 = "「Đúng lúc? À, cô có việc tìm tôi sao.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あ、うん」
 1582 = "「A, ừm.」"
-
 # monologue
 # JP: この流れなら、絶対言える。\nいうだけ。『傘ないの？』って
 2209 = "Theo mạch này, chắc chắn có thể nói được.\nChỉ cần nói. 'Anh không có ô sao?'"
-
 # monologue
 # JP: ん？　でも、この流れだと、\n会話、全然つながってない。
-2055 = "Hửm? Nhưng mà, theo mạch này thì,\ncâu chuyện hoàn toàn không ăn nhập với\nnhau."
-
+2055 = "Hửm? Nhưng mà, theo mạch này thì,\ncâu chuyện hoàn toàn không ăn nhập với nhau."
 # 【赤井】
 # display as 赤井
 # JP: 「ニイロクさん？」
 1457 = "「Niiroku?」"
-
 # monologue
 # JP: もう少しだけ組み立てないと――
 2104 = "Phải sắp xếp lại một chút mới được――"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「ええと……お天気」
 1866 = "「Cái đó...... Thời tiết」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「ええ、ひどい雨ですねぇ。\n傘を取りに戻るのが面倒です」
 1551 = "「Ừm, mưa to thật đấy.\nQuay lại lấy ô thì phiền phức quá.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「来た！　『傘ないの？』」
 1494 = "「Đến rồi! 'Anh không có ô sao?'」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「そうなんですよ。ニイロクさんと同じですね」
 1697 = "「Đúng vậy đấy. Giống như Niiroku thôi.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「『もう、しょうがないなぁ――』……って、\nあれ？　あれれ？　傘――ないのっ！？？」
 1168 = "「『Thiệt tình, hết cách với anh――』......Ơ,\nHả? Hả hả? Ô――không có sao!!?」"
-
 # monologue
 # JP: ない。ない。ない。信じられない。ありえない。\n手順ばかりを意識して、必要装備を忘れるだとか。
-2190 = "Không có. Không có. Không có. Không thể\ntin được. Không thể nào.\nChỉ chăm chăm vào các bước mà quên mất\ntrang bị cần thiết."
-
+2190 = "Không có. Không có. Không có. Không thể tin được. Không thể nào.\nChỉ chăm chăm vào các bước mà quên mất trang bị cần thiết."
 # monologue
 # JP: そんなの絶対。あるわけない。\nけど――やっぱり、ない。
 2276 = "Chuyện đó tuyệt đối. Không thể nào xảy ra.\nNhưng――quả nhiên là, không có."
-
 # 【赤井】
 # display as 赤井
 # JP: 「本当、しょうがないですよね。\n置き傘もこの急な雨で全滅ですし」
-1702 = "「Thật sự, hết cách luôn nhỉ.\nÔ dùng chung cũng hết sạch vì cơn mưa đột\nngột này rồi.」"
-
+1702 = "「Thật sự, hết cách luôn nhỉ.\nÔ dùng chung cũng hết sạch vì cơn mưa đột ngột này rồi.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「どうしようもない。忘れた――傘。\n\x%l指差喚呼;#00ffc040;指差喚呼%l;#;するの、忘れてた」
 1850 = "「Hết cách rồi. Quên――ô rồi.\nQuên mất, không \\x%l指差喚呼;#00ffc040;chỉ tay hô xác nhận%l;#;.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「職務でもなし、そこまで落ち込むようなことでも。\nなに、わたしがひとっ走り宿舎まで――おや」
-1649 = "「Cũng đâu phải nhiệm vụ, không cần phải ủ\nrũ đến thế đâu.\nKhông sao, tôi sẽ chạy ù về ký túc xá một\nchuyến――ô hay.」"
-
+1649 = "「Cũng đâu phải nhiệm vụ, không cần phải ủ rũ đến thế đâu.\nKhông sao, tôi sẽ chạy ù về ký túc xá một chuyến――ô hay.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「赤井くん。こぎゃんところで――\nああ、傘忘れたと？　や、ニイロクも」
 1837 = "「Cậu Akai. Sao lại ở chỗ này――\nÀ, quên mang ô sao? Ây, cả Niiroku nữa.」"
-
 # monologue
 # JP: 電車区長。また。\nああ――しかも――傘……置き傘、足しに来たんだ。
-2109 = "Đoạn trưởng xe điện. Lại nữa.\nA――hơn nữa――ô...... ông ấy mang ô dùng\nchung đến bổ sung."
-
+2109 = "Đoạn trưởng xe điện. Lại nữa.\nA――hơn nữa――ô...... ông ấy mang ô dùng chung đến bổ sung."
 # 【赤井】
 # display as 赤井
 # JP: 「ああ、電車区長はさすがに用意がいいですね」
-1701 = "「A, Đoạn trưởng xe điện quả nhiên chuẩn bị\nchu đáo thật.」"
-
+1701 = "「A, Đoạn trưởng xe điện quả nhiên chuẩn bị chu đáo thật.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「責任者やけん。\nほい。ほい」
 1534 = "「Vì là người chịu trách nhiệm mà.\nĐây. Đây.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「ありがとうございます、助かります」
 1650 = "「Cảm ơn ông, may quá.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「ありがとう。助かる。けど。……ううん。\n失敗したのは自分。自分に、全ての責任がある」
-1814 = "「Cảm ơn. May quá. Nhưng. ......Không.\nNgười thất bại là tôi. Mọi trách nhiệm đều\nthuộc về tôi.」"
-
+1814 = "「Cảm ơn. May quá. Nhưng. ......Không.\nNgười thất bại là tôi. Mọi trách nhiệm đều thuộc về tôi.」"
 # 【赤井】
 # display as 赤井
 # JP: 「……ニイロクさん？\n何か思い詰めているのですか？」
 1187 = "「......Niiroku?\nCô đang bận tâm chuyện gì sao?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「ううん。平気。それより、赤井運転士。\n時間。大丈夫？」
-1729 = "「Không. Tôi không sao. Hơn nữa, lái tàu\nAkai.\nThời gian. Ổn chứ?」"
-
+1729 = "「Không. Tôi không sao. Hơn nữa, lái tàu Akai.\nThời gian. Ổn chứ?」"
 # 【赤井】
 # display as 赤井
 # JP: 「あっとそうでした。それじゃ、区長！\nすみませんが、傘、お借りします！」
 1546 = "「A, đúng rồi. Vậy, Đoạn trưởng!\nXin lỗi, tôi mượn ô nhé!」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「んー。気ぃつけて」
 1589 = "「Ừm. Đi cẩn thận nhé.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「気をつけて！　いってらっしゃい！」
 1436 = "「Đi cẩn thận nhé! Đi đường bình an!」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「はい、いってきます！　ニイロクさん」
 1602 = "「Vâng, tôi đi đây! Niiroku.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「っ！！！　うん。うん！　『いってらっしゃい』。\nふっ……うふふ――うふふふふ」
 1571 = "「!!! Ừm. Ừm! 'Đi đường bình an'.\nHừm...... ư fufu――ư fufufufu.」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「『いってらっしゃい』『いってきます』ば、\nそぎゃんと嬉しかったとか」
 1809 = "「'Đi đường bình an', 'Tôi đi đây',\ncô vui đến thế cơ à.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「うん。嬉しい。すごく、しあわせ――\nって、はわっ！？　電車区長」
 1599 = "「Ừm. Vui lắm. Rất, hạnh phúc――\nỚ, ha wa!? Đoạn trưởng xe điện.」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「よかよか。誰の目にもバレバレのことやけん。\n赤井運転士と、もっとなかようになりたかとやろ？」
-1728 = "「Được rồi được rồi. Ai nhìn vào cũng thấy\nrõ mồn một mà.\nCô muốn trở nên thân thiết hơn với lái tàu\nAkai chứ gì?」"
-
+1728 = "「Được rồi được rồi. Ai nhìn vào cũng thấy rõ mồn một mà.\nCô muốn trở nên thân thiết hơn với lái tàu Akai chứ gì?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「――うん」
 1162 = "「――Ừm.」"
-
 # monologue
 # JP: バレバレ。\n言われた。"誰の目にも"って。
-2238 = "Rõ mồn một.\nBị nói rồi. 'Ai nhìn vào cũng thấy rõ' cơ\nđấy."
-
+2238 = "Rõ mồn một.\nBị nói rồi. 'Ai nhìn vào cũng thấy rõ' cơ đấy."
 # monologue
 # JP: なら、なら――赤井運転士も、気づいてる？\nあ、っていうか――なら！
-2279 = "Vậy, vậy thì――lái tàu Akai, cũng nhận ra\nrồi sao?\nA, mà nói đúng hơn là――nếu vậy!"
-
+2279 = "Vậy, vậy thì――lái tàu Akai, cũng nhận ra rồi sao?\nA, mà nói đúng hơn là――nếu vậy!"
 # 【ニイロク】
 # display as 二六
 # JP: 「気づいてるのに。どうして、邪魔」
-1492 = "「Rõ ràng là đã nhận ra. Vậy tại sao, lại\nlàm phiền.」"
-
+1492 = "「Rõ ràng là đã nhận ra. Vậy tại sao, lại làm phiền.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「邪魔ばしとらんよー。\nどこが、なんの邪魔とや？」
 1812 = "「Tôi đâu có làm phiền gì đâu.\nChỗ nào, làm phiền cái gì chứ?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「今も。だって――あ。違う。\n今のも……今までのも、自分の、ミス」
-1508 = "「Cả lúc nãy nữa. Bởi vì――a. Không phải.\nLúc nãy...... cả những lúc trước đó, đều\nlà do, lỗi của tôi.」"
-
+1508 = "「Cả lúc nãy nữa. Bởi vì――a. Không phải.\nLúc nãy...... cả những lúc trước đó, đều là do, lỗi của tôi.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「どぎゃんこつね？」
 1662 = "「Là chuyện gì vậy?」"
-
 # monologue
 # JP: ……話してもいい。そう思う。\n自分はだって、最新鋭。大事にされるに決まってる。
-1151 = "......Kể ra cũng được. Mình nghĩ vậy.\nBởi vì mình, là cỗ máy hiện đại nhất. Chắc\nchắn sẽ được coi trọng."
-
+1151 = "......Kể ra cũng được. Mình nghĩ vậy.\nBởi vì mình, là cỗ máy hiện đại nhất. Chắc chắn sẽ được coi trọng."
 # 【ニイロク】
 # display as 二六
 # JP: 「うん。\n自分は、良い計画を立てたつもりだった」
-1597 = "「Ừm.\nTôi, cứ tưởng mình đã lập ra một kế hoạch\nrất hoàn hảo.」"
-
+1597 = "「Ừm.\nTôi, cứ tưởng mình đã lập ra một kế hoạch rất hoàn hảo.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「ほう？」
 1615 = "「Hô?」"
-
 # monologue
 # JP: プラン。実行。そこから検証した結果。\nそれを順番に話してく。
-2140 = "Kế hoạch. Thực hiện. Kết quả kiểm chứng từ\nđó.\nTôi kể lại mọi chuyện theo trình tự."
-
+2140 = "Kế hoạch. Thực hiện. Kết quả kiểm chứng từ đó.\nTôi kể lại mọi chuyện theo trình tự."
 # monologue
 # JP: レビュー貰うのシロおねえちゃんって思ってたけど、\n電車区長からも貰えば精度はもっとあがるし。
-2275 = "Dù định nhờ chị Shiro đánh giá,\nnhưng nếu có thêm đánh giá từ Đoạn trưởng\nxe điện thì độ chính xác sẽ càng cao hơn."
-
+2275 = "Dù định nhờ chị Shiro đánh giá,\nnhưng nếu có thêm đánh giá từ Đoạn trưởng xe điện thì độ chính xác sẽ càng cao hơn."
 # 【電車区長】
 # display as 電車段長
 # JP: 「……別に誰にも邪魔されとらんばい。\nゆーかの、そもそも失敗もしてなかろーとや」
-1201 = "「......Đâu có ai làm phiền cô đâu.\nMà nói đúng hơn, ngay từ đầu cô đã không\nthất bại rồi.」"
-
+1201 = "「......Đâu có ai làm phiền cô đâu.\nMà nói đúng hơn, ngay từ đầu cô đã không thất bại rồi.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「でも！？　だって」
 1442 = "「Nhưng!? Bởi vì」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「マンガんこつ、とんとん拍子にはいかんとよ。\n極端に[えが]描きよるから、マンガやけんね」
-1443 = "「Chuyện trong manga, đâu phải lúc nào cũng\nsuôn sẻ được.\nBởi vì nó được vẽ phóng đại lên, nên mới\nlà manga chứ.」"
-
+1443 = "「Chuyện trong manga, đâu phải lúc nào cũng suôn sẻ được.\nBởi vì nó được vẽ phóng đại lên, nên mới là manga chứ.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「わ！」
 1539 = "「Oa!」"
-
 # monologue
 # JP: すごい、電車区長。\nさすがトップって初めて思った。感心した。
-2086 = "Tuyệt quá, Đoạn trưởng xe điện.\nLần đầu tiên tôi thấy ông ấy đúng là người\nđứng đầu. Thật đáng khâm phục."
-
+2086 = "Tuyệt quá, Đoạn trưởng xe điện.\nLần đầu tiên tôi thấy ông ấy đúng là người đứng đầu. Thật đáng khâm phục."
 # 【電車区長】
 # display as 電車段長
 # JP: 「とんとん拍子に進まんでも、\nじわじわは、仲良ぅなれとろーもんよ」
-1445 = "「Dù không suôn sẻ ngay lập tức,\nnhưng cứ từ từ, rồi sẽ thân thiết hơn\nthôi.」"
-
+1445 = "「Dù không suôn sẻ ngay lập tức,\nnhưng cứ từ từ, rồi sẽ thân thiết hơn thôi.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ホント！？　なれてる？　じわじわ仲良く。\nそれって、どうやったら検証できる？」
-1772 = "「Thật sao!? Trở nên thân thiết hơn? Từ từ\nthân thiết.\nLàm sao để kiểm chứng điều đó?」"
-
+1772 = "「Thật sao!? Trở nên thân thiết hơn? Từ từ thân thiết.\nLàm sao để kiểm chứng điều đó?」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「そら、赤井くんに聞くしかなかばい。\nあん男なら、まぁ正直に答えてくれよーよ」
-1870 = "「Thì, chỉ còn cách hỏi cậu Akai thôi.\nNếu là cậu ta, chà, chắc sẽ trả lời thành\nthật thôi.」"
-
+1870 = "「Thì, chỉ còn cách hỏi cậu Akai thôi.\nNếu là cậu ta, chà, chắc sẽ trả lời thành thật thôi.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「聞く。赤井運転士に。直接」
 1758 = "「Hỏi. Lái tàu Akai. Trực tiếp.」"
-
 # monologue
 # JP: ダメ。無理。\n一番最初に、思考しちゃう。
-2148 = "Không được. Không thể nào.\nĐó là suy nghĩ đầu tiên nảy ra trong đầu\ntôi."
-
+2148 = "Không được. Không thể nào.\nĐó là suy nghĩ đầu tiên nảy ra trong đầu tôi."
 # monologue
 # JP: 回路が勝手に加熱して、\n論理的には飛んだ結論を勝手に出しちゃう。
-2149 = "Mạch điện tự động nóng lên,\nvà tự đưa ra một kết luận vượt xa khỏi\ntính logic."
-
+2149 = "Mạch điện tự động nóng lên,\nvà tự đưa ra một kết luận vượt xa khỏi tính logic."
 # 【ニイロク】
 # display as 二六
 # JP: 「聞けない。そんなの。だって。そんなの」
-1854 = "「Không hỏi được. Chuyện đó. Bởi vì. Chuyện\nđó.」"
-
+1854 = "「Không hỏi được. Chuyện đó. Bởi vì. Chuyện đó.」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「怖かとか？　答えば聞くんが」
 1664 = "「Sợ à? Sợ nghe câu trả lời sao?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「っ！！」
 1524 = "「Ư!!」"
-
 # monologue
 # JP: 怖くなんてない。\n検証しなくちゃ、修正できない。
-2110 = "Đâu có sợ.\nNếu không kiểm chứng, thì không thể sửa\nchữa được."
-
+2110 = "Đâu có sợ.\nNếu không kiểm chứng, thì không thể sửa chữa được."
 # monologue
 # JP: 論理ではそう追えるのに、\n頭が勝手に、壊れたみたいにうなずいちゃってる。
-2174 = "Dù logic bảo là vậy,\nnhưng cái đầu lại tự động gật lia lịa như\nbị hỏng."
-
+2174 = "Dù logic bảo là vậy,\nnhưng cái đầu lại tự động gật lia lịa như bị hỏng."
 # 【電車区長】
 # display as 電車段長
 # JP: 「……怖くて黙っておけるくらいの思いなら、\n黙ってしまっておくほうが、きっと良かとよ」
-1199 = "「......Nếu đó là cảm xúc khiến cô sợ đến\nmức phải giữ im lặng,\nthì cứ giữ im lặng như vậy, chắc chắn sẽ\ntốt hơn đấy.」"
-
+1199 = "「......Nếu đó là cảm xúc khiến cô sợ đến mức phải giữ im lặng,\nthì cứ giữ im lặng như vậy, chắc chắn sẽ tốt hơn đấy.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「あ――」
 1562 = "「A――」"
-
 # monologue
 # JP: 怖い、って思う。\nそれはなんだか、回路外の、もっと深くで思ってる。
-2146 = "Thấy sợ.\nCảm giác đó như đến từ một nơi sâu thẳm\nhơn, nằm ngoài mạch điện."
-
+2146 = "Thấy sợ.\nCảm giác đó như đến từ một nơi sâu thẳm hơn, nằm ngoài mạch điện."
 # monologue
 # JP: けど――聞きたいって、\nやっぱり深く、自分の[コア]核が、囁いてる。
-2043 = "Nhưng――vẫn muốn hỏi,\ntừ sâu thẳm, [lõi] cốt lõi của mình, đang thì\nthầm như vậy."
-
+2043 = "Nhưng――vẫn muốn hỏi,\ntừ sâu thẳm, [lõi] cốt lõi của mình, đang thì thầm như vậy."
 # 【ニイロク】
 # display as 二六
 # JP: 「怖くても――黙っていられなくなるの？\nそれが、恋なの？」
-1644 = "「Dù có sợ――nhưng vẫn không thể giữ im lặng\nđược sao?\nĐó, là tình yêu sao?」"
-
+1644 = "「Dù có sợ――nhưng vẫn không thể giữ im lặng được sao?\nĐó, là tình yêu sao?」"
 # 【電車区長】
 # display as 電車段長
 # JP: 「ワシん場合は、そぎゃんじゃったの」
-1676 = "「Trong trường hợp của tôi, là như vậy\nđấy.」"
-
+1676 = "「Trong trường hợp của tôi, là như vậy đấy.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「そうなんだ」
 1853 = "「Ra là vậy.」"
-
 # monologue
 # JP: 知りたい、もっと。\n自分の今の気持ちが――これが、恋なのか。
-2092 = "Muốn biết, nhiều hơn nữa.\nCảm xúc hiện tại của mình――đây, có phải là\ntình yêu không."
-
+2092 = "Muốn biết, nhiều hơn nữa.\nCảm xúc hiện tại của mình――đây, có phải là tình yêu không."
 # monologue
 # JP: 知りたいし、知らなきゃいけない。\nそうしなくっちゃ、きっとずうっと、悔み続ける。
-2009 = "Muốn biết, và bắt buộc phải biết.\nNếu không làm vậy, chắc chắn mình sẽ hối\nhận mãi mãi."
-
+2009 = "Muốn biết, và bắt buộc phải biết.\nNếu không làm vậy, chắc chắn mình sẽ hối hận mãi mãi."
 # 【ニイロク】
 # display as 二六
 # JP: 「……自分、は」
 1198 = "「......Mình, thì」"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「ま、じっくり考えてみるとよか」
 1784 = "「Chà, cứ suy nghĩ kỹ đi.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あ」
 # 1564 = "「啊」" 
-
 # monologue
 # JP: 電車区長が傘をさす。\n雨の中、どんどん先に進んでく。
 2298 = "Đoạn trưởng xe điện bung ô.\nĐi thẳng về phía trước trong màn mưa."
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「いずれ決断ば迫られるけん。そん日まで――\n悩めるだけを悩んどくのも、悪くなかとよ」
-1514 = "「Sớm muộn gì cũng sẽ phải đưa ra quyết\nđịnh thôi. Cho đến ngày đó――\ncứ phiền não bao nhiêu tùy thích, cũng\nkhông tồi đâu.」"
-
+1514 = "「Sớm muộn gì cũng sẽ phải đưa ra quyết định thôi. Cho đến ngày đó――\ncứ phiền não bao nhiêu tùy thích, cũng không tồi đâu.」"
 # 【赤井】
 # display as 赤井
 # JP: 「ニイロクさん。ニイロクさん。\nそろそろ起きてください」
 1455 = "「Niiroku. Niiroku.\nĐã đến lúc phải dậy rồi.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「ふにゅ？」
 1525 = "「Fu nyu?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あれ？　赤井運転士。ええと……ここ、は」
 1532 = "「Ơ? Lái tàu Akai. Ừm...... đây, là」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「よほど深く眠られてたんですね。\nここは御一夜温泉駅。御一夜の中心地ですよ？」
-1760 = "「Cô ngủ say thật đấy.\nĐây là ga suối nước nóng Ohimitera. Trung\ntâm của Ohimitera đấy?」"
-
+1760 = "「Cô ngủ say thật đấy.\nĐây là ga suối nước nóng Ohimitera. Trung tâm của Ohimitera đấy?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「あぅ」
 # 1564 = "「啊」" 
-
 # monologue
 # JP: 恥ずかしい。ほんとにぐっすり寝ちゃってたんだ。\nけど――ええと――。
 2080 = "Xấu hổ quá. Mình thực sự đã ngủ say sưa.\nNhưng――ừm――."
-
 # 【ニイロク】
 # display as 二六
 # JP: 「いつ？　寝ちゃったの？　自分」
 1674 = "「Lúc nào? Tôi ngủ lúc nào vậy?」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「四回目の乗車の復路からですね。\n私が、『必要なデータは全部取れましたね』と」
-1653 = "「Từ chuyến khứ hồi của lần lên tàu thứ tư.\nKhi tôi nói, 'Đã thu thập đủ dữ liệu cần\nthiết rồi nhỉ'.」"
-
+1653 = "「Từ chuyến khứ hồi của lần lên tàu thứ tư.\nKhi tôi nói, 'Đã thu thập đủ dữ liệu cần thiết rồi nhỉ'.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「あ、そう。それですごくホっとして」
-1584 = "「A, đúng rồi. Lúc đó tôi đã thở phào nhẹ\nnhõm.」"
-
+1584 = "「A, đúng rồi. Lúc đó tôi đã thở phào nhẹ nhõm.」"
 # 【赤井】
 # display as 赤井
 # JP: 「よほど集中してくれてたんですね。\nあくびをしたな、と思ったらコトン、って」
-1484 = "「Chắc cô đã tập trung cao độ lắm nhỉ.\nVừa thấy cô ngáp một cái, thoắt cái đã ngủ\ngục rồi.」"
-
+1484 = "「Chắc cô đã tập trung cao độ lắm nhỉ.\nVừa thấy cô ngáp một cái, thoắt cái đã ngủ gục rồi.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「はうぅ」
 1565 = "「Ha ư」"
-
 # monologue
 # JP: 恥ずかしい。集中して頑張ってたのは当然のこと。\nだけど、だけど、その前に自分、寝不足だった。
-2079 = "Xấu hổ quá. Việc tập trung cố gắng là điều\nđương nhiên.\nNhưng mà, nhưng mà, trước đó mình đã bị\nthiếu ngủ."
-
+2079 = "Xấu hổ quá. Việc tập trung cố gắng là điều đương nhiên.\nNhưng mà, nhưng mà, trước đó mình đã bị thiếu ngủ."
 # monologue
 # JP: だって――だって――
 2065 = "Bởi vì――bởi vì――"
-
 # 【電車区長】
 # display as 電車段長
 # JP: 「[ゆのいせん,2]湯医線の視察に誰ぞ――あ、赤井君の出身地よな。\nどぎゃんと？　ニイロクば連れて行ってくれんね？」
-1738 = "「Ai đi thị sát tuyến Yunoi đây――A, quê của\ncậu Akai nhỉ.\nSao nào? Cậu dẫn Niiroku đi cùng nhé?」"
-
+1738 = "「Ai đi thị sát tuyến Yunoi đây――A, quê của cậu Akai nhỉ.\nSao nào? Cậu dẫn Niiroku đi cùng nhé?」"
 # 【シロ】
 # display as 四六
 # JP: 「チャンスよ～、またとない大チャンス！\nここで一発、告白、決めてきちゃったら？？」
-1851 = "「Cơ hội đó~, cơ hội ngàn năm có một!\nHay là nhân dịp này, chốt hạ tỏ tình luôn\nđi??」"
-
+1851 = "「Cơ hội đó~, cơ hội ngàn năm có một!\nHay là nhân dịp này, chốt hạ tỏ tình luôn đi??」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ふあぁ～――っ！？\nぅぅっ……自分、考えすぎて」
 1563 = "「Fuaa~――!?\nƯ ư...... do tôi, suy nghĩ nhiều quá」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「そのおかげで必要十分以上のデータが取れました。\nありがとうございます、ニイロクさん」
-1629 = "「Nhờ vậy mà chúng ta đã thu thập được dữ\nliệu nhiều hơn cả mức cần thiết.\nCảm ơn cô, Niiroku.」"
-
+1629 = "「Nhờ vậy mà chúng ta đã thu thập được dữ liệu nhiều hơn cả mức cần thiết.\nCảm ơn cô, Niiroku.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ううん！？　そんなの。ええと、だって――\n当然。お仕事、一生懸命するの、当然」
-1574 = "「Không!? Chuyện đó. Ừm, bởi vì――\nĐương nhiên mà. Công việc thì phải cố gắng\nhết sức, là chuyện đương nhiên.」"
-
+1574 = "「Không!? Chuyện đó. Ừm, bởi vì――\nĐương nhiên mà. Công việc thì phải cố gắng hết sức, là chuyện đương nhiên.」"
 # 【赤井】
 # display as 赤井
 # JP: 「そのおかげで時間に余裕ができました。\nどうします？　御一夜を観光でもしますか？」
-1623 = "「Nhờ vậy mà chúng ta có dư dả thời gian.\nSao đây? Cô có muốn tham quan Ohimitera\nmột chút không?」"
-
+1623 = "「Nhờ vậy mà chúng ta có dư dả thời gian.\nSao đây? Cô có muốn tham quan Ohimitera một chút không?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「観光！　したい！！　したい。けど――」
 1512 = "「Tham quan! Muốn!! Tôi muốn. Nhưng――」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「けど？」
 1516 = "「Nhưng?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あの……ええと……その。\nもし、迷惑じゃ、なかったら――だけど」
 1857 = "「Cái đó...... ừm...... thì.\nNếu, không phiền――thì」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「頑張ってくれましたからね。いいですよ？\n遠慮無く、なんでもおねだりしてみてください」
-1491 = "「Vì cô đã cố gắng rất nhiều mà. Được thôi?\nĐừng ngại, cứ thử đòi hỏi bất cứ thứ gì\nxem.」"
-
+1491 = "「Vì cô đã cố gắng rất nhiều mà. Được thôi?\nĐừng ngại, cứ thử đòi hỏi bất cứ thứ gì xem.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「おねだり！」
 1903 = "「Đòi hỏi!」"
-
 # monologue
 # JP: すごく、いい。\nおねだり、したい。おねだり、すごく、恋な感じ。
-2215 = "Rất, tốt.\nMuốn, đòi hỏi. Đòi hỏi, cảm giác rất\ngiống, đang yêu."
-
+2215 = "Rất, tốt.\nMuốn, đòi hỏi. Đòi hỏi, cảm giác rất giống, đang yêu."
 # 【ニイロク】
 # display as 二六
 # JP: 「あの。おねだり――ええと――\nいくつ、平気？」
 1868 = "「Cái đó. Đòi hỏi――ừm――\nBao nhiêu cái, thì được?」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「いくつ、ですか……そうですね。\n一往復につきひとつで――みっつ？　あたりで」
-1628 = "「Bao nhiêu cái, sao...... Để xem nào.\nMỗi vòng khứ hồi một cái――khoảng ba cái?\nNhỉ.」"
-
+1628 = "「Bao nhiêu cái, sao...... Để xem nào.\nMỗi vòng khứ hồi một cái――khoảng ba cái? Nhỉ.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「じゃあひとつめ！　自分は、その――\n赤井運転士のこと、下のお名前で呼びたい――です」
-1877 = "「Vậy thì cái đầu tiên! Tôi, ừm――\nMuốn gọi lái tàu Akai, bằng tên――được\nkhông.」"
-
+1877 = "「Vậy thì cái đầu tiên! Tôi, ừm――\nMuốn gọi lái tàu Akai, bằng tên――được không.」"
 # 【赤井】
 # display as 赤井
 # JP: 「下の名前……清春ですか？」
 1685 = "「Tên...... Kiyoharu sao?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「う、うん。清春。きよはる――きよはる、って」
 1593 = "「Ừ, ừm. Kiyoharu. Kiyoharu――là Kiyoharu.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「職務中でなければ、構いませんよ？\n二人でのミーティングのときや、こういうときには」
-1587 = "「Nếu không phải trong lúc làm nhiệm vụ thì\nkhông sao đâu?\nTrong những lúc họp riêng hai người, hay\nnhững lúc như thế này.」"
-
+1587 = "「Nếu không phải trong lúc làm nhiệm vụ thì không sao đâu?\nTrong những lúc họp riêng hai người, hay những lúc như thế này.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「なら呼ぶ！　いま呼ぶ！　ええと――ええと！\nきよはる――清春！」
 1875 = "「Vậy thì gọi! Gọi bây giờ luôn! Ừm――ừm!\nKiyoharu――Kiyoharu!」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「はい、なんでしょう？　ニイロクさん」
 1660 = "「Vâng, có chuyện gì vậy? Niiroku.」"
-
 # monologue
 # JP: すごい。電車区長のいってたとおり。\nシロおねえちゃんの共感どおり！
-2088 = "Tuyệt quá. Đúng như lời Đoạn trưởng xe\nđiện nói.\nĐúng như những gì chị Shiro chia sẻ qua\ncộng cảm!"
-
+2088 = "Tuyệt quá. Đúng như lời Đoạn trưởng xe điện nói.\nĐúng như những gì chị Shiro chia sẻ qua cộng cảm!"
 # monologue
 # JP: 一緒に旅行したらこんなに！\n赤井運転士――ううん、清春が近くなった！！
-2040 = "Chỉ cần đi du lịch cùng nhau là thế này\nđây!\nLái tàu Akai――không, Kiyoharu đã trở nên\ngần gũi hơn rồi!!"
-
+2040 = "Chỉ cần đi du lịch cùng nhau là thế này đây!\nLái tàu Akai――không, Kiyoharu đã trở nên gần gũi hơn rồi!!"
 # 【ニイロク】
 # display as 二六
 # JP: 「おねだり！　ふたつめ！　あの、ふたつめ！」
-1880 = "「Đòi hỏi! Cái thứ hai! Cái đó, cái thứ\nhai!」"
-
+1880 = "「Đòi hỏi! Cái thứ hai! Cái đó, cái thứ hai!」"
 # 【赤井】
 # display as 赤井
 # JP: 「二つ目ですね？　なんでしょう」
 1782 = "「Cái thứ hai nhỉ? Là gì vậy.」"
-
 # monologue
 # JP: 近くになったら、もっと、もっとって。\n気持ち、どんどんふくらんでいく。
-2051 = "Khi đã trở nên gần gũi hơn, lại muốn thêm,\nthêm nữa.\nCảm xúc, ngày càng phình to."
-
+2051 = "Khi đã trở nên gần gũi hơn, lại muốn thêm, thêm nữa.\nCảm xúc, ngày càng phình to."
 # monologue
 # JP: 怖いのはずっとあるけどそれでも、\n心の中に、閉じ込めてなんておけないくらいに！
-2285 = "Dù nỗi sợ hãi vẫn luôn hiện hữu nhưng,\nđã đến mức không thể nhốt chặt trong lòng\nđược nữa!"
-
+2285 = "Dù nỗi sợ hãi vẫn luôn hiện hữu nhưng,\nđã đến mức không thể nhốt chặt trong lòng được nữa!"
 # 【ニイロク】
 # display as 二六
 # JP: 「自分のことも呼び捨ててほしい。\nニイロクって。さん、つけなくって」
-1681 = "「Tôi cũng muốn anh gọi trống không tên\ntôi.\nLà Niiroku. Đừng thêm chữ 'san' nữa.」"
-
+1681 = "「Tôi cũng muốn anh gọi trống không tên tôi.\nLà Niiroku. Đừng thêm chữ 'san' nữa.」"
 # 【赤井】
 # display as 赤井
 # JP: 「お安いご用です。ニイロク。\n……これでいいですか？」
 1756 = "「Chuyện nhỏ thôi. Niiroku.\n......Thế này được chưa?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「～～～～～～っ！！！！」
 1561 = "「~~~~~~!!!!」"
-
 # monologue
 # JP: 回路、いま自分焼き切れた。\n熱暴走してエラー出て頭ぶんぶん振るしか出来ない！
-2066 = "Mạch điện, giờ chắc cháy rụi luôn rồi.\nQuá nhiệt sinh ra lỗi, chỉ có thể lắc đầu\nnguầy nguậy thôi!"
-
+2066 = "Mạch điện, giờ chắc cháy rụi luôn rồi.\nQuá nhiệt sinh ra lỗi, chỉ có thể lắc đầu nguầy nguậy thôi!"
 # 【赤井】
 # display as 赤井
 # JP: 「それで？　ニイロク。\nみっつめ、今日の最後のおねだりは？」
-1865 = "「Vậy thì? Niiroku.\nCái thứ ba, đòi hỏi cuối cùng của ngày hôm\nnay là gì?」"
-
+1865 = "「Vậy thì? Niiroku.\nCái thứ ba, đòi hỏi cuối cùng của ngày hôm nay là gì?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「あ！」
 1568 = "「A!」"
-
 # monologue
 # JP: いま、言った。\n清春、言った。
 2201 = "Vừa nãy, đã nói.\nKiyoharu, đã nói."
-
 # monologue
 # JP: 最後の前に、今日の、って。\n今日の最後のおねだりって！！
 2027 = "Trước chữ 'cuối cùng', là chữ 'hôm nay'.\nĐòi hỏi cuối cùng của 'hôm nay'!!"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あの、あのね？　清春」
 1642 = "「Cái đó, này? Kiyoharu.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「はい。なんでしょう？　ニイロク」
 1686 = "「Vâng. Có chuyện gì vậy? Niiroku.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「いいこにしたら。頑張ったら。今日がおわっても、\n明日とか、あさってとかも、また、おねだり」
-1688 = "「Nếu tôi ngoan. Nếu tôi cố gắng. Dù ngày\nhôm nay kết thúc,\nngày mai, hay ngày kia, lại có thể, đòi\nhỏi tiếp chứ.」"
-
+1688 = "「Nếu tôi ngoan. Nếu tôi cố gắng. Dù ngày hôm nay kết thúc,\nngày mai, hay ngày kia, lại có thể, đòi hỏi tiếp chứ.」"
 # 【赤井】
 # display as 赤井
 # JP: 「もちろんですとも」
 1757 = "「Tất nhiên rồi.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「うんっ！」
 # 1601 = "「嗯！」" 
-
 # monologue
 # JP: だったら、だったら！　\nみっつめもすぐにお願いしちゃう！
 2281 = "Nếu vậy, nếu vậy thì!\nMình sẽ xin luôn cái thứ ba!"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「観光もいいけど、してみたいけど。\nそれよりも、おうち――清春のお家、見てみたい！」
-1897 = "「Tham quan cũng được, tôi cũng muốn thử.\nNhưng hơn thế nữa, nhà――tôi muốn xem nhà\ncủa Kiyoharu!」"
-
+1897 = "「Tham quan cũng được, tôi cũng muốn thử.\nNhưng hơn thế nữa, nhà――tôi muốn xem nhà của Kiyoharu!」"
 # 【赤井】
 # display as 赤井
 # JP: 「どうです？\n熱かったりぬるかったりしませんか？」
 1663 = "「Thế nào?\nCó bị nóng hay nguội quá không?」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「ううん、清春。ちょうどいい」
 1730 = "「Không đâu, Kiyoharu. Vừa vặn lắm.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「そうですか」
 1704 = "「Vậy sao.」"
-
 # monologue
 # JP: ……ちょっと不満。
 1154 = "......Hơi bất mãn một chút."
-
 # monologue
 # JP: 清春、今。自分が「清春」っていったのに、\nニイロクって言ってくれなかった。
-2143 = "Kiyoharu, lúc nãy. Mình đã gọi 'Kiyoharu'\nrồi,\nmà anh ấy không chịu gọi mình là Niiroku."
-
+2143 = "Kiyoharu, lúc nãy. Mình đã gọi 'Kiyoharu' rồi,\nmà anh ấy không chịu gọi mình là Niiroku."
 # 【赤井】
 # display as 赤井
 # JP: 「しかしまさか、大掃除までしてくれるとは。\n本当にありがとう。ご苦労様でした、ニイロク」
-1451 = "「Nhưng không ngờ cô lại dọn dẹp tổng vệ\nsinh giúp tôi.\nThực sự cảm ơn cô. Vất vả cho cô rồi,\nNiiroku.」"
-
+1451 = "「Nhưng không ngờ cô lại dọn dẹp tổng vệ sinh giúp tôi.\nThực sự cảm ơn cô. Vất vả cho cô rồi, Niiroku.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ううん！！！」
 1447 = "「Không có gì!!!」"
-
 # monologue
 # JP: 言ってくれた！　ニイロクって。\n嬉しい、嬉しい、嬉しい、嬉しい！！
 2026 = "Anh ấy gọi rồi! Là Niiroku.\nVui quá, vui quá, vui quá, vui quá!!"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「お手伝い当たり前。だって、外はぴかぴかなのに、\n中、ほこりとかつもってたから」
-1683 = "「Giúp đỡ là chuyện đương nhiên. Bởi vì,\nbên ngoài thì sáng bóng,\nmà bên trong, bụi bặm đóng đầy ra.」"
-
+1683 = "「Giúp đỡ là chuyện đương nhiên. Bởi vì, bên ngoài thì sáng bóng,\nmà bên trong, bụi bặm đóng đầy ra.」"
 # 【赤井】
 # display as 赤井
 # JP: 「長く不在にしてしまいましたからねぇ。外の方は、\n氏子さんたちが定期的にお掃除してくれるのですが」
-1755 = "「Vì tôi đã vắng nhà một thời gian dài mà.\nBên ngoài thì,\ncác Ujiko vẫn định kỳ dọn dẹp giúp, nhưng\nmà.」"
-
+1755 = "「Vì tôi đã vắng nhà một thời gian dài mà. Bên ngoài thì,\ncác Ujiko vẫn định kỳ dọn dẹp giúp, nhưng mà.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「長く不在にさせたの、テスト頑張ってくれたから。\nだから、自分が、その分お掃除するの、当然」
-1886 = "「Anh vắng nhà lâu như vậy, là vì đã cố\ngắng cho cuộc thử nghiệm.\nNên, việc tôi dọn dẹp bù lại, là chuyện\nđương nhiên.」"
-
+1886 = "「Anh vắng nhà lâu như vậy, là vì đã cố gắng cho cuộc thử nghiệm.\nNên, việc tôi dọn dẹp bù lại, là chuyện đương nhiên.」"
 # 【赤井】
 # display as 赤井
 # JP: 「そういってもらえるのは嬉しいですが――\n体、しっかりとほぐしてくださいね」
 1486 = "「Được cô nói vậy tôi rất vui nhưng――\nHãy ngâm mình cho thật thoải mái nhé.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「はうう」
 1566 = "「Ha ư ư.」"
-
 # monologue
 # JP: 体って言われたら、なんだか急に恥ずかしくなる。
-2008 = "Nghe nhắc đến cơ thể, tự dưng lại thấy xấu\nhổ."
-
+2008 = "Nghe nhắc đến cơ thể, tự dưng lại thấy xấu hổ."
 # monologue
 # JP: 壁一枚の向こうには、清春がいて、\n薪を焚いてくれてるって、改めて思っちゃって。
-2153 = "Nghĩ lại thì, chỉ cách một bức tường,\nKiyoharu đang ở đó,\nvà đang đun củi cho mình."
-
+2153 = "Nghĩ lại thì, chỉ cách một bức tường, Kiyoharu đang ở đó,\nvà đang đun củi cho mình."
 # 【赤井】
 # display as 赤井
 # JP: 「最新鋭機に雑巾がけを手伝わせて、\n万一故障でも引き起こしたら、私がクビですからね」
-1677 = "「Bắt cỗ máy hiện đại nhất phụ lau nhà bằng\ngiẻ,\nlỡ như gây ra hỏng hóc gì, là tôi bị sa\nthải đấy.」"
-
+1677 = "「Bắt cỗ máy hiện đại nhất phụ lau nhà bằng giẻ,\nlỡ như gây ra hỏng hóc gì, là tôi bị sa thải đấy.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「あ」
 # 1564 = "「啊」" 
-
 # monologue
 # JP: 冗談っぽく言ってるけど、\n清春の言ってることは、本当のこと。
 2283 = "Dù nói với giọng điệu đùa cợt,\nnhưng những lời Kiyoharu nói, là sự thật."
-
 # monologue
 # JP: 本来だったら、こんな視察に自分がいけてる事自体、\n絶対、ありえないようなこと。
-2165 = "Đáng lẽ ra, việc mình có thể đi chuyến thị\nsát này,\ntuyệt đối, là chuyện không thể nào xảy ra."
-
+2165 = "Đáng lẽ ra, việc mình có thể đi chuyến thị sát này,\ntuyệt đối, là chuyện không thể nào xảy ra."
 # 【ニイロク】
 # display as 二六
 # JP: 「……ごめんなさい。\n大掃除したいとか、わがままいって」
 1195 = "「......Xin lỗi anh.\nVì đã ích kỷ, đòi dọn dẹp tổng vệ sinh.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「いえいえ！　大歓迎でしたとも。\n雑巾がけレースなんて、何年ぶりにしたことか」
-1731 = "「Không không! Tôi rất hoan nghênh là đằng\nkhác.\nCuộc đua lau nhà bằng giẻ, không biết đã\nbao nhiêu năm rồi tôi mới được chơi lại\nđấy.」"
-
+1731 = "「Không không! Tôi rất hoan nghênh là đằng khác.\nCuộc đua lau nhà bằng giẻ, không biết đã bao nhiêu năm rồi tôi mới được chơi lại đấy.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「あ」
 # 1564 = "「啊」" 
-
 # monologue
 # JP: よかった。そうだ。そうだった。\n清春もほんとににこにこしてた、はしゃいでた。
-2070 = "Tốt quá. Đúng rồi. Là vậy mà.\nKiyoharu cũng thực sự tươi cười, rất hào\nhứng."
-
+2070 = "Tốt quá. Đúng rồi. Là vậy mà.\nKiyoharu cũng thực sự tươi cười, rất hào hứng."
 # 【赤井】
 # display as 赤井
 # JP: 「だからこそ、きちんとケアして欲しいんです。\nせっかくの楽しい思い出を暗転させずにすむように」
-1692 = "「Chính vì vậy, tôi muốn cô chăm sóc bản\nthân thật cẩn thận.\nĐể những kỷ niệm vui vẻ này không bị\nchuyển thành tồi tệ.」"
-
+1692 = "「Chính vì vậy, tôi muốn cô chăm sóc bản thân thật cẩn thận.\nĐể những kỷ niệm vui vẻ này không bị chuyển thành tồi tệ.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「うん、わかった。清春」
 1603 = "「Ừm, tôi hiểu rồi. Kiyoharu.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「わかってくれてなによりです。ニイロク」
 1487 = "「Cô hiểu được là tốt rồi. Niiroku.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「！」
 # 1601 = "「嗯！」" 
-
 # monologue
 # JP: わかってくれてる。わかってくれてる。\n清春。すごく自分のこと。
 2198 = "Anh ấy hiểu mình. Anh ấy hiểu mình.\nKiyoharu. Rất hiểu về mình."
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あのね！　清春」
 1807 = "「Này nhé! Kiyoharu.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「はい、なんでしょう？　ニイロク」
 1625 = "「Vâng, có chuyện gì vậy? Niiroku.」"
-
 # 【ニイロク】
 # display as 二六
 # JP: 「あのね！　自分ねっ――っ！！？」
 1503 = "「Này nhé! Tôi――!!?」"
-
 # monologue
 # JP: 言いたい。好きって。だけど、言えない。\n怖いの、ぶくぶく湧きだしちゃう。
-2089 = "Muốn nói. Là thích anh ấy. Nhưng, không\nthể nói.\nSự sợ hãi, cứ sùng sục trào dâng."
-
+2089 = "Muốn nói. Là thích anh ấy. Nhưng, không thể nói.\nSự sợ hãi, cứ sùng sục trào dâng."
 # monologue
 # JP: （それに……清春も、さっき言ってた）
-2334 = "（Hơn nữa...... Kiyoharu, lúc nãy cũng vừa\nnói）"
-
+2334 = "（Hơn nữa...... Kiyoharu, lúc nãy cũng vừa nói）"
 # monologue
 # JP: せっかくの楽しい思い出を、\n暗転させずにすむように、って。
 2015 = "Để những kỷ niệm vui vẻ này,\nkhông bị chuyển thành tồi tệ."
-
 # monologue
 # JP: 今ここで告白をして失敗したら、\n帰りの旅が――きっと、ものすごく真っ暗になる。
-2241 = "Nếu bây giờ tỏ tình ở đây mà thất bại,\nchuyến đi về――chắc chắn, sẽ trở nên vô\ncùng tăm tối."
-
+2241 = "Nếu bây giờ tỏ tình ở đây mà thất bại,\nchuyến đi về――chắc chắn, sẽ trở nên vô cùng tăm tối."
 # 【ニイロク】
 # display as 二六
 # JP: 「ぼべば……びびゃ」
 1611 = "「Bô bế ba...... bi bya.」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「ニイロク？」
 1465 = "「Niiroku?」"
-
 # monologue
 # JP: だけど、言いたい。伝えたい。\nこんなに熱くなるくらい、清春のこと好きだから。
-2044 = "Nhưng, tôi muốn nói. Muốn cho anh ấy biết.\nBởi vì tôi thích Kiyoharu đến mức cơ thể\ntrở nên nóng ran thế này cơ mà."
-
+2044 = "Nhưng, tôi muốn nói. Muốn cho anh ấy biết.\nBởi vì tôi thích Kiyoharu đến mức cơ thể trở nên nóng ran thế này cơ mà."
 # monologue
 # JP: 言いたい。言えない。言えない。言いたい。\n暑い。熱い――どんどん頭がぐちゃぐちゃしてくる。
-2124 = "Muốn nói. Không thể nói. Không thể nói.\nMuốn nói.\nNóng quá. Nóng quá――Đầu óc tôi ngày càng\ntrở nên rối bời."
-
+2124 = "Muốn nói. Không thể nói. Không thể nói. Muốn nói.\nNóng quá. Nóng quá――Đầu óc tôi ngày càng trở nên rối bời."
 # 【ニイロク】
 # display as 二六
 # JP: 「ぷあっ！」
 1610 = "「Pua!」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「どうしました？　ニイロク」
 1462 = "「Sao vậy? Niiroku.」"
-
 # monologue
 # JP: 清春の声。心配そう。\n自分を、心配してくれてる声。
 2200 = "Giọng của Kiyoharu. Nghe có vẻ lo lắng.\nGiọng nói đang lo lắng cho mình."
-
 # monologue
 # JP: 嬉しい。ぽかぽかどんどんしてくる。\nぽかぽかが、熱くて暑くてあつくて――
-2137 = "Vui quá. Cảm giác ấm áp ngày càng lan tỏa.\nSự ấm áp đó, trở nên nóng, nóng, nóng\nquá――"
-
+2137 = "Vui quá. Cảm giác ấm áp ngày càng lan tỏa.\nSự ấm áp đó, trở nên nóng, nóng, nóng quá――"
 # 【ニイロク】
 # display as 二六
 # JP: 「清、春……自分、は――」
 1740 = "「Kiyo, haru...... Tôi, thì――」"
-
 # 【赤井】
 # display as 赤井
 # JP: 「ニイロク？　のぼせましたか？」
-1469 = "「Niiroku? Cô bị choáng vì ngâm nước nóng\nsao?」"
-
+1469 = "「Niiroku? Cô bị choáng vì ngâm nước nóng sao?」"
 # monologue
 # JP: のぼせる――そう、自分はとっくにのぼせてる。\n清春に。清春をもっと、知りたくて――
-2193 = "Choáng――đúng vậy, tôi đã bị choáng từ lâu\nrồi.\nVì Kiyoharu. Vì muốn biết nhiều hơn, về\nKiyoharu――"
-
+2193 = "Choáng――đúng vậy, tôi đã bị choáng từ lâu rồi.\nVì Kiyoharu. Vì muốn biết nhiều hơn, về Kiyoharu――"
 # monologue
 # JP: （ばしゃんっ！！！）
 2331 = "（Tùm!!!）"
-
 # 【赤井】
 # display as 赤井
 # JP: 「ニイロクっ！？　ニイロクっ！！！」
