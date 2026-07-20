@@ -94,11 +94,11 @@ def compile_toml(toml_path, old_scn_dir=OLD_SCN_DIR, new_scn_dir=NEW_SCN_DIR):
 
 def copy_to_vn_patch(scn_path):
     """Copy compiled .scn to vn_patch directory."""
-    # Copy to root
+    # Copy to root (sometimes useful for quick debugging, though Kirikiri prefers scn/)
     dest = os.path.join(VN_PATCH_DIR, os.path.basename(scn_path))
     shutil.copy2(scn_path, dest)
-    
-    # Copy to scn/ subdirectory to ensure the engine loads it correctly
+
+    # Copy to scn/ subdirectory to ensure the engine loads it correctly over the original
     scn_subdir = os.path.join(VN_PATCH_DIR, "scn")
     os.makedirs(scn_subdir, exist_ok=True)
     shutil.copy2(scn_path, os.path.join(scn_subdir, os.path.basename(scn_path)))
