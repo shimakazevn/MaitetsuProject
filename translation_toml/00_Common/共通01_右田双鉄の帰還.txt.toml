@@ -27,126 +27,101 @@
 # display as ？？？
 # JP: 「ついてないわね。こうも見事に直撃されるなんて」
 1361 = "「Xui xẻo thật đấy. Không ngờ lại bị đánh trúng trực diện một cách ngoạn mục thế này.」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「\x%l粘着力;#00ffc040;粘着力%l;#;が著しく低下しています。\n[すなま,1]砂撒きを進言します」
 1027 = "「\\x%lđộ bám đường;#00ffc040;Độ bám đường%l;#; đang sụt giảm nghiêm trọng.\\n[すなま,1]Tôi kiến nghị nên rải cát」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「[ま]撒いた瞬間流されるのがオチでしょうけど。\nま、やらないよりはね――っと」
 1317 = "「[ま]Vừa rải một cái là bị cuốn đi ngay cho xem.\\nMà thôi, thà làm còn hơn không―― lên nào」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「\x%l砂撒き;#00ffc040;砂撒き%l;#;を確認。……\x%l粘着力;#00ffc040;粘着力%l;#;の増加は確認できず。\n脱線の危険があります。速度低減を進言します」
 1371 = "「Xác nhận đã \\x%lrải cát;#00ffc040;rải cát%l;#;. ……Không ghi nhận sự gia tăng của \\x%lđộ bám đường;#00ffc040;độ bám đường%l;#;.\\nCó nguy cơ trật bánh. Tôi kiến nghị nên giảm tốc độ」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「……やむなしね。\n[しずおか,1]靜岡での\x%l接続;#00ffc040;接続%l;#;は遅らせたくなかったんだけど」
 1047 = "「……Bất khả kháng rồi.\\n[しずおか,1]Dù mình không muốn làm chậm trễ việc \\x%lchuyển giao;#00ffc040;chuyển giao%l;#; ở Shizuoka chút nào」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「すぐに先方の\x%lレイルロオド;#00ffc040;レイルロオド%l;#;へ\x%l共感;#00ffc040;共感%l;#;をつなぎ遅延連絡\n――っ！？　なっ！？　え？　もう一度っ！？」
 1375 = "「Hãy kết nối \\x%lthấu cảm;#00ffc040;thấu cảm%l;#; với \\x%lRailord;#00ffc040;Railord%l;#; phía bên kia ngay để thông báo trễ\\n――っ！？ Cái gì！？ Hả？ Xin hãy nhắc lại một lần nữaっ！？」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「なにかあったの？　報告を」
 1207 = "「Có chuyện gì xảy ra thế？ Mau báo cáo đi」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「続報を――続報を速やかに送りなさい！\n沈黙は許しませんっ！　早く、早く続報をっ！」
 1292 = "「Tin tiếp theo―― hãy nhanh chóng gửi tin tiếp theo về đi!\\nKhông được phép giữ im lặngっ! Nhanh lên, mau gửi tin tiếp theo về điっ!」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「冷静になり報告しなさいっ！」
 1204 = "「Hãy bình tĩnh lại rồi báo cáoっ!」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「っ！　――最大限の\x%l制動;#00ffc040;制動%l;#;をください。\n\x%l滑走;#00ffc040;滑走%l;#;せぬよう補助します」
 1247 = "「っ! ――Xin hãy \\x%lhãm phanh;#00ffc040;hãm phanh%l;#; hết mức có thể.\\nTôi sẽ hỗ trợ để tàu không bị \\x%ltrượt bánh;#00ffc040;trượt bánh%l;#;」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「\x%l制動;#00ffc040;制動%l;#;了解。この速度から\x%l非常;#00ffc040;非常%l;#;は無理――よね」
 1023 = "「Rõ lệnh \\x%lhãm phanh;#00ffc040;hãm phanh%l;#;. Ở tốc độ này mà dùng phanh \\x%lkhẩn cấp;#00ffc040;khẩn cấp%l;#; thì không thể nào―― nhỉ」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「……これ以上は\x%l滑走;#00ffc040;滑走%l;#;します。\n限界です。制動力は足りません」
 1041 = "「……Nếu hơn thế nữa là sẽ bị \\x%ltrượt bánh;#00ffc040;trượt bánh%l;#; mất.\\nĐã tới giới hạn rồi. Lực hãm phanh không đủ đâu」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「これでも\x%lロック;#00ffc040;ロック%l;#;？　どれだけ\x%l粘着力;#00ffc040;粘着力%l;#;落ちてるのよ」
 1427 = "「Thế này mà cũng bị \\x%lbó cứng;#00ffc040;bó cứng phanh%l;#; sao？ \\x%lĐộ bám đường;#00ffc040;Độ bám đường%l;#; bị giảm đến mức nào rồi cơ chứ」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「これは……もう方法が」
 1421 = "「Chuyện này…… không còn cách nào nữa rồi」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「報告なさい。何の方法？　報告が一秒遅れるだけで、\n危険が何メートル近づくかわかってるでしょうに」
 1398 = "「Báo cáo đi. Cách gì cơ？ Cậu thừa hiểu là chỉ cần báo cáo chậm một giây thôi,\\nnguy hiểm sẽ tiến lại gần thêm bao nhiêu mét rồi mà」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「状況未確定の事故報告。\x%l発報;#00ffc040;発報%l;#;は[キュウロクヨンニイ,3]9642\x%lレイルロオド;#00ffc040;レイルロオド%l;#;。\n\x%l帝鉄貨物;#00ffc040;帝鉄貨物%l;#;。十五両\x%l編成;#00ffc040;編成%l;#;。全車両喪失の可能性あり」
 1335 = "「Báo cáo tai nạn chưa xác định rõ tình hình. Nơi phát tín hiệu \\x%lbáo động;#00ffc040;báo động%l;#; là từ [キュウロクヨンニイ,3]9642 \\x%lRailord;#00ffc040;Railord%l;#;.\\nThuộc \\x%lTàu hàng Đế thiết;#00ffc040;Tàu hàng Đế thiết%l;#;. \\x%lĐoàn tàu;#00ffc040;Đoàn tàu%l;#; 15 toa. Có khả năng toàn bộ các toa đã tổn thất hoàn toàn」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「十五両全部！？　って、詳細！」
 1219 = "「Mười lăm toa tất cả sao!? Khoan đã, chi tiết xem nào!」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「9642\x%lレイルロオド;#00ffc040;レイルロオド%l;#;は『鉄橋崩落』と――断末魔の\x%l共感;#00ffc040;共感%l;#;で。\n……[ふじがわ,2]冨士川[きょうりょう,1]橋梁が崩落したと」
 1457 = "「Railord 9642 \\x%lRailord;#00ffc040;Railord%l;#; nói rằng 'Cầu sắt sập'―― qua sự \\x%lthấu cảm;#00ffc040;thấu cảm%l;#; trong lời trăng trối.\\n……Cầu [ふじがわ,2]Fujigawa [きょうりょう,1]đã sập」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「[ふじがわ,2]冨士川っ！？\nまさかそんなっ！　近すぎるっ！！」
 1271 = "「Sông [ふじがわ,2]Fujigawa saoっ！？\\nKhông thể nào như thế đượcっ！ Quá gần rồiっ！！」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「当機に停止の手段無し。\x%l制動;#00ffc040;制動%l;#;力を最大限適正にとっても……七五秒後、止まりきれずに――」
 1337 = "「Đoàn tàu này không có phương án dừng lại. Dẫu cho lực \\x%lhãm phanh;#00ffc040;hãm phanh%l;#; có được tối ưu hóa đến mức tối đa đi nữa…… thì 75 giây nữa, vẫn không thể dừng hẳn được và――」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「お客様乗せてんのよ、無理でも止めるっ！！\n再減速！　そっち主導で！！」
 1404 = "「Chúng ta đang chở hành khách đấy, dù không thể cũng phải bắt nó dừng lại!!\\nTiếp tục hãm phanh! Phía cô làm chủ đạo đi!!」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「再減速了解。\x%l圧;#00ffc040;[あつ,4]ブレーキ力%l;#;、強めます――っ！」
 1430 = "「Rõ lệnh tiếp tục giảm tốc. Tôi sẽ tăng thêm \\x%llực;#00ffc040;[あつ,4]lực hãm phanh%l;#;――っ！」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「ああもうっ！　こんなときに横風までっ」
 1244 = "「A phiền thật đấy! Tầm này rồi mà còn gặp gió ngang nữa cơ chứ」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「\x%l制動;#00ffc040;制動%l;#;続行。\n――もう少し――圧、もう少しだけ――っ！！！」
 1382 = "「Tiếp tục \\x%lhãm phanh;#00ffc040;hãm phanh%l;#;.\\n――Thêm một chút nữa――áp lực, chỉ một chút nữa thôi――!!!」"
-
 # monologue
 # JP: （ポ！　ポオォッ！　ポッ！　ポーーーーーーーーッ！）
 1668 = "（Tu! Tu uúu! Tu! Tuuuuuuuuuuuuuuuu!）"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「……これ以上は\x%l滑走;#00ffc040;滑走%l;#;します。限界です。\n\x%l制動;#00ffc040;制動%l;#;力は足りません」
@@ -156,66 +131,53 @@
 # display as 司機
 # JP: 「だったら他っ！　停止以外の方策をっ！\n手段は問わない！　目標は転落回避っ！！！」
 1438 = "「Nếu vậy thì cách khác! Tìm phương án khác ngoài việc dừng lại đi!\\nKhông màng đến thủ đoạn! Mục tiêu là tránh bị rơi xuống vực!!!」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「停止、以外――。\nでしたら、逆に！」
 1217 = "「Ngoài việc dừng lại――.\\nNếu thế thì, ngược lại ạ!」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「ああ！　そうね、逆に――これしかないわね」
 1246 = "「Phải! Đúng thế, ngược lại――chỉ còn cách này thôi」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「お客様、ご着席大丈夫でしょうか」
 1166 = "「Hành khách đã ngồi vào chỗ an toàn hết chưa ạ?」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「\x%l車掌;#00ffc040;車掌%l;#;・[せき]関、\x%l車販;#00ffc040;車販%l;#;・[まゆずみ]黛のコンビでしょ？\nやってるわ。きちんと、彼女たちの仕事を」
 1173 = "「Chẳng phải là cặp đôi \\x%lTrưởng tàu;#00ffc040;Trưởng tàu%l;#; Seki và \\x%lNhân viên bán hàng trên tàu;#00ffc040;Nhân viên bán hàng trên tàu%l;#; Mayuzumi sao?\\nHọ đang làm đấy chứ. Làm rất tốt công việc của mình nữa là đằng khác」"
-
 # 【ハチロク】
 # display as 鐵路人偶
 # JP: 「そうですね。\nわたくしたちも、わたくしたちの」
 1397 = "「Đúng vậy ạ.\\nChúng ta cũng phải làm phần của chúng ta thôi」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「やってやるわよ。一世一代の仕事をね！」
 1185 = "「Để em làm cho. Một công việc để đời luôn nhé!」"
-
 # 【清美勝子】
 # display as 司機
 # JP: 「南無三っ！！！」
 1443 = "「Nam mô A Di Đà Phật!!!」"
-
 # monologue
 # JP: ……………………………………………………………………\n……………………………………………………………………
 992 = "…………………………………………………………………………………………………………………………………………"
-
 # 【帝鉄職員Ａ】
 # display as 帝鐵職員Ａ
 # JP: 「ここだ！　落ちてない！　落ちてないぞっ！」
 1262 = "「Ở đây rồi! Không bị rơi xuống! Không bị rơi xuống đâu!」"
-
 # 【右田泰斗】
 # display as 帝鐵職員Ｂ
 # JP: 「奇跡だな。止まってくれたというのか」
 1266 = "「Kỳ tích thật đấy. Nó đã dừng lại cho chúng ta rồi sao?」"
-
 # 【帝鉄職員Ａ】
 # display as 帝鐵職員Ａ
 # JP: 「いや、転覆だ！　\x%l脱線転覆;#00ffc040;脱線転覆%l;#;！！\nだが、全滅よりはよほどマシだっ！！」
 1160 = "「Không, lật rồi! \\x%lTrật bánh lật tàu;#00ffc040;Trật bánh lật tàu%l;#;!!\\nNhưng mà, vẫn còn tốt hơn nhiều so với việc bị xóa sổ hoàn toàn!!」"
-
 # 【右田泰斗】
 # display as 帝鐵職員Ｂ
 # JP: 「ぅ……む――これは――先頭\x%l客車;#00ffc040;客車%l;#;、特にひどいな――\nおい、探すんだ。生存者を探して救助しろ」
 1423 = "「Ư…… hưm―― thế này là―― toa \\x%ltoa hành khách;#00ffc040;hành khách%l;#; đầu tiên, đặc biệt nghiêm trọng đấy――\\nNày, mau tìm đi. Tìm kiếm người còn sống sót rồi cứu hộ mau」"
-
 # monologue
 # JP: ……………………………………………………………………\n……………………………………………………………………
 # 992 = "…………………………………………………………………………………………………………………………………………" 
@@ -223,117 +185,93 @@
 # monologue
 # JP: ……声、誰かの声が聞こえる。\n……感じる……手……誰かが、僕を……ゆすってる。
 1012 = "……Tiếng ai đó, mình nghe thấy tiếng của ai đó.\\n……Cảm nhận được rồi…… một bàn tay…… có ai đó đang…… lay mình."
-
 # monologue
 # JP: なら、僕……生きてる……\n僕だけ……僕の、はんぶんは――
 1647 = "Vậy thì, mình…… vẫn còn sống……\\nChỉ có mình…… một nửa của mình――"
-
 # 【双鉄】
 # display as 倖存者
 # JP: 「み……ち……」
 1403 = "「Mi…… chi……」"
-
 # 【帝鉄職員Ｃ】
 # display as 帝鐵職員Ｃ
 # JP: 「いました！　生存者！\n呼吸ありますが――重症ですっ」
 1309 = "「Thấy rồi! Người sống sót!\\nVẫn còn thở nhưng mà―― bị thương nặng lắm ạ」"
-
 # 【帝鉄職員Ａ】
 # display as 帝鐵職員Ａ
 # JP: 「子供じゃないか！　おいっ、君！」
 1432 = "「Chẳng phải là một đứa trẻ sao! Này, cháu ơi!」"
-
 # 【帝鉄職員Ｃ】
 # display as 帝鐵職員Ｃ
 # JP: 「ダメです！　動かさないで！　頭から出血しています」
 1152 = "「Không được! Đừng di chuyển em ấy! Đầu đang bị chảy máu kìa」"
-
 # monologue
 # JP: ……出血、僕の、頭……から。\nなら、このまま――けど……………………
 1004 = "……Chảy máu, từ đầu…… của mình.\\nVậy thì, cứ thế này luôn sao―― nhưng mà……………………"
-
 # monologue
 # JP: それじゃあ、みちが――\n僕を、突き飛ばしてくれた[いもうと,1]路子が――
 1652 = "Thế thì, Michi――\\nMichi, [đứa em gái,1] đã đẩy mình ra――"
-
 # 【帝鉄職員Ａ】
 # display as 帝鐵職員Ａ
 # JP: 「止血しろ！　助けるんだ！　早くっ！」
 1189 = "「Cầm máu ngay! Phải cứu bằng được! Nhanh lên!」"
-
 # 【帝鉄職員Ｃ】
 # display as 帝鐵職員Ｃ
 # JP: 「もちろんです！　\nですが――、一刻も早く病院につれていかないとっ」
 1440 = "「Dĩ nhiên rồi ạ!\\nNhưng mà――, chúng ta phải đưa cô ấy đến bệnh viện càng sớm càng tốt...!」"
-
 # 【帝鉄職員Ａ】
 # display as 帝鐵職員Ａ
 # JP: 「どう移送する！？　救援車は一番近くて[こうづ,2]国兎津だぞ！\n徒歩で\x%l保線;#00ffc040;保線%l;#;基地まで戻った方がまだ早い！」
 1300 = "「Di chuyển bằng cách nào đây?! Xe cứu viện gần nhất cũng đang ở [こうづ,2]Kouzu đấy!\\nĐi bộ quay về căn cứ \\x%lBảo trì đường ray;#00ffc040;Bảo trì đường ray%l;#; còn nhanh hơn!」"
-
 # 【帝鉄職員Ｃ】
 # display as 帝鐵職員Ｃ
 # JP: 「無理です！　それではとても保たないっ」
 1150 = "「Không được đâu ạ! Như thế thì cô ấy không cầm cự nổi đâu...!」"
-
 # 【帝鉄職員Ａ】
 # display as 帝鐵職員Ａ
 # JP: 「ならどうしろとっ！！」
 1434 = "「Vậy thì phải làm thế nào đây hả!!」"
-
 # monologue
 # JP: ……ダメ、だ。\n聞いてること、意味、わからない。
 1000 = "……Không, được rồi.\\nNhững gì họ đang nói, mình, không hiểu gì cả."
-
 # monologue
 # JP: …………なんで、こんなに眠いんだ――\nさっきまで、僕……寝てた、の、に…………
 996 = "…………Sao lại, buồn ngủ đến mức này cơ chứ――\\nRõ ràng vừa nãy, mình…… vẫn còn đang ngủ, mà…………"
-
 # 【右田泰斗】
 # display as 帝鐵職員Ｂ
 # JP: 「支社に\x%lエアクラ;#00ffc040;エアクラ%l;#;――飛ぶ奴、試作機があるだろう。\nあれを要請しろ」
 1208 = "「Ở chi nhánh có \\x%lAerocraft;#00ffc040;Aerocraft%l;#;――cái thứ bay được ấy, có một chiếc nguyên mẫu đúng không.\\nHãy yêu cầu điều động nó đi」"
-
 # 【帝鉄職員Ａ】
 # display as 帝鐵職員Ａ
 # JP: 「あの試作機か！　いや、だが――この風雨だぞっ！？」
 1437 = "「Chiếc nguyên mẫu đó sao! Không, nhưng mà―― mưa gió bão bùng thế này cơ mà?!」"
-
 # 【右田泰斗】
 # display as 帝鐵職員Ｂ
 # JP: 「無人で飛ばせ。たとえ落ちても誰も死なん。\n放っておけばこの子は死ぬ。考える余地があるか？」
 1155 = "「Hãy bay ở chế độ không người lái. Cho dù có rơi cũng chẳng ai chết cả.\\nNhưng nếu bỏ mặc thì đứa trẻ này sẽ chết. Còn gì để mà phải đắn đo nữa sao?」"
-
 # 【帝鉄職員Ａ】
 # display as 帝鐵職員Ａ
 # JP: 「わかった！　この子の命が最優先だと要請しよう。\nおいキミ、頑張れ。試作機が来るまで死ぬんじゃないぞ」
 1268 = "「Tôi hiểu rồi!　Tôi sẽ yêu cầu điều động và nhấn mạnh mạng sống của đứa trẻ này là ưu tiên hàng đầu.\\nNày cậu bé, cố lên. Đừng có chết trước khi máy bay nguyên mẫu đến đấy nhé」"
-
 # 【帝鉄職員Ｃ】
 # display as 帝鐵職員Ｃ
 # JP: 「死なせませんよ！　死なせませんともっ！！」
 1151 = "「Tôi không để cô ấy chết đâu! Tuyệt đối không để cô ấy chết đâu!!」"
-
 # 【右田泰斗】
 # display as 帝鐵職員Ｂ
 # JP: 「飛ばせ、飛ばすんだ、飛行型をっ。\nこの子の命が最優先だ、なにを置いても飛ばさせろ！」
 1401 = "「Cho bay đi, cho nó cất cánh đi, loại bay được ấy.\\nMạng sống của đứa trẻ này là ưu tiên hàng đầu, bất kể có chuyện gì cũng phải bắt nó cất cánh!」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「双鉄様。問題なく雨雲を抜けました」
 1448 = "「Cậu Soutetsu. Chúng ta đã vượt qua mây mưa an toàn rồi」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「…………」
 1033 = "「…………」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「が、雨雲を突っ切れとのご命令は今後お控えください。\nナビは、双鉄様の命を最優先として判断します」
 1157 = "「Nhưng xin cậu từ nay về sau đừng ra lệnh đâm thẳng vào mây mưa nữa.\\nHệ thống định vị luôn đánh giá dựa trên việc ưu tiên mạng sống của cậu Soutetsu lên hàng đầu」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「…………」
@@ -343,7 +281,6 @@
 # display as Ｎａｖｉ
 # JP: 「双鉄様の『急ぎなので、無理をしても』とのご命令と、\n双鉄様の命を最優先することとには、矛盾があります」
 1447 = "「Mệnh lệnh 『Vì đang vội nên hãy cứ liều mạng』 của cậu Soutetsu,\\nvà việc ưu tiên mạng sống của cậu Soutetsu lên hàng đầu, đang mâu thuẫn với nhau đấy ạ」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「…………」
@@ -353,421 +290,330 @@
 # display as Ｎａｖｉ
 # JP: 「矛盾の判断には大きな演算能力を必要とし、\nその負荷が双鉄様の安全を脅かすという……双鉄様？」
 1260 = "「Việc phán đoán sự mâu thuẫn đòi hỏi một năng lực tính toán cực lớn,\\nvà gánh nặng đó sẽ đe dọa đến sự an toàn của Soutetsu-sama…… Soutetsu-sama?」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うん。すまない。少し寝ていた」
 1252 = "「Ừm. Xin lỗi nhé. Tôi vừa chợp mắt một lát」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「これはこれは。\n起こしてしまいましたか。すみません」
 1234 = "「Ôi chao.\\nTôi đã làm ngài thức giấc rồi sao. Xin thứ lỗi cho tôi」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「意図的だろう？\n僕は、うなされていたのだろうな」
 1184 = "「Cậu cố ý đúng không?\\nChắc là lúc nãy tôi đang gặp ác mộng nhỉ」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「意図的などと、ご冗談を。ナビは物です。物品です。\n何を意図することもございません」
 1236 = "「Ngài lại trêu tôi rồi, cố ý làm sao được ạ. Navi chỉ là một đồ vật. Một vật phẩm thô sơ.\\nKhông thể có ý đồ gì được đâu ạ」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うむ、そうか。\nお前がそういうのなら、そうなのだろうな」
 1256 = "「Ừm, vậy sao.\\nNếu cậu đã nói thế thì chắc là vậy rồi」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「はい、左様です。\nナビは単なる[ドライバー,3]操縦機器ですので」
 1332 = "「Vâng, đúng là như vậy.\\nNavi chỉ đơn thuần là một [ドライバー,3]thiết bị điều khiển mà thôi」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「訂正しておけ。お前は――ナビは、\n“単なる”ではなく、最上級のドライバーだ」
 1425 = "「Sửa lại đi. Cậu―― Navi, không phải là \\\"đơn thuần\\\", mà là một người điều khiển cấp cao nhất」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「ご命令を了解しました。\nナビは、双鉄様の基準においては最上級の[ドライバー,3]操縦機器です」
 1288 = "「Đã rõ mệnh lệnh.\\nNavi, theo tiêu chuẩn của cậu Soutetsu, là một [ドライバー,3]thiết bị điều khiển tối tân nhất」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「かわいくないな」
 1363 = "「Chẳng đáng yêu chút nào cả」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「物品ですので」
 1258 = "「Vì tôi là vật phẩm mà」"
-
 # monologue
 # JP: ……物との会話。\nあるいは、ただの独り言。
 1009 = "……Cuộc trò chuyện với một đồ vật.\\nHoặc giả, đó chỉ là một lời độc thoại."
-
 # monologue
 # JP: だとしても、\n鈍り、曇り、沈みかけていた心が少し、浮き上がる。
 1521 = "Dẫu có là thế,\\ntâm hồn đang mỏi mệt, u ám và chìm đắm này dường như cũng được nâng đỡ đôi chút."
-
 # monologue
 # JP: （夢から覚めて……\n現実もまた、夢の続きか）
 1671 = "（Tỉnh giấc từ trong cơn mơ……\\nĐể rồi thực tại lại tiếp diễn giấc mơ đó sao）"
-
 # monologue
 # JP: あの事故のときと同様に、\nナビに、救い上げられている。
 1562 = "Cũng y như lúc tai nạn ngày ấy xảy ra,\\ntôi lại đang được cứu rỗi bởi Navi."
-
 # monologue
 # JP: そうして、[おひとよ,2]御一夜――\n眼下に広がるこの町も、僕を間違いなく救ってくれた。
 1628 = "Và cứ thế, [おひとよ,2]Ohitohe――\\nngôi thị trấn trải dài dưới tầm mắt này, chắc chắn cũng đã cứu rỗi tôi."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……何年ぶりになるか」
 1045 = "「……Đã bao nhiêu năm rồi nhỉ」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「六年四ヶ月ぶりです、双鉄様」　
 1195 = "「Là sáu năm bốn tháng rồi, cậu Soutetsu」"
-
 # monologue
 # JP: 上空から見下ろす御一夜の町並みは、\n出て行ったときと、何も変わっていないように見える。
 1592 = "Thị trấn Ohitojo nhìn xuống từ trên cao,\\ntrông chẳng có gì thay đổi so với hồi tôi rời đi."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「六年四ヶ月」
 1194 = "「Sáu năm bốn tháng」"
-
 # monologue
 # JP: だが――その内側は変わりつつある。\n僕の帰還を余儀なくするほど。
 1610 = "Nhưng――bên trong nó đang dần thay đổi.\\nĐến mức buộc tôi phải quay trở về."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「何かが変わるには十分な時間――いや。\n変わらずにいるには、長すぎる時間なのかもしれない」
 1429 = "「Đó là khoảng thời gian đủ để một điều gì đó thay đổi――không.\\nĐể giữ mọi thứ vẹn nguyên, có lẽ đó là một khoảng thời gian quá dài」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「ご命令を了解しました。\n同期間における御一夜市の変化をご報告します」
 1278 = "「Đã rõ mệnh lệnh.\\nTôi xin báo cáo về những thay đổi của thành phố Ohitojo trong khoảng thời gian này」"
-
 # monologue
 # JP: 感傷的にすぎてしまったかもしれない呟きを――\n“意図的”に、ナビは曲解して返す。
 1674 = "Một lời lẩm bẩm có phần quá đa cảm――\\nĐã bị hệ thống định vị cố tình hiểu sai ý để phản hồi."
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「行政に関しての最大の変化は、市長です。\n現在の市長には[ひない,1]雛衣・ポーレットが就任しています」
 1390 = "「Thay đổi lớn nhất về mặt hành chính chính là Thị trưởng.\\nThị trưởng hiện tại do [ひない,1]Hinai Paulette đảm nhiệm」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「[ひない,1]雛衣というと、前の市長の？」
 1450 = "「[ひない,1]Hinai... chẳng phải là của cựu Thị trưởng sao?」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「はい。ご息女です。\nしかし、行政手腕は遺伝しなかったとの評判です」
 1329 = "「Vâng. Là con gái của ông ấy.\\nTuy nhiên, có tiếng đồn rằng năng lực hành chính không được di truyền cho lắm」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「世評が無能と断じているのは、前職か？　現職か？」
 1391 = "「Dư luận đánh giá là vô năng đối với người tiền nhiệm? Hay người đương nhiệm?」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「後者のようです、双鉄様」
 1176 = "「Có vẻ là người sau, thưa cậu Soutetsu」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「なるほど。それゆえ、御一夜は衰退し、\n\x%lエアクラ;#00ffc040;エアクラ%l;#;工場の誘致話が持ち上がったわけか？」
 1224 = "「Ra vậy. Chính vì thế mà Ohitojo mới suy thoái,\\nvà câu chuyện thu hút nhà máy \\x%lAircra;#00ffc040;Aircra%l;#; mới được dấy lên sao?」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「その詳細まではわかりかねます」
 1196 = "“Về chi tiết của việc đó thì tôi không thể biết được.”"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「おっと」
 1238 = "“Ối chà.”"
-
 # monologue
 # JP: 声の調子は変わらない。
 1641 = "Giọng điệu của cô ấy vẫn không hề thay đổi."
-
 # monologue
 # JP: が――少し怒って聞こえるのは、\n僕の気のせいだけなのだろうか。
 1514 = "Nhưng――liệu có phải chỉ do tôi tự tưởng tượng ra hay không,\\nnghe qua cứ như cô ấy đang có chút giận dỗi vậy."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ナビ。お前も\x%lエアクラ;#00ffc040;エアクラ%l;#;の仲間だったな。\n気を悪くしたか？」
 1461 = "「Navi. Cô cũng là một thành viên thuộc dòng dõi \\x%lAerocraft;#00ffc040;Aerocraft%l;#; nhỉ.\\nCô có chạnh lòng không?」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「まさか。ナビは物品ですので」
 1394 = "“Làm gì có chuyện đó. Navi chỉ là một món vật phẩm thôi ạ.”"
-
 # monologue
 # JP: \x%lエアクラ;#00ffc040;エアクラ%l;#;――正式名称をエアロクラフテック機関。\nエアロ＝クラフテック社による“世界を変えた”発明品。
 78 = "\\x%lAerocraft;#00ffc040;Aerocraft%l;#;――tên gọi chính thức là động cơ Aerocraftech.\\nMột phát minh “thay đổi thế giới” của công ty Aero-Craftech."
-
 # monologue
 # JP: 地磁気と太陽光とを利用する超高効率のその発動機は、\n化石燃料エンジンをほぼ、駆逐した。
 1533 = "Loại động cơ hiệu suất siêu cao sử dụng địa từ và ánh sáng mặt trời này\\ngần như đã hoàn toàn khai tử các động cơ chạy bằng nhiên liệu hóa thạch."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「怒ってないなら良かったさ」
 1344 = "“Nếu cô không giận thì tốt rồi.”"
-
 # monologue
 # JP: 地上を行くもの、水面を行くもの、空を行くもの――
 1554 = "Từ những thứ di chuyển trên mặt đất, trên mặt nước, cho đến những thứ bay lượn trên bầu trời――"
-
 # monologue
 # JP: \x%lエアクラ;#00ffc040;エアクラ%l;#;機関を使う乗り物全ても、機関同様、\n単に“\x%lエアクラ;#00ffc040;エアクラ%l;#;”と総称される。
 1516 = "Tất cả các phương tiện giao thông sử dụng động cơ \\x%lAerocraft;#00ffc040;Aerocraft%l;#; cũng vậy, giống như tên động cơ,\\nđều được gọi chung một cách ngắn gọn là “\\x%lAerocraft;#00ffc040;Aerocraft%l;#;”."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「お前のように優秀なナビを、\n敵に回したくはないからな」
 1308 = "“Bởi vì tôi không hề muốn\\nphải đối đầu với một Navi ưu tú như cô đâu.”"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「敵も味方も、双鉄様のご命令のままに。\nナビはあくまで物品ですので」
 1350 = "“Dù là đồng minh hay kẻ thù, tất cả đều tuân theo mệnh lệnh của ngài Soutetsu.\\nNavi suy cho cùng cũng chỉ là một món vật phẩm mà thôi.”"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ふむ」
 1239 = "“Hửm.”"
-
 # monologue
 # JP: ナビという物品。\x%lエアクラ;#00ffc040;エアクラ%l;#;・ナビ。\n\x%lエアクラ;#00ffc040;エアクラ%l;#;とともに急発展し、一般にまで普及した擬似知能。
 1637 = "Một vật phẩm được gọi là Navi. \\x%lAircraft;#00ffc040;Aircraft%l;#;・Navi. \\n\\xTrí tuệ nhân tạo phát triển vượt bậc cùng với %lAircraft;#00ffc040;Aircraft%l;#; và trở nên phổ biến rộng rãi đến công chúng."
-
 # monologue
 # JP: “\x%l共感;#00ffc040;共感%l;#;運用”というその最大の特徴は、\n交通渋滞という概念を過去のものとした。
 1589 = "Đặc trưng lớn nhất mang tên “\\x%lThấu cảm;#00ffc040;Thấu cảm%l;#; Vận hành” ấy,\\nđã biến khái niệm tắc nghẽn giao thông lui vào quá khứ."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「お前たちは確かに便利な物品だよ。\nナビと\x%lエアクラ;#00ffc040;エアクラ%l;#;なしでは、移動一つさえ大騒動だ」
 1181 = "「Các cô đúng là những vật dụng tiện lợi thật đấy.\\nKhông có điều hướng và \\x%lPhi cơ;#00ffc040;Phi cơ%l;#; thì đến việc di chuyển thôi cũng thành một trận đại náo rồi」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「その便利な物品を作る工場を、双鉄様は、\n御一夜に誘致してほしくはないとおっしゃっています」
 1352 = "「Nhưng ngài Soutetsu lại nói rằng, ngài không muốn\\nthu hút nhà máy sản xuất ra những vật dụng tiện lợi đó về Ohitoyo」"
-
 # monologue
 # JP: 事実確認。\nの皮をかぶった、詰問としか聞こえない。
 1621 = "Xác nhận sự thật.\\nNhưng nghe qua không khác gì một lời chất vấn được ngụy trang."
-
 # monologue
 # JP: 世間一般のナビよりも、\nうちのはどうにも人間臭く思えてならない。
 1614 = "So với những hệ thống điều hướng thông thường ngoài thế gian,\\nthì cô nàng nhà tôi trông có vẻ giống con người đến lạ lùng."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「エゴだがな。\nこの光景を目にしてしまえば――」
 1422 = "「Chỉ là ích kỷ thôi.\\nNhưng nếu đã được tận mắt chứng kiến cảnh tượng này thì――」"
-
 # monologue
 # JP: 僕の意を酌み、ナビが機体を傾ける。
 1623 = "Hiểu được ý tôi, hệ thống điều hướng liền nghiêng thân phi cơ."
-
 # monologue
 # JP: だから視線はすぐに捉える――眼下を流れる光の帯を。\n太陽の煌きを豊かに返す、御一夜の象徴、クマ川を。
 1551 = "Thế nên tầm mắt tôi lập tức bắt trọn――dải sáng đang trôi lững lờ bên dưới.\\nSông Kuma, biểu tượng của Ohitoyo, đang phản chiếu rạng rỡ ánh hoàng kim của vầng thái dương."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「御一夜以外に作って欲しいと思わずにはいられんのだ。\nここは、僕のもうひとつの故郷なのだから」
 1359 = "「Tôi không thể ngừng nghĩ rằng mình muốn họ xây dựng nó ở một nơi nào khác ngoài Ohitoyo.\\nBởi vì nơi đây chính là quê hương thứ hai của tôi」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「承知しています。まもなく、目的地の[みぎたいちしゅぞうもと,5]右田一酒造元です。\n上空を一度通過しますか？」
 1170 = "「Tôi rõ rồi. Chúng ta sẽ sớm đến [みぎたいちしゅぞうもと,5]xưởng rượu Migitaichi thôi. \\nCó cần bay qua bầu trời đó một lần không?」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「そうだな、着水前に一度上から見ておこう」
 1168 = "「Phải rồi, trước khi đáp xuống nước thì cứ quan sát từ trên cao một chút đã」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「ご命令を了解しました」
 1289 = "「Rõ mệnh lệnh」"
-
 # monologue
 # JP: 機体姿勢を即座に戻し、けれど航路は変更しない。
 1601 = "Thân phi cơ lập tức lấy lại thăng bằng, nhưng lộ trình bay vẫn không hề thay đổi."
-
 # monologue
 # JP: どうやら僕の“ご命令”は、\nあらかじめ予測されていたらしい。
 1616 = "Có vẻ như “mệnh lệnh” của tôi\\nđã nằm trong dự tính của cô ấy từ trước rồi."
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「目的地上空です」
 1213 = "「Đã đến không phận phía trên điểm đích」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「言われずともだ」
 1426 = "「Không cần cậu phải nói」"
-
 # monologue
 # JP: 見間違えようはずもない。\n古ぼけた瓦屋根、庭にずらりと並んだタンク。
 1593 = "Không thể nào lầm vào đâu được.\\nMái ngói rêu phong cũ kỹ, những chiếc bồn xếp thành hàng dài trong sân."
-
 # monologue
 # JP: 生家という言葉に習うのならば、僕の育家である\n――右田一酒造元の、その姿を。
 1634 = "Nếu ví nơi chôn rau cắt rốn là nhà sinh, thì đây chính là nhà dưỡng của tôi\\n――Hình bóng ấy của Hãng rượu Migata Nhất Chi Bản."
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「高度を下げた方がよろしいでしょうか？」
 1452 = "「Tôi có nên hạ độ cao xuống không ạ?」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「いや、仕事の邪魔になっては――おや？」
 1163 = "「Không, làm vậy sẽ cản trở công việc mất――Ủa?」"
-
 # monologue
 # JP: はるか眼下に、豆粒のような人影が、\nなのに大きく動いている。
 1648 = "Từ trên cao nhìn xuống, một bóng người bé xíu như hạt đậu\\nNhưng lại đang chuyển động rất mạnh mẽ."
-
 # monologue
 # JP: ぴょこぴょこ飛び跳ね、\nそれからダっ、と、蔵の中へと駆け込んでいく。
 1560 = "Dáng người ấy cứ nhảy choi choi lên,\\nRồi đột nhiên chạy vụt lao thẳng vào trong kho."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「[ひびき,2]日々姫か。相変わらずの様子だな。\n少しは大人になったかと想像していたのだが」
 1326 = "「Là [ひびき,2]Hibiki à. Xem ra vẫn thế nhỉ. \\nCứ ngỡ là em đã người lớn hơn một chút rồi chứ」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「明確な変化が見られます。\n以前の日々姫様には無い行動です」
 1433 = "「Có sự thay đổi rõ rệt đấy ạ.\\nĐây là hành động trước đây tiểu thư Hibiki chưa từng làm」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ――なるほど、確かに」
 1240 = "「À――Ra vậy, quả đúng là thế」"
-
 # monologue
 # JP: 以前のままの日々姫ならば、\n“蔵へ駆け込み報告をする”などと決してしなかったろう。
 1632 = "Nếu là Hibiki của ngày trước,\\nChắc chắn em ấy sẽ chẳng bao giờ “chạy ngay vào kho để báo cáo” như thế này."
-
 # monologue
 # JP: 良くて、機影をそのまま追ったか……\n虫の居所が悪ければ、知らん顔さえしたかもしれない。
 1584 = "Có khi tốt hơn thì cứ đứng dõi theo bóng máy bay...\\nCòn nếu tâm trạng không vui, có khi còn vờ như không thấy ấy chứ."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ならば、実地で確かめるとしよう。\nナビ、最適地点に着水してくれ」
 1323 = "「Vậy thì, cứ phải thực tế kiểm tra mới biết được.\\nNavi, hạ cánh xuống mặt nước ở điểm tối ưu nhất nhé」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「ご命令を了解しました。\n着水地点をサーチします」
 1282 = "「Đã rõ mệnh lệnh.\\nĐang tìm kiếm điểm đáp trên mặt nước」"
-
 # monologue
 # JP: “試作機”だった\x%lエアクラ;#00ffc040;エアクラ%l;#;は、静かに高度を下げていく。
 1597 = "Chiếc \\x%lPhi cơ;#00ffc040;Aircraft%l;#; vốn là “bản thử nghiệm”, bắt đầu từ từ hạ thấp độ cao."
-
 # monologue
 # JP: 十数年前の技術の粋は、\nいまだ、わずかな錆さえ見せない。
 1535 = "Tinh hoa công nghệ của mười mấy năm trước,\\nđến nay vẫn chưa hề lộ ra dù chỉ một chút rỉ sét."
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「あと120秒で着水します。\n着水後は\x%l駐機;#00ffc040;駐機%l;#;モードに移行してよろしいですか？」
 1275 = "「Còn 120 giây nữa sẽ đáp xuống nước. \\nSau khi đáp nước, tôi chuyển sang chế độ \\x%lđỗ bãi;#00ffc040;đỗ bãi%l;#; được chứ?」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うむ。頼む」
 1254 = "「Ừm. Nhờ cô.」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「ご命令を了解しました。\n着水後、\x%l駐機;#00ffc040;駐機%l;#;モードに移行します」
 1285 = "「Đã rõ mệnh lệnh. \\nSau khi đáp nước, tôi sẽ chuyển sang chế độ \\x%lđỗ bãi;#00ffc040;đỗ bãi%l;#;.」"
-
 # monologue
 # JP: クマ川の水が近くなる。\n上から青に見えていたのが、深い緑に見えてくる。
 1662 = "Dòng nước sông Kuma đang đến gần.\\nMặt nước nhìn từ trên cao có màu xanh lam, giờ đã chuyển sang màu xanh lục đậm."
-
 # monologue
 # JP: 着水し、ナビの\x%l翼端;#00ffc040;翼端%l;#;を歩いて渡り岸に下りれば――\n御一夜だ。
 1659 = "Đáp xuống nước, bước qua \\x%lđầu cánh;#00ffc040;đầu cánh%l;#; của Navi để lên bờ―― \\nĐó chính là Ohityo."
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「着水します。\n双鉄様――」
 1223 = "「 Chuẩn bị đáp mặt nước.\\nCậu Soutetsu――」"
-
 # monologue
 # JP: 沈黙。\nナビにはありえないほど、長い沈黙。
 1606 = "Im lặng.\\nMột khoảng lặng dài đến mức không thể tin nổi đối với một Navi."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「どうした、ナビ？」
 1299 = "「Sao thế, Navi?」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「『お疲れ様でした』と『いってらっしゃいませ』。\nどちらが適正なご挨拶でしょうか？」
 1032 = "「『Chúc mừng cậu đã hoàn thành công việc』 và 『Chúc cậu thượng lộ bình an』.\\nĐâu mới là lời chào phù hợp hơn ạ?」"
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ」
 1242 = "「À.」"
-
 # monologue
 # JP: 帰宅したときは『お疲れ様』。\n目的地についたときには『いってらっしゃい』。
 1550 = "Khi về đến nhà thì nói 『Cậu đã vất vả rồi』.\\nKhi đến đích thì nói 『Chúc cậu lên đường bình an』."
-
 # monologue
 # JP: それが、ナビのデフォルトの挨拶だ。
 1646 = "Đó là những lời chào mặc định của Navi."
-
 # 【双鉄】
 # display as 雙鐵
 # JP: 「お前に任せる。\nどちらでもそう大差はないさ」
 1445 = "「Tùy cô quyết định.\\nCái nào thì cũng không khác biệt lắm đâu.」"
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「ご命令を了解しました。\nそれでは、双鉄様」
 1280 = "「Đã rõ mệnh lệnh.\\nVậy thì, cậu Soutetsu.」"
-
 # monologue
 # JP: そして、着水。\n立ったであろう水音は、川の流れにかき消される。
 1677 = "Và rồi, chạm nước.\\nTiếng động đáng lẽ phải vang lên khi tiếp nước, đã bị dòng chảy của con sông nuốt chửng."
-
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「『どうぞ、お気をつけていってらっしゃいませ』」

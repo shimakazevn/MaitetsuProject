@@ -25,6 +25,9 @@ import subprocess
 import glob
 import time
 
+if sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+
 # ── Paths ──────────────────────────────────────────────────────────────
 GAME_DIR       = r"E:\まいてつ Last Run!!"
 PROJECT_DIR    = r"E:\MaitetsuProject"
@@ -77,7 +80,7 @@ def compile_toml(toml_path, old_scn_dir=OLD_SCN_DIR, new_scn_dir=NEW_SCN_DIR):
 
     result = subprocess.run(
         [INSERTER_EXE, toml_path, old_scn, new_scn],
-        capture_output=True, text=True
+        capture_output=True, text=True, encoding='utf-8', errors='replace'
     )
 
     if result.returncode != 0:
