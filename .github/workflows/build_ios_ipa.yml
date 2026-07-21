@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
     inputs:
       include_patch:
-        description: 'Nhúng sẵn patch3.xp3 Việt Hóa vào .ipa (All-in-One)'
+        description: 'Nhúng sẵn patch3.xp3 Việt Hóa vào .ipa (Phương án B: All-in-One)'
         type: boolean
         required: true
-        default: true
+        default: false
 
 jobs:
   build-ios:
@@ -36,8 +36,8 @@ jobs:
           sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
           xcodebuild -version
 
-      - name: Copy Vietnamese Patch3.xp3 to Asset Folder (If selected)
-        if: ${{ inputs.include_patch == true || github.event_name == 'push' }}
+      - name: Copy Vietnamese Patch3.xp3 to Asset Folder (Phương án B)
+        if: ${{ inputs.include_patch == true }}
         run: |
           mkdir -p krkr2_next/apps/flutter_app/assets/game/
           if [ -f "patch3.xp3" ]; then
