@@ -1,0 +1,68 @@
+name: Build iOS IPA (Maitetsu Viet Hoa Launcher)
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+    inputs:
+      include_patch:
+        description: 'Nhúng sẵn patch3.xp3 Việt Hóa vào .ipa (All-in-One)'
+        type: boolean
+        required: true
+        default: true
+
+jobs:
+  build-ios:
+    runs-on: macos-14
+    steps:
+      - name: Checkout Maitetsu Project
+        uses: actions/checkout@v4
+
+      - name: Checkout KrKr2-Next Engine Repo
+        uses: actions/checkout@v4
+        with:
+          repository: 'reAAAq/KrKr2-Next'
+          path: 'krkr2_next'
+
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.22.x'
+          channel: 'stable'
+          cache: true
+
+      - name: Setup Xcode Environment
+        run: |
+          sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
+          xcodebuild -version
+
+      - name: Copy Vietnamese Patch3.xp3 to Asset Folder (If selected)
+        if: ${{ inputs.include_patch == true || github.event_name == 'push' }}
+        run: |
+          mkdir -p krkr2_next/apps/flutter_app/assets/game/
+          if [ -f "patch3.xp3" ]; then
+            cp patch3.xp3 krkr2_next/apps/flutter_app/assets/game/
+            echo "Copied patch3.xp3 to assets!"
+          fi
+
+      - name: Build Flutter iOS App (.ipa unsigned)
+        run: |
+          cd krkr2_next/apps/flutter_app
+          flutter pub get
+          flutter build ios --release --no-codesign
+
+      - name: Package Payload into .ipa Archive
+        run: |
+          mkdir -p build_output/Payload
+          cp -R krkr2_next/apps/flutter_app/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app build_output/Payload/ || \
+          cp -R krkr2_next/apps/flutter_app/build/ios/iphoneos/Runner.app build_output/Payload/
+          cd build_output
+          zip -r Maitetsu_VietHoa_iOS.ipa Payload
+          echo "IPA created at build_output/Maitetsu_VietHoa_iOS.ipa"
+
+      - name: Upload IPA Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Maitetsu_VietHoa_iOS.ipa
+          path: build_output/Maitetsu_VietHoa_iOS.ipa
+          retention-days: 14
