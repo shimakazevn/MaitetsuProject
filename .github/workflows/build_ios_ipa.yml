@@ -18,10 +18,11 @@ jobs:
       - name: Checkout Maitetsu Project
         uses: actions/checkout@v4
 
-      - name: Checkout KrKr2-Next Engine Repo
+      - name: Checkout KrKr2-Next Engine Repo (Our Fork with iOS Patches)
         uses: actions/checkout@v4
         with:
-          repository: 'reAAAq/KrKr2-Next'
+          repository: 'shimakazevn/KrKr2-Next'
+          ref: 'main'
           path: 'krkr2_next'
 
       - name: Setup Flutter SDK
