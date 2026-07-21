@@ -35,6 +35,10 @@ jobs:
           sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
           xcodebuild -version
 
+      - name: Install Build Dependencies (CMake & Ninja)
+        run: |
+          brew install cmake ninja
+
       - name: Copy Vietnamese Patch3.xp3 to Asset Folder (Phương án B)
         if: ${{ inputs.include_patch == true }}
         run: |
@@ -44,11 +48,11 @@ jobs:
             echo "Copied patch3.xp3 to assets!"
           fi
 
-      - name: Build Flutter iOS App (.ipa unsigned)
+      - name: Build C++ Native Engine & Flutter iOS App (.ipa unsigned)
         run: |
-          cd krkr2_next/apps/flutter_app
-          flutter pub get
-          flutter build ios --release --no-codesign
+          cd krkr2_next
+          chmod +x build.sh build/*.sh
+          ./build.sh ios release
 
       - name: Package Payload into .ipa Archive
         run: |
