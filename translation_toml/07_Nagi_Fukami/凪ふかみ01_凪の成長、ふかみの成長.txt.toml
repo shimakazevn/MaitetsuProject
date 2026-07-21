@@ -2,22 +2,22 @@
 [info]
 
 [characters]
-2113 = "ハチロク"
-2164 = "凪"
-2192 = "双鉄"
-2064 = "ふかみ"
-2104 = "れいな"
-2130 = "ポーレット"
+2113 = "Hachiroku"
+2164 = "Nagi"
+2192 = "Soutetsu"
+2064 = "Fukami"
+2104 = "Reina"
+2130 = "Paulette"
 
 [character_subs]
-2455 = "雙鐵＆八六"
-# 2164 = "凪"
-2454 = "雙鐵"
-2156 = "八六"
-2368 = "深美"
-2456 = "雙鐵＆深美"
-2386 = "玲奈"
-2365 = "波萊特"
+2455 = "Soutetsu & Hachiroku"
+2164 = "Nagi"
+2454 = "Soutetsu"
+2156 = "Hachiroku"
+2368 = "Fukami"
+2456 = "Soutetsu & Fukami"
+2386 = "Reina"
+2365 = "Paulette"
 
 [script]
 # lines: 368 
@@ -193,8 +193,8 @@
 # JP: まだ伸びる！
 2451 = "Vẫn còn vọt lên được nữa á!"
 # monologue
-# JP: いっつもだったらそろぞろ\x%l絶気;#00ffc040;絶気%l;#;しとるとこでも、\nまだまだ\x%l力行;#00ffc040;力行%l;#;続くけん、投炭の手も休められん。
-2416 = "Mọi khi thì giờ này chuẩn bị \x%l絶気;#00ffc040;cắt hơi%l;#; rồi á,\nnhưng vẫn còn tiếp tục \x%l力行;#00ffc040;chạy kéo tải%l;#; nên tay xúc than dồn toa cũng không được nghỉ á."
+# JP: いっつもだったらそろぞろ\\x%l絶気;#00ffc040;絶気%l;#;しとるとこでも、\nまだまだ\\x%l力行;#00ffc040;力行%l;#;続くけん、投炭の手も休められん。
+2416 = "Mọi khi thì giờ này chuẩn bị \\x%l絶気;#00ffc040;cắt hơi%l;#; rồi á,\nnhưng vẫn còn tiếp tục \\x%l力行;#00ffc040;chạy kéo tải%l;#; nên tay xúc than dồn toa cũng không được nghỉ á."
 # monologue
 # JP: （ざくっ！　がっ！　ざくっ！　がっ！！）
 # 2476 = "（吱！呀！吱！呀！）" 
@@ -211,7 +211,7 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「……双鉄様、加減弁、閉じてもよろしいかと」
-1216 = "「……Ngài Soutetsu, đã có thể đóng van tiết lưu hơi được rồi ạ」"
+1216 = "「......Ngài Soutetsu, đã có thể đóng van tiết lưu hơi được rồi ạ」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うむ。逆転機、ミッドギア。\n加減弁、閉じーーーーーーーーーる」
@@ -231,8 +231,8 @@
 # JP: 「逆転機、前進フルギア」
 1668 = "「Cần đảo chiều, cài hết số tiến」"
 # monologue
-# JP: こいで\x%l絶気;#00ffc040;絶気%l;#;運転ばい！\nここからしばらく、慣性で走っていくだけと！
-2442 = "Vậy là bắt đầu chạy \x%l絶気;#00ffc040;cắt hơi%l;#; rồi á!\nTừ đây một đoạn, tàu chỉ chạy bằng quán tính thôi á!"
+# JP: こいで\\x%l絶気;#00ffc040;絶気%l;#;運転ばい！\nここからしばらく、慣性で走っていくだけと！
+2442 = "Vậy là bắt đầu chạy \\x%l絶気;#00ffc040;cắt hơi%l;#; rồi á!\nTừ đây một đoạn, tàu chỉ chạy bằng quán tính thôi á!"
 # 【凪】
 # display as 凪
 # JP: 「っ！！！」
@@ -312,7 +312,7 @@
 # 【凪】
 # display as 凪
 # JP: 「あー……そぎゃんとなら、にーさんだったら、\n確かにめんどーなことになったかもしれんとねー」
-1608 = "「A……Nếu vậy thì, đổi lại là anh hai,\nchắc chắn mọi chuyện đã trở nên rắc rối rồi ha.」"
+1608 = "「A......Nếu vậy thì, đổi lại là anh hai,\nchắc chắn mọi chuyện đã trở nên rắc rối rồi ha.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「だな。日ノ本人の鉄道マニ」
@@ -351,7 +351,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「その辺の事情は……どうなのかな。\n冥国はエアクラ発祥の地でもあるし――ハチロク？」
-1950 = "「Tình hình bên đó thì……thế nào nhỉ.\nMỹ cũng là nơi khởi nguồn của Aircra mà——Hachiroku?」"
+1950 = "「Tình hình bên đó thì......thế nào nhỉ.\nMỹ cũng là nơi khởi nguồn của Aircra mà——Hachiroku?」"
 # 【ハチロク】
 # display as 八六
 # JP: 「わたくしも[さっこん,1]昨今の事情は存じ上げませんが――\n[きよみ,1]清美機関士から、お伺いしたことはございます」
@@ -382,7 +382,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「むぅ……。\nやはり、豊かな国は考え方が極端に違うな」
-1602 = "「Ưm……\nQuả nhiên, những quốc gia giàu có thì cách suy nghĩ cũng khác biệt hoàn toàn.」"
+1602 = "「Ưm......\nQuả nhiên, những quốc gia giàu có thì cách suy nghĩ cũng khác biệt hoàn toàn.」"
 # 【ハチロク】
 # display as 八六
 # JP: 「まことに、ですね。ですが、その豊かさ、贅沢さは、\n恐らく、お二人のお考えとは、少し意味あいが違うかと」
@@ -476,8 +476,8 @@
 1772 = "「Vâng, có chuyện gì sao, ngài Soutetsu?」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「冥国式に作られた車両は、海外には売れん気がする。\nが、実際、日ノ本にも冥国出身の輸入\x%l蒸機;#00ffc040;蒸機%l;#;は多いよな？」
-1955 = "「Anh cảm giác những toa xe được chế tạo theo kiểu Mỹ sẽ không bán được ra nước ngoài.\nNhưng thực tế, ở Hinomoto cũng có rất nhiều \x%l蒸機;#00ffc040;đầu máy hơi nước%l;#; nhập khẩu từ Mỹ đúng không?」"
+# JP: 「冥国式に作られた車両は、海外には売れん気がする。\nが、実際、日ノ本にも冥国出身の輸入\\x%l蒸機;#00ffc040;蒸機%l;#;は多いよな？」
+1955 = "「Anh cảm giác những toa xe được chế tạo theo kiểu Mỹ sẽ không bán được ra nước ngoài.\nNhưng thực tế, ở Hinomoto cũng có rất nhiều \\x%l蒸機;#00ffc040;đầu máy hơi nước%l;#; nhập khẩu từ Mỹ đúng không?」"
 # 【ハチロク】
 # display as 八六
 # JP: 「それは――」
@@ -570,18 +570,18 @@
 1647 = "「Ừm. Ở nhà tớ cũng rảnh rỗi hơn rồi.\nNên tớ đã đánh bạo ứng cử luôn.」"
 # monologue
 # JP: にこおって、ふかみちゃんば笑いよる。\n……にーさんと会う前だったら、考えられんこと。
-2318 = "Fukami cười thật tươi.\n……Chuyện này thật không thể tưởng tượng nổi nếu là trước khi gặp anh hai."
+2318 = "Fukami cười thật tươi.\n......Chuyện này thật không thể tưởng tượng nổi nếu là trước khi gặp anh hai."
 # monologue
 # JP: 船頭さんたちをまた雇えるようになったことも、\nふかみちゃんが、クラスの係に立候補！　したことも！！
 2387 = "Cả việc có thể thuê lại những người lái đò,\nvà cả việc Fukami ứng cử làm cán sự lớp nữa!!"
 # 【ふかみ】
 # display as 深美
 # JP: 「[このこ,3]8620の……バーベキュー列車のおかげ。\n御一夜が元気を取り戻せたの、本当に」
-1968 = "「Nhờ có 8620……và đoàn tàu BBQ.\nOhimitera đã thực sự lấy lại được sức sống rồi.」"
+1968 = "「Nhờ có 8620......và đoàn tàu BBQ.\nOhimitera đã thực sự lấy lại được sức sống rồi.」"
 # 【凪】
 # display as 凪
-# JP: 「よかことばい！\nそいで、朝イチの\x%lキハ07s;#00ffc040;キハ07s%l;#;で来たと？」
-1688 = "「Tuyệt quá! \nVậy cậu đến đây bằng chuyến \x%lキハ07s;#00ffc040;Kiha 07S%l;#; đầu tiên vào buổi sáng hả?」"
+# JP: 「よかことばい！\nそいで、朝イチの\\x%lキハ07s;#00ffc040;キハ07s%l;#;で来たと？」
+1688 = "「Tuyệt quá! \nVậy cậu đến đây bằng chuyến \\x%lキハ07s;#00ffc040;Kiha 07S%l;#; đầu tiên vào buổi sáng hả?」"
 # 【ふかみ】
 # display as 深美
 # JP: 「うん。本も借りてたら、半端な時間になっちゃって。\nそれで、凪ちゃんに会っていこうって、待ってたの」
@@ -722,7 +722,7 @@
 # 【ふかみ】
 # display as 深美
 # JP: 「これ……えと、\n双鉄おにいさんが飲む分、ですよね？」
-1949 = "「Cái này……ưm,\nlà phần của anh Soutetsu uống phải không ạ?」"
+1949 = "「Cái này......ưm,\nlà phần của anh Soutetsu uống phải không ạ?」"
 # 【凪】
 # display as 凪
 # JP: 「！！」
@@ -868,7 +868,7 @@
 # 【ふかみ】
 # display as 深美
 # JP: 「様子を観察って……\n凪ちゃんの、何を、です？」
-1924 = "「Quan sát biểu hiện……\nLà quan sát cái gì của Nagi vậy ạ?」"
+1924 = "「Quan sát biểu hiện......\nLà quan sát cái gì của Nagi vậy ạ?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「無論。すべてだ。投炭技術、カマのあしらい。\n整備・清掃。知識、接客――その他もろもろ」
@@ -986,8 +986,8 @@
 1758 = "「Sư phụ á!? Cậu gặp ở đâu vậy?」"
 # 【ふかみ】
 # display as 深美
-# JP: 「\x%lキハ07s;#00ffc040;キハ07s%l;#;の中で。\n山に修行にいくとかいってた」
-1673 = "「Ở trên \x%lキハ07s;#00ffc040;Kiha 07S%l;#;.\nCô ấy nói là đi lên núi tu luyện hay gì đó.」"
+# JP: 「\\x%lキハ07s;#00ffc040;キハ07s%l;#;の中で。\n山に修行にいくとかいってた」
+1673 = "「Ở trên \\x%lキハ07s;#00ffc040;Kiha 07S%l;#;.\nCô ấy nói là đi lên núi tu luyện hay gì đó.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「湯医からなら、[しちふさ,1]七房山か？」
@@ -1054,7 +1054,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……凪が言っているのは、\n『全日ノ本[れんせい,1]錬成大会』のことだよな？　剣道の」
-1209 = "「……Nagi đang nói đến,\n『Đại hội Rèn luyện toàn Hinomoto』 phải không? Về kiếm đạo ấy.」"
+1209 = "「......Nagi đang nói đến,\n『Đại hội Rèn luyện toàn Hinomoto』 phải không? Về kiếm đạo ấy.」"
 # 【凪】
 # display as 凪
 # JP: 「そうばい！　にーさん、くわしかと――\nって、もしかしてにーさんも出場経験あると！？」
@@ -1075,14 +1075,14 @@
 1204 = "「——Em đã tham gia vòng loại chưa?」"
 # monologue
 # JP: へ？\nええと……
-2244 = "Hả?\nƯm……"
+2244 = "Hả?\nƯm......"
 # monologue
 # JP: なにいわれてるのか、よーわからんばい。
 2441 = "Anh ấy đang nói gì vậy, mình không hiểu lắm."
 # 【凪】
 # display as 凪
 # JP: 「よせん……って――何の予選ばい？？？」
-1979 = "「Dòng lọi……là sao——Vòng loại gì cơ???」"
+1979 = "「Dòng lọi......là sao——Vòng loại gì cơ???」"
 # monologue
 # JP: （だだだだだっ！）
 2484 = "（Bịch bịch bịch bịch bịch!）"
@@ -1107,7 +1107,7 @@
 # 【凪】
 # display as 凪
 # JP: 「なんでもなかとばい！\nただ、うちが、その……準備不足だっただけばい」
-1860 = "「Không có chuyện gì đâu!\nChỉ là, ừm……mình chuẩn bị chưa được kỹ càng thôi.」"
+1860 = "「Không có chuyện gì đâu!\nChỉ là, ừm......mình chuẩn bị chưa được kỹ càng thôi.」"
 # 【れいな】
 # display as 玲奈
 # JP: 「準備不足、ですかぁ？」
@@ -1125,14 +1125,14 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「凪ちゃんのお師匠さん……って、剣術の？」
-1732 = "「Sư phụ của Nagi……là sư phụ dạy kiếm thuật ấy hả?」"
+1732 = "「Sư phụ của Nagi......là sư phụ dạy kiếm thuật ấy hả?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うむ。凪を剣道大会に出場させたいとのことでな。\nが、その準備が全くできていない」
 1632 = "「Ừm. Nghe nói là muốn cho Nagi tham gia giải đấu kiếm đạo.\nNhưng lại chẳng chuẩn bị gì cả.」"
 # monologue
 # JP: ううう……恥ずかしかー。
-2245 = "Ư ư ư……Xấu hổ quá đi."
+2245 = "Ư ư ư......Xấu hổ quá đi."
 # monologue
 # JP: 道場剣道の大会の仕組みなんて、\nうちもお師匠さんも、まったく知らんかったけん――
 2237 = "Cách thức tổ chức giải đấu kiếm đạo ở võ đường,\ncả mình và sư phụ đều hoàn toàn mù tịt mà——"
@@ -1173,7 +1173,7 @@
 # 【ふかみ】
 # display as 深美
 # JP: 「困ったときはお互いさまだよ、凪ちゃん。\nそれに……うふふ、ナビちゃんにも乗れたし、役得っ」
-1833 = "「Lúc khó khăn thì phải giúp đỡ lẫn nhau chứ, Nagi.\nHơn nữa……fufufu, tớ còn được cưỡi Navi nữa, lời to rồi.」"
+1833 = "「Lúc khó khăn thì phải giúp đỡ lẫn nhau chứ, Nagi.\nHơn nữa......fufufu, tớ còn được cưỡi Navi nữa, lời to rồi.」"
 # 【れいな】
 # display as 玲奈
 # JP: 「あ！　ふかみさんだけ、\n大回りでナビさんにのって、かえってきたんですねぇ」

@@ -2,23 +2,23 @@
 [info]
 
 [characters]
-2755 = "赤井"
-2800 = "電車区長"
-2542 = "後東"
-2620 = "技工Ａ"
-2622 = "技工Ｂ"
-2441 = "先輩"
-2282 = "ニイロク"
+2755 = "Akai"
+2800 = "Trưởng ga tàu điện"
+2542 = "Gotou"
+2620 = "Kỹ thuật viên A"
+2622 = "Kỹ thuật viên B"
+2441 = "Tiền bối"
+2282 = "Niiroku"
 
 [character_subs]
-# 2755 = "赤井"
-2807 = "電車段長"
-2473 = "司機Ａ"
-# 2542 = "後東"
-# 2620 = "技工Ａ"
-# 2622 = "技工Ｂ"
-2459 = "前輩"
-2360 = "二六"
+2755 = "Akai"
+2807 = "Trưởng ga tàu điện"
+2473 = "Tài xế A"
+2542 = "Gotou"
+2620 = "Kỹ thuật viên A"
+2622 = "Kỹ thuật viên B"
+2459 = "Tiền bối"
+2360 = "Niiroku"
 
 [script]
 # lines: 470 
@@ -167,10 +167,10 @@
 # 【赤井】
 # display as 赤井
 # JP: 「……とにかく、読みます。\n『１：鉄道全廃へのロードマップ』」
-1298 = "「……Dù sao thì, tôi sẽ đọc.\n『1: Lộ trình tiến tới bãi bỏ toàn bộ đường sắt』」"
+1298 = "「......Dù sao thì, tôi sẽ đọc.\n『1: Lộ trình tiến tới bãi bỏ toàn bộ đường sắt』」"
 # monologue
 # JP: ……読み進むにつれ、沈黙の質が変化します。\n疑心暗鬼は、静かに、闇に呑まれていくようです。
-1220 = "……Càng đọc tiếp, bản chất của sự im lặng càng thay đổi.\nSự bán tín bán nghi, dường như đang lặng lẽ bị bóng tối nuốt chửng."
+1220 = "......Càng đọc tiếp, bản chất của sự im lặng càng thay đổi.\nSự bán tín bán nghi, dường như đang lặng lẽ bị bóng tối nuốt chửng."
 # monologue
 # JP: 深く、黒く、濃く、重い。\n絶望という名の、冷たい闇に。
 2778 = "Sâu thẳm, đen kịt, đặc quánh, nặng nề.\nVào bóng tối lạnh lẽo mang tên tuyệt vọng."
@@ -182,7 +182,7 @@
 2777 = "Một 『Kế hoạch vận tải』 được nhìn nhận một cách thấu đáo đến mức tàn nhẫn,\nkhông chỉ trong nước Hinomoto mà còn mang góc nhìn từ nước ngoài."
 # monologue
 # JP: エアクラ推進のため、鉄道は、徐々に――\nそのイメージも含め弱体化させられてきたのだと……
-2514 = "Vì mục đích thúc đẩy Aircra, đường sắt, đang dần dần——\nbị làm cho suy yếu, bao gồm cả hình ảnh của nó……"
+2514 = "Vì mục đích thúc đẩy Aircra, đường sắt, đang dần dần——\nbị làm cho suy yếu, bao gồm cả hình ảnh của nó......"
 # monologue
 # JP: （いや――そういってしまうのは、甘えですね。\nイメージ悪化は、我々自身の弱さでしかない）
 2820 = "（Không——nói như vậy, thì quá ngây thơ rồi.\nHình ảnh trở nên tồi tệ đi, chỉ là do sự yếu kém của chính chúng ta mà thôi）"
@@ -200,7 +200,7 @@
 2484 = "Ngay cả trong thời kỳ mà tình hình tốt hơn bây giờ rất nhiều,\nvà sĩ khí của các nhân viên vẫn còn cao."
 # monologue
 # JP: 自発的な改善案が、どれほど根こそぎ潰されたのか\n……振り返るなら、絶望の黒は濃さを増します。
-2491 = "Những phương án cải thiện tự phát đã bị bóp nghẹt tận gốc đến nhường nào\n……Nếu nhìn lại, sắc đen của sự tuyệt vọng càng thêm đậm đặc."
+2491 = "Những phương án cải thiện tự phát đã bị bóp nghẹt tận gốc đến nhường nào\n......Nếu nhìn lại, sắc đen của sự tuyệt vọng càng thêm đậm đặc."
 # 【後東】
 # display as 後東
 # JP: 「全部――計画通りに運ばれてきたって訳かよ。\n今日ここで巻き込まれてる、クソ茶番さえもよぉ！」
@@ -280,7 +280,7 @@
 # 【電車区長】
 # display as 電車段長
 # JP: 「電化路線と電車達。未来ば[いっとき,1]一時は潰しても……\nそいでん、生き残らせるもんば、作らんと」
-2161 = "「Các tuyến đường sắt điện khí hóa và các tàu điện. Dù tương lai có bị bóp nát nhất thời đi chăng nữa……\nthì vẫn phải tạo ra những thứ có thể sống sót chứ.」"
+2161 = "「Các tuyến đường sắt điện khí hóa và các tàu điện. Dù tương lai có bị bóp nát nhất thời đi chăng nữa......\nthì vẫn phải tạo ra những thứ có thể sống sót chứ.」"
 # 【赤井】
 # display as 赤井
 # JP: 「そのお覚悟があるのでしたら――電車区長。\n自主運用での徹底抗戦も選択肢にできるかと」
@@ -302,12 +302,12 @@
 1663 = "「Tàu Hikari」"
 # 【技工Ｂ】
 # display as 技工Ｂ
-# JP: 「\x%l電車;#00ffc040;電車%l;#;特急――ひかり号！」
-1236 = "「\x%l電車;#00ffc040;Tàu điện%l;#; tốc hành——tàu Hikari!」"
+# JP: 「\\x%l電車;#00ffc040;電車%l;#;特急――ひかり号！」
+1236 = "「\\x%l電車;#00ffc040;Tàu điện%l;#; tốc hành——tàu Hikari!」"
 # 【先輩】
 # display as 前輩
-# JP: 「冷静さば欠いちゅうぞ、赤井君。\n国ば敵にまわして“\x%l電車;#00ffc040;電車%l;#;”ば、走れん」
-1654 = "「Cậu thiếu bình tĩnh quá rồi đấy, cậu Akai.\nĐối đầu với quốc gia thì “\x%l電車;#00ffc040;tàu điện%l;#;” làm sao mà chạy được.」"
+# JP: 「冷静さば欠いちゅうぞ、赤井君。\n国ば敵にまわして“\\x%l電車;#00ffc040;電車%l;#;”ば、走れん」
+1654 = "「Cậu thiếu bình tĩnh quá rồi đấy, cậu Akai.\nĐối đầu với quốc gia thì “\\x%l電車;#00ffc040;tàu điện%l;#;” làm sao mà chạy được.」"
 # 【赤井】
 # display as 赤井
 # JP: 「あ――」
@@ -318,14 +318,14 @@
 # 【電車区長】
 # display as 電車段長
 # JP: 「送電停止。[がせん,1]架線撤去――\n国ば、なんでもやれるけんのう」
-1659 = "「Ngừng cấp điện. Tháo dỡ \x%l架線;#00ffc040;đường dây tiếp điện trên cao%l;#;——\nQuốc gia thì, chuyện gì cũng làm được mà.」"
+1659 = "「Ngừng cấp điện. Tháo dỡ \\x%l架線;#00ffc040;đường dây tiếp điện trên cao%l;#;——\nQuốc gia thì, chuyện gì cũng làm được mà.」"
 # monologue
 # JP: ……その通りです。必要設備の多さはそのまま、\n自主運用の困難さに他なりません。
-1215 = "……Đúng là như vậy. Số lượng thiết bị cần thiết quá nhiều,\nchính là sự khó khăn của việc tự chủ vận hành."
+1215 = "......Đúng là như vậy. Số lượng thiết bị cần thiết quá nhiều,\nchính là sự khó khăn của việc tự chủ vận hành."
 # 【電車区長】
 # display as 電車段長
-# JP: 「……\x%lクハ26;#00ffc040;クハ26%l;#;を初めとする全ての\x%l電車;#00ffc040;電車%l;#;。電化完了路線群。\nそいば犠牲にすることで、少しは助かるもんもある」
-1282 = "「……Bắt đầu từ \x%lクハ26;#00ffc040;Kuha 26%l;#; cùng toàn bộ các \x%l電車;#00ffc040;tàu điện%l;#; khác. Và các tuyến đường sắt đã hoàn thành điện khí hóa.\nBằng cách hy sinh những thứ đó, sẽ có một vài thứ được cứu vãn.」"
+# JP: 「……\\x%lクハ26;#00ffc040;クハ26%l;#;を初めとする全ての\\x%l電車;#00ffc040;電車%l;#;。電化完了路線群。\nそいば犠牲にすることで、少しは助かるもんもある」
+1282 = "「......Bắt đầu từ \\x%lクハ26;#00ffc040;Kuha 26%l;#; cùng toàn bộ các \\x%l電車;#00ffc040;tàu điện%l;#; khác. Và các tuyến đường sắt đã hoàn thành điện khí hóa.\nBằng cách hy sinh những thứ đó, sẽ có một vài thứ được cứu vãn.」"
 # 【先輩】
 # display as 前輩
 # JP: 「そん言い方ばっ！！」
@@ -340,8 +340,8 @@
 2128 = "「Nhưng mà——」"
 # 【電車区長】
 # display as 電車段長
-# JP: 「\x%l電車;#00ffc040;電車%l;#;ば、どう転んでも走れんと。\n走れんもんば飾っておいて、どぎゃんすっとか」
-1692 = "「\x%l電車;#00ffc040;Tàu điện%l;#; thì, dù thế nào cũng không thể chạy được.\nĐể những thứ không chạy được lại làm đồ trang trí, thì làm được gì chứ.」"
+# JP: 「\\x%l電車;#00ffc040;電車%l;#;ば、どう転んでも走れんと。\n走れんもんば飾っておいて、どぎゃんすっとか」
+1692 = "「\\x%l電車;#00ffc040;Tàu điện%l;#; thì, dù thế nào cũng không thể chạy được.\nĐể những thứ không chạy được lại làm đồ trang trí, thì làm được gì chứ.」"
 # 【技工Ａ】
 # display as 技工Ａ
 # JP: 「そいば――確かにそがいじゃが」
@@ -350,16 +350,16 @@
 # JP: 沈みきっていた人の群れから、\nざわめきが、少しずつ、少しずつ戻ってきます。
 2467 = "Từ đám đông đang chìm trong im lặng,\ntiếng xôn xao, từng chút, từng chút một trở lại."
 # monologue
-# JP: \x%lクハ26;#00ffc040;クハ26%l;#;が、ニイロクが――\n象徴そのものであることを、逆説的に思い知ります。
-2566 = "Tôi nhận ra một cách nghịch lý rằng,\n\x%lクハ26;#00ffc040;Kuha 26%l;#;, và Niiroku——chính là một biểu tượng."
+# JP: \\x%lクハ26;#00ffc040;クハ26%l;#;が、ニイロクが――\n象徴そのものであることを、逆説的に思い知ります。
+2566 = "Tôi nhận ra một cách nghịch lý rằng,\n\\x%lクハ26;#00ffc040;Kuha 26%l;#;, và Niiroku——chính là một biểu tượng."
 # 【技工Ｂ】
 # display as 技工Ｂ
 # JP: 「いうてもの、技術ばなんとしても継承せんと――\n鉄道ば、経験工学じゃけん」
 2123 = "「Nói gì thì nói, dù thế nào cũng phải kế thừa kỹ thuật chứ——\nĐường sắt, là kỹ thuật đúc kết từ kinh nghiệm mà.」"
 # 【技工Ａ】
 # display as 技工Ａ
-# JP: 「\x%l電車;#00ffc040;電車%l;#;技術ば犠牲にすっとはありえんばい！\n二度と取り戻せんよーになりよるぞ」
-1857 = "「Không thể nào có chuyện hy sinh kỹ thuật \x%l電車;#00ffc040;tàu điện%l;#; được!\nSẽ trở nên không thể lấy lại được lần thứ hai đâu đấy.」"
+# JP: 「\\x%l電車;#00ffc040;電車%l;#;技術ば犠牲にすっとはありえんばい！\n二度と取り戻せんよーになりよるぞ」
+1857 = "「Không thể nào có chuyện hy sinh kỹ thuật \\x%l電車;#00ffc040;tàu điện%l;#; được!\nSẽ trở nên không thể lấy lại được lần thứ hai đâu đấy.」"
 # 【先輩】
 # display as 前輩
 # JP: 「決裂でよか！　徹底抗戦！\n実力行使なんぞさせんで架線ば守れば良かたい！！」
@@ -370,14 +370,14 @@
 1752 = "「Này, cậu tính sao đây Akai.」"
 # monologue
 # JP: ……後東の問いが、突き刺さります。
-1202 = "……Câu hỏi của Goto, như đâm xuyên qua tôi."
+1202 = "......Câu hỏi của Goto, như đâm xuyên qua tôi."
 # monologue
 # JP: どうするか――どうし得るのか。\n答えはひとつしか見えず、けれど決して私には――
 2606 = "Làm thế nào——có thể làm thế nào đây.\nTôi chỉ nhìn thấy một câu trả lời duy nhất, nhưng đối với tôi thì tuyệt đối——"
 # 【赤井】
 # display as 赤井
 # JP: 「……一日。二十四時間だけ猶予を下さい」
-1297 = "「……Một ngày. Xin hãy cho tôi thời hạn 24 giờ.」"
+1297 = "「......Một ngày. Xin hãy cho tôi thời hạn 24 giờ.」"
 # monologue
 # JP: ――選べません。\nならば、あがくしかありません。
 1177 = "——Tôi không thể chọn.\nNếu vậy, chỉ còn cách vùng vẫy mà thôi."
@@ -397,12 +397,12 @@
 1999 = "「Em sẽ làm theo những gì Kiyoharu mong muốn.\nNếu có thể giúp ích cho Kiyoharu, thì đó chính là, hạnh phúc của em.」"
 # 【赤井】
 # display as 赤井
-# JP: 「……\x%lクハ26;#00ffc040;クハ26%l;#;とその編成を助けることは、\nほぼ無理であるかと思っています」
-1287 = "「……Tôi nghĩ rằng việc cứu \x%lクハ26;#00ffc040;Kuha 26%l;#; và \x%l編成;#00ffc040;đoàn tàu%l;#; của nó,\nlà điều gần như không thể.」"
+# JP: 「……\\x%lクハ26;#00ffc040;クハ26%l;#;とその編成を助けることは、\nほぼ無理であるかと思っています」
+1287 = "「......Tôi nghĩ rằng việc cứu \\x%lクハ26;#00ffc040;Kuha 26%l;#; và \\x%l編成;#00ffc040;đoàn tàu%l;#; của nó,\nlà điều gần như không thể.」"
 # 【ニイロク】
 # display as 二六
-# JP: 「自分も、同じ。そう思う。\n\x%lクハ26;#00ffc040;クハ26%l;#;が走れる線路が、なくなるんだから」
-1866 = "「Em cũng, nghĩ như vậy.\nBởi vì tuyến đường sắt mà \x%lクハ26;#00ffc040;Kuha 26%l;#; có thể chạy, sẽ không còn nữa mà.」"
+# JP: 「自分も、同じ。そう思う。\n\\x%lクハ26;#00ffc040;クハ26%l;#;が走れる線路が、なくなるんだから」
+1866 = "「Em cũng, nghĩ như vậy.\nBởi vì tuyến đường sắt mà \\x%lクハ26;#00ffc040;Kuha 26%l;#; có thể chạy, sẽ không còn nữa mà.」"
 # monologue
 # JP: けれどもハッキリわかります。\nニイロクは、装っているだけなのだと。
 2431 = "Tuy nhiên tôi có thể hiểu rõ.\nRằng Niiroku, chỉ đang giả vờ mà thôi."
@@ -447,12 +447,12 @@
 2394 = "Bàn tay của Niiroku đáp lại.\nEm ấy ôm chầm lấy tôi."
 # 【ニイロク】
 # display as 二六
-# JP: 「だけど、できるの？\n\x%lクハ26;#00ffc040;クハ26%l;#;は――[はいしゃかいそう,3]廃車回送されるでしょ？」
-1647 = "「Nhưng mà, anh có làm được không?\n\x%lクハ26;#00ffc040;Kuha 26%l;#;——sẽ bị đưa đi phế thải hồi tống đúng không?」"
+# JP: 「だけど、できるの？\n\\x%lクハ26;#00ffc040;クハ26%l;#;は――[はいしゃかいそう,3]廃車回送されるでしょ？」
+1647 = "「Nhưng mà, anh có làm được không?\n\\x%lクハ26;#00ffc040;Kuha 26%l;#;——sẽ bị đưa đi phế thải hồi tống đúng không?」"
 # 【赤井】
 # display as 赤井
-# JP: 「そうですね。\x%lクハ26;#00ffc040;クハ26%l;#;の[はいかい,1]廃回は、間違いなく、\n粉蔵工場の終わりを告げる、象徴的な儀式にされる」
-1938 = "「Đúng vậy. Việc phế thải hồi tống \x%lクハ26;#00ffc040;Kuha 26%l;#;, chắc chắn,\nsẽ trở thành một nghi thức mang tính biểu tượng, báo hiệu sự kết thúc của Nhà máy Kokura.」"
+# JP: 「そうですね。\\x%lクハ26;#00ffc040;クハ26%l;#;の[はいかい,1]廃回は、間違いなく、\n粉蔵工場の終わりを告げる、象徴的な儀式にされる」
+1938 = "「Đúng vậy. Việc phế thải hồi tống \\x%lクハ26;#00ffc040;Kuha 26%l;#;, chắc chắn,\nsẽ trở thành một nghi thức mang tính biểu tượng, báo hiệu sự kết thúc của Nhà máy Kokura.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「うん」
@@ -474,7 +474,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「車輌、レイルロオド運転体、レイルロオド整備体。\nその全てが揃っていることが、まず確認されます」
-2041 = "「Toa xe, \x%l運転体;#00ffc040;kíp lái%l;#; Railord, \x%l整備体;#00ffc040;thân chính%l;#; Railord.\nTrước tiên, họ sẽ xác nhận xem tất cả những thứ đó có đầy đủ hay không.」"
+2041 = "「Toa xe, \\x%l運転体;#00ffc040;kíp lái%l;#; Railord, \\x%l整備体;#00ffc040;thân chính%l;#; Railord.\nTrước tiên, họ sẽ xác nhận xem tất cả những thứ đó có đầy đủ hay không.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「うん」
@@ -488,7 +488,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「レイルロオドは、\nタブレット換装によっての動作確認がなされます」
-2153 = "「Railord thì,\nsẽ được xác nhận hoạt động thông qua việc hoán đổi \x%l操作板;#00ffc040;thẻ bảng%l;#;.」"
+2153 = "「Railord thì,\nsẽ được xác nhận hoạt động thông qua việc hoán đổi \\x%l操作板;#00ffc040;thẻ bảng%l;#;.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「確認の順番に規定はあるの？」
@@ -496,11 +496,11 @@
 # 【赤井】
 # display as 赤井
 # JP: 「そこは任意です。運転体・整備体の順であっても、\nその逆であってもかまわない。結果は同じですから」
-1978 = "「Cái đó là tùy ý. Dù là theo thứ tự \x%l運転体;#00ffc040;kíp lái%l;#; - \x%l整備体;#00ffc040;thân chính%l;#;,\nhay ngược lại cũng không sao. Vì kết quả đều giống nhau mà.」"
+1978 = "「Cái đó là tùy ý. Dù là theo thứ tự \\x%l運転体;#00ffc040;kíp lái%l;#; - \\x%l整備体;#00ffc040;thân chính%l;#;,\nhay ngược lại cũng không sao. Vì kết quả đều giống nhau mà.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「なら、\n動作確認したあとのタブレットは、そのまま？」
-2151 = "「Nếu vậy,\n\x%l操作板;#00ffc040;thẻ bảng%l;#; sau khi xác nhận hoạt động xong, sẽ để nguyên như thế à?」"
+2151 = "「Nếu vậy,\n\\x%l操作板;#00ffc040;thẻ bảng%l;#; sau khi xác nhận hoạt động xong, sẽ để nguyên như thế à?」"
 # 【赤井】
 # display as 赤井
 # JP: 「ですね。実装されたままの状態で、\n廃車回送に向かいます」
@@ -512,7 +512,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「いいえ。けれど、列車を止めることは許されません。\n解体処分をされる[もじ,1]門次まで――、一直線です」
-1593 = "「Không. Tuy nhiên, không được phép dừng \x%l列車;#00ffc040;tàu%l;#; lại.\nCho đến tận Moji, nơi sẽ tiến hành tháo dỡ——, là đi thẳng một mạch.」"
+1593 = "「Không. Tuy nhiên, không được phép dừng \\x%l列車;#00ffc040;tàu%l;#; lại.\nCho đến tận Moji, nơi sẽ tiến hành tháo dỡ——, là đi thẳng một mạch.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「――[もじ,1]門次についたら、どうなるの？」
@@ -543,7 +543,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「レイルロオド自らがタブレットを外部に投げ捨てる。\n機関助士、ないし密乗した者が同様の行為をする」
-2152 = "「Railord tự mình ném \x%l操作板;#00ffc040;thẻ bảng%l;#; ra bên ngoài.\n\x%l機関助士;#00ffc040;Phụ lái tàu%l;#;, hoặc kẻ đi lậu vé cũng có thể làm hành động tương tự.」"
+2152 = "「Railord tự mình ném \\x%l操作板;#00ffc040;thẻ bảng%l;#; ra bên ngoài.\n\\x%l機関助士;#00ffc040;Phụ lái tàu%l;#;, hoặc kẻ đi lậu vé cũng có thể làm hành động tương tự.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「あ！」
@@ -555,7 +555,7 @@
 # 【ニイロク】
 # display as 二六
 # JP: 「でも……電車区長が味方をしてくれれば、\n門次側にだって協力者を作ったりできない？」
-1644 = "「Nhưng……nếu Trưởng khu tàu điện đứng về phía chúng ta,\nthì chẳng phải cũng có thể tạo ra người cộng tác ở phía Moji sao?」"
+1644 = "「Nhưng......nếu Trưởng khu tàu điện đứng về phía chúng ta,\nthì chẳng phải cũng có thể tạo ra người cộng tác ở phía Moji sao?」"
 # 【赤井】
 # display as 赤井
 # JP: 「大きな意味では確かに、電車区長は味方です。\nけれどあの人にも、決して譲れない仕事があります」
@@ -586,8 +586,8 @@
 2068 = "「Ngăn chặn sự phân tán của các nhân sự có kỹ thuật và kiến thức.\nVì sự phục hưng của đường sắt vào một ngày nào đó, giá trị của việc đó là không thể đong đếm được.」"
 # 【ニイロク】
 # display as 二六
-# JP: 「わかる。と、思う。そのときがきて\n\x%lクハ26;#00ffc040;クハ26%l;#;が復活できても、ただそれだけじゃ意味がない」
-1884 = "「Em hiểu. Em nghĩ vậy. Khi thời khắc đó đến\ndù \x%lクハ26;#00ffc040;Kuha 26%l;#; có thể phục sinh, nhưng chỉ có vậy thôi thì cũng vô nghĩa.」"
+# JP: 「わかる。と、思う。そのときがきて\n\\x%lクハ26;#00ffc040;クハ26%l;#;が復活できても、ただそれだけじゃ意味がない」
+1884 = "「Em hiểu. Em nghĩ vậy. Khi thời khắc đó đến\ndù \\x%lクハ26;#00ffc040;Kuha 26%l;#; có thể phục sinh, nhưng chỉ có vậy thôi thì cũng vô nghĩa.」"
 # 【赤井】
 # display as 赤井
 # JP: 「粉蔵工場を、電化路線を復活させるそのときのため。\n味方であっても、行動面での無理は出来ない」
@@ -606,12 +606,12 @@
 1685 = "「Ra là vậy.」"
 # 【赤井】
 # display as 赤井
-# JP: 「\x%lクハ26;#00ffc040;クハ26%l;#;の廃車回送のときには、当然、\nその監視の目も、一層厳しくなるでしょう」
-2043 = "「Vào lúc phế thải hồi tống \x%lクハ26;#00ffc040;Kuha 26%l;#;, đương nhiên,\nánh mắt giám sát đó, cũng sẽ trở nên nghiêm ngặt hơn một bậc.」"
+# JP: 「\\x%lクハ26;#00ffc040;クハ26%l;#;の廃車回送のときには、当然、\nその監視の目も、一層厳しくなるでしょう」
+2043 = "「Vào lúc phế thải hồi tống \\x%lクハ26;#00ffc040;Kuha 26%l;#;, đương nhiên,\nánh mắt giám sát đó, cũng sẽ trở nên nghiêm ngặt hơn một bậc.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「なら……抜け道は、ない？」
-2149 = "「Vậy thì……không có, lối thoát nào sao?」"
+2149 = "「Vậy thì......không có, lối thoát nào sao?」"
 # 【赤井】
 # display as 赤井
 # JP: 「無くても、創りだすのです」
@@ -622,11 +622,11 @@
 # 【赤井】
 # display as 赤井
 # JP: 「――整備体は、諦めるしかないかと思います」
-1247 = "「——\x%l整備体;#00ffc040;Thân chính%l;#; thì, tôi nghĩ chỉ còn cách từ bỏ thôi.」"
+1247 = "「——\\x%l整備体;#00ffc040;Thân chính%l;#; thì, tôi nghĩ chỉ còn cách từ bỏ thôi.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「うん。それは最初からわかっていた。\n整備体には、[パーソナルマーク,5]個体識別部位が多すぎる」
-1768 = "「Ừm. Chuyện đó thì ngay từ đầu em đã biết rồi.\n\x%l整備体;#00ffc040;Thân chính%l;#; có quá nhiều bộ phận nhận diện cá thể.」"
+1768 = "「Ừm. Chuyện đó thì ngay từ đầu em đã biết rồi.\n\\x%l整備体;#00ffc040;Thân chính%l;#; có quá nhiều bộ phận nhận diện cá thể.」"
 # 【赤井】
 # display as 赤井
 # JP: 「はい」
@@ -640,7 +640,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「運転体とタブレット。最低限それだけ守れば」
-2061 = "「\x%l運転体;#00ffc040;Kíp lái%l;#; và \x%l操作板;#00ffc040;thẻ bảng%l;#;. Chỉ cần bảo vệ được tối thiểu những thứ đó.」"
+2061 = "「\\x%l運転体;#00ffc040;Kíp lái%l;#; và \\x%l操作板;#00ffc040;thẻ bảng%l;#;. Chỉ cần bảo vệ được tối thiểu những thứ đó.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「うん。自分は、自分でいられる。\n清春と――いっしょにいられる」
@@ -662,7 +662,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「……運転体については、\n取引を持ちかけられています」
-1285 = "「……Về \x%l運転体;#00ffc040;kíp lái%l;#; thì,\nđang có người đề nghị giao dịch.」"
+1285 = "「......Về \\x%l運転体;#00ffc040;kíp lái%l;#; thì,\nđang có người đề nghị giao dịch.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「取引？　どんなの？\n誰から持ちかけられてるの？」
@@ -686,7 +686,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「……まさに今、彼の車輌とレイルロオドは、\n廃車回送に送られています」
-1296 = "「……Ngay lúc này đây, toa xe và Railord của cậu ta,\nđang được đưa đi phế thải hồi tống.」"
+1296 = "「......Ngay lúc này đây, toa xe và Railord của cậu ta,\nđang được đưa đi phế thải hồi tống.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「！！？」
@@ -696,8 +696,8 @@
 # JP: 「電車区長と話をつけて、厳格な手続きを踏まず。\nその上での、廃車回送をとったそうです」
 1640 = "「Cậu ta đã nói chuyện với Trưởng khu tàu điện, và không thực hiện các thủ tục nghiêm ngặt.\nNghe nói cậu ta đã chọn phế thải hồi tống, dựa trên cơ sở đó.」"
 # monologue
-# JP: \x%lクハ26;#00ffc040;クハ26%l;#;では、\nどう転んでも出来ようもない芸当です。
-51 = "Đối với \x%lクハ26;#00ffc040;Kuha 26%l;#;,\nthì dù có làm thế nào cũng không thể thực hiện được chiêu trò đó."
+# JP: \\x%lクハ26;#00ffc040;クハ26%l;#;では、\nどう転んでも出来ようもない芸当です。
+51 = "Đối với \\x%lクハ26;#00ffc040;Kuha 26%l;#;,\nthì dù có làm thế nào cũng không thể thực hiện được chiêu trò đó."
 # monologue
 # JP: この混乱の最中なら、単なる普通車輌なら――\nそうした勝負を、後東は仕掛け、勝ったのです。
 2790 = "Nếu là giữa lúc hỗn loạn này, nếu chỉ là một toa xe bình thường——\nGoto đã bày ra ván cược đó, và đã giành chiến thắng."
@@ -708,11 +708,11 @@
 # 【赤井】
 # display as 赤井
 # JP: 「動作確認を省略した。結果、運転鞄の中には、\n運転体の[モックアップ,4]等身大模型が入っています」
-1639 = "「Đã lược bỏ việc xác nhận hoạt động. Kết quả là, bên trong \x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#;,\nchứa một mô hình kích thước người thật của \x%l運転体;#00ffc040;kíp lái%l;#;.」"
+1639 = "「Đã lược bỏ việc xác nhận hoạt động. Kết quả là, bên trong \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#;,\nchứa một mô hình kích thước người thật của \\x%l運転体;#00ffc040;kíp lái%l;#;.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「それなら！　後東さんのレイルロオドは、\n運転体だけは助かるの？」
-2150 = "「Nếu vậy! Railord của anh Goto,\nchỉ cứu được mỗi \x%l運転体;#00ffc040;kíp lái%l;#; thôi sao?」"
+2150 = "「Nếu vậy! Railord của anh Goto,\nchỉ cứu được mỗi \\x%l運転体;#00ffc040;kíp lái%l;#; thôi sao?」"
 # 【赤井】
 # display as 赤井
 # JP: 「いいえ、ニイロク」
@@ -737,11 +737,11 @@
 # 【ニイロク】
 # display as 二六
 # JP: 「後藤さんのレイルロオドは、果たした。\nマスターのため、自分の全部を、使いきった」
-1846 = "「Railord của anh Goto, đã hoàn thành nhiệm vụ.\nVì \x%lマスター;#00ffc040;Master%l;#;, cô ấy đã dùng cạn kiệt, toàn bộ bản thân mình.」"
+1846 = "「Railord của anh Goto, đã hoàn thành nhiệm vụ.\nVì \\x%lマスター;#00ffc040;Master%l;#;, cô ấy đã dùng cạn kiệt, toàn bộ bản thân mình.」"
 # 【赤井】
 # display as 赤井
 # JP: 「……そうなのでしょうね。彼女にとっては、\nただ後東のため――マスターのため」
-1293 = "「……Chắc là vậy nhỉ. Đối với cô ấy,\nchỉ là vì Goto——vì \x%lマスター;#00ffc040;Master%l;#; mà thôi.」"
+1293 = "「......Chắc là vậy nhỉ. Đối với cô ấy,\nchỉ là vì Goto——vì \\x%lマスター;#00ffc040;Master%l;#; mà thôi.」"
 # monologue
 # JP: 当然のことといわんばかりに、\n腕の中、ニイロクがまた頷きます。
 2561 = "Như thể đó là điều hiển nhiên,\ntrong vòng tay tôi, Niiroku lại gật đầu."
@@ -751,11 +751,11 @@
 # 【赤井】
 # display as 赤井
 # JP: 「結果として、ブランクの運転体が[のこ]遺りました。\nタブレットも、整備体も車輌も無い運転体が」
-2054 = "「Kết quả là, một \x%l運転体;#00ffc040;kíp lái%l;#; trống rỗng đã bị bỏ lại.\nMột \x%l運転体;#00ffc040;kíp lái%l;#; không có \x%l操作板;#00ffc040;thẻ bảng%l;#;, không có \x%l整備体;#00ffc040;thân chính%l;#; cũng không có toa xe.」"
+2054 = "「Kết quả là, một \\x%l運転体;#00ffc040;kíp lái%l;#; trống rỗng đã bị bỏ lại.\nMột \\x%l運転体;#00ffc040;kíp lái%l;#; không có \\x%l操作板;#00ffc040;thẻ bảng%l;#;, không có \\x%l整備体;#00ffc040;thân chính%l;#; cũng không có toa xe.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「運転体なら、パーソナルマークはとても少ない。\nレイルロオド工機部の人たちに頼めば」
-2175 = "「Nếu là \x%l運転体;#00ffc040;kíp lái%l;#; thì, bộ phận nhận diện cá thể rất ít.\nNếu nhờ những người ở bộ phận cơ khí Railord thì.」"
+2175 = "「Nếu là \\x%l運転体;#00ffc040;kíp lái%l;#; thì, bộ phận nhận diện cá thể rất ít.\nNếu nhờ những người ở bộ phận cơ khí Railord thì.」"
 # 【赤井】
 # display as 赤井
 # JP: 「ええ、そのとおりです。明日の朝には、\nニイロクにそっくりに仕上がっているそうです」
@@ -795,11 +795,11 @@
 # 【赤井】
 # display as 赤井
 # JP: 「ですので、あとはタブレットです。\nタブレットさえどうにかできれば」
-1918 = "「Vì vậy, còn lại là \x%l操作板;#00ffc040;thẻ bảng%l;#;.\nChỉ cần giải quyết được \x%l操作板;#00ffc040;thẻ bảng%l;#; thì.」"
+1918 = "「Vì vậy, còn lại là \\x%l操作板;#00ffc040;thẻ bảng%l;#;.\nChỉ cần giải quyết được \\x%l操作板;#00ffc040;thẻ bảng%l;#; thì.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「そこまでするなら――後東さんは、\nどうしてタブレットも助けないの？」
-2011 = "「Nếu đã làm đến mức đó——thì anh Goto,\ntại sao lại không cứu cả \x%l操作板;#00ffc040;thẻ bảng%l;#;?」"
+2011 = "「Nếu đã làm đến mức đó——thì anh Goto,\ntại sao lại không cứu cả \\x%l操作板;#00ffc040;thẻ bảng%l;#;?」"
 # 【赤井】
 # display as 赤井
 # JP: 「もちろん、\n門次側で工作をするリスクは取れないからです」
@@ -823,7 +823,7 @@
 # 【ニイロク】
 # display as 二六
 # JP: 「だって、ちょっと共感すれば\n――あ、いた！　今大丈夫？　シロおねえちゃん」
-1791 = "「Bởi vì, chỉ cần \x%l共感;#00ffc040;cộng cảm%l;#; một chút là\n——A, thấy rồi! Bây giờ có tiện không? Chị Shiro.」"
+1791 = "「Bởi vì, chỉ cần \\x%l共感;#00ffc040;cộng cảm%l;#; một chút là\n——A, thấy rồi! Bây giờ có tiện không? Chị Shiro.」"
 # 【赤井】
 # display as 赤井
 # JP: 「っ！！！」
@@ -840,17 +840,17 @@
 1670 = "「Chị nè? Em có chuyện muốn hỏi.\nĐúng vậy, chuyện ở Moji. Tuyệt quá! Sao chị biết hay vậy?」"
 # monologue
 # JP: ……新会社での、良いポジションを得るために。\nそんな動機であろうと、私は勝手に思っていました。
-1206 = "……Để có được một vị trí tốt ở công ty mới.\nTôi đã tự ý cho rằng, đó là động cơ của cô ấy."
+1206 = "......Để có được một vị trí tốt ở công ty mới.\nTôi đã tự ý cho rằng, đó là động cơ của cô ấy."
 # monologue
 # JP: けれども、しかし――シロのマスターが\nシロの願いを、受け止めるタイプの人であるなら――
-2429 = "Tuy nhiên, nhưng mà——nếu \x%lマスター;#00ffc040;Master%l;#; của Shiro\nlà kiểu người sẵn sàng đón nhận mong muốn của Shiro thì——"
+2429 = "Tuy nhiên, nhưng mà——nếu \\x%lマスター;#00ffc040;Master%l;#; của Shiro\nlà kiểu người sẵn sàng đón nhận mong muốn của Shiro thì——"
 # 【ニイロク】
 # display as 二六
 # JP: 「え？　わ！　シロおねえちゃん、\nそんなこと考えてくれてたの！？　でも、いいの？」
 1730 = "「Hả? Oa! Chị Shiro,\nchị đã suy nghĩ cho em đến mức đó sao!? Nhưng mà, có được không?」"
 # monologue
 # JP: ……あるいは技術を繋ぐことを、\nレールを先へと伸ばすことを、何より願う人ならば。
-1211 = "……Hoặc là nếu người đó mong muốn hơn bất cứ điều gì,\nlà kết nối kỹ thuật, và kéo dài đường ray về phía trước."
+1211 = "......Hoặc là nếu người đó mong muốn hơn bất cứ điều gì,\nlà kết nối kỹ thuật, và kéo dài đường ray về phía trước."
 # monologue
 # JP: （”そのため”に、\n準備をもしも、重ねてくれていたのなら――）
 2879 = "（Nếu như, họ đã chuẩn bị hết lần này đến lần khác,\n”vì mục đích đó” thì——）"
@@ -860,24 +860,24 @@
 1761 = "「Ừm. Em hiểu rồi. Là thứ tự. Em thì mới hoạt động được hơn nửa năm,\ncòn chị Shiro thì, sắp đến lúc nghỉ hưu rồi mà.」"
 # monologue
 # JP: ……仮説は、すぐに裏付けられます。\nニイロクの見せる反応は、“その提案ゆえ”のもの。
-1208 = "……Giả thuyết đó, ngay lập tức được chứng minh.\nPhản ứng mà Niiroku thể hiện, chính là “vì lời đề nghị đó”."
+1208 = "......Giả thuyết đó, ngay lập tức được chứng minh.\nPhản ứng mà Niiroku thể hiện, chính là “vì lời đề nghị đó”."
 # monologue
 # JP: 牽引機側のレイルロオドを、そのキャブ内を、\nチェックしようとする者など、誰もいないのですから。
 2493 = "Bởi vì sẽ chẳng có ai, lại đi kiểm tra Railord của đầu máy kéo,\nhay bên trong buồng lái đó cả."
 # 【ニイロク】
 # display as 二六
 # JP: 「シロおねえちゃんのマスターだもんね。\n門次まで、レイルロオドなしでもへいちゃらだよね」
-1790 = "「Là \x%lマスター;#00ffc040;Master%l;#; của chị Shiro mà lị.\nĐến tận Moji, dù không có Railord thì cũng chẳng hề hấn gì nhỉ.」"
+1790 = "「Là \\x%lマスター;#00ffc040;Master%l;#; của chị Shiro mà lị.\nĐến tận Moji, dù không có Railord thì cũng chẳng hề hấn gì nhỉ.」"
 # monologue
 # JP: シロのタブレットを、ブランクのダミー運転体に、\nそして、ニイロクの整備体へと。
-2624 = "\x%l操作板;#00ffc040;Thẻ bảng%l;#; của Shiro, vào \x%l運転体;#00ffc040;kíp lái%l;#; mô hình trống rỗng,\nvà sau đó, là vào \x%l整備体;#00ffc040;thân chính%l;#; của Niiroku."
+2624 = "\\x%l操作板;#00ffc040;Thẻ bảng%l;#; của Shiro, vào \\x%l運転体;#00ffc040;kíp lái%l;#; mô hình trống rỗng,\nvà sau đó, là vào \\x%l整備体;#00ffc040;thân chính%l;#; của Niiroku."
 # monologue
 # JP: その手段なら、全てのチェックをすり抜けられます。\nけれども――シロは助かりません。
 2771 = "Nếu dùng cách đó, thì có thể lọt qua mọi vòng kiểm tra.\nNhưng mà——Shiro sẽ không được cứu."
 # 【ニイロク】
 # display as 二六
 # JP: 「そうなの？　マスターも引退するの？\nだったら、何の問題もない？」
-1966 = "「Vậy sao? \x%lマスター;#00ffc040;Master%l;#; cũng sẽ nghỉ hưu à?\nNếu vậy thì, không có vấn đề gì cả?」"
+1966 = "「Vậy sao? \\x%lマスター;#00ffc040;Master%l;#; cũng sẽ nghỉ hưu à?\nNếu vậy thì, không có vấn đề gì cả?」"
 # 【赤井】
 # display as 赤井
 # JP: 「っ」
@@ -896,7 +896,7 @@
 2773 = "Chỉ làm cho Niiroku thêm đau khổ và phiền não mà thôi.\nĐiều đó là quá rõ ràng."
 # monologue
 # JP: でしたら、このまま――\n何も知らせず、運んだ方が、良いのでしょう……か。
-2791 = "Nếu vậy, cứ giữ nguyên thế này——\nKhông cho em ấy biết gì cả, cứ thế tiến hành thì sẽ tốt hơn…… sao."
+2791 = "Nếu vậy, cứ giữ nguyên thế này——\nKhông cho em ấy biết gì cả, cứ thế tiến hành thì sẽ tốt hơn...... sao."
 # 【ニイロク】
 # display as 二六
 # JP: 「わかった。ありがとシロおねえちゃん。うん、うん。\n大好き！　それじゃね、またね！」
@@ -915,14 +915,14 @@
 1739 = "「A——không——」"
 # monologue
 # JP: またね、ではなく、さよならなのだと。\nその瞬間には、共感さえも交わせないのだと――
-2770 = "Không phải là hẹn gặp lại, mà là vĩnh biệt.\nĐến khoảnh khắc đó, ngay cả \x%l共感;#00ffc040;cộng cảm%l;#; cũng không thể trao đổi được nữa——"
+2770 = "Không phải là hẹn gặp lại, mà là vĩnh biệt.\nĐến khoảnh khắc đó, ngay cả \\x%l共感;#00ffc040;cộng cảm%l;#; cũng không thể trao đổi được nữa——"
 # monologue
 # JP: 伝えるべきであることか、\n私には……私には、まったく……決断できません。
-2646 = "Có nên nói cho em ấy biết hay không,\ntôi……tôi hoàn toàn……không thể đưa ra quyết định."
+2646 = "Có nên nói cho em ấy biết hay không,\ntôi......tôi hoàn toàn......không thể đưa ra quyết định."
 # 【赤井】
 # display as 赤井
 # JP: 「その……シロさんに、『ありがとう』と。\n『レールは必ず、つなげていく』と」
-2129 = "「Chuyện đó……hãy nói với cô Shiro, là 『Cảm ơn』.\nVà 『Chắc chắn, sẽ tiếp tục kết nối đường ray』.」"
+2129 = "「Chuyện đó......hãy nói với cô Shiro, là 『Cảm ơn』.\nVà 『Chắc chắn, sẽ tiếp tục kết nối đường ray』.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「わかった！　あのね？　シロおねえちゃん。\n清春がね？　――うん――うん！　わかった！」
@@ -944,7 +944,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「……そう、ですか」
-1294 = "「……Vậy, sao.」"
+1294 = "「......Vậy, sao.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「それでね？　清春」
@@ -959,14 +959,14 @@
 # 【ニイロク】
 # display as 二六
 # JP: 「この体。整備体。\n明日にはもう、なくなっちゃうでしょ？」
-1902 = "「Cơ thể này. \x%l整備体;#00ffc040;Thân chính%l;#; này.\nĐến ngày mai là, sẽ biến mất đúng không?」"
+1902 = "「Cơ thể này. \\x%l整備体;#00ffc040;Thân chính%l;#; này.\nĐến ngày mai là, sẽ biến mất đúng không?」"
 # 【赤井】
 # display as 赤井
 # JP: 「はい」
 # 1952 = "「是啊」" 
 # monologue
 # JP: 匂いを、不意に感じます。\n……水の匂いであるような、血の匂いでもあるような。
-2552 = "Bất chợt, tôi ngửi thấy một mùi hương.\n……Giống như mùi của nước, lại cũng giống như mùi của máu."
+2552 = "Bất chợt, tôi ngửi thấy một mùi hương.\n......Giống như mùi của nước, lại cũng giống như mùi của máu."
 # monologue
 # JP: ニイロクから、今まで嗅いだことのない――\n生きているものの、命の匂いを。
 2579 = "Từ Niiroku, một mùi hương mà tôi chưa từng ngửi thấy bao giờ——\nMùi của sự sống, mùi của sinh mệnh."
@@ -1032,12 +1032,12 @@
 # JP: 幹部職員も含まれる多くの署名は、\nそれなりの武器になったようです。
 2636 = "Số lượng lớn chữ ký, bao gồm cả của các nhân viên cán bộ,\ncó vẻ như đã trở thành một thứ vũ khí đáng kể."
 # monologue
-# JP: \x%lクハ26;#00ffc040;クハ26%l;#;を私たちは、\n高く、売ったのだとも思います。
-2705 = "Tôi cũng nghĩ rằng, chúng tôi đã bán \x%lクハ26;#00ffc040;Kuha 26%l;#;,\nvới một cái giá rất cao."
+# JP: \\x%lクハ26;#00ffc040;クハ26%l;#;を私たちは、\n高く、売ったのだとも思います。
+2705 = "Tôi cũng nghĩ rằng, chúng tôi đã bán \\x%lクハ26;#00ffc040;Kuha 26%l;#;,\nvới một cái giá rất cao."
 # 【赤井】
 # display as 赤井
 # JP: 「単線、非電化の複数の路線が、帝鉄廃止後に\nいくらかの車輌とともに売却されると内定しました」
-1666 = "「Nhiều tuyến \x%l単線;#00ffc040;đường đơn%l;#; không điện khí hóa, sau khi Teitetsu bị bãi bỏ\nđã được quyết định nội bộ là sẽ đem bán cùng với một số toa xe.」"
+1666 = "「Nhiều tuyến \\x%l単線;#00ffc040;đường đơn%l;#; không điện khí hóa, sau khi Teitetsu bị bãi bỏ\nđã được quyết định nội bộ là sẽ đem bán cùng với một số toa xe.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「そうなんだ！」
@@ -1089,7 +1089,7 @@
 2654 = "Đến giờ rồi."
 # monologue
 # JP: 共感を、さっそくつないだのでしょう。\nニイロクの体があたたかに――っ！！？
-2364 = "Có lẽ em ấy đã kết nối \x%l共感;#00ffc040;cộng cảm%l;#; ngay lập tức.\nCơ thể Niiroku bỗng trở nên ấm áp——っ!!?"
+2364 = "Có lẽ em ấy đã kết nối \\x%l共感;#00ffc040;cộng cảm%l;#; ngay lập tức.\nCơ thể Niiroku bỗng trở nên ấm áp——っ!!?"
 # 【ニイロク】
 # display as 二六
 # JP: 「ひっ！？　ひあっ――あっ！！　これ――やめっ！\n無理しないで！　シロおねえちゃんっ！！」
@@ -1105,11 +1105,11 @@
 # JP: それでもニイロクの悲鳴を聞けば、\n心がざくりと切り裂かれます。
 2423 = "Dù vậy, khi nghe thấy tiếng hét của Niiroku,\ntrái tim tôi vẫn như bị xé toạc ra."
 # monologue
-# JP: （――蒸気機関車、\x%lD60;#00ffc040;D60%l;#;の量産レイルロオドの能力で、\n\x%lクハ26;#00ffc040;クハ26%l;#;、最新鋭レイルロオドの体を稼働させるのです）
-2823 = "（——Bằng năng lực của một Railord sản xuất hàng loạt cho \x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; \x%lD60;#00ffc040;D60%l;#;,\nmà phải vận hành cơ thể của \x%lクハ26;#00ffc040;Kuha 26%l;#;, một Railord tối tân nhất）"
+# JP: （――蒸気機関車、\\x%lD60;#00ffc040;D60%l;#;の量産レイルロオドの能力で、\n\\x%lクハ26;#00ffc040;クハ26%l;#;、最新鋭レイルロオドの体を稼働させるのです）
+2823 = "（——Bằng năng lực của một Railord sản xuất hàng loạt cho \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; \\x%lD60;#00ffc040;D60%l;#;,\nmà phải vận hành cơ thể của \\x%lクハ26;#00ffc040;Kuha 26%l;#;, một Railord tối tân nhất）"
 # monologue
 # JP: どう考えても、高負荷すぎです。\nタブレットが瞬時に破損したとて、おかしくない程。
-2673 = "Dù nghĩ thế nào, thì cũng quá sức chịu đựng.\nĐến mức dù \x%l操作板;#00ffc040;thẻ bảng%l;#; có bị phá hủy ngay tức khắc, thì cũng không có gì lạ."
+2673 = "Dù nghĩ thế nào, thì cũng quá sức chịu đựng.\nĐến mức dù \\x%l操作板;#00ffc040;thẻ bảng%l;#; có bị phá hủy ngay tức khắc, thì cũng không có gì lạ."
 # 【ニイロク】
 # display as 二六
 # JP: 「しゃべっちゃダメ！！　こわれちゃう！！\nシロおねえちゃん！　無理！　こわれちゃうよぉ」
@@ -1139,7 +1139,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「それが無理なら、マスターとして命令を」
-1808 = "「Nếu không làm được, thì với tư cách là \x%lマスター;#00ffc040;Master%l;#;, tôi sẽ ra lệnh.」"
+1808 = "「Nếu không làm được, thì với tư cách là \\x%lマスター;#00ffc040;Master%l;#;, tôi sẽ ra lệnh.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「無理じゃない！　命令、しないでっ！\nできる――する――から、したいからっ！！」
@@ -1160,7 +1160,7 @@
 1772 = "「Vâng!!!」"
 # monologue
 # JP: 運転体の小さな体が、大きく、大きく頷きます。
-2815 = "Cơ thể nhỏ bé của \x%l運転体;#00ffc040;kíp lái%l;#;, gật đầu thật mạnh, thật mạnh."
+2815 = "Cơ thể nhỏ bé của \\x%l運転体;#00ffc040;kíp lái%l;#;, gật đầu thật mạnh, thật mạnh."
 # 【ニイロク】
 # display as 二六
 # JP: 「がんばれ！　がんばれシロおねえちゃん！！！\nがんばれ、がんばれシロおねえちゃんっ！！」
@@ -1196,7 +1196,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「共感を――意味ある共感を送ったのですか！？」
-1804 = "「\x%l共感;#00ffc040;Cộng cảm%l;#;——đã gửi \x%l共感;#00ffc040;cộng cảm%l;#; có ý nghĩa sao!?」"
+1804 = "「\\x%l共感;#00ffc040;Cộng cảm%l;#;——đã gửi \\x%l共感;#00ffc040;cộng cảm%l;#; có ý nghĩa sao!?」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ずうっとぐちゃぐちゃだったけど、\n『イェイ！』って、それはハッキリ伝わってきた！」
@@ -1204,7 +1204,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「そう……ですか。\nそれほどのレイルロオドを育てる方が、貨物に――」
-1964 = "「Vậy……sao.\nNgười có thể nuôi dưỡng một Railord đến mức đó, lại ở bên chở hàng——」"
+1964 = "「Vậy......sao.\nNgười có thể nuôi dưỡng một Railord đến mức đó, lại ở bên chở hàng——」"
 # monologue
 # JP: こぼれた言葉に気づきます。\n自分の中に、いつの間にか巣食っていた差別意識を。
 2352 = "Tôi nhận ra những lời mình vừa buột miệng nói ra.\nSự phân biệt đối xử đã ăn sâu vào trong tôi từ lúc nào không hay."
@@ -1216,7 +1216,7 @@
 2421 = "Nhưng tôi đã nhầm.\nỞ đó có một niềm tự hào cao quý."
 # monologue
 # JP: （シロと、そのマスターと、もしも話していたのなら。\n……そうした時間を、もしも重ねていたのなら）
-2857 = "（Nếu như, tôi đã nói chuyện với Shiro, và \x%lマスター;#00ffc040;Master%l;#; của cô ấy.\n……Nếu như, tôi đã dành thời gian cho những việc như thế.）"
+2857 = "（Nếu như, tôi đã nói chuyện với Shiro, và \\x%lマスター;#00ffc040;Master%l;#; của cô ấy.\n......Nếu như, tôi đã dành thời gian cho những việc như thế.）"
 # monologue
 # JP: 優れた人が、レイルロオドが、\nきっと、粉蔵のあちこちにいた。
 2519 = "Những con người xuất sắc, những Railord ưu tú,\nchắc chắn, đã ở khắp nơi trong Nhà máy Kokura."
@@ -1226,7 +1226,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「いや……今からでも遅くない」
-1586 = "「Không……bây giờ vẫn chưa muộn.」"
+1586 = "「Không......bây giờ vẫn chưa muộn.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「え？　なにが？？」
@@ -1281,7 +1281,7 @@
 1972 = "「Tokaido có lẽ,\nsẽ là tuyến đường ray bị lột bỏ đầu tiên đấy——」"
 # monologue
 # JP: ……話し合います。
-1209 = "……Chúng tôi trò chuyện cùng nhau."
+1209 = "......Chúng tôi trò chuyện cùng nhau."
 # monologue
 # JP: ニイロクの不安を拭うため、\nシロの願いを、決して無駄にはしないため。
 2776 = "Để xua tan đi sự bất an của Niiroku,\nvà để nguyện vọng của Shiro, tuyệt đối không trở nên vô ích."
@@ -1292,7 +1292,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「広すぎますし、雪の影響が甚大と聞きます。\n電化以前に、保線コストが極めて厳しいかと」
-2056 = "「Quá rộng lớn, và tôi nghe nói ảnh hưởng của tuyết là rất nghiêm trọng.\nChưa nói đến việc điện khí hóa, chi phí \x%l保線;#00ffc040;bảo trì đường ray%l;#; có lẽ sẽ cực kỳ đắt đỏ.」"
+2056 = "「Quá rộng lớn, và tôi nghe nói ảnh hưởng của tuyết là rất nghiêm trọng.\nChưa nói đến việc điện khí hóa, chi phí \\x%l保線;#00ffc040;bảo trì đường ray%l;#; có lẽ sẽ cực kỳ đắt đỏ.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ふぅん。なら、やっぱり九洲が一番いい？\nね？　清春はどう思う？」
@@ -1311,7 +1311,7 @@
 1731 = "「っ!!!」"
 # monologue
 # JP: 共感が戻った――\nシロが、スリープモードから回復したのでしょう。
-2451 = "\x%l共感;#00ffc040;Cộng cảm%l;#; đã trở lại——\nCó lẽ Shiro, đã phục hồi từ trạng thái ngủ."
+2451 = "\\x%l共感;#00ffc040;Cộng cảm%l;#; đã trở lại——\nCó lẽ Shiro, đã phục hồi từ trạng thái ngủ."
 # monologue
 # JP: ニイロクの反応を見るかぎり、\nシロも今度は、安定してくれているのでしょうか？
 2693 = "Nhìn vào phản ứng của Niiroku,\ncó vẻ như lần này, Shiro cũng đã ổn định lại rồi sao?"
@@ -1323,7 +1323,7 @@
 2799 = "Hy vọng, là kẻ thù của sự đánh giá lạnh lùng——\nDù biết vậy, nhưng tôi vẫn không thể không nghĩ đến."
 # monologue
 # JP: これほどの機関士とレイルロオドです。\n機転によって、シロのタブレットも回収されれば――
-2411 = "Là một \x%l機関士;#00ffc040;lái tàu%l;#; và Railord tuyệt vời đến thế cơ mà.\nNếu tùy cơ ứng biến, và thu hồi được cả \x%l操作板;#00ffc040;thẻ bảng%l;#; của Shiro thì——"
+2411 = "Là một \\x%l機関士;#00ffc040;lái tàu%l;#; và Railord tuyệt vời đến thế cơ mà.\nNếu tùy cơ ứng biến, và thu hồi được cả \\x%l操作板;#00ffc040;thẻ bảng%l;#; của Shiro thì——"
 # 【ニイロク】
 # display as 二六
 # JP: 「やった！　なんか、検査とか無いみたいな感じ」
@@ -1339,7 +1339,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「切るんだっ！！！　共感をいますぐにっ！！！！」
-1853 = "「Ngắt ngay đi!!! Ngắt \x%l共感;#00ffc040;cộng cảm%l;#; ngay lập tức!!!!」"
+1853 = "「Ngắt ngay đi!!! Ngắt \\x%l共感;#00ffc040;cộng cảm%l;#; ngay lập tức!!!!」"
 # 【ニイロク】
 # display as 二六
 # JP: 「いやあああああああああああああああああああああ\nああああああああああああああああああああああああ」
@@ -1354,7 +1354,7 @@
 1742 = "「Áááááááááááááááááááááááá\náááááááááááááááááááááááá」"
 # monologue
 # JP: ダメだ、壊れるっ！　ニイロクがっ！！\n共感――遮断！　強制遮断っ！！！！
-2357 = "Không được rồi, sẽ hỏng mất! Niiroku sẽ hỏng mất!!\n\x%l共感;#00ffc040;Cộng cảm%l;#;——ngắt kết nối! Ngắt kết nối cưỡng chế!!!!"
+2357 = "Không được rồi, sẽ hỏng mất! Niiroku sẽ hỏng mất!!\n\\x%l共感;#00ffc040;Cộng cảm%l;#;——ngắt kết nối! Ngắt kết nối cưỡng chế!!!!"
 # 【赤井】
 # display as 赤井
 # JP: 「っ！！！」
@@ -1365,7 +1365,7 @@
 1755 = "「Gya!!? ——Ư」"
 # monologue
 # JP: 真正面から、喉の、奥。そこを強く、親指で押す。\n運転体でも、整備体でも、変わらない。
-2594 = "Từ chính diện, sâu bên trong, cổ họng. Dùng ngón cái ấn mạnh vào đó.\nDù là \x%l運転体;#00ffc040;kíp lái%l;#; hay \x%l整備体;#00ffc040;thân chính%l;#;, cũng không có gì khác biệt."
+2594 = "Từ chính diện, sâu bên trong, cổ họng. Dùng ngón cái ấn mạnh vào đó.\nDù là \\x%l運転体;#00ffc040;kíp lái%l;#; hay \\x%l整備体;#00ffc040;thân chính%l;#;, cũng không có gì khác biệt."
 # monologue
 # JP: レイルロオドの機能を無条件停止させる、\n最終唯一の強制手段。
 2560 = "Là biện pháp cưỡng chế duy nhất và cuối cùng,\nđể dừng vô điều kiện các chức năng của Railord."
@@ -1401,7 +1401,7 @@
 2535 = "10 giây.\nTôi có cảm giác như thời gian đó đã trôi qua rồi."
 # monologue
 # JP: 運転士であるというのに、\n時間感覚を失っている。
-2650 = "Mặc dù là một \x%l運転士;#00ffc040;lái tàu%l;#;,\nnhưng tôi lại đang đánh mất cảm giác về thời gian."
+2650 = "Mặc dù là một \\x%l運転士;#00ffc040;lái tàu%l;#;,\nnhưng tôi lại đang đánh mất cảm giác về thời gian."
 # monologue
 # JP: （どうか――早くっ！！！）
 2867 = "（Xin hãy——nhanh lên!!!）"
@@ -1417,7 +1417,7 @@
 2587 = "Đỡ lấy cơ thể em ấy, và đặt nằm xuống——"
 # monologue
 # JP: （ああ……）
-2854 = "（A……）"
+2854 = "（A......）"
 # monologue
 # JP: あれほど強く押し込んだのに、\nあざさえ、残っていない首筋。
 2648 = "Mặc dù đã ấn mạnh đến thế,\nnhưng trên cổ em ấy, không lưu lại dù chỉ là một vết bầm tím."
@@ -1426,28 +1426,28 @@
 2380 = "Niiroku là một Railord.\nMột sự thật hiển nhiên, nhưng giờ đây, tôi lại cảm nhận được nó một cách vô cùng mạnh mẽ."
 # monologue
 # JP: （時間は……多分、もう大丈夫。\n深呼吸――とにかく一度――深呼吸、して）
-2872 = "（Thời gian thì……có lẽ, ổn rồi.\nHít thở sâu——dù sao thì cũng phải——hít thở sâu một lần đã.）"
+2872 = "（Thời gian thì......có lẽ, ổn rồi.\nHít thở sâu——dù sao thì cũng phải——hít thở sâu một lần đã.）"
 # 【赤井】
 # display as 赤井
 # JP: 「――っ――くっ――すう――――はぁっ！」
 1244 = "「——っ——ư——hít――――hà!」"
 # monologue
 # JP: ……門次側が『察してくれた』としか思えません。\nあるいは誰かが、工作をしてくれていたのか。
-1203 = "……Tôi chỉ có thể nghĩ rằng phía Moji đã 『nhận ra』.\nHoặc là ai đó, đã ngầm giúp đỡ chúng tôi."
+1203 = "......Tôi chỉ có thể nghĩ rằng phía Moji đã 『nhận ra』.\nHoặc là ai đó, đã ngầm giúp đỡ chúng tôi."
 # 【赤井】
 # display as 赤井
 # JP: 「話し合い……コミュニケーションの不足」
-1876 = "「Trò chuyện……sự thiếu hụt giao tiếp.」"
+1876 = "「Trò chuyện......sự thiếu hụt giao tiếp.」"
 # monologue
 # JP: 誰もが誰もを疑って――\nレイルロオドたちだけが、お互いを信じあっていた。
 2601 = "Tất cả mọi người đều nghi ngờ lẫn nhau——\nChỉ có các Railord, là tin tưởng lẫn nhau."
 # monologue
 # JP: その結末が、この有様です。\n“死”の共感に――ニイロクを晒し、巻き込んだ。
-2713 = "Kết cục, lại thành ra thế này.\nPhơi bày, và cuốn Niiroku vào——\x%l共感;#00ffc040;cộng cảm%l;#; của cái “chết”."
+2713 = "Kết cục, lại thành ra thế này.\nPhơi bày, và cuốn Niiroku vào——\\x%l共感;#00ffc040;cộng cảm%l;#; của cái “chết”."
 # 【赤井】
 # display as 赤井
 # JP: 「一瞬で済んでいる筈です。\nもうシロは、共感を送ることなど……出来ない筈です」
-1860 = "「Chắc hẳn là đã kết thúc trong nháy mắt.\nShiro, chắc chắn không thể……gửi \x%l共感;#00ffc040;cộng cảm%l;#; được nữa.」"
+1860 = "「Chắc hẳn là đã kết thúc trong nháy mắt.\nShiro, chắc chắn không thể......gửi \\x%l共感;#00ffc040;cộng cảm%l;#; được nữa.」"
 # monologue
 # JP: 検査省略での即時破壊。
 2517 = "Bỏ qua kiểm tra và phá hủy ngay lập tức."
@@ -1457,10 +1457,10 @@
 # 【赤井】
 # display as 赤井
 # JP: 「――専用ピン……出さないと」
-1245 = "「——Phải lấy……chốt chuyên dụng ra.」"
+1245 = "「——Phải lấy......chốt chuyên dụng ra.」"
 # monologue
 # JP: 運転士鞄を漁ります。
-2603 = "Tôi lục lọi trong \x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#;."
+2603 = "Tôi lục lọi trong \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#;."
 # monologue
 # JP: 再起動スイッチは耳の奥。\nレイルロオドには不要なはずの、隙間の最奥。
 2793 = "Công tắc khởi động lại nằm sâu trong tai.\nSâu tận cùng của một khe hở, nơi đáng lẽ ra không cần thiết đối với Railord."
@@ -1624,7 +1624,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「それは……今は、まだっ、\n慣れて――ないっ、から」
-2145 = "「Chuyện đó……là do bây giờ, tôi vẫn chưa,\nquen——với việc đó, mà thôi.」"
+2145 = "「Chuyện đó......là do bây giờ, tôi vẫn chưa,\nquen——với việc đó, mà thôi.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「そう。慣れる。この顔にも。\n――シロおねえちゃんがいないことにも」
@@ -1647,7 +1647,7 @@
 # 【ニイロク】
 # display as 二六
 # JP: 「ん……」
-1758 = "「Ưm……」"
+1758 = "「Ưm......」"
 # monologue
 # JP: キスのさなかも、ニイロクは目を閉じません。\n完全に、顔が固まってしまっています。
 2521 = "Ngay cả khi đang hôn, Niiroku cũng không nhắm mắt lại.\nKhuôn mặt em ấy, đã hoàn toàn cứng đờ."
@@ -1676,7 +1676,7 @@
 # 【赤井】
 # display as 赤井
 # JP: 「もちろんですとも。運転鞄、あけますね」
-2024 = "「Tất nhiên là được rồi. Tôi mở \x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#; ra nhé.」"
+2024 = "「Tất nhiên là được rồi. Tôi mở \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#; ra nhé.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ううん、鞄は、今はこわい」

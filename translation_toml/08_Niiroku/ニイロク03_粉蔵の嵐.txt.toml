@@ -2,23 +2,23 @@
 [info]
 
 [characters]
-1953 = "ニイロク"
-2125 = "技工Ａ"
-2127 = "技工Ｂ"
-2081 = "後東"
-1950 = "シロ"
-2272 = "赤井"
-1988 = "先輩"
+1953 = "Niiroku"
+2125 = "Kỹ thuật viên A"
+2127 = "Kỹ thuật viên B"
+2081 = "Gotou"
+1950 = "Shiro"
+2272 = "Akai"
+1988 = "Tiền bối"
 
 [character_subs]
-1970 = "二六"
-2341 = "？？？"
-2036 = "四六"
-# 2272 = "赤井"
-2008 = "前輩"
-# 2125 = "技工Ａ"
-2030 = "司機Ａ"
-# 2127 = "技工Ｂ"
+1970 = "Niiroku"
+2341 = "???"
+2036 = "Số 46"
+2272 = "Akai"
+2008 = "Tiền bối"
+2125 = "Kỹ thuật viên A"
+2030 = "Tài xế A"
+2127 = "Kỹ thuật viên B"
 
 [script]
 # lines: 368 
@@ -381,12 +381,12 @@
 1634 = "「Tốt nhất thì, tất nhiên là bắt họ rút lại quyết định giải thể Đường sắt Hoàng gia rồi.」"
 # 【後東】
 # display as 司機Ａ
-# JP: 「だよな！\n電化が進んで、\x%l電車;#00ffc040;電車%l;#;が走り回るようになりゃ」
-1513 = "「Đúng vậy!\nĐiện khí hóa được đẩy mạnh, \x%l電車;#00ffc040;tàu điện%l;#; chạy khắp nơi thì」"
+# JP: 「だよな！\n電化が進んで、\\x%l電車;#00ffc040;電車%l;#;が走り回るようになりゃ」
+1513 = "「Đúng vậy!\nĐiện khí hóa được đẩy mạnh, \\x%l電車;#00ffc040;tàu điện%l;#; chạy khắp nơi thì」"
 # 【先輩】
 # display as 前輩
-# JP: 「\x%l電車;#00ffc040;電車%l;#;ばどんどん走らせて――そいでいくら儲ければ、\n地方路線の赤字を全部埋められっとか」
-1826 = "「Cứ cho \x%l電車;#00ffc040;tàu điện%l;#; chạy ầm ầm――rồi kiếm được bao nhiêu lợi nhuận,\nthì mới bù đắp được hết số thâm hụt của các tuyến đường địa phương chứ.」"
+# JP: 「\\x%l電車;#00ffc040;電車%l;#;ばどんどん走らせて――そいでいくら儲ければ、\n地方路線の赤字を全部埋められっとか」
+1826 = "「Cứ cho \\x%l電車;#00ffc040;tàu điện%l;#; chạy ầm ầm――rồi kiếm được bao nhiêu lợi nhuận,\nthì mới bù đắp được hết số thâm hụt của các tuyến đường địa phương chứ.」"
 # 【後東】
 # display as 司機Ａ
 # JP: 「いや、そんなこと俺らに聞かれても――」
@@ -505,8 +505,8 @@
 1510 = "「Đúng vậy! Nếu việc giải thể Đường sắt Hoàng gia là không thể tránh khỏi\nthì chỉ còn cách làm thôi!!」"
 # 【技工Ｂ】
 # display as 技工Ｂ
-# JP: 「赤井さんならできよーばい！　帝鉄の希望、\n\x%lクハ26;#00ffc040;クハ26%l;#;系ば任される試験運転士やけん！！」
-1768 = "「Nếu là anh Akai thì chắc chắn làm được! Anh là niềm hy vọng của Đường sắt Hoàng gia,\nlà lái tàu thử nghiệm được giao phó dòng \x%lクハ26;#00ffc040;Kuha 26%l;#; mà!!」"
+# JP: 「赤井さんならできよーばい！　帝鉄の希望、\n\\x%lクハ26;#00ffc040;クハ26%l;#;系ば任される試験運転士やけん！！」
+1768 = "「Nếu là anh Akai thì chắc chắn làm được! Anh là niềm hy vọng của Đường sắt Hoàng gia,\nlà lái tàu thử nghiệm được giao phó dòng \\x%lクハ26;#00ffc040;Kuha 26%l;#; mà!!」"
 # monologue
 # JP: 理解、不能。\n原因を究明出来ないままで、解決できるはずがない。
 2107 = "Không thể, lý giải nổi.\nKhi chưa tìm ra nguyên nhân, thì làm sao có thể giải quyết được chứ."
@@ -524,8 +524,8 @@
 # JP: （自分の判断を停止して、怒りのぶつけ所を――\nでなければ救いを、誰かに求めるようになるんだ）
 2340 = "（Ngừng đưa ra phán đoán của bản thân, và tìm một nơi để trút giận――\nNếu không thì, sẽ tìm kiếm sự cứu rỗi từ một ai đó）"
 # monologue
-# JP: そして自分は、\x%lクハ26;#00ffc040;クハ26%l;#;統括制御レイルロオドだから。\n帝鉄復活の希望の象徴、そのものだから。
-2228 = "Và bởi vì mình, là Railord điều khiển tổng hợp \x%lクハ26;#00ffc040;Kuha 26%l;#;.\nChính là biểu tượng hy vọng cho sự phục sinh của Đường sắt Hoàng gia."
+# JP: そして自分は、\\x%lクハ26;#00ffc040;クハ26%l;#;統括制御レイルロオドだから。\n帝鉄復活の希望の象徴、そのものだから。
+2228 = "Và bởi vì mình, là Railord điều khiển tổng hợp \\x%lクハ26;#00ffc040;Kuha 26%l;#;.\nChính là biểu tượng hy vọng cho sự phục sinh của Đường sắt Hoàng gia."
 # monologue
 # JP: （だから――“槍玉”）
 2330 = "（Nên mới trở thành――'Mục tiêu công kích'）"
@@ -669,8 +669,8 @@
 1426 = "「!!?」"
 # 【後東】
 # display as 司機Ａ
-# JP: 「あ？　\x%lクハ26;#00ffc040;クハ26%l;#;の！？」
-1471 = "「Hả? Của \x%lクハ26;#00ffc040;Kuha 26%l;#;!?」"
+# JP: 「あ？　\\x%lクハ26;#00ffc040;クハ26%l;#;の！？」
+1471 = "「Hả? Của \\x%lクハ26;#00ffc040;Kuha 26%l;#;!?」"
 # 【技工Ｂ】
 # display as 技工Ｂ
 # JP: 「ああ――隠しよっとったですか」
@@ -707,8 +707,8 @@
 1345 = "「Niiroku này――cô, định gánh vác trách nhiệm của cậu Akai\ntheo cách nào đây?」"
 # 【ニイロク】
 # display as 二六
-# JP: 「決まってる。\x%lクハ26;#00ffc040;クハ26%l;#;を本線営業運転に乗せる。\n自分の特急――エアクラに負けないための特急を」
-1824 = "「Đã quyết định rồi. Sẽ đưa \x%lクハ26;#00ffc040;Kuha 26%l;#; vào vận hành thương mại trên tuyến chính.\nTàu tốc hành của tôi――tàu tốc hành được tạo ra để không thua kém Aircra.」"
+# JP: 「決まってる。\\x%lクハ26;#00ffc040;クハ26%l;#;を本線営業運転に乗せる。\n自分の特急――エアクラに負けないための特急を」
+1824 = "「Đã quyết định rồi. Sẽ đưa \\x%lクハ26;#00ffc040;Kuha 26%l;#; vào vận hành thương mại trên tuyến chính.\nTàu tốc hành của tôi――tàu tốc hành được tạo ra để không thua kém Aircra.」"
 # 【後東】
 # display as 司機Ａ
 # JP: 「エアクラに負けねえって――\nああ、いや――そのための開発だもんな」
@@ -728,7 +728,7 @@
 # 【ニイロク】
 # display as 二六
 # JP: 「ゆったりとしたシート。ビュッフェ。カーテン。\n軽食を取りながら、仕事をしながらの移動を提供」
-1568 = "「Ghế ngồi rộng rãi thoải mái. \x%lビュッフェ;#00ffc040;Quầy ăn nhẹ%l;#;. Rèm che.\nCung cấp một chuyến đi vừa có thể thưởng thức bữa ăn nhẹ, vừa có thể làm việc.」"
+1568 = "「Ghế ngồi rộng rãi thoải mái. \\x%lビュッフェ;#00ffc040;Quầy ăn nhẹ%l;#;. Rèm che.\nCung cấp một chuyến đi vừa có thể thưởng thức bữa ăn nhẹ, vừa có thể làm việc.」"
 # monologue
 # JP: エアクラも自動運転だから、\n仕事も、食事も、やろうと思えばできるって聞く。
 2306 = "Nghe nói Aircra cũng là lái tự động,\nnên nếu muốn thì làm việc hay ăn uống đều được cả."
@@ -920,8 +920,8 @@
 # JP: 最後って、最後って清春、いま言った！\nそれって絶対、新会社でも最後ってこと！！
 2180 = "Cuối cùng, Kiyoharu vừa nói từ cuối cùng!\nNhư vậy chắc chắn có nghĩa là, ở công ty mới cũng là cuối cùng!!"
 # monologue
-# JP: 清春、自分と\x%lクハ26;#00ffc040;クハ26%l;#;を、廃棄・廃車のそのときまで\nずうっと使ってくれるんだ！！
-2190 = "Kiyoharu, sẽ sử dụng mình và \x%lクハ26;#00ffc040;Kuha 26%l;#;,\ncho đến tận lúc bị phế bỏ, tháo dỡ luôn!!"
+# JP: 清春、自分と\\x%lクハ26;#00ffc040;クハ26%l;#;を、廃棄・廃車のそのときまで\nずうっと使ってくれるんだ！！
+2190 = "Kiyoharu, sẽ sử dụng mình và \\x%lクハ26;#00ffc040;Kuha 26%l;#;,\ncho đến tận lúc bị phế bỏ, tháo dỡ luôn!!"
 # 【ニイロク】
 # display as 二六
 # JP: 「なら教えて？　新会社を作るため何をすればいいか。\n未来のために、一緒に走りつづけるために」
@@ -1233,12 +1233,12 @@
 1520 = "「Dù trong trường hợp xấu nhất, chỉ cần cô còn ở lại,\nĐường sắt Hoàng gia――không, mồi lửa cho sự phục sinh của đường sắt, sẽ tiếp tục tồn tại.」"
 # 【ニイロク】
 # display as 二六
-# JP: 「わかる。自分は、そうした機体。\n自分さえいれば、\x%lクハ26;#00ffc040;クハ26%l;#;だって編成ごと復元できる」
-1595 = "「Tôi hiểu. Tôi là một cỗ máy như vậy.\nChỉ cần có tôi, \x%lクハ26;#00ffc040;Kuha 26%l;#; cũng có thể được phục nguyên cả đoàn.」"
+# JP: 「わかる。自分は、そうした機体。\n自分さえいれば、\\x%lクハ26;#00ffc040;クハ26%l;#;だって編成ごと復元できる」
+1595 = "「Tôi hiểu. Tôi là một cỗ máy như vậy.\nChỉ cần có tôi, \\x%lクハ26;#00ffc040;Kuha 26%l;#; cũng có thể được phục nguyên cả đoàn.」"
 # 【赤井】
 # display as 赤井
-# JP: 「\x%lクハ26;#00ffc040;クハ26%l;#;は残したい。可能なら、粉蔵-[はかた,1]博太の路線も。\nそういう風に、成功にいくつかのレベルがあります」
-1553 = "「Tôi muốn giữ lại \x%lクハ26;#00ffc040;Kuha 26%l;#;. Nếu có thể, cả tuyến đường Kokura - Hakata nữa.\nNhư vậy đấy, thành công cũng có nhiều cấp độ khác nhau.」"
+# JP: 「\\x%lクハ26;#00ffc040;クハ26%l;#;は残したい。可能なら、粉蔵-[はかた,1]博太の路線も。\nそういう風に、成功にいくつかのレベルがあります」
+1553 = "「Tôi muốn giữ lại \\x%lクハ26;#00ffc040;Kuha 26%l;#;. Nếu có thể, cả tuyến đường Kokura - Hakata nữa.\nNhư vậy đấy, thành công cũng có nhiều cấp độ khác nhau.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「わかった。と思う。この署名も、ゴネたのも。\n全部――成功のレベルをより高くするため」

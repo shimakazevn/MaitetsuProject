@@ -2,21 +2,21 @@
 [info]
 
 [characters]
-1978 = "ニイロク"
-1973 = "シロ"
-2259 = "赤井"
-2287 = "電車区長"
-2162 = "技工Ａ"
-2163 = "技工Ｂ"
+1978 = "Niiroku"
+1973 = "Shiro"
+2259 = "Akai"
+2287 = "Trưởng ga tàu điện"
+2162 = "Kỹ thuật viên A"
+2163 = "Kỹ thuật viên B"
 
 [character_subs]
-2020 = "二六"
-2056 = "四六"
-# 2259 = "赤井"
-2335 = "？？？"
-2297 = "電車段長"
-# 2162 = "技工Ａ"
-# 2163 = "技工Ｂ"
+2020 = "Niiroku"
+2056 = "Số 46"
+2259 = "Akai"
+2335 = "???"
+2297 = "Trưởng ga tàu điện"
+2162 = "Kỹ thuật viên A"
+2163 = "Kỹ thuật viên B"
 
 [script]
 # lines: 345 
@@ -26,11 +26,11 @@
 1590 = "「Ừm......」"
 # 【ニイロク】
 # display as 二六
-# JP: 「……なにこれ。勉強にならない。全然。\n\x%l電車;#00ffc040;電車%l;#;、一両も出てこない」
-1190 = "「......Cái gì thế này. Chẳng học được gì cả. Hoàn toàn không.\n\x%l電車;#00ffc040;Tàu điện%l;#;, một toa cũng không có.」"
+# JP: 「……なにこれ。勉強にならない。全然。\n\\x%l電車;#00ffc040;電車%l;#;、一両も出てこない」
+1190 = "「......Cái gì thế này. Chẳng học được gì cả. Hoàn toàn không.\n\\x%l電車;#00ffc040;Tàu điện%l;#;, một toa cũng không có.」"
 # monologue
-# JP: \x%l電車;#00ffc040;電車%l;#;だけじゃない。気動車も。機関車も。\n鉄道要素がまるでない。
-2012 = "Không chỉ \x%l電車;#00ffc040;tàu điện%l;#;. Toa xe tự hành cũng không. Đầu máy cũng không.\nHoàn toàn không có chút yếu tố đường sắt nào."
+# JP: \\x%l電車;#00ffc040;電車%l;#;だけじゃない。気動車も。機関車も。\n鉄道要素がまるでない。
+2012 = "Không chỉ \\x%l電車;#00ffc040;tàu điện%l;#;. Toa xe tự hành cũng không. Đầu máy cũng không.\nHoàn toàn không có chút yếu tố đường sắt nào."
 # 【ニイロク】
 # display as 二六
 # JP: 「学園も、[しょうわ,1]正和鉄道でも[いわくら,1]岩鞍でもない。\n鉄道員を養成してない」
@@ -207,8 +207,8 @@
 # JP: 「トースト焦げ、良し。寝癖、良し。ブラシ、良し」
 1521 = "「Độ cháy của bánh mì, tốt. Tóc vểnh, tốt. Lược chải, tốt.」"
 # monologue
-# JP: \x%l指差喚呼;#00ffc040;指差喚呼%l;#;。\n手順もきっちり確認しなおす。
-50 = "\x%l指差喚呼;#00ffc040;Chỉ tay hô xác nhận%l;#;.\nQuy trình cũng phải kiểm tra lại cẩn thận."
+# JP: \\x%l指差喚呼;#00ffc040;指差喚呼%l;#;。\n手順もきっちり確認しなおす。
+50 = "\\x%l指差喚呼;#00ffc040;Chỉ tay hô xác nhận%l;#;.\nQuy trình cũng phải kiểm tra lại cẩn thận."
 # 【ニイロク】
 # display as 二六
 # JP: 「焦げたトーストくわえる。ブラシ寝ぐせ直す。\n曲がり角、ぶつかる。そのあと、再会」
@@ -690,8 +690,8 @@
 1702 = "「Thật sự, hết cách luôn nhỉ.\nÔ dùng chung cũng hết sạch vì cơn mưa đột ngột này rồi.」"
 # 【ニイロク】
 # display as 二六
-# JP: 「どうしようもない。忘れた――傘。\n\x%l指差喚呼;#00ffc040;指差喚呼%l;#;するの、忘れてた」
-1850 = "「Hết cách rồi. Quên――ô rồi.\nQuên mất, không \x%l指差喚呼;#00ffc040;chỉ tay hô xác nhận%l;#;.」"
+# JP: 「どうしようもない。忘れた――傘。\n\\x%l指差喚呼;#00ffc040;指差喚呼%l;#;するの、忘れてた」
+1850 = "「Hết cách rồi. Quên――ô rồi.\nQuên mất, không \\x%l指差喚呼;#00ffc040;chỉ tay hô xác nhận%l;#;.」"
 # 【赤井】
 # display as 赤井
 # JP: 「職務でもなし、そこまで落ち込むようなことでも。\nなに、わたしがひとっ走り宿舎まで――おや」

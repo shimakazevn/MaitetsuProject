@@ -2,28 +2,28 @@
 [info]
 
 [characters]
-2787 = "ふかみ"
-2841 = "ポーレット"
-2878 = "会社員"
-3109 = "日々姫"
-2805 = "れいな"
-2899 = "凪"
-2930 = "双鉄"
-2696 = "おっさん"
-2893 = "児童"
-2714 = "ご老人"
+2787 = "Fukami"
+2841 = "Paulette"
+2878 = "Nhân viên"
+3109 = "Hibiki"
+2805 = "Reina"
+2899 = "Nagi"
+2930 = "Soutetsu"
+2696 = "Ông chú"
+2893 = "Trẻ em"
+2714 = "Cụ già"
 
 [character_subs]
-3155 = "深美"
-3151 = "波萊特"
-2898 = "公司職員"
-3116 = "日日姬"
-3168 = "玲奈"
-# 2899 = "凪"
-3271 = "雙鐵"
-2977 = "大叔"
-2895 = "兒童"
-3204 = "老人"
+3155 = "Fukami"
+3151 = "Paulette"
+2898 = "Nhân viên"
+3116 = "Hibiki"
+3168 = "Reina"
+2899 = "Nagi"
+3271 = "Soutetsu"
+2977 = "Ông chú"
+2895 = "Trẻ em"
+3204 = "Ông lão"
 
 [script]
 # lines: 490 
@@ -39,8 +39,8 @@
 # JP: 「ご乗車ありがとうございました」
 2383 = "「Cảm ơn quý khách đã đi tàu」"
 # monologue
-# JP: いた、ポーレットさん。\n\x%lキハ07s;#00ffc040;キハ07s%l;#;、ちょうど戻ってきたとこみたい。
-3101 = "Thấy rồi, chị Paulette.\n\x%lキハ07s;#00ffc040;Kiha 07S%l;#;, có vẻ vừa mới quay lại."
+# JP: いた、ポーレットさん。\n\\x%lキハ07s;#00ffc040;キハ07s%l;#;、ちょうど戻ってきたとこみたい。
+3101 = "Thấy rồi, chị Paulette.\n\\x%lキハ07s;#00ffc040;Kiha 07S%l;#;, có vẻ vừa mới quay lại."
 # 【ポーレット】
 # display as 波萊特
 # JP: 「ご乗車ありがとうございました。\n――ありがとうございました」
@@ -590,7 +590,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「そうよね、長距離になればなるほど食事は重要。\n車販にするか――ビュッフェをつけちゃうか」
-2451 = "「Đúng vậy nhỉ, đường càng dài thì bữa ăn càng quan trọng.\nBán hàng trên xe hay là——mở luôn quầy \x%lビュッフェ;#00ffc040;buffet%l;#; nhỉ」"
+2451 = "「Đúng vậy nhỉ, đường càng dài thì bữa ăn càng quan trọng.\nBán hàng trên xe hay là——mở luôn quầy \\x%lビュッフェ;#00ffc040;buffet%l;#; nhỉ」"
 # 【ふかみ】
 # display as 深美
 # JP: 「それか……ええと、大人の人がお酒飲む――\nあの、バー、でいいのかなぁ？　ああいう」
@@ -1096,8 +1096,8 @@
 # JP: ……勤務時間、あっという間だった。
 1512 = "...Thời gian làm việc, trôi qua nhanh như chớp."
 # monologue
-# JP: 本当は、\x%lキハ07s;#00ffc040;キハ07s%l;#;の戻ってくるのを待って、\n改札までお手伝いしていきたかったんだけど――
-3131 = "Thực ra, tôi muốn đợi \x%lキハ07s;#00ffc040;Kiha 07S%l;#; quay lại,\nđể giúp soát vé luôn cơ, nhưng mà——"
+# JP: 本当は、\\x%lキハ07s;#00ffc040;キハ07s%l;#;の戻ってくるのを待って、\n改札までお手伝いしていきたかったんだけど――
+3131 = "Thực ra, tôi muốn đợi \\x%lキハ07s;#00ffc040;Kiha 07S%l;#; quay lại,\nđể giúp soát vé luôn cơ, nhưng mà——"
 # 【ふかみ】
 # display as 深美
 # JP: 「ポーレットさんに言われちゃったし。\n休むときにはしっかり休むことも、安全のためって」

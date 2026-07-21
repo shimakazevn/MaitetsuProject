@@ -2,27 +2,27 @@
 [info]
 
 [characters]
-2693 = "赤井宮司"
-2370 = "双鉄"
-2281 = "ポーレット"
-2263 = "れいな"
-2521 = "日々姫"
-2277 = "ハチロク"
-2353 = "凪"
-2252 = "ふかみ"
-2632 = "真闇"
+2693 = "Chủ tế Akai"
+2370 = "Soutetsu"
+2281 = "Paulette"
+2263 = "Reina"
+2521 = "Hibiki"
+2277 = "Hachiroku"
+2353 = "Nagi"
+2252 = "Fukami"
+2632 = "Mayami"
 
 [character_subs]
-# 2693 = "赤井宮司"
-2756 = "雙鐵"
-2578 = "波萊特"
-2757 = "雙鐵＆波萊特"
-2614 = "玲奈"
-2534 = "日日姬"
-2343 = "八六"
-# 2353 = "凪"
-2598 = "深美"
-# 2632 = "真闇"
+2693 = "Chủ tế Akai"
+2756 = "Soutetsu"
+2578 = "Paulette"
+2757 = "Soutetsu & Paulette"
+2614 = "Reina"
+2534 = "Hibiki"
+2343 = "Hachiroku"
+2353 = "Nagi"
+2598 = "Fukami"
+2632 = "Mayami"
 
 [script]
 # lines: 396 
@@ -795,8 +795,8 @@
 1688 = "「Ồ, bản đồ cổ sao——\nCủa Ohito... Không, khu vực rộng hơn thế.」"
 # 【ポーレット】
 # display as 波萊特
-# JP: 「\x%l大詔;#00ffc040;大詔%l;#;の頃のものでしょうかね？\n[ていてつゆのいせん,4]帝鉄湯医線って、ほら、ここ」
-2104 = "「Có lẽ là từ thời \x%l大詔;#00ffc040;Đại Chiếu%l;#; nhỉ?\nTuyến Teitetsu Yui này, anh xem, ở đây.」"
+# JP: 「\\x%l大詔;#00ffc040;大詔%l;#;の頃のものでしょうかね？\n[ていてつゆのいせん,4]帝鉄湯医線って、ほら、ここ」
+2104 = "「Có lẽ là từ thời \\x%l大詔;#00ffc040;Đại Chiếu%l;#; nhỉ?\nTuyến Teitetsu Yui này, anh xem, ở đây.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「大廃線のはるか以前か。\nああ――鉄道路線は、九洲を[もうら,1]網羅していたのだなぁ」
@@ -939,15 +939,15 @@
 1861 = "「Nếu khổ đường ray giống nhau,\nthì có thể chạy thẳng vào tuyến đó được đúng không?」"
 # 【ポーレット】
 # display as 波萊特
-# JP: 「はい！　もしも線路が状態よく残ってれば、\nそことつなげて、\x%lポイント;#00ffc040;ポイント%l;#;整備するだけですから」
-1896 = "「Vâng! Nếu đường ray vẫn còn nguyên vẹn,\nthì chỉ cần nối với nó và bảo dưỡng lại \x%lポイント;#00ffc040;công tắc%l;#; là được ạ.」"
+# JP: 「はい！　もしも線路が状態よく残ってれば、\nそことつなげて、\\x%lポイント;#00ffc040;ポイント%l;#;整備するだけですから」
+1896 = "「Vâng! Nếu đường ray vẫn còn nguyên vẹn,\nthì chỉ cần nối với nó và bảo dưỡng lại \\x%lポイント;#00ffc040;công tắc%l;#; là được ạ.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「状態よく残っていれば――\nどうかな、面白いのではないかと考えている」
 1763 = "「Nếu vẫn còn nguyên vẹn——\nThế nào, anh nghĩ ý tưởng này khá thú vị đấy chứ.」"
 # monologue
-# JP: 線路は、上質の鉄材だ。誰かが、恐らくは持ち去っている。\nが、術仙炭鉱付近は\x%lエアクラ;#00ffc040;エアクラ%l;#;の作動不能地帯――
-2747 = "Đường ray là loại thép chất lượng cao. Có lẽ ai đó đã lấy trộm rồi.\nNhưng khu vực Mỏ than Jussen là vùng cấm hoạt động của \x%lエアクラ;#00ffc040;Aircra%l;#;——"
+# JP: 線路は、上質の鉄材だ。誰かが、恐らくは持ち去っている。\nが、術仙炭鉱付近は\\x%lエアクラ;#00ffc040;エアクラ%l;#;の作動不能地帯――
+2747 = "Đường ray là loại thép chất lượng cao. Có lẽ ai đó đã lấy trộm rồi.\nNhưng khu vực Mỏ than Jussen là vùng cấm hoạt động của \\x%lエアクラ;#00ffc040;Aircra%l;#;——"
 # monologue
 # JP: 廃線されてしまった後での持ち去りはひどく困難だろう。\nゆえ、森の奥へと入ってしまえば残っていそうな気もする。
 2397 = "Sau khi tuyến đường bị bãi bỏ, việc vận chuyển chúng đi chắc chắn vô cùng khó khăn.\nVì vậy, tôi có cảm giác nếu vào sâu trong rừng, có thể chúng vẫn còn sót lại."
@@ -1195,8 +1195,8 @@
 2618 = "Với vẻ đầy tự hào và hoài niệm,\nReina ưỡn ngực 'ehen'."
 # 【れいな】
 # display as 玲奈
-# JP: 「トロッコでやってきた石炭を\x%l貨車;#00ffc040;貨車%l;#;につんで。\n鉱夫さんたちを乗せたキハ[れいなな,1]07でひっぱっていくんです」
-2008 = "「Chất than đá từ xe goòng sang \x%l貨車;#00ffc040;toa chở hàng%l;#;.\nRồi KiHa 07 chở các bác thợ mỏ sẽ kéo đi ạ.」"
+# JP: 「トロッコでやってきた石炭を\\x%l貨車;#00ffc040;貨車%l;#;につんで。\n鉱夫さんたちを乗せたキハ[れいなな,1]07でひっぱっていくんです」
+2008 = "「Chất than đá từ xe goòng sang \\x%l貨車;#00ffc040;toa chở hàng%l;#;.\nRồi KiHa 07 chở các bác thợ mỏ sẽ kéo đi ạ.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「トロッコ――\nそうか、鉱山ならトロッコもあるのか」
@@ -1324,8 +1324,8 @@
 2473 = "Nếu là hai chúng tôi, chắc chắn sẽ điều tra được khá nhiều thứ."
 # 【日々姫】
 # display as 日日姬
-# JP: 「けど……一日仕事になっちゃいますよ？　\n\x%lエアクラ;#00ffc040;エアクラ%l;#;使えないなら、ナビもフォローできませんし」
-1607 = "「Nhưng... sẽ mất cả ngày đấy ạ?\nNếu không dùng được \x%lエアクラ;#00ffc040;Aircra%l;#;, Navi cũng không hỗ trợ được đâu.」"
+# JP: 「けど……一日仕事になっちゃいますよ？　\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;使えないなら、ナビもフォローできませんし」
+1607 = "「Nhưng... sẽ mất cả ngày đấy ạ?\nNếu không dùng được \\x%lエアクラ;#00ffc040;Aircra%l;#;, Navi cũng không hỗ trợ được đâu.」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「あ！」
@@ -1428,8 +1428,8 @@
 2468 = "Có phải tôi đang ép buộc em ấy không——\nCảm giác đó lại trào dâng trong tôi."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「日々姫。\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致うんぬんのこともある。\nもしも気乗りがしないなら」
-1871 = "「Hibiki. Còn chuyện thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#; nữa.\nNếu em cảm thấy không thoải mái thì...」"
+# JP: 「日々姫。\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致うんぬんのこともある。\nもしも気乗りがしないなら」
+1871 = "「Hibiki. Còn chuyện thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; nữa.\nNếu em cảm thấy không thoải mái thì...」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「え？　気乗りとかは大丈夫です。\nちょっと、責任が重いから気合いれてただけですよ」

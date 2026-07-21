@@ -2,21 +2,21 @@
 [info]
 
 [characters]
-2197 = "ひかり"
-2230 = "れいな"
-2368 = "双鉄"
-2247 = "ポーレット"
-2463 = "幼子"
-2672 = "若い母親"
+2197 = "Hikari"
+2230 = "Reina"
+2368 = "Soutetsu"
+2247 = "Paulette"
+2463 = "Bé thơ"
+2672 = "Mẹ trẻ"
 
 [character_subs]
-2320 = "光"
-2620 = "玲奈"
-2745 = "雙鐵"
-2574 = "波萊特"
-2430 = "孩子"
-2796 = "４人"
-2461 = "年輕的母親"
+2320 = "Hikari"
+2620 = "Reina"
+2745 = "Soutetsu"
+2574 = "Paulette"
+2430 = "Đứa trẻ"
+2796 = "4 người"
+2461 = "Mẹ trẻ"
 
 [script]
 # lines: 482 
@@ -628,7 +628,7 @@
 1644 = "「Ufufu~, ufufu~」"
 # monologue
 # JP: ……幼い頃を、思い出す。\n父が存命だったころ。
-1192 = "……Nhớ lại thuở nhỏ.\nKhi cha tôi vẫn còn sống."
+1192 = "......Nhớ lại thuở nhỏ.\nKhi cha tôi vẫn còn sống."
 # monologue
 # JP: 父のカメラは、フィルムカメラだったけれども――
 2616 = "Dù máy ảnh của cha là máy ảnh dùng phim――"
@@ -664,7 +664,7 @@
 1758 = "「Hửm? Sao thế? Hikari」"
 # monologue
 # JP: C12 77。一番最初にひかりが撮った、\n牽引わずか一両の――けれども立派な編成写真。
-84 = "C12 77. Bức ảnh đầu tiên Hikari chụp,\ndù chỉ kéo một toa――nhưng là một bức ảnh \x%l編成;#00ffc040;đoàn tàu%l;#; tuyệt đẹp."
+84 = "C12 77. Bức ảnh đầu tiên Hikari chụp,\ndù chỉ kéo một toa――nhưng là một bức ảnh \\x%l編成;#00ffc040;đoàn tàu%l;#; tuyệt đẹp."
 # monologue
 # JP: 背面液晶に表示したそれを、ひかりは何度も、\n何度も何度も。飽きることなく見続けている。
 2322 = "Hiển thị bức ảnh đó trên màn hình LCD phía sau, Hikari xem đi xem lại,\nxem mãi không biết chán."
@@ -872,7 +872,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「……素敵でしたねぇ、湯煙鉄道の[しーじゅうに,2]Ｃ１２。\nデフついてるのは知ってましたけど」
-1211 = "「……Tuyệt thật nhỉ, đầu máy \x%lC12;#00ffc040;C12%l;#; của Đường sắt Yukemuri.\nDù em đã biết là có gắn \x%l除煙板;#00ffc040;tấm chắn khói%l;#; rồi nhưng mà」"
+1211 = "「......Tuyệt thật nhỉ, đầu máy \\x%lC12;#00ffc040;C12%l;#; của Đường sắt Yukemuri.\nDù em đã biết là có gắn \\x%l除煙板;#00ffc040;tấm chắn khói%l;#; rồi nhưng mà」"
 # 【れいな】
 # display as 玲奈
 # JP: 「スノープラウ！　かっこよかったですねぇ！！\nまさかついてるなんて、れいな、びっくりしたですよぉ」
@@ -880,11 +880,11 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「ねー、[シゴロク,2]c56が[テンダー,2]炭水車忘れてきたのかな？　って、\n一瞬わたし、思っちゃったし」
-1846 = "「Đúng thế, có khoảnh khắc em còn tưởng là\n\x%lC56;#00ffc040;C56%l;#; bỏ quên \x%l炭水車;#00ffc040;toa tiếp than nước%l;#; ở nhà nữa cơ」"
+1846 = "「Đúng thế, có khoảnh khắc em còn tưởng là\n\\x%lC56;#00ffc040;C56%l;#; bỏ quên \\x%l炭水車;#00ffc040;toa tiếp than nước%l;#; ở nhà nữa cơ」"
 # 【れいな】
 # display as 玲奈
 # JP: 「うふふぅ、どんなうっかりさんでも、\nテンダーはきっと忘れませんよぉ」
-1759 = "「Ư phu phu~, dù có là người đãng trí đến mức nào\nthì chắc chắn cũng không quên \x%l炭水車;#00ffc040;toa tiếp than nước%l;#; đâu ạ~」"
+1759 = "「Ư phu phu~, dù có là người đãng trí đến mức nào\nthì chắc chắn cũng không quên \\x%l炭水車;#00ffc040;toa tiếp than nước%l;#; đâu ạ~」"
 # monologue
 # JP: が、来て、見て、乗った、それだけで、\nポーレットもれいなも、大満足であったようだ。
 2306 = "Nhưng, đã đến, đã thấy, đã lên tàu, chỉ bấy nhiêu thôi\ncũng đủ khiến cả Paulette và Reina cực kỳ mãn nguyện rồi."
@@ -898,7 +898,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「ふぁ……うさちゃん」
-1656 = "「Oa…… Bé thỏ」"
+1656 = "「Oa...... Bé thỏ」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「む？」
@@ -932,7 +932,7 @@
 # 1681 = "「唔？」" 
 # monologue
 # JP: ひかりがレンズをむけているのは、\n車窓の外では無く車内……ああ。
-2371 = "Hướng mà Hikari chĩa ống kính vào\nkhông phải là ngoài cửa sổ mà là bên trong toa xe…… À."
+2371 = "Hướng mà Hikari chĩa ống kính vào\nkhông phải là ngoài cửa sổ mà là bên trong toa xe...... À."
 # 【れいな】
 # display as 玲奈
 # JP: 「うふふぅ。かわいいうさちゃんですねぇ」
@@ -949,7 +949,7 @@
 2657 = "Một chú thỏ tuyết nhỏ nhắn dính chặt vào cửa sổ,\nđang trông chừng đứa trẻ say giấc nồng."
 # monologue
 # JP: （なるほど……窓に接触しているから、\n溶けるスピードがゆるやかなもので済んだのか）
-2780 = "（Ra là vậy…… Vì tiếp xúc với cửa sổ\nnên tốc độ tan chảy mới chậm lại nhỉ）"
+2780 = "（Ra là vậy...... Vì tiếp xúc với cửa sổ\nnên tốc độ tan chảy mới chậm lại nhỉ）"
 # monologue
 # JP: こどもは、多分、二、三歳。
 2732 = "Đứa bé đó chắc khoảng hai, ba tuổi."
@@ -1107,7 +1107,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ん……むっ――」
-1725 = "「Ưm…… Hự——」"
+1725 = "「Ưm...... Hự——」"
 # 【れいな】
 # display as 玲奈
 # JP: 「（すやあぁぁ～、すぅぴぃぃぃ～）」
@@ -1115,11 +1115,11 @@
 # 【ひかり】
 # display as 光
 # JP: 「ぅふぅ……んゆぅ～～」
-1650 = "「Ư phu phu…… Ưm yuu~~」"
+1650 = "「Ư phu phu...... Ưm yuu~~」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「……双鉄、くん」
-1216 = "「……Anh Soutetsu」"
+1216 = "「......Anh Soutetsu」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うむっ！？」
@@ -1130,11 +1130,11 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ……うたた寝をしてしまっていたのか」
-1690 = "「A…… Mình ngủ gật mất rồi à」"
+1690 = "「A...... Mình ngủ gật mất rồi à」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「[けいさん,1]経産大臣……おみやげ……せき、たん――」
-2029 = "「Bộ trưởng Kinh tế và Công nghiệp…… Quà lưu niệm…… Than, đá——」"
+2029 = "「Bộ trưởng Kinh tế và Công nghiệp...... Quà lưu niệm...... Than, đá——」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「旅行中の夢の中でまで、\n仕事熱心だな、ポーレットは」
@@ -1148,7 +1148,7 @@
 2033 = "「Hơn nữa, trong mơ cũng hay nhõng nhẽo nữa」"
 # monologue
 # JP: ……マイントレジャーを実現させるため、\n無我夢中で働きまくっていた、あの頃。
-1191 = "……Cái thời mà chúng tôi làm việc quên ăn quên ngủ\nđể biến Mine Treasure thành hiện thực."
+1191 = "......Cái thời mà chúng tôi làm việc quên ăn quên ngủ\nđể biến Mine Treasure thành hiện thực."
 # monologue
 # JP: あの頃と比べ、ポーレットは少し、柔らかになった。\nそうして、ずっと――何百倍も、綺麗になった。
 2669 = "So với hồi đó, Paulette đã dịu dàng hơn một chút.\nVà cũng trở nên xinh đẹp hơn gấp trăm lần."
@@ -1184,15 +1184,15 @@
 # 【ひかり】
 # display as 光
 # JP: 「んにゃ……いまどこぉ？　おひとよぉ？」
-1744 = "「Ưm nha…… Đang ở đâu rồi? Ohitoyo à?」"
+1744 = "「Ưm nha...... Đang ở đâu rồi? Ohitoyo à?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「御一夜まではまだまだだ。\n[こごた,2]小言田は……多分すぎていると思うが」
-2115 = "「Vẫn chưa đến Ohimitera đâu.\nChắc là…… vừa qua Kogota rồi」"
+2115 = "「Vẫn chưa đến Ohimitera đâu.\nChắc là...... vừa qua Kogota rồi」"
 # 【ひかり】
 # display as 光
 # JP: 「あぅ……そぉだ……すとおぶれっしゃー」
-1688 = "「A…… Đúng rồi…… Tàu bếp lò~」"
+1688 = "「A...... Đúng rồi...... Tàu bếp lò~」"
 # monologue
 # JP: 寝直すものかと思っていたが、\nひかりはもぞもぞ身を起こす。
 2491 = "Cứ tưởng con bé sẽ ngủ tiếp,\nnhưng Hikari lại cựa quậy ngồi dậy."
@@ -1207,7 +1207,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「ん……あ――あったのー。\nぱぱ、あけてー」
-1723 = "「Ưm…… A—— Thấy rồi~\nBa mở ra đi~」"
+1723 = "「Ưm...... A—— Thấy rồi~\nBa mở ra đi~」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うむ――おっと」
@@ -1232,7 +1232,7 @@
 1592 = "「Hikari nhặt được mà~」"
 # monologue
 # JP: 小さな体がひょいっとしずむ。\n……ひかりは靴を脱いだままだが、まぁ仕方ない。
-2412 = "Cơ thể nhỏ nhắn thoăn thoắt cúi xuống.\n……Hikari vẫn chưa đi giày, nhưng mà thôi kệ."
+2412 = "Cơ thể nhỏ nhắn thoăn thoắt cúi xuống.\n......Hikari vẫn chưa đi giày, nhưng mà thôi kệ."
 # 【ひかり】
 # display as 光
 # JP: 「はい、ぱぁぱ、じゅうすー」
@@ -1273,7 +1273,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「そうか、では一口だけ。\n……（ごくっ）……これは、旨いな」
-1795 = "「Vậy à, thế cho ba xin một ngụm nhé.\n……（Ực）…… Cái này, ngon thật đấy」"
+1795 = "「Vậy à, thế cho ba xin một ngụm nhé.\n......（Ực）...... Cái này, ngon thật đấy」"
 # monologue
 # JP: 思わず、缶の能書きを見る。
 2487 = "Bất giác, tôi nhìn dòng chữ trên lon."
@@ -1347,7 +1347,7 @@
 2301 = "Chắc là người mẹ đang đi vệ sinh.\nĐúng lúc đó thì thằng bé tỉnh giấc——"
 # monologue
 # JP: （うさぎ……完全に溶けてしまったか）
-2795 = "（Thỏ tuyết…… tan chảy hoàn toàn rồi à）"
+2795 = "（Thỏ tuyết...... tan chảy hoàn toàn rồi à）"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「大丈夫。ママ、すぐにかえってくるから」
@@ -1499,7 +1499,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「……うん」
-1208 = "「……Vâng」"
+1208 = "「......Vâng」"
 # monologue
 # JP: ひかりが、震える。\nとても小さく。
 2329 = "Hikari đang run rẩy.\nRất khẽ."
@@ -1617,14 +1617,14 @@
 # 【幼子】
 # display as 孩子
 # JP: 「まま……\nうさちゃん。おうち？」
-1809 = "「Mẹ ơi……\nBé thỏ. Về nhà rồi ạ?」"
+1809 = "「Mẹ ơi......\nBé thỏ. Về nhà rồi ạ?」"
 # monologue
 # JP: それで、納得できたのだろう。\n幼子は、体をくたん、座席の背もたれによりかからせる。
 2447 = "Có lẽ thằng bé đã bị thuyết phục.\nNó thả lỏng cơ thể, ngả lưng vào thành ghế."
 # 【ひかり】
 # display as 光
 # JP: 「それでね？　これ、だから……おみやげ」
-1981 = "「Rồi sao nữa nhỉ? Cái này, cho nên…… là quà lưu niệm」"
+1981 = "「Rồi sao nữa nhỉ? Cái này, cho nên...... là quà lưu niệm」"
 # 【幼子】
 # display as 孩子
 # JP: 「うさちゃんの、おみあげ」
@@ -1764,7 +1764,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「あ……っ……ふ……あ……\nどう、いたしまして――なのー――きゃあっ！！」
-1686 = "「A…… ư…… phu…… a……\nKhông, có chi ạ—— là vậy đó~~~ á!!」"
+1686 = "「A...... ư...... phu...... a......\nKhông, có chi ạ—— là vậy đó~~~ á!!」"
 # monologue
 # JP: ぐるり振り向き、ポーレットの胸に隠れてしまう。
 2424 = "Con bé quay ngoắt lại, giấu mặt vào ngực Paulette."

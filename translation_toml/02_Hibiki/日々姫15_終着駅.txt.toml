@@ -2,13 +2,13 @@
 [info]
 
 [characters]
-599 = "路子"
-550 = "双鉄"
+599 = "Michiko"
+550 = "Soutetsu"
 
 [character_subs]
-629 = "？？？"
-620 = "雙鐵"
-# 599 = "路子"
+629 = "???"
+620 = "Soutetsu"
+599 = "Michiko"
 
 [script]
 # lines: 58 
@@ -16,8 +16,8 @@
 # JP: （カトン、トトン、\nタタン、タタン――）
 628 = "（Cọc cạch, cọc cạch,\nxình xịch, xình xịch――）"
 # monologue
-# JP: \x%l列車;#00ffc040;列車%l;#;の音だ。\nいつもと同じ、あの音だ。
-581 = "Tiếng \x%l列車;#00ffc040;đoàn tàu%l;#;.\nVẫn là âm thanh quen thuộc đó."
+# JP: \\x%l列車;#00ffc040;列車%l;#;の音だ。\nいつもと同じ、あの音だ。
+581 = "Tiếng \\x%l列車;#00ffc040;đoàn tàu%l;#;.\nVẫn là âm thanh quen thuộc đó."
 # monologue
 # JP: 夢を見ている。\nそう自覚して、けれども目覚めるわけでもない。
 567 = "Tôi đang mơ.\nTôi ý thức được điều đó, nhưng cũng không tỉnh dậy."
@@ -30,8 +30,8 @@
 # JP: 「ああ――」
 471 = "「À――」"
 # monologue
-# JP: ……\x%l客車;#00ffc040;客車%l;#;だ。セピアの。\nいつもと同じ景色の中で、けれど、佇む姿は違う。
-426 = "……Là \x%l客車;#00ffc040;toa hành khách%l;#;. Màu nâu đỏ.\nGiữa khung cảnh quen thuộc, nhưng bóng dáng đứng đó lại khác biệt."
+# JP: ……\\x%l客車;#00ffc040;客車%l;#;だ。セピアの。\nいつもと同じ景色の中で、けれど、佇む姿は違う。
+426 = "......Là \\x%l客車;#00ffc040;toa hành khách%l;#;. Màu nâu đỏ.\nGiữa khung cảnh quen thuộc, nhưng bóng dáng đứng đó lại khác biệt."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「路子」
@@ -56,7 +56,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「路子……大人になったのか」
-500 = "「Michiko…… em đã lớn rồi sao.」"
+500 = "「Michiko...... em đã lớn rồi sao.」"
 # monologue
 # JP: 僕の双子の妹は、とっくのとうに死んでしまった。\n大人になんて、なれないうちに。
 570 = "Đứa em gái sinh đôi của tôi, đã chết từ lâu lắm rồi.\nKhi còn chưa kịp lớn lên."
@@ -102,7 +102,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「それで……路子も」
-486 = "「Vậy nên…… Michiko cũng」"
+486 = "「Vậy nên...... Michiko cũng」"
 # 【路子】
 # display as 路子
 # JP: 「違うよ？　そーちゃん」
@@ -117,7 +117,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ……そうなんだな」
-472 = "「A…… ra là vậy.」"
+472 = "「A...... ra là vậy.」"
 # monologue
 # JP: 僕は、そのことを知っている。\n日々姫が、それを教えてくれた。
 572 = "Tôi, biết điều đó.\nHibiki, đã dạy cho tôi điều đó."
@@ -140,8 +140,8 @@
 554 = "Bởi vì trái tim tôi, đã biết được rằng.\nThế giới này, lại tươi đẹp đến thế."
 # 【路子】
 # display as 路子
-# JP: 「うふふ、綺麗ね。この\x%l客車;#00ffc040;客車%l;#;。ずうっと怖かったけど\n本当はこんなに綺麗だったんだね」
-468 = "「Ufufu, đẹp thật đấy. \x%l客車;#00ffc040;Toa hành khách%l;#; này. Lúc nào em cũng thấy sợ\nnhưng hóa ra nó lại đẹp đến thế này nhỉ.」"
+# JP: 「うふふ、綺麗ね。この\\x%l客車;#00ffc040;客車%l;#;。ずうっと怖かったけど\n本当はこんなに綺麗だったんだね」
+468 = "「Ufufu, đẹp thật đấy. \\x%l客車;#00ffc040;Toa hành khách%l;#; này. Lúc nào em cũng thấy sợ\nnhưng hóa ra nó lại đẹp đến thế này nhỉ.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ」
@@ -154,10 +154,10 @@
 627 = "（Cạch――cạch――\nxình xịch――xình xịch――）"
 # monologue
 # JP: ……ブレーキショックは感じなかった。\nけれど、線路を叩くリズムが変わり始めている。
-430 = "……Không hề cảm thấy chấn động do phanh.\nNhưng, nhịp điệu gõ lên đường ray đang bắt đầu thay đổi."
+430 = "......Không hề cảm thấy chấn động do phanh.\nNhưng, nhịp điệu gõ lên đường ray đang bắt đầu thay đổi."
 # monologue
-# JP: \x%l列車;#00ffc040;列車%l;#;は、ゆるやかに減速している。\n終着駅は、もう、すぐなのだ。
-56 = "\x%l列車;#00ffc040;Đoàn tàu%l;#; đang từ từ giảm tốc.\nGa cuối, đã đến rất gần rồi."
+# JP: \\x%l列車;#00ffc040;列車%l;#;は、ゆるやかに減速している。\n終着駅は、もう、すぐなのだ。
+56 = "\\x%l列車;#00ffc040;Đoàn tàu%l;#; đang từ từ giảm tốc.\nGa cuối, đã đến rất gần rồi."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「さよならか」
@@ -191,8 +191,8 @@
 # JP: 「じゃ、さ。いくから。\nまた会うときは、ずうっと先でいいけど」
 462 = "「Vậy, nhé. Em đi đây.\nLần tới gặp lại, hy vọng sẽ là một khoảng thời gian rất dài sau này.」"
 # monologue
-# JP: \x%l列車;#00ffc040;列車%l;#;が、止まる。\n扉が開く。
-55 = "\x%l列車;#00ffc040;Đoàn tàu%l;#; dừng lại.\nCửa mở ra."
+# JP: \\x%l列車;#00ffc040;列車%l;#;が、止まる。\n扉が開く。
+55 = "\\x%l列車;#00ffc040;Đoàn tàu%l;#; dừng lại.\nCửa mở ra."
 # monologue
 # JP: その向こうへと、路子の姿が消えていく。\n僕は、一歩も動けない。
 606 = "Về phía bên kia, bóng dáng Michiko dần tan biến.\nTôi, không thể nhúc nhích dù chỉ một bước."
@@ -209,8 +209,8 @@
 # JP: 「ばいばい、そーちゃん」
 461 = "「Bái bai, Sou-chan.」"
 # monologue
-# JP: 扉が閉まる。\n\x%l列車;#00ffc040;列車%l;#;は、再び走りだす――
-616 = "Cửa đóng lại.\n\x%l列車;#00ffc040;Đoàn tàu%l;#;, lại tiếp tục chạy――"
+# JP: 扉が閉まる。\n\\x%l列車;#00ffc040;列車%l;#;は、再び走りだす――
+616 = "Cửa đóng lại.\n\\x%l列車;#00ffc040;Đoàn tàu%l;#;, lại tiếp tục chạy――"
 # monologue
-# JP: なら、僕の居場所は、この\x%l客車;#00ffc040;客車%l;#;じゃない。\n\x%l運転台;#00ffc040;運転台%l;#;へ――僕は、目覚めて。向かうのだ。
-614 = "Vậy thì, nơi tôi thuộc về, không phải là \x%l客車;#00ffc040;toa hành khách%l;#; này.\nĐến \x%l運転台;#00ffc040;buồng lái%l;#;――Tôi phải tỉnh dậy. Và đi tới đó."
+# JP: なら、僕の居場所は、この\\x%l客車;#00ffc040;客車%l;#;じゃない。\n\\x%l運転台;#00ffc040;運転台%l;#;へ――僕は、目覚めて。向かうのだ。
+614 = "Vậy thì, nơi tôi thuộc về, không phải là \\x%l客車;#00ffc040;toa hành khách%l;#; này.\nĐến \\x%l運転台;#00ffc040;buồng lái%l;#;――Tôi phải tỉnh dậy. Và đi tới đó."

@@ -2,17 +2,17 @@
 [info]
 
 [characters]
-2705 = "双鉄"
-3108 = "路子"
-2893 = "日々姫"
-2638 = "ナビ"
+2705 = "Soutetsu"
+3108 = "Michiko"
+2893 = "Hibiki"
+2638 = "Navi"
 
 [character_subs]
-3139 = "雙鐵"
-# 3108 = "路子"
-3172 = "？？？"
-2938 = "日日姬"
-3173 = "Ｎａｖｉ"
+3139 = "Soutetsu"
+3108 = "Michiko"
+3172 = "???"
+2938 = "Hibiki"
+3173 = "Navi"
 
 [script]
 # lines: 493 
@@ -26,10 +26,10 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……しかし、日々姫も忙しい」
-1504 = "「……Nhưng mà, Hibiki cũng bận rộn thật.」"
+1504 = "「......Nhưng mà, Hibiki cũng bận rộn thật.」"
 # monologue
-# JP: 学園生で、デザイナー。\nその上に、\x%l機関助士;#00ffc040;機関助士%l;#;になることを志願までしてくれた。
-2767 = "Vừa là học sinh, vừa là nhà thiết kế.\nHơn thế nữa, em ấy còn tình nguyện trở thành \x%l機関助士;#00ffc040;phụ lái tàu%l;#;."
+# JP: 学園生で、デザイナー。\nその上に、\\x%l機関助士;#00ffc040;機関助士%l;#;になることを志願までしてくれた。
+2767 = "Vừa là học sinh, vừa là nhà thiết kế.\nHơn thế nữa, em ấy còn tình nguyện trở thành \\x%l機関助士;#00ffc040;phụ lái tàu%l;#;."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「――僕の方でも、少しでも日々姫を手伝わねばな。\nそうすることも、より深く“向き合う”ことと繋がろう」
@@ -43,7 +43,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……しかし、遅いな。日々姫の仕事先との約束もある。\nまさか遅刻はするまいが」
-1506 = "「……Nhưng mà, trễ quá rồi. Hibiki còn có hẹn với đối tác nữa.\nKhông lẽ em ấy định đi trễ sao.」"
+1506 = "「......Nhưng mà, trễ quá rồi. Hibiki còn có hẹn với đối tác nữa.\nKhông lẽ em ấy định đi trễ sao.」"
 # monologue
 # JP: 今日は特別な約束など無い登園日だと聞いている。\nゆえ、アクシデントが起きたのではないかと、心配になる。
 3062 = "Tôi nghe nói hôm nay chỉ là một ngày đến trường bình thường không có lịch trình gì đặc biệt.\nVì vậy, tôi bắt đầu lo lắng không biết có chuyện gì xảy ra không."
@@ -53,7 +53,7 @@
 1904 = "「Không, với tính cách của Hibiki thì. Chắc lại được nhờ vả gì đó ở học viện――\nHoặc đơn giản là đang nói chuyện với Kisaki thôi.」"
 # monologue
 # JP: ……答えの出ぬことを考えて、気を揉んでいても仕方ない。\nちょうど、持ち帰った資料もある。
-1452 = "……Có lo lắng về những chuyện không có câu trả lời thì cũng chẳng ích gì.\nVừa hay, tôi cũng có mang theo tài liệu về nhà."
+1452 = "......Có lo lắng về những chuyện không có câu trả lời thì cũng chẳng ích gì.\nVừa hay, tôi cũng có mang theo tài liệu về nhà."
 # monologue
 # JP: 復線買収に関して、僕が実務面で動くことも無かろうが、\n意見を出すにも、最低限の知識は当然、必要になる。
 3137 = "Về việc đền bù giải tỏa đất để khôi phục tuyến đường, có lẽ tôi sẽ không tham gia vào công việc thực tế,\nnhưng để đưa ra ý kiến, đương nhiên tôi cũng cần có những kiến thức cơ bản."
@@ -66,17 +66,17 @@
 2700 = "Vừa lật trang đầu tiên, tôi đã cảm thấy vô cùng hứng thú.\n――Tôi nhận ra sức nặng của hai chữ \"thực tế\"."
 # monologue
 # JP: （ふむ……やはり宅地買収となると困難が多いのだな。\nと、いうか……重いな。罪悪感さえ覚えてしまいかねん）
-3163 = "（Hừm…… Quả nhiên việc đền bù giải tỏa đất ở có rất nhiều khó khăn.\nĐúng hơn là…… nặng nề thật. Thậm chí có thể khiến người ta cảm thấy tội lỗi.）"
+3163 = "（Hừm...... Quả nhiên việc đền bù giải tỏa đất ở có rất nhiều khó khăn.\nĐúng hơn là...... nặng nề thật. Thậm chí có thể khiến người ta cảm thấy tội lỗi.）"
 # monologue
 # JP: 公共と、個と、その両立がならぬとき、\n果たしていかに振る舞うべきか……正解の無い問いだろう。
-2687 = "Khi lợi ích công cộng và cá nhân không thể song hành,\nrốt cuộc chúng ta nên hành xử như thế nào…… Có lẽ đó là một câu hỏi không có đáp án chính xác."
+2687 = "Khi lợi ích công cộng và cá nhân không thể song hành,\nrốt cuộc chúng ta nên hành xử như thế nào...... Có lẽ đó là một câu hỏi không có đáp án chính xác."
 # monologue
 # JP: より大きな、大勢の幸福追求のためであるのなら、\n今そこにある幸せを、果たして潰してよいものか――
 3018 = "Nếu là vì theo đuổi hạnh phúc lớn lao hơn, cho nhiều người hơn,\nthì liệu chúng ta có được phép chà đạp lên hạnh phúc đang hiện hữu ở đó không――"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「補償は無論、適切に行われることが最低限であろうが、\nであったとしても……」
-2431 = "「Đương nhiên, việc bồi thường thỏa đáng là điều kiện tối thiểu,\nnhưng dù có như vậy đi chăng nữa……」"
+2431 = "「Đương nhiên, việc bồi thường thỏa đáng là điều kiện tối thiểu,\nnhưng dù có như vậy đi chăng nữa......」"
 # monologue
 # JP: 補償は止血にすぎないと、経験が僕に教えてくれた。
 3076 = "Kinh nghiệm đã dạy tôi rằng bồi thường chỉ là biện pháp cầm máu tạm thời."
@@ -85,20 +85,20 @@
 3135 = "Sau khi cầm máu, liệu có thể hồi phục và tìm lại được hạnh phúc hay không――\nBồi thường tuyệt đối không đảm bảo cho tương lai."
 # monologue
 # JP: （……しかし――ううむ。\n内容のせいか、あるいはいささか集中しすぎか――）
-3149 = "（……Nhưng mà―― ừm.\nLà do nội dung, hay do mình tập trung quá mức――）"
+3149 = "（......Nhưng mà―― ừm.\nLà do nội dung, hay do mình tập trung quá mức――）"
 # monologue
 # JP: 目が重い。\nまばたきを何度か繰り返しても、殆ど改善してくれない。
 3045 = "Mắt tôi trĩu nặng.\nDù chớp mắt mấy lần cũng chẳng khá hơn là bao."
 # monologue
 # JP: やむなく、まぶたを閉じてみる。ただそれだけで心地よい。\nああ、ならば僕は……自覚以上に、疲れているのか………
-2833 = "Hết cách, tôi đành nhắm mắt lại. Chỉ vậy thôi cũng đủ thấy dễ chịu.\nA, vậy ra tôi…… mệt mỏi hơn mình tưởng sao………"
+2833 = "Hết cách, tôi đành nhắm mắt lại. Chỉ vậy thôi cũng đủ thấy dễ chịu.\nA, vậy ra tôi...... mệt mỏi hơn mình tưởng sao........."
 # monologue
 # JP: （カトン、トトン、\nタタン、タタン――）
 3160 = "（Cọc cạch, cọc cạch,\nxình xịch, xình xịch――）"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……ん……む」
-1507 = "「……Ưm…… ưm.」"
+1507 = "「......Ưm...... ưm.」"
 # 【路子】
 # display as 路子
 # JP: 「そーちゃん？」
@@ -109,7 +109,7 @@
 2034 = "「À――」"
 # monologue
 # JP: ……うたた寝をしてしまったらしい。\nあきれたように、少し笑って路子が見ている。
-1456 = "……Có vẻ tôi đã ngủ gật mất rồi.\nMichiko đang nhìn tôi với vẻ hơi buồn cười, như thể cạn lời."
+1456 = "......Có vẻ tôi đã ngủ gật mất rồi.\nMichiko đang nhìn tôi với vẻ hơi buồn cười, như thể cạn lời."
 # 【路子】
 # display as 路子
 # JP: 「そーちゃん、なにかいいことあったの？\nホっとしたみたいな顔してる」
@@ -117,7 +117,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「いいこと……か、どうかはわからないけれど」
-2404 = "「Chuyện vui…… thì anh cũng không chắc nữa, nhưng mà.」"
+2404 = "「Chuyện vui...... thì anh cũng không chắc nữa, nhưng mà.」"
 # monologue
 # JP: 伝えるべきか、一瞬悩み、\n悩んでも仕方ないことなのだと、すぐ理解する。
 2822 = "Tôi do dự một thoáng xem có nên kể cho em ấy nghe không,\nnhưng ngay lập tức nhận ra có do dự cũng chẳng ích gì."
@@ -175,7 +175,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……」
-1493 = "「……」"
+1493 = "「......」"
 # monologue
 # JP: 否定、できない。\nこれはひとときのうたたねと、僕にも理解できているから。
 2854 = "Tôi không thể phủ nhận.\nBởi vì tôi cũng hiểu rõ đây chỉ là một giấc ngủ gật chốc lát."
@@ -193,7 +193,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……大丈夫だ。探し続けてくれているから。\nただ、僕が――上手に伝えられてないだけで」
-1519 = "「……Không sao đâu. Bố mẹ vẫn đang tiếp tục tìm kiếm mà.\nChỉ là, anh―― chưa truyền đạt được rõ ràng thôi.」"
+1519 = "「......Không sao đâu. Bố mẹ vẫn đang tiếp tục tìm kiếm mà.\nChỉ là, anh―― chưa truyền đạt được rõ ràng thôi.」"
 # 【路子】
 # display as 路子
 # JP: 「みちのいばしょを？」
@@ -350,7 +350,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「……やけん、私の登園の間にも、乗務訓練？」
-1515 = "「……Thế nên, trong lúc em đi học, anh vẫn tham gia huấn luyện nghiệp vụ sao?」"
+1515 = "「......Thế nên, trong lúc em đi học, anh vẫn tham gia huấn luyện nghiệp vụ sao?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「そうだな。それも同じ意味だ。普段の僕で、\n普段の日々姫と向き合わねば――ああ、いや」
@@ -366,10 +366,10 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「ハチロクが……」
-1965 = "「Hachiroku đã……」"
+1965 = "「Hachiroku đã......」"
 # monologue
-# JP: 訓練のあと、\x%l保火;#00ffc040;保火%l;#;状態にし、整備清掃。
-3097 = "Sau khi huấn luyện, chuyển sang trạng thái \x%l保火;#00ffc040;giữ lửa%l;#;, rồi bảo dưỡng dọn dẹp."
+# JP: 訓練のあと、\\x%l保火;#00ffc040;保火%l;#;状態にし、整備清掃。
+3097 = "Sau khi huấn luyện, chuyển sang trạng thái \\x%l保火;#00ffc040;giữ lửa%l;#;, rồi bảo dưỡng dọn dẹp."
 # monologue
 # JP: そうした全てをハチロクが引き受けてくれなかったなら、\nこんな時間に帰宅など、できようもない。
 2644 = "Nếu Hachiroku không gánh vác tất cả những việc đó,\nthì tôi chẳng thể nào về nhà vào giờ này được."
@@ -412,7 +412,7 @@
 2836 = "Từ câu nói đó, tôi có thể cảm nhận được."
 # monologue
 # JP: [サイン・デザイン,3]看板描き――\nその仕事に、日々姫はプロとして向き合っていると。
-2959 = "\x%lサイン・デザイン;#00ffc040;Vẽ biển hiệu%l;#;――\nHibiki đang đối diện với công việc đó bằng thái độ của một chuyên gia."
+2959 = "\\x%lサイン・デザイン;#00ffc040;Vẽ biển hiệu%l;#;――\nHibiki đang đối diện với công việc đó bằng thái độ của một chuyên gia."
 # 【日々姫】
 # display as 日日姬
 # JP: 「やけん。着替える！\nシャワー、すぐに浴びてくるけん」
@@ -442,11 +442,11 @@
 2256 = "「Thế nên, cứ bình thườờờng thôi!\nChính xác là một anh hai như thường ngày, xin anh đấy!」"
 # monologue
 # JP: ……僕に宿題をひとつ残して、\n日々姫は、シャワーを浴びにいってしまう。
-1457 = "……Để lại cho tôi một bài toán khó,\nHibiki liền đi tắm."
+1457 = "......Để lại cho tôi một bài toán khó,\nHibiki liền đi tắm."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「普段の僕……と言われると――\nタイも締めずにビジネスの場というのも、どうか」
-2118 = "「Bình thường của mình…… nói thế thì――\nĐến nơi làm việc mà không thắt cà vạt thì có ổn không nhỉ.」"
+2118 = "「Bình thường của mình...... nói thế thì――\nĐến nơi làm việc mà không thắt cà vạt thì có ổn không nhỉ.」"
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「お困りのようですね。双鉄様」
@@ -465,7 +465,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「普段の僕で、と日々姫には言われたのだが……\nノータイで日々姫の仕事場に行くのは礼を失するかと」
-2282 = "「Hibiki bảo tôi cứ mặc như bình thường là được……\nNhưng tôi e là đến nơi làm việc của Hibiki mà không thắt cà vạt thì hơi thất lễ.」"
+2282 = "「Hibiki bảo tôi cứ mặc như bình thường là được......\nNhưng tôi e là đến nơi làm việc của Hibiki mà không thắt cà vạt thì hơi thất lễ.」"
 # 【ナビ】
 # display as Ｎａｖｉ
 # JP: 「そのようなことでしたら、双鉄様」
@@ -808,14 +808,14 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「え……へっ」
-2006 = "「E…… he.」"
+2006 = "「E...... he.」"
 # monologue
 # JP: 照れくさそうに、じんわりと。\n日々姫は頬をピンクにそめて、ゆっくり頷く。
 2992 = "Một cách ngượng ngùng, chầm chậm.\nHibiki ửng hồng đôi má, khẽ gật đầu."
 # 【日々姫】
 # display as 日日姬
 # JP: 「ありがと……にぃに。\nそしたら、お言葉にあまえちゃいます」
-2439 = "「Cảm ơn anh…… anh hai.\nVậy thì, em xin nhận lòng tốt của anh ạ.」"
+2439 = "「Cảm ơn anh...... anh hai.\nVậy thì, em xin nhận lòng tốt của anh ạ.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「甘えてくれ。いくらでも」
@@ -834,7 +834,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「ん……おせんべば……カンカンの中……」
-2055 = "「Ưm…… bánh gạo…… trong hộp thiếc……」"
+2055 = "「Ưm...... bánh gạo...... trong hộp thiếc......」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「心得た」
@@ -906,7 +906,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「何故って……デザインという仕事は……」
-2469 = "「Vì sao à…… Công việc thiết kế là……」"
+2469 = "「Vì sao à...... Công việc thiết kế là......」"
 # monologue
 # JP: 言いたいことをきちんと言葉に直すため、日々姫の仕事を。そうして次に、右田一酒造元の焼酎ラベルを思い浮かべる。
 3017 = "Để diễn đạt chính xác những gì muốn nói, tôi nghĩ đến công việc của Hibiki. Tiếp đó, tôi liên tưởng đến nhãn chai shochu của xưởng rượu Migita."
@@ -916,7 +916,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……うまくは言えんが、アピールしたいイメージを、\nわかりやすい形にまとめる――そうした仕事かと」
-1512 = "「……Anh không biết diễn đạt sao cho hay, nhưng nó là việc tổng hợp hình ảnh muốn truyền tải\nthành một hình thức dễ hiểu―― một công việc như vậy chăng.」"
+1512 = "「......Anh không biết diễn đạt sao cho hay, nhưng nó là việc tổng hợp hình ảnh muốn truyền tải\nthành một hình thức dễ hiểu―― một công việc như vậy chăng.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「うん！」
@@ -958,7 +958,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「で……ネットから――『鉄道　フリー素材』で\nひっかかってくる列車のイラストを足したりすると！」
-2366 = "「Rồi…… nếu thêm hình minh họa tàu hỏa tìm được trên mạng\nvới từ khóa 『Tài nguyên miễn phí Đường sắt』 vào nữa thì!」"
+2366 = "「Rồi...... nếu thêm hình minh họa tàu hỏa tìm được trên mạng\nvới từ khóa 『Tài nguyên miễn phí Đường sắt』 vào nữa thì!」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「なんと！　これは、ロゴだな。\nあっという間に、デザインがひとつ出来てしまった」
@@ -997,12 +997,12 @@
 # JP: 「だろうな」
 2221 = "「Chắc là vậy rồi.」"
 # monologue
-# JP: 日々姫がデザインしてくれた、\n『運転試験　ハチロク』の、\x%lヘッドマーク;#00ffc040;ヘッドマーク%l;#;を思い出す。
-2839 = "Tôi nhớ lại \x%lヘッドマーク;#00ffc040;biểu trưng đầu tàu%l;#; 『Thử nghiệm lái tàu Hachiroku』\nmà Hibiki đã thiết kế."
+# JP: 日々姫がデザインしてくれた、\n『運転試験　ハチロク』の、\\x%lヘッドマーク;#00ffc040;ヘッドマーク%l;#;を思い出す。
+2839 = "Tôi nhớ lại \\x%lヘッドマーク;#00ffc040;biểu trưng đầu tàu%l;#; 『Thử nghiệm lái tàu Hachiroku』\nmà Hibiki đã thiết kế."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……省略や、強調。『正確』に、ではなく、\n『見やすく、解りやすく』が、重要となりそうに思う」
-1523 = "「……Lược bỏ, hay nhấn mạnh. Không phải là 『chính xác』,\nmà là 『dễ nhìn, dễ hiểu』 mới là điều quan trọng, anh nghĩ vậy.」"
+1523 = "「......Lược bỏ, hay nhấn mạnh. Không phải là 『chính xác』,\nmà là 『dễ nhìn, dễ hiểu』 mới là điều quan trọng, anh nghĩ vậy.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「うん。やけん、デザインば、『何を伝えるのか』を\nきっちり考えんと、どんなに絵が上手くても、ダメ」
@@ -1033,7 +1033,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「ばってん――このアイディアが、例えば……\n布団屋さんとかなら、反対しとったと思う」
-1930 = "「Nhưng mà―― nếu ý tưởng này, ví dụ như……\ndành cho tiệm bán chăn nệm thì em sẽ phản đối.」"
+1930 = "「Nhưng mà―― nếu ý tưởng này, ví dụ như......\ndành cho tiệm bán chăn nệm thì em sẽ phản đối.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ――」
@@ -1134,7 +1134,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「どうするって……言われても……\nちょっと、問題がおっきすぎるけん――」
-1936 = "「Anh hỏi phải làm sao thì…… dù có hỏi em……\nVấn đề này hơi quá lớn nên――」"
+1936 = "「Anh hỏi phải làm sao thì...... dù có hỏi em......\nVấn đề này hơi quá lớn nên――」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「日々姫は僕から学んだのだろう？\nデザインで伝えたいことが複雑すぎる時、どうする？」
@@ -1160,7 +1160,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「えと……分譲された宅地を買収するのに、\nなにが一番問題なのかっていったら――」
-2057 = "「Dạ…… để giải tỏa những khu đất đã được phân lô bán nền,\nthì vấn đề lớn nhất là gì――」"
+2057 = "「Dạ...... để giải tỏa những khu đất đã được phân lô bán nền,\nthì vấn đề lớn nhất là gì――」"
 # monologue
 # JP: 引っ越しに伴うお金・時間・手数の負担、\n気持ちの負担、生活環境の変化による負担――
 2889 = "Gánh nặng về tiền bạc, thời gian và công sức đi kèm với việc chuyển nhà,\ngánh nặng về mặt tâm lý, gánh nặng do sự thay đổi môi trường sống――"
@@ -1170,11 +1170,11 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……ふむ。今の僕らが一番アプローチできそうなのは、\n気持ちの面だな」
-1509 = "「……Hừm. Trong số này, điều mà chúng ta có thể tiếp cận dễ dàng nhất lúc này,\nlà về mặt tâm lý nhỉ.」"
+1509 = "「......Hừm. Trong số này, điều mà chúng ta có thể tiếp cận dễ dàng nhất lúc này,\nlà về mặt tâm lý nhỉ.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「確かに……\n他のことよりはアプローチできそうだけど」
-2396 = "「Đúng thật……\nCó vẻ dễ tiếp cận hơn những vấn đề khác.」"
+2396 = "「Đúng thật......\nCó vẻ dễ tiếp cận hơn những vấn đề khác.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「というか、これこそ僕らが、最適任なことかと思う。\n少し前までの僕らを思い出してみろ」
@@ -1321,7 +1321,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「あの……えと、あとで。\nあとで、写真データたまったら、わたしがするけん」
-2492 = "「Dạ…… dạ, để sau đi.\nSau này khi nào đầy thẻ nhớ, em sẽ làm cho.」"
+2492 = "「Dạ...... dạ, để sau đi.\nSau này khi nào đầy thẻ nhớ, em sẽ làm cho.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「そうか、それではお願いしよう」
@@ -1366,7 +1366,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「着いた！　あ、誰もいなかと？\nん……いなかとねー」
-1968 = "「Đến nơi rồi! A, không có ai ở đây cả?\nƯm…… không có ai nhỉ.」"
+1968 = "「Đến nơi rồi! A, không có ai ở đây cả?\nƯm...... không có ai nhỉ.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「その方が都合がよかろう。じっくり見られる」
@@ -1374,10 +1374,10 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「あ――うん。\nそういえば……」
-2026 = "「A―― vâng.\nNhắc mới nhớ……」"
+2026 = "「A―― vâng.\nNhắc mới nhớ......」"
 # monologue
-# JP: 8620は、\x%l保火;#00ffc040;保火%l;#;されている。
-3170 = "8620 đang được \x%l保火;#00ffc040;giữ lửa%l;#;."
+# JP: 8620は、\\x%l保火;#00ffc040;保火%l;#;されている。
+3170 = "8620 đang được \\x%l保火;#00ffc040;giữ lửa%l;#;."
 # monologue
 # JP: 明日走り出すための火を、\n灰の中、静かにじっとくすぶらせている。
 3016 = "Ngọn lửa để ngày mai tiếp tục lăn bánh,\nđang lặng lẽ, âm ỉ cháy bên dưới lớp tro tàn."
@@ -1405,12 +1405,12 @@
 3138 = "Tuy gọi là đầu máy cỡ nhỏ và Hachiroku,\nnhưng quả thực, nó rất lớn."
 # 【日々姫】
 # display as 日日姬
-# JP: 「\x%l機関助士;#00ffc040;機関助士%l;#;って――\n私、本当にできるんでしょうか」
-1468 = "「\x%l機関助士;#00ffc040;Phụ lái tàu%l;#;――\nLiệu em có thực sự làm được không.」"
+# JP: 「\\x%l機関助士;#00ffc040;機関助士%l;#;って――\n私、本当にできるんでしょうか」
+1468 = "「\\x%l機関助士;#00ffc040;Phụ lái tàu%l;#;――\nLiệu em có thực sự làm được không.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「できる。簡単ではないが、日々姫ならばできる。\n不安なら、少し、[キャブ,2]運転台へとあがってみるか？」
-1879 = "「Được chứ. Không hề đơn giản, nhưng nếu là Hibiki thì chắc chắn làm được.\nNếu thấy bất an, em có muốn thử lên \x%lキャブ;#00ffc040;buồng lái%l;#; một chút không?」"
+1879 = "「Được chứ. Không hề đơn giản, nhưng nếu là Hibiki thì chắc chắn làm được.\nNếu thấy bất an, em có muốn thử lên \\x%lキャブ;#00ffc040;buồng lái%l;#; một chút không?」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「いいんですか！？　あ――でもっ」
@@ -1427,15 +1427,15 @@
 # JP: 「そうだったな」
 # 2311 = "「是啊」" 
 # monologue
-# JP: なにが一体、僕をこうまで変えたのか。\nなにが一体、\x%l機関助士;#00ffc040;機関助士%l;#;へと日々姫を志願させたのか。
-2698 = "Rốt cuộc điều gì đã khiến tôi thay đổi đến nhường này.\nRốt cuộc điều gì đã khiến Hibiki tình nguyện trở thành \x%l機関助士;#00ffc040;phụ lái tàu%l;#;."
+# JP: なにが一体、僕をこうまで変えたのか。\nなにが一体、\\x%l機関助士;#00ffc040;機関助士%l;#;へと日々姫を志願させたのか。
+2698 = "Rốt cuộc điều gì đã khiến tôi thay đổi đến nhường này.\nRốt cuộc điều gì đã khiến Hibiki tình nguyện trở thành \\x%l機関助士;#00ffc040;phụ lái tàu%l;#;."
 # monologue
 # JP: それを理解し、伝えることができたのならば、\n流れを作る、きっかけのひとつになるかもしれん。
 2785 = "Nếu có thể thấu hiểu và truyền đạt được điều đó,\nthì có lẽ nó sẽ trở thành một trong những chất xúc tác tạo nên một làn sóng mới."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「日々姫はどうして、\n\x%l機関助士;#00ffc040;機関助士%l;#;に立候補してくれたんだ？」
-2285 = "「Tại sao Hibiki lại\nứng cử làm \x%l機関助士;#00ffc040;phụ lái tàu%l;#; vậy?」"
+# JP: 「日々姫はどうして、\n\\x%l機関助士;#00ffc040;機関助士%l;#;に立候補してくれたんだ？」
+2285 = "「Tại sao Hibiki lại\nứng cử làm \\x%l機関助士;#00ffc040;phụ lái tàu%l;#; vậy?」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「え！？　そいば――んんっ――それは――\nもちろん、兄さんがすごく困ってみえたから、です」
@@ -1447,13 +1447,13 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「あ――……うん。\nそう、ですね。言われてみたら」
-2025 = "「A――…… vâng.\nAnh nói mới nhớ.」"
+2025 = "「A――...... vâng.\nAnh nói mới nhớ.」"
 # monologue
 # JP: 日々姫であれば、仕事を通じての知人も多い。
 2946 = "Nếu là Hibiki thì em ấy cũng có rất nhiều người quen biết thông qua công việc."
 # monologue
-# JP: あるいは直接の紹介だけでなく、\n\x%l機関助士;#00ffc040;機関助士%l;#;の候補を募るポスターを作ることも出来ただろう。
-3035 = "Hoặc không chỉ giới thiệu trực tiếp,\nem ấy cũng có thể thiết kế poster để tuyển dụng ứng viên cho vị trí \x%l機関助士;#00ffc040;phụ lái tàu%l;#;."
+# JP: あるいは直接の紹介だけでなく、\n\\x%l機関助士;#00ffc040;機関助士%l;#;の候補を募るポスターを作ることも出来ただろう。
+3035 = "Hoặc không chỉ giới thiệu trực tiếp,\nem ấy cũng có thể thiết kế poster để tuyển dụng ứng viên cho vị trí \\x%l機関助士;#00ffc040;phụ lái tàu%l;#;."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「他にもいくらも手段があるのに、\nなぜ、自分自身で乗務しようと考えたのだ？」
@@ -1582,7 +1582,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「広い範囲って……御一夜市から八ツ城市までって、\nいくらなんでも広すぎるけど」
-2168 = "「Phạm vi rộng hơn là…… từ thành phố Ohitera đến tận thành phố Yatsushiro á,\ndù nói thế nào thì cũng rộng quá mức rồi.」"
+2168 = "「Phạm vi rộng hơn là...... từ thành phố Ohitera đến tận thành phố Yatsushiro á,\ndù nói thế nào thì cũng rộng quá mức rồi.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ――うむ」
@@ -1596,7 +1596,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……旧御一夜－八ツ城間・廃線めぐりイラストマップ\n――では、あまりに露骨か」
-1525 = "「……Bản đồ minh họa tham quan tuyến đường sắt phế tích cũ Ohitera - Yatsushiro\n――Nghe thế này thì có vẻ hơi quá lộ liễu nhỉ.」"
+1525 = "「......Bản đồ minh họa tham quan tuyến đường sắt phế tích cũ Ohitera - Yatsushiro\n――Nghe thế này thì có vẻ hơi quá lộ liễu nhỉ.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「っていうか、その地図もって巡りたいって思う人なら、\n最初から復線ば支持してくれるでしょー」
@@ -1607,7 +1607,7 @@
 2086 = "「À, có lý thật. Chủ đề này hướng đến những người đam mê đường sắt quá,\nsẽ trở thành một thứ mà người dân bình thường chẳng buồn cầm lên xem sao.」"
 # monologue
 # JP: ……どうしたものかと考えるうち、\n日々姫がタブレットを引っ張り出す。
-1450 = "……Trong lúc tôi đang suy nghĩ xem nên làm thế nào,\nHibiki lấy máy tính bảng ra."
+1450 = "......Trong lúc tôi đang suy nghĩ xem nên làm thế nào,\nHibiki lấy máy tính bảng ra."
 # monologue
 # JP: 画面の中に地図を広げて、\n御一夜と八ツ城との間を絞込み――
 2761 = "Em ấy mở bản đồ trên màn hình,\nkhoanh vùng khu vực giữa Ohitera và Yatsushiro――"
@@ -1662,7 +1662,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「わたし……まだ、\n御一夜市内からしか、仕事うけたことないけん」
-2189 = "「Em…… vẫn chưa,\nnhận được công việc nào từ bên ngoài thành phố Ohitera cả.」"
+2189 = "「Em...... vẫn chưa,\nnhận được công việc nào từ bên ngoài thành phố Ohitera cả.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ふかみの紹介は人脈を広げる力になろう。\nそれで足りねば――そうだな、僕でよければ営業しよう」
@@ -1685,14 +1685,14 @@
 # 2035 = "「啊！」" 
 # monologue
 # JP: それは……まさしく盲点だった。\n二年縛りの理由を深く、僕は考えてもいなかったが――
-3127 = "Đó là…… quả thực là một điểm mù.\nTôi chưa bao giờ suy nghĩ sâu xa về lý do của bản hợp đồng ràng buộc hai năm đó, nhưng――"
+3127 = "Đó là...... quả thực là một điểm mù.\nTôi chưa bao giờ suy nghĩ sâu xa về lý do của bản hợp đồng ràng buộc hai năm đó, nhưng――"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「そうか……僕を無用と評価しているのであれば、\n工場誘致撤回未達時に、酒店へという約束にはならんか」
-2477 = "「Vậy sao…… Nếu ông ấy đánh giá anh là kẻ vô dụng,\nthì đã chẳng có cái giao kèo bắt anh về làm ở tiệm rượu khi không ngăn chặn được việc mời gọi nhà máy rồi.」"
+2477 = "「Vậy sao...... Nếu ông ấy đánh giá anh là kẻ vô dụng,\nthì đã chẳng có cái giao kèo bắt anh về làm ở tiệm rượu khi không ngăn chặn được việc mời gọi nhà máy rồi.」"
 # monologue
 # JP: ……じわりと、嬉しい。
-1453 = "……Một niềm vui âm ỉ dâng lên trong lòng."
+1453 = "......Một niềm vui âm ỉ dâng lên trong lòng."
 # monologue
 # JP: 僕は縛られているのではなく――\n求めて、もらえていたのかと。
 2853 = "Tôi không phải bị trói buộc――\nMà là đang được mong muốn, được cần đến sao."

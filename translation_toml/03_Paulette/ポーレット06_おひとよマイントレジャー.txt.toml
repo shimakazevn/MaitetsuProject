@@ -2,27 +2,27 @@
 [info]
 
 [characters]
-2324 = "ポーレット"
-2426 = "双鉄"
-2402 = "凪"
-2320 = "ハチロク"
-2292 = "ふかみ"
-2669 = "真闇"
-2304 = "れいな"
-2575 = "日々姫"
-2675 = "稀咲"
+2324 = "Paulette"
+2426 = "Soutetsu"
+2402 = "Nagi"
+2320 = "Hachiroku"
+2292 = "Fukami"
+2669 = "Mayami"
+2304 = "Reina"
+2575 = "Hibiki"
+2675 = "Kisaki"
 
 [character_subs]
-2614 = "波萊特"
-2804 = "雙鐵"
-# 2402 = "凪"
-2397 = "八六"
-2628 = "深美"
-# 2669 = "真闇"
-2641 = "玲奈"
-2805 = "雙鐵＆波萊特"
-2580 = "日日姬"
-# 2675 = "稀咲"
+2614 = "Paulette"
+2804 = "Soutetsu"
+2402 = "Nagi"
+2397 = "Hachiroku"
+2628 = "Fukami"
+2669 = "Mayami"
+2641 = "Reina"
+2805 = "Soutetsu & Paulette"
+2580 = "Hibiki"
+2675 = "Kisaki"
 
 [script]
 # lines: 380 
@@ -46,7 +46,7 @@
 1879 = "「Vì anh là trẻ sinh đôi. Dù là sinh nhật hay Giáng sinh.\nQuà lúc nào cũng có hai món.」"
 # monologue
 # JP: ……今までずっと閉じ込めていた、\n路子とすごした子供時代を、こうも静かに話せている。
-1454 = "……Thời thơ ấu trải qua cùng Michiko mà tôi đã giấu kín bấy lâu nay,\nkhông ngờ tôi lại có thể bình thản kể lại như thế này."
+1454 = "......Thời thơ ấu trải qua cùng Michiko mà tôi đã giấu kín bấy lâu nay,\nkhông ngờ tôi lại có thể bình thản kể lại như thế này."
 # monologue
 # JP: それを不思議とは感じない。\n苦しみではなく楽しさを、思い出してるだけだから。
 2527 = "Tôi không cảm thấy điều đó là kỳ lạ.\nBởi vì tôi chỉ đang nhớ lại niềm vui, chứ không phải nỗi đau."
@@ -56,7 +56,7 @@
 2063 = "「Bố và mẹ——À, không.」"
 # monologue
 # JP: 凪とふかみ……は大丈夫なような気もするが、\nれいなは、まだ実在を信じているかもしれない。
-2411 = "Nagi và Fukami……thì có vẻ không sao, nhưng\nReina có lẽ vẫn còn tin vào sự tồn tại của ông già Noel."
+2411 = "Nagi và Fukami......thì có vẻ không sao, nhưng\nReina có lẽ vẫn còn tin vào sự tồn tại của ông già Noel."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「父や母や、サンタクロースは、\nいつでもプレゼントをどこかに隠した」
@@ -365,7 +365,7 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「……炭鉱とか鉱山は、トレジャーと合うような形で、\nいいかえられないのでしょうか？」
-1468 = "「……Than đá hay mỏ khoáng sản, liệu có thể đổi cách gọi nào đó\ncho hợp với Treasure không ạ?」"
+1468 = "「......Than đá hay mỏ khoáng sản, liệu có thể đổi cách gọi nào đó\ncho hợp với Treasure không ạ?」"
 # 【れいな】
 # display as 玲奈
 # JP: 「なら、コールマインがいいですよぉ。\n炭鉱は、コールマインっても呼ばれますから」
@@ -413,8 +413,8 @@
 2587 = "Hibiki dùng đuôi bút chì\ngãi gãi đầu."
 # 【日々姫】
 # display as 日日姬
-# JP: 「私が\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致に賛成してたのは、\n御一夜が元気になる方法が他に無いって思ってたから」
-1964 = "「Việc em tán thành thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#;,\nlà vì em nghĩ không còn cách nào khác để vực dậy Ohimitera」"
+# JP: 「私が\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致に賛成してたのは、\n御一夜が元気になる方法が他に無いって思ってたから」
+1964 = "「Việc em tán thành thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;,\nlà vì em nghĩ không còn cách nào khác để vực dậy Ohimitera」"
 # monologue
 # JP: そんな仕草とは裏腹に、\n声からは、ためらいも照れも感じない。
 2469 = "Trái ngược với điệu bộ đó,\ntrong giọng nói không hề có sự do dự hay ngượng ngùng nào."
@@ -454,8 +454,8 @@
 1998 = "「Suy nghĩ của em về phương diện này――\nBị ảnh hưởng rất nhiều từ chị Kisaki. Nên là」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「この計画がいけると判断されるのなら――\n宝生稀咲も、\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致に拘らない、と？」
-1903 = "「Nếu đánh giá kế hoạch này khả thi――\nHoushou Kisaki cũng sẽ không khăng khăng đòi thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#; nữa, đúng không?」"
+# JP: 「この計画がいけると判断されるのなら――\n宝生稀咲も、\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致に拘らない、と？」
+1903 = "「Nếu đánh giá kế hoạch này khả thi――\nHoushou Kisaki cũng sẽ không khăng khăng đòi thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; nữa, đúng không?」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「計画への評価がどうか――まではわからないですけど。\nもしいけるって判断なら、可能性はあると思います」
@@ -779,7 +779,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「……術仙炭鉱にポジションを取った人が――\n御一夜には、たくさんいる」
-1464 = "「……Những người đã giữ vị thế đối với mỏ than Jussen――\nỞ Ohimitera có rất nhiều」"
+1464 = "「......Những người đã giữ vị thế đối với mỏ than Jussen――\nỞ Ohimitera có rất nhiều」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「っ！！」
@@ -828,7 +828,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「…………」
-1462 = "「…………」"
+1462 = "「............」"
 # monologue
 # JP: が、それがポーレットのお望みならば、\nあえて逆らおうとは思わない。
 2378 = "Nhưng, nếu đó là mong muốn của Paulette,\nthì tôi cũng không có ý định làm trái."
@@ -910,7 +910,7 @@
 1900 = "「Hủy hợp đồng trước hạn sẽ phải chịu phí phạt 25% mệnh giá.\nVì vậy thông thường không thể nào có chuyện hủy hợp đồng. Nhưng...」"
 # monologue
 # JP: …………“けど”の続きが聞こえてこない。
-1448 = "…………Không nghe thấy phần tiếp theo của chữ \"Nhưng\"."
+1448 = "............Không nghe thấy phần tiếp theo của chữ \"Nhưng\"."
 # monologue
 # JP: ややあって、\n稀咲の声がその沈黙を埋めていく。
 2766 = "Một lúc sau,\ngiọng nói của Kisaki lấp đầy sự im lặng đó."
@@ -936,8 +936,8 @@
 # JP: いや、これはそれほどのんきな話ではない。
 2357 = "Không, chuyện này không hề đơn giản như vậy."
 # monologue
-# JP: 術仙炭鉱にかつてポジションを取っていて、\nそして今、\x%lエアクラ;#00ffc040;エアクラ%l;#;誘致賛成派の議員は確実にいる。
-2753 = "Những nghị viên từng giữ vị thế đối với mỏ than Jussen,\nvà hiện tại thuộc phe ủng hộ thu hút \x%lエアクラ;#00ffc040;Aircra%l;#;, chắc chắn là có."
+# JP: 術仙炭鉱にかつてポジションを取っていて、\nそして今、\\x%lエアクラ;#00ffc040;エアクラ%l;#;誘致賛成派の議員は確実にいる。
+2753 = "Những nghị viên từng giữ vị thế đối với mỏ than Jussen,\nvà hiện tại thuộc phe ủng hộ thu hút \\x%lエアクラ;#00ffc040;Aircra%l;#;, chắc chắn là có."
 # monologue
 # JP: （もしも、軽々にこれを議案としてしまっていたら？\n誘致賛成派が、意図的に経営不安の噂を流せば？）
 2826 = "（Nếu như, chúng ta dễ dàng biến việc này thành nghị án?\nNếu phe ủng hộ thu hút cố ý tung tin đồn về sự bất ổn trong kinh doanh thì sao?）"
@@ -1101,8 +1101,8 @@
 1781 = "「Cũng có những lúc tâm trạng như vậy mà.\nVì là con người mà」"
 # 【れいな】
 # display as 玲奈
-# JP: 「はわぁ。\nやっぱり\x%lレイルロオド;#00ffc040;レイルロオド%l;#;とはちがうのですねぇ」
-1835 = "「Hawa~.\nQuả nhiên là khác với \x%lレイルロオド;#00ffc040;Railord%l;#; nhỉ~」"
+# JP: 「はわぁ。\nやっぱり\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;とはちがうのですねぇ」
+1835 = "「Hawa~.\nQuả nhiên là khác với \\x%lレイルロオド;#00ffc040;Railord%l;#; nhỉ~」"
 # monologue
 # JP: れいなは、いつものスキットル。
 2646 = "Reina cầm bình tông quen thuộc."
@@ -1111,8 +1111,8 @@
 2508 = "Tưởng tượng từ câu nói đó, bên trong chắc lúc nào cũng là,\ncùng một hãng, cùng một loại dầu diesel không thay đổi."
 # 【ポーレット】
 # display as 波萊特
-# JP: 「ううん、違わないと思う。人間も\x%lレイルロオド;#00ffc040;レイルロオド%l;#;も。\n揺れるのと揺れないの――強いのと弱いのがいるだけで」
-1718 = "「Không đâu, chị nghĩ là không khác đâu. Cả con người và \x%lレイルロオド;#00ffc040;Railord%l;#;.\nChỉ là có người dao động và người không dao động――có người mạnh mẽ và người yếu đuối thôi」"
+# JP: 「ううん、違わないと思う。人間も\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;も。\n揺れるのと揺れないの――強いのと弱いのがいるだけで」
+1718 = "「Không đâu, chị nghĩ là không khác đâu. Cả con người và \\x%lレイルロオド;#00ffc040;Railord%l;#;.\nChỉ là có người dao động và người không dao động――có người mạnh mẽ và người yếu đuối thôi」"
 # 【れいな】
 # display as 玲奈
 # JP: 「そぉなんですかぁ？」
@@ -1122,7 +1122,7 @@
 2656 = "Reina không hiểu sao lại ngước nhìn tôi.\nPaulette không trả lời gì."
 # monologue
 # JP: ……僕の答えを、ポーレットも待っているかのようだ。
-1456 = "……Cứ như thể Paulette cũng đang chờ đợi câu trả lời của tôi vậy."
+1456 = "......Cứ như thể Paulette cũng đang chờ đợi câu trả lời của tôi vậy."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「確かにいる。が。それも決して不変ではない。\n弱いものが強くもなれば、強いものが弱くもなる」
@@ -1277,16 +1277,16 @@
 2657 = "Reina gật đầu nhiều lần,\nđặt thêm câu hỏi về những điểm chi tiết và xác nhận lại."
 # 【れいな】
 # display as 玲奈
-# JP: 「ここに沈殿池があったんですかぁ。\nなら、まわりの建物は\x%l選炭場;#00ffc040;選炭場%l;#;ですねぇ、きっと」
-1803 = "「Ở đây có bể lắng cặn sao ạ~.\nNếu vậy thì các tòa nhà xung quanh chắc chắn là \x%l選炭場;#00ffc040;nhà máy tuyển than%l;#; rồi nha~」"
+# JP: 「ここに沈殿池があったんですかぁ。\nなら、まわりの建物は\\x%l選炭場;#00ffc040;選炭場%l;#;ですねぇ、きっと」
+1803 = "「Ở đây có bể lắng cặn sao ạ~.\nNếu vậy thì các tòa nhà xung quanh chắc chắn là \\x%l選炭場;#00ffc040;nhà máy tuyển than%l;#; rồi nha~」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「センタンジョウ？」
 2163 = "「Nhà máy tuyển than?」"
 # 【れいな】
 # display as 玲奈
-# JP: 「石炭の選別をする場所で、\x%l選炭場;#00ffc040;選炭場%l;#;ですぅ」
-1939 = "「Là nơi phân loại than đá, gọi là \x%l選炭場;#00ffc040;nhà máy tuyển than%l;#; đó ạ~」"
+# JP: 「石炭の選別をする場所で、\\x%l選炭場;#00ffc040;選炭場%l;#;ですぅ」
+1939 = "「Là nơi phân loại than đá, gọi là \\x%l選炭場;#00ffc040;nhà máy tuyển than%l;#; đó ạ~」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「おお、なるほどな」

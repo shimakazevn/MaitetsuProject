@@ -2,18 +2,18 @@
 [info]
 
 [characters]
-1922 = "双鉄"
-1867 = "凪"
-1782 = "ハチロク"
-1720 = "ふかみ"
+1922 = "Soutetsu"
+1867 = "Nagi"
+1782 = "Hachiroku"
+1720 = "Fukami"
 
 [character_subs]
-2307 = "雙鐵"
-# 1867 = "凪"
-1862 = "八六"
-2130 = "深美"
-2157 = "深美＆凪"
-1908 = "凪＆深美"
+2307 = "Soutetsu"
+1867 = "Nagi"
+1862 = "Hachiroku"
+2130 = "Fukami"
+2157 = "Fukami & Nagi"
+1908 = "Nagi & Fukami"
 
 [script]
 # lines: 419 
@@ -25,22 +25,22 @@
 # JP: 自分の声さえ聞き取りづらい。
 2287 = "Ngay cả giọng nói của bản thân cũng khó mà nghe rõ."
 # monologue
-# JP: \x%l8620;#00ffc040;8620%l;#;の\x%lブラスト;#00ffc040;ブラスト%l;#;音をかき消すほどの激しい風雨が、\n御一夜駅のホームを叩き、洗ってる。
-2168 = "Trận cuồng phong bão táp dữ dội lấn át cả tiếng \x%lブラスト;#00ffc040;khí thải xi lanh%l;#; của \x%l8620;#00ffc040;8620%l;#;,\nđang trút xuống và gột rửa sân ga Ohimitera."
+# JP: \\x%l8620;#00ffc040;8620%l;#;の\\x%lブラスト;#00ffc040;ブラスト%l;#;音をかき消すほどの激しい風雨が、\n御一夜駅のホームを叩き、洗ってる。
+2168 = "Trận cuồng phong bão táp dữ dội lấn át cả tiếng \\x%lブラスト;#00ffc040;khí thải xi lanh%l;#; của \\x%l8620;#00ffc040;8620%l;#;,\nđang trút xuống và gột rửa sân ga Ohimitera."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ご乗車、ありがとうございました」
 # 1440 = "「感謝各位搭乘本次列車」" 
 # monologue
-# JP: バーベキュー\x%l列車;#00ffc040;列車%l;#;の乗務においてはもちろんのこと、\n訓練時にさえ、これほどの悪天候は経験してない。
-1948 = "Trong lúc làm nhiệm vụ trên \x%l列車;#00ffc040;chuyến tàu%l;#; BBQ thì không nói làm gì,\nnhưng ngay cả trong lúc huấn luyện, tôi cũng chưa từng trải qua thời tiết khắc nghiệt đến thế này."
+# JP: バーベキュー\\x%l列車;#00ffc040;列車%l;#;の乗務においてはもちろんのこと、\n訓練時にさえ、これほどの悪天候は経験してない。
+1948 = "Trong lúc làm nhiệm vụ trên \\x%l列車;#00ffc040;chuyến tàu%l;#; BBQ thì không nói làm gì,\nnhưng ngay cả trong lúc huấn luyện, tôi cũng chưa từng trải qua thời tiết khắc nghiệt đến thế này."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ご乗車、ありがとうございました」
 # 1440 = "「感謝各位搭乘本次列車」" 
 # monologue
-# JP: \x%l客車;#00ffc040;客車%l;#;から出てきたお客様たちは、みないちように、\n雨のベールに一瞬止まり、ひどくギョっとした顔をする。
-2000 = "Những hành khách bước ra từ \x%l客車;#00ffc040;toa hành khách%l;#;, ai nấy đều\nkhựng lại một giây trước màn mưa, khuôn mặt lộ rõ vẻ sửng sốt."
+# JP: \\x%l客車;#00ffc040;客車%l;#;から出てきたお客様たちは、みないちように、\n雨のベールに一瞬止まり、ひどくギョっとした顔をする。
+2000 = "Những hành khách bước ra từ \\x%l客車;#00ffc040;toa hành khách%l;#;, ai nấy đều\nkhựng lại một giây trước màn mưa, khuôn mặt lộ rõ vẻ sửng sốt."
 # monologue
 # JP: 乗車中には肉を焼く煙と音と歓声で、\n外の天気に恐らくは、意識がいかなかったのだろう。
 1913 = "Trong lúc ngồi trên tàu, với khói thịt nướng, tiếng xèo xèo và tiếng cười nói,\ncó lẽ họ đã không để ý đến thời tiết bên ngoài."
@@ -94,8 +94,8 @@
 # JP: 親御さんに手をひかれつつ、三歩ごとお子さんは振り返り、\n何度も何度も、名残惜しそうに空いている手を振り続ける。
 2247 = "Vừa được bố mẹ dắt tay, đứa bé cứ ba bước lại ngoái đầu nhìn lại một lần,\nliên tục vẫy bàn tay còn trống với vẻ đầy lưu luyến."
 # monologue
-# JP: （キャブ内と\x%l客車;#00ffc040;客車%l;#;内だ。恐らく初顔合わせだろうに……\nいやはや、大した好かれっぷりだ）
-2350 = "（Một người trong buồng lái, một người trong \x%l客車;#00ffc040;toa hành khách%l;#;. Có lẽ đây là lần đầu tiên họ gặp nhau...\nChà chà, được yêu thích đến mức này cơ à.）"
+# JP: （キャブ内と\\x%l客車;#00ffc040;客車%l;#;内だ。恐らく初顔合わせだろうに……\nいやはや、大した好かれっぷりだ）
+2350 = "（Một người trong buồng lái, một người trong \\x%l客車;#00ffc040;toa hành khách%l;#;. Có lẽ đây là lần đầu tiên họ gặp nhau...\nChà chà, được yêu thích đến mức này cơ à.）"
 # monologue
 # JP: 凪にそちらの応対を任せ、\n僕は振ってた手を下ろし、検札作業を再開する。
 2021 = "Giao việc đáp lại đứa bé cho Nagi,\ntôi hạ tay xuống, tiếp tục công việc soát vé."
@@ -108,8 +108,8 @@
 # JP: 「終わりばい？」
 1409 = "「Xong rồi hả?」"
 # monologue
-# JP: キャブから下りて来た凪が、\n\x%l客車;#00ffc040;客車%l;#;を覗いて問いかけてくる。
-2002 = "Nagi bước xuống từ buồng lái,\nnhìn vào trong \x%l客車;#00ffc040;toa hành khách%l;#; rồi hỏi tôi."
+# JP: キャブから下りて来た凪が、\n\\x%l客車;#00ffc040;客車%l;#;を覗いて問いかけてくる。
+2002 = "Nagi bước xuống từ buồng lái,\nnhìn vào trong \\x%l客車;#00ffc040;toa hành khách%l;#; rồi hỏi tôi."
 # monologue
 # JP: 僕もならって再確認し、\n言わずもがなの答えを付け足す。
 2025 = "Tôi cũng bắt chước nhìn lại để xác nhận,\nvà đưa ra câu trả lời hiển nhiên."
@@ -133,8 +133,8 @@
 1234 = "「Hachiroku đã bay đi kiểm tra hệ thống treo rồi.」"
 # 【凪】
 # display as 凪
-# JP: 「それは見とったばい。\x%l手ブレーキ;#00ffc040;手ブレーキ%l;#;かかったらすぐ、\nおっきい方の体に取替えとったし」
-1593 = "「Cái đó thì em thấy rồi á. Ngay khi kéo \x%l手ブレーキ;#00ffc040;phanh tay%l;#; xong,\nchị ấy đã đổi sang cơ thể lớn hơn rồi.」"
+# JP: 「それは見とったばい。\\x%l手ブレーキ;#00ffc040;手ブレーキ%l;#;かかったらすぐ、\nおっきい方の体に取替えとったし」
+1593 = "「Cái đó thì em thấy rồi á. Ngay khi kéo \\x%l手ブレーキ;#00ffc040;phanh tay%l;#; xong,\nchị ấy đã đổi sang cơ thể lớn hơn rồi.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ポーレットもホームの安全確認を終えてすぐ、\n僕に検札を頼んでレールショップに戻ってしまった」
@@ -315,7 +315,7 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「それより。…………？」
-1231 = "「Hơn nữa...…………?」"
+1231 = "「Hơn nữa...............?」"
 # monologue
 # JP: ハチロクの目は凪へ向く。\n小首を傾げる仕草だけで僕へ問うてくる。
 1863 = "Ánh mắt của Hachiroku hướng về phía Nagi.\nCô ấy hơi nghiêng đầu, một cử chỉ thay cho câu hỏi dành cho tôi."
@@ -380,14 +380,14 @@
 2290 = "Navi quả nhiên cũng đã đi sơ tán.\nCả tôi và Nagi chỉ di chuyển một chút thôi mà đã ướt sũng. Nhưng——"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「何を言う。車が無いのは、\n[せき]堰さんたちが、今日も\x%l保線;#00ffc040;保線%l;#;をしてくれたからじゃないか」
-1595 = "「Em nói gì vậy. Việc không có xe,\nchẳng phải là do ông Seki và mọi người hôm nay cũng đang làm nhiệm vụ \x%l保線;#00ffc040;bảo trì đường ray%l;#; sao.」"
+# JP: 「何を言う。車が無いのは、\n[せき]堰さんたちが、今日も\\x%l保線;#00ffc040;保線%l;#;をしてくれたからじゃないか」
+1595 = "「Em nói gì vậy. Việc không có xe,\nchẳng phải là do ông Seki và mọi người hôm nay cũng đang làm nhiệm vụ \\x%l保線;#00ffc040;bảo trì đường ray%l;#; sao.」"
 # monologue
 # JP: 車はすでに、僕らのために動いてくれた。
 2285 = "Chiếc xe đã hoạt động vì chúng tôi rồi."
 # monologue
-# JP: ふかみの祖父とそのご兄弟、堰さんたちの\x%l保線;#00ffc040;保線%l;#;のおかげで、\n\x%l8620;#00ffc040;8620%l;#;も\x%lキハ07;#00ffc040;キハ07%l;#;も、今日も運行できたのだ。
-2299 = "Nhờ công \x%l保線;#00ffc040;bảo trì đường ray%l;#; của ông nội Fukami và những người anh em của ông, ông Seki và mọi người,\nmà \x%l8620;#00ffc040;8620%l;#; và \x%lキハ07;#00ffc040;KiHa 07%l;#; hôm nay mới có thể vận hành được."
+# JP: ふかみの祖父とそのご兄弟、堰さんたちの\\x%l保線;#00ffc040;保線%l;#;のおかげで、\n\\x%l8620;#00ffc040;8620%l;#;も\\x%lキハ07;#00ffc040;キハ07%l;#;も、今日も運行できたのだ。
+2299 = "Nhờ công \\x%l保線;#00ffc040;bảo trì đường ray%l;#; của ông nội Fukami và những người anh em của ông, ông Seki và mọi người,\nmà \\x%l8620;#00ffc040;8620%l;#; và \\x%lキハ07;#00ffc040;KiHa 07%l;#; hôm nay mới có thể vận hành được."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「この天気の中でよく……むしろ、お礼を伝えたいのだが、\n堰さんたちは、まだ？」

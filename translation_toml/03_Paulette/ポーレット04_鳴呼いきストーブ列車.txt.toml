@@ -2,29 +2,29 @@
 [info]
 
 [characters]
-2824 = "駅員"
-2338 = "ひかり"
-2513 = "双鉄"
-2403 = "ポーレット"
-2370 = "れいな"
-2285 = "おばあさん"
-2770 = "車掌"
-2449 = "乗客Ｄ"
-2448 = "乗客Ｃ"
-2756 = "観光協会"
+2824 = "Nhân viên ga"
+2338 = "Hikari"
+2513 = "Soutetsu"
+2403 = "Paulette"
+2370 = "Reina"
+2285 = "Cụ bà"
+2770 = "Trưởng tàu"
+2449 = "Hành khách D"
+2448 = "Hành khách C"
+2756 = "Hiệp hội du lịch"
 
 [character_subs]
-2565 = "工作人員"
-2482 = "光"
-2818 = "雙鐵"
-2670 = "波萊特"
-2679 = "玲奈"
-2854 = "？？？"
-2720 = "老奶奶"
-2509 = "列車長"
-2451 = "乘客Ｄ"
-2450 = "乘客Ｃ"
-2637 = "旅游協会"
+2565 = "Nhân viên"
+2482 = "Hikari"
+2818 = "Soutetsu"
+2670 = "Paulette"
+2679 = "Reina"
+2854 = "???"
+2720 = "Cụ bà"
+2509 = "Trưởng tàu"
+2451 = "Hành khách D"
+2450 = "Hành khách C"
+2637 = "Hiệp hội du lịch"
 
 [script]
 # lines: 482 
@@ -43,11 +43,11 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「はい！　おいで、ひかり。抱っこ！」
-1931 = "Khoan đã——đúng rồi.\nNhắc mới nhớ, cho đến tận bây giờ, chưa một lần nào……"
+1931 = "Khoan đã——đúng rồi.\nNhắc mới nhớ, cho đến tận bây giờ, chưa một lần nào......"
 # 【ひかり】
 # display as 光
 # JP: 「だっこー！」
-1945 = "（Nghe em ấy nhắc đến từ \"ba\" nhiều như vậy——\nNhưng Paulette đã từng nhắc đến \"mẹ\"…… dù chỉ một lần chưa nhỉ?）"
+1945 = "（Nghe em ấy nhắc đến từ \"ba\" nhiều như vậy——\nNhưng Paulette đã từng nhắc đến \"mẹ\"...... dù chỉ một lần chưa nhỉ?）"
 # monologue
 # JP: 僕におぶさったれいなが僕の荷物を持って、\nポーレットの荷物を僕が受け取る。
 2745 = "Tôi không thể nhớ ra nổi.\nĐến mức hoàn toàn không có chút ấn tượng nào."
@@ -101,7 +101,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「2Aから2Dですから、このボックスですよ？」
-1979 = "……Đôi mắt của Hibiki đang nhìn chằm chằm.\nKhông——không phải. Đơn giản chỉ là, nó đang cực kỳ, cực kỳ lạnh lùng."
+1979 = "......Đôi mắt của Hibiki đang nhìn chằm chằm.\nKhông——không phải. Đơn giản chỉ là, nó đang cực kỳ, cực kỳ lạnh lùng."
 # 【ひかり】
 # display as 光
 # JP: 「すごーい！　ストーブのとなりなのー！」
@@ -132,7 +132,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「助け合いだな。素晴らしい」
-1760 = "「Không, thế nên——không chỉ là đào than thôi đâu…… mà còn……」"
+1760 = "「Không, thế nên——không chỉ là đào than thôi đâu...... mà còn......」"
 # monologue
 # JP: れいなを席に座らせて、\n僕もようやく荷物を下ろす。
 2621 = "Những lời tiếp theo, tôi không thể thốt ra khỏi miệng.\nCó lẽ ếch bị rắn nhìn chằm chằm cũng mang tâm trạng như thế này chăng."
@@ -152,7 +152,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「はい。放出されたのが、ちょうどウチが[すんたい,1]駿袋鉄道さんに\n客車を譲ってもらったのと同じ頃になりますね」
-2071 = "（Nếu vậy——Hachiroku và Reina, chắc, sẽ……）"
+2071 = "（Nếu vậy——Hachiroku và Reina, chắc, sẽ......）"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「なるほど。ゆえに、この車両がウチに来た可能性も――\nという話になるのか」
@@ -170,7 +170,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「ううん。マイントレジャーへのお客さんを運ぶには、\nうちの、気動車改造客車の方が適しているわ」
-1670 = "「Ừm. Em cũng…… nghĩ vậy. Cái đó, có lẽ——\nĐối với hầu hết mọi người thì, không đáng để bỏ tiền ra. Đâu. Ạ.」"
+1670 = "「Ừm. Em cũng...... nghĩ vậy. Cái đó, có lẽ——\nĐối với hầu hết mọi người thì, không đáng để bỏ tiền ra. Đâu. Ạ.」"
 # 【ひかり】
 # display as 光
 # JP: 「えー、どうしてー」
@@ -188,7 +188,7 @@
 2808 = "「Nếu là những chuyện dễ dàng nghĩ ra được,\nthì đã có người làm từ lâu rồi đó nha.」"
 # monologue
 # JP: ここは僕に、父親として、まいてつとしての、\n花を持たせてくれるのだろう。
-2542 = "「Dạ…… nó rất là, lý thuyết chung hay nói cách khác là——\nmột ý kiến cơ bản. Thôi, ạ.」"
+2542 = "「Dạ...... nó rất là, lý thuyết chung hay nói cách khác là——\nmột ý kiến cơ bản. Thôi, ạ.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「今、『ＳＬマイントレジャー号』には、\n平均何人の乗客があるかは知っているか？」
@@ -196,11 +196,11 @@
 # 【ひかり】
 # display as 光
 # JP: 「きょねんのすーじで、ななじゅうなななのー！\nで、いちばんたくさんだったひが、きゅうじゅうに！」
-1771 = "「Số tiền đã trả, sẽ nhận lại được bao nhiêu đền đáp——\nEm nghĩ điều đó, sẽ liên quan đến mức độ hài lòng……. Ạ.」"
+1771 = "「Số tiền đã trả, sẽ nhận lại được bao nhiêu đền đáp——\nEm nghĩ điều đó, sẽ liên quan đến mức độ hài lòng....... Ạ.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「さすが。素晴らしいな、大正解だ」
-1703 = "Ngay cả việc đi thuyền xuôi dòng sông Kuma cũng phải cải thiện điểm đó……\nFukami dìm lời khuyên quý giá của mình xuống bằng sự tự trào."
+1703 = "Ngay cả việc đi thuyền xuôi dòng sông Kuma cũng phải cải thiện điểm đó......\nFukami dìm lời khuyên quý giá của mình xuống bằng sự tự trào."
 # 【ひかり】
 # display as 光
 # JP: 「えへへへ～！」
@@ -229,7 +229,7 @@
 1841 = "Nhưng nếu sự lãng mạn của việc dùng than mình đào được để vận hành SL,\nlại chẳng có chút sức hút nào đối với những người không thích đường sắt thì——"
 # monologue
 # JP: ひかりはこっそりあたりを見回し、\n小さな小さな声で答える。
-2485 = "「——Nếu vậy, ví dụ như……\nPhương án biến than đào được thành một loại tiền tệ ảo thì sao.」"
+2485 = "「——Nếu vậy, ví dụ như......\nPhương án biến than đào được thành một loại tiền tệ ảo thì sao.」"
 # 【ひかり】
 # display as 光
 # JP: 「できないのー。\nおきゃくさん、ななじゅうななにんものれないのー」
@@ -244,7 +244,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ゆえに、今の御一夜鉄道にはオハ[ぜろいちよん,2]014。\n現行の気動車改造客車が最適解なのだ」
-2028 = "「Vì là tiền tệ, nên có thể chọn cách sử dụng. Một trong số đó,\ncó thể là trải nghiệm xúc than vào lò, hay trải nghiệm làm \x%l車掌;#00ffc040;trưởng tàu%l;#; cũng được——」"
+2028 = "「Vì là tiền tệ, nên có thể chọn cách sử dụng. Một trong số đó,\ncó thể là trải nghiệm xúc than vào lò, hay trải nghiệm làm \\x%l車掌;#00ffc040;trưởng tàu%l;#; cũng được——」"
 # 【ひかり】
 # display as 光
 # JP: 「なるほどなのー。ぱぱすごーい！！」
@@ -386,7 +386,7 @@
 # 1834 = "「唔？」" 
 # monologue
 # JP: れいなの声に顔を向ければ――
-2728 = "「Thấy anh hai vui vẻ như vậy thì……\nLà em gái mà. Đành phải hợp tác giúp đỡ thôi.」"
+2728 = "「Thấy anh hai vui vẻ như vậy thì......\nLà em gái mà. Đành phải hợp tác giúp đỡ thôi.」"
 # 【おばあさん】
 # display as ？？？
 # JP: 「ありゃま」
@@ -427,7 +427,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「ぁ……んっ……ふぁっ――。\nんと――ぁぃぁ……と――んん～っ」
-1836 = "「A…… ưm…… hơ——.\nỪm thì——a… i… a…… to——ưm ưm~」"
+1836 = "「A...... ưm...... hơ——.\nỪm thì——a... i... a...... to——ưm ưm~」"
 # monologue
 # JP: わかる。父である僕には。\nおそらく、ポーレットもれいなもわかってる。
 2610 = "Tôi hiểu. Với tư cách là một người cha, tôi hiểu.\nCó lẽ, Paulette và Reina cũng hiểu."
@@ -444,7 +444,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「……ぅぅっ」
-1292 = "「……Ư ư.」"
+1292 = "「......Ư ư.」"
 # monologue
 # JP: ――だが、焦るまい。
 1249 = "——Nhưng mà, không cần phải vội."
@@ -454,7 +454,7 @@
 # 【車掌】
 # display as 列車長
 # JP: 「たいへん長らくお待たせいたしました。接続待ちを\nしておりました特急からのお客様の乗り換えが――」
-1780 = "「Xin lỗi vì đã để quý khách phải đợi lâu. Việc chờ \x%l接続;#00ffc040;kết nối chuyển tàu%l;#;\nđể đón hành khách từ tàu tốc hành chuyển sang đã——」"
+1780 = "「Xin lỗi vì đã để quý khách phải đợi lâu. Việc chờ \\x%l接続;#00ffc040;kết nối chuyển tàu%l;#;\nđể đón hành khách từ tàu tốc hành chuyển sang đã——」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「あ、走りますね」
@@ -481,7 +481,7 @@
 2777 = "Âm thanh gõ nhịp lên các mối nối đường ray, lặp đi lặp lại một cách đều đặn."
 # monologue
 # JP: 接続待ちの遅延を、ここではそのまま持ち越すようだ。\nゆったりゆったり、ストーブ列車はレールを進む。
-2698 = "Có vẻ như sự chậm trễ do chờ \x%l接続;#00ffc040;kết nối chuyển tàu%l;#;, sẽ được giữ nguyên ở đây.\nThong thả, chậm rãi, toa xe sưởi ấm tiến bước trên đường ray."
+2698 = "Có vẻ như sự chậm trễ do chờ \\x%l接続;#00ffc040;kết nối chuyển tàu%l;#;, sẽ được giữ nguyên ở đây.\nThong thả, chậm rãi, toa xe sưởi ấm tiến bước trên đường ray."
 # 【ポーレット】
 # display as 波萊特
 # JP: 「行商は、[なるこ,1]鳴呼でなさるんですか？」
@@ -493,7 +493,7 @@
 # 【れいな】
 # display as 玲奈
 # JP: 「わああ！　[しゃはん,1]車販さんですねぇ」
-1811 = "「Oa a a! Vậy bà là \x%l車販;#00ffc040;nhân viên bán hàng%l;#; trên tàu nhỉ~」"
+1811 = "「Oa a a! Vậy bà là \\x%l車販;#00ffc040;nhân viên bán hàng%l;#; trên tàu nhỉ~」"
 # 【ひかり】
 # display as 光
 # JP: 「ぅぅ～っ」
@@ -504,7 +504,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「…………」
-1274 = "「…………」"
+1274 = "「............」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「…………」
@@ -512,7 +512,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「……ぁぅ」
-1291 = "「……A ư.」"
+1291 = "「......A ư.」"
 # monologue
 # JP: 期待をしつつしばらく待つが、\nやはりひかりの声は出ない。
 2612 = "Tôi vừa kỳ vọng vừa đợi một lúc,\nnhưng quả nhiên Hikari vẫn không thốt nên lời."
@@ -591,7 +591,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「……ぁ……ぅ」
-1290 = "「……A…… ư.」"
+1290 = "「......A...... ư.」"
 # 【れいな】
 # display as 玲奈
 # JP: 「するめと鮭トバ、いいですねぇ」
@@ -602,7 +602,7 @@
 # 【れいな】
 # display as 玲奈
 # JP: 「車掌さんが来たら、\n焼いてもらうみたいな感じですかぁ？」
-2050 = "「Đợi \x%l車掌;#00ffc040;trưởng tàu%l;#; đến,\nrồi nhờ nướng hộ kiểu kiểu vậy sao ạ~?」"
+2050 = "「Đợi \\x%l車掌;#00ffc040;trưởng tàu%l;#; đến,\nrồi nhờ nướng hộ kiểu kiểu vậy sao ạ~?」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「ううん。きっぷ――\nストーブ列車の指定券の裏を見て？」
@@ -714,7 +714,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「……？？？　なぁにかなー。よめないのー」
-1294 = "「……??? Chữ gì vậy ta~. Con không đọc được~」"
+1294 = "「......??? Chữ gì vậy ta~. Con không đọc được~」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「それでは、これは？」
@@ -722,7 +722,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「よめるのー！　たぶれっと！！」
-2076 = "「Con đọc được nè~! \x%lタブレット;#00ffc040;Thẻ bảng%l;#;!!」"
+2076 = "「Con đọc được nè~! \\x%lタブレット;#00ffc040;Thẻ bảng%l;#;!!」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「大正解！　五問中四問正解、八十点だ」
@@ -989,7 +989,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……僕らを両親に選んでくれて、ありがとう。\nひかりのパパになれて、僕はとっても幸せだ」
-1302 = "「……Cảm ơn con, vì đã chọn ba mẹ làm ba mẹ của con.\nĐược làm ba của Hikari, ba cảm thấy vô cùng hạnh phúc.」"
+1302 = "「......Cảm ơn con, vì đã chọn ba mẹ làm ba mẹ của con.\nĐược làm ba của Hikari, ba cảm thấy vô cùng hạnh phúc.」"
 # 【ひかり】
 # display as 光
 # JP: 「いえいえですなのー」
@@ -1051,7 +1051,7 @@
 2468 = "Nhưng mà, ngon tuyệt."
 # monologue
 # JP: 車販価格で300円のカップ酒。\n上等のものであろうはずなど無いのだが――
-2816 = "Cốc rượu có giá 300 yên theo giá \x%l車販;#00ffc040;bán hàng trên tàu%l;#;.\nChắc chắn chẳng phải là loại thượng hạng gì cho cam, thế nhưng——"
+2816 = "Cốc rượu có giá 300 yên theo giá \\x%l車販;#00ffc040;bán hàng trên tàu%l;#;.\nChắc chắn chẳng phải là loại thượng hạng gì cho cam, thế nhưng——"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「ぷはっ！　あー、おいしい！\nしあわせのあじがするー！」
@@ -1069,7 +1069,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「よん……よんって、どっかにあったっけ。\nもうないかもー」
-1891 = "「Bốn…… số bốn, nằm ở đâu ta.\nChắc là hết rồi quá~」"
+1891 = "「Bốn...... số bốn, nằm ở đâu ta.\nChắc là hết rồi quá~」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「いや、もう無いということはありえない」
@@ -1106,7 +1106,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「ならね。つぎはねー……これ！！」
-2219 = "「Vậy thì. Tiếp theo nha~…… cái này!!」"
+2219 = "「Vậy thì. Tiếp theo nha~...... cái này!!」"
 # monologue
 # JP: 無論れいなも、意識してやっているわけではないだろう。
 2694 = "Tất nhiên, Reina cũng không hề có ý định làm vậy."
@@ -1138,7 +1138,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……[クイーン]Ｑと――うーむ、この辺か？\nお！」
-2269 = "「……Q và——ưm, loanh quanh đây chăng?\nỒ!」"
+2269 = "「......Q và——ưm, loanh quanh đây chăng?\nỒ!」"
 # 【ひかり】
 # display as 光
 # JP: 「パパすごーい！」
@@ -1146,7 +1146,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「では次は――２と……ああ、ダメだった」
-2248 = "「Vậy tiếp theo là——2 và…… a, trật rồi.」"
+2248 = "「Vậy tiếp theo là——2 và...... a, trật rồi.」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「２か[ジャック]Ｊめくりたい～～！\nえいっ！　やった！　Ｊ！　だから、ここ！！」
@@ -1184,7 +1184,7 @@
 # 【れいな】
 # display as 玲奈
 # JP: 「えっとえっと……だからぁ」
-2208 = "「Ờm ờm…… vậy nên là~」"
+2208 = "「Ờm ờm...... vậy nên là~」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ひかり。８は8620だ。機関車と、炭水車と、\nそれぞれが一枚ずつのカードになっている」
@@ -1196,7 +1196,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「で、５は……５がつく機関車で好きなのは？」
-2110 = "「Vậy, 5 là…… Đầu máy có số 5 mà cháu thích là gì?」"
+2110 = "「Vậy, 5 là...... Đầu máy có số 5 mà cháu thích là gì?」"
 # 【ひかり】
 # display as 光
 # JP: 「でごいちー！」
@@ -1775,7 +1775,7 @@
 # 【ひかり】
 # display as 光
 # JP: 「……ゆき」
-1298 = "「……Tuyết.」"
+1298 = "「......Tuyết.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ん？」

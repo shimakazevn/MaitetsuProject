@@ -2,37 +2,37 @@
 [info]
 
 [characters]
-2777 = "双鉄"
-2606 = "ハチロク"
-2990 = "日々姫"
-2627 = "ポーレット"
-3237 = "議長"
-2825 = "女性議員"
-2662 = "中堅議員"
-3126 = "稀咲"
-3052 = "浦上"
-2758 = "凪"
-2571 = "ふかみ"
-2599 = "コン"
-2584 = "れいな"
-3292 = "雀"
+2777 = "Soutetsu"
+2606 = "Hachiroku"
+2990 = "Hibiki"
+2627 = "Paulette"
+3237 = "Chủ tịch"
+2825 = "Nữ nghị viên"
+2662 = "Nghị viên"
+3126 = "Kisaki"
+3052 = "Urakami"
+2758 = "Nagi"
+2571 = "Fukami"
+2599 = "Kon"
+2584 = "Reina"
+3292 = "Suzume"
 
 [character_subs]
-3296 = "雙鐵"
-2736 = "八六"
-3001 = "日日姬"
-3045 = "波萊特"
-# 3237 = "議長"
-2827 = "女議員"
-# 2662 = "中堅議員"
-# 3126 = "稀咲"
-# 3052 = "浦上"
-3051 = "波萊特＆日日姬"
-# 2758 = "凪"
-3058 = "深美"
-3158 = "空"
-3074 = "玲奈"
-# 3292 = "雀"
+3296 = "Soutetsu"
+2736 = "Hachiroku"
+3001 = "Hibiki"
+3045 = "Paulette"
+3237 = "Chủ tịch"
+2827 = "Nữ nghị viên"
+2662 = "Nghị viên"
+3126 = "Kisaki"
+3052 = "Urakami"
+3051 = "Paulette & Hibiki"
+2758 = "Nagi"
+3058 = "Fukami"
+3158 = "Trống"
+3074 = "Reina"
+3292 = "Suzume"
 
 [script]
 # lines: 481 
@@ -46,7 +46,7 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「……すぅ……すぅ」
-1530 = "「……Su……su.」"
+1530 = "「......Su......su.」"
 # monologue
 # JP: 寝息――だとしか聞こえない、\nハチロクの穏やかな吸排気音。
 2746 = "Tiếng thở khi ngủ——chỉ có thể nghe thấy như vậy,\nâm thanh hút xả khí êm ả của Hachiroku."
@@ -56,7 +56,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……のどかなものだ」
-1541 = "「……Thật là thanh bình.」"
+1541 = "「......Thật là thanh bình.」"
 # monologue
 # JP: 布団と僕とハチロクと。\n世界がそれだけしかないような、とても手狭な万能感。
 3211 = "Chăn, tôi và Hachiroku.\nMột cảm giác toàn năng vô cùng chật hẹp, như thể thế giới chỉ có ngần ấy thứ."
@@ -66,13 +66,13 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「ん…………」
-1995 = "「Ưm…………」"
+1995 = "「Ưm............」"
 # monologue
 # JP: あまりにも人間じみたその仕草。\nふっと、疑問を感じてしまう。
 2860 = "Một cử chỉ quá đỗi giống con người.\nBất chợt, tôi cảm thấy một sự hoài nghi."
 # monologue
 # JP: （どうして……これほどまでに、似せたのだろうな）
-3342 = "（Tại sao……lại được chế tạo giống đến mức này cơ chứ）"
+3342 = "（Tại sao......lại được chế tạo giống đến mức này cơ chứ）"
 # monologue
 # JP: 機能の全ての現れが、\n人間のものをほぼ完全に模している。
 2836 = "Tất cả các biểu hiện chức năng,\ngần như mô phỏng hoàn toàn của con người."
@@ -87,7 +87,7 @@
 3300 = "Nếu là Navi, chỉ có chức năng mà không có cơ thể,\nchắc chắn tôi sẽ không bao giờ có những cảm xúc như thế này."
 # monologue
 # JP: ……壊れてしまうまでの時間と、僕の寿命と。\nそれを比べて、未来を思ってしまうなど。
-1479 = "……Thời gian cho đến khi hỏng hóc, và tuổi thọ của tôi.\nSo sánh hai điều đó, rồi lại nghĩ về tương lai."
+1479 = "......Thời gian cho đến khi hỏng hóc, và tuổi thọ của tôi.\nSo sánh hai điều đó, rồi lại nghĩ về tương lai."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「が――」
@@ -101,7 +101,7 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「……あ――」
-1531 = "「……A——」"
+1531 = "「......A——」"
 # monologue
 # JP: ぼうっとした目。\nやがて焦点が結ばれて、ゆるやかな笑みが浮き上がる。
 2840 = "Đôi mắt mơ màng.\nChẳng mấy chốc tiêu cự đã hội tụ lại, và một nụ cười nhẹ nhàng nở trên môi."
@@ -122,7 +122,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「…………」
-1515 = "「…………」"
+1515 = "「............」"
 # monologue
 # JP: あどけない。愛おしい。守ってやりたい。
 2839 = "Thật ngây thơ. Thật đáng yêu. Thật muốn che chở."
@@ -160,7 +160,7 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「……ポーレット様の予算案。\nみなさまのご理解をいただけますよね？」
-1539 = "「……Dự toán ngân sách của Thị trưởng Paulette.\nChắc chắn sẽ nhận được sự thấu hiểu của mọi người đúng không ạ?」"
+1539 = "「......Dự toán ngân sách của Thị trưởng Paulette.\nChắc chắn sẽ nhận được sự thấu hiểu của mọi người đúng không ạ?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「それは、今日の質疑応答次第だろう」
@@ -173,16 +173,16 @@
 2720 = "Nhưng, lời nói cũng sẽ ảnh hưởng đến chính bản thân tôi, người phát ngôn ra chúng.\nVì vậy, tôi cố ý mím chặt môi và trấn tĩnh lại cõi lòng."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致推進派にしても、ここが[せんど,1]先途だ。\nこちらの弱みを、徹底的についてくるだろう」
-2058 = "「Đối với phe thúc đẩy thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#;, đây cũng là thời khắc quyết định.\nHọ chắc chắn sẽ triệt để tấn công vào điểm yếu của chúng ta.」"
+# JP: 「\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致推進派にしても、ここが[せんど,1]先途だ。\nこちらの弱みを、徹底的についてくるだろう」
+2058 = "「Đối với phe thúc đẩy thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;, đây cũng là thời khắc quyết định.\nHọ chắc chắn sẽ triệt để tấn công vào điểm yếu của chúng ta.」"
 # 【ハチロク】
 # display as 八六
 # JP: 「弱み……ですか」
-2077 = "「Điểm yếu……sao ạ.」"
+2077 = "「Điểm yếu......sao ạ.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「費用の問題。\x%l台枠;#00ffc040;台枠%l;#;交換で新たな不具合が出る危険。\nキハ[レイナナ,1]07の観光・日用併用に、僅かながら苦情の声もある」
-2339 = "「Vấn đề chi phí. Nguy cơ phát sinh lỗi mới khi thay thế \x%l台枠;#00ffc040;khung gầm%l;#;.\nViệc kết hợp sử dụng KiHa 07 cho cả du lịch và sinh hoạt hàng ngày, cũng có một vài tiếng nói phàn nàn.」"
+# JP: 「費用の問題。\\x%l台枠;#00ffc040;台枠%l;#;交換で新たな不具合が出る危険。\nキハ[レイナナ,1]07の観光・日用併用に、僅かながら苦情の声もある」
+2339 = "「Vấn đề chi phí. Nguy cơ phát sinh lỗi mới khi thay thế \\x%l台枠;#00ffc040;khung gầm%l;#;.\nViệc kết hợp sử dụng KiHa 07 cho cả du lịch và sinh hoạt hàng ngày, cũng có một vài tiếng nói phàn nàn.」"
 # 【ハチロク】
 # display as 八六
 # JP: 「はい」
@@ -192,20 +192,20 @@
 2878 = "Chỉ là, truyền đạt đúng tình hình hiện tại.\nBằng cách đó, tôi cũng có thể sắp xếp lại suy nghĩ trong đầu mình."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致反対派の議員は固まっているが、\n過半数には及んでいない。自主投票の会派もある」
-1498 = "「Các nghị sĩ thuộc phe phản đối thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#; đã đoàn kết lại,\nnhưng vẫn chưa đạt quá bán. Vẫn còn những phe phái bỏ phiếu tự do nữa.」"
+# JP: 「\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致反対派の議員は固まっているが、\n過半数には及んでいない。自主投票の会派もある」
+1498 = "「Các nghị sĩ thuộc phe phản đối thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; đã đoàn kết lại,\nnhưng vẫn chưa đạt quá bán. Vẫn còn những phe phái bỏ phiếu tự do nữa.」"
 # 【ハチロク】
 # display as 八六
 # JP: 「ご理解をいただけなければ――\n最悪の場合、逆転を許してしまう危険もあるのですか？」
 2046 = "「Nếu không nhận được sự thấu hiểu——\nTrong trường hợp xấu nhất, liệu có nguy cơ bị lật ngược tình thế không ạ?」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「ああ――鉄道での振興が否定されれば、他に手はない。\n流れは一気に、\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致待望へと傾くだろう」
-2194 = "「Ừ——Nếu việc chấn hưng bằng đường sắt bị phủ nhận, thì không còn cách nào khác.\nCục diện sẽ ngay lập tức, nghiêng về phía mong muốn thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#; thôi.」"
+# JP: 「ああ――鉄道での振興が否定されれば、他に手はない。\n流れは一気に、\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致待望へと傾くだろう」
+2194 = "「Ừ——Nếu việc chấn hưng bằng đường sắt bị phủ nhận, thì không còn cách nào khác.\nCục diện sẽ ngay lập tức, nghiêng về phía mong muốn thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; thôi.」"
 # 【ハチロク】
 # display as 八六
 # JP: 「……」
-1519 = "「……」"
+1519 = "「......」"
 # monologue
 # JP: きゅっと、ハチロクが唇を結ぶ。\n拳が、ゆっくり握られていく。
 2750 = "Hachiroku mím chặt môi.\nĐôi bàn tay, từ từ nắm chặt lại."
@@ -288,10 +288,10 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ、うむ――さすがだな。\n見やすくて良い出来のフリップだ……っと？」
-1975 = "「A, ừm——Quả không hổ danh.\nMột tấm bảng lật rất dễ nhìn và chất lượng tốt……ủa?」"
+1975 = "「A, ừm——Quả không hổ danh.\nMột tấm bảng lật rất dễ nhìn và chất lượng tốt......ủa?」"
 # monologue
 # JP: なんだ……見覚えのない、地図に――表。
-3268 = "Cái gì đây……Một tấm bản đồ lạ hoắc——và cả bảng biểu nữa."
+3268 = "Cái gì đây......Một tấm bản đồ lạ hoắc——và cả bảng biểu nữa."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「これは？」
@@ -311,7 +311,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「そうか……なるほどな。\n向こうも、やはり本気だな」
-2158 = "「Vậy sao……Ra là thế.\nBên kia, quả nhiên cũng rất nghiêm túc.」"
+2158 = "「Vậy sao......Ra là thế.\nBên kia, quả nhiên cũng rất nghiêm túc.」"
 # monologue
 # JP: 今日の質疑応答では、僕も参考人として、\n誘致反対派の予算委員の質問に答えることとなっている。
 2810 = "Trong phần hỏi đáp hôm nay, tôi cũng với tư cách là nhân chứng,\nsẽ trả lời các câu hỏi của ủy viên ngân sách phe phản đối thu hút nhà máy."
@@ -356,16 +356,16 @@
 1957 = "「Hả? Chờ đã, gì vậy!?\nĐến giờ phút này rồi——thôi đi anh hai.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「いや、しかし――\n当初、お前は\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致に賛成していただろう？」
-1814 = "「Không, nhưng mà——\nBan đầu, chẳng phải em cũng tán thành việc thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#; sao?」"
+# JP: 「いや、しかし――\n当初、お前は\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致に賛成していただろう？」
+1814 = "「Không, nhưng mà——\nBan đầu, chẳng phải em cũng tán thành việc thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; sao?」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「それは……うん。まぁ」
-2373 = "「Chuyện đó……vâng. Thì là vậy.」"
+2373 = "「Chuyện đó......vâng. Thì là vậy.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「もしもそのまま、\n考えを変えないままでいたのなら……」
-2044 = "「Nếu như em cứ giữ nguyên,\nkhông thay đổi suy nghĩ của mình thì……」"
+2044 = "「Nếu như em cứ giữ nguyên,\nkhông thay đổi suy nghĩ của mình thì......」"
 # monologue
 # JP: ゾっとする。\n広報告知に関しての日々姫のセンスは、本物だ。
 2929 = "Tôi rùng mình.\nKhuếu thẩm mỹ của Hibiki trong việc quảng cáo và thông báo, là đồ thật đấy."
@@ -400,8 +400,8 @@
 3005 = "Những điều mà Hibiki và Kisaki đã cùng nhau làm,\nchính là minh chứng rõ ràng nhất cho điều đó."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「ならば宝生稀咲にも……鉄道による振興が、\n\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致より優れていると思ってもらえれば」
-2409 = "「Nếu vậy thì, chỉ cần làm cho Houshou Kisaki……nghĩ rằng việc chấn hưng bằng đường sắt,\nưu việt hơn so với việc thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#; là được.」"
+# JP: 「ならば宝生稀咲にも……鉄道による振興が、\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致より優れていると思ってもらえれば」
+2409 = "「Nếu vậy thì, chỉ cần làm cho Houshou Kisaki......nghĩ rằng việc chấn hưng bằng đường sắt,\nưu việt hơn so với việc thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; là được.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「うんっ！」
@@ -449,7 +449,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ……うん」
-1969 = "「À……ừm.」"
+1969 = "「À......ừm.」"
 # monologue
 # JP: 言われて、気づく。\n確かにだ。
 2861 = "Bị nói vậy, tôi mới nhận ra.\nĐúng là thế thật."
@@ -462,7 +462,7 @@
 2719 = "Nhưng, bây giờ thì——tôi hoàn toàn không có sự thong dong đó.\nDù là học đòi, dù là binh pháp nửa vời, dù có khó coi cũng chẳng sao."
 # monologue
 # JP: それが、御一夜のよりよい未来を作ると信じ……\nそうしてそこでハチロクに、暮らして欲しいと願うから。
-2804 = "Vì tôi tin rằng, điều đó sẽ tạo ra một tương lai tốt đẹp hơn cho Ohimitera……\nVà vì tôi mong muốn, Hachiroku sẽ sống ở đó."
+2804 = "Vì tôi tin rằng, điều đó sẽ tạo ra một tương lai tốt đẹp hơn cho Ohimitera......\nVà vì tôi mong muốn, Hachiroku sẽ sống ở đó."
 # 【ポーレット】
 # display as 波萊特
 # JP: 「以上をもちまして、\n本補正予算案の趣旨説明を終わります」
@@ -472,7 +472,7 @@
 2812 = "Vừa ngồi xuống thì những tràng vỗ tay vang lên.\nTừ hầu như khắp mọi nơi trong hội trường."
 # monologue
 # JP: （……見事だ）
-3310 = "（……Tuyệt vời.）"
+3310 = "（......Tuyệt vời.）"
 # monologue
 # JP: 補正予算案の趣旨と、\n予算成立の可否によらず、市長を辞任することとの説明。
 3050 = "Giải trình về mục đích của dự toán ngân sách bổ sung,\nvà tuyên bố sẽ từ chức thị trưởng bất kể ngân sách có được thông qua hay không."
@@ -481,7 +481,7 @@
 1468 = "——Những gì Paulette làm chỉ có vậy.\nChính vì thế, những điều không được nói ra lại càng trở nên nổi bật một cách sống động."
 # monologue
 # JP: （……技術などより大切なものが、\n演説には――いや、政治にはあるのだな）
-3313 = "（……Thứ quan trọng hơn cả kỹ thuật,\ntrong diễn thuyết——không, trong chính trị mới đúng nhỉ.）"
+3313 = "（......Thứ quan trọng hơn cả kỹ thuật,\ntrong diễn thuyết——không, trong chính trị mới đúng nhỉ.）"
 # monologue
 # JP: 御一夜のよりよい未来を築くため――\nその一点を目的とした、無私の行動。
 3063 = "Để xây dựng một tương lai tốt đẹp hơn cho Ohimitera——\nMột hành động vô tư, chỉ nhắm vào một mục đích duy nhất đó."
@@ -497,14 +497,14 @@
 # JP: 「はい」
 2151 = "「Vâng.」"
 # monologue
-# JP: 斉藤議員――\x%lエアクラ;#00ffc040;エアクラ%l;#;誘致反対派であり、\n親ポーレットの女性議員だ。
-3307 = "Nghị sĩ Saitou——Là người thuộc phe phản đối thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#;,\nvà là nữ nghị sĩ thân thiết với Paulette."
+# JP: 斉藤議員――\\x%lエアクラ;#00ffc040;エアクラ%l;#;誘致反対派であり、\n親ポーレットの女性議員だ。
+3307 = "Nghị sĩ Saitou——Là người thuộc phe phản đối thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;,\nvà là nữ nghị sĩ thân thiết với Paulette."
 # monologue
 # JP: ポーレットへの質疑応答もなめらかだ。\nさきほど生まれた流れを巧みに導き、強めていく。
 2856 = "Phần hỏi đáp với Paulette cũng diễn ra rất trôi chảy.\nKhéo léo dẫn dắt và củng cố luồng dư luận vừa mới được tạo ra lúc nãy."
 # monologue
 # JP: （……質疑に、工場誘致派の議員たちさえ頷いている）
-3318 = "（……Đến cả các nghị sĩ thuộc phe thu hút nhà máy cũng đang gật gù trước những câu hỏi.）"
+3318 = "（......Đến cả các nghị sĩ thuộc phe thu hút nhà máy cũng đang gật gù trước những câu hỏi.）"
 # monologue
 # JP: この補正予算案の成立を、ポーレット辞任の花道に――\n議場の中でそんな空気が、どんどん濃度を増してるようだ。
 3241 = "Việc thông qua dự toán ngân sách bổ sung này, sẽ trở thành con đường trải đầy hoa cho việc từ chức của Paulette——\nBầu không khí đó trong hội trường, dường như đang ngày càng đậm đặc hơn."
@@ -525,15 +525,15 @@
 3284 = "Nếu vậy thì, chỉ cần nương theo luồng dư luận này,\nvà trả lời đúng như những gì đã chuẩn bị là được."
 # 【女性議員】
 # display as 女議員
-# JP: 「右田さんはバーベキュー\x%l列車;#00ffc040;列車%l;#;――[ハチロクニイマル,3]8620号の、\n主任\x%l機関士;#00ffc040;機関士%l;#;兼運行責任者でいらっしゃるとのことですが」
-1937 = "「Anh Migita là \x%l機関士;#00ffc040;Lái tàu%l;#; trưởng kiêm người chịu trách nhiệm vận hành của \x%l列車;#00ffc040;chuyến tàu%l;#; BBQ——\nĐầu máy 8620 đúng không ạ?」"
+# JP: 「右田さんはバーベキュー\\x%l列車;#00ffc040;列車%l;#;――[ハチロクニイマル,3]8620号の、\n主任\\x%l機関士;#00ffc040;機関士%l;#;兼運行責任者でいらっしゃるとのことですが」
+1937 = "「Anh Migita là \\x%l機関士;#00ffc040;Lái tàu%l;#; trưởng kiêm người chịu trách nhiệm vận hành của \\x%l列車;#00ffc040;chuyến tàu%l;#; BBQ——\nĐầu máy 8620 đúng không ạ?」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「はい。[ハチロクニイマル,3]8620によるバーベキュー\x%l列車;#00ffc040;列車%l;#;の、\n全ての運行を担当させていただいております」
-2174 = "「Vâng. Tôi chịu trách nhiệm toàn bộ việc vận hành,\ncủa \x%l列車;#00ffc040;chuyến tàu%l;#; BBQ do Đầu máy 8620 đảm nhận.」"
+# JP: 「はい。[ハチロクニイマル,3]8620によるバーベキュー\\x%l列車;#00ffc040;列車%l;#;の、\n全ての運行を担当させていただいております」
+2174 = "「Vâng. Tôi chịu trách nhiệm toàn bộ việc vận hành,\ncủa \\x%l列車;#00ffc040;chuyến tàu%l;#; BBQ do Đầu máy 8620 đảm nhận.」"
 # monologue
-# JP: 現状、\x%l8620;#00ffc040;8620%l;#;の\x%l機関士;#00ffc040;機関士%l;#;は僕しかいないし、\nならば当然、運行の責任を負う者も僕だ。
-3091 = "Hiện tại, \x%l機関士;#00ffc040;Lái tàu%l;#; của \x%l8620;#00ffc040;8620%l;#; chỉ có mình tôi,\nvậy nên đương nhiên, người chịu trách nhiệm vận hành cũng là tôi."
+# JP: 現状、\\x%l8620;#00ffc040;8620%l;#;の\\x%l機関士;#00ffc040;機関士%l;#;は僕しかいないし、\nならば当然、運行の責任を負う者も僕だ。
+3091 = "Hiện tại, \\x%l機関士;#00ffc040;Lái tàu%l;#; của \\x%l8620;#00ffc040;8620%l;#; chỉ có mình tôi,\nvậy nên đương nhiên, người chịu trách nhiệm vận hành cũng là tôi."
 # monologue
 # JP: 主任だの責任者だの、言葉遊びにすぎんようだが、\n肩書を強調しておくことが、この後の答弁に効いてくる。
 2687 = "Lái tàu trưởng hay người chịu trách nhiệm, nghe có vẻ chỉ là trò chơi chữ,\nnhưng việc nhấn mạnh chức danh sẽ có tác dụng cho phần biện luận sau này."
@@ -549,8 +549,8 @@
 2653 = "Những lập trường khác nhau, bằng những tiếng nói khác nhau, cùng đi đến một kết luận.\nChính vì cấu trúc đơn giản, nên sức thuyết phục của luận điểm càng tăng lên."
 # 【女性議員】
 # display as 女議員
-# JP: 「――なるほど。それほどまでに\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;と\nバーベキュー\x%l客車;#00ffc040;客車%l;#;の相乗効果は大きいのですね？」
-1499 = "「——Ra là vậy. Hiệu ứng cộng hưởng giữa \x%l蒸気機関車;#00ffc040;Đầu máy hơi nước%l;#; và\n\x%l客車;#00ffc040;toa hành khách%l;#; BBQ lại lớn đến thế sao?」"
+# JP: 「――なるほど。それほどまでに\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;と\nバーベキュー\\x%l客車;#00ffc040;客車%l;#;の相乗効果は大きいのですね？」
+1499 = "「——Ra là vậy. Hiệu ứng cộng hưởng giữa \\x%l蒸気機関車;#00ffc040;Đầu máy hơi nước%l;#; và\n\\x%l客車;#00ffc040;toa hành khách%l;#; BBQ lại lớn đến thế sao?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「はい。こちらが、アンケートで出た満足度――\n五段階のうち、『非常に満足』をいただいた比率です」
@@ -561,7 +561,7 @@
 # 【女性議員】
 # display as 女議員
 # JP: 「途中……赤い線が引いてある場所からやや降下し、\nその数日後から、極端に降下しているようですが」
-2125 = "「Giữa chừng……từ chỗ có vạch kẻ màu đỏ, nó hơi giảm xuống,\nvà vài ngày sau đó, có vẻ như đã giảm mạnh.」"
+2125 = "「Giữa chừng......từ chỗ có vạch kẻ màu đỏ, nó hơi giảm xuống,\nvà vài ngày sau đó, có vẻ như đã giảm mạnh.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「赤い線が引いてある日が、牽引車両変更――\n[ハチロクニイマル,3]8620からキハ[レイナナ,1]07へと切り替わった日です」
@@ -570,18 +570,18 @@
 # JP: 縦軸は、0～100でなく、80～100のグラフになっている。
 2808 = "Trục dọc không phải là từ 0 đến 100, mà là biểu đồ từ 80 đến 100."
 # monologue
-# JP: \x%lキハ07;#00ffc040;キハ07%l;#;牽引でも『非常に満足』は平均80\%以上の数値を\n出しているのだが、グラフの見た目は、“激変”だ。
-3294 = "Dù được kéo bởi \x%lキハ07;#00ffc040;KiHa 07%l;#;, đánh giá 『Vô cùng hài lòng』 vẫn đạt con số trung bình trên 80\%,\nnhưng nhìn vào biểu đồ thì, nó giống như một \"sự biến động dữ dội\"."
+# JP: \\x%lキハ07;#00ffc040;キハ07%l;#;牽引でも『非常に満足』は平均80\%以上の数値を\n出しているのだが、グラフの見た目は、“激変”だ。
+3294 = "Dù được kéo bởi \\x%lキハ07;#00ffc040;KiHa 07%l;#;, đánh giá 『Vô cùng hài lòng』 vẫn đạt con số trung bình trên 80%,\nnhưng nhìn vào biểu đồ thì, nó giống như một \"sự biến động dữ dội\"."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「『おおむね満足』まで加えた\nグラフはこちらとなります」
 2030 = "「Còn đây là biểu đồ,\nđã cộng thêm cả đánh giá 『Nhìn chung là hài lòng』.」"
 # monologue
-# JP: こちらは、ずっとほぼ１００％。\nバーベキュー\x%l客車;#00ffc040;客車%l;#;自体は、変わらずご満足いただけている。
-3266 = "Biểu đồ này thì luôn xấp xỉ 100%.\nBản thân \x%l客車;#00ffc040;toa hành khách%l;#; BBQ, vẫn luôn nhận được sự hài lòng."
+# JP: こちらは、ずっとほぼ１００％。\nバーベキュー\\x%l客車;#00ffc040;客車%l;#;自体は、変わらずご満足いただけている。
+3266 = "Biểu đồ này thì luôn xấp xỉ 100%.\nBản thân \\x%l客車;#00ffc040;toa hành khách%l;#; BBQ, vẫn luôn nhận được sự hài lòng."
 # monologue
-# JP: にもかかわらず“おおむね”と“非常に”の間に出た差異。\nそれこそが、\x%l8620;#00ffc040;8620%l;#;の持つ、“ならでは”の魅力だ。
-1474 = "Dù vậy, sự khác biệt giữa \"Nhìn chung\" và \"Vô cùng\" vẫn xuất hiện.\nĐó chính là, sức hấp dẫn \"độc nhất vô nhị\" mà \x%l8620;#00ffc040;8620%l;#; mang lại."
+# JP: にもかかわらず“おおむね”と“非常に”の間に出た差異。\nそれこそが、\\x%l8620;#00ffc040;8620%l;#;の持つ、“ならでは”の魅力だ。
+1474 = "Dù vậy, sự khác biệt giữa \"Nhìn chung\" và \"Vô cùng\" vẫn xuất hiện.\nĐó chính là, sức hấp dẫn \"độc nhất vô nhị\" mà \\x%l8620;#00ffc040;8620%l;#; mang lại."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「つまり基本的なサービスにプラスされる、\nプレミアムな満足感を、[ハチロクニイマル,3]8620は与えてきたわけです」
@@ -636,21 +636,21 @@
 2128 = "「Nhân dịp này, chúng ta sẽ tiếp tục phần hỏi đáp liên quan.\nHội Tương lai Ohimitera. Nghị sĩ Niitsu.」"
 # 【中堅議員】
 # display as 中堅議員
-# JP: 「バーベキュー\x%l列車;#00ffc040;列車%l;#;の運行について、\nクレームが発生している件はご存知ですね？」
-2100 = "「Về việc vận hành \x%l列車;#00ffc040;chuyến tàu%l;#; BBQ,\nchắc cô cũng biết là đang có những lời phàn nàn phát sinh đúng không?」"
+# JP: 「バーベキュー\\x%l列車;#00ffc040;列車%l;#;の運行について、\nクレームが発生している件はご存知ですね？」
+2100 = "「Về việc vận hành \\x%l列車;#00ffc040;chuyến tàu%l;#; BBQ,\nchắc cô cũng biết là đang có những lời phàn nàn phát sinh đúng không?」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「はい。改善意見として承っております」
 2171 = "「Vâng. Chúng tôi đang tiếp nhận chúng như những ý kiến đóng góp để cải thiện.」"
 # monologue
-# JP: \x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致推進派の急先鋒である新津議員。
-2702 = "Nghị sĩ Niitsu, là người tiên phong của phe thúc đẩy thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#;."
+# JP: \\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致推進派の急先鋒である新津議員。
+2702 = "Nghị sĩ Niitsu, là người tiên phong của phe thúc đẩy thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;."
 # monologue
 # JP: ポーレットの花道などという意識はまるでないらしい。\n挨拶もせず、噛みつかんばかりの勢いだ。
 2699 = "Có vẻ như ông ta hoàn toàn không có ý định để cho Paulette được từ chức trong êm đẹp.\nThậm chí không thèm chào hỏi, mà lao vào tấn công như muốn cắn xé."
 # monologue
 # JP: （が――これは……役者が違うな）
-3330 = "（Nhưng mà——thế này thì……đẳng cấp khác hẳn rồi.）"
+3330 = "（Nhưng mà——thế này thì......đẳng cấp khác hẳn rồi.）"
 # 【中堅議員】
 # display as 中堅議員
 # JP: 「しかし！　鉄道業のため市長を辞任する。\nこれが市政軽視であると言わずに、なんと言いますか」
@@ -709,7 +709,7 @@
 2986 = "Ánh mắt của nghị sĩ Niitsu hướng về phía âm thanh phát ra,\nvà rồi hướng về một điểm trong hội trường——như thể bị hút chặt vào đó."
 # monologue
 # JP: （宝生稀咲……\nそれに、浦上さんもか）
-3339 = "（Houshou Kisaki……\nCả anh Urakami nữa sao.）"
+3339 = "（Houshou Kisaki......\nCả anh Urakami nữa sao.）"
 # monologue
 # JP: 稀咲と浦上はなにかを小声で交換しあい――\nやがて、稀咲が大きく頷く。
 3148 = "Kisaki và Urakami thì thầm trao đổi điều gì đó với nhau——\nRồi sau đó, Kisaki gật đầu thật mạnh."
@@ -771,12 +771,12 @@
 2794 = "Có lẽ cô ấy hoàn toàn không lường trước được câu hỏi này,\nbị tấn công bất ngờ, dáng vẻ yếu đuối của Paulette đã bộc lộ ra ngoài."
 # 【稀咲】
 # display as 稀咲
-# JP: 「今回、[ハチロクニイマル,3]8620の\x%l台枠;#00ffc040;台枠%l;#;交換にかかる費用が、驚くべき\n低額にまとまるということは、喜ばしいことですね」
-2379 = "「Lần này, chi phí cho việc thay thế \x%l台枠;#00ffc040;khung gầm%l;#; của Đầu máy 8620,\nđược gói gọn trong một con số thấp đến kinh ngạc, quả là một điều đáng mừng nhỉ.」"
+# JP: 「今回、[ハチロクニイマル,3]8620の\\x%l台枠;#00ffc040;台枠%l;#;交換にかかる費用が、驚くべき\n低額にまとまるということは、喜ばしいことですね」
+2379 = "「Lần này, chi phí cho việc thay thế \\x%l台枠;#00ffc040;khung gầm%l;#; của Đầu máy 8620,\nđược gói gọn trong một con số thấp đến kinh ngạc, quả là một điều đáng mừng nhỉ.」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「は……はい」
-2150 = "「V……Vâng.」"
+2150 = "「V......Vâng.」"
 # 【稀咲】
 # display as 稀咲
 # JP: 「が、このようなめぐり合わせ、言ってしまえば幸運に、\n今後とも、恵まれるという保証はあるのでしょうか？」
@@ -790,19 +790,19 @@
 2773 = "Ra là vậy——vấn đề về tính khả thi để tái hiện lại, tóm lại là như thế sao."
 # monologue
 # JP: 今回の、素晴らしいめぐり合わせを二度三度……\n確かに、繰り返せるものとは思えない。
-3125 = "Cơ duyên tuyệt vời lần này, liệu có thể lặp lại lần hai, lần ba……\nQuả thực, tôi không nghĩ là có thể lặp lại được."
+3125 = "Cơ duyên tuyệt vời lần này, liệu có thể lặp lại lần hai, lần ba......\nQuả thực, tôi không nghĩ là có thể lặp lại được."
 # 【ポーレット】
 # display as 波萊特
 # JP: 「それは……わたしでは――\nその……判断も、予測もできないことです」
-2374 = "「Chuyện đó……tôi thì——\nCái đó……không thể phán đoán, cũng không thể dự đoán được.」"
+2374 = "「Chuyện đó......tôi thì——\nCái đó......không thể phán đoán, cũng không thể dự đoán được.」"
 # 【稀咲】
 # display as 稀咲
-# JP: 「では質問を変えましょう。交換して新規実装した\x%l台枠;#00ffc040;台枠%l;#;が、\n将来、また破損したとして――その時にはどうします？」
-2406 = "「Vậy tôi sẽ đổi câu hỏi. Giả sử \x%l台枠;#00ffc040;khung gầm%l;#; mới được thay thế và lắp đặt,\ntrong tương lai, lại bị hư hỏng một lần nữa——khi đó cô sẽ làm thế nào?」"
+# JP: 「では質問を変えましょう。交換して新規実装した\\x%l台枠;#00ffc040;台枠%l;#;が、\n将来、また破損したとして――その時にはどうします？」
+2406 = "「Vậy tôi sẽ đổi câu hỏi. Giả sử \\x%l台枠;#00ffc040;khung gầm%l;#; mới được thay thế và lắp đặt,\ntrong tương lai, lại bị hư hỏng một lần nữa——khi đó cô sẽ làm thế nào?」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「…………あの――そのときは――」
-1518 = "「…………Cái đó——khi đó thì——」"
+1518 = "「............Cái đó——khi đó thì——」"
 # monologue
 # JP: 青い瞳がぐらぐら揺れてる。\nこれは保たない。
 2853 = "Đôi mắt xanh biếc đang rung động dữ dội.\nThế này thì không trụ nổi mất."
@@ -841,8 +841,8 @@
 2304 = "「Việc tái hiện lại y nguyên cách ứng phó với tình huống như lần này,\ntôi nghĩ là một điều rất khó.」"
 # 【稀咲】
 # display as 稀咲
-# JP: 「再現できないのであれば、もし、もう一度の\x%l台枠;#00ffc040;台枠%l;#;等の\n深刻な損傷が発生した場合」
-2141 = "「Nếu không thể tái hiện lại, giả sử, một lần nữa xảy ra\nnhững hư hỏng nghiêm trọng đối với \x%l台枠;#00ffc040;khung gầm%l;#; hay các bộ phận khác.」"
+# JP: 「再現できないのであれば、もし、もう一度の\\x%l台枠;#00ffc040;台枠%l;#;等の\n深刻な損傷が発生した場合」
+2141 = "「Nếu không thể tái hiện lại, giả sử, một lần nữa xảy ra\nnhững hư hỏng nghiêm trọng đối với \\x%l台枠;#00ffc040;khung gầm%l;#; hay các bộ phận khác.」"
 # monologue
 # JP: 稀咲の手が、パン、とペーパーを、\n補正予算案のまとめられた書類を叩き鳴らす。
 3155 = "Bàn tay của Kisaki, đập \"Bốp\" một cái,\nlên tập tài liệu tổng hợp dự toán ngân sách bổ sung."
@@ -853,17 +853,17 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……再改修の必要がもし、出てしまえば。\nその場合には、ご指摘どおりとなる可能性は感じます」
-1535 = "「……Nếu như, lại phát sinh nhu cầu phải sửa chữa một lần nữa.\nTrong trường hợp đó, tôi cảm thấy khả năng xảy ra đúng như cô chỉ ra là có.」"
+1535 = "「......Nếu như, lại phát sinh nhu cầu phải sửa chữa một lần nữa.\nTrong trường hợp đó, tôi cảm thấy khả năng xảy ra đúng như cô chỉ ra là có.」"
 # monologue
 # JP: もし再びの改修が要求されるのならば――\n材料段階で、億単位の資金が要求されることは確実だ。
 2868 = "Nếu lại có yêu cầu sửa chữa một lần nữa——\nThì chắc chắn ngay từ giai đoạn vật liệu, đã cần đến nguồn vốn hàng trăm triệu yên rồi."
 # monologue
 # JP: 現在の御一夜鉄道の財政状況に補助金がくわわったとして、\nそれに対応するのは正直……極めて厳しい。
-2923 = "Dù có thêm tiền trợ cấp vào tình hình tài chính hiện tại của Đường sắt Ohimitera,\nthì nói thật, việc đáp ứng được chi phí đó……là cực kỳ khó khăn."
+2923 = "Dù có thêm tiền trợ cấp vào tình hình tài chính hiện tại của Đường sắt Ohimitera,\nthì nói thật, việc đáp ứng được chi phí đó......là cực kỳ khó khăn."
 # 【稀咲】
 # display as 稀咲
-# JP: 「交換頂く\x%l台枠;#00ffc040;台枠%l;#;も、老朽部品には変わりない。\n検査整備する御一夜鉄道側は、\x%l台枠;#00ffc040;台枠%l;#;損傷を見過ごした」
-2282 = "「\x%l台枠;#00ffc040;Khung gầm%l;#; được thay thế, cũng vẫn chỉ là những bộ phận cũ kỹ.\nPhía Đường sắt Ohimitera phụ trách kiểm tra bảo dưỡng, đã bỏ sót những hư hỏng của \x%l台枠;#00ffc040;khung gầm%l;#;.」"
+# JP: 「交換頂く\\x%l台枠;#00ffc040;台枠%l;#;も、老朽部品には変わりない。\n検査整備する御一夜鉄道側は、\\x%l台枠;#00ffc040;台枠%l;#;損傷を見過ごした」
+2282 = "「\\x%l台枠;#00ffc040;Khung gầm%l;#; được thay thế, cũng vẫn chỉ là những bộ phận cũ kỹ.\nPhía Đường sắt Ohimitera phụ trách kiểm tra bảo dưỡng, đã bỏ sót những hư hỏng của \\x%l台枠;#00ffc040;khung gầm%l;#;.」"
 # monologue
 # JP: 答弁を待たず攻め立ててくる。\n立て直す余裕を得られない。
 2832 = "Cô ấy liên tục tấn công mà không chờ tôi trả lời.\nTôi hoàn toàn không có thời gian để chấn chỉnh lại đội hình."
@@ -983,8 +983,8 @@
 2723 = "Nhưng mà, đó chắc chắn.\nTất cả, đều là những \"tuyến đường sắt\" đang còn sống."
 # 【ハチロク】
 # display as 八六
-# JP: 「それらの鉄道各線の中にも、\n\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;は運用されておりますよね？　ポーレット様」
-2028 = "「Trong số các tuyến đường sắt đó,\ncũng có những tuyến đang vận hành \x%l蒸気機関車;#00ffc040;Đầu máy hơi nước%l;#; đúng không ạ? Thị trưởng Paulette.」"
+# JP: 「それらの鉄道各線の中にも、\n\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;は運用されておりますよね？　ポーレット様」
+2028 = "「Trong số các tuyến đường sắt đó,\ncũng có những tuyến đang vận hành \\x%l蒸気機関車;#00ffc040;Đầu máy hơi nước%l;#; đúng không ạ? Thị trưởng Paulette.」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「え？　あ！\nそれは、もちろん」
@@ -994,15 +994,15 @@
 3209 = "Được hỏi về lĩnh vực sở trường của mình,\nđôi mắt của Paulette cuối cùng cũng lấy lại được sự bình tĩnh."
 # 【ポーレット】
 # display as 波萊特
-# JP: 「[ふくおか,1]福丘、[ちくほう,1]筑方軌道の\x%l9600;#00ffc040;[キュウロク,3]9600%l;#;――19633、\n[かごしま,2]鹿兒島は、みかん鉄道の[シゴロクキュウキュウ,5]C56-99」
-2262 = "「Fukuoka, \x%l9600;#00ffc040;9600%l;#; của Quỹ đạo Chikuhou——19633,\nKagoshima thì có C56-99 của Đường sắt Mikan.」"
+# JP: 「[ふくおか,1]福丘、[ちくほう,1]筑方軌道の\\x%l9600;#00ffc040;[キュウロク,3]9600%l;#;――19633、\n[かごしま,2]鹿兒島は、みかん鉄道の[シゴロクキュウキュウ,5]C56-99」
+2262 = "「Fukuoka, \\x%l9600;#00ffc040;9600%l;#; của Quỹ đạo Chikuhou——19633,\nKagoshima thì có C56-99 của Đường sắt Mikan.」"
 # monologue
 # JP: 指折り指折り、ポーレットが現役車両を数え上げていく。\n全１１機。その後、静かに一言を足す。
 3049 = "Paulette bẻ từng ngón tay, đếm số lượng các phương tiện đang còn hoạt động.\nTổng cộng 11 chiếc. Sau đó, cô ấy nhẹ nhàng nói thêm một câu."
 # 【ポーレット】
 # display as 波萊特
 # JP: 「[せいたい,1]静態保存のものを含めれば、\n[きゅうしゅう,1]九洲内だけで、さらに数倍はあると思います」
-2288 = "「Nếu tính cả những chiếc đang được \x%l静態保存;#00ffc040;lưu tĩnh%l;#;,\nthì chỉ tính riêng trong Kyushu, tôi nghĩ số lượng còn gấp vài lần như thế.」"
+2288 = "「Nếu tính cả những chiếc đang được \\x%l静態保存;#00ffc040;lưu tĩnh%l;#;,\nthì chỉ tính riêng trong Kyushu, tôi nghĩ số lượng còn gấp vài lần như thế.」"
 # monologue
 # JP: ほう、そんなにか、と、誰かの呟きが聞こえてくる。
 2965 = "\"Ồ, nhiều đến thế sao\", tôi nghe thấy tiếng lẩm bẩm của ai đó."
@@ -1039,11 +1039,11 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「つなぎ合わせることが出来れば――\nそれらは大きな……とても大きな力を、必ず発揮します」
-1933 = "「Nếu có thể kết nối họ lại với nhau——\nNhững điều đó chắc chắn sẽ phát huy một sức mạnh lớn lao……vô cùng lớn lao.」"
+1933 = "「Nếu có thể kết nối họ lại với nhau——\nNhững điều đó chắc chắn sẽ phát huy một sức mạnh lớn lao......vô cùng lớn lao.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「その中心に……御一夜が」
-2284 = "「Và trung tâm của sự kết nối đó……chính là Ohimitera.」"
+2284 = "「Và trung tâm của sự kết nối đó......chính là Ohimitera.」"
 # monologue
 # JP: ハチロクの真意を理解し、言葉が漏れる。
 2955 = "Hiểu được ý định thực sự của Hachiroku, tôi buột miệng nói ra."
@@ -1070,15 +1070,15 @@
 2097 = "「Khôi phục tuyến đường, cậu đùa à, Soutetsu.\nNói thì nghe dễ dàng thế thôi.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「もちろん、すぐには難しいかもしれん。\nが、いずれ――遠からず、\x%lエアクラ;#00ffc040;エアクラ%l;#;は必ず空へ向かう」
-2231 = "「Tất nhiên, có thể sẽ rất khó để thực hiện ngay lập tức.\nNhưng mà, một ngày nào đó——không xa nữa, \x%lエアクラ;#00ffc040;Aircra%l;#; chắc chắn sẽ hướng lên bầu trời.」"
+# JP: 「もちろん、すぐには難しいかもしれん。\nが、いずれ――遠からず、\\x%lエアクラ;#00ffc040;エアクラ%l;#;は必ず空へ向かう」
+2231 = "「Tất nhiên, có thể sẽ rất khó để thực hiện ngay lập tức.\nNhưng mà, một ngày nào đó——không xa nữa, \\x%lエアクラ;#00ffc040;Aircra%l;#; chắc chắn sẽ hướng lên bầu trời.」"
 # monologue
 # JP: 安芸様が予言していた、来るべき道。\nそれを、当事者に確認してみる。
 2871 = "Con đường sắp tới, mà ngài Aki đã tiên đoán.\nTôi sẽ thử xác nhận điều đó, với chính người trong cuộc."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「浦上さん。飛行型\x%lエアクラ;#00ffc040;エアクラ%l;#;の普及は、\nエアロ＝クラフテック社の目標とするところですよね？」
-2214 = "「Anh Urakami. Việc phổ biến \x%lエアクラ;#00ffc040;Aircra%l;#; loại bay,\nchính là mục tiêu mà công ty Aero-Craftech đang hướng tới đúng không?」"
+# JP: 「浦上さん。飛行型\\x%lエアクラ;#00ffc040;エアクラ%l;#;の普及は、\nエアロ＝クラフテック社の目標とするところですよね？」
+2214 = "「Anh Urakami. Việc phổ biến \\x%lエアクラ;#00ffc040;Aircra%l;#; loại bay,\nchính là mục tiêu mà công ty Aero-Craftech đang hướng tới đúng không?」"
 # monologue
 # JP: 困ったように、浦上が稀咲の顔を見る。
 3054 = "Urakami nhìn khuôn mặt Kisaki với vẻ bối rối."
@@ -1095,11 +1095,11 @@
 2449 = "「Là một mục tiêu vô cùng khái quát,\nthì tôi xác nhận là đúng như những gì anh Migita đã nói.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「ならばいずれ、地上は\x%lエアクラ;#00ffc040;エアクラ%l;#;から解放されましょう。\nガソリン自動車への乗り戻りが起こるとは考え難い」
-2412 = "「Nếu vậy thì một ngày nào đó, mặt đất sẽ được giải phóng khỏi \x%lエアクラ;#00ffc040;Aircra%l;#;.\nThật khó để tưởng tượng việc mọi người sẽ quay trở lại sử dụng ô tô chạy bằng xăng.」"
+# JP: 「ならばいずれ、地上は\\x%lエアクラ;#00ffc040;エアクラ%l;#;から解放されましょう。\nガソリン自動車への乗り戻りが起こるとは考え難い」
+2412 = "「Nếu vậy thì một ngày nào đó, mặt đất sẽ được giải phóng khỏi \\x%lエアクラ;#00ffc040;Aircra%l;#;.\nThật khó để tưởng tượng việc mọi người sẽ quay trở lại sử dụng ô tô chạy bằng xăng.」"
 # monologue
-# JP: ガソリンエンジンは、\x%lエアクラ;#00ffc040;エアクラ%l;#;機関の、\n超高コストの下位互換である要素が多い。
-3035 = "Động cơ xăng, có rất nhiều yếu tố\nlà phiên bản tương thích ngược với chi phí siêu cao của động cơ \x%lエアクラ;#00ffc040;Aircra%l;#;."
+# JP: ガソリンエンジンは、\\x%lエアクラ;#00ffc040;エアクラ%l;#;機関の、\n超高コストの下位互換である要素が多い。
+3035 = "Động cơ xăng, có rất nhiều yếu tố\nlà phiên bản tương thích ngược với chi phí siêu cao của động cơ \\x%lエアクラ;#00ffc040;Aircra%l;#;."
 # monologue
 # JP: 作動不能地域においてと、ごく趣味的なものたちと――\n現状以上の復権は、どう考えてもありえんだろう。
 3289 = "Ngoại trừ ở những khu vực không thể hoạt động, và những sở thích cá nhân——\nDù nghĩ thế nào đi nữa, việc khôi phục lại vị thế hơn hiện tại là điều không thể."
@@ -1108,46 +1108,46 @@
 # JP: 「しかし鉄道は違います。公共性を持つ旅ができ、\n同時に、大量輸送の、効率の良いツールでもあるから」
 1857 = "「Nhưng đường sắt thì khác. Nó có thể tạo ra những chuyến đi mang tính công cộng,\nđồng thời, nó cũng là một công cụ vận chuyển khối lượng lớn rất hiệu quả.」"
 # monologue
-# JP: \x%lエアクラ;#00ffc040;エアクラ%l;#;と鉄道の最大の違い。\nそれは“個”を最優先できるかできないかの差異だ。
-84 = "Sự khác biệt lớn nhất giữa \x%lエアクラ;#00ffc040;Aircra%l;#; và đường sắt.\nĐó là sự khác biệt ở chỗ có thể ưu tiên \"cá nhân\" lên hàng đầu hay không."
+# JP: \\x%lエアクラ;#00ffc040;エアクラ%l;#;と鉄道の最大の違い。\nそれは“個”を最優先できるかできないかの差異だ。
+84 = "Sự khác biệt lớn nhất giữa \\x%lエアクラ;#00ffc040;Aircra%l;#; và đường sắt.\nĐó là sự khác biệt ở chỗ có thể ưu tiên \"cá nhân\" lên hàng đầu hay không."
 # monologue
 # JP: 公共の移動手段でしかありえぬ鉄道はそれゆえに、\n他者と、時間を、空間を――共有させる。
 3031 = "Đường sắt, với tư cách chỉ có thể là một phương tiện di chuyển công cộng, chính vì vậy,\nbuộc người ta phải chia sẻ——thời gian, không gian với những người khác."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「公共性が。他者の緩やかな連帯が、好感され評価される。\nバーベキュー\x%l列車;#00ffc040;列車%l;#;の大ヒットは、そんな嗜好の現れです」
-1894 = "「Tính công cộng. Sự liên kết nhẹ nhàng với những người khác, được yêu thích và đánh giá cao.\nSự thành công vang dội của \x%l列車;#00ffc040;chuyến tàu%l;#; BBQ, chính là biểu hiện của sở thích đó.」"
+# JP: 「公共性が。他者の緩やかな連帯が、好感され評価される。\nバーベキュー\\x%l列車;#00ffc040;列車%l;#;の大ヒットは、そんな嗜好の現れです」
+1894 = "「Tính công cộng. Sự liên kết nhẹ nhàng với những người khác, được yêu thích và đánh giá cao.\nSự thành công vang dội của \\x%l列車;#00ffc040;chuyến tàu%l;#; BBQ, chính là biểu hiện của sở thích đó.」"
 # monologue
-# JP: \x%lエアクラ;#00ffc040;エアクラ%l;#;の急速な発展が引き起こした、\n個から群への揺り戻し――
-83 = "Sự phát triển nhanh chóng của \x%lエアクラ;#00ffc040;Aircra%l;#; đã gây ra,\nsự đảo ngược từ cá nhân trở về với tập thể——"
+# JP: \\x%lエアクラ;#00ffc040;エアクラ%l;#;の急速な発展が引き起こした、\n個から群への揺り戻し――
+83 = "Sự phát triển nhanh chóng của \\x%lエアクラ;#00ffc040;Aircra%l;#; đã gây ra,\nsự đảo ngược từ cá nhân trở về với tập thể——"
 # monologue
-# JP: そうした社会傾向を、当の\x%lエアクラ;#00ffc040;エアクラ%l;#;社も無論、\n分析・把握をしているはずだ。
-82 = "Xu hướng xã hội như vậy, bản thân công ty \x%lエアクラ;#00ffc040;Aircra%l;#; tất nhiên,\ncũng phải phân tích và nắm bắt được."
+# JP: そうした社会傾向を、当の\\x%lエアクラ;#00ffc040;エアクラ%l;#;社も無論、\n分析・把握をしているはずだ。
+82 = "Xu hướng xã hội như vậy, bản thân công ty \\x%lエアクラ;#00ffc040;Aircra%l;#; tất nhiên,\ncũng phải phân tích và nắm bắt được."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「……\x%lエアクラ;#00ffc040;エアクラ%l;#;が空へと向かった後の、鉄道復権。\nそれは、\x%lエアクラ;#00ffc040;エアクラ%l;#;社の利益にも繋がりますよね？」
-1514 = "「……Sự khôi phục vị thế của đường sắt, sau khi \x%lエアクラ;#00ffc040;Aircra%l;#; hướng lên bầu trời.\nĐiều đó, cũng mang lại lợi ích cho công ty \x%lエアクラ;#00ffc040;Aircra%l;#; đúng không?」"
+# JP: 「……\\x%lエアクラ;#00ffc040;エアクラ%l;#;が空へと向かった後の、鉄道復権。\nそれは、\\x%lエアクラ;#00ffc040;エアクラ%l;#;社の利益にも繋がりますよね？」
+1514 = "「......Sự khôi phục vị thế của đường sắt, sau khi \\x%lエアクラ;#00ffc040;Aircra%l;#; hướng lên bầu trời.\nĐiều đó, cũng mang lại lợi ích cho công ty \\x%lエアクラ;#00ffc040;Aircra%l;#; đúng không?」"
 # monologue
 # JP: 短く、浦上は息を吸い、吐く。
 3055 = "Urakami hít một hơi ngắn, rồi thở ra."
 # 【浦上】
 # display as 浦上
 # JP: 「社としての判断を下せる能力も無く立場でもありません。\nが、個人としては……ご指摘どおりかと認識します」
-2102 = "「Tôi không có khả năng cũng như lập trường để đưa ra phán đoán với tư cách là công ty.\nNhưng với tư cách cá nhân……tôi nhận thấy đúng như những gì anh đã chỉ ra.」"
+2102 = "「Tôi không có khả năng cũng như lập trường để đưa ra phán đoán với tư cách là công ty.\nNhưng với tư cách cá nhân......tôi nhận thấy đúng như những gì anh đã chỉ ra.」"
 # monologue
 # JP: ざわりと、議場が大きくどよめく。\nかすかに頷き、稀咲がやっと、言葉を発する。
 3018 = "Cả hội trường bỗng xôn xao ồn ào.\nKhẽ gật đầu, cuối cùng Kisaki cũng cất lời."
 # 【稀咲】
 # display as 稀咲
-# JP: 「超重量物の移送問題は、そう簡単には解決できない。\n鉄道の復権は、\x%lエアクラ;#00ffc040;エアクラ%l;#;の弱点の補完になるわけだ」
-2348 = "「Vấn đề vận chuyển các vật thể siêu nặng, không thể giải quyết dễ dàng như vậy được.\nSự khôi phục vị thế của đường sắt, chính là để bù đắp cho điểm yếu của \x%lエアクラ;#00ffc040;Aircra%l;#;.」"
+# JP: 「超重量物の移送問題は、そう簡単には解決できない。\n鉄道の復権は、\\x%lエアクラ;#00ffc040;エアクラ%l;#;の弱点の補完になるわけだ」
+2348 = "「Vấn đề vận chuyển các vật thể siêu nặng, không thể giải quyết dễ dàng như vậy được.\nSự khôi phục vị thế của đường sắt, chính là để bù đắp cho điểm yếu của \\x%lエアクラ;#00ffc040;Aircra%l;#;.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「そう。\x%lエアクラ;#00ffc040;エアクラ%l;#;と鉄道は共存できる。そして、\n観光面での鉄道の魅力を最大に活かすものは、ＳＬだ」
-2196 = "「Đúng vậy. \x%lエアクラ;#00ffc040;Aircra%l;#; và đường sắt có thể cùng tồn tại. Và,\nthứ phát huy tối đa sức hấp dẫn của đường sắt về mặt du lịch, chính là SL.」"
+# JP: 「そう。\\x%lエアクラ;#00ffc040;エアクラ%l;#;と鉄道は共存できる。そして、\n観光面での鉄道の魅力を最大に活かすものは、ＳＬだ」
+2196 = "「Đúng vậy. \\x%lエアクラ;#00ffc040;Aircra%l;#; và đường sắt có thể cùng tồn tại. Và,\nthứ phát huy tối đa sức hấp dẫn của đường sắt về mặt du lịch, chính là SL.」"
 # monologue
-# JP: 鉄道復権がなされるときには、\x%l気動車;#00ffc040;気動車%l;#;、電車――\nより大きな利便性を持つ車輌も当然、復権しよう。
-3086 = "Khi đường sắt được khôi phục vị thế, \x%l気動車;#00ffc040;toa xe tự hành%l;#;, tàu điện——\nnhững phương tiện mang lại sự tiện lợi lớn hơn, đương nhiên cũng sẽ được khôi phục vị thế."
+# JP: 鉄道復権がなされるときには、\\x%l気動車;#00ffc040;気動車%l;#;、電車――\nより大きな利便性を持つ車輌も当然、復権しよう。
+3086 = "Khi đường sắt được khôi phục vị thế, \\x%l気動車;#00ffc040;toa xe tự hành%l;#;, tàu điện——\nnhững phương tiện mang lại sự tiện lợi lớn hơn, đương nhiên cũng sẽ được khôi phục vị thế."
 # monologue
 # JP: が、ＳＬにはＳＬならではの価値がある。\nＳＬが滅び行くことを、人は、決して望まない。
 2717 = "Nhưng, SL có những giá trị chỉ riêng SL mới có.\nCon người, tuyệt đối không mong muốn SL bị diệt vong."
@@ -1158,18 +1158,18 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「そっか……車輌は各地に――そして、ＳＬに特化した、\n保全・改修のための設備や人材を、御一夜に集中させて」
-1912 = "「Ra là vậy……phân bổ phương tiện đến các nơi——và rồi, tập trung những trang thiết bị, nhân lực\nchuyên môn hóa cho việc bảo trì, sửa chữa SL về Ohimitera.」"
+1912 = "「Ra là vậy......phân bổ phương tiện đến các nơi——và rồi, tập trung những trang thiết bị, nhân lực\nchuyên môn hóa cho việc bảo trì, sửa chữa SL về Ohimitera.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「御一夜をＳＬ観光の起点駅とする。\x%l8620;#00ffc040;8620%l;#;から乗り換えて、\nＳＬで、九洲各地を観光できる。そんな未来を作るのだ」
-2323 = "「Biến Ohimitera thành ga xuất phát cho du lịch SL. Từ \x%l8620;#00ffc040;8620%l;#; đổi chuyến,\nđể có thể đi du lịch khắp Kyushu bằng SL. Chúng ta sẽ tạo ra một tương lai như vậy.」"
+# JP: 「御一夜をＳＬ観光の起点駅とする。\\x%l8620;#00ffc040;8620%l;#;から乗り換えて、\nＳＬで、九洲各地を観光できる。そんな未来を作るのだ」
+2323 = "「Biến Ohimitera thành ga xuất phát cho du lịch SL. Từ \\x%l8620;#00ffc040;8620%l;#; đổi chuyến,\nđể có thể đi du lịch khắp Kyushu bằng SL. Chúng ta sẽ tạo ra một tương lai như vậy.」"
 # monologue
 # JP: そうなれば、無論、整備性も大きく向上する。\nノウハウも、蓄積し活かしていくことが出来る。
 3271 = "Nếu được như vậy, tất nhiên, khả năng bảo dưỡng cũng sẽ được nâng cao đáng kể.\nCác bí quyết kỹ thuật, cũng có thể được tích lũy và tận dụng."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「確かに[ハチロクニイマル,3]8620はすでに老朽車両かもしれん。\nが、\x%l8620;#00ffc040;8620%l;#;が壊れたとして――それなら次へ、受け渡せる」
-2252 = "「Quả thực 8620 có thể đã là một phương tiện cũ kỹ.\nNhưng, giả sử \x%l8620;#00ffc040;8620%l;#; có hỏng đi chăng nữa——thì vẫn có thể trao lại cho thế hệ tiếp theo.」"
+# JP: 「確かに[ハチロクニイマル,3]8620はすでに老朽車両かもしれん。\nが、\\x%l8620;#00ffc040;8620%l;#;が壊れたとして――それなら次へ、受け渡せる」
+2252 = "「Quả thực 8620 có thể đã là một phương tiện cũ kỹ.\nNhưng, giả sử \\x%l8620;#00ffc040;8620%l;#; có hỏng đi chăng nữa——thì vẫn có thể trao lại cho thế hệ tiếp theo.」"
 # monologue
 # JP: 終着駅は、全ての終わりを意味しない。
 3178 = "Ga cuối cùng, không có nghĩa là kết thúc tất cả."
@@ -1179,7 +1179,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「ＳＬの……蒸気の町――\nううん、そう――蒸気のふるさと、御一夜」
-2296 = "「Thành phố của SL……của hơi nước——\nKhông, đúng rồi——Quê hương của hơi nước, Ohimitera.」"
+2296 = "「Thành phố của SL......của hơi nước——\nKhông, đúng rồi——Quê hương của hơi nước, Ohimitera.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ」
@@ -1188,8 +1188,8 @@
 # JP: 傍聴席からの日々姫の呟き。\nそれが、イメージを固めてくれる。
 2901 = "Tiếng lẩm bẩm của Hibiki từ hàng ghế dự thính.\nNó đã giúp củng cố thêm hình ảnh đó."
 # monologue
-# JP: 焼酎、温泉、\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;――御一夜は、今の時点でも、\n“蒸気のふるさと”と呼ばれてしかるべき町だ。
-3070 = "Rượu shochu, suối nước nóng, \x%l蒸気機関車;#00ffc040;Đầu máy hơi nước%l;#;——Ohimitera, ngay tại thời điểm này,\ncũng đã là một thành phố xứng đáng được gọi là \"Quê hương của hơi nước\" rồi."
+# JP: 焼酎、温泉、\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;――御一夜は、今の時点でも、\n“蒸気のふるさと”と呼ばれてしかるべき町だ。
+3070 = "Rượu shochu, suối nước nóng, \\x%l蒸気機関車;#00ffc040;Đầu máy hơi nước%l;#;——Ohimitera, ngay tại thời điểm này,\ncũng đã là một thành phố xứng đáng được gọi là \"Quê hương của hơi nước\" rồi."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「蒸気のふるさと御一夜として、全ての資源を連携させる。\nそれは、御一夜にしか、鉄道でしか出来ないことだ」
@@ -1197,7 +1197,7 @@
 # 【浦上】
 # display as 浦上
 # JP: 「……稀咲様」
-1544 = "「……Cô Kisaki.」"
+1544 = "「......Cô Kisaki.」"
 # 【稀咲】
 # display as 稀咲
 # JP: 「うん」
@@ -1243,7 +1243,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……変われば変わるものだな」
-1542 = "「……Đúng là thay đổi chóng mặt thật đấy.」"
+1542 = "「......Đúng là thay đổi chóng mặt thật đấy.」"
 # 【ハチロク】
 # display as 八六
 # JP: 「君子は豹変す――と言うべきものでございましょう。\n稀咲様のお力は、極めて大きなものとなるかと」
@@ -1258,7 +1258,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……まずは近県の鉄道会社との、持株会社の設立。か」
-1549 = "「……Trước tiên là thành lập một công ty cổ phần, với các công ty đường sắt ở các tỉnh lân cận. Sao.」"
+1549 = "「......Trước tiên là thành lập một công ty cổ phần, với các công ty đường sắt ở các tỉnh lân cận. Sao.」"
 # 【ハチロク】
 # display as 八六
 # JP: 「持株会社、とはどのようなものなのですか？」
@@ -1270,11 +1270,11 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「ええ……と」
-1947 = "「Ờm……」"
+1947 = "「Ờm......」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「例えば……そうだな、真闇姉に、\n御一夜市内のクマ焼酎の全体を見てもらおうと考える」
-2190 = "「Ví dụ như……đúng rồi, giả sử anh muốn nhờ chị Mayami,\nquản lý toàn bộ mảng rượu shochu Kuma trong thành phố Ohimitera.」"
+2190 = "「Ví dụ như......đúng rồi, giả sử anh muốn nhờ chị Mayami,\nquản lý toàn bộ mảng rượu shochu Kuma trong thành phố Ohimitera.」"
 # 【ハチロク】
 # display as 八六
 # JP: 「まぁ、それは素敵な考えですね」
@@ -1286,7 +1286,7 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「ああ……そのようにすれば、指示やお金が、\nスムーズに流れるようになるのですね？」
-1971 = "「A……Nếu làm như vậy, thì các chỉ thị và dòng tiền,\nsẽ được lưu thông một cách trơn tru đúng không ạ?」"
+1971 = "「A......Nếu làm như vậy, thì các chỉ thị và dòng tiền,\nsẽ được lưu thông một cách trơn tru đúng không ạ?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ。それぞれの会社はそのままだから、\n損失の方は、他の会社へ影響をさせないでも済む」
@@ -1304,7 +1304,7 @@
 # 【ハチロク】
 # display as 八六
 # JP: 「……[だいきゅしゅう,2]大九洲ＳＬ構想を成立、発展させていくため。\n持株会社は、なるほど、優れた仕組みなのですね」
-1536 = "「……Để thiết lập và phát triển kế hoạch Đại Kyushu SL.\nCông ty cổ phần, ra là vậy, đúng là một cơ cấu xuất sắc nhỉ.」"
+1536 = "「......Để thiết lập và phát triển kế hoạch Đại Kyushu SL.\nCông ty cổ phần, ra là vậy, đúng là một cơ cấu xuất sắc nhỉ.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「まぁ、構想への理解、協力を得られればだがな。\n九洲男児は独立心が強いと聞くし、簡単ではなかろう」
@@ -1317,8 +1317,8 @@
 # JP: ポーレットがスっと会話にすべりこんでくる。
 3047 = "Paulette tự nhiên xen vào cuộc trò chuyện."
 # monologue
-# JP: その頬はワインのせいか、かなり赤らみ、\n手には、\x%l帝鉄;#00ffc040;帝鉄%l;#;時代のものと思しき路線地図を持っている。
-2792 = "Có lẽ do rượu vang, hai má cô ấy khá ửng đỏ,\ntrên tay đang cầm một tấm bản đồ tuyến đường, có vẻ như là từ thời \x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;."
+# JP: その頬はワインのせいか、かなり赤らみ、\n手には、\\x%l帝鉄;#00ffc040;帝鉄%l;#;時代のものと思しき路線地図を持っている。
+2792 = "Có lẽ do rượu vang, hai má cô ấy khá ửng đỏ,\ntrên tay đang cầm một tấm bản đồ tuyến đường, có vẻ như là từ thời \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;."
 # 【ポーレット】
 # display as 波萊特
 # JP: 「まず最初は、みかん鉄道。北回りだけじゃなくって、\n南、[はやと,1]早戸を通じて[かごしま,2]鹿兒島までも復線できれば――」
@@ -1337,15 +1337,15 @@
 2038 = "「Okoba?」"
 # 【ハチロク】
 # display as 八六
-# JP: 「鉄道界隈では有名な――日ノ本で唯一、\n\x%lループ線;#00ffc040;ループ線%l;#;と\x%lスイッチバック;#00ffc040;スイッチバック%l;#;とをともに持つ駅です」
-2031 = "「Rất nổi tiếng trong giới đường sắt ạ——Là nhà ga duy nhất ở Hinomoto,\nsở hữu cả \x%lループ線;#00ffc040;đường ray vòng tròn%l;#; và \x%lスイッチバック;#00ffc040;đường vòng zigzag%l;#; cùng lúc.」"
+# JP: 「鉄道界隈では有名な――日ノ本で唯一、\n\\x%lループ線;#00ffc040;ループ線%l;#;と\\x%lスイッチバック;#00ffc040;スイッチバック%l;#;とをともに持つ駅です」
+2031 = "「Rất nổi tiếng trong giới đường sắt ạ——Là nhà ga duy nhất ở Hinomoto,\nsở hữu cả \\x%lループ線;#00ffc040;đường ray vòng tròn%l;#; và \\x%lスイッチバック;#00ffc040;đường vòng zigzag%l;#; cùng lúc.」"
 # monologue
 # JP: 言いながら、\nハチロクはポーレットの広げた地図をまじまじと見る。
 2738 = "Vừa nói,\nHachiroku vừa nhìn chằm chằm vào tấm bản đồ mà Paulette đang mở ra."
 # 【ハチロク】
 # display as 八六
 # JP: 「すぐ南……御一夜と、これほど近くにあったのですね」
-2066 = "「Ngay phía Nam……Hóa ra nó lại nằm gần Ohimitera đến thế này sao.」"
+2066 = "「Ngay phía Nam......Hóa ra nó lại nằm gần Ohimitera đến thế này sao.」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「[やません,1]山線ですから、復線も大変ですけど――\nでも、周辺自治体とみかん鉄道の協力も得られれば」
@@ -1357,7 +1357,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「要素単体では、どう評価されるかわかりませんけど……\n構想全体をきちんと伝えれば、理解を貰えると思います」
-2434 = "「Nếu chỉ xét riêng lẻ từng yếu tố, thì không biết họ sẽ đánh giá thế nào nhưng……\nTôi nghĩ nếu truyền đạt rõ ràng toàn bộ kế hoạch, thì sẽ nhận được sự thấu hiểu thôi.」"
+2434 = "「Nếu chỉ xét riêng lẻ từng yếu tố, thì không biết họ sẽ đánh giá thế nào nhưng......\nTôi nghĩ nếu truyền đạt rõ ràng toàn bộ kế hoạch, thì sẽ nhận được sự thấu hiểu thôi.」"
 # 【稀咲】
 # display as 稀咲
 # JP: 「だろうね」
@@ -1378,8 +1378,8 @@
 # JP: 「うむ」
 # 2003 = "「嗯」" 
 # monologue
-# JP: そのためには、\x%l8620;#00ffc040;8620%l;#;の復活と、\nバーベキュー\x%l列車;#00ffc040;列車%l;#;のより一層の活性化が必須となる。
-3064 = "Để làm được điều đó, sự hồi sinh của \x%l8620;#00ffc040;8620%l;#;, và\nviệc kích hoạt mạnh mẽ hơn nữa \x%l列車;#00ffc040;chuyến tàu%l;#; BBQ là điều bắt buộc."
+# JP: そのためには、\\x%l8620;#00ffc040;8620%l;#;の復活と、\nバーベキュー\\x%l列車;#00ffc040;列車%l;#;のより一層の活性化が必須となる。
+3064 = "Để làm được điều đó, sự hồi sinh của \\x%l8620;#00ffc040;8620%l;#;, và\nviệc kích hoạt mạnh mẽ hơn nữa \\x%l列車;#00ffc040;chuyến tàu%l;#; BBQ là điều bắt buộc."
 # monologue
 # JP: ごく当然のこととはいえど、\n指摘をされれば、改めて気が引き締まる。
 3293 = "Dù nói là điều hiển nhiên,\nnhưng khi bị chỉ ra như vậy, tôi lại một lần nữa cảm thấy căng thẳng."
@@ -1455,14 +1455,14 @@
 # 【ふかみ】
 # display as 深美
 # JP: 「あ、あの――ハチロク、ちゃん。えと――\n双鉄さん、と……その後……どう――です、か？」
-2390 = "「A, cái đó——Hachiroku-chan. Ờm——\nVới, anh Soutetsu……sau đó……thế nào——rồi, ạ?」"
+2390 = "「A, cái đó——Hachiroku-chan. Ờm——\nVới, anh Soutetsu......sau đó......thế nào——rồi, ạ?」"
 # 【ハチロク】
 # display as 八六
 # JP: 「ど、どう――と聞かれましても……」
-2064 = "「Th, thế nào——cô hỏi vậy thì……」"
+2064 = "「Th, thế nào——cô hỏi vậy thì......」"
 # monologue
 # JP: ……完全に女性陣に取り囲まれたか。
-1481 = "……Hoàn toàn bị hội chị em vây quanh rồi sao."
+1481 = "......Hoàn toàn bị hội chị em vây quanh rồi sao."
 # monologue
 # JP: 助けるべきかと少し迷うが、ハチロクもかなり楽しげで、\nまんざらでもなさそうな表情だ。
 2958 = "Tôi hơi phân vân không biết có nên giúp hay không, nhưng Hachiroku cũng có vẻ khá vui,\nbiểu cảm cũng không có vẻ gì là không thích."
@@ -1478,7 +1478,7 @@
 3272 = "Một sự mát mẻ khác hẳn với máy lạnh.\nÁnh sáng của mặt trăng, bao trùm cả ánh đèn đường."
 # monologue
 # JP: だがしかし、れいなの姿が……\nコンの姿も、見当たらん。
-2713 = "Nhưng mà, bóng dáng của Reina……\nCả bóng dáng của Kon, cũng không thấy đâu."
+2713 = "Nhưng mà, bóng dáng của Reina......\nCả bóng dáng của Kon, cũng không thấy đâu."
 # 【コン】
 # display as 空
 # JP: 「ケンっ！」
@@ -1530,15 +1530,15 @@
 # JP: 「ん？　おお！」
 2010 = "「Hử? Ồ!」"
 # monologue
-# JP: \x%l石造機関庫;#00ffc040;石造機関庫%l;#;の窓のふち。
-87 = "Trên bậu cửa sổ của \x%l石造機関庫;#00ffc040;xưởng đầu máy bằng đá%l;#;."
+# JP: \\x%l石造機関庫;#00ffc040;石造機関庫%l;#;の窓のふち。
+87 = "Trên bậu cửa sổ của \\x%l石造機関庫;#00ffc040;xưởng đầu máy bằng đá%l;#;."
 # monologue
 # JP: ずらりと並んだ黒い影たちに、\nひとつの異形が混じっている。
 2814 = "Giữa hàng dài những bóng đen xếp hàng,\ncó một hình thù dị thường trà trộn vào."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「あれは……雀の親分か。\nあぶらげを提げ配下を従え――さしずめ、[かとうすずめ,2]加東雀だな」
-2404 = "「Đó là……đại ca của bầy chim sẻ sao.\nCắp theo miếng đậu phụ rán, dẫn dắt đám đàn em——cứ như thể là Kato Suzume (Chim sẻ Kato) vậy.」"
+2404 = "「Đó là......đại ca của bầy chim sẻ sao.\nCắp theo miếng đậu phụ rán, dẫn dắt đám đàn em——cứ như thể là Kato Suzume (Chim sẻ Kato) vậy.」"
 # 【れいな】
 # display as 玲奈
 # JP: 「かとうすずめ――ですかぁ？」
@@ -1675,7 +1675,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「議会では……その、勢いもあってすまなかったな」
-2023 = "「Ở hội đồng……cái đó, do đang hăng hái quá nên xin lỗi em nhé.」"
+2023 = "「Ở hội đồng......cái đó, do đang hăng hái quá nên xin lỗi em nhé.」"
 # 【れいな】
 # display as 玲奈
 # JP: 「すまないって、なにがですかぁ？」
@@ -1688,8 +1688,8 @@
 2709 = "Nhưng mà——lỡ nói ra mất rồi."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「ＳＬだけを観光の主役のように言い……その……\n\x%l気動車;#00ffc040;気動車%l;#;を軽んじたように聞こえたなら……本意ではない」
-2382 = "「Nói như thể chỉ có SL mới là nhân vật chính của du lịch……ờm……\nNếu nghe như anh đang coi nhẹ \x%l気動車;#00ffc040;toa xe tự hành%l;#; thì……đó không phải là ý định của anh đâu.」"
+# JP: 「ＳＬだけを観光の主役のように言い……その……\n\\x%l気動車;#00ffc040;気動車%l;#;を軽んじたように聞こえたなら……本意ではない」
+2382 = "「Nói như thể chỉ có SL mới là nhân vật chính của du lịch......ờm......\nNếu nghe như anh đang coi nhẹ \\x%l気動車;#00ffc040;toa xe tự hành%l;#; thì......đó không phải là ý định của anh đâu.」"
 # 【れいな】
 # display as 玲奈
 # JP: 「ＳＬは、観光の主役ですよぉ。かーっこいいですもん。\nれいながみたって、そう思います」
@@ -1699,12 +1699,12 @@
 3076 = "Reina mỉm cười, một nụ cười nhẹ nhàng và thanh thản."
 # 【れいな】
 # display as 玲奈
-# JP: 「でもでも、れいなは、\x%l気動車;#00ffc040;気動車%l;#;は。\n毎日のご利用の、主役なのです！」
-1810 = "「Nhưng mà nhưng mà, Reina, và \x%l気動車;#00ffc040;toa xe tự hành%l;#;.\nLà nhân vật chính của việc sử dụng hàng ngày đó ạ!」"
+# JP: 「でもでも、れいなは、\\x%l気動車;#00ffc040;気動車%l;#;は。\n毎日のご利用の、主役なのです！」
+1810 = "「Nhưng mà nhưng mà, Reina, và \\x%l気動車;#00ffc040;toa xe tự hành%l;#;.\nLà nhân vật chính của việc sử dụng hàng ngày đó ạ!」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ……うん。\nそうだな。そのとおりだ」
-1968 = "「À……ừm.\nĐúng vậy nhỉ. Hoàn toàn chính xác.」"
+1968 = "「À......ừm.\nĐúng vậy nhỉ. Hoàn toàn chính xác.」"
 # 【れいな】
 # display as 玲奈
 # JP: 「病院にいくおばあちゃんや、学園に行く生徒さんには、\n静かで煙くないれいなの方が、人気者さんなんですよ？」

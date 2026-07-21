@@ -2,25 +2,25 @@
 [info]
 
 [characters]
-2827 = "双鉄"
-2794 = "凪"
-2618 = "おじさん"
-2707 = "れいな"
-3226 = "赤井宮司"
-3135 = "永山"
-3043 = "日々姫"
+2827 = "Soutetsu"
+2794 = "Nagi"
+2618 = "Ông chú"
+2707 = "Reina"
+3226 = "Chủ tế Akai"
+3135 = "Nagayama"
+3043 = "Hibiki"
 
 [character_subs]
-3272 = "雙鐵"
-3343 = "？？？"
-# 2794 = "凪"
-2881 = "大叔"
-3150 = "玲奈"
-# 3226 = "赤井宮司"
-3264 = "阿姨"
-# 3135 = "永山"
-3070 = "日日姬"
-3274 = "雙鐵＆日日姬"
+3272 = "Soutetsu"
+3343 = "???"
+2794 = "Nagi"
+2881 = "Ông chú"
+3150 = "Reina"
+3226 = "Chủ tế Akai"
+3264 = "Bà cô"
+3135 = "Nagayama"
+3070 = "Hibiki"
+3274 = "Soutetsu & Hibiki"
 
 [script]
 # lines: 447 
@@ -29,7 +29,7 @@
 2754 = "Quét dọn sạch sẽ.\nChỉ có việc đó thôi mà tôi đang làm lại từ đầu."
 # monologue
 # JP: （……これも、御一夜をより深く知るため、だ）
-3290 = "（……Đây cũng là để hiểu sâu hơn về Ohimitera mà.）"
+3290 = "（......Đây cũng là để hiểu sâu hơn về Ohimitera mà.）"
 # monologue
 # JP: 日々姫の言葉は、僕の心にまっすぐ落ちた。
 3111 = "Những lời của Hibiki đã đi thẳng vào tim tôi."
@@ -46,11 +46,11 @@
 # JP: ハチロクも、僕の説明に納得し、\n“左様でしたらわたくしも”と、申し出てまでくれたのだ。
 2792 = "Hachiroku cũng đã đồng ý với lời giải thích của tôi,\nthậm chí còn chủ động đề nghị \"Nếu vậy thì tôi cũng xin được giúp một tay\"."
 # monologue
-# JP: （しかし……一応は蔵育ちの僕が掃除番で、\nハチロクは、見習いとはいえいきなり\x%lもろみ;#00ffc040;もろみ%l;#;番か）
-3319 = "（Nhưng mà……tôi, người ít nhiều lớn lên ở xưởng rượu, lại làm người quét dọn,\ncòn Hachiroku, dù là học việc nhưng lại làm người trông \x%lもろみ;#00ffc040;cơm rượu%l;#; ngay từ đầu sao.）"
+# JP: （しかし……一応は蔵育ちの僕が掃除番で、\nハチロクは、見習いとはいえいきなり\\x%lもろみ;#00ffc040;もろみ%l;#;番か）
+3319 = "（Nhưng mà......tôi, người ít nhiều lớn lên ở xưởng rượu, lại làm người quét dọn,\ncòn Hachiroku, dù là học việc nhưng lại làm người trông \\x%lもろみ;#00ffc040;cơm rượu%l;#; ngay từ đầu sao.）"
 # monologue
-# JP: 掃除をひたすら行うだけの掃除番に対し、\n\x%lもろみ;#00ffc040;もろみ%l;#;番の仕事は、温度管理という複雑で精妙なものだ。
-3131 = "Trái ngược với người quét dọn chỉ việc cắm cúi quét dọn,\ncông việc của người trông \x%lもろみ;#00ffc040;cơm rượu%l;#; lại là một công việc phức tạp và tinh tế mang tên quản lý nhiệt độ."
+# JP: 掃除をひたすら行うだけの掃除番に対し、\n\\x%lもろみ;#00ffc040;もろみ%l;#;番の仕事は、温度管理という複雑で精妙なものだ。
+3131 = "Trái ngược với người quét dọn chỉ việc cắm cúi quét dọn,\ncông việc của người trông \\x%lもろみ;#00ffc040;cơm rượu%l;#; lại là một công việc phức tạp và tinh tế mang tên quản lý nhiệt độ."
 # monologue
 # JP: （まぁ、真闇姉の指示だからな。ハチロクの能力と適正が、\nおそらくは職人に近いレベルにあるということだろう）
 3328 = "（Mà, vì đó là chỉ thị của chị Mayami mà. Năng lực và sự phù hợp của Hachiroku,\ncó lẽ đã ở mức độ gần với một người thợ lành nghề rồi.）"
@@ -74,23 +74,23 @@
 3323 = "（A, người đã dạy tôi điều này——\nlà Hibiki nhỉ.）"
 # monologue
 # JP: ……引き取られてきて間も無い頃のことは、\n正直、あまり覚えていない。
-1736 = "……Chuyện hồi mới được nhận nuôi,\nthú thực, tôi không nhớ rõ lắm."
+1736 = "......Chuyện hồi mới được nhận nuôi,\nthú thực, tôi không nhớ rõ lắm."
 # monologue
 # JP: 掃除を任され――機械的に竹箒を動かすだけだった僕に、\n幼い日々姫は震える声で注意したのだ。
 3208 = "Khi được giao nhiệm vụ quét dọn——tôi chỉ biết di chuyển cây chổi tre một cách máy móc,\nvà Hibiki hồi nhỏ đã nhắc nhở tôi bằng giọng run rẩy."
 # monologue
 # JP: （今にも泣き出しそうに怯えていたのに……\nそれでも日々姫は、ほとんど初対面の僕を見上げて――）
-3331 = "（Rõ ràng là đang sợ hãi đến mức như sắp khóc……\nVậy mà Hibiki vẫn ngước nhìn tôi, một người gần như mới gặp lần đầu——）"
+3331 = "（Rõ ràng là đang sợ hãi đến mức như sắp khóc......\nVậy mà Hibiki vẫn ngước nhìn tôi, một người gần như mới gặp lần đầu——）"
 # monologue
 # JP: 必死で涙をこらえる瞳が、少しも似ていないのに何故か、\n路子の瞳のように思えて……罪悪感が、痛かった。
-3266 = "Đôi mắt tuyệt vọng kìm nén những giọt nước mắt ấy, dù chẳng giống chút nào, nhưng không hiểu sao,\nlại khiến tôi nhớ đến đôi mắt của Michiko……Cảm giác tội lỗi, thật đau đớn."
+3266 = "Đôi mắt tuyệt vọng kìm nén những giọt nước mắt ấy, dù chẳng giống chút nào, nhưng không hiểu sao,\nlại khiến tôi nhớ đến đôi mắt của Michiko......Cảm giác tội lỗi, thật đau đớn."
 # monologue
 # JP: だからこそ、あの時の僕の心にさえも言葉は響き、\nいまもってなお、忘れぬままにいられるのだろう。が――
 2740 = "Chính vì thế, những lời nói ấy mới có thể chạm đến trái tim tôi lúc bấy giờ,\nvà có lẽ đó là lý do đến tận bây giờ tôi vẫn không thể nào quên. Nhưng——"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「強い痛みほど忘れぬものなら……\n記憶というのも、随分と酷なものだ」
-2517 = "「Nếu nỗi đau càng lớn càng khó quên……\nthì ký ức cũng thật tàn nhẫn.」"
+2517 = "「Nếu nỗi đau càng lớn càng khó quên......\nthì ký ức cũng thật tàn nhẫn.」"
 # 【凪】
 # display as ？？？
 # JP: 「んなこたなかばい」
@@ -112,7 +112,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「一本……ああ、うん。\n今のは完全に、一本決められていたな」
-2486 = "「Một vố……à, ừ.\nVừa rồi hoàn toàn là, bị lừa một vố thật.」"
+2486 = "「Một vố......à, ừ.\nVừa rồi hoàn toàn là, bị lừa một vố thật.」"
 # monologue
 # JP: こうまで不意をつかれたことなど、\nほとんど経験したことがない。
 2772 = "Bị đánh úp bất ngờ đến mức này,\ntôi hầu như chưa từng trải qua."
@@ -205,7 +205,7 @@
 2232 = "「À.」"
 # monologue
 # JP: 何故、右田一酒造元に凪が……と、\n疑問を感じるより先に、凪の右手が答えを示す。
-2973 = "Tại sao Nagi lại ở Xưởng rượu Migita Ichishuzou……\nCòn chưa kịp thắc mắc, tay phải của Nagi đã đưa ra câu trả lời."
+2973 = "Tại sao Nagi lại ở Xưởng rượu Migita Ichishuzou......\nCòn chưa kịp thắc mắc, tay phải của Nagi đã đưa ra câu trả lời."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「量り売りか」
@@ -326,7 +326,7 @@
 2254 = "「Có lỗi thì không được ngần ngại sửa chữa.\nVậy thì, thà rằng mình chủ động chào hỏi trước xem sao.」"
 # monologue
 # JP: ……竹箒が地を掃く音に混じって、やがて、\nゆったりとした足音が近づいてくる。
-1740 = "……Lẫn trong tiếng chổi tre quét trên mặt đất, chẳng mấy chốc,\nmột tiếng bước chân thong thả tiến lại gần."
+1740 = "......Lẫn trong tiếng chổi tre quét trên mặt đất, chẳng mấy chốc,\nmột tiếng bước chân thong thả tiến lại gần."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「おはようございます。まだ暑いですね」
@@ -402,12 +402,12 @@
 2509 = "「Chuyện về cơm hộp ga tàu ạ?」"
 # 【永山】
 # display as 阿姨
-# JP: 「うん、駅弁――って、あら、キミ！\nハチロクの\x%l機関士;#00ffc040;機関士%l;#;さんやってた子よね？」
-2223 = "「Ừ, cơm hộp ga tàu——mà, ơ, cậu!\nCậu là người làm \x%l機関士;#00ffc040;lái tàu%l;#; cho Hachiroku đúng không?」"
+# JP: 「うん、駅弁――って、あら、キミ！\nハチロクの\\x%l機関士;#00ffc040;機関士%l;#;さんやってた子よね？」
+2223 = "「Ừ, cơm hộp ga tàu——mà, ơ, cậu!\nCậu là người làm \\x%l機関士;#00ffc040;lái tàu%l;#; cho Hachiroku đúng không?」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「はい、自分はハチロクの\x%l機関士;#00ffc040;機関士%l;#;、右田双鉄です」
-2389 = "「Vâng, cháu là \x%l機関士;#00ffc040;lái tàu%l;#; của Hachiroku, Migita Soutetsu.」"
+# JP: 「はい、自分はハチロクの\\x%l機関士;#00ffc040;機関士%l;#;、右田双鉄です」
+2389 = "「Vâng, cháu là \\x%l機関士;#00ffc040;lái tàu%l;#; của Hachiroku, Migita Soutetsu.」"
 # 【永山】
 # display as 永山
 # JP: 「そう。あたしは永山――\n[ゆうれいでら,2]幽霊寺の住職の女房で、[のりこ,1]典子といいます」
@@ -467,21 +467,21 @@
 # 【永山】
 # display as 永山
 # JP: 「ん。売れたのは売れたのよ。瞬殺ってやつ、即完売。\nSL効果、[ハチロク,3]8620さまさま――なんだけどね」
-2208 = "「Ừ. Bán thì bán hết đấy. Hết sạch sành sanh trong chớp mắt.\nHiệu ứng SL, nhờ ơn \x%l8620;#00ffc040;8620%l;#; cả đấy——nhưng mà nhé.」"
+2208 = "「Ừ. Bán thì bán hết đấy. Hết sạch sành sanh trong chớp mắt.\nHiệu ứng SL, nhờ ơn \\x%l8620;#00ffc040;8620%l;#; cả đấy——nhưng mà nhé.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……即完売にしては、冴えない口調ですが」
-1785 = "「……Bán hết ngay lập tức mà giọng điệu của cô có vẻ không vui lắm nhỉ.」"
+1785 = "「......Bán hết ngay lập tức mà giọng điệu của cô có vẻ không vui lắm nhỉ.」"
 # monologue
 # JP: 問えば、永山夫人の顔がハッキリとした苦笑に歪む。
 3008 = "Khi tôi hỏi vậy, khuôn mặt phu nhân Nagayama méo xệch thành một nụ cười khổ."
 # 【永山】
 # display as 永山
-# JP: 「\x%l帝鉄;#00ffc040;帝鉄%l;#;仕込みのハチクマライス。\n駅弁に仕立ててみたんだけどね」
-2312 = "「Là suất cơm Hachikuma đặc chế của \x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;.\nCô đã thử làm thành cơm hộp ga tàu đấy.」"
+# JP: 「\\x%l帝鉄;#00ffc040;帝鉄%l;#;仕込みのハチクマライス。\n駅弁に仕立ててみたんだけどね」
+2312 = "「Là suất cơm Hachikuma đặc chế của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;.\nCô đã thử làm thành cơm hộp ga tàu đấy.」"
 # monologue
 # JP: ……ハチクマライスとは、\nご飯の上にきゃべつの千切り、その上にベーコンエッグ。
-1749 = "……Cơm Hachikuma là món,\ncơm trắng phủ bắp cải thái sợi, bên trên là trứng ốp la thịt xông khói."
+1749 = "......Cơm Hachikuma là món,\ncơm trắng phủ bắp cải thái sợi, bên trên là trứng ốp la thịt xông khói."
 # monologue
 # JP: さらにくわえて、そのときそのとき、\nありあわせの食材を載せ添える、というものだそうだ。
 3146 = "Hơn nữa, tùy từng lúc,\nsẽ có thêm các nguyên liệu sẵn có kèm theo."
@@ -491,19 +491,19 @@
 2439 = "「Nguyên liệu sẵn có sao——\nCứ như suất ăn cho nhân viên vậy.」"
 # 【永山】
 # display as 永山
-# JP: 「いい勘ね。大正解。ハチクマライスは、\n旧\x%l帝鉄;#00ffc040;帝鉄%l;#;の食堂車厨房の[まかな]賄い[めし]飯が元祖なの」
-2097 = "「Trực giác tốt đấy. Hoàn toàn chính xác. Cơm Hachikuma,\nvốn có nguồn gốc từ suất ăn cho nhân viên trong nhà bếp toa ăn của \x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ mà.」"
+# JP: 「いい勘ね。大正解。ハチクマライスは、\n旧\\x%l帝鉄;#00ffc040;帝鉄%l;#;の食堂車厨房の[まかな]賄い[めし]飯が元祖なの」
+2097 = "「Trực giác tốt đấy. Hoàn toàn chính xác. Cơm Hachikuma,\nvốn có nguồn gốc từ suất ăn cho nhân viên trong nhà bếp toa ăn của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ mà.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「旧\x%l帝鉄;#00ffc040;帝鉄%l;#;の食堂車」
-2119 = "「Toa ăn của \x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ ạ.」"
+# JP: 「旧\\x%l帝鉄;#00ffc040;帝鉄%l;#;の食堂車」
+2119 = "「Toa ăn của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ ạ.」"
 # monologue
 # JP: ならばもしや、と気になってくる。
 1730 = "Nếu vậy thì không lẽ nào, tôi bắt đầu tò mò."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「永山さんも、それでは元は\x%l帝鉄;#00ffc040;帝鉄%l;#;に、\nそれも、食堂車にいらしたのですか？」
-2500 = "「Cô Nagayama, vậy ra trước đây cô cũng làm việc cho \x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;,\nmà lại còn ở toa ăn sao?」"
+# JP: 「永山さんも、それでは元は\\x%l帝鉄;#00ffc040;帝鉄%l;#;に、\nそれも、食堂車にいらしたのですか？」
+2500 = "「Cô Nagayama, vậy ra trước đây cô cũng làm việc cho \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;,\nmà lại còn ở toa ăn sao?」"
 # 【永山】
 # display as 永山
 # JP: 「また大正解。食堂車勤務の頃の話を聞かせたらね？\n社長、ハチクマライス食べてみたいって乗り気になって」
@@ -536,7 +536,7 @@
 # 【永山】
 # display as 永山
 # JP: 「確かに、一部のお客さんは泣いて喜んでくれたのよ？\nけど、肝心の一般のお客さんが……こう……微妙？」
-2474 = "「Đúng là có một số khách hàng vui đến phát khóc luôn đấy?\nNhưng mà, những vị khách thông thường thì lại……kiểu……hơi tế nhị?」"
+2474 = "「Đúng là có một số khách hàng vui đến phát khóc luôn đấy?\nNhưng mà, những vị khách thông thường thì lại......kiểu......hơi tế nhị?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ふむ――」
@@ -546,7 +546,7 @@
 3138 = "Paulette quả thực rất yêu đường sắt. Nhưng,\nnhững phán đoán liên quan đến chính quyền thành phố hay kinh doanh của cô ấy còn khắt khe và chính xác hơn cả tôi."
 # monologue
 # JP: 駅弁がらみのことであるなら、まさかヤジなどに、\nその判断が狂わされることもあるまいし……
-2879 = "Nếu là chuyện liên quan đến cơm hộp ga tàu, thì chắc chắn cô ấy\nsẽ không để những lời bàn tán làm lu mờ phán đoán của mình……"
+2879 = "Nếu là chuyện liên quan đến cơm hộp ga tàu, thì chắc chắn cô ấy\nsẽ không để những lời bàn tán làm lu mờ phán đoán của mình......"
 # 【永山】
 # display as 永山
 # JP: 「双鉄くん、冷静で賢いって評判を聞くのよ。あちこちで。\nだから、その辺の理由、推理してもらえないかな」
@@ -569,7 +569,7 @@
 # 【永山】
 # display as 永山
 # JP: 「さすがは[まくら,1]真闇ちゃんの弟くんね……って、あ、ごめん。\n養子なんだったよね、キミ」
-2455 = "「Quả không hổ danh là em trai của Mayami……à, ơ, xin lỗi.\nCậu là con nuôi mà nhỉ.」"
+2455 = "「Quả không hổ danh là em trai của Mayami......à, ơ, xin lỗi.\nCậu là con nuôi mà nhỉ.」"
 # monologue
 # JP: ごめん、ともさほど思ってなさそうなサバけた口調。\nこうこられると、こちらも率直な返事が出来る。
 2762 = "Một giọng điệu sảng khoái chẳng có vẻ gì là đang xin lỗi.\nĐã thế này thì tôi cũng có thể trả lời một cách thẳng thắn."
@@ -623,16 +623,16 @@
 2492 = "「Hơn nữa, bản thân nét vẽ cũng rất xuất sắc.\nVí dụ như bao bì của cơm hộp ga tàu chẳng hạn.」"
 # 【永山】
 # display as 永山
-# JP: 「\x%l掛け紙;#00ffc040;[かけがみ,2]掛け紙%l;#;」
-1756 = "「\x%l掛け紙;#00ffc040;Giấy gói cơm hộp%l;#;」"
+# JP: 「\\x%l掛け紙;#00ffc040;[かけがみ,2]掛け紙%l;#;」
+1756 = "「\\x%l掛け紙;#00ffc040;Giấy gói cơm hộp%l;#;」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「え？」
 2155 = "「Dạ?」"
 # 【永山】
 # display as 永山
-# JP: 「駅弁の紙外装は、\x%l掛け紙;#00ffc040;掛け紙%l;#;っていうの。\n\x%l機関士;#00ffc040;機関士%l;#;さんなのに知らないと、モグリっぽいわよ？」
-2567 = "「Giấy bọc bên ngoài cơm hộp ga tàu gọi là \x%l掛け紙;#00ffc040;giấy gói cơm hộp%l;#;.\nLà \x%l機関士;#00ffc040;lái tàu%l;#; mà không biết thì có vẻ hơi thiếu chuyên nghiệp đấy nhé?」"
+# JP: 「駅弁の紙外装は、\\x%l掛け紙;#00ffc040;掛け紙%l;#;っていうの。\n\\x%l機関士;#00ffc040;機関士%l;#;さんなのに知らないと、モグリっぽいわよ？」
+2567 = "「Giấy bọc bên ngoài cơm hộp ga tàu gọi là \\x%l掛け紙;#00ffc040;giấy gói cơm hộp%l;#;.\nLà \\x%l機関士;#00ffc040;lái tàu%l;#; mà không biết thì có vẻ hơi thiếu chuyên nghiệp đấy nhé?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「はぁ」
@@ -690,7 +690,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「その……人前で話されたら――\n恥ずかしいかな？　っても思いましたし」
-2490 = "「Với lại……nói chuyện trước mặt người khác——\nEm nghĩ chắc sẽ xấu hổ lắm.」"
+2490 = "「Với lại......nói chuyện trước mặt người khác——\nEm nghĩ chắc sẽ xấu hổ lắm.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ふぅむ。そんなものか？」
@@ -708,7 +708,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「そのとおりだ。\n名推理……というほど難しい謎でもないか」
-2424 = "「Đúng vậy.\nDanh thám tử……cũng không phải bí ẩn gì khó đoán lắm nhỉ.」"
+2424 = "「Đúng vậy.\nDanh thám tử......cũng không phải bí ẩn gì khó đoán lắm nhỉ.」"
 # monologue
 # JP: まぁそうですね、と軽く笑って、\n日々姫は少し上目を使い――スネた感じで僕を見る。
 3120 = "Cười nhẹ một cái như thể nói \"Vâng, đúng vậy\",\nHibiki hơi ngước mắt lên——nhìn tôi với vẻ hờn dỗi."
@@ -718,15 +718,15 @@
 2429 = "「Chị Paulette,\ntìm anh trai có việc gì vậy?」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「\x%l8620;#00ffc040;8620%l;#;の乗務訓練についての細かなツメだ」
-2392 = "「Là bàn bạc chi tiết về việc huấn luyện nghiệp vụ trên tàu \x%l8620;#00ffc040;8620%l;#;.」"
+# JP: 「\\x%l8620;#00ffc040;8620%l;#;の乗務訓練についての細かなツメだ」
+2392 = "「Là bàn bạc chi tiết về việc huấn luyện nghiệp vụ trên tàu \\x%l8620;#00ffc040;8620%l;#;.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「あ、そのことですか。何か、決まりましたか？」
 2183 = "「A, chuyện đó sao. Có quyết định được gì chưa ạ?」"
 # monologue
-# JP: 『\x%l機関助士;#00ffc040;機関助士%l;#;としての仕事は、全て兄さんの指示に従う』\n日々姫はそういい、委細を僕に完全に任せてくれている。
-3075 = "『Công việc với tư cách là \x%l機関助士;#00ffc040;phụ lái tàu%l;#;, em sẽ hoàn toàn tuân theo chỉ thị của anh trai』\nHibiki đã nói vậy, và hoàn toàn giao phó mọi chi tiết cho tôi."
+# JP: 『\\x%l機関助士;#00ffc040;機関助士%l;#;としての仕事は、全て兄さんの指示に従う』\n日々姫はそういい、委細を僕に完全に任せてくれている。
+3075 = "『Công việc với tư cách là \\x%l機関助士;#00ffc040;phụ lái tàu%l;#;, em sẽ hoàn toàn tuân theo chỉ thị của anh trai』\nHibiki đã nói vậy, và hoàn toàn giao phó mọi chi tiết cho tôi."
 # monologue
 # JP: その信頼を裏切らんためにも、\nいいかげんなことは決してしたくない――のだが。
 3141 = "Để không phụ sự tin tưởng đó,\ntôi tuyệt đối không muốn làm việc cẩu thả——tuy nhiên."
@@ -770,7 +770,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「に、にぃ――んんっ、兄さんが、大声を出すからですよ。\nいきなり……そのっ、『大事な話がある』だなんて」
-2557 = "「L, là do anh ha——ưm, do anh trai nói to quá đấy.\nTự nhiên lại……bảo là, 『Anh có chuyện quan trọng muốn nói』.」"
+2557 = "「L, là do anh ha——ưm, do anh trai nói to quá đấy.\nTự nhiên lại......bảo là, 『Anh có chuyện quan trọng muốn nói』.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「そうだった。まずはその大事な話からだな」
@@ -803,7 +803,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「……ゆぅれぇでらの奥さんからのお話ですかぁ～」
-1778 = "「……Là chuyện của phu nhân chùa Yuurei đúng không ạ~」"
+1778 = "「......Là chuyện của phu nhân chùa Yuurei đúng không ạ~」"
 # monologue
 # JP: どろどろと幽霊を呼べそうな――恨めしそうなその口調。\nなかなかどうして、日々姫も雰囲気に凝るものだ。
 2905 = "Giọng điệu oán trách——nghe như đang gọi hồn ma vất vưởng ấy.\nRa là vậy, Hibiki cũng biết cách tạo bầu không khí gớm nhỉ."
@@ -812,12 +812,12 @@
 # JP: 「知り合いか？　ならば話が早い」
 2088 = "「Em quen phu nhân ấy à? Vậy thì nói chuyện nhanh thôi.」"
 # monologue
-# JP: パッケージ、いやさ\x%l掛け紙;#00ffc040;掛け紙%l;#;のことを含めた\n駅弁まわりの話を全て、日々姫は素直に聞いてくれる。
-3118 = "Hibiki ngoan ngoãn lắng nghe toàn bộ câu chuyện về cơm hộp nhà ga,\nbao gồm cả chuyện bao bì, à không, \x%l掛け紙;#00ffc040;giấy gói cơm hộp%l;#;."
+# JP: パッケージ、いやさ\\x%l掛け紙;#00ffc040;掛け紙%l;#;のことを含めた\n駅弁まわりの話を全て、日々姫は素直に聞いてくれる。
+3118 = "Hibiki ngoan ngoãn lắng nghe toàn bộ câu chuyện về cơm hộp nhà ga,\nbao gồm cả chuyện bao bì, à không, \\x%l掛け紙;#00ffc040;giấy gói cơm hộp%l;#;."
 # 【日々姫】
 # display as 日日姬
 # JP: 「……そういうお話でしたら、ちょうどいい気がします。\n私も、ハチロクたちのこと――」
-1784 = "「……Nếu là chuyện đó thì em thấy cũng hợp lý đấy ạ.\nEm cũng đối với chị Hachiroku và mọi người——」"
+1784 = "「......Nếu là chuyện đó thì em thấy cũng hợp lý đấy ạ.\nEm cũng đối với chị Hachiroku và mọi người——」"
 # monologue
 # JP: いいかけ、急に日々姫は視線を窓の外へと向ける。
 3223 = "Đang nói dở, Hibiki chợt hướng ánh mắt ra ngoài cửa sổ."
@@ -854,14 +854,14 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「ああ……いえ、そうじゃなくって――」
-2203 = "「A……không, không phải chuyện đó——」"
+2203 = "「A......không, không phải chuyện đó——」"
 # monologue
 # JP: 今度は、少し甘えた目。
 3242 = "Lần này, ánh mắt con bé có chút nũng nịu."
 # 【日々姫】
 # display as 日日姬
 # JP: 「……なりたいなぁ、って思っただけです。\n私も、ナビに――送ってもらえるような存在に」
-1782 = "「……Em chỉ nghĩ là, em cũng muốn được như thế thôi.\nMuốn trở thành người——được Navi đưa về.」"
+1782 = "「......Em chỉ nghĩ là, em cũng muốn được như thế thôi.\nMuốn trở thành người——được Navi đưa về.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ああ」
@@ -871,8 +871,8 @@
 2825 = "Ra là vậy, còn có lý do đó nữa sao."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「日々姫は、\x%lエアクラ;#00ffc040;エアクラ%l;#;そのものも好きなのだな」
-2357 = "「Hibiki cũng thích bản thân \x%lエアクラ;#00ffc040;Aircra%l;#; nhỉ.」"
+# JP: 「日々姫は、\\x%lエアクラ;#00ffc040;エアクラ%l;#;そのものも好きなのだな」
+2357 = "「Hibiki cũng thích bản thân \\x%lエアクラ;#00ffc040;Aircra%l;#; nhỉ.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「んにゃっ！？　な、なんでそぎゃんと結論にっ！？」
@@ -882,15 +882,15 @@
 # JP: 「なんでもなにも、以前に言っていただろう、\n『ナビのことはあまり好かん』と」
 2079 = "「Sao với trăng gì, trước đây em từng nói mà,\n『Em không thích Navi cho lắm』.」"
 # monologue
-# JP: にも関わらず、飛行\x%lエアクラ;#00ffc040;エアクラ%l;#;に乗りたいのなら、\nそれはつまりは、\x%lエアクラ;#00ffc040;エアクラ%l;#;好きという結論になる。
-2760 = "Mặc dù vậy mà em vẫn muốn ngồi \x%lエアクラ;#00ffc040;Aircra%l;#; loại bay được,\nđiều đó có nghĩa là em thích \x%lエアクラ;#00ffc040;Aircra%l;#;, kết luận là vậy."
+# JP: にも関わらず、飛行\\x%lエアクラ;#00ffc040;エアクラ%l;#;に乗りたいのなら、\nそれはつまりは、\\x%lエアクラ;#00ffc040;エアクラ%l;#;好きという結論になる。
+2760 = "Mặc dù vậy mà em vẫn muốn ngồi \\x%lエアクラ;#00ffc040;Aircra%l;#; loại bay được,\nđiều đó có nghĩa là em thích \\x%lエアクラ;#00ffc040;Aircra%l;#;, kết luận là vậy."
 # monologue
 # JP: 理屈の路をきっちり整え――\nなのに日々姫は、今度はうんざり顔を見せる。
 2992 = "Tôi sắp xếp logic một cách rành mạch——\nThế nhưng lần này, Hibiki lại tỏ vẻ chán nản."
 # 【日々姫】
 # display as 日日姬
 # JP: 「……にぃにって、どこまで――」
-1787 = "「……Anh hai rốt cuộc đến mức nào——」"
+1787 = "「......Anh hai rốt cuộc đến mức nào——」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「なんだ、随分と不満そうだな。\nああ、そうだな。なら、僕が乗せてやろう」
@@ -921,7 +921,7 @@
 2053 = "「『Đã ngoắc tay』」"
 # monologue
 # JP: ……日々姫と指切りげんまんするなど、\n何年ぶりのことになろうか。
-1733 = "……Đã bao nhiêu năm rồi tôi mới lại\nngoắc tay thề ước với Hibiki thế này nhỉ."
+1733 = "......Đã bao nhiêu năm rồi tôi mới lại\nngoắc tay thề ước với Hibiki thế này nhỉ."
 # monologue
 # JP: 日々姫もそれを思い出そうとしてるのか、\n小指をしきりに、大切そうにさすっている。
 3096 = "Chắc Hibiki cũng đang cố nhớ lại điều đó,\ncon bé cứ liên tục xoa xoa ngón út một cách đầy trân trọng."
@@ -947,7 +947,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「あのっ――\n…………………………………………」
-2547 = "「Chuyện là——\n…………………………………………」"
+2547 = "「Chuyện là——\n................................................」"
 # monologue
 # JP: そこまでで、日々姫は言葉を見失ってしまったようだ。\n待てど暮らせど続かぬ言葉を、ならばと僕が補ってみる。
 3097 = "Đến đó, Hibiki dường như không biết phải nói gì tiếp theo.\nĐợi mãi mà con bé vẫn không nói tiếp, vậy nên tôi đành nói đỡ."
@@ -986,7 +986,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……」
-1769 = "「……」"
+1769 = "「......」"
 # monologue
 # JP: 跡取り候補、と、そこまで言われてはいなかった。
 3210 = "Ứng cử viên thừa kế, chưa ai nói đến mức đó cả."
@@ -1055,7 +1055,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「ありそうっていうか……\n多分、しらみつぶしにしたら多くて困りますよね、これ」
-2496 = "「Nói là có thì……\nChắc là nếu tìm kiếm kỹ lưỡng thì sẽ nhiều đến mức đau đầu luôn nhỉ.」"
+2496 = "「Nói là có thì......\nChắc là nếu tìm kiếm kỹ lưỡng thì sẽ nhiều đến mức đau đầu luôn nhỉ.」"
 # monologue
 # JP: 僕の私室の“次の間”は、\n汰斗さんの遺品を押しこみまくった――実質的には物置だ。
 3012 = "\"Gian kế tiếp\" trong phòng riêng của tôi,\nlà nơi nhồi nhét di vật của ông Taito——thực chất là một cái nhà kho."
@@ -1078,8 +1078,8 @@
 2901 = "Ngón tay dài và thon thả đến bất ngờ,\ntôi chợt cảm thán quả không hổ danh là ngón tay của họa sĩ."
 # 【日々姫】
 # display as 日日姬
-# JP: 「――\x%l掛け紙;#00ffc040;掛け紙%l;#;のデザインだけじゃなくて、\nお弁当の中身もですよね？　頼まれてるのって」
-1760 = "「——Không chỉ thiết kế \x%l掛け紙;#00ffc040;giấy gói cơm hộp%l;#;,\nmà còn cả phần nhân bên trong cơm hộp nữa đúng không? Chuyện anh được nhờ ấy.」"
+# JP: 「――\\x%l掛け紙;#00ffc040;掛け紙%l;#;のデザインだけじゃなくて、\nお弁当の中身もですよね？　頼まれてるのって」
+1760 = "「——Không chỉ thiết kế \\x%l掛け紙;#00ffc040;giấy gói cơm hộp%l;#;,\nmà còn cả phần nhân bên trong cơm hộp nữa đúng không? Chuyện anh được nhờ ấy.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「まぁ、そうだな。\nゼロから作るのも考えているという話であった」
@@ -1093,8 +1093,8 @@
 2886 = "Vừa nói,\nHibiki vừa lấy giấy bút ra và bắt đầu ghi chép."
 # 【日々姫】
 # display as 日日姬
-# JP: 「ハチロクちゃんたち、\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;全般に関するもの。\nそれから、\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;全盛の頃の町並みとか食べ物とか」
-2573 = "「Những thứ liên quan đến chị Hachiroku và \x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; nói chung.\nSau đó là cảnh phố xá, đồ ăn thức uống thời kỳ hoàng kim của \x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#;.」"
+# JP: 「ハチロクちゃんたち、\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;全般に関するもの。\nそれから、\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;全盛の頃の町並みとか食べ物とか」
+2573 = "「Những thứ liên quan đến chị Hachiroku và \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; nói chung.\nSau đó là cảnh phố xá, đồ ăn thức uống thời kỳ hoàng kim của \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#;.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うむ」
@@ -1105,8 +1105,8 @@
 2074 = "「Em cũng muốn có tư liệu về phòng ốc, trang phục của người thời đó,\nnếu có toàn bộ những thứ liên quan đến nhà ga hay đường sắt thì tốt quá.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「つまり\x%l8620;#00ffc040;8620%l;#;とハチロク関係のものは、時間を絞らず。\nハチロク達の時代のものは、範囲を狭めず探せばよいか」
-2067 = "「Tóm lại, những thứ liên quan đến \x%l8620;#00ffc040;8620%l;#; và Hachiroku thì không giới hạn thời gian.\nCòn những thứ thuộc thời đại của Hachiroku thì cứ tìm kiếm không giới hạn phạm vi là được chứ gì.」"
+# JP: 「つまり\\x%l8620;#00ffc040;8620%l;#;とハチロク関係のものは、時間を絞らず。\nハチロク達の時代のものは、範囲を狭めず探せばよいか」
+2067 = "「Tóm lại, những thứ liên quan đến \\x%l8620;#00ffc040;8620%l;#; và Hachiroku thì không giới hạn thời gian.\nCòn những thứ thuộc thời đại của Hachiroku thì cứ tìm kiếm không giới hạn phạm vi là được chứ gì.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「あ、そげそげ！　そぎゃんこったい！\nにぃにぃ、凄か――っと、んっ――兄さん、凄いですね」
@@ -1127,8 +1127,8 @@
 3255 = "Vậy thì đành chịu.\nĐể tránh gây hiểu lầm, tôi sẽ cẩn thận chọn lọc từ ngữ để truyền đạt."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「その――たかだか\x%l掛け紙;#00ffc040;掛け紙%l;#;一枚、弁当ひとつといっては\nあまりに申し訳ないのだが――」
-2545 = "「Chuyện đó——chỉ vì một tờ \x%l掛け紙;#00ffc040;giấy gói cơm hộp%l;#;, một hộp cơm\nmà phải làm đến mức này thì anh thấy thật có lỗi——」"
+# JP: 「その――たかだか\\x%l掛け紙;#00ffc040;掛け紙%l;#;一枚、弁当ひとつといっては\nあまりに申し訳ないのだが――」
+2545 = "「Chuyện đó——chỉ vì một tờ \\x%l掛け紙;#00ffc040;giấy gói cơm hộp%l;#;, một hộp cơm\nmà phải làm đến mức này thì anh thấy thật có lỗi——」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「ああ、そんなことですか」
@@ -1151,7 +1151,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「…………」
-1768 = "「…………」"
+1768 = "「............」"
 # monologue
 # JP: 僕の言葉だ。\n紛れも無い。
 3243 = "Đó là lời của tôi.\nKhông thể lẫn vào đâu được."
@@ -1242,11 +1242,11 @@
 # JP: 「この辺は――ざらっといけるな。\nこちらは……ああ、当時の学園の制服か」
 2527 = "「Chỗ này——có thể lướt qua nhanh được.\nCòn bên này... a, đồng phục học sinh thời đó sao.」"
 # monologue
-# JP: \x%l8620;#00ffc040;8620%l;#;形の稼働期間は驚くほどの長きにわたるが、\nその全盛なら、やはり\x%l大戦;#00ffc040;大戦%l;#;の直前のようだ。
-77 = "Thời gian hoạt động của dòng \x%l8620;#00ffc040;8620%l;#; dài đến kinh ngạc,\nnhưng thời kỳ hoàng kim của nó, quả nhiên là ngay trước \x%l大戦;#00ffc040;Đại chiến%l;#;."
+# JP: \\x%l8620;#00ffc040;8620%l;#;形の稼働期間は驚くほどの長きにわたるが、\nその全盛なら、やはり\\x%l大戦;#00ffc040;大戦%l;#;の直前のようだ。
+77 = "Thời gian hoạt động của dòng \\x%l8620;#00ffc040;8620%l;#; dài đến kinh ngạc,\nnhưng thời kỳ hoàng kim của nó, quả nhiên là ngay trước \\x%l大戦;#00ffc040;Đại chiến%l;#;."
 # monologue
-# JP: \x%l大戦;#00ffc040;大戦%l;#;前の人や景色は、\n今とは大きく異なって、それでもどこか共通している。
-2884 = "Con người và cảnh vật trước \x%l大戦;#00ffc040;Đại chiến%l;#;,\ntuy khác xa bây giờ, nhưng vẫn có nét gì đó tương đồng."
+# JP: \\x%l大戦;#00ffc040;大戦%l;#;前の人や景色は、\n今とは大きく異なって、それでもどこか共通している。
+2884 = "Con người và cảnh vật trước \\x%l大戦;#00ffc040;Đại chiến%l;#;,\ntuy khác xa bây giờ, nhưng vẫn có nét gì đó tương đồng."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「なるほど。時代を輪切りにすれば、\n様々な物が見えてくるのだな」
@@ -1304,8 +1304,8 @@
 # JP: 「ああ――うん。そうだな。設計図面集、だものな」
 2170 = "「A——ừm. Đúng vậy. Tập bản vẽ thiết kế cơ mà.」"
 # monologue
-# JP: \x%l8620;#00ffc040;8620%l;#;改修前に、これを見つけていられたならば――
-2917 = "Nếu tìm thấy cuốn này trước khi cải tạo \x%l8620;#00ffc040;8620%l;#; thì tốt biết mấy——"
+# JP: \\x%l8620;#00ffc040;8620%l;#;改修前に、これを見つけていられたならば――
+2917 = "Nếu tìm thấy cuốn này trước khi cải tạo \\x%l8620;#00ffc040;8620%l;#; thì tốt biết mấy——"
 # monologue
 # JP: いや、今からだって、整備点検保守等々の役にも必ず、\n立つはずだ。
 2746 = "Không, kể cả bây giờ, chắc chắn nó vẫn sẽ có ích\ncho việc bảo dưỡng, kiểm tra, sửa chữa các thứ."
@@ -1484,7 +1484,7 @@
 2465 = "「Tiếc thật. Em không cảm nhận được mấy.\nVì tim em cũng đang đập thình thịch mà.」"
 # monologue
 # JP: ……気付く。\n日々姫は冷静などでは、全くない。
-1742 = "……Tôi nhận ra.\nHibiki hoàn toàn, không hề bình tĩnh chút nào."
+1742 = "......Tôi nhận ra.\nHibiki hoàn toàn, không hề bình tĩnh chút nào."
 # monologue
 # JP: 顔はゆであがったタコのように赤く、\n汗で濡れそぼる全身は、タコのごとくにぬらついている。
 2904 = "Khuôn mặt đỏ bừng như con bạch tuộc luộc,\ntoàn thân ướt đẫm mồ hôi, trơn tuột như bạch tuộc vậy."
@@ -1583,7 +1583,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「……うん」
-1780 = "「……Vâng.」"
+1780 = "「......Vâng.」"
 # monologue
 # JP: さきほどまでの、\n熱に浮かされたような何かはどうやら抜け落ちた。
 2821 = "Cảm giác như bị sốt ruột lúc nãy\ncó vẻ như đã tan biến mất rồi."

@@ -2,24 +2,24 @@
 [info]
 
 [characters]
-1929 = "ふかみ"
-2160 = "双鉄"
-2068 = "凪"
-2433 = "蓑笠"
-2281 = "日々姫"
-2375 = "真闇"
-1983 = "ハチロク"
+1929 = "Fukami"
+2160 = "Soutetsu"
+2068 = "Nagi"
+2433 = "Minokasa"
+2281 = "Hibiki"
+2375 = "Mayami"
+1983 = "Hachiroku"
 
 [character_subs]
-2327 = "深美"
-2534 = "雙鐵"
-# 2068 = "凪"
-2348 = "深美＆凪"
-# 2433 = "蓑笠"
-2290 = "日日姬"
-# 2375 = "真闇"
-2063 = "八六"
-2139 = "凪＆深美"
+2327 = "Fukami"
+2534 = "Soutetsu"
+2068 = "Nagi"
+2348 = "Fukami & Nagi"
+2433 = "Minokasa"
+2290 = "Hibiki"
+2375 = "Mayami"
+2063 = "Hachiroku"
+2139 = "Nagi & Fukami"
 
 [script]
 # lines: 423 
@@ -190,8 +190,8 @@
 1821 = "「Vậy nhé. Mai gặp lại」"
 # 【ふかみ】
 # display as 深美
-# JP: 「はい！　\n双鉄さんも、夜のバーベキュー\x%l列車;#00ffc040;列車%l;#;頑張ってください！」
-1561 = "「Vâng!\nAnh Soutetsu cũng cố gắng với chuyến \x%l列車;#00ffc040;tàu%l;#; BBQ tối nay nhé!」"
+# JP: 「はい！　\n双鉄さんも、夜のバーベキュー\\x%l列車;#00ffc040;列車%l;#;頑張ってください！」
+1561 = "「Vâng!\nAnh Soutetsu cũng cố gắng với chuyến \\x%l列車;#00ffc040;tàu%l;#; BBQ tối nay nhé!」"
 # 【凪】
 # display as 凪
 # JP: 「そのスキに、こっちもこっちでがんばっとくばーい！」
@@ -850,8 +850,8 @@
 # JP: ……どうにも、なにか、いつもとは違った感じだった。\n右田一酒造元での真闇姉が。
 1071 = "...Không hiểu sao, có cảm giác gì đó khác với bình thường.\nChị Mayami ở cơ sở nấu rượu Migitai ấy."
 # monologue
-# JP: \x%l8620;#00ffc040;8620%l;#;牽引のバーベキュー\x%l客車;#00ffc040;客車%l;#;では、ハチロクと、\n\x%l機関士;#00ffc040;機関士%l;#;を勤めてくれたポーレットと、助士の日々姫とが。
-2521 = "Trên \x%l客車;#00ffc040;toa hành khách%l;#; BBQ do \x%l8620;#00ffc040;8620%l;#; kéo, có Hachiroku,\nPaulette làm \x%l機関士;#00ffc040;lái tàu%l;#; và Hibiki làm phụ lái."
+# JP: \\x%l8620;#00ffc040;8620%l;#;牽引のバーベキュー\\x%l客車;#00ffc040;客車%l;#;では、ハチロクと、\n\\x%l機関士;#00ffc040;機関士%l;#;を勤めてくれたポーレットと、助士の日々姫とが。
+2521 = "Trên \\x%l客車;#00ffc040;toa hành khách%l;#; BBQ do \\x%l8620;#00ffc040;8620%l;#; kéo, có Hachiroku,\nPaulette làm \\x%l機関士;#00ffc040;lái tàu%l;#; và Hibiki làm phụ lái."
 # 【ふかみ】
 # display as 深美
 # JP: 「食べ過ぎじゃなくて……どうしましたか？」

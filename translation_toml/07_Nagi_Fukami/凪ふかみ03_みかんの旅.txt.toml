@@ -2,23 +2,23 @@
 [info]
 
 [characters]
-3008 = "双鉄"
-2878 = "ハチロク"
-3164 = "日々姫"
-2938 = "凪"
-2835 = "ふかみ"
-2866 = "オリヴィ"
+3008 = "Soutetsu"
+2878 = "Hachiroku"
+3164 = "Hibiki"
+2938 = "Nagi"
+2835 = "Fukami"
+2866 = "Olive"
 
 [character_subs]
-3300 = "雙鐵"
-2925 = "八六"
-3171 = "日日姬"
-# 2938 = "凪"
-3196 = "深美"
-2994 = "凪＆深美"
-3317 = "？？？"
-3045 = "奥莉薇"
-3220 = "深美＆凪"
+3300 = "Soutetsu"
+2925 = "Hachiroku"
+3171 = "Hibiki"
+2938 = "Nagi"
+3196 = "Fukami"
+2994 = "Nagi & Fukami"
+3317 = "???"
+3045 = "Olive"
+3220 = "Fukami & Nagi"
 
 [script]
 # lines: 509 
@@ -1358,8 +1358,8 @@
 2058 = "「Nói cách khác, em là trưởng tàu đại lý sao.」"
 # 【オリヴィ】
 # display as 奥莉薇
-# JP: 「そだよ。オリヴィ、ふだん\x%l入換;#00ffc040;入換%l;#;しかしないから。\n車掌とかしないから、うまくできなくても怒らないで」
-2543 = "「Đúng rồi đó. Olivy bình thường chỉ làm \x%l入換;#00ffc040;dồn toa%l;#; thôi.\nKhông làm trưởng tàu bao giờ đâu, nên lỡ có làm không tốt thì cũng đừng giận nhé.」"
+# JP: 「そだよ。オリヴィ、ふだん\\x%l入換;#00ffc040;入換%l;#;しかしないから。\n車掌とかしないから、うまくできなくても怒らないで」
+2543 = "「Đúng rồi đó. Olivy bình thường chỉ làm \\x%l入換;#00ffc040;dồn toa%l;#; thôi.\nKhông làm trưởng tàu bao giờ đâu, nên lỡ có làm không tốt thì cũng đừng giận nhé.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「怒るなど――\nむしろ、観光情報を教えてもらえて、感謝している」
@@ -1404,16 +1404,16 @@
 2223 = "「Oa oa oa! Nagi đại nhân được săn đón rồi á!\nHư hừm, quả nhiên tay nghề của Nagi đại nhân, người tinh mắt nhìn là biết ngay á.」"
 # 【オリヴィ】
 # display as 奥莉薇
-# JP: 「ううん、腕には期待してないよ？　\x%l入換;#00ffc040;入換%l;#;だしねー」
-2039 = "「Không, Olivy không kỳ vọng vào tay nghề đâu? Dù sao cũng chỉ là \x%l入換;#00ffc040;dồn toa%l;#; thôi mà.」"
+# JP: 「ううん、腕には期待してないよ？　\\x%l入換;#00ffc040;入換%l;#;だしねー」
+2039 = "「Không, Olivy không kỳ vọng vào tay nghề đâu? Dù sao cũng chỉ là \\x%l入換;#00ffc040;dồn toa%l;#; thôi mà.」"
 # 【凪】
 # display as 凪
 # JP: 「ほえ！？」
 # 2295 = "「啊？！」" 
 # 【オリヴィ】
 # display as 奥莉薇
-# JP: 「にぎやか、タイクツしなさそうだから来て欲しいの。\n\x%l入換;#00ffc040;入換%l;#;、やっぱりタイクツだから」
-2095 = "「Chỉ là thấy chị ồn ào, có vẻ không nhàm chán nên mới muốn chị đến thôi.\nVì \x%l入換;#00ffc040;dồn toa%l;#; chán lắm.」"
+# JP: 「にぎやか、タイクツしなさそうだから来て欲しいの。\n\\x%l入換;#00ffc040;入換%l;#;、やっぱりタイクツだから」
+2095 = "「Chỉ là thấy chị ồn ào, có vẻ không nhàm chán nên mới muốn chị đến thôi.\nVì \\x%l入換;#00ffc040;dồn toa%l;#; chán lắm.」"
 # 【ふかみ】
 # display as 深美
 # JP: 「あはは！　凪ちゃんのにぎやかさ、\n見る人にはわかっちゃうんだねー、やっぱり」
@@ -1473,8 +1473,8 @@
 2256 = "「Ưm」"
 # 【オリヴィ】
 # display as 奥莉薇
-# JP: 「セカイイチのみかん鉄道で働けるんだもん。\n\x%l入換;#00ffc040;入換%l;#;だってなんだって、しあわせに決まってるじゃん」
-2660 = "「Được làm việc ở tuyến đường sắt Mikan số một thế giới cơ mà.\nDù là \x%l入換;#00ffc040;dồn toa%l;#; hay gì đi nữa thì chắc chắn cũng rất hạnh phúc rồi」"
+# JP: 「セカイイチのみかん鉄道で働けるんだもん。\n\\x%l入換;#00ffc040;入換%l;#;だってなんだって、しあわせに決まってるじゃん」
+2660 = "「Được làm việc ở tuyến đường sắt Mikan số một thế giới cơ mà.\nDù là \\x%l入換;#00ffc040;dồn toa%l;#; hay gì đi nữa thì chắc chắn cũng rất hạnh phúc rồi」"
 # 【凪】
 # display as 凪
 # JP: 「世界一は御一夜鉄道ばい！　ハチロクば！\n世界一綺麗な蒸気機関車ばい！！」
@@ -1496,12 +1496,12 @@
 # 2069 = "「什麼？！」" 
 # 【オリヴィ】
 # display as 奥莉薇
-# JP: 「よくない？　\x%lC56;#00ffc040;Ｃ５６%l;#;　[キュウキュウ,1]９９と[じゅうれん,1]重連させて。\nそしたらオリヴィも、\x%l補機;#00ffc040;補機%l;#;につけてもらうー！」
-2023 = "「Không phải rất tuyệt sao? Cho chạy ghép đôi với \x%lC56;#00ffc040;C56%l;#; 99 ấy.\nNhư vậy Olivy cũng có thể đi theo làm \x%l補機;#00ffc040;đầu máy phụ%l;#; rồi!」"
+# JP: 「よくない？　\\x%lC56;#00ffc040;Ｃ５６%l;#;　[キュウキュウ,1]９９と[じゅうれん,1]重連させて。\nそしたらオリヴィも、\\x%l補機;#00ffc040;補機%l;#;につけてもらうー！」
+2023 = "「Không phải rất tuyệt sao? Cho chạy ghép đôi với \\x%lC56;#00ffc040;C56%l;#; 99 ấy.\nNhư vậy Olivy cũng có thể đi theo làm \\x%l補機;#00ffc040;đầu máy phụ%l;#; rồi!」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「それは……いいな」
-2718 = "「Thế thì……tuyệt thật đấy」"
+2718 = "「Thế thì......tuyệt thật đấy」"
 # monologue
 # JP: 御一夜から[おこば,1]大畑、[よしまつ,1]由松を抜けて[はやと,1]早戸まで。\nポーレットが温めている、南回りの復線計画。
 3098 = "Từ Ohito đi qua Okoba, Yoshimatsu rồi đến Hayato.\nĐó chính là kế hoạch khôi phục tuyến đường phía Nam mà Paulette đang ấp ủ."
@@ -1595,7 +1595,7 @@
 # 【ふかみ】
 # display as 深美
 # JP: 「ひどっ！　ううう……凪ちゃーん」
-2730 = "「Quá đáng! Uuu…… Nagi ơiii」"
+2730 = "「Quá đáng! Uuu...... Nagi ơiii」"
 # 【凪】
 # display as 凪
 # JP: 「おっかないけん近寄らんといて！！」

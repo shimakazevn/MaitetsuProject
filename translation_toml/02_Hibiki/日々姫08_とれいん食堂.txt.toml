@@ -2,32 +2,32 @@
 [info]
 
 [characters]
-3256 = "日々姫"
-3056 = "双鉄"
-3380 = "栃木"
-3372 = "木本"
-2993 = "凪"
-2897 = "ふかみ"
-3144 = "山崎"
-3443 = "真闇"
-3236 = "斎藤"
-3434 = "特産品売り"
-3550 = "観光客"
+3256 = "Hibiki"
+3056 = "Soutetsu"
+3380 = "Tochigi"
+3372 = "Kimoto"
+2993 = "Nagi"
+2897 = "Fukami"
+3144 = "Yamazaki"
+3443 = "Mayami"
+3236 = "Saito"
+3434 = "Bán đặc sản"
+3550 = "Du khách"
 
 [character_subs]
-3307 = "日日姬"
-3639 = "雙鐵"
-3387 = "櫪木"
-# 3372 = "木本"
-# 2993 = "凪"
-3397 = "深美"
-3030 = "凪＆深美"
-# 3144 = "山崎"
-# 3443 = "真闇"
-3664 = "齋藤"
-3740 = "？？？"
-3433 = "特產店"
-3418 = "游客"
+3307 = "Hibiki"
+3639 = "Soutetsu"
+3387 = "Tochigi"
+3372 = "Kimoto"
+2993 = "Nagi"
+3397 = "Fukami"
+3030 = "Nagi & Fukami"
+3144 = "Yamazaki"
+3443 = "Mayami"
+3664 = "Saito"
+3740 = "???"
+3433 = "Cửa hàng đặc sản"
+3418 = "Du khách"
 
 [script]
 # lines: 626 
@@ -36,8 +36,8 @@
 # JP: 「ううう～～っ」
 2181 = "「Uuu~~」"
 # monologue
-# JP: ……そわそわしている。気持ちはわかる。\nけれどもここは、文庫森の\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;。公共の場だ。
-1521 = "……Em ấy đang bồn chồn. Tôi hiểu cảm giác đó.\nNhưng đây là \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; Bungomori. Là nơi công cộng."
+# JP: ……そわそわしている。気持ちはわかる。\nけれどもここは、文庫森の\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;。公共の場だ。
+1521 = "......Em ấy đang bồn chồn. Tôi hiểu cảm giác đó.\nNhưng đây là \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; Bungomori. Là nơi công cộng."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「落ち着け、日々姫。\n幼い顔を見せるのは、僕とふたりだけのときにしろ」
@@ -55,8 +55,8 @@
 # JP: 「っ！！？」
 2213 = "「!!?」"
 # monologue
-# JP: \x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;の奥の方、目隠しにかけられているシートが\nこんもりと、人の形に盛り上がる。
-3089 = "Phía trong cùng của \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;, tấm bạt che chắn\nnhô lên một khối hình người."
+# JP: \\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;の奥の方、目隠しにかけられているシートが\nこんもりと、人の形に盛り上がる。
+3089 = "Phía trong cùng của \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;, tấm bạt che chắn\nnhô lên một khối hình người."
 # monologue
 # JP: そこをくぐって出てきたのは――
 3635 = "Người chui ra từ đó là——"
@@ -108,10 +108,10 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「あ……」
-2187 = "「A……」"
+2187 = "「A......」"
 # monologue
 # JP: ……木本さんにご紹介いただき、\n栃木さんに初めてお会いしたときのことを想い出す。
-1525 = "……Tôi nhớ lại lần đầu tiên gặp bác Tochigi\nqua sự giới thiệu của bác Kimoto."
+1525 = "......Tôi nhớ lại lần đầu tiên gặp bác Tochigi\nqua sự giới thiệu của bác Kimoto."
 # monologue
 # JP: 『この程度の知識』さえもなかったところから、\nここにまで――よくぞたどり着いたものだと、僕さえ思う。
 3611 = "Từ chỗ thậm chí còn không có 'kiến thức ở mức độ này',\nđến tận đây——ngay cả tôi cũng thấy chúng tôi đã đi được một chặng đường dài."
@@ -161,7 +161,7 @@
 # 【栃木】
 # display as 櫪木
 # JP: 「そぎゃん言われると……まぁ、なんね」
-2062 = "「Bị nói thế thì……chà, sao nhỉ」"
+2062 = "「Bị nói thế thì......chà, sao nhỉ」"
 # 【木本】
 # display as 木本
 # JP: 「なんじゃ栃木。照れよったか」
@@ -169,11 +169,11 @@
 # 【栃木】
 # display as 櫪木
 # JP: 「照れるかあほう！　そぎゃんじゃのーて……\nワシらも――料理も、似たもんかのうと思うたっちゃ」
-2058 = "「Xấu hổ cái đồ ngốc! Không phải thế……\nTôi chỉ nghĩ chúng ta——nấu ăn cũng giống vậy thôi」"
+2058 = "「Xấu hổ cái đồ ngốc! Không phải thế......\nTôi chỉ nghĩ chúng ta——nấu ăn cũng giống vậy thôi」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「料理と……デザインが、ですか？」
-2354 = "「Nấu ăn và……thiết kế giống nhau sao ạ?」"
+2354 = "「Nấu ăn và......thiết kế giống nhau sao ạ?」"
 # 【栃木】
 # display as 櫪木
 # JP: 「おうよ。素材がなくちゃあ、どぎゃん料理もできん。\n調理の前の、素材の仕入れも、料理のうちやきのー」
@@ -185,7 +185,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「なるほど……あるいは全ての仕事が、\nそうした構造を持つものなのかもしれませんね」
-2113 = "「Ra vậy……hoặc có lẽ mọi công việc\nđều có cấu trúc như vậy cũng nên」"
+2113 = "「Ra vậy......hoặc có lẽ mọi công việc\nđều có cấu trúc như vậy cũng nên」"
 # 【栃木】
 # display as 櫪木
 # JP: 「かもの。そうして――どぎゃんとすぐれた素材でも、\n仕上げる腕が悪きゃあ台無しになるのも同じっちゃ」
@@ -230,7 +230,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「はい。[ぎそう,1]艤装もほとんど完了していますから。\n走行面を、次いで、設備を見るための試走を重ねて」
-2458 = "「Vâng. \x%l艤装;#00ffc040;Trang thiết bị nội ngoại thất%l;#; cũng gần như hoàn tất rồi ạ.\nTiếp theo là chạy thử nhiều lần để kiểm tra mặt vận hành, sau đó là các thiết bị」"
+2458 = "「Vâng. \\x%l艤装;#00ffc040;Trang thiết bị nội ngoại thất%l;#; cũng gần như hoàn tất rồi ạ.\nTiếp theo là chạy thử nhiều lần để kiểm tra mặt vận hành, sau đó là các thiết bị」"
 # 【栃木】
 # display as 櫪木
 # JP: 「そいば済んだら、わしらも含めてのテストっちゃ？」
@@ -238,7 +238,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「そこまでの詳細はまだ詰めきれていませんが……\n概ね、そうした流れになるかとは思います」
-2707 = "「Chi tiết đến mức đó thì cháu vẫn chưa chốt được……\nnhưng cháu nghĩ đại khái sẽ theo trình tự như vậy ạ」"
+2707 = "「Chi tiết đến mức đó thì cháu vẫn chưa chốt được......\nnhưng cháu nghĩ đại khái sẽ theo trình tự như vậy ạ」"
 # 【栃木】
 # display as 櫪木
 # JP: 「楽しみじゃのう、腕がなるっちゃ」
@@ -271,7 +271,7 @@
 # 【ふかみ】
 # display as 深美
 # JP: 「あの……どこかおかしくない、ですか？」
-2624 = "「Dạ……có chỗ nào kỳ lạ không, ạ?」"
+2624 = "「Dạ......có chỗ nào kỳ lạ không, ạ?」"
 # monologue
 # JP: 目に新しい制服姿。
 3117 = "Trang phục đồng phục mới mẻ trong mắt tôi."
@@ -281,7 +281,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……おかしいところなぞ何ひとつない。\nよく似合っている。さすが、日々姫デザインの制服だ」
-1597 = "「……Chẳng có chỗ nào kỳ lạ cả.\nRất hợp với hai đứa. Quả không hổ danh đồng phục do Hibiki thiết kế」"
+1597 = "「......Chẳng có chỗ nào kỳ lạ cả.\nRất hợp với hai đứa. Quả không hổ danh đồng phục do Hibiki thiết kế」"
 # 【凪】
 # display as 凪
 # JP: 「って、そぎゃん言い方好かんばい！！」
@@ -422,7 +422,7 @@
 2308 = "「Thật sự, rất ngại」"
 # monologue
 # JP: ……照れ隠しをしようとしてなのか、\n選ぶ言葉の距離感が、完全に狂ってしまっている。
-1516 = "……Có lẽ vì muốn che giấu sự ngượng ngùng,\nmà cách chọn từ ngữ của em ấy trở nên hoàn toàn xa lạ."
+1516 = "......Có lẽ vì muốn che giấu sự ngượng ngùng,\nmà cách chọn từ ngữ của em ấy trở nên hoàn toàn xa lạ."
 # 【日々姫】
 # display as 日日姬
 # JP: 「えと！　出発準備。制服――っていうか、\n身だしなみのチェックが終わったんなら」
@@ -465,11 +465,11 @@
 # JP: 「だな」
 2444 = "「Đúng vậy」"
 # monologue
-# JP: 右田日々姫デザイン。食堂気動車『とれいん食堂』。\n車籍は肥颯みかん鉄道に置く、\x%lHSMK;#00ffc040;HSMK%l;#;114と\x%lHSMK;#00ffc040;HSMK%l;#;116。
-3652 = "Thiết kế bởi Migita Hibiki. Toa ăn tự hành 'Toa ăn Train'.\nĐăng ký xe thuộc Đường sắt Hisatsu Mikan, \x%lHSMK;#00ffc040;HSMK%l;#;114 và \x%lHSMK;#00ffc040;HSMK%l;#;116."
+# JP: 右田日々姫デザイン。食堂気動車『とれいん食堂』。\n車籍は肥颯みかん鉄道に置く、\\x%lHSMK;#00ffc040;HSMK%l;#;114と\\x%lHSMK;#00ffc040;HSMK%l;#;116。
+3652 = "Thiết kế bởi Migita Hibiki. Toa ăn tự hành 'Toa ăn Train'.\nĐăng ký xe thuộc Đường sắt Hisatsu Mikan, \\x%lHSMK;#00ffc040;HSMK%l;#;114 và \\x%lHSMK;#00ffc040;HSMK%l;#;116."
 # monologue
-# JP: あまりの完成度の高さに感激したみかん鉄道側が、\nいつかの\x%l中間車;#00ffc040;中間車%l;#;増備のために、番号を空けた大傑作だ。
-3606 = "Cảm kích trước độ hoàn thiện quá cao, phía Đường sắt Mikan\nđã để trống một số thứ tự cho việc bổ sung \x%l中間車;#00ffc040;toa giữa%l;#; vào một ngày nào đó, quả là một kiệt tác."
+# JP: あまりの完成度の高さに感激したみかん鉄道側が、\nいつかの\\x%l中間車;#00ffc040;中間車%l;#;増備のために、番号を空けた大傑作だ。
+3606 = "Cảm kích trước độ hoàn thiện quá cao, phía Đường sắt Mikan\nđã để trống một số thứ tự cho việc bổ sung \\x%l中間車;#00ffc040;toa giữa%l;#; vào một ngày nào đó, quả là một kiệt tác."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「が、常に安全が第一の使命だ。\n浮かれてそれを失念しては、話にもならん」
@@ -504,15 +504,15 @@
 # JP: 「凪は、思い切った選択をしたよな。\n正機関士の資格を取得したばかりというのに」
 2081 = "「Nagi đã đưa ra một lựa chọn táo bạo nhỉ.\nDù vừa mới lấy được chứng chỉ Lái tàu chính thức xong」"
 # monologue
-# JP: 『ふかみちゃん一人じゃたよりなかけんね！』\nそう言い切ってあっさりと、凪は\x%lギャレー;#00ffc040;ギャレー%l;#;兼務を選んだ。
-1493 = "『Để Fukami một mình thì không yên tâm đâu!』\nNói dứt khoát như vậy, Nagi dễ dàng chọn kiêm nhiệm luôn công việc ở \x%lギャレー;#00ffc040;bếp trên tàu%l;#;."
+# JP: 『ふかみちゃん一人じゃたよりなかけんね！』\nそう言い切ってあっさりと、凪は\\x%lギャレー;#00ffc040;ギャレー%l;#;兼務を選んだ。
+1493 = "『Để Fukami một mình thì không yên tâm đâu!』\nNói dứt khoát như vậy, Nagi dễ dàng chọn kiêm nhiệm luôn công việc ở \\x%lギャレー;#00ffc040;bếp trên tàu%l;#;."
 # monologue
 # JP: 乗務時間の減少は、機関士としての回り道となりかねんが、\nその選択に、僕らが助けられたこともまた、間違いない。
 3417 = "Thời gian làm việc trên tàu giảm đi có thể là một đường vòng đối với một Lái tàu,\nnhưng không thể phủ nhận rằng sự lựa chọn đó đã giúp ích cho chúng tôi rất nhiều."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「……全線通しで乗務するのは、レイルロオドを除けば\n\x%lギャレー;#00ffc040;ギャレー%l;#;クルーだけとなる。凪とふかみの責任は重い」
-1588 = "「……Làm việc trên tàu xuyên suốt toàn tuyến, ngoại trừ Railord ra\nthì chỉ có đội ngũ \x%lギャレー;#00ffc040;bếp trên tàu%l;#;. Trách nhiệm của Nagi và Fukami rất nặng nề」"
+# JP: 「……全線通しで乗務するのは、レイルロオドを除けば\n\\x%lギャレー;#00ffc040;ギャレー%l;#;クルーだけとなる。凪とふかみの責任は重い」
+1588 = "「......Làm việc trên tàu xuyên suốt toàn tuyến, ngoại trừ Railord ra\nthì chỉ có đội ngũ \\x%lギャレー;#00ffc040;bếp trên tàu%l;#;. Trách nhiệm của Nagi và Fukami rất nặng nề」"
 # monologue
 # JP: とれいん食堂レイルロオドは、\n改装前からの引き継ぎとなる冥国製――
 3038 = "Railord của Toa ăn Train,\nđược kế thừa từ trước khi cải tạo, là hàng do Mỹ sản xuất——"
@@ -572,15 +572,15 @@
 # JP: 「[くるめ,1]来目着は、1530でティータイムとスイーツ。\n文庫森1830発でディナー。湯富院2000。[おおいた,1]大板着が2130」
 2774 = "「Đến Kurume lúc 15:30 là giờ uống trà và ăn đồ ngọt.\nXuất phát từ Bungomori lúc 18:30 là bữa tối. Yufuin lúc 20:00. Đến Oita lúc 21:30」"
 # monologue
-# JP: 食事三回、ティータイム一回。\n更に\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;入庫まで体験できるフルボリューム。
-3392 = "Ba bữa ăn chính, một bữa tiệc trà.\nHơn nữa còn được trải nghiệm việc đưa vào \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;, một lịch trình dày đặc."
+# JP: 食事三回、ティータイム一回。\n更に\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;入庫まで体験できるフルボリューム。
+3392 = "Ba bữa ăn chính, một bữa tiệc trà.\nHơn nữa còn được trải nghiệm việc đưa vào \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;, một lịch trình dày đặc."
 # monologue
-# JP: ……\x%lギャレー;#00ffc040;ギャレー%l;#;クルーの負担は大きい。\nそれを恐らく、理論で、直感で理解したから――
-1499 = "……Gánh nặng của đội ngũ \x%lギャレー;#00ffc040;bếp trên tàu%l;#; là rất lớn.\nCó lẽ vì hiểu được điều đó, bằng lý thuyết, bằng trực giác——"
+# JP: ……\\x%lギャレー;#00ffc040;ギャレー%l;#;クルーの負担は大きい。\nそれを恐らく、理論で、直感で理解したから――
+1499 = "......Gánh nặng của đội ngũ \\x%lギャレー;#00ffc040;bếp trên tàu%l;#; là rất lớn.\nCó lẽ vì hiểu được điều đó, bằng lý thuyết, bằng trực giác——"
 # 【ふかみ】
 # display as 深美
-# JP: 「凪ちゃん、\x%lギャレー;#00ffc040;ギャレー%l;#;まわりは全部オッケーだと思う。\nそっち終わったらダブルチェックしてもらえる？」
-2319 = "「Nagi, khu vực \x%lギャレー;#00ffc040;bếp trên tàu%l;#; tớ nghĩ là ổn hết rồi.\nCậu xong bên đó thì kiểm tra chéo giúp tớ nhé?」"
+# JP: 「凪ちゃん、\\x%lギャレー;#00ffc040;ギャレー%l;#;まわりは全部オッケーだと思う。\nそっち終わったらダブルチェックしてもらえる？」
+2319 = "「Nagi, khu vực \\x%lギャレー;#00ffc040;bếp trên tàu%l;#; tớ nghĩ là ổn hết rồi.\nCậu xong bên đó thì kiểm tra chéo giúp tớ nhé?」"
 # 【凪】
 # display as 凪
 # JP: 「こっちも今終わったとこばい！\n交代してダブルチェックばい！」
@@ -636,7 +636,7 @@
 2752 = "「Tiến hành luôn nè!」"
 # monologue
 # JP: ……ずっと変わらぬ抜群のコンビネーションが、\n今は落ち着きをも湛えている。
-1518 = "……Sự phối hợp ăn ý không hề thay đổi từ trước đến nay,\ngiờ đây còn mang theo cả sự điềm tĩnh."
+1518 = "......Sự phối hợp ăn ý không hề thay đổi từ trước đến nay,\ngiờ đây còn mang theo cả sự điềm tĩnh."
 # monologue
 # JP: 凪もふかみも成長したと――\n健やかな姿に、しみじみ感じる。
 3021 = "Cả Nagi và Fukami đều đã trưởng thành——\nNhìn dáng vẻ khỏe mạnh của hai đứa, tôi cảm nhận sâu sắc điều đó."
@@ -663,7 +663,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……ああ」
-1598 = "「……Ừ」"
+1598 = "「......Ừ」"
 # monologue
 # JP: 任せて信じて大丈夫。だから信じて任せるべき。\n日々姫の声は、そう言っている。
 3254 = "Giao phó và tin tưởng là được. Nên hãy tin tưởng và giao phó.\nGiọng nói của Hibiki như đang nói vậy."
@@ -729,7 +729,7 @@
 # 【真闇】
 # display as 真闇
 # JP: 「ん……おいし」
-2220 = "「Ưm……ngon quá」"
+2220 = "「Ưm......ngon quá」"
 # 【斎藤】
 # display as 齋藤
 # JP: 「良かですねぇ。飲み親しんだ焼酎も、\nこぎゃん列車の中ですと、格別の味ばしますねぇ」
@@ -741,7 +741,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「…………」
-1576 = "「…………」"
+1576 = "「............」"
 # monologue
 # JP: ほっと、小さな音が聞こえる。\n日々姫の息。
 3198 = "Một tiếng thở phào nhẹ nhõm vang lên.\nLà tiếng thở của Hibiki."
@@ -761,7 +761,7 @@
 3319 = "Vé trọn gói khứ hồi của Toa ăn Train chuyến số 1,\nmón quà mà tôi và Hibiki đã tặng."
 # monologue
 # JP: 真闇姉は大喜びで受け取って、\n杜氏になってから初めての休暇をとってまでくれた。
-3113 = "Chị Mayami đã vô cùng vui sướng nhận lấy,\nthậm chí còn xin nghỉ phép lần đầu tiên kể từ khi trở thành \x%l杜氏;#00ffc040;Trưởng hầm rượu%l;#;."
+3113 = "Chị Mayami đã vô cùng vui sướng nhận lấy,\nthậm chí còn xin nghỉ phép lần đầu tiên kể từ khi trở thành \\x%l杜氏;#00ffc040;Trưởng hầm rượu%l;#;."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「斎藤さんと一緒の乗車とは、意外だったが」
@@ -779,7 +779,7 @@
 3666 = "Cô Saito. Người làm rượu đứng đầu của nhà Migita,\nvà là người đã đuổi Hibiki khỏi hầm rượu."
 # monologue
 # JP: 日々姫はずっと苦手にしていて、\n今でもやはり、変わらぬものかとも思っていたが……
-3309 = "Hibiki vẫn luôn không hợp với cô ấy,\ntôi cứ tưởng đến giờ vẫn không có gì thay đổi, nhưng……"
+3309 = "Hibiki vẫn luôn không hợp với cô ấy,\ntôi cứ tưởng đến giờ vẫn không có gì thay đổi, nhưng......"
 # 【日々姫】
 # display as 日日姬
 # JP: 「ねぇねぇと斎藤さんやもん。自分らが抜けても\n蔵ん仕事ばまわるよう、しっかり人も育てとるし」
@@ -795,7 +795,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……そうだな」
-1611 = "「……Đúng vậy nhỉ」"
+1611 = "「......Đúng vậy nhỉ」"
 # monologue
 # JP: 真闇姉が斎藤さんと乗車したのは、\n今の日々姫を、斎藤さんに見せるため。
 3487 = "Việc chị Mayami lên tàu cùng cô Saito,\nlà để cho cô Saito thấy được Hibiki của hiện tại."
@@ -810,7 +810,7 @@
 1473 = "——Hibiki cũng đã công nhận cô Saito.\nEm ấy đã trưởng thành đủ để làm được điều đó."
 # monologue
 # JP: 真闇姉は恐らくそこまで見通して……\n故にふたりに、お互いの“今”を見せようとしたのだろう。
-3476 = "Có lẽ chị Mayami đã nhìn thấu đến tận đó……\nNên chị ấy mới muốn cho hai người thấy 'hiện tại' của nhau."
+3476 = "Có lẽ chị Mayami đã nhìn thấu đến tận đó......\nNên chị ấy mới muốn cho hai người thấy 'hiện tại' của nhau."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ならばこそ。きちんと仕事を果たさねばな」
@@ -858,14 +858,14 @@
 # 2685 = "「這樣啊」" 
 # monologue
 # JP: ……ふかみの接客は高いレベルで安定してる。\n車内は満席であるというのに、全くもって危なげない。
-1533 = "……Kỹ năng tiếp khách của Fukami luôn ổn định ở mức cao.\nDù trong xe đã kín chỗ, nhưng không hề có chút gì gọi là chệch choạc."
+1533 = "......Kỹ năng tiếp khách của Fukami luôn ổn định ở mức cao.\nDù trong xe đã kín chỗ, nhưng không hề có chút gì gọi là chệch choạc."
 # 【凪】
 # display as 凪
 # JP: 「失礼いたします」
 2397 = "「Xin lỗi vì đã làm phiền ạ」"
 # monologue
-# JP: \x%l先頭車;#00ffc040;先頭車%l;#;側の給仕担当をしている凪は、\n食器を下げに二号車、\x%lギャレー;#00ffc040;ギャレー%l;#;へと向かい――
-3086 = "Nagi, người phụ trách phục vụ ở phía \x%l先頭車;#00ffc040;toa dẫn đầu%l;#;,\nđang mang bát đĩa đi dọn về phía toa số hai, hướng về \x%lギャレー;#00ffc040;bếp trên tàu%l;#;——"
+# JP: \\x%l先頭車;#00ffc040;先頭車%l;#;側の給仕担当をしている凪は、\n食器を下げに二号車、\\x%lギャレー;#00ffc040;ギャレー%l;#;へと向かい――
+3086 = "Nagi, người phụ trách phục vụ ở phía \\x%l先頭車;#00ffc040;toa dẫn đầu%l;#;,\nđang mang bát đĩa đi dọn về phía toa số hai, hướng về \\x%lギャレー;#00ffc040;bếp trên tàu%l;#;——"
 # 【凪】
 # display as 凪
 # JP: 「失礼します」
@@ -937,7 +937,7 @@
 # 【真闇】
 # display as 真闇
 # JP: 「んっ……んーーー」
-2219 = "「Ưm……ưm———」"
+2219 = "「Ưm......ưm———」"
 # monologue
 # JP: 真闇姉が大きく伸びをする。
 3469 = "Chị Mayami vươn vai thật lớn."
@@ -947,7 +947,7 @@
 # 【斎藤】
 # display as 齋藤
 # JP: 「……内装ばどぎゃんと凝った列車いうても、\n見慣れてしまえば、飽きよりますなぁ」
-1594 = "「……Dù là đoàn tàu có nội thất cầu kỳ đến đâu,\nnhìn quen rồi thì cũng đâm chán nhỉ」"
+1594 = "「......Dù là đoàn tàu có nội thất cầu kỳ đến đâu,\nnhìn quen rồi thì cũng đâm chán nhỉ」"
 # 【真闇】
 # display as 真闇
 # JP: 「そぎゃんと？　なら、前の車両ば見てきたら？」
@@ -981,11 +981,11 @@
 # 【斎藤】
 # display as 齋藤
 # JP: 「……年寄りの足腰ですけん、\n走っとる列車の中ば、動き回りたくもありませんなぁ」
-1606 = "「……Chân cẳng người già yếu rồi,\ntôi cũng không muốn đi lại lung tung trong lúc tàu đang chạy đâu」"
+1606 = "「......Chân cẳng người già yếu rồi,\ntôi cũng không muốn đi lại lung tung trong lúc tàu đang chạy đâu」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ふむ……」
-2178 = "「Hừm……」"
+2178 = "「Hừm......」"
 # monologue
 # JP: 斎藤さんは、相変わらずに率直すぎるほど率直だ。\nが、それゆえに学べること――む！
 3672 = "Cô Saito vẫn thẳng thắn đến mức quá mức thẳng thắn như mọi khi.\nNhưng, cũng nhờ thế mà chúng tôi học hỏi được nhiều điều——hửm!"
@@ -1041,7 +1041,7 @@
 2222 = "「Ừm. Nếu có yêu cầu, chúng ta cũng đã chuẩn bị sẵn xe lăn rồi mà」"
 # monologue
 # JP: ……みくろとの出会いによって気付かされた、\nお体が不自由なお客様への、こまかな配慮。
-1543 = "……Sự quan tâm tỉ mỉ dành cho những hành khách khuyết tật,\nmà tôi nhận ra được nhờ cuộc gặp gỡ với Mikuro."
+1543 = "......Sự quan tâm tỉ mỉ dành cho những hành khách khuyết tật,\nmà tôi nhận ra được nhờ cuộc gặp gỡ với Mikuro."
 # monologue
 # JP: 今日はどうやら使わずじまいとなりそうな気配ではあるが、\nやはり準備があるだけで、こころの余裕が変わってくる。
 3637 = "Hôm nay có vẻ như sẽ không dùng đến,\nnhưng quả thực chỉ cần có chuẩn bị sẵn, tâm lý cũng sẽ thoải mái hơn hẳn."
@@ -1055,7 +1055,7 @@
 2003 = "「Chúc quý khách đi vui vẻ.\nXin hãy chú ý bước chân ạ」"
 # monologue
 # JP: ……先頭は凪、最後尾をみかん鉄道車掌が固め、\n全乗客が観光停車のショートツアーに出てかけていく。
-1539 = "……Dẫn đầu là Nagi, chốt đuôi là Trưởng tàu Đường sắt Mikan,\ntất cả hành khách bắt đầu chuyến đi ngắn trong thời gian dừng tàu tham quan."
+1539 = "......Dẫn đầu là Nagi, chốt đuôi là Trưởng tàu Đường sắt Mikan,\ntất cả hành khách bắt đầu chuyến đi ngắn trong thời gian dừng tàu tham quan."
 # 【ふかみ】
 # display as 深美
 # JP: 「さて、と！」
@@ -1076,7 +1076,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「あ……ねぇねも、ここの景色気に入ってくれたと！」
-2191 = "「A……chị Mayami cũng thích cảnh sắc ở đây!」"
+2191 = "「A......chị Mayami cũng thích cảnh sắc ở đây!」"
 # monologue
 # JP: 聞こえるやいなやの日々姫の歓声。\nふかみもぶんぶん、大きく頷く。
 3311 = "Ngay khi nghe thấy tiếng reo hò của Hibiki.\nFukami cũng gật đầu lia lịa."
@@ -1119,7 +1119,7 @@
 2208 = "「A, phải chuẩn bị đón khách thôi」"
 # monologue
 # JP: 指差し確認。\n二度繰り返して――それで完了。
-3211 = "\x%l指差し確認;#00ffc040;Chỉ tay hô xác nhận%l;#;.\nLặp lại hai lần——vậy là xong."
+3211 = "\\x%l指差し確認;#00ffc040;Chỉ tay hô xác nhận%l;#;.\nLặp lại hai lần——vậy là xong."
 # monologue
 # JP: ふかみの手配と段取りは、\nここまで完璧に機能している。
 3403 = "Sự sắp xếp và trình tự của Fukami,\nđến lúc này vẫn đang hoạt động một cách hoàn hảo."
@@ -1141,7 +1141,7 @@
 # 【ふかみ】
 # display as 深美
 # JP: 「あ……それは――」
-2189 = "「A……cái đó thì——」"
+2189 = "「A......cái đó thì——」"
 # monologue
 # JP: ふかみがぐるりと車内を見渡す。\n車内を見渡し――それからじっと、日々姫を見つめる。
 3402 = "Fukami nhìn quanh một vòng trong xe.\nNhìn quanh trong xe——rồi nhìn chằm chằm vào Hibiki."
@@ -1189,7 +1189,7 @@
 3100 = "Trước khi hành khách đầu tiên quay lại,\nFukami đã nhanh chóng trở lại tư thế phục vụ."
 # monologue
 # JP: 添乗である僕らも当然、何かあったら即応の、\n姿勢をとらねばならない。のだが……
-3627 = "Những người đi cùng như chúng tôi dĩ nhiên cũng phải\ntrong tư thế sẵn sàng ứng phó nếu có chuyện gì xảy ra. Nhưng mà……"
+3627 = "Những người đi cùng như chúng tôi dĩ nhiên cũng phải\ntrong tư thế sẵn sàng ứng phó nếu có chuyện gì xảy ra. Nhưng mà......"
 # monologue
 # JP: （ぽんぽん）
 3710 = "（Vỗ vỗ）"
@@ -1229,7 +1229,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……発車までには、落ち着くんだぞ」
-1600 = "「……Phải bình tĩnh lại trước khi tàu chạy đấy nhé」"
+1600 = "「......Phải bình tĩnh lại trước khi tàu chạy đấy nhé」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「うん」
@@ -1243,7 +1243,7 @@
 2152 = "「Hít~——Hà~——」"
 # monologue
 # JP: ……やがて、日々姫が小さく頷く。
-1511 = "……Một lúc sau, Hibiki khẽ gật đầu."
+1511 = "......Một lúc sau, Hibiki khẽ gật đầu."
 # 【日々姫】
 # display as 日日姬
 # JP: 「うんっ」
@@ -1287,8 +1287,8 @@
 # JP: 「あ」
 # 2192 = "「啊」" 
 # monologue
-# JP: \x%lギャレー;#00ffc040;ギャレー%l;#;で食器を準備していた\nふかみが急にしゃがみ込む。
-3085 = "Fukami đang chuẩn bị bát đĩa ở \x%lギャレー;#00ffc040;bếp trên tàu%l;#;\nđột nhiên ngồi xổm xuống."
+# JP: \\x%lギャレー;#00ffc040;ギャレー%l;#;で食器を準備していた\nふかみが急にしゃがみ込む。
+3085 = "Fukami đang chuẩn bị bát đĩa ở \\x%lギャレー;#00ffc040;bếp trên tàu%l;#;\nđột nhiên ngồi xổm xuống."
 # 【ふかみ】
 # display as 深美
 # JP: 「はい。もしもし。とれいん食堂、早瀬です。\nえ？　あ――はい。遅延――ああ、はい。了解です」
@@ -1347,30 +1347,30 @@
 3559 = "Về việc điều chỉnh biểu đồ chạy tàu, cứ giao cho Railord là được.\nNhưng Railord thì không thể rành về chuyện bếp núc."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「本来予定では、1800に文庫森駅着。\n\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;入庫体験と転車台体験を経て、1830発だな」
-2117 = "「Theo dự kiến ban đầu, 18:00 sẽ đến ga Bungomori.\nSau khi trải nghiệm đưa xe vào \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; và trải nghiệm \x%l転車台;#00ffc040;bàn quay đầu máy%l;#;, 18:30 sẽ xuất phát.」"
+# JP: 「本来予定では、1800に文庫森駅着。\n\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;入庫体験と転車台体験を経て、1830発だな」
+2117 = "「Theo dự kiến ban đầu, 18:00 sẽ đến ga Bungomori.\nSau khi trải nghiệm đưa xe vào \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; và trải nghiệm \\x%l転車台;#00ffc040;bàn quay đầu máy%l;#;, 18:30 sẽ xuất phát.」"
 # 【ふかみ】
 # display as 深美
-# JP: 「\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;内で、20分間の観光下車があります。\nその間に、\x%lギャレー;#00ffc040;ギャレー%l;#;の準備の予定でした」
-2264 = "「Sẽ có 20 phút xuống xe tham quan bên trong \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;.\nTheo dự kiến, chúng ta sẽ chuẩn bị \x%lギャレー;#00ffc040;bếp trên tàu%l;#; trong khoảng thời gian đó ạ.」"
+# JP: 「\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;内で、20分間の観光下車があります。\nその間に、\\x%lギャレー;#00ffc040;ギャレー%l;#;の準備の予定でした」
+2264 = "「Sẽ có 20 phút xuống xe tham quan bên trong \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;.\nTheo dự kiến, chúng ta sẽ chuẩn bị \\x%lギャレー;#00ffc040;bếp trên tàu%l;#; trong khoảng thời gian đó ạ.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「15分遅延となると、\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;観光停車中の\n\x%lギャレー;#00ffc040;ギャレー%l;#;準備はかなり難しくなるな」
-2292 = "「Nếu chậm trễ 15 phút, thì việc chuẩn bị \x%lギャレー;#00ffc040;bếp trên tàu%l;#; trong lúc dừng xe tham quan ở \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; sẽ khá là khó khăn đấy.」"
+# JP: 「15分遅延となると、\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;観光停車中の\n\\x%lギャレー;#00ffc040;ギャレー%l;#;準備はかなり難しくなるな」
+2292 = "「Nếu chậm trễ 15 phút, thì việc chuẩn bị \\x%lギャレー;#00ffc040;bếp trên tàu%l;#; trong lúc dừng xe tham quan ở \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; sẽ khá là khó khăn đấy.」"
 # monologue
 # JP: ディナーとなると皿数も料理数も多い。\n20分まるまるを使っての準備となることも考えられる。
 3363 = "Bữa tối thì số lượng đĩa và món ăn đều nhiều.\nCó khả năng sẽ phải dùng trọn vẹn 20 phút để chuẩn bị."
 # monologue
-# JP: 1805\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;入庫、1825\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;出庫が\n本来の予定なのだから……
-3052 = "Vì dự kiến ban đầu là 18:05 đưa xe vào \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;, 18:25 đưa xe ra khỏi \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; mà……"
+# JP: 1805\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;入庫、1825\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;出庫が\n本来の予定なのだから……
+3052 = "Vì dự kiến ban đầu là 18:05 đưa xe vào \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;, 18:25 đưa xe ra khỏi \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; mà......"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「[じゅうはちじにじゅっぷん,3]1820に料理がついたとして、20分の準備で、\n1840\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;出庫――そのまま15分遅延となるか」
-2296 = "「Giả sử 18:20 món ăn được đưa đến, mất 20 phút chuẩn bị,\n18:40 đưa xe ra khỏi \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;――vậy là vẫn bị chậm 15 phút à.」"
+# JP: 「[じゅうはちじにじゅっぷん,3]1820に料理がついたとして、20分の準備で、\n1840\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;出庫――そのまま15分遅延となるか」
+2296 = "「Giả sử 18:20 món ăn được đưa đến, mất 20 phút chuẩn bị,\n18:40 đưa xe ra khỏi \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;――vậy là vẫn bị chậm 15 phút à.」"
 # 【ふかみ】
 # display as 深美
-# JP: 「[じゅうはちじよんじゅっぷん,3]1840まで、\n\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;観光停車を延長するってことですね？」
-2032 = "「Nghĩa là chúng ta sẽ kéo dài thời gian dừng xe tham quan ở \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; đến 18:40 đúng không ạ?」"
+# JP: 「[じゅうはちじよんじゅっぷん,3]1840まで、\n\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;観光停車を延長するってことですね？」
+2032 = "「Nghĩa là chúng ta sẽ kéo dài thời gian dừng xe tham quan ở \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; đến 18:40 đúng không ạ?」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「うむ。文庫森から湯富院までの短い距離に、\nたっぷりと時間を取ってある。回復運転は容易だろう」
@@ -1381,7 +1381,7 @@
 2016 = "「Nhưng mà. Việc chạy chậm rì đó là để phục vụ bữa ăn của hành khách ạ.\nNếu tăng tốc để chạy bù giờ, thời gian dùng bữa sẽ bị rút ngắn lại.」"
 # monologue
 # JP: ん……とわずかに考え込み、\n慎重そうな口調でふかみが提案してくる。
-3407 = "Ưm…… Fukami hơi trầm ngâm suy nghĩ,\nrồi đưa ra đề xuất với giọng điệu có vẻ thận trọng."
+3407 = "Ưm...... Fukami hơi trầm ngâm suy nghĩ,\nrồi đưa ra đề xuất với giọng điệu có vẻ thận trọng."
 # 【ふかみ】
 # display as 深美
 # JP: 「遅延をそのまま、終点・大板まで持ち越すのが、\n安全といえば一番安全ですけど――」
@@ -1407,7 +1407,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……食事時間を縮めることは、高級食堂列車である以上、\n極力避けるべきだよな？」
-1616 = "「……Việc rút ngắn thời gian dùng bữa, với tư cách là một chuyến tàu nhà hàng cao cấp,\nchúng ta phải cố gắng tránh hết mức có thể đúng không?」"
+1616 = "「......Việc rút ngắn thời gian dùng bữa, với tư cách là một chuyến tàu nhà hàng cao cấp,\nchúng ta phải cố gắng tránh hết mức có thể đúng không?」"
 # 【ふかみ】
 # display as 深美
 # JP: 「はい。主役のディナーで、高級食堂列車ですから。\nそこを急かせば、全部台無しになるって思います」
@@ -1422,7 +1422,7 @@
 2683 = "「Em nghĩ là vậy, ạ. Hơn nữa,\ncũng có rất nhiều hành khách là trẻ em và người lớn tuổi nữa ạ.」"
 # monologue
 # JP: ……観光接客についてのふかみの経験、\nそこからの意見を無視するなどは、ありえない。
-1534 = "……Kinh nghiệm của Fukami trong việc tiếp đón khách du lịch,\nnhững ý kiến xuất phát từ đó, tôi không thể nào phớt lờ được."
+1534 = "......Kinh nghiệm của Fukami trong việc tiếp đón khách du lịch,\nnhững ý kiến xuất phát từ đó, tôi không thể nào phớt lờ được."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ならば――」
@@ -1459,7 +1459,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「……パレット全部の入換――文庫森駅のホームで、\n二分割して、お客様の前でやっちゃえば」
-1609 = "「……Thay toàn bộ khay thức ăn――Trên sân ga Bungomori,\nnếu chúng ta chia làm hai nhóm, rồi làm ngay trước mặt hành khách thì sao.」"
+1609 = "「......Thay toàn bộ khay thức ăn――Trên sân ga Bungomori,\nnếu chúng ta chia làm hai nhóm, rồi làm ngay trước mặt hành khách thì sao.」"
 # 【ふかみ】
 # display as 深美
 # JP: 「え？」
@@ -1515,7 +1515,7 @@
 # 【双鉄】
 # display as 雙鐵
 # JP: 「この食堂、この列車をデザインした日々姫ゆえの……\n知り尽くしていなければ、決して出てこんアイディアだ」
-2684 = "「Chính vì Hibiki là người thiết kế ra nhà hàng này, chuyến tàu này……\nNếu không hiểu rõ tận tường, thì tuyệt đối không thể nảy ra ý tưởng này được.」"
+2684 = "「Chính vì Hibiki là người thiết kế ra nhà hàng này, chuyến tàu này......\nNếu không hiểu rõ tận tường, thì tuyệt đối không thể nảy ra ý tưởng này được.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「そんなん、あたりまえのことやけん」
@@ -1551,8 +1551,8 @@
 3351 = "Vừa nói,\nHibiki vừa đưa cuốn sổ phác thảo cho tôi giữ."
 # 【双鉄】
 # display as 雙鐵
-# JP: 「と、いうことだ。凪はすまんが、文庫森――\n\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;に“5分早着”可能かを聞いてきてくれ」
-2730 = "「Là vậy đó. Nagi, xin lỗi em nhưng,\nhãy hỏi xem Bungomori――\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; có thể “đến sớm 5 phút” được không nhé.」"
+# JP: 「と、いうことだ。凪はすまんが、文庫森――\n\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;に“5分早着”可能かを聞いてきてくれ」
+2730 = "「Là vậy đó. Nagi, xin lỗi em nhưng,\nhãy hỏi xem Bungomori――\\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; có thể “đến sớm 5 phút” được không nhé.」"
 # 【凪】
 # display as 凪
 # JP: 「聞いてくるばい！」
@@ -1575,12 +1575,12 @@
 2262 = "「Bản vẽ――Cái này, em thấy hoàn hảo rồi ạ.」"
 # 【双鉄】
 # display as 雙鐵
-# JP: 「ならば1755文庫森着。1800から\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;見学。\n1820分に\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;を出庫して、転車台体験」
-2734 = "「Vậy thì 17:55 đến Bungomori. Từ 18:00 tham quan \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;.\n18:20 đưa xe ra khỏi \x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; và trải nghiệm bàn quay đầu máy.」"
+# JP: 「ならば1755文庫森着。1800から\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;見学。\n1820分に\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;を出庫して、転車台体験」
+2734 = "「Vậy thì 17:55 đến Bungomori. Từ 18:00 tham quan \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#;.\n18:20 đưa xe ra khỏi \\x%l扇形機関庫;#00ffc040;gara đầu máy hình ngành%l;#; và trải nghiệm bàn quay đầu máy.」"
 # 【日々姫】
 # display as 日日姬
-# JP: 「1825に文庫森駅ホーム再入線。\n10分で\x%lギャレー;#00ffc040;ギャレー%l;#;準備で1835に文庫森駅発！」
-2777 = "「18:25 tàu vào lại sân ga Bungomori.\nDành 10 phút chuẩn bị \x%lギャレー;#00ffc040;bếp trên tàu%l;#; rồi 18:35 xuất phát từ ga Bungomori!」"
+# JP: 「1825に文庫森駅ホーム再入線。\n10分で\\x%lギャレー;#00ffc040;ギャレー%l;#;準備で1835に文庫森駅発！」
+2777 = "「18:25 tàu vào lại sân ga Bungomori.\nDành 10 phút chuẩn bị \\x%lギャレー;#00ffc040;bếp trên tàu%l;#; rồi 18:35 xuất phát từ ga Bungomori!」"
 # 【ふかみ】
 # display as 深美
 # JP: 「それなら、5分の発車遅延ですみますから！\n湯富院から大板だけで遅延をゼロに回復できますね！」
@@ -1602,7 +1602,7 @@
 # 【日々姫】
 # display as 日日姬
 # JP: 「……はい。そのように。もし人が足りなければ、\nこちらで負担しますので。」
-1612 = "「……Vâng. Cứ làm như vậy đi ạ. Nếu thiếu người,\nbên này sẽ chịu trách nhiệm bù đắp.」"
+1612 = "「......Vâng. Cứ làm như vậy đi ạ. Nếu thiếu người,\nbên này sẽ chịu trách nhiệm bù đắp.」"
 # monologue
 # JP: そして日々姫も、同様に。
 3520 = "Và Hibiki cũng vậy."
@@ -1632,8 +1632,8 @@
 2451 = "「Đúng vậy, cứ theo hướng đó đi.\nĐể làm được vậy, chúng ta cần thay đổi nội dung thông báo trên tàu.」"
 # 【斎藤】
 # display as 齋藤
-# JP: 「……\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;いうんは凄かとですねぇ。\n御一夜では見たこともなかとでしたが」
-1619 = "「……\x%l扇形機関庫;#00ffc040;Gara đầu máy hình ngành%l;#; tuyệt thật đấy nhỉ.\nỞ Ohimitera tôi chưa từng thấy bao giờ.」"
+# JP: 「……\\x%l扇形機関庫;#00ffc040;扇形機関庫%l;#;いうんは凄かとですねぇ。\n御一夜では見たこともなかとでしたが」
+1619 = "「......\\x%l扇形機関庫;#00ffc040;Gara đầu máy hình ngành%l;#; tuyệt thật đấy nhỉ.\nỞ Ohimitera tôi chưa từng thấy bao giờ.」"
 # 【真闇】
 # display as 真闇
 # JP: 「んーー。転車台もかわゆかとねぇ。\n思とったより、ずーっとゆっくりまわりよるけん」
@@ -1696,8 +1696,8 @@
 3481 = "Giọng nói thể hiện sự vỡ lẽ to tướng của chị Mayami.\nKhuôn mặt Hibiki bất giác giãn ra."
 # 【日々姫】
 # display as 日日姬
-# JP: 「とれいん食堂は、みなさまがご覧になった、\n小さな\x%lギャレー;#00ffc040;ギャレー%l;#;、配膳設備しかもたない食堂列車です」
-2501 = "「Tàu nhà hàng, như quý vị đã thấy,\nlà một chuyến tàu nhà hàng nhỏ chỉ có \x%lギャレー;#00ffc040;bếp trên tàu%l;#; và thiết bị phục vụ món ăn.」"
+# JP: 「とれいん食堂は、みなさまがご覧になった、\n小さな\\x%lギャレー;#00ffc040;ギャレー%l;#;、配膳設備しかもたない食堂列車です」
+2501 = "「Tàu nhà hàng, như quý vị đã thấy,\nlà một chuyến tàu nhà hàng nhỏ chỉ có \\x%lギャレー;#00ffc040;bếp trên tàu%l;#; và thiết bị phục vụ món ăn.」"
 # 【斎藤】
 # display as 齋藤
 # JP: 「ああ――言われてみれば、まことですねぇ。\nあぎゃんと小さか厨房で、どぎゃんしてこれだけの」
@@ -1722,8 +1722,8 @@
 # JP: （――よし！）
 3673 = "（――Tốt!）"
 # monologue
-# JP: その間に、調理人たちが\x%lギャレー;#00ffc040;ギャレー%l;#;へと、\n主食、デザートを運び込む。
-3096 = "Trong lúc đó, các đầu bếp mang món chính và món tráng miệng\nvào trong \x%lギャレー;#00ffc040;bếp trên tàu%l;#;."
+# JP: その間に、調理人たちが\\x%lギャレー;#00ffc040;ギャレー%l;#;へと、\n主食、デザートを運び込む。
+3096 = "Trong lúc đó, các đầu bếp mang món chính và món tráng miệng\nvào trong \\x%lギャレー;#00ffc040;bếp trên tàu%l;#;."
 # monologue
 # JP: これなら、いける――\n思った次の瞬間にはもう、調理人たちは下車している。
 3601 = "Thế này thì, ổn rồi――\nNgay khoảnh khắc tôi nghĩ vậy, các đầu bếp đã xuống tàu."
@@ -1811,7 +1811,7 @@
 # 【斎藤】
 # display as 齋藤
 # JP: 「ん……」
-2218 = "「Ưm……」"
+2218 = "「Ưm......」"
 # monologue
 # JP: 斎藤さんが網棚の荷物を下ろそうとして、\n一瞬、戸惑った表情を――
 3667 = "Phu nhân Saito định lấy hành lý trên giá để hành lý xuống,\nnhưng trong thoáng chốc, bà lộ vẻ lúng túng――"
@@ -1886,7 +1886,7 @@
 2294 = "「Nếu quý khách có rác cần vứt, xin vui lòng bỏ vào đây ạ.」"
 # monologue
 # JP: ……斎藤さんのサポートを、プロとして、\n適切迅速に終えたのだろう。
-1528 = "……Chắc hẳn em ấy đã hoàn thành việc hỗ trợ phu nhân Saito một cách\nthích hợp và nhanh chóng với tư cách là một chuyên gia."
+1528 = "......Chắc hẳn em ấy đã hoàn thành việc hỗ trợ phu nhân Saito một cách\nthích hợp và nhanh chóng với tư cách là một chuyên gia."
 # monologue
 # JP: 今はゴミ袋を手にもって、\n座席の間を、不要物回収に巡回している。
 3129 = "Bây giờ em ấy đang cầm túi rác trên tay,\nđi dọc các lối đi giữa các hàng ghế để thu gom rác."
@@ -1902,8 +1902,8 @@
 # JP: 真闇姉の呼びかけに日々姫がとまれば、\nすぐさまふかみが袋を受取り、不要物回収を引き継ぐ。
 3321 = "Khi Hibiki dừng lại theo tiếng gọi của chị Mayami,\nFukami lập tức nhận lấy chiếc túi và tiếp quản việc thu gom rác."
 # monologue
-# JP: 職務上も正しい扱いだ。日々姫は添乗――指導車掌で、\nふかみは\x%lギャレー;#00ffc040;ギャレー%l;#;クルー、客室乗務員なのだから。
-3609 = "Đó cũng là cách xử lý đúng đắn về mặt chức vụ. Hibiki là người đi kèm――trưởng tàu hướng dẫn,\ncòn Fukami là thành viên \x%lギャレー;#00ffc040;bếp trên tàu%l;#;, là nhân viên phục vụ trên tàu mà."
+# JP: 職務上も正しい扱いだ。日々姫は添乗――指導車掌で、\nふかみは\\x%lギャレー;#00ffc040;ギャレー%l;#;クルー、客室乗務員なのだから。
+3609 = "Đó cũng là cách xử lý đúng đắn về mặt chức vụ. Hibiki là người đi kèm――trưởng tàu hướng dẫn,\ncòn Fukami là thành viên \\x%lギャレー;#00ffc040;bếp trên tàu%l;#;, là nhân viên phục vụ trên tàu mà."
 # 【真闇】
 # display as 真闇
 # JP: 「こん列車のきっぷって、車掌さんからも買えっと？」
@@ -2214,8 +2214,8 @@
 # JP: 繋がる、同時に。日々姫と僕の理解がまるごと。\nホテルであれば、廃客車を探す必要もない。
 3317 = "Đồng thời kết nối. Toàn bộ sự thấu hiểu của tôi và Hibiki.\nNếu là khách sạn, thì không cần phải tìm kiếm toa hành khách bỏ đi nữa."
 # monologue
-# JP: “寝台車風のホテル”を作り、\nその\x%l先頭車;#00ffc040;先頭車%l;#;として、D51 1031を移設してくる――
-3424 = "Tạo ra một “khách sạn mang phong cách toa giường nằm”,\nvà di dời D51 1031 đến làm \x%l先頭車;#00ffc040;toa dẫn đầu%l;#; của nó――"
+# JP: “寝台車風のホテル”を作り、\nその\\x%l先頭車;#00ffc040;先頭車%l;#;として、D51 1031を移設してくる――
+3424 = "Tạo ra một “khách sạn mang phong cách toa giường nằm”,\nvà di dời D51 1031 đến làm \\x%l先頭車;#00ffc040;toa dẫn đầu%l;#; của nó――"
 # 【斎藤】
 # display as 齋藤
 # JP: 「真闇お嬢。宿の車ば、迎えにきとりますが」
@@ -2238,7 +2238,7 @@
 # 【斎藤】
 # display as 齋藤
 # JP: 「……[ひびき,2]日々姫お嬢ば、ご自分の蔵。\nよーぉお見つけになられましたねぇ」
-1604 = "「……Cô Hibiki đã tìm thấy hầm rượu của riêng mình rồi nhỉ.\nThật là tốt quá.」"
+1604 = "「......Cô Hibiki đã tìm thấy hầm rượu của riêng mình rồi nhỉ.\nThật là tốt quá.」"
 # 【日々姫】
 # display as 日日姬
 # JP: 「えっ！？」

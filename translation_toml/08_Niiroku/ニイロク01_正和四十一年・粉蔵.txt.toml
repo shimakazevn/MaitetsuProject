@@ -2,13 +2,13 @@
 [info]
 
 [characters]
-2298 = "赤井"
-1966 = "ニイロク"
+2298 = "Akai"
+1966 = "Niiroku"
 
 [character_subs]
-# 2298 = "赤井"
-2342 = "？？？"
-2021 = "二六"
+2298 = "Akai"
+2342 = "???"
+2021 = "Niiroku"
 
 [script]
 # lines: 354 
@@ -69,8 +69,8 @@
 # JP: 「なるほど」
 1640 = "「Ra là vậy.」"
 # monologue
-# JP: ――\x%lクハ26;#00ffc040;クハ26%l;#;専用レイルロオド。\n最新鋭特急系電車統括制御専用、人型モジュール。
-2119 = "――Railord chuyên dụng của \x%lクハ26;#00ffc040;Kuha 26%l;#;.\nModule hình người chuyên dụng cho hệ thống điều khiển tổng hợp tàu điện tốc hành tối tân nhất."
+# JP: ――\\x%lクハ26;#00ffc040;クハ26%l;#;専用レイルロオド。\n最新鋭特急系電車統括制御専用、人型モジュール。
+2119 = "――Railord chuyên dụng của \\x%lクハ26;#00ffc040;Kuha 26%l;#;.\nModule hình người chuyên dụng cho hệ thống điều khiển tổng hợp tàu điện tốc hành tối tân nhất."
 # monologue
 # JP: 帝鉄がその小さな体にどれほど多くを詰め込んだのか、\n今のささいな呟きからも、伝わってくる気がします。
 2147 = "Teitetsu đã nhồi nhét biết bao nhiêu thứ vào cơ thể nhỏ bé ấy,\ntôi cảm giác như mình có thể hiểu được phần nào qua lời lẩm bẩm nhỏ nhặt vừa rồi."
@@ -181,8 +181,8 @@
 # JP: うかつなことを言ってしまったかもしれません。\n私は試験運転士。
 2188 = "Có lẽ tôi đã lỡ lời mất rồi.\nTôi là tài xế lái thử."
 # monologue
-# JP: ニイロクさんが、\x%lクハ26;#00ffc040;クハ26%l;#;が本線運用に移るまで――\nただそれだけの、短い期間の付き合いだというのに。
-2171 = "Mối quan hệ này chỉ kéo dài trong một khoảng thời gian ngắn ngủi,\ncho đến khi Niiroku, và \x%lクハ26;#00ffc040;Kuha 26%l;#; chuyển sang vận hành trên tuyến chính――vậy mà."
+# JP: ニイロクさんが、\\x%lクハ26;#00ffc040;クハ26%l;#;が本線運用に移るまで――\nただそれだけの、短い期間の付き合いだというのに。
+2171 = "Mối quan hệ này chỉ kéo dài trong một khoảng thời gian ngắn ngủi,\ncho đến khi Niiroku, và \\x%lクハ26;#00ffc040;Kuha 26%l;#; chuyển sang vận hành trên tuyến chính――vậy mà."
 # 【赤井】
 # display as 赤井
 # JP: 「……ところでニイロクさん。次の試験運転ですが」
@@ -221,15 +221,15 @@
 # 【ニイロク】
 # display as 二六
 # JP: 「次から編成が伸びる。4両基本編成に\nモハシ[ニイイチ,1]21試験車両が組み込まれる」
-1609 = "「Từ lần sau, đoàn tàu sẽ dài ra. Thêm \x%lモハシ21試験車両;#00ffc040;Toa xe thử nghiệm Mohashi 21%l;#;\nvào đội hình 4 toa cơ bản.」"
+1609 = "「Từ lần sau, đoàn tàu sẽ dài ra. Thêm \\x%lモハシ21試験車両;#00ffc040;Toa xe thử nghiệm Mohashi 21%l;#;\nvào đội hình 4 toa cơ bản.」"
 # 【赤井】
 # display as 赤井
-# JP: 「モハシ――モーター車の普通車と、食堂車との\x%l合造車;#00ffc040;合造車%l;\n#;……ああいやビュッフェか」
-1911 = "「Mohashi――\x%l合造車;#00ffc040;Toa xe hỗn hợp%l;#; giữa toa động lực hạng thường và toa ăn\n...à không, là \x%lビュッフェ;#00ffc040;quầy ăn nhẹ%l;#; chứ.」"
+# JP: 「モハシ――モーター車の普通車と、食堂車との\\x%l合造車;#00ffc040;合造車%l;\n#;……ああいやビュッフェか」
+1911 = "「Mohashi――\\x%l合造車;#00ffc040;Toa xe hỗn hợp%l;#; giữa toa động lực hạng thường và toa ăn\n...à không, là \\x%lビュッフェ;#00ffc040;quầy ăn nhẹ%l;#; chứ.」"
 # 【ニイロク】
 # display as 二六
-# JP: 「そう。\x%lクハ26;#00ffc040;クハ26%l;#;編成は最速の特急列車になるから。\n食事を楽しむ間に[はかた,1]博太につく。だからビュッフェ」
-1587 = "「Đúng vậy. Vì đoàn tàu \x%lクハ26;#00ffc040;Kuha 26%l;#; sẽ là chuyến tàu tốc hành nhanh nhất.\nTrong lúc hành khách thưởng thức bữa ăn thì tàu đã đến Hakata rồi. Nên mới là quầy ăn nhẹ.」"
+# JP: 「そう。\\x%lクハ26;#00ffc040;クハ26%l;#;編成は最速の特急列車になるから。\n食事を楽しむ間に[はかた,1]博太につく。だからビュッフェ」
+1587 = "「Đúng vậy. Vì đoàn tàu \\x%lクハ26;#00ffc040;Kuha 26%l;#; sẽ là chuyến tàu tốc hành nhanh nhất.\nTrong lúc hành khách thưởng thức bữa ăn thì tàu đã đến Hakata rồi. Nên mới là quầy ăn nhẹ.」"
 # 【赤井】
 # display as 赤井
 # JP: 「確かに。いまの電化区間の短さを考えれば、\n[ビュッフェ,5]軽食コーナーでも過大設備でしょうね」
@@ -658,8 +658,8 @@
 1644 = "「Tôi chưa học qua nhiều lắm.」"
 # 【赤井】
 # display as 赤井
-# JP: 「\x%l明智;#00ffc040;明智%l;#;・\x%l大詔;#00ffc040;大詔%l;#;と発展の一途を辿る帝鉄の\n最初の[つまず]躓きは、\x%l大詔;#00ffc040;大詔%l;#;三十五年に訪れました」
-1554 = "「Đường sắt Hoàng gia vốn đang trên đà phát triển không ngừng qua các thời kỳ \x%l明智;#00ffc040;Meiji%l;#; và \x%l大詔;#00ffc040;Taisho%l;#;,\nnhưng bước vấp ngã đầu tiên đã ập đến vào năm \x%l大詔;#00ffc040;Taisho%l;#; thứ 35.」"
+# JP: 「\\x%l明智;#00ffc040;明智%l;#;・\\x%l大詔;#00ffc040;大詔%l;#;と発展の一途を辿る帝鉄の\n最初の[つまず]躓きは、\\x%l大詔;#00ffc040;大詔%l;#;三十五年に訪れました」
+1554 = "「Đường sắt Hoàng gia vốn đang trên đà phát triển không ngừng qua các thời kỳ \\x%l明智;#00ffc040;Meiji%l;#; và \\x%l大詔;#00ffc040;Taisho%l;#;,\nnhưng bước vấp ngã đầu tiên đã ập đến vào năm \\x%l大詔;#00ffc040;Taisho%l;#; thứ 35.」"
 # 【ニイロク】
 # display as 二六
 # JP: 「ん……[たいしょう,1]大詔三十五年は、[しょうわ,1]正和元年。\n[ひのもと,2]日ノ本が、戦争に負けた年？」
@@ -1098,8 +1098,8 @@
 2041 = "Niiroku, nhìn tôi.\nBằng đôi mắt như mặt hồ ấy——một đôi mắt sâu thẳm, có chút gì đó hoài niệm."
 # 【ニイロク】
 # display as 二六
-# JP: 「赤井運転士が産んだ自分は。\x%lクハ26;#00ffc040;クハ26%l;#;とその編成は。\n最優秀で最新鋭の、特急系電車試験車輌だから」
-1545 = "「Bởi vì tôi, người được sinh ra bởi lái tàu Akai. Cùng với \x%lクハ26;#00ffc040;Kuha 26%l;#; và đoàn tàu của nó.\nLà toa xe thử nghiệm tàu điện tốc hành xuất sắc nhất, hiện đại nhất.」"
+# JP: 「赤井運転士が産んだ自分は。\\x%lクハ26;#00ffc040;クハ26%l;#;とその編成は。\n最優秀で最新鋭の、特急系電車試験車輌だから」
+1545 = "「Bởi vì tôi, người được sinh ra bởi lái tàu Akai. Cùng với \\x%lクハ26;#00ffc040;Kuha 26%l;#; và đoàn tàu của nó.\nLà toa xe thử nghiệm tàu điện tốc hành xuất sắc nhất, hiện đại nhất.」"
 # 【赤井】
 # display as 赤井
 # JP: 「……そう思います。\nそこだけは、私は、迷わず誇れます」

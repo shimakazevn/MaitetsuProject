@@ -2,21 +2,21 @@
 [info]
 
 [characters]
-1575 = "ポーレット"
-1558 = "れいな"
-1656 = "双鉄"
-1889 = "議長"
-1865 = "老議員"
-1549 = "ふかみ"
+1575 = "Paulette"
+1558 = "Reina"
+1656 = "Soutetsu"
+1889 = "Chủ tịch"
+1865 = "Nghị viên lão thành"
+1549 = "Fukami"
 
 [character_subs]
-1791 = "波萊特"
-1822 = "玲奈"
-1925 = "雙鐵"
-# 1889 = "議長"
-# 1865 = "老議員"
-1827 = "玲奈＆凪"
-1800 = "深美"
+1791 = "Paulette"
+1822 = "Reina"
+1925 = "Soutetsu"
+1889 = "Chủ tịch"
+1865 = "Nghị viên lão thành"
+1827 = "Reina & Nagi"
+1800 = "Fukami"
 
 [script]
 # lines: 216 
@@ -51,7 +51,7 @@
 # 【れいな】
 # display as 玲奈
 # JP: 「ふぁ……おはようございまぁす、ポーレット、\nこんな朝早くからお電話ですかぁ？」
-1290 = "「Oa……chào buổi sáng ạ~, chị Paulette,\nmới sáng sớm mà chị đã gọi điện thoại rồi ạ~?」"
+1290 = "「Oa......chào buổi sáng ạ~, chị Paulette,\nmới sáng sớm mà chị đã gọi điện thoại rồi ạ~?」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「おはよう、れいな。\nごめんね？　電話で起こしちゃった？」
@@ -112,7 +112,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「あのね？　れいな……」
-1436 = "「Chuyện là thế này nhé? Reina……」"
+1436 = "「Chuyện là thế này nhé? Reina......」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「ほう」
@@ -123,8 +123,8 @@
 1482 = "「Ngay cả việc vận chuyển, Densha Hime cũng sắp xếp toàn bộ sao.」"
 # 【ポーレット】
 # display as 波萊特
-# JP: 「はい。\x%lストーブ客車;#00ffc040;ストーブ客車%l;#;、明日にも御一夜に届くそうです。\nしかも、議案通過がならなくても、返却不要ってことで」
-1397 = "「Vâng. \x%lストーブ客車;#00ffc040;Toa xe sưởi ấm%l;#, nghe nói ngày mai sẽ đến Ohimitera.\nHơn nữa, cô ấy còn bảo dù nghị án không được thông qua, thì cũng không cần trả lại.」"
+# JP: 「はい。\\x%lストーブ客車;#00ffc040;ストーブ客車%l;#;、明日にも御一夜に届くそうです。\nしかも、議案通過がならなくても、返却不要ってことで」
+1397 = "「Vâng. \\x%lストーブ客車;#00ffc040;Toa xe sưởi ấm%l;#, nghe nói ngày mai sẽ đến Ohimitera.\nHơn nữa, cô ấy còn bảo dù nghị án không được thông qua, thì cũng không cần trả lại.」"
 # 【双鉄】
 # display as 雙鐵
 # JP: 「――なんとも力強いご応援だな。\n議案がもしも通らなくても、諦めるなということだ」
@@ -141,7 +141,7 @@
 1924 = "Điều đó thật đáng tin cậy và vững tâm,\nnhưng hôm nay――tôi lại thấy hơi đáng ghét một chút."
 # monologue
 # JP: （この人ってば……\nなんでこんなに、いつもと同じなんだろう）
-1961 = "（Cái người này thật là……\ntại sao lúc nào cũng tỏ ra bình thường như vậy chứ.）"
+1961 = "（Cái người này thật là......\ntại sao lúc nào cũng tỏ ra bình thường như vậy chứ.）"
 # monologue
 # JP: わたしは、ふわふわまだしてるのに。
 1770 = "Trong khi tôi vẫn còn đang lơ lửng trên mây."
@@ -168,7 +168,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「……うん」
-1173 = "「……Vâng.」"
+1173 = "「......Vâng.」"
 # monologue
 # JP: 双鉄くん、いつもと同じじゃ、全然ないんだ。
 1650 = "Anh Soutetsu, hoàn toàn không hề giống như mọi khi."
@@ -226,18 +226,18 @@
 1705 = "Chuẩn bị, thế là đủ rồi.\nNhưng, vẫn còn thiếu."
 # monologue
 # JP: わたしたち、だってせっかく、\n恋人同士になったんだから……
-1740 = "Chúng tôi, khó khăn lắm mới,\ntrở thành người yêu của nhau mà……"
+1740 = "Chúng tôi, khó khăn lắm mới,\ntrở thành người yêu của nhau mà......"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「……………………」
-1168 = "「……………………」"
+1168 = "「........................」"
 # monologue
 # JP: 待ってみる。けど、なんにもない。\n双鉄くんは、黙ったままで、そのまんま。
 1752 = "Tôi thử chờ đợi. Nhưng, chẳng có chuyện gì xảy ra.\nAnh Soutetsu vẫn cứ im lặng, cứ đứng yên như vậy."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……ん？」
-1174 = "「……Hửm?」"
+1174 = "「......Hửm?」"
 # monologue
 # JP: ダメこれ。ぜんっぜんわかってない。\n困ったみたいな、戸惑ったみたいな顔になってる。
 1605 = "Thế này thì hỏng rồi. Anh ấy hoàn toàn không hiểu gì cả.\nKhuôn mặt anh ấy lộ rõ vẻ bối rối, lúng túng."
@@ -274,11 +274,11 @@
 1654 = "Định bụng chỉ là một nụ hôn chớp nhoáng rồi buông ra, nhưng ngay khoảnh khắc đó,\nanh Soutetsu lại chủ động trao cho tôi một nụ hôn."
 # monologue
 # JP: 熱い、キス。\n口紅……こっそり直さなくっちゃ。
-1919 = "Một nụ hôn, nồng nhiệt.\nSon môi……chắc phải lén tô lại mất thôi."
+1919 = "Một nụ hôn, nồng nhiệt.\nSon môi......chắc phải lén tô lại mất thôi."
 # 【双鉄】
 # display as 雙鐵
 # JP: 「……もう、忘れ物はないか？」
-1178 = "「……Đã hết, quên đồ chưa?」"
+1178 = "「......Đã hết, quên đồ chưa?」"
 # monologue
 # JP: 照れてる。\n双鉄くん、ものすごく。
 1927 = "Anh ấy đang xấu hổ.\nAnh Soutetsu, đang vô cùng xấu hổ."
@@ -313,8 +313,8 @@
 # JP: 傍聴席には、普段は見られない顔がある。
 1765 = "Trên hàng ghế dự thính, xuất hiện những gương mặt hiếm khi được nhìn thấy."
 # monologue
-# JP: ハチロク、日々姫、れいな、ふかみと凪はもちろん、\n真闇姉に蓑笠老人――赤井宮司に、\x%l乗務鞄;#00ffc040;乗務鞄%l;#;の姿まである。
-1641 = "Hachiroku, Hibiki, Reina, Fukami và Nagi thì khỏi phải nói,\ncả chị Mayami, ông lão Minokasa――Đại tư tế Akai, và cả chiếc \x%l乗務鞄;#00ffc040;cặp lái tàu%l;# cũng có mặt."
+# JP: ハチロク、日々姫、れいな、ふかみと凪はもちろん、\n真闇姉に蓑笠老人――赤井宮司に、\\x%l乗務鞄;#00ffc040;乗務鞄%l;#;の姿まである。
+1641 = "Hachiroku, Hibiki, Reina, Fukami và Nagi thì khỏi phải nói,\ncả chị Mayami, ông lão Minokasa――Đại tư tế Akai, và cả chiếc \\x%l乗務鞄;#00ffc040;cặp lái tàu%l;# cũng có mặt."
 # monologue
 # JP: （なら、これでいい――赤井阿蘇神社の文化財申請議案の\nように、全会一致は、まず望むべくもなかろうが――）
 1962 = "（Vậy thì, thế này là được rồi――dù cho việc nhất trí toàn hội đồng như nghị án xin cấp chứng nhận tài sản văn hóa\ncho Đền Akai Aso là điều không thể mong đợi――）"
@@ -322,8 +322,8 @@
 # JP: 宝生元忠氏も、傍聴している。\n稀咲の姿は見当たらない。
 1699 = "Ông Houshou Mototada cũng đang ngồi dự thính.\nKhông thấy bóng dáng của Kisaki đâu."
 # monologue
-# JP: 元忠氏の存在は、\x%lエアクラ;#00ffc040;エアクラ%l;#;推進誘致派の議員たちへの、\nおそらくは、強烈な締め付けとして働くだろう。
-1637 = "Sự hiện diện của ông Mototada,\ncó lẽ sẽ đóng vai trò như một sự răn đe mạnh mẽ đối với các nghị sĩ thuộc phe ủng hộ mời gọi \x%lエアクラ;#00ffc040;Aircra%l;#."
+# JP: 元忠氏の存在は、\\x%lエアクラ;#00ffc040;エアクラ%l;#;推進誘致派の議員たちへの、\nおそらくは、強烈な締め付けとして働くだろう。
+1637 = "Sự hiện diện của ông Mototada,\ncó lẽ sẽ đóng vai trò như một sự răn đe mạnh mẽ đối với các nghị sĩ thuộc phe ủng hộ mời gọi \\x%lエアクラ;#00ffc040;Aircra%l;#."
 # monologue
 # JP: （それでも、いける。今日のポーレットの答弁ならば、\n中立派の議員の票を、必ず、根こそぎ獲得できる）
 1947 = "（Dù vậy, vẫn có thể thắng. Với phần biện luận của Paulette hôm nay,\nchắc chắn sẽ giành trọn được phiếu bầu của các nghị sĩ phe trung lập.）"
@@ -341,7 +341,7 @@
 1456 = "「Xin được chỉ giáo.」"
 # monologue
 # JP: ……最後の質問者は篠原議員。\n御一夜市議会の生き字引とも言われる、長老議員だ。
-1156 = "……Người đặt câu hỏi cuối cùng là nghị sĩ Shinohara.\nÔng là một nghị sĩ lão làng, được mệnh danh là từ điển sống của Hội đồng thành phố Ohimitera."
+1156 = "......Người đặt câu hỏi cuối cùng là nghị sĩ Shinohara.\nÔng là một nghị sĩ lão làng, được mệnh danh là từ điển sống của Hội đồng thành phố Ohimitera."
 # 【老議員】
 # display as 老議員
 # JP: 「マイントレジャー計画について、\nこれは、助成金を見込まれての事業となられますか？」
@@ -434,11 +434,11 @@
 1876 = "Trước tiếng nói như bị vắt kiệt đó,\nrất nhiều nghị sĩ đã gật đầu đồng tình."
 # monologue
 # JP: ああ、これは……稀咲が警告してくれたとおり――\n御一夜市そのものの持つ、傷跡なのだ。
-1683 = "A, đây là……đúng như lời Kisaki đã cảnh báo――\nlà vết sẹo của chính thành phố Ohimitera."
+1683 = "A, đây là......đúng như lời Kisaki đã cảnh báo――\nlà vết sẹo của chính thành phố Ohimitera."
 # 【老議員】
 # display as 老議員
 # JP: 「御一夜が術仙炭鉱にどれほど多くを注ぎ込んだか……\nその誤った判断の、あれは、醜か残りカスたい」
-1353 = "「Ohimitera đã đổ bao nhiêu công sức và của cải vào Mỏ than Jussen……\nĐó là, tàn dư xấu xí của một quyết định sai lầm.」"
+1353 = "「Ohimitera đã đổ bao nhiêu công sức và của cải vào Mỏ than Jussen......\nĐó là, tàn dư xấu xí của một quyết định sai lầm.」"
 # 【ポーレット】
 # display as 波萊特
 # JP: 「いいえ――いいえ、篠原議員」
@@ -515,8 +515,8 @@
 # JP: 「その方々と、テーマパークの従業員となる若者たちとの\n交流は、御一夜に新たな活気を呼ぶはずです」
 1376 = "「Sự giao lưu giữa những người đó và những người trẻ tuổi sẽ trở thành nhân viên của công viên chủ đề\nchắc chắn sẽ mang lại sức sống mới cho Ohimitera ạ.」"
 # monologue
-# JP: \x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致賛成派と反対派と――\nそれだけでなく、無力感が生んでしまった、世代間の――
-1596 = "Phe ủng hộ và phe phản đối mời gọi nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#――\nKhông chỉ vậy, còn là sự đứt gãy giữa các thế hệ do cảm giác bất lực sinh ra――"
+# JP: \\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致賛成派と反対派と――\nそれだけでなく、無力感が生んでしまった、世代間の――
+1596 = "Phe ủng hộ và phe phản đối mời gọi nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#――\nKhông chỉ vậy, còn là sự đứt gãy giữa các thế hệ do cảm giác bất lực sinh ra――"
 # monologue
 # JP: 御一夜の長い停滞のその一因は、\n確実に、そうした断絶にもあるだろう。
 1724 = "Một trong những nguyên nhân khiến Ohimitera trì trệ trong một thời gian dài,\nchắc chắn cũng là do sự đứt gãy đó."
@@ -557,8 +557,8 @@
 1871 = "Đó không phải là chất vấn, mà là một tiếng thở dài."
 # 【老議員】
 # display as 老議員
-# JP: 「術仙炭鉱の再検証なしに\x%lエアクラ;#00ffc040;エアクラ%l;#;工場を誘致して――\n目ぇ瞑ったまま、手ば引いてもらおうとしておったのか」
-1366 = "「Mời gọi nhà máy \x%lエアクラ;#00ffc040;Aircra%l;# mà không hề kiểm chứng lại Mỏ than Jussen――\nChẳng khác nào nhắm mắt đưa chân để người ta dắt đi sao.」"
+# JP: 「術仙炭鉱の再検証なしに\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場を誘致して――\n目ぇ瞑ったまま、手ば引いてもらおうとしておったのか」
+1366 = "「Mời gọi nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;# mà không hề kiểm chứng lại Mỏ than Jussen――\nChẳng khác nào nhắm mắt đưa chân để người ta dắt đi sao.」"
 # monologue
 # JP: ざわ、と動揺の響きが起こる。\nしかし、熱心な誘致賛成派さえ、抗議のヤジを飛ばせない。
 1763 = "Cả hội trường xôn xao, vang lên những tiếng động dao động.\nTuy nhiên, ngay cả những người thuộc phe ủng hộ nhiệt tình cũng không thể buông lời phản đối."
@@ -585,7 +585,7 @@
 # 【老議員】
 # display as 老議員
 # JP: 「……よかご答弁を、ありがとうございます」
-1175 = "「……Cảm ơn cô, vì một phần biện luận tuyệt vời.」"
+1175 = "「......Cảm ơn cô, vì một phần biện luận tuyệt vời.」"
 # monologue
 # JP: 深々と。\nポーレットに向け、篠原議員が頭を下げる。
 1852 = "Thật sâu.\nNghị sĩ Shinohara cúi gập đầu trước Paulette."
@@ -643,7 +643,7 @@
 1449 = "「Xin mời các nghị viên tán thành giơ tay.」"
 # monologue
 # JP: ……全会一致、とはとてもいかない。
-1157 = "……Không thể nói là nhất trí toàn thể được."
+1157 = "......Không thể nói là nhất trí toàn thể được."
 # monologue
 # JP: 苦虫を噛み潰したような顔をして、\n腕組みしてる議員も決して、少なくはない。が――
 1760 = "Những nghị viên khoanh tay với vẻ mặt như nhai phải sâu đắng,\ncũng tuyệt đối không hề ít. Nhưng——"
@@ -680,10 +680,10 @@
 1777 = "Nghe xong phần hỏi đáp,\nông ta cho rằng thắng bại đã rõ——hay là, đã chịu bỏ cuộc rồi."
 # monologue
 # JP: （いや……あきらめていなくとも、変わらんはずだ）
-1946 = "（Không……dù ông ta chưa bỏ cuộc, kết quả cũng sẽ không đổi.）"
+1946 = "（Không......dù ông ta chưa bỏ cuộc, kết quả cũng sẽ không đổi.）"
 # monologue
-# JP: 議案成立で河川敷利用の専有許可は確保でき、\n\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致の余地などなくなった。
-1674 = "Với việc nghị án được thông qua, chúng ta đã nắm chắc giấy phép sử dụng độc quyền bãi bồi ven sông,\nkhông còn chỗ trống nào để thu hút nhà máy \x%lエアクラ;#00ffc040;Aircra%l;#; nữa."
+# JP: 議案成立で河川敷利用の専有許可は確保でき、\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致の余地などなくなった。
+1674 = "Với việc nghị án được thông qua, chúng ta đã nắm chắc giấy phép sử dụng độc quyền bãi bồi ven sông,\nkhông còn chỗ trống nào để thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; nữa."
 # monologue
 # JP: こうなった以上マイントレジャーに賛同し成功させるのが、\n御一夜市にも隈銀にも、最善の選択となるのだから。
 1608 = "Một khi đã thế này, việc tán thành và giúp Mine Treasure thành công,\nchính là lựa chọn tốt nhất cho cả thành phố Ohimitera lẫn ngân hàng Kumagin."
@@ -741,7 +741,7 @@
 # 【ポーレット】
 # display as 波萊特
 # JP: 「あ……」
-1304 = "「A……」"
+1304 = "「A......」"
 # monologue
 # JP: ふと、気にかかる。\n舞台袖から、僕は覗いて議場の様子を見て取ってたが――
 1884 = "Chợt, tôi có chút bận tâm.\nTôi đã đứng từ cánh gà nhìn lén tình hình trong hội trường, nhưng——"
