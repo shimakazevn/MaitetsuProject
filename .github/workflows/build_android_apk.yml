@@ -43,14 +43,6 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y cmake ninja-build pkg-config bison flex
 
-      - name: Ensure Live2D Cubism Framework is Present
-        run: |
-          if [ ! -d "krkr2_next/cpp/plugins/cubism/Framework/src" ]; then
-            echo "Cloning Live2D Cubism Framework..."
-            git clone --depth 1 https://github.com/Live2D/CubismNativeFramework.git \
-              krkr2_next/cpp/plugins/cubism/Framework
-          fi
-
       - name: Build Android APK via build.sh
         run: |
           cd krkr2_next
