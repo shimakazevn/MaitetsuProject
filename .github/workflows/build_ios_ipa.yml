@@ -56,8 +56,9 @@ jobs:
       - name: Ensure Live2D Cubism Framework is Present
         run: |
           if [ ! -d "krkr2_next/cpp/plugins/cubism/Framework/src" ] && [ ! -f "krkr2_next/cpp/plugins/cubism/Framework/CubismFramework.cpp" ]; then
-            echo "Cloning Live2D Cubism Framework..."
-            git clone --depth 1 https://github.com/Live2D/CubismNativeFramework.git krkr2_next/cpp/plugins/cubism/Framework
+            echo "Cloning Live2D Cubism 4 Framework (tag 4-r.7)..."
+            rm -rf krkr2_next/cpp/plugins/cubism/Framework
+            git clone --depth 1 --branch 4-r.7 https://github.com/Live2D/CubismNativeFramework.git krkr2_next/cpp/plugins/cubism/Framework
           fi
 
       - name: Copy Vietnamese Patch3.xp3 to Asset Folder (Phương án B)
