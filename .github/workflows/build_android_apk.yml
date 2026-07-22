@@ -41,7 +41,7 @@ jobs:
       - name: Install Build Dependencies
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y cmake ninja-build pkg-config
+          sudo apt-get install -y cmake ninja-build pkg-config bison flex
 
       - name: Ensure Live2D Cubism Framework is Present
         run: |
