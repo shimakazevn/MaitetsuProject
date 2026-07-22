@@ -38,7 +38,7 @@ jobs:
 
       - name: Install Build Dependencies 
         run: |
-          brew install cmake ninja autoconf automake autoconf-archive
+          brew install cmake ninja autoconf automake autoconf-archive libtool
 
       - name: Copy Vietnamese Patch3.xp3 to Asset Folder (Phương án B)
         if: ${{ inputs.include_patch == true }}
