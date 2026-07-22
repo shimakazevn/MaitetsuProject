@@ -42,6 +42,7 @@ jobs:
           key: vcpkg-ios-${{ runner.os }}-${{ hashFiles('krkr2_next/vcpkg.json') }}
           restore-keys: |
             vcpkg-ios-${{ runner.os }}-
+          save-always: true
 
       - name: Setup Xcode Environment
         run: |
