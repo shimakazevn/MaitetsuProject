@@ -38,7 +38,8 @@ jobs:
 
       - name: Install Build Dependencies 
         run: |
-          brew install cmake ninja autoconf automake autoconf-archive libtool
+          brew install cmake ninja autoconf automake autoconf-archive libtool bison
+          echo "$(brew --prefix bison)/bin" >> $GITHUB_PATH
 
       - name: Ensure Live2D Cubism Framework is Present
         run: |
