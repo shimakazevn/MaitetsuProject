@@ -46,13 +46,10 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y cmake ninja-build pkg-config bison flex
 
-      - name: Ensure Live2D Cubism Framework is Present
+      - name: Disable Live2D Cubism Framework to use krkrlive2d_stub
         run: |
-          if [ ! -d "krkr2_next/cpp/plugins/cubism/Framework/src" ] && [ ! -f "krkr2_next/cpp/plugins/cubism/Framework/CubismFramework.cpp" ]; then
-            echo "Cloning Live2D Cubism 4 Framework (tag 4-r.7)..."
-            rm -rf krkr2_next/cpp/plugins/cubism/Framework
-            git clone --depth 1 --branch 4-r.7 https://github.com/Live2D/CubismNativeFramework.git krkr2_next/cpp/plugins/cubism/Framework
-          fi
+          echo "Removing Cubism Framework to build with stub for Maitetsu..."
+          rm -rf krkr2_next/cpp/plugins/cubism/Framework
 
       - name: Build Android APK via build.sh
         run: |
