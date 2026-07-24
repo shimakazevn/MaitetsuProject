@@ -1,0 +1,57 @@
+/*
+ * xp3filter.tjs  -  XP3 Decryption Filter for Maitetsu Last Run!! Việt Hóa
+ *
+ * Implements the Maitetsu CxEncryption decryption algorithm.
+ * Place this file in the same directory as the XP3 archives on the device.
+ *
+ * Compatible with KrKr2-Next (Android / iOS).
+ */
+
+// ---------------------------------------------------------------------------
+//  Maitetsu CxDecryption VM
+//  Mirrors the C++ run_cx_vm() in MaitetsuCxDecryption.cpp:
+//
+//      eax = hash ^ pos
+//      eax = (eax ^ 0x5D3B892F) + 0x2E4A9137
+//      eax = (eax >>> 3) | (eax << 29)   [32-bit rotate-right by 3]
+//  Result low byte is the XOR mask for that position.
+// ---------------------------------------------------------------------------
+
+function cxDecryptByte(hash, pos)
+{
+    // JavaScript/TJS integers are 32-bit in TJS2 — keep values in 32-bit range
+    var eax = (hash ^ pos) & 0xFFFFFFFF;
+    eax = ((eax ^ 0x5D3B892F) + 0x2E4A9137) & 0xFFFFFFFF;
+    // Rotate-right 3 bits (32-bit)
+    eax = ((eax >>> 3) | (eax << 29)) & 0xFFFFFFFF;
+    return eax & 0xFF;
+}
+
+// ---------------------------------------------------------------------------
+//  XP3 filter entry point — called by the Kirikiri engine
+//
+//  info members:
+//    info.filterType  : 1 = decrypt buffer
+//    info.fileHash    : 32-bit per-file hash (encryption key seed)
+//    info.buffer      : byte array, modified in-place
+//    info.bufferSize  : number of bytes in info.buffer
+//    info.offset      : file offset of the first byte of this buffer
+// ---------------------------------------------------------------------------
+
+function xp3filter(info)
+{
+    // Only handle decryption calls
+    if (info.filterType != 1) return;
+
+    var hash = info.fileHash;
+    if (hash == 0) return;   // Unencrypted entry — nothing to do
+
+    var buf    = info.buffer;
+    var size   = info.bufferSize;
+    var offset = info.offset;
+
+    for (var i = 0; i < size; i++)
+    {
+        buf[i] ^= cxDecryptByte(hash, (offset + i) & 0xFFFFFFFF);
+    }
+}
