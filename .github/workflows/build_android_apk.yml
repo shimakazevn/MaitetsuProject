@@ -51,6 +51,22 @@ jobs:
           echo "Removing Cubism Framework to build with stub for Maitetsu..."
           rm -rf krkr2_next/cpp/plugins/cubism/Framework
 
+      - name: Cache vcpkg installed packages (Android)
+        uses: actions/cache@v4
+        with:
+          path: krkr2_next/cpp/vcpkg_installed
+          key: vcpkg-android-ubuntu-${{ hashFiles('krkr2_next/cpp/vcpkg.json', 'krkr2_next/cpp/CMakeLists.txt') }}
+          restore-keys: |
+            vcpkg-android-ubuntu-
+
+      - name: Cache CMake build output (Android)
+        uses: actions/cache@v4
+        with:
+          path: krkr2_next/apps/flutter_app/android/.cxx
+          key: cmake-android-${{ hashFiles('krkr2_next/cpp/**/*.cpp', 'krkr2_next/cpp/**/*.h', 'krkr2_next/cpp/CMakeLists.txt') }}
+          restore-keys: |
+            cmake-android-
+
       - name: Build Android APK via build.sh
         run: |
           cd krkr2_next
