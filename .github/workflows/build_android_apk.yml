@@ -29,10 +29,10 @@ jobs:
       - name: Free Disk Space (Prevent Out of Disk Space error)
         run: |
           sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
           sudo rm -rf /opt/ghc
           sudo rm -rf /usr/local/share/boost
           sudo rm -rf /usr/local/lib/node_modules
+          sudo rm -rf /usr/share/swift
           df -h
 
       - name: Setup Java 17
