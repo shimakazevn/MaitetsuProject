@@ -65,7 +65,7 @@ jobs:
         with:
           path: |
             krkr2_next/cpp/vcpkg_installed
-            krkr2_next/.devtools/vcpkg/downloads
+            krkr2_next/.devtools/vcpkg
             ~/.cache/vcpkg/archives
           key: vcpkg-android-ubuntu-${{ hashFiles('krkr2_next/cpp/vcpkg.json', 'krkr2_next/cpp/CMakeLists.txt') }}
           restore-keys: |
