@@ -160,7 +160,9 @@ class MaitetsuCxEncryption:
     def __init__(self, scheme_path=None):
         if scheme_path is None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            scheme_path = os.path.join(base_dir, "reflect_app", "maitetsu_scheme.json")
+            p1 = os.path.join(base_dir, "maitetsu_scheme.json")
+            p2 = os.path.join(base_dir, "reflect_app", "maitetsu_scheme.json")
+            scheme_path = p1 if os.path.exists(p1) else p2
 
         with open(scheme_path, "r", encoding="utf-8") as f:
             scheme = json.load(f)
