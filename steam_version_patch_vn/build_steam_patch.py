@@ -21,7 +21,7 @@ DEFAULT_STEAM_DIR = r"E:\SteamLibrary\steamapps\common\MaitetsuLastRun"
 
 # Ensure tools are importable
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "tools"))
-from make_patch3_maitetsu import pack_maitetsu_xp3
+from pack_steam_plain_xp3 import pack_steam_plain_xp3
 
 def assemble_staging():
     print(f"[*] Assembling Steam patch assets into {STAGING_DIR}...")
@@ -51,7 +51,7 @@ def build_steam_patch(target_dir=DEFAULT_STEAM_DIR, patch_name="patch.xp3"):
     assemble_staging()
     
     print(f"[*] Packaging Steam XP3 archive...")
-    pack_maitetsu_xp3(STAGING_DIR, OUTPUT_XP3)
+    pack_steam_plain_xp3(STAGING_DIR, OUTPUT_XP3)
     
     if os.path.exists(OUTPUT_XP3):
         sz = os.path.getsize(OUTPUT_XP3) / (1024 * 1024)
