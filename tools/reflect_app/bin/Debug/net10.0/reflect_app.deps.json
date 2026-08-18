@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "reflect_app/1.0.0": {
+        "dependencies": {
+          "ArcFormats": "1.2.48.2266",
+          "GameRes": "1.5.44.324"
+        },
+        "runtime": {
+          "reflect_app.dll": {}
+        }
+      },
+      "ArcFormats/1.2.48.2266": {
+        "runtime": {
+          "ArcFormats.dll": {
+            "assemblyVersion": "1.2.48.2266",
+            "fileVersion": "1.2.48.2266"
+          }
+        }
+      },
+      "GameRes/1.5.44.324": {
+        "runtime": {
+          "GameRes.dll": {
+            "assemblyVersion": "1.5.44.324",
+            "fileVersion": "1.5.44.324"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "reflect_app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArcFormats/1.2.48.2266": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameRes/1.5.44.324": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,4682 @@
+Element 0:
+[
+  null,
+  [
+    [
+      null,
+      "ざくざく、歩く。",
+      8
+    ],
+    [
+      null,
+      "沙沙，沙沙。",
+      6
+    ],
+    [
+      null,
+      "沙沙，沙沙。",
+      6
+    ]
+  ],
+  null,
+  208,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 1:
+[
+  null,
+  [
+    [
+      null,
+      "夏草を踏み、完全に[うず]埋もれているかつてのレールに、\\nその役割を思い出させる。",
+      36,
+      "夏草を踏み、完全にうずもれているかつてのレールに、その役割を思い出させる。",
+      "夏草を踏み、完全に埋もれているかつてのレールに、その役割を思い出させる。"
+    ],
+    [
+      null,
+      "我们沿着被夏草埋没的旧铁轨，一边走一边说着。",
+      22
+    ],
+    [
+      null,
+      "我們沿着被夏草埋沒的舊鐵軌，一邊走一邊說着。",
+      22
+    ]
+  ],
+  null,
+  1728,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 2:
+[
+  "双鉄",
+  [
+    [
+      null,
+      "「しかし、ハチロクには助けられたな」",
+      18
+    ],
+    [
+      "双铁",
+      "「真是多亏了八六」",
+      9
+    ],
+    [
+      "Song Thiết",
+      "「Thật sự phải cảm ơn Hachiroku nhỉ」",
+      35
+    ]
+  ],
+  [
+    {
+      "name": "双鉄",
+      "pan": 0,
+      "type": 0,
+      "voice": "a01_05969"
+    }
+  ],
+  1728,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 3:
+[
+  "ポーレット",
+  [
+    [
+      null,
+      "「そうですね。ちょっと盲点でした」",
+      17
+    ],
+    [
+      "波莱特",
+      "「是啊。真是出乎意料」",
+      11
+    ],
+    [
+      "Paulette",
+      "「Đúng vậy nhỉ. Thật sự là một điểm mù」",
+      38
+    ]
+  ],
+  [
+    {
+      "name": "ポーレット",
+      "pan": 0,
+      "type": 0,
+      "voice": "a03_01967"
+    }
+  ],
+  192,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0
+            ],
+            [
+              "$face_cheek",
+              0
+            ],
+            [
+              "$face_eye_UD",
+              0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0
+            ],
+            [
+              "$face_eyebrow",
+              0
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$move_UD",
+              0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0
+            ],
+            [
+              "$face_eye_LR",
+              0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0
+            ],
+            [
+              "$move_LR",
+              0
+            ],
+            [
+              "$face_tears",
+              0
+            ],
+            [
+              "$bust_type",
+              1
+            ],
+            [
+              "$body_UD",
+              -9
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$body_LR",
+              0
+            ],
+            [
+              "$head_slant",
+              -18
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$head_UD",
+              1
+            ],
+            [
+              "$fade_x",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": -9.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 1.0,
+                  "head_slant": -18.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 4:
+[
+  null,
+  [
+    [
+      null,
+      "『でしたら、引けばいいのです。\\x%l8620;#00ffc040;8620%l;#;で\\x%lキハ07;#00ffc040;キハ07%l;#;を。\\n\\x%lキハ07;#00ffc040;キハ07%l;#;を動力車でなく、ただ\\x%l客車;#00ffc040;客車%l;#;として引けばいい』",
+      51,
+      "『でしたら、引けばいいのです。8620でキハ07を。キハ07を動力車でなく、ただ客車として引けばいい』",
+      "『でしたら、引けばいいのです。8620でキハ07を。キハ07を動力車でなく、ただ客車として引けばいい』"
+    ],
+    [
+      null,
+      "“既然这样，就把\\x%lキハ07;#00ffc040;Ｋｉｈａ０７%l;#;当作普通的\\x%l客車;#00ffc040;客运车厢%l;#;而不是动力车，然后用\\x%l8620;#00ffc040;８６２０%l;#;来牵引它吧”",
+      43,
+      "“既然这样，就把Ｋｉｈａ０７当作普通的客运车厢而不是动力车，然后用８６２０来牵引它吧”",
+      "“既然这样，就把Ｋｉｈａ０７当作普通的客运车厢而不是动力车，然后用８６２０来牵引它吧”"
+    ],
+    [
+      null,
+      "『Vậy thì, chỉ cần kéo là được. Dùng 8620 kéo Kiha 07. Không coi Kiha 07 là đầu máy, mà chỉ đơn giản kéo nó như một toa khách』",
+      125,
+      "『Vậy thì, chỉ cần kéo là được. Dùng 8620 kéo Kiha 07. Không coi Kiha 07 là đầu máy, mà chỉ đơn giản kéo nó như một toa khách』",
+      "『Vậy thì, chỉ cần kéo là được. Dùng 8620 kéo Kiha 07. Không coi Kiha 07 là đầu máy, mà chỉ đơn giản kéo nó như một toa khách』"
+    ]
+  ],
+  null,
+  192,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0
+            ],
+            [
+              "$face_cheek",
+              0
+            ],
+            [
+              "$face_eye_UD",
+              0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0
+            ],
+            [
+              "$face_eyebrow",
+              0
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$move_UD",
+              0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0
+            ],
+            [
+              "$face_eye_LR",
+              0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0
+            ],
+            [
+              "$move_LR",
+              0
+            ],
+            [
+              "$face_tears",
+              0
+            ],
+            [
+              "$bust_type",
+              1
+            ],
+            [
+              "$body_UD",
+              -9
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$body_LR",
+              0
+            ],
+            [
+              "$head_slant",
+              -18
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$head_UD",
+              1
+            ],
+            [
+              "$fade_x",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": -9.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 1.0,
+                  "head_slant": -18.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 5:
+[
+  null,
+  [
+    [
+      null,
+      "そのハチロクの一言の上、日々姫と凪とが、\\n\\x%l機関士;#00ffc040;機関士%l;#;代理と助士とを見事に勤めてくれて――",
+      41,
+      "そのハチロクの一言の上、日々姫と凪とが、機関士代理と助士とを見事に勤めてくれて――",
+      "そのハチロクの一言の上、日々姫と凪とが、機関士代理と助士とを見事に勤めてくれて――"
+    ],
+    [
+      null,
+      "经八六这样提醒，再加上日日姬和凪两人将代理\\x%l機関士;#00ffc040;司机%l;#;及司炉的工作做得井井有条——",
+      37,
+      "经八六这样提醒，再加上日日姬和凪两人将代理司机及司炉的工作做得井井有条——",
+      "经八六这样提醒，再加上日日姬和凪两人将代理司机及司炉的工作做得井井有条——"
+    ],
+    [
+      null,
+      "Nhờ lời gợi ý đó của Hachiroku, cộng thêm Hibiki và Nagi đã làm tốt vai trò lái tàu và phụ lái thay——",
+      101,
+      "Nhờ lời gợi ý đó của Hachiroku, cộng thêm Hibiki và Nagi đã làm tốt vai trò lái tàu và phụ lái thay——",
+      "Nhờ lời gợi ý đó của Hachiroku, cộng thêm Hibiki và Nagi đã làm tốt vai trò lái tàu và phụ lái thay——"
+    ]
+  ],
+  null,
+  192,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0
+            ],
+            [
+              "$face_cheek",
+              0
+            ],
+            [
+              "$face_eye_UD",
+              0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0
+            ],
+            [
+              "$face_eyebrow",
+              0
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$move_UD",
+              0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0
+            ],
+            [
+              "$face_eye_LR",
+              0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0
+            ],
+            [
+              "$move_LR",
+              0
+            ],
+            [
+              "$face_tears",
+              0
+            ],
+            [
+              "$bust_type",
+              1
+            ],
+            [
+              "$body_UD",
+              -9
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$body_LR",
+              0
+            ],
+            [
+              "$head_slant",
+              -18
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$head_UD",
+              1
+            ],
+            [
+              "$fade_x",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": -9.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 1.0,
+                  "head_slant": -18.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 6:
+[
+  null,
+  [
+    [
+      null,
+      "結果、今日の定時の往復運行から、\\nポーレットとれいなとは解放されたのだ。",
+      35,
+      "結果、今日の定時の往復運行から、ポーレットとれいなとは解放されたのだ。",
+      "結果、今日の定時の往復運行から、ポーレットとれいなとは解放されたのだ。"
+    ],
+    [
+      null,
+      "波莱特和玲奈总算从今天的定点发车任务中解放了出来。",
+      25
+    ],
+    [
+      null,
+      "Kết quả là, Paulette và Reina đã được giải phóng khỏi chuyến vận hành khứ hồi định kỳ hôm nay.",
+      94
+    ]
+  ],
+  null,
+  1728,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0
+            ],
+            [
+              "$face_cheek",
+              0
+            ],
+            [
+              "$face_eye_UD",
+              0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0
+            ],
+            [
+              "$face_eyebrow",
+              0
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$move_UD",
+              0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0
+            ],
+            [
+              "$face_eye_LR",
+              0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0
+            ],
+            [
+              "$move_LR",
+              0
+            ],
+            [
+              "$face_tears",
+              0
+            ],
+            [
+              "$bust_type",
+              1
+            ],
+            [
+              "$body_UD",
+              -9
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$body_LR",
+              0
+            ],
+            [
+              "$head_slant",
+              -18
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$head_UD",
+              1
+            ],
+            [
+              "$fade_x",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": -9.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 1.0,
+                  "head_slant": -18.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 7:
+[
+  "ポーレット",
+  [
+    [
+      null,
+      "「一日フルに使えると、やっぱり余裕が違いますよね」",
+      25
+    ],
+    [
+      "波莱特",
+      "「一整天的时间对于调查来说挺充裕的」",
+      18
+    ],
+    [
+      "Paulette",
+      "「Có cả ngày để dùng thì quả là khác hẳn nhỉ」",
+      44
+    ]
+  ],
+  [
+    {
+      "name": "ポーレット",
+      "pan": 0,
+      "type": 0,
+      "voice": "a03_01968"
+    }
+  ],
+  1728,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0
+            ],
+            [
+              "$face_cheek",
+              0
+            ],
+            [
+              "$face_eye_UD",
+              0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0
+            ],
+            [
+              "$face_eyebrow",
+              0
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              -1
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$move_UD",
+              0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0
+            ],
+            [
+              "$face_eye_LR",
+              0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0
+            ],
+            [
+              "$move_LR",
+              0
+            ],
+            [
+              "$face_tears",
+              0
+            ],
+            [
+              "$bust_type",
+              1
+            ],
+            [
+              "$body_UD",
+              -10
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$body_LR",
+              0
+            ],
+            [
+              "$head_slant",
+              9
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$head_UD",
+              -8
+            ],
+            [
+              "$fade_x",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": -10.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": -1.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": -8.0,
+                  "head_slant": 9.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 8:
+[
+  "双鉄",
+  [
+    [
+      null,
+      "「うむ。おかげで成果も出せてる」",
+      16
+    ],
+    [
+      "双铁",
+      "「是啊。我们也因此有了收获」",
+      14
+    ],
+    [
+      "Song Thiết",
+      "「Ừm. Nhờ vậy mà cũng có thành quả rồi」",
+      38
+    ]
+  ],
+  [
+    {
+      "name": "双鉄",
+      "pan": 0,
+      "type": 0,
+      "voice": "a01_05970"
+    }
+  ],
+  192,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0
+            ],
+            [
+              "$face_cheek",
+              0
+            ],
+            [
+              "$face_eye_UD",
+              0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0
+            ],
+            [
+              "$face_eyebrow",
+              0
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              -1
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$move_UD",
+              0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0
+            ],
+            [
+              "$face_eye_LR",
+              0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0
+            ],
+            [
+              "$move_LR",
+              0
+            ],
+            [
+              "$face_tears",
+              0
+            ],
+            [
+              "$bust_type",
+              1
+            ],
+            [
+              "$body_UD",
+              -10
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$body_LR",
+              0
+            ],
+            [
+              "$head_slant",
+              9
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$head_UD",
+              -8
+            ],
+            [
+              "$fade_x",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": -10.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": -1.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": -8.0,
+                  "head_slant": 9.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]
+Element 9:
+[
+  null,
+  [
+    [
+      null,
+      "今日の調査で、優先順位を明確にできたような気がする。",
+      26
+    ],
+    [
+      null,
+      "经过今天的调查，我们弄清了待办事项的先后顺序。",
+      23
+    ],
+    [
+      null,
+      "Có cảm giác qua cuộc khảo sát hôm nay, chúng tôi đã xác định rõ được thứ tự ưu tiên.",
+      84
+    ]
+  ],
+  null,
+  192,
+  {
+    "data": [
+      [
+        "bg",
+        "stage",
+        {
+          "action": [
+            [
+              "zoomy",
+              50
+            ],
+            [
+              "zoomx",
+              50
+            ],
+            [
+              "zpos",
+              233.33333333333337
+            ]
+          ],
+          "class": "stage",
+          "name": "bg",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "森_昼"
+            },
+            "posName": null
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "bgm",
+        "bgm",
+        {
+          "action": [
+            [
+              "fade",
+              80
+            ]
+          ],
+          "name": "bgm",
+          "replay": {
+            "filename": "v08_しゅっぱつしんこう！！_piano solo",
+            "loop": 1,
+            "start": null,
+            "state": 1,
+            "volume": 100.0
+          },
+          "update": {
+            "state": 1
+          }
+        }
+      ],
+      [
+        "れいな",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_LR",
+              0.0
+            ],
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0.0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$face_cheek",
+              0.0
+            ],
+            [
+              "$face_eye_UD",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0.0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$move_LR",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0.0
+            ],
+            [
+              "$face_tears",
+              0.0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0.0
+            ],
+            [
+              "$face_eyebrow",
+              0.0
+            ],
+            [
+              "$body_UD",
+              0.0
+            ],
+            [
+              "ypos",
+              -185
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              0.0
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$body_LR",
+              0.0
+            ],
+            [
+              "$move_UD",
+              0.0
+            ],
+            [
+              "$head_slant",
+              0.0
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "$head_UD",
+              0.0
+            ],
+            [
+              "$fade_x",
+              0.0
+            ],
+            [
+              "xpos",
+              495
+            ],
+            [
+              "$body_slant",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "れいな",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "れいな顔_制服.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ中"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": 0.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": 0.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": 0.0,
+                  "head_slant": 0.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ],
+      [
+        "ポーレット",
+        "facewindow",
+        {
+          "action": [
+            [
+              "$face_eye_hi",
+              0.0
+            ],
+            [
+              "$head_LR",
+              0
+            ],
+            [
+              "$face_cheek",
+              0
+            ],
+            [
+              "$face_eye_UD",
+              0
+            ],
+            [
+              "$fade_v",
+              0.0
+            ],
+            [
+              "$face_talk",
+              0.0
+            ],
+            [
+              "$face_mouth",
+              0
+            ],
+            [
+              "$all_slant",
+              0.0
+            ],
+            [
+              "$act_sp",
+              0
+            ],
+            [
+              "$face_eyebrow",
+              0
+            ],
+            [
+              "$all_UD",
+              0.0
+            ],
+            [
+              "$face_eye_open",
+              -1
+            ],
+            [
+              "zpos",
+              -100
+            ],
+            [
+              "$move_UD",
+              0
+            ],
+            [
+              "$act_bg",
+              0.0
+            ],
+            [
+              "$fade_w",
+              0.0
+            ],
+            [
+              "xpos",
+              -480
+            ],
+            [
+              "$body_slant",
+              0
+            ],
+            [
+              "$face_eye_LR",
+              0
+            ],
+            [
+              "$fade_z",
+              0.0
+            ],
+            [
+              "$arm_type",
+              0
+            ],
+            [
+              "$move_LR",
+              0
+            ],
+            [
+              "$face_tears",
+              0
+            ],
+            [
+              "$bust_type",
+              1
+            ],
+            [
+              "$body_UD",
+              -10
+            ],
+            [
+              "ypos",
+              -205
+            ],
+            [
+              "$all_LR",
+              0.0
+            ],
+            [
+              "$body_LR",
+              0
+            ],
+            [
+              "$head_slant",
+              9
+            ],
+            [
+              "$fade_y",
+              0.0
+            ],
+            [
+              "$head_UD",
+              -8
+            ],
+            [
+              "$fade_x",
+              0.0
+            ]
+          ],
+          "class": "facewindow",
+          "name": "ポーレット",
+          "redraw": {
+            "disp": 2,
+            "imageFile": {
+              "file": "ポーレット顔_私服e.psb",
+              "options": {
+                "timelines": [
+                  {
+                    "blendRatio": 1.0,
+                    "flags": 3,
+                    "label": "複合揺れ小2"
+                  }
+                ],
+                "variables": {
+                  "act_bg": 0.0,
+                  "act_sp": 0.0,
+                  "all_LR": 0.0,
+                  "all_UD": 0.0,
+                  "all_slant": 0.0,
+                  "arm_type": 0.0,
+                  "body_LR": 0.0,
+                  "body_UD": -10.0,
+                  "body_slant": 0.0,
+                  "face_cheek": 0.0,
+                  "face_eye_LR": 0.0,
+                  "face_eye_UD": 0.0,
+                  "face_eye_hi": 0.0,
+                  "face_eye_open": -1.0,
+                  "face_eyebrow": 0.0,
+                  "face_mouth": 0.0,
+                  "face_talk": 0.0,
+                  "face_tears": 0.0,
+                  "fade_v": 0.0,
+                  "fade_w": 0.0,
+                  "fade_x": 0.0,
+                  "fade_y": 0.0,
+                  "fade_z": 0.0,
+                  "head_LR": 0.0,
+                  "head_UD": -8.0,
+                  "head_slant": 9.0,
+                  "move_LR": 0.0,
+                  "move_UD": 0.0
+                }
+              }
+            },
+            "posName": "顔"
+          },
+          "showmode": 3,
+          "type": null
+        }
+      ]
+    ],
+    "env": {
+      "action": [
+        [
+          "shiftx",
+          -250
+        ],
+        [
+          "camerazoom",
+          140
+        ]
+      ],
+      "name": "env"
+    },
+    "scnseek": {
+      "visible": 1
+    }
+  }
+]

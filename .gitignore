@@ -1,10 +1,29 @@
-node_modules/
-tokens.json
-.env
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 *.log
-test-sdk.ts
+
+# Node / JS
+node_modules/
 bun.lockb
-/gemini-proxy/
+
+# Local environment & secrets
+.env
+tokens.json
+
+# Staging & build output
+/staging_patch/
+/test_staging/
 /scratch/
+/scratch_game/
+/extracted_assets/
+/gemini-proxy/
 /tjs2_decompiler_crate/
-/compiled_scn/
+test-sdk.ts
+
+# Large binary distributions & Archives
+*.rar
+*.zip
+*.7z
+*.xp3
