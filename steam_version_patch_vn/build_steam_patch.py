@@ -16,6 +16,9 @@ COMPILED_SCN_DIR = os.path.join(PROJECT_ROOT, "compiled_scn")
 STAGING_DIR = os.path.join(CURRENT_DIR, "staging_steam_patch")
 OUTPUT_XP3 = os.path.join(CURRENT_DIR, "patch_steam.xp3")
 
+# Default Steam Game Directory
+DEFAULT_STEAM_DIR = r"E:\SteamLibrary\steamapps\common\MaitetsuLastRun"
+
 # Ensure tools are importable
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "tools"))
 from make_patch3_maitetsu import pack_maitetsu_xp3
@@ -44,7 +47,7 @@ def assemble_staging():
                 
     print(f"    -> Staged {count_assets} assets + {count_scn} SCN files (Total: {count_assets + count_scn} files)")
 
-def build_steam_patch(target_dir=None, patch_name="patch.xp3"):
+def build_steam_patch(target_dir=DEFAULT_STEAM_DIR, patch_name="patch.xp3"):
     assemble_staging()
     
     print(f"[*] Packaging Steam XP3 archive...")
@@ -65,7 +68,7 @@ def build_steam_patch(target_dir=None, patch_name="patch.xp3"):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build Steam Vietnamese Patch for Maitetsu")
-    parser.add_argument("--target", type=str, default=None, help="Steam game directory to copy patch to")
+    parser.add_argument("--target", type=str, default=DEFAULT_STEAM_DIR, help="Steam game directory to copy patch to")
     parser.add_argument("--name", type=str, default="patch.xp3", help="Target patch file name (default: patch.xp3)")
     args = parser.parse_args()
     
