@@ -12,6 +12,13 @@ TOML_DIR = os.path.join(PROJECT_DIR, "translation_toml")
 
 VN_REGEX = re.compile(r'[áàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]', re.IGNORECASE)
 
+def is_file_translated(content):
+    # Check if there are Vietnamese accents (for normal script files)
+    vn_chars = len(VN_REGEX.findall(content))
+    if vn_chars >= 1:
+        return True
+    return False
+
 def main():
     print("=" * 65)
     print("        Maitetsu Last Run!! - Translation Progress Report")
@@ -35,7 +42,7 @@ def main():
             try:
                 with open(tp, "r", encoding="utf-8-sig", errors="ignore") as fp:
                     content = fp.read()
-                if len(VN_REGEX.findall(content)) > 20:
+                if is_file_translated(content):
                     translated_in_route += 1
             except Exception:
                 pass

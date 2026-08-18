@@ -2,7 +2,7 @@
 <div align="center">
 
 ![Version](https://img.shields.io/badge/Patch_Version-v1.0.0-blue.svg?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Translation_Progress-99.1%25-brightgreen.svg?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Translation_Progress-100%25-brightgreen.svg?style=for-the-badge)
 ![Platforms](https://img.shields.io/badge/Platform-Windows_%7C_Android_%7C_iOS_%7C_Steam-orange.svg?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/Engine-Kirikiri_2_/_KAG3-lightgrey.svg?style=for-the-badge)
 
@@ -55,19 +55,19 @@ Chạy lệnh `check_progress.bat` (hoặc `python tools/scripts/check_progress.
 
 | Tuyến Cốt Truyện (Route) | Thư Mục | Số File | Đã Dịch | Tiến Độ |
 | :--- | :--- | :---: | :---: | :---: |
-| **Common Route** (Tuyến Chung) | `00_Common` | 16 | 15 | **93.8%** |
+| **Common Route** (Tuyến Chung) | `00_Common` | 16 | 16 | **100.0%** |
 | **Hachiroku Route** | `01_Hachiroku` | 46 | 46 | **100.0%** |
 | **Hibiki Route** | `02_Hibiki` | 37 | 37 | **100.0%** |
 | **Paulette Route** | `03_Paulette` | 37 | 37 | **100.0%** |
 | **Reina Route** | `04_Reina` | 13 | 13 | **100.0%** |
 | **Mayami Route** | `05_Mayami` | 12 | 12 | **100.0%** |
 | **Kisaki Route** | `06_Kisaki` | 13 | 13 | **100.0%** |
-| **Nagi & Fukami Route** | `07_Nagi_Fukami` | 28 | 27 | **96.4%** |
+| **Nagi & Fukami Route** | `07_Nagi_Fukami` | 28 | 28 | **100.0%** |
 | **Niiroku Route** | `08_Niiroku` | 5 | 5 | **100.0%** |
 | **Grand Route** | `09_Grand` | 11 | 11 | **100.0%** |
 | **Chikuni (China) Route** | `10_Chikuni` | 8 | 8 | **100.0%** |
 | **Extra / Other** | `11_Other` | 1 | 1 | **100.0%** |
-| **TỔNG CỘNG** | **TOÀN BỘ GAME** | **227** | **225** | **99.1%** |
+| **TỔNG CỘNG** | **TOÀN BỘ GAME** | **227** | **227** | **100.0%** |
 
 ---
 
