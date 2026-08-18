@@ -3,7 +3,7 @@
 
 ![Version](https://img.shields.io/badge/Patch_Version-v1.0.0-blue.svg?style=for-the-badge)
 ![Progress](https://img.shields.io/badge/Translation_Progress-99.1%25-brightgreen.svg?style=for-the-badge)
-![Platforms](https://img.shields.io/badge/Platform-Windows_%7C_Android_%7C_iOS-orange.svg?style=for-the-badge)
+![Platforms](https://img.shields.io/badge/Platform-Windows_%7C_Android_%7C_iOS_%7C_Steam-orange.svg?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/Engine-Kirikiri_2_/_KAG3-lightgrey.svg?style=for-the-badge)
 
 **Dự án Việt hóa hoàn chỉnh Visual Novel đỉnh cao `まいてつ Last Run!!` (Maitetsu Last Run!!)**
@@ -15,14 +15,14 @@
 ---
 
 ## 🌟 Tổng Quan Dự Án
-Dự án được xây dựng với hệ thống tự động hóa cao (Automated Toolchain Pipeline) giúp trích xuất, dịch thuật kịch bản `.toml`, biên dịch nhị phân `.scn` và đóng gói thành tệp lưu trữ nén `patch3.xp3` tương thích 100% trên cả **PC Windows**, **Android (Kirikiri 2 Next APK)** và **iOS (IPA)**.
+Dự án được xây dựng với hệ thống tự động hóa cao (Automated Toolchain Pipeline) giúp trích xuất, dịch thuật kịch bản `.toml`, biên dịch nhị phân `.scn` và đóng gói thành tệp lưu trữ nén `patch3.xp3` (bản Standalone / PC / Mobile) hoặc `patch.xp3` (bản Steam) tương thích 100% trên cả **PC Windows**, **Android (Kirikiri 2 Next APK)**, **iOS (IPA)** và **Steam**.
 
 ### ✨ Các Tính Năng & Tối Ưu Nổi Bật:
 * 🔤 **Tự động ngắt dòng thông minh (Auto Word-Wrap)**: Kích hoạt thuật toán ngắt dòng Latin/Việt hóa (`word_break: 0`), ngăn chặn triệt để tình trạng từ bị ngắt đôi ở cuối dòng.
 * 📜 **Khung thoại 3 dòng chuẩn (3-Line Layout)**: Tự động bung khung thoại `base.textmax` (`102px`) và scale font `0.70` cho các câu thoại dài, tạo trải nghiệm đọc thoáng đãng như bản tiếng Anh chính thức.
 * ⚡ **Nạp Patch Siêu Tốc (Fast AutoPath Indexing)**: Tối ưu hóa bảng băm đường dẫn trong C++ Core của Kirikiri 2, giảm thời gian khởi động game từ **>60 giây xuống <1 giây**.
 * 🎨 **Bảo toàn E-mote 2K**: Hỗ trợ đầy đủ bộ khung hình động mượt mà của nhân vật trên tất cả các nền tảng.
-* 🔄 **Tương thích tuyệt đối**: Mã hóa toàn bộ text script ở chuẩn **UTF-16 LE with single BOM**, loại bỏ 100% lỗi `Cannot convert given narrow string to wide string`.
+* 🎮 **Hỗ trợ đa phiên bản**: Module độc lập cho bản **Last Run!! Standalone** (`patch3.xp3`) và **Steam Release** (`steam_version_patch_vn/`).
 
 ---
 
@@ -71,65 +71,56 @@ Chạy lệnh `check_progress.bat` (hoặc `python tools/scripts/check_progress.
 
 ---
 
-## 🚀 Cách Đóng Gói Patch (1-Click Build)
+## 🚀 Hướng Dẫn Đóng Gói Patch (Build Pipelines)
 
-### Yêu Cầu Môi Trường:
-* Python 3.8+
-* Windows 10/11 (hoặc Linux/macOS có Wine nếu biên dịch SCN)
-
-### Các Lệnh Build:
+### 1. Bản PC Standalone / Mobile (Android & iOS)
 * **Build Toàn Bộ & Đóng Gói `patch3.xp3`**:
   ```bash
   python build_patch.py
   # Hoặc nhấp đúp file: build_patch.bat
-  ```
-* **Build & Khởi Động Lại Game Ngay**:
-  ```bash
-  python build_patch.py --restart
-  ```
-* **Build Thử 1 File Kịch Bản Cụ Thể**:
-  ```bash
-  python build_patch.py 共通01_右田双鉄の帰還.txt.toml
   ```
 * **Chỉ Đóng Gói Lại XP3 (Bỏ qua biên dịch SCN)**:
   ```bash
   python build_patch.py --pack-only
   ```
 
-> [!NOTE]
-> Khi build xong, file `patch3.xp3` (dung lượng ~309 MB, 825 files) sẽ tự động được copy vào thư mục game PC `E:\まいてつ Last Run!!` và thư mục chia sẻ emulator `E:\ShareFolderMumu\Download\Maitetsu`.
+### 2. Bản Steam Release
+* **Đóng gói ra `patch.xp3` cho Steam**:
+  ```bash
+  cd steam_version_patch_vn
+  python build_steam_patch.py --target "Đường_dẫn_thư_mục_Steam" --name "patch.xp3"
+  ```
 
 ---
 
-## 📂 Cấu Trúc Thư Mục Dự Án
+## 📂 Cấu Trúc Thư Mục Dự Án (Chuẩn & Tinh Gọn)
 
 ```
 MaitetsuProject/
 ├── .github/workflows/          # CI/CD Build APK (Android) & IPA (iOS)
-├── docs/                       # Tài liệu kỹ thuật chi tiết
+├── docs/                       # Toàn bộ tài liệu, glossary, kiến trúc kỹ thuật & dữ liệu
 │   ├── ARCHITECTURE.md         # Giải thích cơ chế CxEncryption, AutoPath, TJS Hooks
 │   ├── TRANSLATION_GUIDE.md    # Hướng dẫn quy chuẩn dịch thuật TOML
-│   └── GLOSSARY.md             # Từ điển danh xưng và thuật ngữ đường sắt
+│   ├── GLOSSARY.md             # Từ điển danh xưng và thuật ngữ đường sắt
+│   └── legacy_data/            # Dữ liệu bảng tính sao lưu cũ
 ├── original_scn/               # 216 file kịch bản gốc nguyên bản (.scn)
 ├── translation_toml/           # 227 file kịch bản dịch phân theo thư mục Route
 ├── patch_assets/               # 609 tài nguyên UI, font, TIPS, script hệ thống sạch (UTF-16 LE)
 ├── compiled_scn/               # 216 kịch bản đã biên dịch (.scn)
-├── tools/                      # Bộ công cụ biên dịch & đóng gói
+├── steam_version_patch_vn/     # Module đóng gói bản patch dành riêng cho Steam
+│   ├── patch_assets/          # Script & UI tối ưu riêng cho Steam
+│   └── build_steam_patch.py   # Script build patch Steam
+├── tools/                      # Bộ công cụ biên dịch, mã hóa & đóng gói
 │   ├── bin/                    # scn-script-inserter.exe, tjs2Compiler.exe, v.v.
 │   ├── maitetsu_crypt.py       # Bộ mã hóa/giải mã CxEncryption
 │   ├── make_patch3_maitetsu.py # Bộ đóng gói XP3 V2 tương thích 100%
-│   └── scripts/                # check_progress.py, toml_to_csv.py, v.v.
-├── build_patch.py              # Script Build Pipeline chính
+│   └── scripts/                # check_progress.py, toml_to_csv.py, extract_toml.py, v.v.
+├── krkr2_next/                 # Mã nguồn C++ Engine Kirikiri 2 Next (Cross-platform)
+├── build_patch.py              # Script Build Pipeline chính (Standalone/Mobile)
 ├── build_patch.bat             # Shortcut Build trên Windows
 ├── check_progress.bat          # Shortcut kiểm tra tiến độ
-└── README.md                   # Tài liệu dự án
+└── README.md                   # Tài liệu tổng quan dự án
 ```
-
----
-
-## 📚 Tài Liệu Kỹ Thuật
-* 📖 [Kiến Trúc Kỹ Thuật & Engine Hooks](docs/ARCHITECTURE.md)
-* ✍️ [Quy Chuẩn Dịch Thuật TOML](docs/TRANSLATION_GUIDE.md)
 
 ---
 
