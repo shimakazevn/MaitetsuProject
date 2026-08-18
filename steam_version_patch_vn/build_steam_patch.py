@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+"""
+Maitetsu Steam Version - Vietnamese Patch Build Script
+Pack clean assets + translated SCN files specifically for the Steam release.
+"""
+
+import os
+import sys
+import shutil
+import argparse
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+PATCH_ASSETS_DIR = os.path.join(CURRENT_DIR, "patch_assets")
+COMPILED_SCN_DIR = os.path.join(PROJECT_ROOT, "compiled_scn")
+STAGING_DIR = os.path.join(CURRENT_DIR, "staging_steam_patch")
+OUTPUT_XP3 = os.path.join(CURRENT_DIR, "patch_steam.xp3")
+
+# Ensure tools are importable
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "tools"))
+from make_patch3_maitetsu import pack_maitetsu_xp3
+
+def assemble_staging():
+    print(f"[*] Assembling Steam patch assets into {STAGING_DIR}...")
+    if os.path.exists(STAGING_DIR):
+        shutil.rmtree(STAGING_DIR)
+    os.makedirs(STAGING_DIR, exist_ok=True)
+    
+    # 1. Copy patch assets
+    count_assets = 0
+    for f in os.listdir(PATCH_ASSETS_DIR):
+        src = os.path.join(PATCH_ASSETS_DIR, f)
+        if os.path.isfile(src):
+            shutil.copy2(src, os.path.join(STAGING_DIR, f))
+            count_assets += 1
+            
+    # 2. Copy compiled SCN
+    count_scn = 0
+    if os.path.exists(COMPILED_SCN_DIR):
+        for f in os.listdir(COMPILED_SCN_DIR):
+            if f.endswith(".scn"):
+                shutil.copy2(os.path.join(COMPILED_SCN_DIR, f), os.path.join(STAGING_DIR, f))
+                count_scn += 1
+                
+    print(f"    -> Staged {count_assets} assets + {count_scn} SCN files (Total: {count_assets + count_scn} files)")
+
+def build_steam_patch(target_dir=None, patch_name="patch.xp3"):
+    assemble_staging()
+    
+    print(f"[*] Packaging Steam XP3 archive...")
+    pack_maitetsu_xp3(STAGING_DIR, OUTPUT_XP3)
+    
+    if os.path.exists(OUTPUT_XP3):
+        sz = os.path.getsize(OUTPUT_XP3) / (1024 * 1024)
+        print(f"[OK] Steam patch created: {OUTPUT_XP3} ({sz:.2f} MB)")
+        
+        if target_dir and os.path.exists(target_dir):
+            dst = os.path.join(target_dir, patch_name)
+            shutil.copy2(OUTPUT_XP3, dst)
+            print(f"[OK] Synced to Steam game folder: {dst}")
+            
+    # Cleanup staging
+    if os.path.exists(STAGING_DIR):
+        shutil.rmtree(STAGING_DIR)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Build Steam Vietnamese Patch for Maitetsu")
+    parser.add_argument("--target", type=str, default=None, help="Steam game directory to copy patch to")
+    parser.add_argument("--name", type=str, default="patch.xp3", help="Target patch file name (default: patch.xp3)")
+    args = parser.parse_args()
+    
+    build_steam_patch(args.target, args.name)
