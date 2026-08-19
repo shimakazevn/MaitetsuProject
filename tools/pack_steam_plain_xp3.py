@@ -128,9 +128,13 @@ def pack_steam_plain_xp3(indir, outpath):
         index_offset = out_fp.tell()
 
         # Write compressed index
+        # Kirikiri 2 XP3Archive.cpp:
+        # byte 0: index_flag (0x01 = TVP_XP3_INDEX_ENCODE_ZLIB)
+        # int64: compressed_size (comp_index length)
+        # int64: r_index_size (raw_index uncompressed length)
         out_fp.write(b"\x01")  # zlib compressed flag
-        out_fp.write(struct.pack("<q", len(raw_index)))
-        out_fp.write(struct.pack("<q", len(comp_index)))
+        out_fp.write(struct.pack("<q", len(comp_index))) # COMPRESSED SIZE FIRST!
+        out_fp.write(struct.pack("<q", len(raw_index)))  # RAW SIZE SECOND!
         out_fp.write(comp_index)
 
         # Patch index offset at byte 32
