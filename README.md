@@ -19,10 +19,22 @@ Dự án được xây dựng với hệ thống tự động hóa cao (Automate
 
 ### ✨ Các Tính Năng & Tối Ưu Nổi Bật:
 * 🔤 **Tự động ngắt dòng thông minh (Auto Word-Wrap)**: Kích hoạt thuật toán ngắt dòng Latin/Việt hóa (`word_break: 0`), ngăn chặn triệt để tình trạng từ bị ngắt đôi ở cuối dòng.
-* 📜 **Khung thoại 3 dòng chuẩn (3-Line Layout)**: Tự động bung khung thoại `base.textmax` (`102px`) và scale font `0.70` cho các câu thoại dài, tạo trải nghiệm đọc thoáng đãng như bản tiếng Anh chính thức.
+* 📐 **Hệ Thống Font Động 3 Trạng Thái (3-State Dynamic Font Architecture)**:
+  - **Trạng thái 1 (1-2 Dòng tiêu chuẩn)**: Cỡ chữ 100% (26px), line-spacing 7px, căn giữa `oy = 60px` (Margin Trên 35px / Dưới 36px).
+  - **Trạng thái 2 (2-3 Dòng trung gian)**: Cỡ chữ 91% (23.5px), line-spacing 5px, căn giữa `oy = 64px` (Margin Trên 39px / Dưới 39px).
+  - **Trạng thái 3 (3 Dòng mở rộng)**: Tự động bung khung thoại `base.textmax` (`102px`), cỡ chữ 82% (21px), line-spacing 4px, căn giữa `oy = 51px` (Margin Trên 26px / Dưới 29px), loại bỏ hoàn toàn hiện tượng lệch viền trên/dưới.
+* 📜 **Lịch Sử Thoại (Backlog) & Chọn Cảnh (SceneSel) Hoàn Thiện**:
+  - Hook trực tiếp `CustomBacklog.drawTextBlock` co font `19px` và khoảng cách dòng `2px` cho câu 3 dòng, không bị tràn qua vạch phân cách.
+  - Tối ưu kích thước font SceneSel `21px` bảo toàn cơ chế tự động rút gọn dấu 3 chấm (`...`) tích hợp sẵn của game.
+* 🌐 **Tích Hợp Menu & Việt Hóa Giao Diện Hệ Thống**:
+  - Menu Trợ Giúp tích hợp 3 liên kết chính thức của nhóm dịch **Seikowo Team** (Trang chủ Patch, Fanpage, Discord).
+  - Việt hóa 100% hộp thoại Cài đặt nút tay cầm chơi game (Gamepad) và giao diện Extra mode.
 * ⚡ **Nạp Patch Siêu Tốc (Fast AutoPath Indexing)**: Tối ưu hóa bảng băm đường dẫn trong C++ Core của Kirikiri 2, giảm thời gian khởi động game từ **>60 giây xuống <1 giây**.
 * 🎨 **Bảo toàn E-mote 2K**: Hỗ trợ đầy đủ bộ khung hình động mượt mà của nhân vật trên tất cả các nền tảng.
-* 🎮 **Hỗ trợ đa phiên bản**: Module độc lập cho bản **Last Run!! Standalone** (`patch3.xp3`) và **Steam Release** (`steam_version_patch_vn/`).
+* 🎮 **Hỗ trợ đa phiên bản độc lập**:
+  - **DMM / PC Standalone / Mobile**: Đóng gói `patch3.xp3` (Mã hóa Maitetsu CX Encryption).
+  - **Steam Release**: Đóng gói `patch.xp3` (Chuẩn Unencrypted RAW XP3, cách ly script hệ thống).
+
 
 ---
 

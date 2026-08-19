@@ -7,9 +7,8 @@ from typing import List
 
 # TVP constants
 XP3_SIG = b"XP3\r\n \n\x1a\x8b\x67\x01"
-TVP_XP3_FILE_PROTECTED = 1 << 31  # 0x80000000
-TVP_XP3_SEGM_ENCODE_RAW = 0
-TVP_XP3_SEGM_ENCODE_ZLIB = 1
+TVP_XP3_FILE_PROTECTED = 0  # 0 = UNPROTECTED / NO CX ENCRYPTION
+TVP_XP3_SEGM_ENCODE_RAW = 0 # 0 = RAW DIRECT BYTES
 
 class Xp3Info_t(ctypes.Structure):
     _pack_ = 1
@@ -57,19 +56,19 @@ def pack_steam_plain_xp3(indir, outpath):
             inpaths.append(inpath)
 
     inpaths.sort()
-    print(f"Packing {len(inpaths)} unencrypted files (100% Steam XP3 binary compatible) to {outpath}...")
+    print(f"Packing {len(inpaths)} raw unencrypted files to {outpath}...")
 
     # Write directly to disk stream
     with open(outpath, "wb+") as out_fp:
-        # Write V2 Header matching Steam patch_append91.xp3 exactly
-        out_fp.write(XP3_SIG)                          # 11 bytes: XP3\r\n \n\x1a\x8bg\x01
+        # Write V2 Header
+        out_fp.write(XP3_SIG)                          # 11 bytes
         out_fp.write(struct.pack("<q", 0x17))          # 8 bytes: 0x17 (offset 23)
         out_fp.write(struct.pack("<i", 1))             # 4 bytes: 1
         out_fp.write(b"\x80")                          # 1 byte: 0x80
         out_fp.write(struct.pack("<q", 0))             # 8 bytes: 0
         
         index_pos_offset = out_fp.tell()
-        out_fp.write(struct.pack("<q", 0))             # 8 bytes: placeholder for index offset
+        out_fp.write(struct.pack("<q", 0))             # 8 bytes placeholder for index offset
 
         entries: List[Xp3Entry] = []
         for inpath in inpaths:
@@ -80,7 +79,7 @@ def pack_steam_plain_xp3(indir, outpath):
             orig_size = len(raw_data)
             adlr_hash = update_adler32(raw_data)
 
-            # Write RAW unencrypted data (Steam binary expects raw unencrypted bytes)
+            # Write RAW unencrypted bytes
             offset = out_fp.tell()
             out_fp.write(raw_data)
 
@@ -92,7 +91,7 @@ def pack_steam_plain_xp3(indir, outpath):
             )
             entries.append(entry)
 
-        # Build Index Stream matching official chunk order: adlr -> segm -> info
+        # Build Index Stream: adlr -> segm -> info (flags = 0 for NO CX DECRYPTION)
         index_io = io.BytesIO()
         for entry in entries:
             # 1. adlr chunk
@@ -100,7 +99,7 @@ def pack_steam_plain_xp3(indir, outpath):
             adlr.hash = entry.hash
             adlr_chunk = b"adlr" + struct.pack("<q", ctypes.sizeof(Xp3Adlr_t)) + bytes(adlr)
 
-            # 2. segm chunk
+            # 2. segm chunk (RAW uncompressed)
             segm = Xp3Segm_t()
             segm.flags = TVP_XP3_SEGM_ENCODE_RAW # 0
             segm.offset = entry.offset
@@ -108,9 +107,9 @@ def pack_steam_plain_xp3(indir, outpath):
             segm.zsize = entry.size
             segm_chunk = b"segm" + struct.pack("<q", ctypes.sizeof(Xp3Segm_t)) + bytes(segm)
 
-            # 3. info chunk
+            # 3. info chunk (flags = 0: standard unprotected file, bypasses CX decryption)
             info = Xp3Info_t()
-            info.flags = TVP_XP3_FILE_PROTECTED # 0x80000000
+            info.flags = 0 # 0 = UNPROTECTED / BYPASS CX
             info.fsize = entry.size
             info.zsize = entry.size
             info.namelen = len(entry.name)
@@ -119,7 +118,7 @@ def pack_steam_plain_xp3(indir, outpath):
             info_data_bytes = bytes(info) + name_bytes
             info_chunk = b"info" + struct.pack("<q", len(info_data_bytes)) + info_data_bytes
 
-            # Combine in exact official order
+            # Combine in exact Kirikiri order: adlr -> segm -> info
             sub_chunks_data = adlr_chunk + segm_chunk + info_chunk
             file_chunk = b"File" + struct.pack("<q", len(sub_chunks_data)) + sub_chunks_data
             index_io.write(file_chunk)
@@ -139,7 +138,7 @@ def pack_steam_plain_xp3(indir, outpath):
         out_fp.write(struct.pack("<q", index_offset))
 
     sz_mb = os.path.getsize(outpath) / (1024*1024)
-    print(f"[OK] Steam-compatible XP3 created: {outpath} ({sz_mb:.2f} MB)")
+    print(f"[OK] Steam-compatible unencrypted XP3 created: {outpath} ({sz_mb:.2f} MB)")
 
 if __name__ == "__main__":
     staging = r"E:\MaitetsuProject\steam_version_patch_vn\staging_steam_patch"
