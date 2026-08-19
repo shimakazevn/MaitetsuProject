@@ -1,178 +1,73 @@
-
-using System;
-using System.Reflection;
-using System.Linq;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
-using System.Text;
+using System.Linq;
+using System.Reflection;
+using System.Collections;
+using GameRes;
 
-class Program
-{
-    static void Main()
-    {
-        try
-        {
-            // Load Assemblies
-            var gameRes = Assembly.LoadFrom("GameRes.dll");
-            var arcFormats = Assembly.LoadFrom("ArcFormats.dll");
+class Extractor {
+    static void Main(string[] args) {
+        string datPath = Path.Combine("GameData", "Formats.dat");
+        using (Stream s = File.OpenRead(datPath)) {
+            FormatCatalog.Instance.DeserializeScheme(s);
+        }
 
-            // Print fields of CxProgram
-            var cxProgramType = gameRes.GetType("GameRes.Formats.KiriKiri.CxProgram") ?? arcFormats.GetType("GameRes.Formats.KiriKiri.CxProgram");
-            if (cxProgramType != null)
-            {
-                Console.WriteLine("=== CxProgram Fields ===");
-                foreach (var f in cxProgramType.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
-                {
-                    Console.WriteLine($"  {f.FieldType.Name} {f.Name}");
-                }
+        string arcPath = @"E:\SteamLibrary\steamapps\common\MaitetsuLastRun\others.xp3";
+        string outDir = @"E:\MaitetsuProject\steam_version_patch_vn\extracted_assets\others";
+        Directory.CreateDirectory(outDir);
+
+        var arcFormats = Assembly.LoadFrom("ArcFormats.dll");
+        var xp3OpenerType = arcFormats.GetType("GameRes.Formats.KiriKiri.Xp3Opener");
+        var format = FormatCatalog.Instance.ArcFormats.FirstOrDefault(a => a.GetType().Name == "Xp3Opener");
+
+        var schemeProp = xp3OpenerType.GetProperty("Scheme");
+        var schemeObj = schemeProp.GetValue(format, null);
+        var knownSchemesField = schemeObj.GetType().GetField("KnownSchemes", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+        var knownSchemes = (IDictionary)knownSchemesField.GetValue(schemeObj);
+
+        object maitetsuCrypt = null;
+        foreach (DictionaryEntry entry in knownSchemes) {
+            string k = entry.Key.ToString();
+            if (k == "Maitetsu - Last Run!!") {
+                maitetsuCrypt = entry.Value;
+                Console.WriteLine("Found scheme: " + k);
+                break;
             }
+        }
 
-            // Load scheme catalog from GameData/Formats.dat
-            string datPath = Path.Combine("GameData", "Formats.dat");
-            if (!File.Exists(datPath))
-            {
-                datPath = "Formats.dat";
-            }
+        var forceQueryField = xp3OpenerType.GetField("ForceEncryptionQuery", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+        if (forceQueryField != null) forceQueryField.SetValue(format, false);
 
-            using (Stream stream = File.OpenRead(datPath))
-            {
-                GameRes.FormatCatalog.Instance.DeserializeScheme(stream);
-            }
+        var noCryptField = xp3OpenerType.GetField("NoCryptAlgorithm", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+        if (noCryptField != null && maitetsuCrypt != null) {
+            noCryptField.SetValue(format, maitetsuCrypt);
+        }
 
-            // Get XP3 opener
-            var format = GameRes.FormatCatalog.Instance.ArcFormats
-                .FirstOrDefault(a => a.GetType().Name == "Xp3Opener");
-
-            if (format != null)
-            {
-                var schemeProperty = format.GetType().GetProperty("Scheme");
-                var scheme = schemeProperty.GetValue(format);
-                if (scheme != null)
-                {
-                    var knownSchemesField = scheme.GetType().GetField("KnownSchemes", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-                    var knownSchemes = knownSchemesField.GetValue(scheme) as System.Collections.IDictionary;
-                    if (knownSchemes != null)
-                    {
-                        foreach (System.Collections.DictionaryEntry entry in knownSchemes)
-                        {
-                            string key = entry.Key.ToString();
-                            if (key == "Maitetsu - Last Run!!")
-                            {
-                                Console.WriteLine($"=== Found: {key} ===");
-                                var val = entry.Value;
-                                SerializeSchemeToJson(val, "maitetsu_scheme.json");
-                                Console.WriteLine("Serialized scheme parameters to maitetsu_scheme.json");
+        using (var file = new ArcView(arcPath)) {
+            using (var arc = format.TryOpen(file)) {
+                if (arc != null) {
+                    Console.WriteLine("Archive opened! Total entries: " + arc.Dir.Count);
+                    int count = 0;
+                    foreach (var entry in arc.Dir) {
+                        if (entry.Name.EndsWith(".tjs") || entry.Name.EndsWith(".csv") || entry.Name.EndsWith(".ini")) {
+                            string dest = Path.Combine(outDir, entry.Name.Replace('/', Path.DirectorySeparatorChar));
+                            var dir = Path.GetDirectoryName(dest);
+                            if (dir != null) Directory.CreateDirectory(dir);
+                            using (var srcStream = arc.OpenEntry(entry))
+                            using (var dstStream = File.Create(dest)) {
+                                srcStream.CopyTo(dstStream);
+                            }
+                            count++;
+                            if (count <= 5) {
+                                Console.WriteLine("Extracted: " + entry.Name);
                             }
                         }
                     }
+                    Console.WriteLine("Total extracted: " + count + " files");
+                } else {
+                    Console.WriteLine("TryOpen returned null!");
                 }
             }
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine("Error: " + ex);
-        }
-    }
-
-    static void SerializeSchemeToJson(object obj, string filename)
-    {
-        var type = obj.GetType();
-        var data = new Dictionary<string, object>();
-
-        foreach (var f in type.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
-        {
-            var val = f.GetValue(obj);
-            if (val is uint[] uints)
-            {
-                data[f.Name] = uints;
-            }
-            else if (val is byte[] bytes)
-            {
-                data[f.Name] = bytes;
-            }
-            else if (f.Name == "m_program_list" && val is Array arr)
-            {
-                var progList = new List<Dictionary<string, object>>();
-                for (int i = 0; i < arr.Length; i++)
-                {
-                    var elem = arr.GetValue(i);
-                    if (elem != null)
-                    {
-                        var elemDict = new Dictionary<string, object>();
-                        foreach (var ef in elem.GetType().GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
-                        {
-                            var eval = ef.GetValue(elem);
-                            if (eval is byte[] ebytes)
-                            {
-                                elemDict[ef.Name] = Convert.ToBase64String(ebytes);
-                            }
-                            else if (eval is uint[] euints)
-                            {
-                                elemDict[ef.Name] = euints;
-                            }
-                            else
-                            {
-                                elemDict[ef.Name] = eval;
-                            }
-                        }
-                        progList.Add(elemDict);
-                    }
-                }
-                data[f.Name] = progList;
-            }
-            else if (val is string || val is int || val is uint || val is bool)
-            {
-                data[f.Name] = val;
-            }
-        }
-
-        // Quick JSON serialization
-        var json = SimpleJsonSerialize(data);
-        File.WriteAllText(filename, json);
-    }
-
-    static string SimpleJsonSerialize(object obj, int indentLevel = 0)
-    {
-        string indent = new string(' ', indentLevel * 2);
-        if (obj == null) return "null";
-        if (obj is string s) return "\"" + EscapeString(s) + "\"";
-        if (obj is bool b) return b ? "true" : "false";
-        if (obj is int || obj is uint || obj is long || obj is byte) return obj.ToString();
-        if (obj is uint[] uints)
-        {
-            return "[" + string.Join(", ", uints) + "]";
-        }
-        if (obj is byte[] bytes)
-        {
-            return "[" + string.Join(", ", bytes) + "]";
-        }
-        if (obj is IDictionary<string, object> dict)
-        {
-            var parts = new List<string>();
-            foreach (var kvp in dict)
-            {
-                parts.Add($"\n{indent}  \"{kvp.Key}\": {SimpleJsonSerialize(kvp.Value, indentLevel + 1)}");
-            }
-            return "{" + string.Join(",", parts) + $"\n{indent}}}";
-        }
-        if (obj is System.Collections.IList list)
-        {
-            var parts = new List<string>();
-            foreach (var item in list)
-            {
-                parts.Add(SimpleJsonSerialize(item, indentLevel + 1));
-            }
-            return "[\n" + string.Join(",\n", parts.Select(x => indent + "  " + x)) + $"\n{indent}]";
-        }
-        return "\"" + obj.ToString() + "\"";
-    }
-
-    static string EscapeString(string s)
-    {
-        return s.Replace("\\", "\\\\").Replace("\"", "\\\"").Replace("\n", "\\n").Replace("\r", "\\r");
     }
 }
-
-
-
-

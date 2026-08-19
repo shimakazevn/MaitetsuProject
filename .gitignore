@@ -14,7 +14,8 @@ tokens.json
 
 # Staging & build output
 /staging_patch/
-/steam_version_patch_vn/staging_steam_patch/
+/steam_version_patch_vn/extracted_assets/
+/steam_version_patch_vn/steamverdump/
 /test_staging/
 /scratch/
 /scratch_game/
@@ -26,6 +27,7 @@ test-sdk.ts
 /mobile_patch/
 /krkr2_next/
 /compiled_scn/
+
 # Large binary distributions & Archives
 *.rar
 *.zip

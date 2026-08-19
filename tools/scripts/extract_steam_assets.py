@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env python3
 """
-Maitetsu Steam Version - Universal Native Asset Extractor
-Extracts and automatically decrypts all files from Steam XP3 archives directly to:
+Maitetsu Steam Version - Complete Native Decryptor & Extractor
+Extracts and perfectly decrypts all files from Steam XP3 archives to:
 E:\MaitetsuProject\steam_version_patch_vn\extracted_assets\
 """
 
@@ -10,6 +10,7 @@ import sys
 import zlib
 import mmap
 import time
+import struct
 
 PROJECT_ROOT = r"E:\MaitetsuProject"
 STEAM_DIR = r"E:\SteamLibrary\steamapps\common\MaitetsuLastRun"
@@ -17,9 +18,14 @@ EXTRACT_DEST = os.path.join(PROJECT_ROOT, "steam_version_patch_vn", "extracted_a
 TOOLS_DIR = os.path.join(PROJECT_ROOT, "tools")
 LEGACY_TOOLS_DIR = os.path.join(TOOLS_DIR, "legacy_tools")
 
+sys.path.append(TOOLS_DIR)
 sys.path.append(LEGACY_TOOLS_DIR)
 sys.path.append(os.path.join(LEGACY_TOOLS_DIR, "build_patch2_work", "GalgameReverse", "project", "krkr", "src"))
-from krkr_xp3 import parse_xp3, TVP_XP3_SEGM_ENCODE_METHOD_MASK, TVP_XP3_SEGM_ENCODE_ZLIB, decrypt_text
+
+from maitetsu_crypt import MaitetsuCxEncryption
+from krkr_xp3 import parse_xp3, TVP_XP3_SEGM_ENCODE_METHOD_MASK, TVP_XP3_SEGM_ENCODE_ZLIB
+
+cx_dec = MaitetsuCxEncryption(os.path.join(TOOLS_DIR, "maitetsu_scheme.json"))
 
 TARGET_ARCHIVES = [
     "others.xp3",
@@ -43,43 +49,70 @@ TARGET_ARCHIVES = [
     "bgimage.xp3",
 ]
 
-def decrypt_steam_data(entry_data, filename):
+def descramble_mode1(data_bytes):
+    out = bytearray()
+    for i in range(0, len(data_bytes), 2):
+        if i + 1 < len(data_bytes):
+            d = struct.unpack_from('<H', data_bytes, i)[0]
+            d = ((d & 0xAAAA) >> 1) | ((d & 0x5555) << 1)
+            out.extend(struct.pack('<H', d))
+    return out
+
+def descramble_mode0(data_bytes):
+    out = bytearray()
+    for i in range(0, len(data_bytes), 2):
+        if i + 1 < len(data_bytes):
+            d = struct.unpack_from('<H', data_bytes, i)[0]
+            if d > 0x20:
+                d = d ^ (((d & 0xFE) << 8) ^ 1)
+            out.extend(struct.pack('<H', d))
+    return out
+
+def descramble_text(data_bytes):
+    if len(data_bytes) < 5:
+        return data_bytes
+    key = data_bytes[0] ^ 0xFE
+    if (data_bytes[1] ^ key == 0xFE) and (data_bytes[3] ^ key == 0xFF) and (data_bytes[4] ^ key == 0xFE):
+        unxored = bytearray(b ^ key for b in data_bytes)
+        mode = unxored[2]
+        if mode == 1:
+            return bytes(descramble_mode1(unxored[5:]))
+        elif mode == 0:
+            return bytes(descramble_mode0(unxored[5:]))
+        elif mode == 2:
+            return bytes(zlib.decompress(unxored[21:]))
+        else:
+            return bytes(unxored[5:])
+    return None
+
+def smart_decrypt(entry_data, hash_val, name):
     if len(entry_data) < 5:
         return entry_data
         
-    # 1. Check Kirikiri text files (TJS, KS, CSV, INI, TXT, SCN)
-    key = entry_data[0] ^ 0xFE
-    if (entry_data[1] ^ key == 0xFE) and (entry_data[3] ^ key == 0xFF) and (entry_data[4] ^ key == 0xFE):
-        unxored = bytearray(b ^ key for b in entry_data)
-        mode = unxored[2]
-        return bytes(decrypt_text(unxored[5:], mode))
+    # 1. Try Maitetsu CX Decryption
+    cx_data = bytearray(entry_data)
+    cx_dec.decrypt_buffer(hash_val=hash_val, offset=0, buffer=cx_data, pos=0, count=len(cx_data))
+    
+    # Check if CX produced valid magic or text
+    if cx_data.startswith(b'\x89PNG') or cx_data.startswith(b'\xff\xd8') or cx_data.startswith(b'PSB') or cx_data.startswith(b'TLG') or cx_data.startswith(b'OggS'):
+        return bytes(cx_data)
         
-    # 2. Check PNG
-    if (entry_data[0] ^ entry_data[1] == 0x89 ^ 0x50):
-        key = entry_data[0] ^ 0x89
-        return bytes(b ^ key for b in entry_data)
+    text_dec = descramble_text(cx_data)
+    if text_dec is not None:
+        return text_dec
         
-    # 3. Check JPG
-    if (entry_data[0] ^ entry_data[1] == 0xFF ^ 0xD8):
-        key = entry_data[0] ^ 0xFF
-        return bytes(b ^ key for b in entry_data)
+    # 2. Check if raw data (non-CX) has text scrambling
+    text_raw = descramble_text(entry_data)
+    if text_raw is not None:
+        return text_raw
         
-    # 4. Check TLG
-    if (entry_data[0] ^ entry_data[1] == ord('T') ^ ord('L')):
-        key = entry_data[0] ^ ord('T')
-        return bytes(b ^ key for b in entry_data)
-        
-    # 5. Check PSB
-    if (entry_data[0] ^ entry_data[1] == ord('P') ^ ord('S')):
-        key = entry_data[0] ^ ord('P')
-        return bytes(b ^ key for b in entry_data)
-        
-    # 6. Check OGG
-    if (entry_data[0] ^ entry_data[1] == ord('O') ^ ord('g')):
-        key = entry_data[0] ^ ord('O')
-        return bytes(b ^ key for b in entry_data)
-        
-    return entry_data
+    # 3. Check simple XOR signatures for images
+    for key in [0, entry_data[0] ^ 0x89, entry_data[0] ^ 0xFF, entry_data[0] ^ ord('P'), entry_data[0] ^ ord('T')]:
+        test_buf = bytes(b ^ key for b in entry_data[:16])
+        if test_buf.startswith(b'\x89PNG') or test_buf.startswith(b'\xff\xd8') or test_buf.startswith(b'PSB') or test_buf.startswith(b'TLG') or test_buf.startswith(b'OggS'):
+            return bytes(b ^ key for b in entry_data)
+            
+    return bytes(cx_data)
 
 def extract_archive(arc_name):
     arc_path = os.path.join(STEAM_DIR, arc_name)
@@ -99,13 +132,14 @@ def extract_archive(arc_name):
             
             for e in valid_entries:
                 entry_data = bytearray()
+                cur_offset = 0
                 for segm in e.segms:
                     segdata = data[segm.offset : segm.offset + segm.zsize]
                     if (segm.flags & TVP_XP3_SEGM_ENCODE_METHOD_MASK) == TVP_XP3_SEGM_ENCODE_ZLIB:
                         segdata = zlib.decompress(segdata)
                     entry_data.extend(segdata)
                     
-                dec_data = decrypt_steam_data(entry_data, e.name)
+                dec_data = smart_decrypt(entry_data, e.adlr.hash, e.name)
                 
                 clean_name = e.name.replace("/", os.sep).strip(os.sep)
                 out_path = os.path.join(arc_dest, clean_name)
