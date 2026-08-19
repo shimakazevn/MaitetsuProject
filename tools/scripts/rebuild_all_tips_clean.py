@@ -12,6 +12,23 @@ target_dirs = [
     os.path.join(project_dir, "steam_version_patch_vn", "patch_assets")
 ]
 
+# Steam engine cannot handle full-width Unicode filenames (raises
+# "Cannot convert given narrow string to wide string" at runtime).
+# Only ASCII-safe paths are allowed in the Steam patch assets directory.
+STEAM_PATCH_DIR = os.path.join(project_dir, "steam_version_patch_vn", "patch_assets")
+
+def is_fullwidth(s):
+    """Return True if string contains any full-width Unicode characters."""
+    for ch in s:
+        cp = ord(ch)
+        # Full-width Latin/digits (Ａ-Ｚ ａ-ｚ ０-９) and full-width symbols (！-～)
+        if 0xFF01 <= cp <= 0xFF60:
+            return True
+        # Halfwidth/Fullwidth Forms block (general)
+        if 0xFFA0 <= cp <= 0xFFEF:
+            return True
+    return False
+
 # 1. Parse CN -> JP mapping
 with open(ini_file, 'r', encoding='utf-8-sig') as f:
     ini_text = f.read()
@@ -102,22 +119,35 @@ for target_dir in target_dirs:
             os.remove(os.path.join(target_dir, f))
 
     written_files = 0
+    skipped_fullwidth = 0
+    is_steam_target = os.path.normcase(os.path.normpath(target_dir)) == os.path.normcase(os.path.normpath(STEAM_PATCH_DIR))
+
     for jp_key, (text, cn_name) in tips_data.items():
         # 1. Primary: Write with Japanese key (used by Kirikiri engine)
-        fname_jp = f"tw_tips_{jp_key}.txt"
-        fpath_jp = os.path.join(target_dir, fname_jp)
-        with open(fpath_jp, "wb") as fp:
-            fp.write(b"\xff\xfe" + text.encode("utf-16le"))
-        written_files += 1
-
-        # 2. Secondary: Also write with Chinese key alias if different
-        if cn_name and cn_name != jp_key:
-            fname_cn = f"tw_tips_{cn_name}.txt"
-            fpath_cn = os.path.join(target_dir, fname_cn)
-            with open(fpath_cn, "wb") as fp:
+        # Skip full-width filenames for Steam target (engine cannot handle them)
+        if is_steam_target and is_fullwidth(jp_key):
+            skipped_fullwidth += 1
+        else:
+            fname_jp = f"tw_tips_{jp_key}.txt"
+            fpath_jp = os.path.join(target_dir, fname_jp)
+            with open(fpath_jp, "wb") as fp:
                 fp.write(b"\xff\xfe" + text.encode("utf-16le"))
             written_files += 1
 
-    print(f"  -> Generated {written_files} pristine UTF-16LE tw_tips files in {target_dir}")
+        # 2. Secondary: Also write with Chinese key alias if different
+        if cn_name and cn_name != jp_key:
+            if is_steam_target and is_fullwidth(cn_name):
+                skipped_fullwidth += 1
+            else:
+                fname_cn = f"tw_tips_{cn_name}.txt"
+                fpath_cn = os.path.join(target_dir, fname_cn)
+                with open(fpath_cn, "wb") as fp:
+                    fp.write(b"\xff\xfe" + text.encode("utf-16le"))
+                written_files += 1
+
+    msg = f"  -> Generated {written_files} pristine UTF-16LE tw_tips files in {target_dir}"
+    if skipped_fullwidth:
+        msg += f" (skipped {skipped_fullwidth} full-width filenames: Steam-incompatible)"
+    print(msg)
 
 print("\n100% of TIPS files generated with exact engine keys and clean UTF-16LE BOM!")
