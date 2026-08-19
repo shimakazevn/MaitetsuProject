@@ -1,8 +1,9 @@
 <XenosConfig>
-	<imagePath>E:\SteamLibrary\steamapps\common\MaitetsuLastRun\KrkrDump.dll</imagePath>
+	<imagePath>E:\SteamLibrary\steamapps\common\MaitetsuLastRun\KrkrExtract.UI.Lite.dll</imagePath>
+	<imagePath>E:\SteamLibrary\steamapps\common\MaitetsuLastRun\KrkrExtract.Core.dll</imagePath>
 	<manualMapFlags>0</manualMapFlags>
 	<procName>MaitetsuLastRun.exe</procName>
-	<hijack>1</hijack>
+	<hijack>0</hijack>
 	<unlink>0</unlink>
 	<erasePE>0</erasePE>
 	<close>0</close>

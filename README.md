@@ -83,6 +83,43 @@ Chạy lệnh `check_progress.bat` (hoặc `python tools/scripts/check_progress.
 
 ---
 
+## 📖 Hướng Dẫn Cài Đặt Patch
+
+### 1. Bản PC Gốc Nhật (DMM / DLsite / DVD) & Mobile (Android / iOS)
+* **PC Windows**: Sao chép tệp `patch3.xp3` vào thư mục cài đặt game (cùng cấp với `まいてつ Last Run!!.exe`).
+* **Android (Kirikiri 2 Next)**: Sao chép tệp `patch3.xp3` vào thư mục chứa dữ liệu game trên điện thoại.
+* *Lưu ý:* Bản DMM/Mobile sử dụng cơ chế giải mã gốc **Maitetsu CxEncryption** nên hoạt động 100% độc lập, không cần thêm bất kỳ tệp DLL can thiệp nào.
+
+### 2. Bản Steam (Hikari Field / Maitetsu: Last Run!!)
+Do bản Steam được tích hợp thêm 2 lớp bảo vệ chống sửa đổi (**KrkrSign RSA Digital Signature** và **Dynamic FileHash Filter**), bản patch tiếng Việt áp dụng giải pháp hook chuẩn quốc tế qua **KrkrPatch (`version.dll`)**:
+1. Đóng gói thư mục patch thành `unencrypted.xp3` (hoặc chạy `build_steam_patch.py`).
+2. Sao chép `unencrypted.xp3` (hoặc `patch.xp3`) và `version.dll` vào thư mục game Steam (`.../steamapps/common/MaitetsuLastRun/`).
+3. Khởi động game trực tiếp từ Steam. Patch sẽ tự động nạp mà vẫn giữ nguyên **Steam Overlay**, **Steam Achievements (Thành tựu)** và **Cloud Save**.
+
+---
+
+## 📊 Tiến Độ Dịch Thuật
+
+Chạy lệnh `check_progress.bat` (hoặc `python tools/scripts/check_progress.py`) để xem thống kê thời gian thực:
+
+| Tuyến Cốt Truyện (Route) | Thư Mục | Số File | Đã Dịch | Tiến Độ |
+| :--- | :--- | :---: | :---: | :---: |
+| **Common Route** (Tuyến Chung) | `00_Common` | 16 | 16 | **100.0%** |
+| **Hachiroku Route** | `01_Hachiroku` | 46 | 46 | **100.0%** |
+| **Hibiki Route** | `02_Hibiki` | 37 | 37 | **100.0%** |
+| **Paulette Route** | `03_Paulette` | 37 | 37 | **100.0%** |
+| **Reina Route** | `04_Reina` | 13 | 13 | **100.0%** |
+| **Mayami Route** | `05_Mayami` | 12 | 12 | **100.0%** |
+| **Kisaki Route** | `06_Kisaki` | 13 | 13 | **100.0%** |
+| **Nagi & Fukami Route** | `07_Nagi_Fukami` | 28 | 28 | **100.0%** |
+| **Niiroku Route** | `08_Niiroku` | 5 | 5 | **100.0%** |
+| **Grand Route** | `09_Grand` | 11 | 11 | **100.0%** |
+| **Chikuni (China) Route** | `10_Chikuni` | 8 | 8 | **100.0%** |
+| **Extra / Other** | `11_Other` | 1 | 1 | **100.0%** |
+| **TỔNG CỘNG** | **TOÀN BỘ GAME** | **227** | **227** | **100.0%** |
+
+---
+
 ## 🚀 Hướng Dẫn Đóng Gói Patch (Build Pipelines)
 
 ### 1. Bản PC Standalone / Mobile (Android & iOS)
@@ -97,10 +134,14 @@ Chạy lệnh `check_progress.bat` (hoặc `python tools/scripts/check_progress.
   ```
 
 ### 2. Bản Steam Release
-* **Đóng gói ra `patch.xp3` cho Steam**:
+* **Đóng gói patch cho Steam (Tự động sync)**:
   ```bash
   cd steam_version_patch_vn
-  python build_steam_patch.py --target "Đường_dẫn_thư_mục_Steam" --name "patch.xp3"
+  python build_steam_patch.py
+  ```
+* **Tái tạo toàn bộ từ điển TIPS sạch**:
+  ```bash
+  python tools/scripts/rebuild_all_tips_clean.py
   ```
 
 ---
@@ -109,25 +150,23 @@ Chạy lệnh `check_progress.bat` (hoặc `python tools/scripts/check_progress.
 
 ```
 MaitetsuProject/
+├── .agents/                    # Bộ quy tắc dự án & hướng dẫn AI pair-programming
 ├── .github/workflows/          # CI/CD Build APK (Android) & IPA (iOS)
 ├── docs/                       # Toàn bộ tài liệu, glossary, kiến trúc kỹ thuật & dữ liệu
 │   ├── ARCHITECTURE.md         # Giải thích cơ chế CxEncryption, AutoPath, TJS Hooks
 │   ├── TRANSLATION_GUIDE.md    # Hướng dẫn quy chuẩn dịch thuật TOML
-│   ├── GLOSSARY.md             # Từ điển danh xưng và thuật ngữ đường sắt
-│   └── legacy_data/            # Dữ liệu bảng tính sao lưu cũ
+│   └── GLOSSARY.md             # Từ điển danh xưng và thuật ngữ đường sắt
 ├── original_scn/               # 216 file kịch bản gốc nguyên bản (.scn)
 ├── translation_toml/           # 227 file kịch bản dịch phân theo thư mục Route
-├── patch_assets/               # 609 tài nguyên UI, font, TIPS, script hệ thống sạch (UTF-16 LE)
+├── patch_assets/               # Tài nguyên UI, font, TIPS, script hệ thống sạch (UTF-16 LE)
 ├── compiled_scn/               # 216 kịch bản đã biên dịch (.scn)
 ├── steam_version_patch_vn/     # Module đóng gói bản patch dành riêng cho Steam
 │   ├── patch_assets/          # Script & UI tối ưu riêng cho Steam
 │   └── build_steam_patch.py   # Script build patch Steam
 ├── tools/                      # Bộ công cụ biên dịch, mã hóa & đóng gói
 │   ├── bin/                    # scn-script-inserter.exe, tjs2Compiler.exe, v.v.
-│   ├── maitetsu_crypt.py       # Bộ mã hóa/giải mã CxEncryption
-│   ├── make_patch3_maitetsu.py # Bộ đóng gói XP3 V2 tương thích 100%
-│   └── scripts/                # check_progress.py, toml_to_csv.py, extract_toml.py, v.v.
-├── krkr2_next/                 # Mã nguồn C++ Engine Kirikiri 2 Next (Cross-platform)
+│   ├── legacy_tools/           # Xp3Pack.exe, maitetsu_crypt.py, make_patch3_maitetsu.py
+│   └── scripts/                # check_progress.py, rebuild_all_tips_clean.py, v.v.
 ├── build_patch.py              # Script Build Pipeline chính (Standalone/Mobile)
 ├── build_patch.bat             # Shortcut Build trên Windows
 ├── check_progress.bat          # Shortcut kiểm tra tiến độ
@@ -137,4 +176,4 @@ MaitetsuProject/
 ---
 
 ## ⚖️ Bản Quyền & Giấy Phép
-Dự án được thực hiện phi thương mại nhằm mục đích học tập và phục vụ cộng đồng Visual Novel Việt Nam. Bản quyền game gốc thuộc về **Lose / CIRCUS**. Hãy mua game bản quyền trên Steam/DMM để ủng hộ nhà sản xuất!
+Dự án được thực hiện phi thương mại nhằm mục đích học tập và phục vụ cộng đồng Visual Novel Việt Nam. Bản quyền game gốc thuộc về **Lose / CIRCUS / Hikari Field**. Hãy mua game bản quyền trên Steam/DMM để ủng hộ nhà sản xuất!
