@@ -30,10 +30,10 @@ Dự án được xây dựng với hệ thống tự động hóa cao (Automate
   - Menu Trợ Giúp tích hợp 3 liên kết chính thức của nhóm dịch **Seikowo Team** (Trang chủ Patch, Fanpage, Discord).
   - Việt hóa 100% hộp thoại Cài đặt nút tay cầm chơi game (Gamepad) và giao diện Extra mode.
 * ⚡ **Nạp Patch Siêu Tốc (Fast AutoPath Indexing)**: Tối ưu hóa bảng băm đường dẫn trong C++ Core của Kirikiri 2, giảm thời gian khởi động game từ **>60 giây xuống <1 giây**.
-* 🎨 **Bảo toàn E-mote 2K**: Hỗ trợ đầy đủ bộ khung hình động mượt mà của nhân vật trên tất cả các nền tảng.
+* 🎨 **Bảo toàn E-mote 2K Native**: Đồng bộ chính xác mã hiệu nhân vật (Actor ID) và layer animation E-mote riêng biệt cho từng phiên bản (DMM vs Steam), loại bỏ hoàn toàn lỗi biến mất sprite nhân vật.
 * 🎮 **Hỗ trợ đa phiên bản độc lập**:
   - **DMM / PC Standalone / Mobile**: Đóng gói `patch3.xp3` (Mã hóa Maitetsu CX Encryption).
-  - **Steam Release**: Đóng gói `patch.xp3` (Chuẩn Unencrypted RAW XP3, cách ly script hệ thống).
+  - **Steam Release**: Đóng gói `unencrypted.xp3` (Chuẩn KrkrPatch Proxy / Native Pack Setting).
 
 
 ---
@@ -43,19 +43,28 @@ Dự án được xây dựng với hệ thống tự động hóa cao (Automate
 > [!IMPORTANT]
 > Đây là các nguyên tắc cốt lõi đã được kiểm thử thực tế 100% trên engine Kirikiri 2 của Maitetsu Last Run!!. Bất kỳ thay đổi nào làm sai lệch các nguyên tắc dưới đây đều sẽ gây crash engine (`Syntax error`, `Invalid argument count`, hoặc `Member does not exist`):
 
-1. **Chuẩn Mã Hóa File Hệ Thống (UTF-16 LE Single BOM)**:
+1. **Sự Khác Biệt Bytecode Giữa Bản DMM và Bản Steam**:
+   * **CẤM** dùng chung file nhị phân `.scn` giữa DMM và Steam! Bản Steam có mã opcode và ánh xạ chỉ số E-mote actor khác DMM. Nếu lấy `.scn` của DMM bỏ vào Steam, nhân vật (Nagi, Hibiki...) sẽ bị mất hiển thị trên màn hình.
+   * **Quy chuẩn**: Khi biên dịch SCN cho Steam, luôn dùng phôi gốc Steam (`steam_original_scn/`) kết hợp với `scn-script-inserter.exe`.
+
+2. **Chuẩn Mã Hóa File Hệ Thống (UTF-16 LE Single BOM)**:
    * Tất cả file `.tjs`, `.ini`, `.csv`, `tw_tips_*.txt` trong `patch_assets/` **BẮT BUỘC** phải mang đúng 1 BOM UTF-16 LE duy nhất (`b'\xff\xfe'`).
    * **CẤM** decode bằng `raw.decode('utf-16le')` rồi cộng thêm `b'\xff\xfe'` khi ghi ra (sẽ bị double BOM `\ufeff\ufeff` $\rightarrow$ Kirikiri báo `Member "\ufeff..." does not exist` hoặc `Syntax error`).
    * **Quy chuẩn xử lý**: Luôn dùng `raw.decode('utf-16')` (tự động bóc BOM) $\rightarrow$ `txt.lstrip('\ufeff')` $\rightarrow$ `b'\xff\xfe' + txt.encode('utf-16le')`.
 
-2. **Bảo Toàn 17 Bảng Bố Cục Giao Diện UI (`*.csv`)**:
+3. **Thứ Tự Nạp AutoPath Tối Cao Trong `custom.tjs`**:
+   * Để patch đè lên các tệp `patch_append*.xp3` và `others.xp3`, dòng đầu tiên của `custom.tjs` **BẮT BUỘC** phải là:
+     - Với DMM: `Storages.addAutoPath(System.exePath + "patch3.xp3>");`
+     - Với Steam: `Storages.addAutoPath(System.exePath + "unencrypted.xp3>");`
+
+4. **Bảo Toàn 17 Bảng Bố Cục Giao Diện UI (`*.csv`)**:
    * Tuyệt đối không tự ý sinh lại hoặc convert nhầm encoding các bảng CSV. Nguồn chuẩn gốc 100% nằm tại: `extracted_assets/KrkrExtract_Output/others/uipsd/tw/`.
    * Nếu bảng CSV bị hỏng encoding, `UIListParser` sẽ không đọc được nút bấm và quăng ngoại lệ `Invalid argument count` khi khởi tạo QuickMenu.
 
-3. **Chữ Ký Hàm TJS & Tham Số Mặc Định**:
+5. **Chữ Ký Hàm TJS & Tham Số Mặc Định**:
    * Các hàm tiện ích override như `DrawTopMenuText` phải có giá trị mặc định cho tham số tùy chọn: `function DrawTopMenuText(lay, ui, ref, tag, exp = "")` để tránh lỗi `Invalid argument count` khi engine gọi 4 tham số.
 
-4. **Cấu Trúc Tệp `patch3.xp3` Gọn Sạch (825 Tệp Chuẩn)**:
+6. **Cấu Trúc Tệp `patch3.xp3` Gọn Sạch (825 Tệp Chuẩn)**:
    * `patch3.xp3` chỉ chứa các tệp ghi đè tài nguyên cụ thể (tổng cộng 825 files: `custom.tjs`, `Config.tjs`, các file danh sách `.tjs`, bảng UI `.csv`, tệp `tw_tips_*.txt`, ảnh `.png`, và các kịch bản `.scn`).
    * **CẤM** nạp thừa các tệp KAG gốc (`startup.tjs`, `Initialize.tjs`, `MainWindow.tjs`, thư mục `data/`, `system/`) vào `patch3.xp3` vì sẽ gây xung đột phiên bản giữa KAG 1.0 và KAG 2.0 (`patch2.xp3`).
 
@@ -160,17 +169,21 @@ MaitetsuProject/
 ├── translation_toml/           # 227 file kịch bản dịch phân theo thư mục Route
 ├── patch_assets/               # Tài nguyên UI, font, TIPS, script hệ thống sạch (UTF-16 LE)
 ├── compiled_scn/               # 216 kịch bản đã biên dịch (.scn)
-├── steam_version_patch_vn/     # Module đóng gói bản patch dành riêng cho Steam
-│   ├── patch_assets/          # Script & UI tối ưu riêng cho Steam
-│   └── build_steam_patch.py   # Script build patch Steam
-├── tools/                      # Bộ công cụ biên dịch, mã hóa & đóng gói
-│   ├── bin/                    # scn-script-inserter.exe, tjs2Compiler.exe, v.v.
-│   ├── legacy_tools/           # Xp3Pack.exe, maitetsu_crypt.py, make_patch3_maitetsu.py
-│   └── scripts/                # check_progress.py, rebuild_all_tips_clean.py, v.v.
-├── build_patch.py              # Script Build Pipeline chính (Standalone/Mobile)
-├── build_patch.bat             # Shortcut Build trên Windows
-├── check_progress.bat          # Shortcut kiểm tra tiến độ
-└── README.md                   # Tài liệu tổng quan dự án
+├── steam_version_patch_vn/         # Phân hệ Patch dành riêng cho Steam
+│   ├── KrkrExtract_Output/         # Bộ Asset gốc sạch 100% của Steam (Backup)
+│   ├── build_steam_patch.py        # Script đóng gói tự động cho Steam
+│   ├── patch_assets/               # Tài nguyên UI & Script đã tối ưu cho Steam
+│   ├── steam_original_scn/         # 216 phôi SCN gốc chuẩn của Steam
+│   ├── steam_compiled_scn/         # SCN đã biên dịch trên phôi Steam
+│   └── unencrypted.xp3             # Tệp patch thành phẩm cho Steam
+│
+├── tools/                          # Bộ công cụ mã hóa & trích xuất
+│   ├── bin/                        # scn-script-inserter.exe, scn-script-extractor.exe
+│   ├── maitetsu_crypt.py           # Bộ mã hóa Maitetsu CxEncryption (Adler32/ControlBlock)
+│   └── scripts/                    # Scripts kiểm tra tiến độ, đối soát diff
+│
+├── build_patch.py                  # Pipeline đóng gói chính cho DMM
+└── README.md                       # Tài liệu hướng dẫn chính
 ```
 
 ---
