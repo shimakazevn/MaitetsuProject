@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Maitetsu Steam Version - Vietnamese Patch Build Script
-Pack clean assets + translated SCN files specifically for the Steam release into unencrypted.xp3 (for KrkrPatch / version.dll).
+Pack clean assets + translated SCN files specifically for the Steam release into patch3.xp3 (for KrkrPatch / version.dll).
 """
 
 import os
@@ -31,9 +31,12 @@ def assemble_staging():
         shutil.rmtree(STAGING_DIR)
     os.makedirs(STAGING_DIR, exist_ok=True)
     
-    # 1. Copy patch assets
+    # 1. Copy patch assets (include clean custom.tjs & Config.tjs with VN font/text hooks)
     count_assets = 0
+    skip_files = set()
     for f in os.listdir(PATCH_ASSETS_DIR):
+        if f in skip_files:
+            continue
         src = os.path.join(PATCH_ASSETS_DIR, f)
         if os.path.isfile(src):
             shutil.copy2(src, os.path.join(STAGING_DIR, f))
@@ -60,7 +63,7 @@ def pack_xp3():
         print(f"[*] Packaging unencrypted XP3 archive via pack_steam_plain_xp3...")
         pack_steam_plain_xp3(STAGING_DIR, OUTPUT_XP3)
 
-def build_steam_patch(target_dir=DEFAULT_STEAM_DIR, patch_name="unencrypted.xp3"):
+def build_steam_patch(target_dir=DEFAULT_STEAM_DIR, patch_name="patch3.xp3"):
     assemble_staging()
     pack_xp3()
     
