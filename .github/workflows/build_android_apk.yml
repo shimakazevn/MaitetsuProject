@@ -79,12 +79,23 @@ jobs:
           restore-keys: |
             cmake-android-
 
-      - name: Patch 7zip for x64-android
+      - name: Patch 7zip Source for x64-android
         run: |
           cd krkr2_next
-          echo 'if (VCPKG_TARGET_IS_ANDROID AND VCPKG_TARGET_ARCHITECTURE STREQUAL "x64")' >> vcpkg/ports/7zip/CMakeLists.txt
-          echo '    target_compile_options(7zip PRIVATE "-msse4.2")' >> vcpkg/ports/7zip/CMakeLists.txt
-          echo 'endif()' >> vcpkg/ports/7zip/CMakeLists.txt
+          cat << 'EOF' > vcpkg/ports/7zip/fix_x86_crc.patch
+          --- a/C/7zCrc.c
+          +++ b/C/7zCrc.c
+          @@ -308,7 +308,7 @@
+           #endif
+           #endif
+           
+          -#if defined(Z7_CRC32_IS_SUPPORTED)
+          +#if 0
+           
+           #include <nmmintrin.h>
+           
+          EOF
+          sed -i 's/PATCHES/PATCHES\n        fix_x86_crc.patch/' vcpkg/ports/7zip/portfile.cmake
 
       - name: Build Android APK via build.sh
         run: |
