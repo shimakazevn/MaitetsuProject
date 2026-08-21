@@ -69,17 +69,17 @@ jobs:
             krkr2_next/cpp/vcpkg_installed
             krkr2_next/.devtools/vcpkg
             ~/.cache/vcpkg/archives
-          key: vcpkg-android-ubuntu-${{ hashFiles('krkr2_next/cpp/vcpkg.json', 'krkr2_next/cpp/CMakeLists.txt') }}
+          key: vcpkg-android-ubuntu-v2-${{ hashFiles('krkr2_next/cpp/vcpkg.json', 'krkr2_next/cpp/CMakeLists.txt') }}
           restore-keys: |
-            vcpkg-android-ubuntu-
+            vcpkg-android-ubuntu-v2-
 
       - name: Cache CMake build output (Android)
         uses: actions/cache@v4
         with:
           path: krkr2_next/apps/flutter_app/android/.cxx
-          key: cmake-android-${{ hashFiles('krkr2_next/cpp/**/*.cpp', 'krkr2_next/cpp/**/*.h', 'krkr2_next/cpp/CMakeLists.txt') }}
+          key: cmake-android-v2-${{ hashFiles('krkr2_next/cpp/**/*.cpp', 'krkr2_next/cpp/**/*.h', 'krkr2_next/cpp/CMakeLists.txt') }}
           restore-keys: |
-            cmake-android-
+            cmake-android-v2-
 
 
       - name: Build Android APK via build.sh
