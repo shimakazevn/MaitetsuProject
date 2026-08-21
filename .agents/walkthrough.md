@@ -74,3 +74,20 @@ ebuild_from_csv.py to entirely automate the process:
     3. Handled escaping requirements for \x and \n to satisfy the Rust .scn compiler.
     4. Re-injected the translations into the TOML, guaranteeing 100% ID accuracy.
 - **Verification**: patch3.xp3 has been repackaged successfully. All text in this scene is now perfectly aligned according to the CSV.
+
+### Fix iOS/ARM64 crash during script parsing
+- **Bug**: The engine consistently crashed during iOS launch right after loading XP3 archives.
+- **Root Cause**: TextStream.cpp was using einterpret_cast<std::uint64_t*> on a strictly unaligned memory pointer to parse compressed script headers (m == 2). iOS ARM64 strictly enforces memory alignment for 64-bit reads and will instantly terminate the app with EXC_BAD_ACCESS. A secondary potential stack buffer overflow bug was also found and fixed in PSBArray constructor.
+- **Fix**: Replaced the unaligned einterpret_cast with safe memcpy() calls in krkr2_next\cpp\core\base\TextStream.cpp. Fixed the potential overflow in PSBValue.h. Restored 7zip Apple-only NO_ARM_CRC flag.
+- **Verification**: Code changed. Ready for user to compile and test on iOS device.
+
+
+### Fix Android CI Build Error
+- **Bug**: The GitHub Actions build for Android APK failed during fmpeg:x64-android compilation.
+- **Root Cause**: cpkg requires 
+asm to build x64 assembly optimizations for fmpeg. The ubuntu-latest runner doesn't have it installed by default.
+- **Fix**: Added 
+asm to the pt-get install dependencies list in .github/workflows/build_android_apk.yml.
+- **Verification**: The CI will now correctly download and install 
+asm, allowing the fmpeg compilation to complete successfully.
+

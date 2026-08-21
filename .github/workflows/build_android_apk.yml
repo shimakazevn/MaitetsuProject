@@ -53,7 +53,7 @@ jobs:
       - name: Install Build Dependencies
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y cmake ninja-build pkg-config bison flex
+          sudo apt-get install -y cmake ninja-build pkg-config bison flex nasm
 
       - name: Disable Live2D Cubism Framework to use krkrlive2d_stub
         run: |
