@@ -79,11 +79,18 @@ jobs:
           restore-keys: |
             cmake-android-
 
+      - name: Patch 7zip for x64-android
+        run: |
+          cd krkr2_next
+          echo 'if (VCPKG_TARGET_IS_ANDROID AND VCPKG_TARGET_ARCHITECTURE STREQUAL "x64")' >> vcpkg/ports/7zip/CMakeLists.txt
+          echo '    target_compile_options(7zip PRIVATE "-msse4.2")' >> vcpkg/ports/7zip/CMakeLists.txt
+          echo 'endif()' >> vcpkg/ports/7zip/CMakeLists.txt
+
       - name: Build Android APK via build.sh
         run: |
           cd krkr2_next
           chmod +x build.sh build/*.sh
-          ./build.sh android ${{ github.event.inputs.build_type || 'debug' }}
+          ./build.sh android ${{ github.event.inputs.build_type || 'debug' }} --abi=arm64-v8a,x86_64
 
       - name: Locate APK Output
         id: locate_apk
