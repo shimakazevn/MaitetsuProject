@@ -1,6 +1,8 @@
 name: Build Android APK (Maitetsu Viet Hoa)
 
 on:
+  push:
+    branches: [ master, main ]
   workflow_dispatch:
     inputs:
       build_type:
