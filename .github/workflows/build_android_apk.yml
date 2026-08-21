@@ -79,26 +79,6 @@ jobs:
           restore-keys: |
             cmake-android-
 
-      - name: Patch 7zip Source for x64-android via CMake
-        run: |
-          cd krkr2_next
-          python -c '
-          with open("vcpkg/ports/7zip/portfile.cmake", "r") as f:
-              content = f.read()
-          patch = """
-          # Hotfix: Disable hardware CRC32 for x86_64 Android
-          if(VCPKG_TARGET_IS_ANDROID)
-              file(READ "${SOURCE_PATH}/C/7zCrc.c" _crc_content)
-              string(REPLACE "#if defined(Z7_CRC32_IS_SUPPORTED)" "#if 0 // Z7_CRC32_IS_SUPPORTED" _crc_content "${_crc_content}")
-              string(REPLACE "#ifdef MY_CPU_X86_OR_AMD64" "#if 0 // MY_CPU_X86_OR_AMD64" _crc_content "${_crc_content}")
-              string(REPLACE "__crc32b(crc, b)" "0 /* patched out __crc32b */" _crc_content "${_crc_content}")
-              file(WRITE "${SOURCE_PATH}/C/7zCrc.c" "${_crc_content}")
-          endif()
-          """
-          content = content.replace("vcpkg_cmake_configure(", patch + "\nvcpkg_cmake_configure(")
-          with open("vcpkg/ports/7zip/portfile.cmake", "w") as f:
-              f.write(content)
-          '
 
       - name: Build Android APK via build.sh
         run: |
