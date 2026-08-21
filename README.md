@@ -25,15 +25,10 @@ Dự án bao gồm hệ thống tự động hóa (Automated Toolchain Pipeline)
 1. **Chuẩn Mã Hóa File Hệ Thống**:
    * Tất cả file `.tjs`, `.ini`, `.csv`, `tw_tips_*.txt` trong `patch_assets/` phải mang chuẩn UTF-16 LE Single BOM (`b'\xff\xfe'`).
 
-2. **Thứ Tự Nạp AutoPath (`custom.tjs`)**:
-   * Để patch có độ ưu tiên cao nhất ghi đè lên các tệp `patch_append*.xp3`, dòng đầu tiên của `custom.tjs` phải là:
-     - DMM: `Storages.addAutoPath(System.exePath + "patch3.xp3>");`
-     - Steam: `Storages.addAutoPath(System.exePath + "unencrypted.xp3>");`
-
-3. **Bố Cục Giao Diện UI (`*.csv`)**:
+2. **Bố Cục Giao Diện UI (`*.csv`)**:
    * Các bảng UI CSV lấy từ nguồn gốc tại: `extracted_assets/KrkrExtract_Output/others/uipsd/tw/`. Cẩn trọng với encoding khi chỉnh sửa để tránh lỗi `Invalid argument count` ở `UIListParser`.
 
-4. **Cấu Trúc Tệp `patch3.xp3`**:
+3. **Cấu Trúc Tệp `patch3.xp3`**:
    * `patch3.xp3` chỉ chứa các tệp ghi đè tài nguyên cụ thể. Tránh nạp thừa các tệp KAG gốc (`startup.tjs`, thư mục `data/`, `system/`) vào `patch3.xp3` vì sẽ gây xung đột phiên bản.
 
 ---
