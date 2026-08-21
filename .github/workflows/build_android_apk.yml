@@ -82,8 +82,10 @@ jobs:
       - name: Patch 7zip Source for x64-android via CMake
         run: |
           cd krkr2_next
-          cat << 'EOF' >> vcpkg/ports/7zip/portfile.cmake
-          
+          python -c '
+          with open("vcpkg/ports/7zip/portfile.cmake", "r") as f:
+              content = f.read()
+          patch = """
           # Hotfix: Disable hardware CRC32 for x86_64 Android
           if(VCPKG_TARGET_IS_ANDROID)
               file(READ "${SOURCE_PATH}/C/7zCrc.c" _crc_content)
@@ -92,7 +94,11 @@ jobs:
               string(REPLACE "__crc32b(crc, b)" "0 /* patched out __crc32b */" _crc_content "${_crc_content}")
               file(WRITE "${SOURCE_PATH}/C/7zCrc.c" "${_crc_content}")
           endif()
-          EOF
+          """
+          content = content.replace("vcpkg_cmake_configure(", patch + "\nvcpkg_cmake_configure(")
+          with open("vcpkg/ports/7zip/portfile.cmake", "w") as f:
+              f.write(content)
+          '
 
       - name: Build Android APK via build.sh
         run: |
