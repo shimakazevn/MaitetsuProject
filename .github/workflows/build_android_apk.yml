@@ -83,7 +83,7 @@ jobs:
         run: |
           cd krkr2_next
           chmod +x build.sh build/*.sh
-          ./build.sh android ${{ github.event.inputs.build_type || 'debug' }}
+          ./build.sh android ${{ github.event.inputs.build_type || 'debug' }} --abi=arm64-v8a,x86_64
 
       - name: Locate APK Output
         id: locate_apk
