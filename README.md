@@ -16,6 +16,8 @@ Dự án bao gồm hệ thống tự động hóa (Automated Toolchain Pipeline)
 * **Tương Thích Tuyệt Đối Trên Mọi Nền Tảng (Windows, Android, iOS)**:
   - Tương thích hoàn toàn với Kirikiri 2 Next engine trên Android (ARM64/x86_64) và iOS (IPA).
   - Tự động bỏ qua các thư viện DLL dành riêng cho Windows (`lzfs.dll`, `shrinkCopy.dll`) một cách an toàn.
+  - Khắc phục lỗi đứng game khi hiển thị kịch bản: Bổ sung lớp bọc an toàn `getLinkNames()` / `getLinkRects()` và `_guardTipsLinkHitLayer` trong `lose_tips.tjs`, ngăn chặn xung đột giữa plugin quét liên kết TIPS và bộ dựng chữ FreeType di động.
+  - Hệ thống phông chữ tối ưu hóa: Sử dụng phông **`Signika Negative Medium`** làm mặc định giúp chữ hiển thị đậm nét, tương phản cao và rõ ràng trên mọi độ phân giải. Phân tách rõ 4 biến thể phông (Medium, Regular, SemiBold, Bold) trong màn hình Cài đặt.
   - Tối ưu cơ chế phân giải chuỗi/template trong TJS2 VM (`applyInlineStringVariableExtract`) bảo vệ khỏi lỗi scope trên thiết bị di động.
   - Tự động chuyển đổi và làm mượt các thành phần menu Win32 khi chạy trên môi trường cảm ứng touch/mobile.
 * **Bảo toàn E-mote**: Đồng bộ chính xác mã hiệu nhân vật (Actor ID) và layer animation E-mote riêng biệt cho từng phiên bản (DMM vs Steam), khắc phục lỗi biến mất sprite nhân vật.
