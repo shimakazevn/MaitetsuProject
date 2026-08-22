@@ -40,6 +40,18 @@ Dự án bao gồm hệ thống tự động hóa (Automated Toolchain Pipeline)
 
 ---
 
+## Kế Hoạch Phiên Bản Di Động Siêu Nhẹ (Mobile Optimized Edition — Future Plan)
+
+> [!NOTE]
+> **Hiện trạng kỹ thuật**: Dự án mã nguồn mở `krkr2_next` vốn hỗ trợ nền tảng Kirikiri 2 cũ, trong khi engine của *Maitetsu: Last Run!!* là phiên bản KrKr2 hiện đại với rất nhiều tùy biến chuyên sâu (hệ thống E-mote C++ riêng biệt, TextRender đa luồng, xử lý thẻ TIPS động `%l`, CxEncryption...). Do đó, **ưu tiên số 1 hiện tại là khắc phục toàn bộ các lỗi tương thích/bug cốt lõi của `krkr2_next`** để game vận hành hoàn toàn ổn định.
+>
+> **Kế hoạch tương lai (Sau khi hoàn thiện độ ổn định)**: Bản cài đặt PC gốc của game nặng tới **~20GB** (quá nặng cho thiết bị di động). Sau khi ổn định core engine, dự án sẽ lên kế hoạch xây dựng bộ công cụ đóng gói riêng **Maitetsu Mobile Edition** siêu nén:
+> 1. **Tối ưu Âm thanh (Voice & BGM)**: Chuyển đổi kho thoại ~10GB sang định dạng **Opus / OGG tối ưu bitrate** (64–96 kbps cho voice, 128 kbps cho BGM), giảm ~70% dung lượng âm thanh mà chất lượng qua loa thoại/tai nghe vẫn trong trẻo tuyệt đối.
+> 2. **Tối ưu Đồ họa (Background & CG)**: Nén kho ảnh sang định dạng **WebP / nén GPU**, giảm 60–75% dung lượng ảnh mà độ nét trên màn hình 6–7 inch của điện thoại hoàn toàn không đổi.
+> 3. **Tối ưu I/O & Tốc độ nạp cảnh**: Giảm tổng dung lượng game từ **20GB xuống chỉ còn ~4 – 6GB**, giúp nạp cảnh tức thì, loại bỏ hoàn toàn hiện tượng khựng giật (I/O stutter) do đọc file nặng trên bộ nhớ Flash di động.
+
+---
+
 ## Tiến Độ Dịch Thuật
 
 Chạy lệnh `check_progress.bat` (hoặc `python tools/scripts/check_progress.py`) để xem thống kê thời gian thực:
