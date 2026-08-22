@@ -13,6 +13,11 @@ Dự án bao gồm hệ thống tự động hóa (Automated Toolchain Pipeline)
 * **Lịch Sử Thoại (Backlog) & Chọn Cảnh (SceneSel)**: Hook trực tiếp `CustomBacklog.drawTextBlock` để chữ không bị tràn vạch phân cách. Tối ưu font SceneSel bảo toàn cơ chế tự động rút gọn dấu `...`.
 * **Việt Hóa Giao Diện**: Việt hóa hoàn toàn giao diện hệ thống, cài đặt gamepad và Extra mode. Tích hợp liên kết hỗ trợ của nhóm dịch Seikowo Team.
 * **Nạp Patch Siêu Tốc (Fast AutoPath Indexing)**: Tối ưu hóa bảng băm đường dẫn trong C++ Core của Kirikiri 2, giảm thời gian khởi động game.
+* **Tương Thích Tuyệt Đối Trên Mọi Nền Tảng (Windows, Android, iOS)**:
+  - Tương thích hoàn toàn với Kirikiri 2 Next engine trên Android (ARM64/x86_64) và iOS (IPA).
+  - Tự động bỏ qua các thư viện DLL dành riêng cho Windows (`lzfs.dll`, `shrinkCopy.dll`) một cách an toàn.
+  - Tối ưu cơ chế phân giải chuỗi/template trong TJS2 VM (`applyInlineStringVariableExtract`) bảo vệ khỏi lỗi scope trên thiết bị di động.
+  - Tự động chuyển đổi và làm mượt các thành phần menu Win32 khi chạy trên môi trường cảm ứng touch/mobile.
 * **Bảo toàn E-mote**: Đồng bộ chính xác mã hiệu nhân vật (Actor ID) và layer animation E-mote riêng biệt cho từng phiên bản (DMM vs Steam), khắc phục lỗi biến mất sprite nhân vật.
 * **Hỗ trợ đa nền tảng**:
   - DMM / PC Standalone / Mobile: Đóng gói `patch3.xp3` (CxEncryption).
