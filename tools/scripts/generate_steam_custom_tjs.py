@@ -1,5 +1,6 @@
 import os
 import struct
+import re
 
 def descramble(p):
     with open(p, 'rb') as f:
@@ -26,7 +27,31 @@ def make_clean_custom():
     p_steam = r'E:\MaitetsuProject\steam_version_patch_vn\Data_Decompile\data\main\custom.tjs'
     steam_custom = descramble(p_steam)
     
-    # 1. Enable CustomMsgwinRender class by replacing '@if (0)' before CustomMsgwinRender with '@if (1)'
+    # 0. Add AutoPath re-mounting at top
+    autopath_header = 'Storages.addAutoPath(System.exePath + "unencrypted.xp3>");\r\n'
+    if not steam_custom.startswith('Storages.addAutoPath'):
+        steam_custom = autopath_header + steam_custom
+
+    # 1. Fix GetFontFaceMap cleanly with try/catch
+    new_getfontfacemap = '''function GetFontFaceMap(tag, table, defval, log) {
+	if (table !== void && typeof table == "Object" && tag !== void && tag != "") {
+		try {
+			var face = table[tag];
+			if (face !== void && face != "") return face;
+		} catch (e) {
+		}
+	}
+	return defval;
+}'''
+    steam_custom = re.sub(
+        r'function\s+GetFontFaceMap\s*\([^)]*\)\s*\{[^}]*\}',
+        new_getfontfacemap,
+        steam_custom,
+        count=1
+    )
+    print("[OK] Replaced GetFontFaceMap with clean safe try/catch implementation")
+
+    # 2. Enable CustomMsgwinRender class by replacing '@if (0)' before CustomMsgwinRender with '@if (1)'
     target_pattern = '@if (0)\r\n//==============\r\n// 英語等で文字がはみ出た時の特殊処理'
     if target_pattern in steam_custom:
         steam_custom = steam_custom.replace(target_pattern, '@if (1)\r\n//==============\r\n// 英語等で文字がはみ出た時の特殊処理')
@@ -40,7 +65,7 @@ def make_clean_custom():
                 break
         steam_custom = '\r\n'.join(lines)
     
-    # 2. Patch font aliases in custom.tjs (replace default fallback from "源ノ角ゴシックB" to "Signika Negative")
+    # 3. Patch font aliases in custom.tjs (replace default fallback to "Signika Negative")
     steam_custom = steam_custom.replace(
         'return GetFontFaceMap(CurrentLanguageTag,   MessageDefaultFontFaceMap, "源ノ角ゴシックB", "MessageDefaultFontFace");',
         'return GetFontFaceMap(CurrentLanguageTag,   MessageDefaultFontFaceMap, "Signika Negative", "MessageDefaultFontFace");'
@@ -49,107 +74,17 @@ def make_clean_custom():
         'return GetFontFaceMap(CurrentLanguageTag,   MessageRubyFontFaceMap,    "源ノ角ゴシックH", "MessageRubyFontFace");',
         'return GetFontFaceMap(CurrentLanguageTag,   MessageRubyFontFaceMap,    "Signika Negative Bold", "MessageRubyFontFace");'
     )
-    
-    # 3. Insert PreRenderFontEx.AddTrueTypeFont right after alias definitions
-    font_init_block = """
-// Register Signika Negative TrueType fonts with PreRenderFontEx
-if (typeof global.PreRenderFontEx != "undefined" && typeof global.PreRenderFontEx.AddTrueTypeFont != "undefined") {
-	try {
-		PreRenderFontEx.AddTrueTypeFont("Signika Negative", "Signika Negative", "SignikaNegative-Regular.ttf", void, %[ comment: "Phông chữ Signika Negative (Thường)" ]);
-		PreRenderFontEx.AddTrueTypeFont("Signika Negative Bold", "Signika Negative Bold", "SignikaNegative-Bold.ttf", void, %[ comment: "Phông chữ Signika Negative (Đậm)" ]);
-		PreRenderFontEx.AddTrueTypeFont("Signika Negative SemiBold", "Signika Negative SemiBold", "SignikaNegative-SemiBold.ttf", void, %[ comment: "Phông chữ Signika Negative (Bán Đậm)" ]);
-		PreRenderFontEx.AddTrueTypeFont("Signika Negative Medium", "Signika Negative Medium", "SignikaNegative-Medium.ttf", void, %[ comment: "Phông chữ Signika Negative (Vừa)" ]);
-		PreRenderFontEx.AddTrueTypeFont("Signika Negative Light", "Signika Negative Light", "SignikaNegative-Light.ttf", void, %[ comment: "Phông chữ Signika Negative (Nhẹ)" ]);
-	} catch(e) {
-		dm("PreRenderFontEx register notice: " + e.message);
-	}
-}
-"""
-    alias_pos = steam_custom.find('PreRenderFontEx.AddAlias("*RubyFont*"')
-    if alias_pos != -1:
-        end_brace = steam_custom.find('}', alias_pos)
-        if end_brace != -1:
-            end_block = steam_custom.find('}', end_brace + 1)
-            if end_block != -1:
-                steam_custom = steam_custom[:end_block+1] + '\r\n' + font_init_block + steam_custom[end_block+1:]
-                print("[OK] Inserted PreRenderFontEx.AddTrueTypeFont block into custom.tjs")
 
-    # 4. Vietnamese font & text enhancement block
+    # 4. Clean hooks for word-break, 3-line layout, Backlog & SceneSel
     vn_block = """
 
 // =========================================================================
-// [VIETNAMESE LOCALIZATION - FONT & TEXT ENHANCEMENT HOOKS]
+// [VIETNAMESE LOCALIZATION HOOKS]
 // =========================================================================
 
-// Register TrueType Fonts for Vietnamese
-try {
-	Font.addFont("SignikaNegative-Regular.ttf");
-	Font.addFont("SignikaNegative-Bold.ttf");
-	Font.addFont("SignikaNegative-SemiBold.ttf");
-	Font.addFont("SignikaNegative-Medium.ttf");
-	Font.addFont("SignikaNegative-Light.ttf");
-} catch (e) {
-	dm("Font register notice: " + e.message);
-}
-
-// Hook PreRenderFontEx & FontDialogFilterFaceList to insert Signika Negative into the System Font Dialog
-function _registerVietnameseFontList() {
-	var fontNames = [
-		"Signika Negative",
-		"Signika Negative Bold",
-		"Signika Negative SemiBold",
-		"Signika Negative Medium",
-		"Signika Negative Light"
-	];
-	
-	// Add to PreRenderFontEx if available
-	if (typeof global.PreRenderFontEx != "undefined" && typeof global.PreRenderFontEx.PreRenderFontNames != "undefined") {
-		for (var i = fontNames.count - 1; i >= 0; i--) {
-			var fn = fontNames[i];
-			if (global.PreRenderFontEx.PreRenderFontNames.find(fn) < 0) {
-				global.PreRenderFontEx.PreRenderFontNames.insert(0, fn);
-			}
-		}
-	}
-	
-	// Hook SystemConfig.FontDialogFilterFaceList to ensure Signika fonts are always present in the selection dialog
-	if (typeof SystemConfig.FontDialogFilterFaceList == "Function") {
-		if (typeof global._orig_FontDialogFilterFaceList == "undefined") {
-			global._orig_FontDialogFilterFaceList = SystemConfig.FontDialogFilterFaceList;
-			SystemConfig.FontDialogFilterFaceList = function(list) {
-				if (global._orig_FontDialogFilterFaceList) (global._orig_FontDialogFilterFaceList incontextof global)(list);
-				var vfonts = [
-					"Signika Negative",
-					"Signika Negative Bold",
-					"Signika Negative SemiBold",
-					"Signika Negative Medium",
-					"Signika Negative Light"
-				];
-				for (var i = vfonts.count - 1; i >= 0; i--) {
-					var vf = vfonts[i];
-					if (list.find(vf) < 0) {
-						list.insert(0, vf);
-					}
-				}
-			};
-		}
-	} else {
-		SystemConfig.FontDialogFilterFaceList = function(list) {
-			var vfonts = [
-				"Signika Negative",
-				"Signika Negative Bold",
-				"Signika Negative SemiBold",
-				"Signika Negative Medium",
-				"Signika Negative Light"
-			];
-			for (var i = vfonts.count - 1; i >= 0; i--) {
-				var vf = vfonts[i];
-				if (list.find(vf) < 0) {
-					list.insert(0, vf);
-				}
-			}
-		};
-	}
+// Configure word break for Vietnamese
+if (typeof SystemConfig.multiLangParamsMap != "undefined") {
+	SystemConfig.multiLangParamsMap["tw"] = %[word_break: 0, width_time_scale: 1];
 }
 
 // Enable 3-line layout and dynamic auto-shrink font scaling
@@ -236,32 +171,8 @@ if (typeof global._orig_KAGLoadScript_Custom == "undefined") {
 	};
 }
 
-// After init font mapping to Signika Negative
+// Apply hooks after init
 addAfterInitCallback(function() {
-	_registerVietnameseFontList();
-	if (typeof global.MessageDefaultFontFaceMap == "Object") {
-		global.MessageDefaultFontFaceMap.tw = "Signika Negative";
-	}
-	if (typeof global.SystemDefaultFontFaceMap == "Object") {
-		global.SystemDefaultFontFaceMap.tw = "Signika Negative";
-	}
-	if (typeof global.SystemSettingFontFaceMap == "Object") {
-		global.SystemSettingFontFaceMap.tw = "Signika Negative";
-	}
-	if (typeof global.MessageRubyFontFaceMap == "Object") {
-		global.MessageRubyFontFaceMap.tw = "Signika Negative Bold";
-	}
-	if (typeof kag.setLanguageFont != "undefined" && typeof global.LanguageTags == "Object") {
-		for (var i = 0; i < global.LanguageTags.count; i++) {
-			if (global.LanguageTags[i] == "tw") {
-				try { kag.setLanguageFont("Signika Negative", i); } catch(e){}
-			}
-		}
-	}
-	try {
-		kag.chDefaultFace = "Signika Negative";
-		kag.setMessageLayerUserFont();
-	} catch(e){}
 	_applyBacklogHook();
 	_applyExChViewHook();
 }, 50);
