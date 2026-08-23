@@ -41,6 +41,26 @@ void Log(const char* fmt, ...) {
 }
 
 // ============================================================
+// PackinOne memory dumper (scheme reflection for native patch)
+// ============================================================
+static HMODULE g_PackinOneMod = NULL;
+
+static void DumpPackinOneImage(const char* tag) {
+    if (!g_PackinOneMod) return;
+    char path[MAX_PATH];
+    snprintf(path, sizeof(path), "E:\\MaitetsuProject\\steam_packinone_dump_%s.bin", tag);
+    HANDLE f = CreateFileA(path, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
+    if (f == INVALID_HANDLE_VALUE) { Log("Dump %s: CreateFile failed", tag); return; }
+    PIMAGE_DOS_HEADER dos = (PIMAGE_DOS_HEADER)g_PackinOneMod;
+    PIMAGE_NT_HEADERS nt = (PIMAGE_NT_HEADERS)((BYTE*)g_PackinOneMod + dos->e_lfanew);
+    DWORD imgSize = nt->OptionalHeader.SizeOfImage;
+    DWORD written = 0;
+    WriteFile(f, (LPCVOID)g_PackinOneMod, imgSize, &written, NULL);
+    CloseHandle(f);
+    Log("Dump %s: wrote %lu / %lu bytes", tag, written, imgSize);
+}
+
+// ============================================================
 // XP3 Extraction Filter types
 // ============================================================
 #include "hashes.h"
@@ -61,6 +81,12 @@ static tTVPXP3ArchiveExtractionFilter    g_OriginalFilter = NULL;
 
 void __cdecl SmartSteamExtractionFilter(tTVPXP3ExtractionFilterInfo *info) {
     if (!info || !info->Buffer || info->BufferSize == 0) return;
+    static bool dumped_at_extract = false;
+    if (!dumped_at_extract) {
+        dumped_at_extract = true;
+        Log("First extraction -> dumping PackinOne image (extract)\n");
+        DumpPackinOneImage("extract");
+    }
     if (std::binary_search(std::begin(g_WhitelistHashes), std::end(g_WhitelistHashes), info->FileHash)) {
         Log("Filter: Bypassing 0x%08X (patch3 file)\n", info->FileHash);
         return;
@@ -71,6 +97,8 @@ void __cdecl SmartSteamExtractionFilter(tTVPXP3ExtractionFilterInfo *info) {
 void __cdecl FakeTVPSetXP3ArchiveExtractionFilter(tTVPXP3ArchiveExtractionFilter filter) {
     Log("FakeTVPSetXP3: PackinOne registered filter %p\n", filter);
     g_OriginalFilter = filter;
+    Log("Filter registered -> dumping PackinOne image (filter)\n");
+    DumpPackinOneImage("filter");
     if (g_TVPSetXP3ArchiveExtractionFilter) {
         Log("FakeTVPSetXP3: Installing SmartSteamExtractionFilter\n");
         g_TVPSetXP3ArchiveExtractionFilter(SmartSteamExtractionFilter);
@@ -248,7 +276,6 @@ static void PatchPackinOneExporterGlobal(HMODULE hPackinOne) {
 // ============================================================
 typedef HRESULT(__stdcall *tV2Link)(iTVPFunctionExporter*);
 static tV2Link   g_RealV2Link   = NULL;
-static HMODULE   g_PackinOneMod = NULL;
 
 static HRESULT __stdcall HookedV2Link(iTVPFunctionExporter* exporter) {
     Log("HookedV2Link: exporter=%p\n", exporter);
