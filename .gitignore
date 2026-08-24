@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -28,7 +28,7 @@ test-sdk.ts
 /mobile_patch/
 /krkr2_next/
 compiled_scn/
-
+/mobile/
 # Large binary distributions & Archives
 *.rar
 *.zip
@@ -48,5 +48,7 @@ tools/scripts/
 
 /backup_saves/
 
-steam_capture/
-*.bin
+# Steam native patch pipeline (runtime artifacts)
+/steam_capture/
+/steam_version_patch_vn/native_work/
+

@@ -2,7 +2,7 @@
 
 Dự án Việt hóa hoàn chỉnh Visual Novel `まいてつ Last Run!!` (Maitetsu Last Run!!).
 
-Dự án bao gồm hệ thống tự động hóa (Automated Toolchain Pipeline) giúp trích xuất, dịch thuật kịch bản `.toml`, biên dịch nhị phân `.scn` và đóng gói thành tệp lưu trữ nén `patch3.xp3` (cho PC DMM / Mobile) hoặc `patch.xp3` mã hóa native (cho Steam — không cần version.dll). Tương thích mượt mà với Windows, Android (Kirikiri 2 Next APK), iOS (IPA) và Steam.
+Dự án bao gồm hệ thống tự động hóa (Automated Toolchain Pipeline) giúp trích xuất, dịch thuật kịch bản `.toml`, biên dịch nhị phân `.scn` và đóng gói thành tệp lưu trữ nén `patch3.xp3` (cho PC DMM / Mobile) hoặc `unencrypted.xp3` (cho Steam). Tương thích mượt mà với Windows, Android (Kirikiri 2 Next APK), iOS (IPA) và Steam.
 
 ---
 
@@ -27,12 +27,9 @@ Dự án bao gồm hệ thống tự động hóa (Automated Toolchain Pipeline)
   - Tự động bỏ qua các thư viện DLL dành riêng cho Windows (`lzfs.dll`, `shrinkCopy.dll`) một cách an toàn.
   - Khắc phục lỗi đứng game khi hiển thị kịch bản: Bổ sung lớp bọc an toàn `getLinkNames()` / `getLinkRects()` và `_guardTipsLinkHitLayer` trong `lose_tips.tjs`.
 * **Bảo Toàn E-mote**: Đồng bộ chính xác mã hiệu nhân vật (Actor ID) và layer animation E-mote riêng biệt cho từng phiên bản (DMM vs Steam).
-* **Patch Steam Mã Hóa Native 100% (Không Cần version.dll)**:
-  - `patch.xp3` được mã hóa bằng chính bộ lọc CX của engine thông qua kỹ thuật **Engine-Oracle Capture**, engine đọc như DLC chính chủ.
-  - End-user chỉ cần copy đúng 1 file — không DLL hijack, không rủi ro antivirus, giữ nguyên Steam Overlay / Achievements / Cloud Save.
 * **Đóng gói chuyên biệt**:
   - DMM / PC Standalone / Mobile: Đóng gói `patch3.xp3` (CxEncryption, tự động re-mount AutoPath).
-  - Steam Release: Đóng gói `patch.xp3` mã hóa native (CxEncryption qua Engine-Oracle, xem `steam_version_patch_vn/tools_native/README.md`).
+  - Steam Release: Đóng gói `unencrypted.xp3` (Chuẩn KrkrPatch Proxy qua `version.dll`).
 
 ---
 
@@ -44,14 +41,8 @@ Dự án bao gồm hệ thống tự động hóa (Automated Toolchain Pipeline)
 2. **Bố Cục Giao Diện UI (`*.csv`)**:
    * Các bảng UI CSV lấy từ nguồn gốc tại: `extracted_assets/KrkrExtract_Output/others/uipsd/tw/`. Cẩn trọng với encoding khi chỉnh sửa để tránh lỗi `Invalid argument count` ở `UIListParser`.
 
-3. **Cấu Trúc Tệp `patch3.xp3` & `patch.xp3`**:
+3. **Cấu Trúc Tệp `patch3.xp3` & `unencrypted.xp3`**:
    * Patch chỉ chứa các tệp ghi đè tài nguyên cụ thể. Tránh nạp thừa các tệp KAG gốc (`startup.tjs`, thư mục `data/`, `system/`) vào patch để tránh xung đột phiên bản.
-
-4. **Quy Chuẩn Patch Steam Mã Hóa Native**:
-   * Engine Steam nhúng bộ lọc CX giải mã **mọi entry** của mọi archive (bất chấp cờ protected hay giá trị hash). File plaintext thả vào sẽ bị XOR hỏng → lỗi `Cannot convert given narrow string to wide string`.
-   * Bộ tham số CX của Steam sinh tại runtime (không extract tĩnh được) — phải mã hóa qua **Engine-Oracle Capture** (`steam_version_patch_vn/tools_native/`): nhúng plaintext vào probe archive, để engine tự transform rồi thu ciphertext về.
-   * Entry thành phẩm: RAW + `info.flags |= 0x80000000` + `adlr = adler32(plaintext)`; không cần chữ ký `.sig`.
-   * ⚠️ Mọi thay đổi nội dung file đều đổi adler32 → bắt buộc chạy lại capture run trước khi đóng gói `final`.
 
 ---
 
@@ -96,10 +87,10 @@ Chạy lệnh `check_progress.bat` (hoặc `python tools/scripts/check_progress.
 * **Android (Kirikiri 2 Next)**: Sao chép tệp `patch3.xp3` vào thư mục chứa dữ liệu game trên điện thoại.
 
 ### 2. Bản Steam (Hikari Field / Maitetsu: Last Run!!)
-Bản Steam tích hợp bảo vệ CX Encryption + KrkrSign, nhưng `patch.xp3` của chúng ta đã được **mã hóa native bằng chính thuật toán của engine** (Engine-Oracle Capture), nên chỉ cần:
-1. *(Chỉ khi nâng cấp từ bản cũ)* Xóa `version.dll`, `unencrypted.xp3` và `unencrypted.xp3.index` trong thư mục game.
-2. Sao chép tệp `patch.xp3` vào thư mục game Steam (`.../steamapps/common/MaitetsuLastRun/`).
-3. Khởi động game trực tiếp từ Steam. Patch tự nạp như DLC chính chủ — giữ nguyên Steam Overlay, Achievements và Cloud Save.
+Bản Steam được tích hợp bảo vệ (KrkrSign RSA & FileHash Filter), áp dụng hook thông qua **KrkrPatch (`version.dll`)**:
+1. Đóng gói thư mục patch thành `unencrypted.xp3`.
+2. Sao chép `unencrypted.xp3` và `version.dll` vào thư mục game Steam (`.../steamapps/common/MaitetsuLastRun/`).
+3. Khởi động game trực tiếp từ Steam. Patch sẽ tự động nạp mà vẫn giữ nguyên Steam Overlay, Achievements và Cloud Save.
 
 ---
 
@@ -116,20 +107,23 @@ Bản Steam tích hợp bảo vệ CX Encryption + KrkrSign, nhưng `patch.xp3` 
   python build_patch.py --pack-only
   ```
 
-### 2. Bản Steam Release (patch.xp3 mã hóa native)
-Chi tiết đầy đủ: [`steam_version_patch_vn/tools_native/README.md`](steam_version_patch_vn/tools_native/README.md)
+### 2. Bản Steam Release — `patch.xp3` mã hóa native (không cần version.dll)
+Phương thức **Engine-Oracle Capture**: engine tự mã hóa plaintext probe, ta thu ciphertext
+đóng gói thành archive mà engine đọc như DLC chính chủ. Chi tiết:
+[`tools/steam_native/README.md`](tools/steam_native/README.md)
+
 ```bash
-# Bước 1 — Gom staging + đóng gói probe archive (plaintext)
-python steam_version_patch_vn/tools_native/steam_native_pipeline.py probe
+# Chu kỳ đầy đủ (chạy sau khi THAY ĐỔI nội dung patch_assets/ hoặc compiled_scn/):
+python steam_version_patch_vn/build_steam_patch.py --install-capture   # cài dll+probe vào game
+#   -> khởi động game ~2-3 phút ở title rồi thoát (thread tự dump toàn bộ entry)
+python steam_version_patch_vn/build_steam_patch.py                     # final -> tự sync vào game
 
-# Bước 2 — Capture run thủ công (~3 phút):
-#   copy tools_native/capture_version.dll -> <game>\version.dll
-#   copy native_work/probe_patch.xp3      -> <game>\patch.xp3
-#   khởi động game, đợi ~2-3 phút (DLL tự dump toàn bộ entry), thoát game
-
-# Bước 3 — Đóng gói patch.xp3 mã hóa native (tự kiểm tra 100% độ phủ)
-python steam_version_patch_vn/tools_native/steam_native_pipeline.py final
+# Chỉ kiểm tra độ phủ captures:
+python steam_version_patch_vn/build_steam_patch.py --verify
 ```
+Script tự động: dọn `version.dll` khỏi thư mục game sau khi sync, từ chối deploy nếu
+archive không đạt chuẩn (≥500 entry protected).
+
 * **Tái tạo lại toàn bộ từ điển TIPS sạch**:
   ```bash
   python tools/scripts/rebuild_all_tips_clean.py
@@ -150,20 +144,15 @@ MaitetsuProject/
 ├── compiled_scn/               # 216 kịch bản đã biên dịch (.scn)
 ├── steam_version_patch_vn/     # Phân hệ Patch dành riêng cho Steam
 │   ├── KrkrExtract_Output/     # Bộ Asset gốc của Steam (Backup)
-│   ├── build_steam_patch.py    # (Legacy) Đóng gói unencrypted.xp3 cho KrkrPatch proxy
-│   ├── tools_native/           # Pipeline patch mã hóa native KHÔNG cần version.dll
-│   │   ├── capture_version.dll       # DLL capture (hook CreateStreamByIndex, engine-as-oracle)
-│   │   ├── steam_native_pipeline.py  # stage / probe / verify / final
-│   │   └── README.md                 # Nguyên lý & quy trình chi tiết
-│   ├── backup_old_versiondll/  # Backup version.dll + unencrypted.xp3 cũ
-│   ├── native_work/            # Staging + probe archive (trung gian)
+│   ├── build_steam_patch.py    # Pipeline Steam: native patch.xp3 (probe/capture/final)
 │   ├── patch_assets/           # Tài nguyên UI & Script tối ưu cho Steam (UTF-16 LE)
 │   ├── steam_original_scn/     # 216 phôi SCN gốc chuẩn của Steam
 │   ├── steam_compiled_scn/     # SCN đã biên dịch trên phôi Steam
-│   └── patch.xp3               # Tệp patch thành phẩm mã hóa native cho Steam
+│   └── unencrypted.xp3         # Tệp patch thành phẩm cho Steam
 ├── tools/                      # Bộ công cụ mã hóa & trích xuất
+│   ├── steam_native/           # ★ Engine-Oracle Capture cho Steam (capture dll + pipeline)
 │   ├── bin/                    # scn-script-inserter.exe, scn-script-extractor.exe
-│   ├── maitetsu_crypt.py       # Bộ mã hóa Maitetsu CxEncryption
+│   ├── maitetsu_crypt.py       # Bộ mã hóa Maitetsu CxEncryption (DMM)
 │   └── scripts/                # Scripts kiểm tra tiến độ, dọn dẹp BOM, tạo custom.tjs
 ├── build_patch.py              # Pipeline đóng gói chính cho DMM
 └── README.md                   # Tài liệu hướng dẫn chính
