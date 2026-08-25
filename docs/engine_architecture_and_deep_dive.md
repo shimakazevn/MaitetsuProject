@@ -110,6 +110,30 @@ Trong `FontImpl.cpp`, khi FreeType quét qua các file `.ttf` trong `fonts.xp3` 
 
 ## 4. Phân Hệ Hoạt Ảnh E-mote & PSB (`motionplayer` & `psbfile`)
 
+### 4.0 Giải Mã E-mote EMT Native Trong Engine (krkr2_next)
+
+Toàn bộ nhân vật E-mote nằm trong `emotedx.xp3` dưới dạng `.psb` có cấu trúc:
+
+```
+[0x00] Wrapper E-mote: magic `\x04\x22\x4D\x18` + metadata (21 bytes)
+[0x15] PSB signature "PSB\0" + version (3/4) + encrypt flag = 1
+[0x1D] Header block MÃ HÓA XorShift128: 8 offset words + checksum (+3 extra words nếu v4)
+[Body] Names trie / Strings / Chunks — KHÔNG mã hóa (pure body)
+```
+
+* **Thuật toán giải mã header** (`EMoteCTX.h`): stream cipher XorShift128 với
+  `key = {0x075BCD15, 0x159A55E5, 0x1F123BB5, seed}`.
+* **Seed của Maitetsu**: `0x174E897D` (đã brute-force + xác minh 100% trên 578 file).
+* **Checksum xác thực**:
+  * PSBv3: `adler32(32 byte đầu của header đã giải mã)`.
+  * PSBv4: tiếp tục `adler32` trên 12 byte extra-offsets.
+* **Engine tự động nhận seed** (`PSBFile::loadPSBFile`): khi TJS không gọi
+  `setEmotePSBDecryptSeed`, engine thử danh sách seed biết trước và chỉ chấp nhận
+  khi checksum khớp → không cần can thiệp `patch3.xp3`.
+* **Lưu ý**: các file `*_タイムライン.psb` standalone là stream một phần
+  (offset trỏ vượt EOF — dữ liệu string/chunk nằm ở model đi kèm); engine hiện từ chối
+  an toàn các file này thay vì đọc ngoài bộ nhớ.
+
 ### 4.1 Cơ Chế Nạp Texture Model Nhân Vật
 
 Trong tựa game *Maitetsu: Last Run!!*, toàn bộ dữ liệu nhân vật E-mote nằm trong file `emotedx.xp3` (1.11 GB) dưới dạng file nhị phân `.psb` được mã hóa bởi thuật toán FreeMote.

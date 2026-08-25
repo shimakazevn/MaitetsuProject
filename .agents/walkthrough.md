@@ -91,3 +91,13 @@ asm to the pt-get install dependencies list in .github/workflows/build_android_
 - **Verification**: The CI will now correctly download and install 
 asm, allowing the fmpeg compilation to complete successfully.
 
+
+### Native E-mote EMT Decryption in krkr2_next Engine (Character Rendering Fix)
+- **Bug**: On MuMu (Android APK), E-mote characters did not render at all. `ResourceManager.load()` returned an empty dictionary for every `emotedx.xp3` PSB because `PSBFile::loadPSBFile` bailed out with "psb file is encrypted".
+- **Root Cause**: Maitetsu's E-mote PSBs are PSBv3/v4 with encrypted header offsets (XorShift128 keyed by a per-title 32-bit seed). The engine had the cipher (`EMoteCTX`) but (a) never received a seed from TJS, (b) `parsePSBHeader` skipped reading the full header block when it saw huge ciphertext offsets, and (c) rejected PSBv4 entirely.
+- **Reverse engineering**: Brute-forced the seed against the Adler32 checksum embedded in each header: seed = 0x174E897D, verified on all 578 extracted PSBs (500 self-contained: 231 v3 + 269 v4; 28 standalone timeline partial streams excluded).
+- **Engine fix** (krkr2_next/cpp/plugins/psbfile/):
+  - PSBFile.cpp: auto-detect EMT seed via known-seed table + Adler32 validation when no explicit seed is set; effective-seed refactor; PSBv4 support; graceful rejection of partial/merged emote streams instead of OOB reads.
+  - PSBHeader.h: always read the full header block for known versions (never trust ciphertext offsets as a read-length heuristic).
+  - PSBFile.h: initialize _seed = 0.
+- **Verification**: Python simulation of the exact new C++ flow passes 500/578 encrypted PSBs and leaves clean PSBs untouched. No changes to patch3.xp3.
