@@ -1,0 +1,2398 @@
+﻿//This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//Author: Ulysses (wdwxy12345@gmail.com)
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using FreeMote.Motion;
+using FreeMote.Psb;
+using FreeMote.Psb.Textures;
+using FreeMote.PsBuild.Properties;
+using Newtonsoft.Json;
+// ReSharper disable StringLiteralTypo
+// ReSharper disable InconsistentNaming
+
+namespace FreeMote.PsBuild
+{
+    /// <summary>
+    /// Build MMO from EMT PSB
+    /// <para>Current Ver: 3.12</para>
+    /// </summary>
+    public partial class MmoBuilder
+    {
+        internal bool DebugMode { get; set; } = false;
+        public PSB Mmo { get; private set; }
+
+        public Dictionary<string, MmoPsdMetadata> MmoPsdMetadatas { get; set; }
+
+        /// <summary>
+        /// 控制是否启用变量绑定推断（InferVariableBind），默认为 true
+        /// </summary>
+        public bool EnableVariableBindInference { get; set; } = true;
+
+        /// <summary>
+        /// Key: keyword in object path; Value: if find that keyword in path, set a custom menu path (for Editor)
+        /// </summary>
+        public Dictionary<string, string> CustomPartMenuPaths { get; set; } = new Dictionary<string, string>();
+
+        public MmoBuilder() : this(false)
+        { }
+
+        internal MmoBuilder(bool debug = false)
+        {
+            #region Default Metadata
+
+            DebugMode = debug;
+            MmoPsdMetadatas = debug
+            ? new Dictionary<string, MmoPsdMetadata>
+            {
+                    {
+                        "face_eye_mabuta_l", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_eye_mabuta_l",
+                            Category = "Emotion",
+                            PsdGroup = "Eye-L",
+                            Label = "Orbit-L"
+                        }
+                    },
+                    {
+                        "face_eye_mabuta_r", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_eye_mabuta_r",
+                            Category = "Emotion",
+                            PsdGroup = "Eye-R",
+                            Label = "Orbit-R",
+                        }
+                    },
+                    {
+                        "face_eye_hitomi_l", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_eye_hitomi_l",
+                            Category = "Emotion",
+                            PsdGroup = "Eye-L",
+                            Label = "Pupil-L",
+                        }
+                    },
+                    {
+                        "face_eye_hitomi_r", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_eye_hitomi_r",
+                            Category = "Emotion",
+                            PsdGroup = "Eye-R",
+                            Label = "Pupil-R",
+                        }
+                    },
+                    {
+                        "face_eye_shirome_l", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_eye_shirome_l",
+                            Category = "Emotion",
+                            PsdGroup = "Eye-L",
+                            Label = "EyeWhite-L",
+                        }
+                    },
+                    {
+                        "face_eye_shirome_r", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_eye_shirome_r",
+                            Category = "Emotion",
+                            PsdGroup = "Eye-R",
+                            Label = "EyeWhite-R",
+                        }
+                    },
+                    {
+                        "face_eyebrow_l", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_eyebrow_l",
+                            Category = "Emotion",
+                            PsdGroup = "Eyebrow-L",
+                            Label = "Eyebrow-L",
+                        }
+                    },
+                    {
+                        "face_eyebrow_r", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_eyebrow_r",
+                            Category = "Emotion",
+                            PsdGroup = "Eyebrow-R",
+                            Label = "Eyebrow-R",
+                        }
+                    },
+                    {
+                        "face_mouth", new MmoPsdMetadata
+                        {
+                            SourceLabel = "face_mouth",
+                            Category = "Emotion",
+                            PsdGroup = "Mouth",
+                            Label = "Mouth",
+                        }
+                    },
+            }
+            : new Dictionary<string, MmoPsdMetadata>();
+
+            #endregion
+        }
+
+        /// <summary>
+        /// Generate MMO from EMT KRKR PSB
+        /// <para>When this method is called, the PSB you passed in can NO longer be used.</para>
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <returns></returns>
+        public PSB Build(PSB psb)
+        {
+            Mmo = new PSB(psb.Header.Version) {Type = PsbType.Mmo};
+            //Type initializer is tempting but we can't use it since the later object is using the former one
+            Mmo.Objects = new PsbDictionary();
+            Mmo.Objects["bgChildren"] = BuildBackground();
+            Mmo.Objects["comment"] = psb.Objects["comment"] ?? "Built by FreeMote, wdwxy12345@gmail.com".ToPsbString();
+            Mmo.Objects["defaultFPS"] = 60.ToPsbNumber();
+            Mmo.Objects["fontInfoIdCount"] = PsbNull.Null;
+            Mmo.Objects["fontInfoList"] = new PsbList(0);
+            Mmo.Objects["forceRepack"] = 1.ToPsbNumber();
+            Mmo.Objects["ignoreMotionPanel"] = PsbNumber.Zero;
+            Mmo.Objects["keepSourceIconName"] = PsbNumber.Zero;
+            Mmo.Objects["label"] = "FreeMote".ToPsbString();
+            Mmo.Objects["marker"] = PsbNumber.Zero;
+            Mmo.Objects["maxTextureSize"] = BuildMaxTextureSize(psb);
+            Mmo.Objects["metadata"] = BuildMetadata(psb);
+            Mmo.Objects["modelScale"] = 32.ToPsbNumber();
+            Mmo.Objects["newScrapbookCellHeight"] = 8.ToPsbNumber();
+            Mmo.Objects["newScrapbookCellWidth"] = 8.ToPsbNumber();
+            Mmo.Objects["newTextureCellHeight"] = 8.ToPsbNumber();
+            Mmo.Objects["newTextureCellWidth"] = 8.ToPsbNumber();
+            Mmo.Objects["optimizeMargin"] = 1.ToPsbNumber();
+            Mmo.Objects["outputDepth"] = PsbNumber.Zero;
+            Mmo.Objects["previewSize"] = FillDefaultPreviewSize();
+            Mmo.Objects["projectType"] = PsbNumber.Zero;
+            Mmo.Objects["saveFormat"] = PsbNumber.Zero;
+            Mmo.Objects["stereovisionProfile"] = psb.Objects["stereovisionProfile"];
+            Mmo.Objects["targetOwn"] = FillDefaultTargetOwn();
+            Mmo.Objects["unifyTexture"] = 1.ToPsbNumber();
+            Mmo.Objects["version"] = new PsbNumber(3.12f);
+            Mmo.Objects["objectChildren"] = BuildObjects(psb, out var rawPartsList, out var charaProfileList);
+            Mmo.Objects["sourceChildren"] = BuildSources(psb);
+            Mmo.Objects["metaformat"] = BuildMetaFormat(psb, Mmo, rawPartsList, charaProfileList);
+            //1.ToPsbNumber();
+            //mmo.Objects["uniqId"] = 114514.ToPsbNumber();
+
+            //put to last since it's using obj & src children
+
+            return Mmo;
+        }
+
+        /// <summary>
+        /// Build from PSB source. Currently only works for krkr PSB
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <param name="widthPadding"></param>
+        /// <param name="heightPadding"></param>
+        /// <returns></returns>
+        private IPsbValue BuildSources(PSB psb, int widthPadding = 10, int heightPadding = 10)
+        {
+            var bitmaps = new Dictionary<uint, Bitmap>();
+            var sourceChildren = new PsbList();
+            foreach (var motionItemKv in (PsbDictionary)psb.Objects["source"])
+            {
+                var motionItem = new PsbDictionary();
+                var item = (PsbDictionary)motionItemKv.Value;
+                var icon = (PsbDictionary)item["icon"];
+                var isTexture = icon.Values.Any(d => d is PsbDictionary dic && dic.ContainsKey("attr"));
+                motionItem["label"] = motionItemKv.Key.ToPsbString();
+                motionItem["comment"] = PsbString.Empty;
+                motionItem["metadata"] = FillDefaultMetadata();
+                motionItem["outputDepth"] = PsbNumber.Zero;
+                motionItem["systemLock"] = PsbNumber.Zero;
+                motionItem["resolution"] = 1.ToPsbNumber();
+                motionItem["marker"] = isTexture ? MmoMarkerColor.Green.ToPsbNumber() : MmoMarkerColor.Blue.ToPsbNumber();
+                if (isTexture) //Texture
+                {
+                    motionItem["className"] = "TextureItem".ToPsbString();
+                    var iconList = new PsbList(icon.Count);
+                    motionItem["iconList"] = iconList;
+                    var texs = new Dictionary<string, Image>(icon.Count);
+                    var texsOrigin = new Dictionary<string, (int oriX, int oriY, int width, int height)>(icon.Count);
+                    foreach (var iconKv in icon)
+                    {
+                        var iconItem = (PsbDictionary)iconKv.Value;
+                        iconItem["label"] = iconKv.Key.ToPsbString();
+                        iconItem["metadata"] = FillDefaultMetadata();
+                        iconItem["comment"] = PsbString.Empty;
+                        if (!iconItem.ContainsKey("resolution"))
+                        {
+                            iconItem["resolution"] = 1.ToPsbNumber();
+                        }
+                        var height = ((PsbNumber)iconItem["height"]).AsInt;
+                        var width = ((PsbNumber)iconItem["width"]).AsInt;
+                        var originX = ((PsbNumber)iconItem["originX"]).AsInt;
+                        var originY = ((PsbNumber)iconItem["originY"]).AsInt;
+                        var (realWidth, realHeight) =
+                            ExpandClipArea((PsbDictionary)iconItem["clip"], width, height);
+                        texsOrigin.Add(iconKv.Key, (originX, originY, realWidth, realHeight));
+                        var rl = iconItem["compress"] is PsbString s && s.Value.ToUpperInvariant() == "RL";
+                        var res = (PsbResource)iconItem["pixel"];
+                        Bitmap bmp = null;
+                        if (res.Index == null)
+                        {
+                            throw new ArgumentNullException("Index", "PsbResource.Index can't be null at this time.");
+                        }
+                        if (bitmaps.ContainsKey(res.Index.Value))
+                        {
+                            bmp = bitmaps[res.Index.Value];
+                        }
+                        else
+                        {
+                            bmp = rl
+                                ? RL.DecompressToImage(res.Data, width, height, psb.Platform.DefaultPixelFormat())
+                                : RL.ConvertToImage(res.Data, width, height, psb.Platform.DefaultPixelFormat());
+                            bitmaps.Add(res.Index.Value, bmp);
+                        }
+                        texs.Add(iconKv.Key, bmp);
+                        iconItem.Remove("compress");
+                        iconItem.Remove("attr");
+                        iconList.Add(iconItem);
+                    }
+                    var packer = new TexturePacker();
+                    using (var texture = packer.CellProcess(texs, texsOrigin, widthPadding, heightPadding, out var cellWidth,
+                               out var cellHeight))
+                    {
+                        motionItem["image"] = BuildSourceImage(texture);
+                        motionItem["cellWidth"] = cellWidth.ToPsbNumber();
+                        motionItem["cellHeight"] = cellHeight.ToPsbNumber();
+                    }
+                    foreach (var iconKv in icon)
+                    {
+                        var iconItem = (PsbDictionary)iconKv.Value;
+                        var node = packer.Atlasses[0].Nodes.Find(n => n.Texture.Source == iconKv.Key);
+                        iconItem["left"] = node.Bounds.Left.ToPsbNumber();
+                        iconItem["top"] = node.Bounds.Top.ToPsbNumber();
+                        iconItem["originX"] = (node.Bounds.Width / 2).ToPsbNumber();
+                        iconItem["originY"] = (node.Bounds.Height / 2).ToPsbNumber();
+                        iconItem["width"] = (node.Bounds.Width).ToPsbNumber();
+                        iconItem["height"] = (node.Bounds.Height).ToPsbNumber();
+                        iconItem.Remove("pixel");
+                    }
+
+                }
+                else //Scrapbook
+                {
+                    motionItem["cellHeight"] = 8.ToPsbNumber();
+                    motionItem["cellWidth"] = 8.ToPsbNumber();
+                    motionItem["className"] = "ScrapbookItem".ToPsbString();
+                    var iconList = new PsbList(icon.Count);
+                    motionItem["iconList"] = iconList;
+                    foreach (var iconKv in icon)
+                    {
+                        var iconItem = (PsbDictionary)iconKv.Value;
+                        iconItem["label"] = iconKv.Key.ToPsbString();
+                        iconItem["metadata"] = FillDefaultMetadata();
+                        iconItem["comment"] = PsbString.Empty;
+                        if (!iconItem.ContainsKey("resolution"))
+                        {
+                            iconItem["resolution"] = 1.ToPsbNumber();
+                        }
+                        var height = ((PsbNumber)iconItem["height"]).AsInt;
+                        var width = ((PsbNumber)iconItem["width"]).AsInt;
+                        var rl = iconItem["compress"] is PsbString s && s.Value.ToUpperInvariant() == "RL";
+                        var res = (PsbResource)iconItem["pixel"];
+                        if (res != null)
+                        {
+                            using (var texture = rl
+                                       ? RL.DecompressToImage(res.Data, width, height, psb.Platform.DefaultPixelFormat())
+                                       : RL.ConvertToImage(res.Data, width, height, psb.Platform.DefaultPixelFormat()))
+                            {
+                                iconItem["image"] = BuildSourceImage(texture);
+                            }
+                        }
+
+                        iconItem.Remove("compress");
+                        iconItem.Remove("pixel");
+                        iconList.Add(iconItem);
+                    }
+                }
+
+                sourceChildren.Add(motionItem);
+            }
+
+            foreach (var bitmap in bitmaps.Values)
+            {
+                bitmap?.Dispose();
+            }
+
+            return sourceChildren;
+        }
+
+        private static (int width, int height) ExpandClipArea(PsbDictionary clip, int width, int height)
+        {
+            if (clip == null)
+            {
+                return (width, height);
+            }
+            var top = ((PsbNumber)clip["top"]).AsDouble;
+            var bottom = ((PsbNumber)clip["bottom"]).AsDouble;
+            var left = ((PsbNumber)clip["left"]).AsDouble;
+            var right = ((PsbNumber)clip["right"]).AsDouble;
+
+            return ((int)(width / (bottom - top)), (int)(height / (right - left)));
+        }
+
+        private PsbDictionary BuildSourceImage(Bitmap pixel, int type = 2)
+        {
+            var image = new PsbDictionary(2)
+            {
+                ["data"] = new PsbDictionary()
+            {
+                {"bitCount", 32.ToPsbNumber()},
+                {"compress", "RL".ToPsbString()},
+                {"height", pixel.Height.ToPsbNumber()},
+                {"id", "rgbabitmap".ToPsbString()},
+                {"pixel", new PsbResource {Data = RL.CompressImage(pixel, PsbPixelFormat.LeRGBA8)}},
+                {"width", pixel.Width.ToPsbNumber()},
+            },
+                ["type"] = type.ToPsbNumber()
+            };
+            return image;
+        }
+
+        /// <summary>
+        /// Build `objectChildren` from PSB `object`
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <param name="partsList"></param>
+        /// <param name="charaProfileList"></param>
+        /// <returns></returns>
+        private IPsbValue BuildObjects(PSB psb, out PsbList partsList, out PsbList charaProfileList)
+        {
+            //Dictionary<string, List<string>> disableFeatures = new Dictionary<string, List<string>>();
+            var enableFeatures = new Dictionary<string, string>();
+            var newPartsList = new PsbList();
+            var newCharaProfileList = new PsbList();
+
+            var objectChildren = new PsbList {Parent = Mmo.Objects};
+            foreach (var motionItemKv in (PsbDictionary)psb.Objects["object"])
+            {
+                var motionItem = (PsbDictionary)motionItemKv.Value;
+                var objectChildrenItem = new PsbDictionary();
+                objectChildrenItem.Parent = objectChildren;
+                objectChildrenItem["label"] = motionItemKv.Key.ToPsbString();
+                objectChildrenItem["className"] = "CharaItem".ToPsbString();
+                objectChildrenItem["comment"] = PsbString.Empty;
+                objectChildrenItem["defaultCoordinate"] = PsbNumber.Zero;
+                objectChildrenItem["marker"] = PsbNumber.Zero;
+                objectChildrenItem["metadata"] = motionItem["metadata"] is PsbNull ? FillDefaultMetadata() : motionItem["metadata"];
+                var motion = (PsbDictionary)motionItem["motion"];
+                objectChildrenItem["children"] = BuildChildrenFromMotion(motion, objectChildrenItem);
+                objectChildrenItem["templateReferenceChara"] = PsbString.Empty;
+                objectChildrenItem["templateSourceMap"] = new PsbDictionary(0);
+                //objectChildrenItem["uniqId"] = 4396;
+
+                objectChildren.Add(objectChildrenItem);
+            }
+
+            partsList = newPartsList;
+            charaProfileList = newCharaProfileList;
+
+            #region Local Functions
+
+            PsbList BuildChildrenFromMotion(PsbDictionary dic, IPsbCollection parent)
+            {
+                var objectChildren_children = new PsbList {Parent = parent};
+                foreach (var motionItemKv in dic)
+                {
+                    var motionItem = (PsbDictionary)motionItemKv.Value;
+                    var objectChildrenItem = new PsbDictionary();
+                    objectChildrenItem.Parent = objectChildren_children;
+                    objectChildrenItem["className"] = "MotionItem".ToPsbString();
+                    objectChildrenItem["comment"] = PsbString.Empty;
+                    objectChildrenItem["exportBounds"] = PsbNumber.Zero;
+                    objectChildrenItem["exportSelf"] = 1.ToPsbNumber();
+                    objectChildrenItem["forcePreviewLoop"] = PsbNumber.Zero;
+                    objectChildrenItem["fps"] = 60.ToPsbNumber();
+                    objectChildrenItem["isDelivered"] = PsbNumber.Zero;
+                    objectChildrenItem["label"] = motionItemKv.Key.ToPsbString();
+                    objectChildrenItem["lastTime"] = BuildLastTime(motionItem["lastTime"]);
+                    objectChildrenItem["loopBeginTime"] = motionItem["loopTime"]; //TODO: loop
+                    objectChildrenItem["loopEndTime"] = motionItem["loopTime"]; //currently begin = end = -1
+                    objectChildrenItem["marker"] = PsbNumber.Zero;
+                    objectChildrenItem["metadata"] = motionItem["metadata"] is PsbNull ? FillDefaultMetadata() : motionItem["metadata"]; //TODO: should we set all to default?
+                    var parameter = (PsbList)motionItem["parameter"];
+                    objectChildrenItem["parameterize"] = motionItem.ContainsKey("parameterize") && motionItem["parameterize"] is not PsbNull ? 
+                        parameter[((PsbNumber)motionItem["parameterize"]).IntValue]
+                        : FillDefaultParameterize(dic);
+                    // priorityFrameList is a draw-order list of flattened layer indices, not a layer id list.
+                    // After mc=1 helper layers are inserted, these indices must be remapped.
+                    objectChildrenItem["priorityFrameList"] = BuildPriorityFrameList((PsbList)motionItem["priority"]);
+                    objectChildrenItem["referenceModelFileList"] = motionItem["referenceModelFileList"];
+                    objectChildrenItem["referenceProjectFileList"] = motionItem["referenceProjectFileList"];
+                    objectChildrenItem["streamed"] = PsbNumber.Zero;
+                    objectChildrenItem["tagFrameList"] = motionItem["tag"];
+                    //objectChildrenItem["uniqId"] = 1551;
+                    objectChildrenItem["variableChildren"] = motionItem["variable"];
+                    var lastTimeVal = motionItem["lastTime"] as PsbNumber;
+                    int lastTime = lastTimeVal?.IntValue ?? 61;
+                    var layer = (PsbList)motionItem["layer"];
+                    layer.Parent = objectChildrenItem;
+
+                    // Capture flat layer order before topology changes.
+                    // Note: mc=1 means meshCombine-enabled helper layer.
+                    // Once meshCombinator is materialized into physical helper layers, flatten indices shift.
+                    var oldFlatList = FlattenLayerTree(layer);
+
+                    BuildLayerChildren(layer, parameter, lastTime);
+
+                    // priorityFrameList stores indices into flattened layer order.
+                    // If we inserted helpers (count changed), remap old indices to new positions.
+                    var newFlatList = FlattenLayerTree(layer);
+                    if (oldFlatList.Count != newFlatList.Count)
+                    {
+                        RemapPriorityFrameList(objectChildrenItem["priorityFrameList"] as PsbList, oldFlatList, newFlatList);
+                    }
+
+                    objectChildrenItem["layerChildren"] = motionItem["layer"];
+
+                    objectChildren_children.Add(objectChildrenItem);
+                }
+
+                return objectChildren_children;
+            }
+
+            void BuildLayerChildren(IPsbCollection child, PsbList parameter, int lastTime)
+            {
+                if (child is PsbList col)
+                {
+                    foreach (var c in col)
+                    {
+                        if (c is IPsbCollection cchild)
+                        {
+                            BuildLayerChildren(cchild, parameter, lastTime);
+                        }
+                    }
+                }
+                else if (child is PsbDictionary dic)
+                {
+                    //ClassName
+                    var typeNum = dic["type"] as PsbNumber;
+                    var classType = MmoItemClass.ObjLayerItem;
+                    if (typeNum != null)
+                    {
+                        classType = (MmoItemClass)typeNum.IntValue;
+                    }
+
+                    dic["className"] = classType.ToString().ToPsbString();
+                    dic["comment"] = PsbString.Empty;
+
+                    // Restore meshCombinator before BuildFrameList so packed mesh data is expanded into real helper layers.
+                    // meshCombinator is the packed container that stores ci=0 / ci>0 meshCombine tracks.
+                    if (dic.ContainsKey("meshCombinator") && dic["meshCombinator"] is PsbDictionary meshCombinator)
+                    {
+                        RestoreMeshCombinator(dic, meshCombinator, parameter, lastTime);
+                    }
+
+                    //Build frameList
+                    MmoFrameMask frameMask = 0;
+                    MmoFrameMaskEx frameMaskEx = 0;
+                    List<string> motionRefs = null;
+                    if (dic["frameList"] is PsbList frameList)
+                    {
+                        BuildFrameList(frameList, classType, out frameMask, out frameMaskEx, out motionRefs);
+                    }
+
+                    //parameterize: find from psb table and expand
+                    string param = null;
+                    if (dic["parameterize"] is PsbNumber parameterizeId && parameterizeId.IntValue >= 0)
+                    {
+                        dic["parameterize"] = parameter[parameterizeId.IntValue];
+                        param = dic["parameterize"].Children("id")?.ToString();
+                    }
+                    else
+                    {
+                        dic["parameterize"] = FillDefaultParameterize(dic);
+                        param = dic["parameterize"].Children("id")?.ToString();
+                        if (param == "param") param = null; //default placeholder, not a real parameter
+                    }
+
+                    //Disable features
+                    if (!string.IsNullOrEmpty(param) && motionRefs != null && motionRefs.Count > 0)
+                    {
+                        for (var i = 0; i < motionRefs.Count; i++)
+                        {
+                            motionRefs[i] = motionRefs[i].Substring(motionRefs[i].IndexOf('/') + 1);
+                        }
+                    }
+
+                    //stencilType conversion: 5 (psb) -> 1 (mmo)
+                    if (dic["stencilType"] is PsbNumber stencilType)
+                    {
+                        if (stencilType.IntValue == 5)
+                        {
+                            dic["stencilType"] = 1.ToPsbNumber();
+                        }
+                    }
+
+                    if (dic["metadata"] is PsbNull)
+                    {
+                        dic["metadata"] = new PsbDictionary(2) //metadata: data is string => type0; data is null?dictionary => type1
+                        {
+                            {"data", PsbString.Empty },
+                            {"type", PsbNumber.Zero },
+                        };
+                    }
+                    else if (dic["metadata"] is PsbString s)
+                    {
+                        dic["metadata"] = new PsbDictionary(2)
+                        {
+                            {"data", s },
+                            {"type", PsbNumber.Zero },
+                        };
+                    }
+
+                    // meshSyncChildMask controls which child meshCombine layers inherit or sync to this layer.
+                    // Expand the packed bitmask into explicit MMO fields.
+                    if (dic["meshSyncChildMask"] is PsbNumber number)
+                    {
+                        dic["meshSyncChildShape"] = (number.IntValue & 8) == 8 ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        //project version
+                        dic["meshSyncChildZoom"] = (number.IntValue & 4) == 4 ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["meshSyncChildAngle"] = (number.IntValue & 2) == 2 ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        
+                        dic["meshSyncChildCoord"] = (number.IntValue & 1) == 1 ? 1.ToPsbNumber() : PsbNumber.Zero;
+                    }
+                    else
+                    {
+                        dic["meshSyncChildShape"] = PsbNumber.Zero;
+                        dic["meshSyncChildZoom"] = PsbNumber.Zero;
+                        dic["meshSyncChildAngle"] = PsbNumber.Zero;
+                        dic["meshSyncChildCoord"] = PsbNumber.Zero;
+                    }
+
+                    //if (!dic.ContainsKey("meshSyncChildAngle"))
+                    //{
+                    //    dic["meshSyncChildAngle"] = PsbNumber.Zero;
+                    //}
+                    //if (!dic.ContainsKey("meshSyncChildZoom"))
+                    //{
+                    //    dic["meshSyncChildZoom"] = PsbNumber.Zero;
+                    //}
+
+                    //Expand inheritMask
+                    //inheritAngle:         16  10000
+                    //inheritParent:
+                    //inheritColorWeight:   512 1000000000
+                    if (dic["inheritMask"] is PsbNumber inheritMask)
+                    {
+                        var mask = Convert.ToString(inheritMask.IntValue, 2).PadLeft(32, '0');
+                        dic["inheritShape"] = mask[6] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritParent"] = mask[9] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritOpacity"] = mask[21] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritColorWeight"] = mask[22] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritSlantY"] = mask[23] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritSlantX"] = mask[24] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritZoomY"] = mask[25] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritZoomX"] = mask[26] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritAngle"] = mask[27] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritFlipY"] = mask[28] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                        dic["inheritFlipX"] = mask[29] == '1' ? 1.ToPsbNumber() : PsbNumber.Zero;
+                    }
+
+                    if (classType == MmoItemClass.ShapeLayerItem)
+                    {
+                        if (dic["shape"] is PsbNumber shape)
+                        {
+                            dic["shape"] = shape.ToShapeString().ToPsbString();
+                        }
+
+                        dic.Remove("type"); //FIXED: the "type" here will be misunderstand for "point" type so must be removed
+                        dic.Remove("inheritMask");
+                    }
+
+                    if (classType == MmoItemClass.ParticleLayerItem)
+                    {
+                        //All params are kept in PSB
+                        if (dic["particle"] is PsbNumber particle)
+                        {
+                            switch (particle.IntValue)
+                            {
+                                case 0:
+                                    dic["particle"] = "point".ToPsbString();
+                                    break;
+                                case 1:
+                                    dic["particle"] = "ellipse".ToPsbString();
+                                    break;
+                                case 2:
+                                    dic["particle"] = "quad".ToPsbString();
+                                    break;
+                                default:
+                                    Logger.LogWarn("[WARN] unknown particle!");
+                                    break;
+                            }
+                        }
+                    }
+
+                    if (classType == MmoItemClass.TextLayerItem)
+                    {
+                        //TODO: Haven't seen any sample with Text
+                    }
+
+                    //other
+                    FillDefaultsIntoChildren(dic, classType);
+
+                    //build charaProfile
+                    if (classType == MmoItemClass.LayoutLayerItem)
+                    {
+                        PsbDictionary charaProfile = null;
+                        switch (dic["label"].ToString())
+                        {
+                            case "目L_le":
+                                charaProfile = BuildCharaProfileItem("eye", "Eye", dic.GetMmoPath());
+                                break;
+                            case "口_le":
+                                charaProfile = BuildCharaProfileItem("mouth", "Mouth", dic.GetMmoPath());
+                                break;
+                            case "胸_le":
+                                charaProfile = BuildCharaProfileItem("bust", "Bust", dic.GetMmoPath());
+                                break;
+                            case "胴体_le":
+                                charaProfile = BuildCharaProfileItem("body", "Body", dic.GetMmoPath());
+                                break;
+                        }
+
+                        if (charaProfile != null)
+                        {
+                            newCharaProfileList.Add(charaProfile);
+                        }
+                    }
+
+                    //build PartsList
+                    //[MenuPath, Feature, CharaItem, Motion, Layer, ""]
+                    if (classType == MmoItemClass.ObjLayerItem || classType == MmoItemClass.MotionLayerItem || classType == MmoItemClass.LayoutLayerItem || classType == MmoItemClass.MeshLayerItem)
+                    {
+                        var path = dic.GetMmoPath();
+                        path = path.Substring(path.IndexOf('/') + 1);
+                        var paths = path.Split('/');
+                        if (paths.Length < 2)
+                        {
+                            //malformed parent chain, skip parts entry to avoid index out of range
+                            goto BuildChildren;
+                        }
+                        var menuPath = InferDefaultPart(paths[0], path);
+                        //Infer Feature
+                        var features = InferFeatures(frameMask, frameMaskEx, classType);
+
+                        if (!string.IsNullOrEmpty(param))
+                        {
+                            var parentPaths = enableFeatures.Where(kv => path.StartsWith(kv.Key));
+                            if (parentPaths.Any(kv => kv.Value == param))
+                            {
+                                features.Remove("メッシュ");
+                            }
+                            else
+                            {
+                                enableFeatures[path] = param;
+                            }
+
+                            foreach (var motionRef in motionRefs)
+                            {
+                                enableFeatures[motionRef] = param;
+                                var rem = newPartsList.Where(p =>
+                                    p is PsbList c && string.Join("/",
+                                            new[] { c[2].ToString(), c[3].ToString(), c[4].ToString() })
+                                        .StartsWith(motionRef) && c[1].ToString().StartsWith("メッシュ")).ToList();
+                                foreach (var r in rem)
+                                {
+                                    newPartsList.Remove(r);
+                                }
+                            }
+                        }
+
+                        foreach (var feature in features)
+                        {
+                            newPartsList.Add(new PsbList(6)
+                            {
+                                menuPath.ToPsbString(),
+                                feature.ToPsbString(),
+                                paths[0].ToPsbString(),
+                                paths[1].ToPsbString(),
+                                string.Join("/",paths.Skip(2)).ToPsbString(),
+                                PsbString.Empty
+                                //string.IsNullOrEmpty(param)? PsbString.Empty : param.ToPsbString()
+                                //$"{FillDefaultCategory(pathList[0])}".ToPsbString()
+                            });
+                        }
+                    }
+
+                    BuildChildren:
+                    //build children
+                    if (dic["children"] is PsbList children)
+                    {
+                        BuildLayerChildren(children, parameter, lastTime);
+                    }
+                }
+
+            }
+
+            PsbDictionary BuildCharaProfileItem(string id, string label, string path)
+            {
+                var paths = path.Split(new[] { "/" }, StringSplitOptions.RemoveEmptyEntries);
+                if (paths.Length < 4)
+                {
+                    return null;
+                }
+                var l = new PsbDictionary(3)
+                {
+                    {"chara", paths[1].ToPsbString()},
+                    {"motion", paths[2].ToPsbString()},
+                    {"layers", new PsbList(1){string.Join("/", paths.Skip(3)).ToPsbString()}}
+                };
+                return new PsbDictionary(3)
+                {
+                    {"id",  id.ToPsbString()},
+                    {"label",  label.ToPsbString()},
+                    {"layer", l}
+                };
+            }
+
+            #endregion
+
+            return objectChildren;
+        }
+
+        /// <summary>
+        /// Restore meshCombinator to individual layers with mesh frame data.
+        /// <para>During MMO→PSB compilation, stripMeshCombineLayer extracts mesh data from layers
+        /// and packs it into meshCombinator on a parent layer. This method reverses that process:</para>
+        /// <para>Terminology: in combinatorList, ci means combinator index.
+        /// Typically ci=0 is the parent/self mesh track, ci&gt;0 are helper-layer tracks.</para>
+        /// <para>If the parent already has its own explicit parameter, keep it and materialize
+        /// combinator entries as nested meshCombine child layers.</para>
+        /// <para>Otherwise ci=0 restores into the parent layer's frameList and the remaining
+        /// combinators are materialized as nested child layers.</para>
+        /// </summary>
+        private void RestoreMeshCombinator(PsbDictionary parent, PsbDictionary meshCombinator, PsbList parameter, int lastTime)
+        {
+            if (!meshCombinator.TryGetValue("combinatorList", out var combinatorListObj) ||
+                !(combinatorListObj is PsbList combinatorList) || combinatorList.Count == 0)
+            {
+                parent.Remove("meshCombinator");
+                return;
+            }
+
+            // Extract template content from parent's existing first frame
+            PsbDictionary templateContent = null;
+            if (parent["frameList"] is PsbList existingFrameList)
+            {
+                foreach (var frame in existingFrameList)
+                {
+                    if (frame is PsbDictionary fd && fd["content"] is PsbDictionary ec)
+                    {
+                        templateContent = ec;
+                        break;
+                    }
+                }
+            }
+
+            const int valuesPerMesh = 32; // 4x4 control points × 2 coords
+            var firstKey = GetCombinatorKey(combinatorList[0] as PsbDictionary);
+            var parentParameterKey = ResolveParameterId(parent.TryGetValue("parameterize", out var parameterizeObj) ? parameterizeObj : null, parameter);
+            var parentHasExplicitParameter = !string.IsNullOrEmpty(parentParameterKey) && parentParameterKey != "param";
+            var restoreFirstToParent = !parentHasExplicitParameter || string.Equals(parentParameterKey, firstKey, StringComparison.Ordinal);
+            var startIndex = 0;
+
+            // If the parent does not already expose a different parameter, restore the first
+            // combinator directly onto the parent and materialize the remaining ones as child layers.
+            // In most assets this first entry corresponds to ci=0.
+            if (restoreFirstToParent && combinatorList[0] is PsbDictionary firstCombinator)
+            {
+                var variable = firstCombinator["variable"] as PsbDictionary;
+                if (variable != null)
+                {
+                    var key = variable["key"]?.ToString();
+                    var meshCount = (variable["meshCount"] as PsbNumber)?.IntValue ?? 0;
+                    var rangeBegin = variable["rangeBegin"] ?? PsbNumber.Zero;
+                    var rangeEnd = variable["rangeEnd"] ?? 1.ToPsbNumber();
+                    var neutralIndex = (firstCombinator["neutralIndex"] as PsbNumber)?.IntValue ?? -1;
+                    var rawMeshList = firstCombinator["rawMeshList"] as PsbResource;
+
+                    if (!string.IsNullOrEmpty(key) && meshCount > 0 && rawMeshList?.Data != null && rawMeshList.Data.Length > 0)
+                    {
+                        var allValues = DecodeMeshValues(rawMeshList, meshCount, valuesPerMesh, isDelta: false);
+                        if (allValues != null)
+                        {
+                            int step = meshCount > 1 ? lastTime / (meshCount - 1) : lastTime;
+                            int paramIndex = FindOrAddParameter(parameter, key, rangeBegin, rangeEnd);
+
+                            var newFrameList = new PsbList(meshCount + 1);
+                            for (int mi = 0; mi < meshCount; mi++)
+                            {
+                                var content = new PsbDictionary();
+                                if (templateContent != null)
+                                {
+                                    foreach (var kv in templateContent)
+                                    {
+                                        if (kv.Key != "mesh")
+                                            content[kv.Key] = kv.Value;
+                                    }
+                                }
+                                else
+                                {
+                                    content["mask"] = ((int) MmoFrameMask.Mesh).ToPsbNumber();
+                                    content["src"] = "blank".ToPsbString();
+                                }
+
+                                content["mesh"] = BuildMeshDict(allValues, mi, neutralIndex, valuesPerMesh);
+
+                                newFrameList.Add(new PsbDictionary
+                                {
+                                    {"content", content},
+                                    {"time", (mi * step).ToPsbNumber()},
+                                    {"type", 3.ToPsbNumber()},
+                                });
+                            }
+
+                            newFrameList.Add(new PsbDictionary
+                            {
+                                {"time", (lastTime + 1).ToPsbNumber()},
+                                {"type", PsbNumber.Zero},
+                            });
+
+                            parent["frameList"] = newFrameList;
+                            parent["parameterize"] = paramIndex.ToPsbNumber();
+                            startIndex = 1;
+                        }
+                    }
+                }
+            }
+
+            MaterializeMeshCombinatorChildren(parent, combinatorList, startIndex, parameter, lastTime, valuesPerMesh, templateContent);
+            parent.Remove("meshCombinator");
+        }
+
+        private void MaterializeMeshCombinatorChildren(PsbDictionary parent, PsbList combinatorList, int startIndex,
+            PsbList parameter, int lastTime, int valuesPerMesh, PsbDictionary templateContent)
+        {
+            if (startIndex >= combinatorList.Count)
+            {
+                return;
+            }
+
+            var originalChildren = parent["children"] as PsbList ?? new PsbList();
+            var topChildren = new PsbList { Parent = parent };
+            PsbList currentChildren = topChildren;
+            PsbDictionary deepestHelper = null;
+
+            // Build helper layers as nested chain, not flat siblings:
+            // helper(startIndex) -> helper(startIndex+1) -> ... -> originalChildren
+            for (var index = startIndex; index < combinatorList.Count; index++)
+            {
+                if (!(combinatorList[index] is PsbDictionary combinator) ||
+                    !(combinator["variable"] is PsbDictionary variable))
+                {
+                    continue;
+                }
+
+                var key = variable["key"]?.ToString();
+                var meshCount = (variable["meshCount"] as PsbNumber)?.IntValue ?? 0;
+                var rangeBegin = variable["rangeBegin"] ?? PsbNumber.Zero;
+                var rangeEnd = variable["rangeEnd"] ?? 1.ToPsbNumber();
+                var neutralIndex = (combinator["neutralIndex"] as PsbNumber)?.IntValue ?? -1;
+                var rawMeshList = combinator["rawMeshList"] as PsbResource;
+
+                if (string.IsNullOrEmpty(key) || meshCount <= 0 || rawMeshList?.Data == null || rawMeshList.Data.Length == 0)
+                {
+                    continue;
+                }
+
+                var allValues = DecodeMeshValues(rawMeshList, meshCount, valuesPerMesh, isDelta: true);
+                if (allValues == null)
+                {
+                    continue;
+                }
+
+                var helper = CloneMeshCombineLayerTemplate(parent);
+                var paramIndex = FindOrAddParameter(parameter, key, rangeBegin, rangeEnd);
+
+                helper["label"] = GetMeshCombinatorLayerLabel(key).ToPsbString();
+                helper["frameList"] = BuildMeshFrameList(allValues, meshCount, neutralIndex, valuesPerMesh, lastTime, templateContent);
+                helper["parameterize"] = paramIndex.ToPsbNumber();
+                // mc means meshCombine. 1 means this node is a meshCombine helper layer.
+                helper["meshCombine"] = 1.ToPsbNumber();
+                helper.Remove("meshCombinator");
+                helper.Parent = currentChildren;
+                currentChildren.Add(helper);
+                deepestHelper = helper;
+
+                var nestedChildren = new PsbList { Parent = helper };
+                helper["children"] = nestedChildren;
+                currentChildren = nestedChildren;
+            }
+
+            if (deepestHelper == null)
+            {
+                return;
+            }
+
+            originalChildren.Parent = deepestHelper;
+            deepestHelper["children"] = originalChildren;
+            parent["children"] = topChildren;
+        }
+
+        private PsbDictionary CloneMeshCombineLayerTemplate(PsbDictionary source)
+        {
+            var clone = new PsbDictionary(source.Count);
+            foreach (var kv in source)
+            {
+                if (kv.Key == "children" || kv.Key == "frameList" || kv.Key == "parameterize" || kv.Key == "meshCombinator")
+                {
+                    continue;
+                }
+
+                clone[kv.Key] = ClonePsbValue(kv.Value);
+            }
+
+            return clone;
+        }
+
+        private PsbList BuildMeshFrameList(double[] allValues, int meshCount, int neutralIndex, int valuesPerMesh, int lastTime,
+            PsbDictionary templateContent)
+        {
+            int step = meshCount > 1 ? lastTime / (meshCount - 1) : lastTime;
+            var frameList = new PsbList(meshCount + 1);
+
+            for (int meshIndex = 0; meshIndex < meshCount; meshIndex++)
+            {
+                var content = new PsbDictionary();
+                if (templateContent != null)
+                {
+                    foreach (var kv in templateContent)
+                    {
+                        if (kv.Key != "mesh")
+                        {
+                            content[kv.Key] = ClonePsbValue(kv.Value);
+                        }
+                    }
+                }
+                else
+                {
+                    content["mask"] = ((int)MmoFrameMask.Mesh).ToPsbNumber();
+                    content["src"] = "blank".ToPsbString();
+                }
+
+                // mesh is the PSB-side mesh payload; it contains bp (BezierPatch) and cc (ColorControl).
+                content["mesh"] = BuildMeshDict(allValues, meshIndex, neutralIndex, valuesPerMesh);
+                frameList.Add(new PsbDictionary
+                {
+                    {"content", content},
+                    {"time", (meshIndex * step).ToPsbNumber()},
+                    {"type", 3.ToPsbNumber()},
+                });
+            }
+
+            frameList.Add(new PsbDictionary
+            {
+                {"time", (lastTime + 1).ToPsbNumber()},
+                {"type", PsbNumber.Zero},
+            });
+
+            return frameList;
+        }
+
+        private static string ResolveParameterId(IPsbValue parameterize, PsbList parameter)
+        {
+            if (parameterize is PsbDictionary parameterDic)
+            {
+                return parameterDic.Children("id")?.ToString();
+            }
+
+            if (parameterize is PsbNumber parameterIndex && parameterIndex.IntValue >= 0 && parameterIndex.IntValue < parameter.Count &&
+                parameter[parameterIndex.IntValue] is PsbDictionary param)
+            {
+                return param.Children("id")?.ToString();
+            }
+
+            return null;
+        }
+
+        private static string GetCombinatorKey(PsbDictionary combinator)
+        {
+            return (combinator?["variable"] as PsbDictionary)?["key"]?.ToString();
+        }
+
+        private static string GetMeshCombinatorLayerLabel(string key)
+        {
+            if (string.IsNullOrEmpty(key))
+            {
+                return "param";
+            }
+
+            if (key.StartsWith("hair_LR_M", StringComparison.Ordinal) || key == "quake_LR_M")
+            {
+                return "QLR_M";
+            }
+
+            if (key.StartsWith("hair_LR", StringComparison.Ordinal) || key == "quake_LR")
+            {
+                return "QLR";
+            }
+
+            if (key.StartsWith("hair_UD", StringComparison.Ordinal) || key == "quake_UD")
+            {
+                return "QUD";
+            }
+
+            switch (key)
+            {
+                case "act_sp2":
+                    return "act_sp2";
+                case "act_sp3":
+                    return "act_sp3";
+                case "head_slant":
+                    return "SL";
+                case "body_slant":
+                    return "BSL";
+                case "head_UD":
+                case "face_eye_UD":
+                    return "UD";
+                case "head_LR":
+                case "face_eye_LR":
+                    return "LR";
+                case "body_UD":
+                    return "BUD";
+                case "body_LR":
+                    return "BLR";
+                case "bust_UD":
+                    return "BQUD";
+                case "bust_LR":
+                    return "BQLR";
+                default:
+                    return key;
+            }
+        }
+
+        private static IPsbValue ClonePsbValue(IPsbValue value)
+        {
+            switch (value)
+            {
+                case null:
+                    return null;
+                case PsbDictionary dictionary:
+                    var newDictionary = new PsbDictionary(dictionary.Count);
+                    foreach (var kv in dictionary)
+                    {
+                        newDictionary[kv.Key] = ClonePsbValue(kv.Value);
+                    }
+                    return newDictionary;
+                case PsbList list:
+                    var newList = new PsbList(list.Count);
+                    foreach (var item in list)
+                    {
+                        newList.Add(ClonePsbValue(item));
+                    }
+                    return newList;
+                default:
+                    return value;
+            }
+        }
+
+        private double[] DecodeMeshValues(PsbResource rawMeshList, int meshCount, int valuesPerMesh, bool isDelta)
+        {
+            int totalValues = meshCount * valuesPerMesh;
+            int expectedBytesDouble = totalValues * sizeof(double);
+            int expectedBytesFloat = totalValues * sizeof(float);
+
+            var allValues = new double[totalValues];
+
+            if (rawMeshList.Data.Length >= expectedBytesDouble)
+            {
+                Buffer.BlockCopy(rawMeshList.Data, 0, allValues, 0, expectedBytesDouble);
+            }
+            else if (rawMeshList.Data.Length >= expectedBytesFloat)
+            {
+                var floatValues = new float[totalValues];
+                Buffer.BlockCopy(rawMeshList.Data, 0, floatValues, 0, expectedBytesFloat);
+                for (int i = 0; i < totalValues; i++)
+                {
+                    allValues[i] = floatValues[i];
+                }
+            }
+            else
+            {
+                return null;
+            }
+
+            if (isDelta)
+            {
+                for (int mi = 0; mi < meshCount; mi++)
+                {
+                    for (int vi = 0; vi < valuesPerMesh; vi++)
+                    {
+                        allValues[mi * valuesPerMesh + vi] += BezierPatchDefault[vi];
+                    }
+                }
+            }
+
+            return allValues;
+        }
+
+        private int FindOrAddParameter(PsbList parameter, string key, IPsbValue rangeBegin, IPsbValue rangeEnd)
+        {
+            for (int pi = 0; pi < parameter.Count; pi++)
+            {
+                if (parameter[pi] is PsbDictionary pd && pd.Children("id")?.ToString() == key)
+                {
+                    return pi;
+                }
+            }
+
+            parameter.Add(new PsbDictionary
+            {
+                {"discretization", PsbNumber.Zero},
+                {"enabled", 1.ToPsbNumber()},
+                {"id", key.ToPsbString()},
+                {"rangeBegin", rangeBegin},
+                {"rangeEnd", rangeEnd},
+            });
+            return parameter.Count - 1;
+        }
+
+        private static PsbDictionary BuildMeshDict(double[] allValues, int meshIndex, int neutralIndex, int valuesPerMesh)
+        {
+            if (meshIndex == neutralIndex)
+            {
+                // bp = BezierPatch, cc = ColorControl.
+                return new PsbDictionary {{"bp", PsbNull.Null}, {"cc", PsbNull.Null}};
+            }
+
+            var bp = new PsbList(valuesPerMesh);
+            for (int vi = 0; vi < valuesPerMesh; vi++)
+            {
+                bp.Add(new PsbNumber(allValues[meshIndex * valuesPerMesh + vi]));
+            }
+            // BuildFrameList later maps them to MMO keys mbp/mcc.
+            return new PsbDictionary {{"bp", bp}, {"cc", PsbNull.Null}};
+        }
+
+        private HashSet<string> InferFeatures(MmoFrameMask frameMask, MmoFrameMaskEx frameMaskEx, MmoItemClass classType)
+        {
+            // "///^(透過表示|ビュー|レイアウト|レイアウト角度|角度|XY座標|XY座標角度|Z座標|メッシュ|パーティクル|削除|ブレンドモード)\\((.+)\\)$"
+            // "///^(Transparent|View|Layout|Layout角度|角度|XY座標|XY座標角度|Z座標|Mesh|Particle|Remove|BlendMode)\\((.+)\\)$"
+            var features = new HashSet<string>();
+
+            //削除 impossible to get?
+            if (classType == MmoItemClass.ObjLayerItem && frameMaskEx.HasFlag(MmoFrameMaskEx.SrcSrc))
+            {
+                features.Add("削除");
+                features.Add("ブレンドモード");
+            }
+
+            if (frameMask == 0 || frameMask == (MmoFrameMask)1)
+            {
+                return features;
+            }
+
+            if (frameMask.HasFlag(MmoFrameMask.Opacity))
+            {
+                features.Add("透過表示");
+            }
+            //ビュー unknown
+            if (frameMask.HasFlag(MmoFrameMask.Coord) && frameMaskEx.HasFlag(MmoFrameMaskEx.CoordXY) && frameMaskEx.HasFlag(MmoFrameMaskEx.CoordZ))
+            {
+                if (frameMask.HasFlag(MmoFrameMask.Angle))
+                {
+                    features.Add("レイアウト角度");
+                }
+                else
+                {
+                    features.Add("レイアウト");
+                }
+            }
+            else
+            {
+                if (frameMaskEx.HasFlag(MmoFrameMaskEx.CoordXY))
+                {
+                    features.Add(frameMask.HasFlag(MmoFrameMask.Angle) ? "XY座標角度" : "XY座標");
+                }
+                if (frameMaskEx.HasFlag(MmoFrameMaskEx.CoordZ))
+                {
+                    if (frameMask.HasFlag(MmoFrameMask.Angle))
+                    {
+                        features.Add("角度");
+                    }
+                    features.Add("Z座標");
+                }
+            }
+            if (frameMask.HasFlag(MmoFrameMask.Angle))
+            {
+                features.Add("角度");
+            }
+            if (frameMask.HasFlag(MmoFrameMask.Mesh) || frameMask.HasFlag(MmoFrameMask.Motion))
+            {
+                features.Add("メッシュ");
+            }
+            if (frameMask.HasFlag(MmoFrameMask.Particle))
+            {
+                features.Add("パーティクル");
+            }
+            if (frameMask.HasFlag(MmoFrameMask.BlendMode))
+            {
+                features.Add("ブレンドモード");
+            }
+
+            //won't happen
+            //if (classType == MmoItemClass.LayoutLayerItem && frameMaskEx.HasFlag(MmoFrameMaskEx.SrcSrc))
+            //{
+            //    features.Add("レイアウト角度");
+            //    features.Remove("レイアウト");
+            //}
+
+            return features;
+        }
+
+        private string InferDefaultPart(string part, string path)
+        {
+            foreach (var kv in CustomPartMenuPaths)
+            {
+                if (path.Contains(kv.Key))
+                {
+                    return kv.Value;
+                }
+            }
+            if (path.Contains("スカート"))
+            {
+                return "胴体/スカート";
+            }
+            if (path.Contains("追加パーツ"))
+            {
+                return "追加パーツ";
+            }
+            if (path.Contains("目L") || path.Contains("瞳L") || path.Contains("涙L"))
+            {
+                return "表情/目L";
+            }
+            if (path.Contains("目R") || path.Contains("瞳R") || path.Contains("涙R"))
+            {
+                return "表情/目R";
+            }
+            if (path.Contains("眉L"))
+            {
+                return "表情/眉L";
+            }
+            if (path.Contains("眉R"))
+            {
+                return "表情/眉R";
+            }
+            if (path.Contains("口"))
+            {
+                return "表情/口";
+            }
+            if (path.Contains("鼻"))
+            {
+                return "表情/鼻";
+            }
+            if (path.Contains("前髪"))
+            {
+                return "頭部/前髪";
+            }
+            if (path.Contains("後髪"))
+            {
+                return "頭部/後髪";
+            }
+            if (path.Contains("腕L"))
+            {
+                return "胴体/腕L";
+            }
+            if (path.Contains("腕R"))
+            {
+                return "胴体/腕R";
+            }
+            if (path.Contains("胸"))
+            {
+                return "胴体/胸";
+            }
+            if (path.Contains("胴体回転中心") && path.Contains("胴体調整"))
+            {
+                return "胴体/胴体全体";
+            }
+            if (path.Contains("胴体"))
+            {
+                return "胴体/胴体";
+            }
+            if (path.Contains("頭部") && path.Contains("輪郭"))
+            {
+                return "頭部/輪郭";
+            }
+            if (path.Contains("胴体回転中心") && path.Contains("頭部調整"))
+            {
+                return "頭部/頭部全体";
+            }
+            if (path.EndsWith("背景") || path.EndsWith("背景_le"))
+            {
+                return "背景"; // 全体/背景 is going to fail if there are only one item in it
+            }
+            return "全体";
+        }
+
+        private static IPsbValue BuildLastTime(IPsbValue val)
+        {
+            //TODO: 目L：61 in krkr vs -1 in MMO
+            if (val is PsbNumber num)
+            {
+                if (num.IntValue >= 0)
+                {
+                    num.IntValue -= 1;
+                }
+
+                return num;
+            }
+
+            return val;
+        }
+
+        private PsbList BuildPriorityFrameList(PsbList fl)
+        {
+            for (var i = 0; i < fl.Count; i++)
+            {
+                var flItem = fl[i];
+                if (flItem is PsbDictionary dic)
+                {
+                    if (!dic.ContainsKey("content"))
+                    {
+                        fl.Remove(flItem);
+                    }
+                    else
+                    {
+                        if (dic["content"] is PsbNull)
+                        {
+                            fl.Remove(flItem);
+                        }
+                    }
+                }
+            }
+
+            return fl;
+        }
+
+        private void BuildFrameList(PsbList frameList, MmoItemClass classType, out MmoFrameMask mask, out MmoFrameMaskEx maskEx, out List<string> motionRefs)
+        {
+            mask = 0;
+            maskEx = 0;
+            motionRefs = new List<string>();
+            foreach (var fl in frameList)
+            {
+                if (fl is PsbDictionary dic)
+                {
+                    if (!dic.ContainsKey("content"))
+                    {
+                        dic.Add("content", PsbNull.Null);
+                    }
+                    else if (dic["content"] is PsbDictionary content)
+                    {
+                        if (content.ContainsKey("mask")) //Expand params from mask
+                        {
+                            if (content["mask"] is PsbNumber num)
+                            {
+                                mask = (MmoFrameMask)num.IntValue; //TODO: motion/timeOffset is special or not?
+                            }
+
+                            if (content["coord"] is PsbList col)
+                            {
+                                if (col[0] is PsbNumber x && x.IntValue != 0)
+                                {
+                                    maskEx |= MmoFrameMaskEx.CoordXY;
+                                }
+                                else if (col[1] is PsbNumber y && y.IntValue != 0)
+                                {
+                                    maskEx |= MmoFrameMaskEx.CoordXY;
+                                }
+                                if (col[2] is PsbNumber z && z.IntValue != 0)
+                                {
+                                    maskEx |= MmoFrameMaskEx.CoordZ;
+                                }
+                            }
+
+                            //Low to High:
+                            //0: ox,oy
+                            //1: coord
+                            //4: angle
+                            //5,6: zx,zy
+                            //9: color
+                            //10: opa
+                            //17: bm
+                            //19: motion/timeOffset?
+                            //25: mesh
+
+                            if (content["src"] is PsbString s)
+                            {
+                                if (s.Value.StartsWith("motion/"))
+                                {
+                                    maskEx |= MmoFrameMaskEx.SrcMotion;
+                                    motionRefs.Add(s.Value);
+                                }
+                                else if (s.Value.StartsWith("src/"))
+                                {
+                                    maskEx |= MmoFrameMaskEx.SrcSrc;
+                                }
+                                else if (s.Value.StartsWith("shape/"))
+                                {
+                                    maskEx |= MmoFrameMaskEx.SrcShape;
+                                }
+                            }
+
+                            //if (content["src"] is PsbString s && s.Value.StartsWith("shape/"))
+                            //{
+                            //    content.Remove("mask"); //necessary to prevent Member "point" does not exist error
+                            //}
+                        }
+
+                        if (content.ContainsKey("color"))
+                        {
+                            var colorObj = content["color"];
+                            if (colorObj is PsbNumber num) //Expand Color
+                            {
+                                content["color"] = new PsbList(4) { num, num, num, num };
+                            }
+                        }
+
+                        var hasMotion = false;
+
+                        if (content.ContainsKey("motion"))
+                        {
+                            hasMotion = true;
+                            var motion = (PsbDictionary)content["motion"];
+                            if (motion.ContainsKey("timeOffset"))
+                            {
+                                content["mdofst"] = motion["timeOffset"];
+                            }
+                        }
+
+                        if (content.ContainsKey("mesh")) //25
+                        {
+                            // mbp/mcc are MMO-side mesh keys corresponding to PSB mesh.bp / mesh.cc.
+                            content["mbp"] = content["mesh"].Children("bp");
+                            content["mcc"] = content["mesh"].Children("cc");
+                            content.Remove("mesh"); //PSB v4 field, not needed in MMO
+                        }
+
+                        //Merge src with icon: "blank" + icon "x:y:w:h" → "blank/x:y:w:h" (krkr format)
+                        //Required for meshCombine layers to resolve image dimensions for mesh grid
+                        if (content["src"] is PsbString srcStr && srcStr.Value == "blank"
+                            && content["icon"] is PsbString iconStr)
+                        {
+                            content["src"] = new PsbString($"blank/{iconStr.Value}");
+                        }
+
+                        var hasStencil = classType == MmoItemClass.StencilLayerItem;
+                        FillDefaultsIntoFrameListContent(content, hasMotion, hasStencil);
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Essential for normal Editor
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <param name="mmo"></param>
+        /// <param name="partList"></param>
+        /// <param name="charaProfileList"></param>
+        /// <returns></returns>
+        private PsbDictionary BuildMetaFormat(PSB psb, PSB mmo, PsbList partList, PsbList charaProfileList)
+        {
+            var jsonConverter = new PsbJsonConverter();
+            PsbDictionary mmoRef = null;
+            if (DebugMode && File.Exists("mmo.json"))
+            {
+                mmoRef = JsonConvert.DeserializeObject<PsbDictionary>(File.ReadAllText("mmo.json"),
+                   jsonConverter);
+            }
+            else
+            {
+                mmoRef = JsonConvert.DeserializeObject<PsbDictionary>(Resources.Mmo,
+                    jsonConverter);
+            }
+
+            var metaFormatContent = new PsbDictionary();
+            var metaFormat = new PsbDictionary()
+            {
+                {"data", metaFormatContent },
+                {"type", 1.ToPsbNumber() }
+            };
+            //return new PsbDictionary
+            //{
+            //    {"data", "by Ulysses, wdwxy12345@gmail.com".ToPsbString() },
+            //    {"type", PsbNumber.Zero }
+            //};
+
+            var metadata = (PsbDictionary)psb.Objects["metadata"];
+            if (metadata == null)
+            {
+                return metaFormat;
+            }
+
+            // Helper: convert null / PsbNull to empty list
+            IPsbValue L(IPsbValue v) => v == null || v is PsbNull ? new PsbList() : v;
+
+            if (metadata["base"] is PsbDictionary baseDic)
+            {
+                var baseChara = baseDic.Children("chara");
+                if (baseChara != null && !(baseChara is PsbNull))
+                {
+                    metaFormatContent["baseChara"] = metadata["base"].Children("chara");
+                }
+
+                var baseMotion = baseDic.Children("motion");
+                if (baseMotion != null && !(baseMotion is PsbNull))
+                {
+                    metaFormatContent["baseMotion"] = metadata["base"].Children("motion");
+                }
+            }
+
+            metaFormatContent["bustControlDefinitionList"] = L(metadata["bustControl"]);
+            metaFormatContent["bustControlParameterDefinitionList"] = mmoRef["bustControlParameterDefinitionList"];
+            metaFormatContent["captureList"] = new PsbList
+            {
+                new PsbDictionary
+                {
+                    {"chara", metaFormatContent.TryGetValue("baseChara", out var bc) ? bc : PsbString.Empty },
+                    {"height", 600.ToPsbNumber()},
+                    {"label", "FreeMote".ToPsbString() },
+                    {"motion", metaFormatContent.TryGetValue("baseMotion", out var bm) ? bm : PsbString.Empty },
+                    {"scale", new PsbNumber(0.5f) },
+                    {"testChara", PsbString.Empty },
+                    {"testMotion", PsbString.Empty },
+                    {"width", 600.ToPsbNumber() }
+                }
+            };
+            metaFormatContent["charaProfileDefinitionList"] = charaProfileList;
+            metaFormatContent["clampControlDefinitionList"] = L(metadata["clampControl"]);
+            metaFormatContent["customPartsBaseDefinitionList"] = new PsbList(); //custom parts template
+            metaFormatContent["customPartsCount"] = 99.ToPsbNumber(); //((PsbList)metadata["customPartsOrder"]).Count.ToPsbNumber(); //PsbNumber.Zero;
+            metaFormatContent["customPartsDefinitionList"] = new PsbList(); //empty
+            metaFormatContent["customPartsMountDefinitionList"] = new PsbList(); //mount to current objects
+            metaFormatContent["eyeControlDefinitionList"] = L(metadata["eyeControl"]);
+            metaFormatContent["eyeControlParameterDefinitionList"] = mmoRef["eyeControlParameterDefinitionList"];
+            metaFormatContent["eyebrowControlDefinitionList"] = L(metadata["eyebrowControl"]);
+            metaFormatContent["guideCount"] = PsbNumber.Zero;
+            metaFormatContent["hairControlDefinitionList"] = BuildControlDefinition(metadata["hairControl"] as PsbList);
+            metaFormatContent["hairControlParameterDefinitionList"] = mmoRef["hairControlParameterDefinitionList"];
+            metaFormatContent["instantVariableList"] = L(metadata["instantVariableList"]);
+            metaFormatContent["layoutDefinitionList"] = new PsbList(); //can be null
+            metaFormatContent["license"] = 5.ToPsbNumber();
+            metaFormatContent["logo"] = metadata["logo"] ?? PsbNumber.Zero;
+            metaFormatContent["loopControlDefinitionList"] = L(metadata["loopControl"]);
+            metaFormatContent["loopControlParameterDefinitionList"] = new PsbList(); //default is empty
+            metaFormatContent["mirrorDefinition"] = metadata["mirrorControl"] is PsbDictionary mirrorDef
+                ? mirrorDef
+                : new PsbDictionary { {"variableMatchList", new PsbList()} };
+            metaFormatContent["mouthControlDefinitionList"] = L(metadata["mouthControl"]);
+            var (orbitControl, orbitParamDef) = BuildOrbitControlParameterDef(metadata["orbitControl"], (PsbList)mmoRef["orbitControlParameterDefinitionList"]);
+            metaFormatContent["orbitControlDefinitionList"] = orbitControl;
+            metaFormatContent["orbitControlParameterDefinitionList"] = orbitParamDef;
+            metaFormatContent["parameterEditDefinition"] = mmoRef["parameterEditDefinition"];
+            metaFormatContent["partialExportDefinitionList"] = new PsbList();
+            metaFormatContent["partsControlDefinitionList"] = BuildControlDefinition(metadata["partsControl"] as PsbList);
+            metaFormatContent["partsControlParameterDefinitionList"] = mmoRef["partsControlParameterDefinitionList"];
+            metaFormatContent["physicsMotionList"] = new PsbList();
+            metaFormatContent["physicsVariableList"] = new PsbList();
+            metaFormatContent["scrapbookDefinitionList"] = BuildScrapbookDefinition(mmo);
+            // The editor iterates this field unconditionally while upgrading old
+            // metaformat projects. A missing/null selectorControl becomes TJS void
+            // and aborts project loading before the rest of the model is attached.
+            metaFormatContent["selectorControlDefinitionList"] = L(metadata["selectorControl"]);
+            metaFormatContent["sourceDefinitionOrderList"] = new PsbList();
+            metaFormatContent["stereovisionDefinition"] = metadata["stereovisionControl"];
+            metaFormatContent["subtype"] = "E-mote Meta Format".ToPsbString();
+            metaFormatContent["testAnimationList"] = new PsbList();
+            metaFormatContent["textureDefinitionList"] = BuildTextureDefinition(mmo);
+            metaFormatContent["transitionControlDefinitionList"] = L(metadata["transitionControl"]);
+            metaFormatContent["variableAliasFrameBind"] = new PsbDictionary();
+            var variableList = metadata["variableList"] as PsbList ?? new PsbList();
+            BuildVariableList(variableList, out var variableAlias, out var variableFrameAlias);
+            metaFormatContent["variableAlias"] = variableAlias;
+            metaFormatContent["variableFrameAlias"] = variableFrameAlias;
+            metaFormatContent["variableFrameAliasUniq"] = new PsbDictionary();
+            metaFormatContent["version"] = new PsbNumber(1.08f);
+            metaFormatContent["windDefinitionList"] = mmoRef["windDefinitionList"];
+            //put at last since it might use Variable list
+            //Exposed layers: LayoutLayer, MeshLayer, ObjectLayer (w or w/o parameters)
+            //[MenuPath, Desc, CharaItem, Motion, Layer, ""]
+            //DeduplicatePartList(partList);
+            metaFormatContent["partsList"] = partList; //Have to build for parameter feature
+
+            return metaFormat;
+        }
+
+        private (PsbList orbitControl, PsbList orbitParamDef) BuildOrbitControlParameterDef(IPsbValue origin, PsbList refer)
+        {
+            if (origin == null || origin is PsbNull)
+            {
+                return (new PsbList(), refer);
+            }
+
+            var ori = (PsbList)origin;
+            var newOrbitParamDef = new PsbList();
+            var labels = new HashSet<string>();
+            foreach (var o in ori)
+            {
+                //"comment": "60f間隔で0,30,60,90,120の順で周回する。",
+                //"interval": 60,
+                //"label": "12コマ順方向1秒",
+                //"orbitFrameList": [30,60,90,120],
+                //"tween": 1
+
+                //{
+                //    "comment": "",
+                //    "enabled": 1,
+                //    "label": "loop_b",
+                //    "parameter": ""
+                //}
+                var item = (PsbDictionary)o;
+                var dic = new PsbDictionary()
+                {
+                    {"comment", item["comment"] },
+                    {"interval", item["interval"] },
+                    {"label", item["label"] },
+                    {"orbitFrameList", item["orbitFrameList"] },
+                    {"tween", item["tween"] },
+                };
+                item.Remove("orbitFrameList");
+                item.Remove("tween");
+                newOrbitParamDef.Add(dic);
+                labels.Add(item["label"].ToString());
+            }
+
+            foreach (var r in refer)
+            {
+                if (r is PsbDictionary rDic && !labels.Contains(rDic["label"].ToString()))
+                {
+                    newOrbitParamDef.Add(r);
+                }
+            }
+            return (ori, newOrbitParamDef);
+        }
+
+        private IPsbValue BuildScrapbookDefinition(PSB mmo)
+        {
+            //var objectChildren = (PsbList)mmo.Objects["objectChildren"];
+            var sourceChildren = (PsbList)mmo.Objects["sourceChildren"];
+            var scrapDef = new PsbList();
+            //We couldn't get complete metadata for this
+            var scrapSources =
+                sourceChildren.Where(s => s is PsbDictionary dic && dic["className"].ToString() == "ScrapbookItem").Cast<PsbDictionary>();
+            foreach (var mmoItem in scrapSources)
+            {
+                foreach (var iconItem in (PsbList)mmoItem["iconList"])
+                {
+                    var iconDic = (PsbDictionary)iconItem;
+                    var texDefItem = new PsbDictionary
+                    {
+                        {"sourceLabel", mmoItem["label"]},
+                        {"comment", mmoItem["comment"]},
+                        {"psdMargin", 5.ToPsbNumber()},
+                        {"psdRange", 1.ToPsbNumber()},
+                        {"iconLabel", iconDic["label"]},
+                        {"meshList", new PsbList()},
+                        //{"layoutFlags", 3.ToPsbNumber()},
+                    };
+                    var sLabel = iconDic["label"].ToString();
+                    if (MmoPsdMetadatas.ContainsKey(sLabel))
+                    {
+                        var md = MmoPsdMetadatas[sLabel];
+                        texDefItem.Add("category", new PsbList(1) { md.Category.ToPsbString() });
+                        texDefItem.Add("psdGroup", md.PsdGroup.ToPsbString());
+                        texDefItem.Add("psdFrameLabel", md.PsdFrameLabel.ToPsbString());
+                        texDefItem.Add("psdComment", md.PsdComment.ToPsbString());
+                        texDefItem.Add("label", md.Label.ToPsbString());
+                    }
+                    else
+                    {
+                        var category = FillDefaultCategory(sLabel);
+                        texDefItem.Add("category", new PsbList(1) { category.ToPsbString() });
+                        texDefItem.Add("psdGroup", mmoItem["label"]);
+                        texDefItem.Add("psdFrameLabel", PsbString.Empty);
+                        texDefItem.Add("psdComment", PsbString.Empty);
+                        texDefItem.Add("label", iconDic["label"]);
+                    }
+
+                    scrapDef.Add(texDefItem);
+                }
+            }
+
+            return scrapDef;
+        }
+
+        /// <summary>
+        /// Infer default category from label
+        /// </summary>
+        /// <param name="label"></param>
+        /// <returns></returns>
+        private string FillDefaultCategory(string label)
+        {
+            //WARN: Category can not be named as `Expression`
+            if (label.StartsWith("all_"))
+            {
+                return DebugMode ? "All" : "All";
+            }
+            if (label.StartsWith("face_"))
+            {
+                return DebugMode ? "Emotion" : "Emotion";
+            }
+            if (label.StartsWith("head_"))
+            {
+                return DebugMode ? "Head" : "Head";
+            }
+            if (label.StartsWith("body_"))
+            {
+                return DebugMode ? "Body" : "Body";
+            }
+            return DebugMode ? "Other" : "Other";
+        }
+
+        private IPsbValue BuildTextureDefinition(PSB mmo)
+        {
+            //var objectChildren = (PsbList)mmo.Objects["objectChildren"];
+            var sourceChildren = (PsbList)mmo.Objects["sourceChildren"];
+            var textureDef = new PsbList();
+            //We couldn't get complete metadata for this
+            var textureSources =
+                sourceChildren.Where(s => s is PsbDictionary dic && dic["className"].ToString() == "TextureItem").Cast<PsbDictionary>();
+            foreach (var mmoItem in textureSources)
+            {
+                var texDefItem = new PsbDictionary
+                {
+                    {"sourceLabel", mmoItem["label"]},
+                    {"comment", mmoItem["comment"]},
+                    {"psdMargin", 5.ToPsbNumber()},
+                    {"psdRange", 1.ToPsbNumber()},
+                    {"meshList", new PsbList()},
+                    //{"layoutFlags", 3.ToPsbNumber()},
+                };
+                var sLabel = mmoItem["label"].ToString();
+                if (MmoPsdMetadatas.ContainsKey(sLabel))
+                {
+                    var md = MmoPsdMetadatas[sLabel];
+                    texDefItem.Add("category", new PsbList(1) { md.Category.ToPsbString() });
+                    texDefItem.Add("psdGroup", md.PsdGroup.ToPsbString());
+                    texDefItem.Add("psdFrameLabel", md.PsdFrameLabel.ToPsbString());
+                    texDefItem.Add("psdComment", md.PsdComment.ToPsbString());
+                    texDefItem.Add("label", md.Label.ToPsbString());
+                }
+                else
+                {
+                    var category = FillDefaultCategory(sLabel);
+                    texDefItem.Add("category", new PsbList(1) { category.ToPsbString() });
+                    texDefItem.Add("psdGroup", mmoItem["label"]);
+                    texDefItem.Add("psdFrameLabel", PsbString.Empty);
+                    texDefItem.Add("psdComment", PsbString.Empty);
+                    texDefItem.Add("label", mmoItem["label"]);
+                }
+
+                var psdIconList = new PsbList();
+                foreach (var iconItem in (PsbList)mmoItem["iconList"])
+                {
+                    psdIconList.Add(new PsbDictionary
+                    {
+                        {"comment", PsbString.Empty },
+                        {"iconLabel", iconItem.Children("label") },
+                        {"psdLabel", iconItem.Children("label") },
+                    });
+                }
+                texDefItem.Add("psdIconList", psdIconList);
+                textureDef.Add(texDefItem);
+            }
+
+            return textureDef;
+        }
+
+        private static string CombineMmoPath(PsbDictionary mmoPath)
+        {
+            var chara = mmoPath["chara"].ToString();
+            var layer = mmoPath.ContainsKey("layer") ? mmoPath["layer"].ToString() : mmoPath["layers"].Children(0).ToString();
+            var motion = mmoPath["motion"].ToString();
+            return $"{chara}/{motion}/{layer}";
+        }
+
+        private static PsbDictionary AssemblyMmoPath(string mmoPath)
+        {
+            var paths = mmoPath.Split(new[] { "/" }, StringSplitOptions.RemoveEmptyEntries);
+            var dic = new PsbDictionary(3)
+            {
+                {"chara", paths[1].ToPsbString()},
+                {"motion", paths[2].ToPsbString()},
+                {"layer", string.Join("/", paths.Skip(3)).ToPsbString()}
+            };
+            return dic;
+        }
+
+        private void BuildVariableList(PsbList variableList, out PsbList variableAlias, out PsbList variableFrameAlias)
+        {
+            variableAlias = new PsbList();
+            variableFrameAlias = new PsbList();
+
+            foreach (var val in variableList)
+            {
+                var item = (PsbDictionary)val;
+                var variableId = item["label"].ToString();
+                var bindLabel = EnableVariableBindInference ? InferVariableBind(variableId) : variableId;
+                var displayLabel = InferVariableDisplayLabel(variableId);
+
+                variableAlias.Add(new PsbDictionary
+                {
+                    {"bind", bindLabel.ToPsbString() },
+                    {"comment", PsbString.Empty },
+                    {"id", item["label"] },
+                    {"label", displayLabel.ToPsbString() },
+                });
+
+                variableFrameAlias.Add(new PsbDictionary
+                {
+                    {"comment", PsbString.Empty },
+                    {"frames", item["frameList"] },
+                    {"id", bindLabel.ToPsbString() },
+                });
+            }
+        }
+
+        private static string InferVariableBind(string variableId)
+        {
+            switch (variableId)
+            {
+                case "move_UD":
+                    return "位置・上下";
+                case "move_LR":
+                    return "位置・左右";
+                case "head_LR":
+                    return "頭向き・左右";
+                case "head_UD":
+                case "body_UD":
+                case "face_eye_UD":
+                    return "向き・上下";
+                case "body_LR":
+                case "face_eye_LR":
+                case "body_slant":
+                case "head_slant":
+                    return "向き・左右";
+                case "act_sp":
+                case "act_sp2":
+                case "act_sp3":
+                    return "特殊変形";
+                case "face_eye_open":
+                    return "目・表情";
+                case "face_eyebrow":
+                    return "眉・表情";
+                case "face_mouth":
+                    return "口・表情";
+                case "face_eye_sp":
+                case "face_hitomi_sp":
+                case "face_mouth_sp":
+                case "face_eyebrow_sp":
+                    return "表情特殊変形";
+                case "face_eye_hi":
+                    return "ハイライト・表情";
+                case "face_talk":
+                    return "口パク";
+                case "face_tears":
+                    return "涙・表情";
+                case "face_cheek":
+                    return "頬・表情";
+                case "arm_type":
+                    return "腕タイプ";
+                case "vr_LR":
+                    return "VR左右";
+                case "vr_UD":
+                    return "VR上下";
+            }
+
+            if (variableId.StartsWith("hair_UD", StringComparison.Ordinal))
+            {
+                return "髪揺れ・上下";
+            }
+
+            if (variableId.StartsWith("hair_LR_M", StringComparison.Ordinal))
+            {
+                return "髪揺れ弛み・左右";
+            }
+
+            if (variableId.StartsWith("hair_LR", StringComparison.Ordinal))
+            {
+                return "髪揺れ・左右";
+            }
+
+            if (variableId.StartsWith("quake_UD", StringComparison.Ordinal))
+            {
+                return "パーツ揺れ・上下";
+            }
+
+            if (variableId.StartsWith("quake_LR_M", StringComparison.Ordinal))
+            {
+                return "パーツ揺れ弛み・左右";
+            }
+
+            if (variableId.StartsWith("quake_LR", StringComparison.Ordinal))
+            {
+                return "パーツ揺れ・左右";
+            }
+
+            if (variableId.StartsWith("fade_", StringComparison.Ordinal))
+            {
+                return "fade表示";
+            }
+
+            return variableId;
+        }
+
+        private static string InferVariableDisplayLabel(string variableId)
+        {
+            switch (variableId)
+            {
+                case "head_UD":
+                    return "頭向き・上下";
+                case "head_LR":
+                    return "頭向き・左右";
+                case "head_slant":
+                    return "頭傾き";
+                case "body_UD":
+                    return "身体向き・上下";
+                case "body_LR":
+                    return "身体向き・左右";
+                case "body_slant":
+                    return "身体傾き";
+                case "face_eye_UD":
+                    return "瞳上下";
+                case "face_eye_LR":
+                    return "瞳左右";
+                case "face_eye_sp":
+                    return "マブタ特殊変形";
+                case "face_eye_hi":
+                    return "ハイライト・表情";
+                case "act_sp":
+                    return "特殊変形1";
+                case "act_sp2":
+                    return "特殊変形2";
+                case "act_sp3":
+                    return "特殊変形3";
+            }
+
+            return variableId;
+        }
+
+        private IPsbValue BuildControlDefinition(PsbList control)
+        {
+            if (control == null)
+            {
+                return new PsbList();
+            }
+
+            var controlDefinition = new PsbList(control.Count);
+            foreach (var psbValue in control)
+            {
+                var item = (PsbDictionary)psbValue;
+                var defItem = new PsbDictionary()
+                {
+                    {"baseLayer", item["baseLayer"] },
+                    {"comment", PsbString.Empty },
+                    {"enabled", item["enabled"] },
+                    {"label", item["label"] },
+                    {"parameter", "標準".ToPsbString() }, //TODO: generate param
+                    {"var_lr", item["var_lr"] },
+                    {"var_lrm", item["var_lrm"] },
+                    {"var_ud", item["var_ud"] },
+                };
+                controlDefinition.Add(defItem);
+            }
+
+            return controlDefinition;
+        }
+
+        private IPsbValue BuildCustomPartsBaseDefinition(PsbDictionary psbObjects)
+        {
+            return new PsbList();
+        }
+
+        /// <summary>
+        /// Metadata: fetch from PSB
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <returns></returns>
+        private IPsbValue BuildMetadata(PSB psb)
+        {
+            //TODO: Check metadata is valid
+
+            var metadata = new PsbDictionary(2)
+            {
+                ["type"] = 1.ToPsbNumber(),
+                ["data"] = psb.Objects["metadata"]
+            };
+            return metadata;
+        }
+
+        /// <summary>
+        /// Default: 4096
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <returns></returns>
+        private IPsbValue BuildMaxTextureSize(PSB psb)
+        {
+            return 4096.ToPsbNumber();
+        }
+
+        /// <summary>
+        /// Can be null
+        /// </summary>
+        /// <returns></returns>
+        private IPsbValue BuildBackground()
+        {
+            return new PsbList(0);
+        }
+
+        #region Fill Defaults
+        private static void FillDefaultsIntoFrameListContent(PsbDictionary content, bool hasMotion = false, bool hasStencil = false)
+        {
+            foreach (var flContent in DefaultFrameListContent)
+            {
+                if (!content.ContainsKey(flContent.Key))
+                {
+                    content.Add(flContent.Key, flContent.Value);
+                }
+            }
+
+            if (hasMotion)
+            {
+                foreach (var flContent in DefaultFrameListContent_Motion)
+                {
+                    if (!content.ContainsKey(flContent.Key))
+                    {
+                        content.Add(flContent.Key, flContent.Value);
+                    }
+                }
+            }
+
+            if (hasStencil)
+            {
+                foreach (var flContent in DefaultFrameListContent_Stencil)
+                {
+                    if (!content.ContainsKey(flContent.Key))
+                    {
+                        content.Add(flContent.Key, flContent.Value);
+                    }
+                }
+            }
+
+            //if (!(content["mbp"] is PsbNull) && content["src"] is PsbString s && s.Value.StartsWith("blank/"))
+            //{
+            //    content["color"] = DefaultFrameListContent_Color;
+            //}
+
+            return;
+        }
+
+        private static IPsbValue FillDefaultParameterize(PsbDictionary parent)
+        {
+            if (parent != null && parent["parameterize"] is PsbNull && parent.ContainsKey("meshCombinator") && parent["meshCombinator"] is PsbDictionary meshCombinator
+                && meshCombinator.TryGetValue("combinatorList", out var combinatorListObj) && combinatorListObj is PsbList
+                    { Count: > 0 } combinatorList && combinatorList[0] is PsbDictionary combinator
+                && combinator.TryGetValue("variable", out var variableObj) && variableObj is PsbDictionary variable) // pick from meshCombinator
+            {
+                return new PsbDictionary(5)
+                {
+                    {"discretization", PsbNumber.Zero},
+                    {"enabled", 1.ToPsbNumber()},
+                    {"id", variable["key"]},
+                    {"rangeBegin", variable["rangeBegin"]},
+                    {"rangeEnd", variable["rangeEnd"]},
+                };
+            }
+            return new PsbDictionary(5)
+            {
+                {"discretization", PsbNumber.Zero },
+                {"enabled", PsbNumber.Zero },
+                {"id", "param".ToPsbString() },
+                {"rangeBegin", PsbNumber.Zero },
+                {"rangeEnd", 1.ToPsbNumber() },
+            };
+        }
+
+        /// <summary>
+        /// type 1: json (default = PsbNull) ; type 0: string (default = PsbString.Empty)
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        private static PsbDictionary FillDefaultMetadata(int type = 1)
+        {
+            return new PsbDictionary(2)
+            {
+                {"data", type == 0 ? (IPsbValue)PsbString.Empty : PsbNull.Null },
+                {"type", type.ToPsbNumber() },
+            };
+        }
+
+        private static void FillDefaultsIntoChildren(PsbDictionary dic, MmoItemClass classType)
+        {
+            if (!dic.ContainsKey("marker"))
+            {
+                dic["marker"] = PsbNumber.Zero;
+            }
+
+            if (classType == MmoItemClass.ObjLayerItem)
+            {
+                if (!dic.ContainsKey("objClipping"))
+                {
+                    dic["objClipping"] = PsbNumber.Zero;
+                }
+
+                if (!dic.ContainsKey("objMaskThresholdOpacity"))
+                {
+                    dic["objMaskThresholdOpacity"] = 64.ToPsbNumber();
+                }
+            }
+
+            if (classType == MmoItemClass.MotionLayerItem)
+            {
+                if (!dic.ContainsKey("motionIndependentLayerInherit"))
+                {
+                    dic["motionIndependentLayerInherit"] = PsbNumber.Zero;
+                }
+
+                if (!dic.ContainsKey("motionMaskThresholdOpacity"))
+                {
+                    dic["motionMaskThresholdOpacity"] = 64.ToPsbNumber();
+                }
+
+                if (!dic.ContainsKey("motionClipping"))
+                {
+                    dic["motionClipping"] = PsbNumber.Zero;
+                }
+            }
+
+            if (classType == MmoItemClass.StencilLayerItem)
+            {
+                if (!dic.ContainsKey("stencilMaskThresholdOpacity"))
+                {
+                    dic["stencilMaskThresholdOpacity"] = 64.ToPsbNumber();
+                }
+            }
+        }
+
+        private static readonly PsbDictionary DefaultFrameListContent = new PsbDictionary
+        {
+            {"acc", PsbNull.Null },
+            {"act", PsbString.Empty },
+            {"angle", PsbNumber.Zero },
+            {"bm", 16.ToPsbNumber() },
+            {"bp", PsbNumber.Zero },
+            {"ccc", PsbNull.Null },
+            {"cm", PsbString.Empty },
+            {"color", PsbNull.Null },
+            {"coord", new PsbList(3){PsbNumber.Zero, PsbNumber.Zero, PsbNumber.Zero } },
+            {"cp", PsbNull.Null },
+            {"fx", PsbNumber.Zero },
+            {"fy", PsbNumber.Zero },
+            {"mbp", PsbNull.Null },
+            {"mcc", PsbNull.Null },
+            {"md", new PsbDictionary(2)
+                { {"data", PsbNull.Null}, {"type", 1.ToPsbNumber()} } },
+            {"occ", PsbNull.Null },
+            {"opa", 255.ToPsbNumber() },
+            {"ox", PsbNumber.Zero }, //TODO: since ox,oy is always used AFAIK, what's the default value of them?
+            {"oy", PsbNumber.Zero },
+            {"scc", PsbNull.Null },
+            //{"src", "layout".ToPsbString() },
+            {"sx", PsbNumber.Zero },
+            {"sy", PsbNumber.Zero },
+            {"ti", PsbNumber.Zero },
+            {"zcc", PsbNull.Null },
+            {"zx", 1.ToPsbNumber() },
+            {"zy", 1.ToPsbNumber() },
+        };
+
+        /// <summary>
+        /// frameList/[]/content/motion
+        /// <para>need more info, only know `timeOffset` = 0</para>
+        /// </summary>
+        private static readonly PsbDictionary DefaultFrameListContent_Motion = new PsbDictionary
+        {
+            {"mdocmpl", PsbNumber.Zero },
+            {"mdofst", PsbNumber.Zero }, //maybe timeOffset?
+            {"mdt", 1.ToPsbNumber() },
+            {"mdtgt", PsbString.Empty },
+            {"mpac", PsbNumber.Zero },
+            {"mpc", PsbNumber.Zero },
+            {"mpf", PsbNumber.Zero },
+            {"mpj", PsbNumber.Zero },
+        };
+
+        /// <summary>
+        /// frameList/[]/content/
+        /// </summary>
+        private static readonly PsbDictionary DefaultFrameListContent_Stencil = new PsbDictionary
+        {
+            {"swpcc", PsbNull.Null },
+            {"swpen", PsbNumber.Zero }, //maybe timeOffset?
+            {"swpratio", new PsbNumber(0.5f) },
+            {"swprv", PsbNumber.Zero },
+            {"swpsoft", new PsbNumber(1.0f)},
+        };
+
+        /// <summary>
+        /// when mbp != null and src.StartWith("blank/") //not correct
+        /// </summary>
+        private static readonly PsbList DefaultFrameListContent_Color = new PsbList(4)
+        {
+            (-8355712).ToPsbNumber(),(-8355712).ToPsbNumber(),(-8355712).ToPsbNumber(),(-8355712).ToPsbNumber()
+        };
+
+        /// <summary>
+        /// Default identity 4×4 bezier patch control points (32 doubles).
+        /// Layout: (x,y) pairs, row by row. x ∈ {0, 1/3, 2/3, 1}, y ∈ {0, 1/3, 2/3, 1}
+        /// </summary>
+        private static readonly double[] BezierPatchDefault = GenerateBezierPatchDefault();
+
+        private static double[] GenerateBezierPatchDefault()
+        {
+            var values = new double[32];
+            for (int row = 0; row < 4; row++)
+            {
+                for (int col = 0; col < 4; col++)
+                {
+                    values[(row * 4 + col) * 2] = col / 3.0;
+                    values[(row * 4 + col) * 2 + 1] = row / 3.0;
+                }
+            }
+
+            return values;
+        }
+
+        /// <summary>
+        /// Use Template
+        /// </summary>
+        /// <returns></returns>
+        private static IPsbValue FillDefaultPreviewSize()
+        {
+            return new PsbDictionary(4)
+            {
+                {"height", 1080.ToPsbNumber() },
+                {"width", 800.ToPsbNumber() },
+                {"originX", PsbNumber.Zero },
+                {"originY", PsbNumber.Zero },
+            };
+        }
+
+        /// <summary>
+        /// Use Template
+        /// </summary>
+        /// <returns></returns>
+        private static IPsbValue FillDefaultTargetOwn()
+        {
+            return new PsbDictionary
+            {
+                {"nitro2d", new PsbDictionary
+                {
+                    {"baseFrameCount", 1.ToPsbNumber() }
+                } },
+                {"revo", new PsbDictionary
+                {
+                    {"directColorFormat", "5553".ToPsbString() }
+                } }
+            };
+        }
+
+        /// <summary>
+        /// Flatten a layer tree into a pre-order list (same order as EMT editor's flattenLayerList).
+        /// </summary>
+        private static List<PsbDictionary> FlattenLayerTree(PsbList layers)
+        {
+            var result = new List<PsbDictionary>();
+            foreach (var item in layers)
+            {
+                if (item is PsbDictionary dic)
+                {
+                    result.Add(dic);
+                    if (dic["children"] is PsbList children)
+                    {
+                        result.AddRange(FlattenLayerTree(children));
+                    }
+                }
+            }
+            return result;
+        }
+
+        /// <summary>
+        /// After mc=1 layers are inserted by RestoreMeshCombinator, the flat layer order changes
+        /// but priorityFrameList still contains indices from the old (pre-insertion) order.
+        /// This method remaps those indices and adds new layers to the priority list.
+        /// mc = meshCombine helper flag; ci = combinator index during restoration.
+        /// </summary>
+        private static void RemapPriorityFrameList(PsbList priorityFrameList, List<PsbDictionary> oldFlatList, List<PsbDictionary> newFlatList)
+        {
+            if (priorityFrameList == null || priorityFrameList.Count == 0)
+                return;
+
+            // Build lookup: layer reference → new index
+            var newIndexMap = new Dictionary<PsbDictionary, int>(newFlatList.Count);
+            for (int i = 0; i < newFlatList.Count; i++)
+            {
+                newIndexMap[newFlatList[i]] = i;
+            }
+
+            foreach (var frame in priorityFrameList)
+            {
+                if (!(frame is PsbDictionary fd) || !(fd["content"] is PsbList content))
+                    continue;
+
+                var remappedIndices = new List<int>(newFlatList.Count);
+                var usedNewIndices = new HashSet<int>();
+
+                // Remap existing entries: old index → same layer object → new index
+                foreach (var idx in content)
+                {
+                    if (idx is PsbNumber num && num.IntValue >= 0 && num.IntValue < oldFlatList.Count)
+                    {
+                        var layer = oldFlatList[num.IntValue];
+                        if (newIndexMap.TryGetValue(layer, out int newIdx))
+                        {
+                            remappedIndices.Add(newIdx);
+                            usedNewIndices.Add(newIdx);
+                        }
+                    }
+                }
+
+                // Insert new layers (mc=1 etc.) that weren't in old list.
+                // Place each at its natural position relative to its first mapped neighbour.
+                for (int ni = 0; ni < newFlatList.Count; ni++)
+                {
+                    if (usedNewIndices.Contains(ni))
+                        continue;
+
+                    // Find the first already-mapped index that comes after this new layer
+                    // in the flat list, and insert the new layer just before it in the priority.
+                    int insertPos = -1;
+                    for (int search = ni + 1; search < newFlatList.Count; search++)
+                    {
+                        if (usedNewIndices.Contains(search))
+                        {
+                            insertPos = remappedIndices.IndexOf(search);
+                            break;
+                        }
+                    }
+
+                    if (insertPos >= 0)
+                        remappedIndices.Insert(insertPos, ni);
+                    else
+                        remappedIndices.Add(ni);
+
+                    usedNewIndices.Add(ni);
+                }
+
+                // Replace content with remapped indices
+                var newContent = new PsbList(remappedIndices.Count);
+                foreach (var ri in remappedIndices)
+                {
+                    newContent.Add(ri.ToPsbNumber());
+                }
+                fd["content"] = newContent;
+            }
+        }
+
+        #endregion
+    }
+}

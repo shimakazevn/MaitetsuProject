@@ -1,0 +1,1559 @@
+﻿using System;
+using System.Buffers.Binary;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
+using FreeMote.Plugins;
+using MersenneTwister;
+using MersenneTwister.MT;
+
+namespace FreeMote.Psb
+{
+    public static class PsbExtension
+    {
+        /// <summary>
+        /// If this spec uses RL
+        /// </summary>
+        /// <param name="spec"></param>
+        /// <returns></returns>
+        public static PsbCompressType CompressType(this PsbSpec spec)
+        {
+            switch (spec)
+            {
+                case PsbSpec.krkr:
+                    return PsbCompressType.RL;
+                case PsbSpec.ems:
+                case PsbSpec.common:
+                case PsbSpec.win:
+                case PsbSpec.other:
+                default:
+                    return PsbCompressType.None;
+            }
+        }
+
+        /// <summary>
+        /// <paramref name="compress"/> to its file extension
+        /// </summary>
+        /// <param name="compress"></param>
+        /// <returns></returns>
+        public static string ToExtensionString(this PsbCompressType compress)
+        {
+            switch (compress)
+            {
+                case PsbCompressType.Tlg:
+                    return ".tlg";
+                case PsbCompressType.RL:
+                    return ".rl";
+                default:
+                    return "";
+            }
+        }
+
+        /// <summary>
+        /// <paramref name="pixelFormat"/> to its file extension
+        /// </summary>
+        /// <param name="pixelFormat"></param>
+        /// <returns></returns>
+        public static string ToExtensionString(this PsbPixelFormat pixelFormat)
+        {
+            switch (pixelFormat)
+            {
+                case PsbPixelFormat.ASTC_8BPP:
+                    return ".astc";
+                case PsbPixelFormat.BC7:
+                case PsbPixelFormat.BC7_SW:
+                    return ".bc7";
+                default:
+                    return "";
+            }
+        }
+
+        private static bool ApplyDefaultMotionMetadata(PSB psb, PsbDictionary metadata)
+        {
+            List<(string Chara, string Motion)> knownMotions = new List<(string Chara, string Motion)>
+            {
+                ("body_parts", "全身変形基礎"),
+                ("body_parts", "下半身変形基礎"),
+                ("head_parts", "頭部変形基礎"),
+                ("head_parts", "頭部全体変形"),
+                ("all_parts", "タイムライン構造"),
+                ("all_parts", "全体構造")
+            };
+
+            //Find a known pattern
+            foreach (var knownMotion in knownMotions)
+            {
+                if (psb.Objects.FindByPath($"/object/{knownMotion.Chara}") is PsbDictionary knownDic && knownDic["motion"].Children(knownMotion.Motion) is PsbDictionary motionDic && motionDic.Count > 0)
+                {
+                    metadata["chara"] = knownMotion.Chara.ToPsbString();
+                    metadata["motion"] = knownMotion.Motion.ToPsbString();
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// Fix [metadata/base/motion] missing issue for <seealso cref="PsbType.Motion"/> PSB 
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <returns>Whether the PSB is fixed by this method (if it's already fine, return false)</returns>
+        public static bool FixMotionMetadata(this PSB psb)
+        {
+            if (psb.Objects.FindByPath("/metadata/base") is PsbDictionary dic && dic["chara"] is PsbString chara && dic["motion"] is PsbString motion)
+            {
+                var realChara = psb.Objects.FindByPath($"/object/{chara}") as PsbDictionary;
+                if (realChara == null) //chara not exist
+                {
+                    //dic.Clear();
+                    return ApplyDefaultMotionMetadata(psb, dic);
+                }
+
+                var realMotion = realChara["motion"] as PsbDictionary;
+
+                if (realMotion == null || realMotion.Count == 0) //motion not exist and nothing can replace it
+                {
+                    return ApplyDefaultMotionMetadata(psb, dic);
+                    //TODO: find a nice replacement, usually head_parts/頭部変形基礎(1st) or 頭部全体変形(2nd)
+                    //TODO: Build a tree and pick the top
+                }
+
+                if (realMotion.ContainsKey(motion)) //ok, no need to fix
+                {
+                    return false;
+                }
+
+                dic["motion"] = realMotion.Keys.Last().ToPsbString(); //pick the last motion to replace it, the last usually covers most 
+                return true;
+            }
+
+            return false;
+        }
+
+        public static bool FixTimelineContentValueType(this PSB psb)
+        {
+            bool fix = false;
+            if (psb.Objects.FindByPath("/metadata/timelineControl") is PsbList list)
+            {
+                foreach (var timeline in list)
+                {
+                    if (timeline is PsbDictionary t && t.ContainsKey("variableList") && t["variableList"] is PsbList vl)
+                    {
+                        foreach (var variable in vl)
+                        {
+                            if (variable is PsbDictionary varDic && varDic.ContainsKey("frameList") && varDic["frameList"] is PsbList frameList)
+                            {
+                                foreach (var c in frameList)
+                                {
+                                    if (c is PsbDictionary c1 && c1.ContainsKey("content") && c1["content"] is PsbDictionary content && content.ContainsKey("value") && content["value"] is PsbString s)
+                                    {
+                                        if (int.TryParse(s, out var v))
+                                        {
+                                            content["value"] = v.ToPsbNumber();
+                                            fix = true;
+                                        }
+                                        else
+                                        {
+                                            // If the value is not a number, we can not fix it
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            return fix;
+        }
+
+        public static bool FixTextureSize(this PSB psb)
+        {
+            if (psb.Platform != PsbSpec.win)
+            {
+                return false;
+            }
+
+            var resList = psb.CollectResources<ImageMetadata>();
+
+            bool fix = false;
+            foreach (var imageMetadata in resList)
+            {
+                if (imageMetadata.Data == null || imageMetadata.Data.Length == 0)
+                {
+                    continue;
+                }
+                var bitDepth = imageMetadata.PixelFormat.GetBitDepth();
+                if (bitDepth == null)
+                {
+                    continue;
+                }
+                var width = imageMetadata.Width;
+                var height = imageMetadata.Height;
+
+                if (width <= 0 || height <= 0)
+                {
+                    continue;
+                }
+
+                var shouldBeLength = (int)Math.Ceiling(width * height * (bitDepth.Value / 8.0));
+                if (shouldBeLength > 0 && imageMetadata.Resource.Data.Length < shouldBeLength)
+                {
+                    var extendedBuffer = new byte[shouldBeLength];
+                    Array.Copy(imageMetadata.Resource.Data, extendedBuffer, imageMetadata.Resource.Data.Length);
+                    imageMetadata.Resource.Data = extendedBuffer;
+                    fix = true;
+                }
+            }
+
+            return fix;
+        }
+
+        /// <summary>
+        /// Try to measure EMT PSB Canvas Size
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <param name="width"></param>
+        /// <param name="height"></param>
+        /// <returns>True: The canvas size can be measured; False: can not get canvas size</returns>
+        public static bool TryGetCanvasSize(this PSB psb, out int width, out int height)
+        {
+            //Get from CharProfile
+            if (psb.Objects["metadata"] is PsbDictionary md && md["charaProfile"] is PsbDictionary cp &&
+                cp["pixelMarker"] is PsbDictionary pm
+                && pm["boundsBottom"] is PsbNumber b && pm["boundsTop"] is PsbNumber t &&
+                pm["boundsLeft"] is PsbNumber l && pm["boundsRight"] is PsbNumber r)
+            {
+                height = (int)Math.Abs(b.AsFloat - t.AsFloat);
+                width = (int)Math.Abs(r.AsFloat - l.AsFloat);
+                return true;
+            }
+
+            //not really useful
+            var resList = psb.CollectResources<ImageMetadata>();
+            width = resList.Max(data => data.Width);
+            height = resList.Max(data => data.Height);
+            return false;
+        }
+
+        /// <summary>
+        /// Get name in <see cref="PsbDictionary"/>
+        /// </summary>
+        /// <param name="c"></param>
+        /// <returns></returns>
+        public static string GetName(this IPsbChild c)
+        {
+            if (c?.Parent is PsbDictionary dic)
+            {
+                var result = dic.FirstOrDefault(pair => Equals(pair.Value, c));
+                return result.Value == null ? null : result.Key;
+            }
+
+            if (c?.Parent is PsbList col)
+            {
+                var result = col.Value.IndexOf(c);
+                if (result < 0)
+                {
+                    return null;
+                }
+
+                return $"[{result}]";
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// Get name
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="parent"></param>
+        /// <returns></returns>
+        public static string GetName(this IPsbSingleton c, PsbDictionary parent = null)
+        {
+            var source = parent ?? c?.Parents.FirstOrDefault(p => p is PsbDictionary) as PsbDictionary;
+            var result = source?.FirstOrDefault(pair => Equals(pair.Value, c));
+            return result?.Value == null ? null : result.Value.Key;
+        }
+
+        public static PsbString ToPsbString(this string s)
+        {
+            return s == null ? PsbString.Empty : new PsbString(s);
+        }
+
+        public static PsbNumber ToPsbNumber(this int i)
+        {
+            return new(i);
+        }
+
+        /// <summary>
+        /// Set archData value to archData object
+        /// </summary>
+        /// <param name="archData"></param>
+        /// <param name="val"></param>
+        public static void SetPsbArchData(this IArchData archData, IPsbValue val)
+        {
+            archData.PsbArchData["archData"] = val;
+        }
+
+        /// <summary>
+        /// Get the second file name extension.
+        /// <example>e.g. get ".vag" from "audio.vag.wav"</example>
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns>null if input is null; <see cref="String.Empty"/> if no second extension</returns>
+        internal static string GetSecondExtension(this string path)
+        {
+            return Path.GetExtension(Path.GetFileNameWithoutExtension(path))?.ToLowerInvariant();
+        }
+
+        #region Object Finding
+
+        /// <summary>
+        /// Quickly fetch children (use at your own risk)
+        /// </summary>
+        /// <param name="col"></param>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public static IPsbValue Children(this IPsbValue col, string name)
+        {
+            while (true)
+            {
+                switch (col)
+                {
+                    case PsbDictionary dictionary:
+                        return dictionary[name];
+                    case PsbList collection:
+                        col = collection.FirstOrDefault(c => c is PsbDictionary d && d.ContainsKey(name));
+                        continue;
+                }
+
+                throw new ArgumentException($"{col} doesn't have children.");
+            }
+        }
+
+        /// <summary>
+        /// Quickly fetch number (use at your own risk)
+        /// </summary>
+        /// <param name="col"></param>
+        /// <returns></returns>
+        public static int GetInt(this IPsbValue col)
+        {
+            return ((PsbNumber)col).AsInt;
+        }
+
+        /// <summary>
+        /// Quickly fetch number (use at your own risk)
+        /// </summary>
+        /// <param name="col"></param>
+        /// <returns></returns>
+        public static float GetFloat(this IPsbValue col)
+        {
+            return ((PsbNumber)col).AsFloat;
+        }
+
+        /// <summary>
+        /// Quickly fetch number (use at your own risk)
+        /// </summary>
+        /// <param name="col"></param>
+        /// <returns></returns>
+        public static double GetDouble(this IPsbValue col)
+        {
+            return ((PsbNumber)col).AsDouble;
+        }
+
+        /// <summary>
+        /// Quickly fetch children (use at your own risk)
+        /// </summary>
+        /// <param name="col"></param>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public static IPsbValue Children(this IPsbValue col, int index)
+        {
+            switch (col)
+            {
+                case PsbDictionary dictionary:
+                    return dictionary.Values.ElementAt(index);
+                case PsbList collection:
+                    return collection[index];
+            }
+
+            throw new ArgumentException($"{col} doesn't have children.");
+        }
+
+        public static IEnumerable<IPsbValue> FindAllByPath(this PsbDictionary psbObj, string path)
+        {
+            if (psbObj == null)
+                yield break;
+            if (path.StartsWith("/"))
+            {
+                path = new string(path.SkipWhile(c => c == '/').ToArray());
+            }
+
+            if (path.Contains("/"))
+            {
+                var pos = path.IndexOf('/');
+                var current = path.Substring(0, pos);
+                if (current == "*")
+                {
+                    if (pos == path.Length - 1) //end
+                    {
+                        foreach (var dicValue in psbObj.Values)
+                        {
+                            yield return dicValue;
+                        }
+                    }
+
+                    path = new string(path.SkipWhile(c => c == '*').ToArray());
+                    foreach (var val in psbObj.Values)
+                    {
+                        if (val is PsbDictionary dic)
+                        {
+                            foreach (var dicValue in dic.FindAllByPath(path))
+                            {
+                                yield return dicValue;
+                            }
+                        }
+                    }
+                }
+
+                if (pos == path.Length - 1 && psbObj[current] != null)
+                {
+                    yield return psbObj[current];
+                }
+
+                var currentObj = psbObj[current];
+                if (currentObj is PsbDictionary collection)
+                {
+                    path = path.Substring(pos);
+                    foreach (var dicValue in collection.FindAllByPath(path))
+                    {
+                        yield return dicValue;
+                    }
+                }
+            }
+
+            if (path == "*")
+            {
+                foreach (var value in psbObj.Values)
+                {
+                    yield return value;
+                }
+            }
+            else if (psbObj[path] != null)
+            {
+                yield return psbObj[path];
+            }
+        }
+
+        /// <summary>
+        /// Find object by path (use index [n] for collection)
+        /// <example>e.g. "/object/all_parts/motion/全体構造/layer/[0]"</example>
+        /// </summary>
+        /// <param name="psbObj"></param>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static IPsbValue FindByPath(this PsbDictionary psbObj, string path)
+        {
+            if (psbObj == null)
+                return null;
+            if (path.StartsWith("/"))
+            {
+                path = new string(path.SkipWhile(c => c == '/').ToArray());
+            }
+
+            if (path.Contains("/"))
+            {
+                var pos = path.IndexOf('/');
+                var current = path.Substring(0, pos);
+                if (pos == path.Length - 1)
+                {
+                    return psbObj[current];
+                }
+
+                var currentObj = psbObj[current];
+                if (currentObj is PsbDictionary dictionary)
+                {
+                    path = path.Substring(pos);
+                    return dictionary.FindByPath(path);
+                }
+
+                if (currentObj is PsbList collection)
+                {
+                    path = path.Substring(pos);
+                    return collection.FindByPath(path);
+                }
+            }
+
+            return psbObj[path];
+        }
+
+        /// <inheritdoc cref="FindByPath(FreeMote.Psb.PsbDictionary,string)"/>
+        public static IPsbValue FindByPath(this PsbList psbObj, string path)
+        {
+            if (psbObj == null)
+                return null;
+            if (path.StartsWith("/"))
+            {
+                path = new string(path.SkipWhile(c => c == '/').ToArray());
+            }
+
+            if (path.Contains("/"))
+            {
+                var pos = path.IndexOf('/');
+                var current = path.Substring(0, pos);
+                IPsbValue currentObj = null;
+                if (current == "*")
+                {
+                    currentObj = psbObj.FirstOrDefault();
+                }
+
+                if (current.StartsWith("[") && current.EndsWith("]") &&
+                    Int32.TryParse(current.Substring(1, current.Length - 2), out var id))
+                {
+                    currentObj = psbObj[id];
+                }
+
+                if (pos == path.Length - 1)
+                {
+                    return currentObj;
+                }
+
+                if (currentObj is PsbDictionary dictionary)
+                {
+                    path = path.Substring(pos);
+                    return dictionary.FindByPath(path);
+                }
+
+                if (currentObj is PsbList collection)
+                {
+                    path = path.Substring(pos);
+                    return collection.FindByPath(path);
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// Find object by MMO style path (based on label)
+        /// <example>e.g. "all_parts/全体構造/■全体レイアウト"</example>
+        /// </summary> 
+        /// <param name="psbObj"></param>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static IPsbValue FindByMmoPath(this IPsbCollection psbObj, string path)
+        {
+            if (psbObj == null)
+                return null;
+            if (path.StartsWith("/"))
+            {
+                path = new string(path.SkipWhile(c => c == '/').ToArray());
+            }
+
+            string current = null;
+            int pos = -1;
+            if (path.Contains("/"))
+            {
+                pos = path.IndexOf('/');
+                current = path.Substring(0, pos);
+            }
+            else
+            {
+                current = path;
+            }
+
+            IPsbValue currentObj = null;
+            if (psbObj is PsbList col)
+            {
+                currentObj = col.FirstOrDefault(c =>
+                    c is PsbDictionary d && d.ContainsKey("label") && d["label"] is PsbString s &&
+                    s.Value == current);
+            }
+            else if (psbObj is PsbDictionary dic)
+            {
+                //var dd = dic.Value.FirstOrDefault();
+                var children =
+                    (PsbList)(dic.ContainsKey("layerChildren") ? dic["layerChildren"] : dic["children"]);
+                currentObj = children.FirstOrDefault(c =>
+                    c is PsbDictionary d && d.ContainsKey("label") && d["label"] is PsbString s &&
+                    s.Value == current);
+            }
+
+            if (pos == path.Length - 1 || pos < 0)
+            {
+                return currentObj;
+            }
+
+            if (currentObj is IPsbCollection psbCol)
+            {
+                path = path.Substring(pos);
+                return psbCol.FindByMmoPath(path);
+            }
+
+            return psbObj[path];
+        }
+
+        /// <summary>
+        /// Get MMO style path (based on label)
+        /// </summary>
+        /// <param name="child"></param>
+        /// <returns></returns>
+        public static string GetMmoPath(this IPsbChild child)
+        {
+            if (child?.Parent == null)
+            {
+                if (child is PsbDictionary dic)
+                {
+                    return dic["label"].ToString();
+                }
+
+                return "";
+            }
+
+            List<string> paths = new List<string>();
+
+            while (child != null)
+            {
+                if (child is PsbDictionary current)
+                {
+                    if (current.ContainsKey("label"))
+                    {
+                        paths.Add(current["label"].ToString());
+                    }
+                    else
+                    {
+                        paths.Add(current.GetName());
+                    }
+                }
+
+                child = child.Parent;
+            }
+
+            paths.Reverse();
+            return string.Join("/", paths);
+        }
+
+        /// <summary>
+        /// Check if this PSB is a Emote Motion PSB
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <returns></returns>
+        public static bool IsEmt(this PSB psb)
+        {
+            if (psb.TypeId != "motion")
+            {
+                return false;
+            }
+
+            if (!psb.Objects.ContainsKey("metadata") || psb.Objects["metadata"] is not PsbDictionary md)
+            {
+                return false;
+            }
+
+            return md["format"] is PsbString {Value: "emote"};
+        }
+
+        #endregion
+
+        #region Context
+
+        internal static bool UseFlattenArray(this FreeMountContext context)
+        {
+            return context.Context.ContainsKey(Consts.Context_UseFlattenArray) && context.Context[Consts.Context_UseFlattenArray] is bool use && use == true;
+        }
+
+        internal static void SetUseFlattenArray(this FreeMountContext context, bool use)
+        {
+            context.Context[Consts.Context_UseFlattenArray] = use;
+        }
+
+        #endregion
+
+        #region MDF
+
+        /// <summary>
+        /// [RequireUsing] <paramref name="stream"/> will be disposed if <paramref name="shellType"/> is MPack (e.g. mdf) types
+        /// </summary>
+        /// <param name="stream"></param>
+        /// <param name="shellType"></param>
+        /// <param name="context"></param>
+        /// <returns>a new stream unpacked from shell (RequireUsing); or could be the input stream with some tweaks</returns>
+        internal static MemoryStream MdfConvert(Stream stream, string shellType, Dictionary<string, object> context = null)
+        {
+            var ctx = FreeMount.CreateContext(context);
+            var ms = ctx.OpenFromShell(stream, ref shellType);
+
+            if (ms is { Length: > 0 })
+            {
+                ctx.Shell = shellType;
+            }
+
+            if (ms.Length == 0 && stream.Length > 0)
+            {
+                throw new InvalidDataException($"Extract data from shell [{shellType}] failed: extracted data length = 0.");
+            }
+
+            if (ms != stream)
+            {
+                stream.Dispose();
+            }
+
+            return ms;
+        }
+
+        /// <summary>
+        /// Save PSB as pure MDF file
+        /// </summary>
+        /// <remarks>can not save as impure MDF (such as MT19937 MDF)</remarks>
+        /// <param name="psb"></param>
+        /// <param name="path"></param>
+        /// <param name="key"></param>
+        public static void SaveAsMdfFile(this PSB psb, string path, uint? key = null)
+        {
+            psb.Merge();
+            var bytes = psb.Build();
+            Adler32 adler = new Adler32();
+            uint checksum = 0;
+            if (key == null)
+            {
+                adler.Update(bytes);
+                checksum = (uint)adler.Checksum;
+            }
+
+            MemoryStream ms = new MemoryStream(bytes);
+            using (Stream fs = new FileStream(path, FileMode.Create))
+            {
+                if (key != null)
+                {
+                    MemoryStream nms = new MemoryStream((int)ms.Length);
+                    PsbFile.Encode(key.Value, EncodeMode.Encrypt, EncodePosition.Auto, ms, nms);
+                    ms.Dispose();
+                    ms = nms;
+                    var pos = ms.Position;
+                    adler.Update(ms);
+                    checksum = (uint)adler.Checksum;
+                    ms.Position = pos;
+                }
+
+                BinaryWriter bw = new BinaryWriter(fs);
+                bw.WriteStringZeroTrim(MPack.MdfSignature);
+                bw.Write((uint)ms.Length);
+                //bw.Write(ZlibCompress.Compress(ms));
+                ZlibCompress.CompressToBinaryWriter(bw, ms);
+                bw.WriteBE(checksum);
+                ms.Dispose();
+                bw.Flush();
+            }
+        }
+
+        /// <summary>
+        /// Save as pure MDF
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public static byte[] SaveAsMdf(this PSB psb, uint? key = null)
+        {
+            psb.Merge();
+            var bytes = psb.Build();
+            Adler32 adler = new Adler32();
+            uint checksum = 0;
+            if (key == null)
+            {
+                adler.Update(bytes);
+                checksum = (uint)adler.Checksum;
+            }
+
+            MemoryStream ms = new MemoryStream(bytes);
+            using (MemoryStream fs = new MemoryStream())
+            {
+                if (key != null)
+                {
+                    MemoryStream nms = new MemoryStream((int)ms.Length);
+                    PsbFile.Encode(key.Value, EncodeMode.Encrypt, EncodePosition.Auto, ms, nms);
+                    ms.Dispose();
+                    ms = nms;
+                    var pos = ms.Position;
+                    adler.Update(ms);
+                    checksum = (uint)adler.Checksum;
+                    ms.Position = pos;
+                }
+
+                BinaryWriter bw = new BinaryWriter(fs);
+                bw.WriteStringZeroTrim(MPack.MdfSignature);
+                bw.Write((uint)ms.Length);
+                //bw.Write(ZlibCompress.Compress(ms));
+                ZlibCompress.CompressToBinaryWriter(bw, ms);
+                bw.WriteBE(checksum);
+                ms.Dispose();
+                bw.Flush();
+                return fs.ToArray();
+            }
+        }
+
+        /// <summary>
+        /// Decode/encode MDF used in archive PSB. Usually you need to <paramref name="keepHeader"/> when input is a shell type (mdf,mfl etc.) rather than raw data. (<paramref name="stream"/> will <b>NOT</b> be disposed)
+        /// </summary>
+        /// <param name="stream">will <b>NOT</b> be disposed</param>
+        /// <param name="key">a full key a.k.a. seed</param>
+        /// <param name="keyLength">key buffer length, usually 131, but could be other value</param>
+        /// <param name="keepHeader">if <c>true</c>, skip first 8 bytes (usually MDF header)</param>
+        /// <returns></returns>
+        public static MemoryStream EncodeMdf(Stream stream, string key, int? keyLength, bool keepHeader)
+        {
+            if (Consts.Verbose)
+            {
+                Logger.LogHint($"[MDF] key: {key} len: {keyLength}");
+            }
+            
+            var ms = new MemoryStream((int) stream.Length); //MsManager.GetStream("EncodeMdf", (int)stream.Length);
+            EncodeMdf(stream, ms, key, keyLength, keepHeader);
+            return ms;
+        }
+
+        /// <summary>
+        /// Decode/encode MDF used in archive PSB. Usually you need to <paramref name="keepHeader"/> when input is a shell type (mdf,mfl etc.) rather than raw data. (<paramref name="stream"/> will <b>NOT</b> be disposed)
+        /// </summary>
+        /// <param name="stream">will <b>NOT</b> be disposed</param>
+        /// <param name="key">a full key a.k.a. seed</param>
+        /// <param name="keyLength">key buffer length, usually 131, but could be other value</param>
+        /// <param name="keepHeader">if <c>true</c>, skip first 8 bytes (usually MDF header)</param>
+        /// <returns></returns>
+        public static void EncodeMdf(Stream stream, MemoryStream output, string key, int? keyLength, bool keepHeader)
+        {
+            if (keyLength is < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(keyLength));
+            }
+
+            //var bts = MD5.Create().ComputeHash(Encoding.UTF8.GetBytes("1232ab23478cdconfig_info.psb.m"));
+            var bts = MD5.Create().ComputeHash(Encoding.UTF8.GetBytes(key));
+            uint[] seeds =
+            [
+                BitConverter.ToUInt32(bts, 0),
+                BitConverter.ToUInt32(bts, 1 * 4),
+                BitConverter.ToUInt32(bts, 2 * 4),
+                BitConverter.ToUInt32(bts, 3 * 4),
+            ];
+            var gen = new MTRandom<mt19937ar_t>(seeds);
+
+            using BinaryReader br = new BinaryReader(stream, Encoding.UTF8, true);
+            using BinaryWriter bw = new BinaryWriter(output, Encoding.UTF8, true);
+            if (keepHeader)
+            {
+                bw.Write(br.ReadBytes(8));
+            }
+
+            int genCount = (keyLength ?? (int) br.BaseStream.Length) / 4 + 1;
+
+            if (genCount > int.MaxValue / 4)
+            {
+                throw new ArgumentOutOfRangeException(nameof(keyLength));
+            }
+
+            if (keyLength != null)
+            {
+                Span<byte> keySpan = stackalloc byte[genCount * 4];
+
+                for (int i = 0; i < genCount; i++)
+                {
+                    BinaryPrimitives.WriteUInt32LittleEndian(keySpan.Slice(i * 4, 4), gen.GenerateUInt32());
+                }
+
+                keySpan = keySpan.Slice(0, keyLength.Value);
+                int currentKey = 0;
+                int kLength = keySpan.Length;
+                while (br.BaseStream.Position < br.BaseStream.Length)
+                {
+                    var current = br.ReadByte();
+                    current ^= keySpan[currentKey % kLength];
+                    currentKey++;
+
+                    bw.Write(current);
+                }
+            }
+            else
+            {
+                Span<byte> keySpan = stackalloc byte[4];
+                long count = 0;
+                while (br.BaseStream.Position < br.BaseStream.Length)
+                {
+                    if (count % 4 == 0)
+                    {
+                        BinaryPrimitives.WriteUInt32LittleEndian(keySpan, gen.GenerateUInt32());
+                    }
+                    var current = br.ReadByte();
+                    current ^= keySpan[(int) (count % 4)];
+                    bw.Write(current);
+                    count++;
+                }
+            }
+
+            return;
+        }
+
+        #endregion
+
+        #region PSB Parser
+
+        public static bool ByteArrayEqual(this byte[] a1, byte[] a2)
+        {
+            if (a1 == null && a2 == null)
+            {
+                return true;
+            }
+            if (a1 == null || a2 == null)
+            {
+                return false;
+            }
+            if (a1.Length != a2.Length)
+            {
+                return false;
+            }
+            return ByteSpanEqual(a1, a2);
+        }
+
+        /// <summary>
+        /// Fast compare byte array
+        /// </summary>
+        /// <param name="a1"></param>
+        /// <param name="a2"></param>
+        /// <returns></returns>
+        public static bool ByteSpanEqual(ReadOnlySpan<byte> a1, ReadOnlySpan<byte> a2)
+        {
+            return a1.SequenceEqual(a2);
+        }
+
+        /// <summary>
+        /// Check if number is not NaN
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        public static bool IsFinite(this float num)
+        {
+            return !Single.IsNaN(num) && !Single.IsInfinity(num);
+        }
+
+        /// <summary>
+        /// Check if number is not NaN
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        public static bool IsFinite(this double num)
+        {
+            return !Double.IsNaN(num) && !Double.IsInfinity(num);
+        }
+
+        public static int GetSize(this int i)
+        {
+            return i switch
+            {
+                // 0b00000000_01111111_11111111_11111111 can be shorten to 0b01111111_11111111_11111111 (it's positive because of the first 0),
+                // but 0b00000000_10000000_00000000_00000000 can not be shorten to 0b10000000_00000000_00000000,
+                // because that would be negative = (unchecked((int)0b11111111_10000000_00000000_00000000))
+                >= 0b00000000_10000000_00000000_00000000 => 4, // an extra 0 is needed to prove it's a positive number ([01]000.. raise from right to left)
+                >= 0b00000000_00000000_10000000_00000000 => 3, // same energy
+                >= 0b00000000_00000000_00000000_10000000 => 2,
+                >= 0 => 1,
+                // 0b11111111_10000000_00000000_00000001 can be shorten to 0b10000000_00000000_00000001 (it's negative because of the first 1),
+                // but 0b11111111_01111111_11111111_11111111 can not be shorten to 0b01111111_11111111_11111111,
+                // because that would be positive
+                <= (unchecked((int) 0b11111111_01111111_11111111_11111111)) => 4, // an extra 1 is needed to prove it's a negative number ([01]111.. raise from right to left)
+                <= (unchecked((int) 0b11111111_11111111_01111111_11111111)) => 3, // same energy
+                <= (unchecked((int) 0b11111111_11111111_11111111_01111111)) => 2,
+                <= 0 => 1,
+                //_ => 4
+            };
+        }
+
+        public static int GetSize(this long i)
+        {
+            //this is mostly generated by copilot so I didn't get bored, thanks for concern
+            return i switch
+            {
+                >= 0b00000000_10000000_00000000_00000000_00000000_00000000_00000000_00000000 => 8,
+                >= 0b00000000_00000000_10000000_00000000_00000000_00000000_00000000_00000000 => 7,
+                >= 0b00000000_00000000_00000000_10000000_00000000_00000000_00000000_00000000 => 6,
+                >= 0b00000000_00000000_00000000_00000000_10000000_00000000_00000000_00000000 => 5,
+                >= 0b00000000_00000000_00000000_00000000_00000000_10000000_00000000_00000000 => 4,
+                >= 0b00000000_00000000_00000000_00000000_00000000_00000000_10000000_00000000 => 3,
+                >= 0b00000000_00000000_00000000_00000000_00000000_00000000_00000000_10000000 => 2,
+                >= 0 => 1,
+                <= (unchecked((long) 0b11111111_01111111_11111111_11111111_11111111_11111111_11111111_11111111)) => 8,
+                <= (unchecked((long) 0b11111111_11111111_01111111_11111111_11111111_11111111_11111111_11111111)) => 7,
+                <= (unchecked((long) 0b11111111_11111111_11111111_01111111_11111111_11111111_11111111_11111111)) => 6,
+                <= (unchecked((long) 0b11111111_11111111_11111111_11111111_01111111_11111111_11111111_11111111)) => 5,
+                <= (unchecked((long) 0b11111111_11111111_11111111_11111111_11111111_01111111_11111111_11111111)) => 4,
+                <= (unchecked((long) 0b11111111_11111111_11111111_11111111_11111111_11111111_01111111_11111111)) => 3,
+                <= (unchecked((long) 0b11111111_11111111_11111111_11111111_11111111_11111111_11111111_01111111)) => 2,
+                <= 0 => 1,
+                //_ => 4
+            };
+        }
+
+        /// <summary>
+        /// get minimum size cost
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        public static int GetSize(this uint i)
+        {
+            int n = 0; do { i >>= 8; n++; } while (i != 0);
+
+            return n;
+        }
+        
+        public static uint ReadCompactUInt(this BinaryReader br, byte size)
+        {
+            return br.ReadBytes(size).UnzipUInt();
+        }
+
+        public static void ReadAndUnzip(this BinaryReader br, byte size, byte[] data, bool unsigned = false)
+        {
+            br.Read(data, 0, size);
+
+            byte fill = 0x0;
+            if (!unsigned && (data[size - 1] >= 0b10000000)) //negative
+            {
+                fill = 0xFF;
+            }
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] = i < size ? data[i] : fill;
+            }
+        }
+
+        /// <summary>
+        /// Shorten number bytes
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="size">Fix size</param>
+        /// <returns></returns>
+        public static byte[] ZipNumberBytes(this int i, int size = 0)
+        {
+            return BitConverter.GetBytes(i).Take(size <= 0 ? i.GetSize() : size).ToArray();
+        }
+
+        /// <summary>
+        /// Shorten number bytes
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="size">Fix size</param>
+        /// <returns></returns>
+        public static byte[] ZipNumberBytes(this long i, int size = 0)
+        {
+            return BitConverter.GetBytes(i).Take(size <= 0 ? i.GetSize() : size).ToArray();
+        }
+
+        /// <summary>
+        /// Shorten number bytes
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="size">Fix size</param>
+        /// <returns></returns>
+        public static byte[] ZipNumberBytes(this uint i, int size = 0)
+        {
+            //FIXED: Treat uint as int to prevent overconfidence
+            //if (i <= int.MaxValue)
+            //{
+            //    return ZipNumberBytes((int) i, size);
+            //}
+            var span = BitConverter.GetBytes(i);
+
+            return span.Take(size <= 0 ? i.GetSize() : size).ToArray();
+        }
+
+        public static byte[] UnzipNumberBytes(this byte[] b, int size = 8, bool unsigned = false)
+        {
+            byte[] r = new byte[size];
+            if (!unsigned && (b[b.Length - 1] >= 0b10000000)) //negative
+            {
+                for (int i = 0; i < r.Length; i++)
+                {
+                    r[i] = (0xFF);
+                }
+            }
+
+            b.CopyTo(r, 0);
+
+            return r;
+        }
+
+        public static void UnzipNumberBytes(this byte[] b, byte[] data, bool unsigned = false)
+        {
+            if (!unsigned && (b[b.Length - 1] >= 0b10000000)) //negative
+            {
+                for (int i = 0; i < data.Length; i++)
+                {
+                    data[i] = (0xFF);
+                }
+            }
+
+            b.CopyTo(data, 0);
+        }
+
+        public static long UnzipNumber(this byte[] b)
+        {
+            return BitConverter.ToInt64(b.UnzipNumberBytes(), 0);
+        }
+
+        public static uint UnzipUInt(this byte[] b)
+        {
+            //return BitConverter.ToUInt32(b.UnzipNumberBytes(4, true), 0);
+
+            //optimized with Span<T>
+            Span<byte> span = stackalloc byte[4];
+            for (int i = 0; i < Math.Min(b.Length, 4); i++)
+            {
+                span[i] = b[i];
+            }
+
+            return MemoryMarshal.Read<uint>(span);
+        }
+
+        public static uint UnzipUInt(this byte[] b, int start, byte size)
+        {
+            //return BitConverter.ToUInt32(b.UnzipNumberBytes(4, true), 0);
+
+            //optimized with Span<T>
+            Span<byte> span = stackalloc byte[4];
+            for (int i = 0; i < Math.Min(size, (byte)4); i++)
+            {
+                span[i] = b[start + i];
+            }
+
+            return MemoryMarshal.Read<uint>(span);
+        }
+
+        #endregion
+
+        #region Archive
+
+        public static PsbArchiveInfoType GetArchiveInfoType(this PSB psb)
+        {
+            if (psb.Objects.ContainsKey(PsbArchiveInfoType.UmdRoot.GetRootKey()))
+            {
+                return PsbArchiveInfoType.UmdRoot;
+            }
+            else if (psb.Objects.ContainsKey(PsbArchiveInfoType.FileInfo.GetRootKey()))
+            {
+                return PsbArchiveInfoType.FileInfo;
+            }
+
+            return PsbArchiveInfoType.None;
+        }
+
+        public static string GetRootKey(this PsbArchiveInfoType type) =>
+            type switch
+            {
+                PsbArchiveInfoType.FileInfo => "file_info",
+                PsbArchiveInfoType.UmdRoot => "umd_root",
+                _ => null
+            };
+
+        /// <summary>
+        /// Remove suffix for file name in archive info file_info
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <param name="suffix"></param>
+        /// <returns></returns>
+        public static string ArchiveInfo_GetFileNameRemoveSuffix(string fileName, string suffix)
+        {
+            if (string.IsNullOrEmpty(suffix))
+            {
+                return fileName;
+            }
+
+            if (fileName.EndsWith(suffix, true, CultureInfo.InvariantCulture))
+            {
+                return fileName.Remove(fileName.Length - suffix.Length, suffix.Length);
+            }
+
+            return fileName;
+        }
+
+        /// <summary>
+        /// Append suffix for file name in archive info file_info
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="suffix"></param>
+        /// <returns></returns>
+        public static string ArchiveInfo_GetFileNameAppendSuffix(string name, string suffix)
+        {
+            //if a file name ends with .xxx.m (like abc.nut.m), it's a naughty bad file with its own suffix. However, abc.m is not considered as such
+            if ((name.EndsWith(".m") && name.Count(c => c == '.') > 1) || name.EndsWith(".psb"))
+            {
+                return name;
+            }
+
+            return name + suffix;
+
+        }
+
+        /* the "amazing" design of archive psb:
+        "expire_suffix_list": [".psb.m"]
+        "image/man003" -> packed with key man003.psb.m
+        "scenario/ca01_06.txt.scn.m" -> packed with key ca01_06.txt.scn.m (?)
+        "script/ikusei.nut.m" -> packed with key ikusei.nut.m (ok fine)
+        "sound/bgm.psb" -> not packed (??)
+        "bg_c_whit.m" -> packed with key bg_c_whit.m.psb.m (???)
+         tolower might be used
+
+        "expire_suffix_list": [".scn.m"]
+        "mmm22.ks" -> packed with key mmm22.ks.scn.m
+         */
+
+        /// <summary>
+        /// get all possible file names (used as key) for items in archive psb, the first one is default (most confident)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="suffix"></param>
+        /// <param name="keepDirectory">if true, the first result will keep folder (used in pack); if false, the folder is stripped (used in extract)</param>
+        /// <returns></returns>
+        public static List<string> ArchiveInfo_GetAllPossibleFileNames(string name, string suffix, bool keepDirectory = false)
+        {
+            List<string> results = new List<string>();
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return results;
+            }
+
+            if (name.Contains("/") && !keepDirectory) //There is path, OMG
+            {
+                results.AddRange(ArchiveInfo_GetAllPossibleFileNames(name.Substring(name.LastIndexOf('/') + 1), suffix, keepDirectory));
+            }
+
+            //check if name is fully lower case
+            if (name.ToLowerInvariant() != name)
+            {
+                results.AddRange(ArchiveInfo_GetAllPossibleFileNames(name.ToLowerInvariant(), suffix, keepDirectory));
+            }
+
+            List<string> exts = new List<string>();
+            var name2 = name;
+            while (Path.GetExtension(name2) != string.Empty)
+            {
+                exts.Add(Path.GetExtension(name2));
+                name2 = Path.ChangeExtension(name2, null);
+            }
+            
+            if (exts.Count == 0)
+            {
+                //"image/man003" -> man003.psb.m
+                results.Add(name + suffix);
+                results.Add(name);
+            }
+            else //exts.Count > 0
+            {
+                if (exts[0].ToLowerInvariant() == ".m" && exts.Count == 1)
+                {
+                    //"bg_c_whit.m" -> bg_c_whit.m.psb.m
+                    results.Add(name + suffix);
+                    results.Add(name);
+                    results.Add(Path.ChangeExtension(name, null));
+                }
+                else
+                {
+                    //"scenario/ca01_06.txt.scn.m" -> ca01_06.txt.scn.m
+                    //"script/ikusei.nut.m" -> ikusei.nut.m
+                    //"sound/bgm.psb" -> null
+                    //"mmm22.ks" -> mmm22.ks.scn.m
+                    if ((name.EndsWith(".txt") || name.EndsWith(".ks")) && suffix.StartsWith(".scn"))
+                    {
+                        results.Add(name + suffix);
+                        results.Add(name);
+                    }
+                    else //naughty nut
+                    {
+                        results.Add(name);
+                        results.Add(name + suffix);
+                    }
+
+                    name2 = name;
+                    while (Path.GetExtension(name2) != string.Empty)
+                    {
+                        name2 = Path.ChangeExtension(name2, null);
+                        results.Add(name2);
+                        results.Add(name2 + suffix);
+                    }
+                }
+            }
+
+            //stress test
+            //results.Reverse();
+
+            return results.Distinct().ToList();
+        }
+
+        /// <summary>
+        /// Collect (possible) file names in archive info file_info
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <param name="suffix"></param>
+        /// <returns></returns>
+        public static IEnumerable<string> ArchiveInfo_CollectFiles(PSB psb, string suffix)
+        {
+            var archiveInfoType = psb.GetArchiveInfoType();
+            var rootKey = archiveInfoType.GetRootKey();
+            if (psb.Objects.ContainsKey(rootKey) && psb.Objects[rootKey] is PsbDictionary fileInfo)
+            {
+                foreach (var name in fileInfo.Keys)
+                {
+                    //yield return ArchiveInfoGetFileNameAppendSuffix(name, suffix);
+                    //foreach (var fileName in ArchiveInfoGetAllPossibleFileNames(name, suffix))
+                    //{
+                    //    yield return fileName;
+                    //}
+                    yield return ArchiveInfo_GetAllPossibleFileNames(name, suffix, true).FirstOrDefault();
+                }
+            }
+        }
+
+        /// <summary>
+        /// Get suffix in archive info
+        /// </summary>
+        /// <param name="psb"></param>
+        /// <returns></returns>
+        public static string ArchiveInfo_GetSuffix(PSB psb)
+        {
+            var suffix = "";
+            if (psb.Objects.ContainsKey("expire_suffix_list") &&
+                psb.Objects["expire_suffix_list"] is PsbList col && col[0] is PsbString s)
+            {
+                suffix = s;
+            }
+
+            return suffix;
+        }
+
+        //types: 
+        //1. name_info.psb.m + name_body.bin
+        //2. nameinfo.psb.m + namebody.bin
+        //3. nameinfo.psb.m + nameinfo_body.bin
+
+        /// <summary>
+        /// Get package name from a string like {package name}_info.psb.m
+        /// </summary>
+        /// <param name="fileName">e.g. {package name}_info.psb.m</param>
+        /// <returns>{package name}, can be empty if failed</returns>
+        public static string ArchiveInfo_GetPackageNameFromInfoPsb(string fileName)
+        {
+            if (string.IsNullOrEmpty(fileName))
+            {
+                return string.Empty;
+            }
+            var nameSlicePos = fileName.IndexOf("_info.", StringComparison.Ordinal);
+            string name = null;
+            if (nameSlicePos > 0)
+            {
+                name = fileName.Substring(0, nameSlicePos);
+            }
+            else
+            {
+                nameSlicePos = fileName.IndexOf(".", StringComparison.Ordinal);
+                if (nameSlicePos > 0)
+                {
+                    name = fileName.Substring(0, nameSlicePos);
+                }
+            }
+
+            return name;
+        }
+
+        /// <summary>
+        /// Get package name from a string like {package name}_body.bin
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns>{package name}, can be empty if failed</returns>
+        public static string ArchiveInfo_GetPackageNameFromBodyBin(string fileName)
+        {
+            if (string.IsNullOrEmpty(fileName))
+            {
+                return string.Empty;
+            }
+            var nameSlicePos = fileName.IndexOf("_body.", StringComparison.Ordinal);
+            string name = null;
+            if (nameSlicePos > 0)
+            {
+                name = fileName.Substring(0, nameSlicePos);
+            }
+            else
+            {
+                nameSlicePos = fileName.IndexOf("body.", StringComparison.Ordinal);
+                if (nameSlicePos > 0)
+                {
+                    name = fileName.Substring(0, nameSlicePos);
+                }
+            }
+
+            return name;
+        }
+
+        /// <summary>
+        /// Get an item's start and length info from info.psb.m
+        /// </summary>
+        /// <param name="range"></param>
+        /// <param name="archiveInfoType"></param>
+        /// <returns></returns>
+        public static (long Start, int Length) ArchiveInfo_GetItemPositionFromRangeList(PsbList range, PsbArchiveInfoType archiveInfoType = PsbArchiveInfoType.FileInfo)
+        {
+            if (archiveInfoType == PsbArchiveInfoType.UmdRoot)
+            {
+                var start = (PsbNumber) range[range.Count - 1];
+                return (start.NumberType == PsbNumberType.Long ? start.LongValue : start.UIntValue,
+                    ((PsbNumber) range[range.Count - 2]).IntValue);
+            }
+
+            var fileStart = (PsbNumber) range[0];
+            return (fileStart.NumberType == PsbNumberType.Long ? fileStart.LongValue : fileStart.UIntValue,
+                ((PsbNumber) range[1]).IntValue);
+        }
+
+        public static int ArchiveInfo_GetLengthFromRangeList(PsbList range, PsbArchiveInfoType archiveInfoType = PsbArchiveInfoType.FileInfo)
+        {
+            if (archiveInfoType == PsbArchiveInfoType.UmdRoot)
+            {
+                return ((PsbNumber) range[range.Count - 2]).IntValue;
+            }
+
+            return ((PsbNumber) range[1]).IntValue;
+        }
+
+        #endregion
+
+        #region Deprecated
+        //WARN: GetSize should not return 0
+        private static int GetSizeSlow(this int i)
+        {
+            bool neg = false;
+            if (i < 0)
+            {
+                neg = true;
+                i = Math.Abs(i);
+            }
+
+            var hex = i.ToString("X");
+            var l = hex.Length;
+            bool firstBitOne =
+                hex[0] >= '8' &&
+                hex.Length % 2 == 0; //FIXED: Extend size if first bit is 1 //FIXED: 0x0F is +, 0xFF is -, 0x0FFF is +
+
+            if (l % 2 != 0)
+            {
+                l++;
+            }
+
+            l = l / 2;
+            if (neg || firstBitOne)
+            {
+                l++;
+            }
+
+            if (l > 4)
+            {
+                l = 4;
+            }
+
+            return l;
+        }
+
+        private static int GetSizeSlow(this uint i)
+        {
+            //FIXED: Treat uint as int to prevent overconfidence
+            if (i <= Int32.MaxValue)
+            {
+                return GetSize((int) i);
+            }
+
+            var l = i.ToString("X").Length;
+            if (l % 2 != 0)
+            {
+                l++;
+            }
+
+            l = l / 2;
+            if (l > 4)
+            {
+                l = 4;
+            }
+
+            return l;
+        }
+
+        private static int GetSizeSlow(this long i)
+        {
+            bool neg = false;
+            if (i < 0)
+            {
+                neg = true;
+                i = Math.Abs(i);
+            }
+
+            var hex = i.ToString("X");
+            var l = hex.Length;
+            bool firstBitOne =
+                hex[0] >= '8' &&
+                hex.Length % 2 == 0; //FIXED: Extend size if first bit is 1 //FIXED: 0x0F is +, 0xFF is -, 0x0FFF is +
+
+            if (l % 2 != 0)
+            {
+                l++;
+            }
+
+            l = l / 2;
+            if (neg || firstBitOne)
+            {
+                l++;
+            }
+
+            if (l > 8)
+            {
+                l = 8;
+            }
+
+            return l;
+        }
+
+        #endregion
+
+    }
+
+    public class ByteListComparer : IComparer<IList<byte>>
+    {
+        public int Compare(IList<byte> x, IList<byte> y)
+        {
+            int result;
+            int min = Math.Min(x.Count, y.Count);
+            for (int index = 0; index < min; index++)
+            {
+                result = x[index].CompareTo(y[index]);
+                if (result != 0) return result;
+            }
+
+            return x.Count.CompareTo(y.Count);
+        }
+    }
+
+    public class StringListComparer : IComparer<IList<string>>
+    {
+        public int Compare(IList<string> x, IList<string> y)
+        {
+            int result;
+            int min = Math.Min(x.Count, y.Count);
+            for (int index = 0; index < min; index++)
+            {
+                result = String.Compare(x[index], y[index], StringComparison.Ordinal);
+                if (result != 0) return result;
+            }
+
+            return x.Count.CompareTo(y.Count);
+        }
+    }
+}

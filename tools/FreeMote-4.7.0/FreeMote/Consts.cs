@@ -1,0 +1,281 @@
+﻿using System.Collections.Generic;
+using System.IO.Compression;
+using System.Linq;
+using Microsoft.IO;
+
+// ReSharper disable InconsistentNaming
+
+namespace FreeMote
+{
+    /// <summary>
+    /// Constants and Global Settings
+    /// </summary>
+    public static class Consts
+    {
+        /// <summary>
+        /// Recyclable MemoryStream Manager, only use it for small streams, otherwise it holds too many memory
+        /// </summary>
+        public static readonly RecyclableMemoryStreamManager MsManager = new RecyclableMemoryStreamManager();
+
+        /// <summary>
+        /// delimiter for output texture filename
+        /// </summary>
+        internal const string ResourceNameDelimiter = "-";
+
+        public const string ResourceKey = "pixel";
+
+        public const string ExtraResourceFolderName = "extra";
+
+        /// <summary>
+        /// The string with this prefix will be convert to number when compile/decompile
+        /// </summary>
+        public const string NumberStringPrefix = "#0x";
+
+        /// <summary>
+        /// The string with this prefix (with ID followed) will be convert to resource when compile/decompile
+        /// </summary>
+        public const string ResourceIdentifier = "#resource#";
+
+        /// <summary>
+        /// The string with this prefix (with ID followed) will be convert to extra resource when compile/decompile
+        /// </summary>
+        public const string ExtraResourceIdentifier = "#resource@";
+
+        public const char ExtraResourceIdentifierChar = '@';
+        public const char ResourceIdentifierChar = '#';
+
+        /// <summary>
+        /// (string)
+        /// </summary>
+        public const string Context_PsbShellType = "PsbShellType";
+
+        /// <summary>
+        /// (string)
+        /// </summary>
+        public const string Context_FileName = "FileName";
+
+        /// <summary>
+        /// (uint?)
+        /// </summary>
+        public const string Context_CryptKey = "CryptKey";
+
+        /// <summary>
+        /// (bool)
+        /// <para>Fast: 0x9C; BestCompression: 0xDA; NoCompression/Low: 0x01</para>
+        /// </summary>
+        public const string Context_PsbZlibFastCompress = "PsbZlibFastCompress";
+
+        /// <summary>
+        /// (int) ZStandard Compression Level
+        /// </summary>
+        public const string Context_PsbZStdCompressLevel = "PsbZStdCompressLevel";
+
+        /// <summary>
+        /// (List) Archive sources
+        /// </summary>
+        public const string Context_ArchiveSource = "ArchiveSource";
+
+        /// <summary>
+        /// (List) Archive Item Special FileNames
+        /// </summary>
+        public const string Context_ArchiveItemFileNames = "ArchiveItemFileNames";
+
+        //public const string Context_Encoding = "Encoding";
+        //For netcore: var enc = CodePagesEncodingProvider.Instance.GetEncoding(932);
+        //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
+        /// <summary>
+        /// (int) PSB Version
+        /// </summary>
+        public const string Context_PsbVer = "PsbVer";
+
+        /// <summary>
+        /// (string) MDF Seed (key + filename)
+        /// </summary>
+        public const string Context_MdfKey = "MdfKey";
+
+        /// <summary>
+        /// (string) MDF Key for MT19937
+        /// </summary>
+        public const string Context_MdfMtKey = "MdfMtKey";
+
+        /// <summary>
+        /// (int) MDF Key length
+        /// </summary>
+        public const string Context_MdfKeyLength = "MdfKeyLength";
+
+        /// <summary>
+        /// (bool) Whether to decode and encode FlattenArray in extra resources (false by default)
+        /// </summary>
+        public const string Context_UseFlattenArray = "UseFlattenArray";
+
+        /// <summary>
+        /// (bool) (for <see cref="PsbType.Tachie"/>) If set to <c>true</c>, always use chunk (piece) images to compile rather than use the combined one
+        /// </summary>
+        public const string Context_DisableCombinedImage = "DisableCombinedImage";
+
+        /// <summary>
+        /// (bool) Treat image resources whose PSB names imply TLG as header-routed WebP-compatible images.
+        /// </summary>
+        public const string Context_UseWebP = "UseWebP";
+
+        /// <summary>
+        /// (bool) Force bitmap sources to be encoded as WebP instead of preserving an already supported container.
+        /// </summary>
+        public const string Context_ForceWebP = "ForceWebP";
+
+        /// <summary>
+        /// (string?) body.bin file name
+        /// </summary>
+        public const string Context_BodyBinName = "BodyBinName";
+
+        /// <summary>
+        /// (string?) Base path to find Sprites for SprData type
+        /// </summary>
+        public const string Context_RT_SprBasePath = "[RT]SprBasePath";
+
+        /// <summary>
+        /// 0x075BCD15
+        /// </summary>
+        public const uint Key1 = 123456789;
+
+        /// <summary>
+        /// 0x159A55E5
+        /// </summary>
+        public const uint Key2 = 362436069;
+
+        /// <summary>
+        /// 0x1F123BB5
+        /// </summary>
+        public const uint Key3 = 521288629;
+
+        /// <summary>
+        /// Perform 16 byte data align or not (when build)
+        /// </summary>
+        public static bool PsbDataStructureAlign { get; set; } = true;
+
+        /// <summary>
+        /// Take more memory when loading, but maybe faster
+        /// </summary>
+        public static bool InMemoryLoading { get; set; } = true;
+
+        /// <summary>
+        /// Use more inferences to make loading fast, set to False when something is wrong
+        /// </summary>
+        public static bool FastMode { get; set; } = true;
+
+        /// <summary>
+        /// Use more strict checks and if conditions are not met, just terminate
+        /// </summary>
+        public static bool StrictMode { get; set; } = false;
+
+        /// <summary>
+        /// Optimize the output to minimum size, may take more time
+        /// </summary>
+        public static bool OptimizeMode { get; set; } = true;
+
+        /// <summary>
+        /// Use hex numbers in json to keep all float numbers correct
+        /// </summary>
+        public static bool JsonUseHexNumber { get; set; } = false;
+
+        /// <summary>
+        /// Collapse arrays in json
+        /// </summary>
+        public static bool JsonArrayCollapse { get; set; } = true;
+
+        /// <summary>
+        /// Always use double instead of float
+        /// </summary>
+        public static bool JsonUseDoubleOnly { get; set; } = false;
+
+        /// <summary>
+        /// Whether to sort the object order by key when build/decompile PSB;
+        /// However, when <see cref="OptimizeMode"/> is set, this will be ignored for smaller size
+        /// </summary>
+        public static bool PsbObjectOrderByKey { get; set; } = true;
+
+        /// <summary>
+        /// Always consider ExtraResource as FlattenArray of float unless it's not 4-bytes aligned
+        /// </summary>
+        public static bool FlattenArrayByDefault { get; set; } = true;
+
+        /// <summary>
+        /// (not implemented yet) Use Palette Merge will increase compile time but cut output size (only when using CI* images)
+        /// </summary>
+        public static bool PaletteMerge { get; set; } = false;
+
+        /// <summary>
+        /// (not used yet) Allows you to edit CI* images by re-generate the palette for each bppIndexed image (will increase size), otherwise you should not change those images
+        /// </summary>
+        public static bool GeneratePalette { get; set; } = true;
+
+        /// <summary>
+        /// When compile, FreeMote will try to convert images with palette to common images (without palette). The compiled size will increase. 
+        /// </summary>
+        public static bool AllowRemovePalette { get; set; } = false;
+        
+        /// <summary>
+        /// Use managed code rather than external/native if possible
+        /// </summary>
+        public static bool PreferManaged { get; set; } = false;
+
+        /// <summary>
+        /// (not implemented yet) If the audio have 2 channels, try to combine them when output wave
+        /// </summary>
+        public static bool CombineAudioChannels { get; set; } = false;
+
+        /// <summary>
+        /// Output more logs
+        /// </summary>
+        public static bool Verbose { get; set; } = false;
+
+        /// <summary>
+        /// Override all compression settings
+        /// </summary>
+        public static CompressionLevel? ForceCompressionLevel { get; set; } = null;
+    }
+
+    //REF: https://stackoverflow.com/a/24987840/4374462
+    public static class ListExtras
+    {
+        //    list: List<T> to resize
+        //    size: desired new size
+        // element: default value to insert
+
+        public static void Resize<T>(this List<T> list, int size, T element = default(T))
+        {
+            int count = list.Count;
+
+            if (size < count)
+            {
+                list.RemoveRange(size, count - size);
+            }
+            else if (size > count)
+            {
+                if (size > list.Capacity) // Optimization
+                    list.Capacity = size;
+
+                list.AddRange(Enumerable.Repeat(element, size - count));
+            }
+        }
+
+        public static void EnsureSize<T>(this List<T> list, int size, T element = default(T))
+        {
+            if (list.Count < size)
+            {
+                list.Resize(size, element);
+            }
+        }
+
+        public static void Set<T>(this List<T> list, int index, T value, T defaultValue = default(T))
+        {
+            if (list.Count < index + 1)
+            {
+                list.Resize(index + 1, defaultValue);
+            }
+
+            list[index] = value;
+        }
+    }
+}

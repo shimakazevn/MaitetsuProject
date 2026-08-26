@@ -1,0 +1,1053 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using FreeMote.Plugins;
+using FreeMote.Psb;
+using FreeMote.PsBuild;
+using McMaster.Extensions.CommandLineUtils;
+using static FreeMote.Consts;
+// ReSharper disable InconsistentNaming
+
+namespace FreeMote.Tools.EmtConvert
+{
+    public enum PsbImageConvertMethod
+    {
+        /// <summary>
+        /// Switch byte [0] [2]
+        /// </summary>
+        /// 如果你是情迷弗兰克斯的女二号，面对泽拉图的威胁你会怎么做？
+        Switch02,
+        /// <summary>
+        /// Round Shift Right
+        /// </summary>
+        ROR,
+        /// <summary>
+        /// Round Shift Left
+        /// </summary>
+        ROL,
+        /// <summary>
+        /// Extend 2 bytes pixel to 4 bytes pixel
+        /// </summary>
+        LeARGB_4To8,
+        /// <summary>
+        /// Convert color to L8 style GrayScale
+        /// </summary>
+        LeARGB_To_L8Grayscale,
+        /// <summary>
+        /// Tile
+        /// </summary>
+        Tile,
+        /// <summary>
+        /// UnTile
+        /// </summary>
+        Untile,
+        /// <summary>
+        /// Tile for Wii
+        /// </summary>
+        Tile_RVL,
+        /// <summary>
+        /// UnTile for Wii
+        /// </summary>
+        Untile_RVL,
+        /// <summary>
+        /// Swizzle PSV
+        /// </summary>
+        Swizzle_PSV,
+        /// <summary>
+        /// Unswizzle PSV
+        /// </summary>
+        Unswizzle_PSV,
+        /// <summary>
+        /// Swizzle PSP
+        /// </summary>
+        Swizzle_PSP,
+        /// <summary>
+        /// Unswizzle PSP
+        /// </summary>
+        Unswizzle_PSP,
+        /// <summary>
+        /// Flip PS3
+        /// </summary>
+        Flip_PS3,
+        /// <summary>
+        /// Decode Tlg
+        /// </summary>
+        TLG,
+    }
+
+    public enum PsbFixMethod
+    {
+        /// <summary>
+        /// Fix [/metadata/base/motion] missing issue for partial exported motion PSB
+        /// </summary>
+        MetadataBase,
+        /// <summary>
+        /// Fix [/metadata/timelineControl/variableList/frameList/content/value] type error appeared in Cat Hell series. WTF Sayori
+        /// </summary>
+        KrkrTimelineTypeError,
+        /// <summary>
+        /// Fix texture incomplete for damaged PSB
+        /// </summary>
+        TextureSize,
+    }
+
+    class Program
+    {
+        private static readonly HashSet<string> _allowedExtensions = new(StringComparer.OrdinalIgnoreCase)
+        {
+            ".psb", ".psb.m", ".m", ".mmo", ".pimg", ".scn", ".bin", ".mtn", ".lz4",
+            ".bmpfont", ".tlg", ".tlg5", ".tlg6", ".bytes", ".psz", ".dpak", ".emtbytes", ".emtproj", ".mdf", ".mpd", ".ks.scn", ".psd",
+            ".png", ".bmp", ".json"
+        };
+
+        private static uint? Key = null;
+        private static uint? NewKey = null;
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("FreeMote PSB Converter");
+            Console.WriteLine("by Ulysses, wdwxy12345@gmail.com");
+            Logger.InitConsole();
+            if (args.Length > 0 && args[0] == FreeMount.ARG_DISABLE_PLUGINS)
+            {
+                Console.WriteLine("Plugins disabled.");
+            }
+            else
+            {
+                FreeMount.Init();
+                Console.WriteLine($"{FreeMount.PluginsCount} Plugins Loaded.");
+            }
+
+            Console.WriteLine();
+
+            var app = new CommandLineApplication();
+            app.OptionsComparison = StringComparison.OrdinalIgnoreCase;
+
+            //help
+            app.HelpOption();
+            app.ExtendedHelpText = PrintHelp();
+
+            //options
+            var optKey = app.Option<uint>("-k|--key <KEY>", "PSB key (uint, dec)", CommandOptionType.SingleValue);
+            var optNewKey = app.Option<uint>("-nk|--new-key <KEY>", "New PSB key for transfer (uint, dec)",
+                CommandOptionType.SingleValue);
+            var optOutputPath = app.Option<string>("-o|--output", "Set output file path. May overwrite your original files!", CommandOptionType.SingleValue);
+            //args
+            var argPath =
+                app.Argument("Files", "File paths", multipleValues: true);
+
+            //command: pixel
+            app.Command("pixel", PixelCommand);
+
+            //command: pack
+            app.Command("pack", PackCommand);
+
+            //command: print
+            var printCmd = app.Command("print", PrintCommand);
+            printCmd.AddName("paint");
+
+            //command: fix
+            app.Command("fix", FixCommand);
+
+            //mdf
+            var mdfCmd = app.Command("mpack", MPackCommand);
+            mdfCmd.AddName("mdf");
+
+            app.OnExecute(() =>
+            {
+                uint? key = optKey.HasValue() ? optKey.ParsedValue : (uint?) null;
+                uint? newKey = optNewKey.HasValue() ? optNewKey.ParsedValue : (uint?) null;
+                var outputPath = optOutputPath.HasValue() ? optOutputPath.Value() : null;
+                bool hasSetOutputPath = !string.IsNullOrEmpty(outputPath);
+                bool hasSetOutputFolder = hasSetOutputPath && Directory.Exists(outputPath);
+
+                void Process(string s, string outputFilePath = null)
+                {
+                    if (!string.IsNullOrEmpty(s) && File.Exists(s))
+                    {
+                        if (key != null && newKey != null) //Transfer
+                        {
+                            var savePath = GetOutputPath(Path.ChangeExtension(s, ".converted.psb"), outputFilePath);
+                            File.WriteAllBytes(savePath,
+                                PsbFile.Transfer(key.Value, newKey.Value, File.ReadAllBytes(s)));
+                        }
+                        else
+                        {
+                            //quick access tlg conversion
+                            var ext = Path.GetExtension(s)!.ToLower();
+                            if (ext is ".tlg" or ".tlg5" or ".tlg6")
+                            {
+                                try
+                                {
+                                    using var stream = File.OpenRead(s);
+                                    TlgImageConverter converter = new TlgImageConverter();
+                                    var br = new BinaryReader(stream);
+                                    var img = converter.Read(br);
+                                    var savePath = GetOutputPath(Path.ChangeExtension(s, ".png"), outputFilePath);
+                                    img.Save(savePath, ImageFormat.Png);
+                                }
+                                catch (Exception e)
+                                {
+                                    Logger.LogError($"Convert TLG to PNG failed: {s}");
+                                }
+                            }
+                            else
+                            {
+                                Convert(key, s, outputFilePath);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Input path not found: {s}");
+                    }
+                }
+
+                if (argPath.Values.Count == 1 && hasSetOutputPath)
+                {
+                    Process(argPath.Value, outputPath);
+                }
+                else
+                {
+                    foreach (var s in argPath.Values)
+                    {
+                        Process(s, hasSetOutputFolder ? outputPath : null);
+                    }
+                }
+            });
+
+            if (args.Length == 0)
+            {
+                app.ShowHelp();
+                Console.WriteLine("Convert all PSBs in current directory:");
+                AskForKey();
+                AskForNewKey();
+
+                DirectoryInfo di = new DirectoryInfo(Environment.CurrentDirectory);
+                uint count = 0;
+                foreach (var file in di.EnumerateFiles("*.psb"))
+                {
+                    if (NewKey != null)
+                    {
+                        try
+                        {
+                            File.WriteAllBytes(Path.ChangeExtension(file.FullName, ".converted.psb"),
+                                PsbFile.Transfer(Key.Value, NewKey.Value, File.ReadAllBytes(file.FullName)));
+                            count++;
+                        }
+                        catch (Exception e)
+                        {
+                            Logger.LogError("Error: This file is not valid.");
+                            Console.WriteLine(e);
+                        }
+                    }
+                    else
+                    {
+                        if (Convert(Key, file.FullName))
+                        {
+                            count++;
+                        }
+                    }
+                }
+
+                Console.WriteLine($"Completed! {count} files processed in total.");
+                Console.WriteLine("Press ENTER to exit...");
+                Console.ReadLine();
+                return;
+            }
+
+            app.Execute(args);
+
+            Console.WriteLine("Done.");
+        }
+
+        private static void PrintCommand(CommandLineApplication printCmd)
+        {
+            //help
+            printCmd.Description = "Print a Motion/SprData PSB (not accurate)";
+            printCmd.HelpOption();
+            printCmd.ExtendedHelpText = @"
+Example:
+  EmtConvert print -w 4096 -h 4096 sample.psb 
+  EmtConvert paint spr.psb.m.json
+";
+            //options
+            var optWidth = printCmd.Option<int>("-w|--width <INT>", "Set width. Default=-1 (auto)", CommandOptionType.SingleValue);
+            var optHeight = printCmd.Option<int>("-h|--height <INT>", "Set height. Default=-1 (auto)", CommandOptionType.SingleValue);
+            //args
+            var argPsbPaths = printCmd.Argument("PSB", "MDF/PSB Paths", true);
+
+            printCmd.OnExecute(() =>
+            {
+                int width = optWidth.HasValue() ? optWidth.ParsedValue : -1;
+                int height = optHeight.HasValue() ? optHeight.ParsedValue : -1;
+                foreach (var s in argPsbPaths.Values)
+                {
+                    if (File.Exists(s))
+                    {
+                        Draw(s, width, height);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Input path not found: {s}");
+                    }
+                }
+            });
+        }
+
+        private static void PackCommand(CommandLineApplication packCmd)
+        {
+            //help
+            packCmd.Description = "Pack/Unpack PSBs to/from shell (FreeMote.Plugins required)";
+            packCmd.HelpOption();
+            packCmd.ExtendedHelpText = @"
+Example:
+  EmtConvert pack -s LZ4 sample.psb 
+";
+            //options
+            var optType = packCmd.Option("-s|--shell <SHELL>", "Set shell type. No need to specify if unpack", CommandOptionType.SingleValue);
+            var optOutputPath = packCmd.Option<string>("-o|--output", "Set output file path. May overwrite your original files!", CommandOptionType.SingleValue);
+            //args
+            var argPsbPaths = packCmd.Argument("PSB", "MDF/PSB Paths", true);
+
+            packCmd.OnExecute(() =>
+            {
+                string type = optType.HasValue() ? optType.Value() : null;
+                var outputPath = optOutputPath.HasValue() ? optOutputPath.Value() : null;
+                foreach (var s in argPsbPaths.Values)
+                {
+                    if (File.Exists(s))
+                    {
+                        ShellConvert(s, type, null, outputPath);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Input path not found: {s}");
+                    }
+                }
+            });
+        }
+
+        private static void PixelCommand(CommandLineApplication pixelCmd)
+        {
+            //help
+            pixelCmd.Description = "Convert pixel colors of extracted images (RGBA BMP/PNG)";
+            pixelCmd.HelpOption();
+            pixelCmd.ExtendedHelpText = @"
+Example:
+  EmtConvert pixel -m Switch02 sample.png
+";
+            //options
+            var optMethod = pixelCmd.Option<PsbImageConvertMethod>("-m|--method <METHOD>", "Set convert method", CommandOptionType.SingleValue);
+            var optOutputPath = pixelCmd.Option<string>("-o|--output", "Set output file path. May overwrite your original files!", CommandOptionType.SingleValue);
+            //args
+            var argPaths = pixelCmd.Argument("Image", "Image Paths", true);
+
+            pixelCmd.OnExecute(() =>
+            {
+                var outputPath = optOutputPath.HasValue() ? optOutputPath.Value() : null;
+                if (!optMethod.HasValue())
+                {
+                    Console.WriteLine("Convert Method is not specified!");
+                    return;
+                }
+
+                foreach (var path in argPaths.Values)
+                {
+                    if (string.IsNullOrWhiteSpace(path) || !File.Exists(path))
+                    {
+                        continue;
+                    }
+
+                    switch (optMethod.ParsedValue)
+                    {
+                        case PsbImageConvertMethod.TLG:
+                            var isTlg = Path.GetExtension(path).ToLower().StartsWith(".tlg");
+                            if (isTlg)
+                            {
+                                using var stream = File.OpenRead(path);
+                                TlgImageConverter converter = new TlgImageConverter();
+                                var br = new BinaryReader(stream);
+                                var img = converter.Read(br);
+                                var savePath = GetOutputPath(Path.ChangeExtension(path, ".converted.png"), outputPath);
+                                img.Save(savePath, ImageFormat.Png);
+                            }
+                            else
+                            {
+                                try
+                                {
+                                    var img = new Bitmap(path);
+                                    var context = FreeMount.CreateContext();
+                                    var tlgBytes = context.BitmapToResource(PsbCompressType.Tlg.ToExtensionString(), PsbSpec.none, img);
+                                    if (tlgBytes is {Length: > 0})
+                                    {
+                                        var savePath = GetOutputPath(Path.ChangeExtension(path, ".converted.tlg"), outputPath);
+                                        File.WriteAllBytes(savePath, tlgBytes);
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine($"Cannot convert bitmap to TLG, maybe FreeMote.Plugins.x64 is missing, or you're not working on Windows.");
+                                    }
+                                }
+                                catch (Exception e)
+                                {
+                                    Logger.LogError(e);
+                                }
+                            }
+
+                            continue;
+                        default:
+                            break;
+                    }
+
+                    int width = 0;
+                    int height = 0;
+                    PixelFormat pixelFormat = PixelFormat.Format32bppArgb;
+                    int bitDepth = 32;
+                    try
+                    {
+                        var img = Image.FromFile(path);
+                        width = img.Width;
+                        height = img.Height;
+                        pixelFormat = img.PixelFormat;
+                        bitDepth = Image.GetPixelFormatSize(pixelFormat);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e);
+                        continue;
+                    }
+
+                    var bts = RL.GetPixelBytesFromImageFile(path);
+
+                    switch (optMethod.ParsedValue)
+                    {
+                        case PsbImageConvertMethod.Switch02:
+                            RL.Switch_0_2(ref bts);
+                            break;
+                        case PsbImageConvertMethod.ROR:
+                            RL.Argb2Rgba(ref bts);
+                            break;
+                        case PsbImageConvertMethod.ROL:
+                            RL.Argb2Rgba(ref bts, true);
+                            break;
+                        case PsbImageConvertMethod.LeARGB_4To8:
+                            bts = RL.Argb428(bts);
+                            break;
+                        case PsbImageConvertMethod.LeARGB_To_L8Grayscale:
+                            bts = RL.Argb2L8(bts);
+                            bts = RL.ReadL8(bts, width, height);
+                            break;
+                        case PsbImageConvertMethod.Tile:
+                            bts = PostProcessing.TileTexture(bts, width, height, bitDepth);
+                            break;
+                        case PsbImageConvertMethod.Untile:
+                            bts = PostProcessing.UntileTexture(bts, width, height, bitDepth);
+                            break;
+                        case PsbImageConvertMethod.Tile_RVL:
+                            bts = PostProcessing.TileTextureRvl(bts, width, height, bitDepth);
+                            break;
+                        case PsbImageConvertMethod.Untile_RVL:
+                            bts = PostProcessing.UntileTextureRvl(bts, width, height, bitDepth);
+                            break;
+                        case PsbImageConvertMethod.Swizzle_PSV:
+                            bts = PostProcessing.SwizzleTexture(bts, width, height, bitDepth);
+                            break;
+                        case PsbImageConvertMethod.Unswizzle_PSV:
+                            bts = PostProcessing.UnswizzleTexture(bts, width, height, bitDepth);
+                            break;
+                        case PsbImageConvertMethod.Swizzle_PSP:
+                            bts = PostProcessing.SwizzleTexture(bts, width, height, bitDepth, SwizzleType.PSP);
+                            break;
+                        case PsbImageConvertMethod.Unswizzle_PSP:
+                            bts = PostProcessing.UnswizzleTexture(bts, width, height, bitDepth, SwizzleType.PSP);
+                            break;
+                        case PsbImageConvertMethod.Flip_PS3:
+                            bts = PostProcessing.FlipTexturePs3(bts, width, height, bitDepth);
+                            break;
+                        default:
+                            continue;
+                    }
+
+                    var saveImgPath = GetOutputPath(Path.ChangeExtension(path, ".converted.png"), outputPath);
+                    RL.ConvertToImageFile(bts, saveImgPath, width, height, PsbImageFormat.png);
+                }
+            });
+        }
+
+        private static void FixCommand(CommandLineApplication fixCmd)
+        {
+            //help
+            fixCmd.Description = "Some mysterious fixes for PSB";
+            fixCmd.HelpOption();
+            fixCmd.ExtendedHelpText = @"
+Example:
+  EmtConvert fix -m MetadataBase sample.psb 
+";
+            //options
+            var optMethod = fixCmd.Option<PsbFixMethod>("-m|--method <METHOD>", "Set fix method.", CommandOptionType.SingleValue);
+            var optOutputPath = fixCmd.Option<string>("-o|--output", "Set output file path. May overwrite your original files!", CommandOptionType.SingleValue);
+            //args
+            var argPsbPaths = fixCmd.Argument("PSB", "PSB Paths", true);
+
+            fixCmd.OnExecute(() =>
+            {
+                if (!optMethod.HasValue())
+                {
+                    Console.WriteLine("Fix Method is not specified!");
+                    return;
+                }
+                var outputPath = optOutputPath.HasValue() ? optOutputPath.Value() : null;
+                bool hasSetOutputPath = !string.IsNullOrEmpty(outputPath);
+                bool hasSetOutputFolder = hasSetOutputPath && Directory.Exists(outputPath);
+                if (!hasSetOutputFolder)
+                {
+                    outputPath = null;
+                }
+                var method = optMethod.ParsedValue;
+                foreach (var s in argPsbPaths.Values)
+                {
+                    if (!File.Exists(s))
+                    {
+                        continue;
+                    }
+
+                    switch (method)
+                    {
+                        case PsbFixMethod.MetadataBase:
+
+                        {
+                            Console.Write($"Using {method} to fix {s} ...");
+                            PSB psb = new PSB(s);
+                            if (psb.FixMotionMetadata())
+                            {
+                                var savePath = GetOutputPath(Path.ChangeExtension(s, ".fixed.psb"), outputPath);
+                                psb.BuildToFile(savePath);
+                                Console.WriteLine($"Fixed output: {savePath}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("not fixed.");
+                            }
+                        }
+                            break;
+                        case PsbFixMethod.KrkrTimelineTypeError:
+                        {
+                            Console.Write($"Using {method} to fix {s} ...");
+                            PSB psb = new PSB(s);
+                            if (psb.FixTimelineContentValueType())
+                            {
+                                var savePath = GetOutputPath(Path.ChangeExtension(s, ".fixed.psb"), outputPath);
+                                psb.BuildToFile(savePath);
+                                Console.WriteLine($"Fixed output: {savePath}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("not fixed.");
+                            }
+                        }
+                            break;
+                        case PsbFixMethod.TextureSize:
+                        {
+                            Console.Write($"Using {method} to fix {s} ...");
+                            PSB psb = new PSB(s);
+                            if (psb.FixTextureSize())
+                            {
+                                var savePath = GetOutputPath(Path.ChangeExtension(s, ".fixed.psb"), outputPath);
+                                psb.BuildToFile(savePath);
+                                Console.WriteLine($"Fixed output: {savePath}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("not fixed.");
+                            }
+                        }
+                            break;
+                        default:
+                            Logger.LogError($"Not implemented method: {method}");
+                            break;
+                    }
+                }
+            });
+        }
+
+        private static void MPackCommand(CommandLineApplication mdfCmd)
+        {
+            //help
+            mdfCmd.Description = "Pack/Unpack MT19937 encrypted MDF/MFL/MZS (FreeMote.Plugins required)";
+            mdfCmd.HelpOption();
+            mdfCmd.ExtendedHelpText = @"
+Example:
+  EmtConvert mpack -k 1234567890ab -l 131 sample.psb 
+  EmtConvert mpack -s 1234567890absample.psb -l 131 sample.psb 
+  Hint: To pack a pure MDF, use `EmtConvert pack -s MDF <MDF file>`
+";
+            //options
+            //var optMdfPack = mdfCmd.Option("-p|--pack",
+            //    "Pack (Encrypt) a PSB to MT19937 MDF",
+            //    CommandOptionType.NoValue);
+            var optMdfSeed = mdfCmd.Option("-s|--seed <SEED>", "Set complete seed (Key+FileName)", CommandOptionType.SingleValue);
+            var optMdfKey = mdfCmd.Option("-k|--key <KEY>", "Set key (Infer file name from path)", CommandOptionType.SingleValue);
+            var optMdfKeyLen = mdfCmd.Option<uint>("-l|--length <LEN>", "Set key length. Usually use 131. If not set, it will be the length of the file (usually you don't expect this).", CommandOptionType.SingleValue);
+            var optSuffixList = mdfCmd.Option("-x|--suffix <SUFFIX>", "Set expire_suffix_list if the file name is not correctly named.", CommandOptionType.MultipleValue);
+            var optRaw = mdfCmd.Option("-r|--raw", "Only perform MT19937 decryption, output pure MDF", CommandOptionType.NoValue);
+            var optOutputPath = mdfCmd.Option<string>("-o|--output", "Set output file path. May overwrite your original files!", CommandOptionType.SingleValue);
+            //args
+            var argPsbPaths = mdfCmd.Argument("PSB", "PSB Paths", true);
+
+            mdfCmd.OnExecute(() =>
+            {
+                var suffixList = optSuffixList.HasValue() ? optSuffixList.Values : null;
+                string key = optMdfKey.HasValue() ? optMdfKey.Value() : null;
+                string seed = optMdfSeed.HasValue() ? optMdfSeed.Value() : null;
+                var outputPath = optOutputPath.HasValue() ? optOutputPath.Value() : null;
+                bool hasSetOutputPath = !string.IsNullOrEmpty(outputPath);
+                bool hasSetOutputFolder = hasSetOutputPath && Directory.Exists(outputPath);
+                if (string.IsNullOrEmpty(key) && string.IsNullOrEmpty(seed))
+                {
+                    //throw new ArgumentNullException(nameof(key), "No key or seed specified.");
+                    Console.WriteLine("No key or seed specified. Packing to pure MDF.");
+
+                    if (argPsbPaths.Values.Count == 1 && hasSetOutputPath)
+                    {
+                        ShellConvert(argPsbPaths.Value, "MDF", null, outputPath);
+                    }
+                    else
+                    {
+                        foreach (var s in argPsbPaths.Values)
+                        {
+                            if (File.Exists(s))
+                            {
+                                ShellConvert(s, "MDF", null, hasSetOutputFolder ? outputPath : null);
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Input path not found: {s}");
+                            }
+                        }
+                    }
+                    return;
+                }
+
+                Dictionary<string, object> context = new Dictionary<string, object>();
+                uint? keyLen = optMdfKeyLen.HasValue() ? optMdfKeyLen.ParsedValue : (uint?) null;
+                if (keyLen.HasValue)
+                {
+                    context[Context_MdfKeyLength] = keyLen;
+                }
+
+                void Pack(string s, string outputFilePath = null)
+                {
+                    if (!File.Exists(s)) return;
+                    var fileName = Path.GetFileName(s);
+
+                    string finalSeed = seed;
+                    if (key != null)
+                    {
+                        finalSeed = key + fileName;
+                    }
+
+                    if (optRaw.HasValue())
+                    {
+                        var ms = PsbExtension.EncodeMdf(File.OpenRead(s), finalSeed, keyLen.HasValue ? (int) keyLen : null, true);
+                        var savePath = GetOutputPath(Path.ChangeExtension(s, ".converted.mdf"), outputFilePath);
+                        File.WriteAllBytes(savePath, ms.ToArray());
+                        return;
+                    }
+
+                    context[Context_FileName] = fileName;
+                    context[Context_MdfKey] = finalSeed;
+                        
+                    var success = ShellConvert(s, "", context); //Unpack
+
+                    if (!success)
+                    {
+                        Regex RealNameRegex = new Regex(@"[A-Za-z0-9_-]+\.[A-Za-z0-9]+\.m");
+                        var realName = fileName;
+                        if (RealNameRegex.IsMatch(fileName))
+                        {
+                            realName = RealNameRegex.Match(fileName).Value;
+                        }
+
+                        if (realName != fileName)
+                        {
+                            if (key != null)
+                            {
+                                finalSeed = key + realName;
+                            }
+
+                            context[Context_MdfKey] = finalSeed;
+                            if (ShellConvert(s, "", context, outputFilePath))
+                            {
+                                return;
+                            }
+                        }
+                            
+                        if (suffixList != null)
+                        {
+                            foreach (var suffix in suffixList)
+                            {
+                                var allPossibleNames = PsbExtension.ArchiveInfo_GetAllPossibleFileNames(fileName, suffix);
+
+                                foreach (var possibleName in allPossibleNames)
+                                {
+                                    finalSeed = seed;
+                                    if (key != null)
+                                    {
+                                        finalSeed = key + possibleName;
+                                    }
+
+                                    context[Context_MdfKey] = finalSeed;
+                                    if (ShellConvert(s, "", context, outputFilePath))
+                                    {
+                                        return;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                if (argPsbPaths.Values.Count == 1 && hasSetOutputPath)
+                {
+                    Pack(argPsbPaths.Value, outputPath);
+                }
+                else
+                {
+                    foreach (var s in argPsbPaths.Values)
+                    {
+                        Pack(s, hasSetOutputFolder ? outputPath : null);
+                    }
+                }
+            });
+        }
+
+        private static void Draw(string path, int width, int height)
+        {
+            PSB psb;
+            if (path.ToLowerInvariant().EndsWith(".json"))
+            {
+                psb = PsbCompiler.LoadPsbFromJsonFile(path);
+            }
+            else
+            {
+                psb = new PSB(path);
+            }
+            if (psb.IsEmt())
+            {
+                Logger.LogWarn(
+                    "[WARN] EMT PSB render is not really implemented. No further plan. No support. \r\nYou're welcomed to contribute or submit samples, but issues won't be fixed.");
+                var painter = new EmtPainter(psb);
+                //if (width < 0 || height < 0)
+                //{
+                //    psb.TryGetCanvasSize(out var cw, out var ch);
+                //    if (width < 0)
+                //    {
+                //        width = cw;
+                //    }
+
+                //    if (height < 0)
+                //    {
+                //        height = ch;
+                //    }
+                //}
+
+                var bmp = painter.Draw(width, height);
+                bmp?.Save(Path.ChangeExtension(path, ".FreeMote.png"), ImageFormat.Png);
+            }
+            else if(psb.Type == PsbType.Motion)
+            {
+                Logger.LogWarn(
+                    "[WARN] Motion PSB render is not accurate.");
+                var dirPath = Path.GetDirectoryName(Path.GetFullPath(path)) ?? string.Empty;
+                var outputPath = Path.Combine(dirPath, Path.GetFileNameWithoutExtension(path));
+                if (File.Exists(outputPath))
+                {
+                    outputPath = "output";
+                }
+                if (!Directory.Exists(outputPath))
+                {
+                    Directory.CreateDirectory(outputPath);
+                }
+                Logger.Log($"Render output path: {outputPath}");
+                
+                var painter = new MtnPainter(psb);
+                var bmps = painter.DrawAll();
+                foreach (var bmp in bmps)
+                {
+                    bmp.Image?.Save(Path.Combine(outputPath, $"{PsbResHelper.EscapeStringForPath(painter.BaseMotion)}-{bmp.Name}.png"), ImageFormat.Png);
+                }
+            }
+            else if (psb.Type == PsbType.SprData)
+            {
+                var dirPath = Path.GetDirectoryName(Path.GetFullPath(path)) ?? string.Empty;
+                var fileName = Path.GetFileName(path);
+
+                var baseName = fileName.Split('.')[0];
+                var outputPath = Path.Combine(dirPath, baseName);
+                if (File.Exists(outputPath))
+                {
+                    outputPath = "output";
+                }
+                if (!Directory.Exists(outputPath))
+                {
+                    Directory.CreateDirectory(outputPath);
+                }
+
+                Logger.Log($"Render output path: {outputPath}");
+
+                var painter = new SprPainter(psb, dirPath);
+                var bmps = painter.Draw();
+                foreach (var bmp in bmps)
+                {
+                    bmp.Value.Save(Path.Combine(outputPath, $"{bmp.Key}.png"), ImageFormat.Png);
+                }
+            }
+            else
+            {
+                Console.WriteLine("PSB is not drawable.");
+            }
+        }
+        
+        private static bool ShellConvert(string path, string type, Dictionary<string, object> context = null, string outputPath = null)
+        {
+            try
+            {
+                using var fs = File.OpenRead(path);
+                var ctx = FreeMount.CreateContext(context);
+                string currentType = null;
+                using var ms = ctx.OpenFromShell(fs, ref currentType);
+                if (ms == null) // no shell, compress
+                {
+                    if (string.IsNullOrEmpty(type))
+                    {
+                        return false;
+                    }
+
+                    using var mms = ctx.PackToShell(fs, type);
+                    if (mms == null)
+                    {
+                        Logger.LogError($"Shell type unsupported: {type}");
+                        return false;
+                    }
+
+                    Console.WriteLine($"[{type}] Shell applied for {path}");
+                    var savePath = GetOutputPath(path + "." + type, outputPath);
+                    File.WriteAllBytes(savePath, mms.ToArray());
+                }
+                else
+                {
+                    if (string.IsNullOrEmpty(type) || currentType == type)
+                    {
+                        Console.WriteLine($"Shell Type [{currentType}] detected for {path}");
+                        var savePath = GetOutputPath(Path.ChangeExtension(path, ".decompressed.psb"), outputPath);
+                        File.WriteAllBytes(savePath, ms.ToArray());
+                    }
+                    else
+                    {
+                        using var mms = ctx.PackToShell(ms, type);
+                        if (mms == null)
+                        {
+                            Logger.LogError($"Shell type unsupported: {type}");
+                            return false;
+                        }
+
+                        Console.WriteLine($"[{type}] Shell applied for {path}");
+                        var savePath = GetOutputPath(Path.ChangeExtension(path, $".compressed.{type.ToLowerInvariant()}"), outputPath);
+                        File.WriteAllBytes(savePath, mms.ToArray());
+                    }
+                }
+            }
+            catch (PsbBadFormatException)
+            {
+                Logger.LogError($"Shell Convert failed. Input is invalid (or encrypted): {path}");
+                return false;
+            }
+            catch (Exception)
+            {
+                Logger.LogError($"Shell Convert failed: {path}");
+                return false;
+            }
+
+            return true;
+        }
+
+        private static string PrintHelp()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine().AppendLine("Plugins:");
+            sb.AppendLine(FreeMount.PrintPluginInfos(2));
+            sb.AppendLine(@"Examples: 
+  EmtConvert sample.psb    //Unpack from shell, and decrypt if there is a KeyProvider plugin
+  EmtConvert image.tlg    //Convert TLG image to PNG
+  EmtConvert -k 123456789 sample.psb    //Decrypt or encrypt using key
+  EmtConvert -k 123456789 -nk 987654321 sample.psb    //Transfer from old key to new key
+  Hint: If EmtConvert can't decrypt your PSB, try PsbDecompile.");
+            return sb.ToString();
+        }
+
+        static void AskForKey()
+        {
+            while (Key == null)
+            {
+                Console.WriteLine("Please input key (uint, dec):");
+                string ans = Console.ReadLine();
+                if (string.IsNullOrEmpty(ans))
+                {
+                    return;
+                }
+
+                uint key;
+                if (uint.TryParse(ans, out key))
+                {
+                    Key = key;
+                }
+                else
+                {
+                    Console.WriteLine("Input not correct.");
+                }
+            }
+        }
+
+        static void AskForNewKey()
+        {
+            Console.WriteLine("Please input new key (uint, dec), or just ENTER if not using transfer:");
+            string ans = Console.ReadLine();
+            uint key;
+            if (!string.IsNullOrWhiteSpace(ans) && uint.TryParse(ans, out key))
+            {
+                NewKey = key;
+            }
+            else
+            {
+                NewKey = null;
+            }
+        }
+
+        static bool Convert(uint? key, string path, string outputPath = null)
+        {
+            if (!File.Exists(path))
+            {
+                Console.WriteLine($"File:{path} not exists.");
+                return false;
+            }
+
+            try
+            {
+                using var fs = new FileStream(path, FileMode.Open);
+                Stream stream = fs;
+                string type = null;
+                using var ms = FreeMount.CreateContext().OpenFromShell(fs, ref type);
+                bool hasShell = false;
+                if (ms != null)
+                {
+                    Console.WriteLine($"Shell type: {type}");
+                    stream = ms;
+                    hasShell = true;
+                }
+
+                BinaryReader br = new BinaryReader(stream, Encoding.UTF8);
+                if (!key.HasValue)
+                {
+                    var k = FreeMount.CreateContext().GetKey(stream);
+                    if (k != null)
+                    {
+                        key = k;
+                        Console.WriteLine($"Using key: {key}");
+                    }
+                    else if (hasShell)
+                    {
+                        var savePath = GetOutputPath(Path.ChangeExtension(path, ".decompressed.psb"), outputPath);
+                        File.WriteAllBytes(savePath, ms.ToArray());
+                        return true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("No Key and No Shell.");
+                        return false;
+                    }
+                }
+
+                var header = PsbHeader.Load(br);
+
+                using (var outMs = new MemoryStream((int) stream.Length))
+                {
+                    if (header.Version > 2)
+                    {
+                        if (PsbFile.TestHeaderEncrypted(stream, header)) //Decrypt
+                        {
+                            //psb.EncodeToFile(key.Value, path + ".decrypted", EncodeMode.Decrypt);
+                            PsbFile.Encode(key.Value, EncodeMode.Decrypt, EncodePosition.Auto, stream, outMs);
+                            var savePath = GetOutputPath(Path.ChangeExtension(path, ".pure.psb"), outputPath);
+                            File.WriteAllBytes(savePath, outMs.ToArray());
+                        }
+                        else
+                        {
+                            //psb.EncodeToFile(key.Value, path + ".encrypted", EncodeMode.Encrypt);
+                            PsbFile.Encode(key.Value, EncodeMode.Encrypt, EncodePosition.Auto, stream, outMs);
+                            var savePath = GetOutputPath(Path.ChangeExtension(path, ".encrypted.psb"), outputPath);
+                            File.WriteAllBytes(savePath, outMs.ToArray());
+                        }
+                    }
+                    else
+                    {
+                        if (PsbFile.TestBodyEncrypted(br, header)) //Decrypt
+                        {
+                            PsbFile.Encode(key.Value, EncodeMode.Decrypt, EncodePosition.Auto, stream, outMs);
+                            var savePath = GetOutputPath(Path.ChangeExtension(path, ".pure.psb"), outputPath);
+                            File.WriteAllBytes(savePath, outMs.ToArray());
+                        }
+                        else
+                        {
+                            PsbFile.Encode(key.Value, EncodeMode.Encrypt, EncodePosition.Auto, stream, outMs);
+                            var savePath = GetOutputPath(Path.ChangeExtension(path, ".encrypted.psb"), outputPath);
+                            File.WriteAllBytes(savePath, outMs.ToArray());
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Logger.LogError("Error: Input is not valid.");
+                Console.WriteLine(e);
+                return false;
+            }
+
+            return true;
+        }
+
+        private static string GetOutputPath(string defaultPath, string outputPath)
+        {
+            string savePath;
+            if (!string.IsNullOrEmpty(outputPath))
+            {
+                if (Directory.Exists(outputPath))
+                {
+                    savePath = Path.Combine(outputPath, Path.GetFileName(defaultPath));
+                }
+                else if (_allowedExtensions.Contains(Path.GetExtension(outputPath)))
+                {
+                    savePath = outputPath;
+                    if (File.Exists(savePath))
+                    {
+                        Logger.LogWarn($"[WARN] Output path already exists and will be overwritten: {savePath}");
+                    }
+                }
+                else
+                {
+                    Logger.LogWarn($"[WARN] Output path is not valid: {outputPath} . Using default path: {defaultPath}");
+                    savePath = defaultPath;
+                }
+            }
+            else
+            {
+                savePath = defaultPath;
+            }
+            return savePath;
+        }
+    }
+}

@@ -1,0 +1,1050 @@
+﻿/*
+ *  Copyright © Ulysses Wu 2015-2024
+ */
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Interop;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Threading;
+
+namespace FreeMote.Tools.Viewer
+{
+    enum D3DResult : uint
+    {
+        DEVICE_LOST = 0x88760868,
+        DEVICE_NOTRESET = 0x88760869,
+        INVAILDCALL = 0x8876086C,
+        OK = 0x0,
+        UNKNOWN_ERROR = 0xFFFFFFFF
+    }
+
+    public partial class MainWindow : Window
+    {
+        const float RefreshRate = 1000.0f / 65.0f; // 1/n秒カウントをmsへ変換。
+        //const float RefreshRate = 1000.0f / 120f; // 1/n秒カウントをmsへ変換。
+        private const int Movement = 10;
+        private const float KeyboardScaleStep = 1.05f;
+        private const int MinScreenshotSize = 100;
+        private const int MaxScreenshotSize = 10240;
+
+        private static double _lastX, _lastY;
+        private static bool _leftMouseDown;
+        private static bool _rightMouseDown = false;
+        private static double _midX, _midY;
+        private bool _mouseTrack = false;
+        private D3DImage _di;
+        private Emote _emote;
+        private WindowInteropHelper _helper;
+        private EmotePlayer _player;
+        private IntPtr _scene;
+        private List<string> _psbPaths;
+        private PreciseTimer _timer;
+
+        private double _deltaX, _deltaY;
+        private bool _isDragging;
+        private bool _hasDragFrame;
+        private bool _hasPendingMouseTrack;
+        private bool _hasPendingPositionUpdate;
+        private double _elapsedTime;
+        private bool _measureMode = false;
+
+        private bool _playing = true;
+        private CancellationTokenSource _sizeChangeCancellation = null;
+        private double _playbackSpeed = 1.0;
+        private int _advancedScreenshotWidth = 1280;
+        private int _advancedScreenshotHeight = 720;
+        private bool _keepScreenshotScale100;
+        private string _centerPointMode = "default";
+        private bool _renderingScene;
+        private DispatcherTimer _statusTimer;
+
+        public MainWindow()
+        {
+            _psbPaths = Core.PsbPaths;
+            if (_psbPaths.Count == 0)
+            {
+                Application.Current.Shutdown(-1);
+            }
+
+            _helper = new WindowInteropHelper(this);
+
+            // create a D3DImage to host the scene and
+            // monitor it for changes in front buffer availability
+            _di = new D3DImage();
+            _di.IsFrontBufferAvailableChanged
+                += OnIsFrontBufferAvailableChanged;
+
+            //MouseMove += MainWindow_MouseMove;
+            //MouseWheel += MainWindow_MouseWheel;
+            MouseDoubleClick += MainWindow_MouseDoubleClick;
+
+            AddHandler(Keyboard.PreviewKeyDownEvent, new KeyEventHandler(OnKeyDown), true);
+
+            // make a brush of the scene available as a resource on the window
+            Resources["NekoHacksScene"] = new ImageBrush(_di);
+
+            //double x = SystemParameters.WorkArea.Width; //得到屏幕工作区域宽度
+            //double y = SystemParameters.WorkArea.Height; //得到屏幕工作区域高度
+            //double x1 = SystemParameters.PrimaryScreenWidth; //得到屏幕整体宽度
+            //double y1 = SystemParameters.PrimaryScreenHeight; //得到屏幕整体高度
+
+            //WindowStartupLocation = WindowStartupLocation.Manual;
+            //Left = x1 - 800;
+            //Top = y1 - 600;
+            // parse the XAML
+            InitializeComponent();
+            //Topmost = true;
+            LoadViewerSettings();
+            CreatePlayer(Core.Width, Core.Height);
+        }
+
+        public void CreatePlayer(double width, double height, float scale = 1f, float? x = null, float? y = null)
+        {
+            if (_emote != null)
+            {
+                PauseRenderingScene();
+                _scene = IntPtr.Zero;
+                _di.Lock();
+                _di.SetBackBuffer(D3DResourceType.IDirect3DSurface9, IntPtr.Zero);
+                _di.Unlock();
+            }
+
+            _emote?.Dispose();
+            _emote?.D3DRelease();
+
+            //Width = width;
+            //Height = height;
+
+            //Topmost = true;
+            //Width = 800;
+            //Height = 600;
+            
+            _midX = Width / 2;
+            _midY = Height / 2;
+            CenterMark.Visibility = Visibility.Hidden;
+            CharaCenterMark.Visibility = Visibility.Hidden;
+
+            _emote = new Emote(_helper.EnsureHandle(), (int) width, (int) height, true);
+            _emote.EmoteInit();
+
+            _player = CreateEmotePlayer(_emote, "Chara1");
+            
+            var centerX = 0f;
+            var centerY = 0f;
+
+            if (x != null && y != null)
+            {
+                centerX = x.Value;
+                centerY = y.Value;
+            }
+            else
+            {
+                (centerX, centerY) = GetDefaultCoord(_player);
+            }
+
+            _player.SetScale(scale, 0, 0);
+            _player.SetCoord(centerX, centerY);
+            _player.SetVariable("fade_z", 256);
+            _player.SetSmoothing(true);
+            _player.Show();
+
+
+            // begin rendering the custom D3D scene into the D3DImage
+            BeginRenderingScene();
+            UpdateScene(0);
+        }
+
+        private (float centerX, float centerY) GetDefaultCoord(EmotePlayer player)
+        {
+            var centerX = 0f;
+            var centerY = 0f;
+            var profileAvailable = player.IsCharaProfileAvailable();
+            if (profileAvailable)
+            {
+                var boundsTop = player.GetCharaProfile("boundsTop");
+                var boundsBottom = player.GetCharaProfile("boundsBottom");
+                var boundsLeft = player.GetCharaProfile("boundsLeft");
+                var boundsRight = player.GetCharaProfile("boundsRight");
+                if (boundsTop != 0 && boundsBottom != 0 && boundsLeft != 0 && boundsRight != 0)
+                {
+                    centerX = -(boundsLeft + boundsRight) / 2;
+                    centerY = -(boundsTop + boundsBottom) / 2;
+                }
+            }
+
+            return (centerX, centerY);
+        }
+
+        private void LoadModel()
+        {
+            //TODO:
+        }
+
+        private void MainWindow_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+#if DEBUG
+            var p = e.GetPosition(this);
+            Debug.WriteLine(WindowWorldToCharacterWorld(p.X, p.Y));
+#endif
+        }
+
+        private async void OnKeyDown(object sender, KeyEventArgs keyEventArgs)
+        {
+            var key = keyEventArgs.Key == Key.System ? keyEventArgs.SystemKey : keyEventArgs.Key;
+
+            if (key == Key.F12)
+            {
+                keyEventArgs.Handled = true;
+                RenderAdvancedImage(this, new RoutedEventArgs());
+                return;
+            }
+
+            if (key == Key.F11)
+            {
+                keyEventArgs.Handled = true;
+                RenderImage(this, new RoutedEventArgs());
+                return;
+            }
+
+            if (key == Key.F10)
+            {
+                keyEventArgs.Handled = true;
+                PlayOrPause(this, new RoutedEventArgs());
+                return;
+            }
+
+            if (key == Key.Back)
+            {
+                keyEventArgs.Handled = true;
+                ResetView();
+            }
+
+            if (key == Key.W)
+            {
+                keyEventArgs.Handled = true;
+                _player.OffsetCoord(0, Movement);
+            }
+
+            if (key == Key.S)
+            {
+                keyEventArgs.Handled = true;
+                _player.OffsetCoord(0, -Movement);
+            }
+
+            if (key == Key.A)
+            {
+                keyEventArgs.Handled = true;
+                _player.OffsetCoord(Movement, 0);
+            }
+
+            if (key == Key.D)
+            {
+                keyEventArgs.Handled = true;
+                _player.OffsetCoord(-Movement, 0);
+            }
+
+            if (key == Key.OemPlus || key == Key.Add)
+            {
+                keyEventArgs.Handled = true;
+                _player.OffsetScale(KeyboardScaleStep);
+            }
+
+            if (key == Key.OemMinus || key == Key.Subtract)
+            {
+                keyEventArgs.Handled = true;
+                _player.OffsetScale(1f / KeyboardScaleStep);
+            }
+
+            if (key == Key.LeftCtrl)
+            {
+                keyEventArgs.Handled = true;
+                if (keyEventArgs.IsDown)
+                {
+                    _measureMode = !_measureMode;
+                }
+
+                if (_measureMode)
+                {
+                    _player.SetScale(1);
+                    _player.SetCoord(0, 0);
+                    CenterMark.Visibility = Visibility.Visible;
+                    CharaCenterMark.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    CenterMark.Visibility = Visibility.Hidden;
+                    CharaCenterMark.Visibility = Visibility.Hidden;
+                }
+            }
+
+            await Task.Delay(20);
+            UpdatePosition();
+        }
+
+        private void ResetView()
+        {
+            var (centerX, centerY) = GetDefaultCoord(_player);
+            _player.SetScale(1f, 0, 0);
+            _player.SetCoord(centerX, centerY, 0, 0);
+        }
+
+        void MainWindow_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            if (_measureMode)
+            {
+                _player.SetScale(1f);
+            }
+            else
+            {
+                _player.OffsetScale(1 + ConvertDelta(e.Delta));
+            }
+        }
+
+        void MainWindow_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed || e.MiddleButton == MouseButtonState.Pressed) //&& e.GetPosition(MotionPanel).X < 0
+            {
+                if (!_isDragging)
+                {
+                    var ex = e.GetPosition(this);
+                    _lastX = ex.X;
+                    _lastY = ex.Y;
+                    _isDragging = true;
+                    _hasDragFrame = true;
+                    if (Mouse.Captured == null && sender is IInputElement input)
+                    {
+                        Mouse.Capture(input);
+                    }
+                }
+
+                return;
+            }
+            else
+            {
+                if (_isDragging)
+                {
+                    EndDrag();
+                }
+
+                var ex2 = e.GetPosition(this);
+                _lastX = ex2.X;
+                _lastY = ex2.Y;
+                if (!_measureMode)
+                {
+                    if (_mouseTrack)
+                    {
+                        _deltaX = (ex2.X - _midX) / _midX * 64;
+                        _deltaY = (ex2.Y - _midY) / _midY * 64;
+                        _hasPendingMouseTrack = true;
+                    }
+                }
+            }
+
+            _hasPendingPositionUpdate = true;
+        }
+
+        private void UpdatePosition()
+        {
+            var p = Mouse.GetPosition(this);
+            var (mx, my) = WindowWorldToCharacterWorld(p.X, p.Y);
+            _player.GetCoord(out float cx, out float cy);
+            var (wx, wy) = CharacterWorldToWindowWorld(cx, cy);
+            UpdateCharaMark(wx, wy);
+            Title = $"FreeMote Viewer by Ulysses - Center: {-cx:F2},{-cy:F2} Mouse: {mx:F2},{my:F2}";
+        }
+
+        private void UpdateCharaMark(double wx, double wy)
+        {
+            var width = CharaCenterMark.ActualWidth;
+            var height = CharaCenterMark.ActualHeight;
+            var margin = CharaCenterMark.Margin;
+            margin.Left = wx - width / 2.0;
+            margin.Top = wy - height / 2.0;
+            CharaCenterMark.Margin = margin;
+        }
+
+        private (float x, float y) ConvertToEmoteWorld(double x, double y)
+        {
+            var centerX = Width / 2.0;
+            var centerY = Height / 2.0;
+            float ex = (float) (x - centerX);
+            float ey = (float) (y - centerY);
+            var scale = _player.GetScale();
+            return (ex / scale, ey / scale);
+        }
+
+        private (float x, float y) WindowWorldToCharacterWorld(double x, double y)
+        {
+            var centerX = Width / 2.0;
+            var centerY = Height / 2.0;
+            float ex = (float) (x - centerX);
+            float ey = (float) (y - centerY);
+            var scale = _player.GetScale();
+            _player.GetCoord(out float cx, out float cy);
+            return (-(cx - ex / scale), -(cy - ey / scale));
+        }
+
+        private (double x, double y) CharacterWorldToWindowWorld(float x, float y)
+        {
+            _player.GetCoord(out float cx, out float cy);
+            float ex = x - cx;
+            float ey = y - cy;
+            var centerX = Width / 2.0;
+            var centerY = Height / 2.0;
+            var scale = _player.GetScale();
+            return (cx * scale + centerX + ex * scale, cy * scale + centerY + ey * scale);
+        }
+
+        private static float ConvertDelta(int delta)
+        {
+            return delta / 120.0f / 50.0f;
+        }
+
+        private void RenderImage(object sender, RoutedEventArgs e)
+        {
+            //get player character rectangle
+            var d3dImage = _di;
+            d3dImage.Lock();
+            d3dImage.AddDirtyRect(new Int32Rect(0, 0, d3dImage.PixelWidth, d3dImage.PixelHeight));
+            d3dImage.Unlock();
+            DrawingVisual drawingVisual = new DrawingVisual();
+            using (var drawingContext = drawingVisual.RenderOpen())
+            {
+                //drawingContext.DrawImage(d3dImage, new Rect(new Size(d3dImage.PixelWidth, d3dImage.PixelHeight)));
+                drawingContext.DrawImage(d3dImage, new Rect(new Size(d3dImage.PixelWidth, d3dImage.PixelHeight)));
+            }
+            //RenderTargetBitmap rtb = new RenderTargetBitmap(d3dImage.PixelWidth, d3dImage.PixelHeight, 96, 96, PixelFormats.Pbgra32);
+            RenderTargetBitmap rtb = new RenderTargetBitmap(d3dImage.PixelWidth, d3dImage.PixelHeight, 96, 96, PixelFormats.Pbgra32);
+            rtb.Render(drawingVisual);
+
+            try
+            {
+                var path = CreateScreenshotPath("FreeMote_screenshot_");
+                SavePng(rtb, path);
+                ShowStatus($"Screenshot saved: {path}");
+            }
+            catch (Exception ex)
+            {
+                ShowStatus($"Screenshot failed: {ex.Message}", true);
+            }
+        }
+
+        private void RenderAdvancedImage(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var rtb = RenderAdvancedFrame(_advancedScreenshotWidth, _advancedScreenshotHeight);
+                var path = CreateScreenshotPath("FreeMote_image_");
+                SavePng(rtb, path);
+                ShowStatus($"Screenshot saved: {path}");
+            }
+            catch (Exception ex)
+            {
+                ShowStatus($"Screenshot failed: {ex.Message}", true);
+            }
+        }
+
+        private string CreateScreenshotPath(string prefix)
+        {
+            var timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            var path = Path.Combine(Environment.CurrentDirectory, $"{prefix}{timestamp}.png");
+            if (!File.Exists(path))
+            {
+                return path;
+            }
+
+            for (var i = 1; i < 1000; i++)
+            {
+                path = Path.Combine(Environment.CurrentDirectory, $"{prefix}{timestamp}_{i:000}.png");
+                if (!File.Exists(path))
+                {
+                    return path;
+                }
+            }
+
+            return Path.Combine(Environment.CurrentDirectory, $"{prefix}{timestamp}_{Guid.NewGuid():N}.png");
+        }
+
+        private BitmapSource RenderAdvancedFrame(int width, int height)
+        {
+            var wasRendering = _renderingScene;
+            if (wasRendering)
+            {
+                PauseRenderingScene();
+            }
+
+            _player.GetCoord(out var originalX, out var originalY);
+            var originalScale = _player.GetScale();
+            try
+            {
+                var (centerX, centerY) = GetCenteredCoord(_player);
+                _player.SetCoord(centerX, centerY, 0, 0);
+                _player.SetScale(_keepScreenshotScale100 ? 1f : originalScale, 0, 0);
+                _emote.Update(0);
+
+                var pixels = _emote.RenderToBuffer(width, height);
+                var bitmap = BitmapSource.Create(width, height, 96, 96, PixelFormats.Bgra32, null, pixels, width * 4);
+                bitmap.Freeze();
+                return bitmap;
+            }
+            finally
+            {
+                _player.SetCoord(originalX, originalY, 0, 0);
+                _player.SetScale(originalScale, 0, 0);
+                _emote.Update(0);
+
+                if (wasRendering)
+                {
+                    BeginRenderingScene();
+                }
+            }
+        }
+
+        private void SavePng(BitmapSource bitmap, string path)
+        {
+            var png = new PngBitmapEncoder();
+            png.Frames.Add(BitmapFrame.Create(bitmap));
+
+            using (var stream = new FileStream(path, FileMode.Create))
+            {
+                png.Save(stream);
+            }
+        }
+
+        private EmotePlayer CreateEmotePlayer(Emote emote, string singleName)
+        {
+            if (_psbPaths.Count > 1)
+            {
+                return emote.CreatePlayer("Combined" + singleName, _psbPaths.ToArray());
+            }
+
+            return emote.CreatePlayer(singleName, _psbPaths.FirstOrDefault());
+        }
+
+        private (float centerX, float centerY) GetCenteredCoord(EmotePlayer player)
+        {
+            var centerX = 0f;
+            var centerY = 0f;
+            if (_centerPointMode == "0")
+            {
+                return (centerX, centerY);
+            }
+
+            var profileAvailable = player.IsCharaProfileAvailable();
+            if (profileAvailable)
+            {
+                var boundsTop = player.GetCharaProfile("boundsTop");
+                var boundsBottom = player.GetCharaProfile("boundsBottom");
+                var boundsLeft = player.GetCharaProfile("boundsLeft");
+                var boundsRight = player.GetCharaProfile("boundsRight");
+                if (boundsTop != 0 && boundsBottom != 0 && boundsLeft != 0 && boundsRight != 0)
+                {
+                    centerX = -(boundsLeft + boundsRight) / 2;
+                    centerY = -(boundsTop + boundsBottom) / 2;
+                }
+
+                if (_centerPointMode == "bust" || _centerPointMode == "eye" || _centerPointMode == "mouth")
+                {
+                    centerY = -player.GetCharaProfile(_centerPointMode); //FIXED: should inverse
+                }
+            }
+
+            return (centerX, centerY);
+        }
+
+        private void OnIsFrontBufferAvailableChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            // if the front buffer is available, then WPF has just created a new
+            // D3D device, so we need to start rendering our custom scene
+            if (_di.IsFrontBufferAvailable)
+            {
+                BeginRenderingScene();
+            }
+            else
+            {
+                // If the front buffer is no longer available, then WPF has lost its
+                // D3D device so there is no reason to waste cycles rendering our
+                // custom scene until a new device is created.
+                StopRenderingScene();
+            }
+        }
+
+        private void BeginRenderingScene()
+        {
+            if (_di.IsFrontBufferAvailable && !_renderingScene)
+            {
+                // create a custom D3D scene and get a pointer to its surface
+                _scene = _emote.D3DSurface;
+
+                // set the back buffer using the new scene pointer
+                _di.Lock();
+                _di.SetBackBuffer(D3DResourceType.IDirect3DSurface9, _scene);
+                _di.Unlock();
+
+                _timer = new PreciseTimer();
+                // leverage the Rendering event of WPF's composition target to
+                // update the custom D3D scene
+                CompositionTarget.Rendering += OnRendering;
+                _renderingScene = true;
+            }
+        }
+
+        private void PauseRenderingScene()
+        {
+            if (!_renderingScene)
+            {
+                return;
+            }
+
+            CompositionTarget.Rendering -= OnRendering;
+            _renderingScene = false;
+        }
+
+        private void StopRenderingScene()
+        {
+            // This method is called when WPF loses its D3D device.
+            // In such a circumstance, it is very likely that we have lost 
+            // our custom D3D device also, so we should just release the scene.
+            // We will create a new scene when a D3D device becomes 
+            // available again.
+            PauseRenderingScene();
+            _scene = IntPtr.Zero;
+
+            _emote.OnDeviceLost();
+            while (_emote.D3DTestCooperativeLevel() == (uint) D3DResult.DEVICE_LOST)
+            {
+                Thread.Sleep(5);
+            }
+
+            if (_emote.D3DTestCooperativeLevel() == (uint) D3DResult.DEVICE_NOTRESET)
+            {
+                _emote.D3DReset();
+                _emote.OnDeviceReset();
+                //_emote.D3DInitRenderState();
+                //var hr = _emote.D3DTestCooperativeLevel();
+            }
+            else
+            {
+                Debug.WriteLine("{0:x8}", _emote.D3DTestCooperativeLevel());
+            }
+        }
+
+        private void OnRendering(object sender, EventArgs e)
+        {
+            _elapsedTime += _timer.GetElaspedTime() * 1000;
+
+            if (_elapsedTime < RefreshRate)
+            {
+                return;
+            }
+
+            // when WPF's composition target is about to render, we update our 
+            // custom render target so that it can be blended with the WPF target
+            UpdateScene(_elapsedTime);
+
+            _elapsedTime = 0;
+        }
+
+        private void UpdateScene(double elasped)
+        {
+            if (_di.IsFrontBufferAvailable && _scene != IntPtr.Zero)
+            {
+                ApplyPendingDrag();
+                ApplyPendingMouseTrack();
+                _emote.Update(_playing ? (float) (elasped * _playbackSpeed) : 0);
+                // lock the D3DImage
+                _di.Lock();
+                // update the scene (via a call into our custom library)
+                _emote.D3DBeginScene();
+                _emote.Draw();
+                _emote.D3DEndScene();
+                // invalidate the updated region of the D3DImage (in this case, the whole image)
+                _di.AddDirtyRect(new Int32Rect(0, 0, _di.PixelWidth, _di.PixelHeight));
+                // unlock the D3DImage
+                _di.Unlock();
+                ApplyPendingPositionUpdate();
+            }
+        }
+
+        private void ApplyPendingDrag()
+        {
+            if (!_isDragging)
+            {
+                return;
+            }
+
+            if (Mouse.LeftButton != MouseButtonState.Pressed && Mouse.MiddleButton != MouseButtonState.Pressed)
+            {
+                EndDrag();
+                return;
+            }
+
+            var p = Mouse.GetPosition(this);
+            if (!_hasDragFrame)
+            {
+                _lastX = p.X;
+                _lastY = p.Y;
+                _hasDragFrame = true;
+                return;
+            }
+
+            var offsetX = p.X - _lastX;
+            var offsetY = p.Y - _lastY;
+            if (offsetX == 0 && offsetY == 0)
+            {
+                return;
+            }
+
+            _lastX = p.X;
+            _lastY = p.Y;
+            _player.GetCoord(out var x, out var y);
+            _player.SetCoord(x + (float)offsetX, y + (float)offsetY, 0, 0);
+            _hasPendingPositionUpdate = true;
+        }
+
+        private void EndDrag()
+        {
+            _isDragging = false;
+            _hasDragFrame = false;
+            if (Mouse.Captured != null)
+            {
+                Mouse.Capture(null);
+            }
+        }
+
+        private void ApplyPendingMouseTrack()
+        {
+            if (!_hasPendingMouseTrack)
+            {
+                return;
+            }
+
+            _hasPendingMouseTrack = false;
+            float frameCount = 0f;
+            float easing = 0f;
+            _player.SetVariable("head_UD", (float)_deltaY, frameCount, easing);
+            _player.SetVariable("head_LR", (float)_deltaX, frameCount, easing);
+            _player.SetVariable("body_UD", (float)_deltaY, frameCount, easing);
+            _player.SetVariable("body_LR", (float)_deltaX, frameCount, easing);
+            _player.SetVariable("face_eye_UD", (float)_deltaY, frameCount, easing);
+            _player.SetVariable("face_eye_LR", (float)_deltaX, frameCount, easing);
+        }
+
+        private void ApplyPendingPositionUpdate()
+        {
+            if (!_hasPendingPositionUpdate)
+            {
+                return;
+            }
+
+            _hasPendingPositionUpdate = false;
+            UpdatePosition();
+        }
+
+        protected override void OnDrop(DragEventArgs e)
+        {
+            base.OnDrop(e);
+        }
+
+        private void GetTimelines(object sender, RoutedEventArgs e)
+        {
+            if (MotionPanel.Children.Count > 0)
+            {
+                if (MotionPanel.Visibility == Visibility.Visible)
+                {
+                    MotionPanel.Visibility = Visibility.Collapsed;
+                    ScrollMotion.IsHitTestVisible = false;
+                }
+                else
+                {
+                    MotionPanel.Visibility = Visibility.Visible;
+                    ScrollMotion.IsHitTestVisible = true;
+                }
+
+                return;
+            }
+
+            var count = _player.CountMainTimelines();
+            for (uint i = 0; i < count; i++)
+            {
+                //Debug.WriteLine(_player.GetDiffTimelineLabelAt(i));
+                Button btn = new Button
+                {
+                    //Name = _player.GetDiffTimelineLabelAt(i),
+                    Content = _player.GetMainTimelineLabelAt(i),
+                    Width = 185,
+                    Tag = "main",
+                    Margin = new Thickness(0, 0, 5, 5),
+                    Background = Brushes.Transparent,
+                    Foreground = Brushes.DarkOrange,
+                    FontWeight = FontWeights.Bold
+                };
+                btn.Click += PlayTimeline;
+                MotionPanel.Children.Add(btn);
+            }
+
+            if (count > 0)
+            {
+                MotionPanel.Children.Add(new Separator());
+            }
+
+            count = _player.CountDiffTimelines();
+            for (uint i = 0; i < count; i++)
+            {
+                //Debug.WriteLine(_player.GetDiffTimelineLabelAt(i));
+                Button btn = new Button
+                {
+                    //Name = _player.GetDiffTimelineLabelAt(i),
+                    Content = _player.GetDiffTimelineLabelAt(i),
+                    Width = 185,
+                    Tag = "diff",
+                    Margin = new Thickness(0, 0, 5, 5),
+                    Background = Brushes.Transparent,
+                    Foreground = Brushes.DarkOrange,
+                    FontWeight = FontWeights.Bold
+                };
+                btn.Click += PlayTimeline;
+                MotionPanel.Children.Add(btn);
+            }
+
+            if (MotionPanel.Children.Count > 0)
+            {
+                MotionPanel.Visibility = Visibility.Visible;
+                ScrollMotion.IsHitTestVisible = true;
+            }
+        }
+
+        private void PlayTimeline(object sender, RoutedEventArgs e)
+        {
+            _player.PlayTimeline(((Button) sender).Content.ToString(),
+                ((Button) sender).Tag.ToString() == "diff"
+                    ? TimelinePlayFlags.TIMELINE_PLAY_DIFFERENCE
+                    : TimelinePlayFlags.NONE);
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (Core.NeedRemoveTempFile)
+            {
+                foreach (var psbPath in _psbPaths)
+                {
+                    File.Delete(psbPath);
+                }
+
+                Core.NeedRemoveTempFile = false;
+            }
+        }
+
+        private async void Window_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            if (_sizeChangeCancellation != null)
+            {
+                _sizeChangeCancellation.Cancel(false);
+            }
+            else
+            {
+                _sizeChangeCancellation = new CancellationTokenSource();
+                return;
+            }
+
+            // Create a new token source for the new size change event.
+            _sizeChangeCancellation = new CancellationTokenSource();
+
+            // Wait 500ms, and check if there are other size changes in progress.
+            // If there aren't any, then the size change is finished.
+            try
+            {
+                await Task.Delay(500, _sizeChangeCancellation.Token);
+            }
+            catch (TaskCanceledException)
+            {
+                return;
+            }
+
+            if (!_sizeChangeCancellation.IsCancellationRequested)
+            {
+                this.Dispatcher.Invoke(() =>
+                {
+                    _player.GetCoord(out var x, out var y);
+                    var scale = _player.GetScale();
+                    //CreatePlayer(e.NewSize.Width, e.NewSize.Height, scale, x, y);
+                    //calculate new width and height, keep ratio of NewSize, and no less than 1920x1080
+                    var ratio = e.NewSize.Width / e.NewSize.Height;
+                    var width = e.NewSize.Width;
+                    var height = e.NewSize.Height;
+                    if (ratio > 1)
+                    { 
+                        width = Math.Max(1920, width);
+                        height = width / ratio;
+                    }
+                    else
+                    {
+                        height = Math.Max(1080, height);
+                        width = height * ratio;
+                    }
+                    
+                    CreatePlayer(width, height, scale, x, y);
+                });
+            }
+
+        }
+
+        private void Stop(object sender, RoutedEventArgs e)
+        {
+            _player.StopTimeline("");
+            _player.Skip();
+            _player.SetVariable("fade_z", 256);
+        }
+
+        private void ScrollViewer_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            e.Handled = true;
+            MainWindow_MouseWheel(sender, e);
+        }
+
+        private void Clear(object sender, RoutedEventArgs e)
+        {
+            for (uint i = 0; i < _player.CountVariables(); i++)
+            {
+                _player.SetVariable(_player.GetVariableLabelAt(i), 0);
+            }
+
+            _player.SetVariable("fade_z", 256);
+        }
+
+        private void PlayOrPause(object sender, RoutedEventArgs e)
+        {
+            _playing = !_playing;
+            BtnPlayPause.Content = _playing ? "⏸" : "▶";
+        }
+
+        private void ResetScale(object sender, RoutedEventArgs e)
+        {
+            _player.SetScale(1);
+        }
+
+        private void OpenSettings(object sender, RoutedEventArgs e)
+        {
+            var originalPlaybackSpeed = _playbackSpeed;
+            var settingsWindow = new SettingsWindow(_playbackSpeed, _advancedScreenshotWidth, _advancedScreenshotHeight, _keepScreenshotScale100, _centerPointMode)
+            {
+                Owner = this
+            };
+            settingsWindow.PlaybackSpeedPreviewChanged += speed => _playbackSpeed = speed;
+
+            if (settingsWindow.ShowDialog() == true)
+            {
+                _playbackSpeed = settingsWindow.PlaybackSpeed;
+                _advancedScreenshotWidth = settingsWindow.ScreenshotWidth;
+                _advancedScreenshotHeight = settingsWindow.ScreenshotHeight;
+                _keepScreenshotScale100 = settingsWindow.KeepScreenshotScale100;
+                _centerPointMode = settingsWindow.CenterPointMode;
+                SaveViewerSettings();
+            }
+            else
+            {
+                _playbackSpeed = originalPlaybackSpeed;
+            }
+        }
+
+        private void LoadViewerSettings()
+        {
+            var settings = Properties.Settings.Default;
+            _playbackSpeed = Clamp(settings.PlaybackSpeed, 0.05, 3.0);
+            _advancedScreenshotWidth = Clamp(settings.ScreenshotWidth, MinScreenshotSize, MaxScreenshotSize);
+            _advancedScreenshotHeight = Clamp(settings.ScreenshotHeight, MinScreenshotSize, MaxScreenshotSize);
+            _keepScreenshotScale100 = settings.KeepScreenshotScale100;
+            _centerPointMode = NormalizeCenterPointMode(settings.ScreenshotCenterPointMode);
+        }
+
+        private void SaveViewerSettings()
+        {
+            var settings = Properties.Settings.Default;
+            settings.PlaybackSpeed = _playbackSpeed;
+            settings.ScreenshotWidth = _advancedScreenshotWidth;
+            settings.ScreenshotHeight = _advancedScreenshotHeight;
+            settings.KeepScreenshotScale100 = _keepScreenshotScale100;
+            settings.ScreenshotCenterPointMode = _centerPointMode;
+            settings.Save();
+            ShowStatus("Settings saved.");
+        }
+
+        private void ShowStatus(string message, bool isError = false)
+        {
+            StatusText.Text = message;
+            StatusText.Foreground = isError ? Brushes.OrangeRed : Brushes.Aquamarine;
+            StatusToast.BorderBrush = isError ? Brushes.OrangeRed : Brushes.Aquamarine;
+            StatusToast.Visibility = Visibility.Visible;
+
+            if (_statusTimer == null)
+            {
+                _statusTimer = new DispatcherTimer
+                {
+                    Interval = TimeSpan.FromSeconds(3)
+                };
+                _statusTimer.Tick += (s, args) =>
+                {
+                    _statusTimer.Stop();
+                    StatusToast.Visibility = Visibility.Collapsed;
+                };
+            }
+
+            _statusTimer.Stop();
+            _statusTimer.Start();
+        }
+
+        private static double Clamp(double value, double min, double max)
+        {
+            if (value < min)
+            {
+                return min;
+            }
+
+            if (value > max)
+            {
+                return max;
+            }
+
+            return value;
+        }
+
+        private static int Clamp(int value, int min, int max)
+        {
+            if (value < min)
+            {
+                return min;
+            }
+
+            if (value > max)
+            {
+                return max;
+            }
+
+            return value;
+        }
+
+        private static string NormalizeCenterPointMode(string mode)
+        {
+            switch ((mode ?? string.Empty).Trim().ToLowerInvariant())
+            {
+                case "bust":
+                case "eye":
+                case "mouth":
+                case "0":
+                    return mode.Trim().ToLowerInvariant();
+                default:
+                    return "default";
+            }
+        }
+    }
+}

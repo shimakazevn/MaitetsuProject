@@ -1,0 +1,46 @@
+name: beta
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Restore NuGet packages
+      run: nuget restore FreeMote.sln
+
+    - name: Build solution
+      run: dotnet build -c Release FreeMote.sln
+
+    - name: Run post-build script
+      shell: pwsh
+      run: |
+        cd $env:GITHUB_WORKSPACE
+        mkdir FreeMoteToolkit -Force
+        Copy-Item FreeMote.Tools.EmtConvert/bin/Release/net48/* FreeMoteToolkit -Recurse -Force
+        Copy-Item FreeMote.Tools.PsbDecompile/bin/Release/net48/* FreeMoteToolkit -Recurse -Force
+        Copy-Item FreeMote.Tools.PsBuild/bin/Release/net48/* FreeMoteToolkit -Recurse -Force
+        Copy-Item FreeMote.Tools.EmtMake/bin/Release/net48/* FreeMoteToolkit -Recurse -Force
+        Copy-Item FreeMote.Tools.Viewer/bin/Release/net48/* FreeMoteToolkit -Recurse -Force
+        del FreeMoteToolkit\*.pdb
+        del FreeMoteToolkit\*.xml
+        mkdir FreeMoteToolkit\lib -Force
+        Move-Item FreeMoteToolkit/*.dll FreeMoteToolkit/lib
+        Move-Item FreeMoteToolkit/x86 FreeMoteToolkit/lib/
+        Move-Item FreeMoteToolkit/x64 FreeMoteToolkit/lib/
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: FreeMote-${{ github.workflow }}-${{ github.run_number }}
+        path: FreeMoteToolkit

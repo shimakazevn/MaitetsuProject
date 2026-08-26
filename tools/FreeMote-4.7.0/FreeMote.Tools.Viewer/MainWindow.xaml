@@ -1,0 +1,49 @@
+﻿<Window x:Class="FreeMote.Tools.Viewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FreeMote Viewer by Ulysses"
+        Width="1280"
+        Height="720"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        Closing="Window_Closing" SizeChanged="Window_SizeChanged"
+>
+    <!-- Background="{StaticResource NekoHacksScene}" -->
+    <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" PanningMode="None" Grid.ColumnSpan="2" Grid.RowSpan="2" PreviewMouseWheel="ScrollViewer_PreviewMouseWheel">
+            <Rectangle MouseMove="MainWindow_MouseMove" Fill="{StaticResource NekoHacksScene}" />
+        </ScrollViewer>
+        <Label Name="CenterMark" Content="+" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="Gold" />
+        <TextBlock Name="CharaCenterMark"  HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Foreground="Red" Margin="0" Width="25" Height="28" Text="+" TextAlignment="Center"  />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="420"/>
+                <ColumnDefinition Width="25"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="2,2,0,0" Foreground="Silver" Opacity="0.5" FontSize="11" Tag="You are not allowed to remove this line according to License (BY)">Powered by FreeMote</TextBlock>
+            <StackPanel Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal" Margin="5,0,0,0">
+                <Button x:Name="BtnPlayPause" Width="30" HorizontalAlignment="Right" Content="⏯" ToolTip="Play/Pause" Margin="0,5,5,5" Background="Transparent" Foreground="Aquamarine" BorderThickness="3" BorderBrush="Aquamarine" Click="PlayOrPause"></Button>
+                <Button Width="30" HorizontalAlignment="Right" Content="📷" ToolTip="Quick ScreenShot" Margin="0,5,5,5" Background="Transparent" Foreground="Aquamarine" BorderThickness="3" BorderBrush="Aquamarine" Click="RenderImage"></Button>
+                <Button Width="30" HorizontalAlignment="Right" Content="🖼" ToolTip="Advanced ScreenShot" Margin="0,5,5,5" Background="Transparent" Foreground="Aquamarine" BorderThickness="3" BorderBrush="Aquamarine" Click="RenderAdvancedImage"></Button>
+                <Button Width="30" HorizontalAlignment="Right" Content="⚙" ToolTip="Settings" Margin="0,5,5,5" Background="Transparent" Foreground="Aquamarine" BorderThickness="3" BorderBrush="Aquamarine" Click="OpenSettings"></Button>
+                <Button Width="30" HorizontalAlignment="Right" Content="🔍" ToolTip="Reset Scale" Margin="0,5,5,5" Background="Transparent" Foreground="Aquamarine" BorderThickness="3" BorderBrush="Aquamarine" Click="ResetScale"></Button>
+                <Button Width="60" HorizontalAlignment="Right" Content="Motion" Margin="0,5,5,5" Background="Transparent" Foreground="Aquamarine" BorderThickness="3" BorderBrush="Aquamarine" Click="GetTimelines"></Button>
+                <Button Width="60" HorizontalAlignment="Right" Content="Stop" Margin="0,5,5,5" Background="Transparent" Foreground="Aquamarine" BorderThickness="3" BorderBrush="Aquamarine" Click="Stop"></Button>
+                <Button Width="60" HorizontalAlignment="Right" Content="Clear" Margin="0,5,0,5" Background="Transparent" Foreground="Aquamarine" BorderThickness="3" BorderBrush="Aquamarine" Click="Clear"></Button>
+            </StackPanel>
+            <ScrollViewer x:Name="ScrollMotion" VerticalScrollBarVisibility="Auto" Grid.Column="1"  Grid.Row="1" IsHitTestVisible="False">
+                <StackPanel Name="MotionPanel" HorizontalAlignment="Right" Orientation="Vertical">
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <Border x:Name="StatusToast" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="12,0,12,10" Padding="12,6" Background="#CC202020" BorderBrush="Aquamarine" BorderThickness="1" Visibility="Collapsed">
+            <TextBlock x:Name="StatusText" Foreground="Aquamarine" FontSize="12" TextTrimming="CharacterEllipsis"/>
+        </Border>
+    </Grid>
+
+</Window>
