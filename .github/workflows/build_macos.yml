@@ -1,0 +1,71 @@
+name: Build macOS App (Maitetsu Viet Hoa Launcher)
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  build-macos:
+    runs-on: macos-14
+    steps:
+      - name: Checkout Maitetsu Project
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout KrKr2-Next Engine Repo (Our Fork with iOS Patches)
+        uses: actions/checkout@v4
+        with:
+          repository: 'shimakazevn/KrKr2-Next'
+          ref: 'main'
+          path: 'krkr2_next'
+          fetch-depth: 1
+
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Cache vcpkg & macOS Dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            krkr2_next/out/macos/release/vcpkg_installed
+            krkr2_next/.devtools/vcpkg
+            ~/.cache/vcpkg/archives
+            ~/Library/Caches/vcpkg/archives
+          key: vcpkg-macos-${{ runner.os }}-${{ hashFiles('krkr2_next/vcpkg.json') }}
+          restore-keys: |
+            vcpkg-macos-${{ runner.os }}-
+          save-always: true
+
+      - name: Install Build Dependencies
+        run: |
+          brew install cmake ninja autoconf automake autoconf-archive libtool bison
+          echo "$(brew --prefix bison)/bin" >> $GITHUB_PATH
+
+      - name: Disable Live2D Cubism Framework to use krkrlive2d_stub
+        run: |
+          echo "Removing Cubism Framework to build with stub for Maitetsu..."
+          rm -rf krkr2_next/cpp/plugins/cubism/Framework
+
+      - name: Build C++ Native Engine & Flutter macOS App (.app unsigned)
+        run: |
+          cd krkr2_next
+          chmod +x build.sh build/*.sh
+          ./build.sh macos release
+
+      - name: Package .app into .zip Archive
+        run: |
+          cd krkr2_next/apps/flutter_app/build/macos/Build/Products/Release
+          zip -r -y "$GITHUB_WORKSPACE/KrKr2Next_MacOS.zip" *.app
+          echo "Archive created at KrKr2Next_MacOS.zip"
+
+      - name: Upload macOS App Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: KrKr2Next_MacOS.zip
+          path: KrKr2Next_MacOS.zip
+          retention-days: 14
