@@ -1,0 +1,192 @@
+[
+ {
+  "key": 1660,
+  "speaker": "稀咲",
+  "jp": "「『そんなことをしたら、市が完全に割れてしまう』」",
+  "tw": "「“真那樣做的話，御一夜市就要完全分裂了”」",
+  "old_vn": "『Làm thế thì thành phố sẽ hoàn toàn bị chia rẽ mất.』",
+  "kind": "punctuation",
+  "fix": "「『Làm thế thì thành phố sẽ hoàn toàn bị chia rẽ mất.』」",
+  "note": "JP is 「『…』」 (dialogue containing a quote); VN drops the outer 「」 and keeps only 『』. Fix restores the outer quotes. The only 「『…』」 line in either file."
+ },
+ {
+  "key": 1699,
+  "speaker": "ハチロク",
+  "jp": "「……持株会社への参加を促す――そのためにも、\\n説得力のある資料が必要となるのですね？」",
+  "tw": "「……讓別人參加控股公司——想要達成這個目標，也同樣需要拿出具有說服力的資料吧？」",
+  "old_vn": "「……Thúc đẩy việc tham gia công ty cổ phần——Để làm được điều đó, cũng cần phải có những tài liệu mang tính thuyết phục đúng không ạ?」",
+  "kind": "terminology",
+  "fix": "「……Thúc đẩy việc tham gia công ty holding——Để làm được điều đó, cũng cần phải có những tài liệu mang tính thuyết phục đúng không ạ?」",
+  "note": "Same as 2258: 持株会社 → 'công ty holding'."
+ },
+ {
+  "key": 2016,
+  "speaker": "双鉄",
+  "jp": "「術仙炭鉱廃駅に降ろして欲しいとの希望だが――\\nまず、その理由を教えて欲しい」",
+  "tw": "「你是要我們帶你到術仙煤礦廢車站去——能先告訴我們理由嗎」",
+  "old_vn": "「Cô muốn chúng tôi đưa đến ga bỏ hoang của mỏ than Jutsusen—— Nhưng trước tiên, tôi muốn biết lý do.」",
+  "kind": "terminology",
+  "fix": "「Cô muốn chúng tôi đưa đến ga bỏ hoang của mỏ than Jutsu-sen—— Nhưng trước tiên, tôi muốn biết lý do.」",
+  "note": "術仙炭鉱 spelled 'Jutsusen'; standardised to 'Jutsu-sen' per the 廃炭鉱 audit (munakata itself uses 'Jutsu-sen' at 1525/2092/2191). Minor consistency."
+ },
+ {
+  "key": 2098,
+  "speaker": "双鉄",
+  "jp": "「ふむ、術仙炭鉱廃駅どまりか」",
+  "tw": "「唔，到術仙煤礦廢車站啊」",
+  "old_vn": "「Hừm, chỉ đến ga bỏ hoang mỏ than Jutsusen thôi sao.」",
+  "kind": "terminology",
+  "fix": "「Hừm, chỉ đến ga bỏ hoang mỏ than Jutsu-sen thôi sao.」",
+  "note": "Same as 2016: 'Jutsusen' → 'Jutsu-sen'."
+ },
+ {
+  "key": 2103,
+  "speaker": "ポーレット",
+  "jp": "「っ！」",
+  "tw": "「啊！」",
+  "old_vn": "「!」",
+  "kind": "punctuation",
+  "fix": "「Ư!」",
+  "note": "JP 「っ！」 (sharp gasp) rendered as bare '「!」' — the っ is lost. Fix: '「Ư!」'. Same error as 2537."
+ },
+ {
+  "key": 2225,
+  "speaker": "ハチロク",
+  "jp": "「いかがでしょう？　専用乗車券、\\n特別無料ご招待ですよ？」",
+  "tw": "「您意下如何？專用車票，特別免費贈送哦」",
+  "old_vn": "「Ngài thấy sao ạ? Vé chuyên cơ, đặc biệt dành tặng miễn phí cho ngài đấy nhé?」",
+  "kind": "meaning",
+  "fix": "「Ngài thấy sao ạ? Vé chuyên dụng, đặc biệt dành tặng miễn phí cho ngài đấy nhé?」",
+  "note": "専用乗車券 (dedicated boarding ticket) rendered 'Vé chuyên cơ' — 'chuyên cơ' means a special/chartered aircraft, wrong for a train ticket. Fix: 'Vé chuyên dụng'."
+ },
+ {
+  "key": 2258,
+  "speaker": "稀咲",
+  "jp": "「そのための持株会社設立案だ。もちろん、\\n支店レベルで、低利での貸付けも行わせてもらいたい」",
+  "tw": "「所以才提出要成立控股公司。當然，能在支行層面拿到低利率的貸款就更好了」",
+  "old_vn": "「Đó là lý do tôi đề xuất thành lập công ty cổ phần. Tất nhiên, tôi cũng muốn chi nhánh có thể cho vay với lãi suất thấp.」",
+  "kind": "terminology",
+  "fix": "「Đó là lý do tôi đề xuất thành lập công ty holding. Tất nhiên, tôi cũng muốn chi nhánh có thể cho vay với lãi suất thấp.」",
+  "note": "持株会社 (holding company) rendered 'công ty cổ phần' (joint-stock company) — a different concept; TW 控股公司 confirms holding company. Fix: 'công ty holding'."
+ },
+ {
+  "key": 2280,
+  "speaker": "ハチロク",
+  "jp": "「だとすると――当面の試験区間は、\\n術仙炭鉱廃駅までの往復とすることとなりますか？」",
+  "tw": "「既然這樣，目前需要進行測試的路段，就是到術仙煤礦廢車站的往返路程了吧？」",
+  "old_vn": "「Nếu vậy thì——đoạn đường chạy thử trước mắt, sẽ là chặng khứ hồi đến ga bỏ hoang mỏ than Jutsusen đúng không ạ?」",
+  "kind": "terminology",
+  "fix": "「Nếu vậy thì——đoạn đường chạy thử trước mắt, sẽ là chặng khứ hồi đến ga bỏ hoang mỏ than Jutsu-sen đúng không ạ?」",
+  "note": "Same as 2016: 'Jutsusen' → 'Jutsu-sen'."
+ },
+ {
+  "key": 2381,
+  "speaker": "双鉄",
+  "jp": "「鉄道他社との持株会社を設立すること――\\n資金面でも、信用面でも、それが必須となるわけか」",
+  "tw": "「與其他鐵路公司聯合成立控股公司……看來不管是從資金角度還是信任角度，都別無選擇了啊」",
+  "old_vn": "「Thành lập công ty cổ phần cùng các công ty đường sắt khác—— Cả về mặt vốn lẫn uy tín, đó là điều bắt buộc phải không.」",
+  "kind": "terminology",
+  "fix": "「Thành lập công ty holding cùng các công ty đường sắt khác—— Cả về mặt vốn lẫn uy tín, đó là điều bắt buộc phải không.」",
+  "note": "Same as 2258: 持株会社 → 'công ty holding'."
+ },
+ {
+  "key": 2500,
+  "speaker": "ポーレット",
+  "jp": "「だったら、術仙炭鉱駅停車時の各部点検が終わったら、\\n駅舎の調査をしてもらえませんか？」",
+  "tw": "「那索性，在術仙煤礦廢車站停車完成各個部位的清查之後，調查一下車站的情況怎麼樣？」",
+  "old_vn": "「Nếu vậy, sau khi dừng tàu tại ga mỏ than Jutsusen và kiểm tra xong các bộ phận, mọi người có thể khảo sát luôn nhà ga được không?」",
+  "kind": "terminology",
+  "fix": "「Nếu vậy, sau khi dừng tàu tại ga mỏ than Jutsu-sen và kiểm tra xong các bộ phận, mọi người có thể khảo sát luôn nhà ga được không?」",
+  "note": "Same as 2016: 'Jutsusen' → 'Jutsu-sen'."
+ },
+ {
+  "key": 2508,
+  "speaker": "ハチロク",
+  "jp": "「術仙炭鉱廃駅どまりだと、[ゆのい,1]湯医まで行っての折り返しと、\\n後進で御一夜まで戻るのと……いずれがよろしいかと」",
+  "tw": "「開到術仙煤礦廢車站之後，是索性開到湯醫後折返，還是倒車返回御一夜……哪種方法更合適」",
+  "old_vn": "「Nếu chỉ đến ga bỏ hoang mỏ than Jutsusen, thì nên chạy tiếp đến Yui rồi vòng lại, hay là chạy lùi về Ohitoyo…… cách nào sẽ tốt hơn ạ.」",
+  "kind": "terminology",
+  "fix": "「Nếu chỉ đến ga bỏ hoang mỏ than Jutsu-sen, thì nên chạy tiếp đến Yui rồi vòng lại, hay là chạy lùi về Ohitoyo…… cách nào sẽ tốt hơn ạ.」",
+  "note": "Same as 2016: 'Jutsusen' → 'Jutsu-sen'. (湯医 here is 'Yui' — pending project decision, left as-is.)"
+ },
+ {
+  "key": 2515,
+  "speaker": "双鉄",
+  "jp": "「かつて、術仙炭鉱が栄えていた――\\nということの現れなのであろうがな」",
+  "tw": "「雖然這也是體現了術仙煤礦曾經的繁榮吧」",
+  "old_vn": "「Có lẽ đây là minh chứng cho việc—— mỏ than Jutsusen từng một thời hưng thịnh.」",
+  "kind": "terminology",
+  "fix": "「Có lẽ đây là minh chứng cho việc—— mỏ than Jutsu-sen từng một thời hưng thịnh.」",
+  "note": "Same as 2016: 'Jutsusen' → 'Jutsu-sen'."
+ },
+ {
+  "key": 2537,
+  "speaker": "双鉄",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "kind": "punctuation",
+  "fix": "「Ư!」",
+  "note": "JP 「っ！」 rendered as bare '「!」' — the っ is lost. Fix: '「Ư!」'. Same error as 2103."
+ },
+ {
+  "key": 3021,
+  "speaker": "monologue",
+  "jp": "\\x%l整備体;#00ffc040;整備体%l;#;になりキャブを降りたかと思えばすぐに、\\nハチロクはひとり、廃駅舎へと入ってしまう。",
+  "tw": "換成\\x%l整備体;#00ffc040;整備體%l;#;從駕駛室下來之後，八六又馬上一個人走進了廢車站。",
+  "old_vn": "Vừa mới chuyển sang \\x%l整備体;#00ffc040;thân chính%l;#; và bước xuống buồng lái, Hachiroku lại một mình đi vào nhà ga bỏ hoang.",
+  "kind": "terminology",
+  "fix": "Vừa mới chuyển sang \\x%l整備体;#00ffc040;thân bảo trì%l;#; và bước xuống buồng lái, Hachiroku lại một mình đi vào nhà ga bỏ hoang.",
+  "note": "Same as 3195: 整備体 → 'thân bảo trì', not 'thân chính'."
+ },
+ {
+  "key": 3054,
+  "speaker": "monologue",
+  "jp": "木と漆喰と、鉄の駅。\\nまさに昔の――\\x%l大詔;#00ffc040;大詔%l;#;時代の鉄道駅のイメージだ。",
+  "tw": "木鐵混合的結構配以灰泥，活生生一幅當年——大正時期鐵路車站的樣子。",
+  "old_vn": "Một nhà ga bằng gỗ, thạch cao và sắt. Đúng chuẩn hình ảnh nhà ga đường sắt thời xưa——thời \\x%l大詔;#00ffc040;Đại Chiếu%l;#;.",
+  "kind": "terminology",
+  "fix": "Một nhà ga bằng gỗ, thạch cao và sắt. Đúng chuẩn hình ảnh nhà ga đường sắt thời xưa——thời \\x%l大詔;#00ffc040;Taisho%l;#;.",
+  "note": "大詔 is the fictional-era spelling of 大正 (Taishō); TW confirms 大正時期. VN 'Đại Chiếu' transliterates the fictional kanji instead of translating the era name. Fix follows the Hibiki 03 audit convention: 'Taisho'."
+ },
+ {
+  "key": 3070,
+  "speaker": "monologue",
+  "jp": "試験区間は徐々に伸ばしていくべきだし、\\n術仙炭鉱廃駅までなら、ちょうど手頃だ。",
+  "tw": "測試路段應該是逐步延長的，到術仙煤礦廢車站的距離正合適。",
+  "old_vn": "Đoạn đường chạy thử nên được kéo dài dần dần, đến ga bỏ hoang mỏ than Jutsusen là vừa đẹp.",
+  "kind": "terminology",
+  "fix": "Đoạn đường chạy thử nên được kéo dài dần dần, đến ga bỏ hoang mỏ than Jutsu-sen là vừa đẹp.",
+  "note": "Same as 2016: 'Jutsusen' → 'Jutsu-sen'."
+ },
+ {
+  "key": 3195,
+  "speaker": "monologue",
+  "jp": "床に降り立ち、ハチロクは、\\n\\x%l整備体;#00ffc040;整備体%l;#;へと\\x%lタブレット;#00ffc040;タブレット%l;#;を換える。",
+  "tw": "說著，八六從位子上下來，把\\x%lタブレット;#00ffc040;操作板%l;#;換裝到了\\x%l整備体;#00ffc040;整備體%l;#;上。",
+  "old_vn": "Bước xuống sàn, Hachiroku chuyển \\x%lタブレット;#00ffc040;thẻ bảng%l;#; sang \\x%l整備体;#00ffc040;thân chính%l;#;.",
+  "kind": "terminology",
+  "fix": "Bước xuống sàn, Hachiroku chuyển \\x%lタブレット;#00ffc040;thẻ bảng%l;#; sang \\x%l整備体;#00ffc040;thân bảo trì%l;#;.",
+  "note": "整備体 (maintenance body) rendered 'thân chính' — the same gloss used for 運転ボディ (operation body) at 3285, collapsing two distinct bodies into one. Fix: 'thân bảo trì'."
+ },
+ {
+  "key": 3285,
+  "speaker": "monologue",
+  "jp": "運転ボディのハチロクが、ホコリを叩く素振りをしながら、\\nようやく廃駅舎を出てきてくれる。",
+  "tw": "駕駛體狀態的八六終於邊拍掉身上的塵土，邊從廢車站裡走了出來。",
+  "old_vn": "Hachiroku trong thân chính, vừa làm điệu bộ phủi bụi, cuối cùng cũng bước ra khỏi nhà ga bỏ hoang.",
+  "kind": "terminology",
+  "fix": "Hachiroku trong thân vận hành, vừa làm điệu bộ phủi bụi, cuối cùng cũng bước ra khỏi nhà ga bỏ hoang.",
+  "note": "運転ボディ (operation body) rendered 'thân chính' — collides with 整備体 at 3195/3021. Fix: 'thân vận hành'."
+ },
+ {
+  "key": 3290,
+  "speaker": "monologue",
+  "jp": "（……今日は、随分と待たされる日だな）",
+  "tw": "（……今天還真是要讓我等個夠啊）",
+  "old_vn": "（……Hôm nay, mình bị bắt chờ hơi nhiều nhỉ.）",
+  "kind": "pronoun",
+  "fix": "（……Hôm nay, tôi bị bắt chờ hơi nhiều nhỉ.）",
+  "note": "Soutetsu monologue uses standalone 'mình' as subject; file convention is 'Tôi' (75 monologue rows with tôi). Fix standardises to 'Tôi'. (Subordinate 'Tôi… mình…' in 2950/3137 and idioms 'một mình', 'chính tay mình' are standard Vietnamese and were NOT counted.)"
+ }
+]

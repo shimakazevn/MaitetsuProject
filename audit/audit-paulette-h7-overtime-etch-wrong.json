@@ -1,0 +1,242 @@
+[
+ {
+  "key": 816,
+  "character": "ポーレット",
+  "jp": "「ひあっ！　あっ――めくれっ――んっ――ひっぱ――っ\\n――あっ――おま、んこっ――ひっ――しゅご――んっ」",
+  "tw": "「呀！啊——被掀翻了——嗯——被拉出來了——啊——小穴——呀——好刺激——嗯」",
+  "old_vn": "「Hya! A——bị lộn, ngược——ưm——bị kéo, ra——\\n——a——âm, đạo——hi——dữ, dội——ưm」",
+  "fix": "「Hya! A——bị lộn, ngược——ưm——bị kéo, ra——Ư ——a——âm, đạo——hi——dữ, dội——ưm」",
+  "kind": "gasp",
+  "reason": "Sweep ghi needs-file-audit; audit đọc ngữ nghĩa xác nhận JP ひっぱ――っ cuối đoạn 1 là gasp bị mất (cùng mẫu B2 như 1233/1271) — thêm Ư sau dấu ——."
+ },
+ {
+  "key": 818,
+  "character": "ポーレット",
+  "jp": "「ひあっ！　あっ！　はっ！　あっ！　ふあっ！\\nあっ――んゆっ――ひゃふっ！！」",
+  "tw": "「呀！啊！啊！啊！呼啊！啊——嗯——呀啊！！」",
+  "old_vn": "「Hya! A! Hà! A! Phù!\\nA——ưm——hya!!」",
+  "fix": "「Hya! A! Hà! A! Phù! A——ưm——hyafu!!」",
+  "kind": "breath",
+  "reason": "ひゃふっ bị dịch 'hya', mất ふ — theo tiền lệ h6 770: ひゃふっ→'Hyafu'."
+ },
+ {
+  "key": 821,
+  "character": "ポーレット",
+  "jp": "「きゃふっ！　んくっ――あっ――やっ――はッ――\\nんっ――きもち――きゃう――あ――きもち、いいっ」",
+  "tw": "「呀！嗯——啊——呀——呼——嗯——好舒服——啊——好舒服」",
+  "old_vn": "「Kya! Ưm——a——á——hà——\\nưm——sướng——kya——a——sướng, quá」",
+  "fix": "「Kyaphù! Ưm——a——á——hà—— ưm——sướng——kya——a——sướng, quá」",
+  "kind": "breath",
+  "reason": "きゃふっ bị dịch 'Kya', mất ふ — theo tiền lệ h6 769: きゃふっ→'Kyaphù'. きゃう→'kya' giữ nguyên (tiếng rên dài, theo tiền lệ ré)."
+ },
+ {
+  "key": 826,
+  "character": "ポーレット",
+  "jp": "「ひあっ！？　きゅ――きゅふうううんっ！！！」",
+  "tw": "「呀！？呀——呀啊啊啊！！！」",
+  "old_vn": "「Hya!? Kyu——kyufuuuun!!!」",
+  "fix": "「Hya!? Kíu——kíphúuuun!!!」",
+  "kind": "sfx",
+  "reason": "Tiếng ré dài きゅ――きゅふうううんっ bị để phiên âm La-tinh — theo tiền lệ h6 768 (tiếng ré dài きゅう…→'Kíuuuuuuuuun'), viết lại bằng chính tả Việt có dấu."
+ },
+ {
+  "key": 834,
+  "character": "ポーレット",
+  "jp": "「んきゅんっ！？　んっ――ふあっ！？　らめっ、\\nイクっ！　ふあっ！　あっ！　あっ！　あっ！！」",
+  "tw": "「呀！？嗯——呼啊！？不行，丟了！不行！呼啊！啊！啊！啊！！！」",
+  "old_vn": "「Ưm kyun!? Ưm——phù!? Không được,\\nlên đỉnh mất! Phù! A! A! A!!」",
+  "fix": "「Ưm!? Ưm——phù!? Không được, lên đỉnh mất! Phù! A! A! A!!」",
+  "kind": "breath",
+  "reason": "んきゅんっ bị dịch 'Ưm kyun' — theo tiền lệ h6 869, họ âm んきゅ gộp thành 'Ưm', bỏ đuôi La-tinh."
+ },
+ {
+  "key": 860,
+  "character": "ポーレット",
+  "jp": "「いっ――きゅううううううううううううぅぅんっ！！」",
+  "tw": "「咿——嗯啊啊啊啊啊！！」",
+  "old_vn": "「I——kyuuuuuuuuuuuuuuuuuun!!」",
+  "fix": "「I——Kíuuuuuuuuuuuuuuuuuun!!」",
+  "kind": "sfx",
+  "reason": "Tiếng ré dài きゅう…ぅぅんっ bị để phiên âm La-tinh — theo tiền lệ h6 768, viết lại bằng chính tả Việt có dấu, giữ nguyên độ dài (18 chữ u như bản cũ)."
+ },
+ {
+  "key": 861,
+  "character": "双鉄",
+  "jp": "「おっと」",
+  "tw": "「哎」",
+  "old_vn": "「Ốp」",
+  "fix": "「Ối」",
+  "kind": "meaning",
+  "reason": "おっと ('Ối chà/Ui') bị dịch 'Ốp' — sai nghĩa hoàn toàn."
+ },
+ {
+  "key": 894,
+  "character": "ポーレット",
+  "jp": "「ちゅうっ――ちゅつ――ちゅむっ――ちゅるっ――んっ\\n――ちゅるうっ――ちゅっ――ずじゅっ――ずりゅりゅ」",
+  "tw": "「啾嚕——啾嚕——啾噗——啾噗——嗯——啾嚕——啾嚕——啾噗——啾噗」",
+  "old_vn": "「Chụt——chụt——chụt——chụt——ưm\\n——chụt——chụt——chụt——chụt」",
+  "fix": "「Chụt——chụt——chụt——chụt——ưm ——chụt——chụt——chụt——rột」",
+  "kind": "sfx",
+  "reason": "ずりゅりゅ (tiếng liếm/rột) bị dịch 'chụt' — theo quy ước nội bộ file (じゅるうっ→'Rột' ở 895), sửa thành 'rột'."
+ },
+ {
+  "key": 895,
+  "character": "ポーレット",
+  "jp": "「れろっ！　れるっ！　れろろっ！　にゅるっ！！\\nずっ！　じゅっ――じゅううううっ！　じゅるうっ！」",
+  "tw": "「啾嚕！啾嚕！啾嚕！啾嚕！！啾噗！啾嚕！啾噗！！」",
+  "old_vn": "「Rộp! Liếm! Rộp! Tuột!!\\nThọc! Chụt——chụt! Rột!」",
+  "fix": "「Rộp! Rộp! Rộp! Tuột!! Thọc! Chụt——chụt! Rột!」",
+  "kind": "sfx",
+  "reason": "れるっ bị dịch 'Liếm', phá vỡ quy ước nội bộ file (れるっ→'rộp' ở 910/911/872) — sửa thành 'rộp'."
+ },
+ {
+  "key": 899,
+  "character": "ポーレット",
+  "jp": "「んっ――きゃふっ――あっ！　かっ――き、きつ――っ\\n――ンッ――はっ、あ――いきな、りっ――んうっ！」」",
+  "tw": "「嗯——呀——啊！啊——好粗——嗯——呼——啊——突然就——嗯！」」",
+  "old_vn": "「Ưm——kya——a! C-chật, chật quá——\\n——ưm——hà, a——đột ngột, quá——ưm!」",
+  "fix": "「Ưm——Kyaphù——a! C-chật, chật quá—— ——ưm——hà, a——đột ngột, quá——ưm!」",
+  "kind": "breath",
+  "reason": "きゃふっ bị dịch 'kya', mất ふ — theo tiền lệ h6 769: きゃふっ→'Kyaphù'. (Sweep xếp dòng này 'already-rendered' vì các gasp っ đã được diễn; lỗi きゃふ là vấn đề khác, audit phát hiện.)"
+ },
+ {
+  "key": 912,
+  "character": "ポーレット",
+  "jp": "「ん……っっ――ふぁ――あっ――ずぼ、ずぼ――んっ、\\nされ、ると――ひ――あ――あつい、の――たまっ、て」",
+  "tw": "「嗯……嗯——呼——啊——被捅到的話——呀——熱——熱熱的——就攢起來了」",
+  "old_vn": "「Ưm……ư——phù——a——thọc, thọc——ưm,\\nbị, thế——hi——a——nóng, quá——tích tụ, lại」",
+  "fix": "「Ưm……ưư——phù——a——thọc, thọc——ưm, bị, thế——hi——a——nóng, quá——tích tụ, lại」",
+  "kind": "gasp",
+  "reason": "JP ん……っっ có HAI っ nhưng VN chỉ có một 'ư' — theo quy tắc một Ư cho một っ, thêm một 'ư'. Sweep BỎ SÓT dòng này (っ ở đầu dòng). 'hi' giữ nguyên (tiếng rên một âm tiết, theo quy ước file)."
+ },
+ {
+  "key": 918,
+  "character": "ポーレット",
+  "jp": "「んきゅんっ！！！」",
+  "tw": "「嗯呀！！！」",
+  "old_vn": "「Ưm kyun!!!」",
+  "fix": "「Ưm!!!」",
+  "kind": "breath",
+  "reason": "んきゅんっ bị dịch 'Ưm kyun' — theo tiền lệ h6 869, họ âm んきゅ gộp thành 'Ưm'."
+ },
+ {
+  "key": 921,
+  "character": "ポーレット",
+  "jp": "「んきゅっ！　ふああっ！！！」",
+  "tw": "「嗯啊！呼啊！！！」",
+  "old_vn": "「Ưm kyu! Phù a!!!」",
+  "fix": "「Ưm! Phù a!!!」",
+  "kind": "breath",
+  "reason": "んきゅっ bị dịch 'Ưm kyu' — theo tiền lệ h6 869, họ âm んきゅ gộp thành 'Ưm'."
+ },
+ {
+  "key": 959,
+  "character": "双鉄",
+  "jp": "「僕もだ――僕も、気持ちいい――」",
+  "tw": "「我也——我也很舒服——」",
+  "old_vn": "「Anh cũng vậy——anh cũng, sướng lắm——」",
+  "fix": "「Tôi cũng vậy——tôi cũng, sướng lắm——」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng 'anh' ×2 trong thoại (JP 僕もだ) → 'Tôi' ×2."
+ },
+ {
+  "key": 969,
+  "character": "双鉄",
+  "jp": "「いくぞ」",
+  "tw": "「我要進去了」",
+  "old_vn": "「Anh vào nhé」",
+  "fix": "「Tôi vào nhé」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng 'Anh' trong thoại (JP いくぞ) → 'Tôi'."
+ },
+ {
+  "key": 977,
+  "character": "ポーレット",
+  "jp": "「おちんちん、ですっ！　バキバキにこわばっちゃってて、\\nつらそうで――だから、わたし――せ、責任、とって」",
+  "tw": "「是雞雞！看它已經完全硬起來了，好像很難受。所以我來負起責任」",
+  "old_vn": "「Là dương vật! Nó cương cứng đến phát đau,\\ntrông khổ sở quá——nên, tôi sẽ——chịu, chịu trách nhiệm」",
+  "fix": "「Là dương vật! Nó cương cứng đến phát đau, trông khổ sở quá——nên, em sẽ——chịu, chịu trách nhiệm」",
+  "kind": "pronoun",
+  "reason": "Paulette tự xưng 'tôi' — phá vỡ quy ước file (Paulette tự xưng 'em' 15 lần, chỉ 1 lần 'tôi' ở đây) → 'em'."
+ },
+ {
+  "key": 1233,
+  "character": "monologue",
+  "jp": "その上竿がぬめるおっぱいに挟み込まれて、\\n油断をすれば、今すぐにでも射精しそ――っ！？",
+  "tw": "再加上肉竿被夾在了乳肉之中，我感覺一不留神就要射出來了——",
+  "old_vn": "Thêm vào đó, phần thân bị kẹp chặt giữa bầu ngực ướt đẫm,\\nnếu lơ là, tôi có thể xuất tinh ngay lập tức——!?",
+  "fix": "Thêm vào đó, phần thân bị kẹp chặt giữa bầu ngực ướt đẫm, nếu lơ là, tôi có thể xuất tinh ngay lập tức——Ư!?",
+  "kind": "gasp",
+  "reason": "JP kết bằng しそ――っ！？ nhưng VN chỉ còn '——!?' — gasp cuối bị mất (sweep xác nhận cùng giá trị)."
+ },
+ {
+  "key": 1270,
+  "character": "monologue",
+  "jp": "どんなに呆けた表情で、これほど単調に動物的に、\\n僕の射精を、精液を、一心不乱に求め――っっ！！？",
+  "tw": "她現在的表情是有多不堪，才能像一隻沒有智慧的動物一樣，這麼死命地索求著我的精液——",
+  "old_vn": "Với vẻ mặt ngây dại thế nào, mà lại khao khát sự xuất tinh,\\ntinh dịch của tôi một cách đơn điệu, đầy tính động vật đến vậy——!!?",
+  "fix": "Với vẻ mặt ngây dại thế nào, mà lại khao khát sự xuất tinh, tinh dịch của tôi một cách đơn điệu, đầy tính động vật đến vậy——ƯƯ!!?",
+  "kind": "gasp",
+  "reason": "JP kết bằng 求め――っっ！！？ (hai っ) nhưng VN chỉ còn '——!!?' — mất cả hai gasp (sweep phụ lục đa-っ xác nhận cùng giá trị '——ƯƯ!!?')."
+ },
+ {
+  "key": 1271,
+  "character": "monologue",
+  "jp": "もどかしかろう。そういう風に責めて――っ！？",
+  "tw": "她當然會心急了。我就這麼刺激著她——",
+  "old_vn": "Khó chịu lắm phải không. Cứ thế mà kích thích——!?",
+  "fix": "Khó chịu lắm phải không. Cứ thế mà kích thích——Ư!?",
+  "kind": "gasp",
+  "reason": "JP kết bằng 責めて――っ！？ nhưng VN chỉ còn '——!?' — gasp cuối bị mất (sweep xác nhận cùng giá trị)."
+ },
+ {
+  "key": 1285,
+  "character": "monologue",
+  "jp": "イカせたことには大満足だが、\\nその蠢きを感じてしまえばいっそうの射精欲求――っ！？",
+  "tw": "她達到高潮讓我非常滿意，但是這蠕動也讓我的射精欲膨脹得越來越厲害了。",
+  "old_vn": "Việc làm cô ấy lên đỉnh khiến tôi rất mãn nguyện,\\nnhưng cảm nhận được sự cựa quậy đó lại càng kích thích khao khát xuất tinh——!?",
+  "fix": "Việc làm cô ấy lên đỉnh khiến tôi rất mãn nguyện, nhưng cảm nhận được sự cựa quậy đó lại càng kích thích khao khát xuất tinh——Ư!?",
+  "kind": "gasp",
+  "reason": "JP kết bằng 射精欲求――っ！？ nhưng VN chỉ còn '——!?' — gasp cuối bị mất (sweep xác nhận cùng giá trị)."
+ },
+ {
+  "key": 1331,
+  "character": "monologue",
+  "jp": "アナルへ再び指を挿れられ、\\nポーレットは大きく震えてしま――っ！！",
+  "tw": "我又一次把手指插入菊穴，她就狠狠地抖了一下！",
+  "old_vn": "Bị nhét ngón tay vào lỗ hậu lần nữa,\\nPaulette run lên bần bật——!!",
+  "fix": "Bị nhét ngón tay vào lỗ hậu lần nữa, Paulette run lên bần bật——Ư!!",
+  "kind": "gasp",
+  "reason": "JP kết bằng 震えてしま――っ！！ nhưng VN chỉ còn '——!!' — gasp cuối bị mất (sweep xác nhận cùng giá trị)."
+ },
+ {
+  "key": 1380,
+  "character": "monologue",
+  "jp": "だから、思いっきり密着し、\\nポーレットの胸を揉みしだくっ――っ！？",
+  "tw": "所以我就用力貼緊她，盡情揉搓她的大奶——",
+  "old_vn": "Nên tôi áp sát hết sức,\\nvà vò nát bầu ngực của Paulette——!?",
+  "fix": "Nên tôi áp sát hết sức, và vò nát bầu ngực của Paulette——Ư!?",
+  "kind": "gasp",
+  "reason": "JP kết bằng 揉みしだくっ――っ！？ nhưng VN chỉ còn '——!?' — gasp cuối (っ sau ――) bị mất (sweep xác nhận cùng giá trị; っ đầu gắn với động từ しだくっ là nhấn mạnh, không phải gasp)."
+ },
+ {
+  "key": 1651,
+  "character": "双鉄",
+  "jp": "（じゅぶううううううううううっ！）",
+  "tw": "（啾噗！）",
+  "old_vn": "（Chụt!）",
+  "fix": "（Chúuuuuuuuuuut!）",
+  "kind": "sfx",
+  "reason": "Tiếng mút dài じゅぶううううううううううっ (10 âm う) bị dịch gọn thành 'Chụt!' — mất độ dài; theo tiền lệ 1701 trong file (ずぶう…→'sâuuuuuuuu'), kéo dài thành 'Chúuuuuuuuuuut!'."
+ },
+ {
+  "key": 1684,
+  "character": "monologue",
+  "jp": "（ずぶううううううううっ！）",
+  "tw": "（插入）",
+  "old_vn": "（Thọc sâu!!!）",
+  "fix": "（Thọc sâuuuuuuuu!）",
+  "kind": "sfx",
+  "reason": "Tiếng đâm dài ずぶううううううううっ (8 âm う) bị dịch gọn thành 'Thọc sâu!!!' — mất độ dài; trong file 1700/1701 cùng mẫu ずぶう… đều viết 'sâuuuuuuuu' (8 chữ u)."
+ }
+]

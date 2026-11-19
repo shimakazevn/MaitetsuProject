@@ -1,0 +1,472 @@
+[
+  {
+    "key": 889,
+    "character": "ポーレット",
+    "jp": "「けど……いいアイディアかも、って直感では思います。\\n低コストで、新生御一夜鉄道をアピールできる……かも」",
+    "tw": "「但是……我感覺這是個不錯的主意。成本又低，還能宣傳一下新生的御一夜鐵道……」",
+    "old_vn": "「Nhưng mà... trực giác mách bảo em đó có thể là một ý tưởng hay.\\nVừa ít tốn kém, lại có thể quảng bá cho Đường sắt Ohimitera mới... có lẽ vậy.」",
+    "fix": "「Nhưng mà... trực giác mách bảo em đó có thể là một ý tưởng hay.\\nVừa ít tốn kém, lại có thể quảng bá cho Đường sắt Ohitoyo mới... có lẽ vậy.」",
+    "kind": "terminology",
+    "reason": "新生御一夜鉄道 — \"Ohimitera\" sai theo quyết định 19/11; đúng là \"Ohitoyo\"."
+  },
+  {
+    "key": 891,
+    "character": "双鉄H",
+    "jp": "「しかし、現に僕は――」",
+    "tw": "「但是我已經——」",
+    "old_vn": "「Nhưng, thực tế là anh đang——」",
+    "fix": "「Nhưng, thực tế là tôi đang——」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 894,
+    "character": "双鉄H",
+    "jp": "「謝ることは、何もない。ここはポーレットの部屋だし、\\n掃除であれば、僕も手伝う」",
+    "tw": "「你不用道歉。這裡是你的房間，如果要打掃的話我也來幫忙」",
+    "old_vn": "「Em không có gì phải xin lỗi cả. Đây là phòng của Paulette mà,\\nnếu phải dọn dẹp thì anh cũng sẽ giúp một tay.」",
+    "fix": "「Em không có gì phải xin lỗi cả. Đây là phòng của Paulette mà,\\nnếu phải dọn dẹp thì tôi cũng sẽ giúp một tay.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 900,
+    "character": "ポーレット",
+    "jp": "「双鉄くんの好きな家庭料理って、なんですか？」",
+    "tw": "「你喜歡什麼家常菜呢？」",
+    "old_vn": "「Soutetsu thích món ăn gia đình nào vậy?」",
+    "fix": "「Anh Soutetsu thích món ăn gia đình nào vậy?」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói → \"anh Soutetsu\" (docs §2.4)."
+  },
+  {
+    "key": 923,
+    "character": "ポーレット",
+    "jp": "「けどっ――けどぉっ――わたしっ――わらひぃっ――\\nあっ――ふああああああああああんっっっっ！」",
+    "tw": "「可是——可是——我已經——我已經——啊——呼啊啊啊！」",
+    "old_vn": "「Nhưng mà——nhưng mà——em——em——\\ná——fuaaaaaaaaaaan!」",
+    "fix": "「Nhưng mà——nhưng mà——em——em——\\ná——phuàààààààààn!」",
+    "kind": "minor",
+    "reason": "JP ふああああああああああんっっっっ để nguyên dạng phiên âm La-tinh \"fuaaaaaaaaaaan\" — không phải tiếng Việt → \"phuàààààààààn!\"."
+  },
+  {
+    "key": 925,
+    "character": "ポーレット",
+    "jp": "「よかったぁ。双鉄くんのお口にあって」",
+    "tw": "「合你的口味就好」",
+    "old_vn": "「May quá. Hợp khẩu vị của Soutetsu là tốt rồi.」",
+    "fix": "「May quá. Hợp khẩu vị của anh Soutetsu là tốt rồi.」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói → \"anh Soutetsu\" (docs §2.4)."
+  },
+  {
+    "key": 932,
+    "character": "ポーレット",
+    "jp": "「ひゃあっ――んっ――おまん、こ――おそうじ――\\nふあっ――ていねいに、おそうじ――らめ、なのぉっ」",
+    "tw": "「呀——嗯——小穴——被清理了——呼啊——清理得——好仔細——不要啦」",
+    "old_vn": "「Hya——ưm——âm, đạo——đang được dọn dẹp——\\nphá——dọn dẹp, cẩn thận quá——đừng, mà.」",
+    "fix": "「Hya——ưm——âm, đạo——đang được dọn dẹp——\\nphà——dọn dẹp, cẩn thận quá——đừng, mà.」",
+    "kind": "minor",
+    "reason": "JP ふあっ là tiếng thở; bản cũ \"phá\" đọc thành động từ \"phá\" → \"phà\"."
+  },
+  {
+    "key": 948,
+    "character": "ポーレット",
+    "jp": "「ひゃっ！？　って、え？　双鉄、くん？」",
+    "tw": "「呀！？哎？雙鐵君？」",
+    "old_vn": "「Hya!? Khoan, ơ? Soutetsu, này?」",
+    "fix": "「Hya!? Khoan, ơ? Anh Soutetsu, này?」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu hỏi nói ra (ngạc nhiên) → \"anh Soutetsu\" (docs §2.4). Đây không phải tên rên trong lúc thân mật nên không thuộc ngoại lệ."
+  },
+  {
+    "key": 950,
+    "character": "ポーレット",
+    "jp": "「ひゃうんっ！？　き、きたないっ――だって、\\nおしっこ――んっ――そうてつ、くんっ――っ！」",
+    "tw": "「呀！？很、很髒的——因為——有尿——嗯——雙鐵——嗯！」",
+    "old_vn": "「Hya un!? B, bẩn lắm——bởi vì,\\ncó nước tiểu——ưm——Soutetsu, này——!」",
+    "fix": "「Hya un!? B, bẩn lắm——bởi vì,\\ncó nước tiểu——ưm——anh Soutetsu, này——Ư!」",
+    "kind": "minor",
+    "reason": "JP kết bằng tiếng hít sau gạch (くんっ――っ！); bản Việt giữ gạch nhưng mất tiếng hít → thêm Ư. Tên \"Soutetsu\" giữ nguyên theo ngoại lệ tên rên — chỉ sửa gasp. Dòng này do đợt quét gasp っ toàn dự án phát hiện khi rà soát chéo (audit bỏ sót); đã xác minh lại đối chiếu JP trước khi bổ sung. [Đính chính B4 19/11: tên rên → \"anh Soutetsu\" (ngoại lệ tên rên bãi bỏ — JP 双鉄くん).]"
+  },
+  {
+    "key": 952,
+    "character": "双鉄H",
+    "jp": "「っ！」",
+    "tw": "「呃！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」",
+    "kind": "minor",
+    "reason": "JP 「っ！」 mất tiếng hít → \"Ư!\"."
+  },
+  {
+    "key": 956,
+    "character": "ポーレット",
+    "jp": "「ふ……ふぇ……ふあ」",
+    "tw": "「呼……呼……呼啊」",
+    "old_vn": "「Phù... phu... phúa.」",
+    "fix": "「Phù... phê... phùa.」",
+    "kind": "minor",
+    "reason": "JP ふ……ふぇ……ふあ là ba tiếng thở: ふ→\"Phù\" đúng, nhưng ふぇ (fe) dịch thành \"phu\" sai nguyên âm, ふあ dịch thành \"phúa\" (không phải tiếng Việt tự nhiên; cùng file dịch đúng ふあっ thành \"phù\" ở 1008) → \"Phù... phê... phùa.\"."
+  },
+  {
+    "key": 957,
+    "character": "ポーレット",
+    "jp": "「ふぇ……あ……ふやぁぁぁあ」",
+    "tw": "「呼……啊……啊呀」",
+    "old_vn": "「Phu... a... fuyahaaa.」",
+    "fix": "「Phê... a... phuyaaa.」",
+    "kind": "minor",
+    "reason": "JP ふぇ (fe) dịch thành \"Phu\" sai nguyên âm; ふやぁぁぁあ để nguyên dạng phiên âm La-tinh \"fuyahaaa\" — không phải tiếng Việt → \"Phê... a... phuyaaa.\" (đối chiếu 929 trong cùng file: ふえっ→\"phuê\", ふやぁっ→\"phuya\")."
+  },
+  {
+    "key": 960,
+    "character": "双鉄H",
+    "jp": "「やふほふほひは――ほうひを、へふらふほ」",
+    "tw": "「呼唔呼唔——呼唔呼唔」",
+    "old_vn": "「Anh đang dọn dẹp——giúp em mà.」",
+    "fix": "「Tôi đang dọn dẹp——giúp em mà.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\". JP là lời nói ngọng (miệng đang bận); bản Việt giải mã thành lời rõ — giữ nguyên cách giải mã, chỉ sửa xưng hô."
+  },
+  {
+    "key": 963,
+    "character": "ポーレット",
+    "jp": "「あふうううううううううんっ！！！」",
+    "tw": "「呼啊啊啊！！！」",
+    "old_vn": "「Afuuuuuuuuuuun!!!」",
+    "fix": "「À phùuuuuuuuuun!!!」",
+    "kind": "minor",
+    "reason": "JP あふうううううううううんっ để nguyên dạng phiên âm La-tinh \"Afuuuuuuuuuuun\" — không phải tiếng Việt → \"À phùuuuuuuuuun!!!\"."
+  },
+  {
+    "key": 983,
+    "character": "ポーレット",
+    "jp": "「あっ――おちん、ちん――んっ――\\n双鉄、くんの――おちん、ちんっ――んうっ」",
+    "tw": "「啊——雞雞——嗯——雙鐵君的——雞雞——嗯」",
+    "old_vn": "「Á——cậu, nhỏ——ưm——\\ncậu, nhỏ——của Soutetsu——ưm.」",
+    "fix": "「Á——cậu, nhỏ——ưm——\\ncậu, nhỏ——của anh Soutetsu——ưm.」",
+    "kind": "pronoun",
+    "reason": "B4 lock 19/11 (Hieu ủy quyền Muse chốt): JP 双鉄くん — Paulette không bao giờ bỏ くん ngay cả lúc cao trào; tên rên trần \"Soutetsu\" → \"anh Soutetsu\". Ngoại lệ tên rên bãi bỏ."
+  },
+  {
+    "key": 985,
+    "character": "双鉄H",
+    "jp": "「あっ――っ！」",
+    "tw": "「啊——！」",
+    "old_vn": "「Á——!」",
+    "fix": "「Á——Ư!」",
+    "kind": "minor",
+    "reason": "JP 「あっ――っ！」 kết bằng tiếng hít sau gạch; bản Việt giữ gạch nhưng mất tiếng hít → \"Á——Ư!\". Dòng này do đợt quét gasp っ toàn dự án phát hiện khi rà soát chéo (audit bỏ sót); đã xác minh lại đối chiếu JP trước khi bổ sung."
+  },
+  {
+    "key": 991,
+    "character": "ポーレット",
+    "jp": "「あ……ひあ……あっ――ふぁ――あっ――あっ――あ」",
+    "tw": "「啊……呀……啊——呼——啊——啊——啊」",
+    "old_vn": "「A... hia... á——phá——á——á——a.」",
+    "fix": "「A... hia... á——phà——á——á——a.」",
+    "kind": "minor",
+    "reason": "JP ふぁ là tiếng thở; bản cũ \"phá\" đọc thành động từ \"phá\" → \"phà\"."
+  },
+  {
+    "key": 995,
+    "character": "ポーレット",
+    "jp": "「あ……んっ――双鉄、くんっ――」",
+    "tw": "「啊……嗯――雙鐵君――」",
+    "old_vn": "「A... ưm——Soutetsu, này——」",
+    "fix": "「A... ưm——anh Soutetsu, này——」",
+    "kind": "pronoun",
+    "reason": "B4 lock 19/11 (Hieu ủy quyền Muse chốt): JP 双鉄くん — Paulette không bao giờ bỏ くん ngay cả lúc cao trào; tên rên trần \"Soutetsu\" → \"anh Soutetsu\". Ngoại lệ tên rên bãi bỏ."
+  },
+  {
+    "key": 1000,
+    "character": "ポーレット",
+    "jp": "「あ……双鉄、くん――ねっ――\\n直接……おっぱいっ」",
+    "tw": "「啊……雙鐵君——來——直接……摸胸」",
+    "old_vn": "「A... Soutetsu, này——nhé——\\ntrực tiếp... ngực đi anh.」",
+    "fix": "「A... anh Soutetsu, này——nhé——\\ntrực tiếp... ngực đi anh.」",
+    "kind": "pronoun",
+    "reason": "B4 lock 19/11 (Hieu ủy quyền Muse chốt): JP 双鉄くん — Paulette không bao giờ bỏ くん ngay cả lúc cao trào; tên rên trần \"Soutetsu\" → \"anh Soutetsu\". Ngoại lệ tên rên bãi bỏ."
+  },
+  {
+    "key": 1001,
+    "character": "ポーレット",
+    "jp": "「あ……双鉄、くん――そうてつ、くぅん」",
+    "tw": "「啊……雙鐵君——雙鐵君——」",
+    "old_vn": "「A... Soutetsu, này——Soutetsu.」",
+    "fix": "「A... anh Soutetsu, này——anh Soutetsu.」",
+    "kind": "pronoun",
+    "reason": "B4 lock 19/11 (Hieu ủy quyền Muse chốt): JP 双鉄くん — Paulette không bao giờ bỏ くん ngay cả lúc cao trào; tên rên trần \"Soutetsu\" → \"anh Soutetsu\". Ngoại lệ tên rên bãi bỏ."
+  },
+  {
+    "key": 1004,
+    "character": "双鉄H",
+    "jp": "「っ！！？」",
+    "tw": "「啊！！？」",
+    "old_vn": "「!!?」",
+    "fix": "「ƯƯ!!?」",
+    "kind": "minor",
+    "reason": "JP 「っ！！？」 mất tiếng hít → \"ƯƯ!!?\"."
+  },
+  {
+    "key": 1009,
+    "character": "ポーレット",
+    "jp": "「ん……あっ――双鉄くん……手、おっきいっ――\\nんっ――」",
+    "tw": "「嗯……啊――你的手……好大——嗯——」",
+    "old_vn": "「Ưm... a——Soutetsu... tay anh, lớn quá——\\nưm——」",
+    "fix": "「Ưm... a——anh Soutetsu... tay anh, lớn quá——\\nưm——」",
+    "kind": "pronoun",
+    "reason": "B4 lock 19/11 (Hieu ủy quyền Muse chốt): JP 双鉄くん — Paulette không bao giờ bỏ くん ngay cả lúc cao trào; tên rên trần \"Soutetsu\" → \"anh Soutetsu\". Ngoại lệ tên rên bãi bỏ."
+  },
+  {
+    "key": 1014,
+    "character": "ポーレット",
+    "jp": "「うん。わたしも……そうして、ほしい。\\nおもらしおまんこ……双鉄くんに、栓して、欲しい」",
+    "tw": "「嗯。我也……想讓你這樣。我想讓你……把我失禁的小穴塞上」",
+    "old_vn": "「Vâng. Em cũng... muốn anh làm vậy.\\nÂm đạo tè dầm này... em muốn, Soutetsu bịt nó lại.」",
+    "fix": "「Vâng. Em cũng... muốn anh làm vậy.\\nÂm đạo tè dầm này... em muốn, anh Soutetsu bịt nó lại.」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói → \"anh Soutetsu\" (docs §2.4)."
+  },
+  {
+    "key": 1017,
+    "character": "双鉄H",
+    "jp": "「うむ。僕もタイミングがつかめずに、\\n結局は、こんなにも直球で尋ねることになってしまった」",
+    "tw": "「嗯。所以我找不到時機，最後也只能這樣直接問了」",
+    "old_vn": "「Ừm. Anh cũng không nắm bắt được thời cơ,\\nnên rốt cuộc lại phải hỏi thẳng thừng thế này đây.」",
+    "fix": "「Ừm. Tôi cũng không nắm bắt được thời cơ,\\nnên rốt cuộc lại phải hỏi thẳng thừng thế này đây.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 1031,
+    "character": "ポーレット",
+    "jp": "「お、押す……から――双鉄、くんっ――\\nワイン、わたし……だって――そのまま、お着替えっ」",
+    "tw": "「因為你……這樣一按——我就、我就……因為我是直接換的衣服」",
+    "old_vn": "「T, tại anh ấn... vào——Soutetsu, này——\\nRượu vang, em... bởi vì——cứ thế, thay đồ luôn.」",
+    "fix": "「T, tại anh ấn... vào——anh Soutetsu, này——\\nRượu vang, em... bởi vì——cứ thế, thay đồ luôn.」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói có nội dung (giải thích về rượu vang/thay đồ) → \"anh Soutetsu\" (docs §2.4). Không thuộc ngoại lệ tên rên."
+  },
+  {
+    "key": 1040,
+    "character": "双鉄H",
+    "jp": "「ポーレットにさりげなく聞いておいて欲しいと言われた。\\n制服のデザインを変更する予定が無いかどうかを」",
+    "tw": "「她讓我隨口問你一句，問你有沒有更改制服樣式的計劃」",
+    "old_vn": "「Em ấy bảo anh hỏi khéo Paulette xem.\\nCó dự định thay đổi thiết kế đồng phục hay không.」",
+    "fix": "「Em ấy bảo tôi hỏi khéo Paulette xem.\\nCó dự định thay đổi thiết kế đồng phục hay không.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\". \"Em ấy\" là Hibiki (ngôi thứ ba), giữ nguyên — không tính vào tally \"em\" gọi Paulette."
+  },
+  {
+    "key": 1046,
+    "character": "ポーレット",
+    "jp": "「ごめっ――ごめんなさい――双鉄くんっ――んっ」",
+    "tw": "「對不起——對不起——雙鐵君――嗯」",
+    "old_vn": "「Xin——xin lỗi anh——Soutetsu——ưm.」",
+    "fix": "「Xin——xin lỗi anh——anh Soutetsu——ưm.」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu xin lỗi có nội dung → \"anh Soutetsu\" (docs §2.4). Không thuộc ngoại lệ tên rên."
+  },
+  {
+    "key": 1051,
+    "character": "双鉄H",
+    "jp": "「僕がしておく。\\nポーレットは、シャワーを浴びて着替えた方が」",
+    "tw": "「我來打掃。你就去沖澡換衣服」",
+    "old_vn": "「Để anh làm cho.\\nPaulette đi tắm rồi thay đồ đi.」",
+    "fix": "「Để tôi làm cho.\\nPaulette đi tắm rồi thay đồ đi.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 1055,
+    "character": "双鉄H",
+    "jp": "「と、思ったが、判断材料がまだ足りん。\\n耐久性も、チェックしておくべきかと思う」",
+    "tw": "「我本來是這麼想的，但是判斷的依據還不夠。我覺得還要檢查一下耐磨性」",
+    "old_vn": "「Anh nghĩ vậy, nhưng dữ kiện đánh giá vẫn chưa đủ.\\nAnh nghĩ cũng nên kiểm tra cả độ bền nữa.」",
+    "fix": "「Tôi nghĩ vậy, nhưng dữ kiện đánh giá vẫn chưa đủ.\\nTôi nghĩ cũng nên kiểm tra cả độ bền nữa.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\" (2 lần)."
+  },
+  {
+    "key": 1059,
+    "character": "双鉄H",
+    "jp": "「わかって、るっ――だからっ――\\n次――こそ――いっしょ――にっ――」",
+    "tw": "「我知道——下一次——我們一起——」",
+    "old_vn": "「Anh biết, mà——nên là——\\nlần này——nhất định——cùng, nhau——」",
+    "fix": "「Tôi biết, mà——nên là——\\nlần này——nhất định——cùng, nhau——」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 1060,
+    "character": "双鉄H",
+    "jp": "「聞く以上、日々姫にデザイナーのアテがあるのだと思う。\\nよければ、話を進めてみるか？」",
+    "tw": "「我聽日日姬的意思，她好像能拿出新設計。不介意的話，我就讓她推進這件事嗎？」",
+    "old_vn": "「Đã cất công hỏi thế này, anh nghĩ Hibiki có quen biết nhà thiết kế nào đó.\\nNếu được, chúng ta thử triển khai chuyện này xem sao nhé?」",
+    "fix": "「Đã cất công hỏi thế này, tôi nghĩ Hibiki có quen biết nhà thiết kế nào đó.\\nNếu được, chúng ta thử triển khai chuyện này xem sao nhé?」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 1061,
+    "character": "ポーレット",
+    "jp": "「変更した方がいいかどうか、\\n実物を見て、双鉄くんに検討して貰う方がいいと思って」",
+    "tw": "「我覺得要不要更改，還是讓你來看看實物來討論一下比較好」",
+    "old_vn": "「Em nghĩ là xem thực tế rồi để Soutetsu cân nhắc\\nxem có nên thay đổi hay không thì sẽ tốt hơn.」",
+    "fix": "「Em nghĩ là xem thực tế rồi để anh Soutetsu cân nhắc\\nxem có nên thay đổi hay không thì sẽ tốt hơn.」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói → \"anh Soutetsu\" (docs §2.4)."
+  },
+  {
+    "key": 1072,
+    "character": "双鉄H",
+    "jp": "「大丈夫だ。すぐに拭くから」",
+    "tw": "「沒事的，我來擦乾淨」",
+    "old_vn": "「Không sao đâu. Anh sẽ lau sạch ngay đây.」",
+    "fix": "「Không sao đâu. Tôi sẽ lau sạch ngay đây.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 1073,
+    "character": "双鉄H",
+    "jp": "「ああいや、思い出したのだ。\\n日々姫に頼まれごとをしていたと」",
+    "tw": "「沒事，我就是忽然想起來了。日日姬拜託了我一件事」",
+    "old_vn": "「À không, anh chợt nhớ ra.\\nHibiki có nhờ anh một chuyện.」",
+    "fix": "「À không, tôi chợt nhớ ra.\\nHibiki có nhờ tôi một chuyện.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\" (2 lần)."
+  },
+  {
+    "key": 1082,
+    "character": "双鉄H",
+    "jp": "「ポーレット。拭くより、栓で――\\nおまんこを、僕は塞いでしまいたい」",
+    "tw": "「波萊特。比起給你擦，我想用栓塞——把你的小穴給堵上」",
+    "old_vn": "「Paulette. Thay vì lau sạch, anh muốn dùng nút bịt——\\nbịt kín âm đạo của em lại.」",
+    "fix": "「Paulette. Thay vì lau sạch, tôi muốn dùng nút bịt——\\nbịt kín âm đạo của em lại.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 1096,
+    "character": "ポーレット",
+    "jp": "「おっぱい……違う……んっ――自分で、するの、と――\\nふ、あっ……双鉄、くんの――手の、方、がっ――あっ」",
+    "tw": "「胸部……感覺好不一樣……嗯——跟自己摸不一樣——呼、啊……你的手更加——啊」",
+    "old_vn": "「Ngực... khác quá... ưm——so với tự mình, làm, thì——\\nphù, á... tay của, Soutetsu——sướng, hơn——á.」",
+    "fix": "「Ngực... khác quá... ưm——so với tự mình, làm, thì——\\nphù, á... tay của, anh Soutetsu——sướng, hơn——á.」",
+    "kind": "pronoun",
+    "reason": "B4 lock 19/11 (Hieu ủy quyền Muse chốt): JP 双鉄くん — Paulette không bao giờ bỏ くん ngay cả lúc cao trào; tên rên trần \"Soutetsu\" → \"anh Soutetsu\". Ngoại lệ tên rên bãi bỏ."
+  },
+  {
+    "key": 1111,
+    "character": "双鉄H",
+    "jp": "「この制服は……ここまで性的なものだったのか。\\n今まで、全く気づかなかったが――」",
+    "tw": "「這件制服……原來是這麼性感的嗎。我之前完全都沒有注意到」",
+    "old_vn": "「Bộ đồng phục này... gợi dục đến mức này sao.\\nCho đến giờ, anh hoàn toàn không hề nhận ra đấy——」",
+    "fix": "「Bộ đồng phục này... gợi dục đến mức này sao.\\nCho đến giờ, tôi hoàn toàn không hề nhận ra đấy——」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\"."
+  },
+  {
+    "key": 1114,
+    "character": "ポーレット",
+    "jp": "「それは、わたしたちが恋人同士で、ふたりっきりで。\\nわたしが、双鉄くんを誘惑。しちゃってるからですよ」",
+    "tw": "「這是因為我們是情侶，還是兩人獨處。而我就在誘惑你啦」",
+    "old_vn": "「Đó là vì chúng ta là người yêu của nhau, và chỉ có hai người.\\nLà do em đang quyến rũ Soutetsu đấy ạ.」",
+    "fix": "「Đó là vì chúng ta là người yêu của nhau, và chỉ có hai người.\\nLà do em đang quyến rũ anh Soutetsu đấy ạ.」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói → \"anh Soutetsu\" (docs §2.4)."
+  },
+  {
+    "key": 1120,
+    "character": "ポーレット",
+    "jp": "「あのっ！　わたし！　わたしも――\\nその味覚えたいです。双鉄くんのおうちの肉じゃが」",
+    "tw": "「那個，我也想！我也想——學會做這個。我也想學你家的馬鈴薯燉肉」",
+    "old_vn": "「À này! Em! Em cũng muốn——\\nhọc được hương vị đó. Món thịt hầm khoai tây của nhà Soutetsu.」",
+    "fix": "「À này! Em! Em cũng muốn——\\nhọc được hương vị đó. Món thịt hầm khoai tây của nhà anh Soutetsu.」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói → \"anh Soutetsu\" (docs §2.4)."
+  },
+  {
+    "key": 1127,
+    "character": "双鉄H",
+    "jp": "「僕に、服飾のことがわかるとも思えん。が――」",
+    "tw": "「雖然我不太懂服飾一類的東西——」",
+    "old_vn": "「Anh không nghĩ mình hiểu biết về trang phục đâu. Nhưng mà——」",
+    "fix": "「Tôi không nghĩ mình hiểu biết về trang phục đâu. Nhưng mà——」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" trong thoại → \"Tôi\". \"mình\" trong mệnh đề lồng (\"không nghĩ mình hiểu biết\") là phản thân, giữ nguyên."
+  },
+  {
+    "key": 1128,
+    "character": "ポーレット",
+    "jp": "「双鉄くん……んっ」",
+    "tw": "「雙鐵君……嗯」",
+    "old_vn": "「Soutetsu... ưm.」",
+    "fix": "「anh Soutetsu... ưm.」",
+    "kind": "pronoun",
+    "reason": "B4 lock 19/11 (Hieu ủy quyền Muse chốt): JP 双鉄くん — Paulette không bao giờ bỏ くん ngay cả lúc cao trào; tên rên trần \"Soutetsu\" → \"anh Soutetsu\". Ngoại lệ tên rên bãi bỏ."
+  },
+  {
+    "key": 1129,
+    "character": "ポーレット",
+    "jp": "「双鉄くん？　制服……どうしよ？\\nデザイン変更、した方がいい？」",
+    "tw": "「雙鐵君，制服……怎麼辦？樣式要改嗎？」",
+    "old_vn": "「Soutetsu? Đồng phục... tính sao đây?\\nCó nên thay đổi thiết kế không anh?」",
+    "fix": "「Anh Soutetsu? Đồng phục... tính sao đây?\\nCó nên thay đổi thiết kế không anh?」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói → \"anh Soutetsu\" (docs §2.4)."
+  },
+  {
+    "key": 1130,
+    "character": "ポーレット",
+    "jp": "「双鉄くん？　どうかしました？」",
+    "tw": "「雙鐵君？怎麼了？」",
+    "old_vn": "「Soutetsu? Có chuyện gì sao anh?」",
+    "fix": "「Anh Soutetsu? Có chuyện gì sao anh?」",
+    "kind": "pronoun",
+    "reason": "Paulette gọi Soutetsu bằng tên trần \"Soutetsu\" trong câu nói → \"anh Soutetsu\" (docs §2.4)."
+  },
+  {
+    "key": 1135,
+    "character": "ポーレット",
+    "jp": "「～～～～～～～～っ！！！」",
+    "tw": "「～～～～～～～～啊！！！」",
+    "old_vn": "「~~~~~~~~!!!」",
+    "fix": "「~~~~~~~~Ư!!!」",
+    "kind": "minor",
+    "reason": "JP 「～～～～～～～～っ！！！」 kết bằng tiếng hít sau dãy ~; TW thêm 啊; bản Việt chỉ giữ ~~~ — mất tiếng hít → thêm Ư. Dòng này do đợt quét gasp っ toàn dự án phát hiện khi rà soát chéo; đã xác minh lại đối chiếu JP trước khi bổ sung. (Đảo quyết định kiểm tra lần đầu: lúc đầu cho rằng ~~~ đã là tiếng rên, nhưng quy tắc B2 — JP kết bằng ～っ, VN kết bằng ~ không có âm — và TW có 啊 cho thấy cần thêm Ư.)"
+  },
+  {
+    "key": 1253,
+    "character": "monologue",
+    "jp": "だが、いい。\\n個人的には、問答無用で、極めてよろしい。",
+    "tw": "不過這樣很棒。從個人角度來說，她穿成這樣非常誘人。",
+    "old_vn": "Nhưng mà, đẹp lắm.\\nTheo ý kiến cá nhân anh thì không cần phải bàn cãi, vô cùng xuất sắc.",
+    "fix": "Nhưng mà, đẹp lắm.\\nTheo ý kiến cá nhân tôi thì không cần phải bàn cãi, vô cùng xuất sắc.",
+    "kind": "pronoun",
+    "reason": "Độc thoại của Soutetsu dùng \"anh\" → \"Tôi\" (docs §2.1)."
+  },
+  {
+    "key": 1427,
+    "character": "monologue",
+    "jp": "それが希望なら、従おう。",
+    "tw": "既然她希望這樣的話，我就照辦吧。",
+    "old_vn": "Nếu em đã muốn thế, thì anh sẽ chiều ý.",
+    "fix": "Nếu em đã muốn thế, thì tôi sẽ chiều ý.",
+    "kind": "pronoun",
+    "reason": "Độc thoại của Soutetsu dùng \"anh\" → \"Tôi\". \"em\" là Paulette ở ngôi thứ ba trong độc thoại, giữ nguyên."
+  },
+  {
+    "key": 1655,
+    "character": "双鉄H",
+    "jp": "（焦らしているつもりは無いのだがな）",
+    "tw": "（我其實沒打算挑逗她）",
+    "old_vn": "（Anh đâu có định trêu chọc em đâu.）",
+    "fix": "（Tôi đâu có định trêu chọc em đâu.）",
+    "kind": "pronoun",
+    "reason": "Suy nghĩ của Soutetsu dùng \"Anh\" làm chủ ngữ → \"Tôi\". \"em\" là Paulette (người được trêu), giữ nguyên."
+  }
+]

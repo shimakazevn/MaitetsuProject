@@ -1,0 +1,1813 @@
+[
+  {
+    "key": 91,
+    "speaker": "monologue",
+    "jp": "\\x%l8620;#00ffc040;8620%l;#;はもう、\\nホームを歩くポーレットより遅くなってる。",
+    "tw": "\\x%l8620;#00ffc040;８６２０%l;#;已經比站台上行走的波萊特還要慢了。",
+    "vn_old": "Vừa nghĩ vậy, tôi chợt thấy bối rối.\\nRốt cuộc, tôi đã được cứu khỏi cái gì cơ chứ.",
+    "type": "misaligned",
+    "fix": "\\x%l8620;#00ffc040;8620%l;#; giờ đã chậm hơn cả Paulette đang đi bộ trên sân ga nữa rồi."
+  },
+  {
+    "key": 1173,
+    "speaker": "monologue",
+    "jp": "――真闇姉の言葉と同時、地図に引かれていったラインが、やがて大きな範囲を区切る。",
+    "tw": "——真闇姐說完，八六就在地圖上拉起一條線，將一大片區域圍在圈內。",
+    "vn_old": "Vì chi phí sửa chữa liên tục,\\nmà đến giờ chúng tôi vẫn chưa thể tăng cường thêm phụ lái toàn thời gian.",
+    "type": "misaligned",
+    "fix": "Cùng lúc với lời của chị Mayami, đường kẻ trên bản đồ dần khoanh ra một vùng lớn."
+  },
+  {
+    "key": 1182,
+    "speaker": "monologue",
+    "jp": "……停止目標は、すぐそこだ。\\nあとは、惰性で行けばいい。",
+    "tw": "……停車位置已經近在眼前。接下來只要讓列車靠慣性前進就好了。",
+    "vn_old": "「Nếu vậy thì, xin ngài, ngài Soutetsu.」",
+    "type": "misaligned",
+    "fix": "……Mục tiêu dừng ngay trước mặt. Cứ để quán tính trôi tới là được."
+  },
+  {
+    "key": 1187,
+    "speaker": "monologue",
+    "jp": "……僕とハチロク、交互に事情を説明していく。",
+    "tw": "……我和八六一人說一句，把整件事情一五一十地道出。",
+    "vn_old": "Hachiroku dùng khăn ăn,\\nnhẹ nhàng lau vụn than dính trên khóe miệng.",
+    "type": "misaligned",
+    "fix": "……Tôi và Hachiroku thay nhau giải thích tình hình."
+  },
+  {
+    "key": 1201,
+    "speaker": "双鉄",
+    "jp": "「\\x%l制動;#00ffc040;制動%l;#;、コンマ４」",
+    "tw": "「\\x%l制動;#00ffc040;減速%l;#;，零點四」",
+    "vn_old": "「Nếu vậy thì.」",
+    "type": "misaligned",
+    "fix": "「\\x%l制動;#00ffc040;Phanh%l;#, 0,4」"
+  },
+  {
+    "key": 1208,
+    "speaker": "双鉄",
+    "jp": "「\\x%l自弁;#00ffc040;[じべん,1]自弁%l;#;――運転」",
+    "tw": "「\\x%l自弁;#00ffc040;自剎%l;#;——行駛位置」",
+    "vn_old": "「Về rồi nè!!\\nỦa? Anh hai, Hachiroku, hai người đi đâu rồi?」",
+    "type": "misaligned",
+    "fix": "「\\x%l自弁;#00ffc040;van hãm tự động%l;#;——vị trí lái」"
+  },
+  {
+    "key": 1212,
+    "speaker": "双鉄",
+    "jp": "「\\x%l階段;#00ffc040;階段%l;#;！」",
+    "tw": "「\\x%l階段;#00ffc040;分段%l;#;！」",
+    "vn_old": "「Nếu vậy thì——」",
+    "type": "misaligned",
+    "fix": "「\\x%l階段;#00ffc040;Từng nấc%l;#;!」"
+  },
+  {
+    "key": 1214,
+    "speaker": "双鉄",
+    "jp": "「――停車。停止目標、良し」",
+    "tw": "「——停車。停車位置，正常」",
+    "vn_old": "「Hả? Anh hai——ưm——\\nAnh trai, không có ở đây sao?」",
+    "type": "misaligned",
+    "fix": "「——Dừng xe. Mục tiêu dừng, tốt.」"
+  },
+  {
+    "key": 1218,
+    "speaker": "双鉄",
+    "jp": "「――いや、そうか。“\\x%lエアクラ;#00ffc040;エアクラ%l;#;以外”か」",
+    "tw": "「——啊，對啊。“除\\x%lエアクラ;#00ffc040;空凝機%l;#;之外”」",
+    "vn_old": "「Cảm ơn nha! Anh hai, Hachiroku!」",
+    "type": "misaligned",
+    "fix": "「——Không, ra vậy. 'Ngoài \\x%lエアクラ;#00ffc040;Aircra%l;#;' sao.」"
+  },
+  {
+    "key": 1231,
+    "speaker": "真闇",
+    "jp": "「……旧宿舎群に泊まるとしても、危なかとよ。\\nあそこ、いつ倒壊してもおかしくなか建物もあるばい」",
+    "tw": "「……就算住在舊宿舍樓裡也很危險啊。有的老房子隨時可能倒塌」",
+    "vn_old": "Chỉ là một sự cố nhỏ.\\nMột ảo giác do sự non nớt của tôi tạo ra——",
+    "type": "misaligned",
+    "fix": "「……Dù có ngủ lại ở khu ký túc xá cũ thì cũng nguy hiểm đó. Ở đó có những tòa nhà sập lúc nào cũng không lạ đâu.」"
+  },
+  {
+    "key": 1242,
+    "speaker": "双鉄",
+    "jp": "「……とにかく様子を確認しよう。\\n電話を貸してもらえるか？」",
+    "tw": "「……總之先確認一下情況吧。能借我用一下電話嗎？」",
+    "vn_old": "「Cả buổi tối á?」",
+    "type": "misaligned",
+    "fix": "「……Trước hết cứ kiểm tra tình hình đã. Cho tôi mượn điện thoại được không?」"
+  },
+  {
+    "key": 1467,
+    "speaker": "双鉄",
+    "jp": "「ダメだ。飛ぶな。命令だ」",
+    "tw": "「不行。不能飛，這是命令」",
+    "vn_old": "「Ngài Soutetsu.」",
+    "type": "misaligned",
+    "fix": "「Không được. Đừng bay. Đây là mệnh lệnh.」"
+  },
+  {
+    "key": 1473,
+    "speaker": "ポーレット",
+    "jp": "「まぁ、ここまで崩れちゃったら、\\n泊まって、落ち着いてからの方が正解ですよね」",
+    "tw": "「不過，天氣這麼差。她們在校內留宿等待雨停才是正確的選擇」",
+    "vn_old": "「A, cái đó, chuyện ngày mai ấy mà——」",
+    "type": "misaligned",
+    "fix": "「À, đã sập đến mức này rồi thì ở lại, bình tĩnh rồi hãy tính thì hơn nhỉ.」"
+  },
+  {
+    "key": 1474,
+    "speaker": "蓑笠",
+    "jp": "「いや、何日か前に『お泊りの準備ばする』いうて、\\n寝袋だなんだ持ちだして……持ち帰ってきとりませんが」",
+    "tw": "「不過，幾天前她說“要為外宿做準備”，就把睡袋什麼的給帶走了……一直沒拿回來」",
+    "vn_old": "Một giọng nói lo lắng.",
+    "type": "misaligned",
+    "fix": "「Không, mấy hôm trước nó bảo 'chuẩn bị đồ để ngủ lại' rồi mang túi ngủ các thứ đi…… mà vẫn chưa mang về.」"
+  },
+  {
+    "key": 1478,
+    "speaker": "真闇",
+    "jp": "「例えば、ぎりぎりまで\\x%lエアクラ;#00ffc040;エアクラ%l;#;で行ってからとか」",
+    "tw": "「也許，她們乘\\x%lエアクラ;#00ffc040;空凝機%l;#;到了煤礦附近」",
+    "vn_old": "「Một cú hích nữa…… sao ạ.」",
+    "type": "misaligned",
+    "fix": "「Ví dụ như, đi \\x%lエアクラ;#00ffc040;Aircra%l;#; đến phút chót rồi mới—— chẳng hạn.」"
+  },
+  {
+    "key": 1489,
+    "speaker": "双鉄",
+    "jp": "「凪は今日、キャンプ道具を持ってでかけましたか？」",
+    "tw": "「今天凪上學的時候有沒有帶上露營道具？」",
+    "vn_old": "Một nụ cười tươi rói đến không ngờ.\\nKhông chỉ vậy, con bé còn làm động tác quyết tâm nữa.",
+    "type": "misaligned",
+    "fix": "「Nagi hôm nay có mang đồ cắm trại đi không?」"
+  },
+  {
+    "key": 1491,
+    "speaker": "蓑笠",
+    "jp": "「今日ですか？　今日は普通の通学鞄ば――」",
+    "tw": "「今天？今天她只帶了平常用的書包——」",
+    "vn_old": "「Cứ mong chờ đi! Để ngày mai anh hai được nhàn nhã,\\nem sẽ bàn giao một cái \\x%lカマ;#00ffc040;lò hơi%l;#; hoàn hảo nhất cho coi!」",
+    "type": "misaligned",
+    "fix": "「Hôm nay á? Hôm nay chỉ mang cặp sách đi học bình thường thôi——」"
+  },
+  {
+    "key": 1513,
+    "speaker": "双鉄",
+    "jp": "「日々姫と稀咲と、凪とふかみもだろう？」",
+    "tw": "「你是在說日日姬、稀咲、凪還有深美她們吧？」",
+    "vn_old": "「Thôi, cứ đi con đường nào em muốn đi nhất ấy.\\nDù em có đi nơi khác, anh cũng sẽ xoay xở được thôi.」",
+    "type": "misaligned",
+    "fix": "「Hibiki với Kisaki, Nagi với Fukami nữa, đúng không?」"
+  },
+  {
+    "key": 1515,
+    "speaker": "双鉄",
+    "jp": "「何がだ？」",
+    "tw": "「你是指誰？」",
+    "vn_old": "「A, chà, chắc là vậy rồi.」",
+    "type": "misaligned",
+    "fix": "「Cái gì cơ?」"
+  },
+  {
+    "key": 1527,
+    "speaker": "双鉄",
+    "jp": "「ハチロク。御一夜駅着だ。――定刻通りだ」",
+    "tw": "「八六。到御一夜站了。準點到達」",
+    "vn_old": "Mặt ai nấy đều hơi lấm lem,\\nnhưng lại nở những nụ cười rạng rỡ và đầy sức sống.",
+    "type": "misaligned",
+    "fix": "「Hachiroku. Đến ga Ohitoyo rồi. ——Đúng giờ.」"
+  },
+  {
+    "key": 1528,
+    "speaker": "双鉄",
+    "jp": "「ハチロク、調子が優れないのか？」",
+    "tw": "「八六，你有哪裡不舒服嗎？」",
+    "vn_old": "「Đại tu quả là một quyết định đúng đắn ngài nhỉ.」",
+    "type": "misaligned",
+    "fix": "「Hachiroku, em không khỏe à?」"
+  },
+  {
+    "key": 1530,
+    "speaker": "双鉄",
+    "jp": "「ハチロク、ナビと\\x%l共感;#00ffc040;共感%l;#;をつなげるか」",
+    "tw": "「八六，你能跟Ｎａｖｉ建立\\x%l共感;#00ffc040;共鳴%l;#;嗎」",
+    "vn_old": "「Phải làm sao để họ muốn tham gia, chứ không phải là tham gia cũng được.\\nĐể đạt đến mức độ đó thì vẫn chưa đủ.」",
+    "type": "misaligned",
+    "fix": "「Hachiroku, kết nối \\x%l共感;#00ffc040;cộng cảm%l;#; với Navi nhé.」"
+  },
+  {
+    "key": 1538,
+    "speaker": "双鉄",
+    "jp": "「ハチロク、下りるぞ。\\n\\x%lタブレット;#00ffc040;タブレット%l;#;を換えてくれ」",
+    "tw": "「八六，我們下車了。你把\\x%lタブレット;#00ffc040;操作板%l;#;換一下」",
+    "vn_old": "「Bọn em ngủ lại đây——để tiếp tục khảo sát, có được không ạ?」",
+    "type": "misaligned",
+    "fix": "「Hachiroku, xuống đi. Đổi \\x%lタブレット;#00ffc040;thẻ bảng%l;#; cho tôi.」"
+  },
+  {
+    "key": 1551,
+    "speaker": "双鉄",
+    "jp": "「[ちゃく]着、[ヒトハチマルマル,3]1800――定刻通り」",
+    "tw": "「到站，１８００——準點」",
+    "vn_old": "「À ừ, trong nhà ga đây.\\nBên này cũng vừa mới xong.」",
+    "type": "misaligned",
+    "fix": "「Đến, 1800——đúng giờ.」"
+  },
+  {
+    "key": 1566,
+    "speaker": "双鉄",
+    "jp": "「そうですか。はい――こちらも心当たりを全部――\\nはい。何か分かり次第に、すぐにご連絡します」",
+    "tw": "「原來如此。嗯——我們也會把她們可能去的地方都問一遍——好的。一有消息馬上聯繫你們」",
+    "vn_old": "「Tại sao em lại cần ngủ lại khu nội trú của trường?」",
+    "type": "misaligned",
+    "fix": "「Vâng ạ. Bên tôi cũng sẽ kiểm tra hết các điểm nghi ngờ—— Vâng, có gì là tôi liên lạc ngay.」"
+  },
+  {
+    "key": 1571,
+    "speaker": "ポーレット",
+    "jp": "「炭鉱……は、キャンプ。危ないですよね。\\nもしも、暖を取りたくて火とか使っちゃったら」",
+    "tw": "「去煤礦裡露營……是很危險的吧。如果為了取暖而生了火——」",
+    "vn_old": "Hachiroku lập tức chuyển \\x%lタブレット;#00ffc040;thẻ bảng%l;#; về lại \\x%l整備体;#00ffc040;thân chính%l;#;.\\nVậy thì tôi chỉ còn cách cầm xẻng lên lại thôi.",
+    "type": "misaligned",
+    "fix": "「Mỏ than…… mà cắm trại à. Nguy hiểm lắm đấy. Lỡ muốn sưởi ấm mà dùng lửa thì sao.」"
+  },
+  {
+    "key": 1608,
+    "speaker": "ハチロク",
+    "jp": "「少し、休んでいただけですから。\\n立つことくらいは、いくらでも」",
+    "tw": "「只是稍微休息了一下而已。站起來當然是沒問題的」",
+    "vn_old": "「Ư ư~」",
+    "type": "misaligned",
+    "fix": "「Tôi chỉ nghỉ một chút thôi. Đứng dậy thì bao nhiêu cũng được.」"
+  },
+  {
+    "key": 1611,
+    "speaker": "双鉄",
+    "jp": "「すまない」",
+    "tw": "「只能麻煩你了」",
+    "vn_old": "「Gì chứ, lại chuyện ngủ qua đêm à.」",
+    "type": "misaligned",
+    "fix": "「Xin lỗi.」"
+  },
+  {
+    "key": 1618,
+    "speaker": "コン",
+    "jp": "「ケン！」",
+    "tw": "「吭！」",
+    "vn_old": "Nỗi sợ hãi ập đến trong chốc lát.\\nRõ ràng tôi đã rũ bỏ được, đã dọn dẹp sạch sẽ rồi cơ mà.",
+    "type": "misaligned",
+    "fix": "「Keng!」"
+  },
+  {
+    "key": 1622,
+    "speaker": "ハチロク",
+    "jp": "「ふぅ……タオル、ありがとうございます」",
+    "tw": "「呼……謝謝您的毛巾」",
+    "vn_old": "「Vâng. Trong thành phố Kumamoto cũng có trường đại học có khoa Mỹ thuật mà.\\nĐi \\x%lエアクラ;#00ffc040;Aircra%l;#; mất khoảng hai tiếng một chiều——nhưng cũng ráng đi về được.」",
+    "type": "misaligned",
+    "fix": "「Phù…… Cảm ơn khăn ạ.」"
+  },
+  {
+    "key": 1624,
+    "speaker": "れいな",
+    "jp": "「ふわわ、すごい雨と風ですぅ」",
+    "tw": "「哇哇，雨和風都好大啊」",
+    "vn_old": "「Chuyện học kỳ mới cũng vậy——mà xa hơn nữa.\\nSau khi tốt nghiệp, em cũng không biết mình sẽ ra sao.」",
+    "type": "misaligned",
+    "fix": "「Phù wa, mưa to gió lớn quá à.」"
+  },
+  {
+    "key": 1630,
+    "speaker": "ポーレット",
+    "jp": "「あれ？　キャブでもないんですか？」",
+    "tw": "「哎呀？她們也不在駕駛室嗎？」",
+    "vn_old": "「Học kỳ mới bắt đầu, anh cũng khó mà nhờ vả hai đứa được.\\nQuả nhiên là cần phải tuyển thêm phụ lái toàn thời gian thôi.」",
+    "type": "misaligned",
+    "fix": "「Ơ? Không phải ở buồng lái à?」"
+  },
+  {
+    "key": 1631,
+    "speaker": "ハチロク",
+    "jp": "「え？　いえ――あ、はい。\\nそう……ですね」",
+    "tw": "「哎？沒有——嗯。是有點……」",
+    "vn_old": "Trước câu nói đó của Hachiroku, tất nhiên tôi chỉ có thể gật đầu đồng tình.",
+    "type": "misaligned",
+    "fix": "「Hử? Không——à, vâng. Đúng…… vậy nhỉ.」"
+  },
+  {
+    "key": 1633,
+    "speaker": "ポーレット",
+    "jp": "「いえいえ、乗務、お疲れ様です」",
+    "tw": "「哪裡哪裡，乘務工作辛苦你們了」",
+    "vn_old": "「Ồ.」",
+    "type": "misaligned",
+    "fix": "「Không không, cảm ơn cô đã làm việc vất vả.」"
+  },
+  {
+    "key": 1641,
+    "speaker": "ハチロク",
+    "jp": "「あ――はい、\\n左様、ですね」",
+    "tw": "「啊——好的，您說得是」",
+    "vn_old": "Uống ly cà phê sáng sớm, tôi kiểm tra lại lịch trình làm việc.\\nCái đầu còn ngái ngủ dần tỉnh táo lại, và tôi nhớ ra chuyện đó.",
+    "type": "misaligned",
+    "fix": "「À——vâng, đúng vậy nhỉ.」"
+  },
+  {
+    "key": 1646,
+    "speaker": "真闇",
+    "jp": "「ああ！」",
+    "tw": "「啊！」",
+    "vn_old": "Trái lại tôi còn thấy vui nữa là đằng khác.\\nĐơn giản là vì có thể buông chiếc xẻng xúc than ra.",
+    "type": "misaligned",
+    "fix": "「À!」"
+  },
+  {
+    "key": 1650,
+    "speaker": "双鉄",
+    "jp": "「ああ、今降りる」",
+    "tw": "「啊，我們這就下車」",
+    "vn_old": "「Anh không bảo em phải học. Anh chỉ cảm thấy tình trạng hiện tại,\\nkhi quá phụ thuộc vào nhân công thời vụ như em và Nagi, là có vấn đề thôi.」",
+    "type": "misaligned",
+    "fix": "「À, tôi xuống ngay đây.」"
+  },
+  {
+    "key": 1652,
+    "speaker": "赤井宮司",
+    "jp": "「と、私ですね。失礼」",
+    "tw": "「啊，是我的電話響了。不好意思」",
+    "vn_old": "Giọng nói của Hachiroku giúp tầm nhìn của tôi mở rộng ra.",
+    "type": "misaligned",
+    "fix": "「À, là tôi đây. Xin lỗi.」"
+  },
+  {
+    "key": 1657,
+    "speaker": "双鉄",
+    "jp": "「もしもし――え？　あれ？」",
+    "tw": "「喂——哎？咦？」",
+    "vn_old": "「Khu vực đó không chỉ \\x%lエアクラ;#00ffc040;Aircra%l;#; không vào được,\\nmà sóng điện thoại cũng không có. Lỡ xảy ra chuyện gì thì chẳng ai hay biết đâu.」",
+    "type": "misaligned",
+    "fix": "「Alo——hử? Gì vậy?」"
+  },
+  {
+    "key": 1658,
+    "speaker": "双鉄",
+    "jp": "「ああ、すみません。\\n[ざいえんせい,2]在園生の、右田日々姫の兄ですが――」",
+    "tw": "「喂，不好意思。我是貴校在讀生右田日日姬的哥哥——」",
+    "vn_old": "Hibiki phồng má lên.\\nTrông có vẻ như đang làm nũng, nhưng ánh mắt lại rất nghiêm túc.",
+    "type": "misaligned",
+    "fix": "「À, xin lỗi. Tôi là anh trai của Migita Hibiki, học sinh đang học ở trường——」"
+  },
+  {
+    "key": 1661,
+    "speaker": "ハチロク",
+    "jp": "「ええ。……ええ。\\nきちんと、わたくしは見ておりました」",
+    "tw": "「嗯……嗯。我全都看在眼裡」",
+    "vn_old": "「Có vẻ như mọi người đã có một buổi khảo sát đầy ý nghĩa nhỉ.」",
+    "type": "misaligned",
+    "fix": "「Vâng. ……Vâng. Tôi đã xem kỹ rồi ạ.」"
+  },
+  {
+    "key": 1666,
+    "speaker": "双鉄",
+    "jp": "「はい。合宿所に。ええ――\\nそうですね、可能であれば話を――はい、すみません」",
+    "tw": "「嗯。她們在集訓所。嗯——是的，如果可以的話，請讓她來接電話——好的，麻煩您了」",
+    "vn_old": "「Chỗ đó quá nguy hiểm để học sinh tự cắm trại.\\nDù có trang bị hay kinh nghiệm thì cũng vậy thôi.」",
+    "type": "misaligned",
+    "fix": "「Vâng. Ở khu nội trú. Vâng—— đúng vậy, nếu có thể thì cho tôi nói chuyện—— vâng, xin lỗi.」"
+  },
+  {
+    "key": 1675,
+    "speaker": "双鉄",
+    "jp": "「うん、御一夜側からなら、線路沿いのここ――」",
+    "tw": "「嗯，御一夜這一側，是從鐵路旁的這一區域開始——」",
+    "vn_old": "Hay là kêu gọi quyên góp từ người dân và người hâm mộ đường sắt,\\ndù huy động vốn bằng cách nào đi chăng nữa………… Ra là vậy, hiểu rồi.",
+    "type": "misaligned",
+    "fix": "「Ừ, nếu từ phía Ohitoyo thì chỗ dọc đường ray này——」"
+  },
+  {
+    "key": 1679,
+    "speaker": "ポーレット",
+    "jp": "「はい、そうです」",
+    "tw": "「嗯，是的」",
+    "vn_old": "「……Cũng phải. Dù không có em,\\nchuyện gì anh hai cũng giải quyết êm xuôi hết mà.」",
+    "type": "misaligned",
+    "fix": "「Vâng, đúng vậy.」"
+  },
+  {
+    "key": 1688,
+    "speaker": "ハチロク",
+    "jp": "「宝生稀咲様が、泊まりがけでの相談をご希望された\\nとのことで――日々姫が、どうしてもと」",
+    "tw": "「因為日日姬百般請求，說寶生稀咲小姐希望跟她們一起在外留宿，商討主意——」",
+    "vn_old": "Nhìn chúng tôi gật đầu đồng tình, Hachiroku mỉm cười hiền hòa.",
+    "type": "misaligned",
+    "fix": "「Cô Houshou Kisaki muốn được tư vấn qua đêm, nên—— bé Hibiki cứ nhất quyết đòi như vậy.」"
+  },
+  {
+    "key": 1699,
+    "speaker": "ポーレット",
+    "jp": "「堰さん、今、[ゆのい,1]湯医の発船所なんだそうです。\\n台風で流されないよう、舟、あげておくため。それで」",
+    "tw": "「堰先生說他現在就在湯醫的發船點。他要去把船拖上岸，防止被颱風颳走。然後——」",
+    "vn_old": "「A, quả nhiên là——\\nSắp mưa rồi đây.」",
+    "type": "misaligned",
+    "fix": "「Ông Seki giờ đang ở bến thuyền Yunoi đấy ạ. Để thuyền không bị bão cuốn đi nên phải đưa thuyền lên bờ. Vì vậy——」"
+  },
+  {
+    "key": 1712,
+    "speaker": "双鉄",
+    "jp": "「そのメンツなら、外泊だ。\\n学園の合宿所に泊まるということだ」",
+    "tw": "「她們一行人今天在外留宿。說是在學校的集訓所裡過夜」",
+    "vn_old": "「Hừm.」",
+    "type": "misaligned",
+    "fix": "「Với đội hình đó thì là ngủ lại bên ngoài. Tức là ngủ ở khu nội trú của trường.」"
+  },
+  {
+    "key": 1714,
+    "speaker": "真闇",
+    "jp": "「ナビが頼まれたってことはなかと？」",
+    "tw": "「她們會不會是託了Ｎａｖｉ送她們過去？」",
+    "vn_old": "Vì cũng đang để ý chuyện đó nên tôi hiểu ngay.",
+    "type": "misaligned",
+    "fix": "「Navi được nhờ việc gì sao?」"
+  },
+  {
+    "key": 1715,
+    "speaker": "双鉄",
+    "jp": "「居ない、ですか？　日々姫が――\\n稀咲も、凪も、ふかみも――四人……揃って」",
+    "tw": "「她們，不在那？日日姬——還有稀咲、凪、深美——四個人……都不在」",
+    "vn_old": "Việc phản đối chỉ vì muốn phản đối thật là ngu ngốc.\\nChuyện nào ra chuyện đó, phải tách biệt với trước đây để phán đoán.",
+    "type": "misaligned",
+    "fix": "「Không có, sao? Hibiki—— Kisaki nữa, Nagi nữa, Fukami nữa—— bốn người…… tất cả sao.」"
+  },
+  {
+    "key": 1718,
+    "speaker": "ポーレット",
+    "jp": "「はい！　お願いしてみます」",
+    "tw": "「好的！我這就打電話請求他」",
+    "vn_old": "「Ừ.」",
+    "type": "misaligned",
+    "fix": "「Vâng! Để tôi thử nhờ xem.」"
+  },
+  {
+    "key": 1722,
+    "speaker": "真闇",
+    "jp": "「歩き以外は？」",
+    "tw": "「如果她們不是走路過去的呢？」",
+    "vn_old": "Vừa bảo tồn SL ở trạng thái bán động, vừa kế thừa kỹ thuật bảo dưỡng cải tạo,\\nđồng thời xây dựng cơ sở tham quan du lịch như một bảo tàng SL.",
+    "type": "misaligned",
+    "fix": "「Ngoài đi bộ ra thì sao?」"
+  },
+  {
+    "key": 1738,
+    "speaker": "れいな",
+    "jp": "「コンちゃん、通訳お願いするですぅ」",
+    "tw": "「小空，就麻煩你做翻譯了」",
+    "vn_old": "Chỉ là cán qua một viên sỏi hay dị vật gì đó thôi——\\nVậy mà toàn thân tôi như đông cứng lại.",
+    "type": "misaligned",
+    "fix": "「Kon-chan, nhờ phiên dịch giúp ạ.」"
+  },
+  {
+    "key": 1739,
+    "speaker": "真闇",
+    "jp": "「双ちゃん！」",
+    "tw": "「小雙！」",
+    "vn_old": "Hachiroku nói với ánh mắt như đang nhìn về nơi xa xăm nào đó.",
+    "type": "misaligned",
+    "fix": "「Sou-chan!」"
+  },
+  {
+    "key": 1740,
+    "speaker": "真闇",
+    "jp": "「双ちゃん、[じゅつせん,1]術仙炭鉱じゃなかと？」",
+    "tw": "「小雙，她們會不會在術仙煤礦？」",
+    "vn_old": "Nếu thêm vào đó góc nhìn của một họa sĩ như Hibiki,\\nvà ánh mắt luôn chăm chú vào một điểm của Fukami nữa thì……",
+    "type": "misaligned",
+    "fix": "「Sou-chan, ở mỏ than Jutsusen phải không?」"
+  },
+  {
+    "key": 1763,
+    "speaker": "双鉄",
+    "jp": "「ここから、線路沿いに二キロも歩けば術仙炭鉱近辺に\\n到着できるが、湯医側から歩くとなると……」",
+    "tw": "「從這裡沿鐵路走兩公里，就能到達術仙煤礦附近。但如果是從湯醫那邊走過去……」",
+    "vn_old": "「Vậy thì! Tụi em ngủ lại được chứ?」",
+    "type": "misaligned",
+    "fix": "「Từ đây đi bộ dọc đường ray 2km là tới gần mỏ than Jutsusen, nhưng đi bộ từ phía Yunoi thì……」"
+  },
+  {
+    "key": 1768,
+    "speaker": "ハチロク",
+    "jp": "「そんなっ」",
+    "tw": "「怎麼會這樣」",
+    "vn_old": "「Ban ngày mọi người đều bận mà.\\nChỉ có buổi tối mới có thể tập trung lại bàn bạc kỹ lưỡng được thôi.」",
+    "type": "misaligned",
+    "fix": "「Sao cơ chứ!」"
+  },
+  {
+    "key": 1769,
+    "speaker": "双鉄",
+    "jp": "「どうだ？　立てるか？」",
+    "tw": "「怎麼樣？能站起來嗎？」",
+    "vn_old": "「Đâu phải chuyện cần xin lỗi.\\nBổn phận của học sinh là học hành mà.」",
+    "type": "misaligned",
+    "fix": "「Sao rồi? Đứng dậy được không?」"
+  },
+  {
+    "key": 1773,
+    "speaker": "ハチロク",
+    "jp": "「見事な運転でございました。双鉄様」",
+    "tw": "「您的駕駛操作非常完美。雙鐵少爺」",
+    "vn_old": "「Không, sự thú vị cũng quan trọng lắm đấy.\\nAnh Soutetsu. Có vẻ như nơi này có giá trị vượt xa dự đoán của tôi.」",
+    "type": "misaligned",
+    "fix": "「Lái xe tuyệt vời ạ, ngài Soutetsu.」"
+  },
+  {
+    "key": 1779,
+    "speaker": "双鉄",
+    "jp": "「それは僕も考えた。\\nが、[ゆのい,1]湯医から徒歩でいけるような場所ではないし」",
+    "tw": "「我也覺得有可能。但是那裡離湯醫很遠，走路到不了的」",
+    "vn_old": "「Anh cũng thấy thú vị đấy——nhưng mà……\\nPhương án tái phát triển hiện tại vẫn chưa đủ sao?」",
+    "type": "misaligned",
+    "fix": "「Tôi cũng đã nghĩ vậy. Nhưng đó không phải là nơi có thể đi bộ từ Yunoi tới được.」"
+  },
+  {
+    "key": 1782,
+    "speaker": "ポーレット",
+    "jp": "「それはわたしが」",
+    "tw": "「我來問吧」",
+    "vn_old": "「Nếu ngủ lại đêm mai, và sáng mốt về\\nthì chắc không sao đâu nhỉ?」",
+    "type": "misaligned",
+    "fix": "「Chuyện đó để tôi lo.」"
+  },
+  {
+    "key": 1784,
+    "speaker": "ポーレット",
+    "jp": "「湯医近辺のタクシー会社さん。日々姫ちゃんたち、\\n四人でも別々にでも、乗ってないみたいです」",
+    "tw": "「我剛才聯繫了湯醫附近的計程車公司。都說沒有載過日日姬她們，不管是四人一起還是分別乘坐」",
+    "vn_old": "「Xin lỗi, ngài Soutetsu.\\nNgài có rảnh không ạ?」",
+    "type": "misaligned",
+    "fix": "「Công ty taxi gần Yunoi ấy ạ. Nhóm bé Hibiki, bốn người, dù đi cùng nhau hay đi riêng thì có vẻ đều không đi taxi.」"
+  },
+  {
+    "key": 1789,
+    "speaker": "双鉄",
+    "jp": "「許可をしたのは昨日の朝だったのだ。\\nそのときの予報では、台風はまだ来ないはずだった」",
+    "tw": "「我是昨天早上同意她們這麼做的。按照那時候的天氣預報，現在颱風應該還沒來」",
+    "vn_old": "『「Đúng vậy.」\\n「Vâng!」』",
+    "type": "misaligned",
+    "fix": "「Tôi cho phép là vào sáng hôm qua. Lúc đó dự báo nói bão vẫn chưa tới.」"
+  },
+  {
+    "key": 1790,
+    "speaker": "永山",
+    "jp": "「炊き出し、おにぎりとお味噌汁用意するから」",
+    "tw": "「我會為他們準備飯糰和味噌湯的」",
+    "vn_old": "……Chỉ có thể thở ra những hơi ngắn và mỏng manh.\\nMồ hôi túa ra đầm đìa.",
+    "type": "misaligned",
+    "fix": "「Tôi nấu cơm nắm với súp miso để phát cho mọi người nhé.」"
+  },
+  {
+    "key": 1797,
+    "speaker": "ポーレット",
+    "jp": "「わかりました」",
+    "tw": "「我知道了」",
+    "vn_old": "Những dị vật nhỏ bám trên đường ray sẽ nổi lên,\\nlàm giảm \\x%l粘着力;#00ffc040;lực bám đường%l;#; một cách đáng kể——!?",
+    "type": "misaligned",
+    "fix": "「Tôi rõ rồi.」"
+  },
+  {
+    "key": 1799,
+    "speaker": "赤井宮司",
+    "jp": "「聞きました。手伝えることがあればいってください」",
+    "tw": "「我知道情況了。如果有什麼我們能幫忙的，請儘管開口」",
+    "vn_old": "Tiếng gió gào thét.\\nMùi than cháy——mùi khét lẹt.",
+    "type": "misaligned",
+    "fix": "「Tôi nghe rồi. Có gì giúp được thì cứ nói.」"
+  },
+  {
+    "key": 1808,
+    "speaker": "ポーレット",
+    "jp": "「それで……ええと、日々姫ちゃんたち――」",
+    "tw": "「於是……呃，日日姬她們——」",
+    "vn_old": "Tự mình tìm hiểu, tự mình suy nghĩ——\\nNhận ra con bé đã trưởng thành hơn, tôi thấy thật vui.",
+    "type": "misaligned",
+    "fix": "「Vậy thì…… ừm, nhóm bé Hibiki——」"
+  },
+  {
+    "key": 1810,
+    "speaker": "双鉄",
+    "jp": "「舟をあげるなら――[せき]堰さんは湯医に、\\nガソリンエンジン車で向かっているのだよな？」",
+    "tw": "「既然堰先生在拉船上岸——他應該是開他的汽油引擎車去湯醫的吧？」",
+    "vn_old": "Thấy vậy, Hachiroku đổi \\x%lタブレット;#00ffc040;thẻ bảng%l;#;,\\ntrở lại \\x%l運転体;#00ffc040;thân điều khiển%l;#; và cất giọng nghiêm túc.",
+    "type": "misaligned",
+    "fix": "「Nếu đưa thuyền lên bờ thì—— ông Seki đang đi xe chạy xăng tới Yunoi, đúng không?」"
+  },
+  {
+    "key": 1818,
+    "speaker": "ポーレット",
+    "jp": "「日々姫ちゃんたちです。\\n\\x%l客車;#00ffc040;客車%l;#;に乗ってなかったし――わぷっ！？」",
+    "tw": "「日日姬她們啊。也沒在\\x%l客車;#00ffc040;客運車廂%l;#;——哇噗！？」",
+    "vn_old": "Hibiki khẽ ngước mắt lên nhìn dò xét.",
+    "type": "misaligned",
+    "fix": "「Là nhóm bé Hibiki đấy. Họ không lên \\x%l客車;#00ffc040;toa hành khách%l;#;——oa!?」"
+  },
+  {
+    "key": 1823,
+    "speaker": "ハチロク",
+    "jp": "「はい――繋ぎます。え？　ああ！」",
+    "tw": "「是——我這就接通。哎？啊！」",
+    "vn_old": "「Ý là cần một cú hích về mặt PR sao.」",
+    "type": "misaligned",
+    "fix": "「Vâng—— tôi nối máy đây. Hử? À!」"
+  },
+  {
+    "key": 1825,
+    "speaker": "ポーレット",
+    "jp": "「はい。はい――え！？　そうなんですか？\\nはい！　わかりました。ありがとうございます！」",
+    "tw": "「是。是——哎！？這樣嗎？好的！我知道了。非常感謝！」",
+    "vn_old": "Theo lời yêu cầu, tôi cử động cánh tay nặng trĩu tê rần,\\nđặt tay lên tay cầm \\x%l自弁;#00ffc040;van hãm tự động%l;#;.",
+    "type": "misaligned",
+    "fix": "「Vâng. Vâng—— hả!? Thật sao? Vâng! Tôi rõ rồi. Cảm ơn ạ!」"
+  },
+  {
+    "key": 1830,
+    "speaker": "双鉄",
+    "jp": "「そうだな。\\nガスと当たってしまえば――最悪爆発だ」",
+    "tw": "「是啊。如果點燃了瓦斯——最糟糕的情況下會引發爆炸」",
+    "vn_old": "「……Có vẻ như không cầm cự được đến lúc về ga Ohitoyo rồi.」",
+    "type": "misaligned",
+    "fix": "「Đúng vậy. Nếu gặp khí gas thì—— tệ nhất là nổ tung.」"
+  },
+  {
+    "key": 1835,
+    "speaker": "双鉄",
+    "jp": "「そうか。ならば――ほら」",
+    "tw": "「是嗎。既然這樣——來」",
+    "vn_old": "Ngăn chặn được tai nạn, kéo dài tuổi thọ cho \\x%lキハ07;#00ffc040;KiHa 07%l;#;,\\nđây quả thực là điều may mắn nhất.",
+    "type": "misaligned",
+    "fix": "「Phải không. Vậy thì—— này.」"
+  },
+  {
+    "key": 1839,
+    "speaker": "ポーレット",
+    "jp": "「はい。そうおっしゃってました」",
+    "tw": "「是的。他就是這樣說的」",
+    "vn_old": "「Áp suất không khí à?」",
+    "type": "misaligned",
+    "fix": "「Vâng. Cô ấy nói vậy đấy.」"
+  },
+  {
+    "key": 1843,
+    "speaker": "双鉄",
+    "jp": "「そうですか」",
+    "tw": "「是這樣嗎」",
+    "vn_old": "Hướng mắt về phía ghế \\x%l機関士;#00ffc040;lái tàu%l;#;,\\nHachiroku dời ánh nhìn đang chằm chằm vào bầu trời sang tôi.",
+    "type": "misaligned",
+    "fix": "「Vậy sao.」"
+  },
+  {
+    "key": 1849,
+    "speaker": "真闇",
+    "jp": "「一番近くて……六キロくらい？」",
+    "tw": "「最近的路……少說也有六公里？」",
+    "vn_old": "「Thôi được, nếu là khu nội trú của trường thì chắc không sao.\\nDù vậy, cũng phải xin phép chị Mayami nữa.」",
+    "type": "misaligned",
+    "fix": "「Gần nhất thì…… khoảng sáu cây số?」"
+  },
+  {
+    "key": 1861,
+    "speaker": "双鉄",
+    "jp": "「推測だけでは動き辛い。\\n最もつかみやすい手がかりは…………舟か」",
+    "tw": "「根據臆測來採取行動是不理智的。現在最容易掌握的線索…………就是船」",
+    "vn_old": "Tầm nhìn trở nên cực kỳ tồi tệ.\\nTiếng mưa lấn át cả tiếng nói.",
+    "type": "misaligned",
+    "fix": "「Chỉ suy đoán thì khó hành động. Manh mối dễ nắm nhất là………… thuyền sao.」"
+  },
+  {
+    "key": 1870,
+    "speaker": "ポーレット",
+    "jp": "「はい、どうぞ。あ、学園の番号ってわかります？」",
+    "tw": "「沒問題，請用。啊，你知道學校的電話號碼嗎？」",
+    "vn_old": "「Ở khu nội trú của trường.\\nEm ngủ lại được không?」",
+    "type": "misaligned",
+    "fix": "「Vâng, mời anh. À, anh biết số điện thoại của trường không?」"
+  },
+  {
+    "key": 1871,
+    "speaker": "ハチロク",
+    "jp": "「やはり[じょし,1]助士抜きの体制ですと、[かんそう,1]換装が多くなりますから。\\nその分、負荷が」",
+    "tw": "「沒有司爐幫忙的話，我更換身體的頻度會變高。這對我造成了一些負擔」",
+    "vn_old": "「Thật may là phát hiện ra khi vết nứt còn nhỏ.\\nNgoài ra cũng không có lỗi nào nghiêm trọng nữa.」",
+    "type": "misaligned",
+    "fix": "「Quả nhiên, nếu không có phụ lái thì số lần \\x%l換装;#00ffc040;đổi thân%l;#; sẽ nhiều lên. Nên gánh nặng cũng——」"
+  },
+  {
+    "key": 1893,
+    "speaker": "れいな",
+    "jp": "「炭鉱内には、ガスが発生しやすいんですよぉ。\\n工具とかも、火花が出ないものを使うくらいですからぁ」",
+    "tw": "「煤礦裡很容易產生瓦斯。工具也必須用不會產生火花的」",
+    "vn_old": "Chắc do mệt mỏi, than ném vào không tản ra đều được.",
+    "type": "misaligned",
+    "fix": "「Trong mỏ than dễ sinh khí gas lắm ạ. Dụng cụ cũng toàn dùng loại không phát tia lửa đấy ạ.」"
+  },
+  {
+    "key": 1894,
+    "speaker": "ハチロク",
+    "jp": "「爆発って――」",
+    "tw": "「爆炸——」",
+    "vn_old": "「Đúng vậy. Trông cứ như……」",
+    "type": "misaligned",
+    "fix": "「Nổ tung——」"
+  },
+  {
+    "key": 1901,
+    "speaker": "れいな",
+    "jp": "「れいなも、お願いしてくるですねぇ」",
+    "tw": "「玲奈也去找幫手」",
+    "vn_old": "（Khục）",
+    "type": "misaligned",
+    "fix": "「Reina cũng đi nhờ giúp đây ạ.」"
+  },
+  {
+    "key": 1903,
+    "speaker": "ポーレット",
+    "jp": "「今、稼働できる車輌が[ハチロクニイマル,3]8620しかありませんから」",
+    "tw": "「現在能運作的車輛只有８６２０了」",
+    "vn_old": "Bầu trời mới nãy còn nhuộm màu hoàng hôn tuyệt đẹp,\\nchỉ trong chớp mắt đã bị bao phủ bởi một màu đen đặc xịt.",
+    "type": "misaligned",
+    "fix": "「Giờ chỉ còn toa xe chạy được là 8620 thôi.」"
+  },
+  {
+    "key": 1907,
+    "speaker": "双鉄",
+    "jp": "「舟が一[そう]艘――足りないのだな？」",
+    "tw": "「發現少了一艘船——是嗎？」",
+    "vn_old": "Chỉ một câu đó,\\ntôi đã hiểu lý do em ấy đổi sang \\x%l運転体;#00ffc040;thân điều khiển%l;#; có cảm biến tốt hơn.",
+    "type": "misaligned",
+    "fix": "「Thuyền chỉ có một chiếc—— không đủ nhỉ?」"
+  },
+  {
+    "key": 1910,
+    "speaker": "双鉄",
+    "jp": "「ならば四人は、川を下って術仙炭鉱近辺に\\n向かった可能性が高い」",
+    "tw": "「看來她們四人很可能是乘船順流而下，去術仙煤礦附近了」",
+    "vn_old": "「Vâng.\\nA——Ngài xem, mắt thường cũng thấy mây đen kìa.」",
+    "type": "misaligned",
+    "fix": "「Vậy thì bốn người khả năng cao đã xuôi sông tới gần mỏ than Jutsusen.」"
+  },
+  {
+    "key": 1915,
+    "speaker": "双鉄",
+    "jp": "「真闇姉っ」",
+    "tw": "「真闇姐」",
+    "vn_old": "Hoặc có lẽ,\\nđó là lời mà lái tàu Kiyomi đã nói với em ấy ngày xưa?",
+    "type": "misaligned",
+    "fix": "「Chị Mayami!」"
+  },
+  {
+    "key": 1917,
+    "speaker": "双鉄",
+    "jp": "「真闇姉、ポーレット。しばらく頼む。\\n僕らはいつでも出られるように、整えておく」",
+    "tw": "「真闇姐，波萊特。這裡先麻煩你們看著了。我去做一下準備以備隨時出發」",
+    "vn_old": "Cơ thể tôi cử động, giống như mọi khi.\\nCứ làm như mọi khi là được——",
+    "type": "misaligned",
+    "fix": "「Chị Mayami, Paulette. Nhờ hai người một lúc nhé. Bọn tôi sẽ chuẩn bị để lúc nào cũng xuất phát được.」"
+  },
+  {
+    "key": 1930,
+    "speaker": "双鉄",
+    "jp": "「ああいや、タクシー会社に問い合わせてみよう。\\n自宅からの送迎がなかったことは確認している」",
+    "tw": "「算了，我去問問計程車公司。我已經確認過不是在自家門口接送的了」",
+    "vn_old": "Ánh mắt Hachiroku,\\nrơi xuống tờ báo đặt trên bàn.",
+    "type": "misaligned",
+    "fix": "「À không, thử hỏi công ty taxi xem. Tôi đã xác nhận là không có xe đưa đón từ nhà rồi.」"
+  },
+  {
+    "key": 1935,
+    "speaker": "赤井宮司",
+    "jp": "「とりあえずは、[うじこ,1]氏子さんたちの連絡網で、\\n情報を集めてもらっています」",
+    "tw": "「總之，我先利用信徒們的情報網，讓他們收集一些訊息」",
+    "vn_old": "（Không dễ gì…… buông tha cho mình sao.）",
+    "type": "misaligned",
+    "fix": "「Trước mắt thì tôi đang nhờ mạng liên lạc của các tín đồ thu thập thông tin.」"
+  },
+  {
+    "key": 1953,
+    "speaker": "双鉄",
+    "jp": "「蓑笠さん、丁度よかった！」",
+    "tw": "「蓑笠先生，您來得正好！」",
+    "vn_old": "Ca trực cố định chỉ có tôi làm \\x%l機関士;#00ffc040;lái tàu%l;#;, Hibiki làm phụ lái,\\nchúng tôi không còn cách nào khác ngoài việc cố gắng hoàn thành 4 vòng khứ hồi, gồm 2 chuyến đi lại hàng ngày và 2 chuyến tham quan.",
+    "type": "misaligned",
+    "fix": "「Ông Minokasa, đúng lúc quá!」"
+  },
+  {
+    "key": 1972,
+    "speaker": "双鉄",
+    "jp": "「全滅だ。蓑笠さんのところも、早瀬さんのところも――\\n宝生さんのところでも、心当たりが無いそうだ」",
+    "tw": "「誰都不知道。不管是蓑笠先生、早瀨女士，還是寶生先生——都沒有她們的消息」",
+    "vn_old": "Tôi vừa định nói thì nhận ra ngay,\\nvà quả nhiên Hibiki đã bổ sung thêm.",
+    "type": "misaligned",
+    "fix": "「Toàn diệt rồi. Cả nhà ông Minokasa, nhà Hayase—— cả nhà Houshou cũng bảo là không có manh mối gì.」"
+  },
+  {
+    "key": 1973,
+    "speaker": "双鉄",
+    "jp": "「術仙炭鉱近辺の上陸可能地点に、舟があるかないかだけ。\\nその一点だけ確認し、報告して欲しいとお願いしてくれ」",
+    "tw": "「請他幫忙看看術仙煤炭附近那些可能的上岸點有沒有船只停靠，然後告訴我們就好」",
+    "vn_old": "Giai đoạn đòi hỏi sự chú ý cao độ nhất,\\nkhông phải là lúc mưa ướt sũng, mà là lúc vừa mới bắt đầu mưa.",
+    "type": "misaligned",
+    "fix": "「Chỉ cần xác nhận và báo lại một điểm duy nhất thôi: có thuyền ở điểm có thể cập bờ gần mỏ than Jutsusen hay không.」"
+  },
+  {
+    "key": 1976,
+    "speaker": "双鉄",
+    "jp": "「ありがとう。それではすまんが、\\n[せき]堰さんにかけてくれんか？」",
+    "tw": "「謝謝你。不好意思，能麻煩你再打電話給堰先生嗎？」",
+    "vn_old": "「Không sao.」",
+    "type": "misaligned",
+    "fix": "「Cảm ơn. Vậy xin lỗi, gọi cho ông Seki giúp tôi được không?」"
+  },
+  {
+    "key": 1998,
+    "speaker": "双鉄",
+    "jp": "「これはたまらん。転車を先にすませてしまおう。\\n話はそのあと、レールショップで」",
+    "tw": "「這可真是受不了。我先去轉車。有什麼話留到鐵路商店裡說」",
+    "vn_old": "「Ở quê á?」",
+    "type": "misaligned",
+    "fix": "「Chịu không nổi. Làm xong việc quay đầu tàu trước đã. Chuyện sau đó nói ở rail shop.」"
+  },
+  {
+    "key": 1999,
+    "speaker": "真闇",
+    "jp": "「コピーやけん。直接書きこんじゃってよかよ」",
+    "tw": "「這是影本。直接畫也沒事」",
+    "vn_old": "Nhắc đến tiền vốn thì đúng là đau đầu thật.",
+    "type": "misaligned",
+    "fix": "「Là bản copy mà. Cứ viết trực tiếp vào là được.」"
+  },
+  {
+    "key": 2001,
+    "speaker": "雲山",
+    "jp": "「こっちもだ。檀家の連中がほうぼう聞きまわってる」",
+    "tw": "「這邊也是。寺廟的施主們基本都去打探消息了」",
+    "vn_old": "Tôi nuốt cơn buồn nôn xuống, và theo phản xạ, tôi thở hắt ra.",
+    "type": "misaligned",
+    "fix": "「Bên này cũng vậy. Đám đàn em đang hỏi thăm khắp nơi.」"
+  },
+  {
+    "key": 2002,
+    "speaker": "真闇",
+    "jp": "「こぎゃん広かと？」",
+    "tw": "「這麼大一片？」",
+    "vn_old": "Hạn mức cho vay ở cấp chi nhánh thì không thể nào đủ được.\\nPhải cần đến khoản vay do Houshou Mototada quyết định, hoặc sự tham gia góp vốn của các công ty đường sắt.",
+    "type": "misaligned",
+    "fix": "「Rộng thế này cơ á?」"
+  },
+  {
+    "key": 2006,
+    "speaker": "双鉄",
+    "jp": "「\\x%l絶気;#00ffc040;絶気%l;#;良し。\\x%l前進フルギア;#00ffc040;前進フルギア%l;#;」",
+    "tw": "「進入無汽狀態。\\x%l前進フルギア;#00ffc040;滿檔前進%l;#;」",
+    "vn_old": "Thao tác chuẩn bị để dừng tàu.\\nCả \\x%l8620;#00ffc040;8620%l;#; và tôi, đều đã tiến đến bước này rồi.",
+    "type": "misaligned",
+    "fix": "「\\x%l絶気;#00ffc040;cắt hơi%l;#; tốt. \\x%l前進フルギア;#00ffc040;Tiến hết ga%l;#;」"
+  },
+  {
+    "key": 2008,
+    "speaker": "ポーレット",
+    "jp": "「泊まるって――」",
+    "tw": "「過夜——」",
+    "vn_old": "Tôi vốn định nói lời cổ vũ,\\nnhưng lại làm con bé buồn đi mất rồi.",
+    "type": "misaligned",
+    "fix": "「Ngủ lại á——」"
+  },
+  {
+    "key": 2019,
+    "speaker": "双鉄",
+    "jp": "「だったら、よかった」",
+    "tw": "「那就好」",
+    "vn_old": "Nói rồi, Kisaki nhìn Hibiki như muốn thúc giục.",
+    "type": "misaligned",
+    "fix": "「Vậy thì tốt quá.」"
+  },
+  {
+    "key": 2022,
+    "speaker": "真闇",
+    "jp": "「やったら、他は……\\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;以外で――」",
+    "tw": "「那，除此之外……除\\x%lエアクラ;#00ffc040;空凝機%l;#;之外——」",
+    "vn_old": "「Em rất mong chờ\\nmọi người sẽ nghĩ ra những ý tưởng hay ho đấy ạ.」",
+    "type": "misaligned",
+    "fix": "「Làm thì, còn lại thì…… ngoài \\x%lエアクラ;#00ffc040;Aircra%l;#; ra thì——」"
+  },
+  {
+    "key": 2036,
+    "speaker": "双鉄",
+    "jp": "「制限４０」",
+    "tw": "「限速４０」",
+    "vn_old": "Bàn tay Hachiroku nắm lấy tay tôi.",
+    "type": "misaligned",
+    "fix": "「Giới hạn 40.」"
+  },
+  {
+    "key": 2041,
+    "speaker": "双鉄",
+    "jp": "「歩けぬ距離ではなかろうが……\\n四人全員、きちんと登園はしたとのことなのだ」",
+    "tw": "「雖然勉強算是可以步行的距離……但聽說她們四個人今天都是去了學校的」",
+    "vn_old": "「Chị hai cho phép rồi!\\nChỉ cần anh hai ok là ok.」",
+    "type": "misaligned",
+    "fix": "「Tuy không phải là quãng đường không đi bộ được…… nhưng nghe nói cả bốn đứa đều đã đến trường đàng hoàng.」"
+  },
+  {
+    "key": 2042,
+    "speaker": "双鉄",
+    "jp": "「とは思うのだが――」",
+    "tw": "「雖然我也是這麼想的——」",
+    "vn_old": "Có lẽ Hibiki cũng giống như tôi,\\nđều cảm thấy nhẹ nhõm.",
+    "type": "misaligned",
+    "fix": "「Tôi cũng nghĩ vậy nhưng——」"
+  },
+  {
+    "key": 2044,
+    "speaker": "双鉄",
+    "jp": "「そうしたいのはやまやまだが、手がかりも無しの捜索は\\nどれほどの時間がかかってしまうかわからない」",
+    "tw": "「雖然我很想現在就過去，但是現在手頭一點線索都沒有，要找她們無異於大海撈針」",
+    "vn_old": "Từng cuộn khói cuồn cuộn hòa vào mây.\\nTrôi đi rất nhanh. Đến mức dị thường.",
+    "type": "misaligned",
+    "fix": "「Tôi cũng rất muốn làm vậy, nhưng tìm kiếm mà không có manh mối thì không biết sẽ mất bao lâu.」"
+  },
+  {
+    "key": 2050,
+    "speaker": "ポーレット",
+    "jp": "「双鉄君？　いいですか？」",
+    "tw": "「雙鐵君？現在方便嗎？」",
+    "vn_old": "Nhìn biểu cảm đó, tôi hiểu là con bé tưởng mình đang bị thuyết giáo.",
+    "type": "misaligned",
+    "fix": "「Anh Soutetsu? Được không?」"
+  },
+  {
+    "key": 2051,
+    "speaker": "蓑笠",
+    "jp": "「双鉄君。凪が、ご迷惑ばかけまして」",
+    "tw": "「雙鐵小弟。我家凪給你添麻煩了」",
+    "vn_old": "Hôm nay có khách đoàn đi thuyền trên sông Kuma,\\nnên Nagi xin nghỉ.",
+    "type": "misaligned",
+    "fix": "「Cậu Soutetsu. Nagi đã gây phiền phức cho cậu rồi.」"
+  },
+  {
+    "key": 2052,
+    "speaker": "ハチロク",
+    "jp": "「双鉄様――」",
+    "tw": "「雙鐵少爺——」",
+    "vn_old": "「Chuyện đó thì cứ làm vào ban ngà——A.」",
+    "type": "misaligned",
+    "fix": "「Ngài Soutetsu——」"
+  },
+  {
+    "key": 2054,
+    "speaker": "ハチロク",
+    "jp": "「でしたら、双鉄様！　すぐ向かいましょう」",
+    "tw": "「雙鐵少爺！既然如此，我們快點趕過去吧」",
+    "vn_old": "「Cứ như thể khói của \\x%l8620;#00ffc040;8620%l;#; đang biến thành mây mưa vậy.」",
+    "type": "misaligned",
+    "fix": "「Vậy thì, ngài Soutetsu! Đi ngay thôi.」"
+  },
+  {
+    "key": 2056,
+    "speaker": "ハチロク",
+    "jp": "「双鉄様、ナビが。飛行禁止区域外の川沿いを」",
+    "tw": "「雙鐵少爺，Ｎａｖｉ請求准許它沿禁飛區域外的水域搜尋」",
+    "vn_old": "Nhưng——chỉ một chút nữa là đến ga Ohitoyo rồi.",
+    "type": "misaligned",
+    "fix": "「Ngài Soutetsu, Navi đang…… dọc bờ sông ngoài vùng cấm bay.」"
+  },
+  {
+    "key": 2059,
+    "speaker": "双鉄",
+    "jp": "「みなさん――ありがとうございます」",
+    "tw": "「非常——非常感謝你們」",
+    "vn_old": "「Ngài…… Soutetsu.」",
+    "type": "misaligned",
+    "fix": "「Mọi người—— cảm ơn mọi người.」"
+  },
+  {
+    "key": 2068,
+    "speaker": "蓑笠",
+    "jp": "「っ！！？」",
+    "tw": "「！！？」",
+    "vn_old": "「Anh biết là việc \\x%l投炭;#00ffc040;xúc than%l;#; sẽ vất vả lắm……\\nNhưng xin lỗi nhé, hôm nay em cố gắng lên nha.」",
+    "type": "misaligned",
+    "fix": "「Ư!!?」"
+  },
+  {
+    "key": 2069,
+    "speaker": "双鉄",
+    "jp": "「！？」",
+    "tw": "「！？」",
+    "vn_old": "（Thịch）",
+    "type": "misaligned",
+    "fix": "「!?」"
+  },
+  {
+    "key": 2071,
+    "speaker": "ハチロク",
+    "jp": "「ナビは、ずっと双鉄様のフォローをしていたそうです。\\n誰も乗せてもいないし、何も頼まれてもいないと」",
+    "tw": "「Ｎａｖｉ一直在跟著雙鐵少爺。它沒有載過任何人，也沒有人拜託過它」",
+    "vn_old": "「Hahaha, có lý.\\nVậy thì được. Ngày mai đi cẩn thận đấy.」",
+    "type": "misaligned",
+    "fix": "「Nghe nói Navi đã luôn hỗ trợ ngài Soutetsu. Không chở ai cả, cũng không được nhờ việc gì.」"
+  },
+  {
+    "key": 2238,
+    "speaker": "monologue",
+    "jp": "判断ミスをしたかもと、そんな気持ちもそこに混じって、\\nどうにもそわそわ、落ち着かん。",
+    "tw": "一想到我可能做出了錯誤的判斷，這份懊惱就與不安混雜在一起，讓我坐立難安。",
+    "vn_old": "「Ngày mai á?\\nNếu được, em muốn ở lại trường buổi tối luôn.」",
+    "type": "misaligned",
+    "fix": "Có lẽ tôi đã phán đoán sai, cảm giác đó cũng lẫn vào, khiến tôi cứ bồn chồn không yên."
+  },
+  {
+    "key": 2252,
+    "speaker": "monologue",
+    "jp": "でなければ、風雨の音や振動くらいで、\\nこれほどまでに動揺するなど、ありえなかろう。",
+    "tw": "不然的話，我怎麼會因為那區區風聲和震動就動搖成那樣。",
+    "vn_old": "Tôi và Hibiki là anh em mà,\\nnên dư sức đoán được bằng trực giác.",
+    "type": "misaligned",
+    "fix": "Nếu không thì, chỉ vì tiếng mưa gió và rung động mà dao động đến mức này thì không thể nào."
+  },
+  {
+    "key": 2254,
+    "speaker": "monologue",
+    "jp": "工場誘致賛成派も反対派も無い。\\n地域の危機には、手を取り合って、繋がれる。",
+    "tw": "不論是否贊成工廠落戶，只要遇到危機，大家就會牽手並肩團結起來。",
+    "vn_old": "Dùng sức nhiều thế này,\\nthì không thể nào hãm phanh êm ái được.",
+    "type": "misaligned",
+    "fix": "Không có phe ủng hộ hay phe phản đối việc mời nhà máy về. Trước khủng hoảng của vùng, mọi người nắm tay nhau, kết nối lại."
+  },
+  {
+    "key": 2266,
+    "speaker": "monologue",
+    "jp": "今日はとにかく、早く帰って寝てしまいたい。\\n体が、酷く疲れているし――",
+    "tw": "今天就這樣趕緊回家，趕緊睡覺吧。我的身體已經疲憊不堪了——",
+    "vn_old": "Hibiki khẽ gật đầu,\\nrồi ngước lên nhìn tôi bằng đôi mắt nũng nịu.",
+    "type": "misaligned",
+    "fix": "Hôm nay dù sao tôi cũng muốn về sớm rồi đi ngủ. Cơ thể mệt rã rời——"
+  },
+  {
+    "key": 2279,
+    "speaker": "monologue",
+    "jp": "そこまでいって。\\nああ――と蓑笠さんが小さく呻く。",
+    "tw": "他說到一半，又發出了“啊啊——”的咕噥聲。",
+    "vn_old": "「Ơ kìa?」",
+    "type": "misaligned",
+    "fix": "Nói đến đó. À—— ông Minokasa khẽ rên lên."
+  },
+  {
+    "key": 2286,
+    "speaker": "monologue",
+    "jp": "が、現実にはこの天候だ。\\n言葉はどうにも、言い訳じみたものとなる。",
+    "tw": "但是，現實就是天公不作美。我的話聽起來怎麼都像是在找藉口。",
+    "vn_old": "「Thay vì lo lắng chuyện tương lai, hãy tập trung vào hiện tại.\\nNgài Soutetsu, trước mắt hãy hoàn thành tốt 4 ca trực ngày mai đã.」",
+    "type": "misaligned",
+    "fix": "Nhưng, thực tế thì thời tiết thế này. Lời nói thế nào cũng thành ra như biện minh."
+  },
+  {
+    "key": 2289,
+    "speaker": "monologue",
+    "jp": "それから\\x%lエアクラ;#00ffc040;エアクラ%l;#;を手配して、\\n進入禁止区域ギリギリにまで移動したとして――",
+    "tw": "假設她在這以後準備了\\x%lエアクラ;#00ffc040;空凝機%l;#;，開到禁入區域的邊緣——",
+    "vn_old": "「Để xem nào——」",
+    "type": "misaligned",
+    "fix": "Rồi điều \\x%lエアクラ;#00ffc040;Aircra%l;#; tới, di chuyển đến sát vùng cấm vào——"
+  },
+  {
+    "key": 2303,
+    "speaker": "monologue",
+    "jp": "屋根と\\x%l8620;#00ffc040;8620%l;#;が防いでくれているにもかかわらず、\\nその隙間から、突き刺すような雨が来る。",
+    "tw": "儘管有屋頂和\\x%l8620;#00ffc040;８６２０%l;#;遮擋，但是雨點還是從兩者間的縫隙吹了進來，打在身上像針扎一樣痛。",
+    "vn_old": "「Thế cũng tốt…… nhưng thiết kế \\x%lトレインマーク;#00ffc040;biểu trưng tàu%l;#; cũng thú vị lắm.\\nNên em cũng đang nghĩ…… hay là tiếp tục học ở quê.」",
+    "type": "misaligned",
+    "fix": "Dù mái nhà và \\x%l8620;#00ffc040;8620%l;#; đã che chắn, mưa vẫn xuyên qua khe hở, đâm vào như kim."
+  },
+  {
+    "key": 2310,
+    "speaker": "monologue",
+    "jp": "ナビが持っている\\x%lエアクラ;#00ffc040;エアクラ%l;#;侵入禁止区域のデータ。\\nそれをハチロクが、地図上に再現してくれたのだ。",
+    "tw": "八六在地圖上圈出的，是Ｎａｖｉ資料庫中\\x%lエアクラ;#00ffc040;空凝機%l;#;的禁入區域。",
+    "vn_old": "「À thì…… đúng vậy. Ngay cả chi phí ban đầu,\\nchỉ dựa vào chúng ta thì chắc chắn không kham nổi rồi.」",
+    "type": "misaligned",
+    "fix": "Dữ liệu về vùng cấm \\x%lエアクラ;#00ffc040;Aircra%l;#; xâm nhập mà Navi có. Hachiroku đã tái hiện nó lên bản đồ cho tôi."
+  },
+  {
+    "key": 2323,
+    "speaker": "monologue",
+    "jp": "ぎゅっと目を閉じ、息を吸い込む。",
+    "tw": "八六緊緊閉上了眼，深吸一口氣。",
+    "vn_old": "「Ý nghĩa lắm luôn! Cực kỳ vui luôn á!!」",
+    "type": "misaligned",
+    "fix": "Nhắm chặt mắt lại, hít một hơi vào."
+  },
+  {
+    "key": 2324,
+    "speaker": "monologue",
+    "jp": "こっ――くり、と。\\n頷きはいっそ緩慢だ。",
+    "tw": "八六緩慢地點了點頭。",
+    "vn_old": "「Không ngờ lại phát hiện ra vết nứt trên trục truyền động cơ đấy.」",
+    "type": "misaligned",
+    "fix": "Cứ—— gật đầu, cái gật đầu chậm rãi."
+  },
+  {
+    "key": 2334,
+    "speaker": "monologue",
+    "jp": "手を差し伸べる。\\nハチロクはゆるゆると僕の手を――っ！",
+    "tw": "八六顫顫巍巍地握住了我向她伸出的手——這！",
+    "vn_old": "May mắn thì may mắn thật——nhưng tôi không ngờ thời gian sửa chữa kéo dài\\nlại ảnh hưởng theo cách này.",
+    "type": "misaligned",
+    "fix": "Tôi vươn tay ra. Hachiroku từ từ nắm lấy tay tôi——Ư!"
+  },
+  {
+    "key": 2344,
+    "speaker": "monologue",
+    "jp": "ぴたりだ。\\nしかし、ハチロクはまたも\\x%l喚呼;#00ffc040;喚呼%l;#;をしない。",
+    "tw": "列車停得不偏不倚。但是，八六還是沒有\\x%l喚呼;#00ffc040;復誦%l;#;我的指令。",
+    "vn_old": "「Hộc, hộc, hộc——\\nThiệt tình, hai người——chạy nhanh——quá đi.」",
+    "type": "misaligned",
+    "fix": "Chuẩn xác. Nhưng Hachiroku lại không hô \\x%l喚呼;#00ffc040;hô xác nhận%l;#;."
+  },
+  {
+    "key": 2347,
+    "speaker": "monologue",
+    "jp": "もはや惰力での走行だ。\\nあとは、減速して止まるだけ。",
+    "tw": "列車基本上就是在依靠慣性前進。接下來只要減速就好。",
+    "vn_old": "Tôi bất giác nghĩ như vậy.\\nDù thế nào đi nữa.",
+    "type": "misaligned",
+    "fix": "Giờ chỉ còn chạy bằng quán tính. Sau đó chỉ cần giảm tốc rồi dừng lại."
+  },
+  {
+    "key": 2348,
+    "speaker": "monologue",
+    "jp": "速度が、落ちる。落ちきっている。",
+    "tw": "列車的速度越來越慢。已經幾乎停止前進。",
+    "vn_old": "Là Nagi.\\nĐược cứu rồi.",
+    "type": "misaligned",
+    "fix": "Tốc độ giảm dần. Đã giảm hẳn rồi."
+  },
+  {
+    "key": 2383,
+    "speaker": "monologue",
+    "jp": "この繋がりに頼れるのなら、ここから先は。",
+    "tw": "只要能夠依靠這一份聯繫，接下來——",
+    "vn_old": "（A…… Thật sự không sao mà.）",
+    "type": "misaligned",
+    "fix": "Nếu có thể dựa vào mối liên kết này thì, từ đây trở đi——"
+  },
+  {
+    "key": 2402,
+    "speaker": "monologue",
+    "jp": "いつもと違う。\\nハチロクが\\x%l喚呼;#00ffc040;喚呼%l;#;を合わせてくれない。",
+    "tw": "和以往不一樣。八六並沒有\\x%l喚呼;#00ffc040;復誦%l;#;我的指令。",
+    "vn_old": "Cơ thể tôi nóng ran lên.\\nNhịp đập mãnh liệt của chính tôi, dường như cũng truyền cả sang Hachiroku.",
+    "type": "misaligned",
+    "fix": "Khác mọi khi. Hachiroku không hô \\x%l喚呼;#00ffc040;hô xác nhận%l;#; cùng tôi."
+  },
+  {
+    "key": 2427,
+    "speaker": "monologue",
+    "jp": "\\x%l運転体;#00ffc040;運転体%l;#;のときには気づかなかったが――",
+    "tw": "她使用\\x%l運転体;#00ffc040;駕駛體%l;#;的時候我還沒有注意到——",
+    "vn_old": "Nhờ có Hibiki và Nagi luân phiên trực,\\nmà mọi thứ mới bắt đầu xoay xở được.",
+    "type": "misaligned",
+    "fix": "Khi ở \\x%l運転体;#00ffc040;thân điều khiển%l;#; thì tôi không nhận ra——"
+  },
+  {
+    "key": 2431,
+    "speaker": "monologue",
+    "jp": "あのふたりなら、「川をつかえばすぐ炭鉱」と、\\nとっくに気づいていたのだろうし――",
+    "tw": "她們兩人應該早已知曉“走水路可以很快到達煤礦”——",
+    "vn_old": "「Vâng ạ. Gió khó chịu quá.」",
+    "type": "misaligned",
+    "fix": "Nếu là hai người đó thì, 'dùng sông là tới mỏ than ngay', chắc đã nhận ra từ lâu rồi——"
+  },
+  {
+    "key": 2432,
+    "speaker": "monologue",
+    "jp": "四人の中では最上級の稀咲のクラスの、\\n全カリキュラムが終わるのが午後の二時。",
+    "tw": "她們四個人中年級最高的是稀咲，她的課應該是下午兩點結束。",
+    "vn_old": "「Chuẩn bị kỹ càng gớm nhỉ.\\nHachiroku, em có ý kiến gì không?」",
+    "type": "misaligned",
+    "fix": "Trong bốn người, lớp của Kisaki giỏi nhất, toàn bộ chương trình học kết thúc lúc hai giờ chiều."
+  },
+  {
+    "key": 2433,
+    "speaker": "monologue",
+    "jp": "試されてるのか？　以前にもたしかこんなことが――\\n湧き起こってきた雑念を、目と手への集中を戻し追い払う。",
+    "tw": "她在考驗我嗎？以前好像也有過這樣的——我趕緊把注意力集中在眼前以及手上，拋開心中的雜念。",
+    "vn_old": "「Thế này thì——khó mà biết được nhỉ.」",
+    "type": "misaligned",
+    "fix": "Đang bị thử thách sao? Chắc trước đây cũng từng có chuyện thế này—— Tôi xua đi những tạp niệm vừa dâng lên, tập trung lại vào mắt và tay."
+  },
+  {
+    "key": 2438,
+    "speaker": "monologue",
+    "jp": "真闇姉が確認している地図上の――川のラインと、\\n術仙炭鉱廃駅とでは、ものの一キロも離れていない。",
+    "tw": "她看了看地圖——河岸線和術仙煤礦廢車站之間只有短短一公里不到。",
+    "vn_old": "「Xin ngài giúp em một chút thôi ạ.」",
+    "type": "misaligned",
+    "fix": "Đường sông trên bản đồ mà chị Mayami đang kiểm tra—— với ga mỏ than Jutsusen bỏ hoang, cách nhau chưa tới một cây số."
+  },
+  {
+    "key": 2444,
+    "speaker": "monologue",
+    "jp": "術仙炭鉱近辺に入ってしまえば、連絡の手段が途絶する。",
+    "tw": "如果到了術仙煤礦附近，就會失去通訊手段。",
+    "vn_old": "Bắt đầu rơi rồi.\\nChưa kịp nghĩ xong, mưa đã trút xuống xối xả, gió tạt ngang dữ dội.",
+    "type": "misaligned",
+    "fix": "Một khi đã vào gần mỏ than Jutsusen thì sẽ mất liên lạc."
+  },
+  {
+    "key": 2448,
+    "speaker": "monologue",
+    "jp": "やみくもな捜索で人員と移動手段とが拘束されれば、\\n捜索時間の間、他を完全に空白にしてしまうこととなる。",
+    "tw": "如果胡亂地搜索，人手不足、交通方式又受限，只會在搜索期間忽略所有其它的可能性。",
+    "vn_old": "（Lộp độp lộp độp）",
+    "type": "misaligned",
+    "fix": "Nếu việc tìm kiếm mù quáng giữ chân nhân lực và phương tiện di chuyển thì trong thời gian tìm kiếm, các việc khác sẽ hoàn toàn bị bỏ trống."
+  },
+  {
+    "key": 2455,
+    "speaker": "monologue",
+    "jp": "どっと、安心感が湧く。",
+    "tw": "安心的感覺從我心底湧起。",
+    "vn_old": "Tôi cùng Hachiroku bước ra ngoài.",
+    "type": "misaligned",
+    "fix": "Cảm giác an tâm trào dâng."
+  },
+  {
+    "key": 2509,
+    "speaker": "monologue",
+    "jp": "僕は、僕らは――\\n僕らにしか出来ないことを行えばいい。",
+    "tw": "我——不，我們只需專注於那些只有自己能勝任的工作即可。",
+    "vn_old": "Cơ thể tôi vẫn cử động được.\\nNhững bài huấn luyện lặp đi lặp lại đã giúp cơ thể tự động phản xạ mà không cần ý thức.",
+    "type": "misaligned",
+    "fix": "Tôi, chúng tôi—— chỉ cần làm những việc chỉ chúng tôi mới làm được."
+  },
+  {
+    "key": 2514,
+    "speaker": "monologue",
+    "jp": "そう言い聞かせ、\\x%l自弁;#00ffc040;自弁%l;#;をじわり――\\nわずかに動かす。",
+    "tw": "我一邊在心中默默念道，一邊稍稍推了推\\x%l自弁;#00ffc040;自剎%l;#;。",
+    "vn_old": "Hachiroku là một đồ vật, là một \\x%lレイルロオド;#00ffc040;Railord%l;#;——\\nNhưng đồng thời, em ấy cũng chắc chắn đang sống.",
+    "type": "misaligned",
+    "fix": "Tự nhủ vậy, tôi từ từ—— khẽ động tay van \\x%l自弁;#00ffc040;van hãm tự động%l;#;."
+  },
+  {
+    "key": 2529,
+    "speaker": "monologue",
+    "jp": "問うた途端に、ポーレットは受話器をひっつかむ。",
+    "tw": "我剛問完，波萊特就抓起了聽筒。",
+    "vn_old": "「Gió tạt ngang, lại mới bắt đầu mưa.\\nXin ngài hãy thao tác thật nhanh và nhẹ nhàng.」",
+    "type": "misaligned",
+    "fix": "Vừa hỏi thì Paulette đã chộp lấy ống nghe."
+  },
+  {
+    "key": 2530,
+    "speaker": "monologue",
+    "jp": "ポーレットが渡してくれたメモの番号へかければすぐに、\\n落ち着いた声の応答がある。",
+    "tw": "我剛撥通波萊特遞給我的電話號碼，聽筒中就馬上傳來了平靜的回覆聲。",
+    "vn_old": "「Tại anh có cho phép lần nào đâu.」",
+    "type": "misaligned",
+    "fix": "Gọi vào số trên giấy nhớ Paulette đưa thì ngay lập tức có giọng trả lời bình tĩnh."
+  },
+  {
+    "key": 2532,
+    "speaker": "monologue",
+    "jp": "震えだしそうになる指をなんとか制御して、\\n停車措置を終え――ようやく、ハチロクへ呼びかける。",
+    "tw": "我努力控制住想要發抖的手指，完成了停車後的操作——而後終於向八六開口。",
+    "vn_old": "Hibiki, Kisaki, Nagi và Fukami.",
+    "type": "misaligned",
+    "fix": "Tôi cố gắng kiểm soát những ngón tay sắp run lên, hoàn thành biện pháp dừng xe—— cuối cùng, gọi Hachiroku."
+  },
+  {
+    "key": 2534,
+    "speaker": "monologue",
+    "jp": "心配そうに僕を見ているハチロクたちに、\\n安心しろと親指をたてる。",
+    "tw": "我向一臉擔憂看著我的八六豎起了大拇指，示意她放心。",
+    "vn_old": "Kế hoạch cắm trại do Nagi - một nữ hướng đạo sinh - đưa ra\\nquả thực rất tuyệt vời.",
+    "type": "misaligned",
+    "fix": "Trước Hachiroku và mọi người đang nhìn tôi đầy lo lắng, tôi giơ ngón cái lên ra hiệu cứ yên tâm."
+  },
+  {
+    "key": 2536,
+    "speaker": "monologue",
+    "jp": "レールショップへ戻ってポーレットの紅茶を飲めば、\\n末端部からじわじわと、体温が戻ってくるようだ。",
+    "tw": "我回到了鐵路商店，喝著波萊特沏的紅茶，身體漸漸恢復了溫暖。",
+    "vn_old": "Nếu là Hibiki của trước đây,\\nchắc chắn con bé đã hỏi ý kiến tôi đủ thứ về định hướng tương lai rồi.",
+    "type": "misaligned",
+    "fix": "Về rail shop uống trà của Paulette, nhiệt độ cơ thể dần trở lại từ đầu ngón tay."
+  },
+  {
+    "key": 2539,
+    "speaker": "monologue",
+    "jp": "れいなの思惑がわかった気がする。\\nが、この風雨の中、果たして雀が飛べるだろうか？",
+    "tw": "我好像知道玲奈想做什麼。但是，那些麻雀能在這樣的雨天裡飛行嗎？",
+    "vn_old": "（Không sao đâu. Không sao——Bình tĩnh lại, phải bình tĩnh lại.）",
+    "type": "misaligned",
+    "fix": "Tôi như hiểu được ý đồ của Reina. Nhưng, trong mưa gió này, liệu chim sẻ có bay được không?"
+  },
+  {
+    "key": 2549,
+    "speaker": "monologue",
+    "jp": "嫌な予感がどんどん濃くなり――\\nそうしてそれは、一瞬にして現実となる。",
+    "tw": "我心中不安的陰霾越來越濃厚——而這份不安在轉瞬間變成了現實。",
+    "vn_old": "Bị gài bẫy rồi sao——Tôi gần như phản xạ nghĩ vậy,\\nvà chính suy nghĩ đó khiến tôi nhận ra sự cố chấp của mình.",
+    "type": "misaligned",
+    "fix": "Dự cảm xấu ngày càng đậm—— rồi trong chớp mắt nó thành hiện thực."
+  },
+  {
+    "key": 2555,
+    "speaker": "monologue",
+    "jp": "\\x%l運転体;#00ffc040;運転体%l;#;を\\x%l乗務鞄;#00ffc040;乗務鞄%l;#;に大事にしまい、\\nさて――と立っても、まだハチロクは立ち上がらない。",
+    "tw": "我把\\x%l運転体;#00ffc040;駕駛體%l;#;小心翼翼地收入\\x%l乗務鞄;#00ffc040;乘務包%l;#;中。站了起來——但是八六並沒有隨我起身。",
+    "vn_old": "「……Đã đến ngày mai rồi sao, cái lịch trình 4 vòng khứ hồi ấy.」",
+    "type": "misaligned",
+    "fix": "Tôi cất cẩn thận \\x%l運転体;#00ffc040;thân điều khiển%l;#; vào \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#;, đứng dậy—— thì Hachiroku vẫn chưa đứng lên."
+  },
+  {
+    "key": 2564,
+    "speaker": "monologue",
+    "jp": "進入禁止区域の一端、\\nナビが最初に不時着をした地点を指し示す。",
+    "tw": "我指向了禁入區域的一端，當初Ｎａｖｉ就是在這裡緊急降落的。",
+    "vn_old": "「Anh hiểu rồi. Những ý tưởng mang tính đột phá\\nsẽ có khả năng cải thiện cả tính sinh lời nữa nhỉ.」",
+    "type": "misaligned",
+    "fix": "Một đầu của vùng cấm vào, điểm Navi hạ cánh khẩn cấp đầu tiên."
+  },
+  {
+    "key": 2576,
+    "speaker": "monologue",
+    "jp": "ハチロクを立たせ先に降ろして、\\n続いて僕もホームへ降りる。",
+    "tw": "我等八六站起了身並讓她先下車，隨後跟著她走到了站台上。",
+    "vn_old": "Nếu \\x%lキハ07;#00ffc040;KiHa 07%l;#; hoạt động thì chỉ cần 2 ca, nhưng kế hoạch hơi lệch đi một chút,\\nlà thành 4 ca trong tình trạng thiếu phụ lái.",
+    "type": "misaligned",
+    "fix": "Tôi để Hachiroku đứng dậy xuống trước, rồi tôi cũng xuống sân ga."
+  },
+  {
+    "key": 2580,
+    "speaker": "monologue",
+    "jp": "普段はしない細かな\\x%l喚呼;#00ffc040;喚呼%l;#;を入れて意識を引き締め直し、\\n減速度を徐々に弱めていく。",
+    "tw": "我說著這些平時不會使用的詳細\\x%l喚呼;#00ffc040;復誦%l;#;，讓自己集中注意力，同時慢慢地放緩減速度。",
+    "vn_old": "Hachiroku nhìn chằm chằm vào tôi.\\nÁnh mắt và cả bàn tay em ấy đều không hề rời đi.",
+    "type": "misaligned",
+    "fix": "Tôi thêm vào những lần hô \\x%l喚呼;#00ffc040;hô xác nhận%l;#; tỉ mỉ mà bình thường không làm để tập trung lại, rồi dần giảm độ giảm tốc."
+  },
+  {
+    "key": 2588,
+    "speaker": "monologue",
+    "jp": "僕が指示するより先に、\\nハチロクの手がペンを取り――",
+    "tw": "我還沒有給Ｎａｖｉ下達指示，八六就拿起了筆——",
+    "vn_old": "「Không chỉ vậy đâu, chị Kisaki bảo về mặt vốn cũng cần nữa.」",
+    "type": "misaligned",
+    "fix": "Trước khi tôi kịp chỉ thị, tay Hachiroku đã cầm bút——"
+  },
+  {
+    "key": 2591,
+    "speaker": "monologue",
+    "jp": "換装が多かった影響なのか、\\nいつものハチロクのぬくもりをまるで感じない。",
+    "tw": "或許是頻繁更換身體所造成的影響，我感受不到八六身上以往的溫暖。",
+    "vn_old": "Có lẽ suy nghĩ đã hiện rõ trên mặt tôi.\\nHibiki cầm miếng bánh mì trên tay, cất giọng đầy áy náy.",
+    "type": "misaligned",
+    "fix": "Có phải vì ảnh hưởng của việc đổi thân quá nhiều không, tôi hoàn toàn không cảm nhận được hơi ấm thường ngày của Hachiroku."
+  },
+  {
+    "key": 2598,
+    "speaker": "monologue",
+    "jp": "だから握る手に力を込めて、\\n僕から熱を、少しでも伝えようとする。",
+    "tw": "所以我用力握緊她的手，希望能儘量將我的熱量傳遞給她。",
+    "vn_old": "Nhưng, Hibiki đâu có lỗi gì trong chuyện này.",
+    "type": "misaligned",
+    "fix": "Vì vậy tôi nắm chặt tay, cố truyền hơi ấm của mình sang dù chỉ một chút."
+  },
+  {
+    "key": 2607,
+    "speaker": "monologue",
+    "jp": "問い合わせが他にも相次ぐのだろう、\\n返答は極めて事務的であり、それゆえ素早く的確だ。",
+    "tw": "打電話來詢問的人應該接連不斷吧，對方的回答非常形式化，卻也因此顯得精簡又準確。",
+    "vn_old": "「Thì đúng là hôm đó em nảy ra ý định đột xuất mà chưa chuẩn bị gì\\n……nhưng sau đó lập lại kế hoạch đàng hoàng rồi anh vẫn nói vậy.」",
+    "type": "misaligned",
+    "fix": "Chắc còn nhiều cuộc hỏi thăm khác nữa, câu trả lời cực kỳ hành chính, và vì thế nhanh chóng chính xác."
+  },
+  {
+    "key": 2608,
+    "speaker": "monologue",
+    "jp": "帰ってないかを聞くことと、もしも帰っていないなら、\\n宝生元忠への連絡手段を教えてもらう、そのために。",
+    "tw": "打電話給她是為了詢問日日姬她們回家沒有。如果沒有，就請她告訴我寶生元忠的聯絡方式。",
+    "vn_old": "「Ừ.\\nQuả thật Nagi và Kisaki có vẻ sẽ tạo ra phản ứng hóa học đấy.」",
+    "type": "misaligned",
+    "fix": "Để hỏi xem đã về chưa, và nếu chưa về thì xin cách liên lạc với Houshou Mototada, vì vậy."
+  },
+  {
+    "key": 2614,
+    "speaker": "monologue",
+    "jp": "横殴りの雨はバチバチ、更に勢いを増している。\\nガラスを割って室内にまで飛び込んできそうなほどに。",
+    "tw": "拍打著窗戶的大雨此時更添了幾分勢頭。簡直就像要把玻璃擊碎，衝進屋內一般。",
+    "vn_old": "「Dù sao thì, đó cũng là chuyện của tương lai xa.\\nCả việc thuê người mới, lẫn việc Hibiki tốt nghiệp.」",
+    "type": "misaligned",
+    "fix": "Mưa tạt ngang lộp độp, càng lúc càng mạnh. Mạnh đến mức như muốn vỡ kính bay vào trong."
+  },
+  {
+    "key": 2623,
+    "speaker": "monologue",
+    "jp": "ハチロクはすぐに遠い目をして、\\nそれからゆっくり首を振る。",
+    "tw": "於是八六把目光投向遠方，然後緩緩搖了搖頭。",
+    "vn_old": "「Lỡ bão có tới cũng hổng sao đâu.\\nKhu nội trú mới hơn nhà mình nhiều.」",
+    "type": "misaligned",
+    "fix": "Hachiroku lập tức nhìn xa xăm, rồi từ từ lắc đầu."
+  },
+  {
+    "key": 2624,
+    "speaker": "monologue",
+    "jp": "ならばと自分で時計を確かめ、\\x%l喚呼;#00ffc040;喚呼%l;#;する。",
+    "tw": "於是我看了看自己的表，獨自完成\\x%l喚呼;#00ffc040;復誦%l;#;。",
+    "vn_old": "「Chắc là ở trong nhà ga thôi.\\nHọ bảo sẽ khảo sát chỗ đó mà.」",
+    "type": "misaligned",
+    "fix": "Vậy nên tôi tự kiểm tra đồng hồ, rồi hô \\x%l喚呼;#00ffc040;hô xác nhận%l;#;."
+  },
+  {
+    "key": 2640,
+    "speaker": "monologue",
+    "jp": "昨日の凪は助士を休んで、\\nふかみとともにクマ川下りで団体客の相手をしていた。",
+    "tw": "昨天凪沒有來擔任司爐，她和深美兩人帶一個旅行團順隈河漂流而下。",
+    "vn_old": "「Đúng thật.\\n……Đến sớm hơn dự báo nhiều nhỉ.」",
+    "type": "misaligned",
+    "fix": "Hôm qua Nagi nghỉ làm phụ lái, cùng Fukami đi tiếp khách đoàn xuôi sông Kuma."
+  },
+  {
+    "key": 2676,
+    "speaker": "monologue",
+    "jp": "ポーレットも丁度、改札を終えたところらしい。",
+    "tw": "波萊特似乎正好做完了檢票工作。",
+    "vn_old": "Đến ngày tựu trường,\\nthì ngay cả việc luân phiên trực cũng không thể thực hiện được nữa.",
+    "type": "misaligned",
+    "fix": "Paulette cũng vừa soát vé xong thì phải."
+  },
+  {
+    "key": 2677,
+    "speaker": "monologue",
+    "jp": "興奮した声。\\n勢いも良く受話器が置かれる。",
+    "tw": "波萊特的語氣非常興奮，爽快地掛斷了電話。",
+    "vn_old": "Thấy vậy, Hachiroku\\ntháo \\x%lタブレット;#00ffc040;thẻ bảng%l;#; ra và chuyển sang \\x%l運転体;#00ffc040;thân điều khiển%l;#;.",
+    "type": "misaligned",
+    "fix": "Giọng nói đầy phấn khích. Ống nghe được đặt xuống đầy mạnh mẽ."
+  },
+  {
+    "key": 2678,
+    "speaker": "monologue",
+    "jp": "ポーレットの目が窓の外へと。",
+    "tw": "波萊特看向了窗外。",
+    "vn_old": "Phải làm sao đây——tôi bối rối,\\nchẳng tìm được từ ngữ nào thích hợp.",
+    "type": "misaligned",
+    "fix": "Ánh mắt Paulette hướng ra ngoài cửa sổ."
+  },
+  {
+    "key": 2679,
+    "speaker": "monologue",
+    "jp": "すぐにポーレットが受話器を掴む。\\nならばそちらは任せるとして――",
+    "tw": "波萊特馬上抓起了聽筒。既然這樣那就交給她吧——",
+    "vn_old": "「À, dự báo thời tiết sao.」",
+    "type": "misaligned",
+    "fix": "Paulette lập tức chộp lấy ống nghe. Vậy thì giao bên đó cho cô ấy——"
+  },
+  {
+    "key": 2684,
+    "speaker": "monologue",
+    "jp": "れいなと入れ替わるようにして、\\n赤井宮司と住職と住職夫人が駆け込んでくる。",
+    "tw": "玲奈出去後，赤井宮司還有住持夫婦隨之跑了進來。",
+    "vn_old": "Bị kích thích, ký ức bắt đầu làm nhiễu loạn sự tập trung của tôi.\\nNgày hôm đó đang mờ ảo hiện ra, hòa lẫn vào lúc này, và nơi đây.",
+    "type": "misaligned",
+    "fix": "Thay chỗ Reina, ông Akai, trụ trì và vợ trụ trì chạy vào."
+  },
+  {
+    "key": 2685,
+    "speaker": "monologue",
+    "jp": "ここは時間がかかっても、\\n確実性の少しでも高い手段を取らねばならない。",
+    "tw": "現在寧可多花點時間，也必須選擇更確切的方案。",
+    "vn_old": "Tôi ném thêm một lớp than dày hơn chút,\\nđiều chỉnh thông gió \\x%l煙室;#00ffc040;buồng khói%l;#; và bơm nước lò hơi xong xuôi, rồi tiến về ghế \\x%l機関士;#00ffc040;lái tàu%l;#;.",
+    "type": "misaligned",
+    "fix": "Dù mất thời gian, ở đây phải chọn phương pháp chắc chắn hơn dù chỉ một chút."
+  },
+  {
+    "key": 2689,
+    "speaker": "monologue",
+    "jp": "この天候だ。",
+    "tw": "畢竟天氣這麼差。",
+    "vn_old": "「Chịu thôi.\\nCái mỏ than bỏ hoang Jutsusen đó đâu phải chỗ để ngủ lại.」",
+    "type": "misaligned",
+    "fix": "Thời tiết thế này mà."
+  },
+  {
+    "key": 2690,
+    "speaker": "monologue",
+    "jp": "そうして僕を見直す瞳は……\\nいつもどおりの、落ち着いたものだ。",
+    "tw": "當她再次睜開眼看我時……她的眼神恢復了一如既往的平靜。",
+    "vn_old": "「Thiệt tình bé Nagi này,\\nngười ta đâu có hỏi vui hay không đâu.」",
+    "type": "misaligned",
+    "fix": "Đôi mắt nhìn lại tôi…… vẫn bình tĩnh như mọi khi."
+  },
+  {
+    "key": 2697,
+    "speaker": "monologue",
+    "jp": "疲労がきっと影響したのだ。",
+    "tw": "看來是疲勞影響了我的狀態。",
+    "vn_old": "À, lại vòi vĩnh rồi.\\nMà chắc chắn cũng chẳng phải chuyện gì tốt đẹp.",
+    "type": "misaligned",
+    "fix": "Chắc chắn là do mệt mỏi ảnh hưởng."
+  },
+  {
+    "key": 2698,
+    "speaker": "monologue",
+    "jp": "真闇姉にも通じたようだ。",
+    "tw": "看來真闇姐也明白我為什麼要這麼做了。",
+    "vn_old": "Vòng khứ hồi thứ 4, cuối cùng cũng là chuyến về.\\nTừ nãy đến giờ, tôi đã ném vào lò bao nhiêu than rồi không biết——",
+    "type": "misaligned",
+    "fix": "Chị Mayami dường như cũng đã hiểu."
+  },
+  {
+    "key": 2714,
+    "speaker": "monologue",
+    "jp": "言いながら、真闇姉が地図を広げてくれる。",
+    "tw": "真闇姐一邊說一邊攤開了地圖。",
+    "vn_old": "Với tôi, đó có vẻ là một phương án rất thông minh, nhưng……",
+    "type": "misaligned",
+    "fix": "Vừa nói, chị Mayami vừa trải bản đồ ra cho tôi."
+  },
+  {
+    "key": 2716,
+    "speaker": "monologue",
+    "jp": "レールショップへ、息せききって駆け込んでくる。\\n真闇姉には、無論、真っ先に電話していた。",
+    "tw": "真闇姐氣喘吁吁地衝進了鐵路商店。當然，在聯絡那麼多人之前，我最先撥通的是真闇姐的電話。",
+    "vn_old": "「Đúng rồi! Cũng có lý do đó nữa. Với lại bé Nagi hay nói mấy câu\\nđột phá lắm, chị Kisaki cũng thấy thú vị nữa.」",
+    "type": "misaligned",
+    "fix": "Chạy thở hổn hển vào rail shop. Với chị Mayami thì tất nhiên tôi đã gọi điện trước."
+  },
+  {
+    "key": 2717,
+    "speaker": "monologue",
+    "jp": "ちら、と真闇姉はハチロクを見る。",
+    "tw": "真闇姐瞟了一眼八六。",
+    "vn_old": "「Vẫn còn ở Tây Nam Okinawa mà nhỉ? Dù có đổ bộ vào Kyushu,\\nthì cũng phải tầm nửa đêm ngày mốt cơ.」",
+    "type": "misaligned",
+    "fix": "Chị Mayami liếc nhìn Hachiroku một cái."
+  },
+  {
+    "key": 2719,
+    "speaker": "monologue",
+    "jp": "手伝うと言ってくれている人たちの中心に真闇姉が立ち、\\n分担を、テキパキと決めていってくれる。",
+    "tw": "真闇姐站在那些願意幫忙的人中間，俐落地分配著任務。",
+    "vn_old": "「Ngài…… không sao chứ ạ?\\nSắc mặt ngài——」",
+    "type": "misaligned",
+    "fix": "Chị Mayami đứng giữa những người nói sẽ giúp đỡ, quyết định phân công nhanh nhẹn."
+  },
+  {
+    "key": 2724,
+    "speaker": "monologue",
+    "jp": "確かにだ。",
+    "tw": "確實是。",
+    "vn_old": "「Không phải em định thi vào trường Mỹ thuật trên Đế đô sao?」",
+    "type": "misaligned",
+    "fix": "Đúng vậy thật."
+  },
+  {
+    "key": 2728,
+    "speaker": "monologue",
+    "jp": "いきなり、れいなが雨も構わずドアの外へと――",
+    "tw": "突然，玲奈不顧外面的大雨，打開門就往外走——",
+    "vn_old": "「!!!」",
+    "type": "misaligned",
+    "fix": "Đột nhiên, Reina bất chấp mưa chạy ra ngoài cửa——"
+  },
+  {
+    "key": 2741,
+    "speaker": "monologue",
+    "jp": "ポーレットの指摘を受けて、背筋が伸びる。",
+    "tw": "聽了波萊特的話，我不禁緊張得背都繃直了。",
+    "vn_old": "Cho đến khi gần tới ga Ohitoyo và ngừng cấp than\\nđể chuẩn bị vào ga——đây là sự phân công tốt nhất rồi.",
+    "type": "misaligned",
+    "fix": "Được Paulette chỉ ra, tôi thẳng lưng lên."
+  },
+  {
+    "key": 2744,
+    "speaker": "monologue",
+    "jp": "最初の応答と同じ声。\\n無論、日々姫の声ではない。",
+    "tw": "聽筒中又傳來了剛才接電話的聲音。當然，這並不是日日姬的聲音。",
+    "vn_old": "「Vậy, ở khu nội trú của trường thì được đúng không?\\nCó sóng điện thoại, \\x%lエアクラ;#00ffc040;Aircra%l;#; cũng dùng được nữa.」",
+    "type": "misaligned",
+    "fix": "Giọng nói giống hệt lần trả lời đầu tiên. Tất nhiên, không phải giọng của Hibiki."
+  },
+  {
+    "key": 2760,
+    "speaker": "monologue",
+    "jp": "レールショップに来るやいなやで、\\n深々と下げかけていた頭が、ぎくりと止まる。",
+    "tw": "見蓑笠先生走進鐵路商店，我剛要向他深深地低下頭，又突然停下了動作。",
+    "vn_old": "「Vâng!」",
+    "type": "misaligned",
+    "fix": "Vừa đến rail shop, cái đầu đang cúi sâu định cúi nữa thì khựng lại."
+  },
+  {
+    "key": 2775,
+    "speaker": "monologue",
+    "jp": "というか……いささか過保護すぎたか。\\n何かあったら向こうから――――っと！",
+    "tw": "話說回來……我是不是有點過度保護了。如果她們發生了什麼事，應該會給我——啊！",
+    "vn_old": "Nhưng chị Mayami xem xong vẫn không cho phép,\\nvà tôi cũng chẳng thể nào bênh vực Hibiki được.",
+    "type": "misaligned",
+    "fix": "Mà này…… có phải tôi đã bao bọc quá mức không. Nếu có chuyện gì thì từ phía bên kia———— à!"
+  },
+  {
+    "key": 2778,
+    "speaker": "monologue",
+    "jp": "話してるうち、不安が高まってきてしまった。",
+    "tw": "說著說著，我心中的不安越來越強烈。",
+    "vn_old": "Con bé nhanh chóng nương theo\\nlời giải vây khéo léo của Hachiroku.",
+    "type": "misaligned",
+    "fix": "Trong lúc nói chuyện, nỗi lo lắng dâng lên."
+  },
+  {
+    "key": 2794,
+    "speaker": "monologue",
+    "jp": "早めに、弱めに――\\n最初のブレーキをごくゆるくかけ、圧縮空気を込め直す。",
+    "tw": "迅速而慎重地——進行第一階段剎車，然後重新注入壓縮空氣。",
+    "vn_old": "「!」",
+    "type": "misaligned",
+    "fix": "Sớm hơn, nhẹ hơn—— phanh đầu tiên thật nhẹ, nạp lại khí nén."
+  },
+  {
+    "key": 2802,
+    "speaker": "monologue",
+    "jp": "これは……何十年か前の地図。\\n術仙炭鉱が、まだ現役だったころの地図のようだ。",
+    "tw": "這是……幾十年前的地圖。這張地圖繪成的時候術仙煤礦還在運作。",
+    "vn_old": "「Chị Kisaki bảo là vẫn còn thiếu một cú hích nữa.」",
+    "type": "misaligned",
+    "fix": "Đây là…… bản đồ từ mấy chục năm trước. Có vẻ là bản đồ thời mỏ than Jutsusen còn hoạt động."
+  },
+  {
+    "key": 2807,
+    "speaker": "monologue",
+    "jp": "制限速度を守れてる。\\nきちんと減速できている。",
+    "tw": "速度維持在限速以下了。列車已經成功減速。",
+    "vn_old": "Kìm soát vé tuột khỏi tay rơi xuống.\\nNhưng tôi chẳng màng đến việc nhặt nó lên.",
+    "type": "misaligned",
+    "fix": "Đang giữ đúng tốc độ giới hạn. Giảm tốc đúng cách."
+  },
+  {
+    "key": 2813,
+    "speaker": "monologue",
+    "jp": "あとひといきだ、もう少し――\\nそうと思えば意識にも、わずかずつ余裕が戻ってくれる。",
+    "tw": "還差一點，就差一點了——我這麼想著，變得稍微從容了一些。",
+    "vn_old": "「\\x%l逆転機;#00ffc040;Cần đảo chiều%l;#;, \\x%lミッドギア;#00ffc040;số trung tính%l;#;.」",
+    "type": "misaligned",
+    "fix": "Còn một chút nữa, thêm chút nữa—— nghĩ vậy thì ý thức cũng dần có thêm dư dả."
+  },
+  {
+    "key": 2825,
+    "speaker": "monologue",
+    "jp": "いつもどおりのことがけれども、\\n今は何より、頼もしい。",
+    "tw": "雖然在往常這是理所當然的事情，但這對現在的我來說卻無異於一顆定心丸。",
+    "vn_old": "「Ngài Soutetsu có thể——\\nchạm vào, và tự mình xác nhận được không ạ?」",
+    "type": "misaligned",
+    "fix": "Những việc như mọi khi, nhưng giờ đây, hơn hết là đáng tin cậy."
+  },
+  {
+    "key": 2826,
+    "speaker": "monologue",
+    "jp": "上空からの捜索は確かに効果が高かろうが、\\nこの悪天候――見落としどころか二次災害の危険もある。",
+    "tw": "雖然從高處進行搜索效果確實比較好，但是現在天氣這麼惡劣——先別說看不看得到，搞不好連Ｎａｖｉ也會遇險。",
+    "vn_old": "「Ừm.」",
+    "type": "misaligned",
+    "fix": "Tìm kiếm từ trên không chắc chắn hiệu quả cao, nhưng với thời tiết xấu này—— chưa nói đến bỏ sót, còn có nguy cơ thảm họa thứ cấp."
+  },
+  {
+    "key": 2834,
+    "speaker": "monologue",
+    "jp": "電話がひっきりなしに鳴る。\\n見知った顔、見知らぬ顔――続々、人が集まってくる。",
+    "tw": "電話聲一直響個不停。越來越多的人聚集過來——有認識的，也有不認識的。",
+    "vn_old": "Không được——Cánh tay, thế này,\\ncăng cứng thế này thì——",
+    "type": "misaligned",
+    "fix": "Điện thoại reo liên tục. Khuôn mặt quen, khuôn mặt lạ—— người ta tập trung lại liên tục."
+  },
+  {
+    "key": 2846,
+    "speaker": "monologue",
+    "jp": "（――いや）",
+    "tw": "（——不對）",
+    "vn_old": "Cứ thế để em ấy dẫn dắt, tôi đặt tay lên ngực Hachiroku.\\nThật ấm áp. Thật mềm mại.",
+    "type": "misaligned",
+    "fix": "（――Không.）"
+  },
+  {
+    "key": 2862,
+    "speaker": "monologue",
+    "jp": "（♪～）",
+    "tw": "（叮～）",
+    "vn_old": "「!」",
+    "type": "misaligned",
+    "fix": "（♪～）"
+  },
+  {
+    "key": 2865,
+    "speaker": "monologue",
+    "jp": "（ゴン、ゴンっ）",
+    "tw": "（咚、咚）",
+    "vn_old": "Khuôn mặt con bé nhăn nhó,\\nnhư thể lỡ nuốt nhầm cục than mà Hachiroku hay ăn vậy.",
+    "type": "misaligned",
+    "fix": "（Cộc, cộc.）"
+  },
+  {
+    "key": 2873,
+    "speaker": "monologue",
+    "jp": "（ああ……これこそが御一夜だ）",
+    "tw": "（啊……這才是御一夜該有的樣子）",
+    "vn_old": "「Không sao, chỉ hơi căng thẳng chút thôi.」",
+    "type": "misaligned",
+    "fix": "（À…… đây mới chính là Ohitoyo.）"
+  },
+  {
+    "key": 2875,
+    "speaker": "monologue",
+    "jp": "（ああ、いや、そうか……）",
+    "tw": "（啊，不對，原來是這樣……）",
+    "vn_old": "「Vậy nên, anh hai——à không, anh trai.\\nƯm, bọn em, nếu được thì.」",
+    "type": "misaligned",
+    "fix": "（À, không, ra vậy……）"
+  },
+  {
+    "key": 2876,
+    "speaker": "monologue",
+    "jp": "（ガラっ！）",
+    "tw": "（喀噠！）",
+    "vn_old": "「Buổi tối……\\nNghe nói là sẽ nảy ra những ý tưởng mà bình thường không nghĩ tới được đấy ạ.」",
+    "type": "misaligned",
+    "fix": "（Cạch!）"
+  },
+  {
+    "key": 2877,
+    "speaker": "monologue",
+    "jp": "（ガラっ）",
+    "tw": "（喀噠）",
+    "vn_old": "「Nhưng, trước đó đã.」",
+    "type": "misaligned",
+    "fix": "（Cạch.）"
+  },
+  {
+    "key": 2878,
+    "speaker": "monologue",
+    "jp": "（む？）",
+    "tw": "（嗯？）",
+    "vn_old": "Sau khi hoàn thành chạy thử, \\x%l8620;#00ffc040;8620%l;#; đã trở lại hoạt động thương mại,\\nvà \\x%lキハ07;#00ffc040;KiHa 07%l;#; cũng bắt đầu đợt đại tu như đã định.",
+    "type": "misaligned",
+    "fix": "（Hử?）"
+  },
+  {
+    "key": 2882,
+    "speaker": "monologue",
+    "jp": "（なんだ――冷えきっているじゃないか）",
+    "tw": "（她的手怎麼這麼冷）",
+    "vn_old": "「Xin lỗi anh hai nha. Ngày mai, em phải đến trường rồi.」",
+    "type": "misaligned",
+    "fix": "（Cái gì—— lạnh ngắt thế này.）"
+  },
+  {
+    "key": 2885,
+    "speaker": "monologue",
+    "jp": "（御一夜は、人の繋がりの町なんだ――）",
+    "tw": "（御一夜，是人與人聯繫而成的城市——）",
+    "vn_old": "Bóp. Nhả.——Trong tích tắc,\\ntôi xòe các ngón tay ra rồi nắm lại.",
+    "type": "misaligned",
+    "fix": "（Ohitoyo là thị trấn của sự kết nối giữa người với người——）"
+  },
+  {
+    "key": 2887,
+    "speaker": "monologue",
+    "jp": "（プツっ）",
+    "tw": "（掛斷）",
+    "vn_old": "「Để nghĩ ý tưởng. Về việc tái phát triển mỏ than Jutsusen.\\nEm muốn cùng mọi người làm một trận cho ra trò.」",
+    "type": "misaligned",
+    "fix": "（Tách.）"
+  },
+  {
+    "key": "1929",
+    "speaker": "双鉄",
+    "jp": "「コンも加東雀もありがとう。れいな、支払いは僕がする。\\n一番上等の油揚げと、パンとを盛大に振る舞ってくれ」",
+    "tw": "「空，還有加藤雀，謝謝你們。玲奈，錢我來出，你去買最好的油豆腐和麵包，好好犒勞它們」",
+    "old_vn": "「Cảm ơn Kuu và Kato Suzume nhé. Reina, anh sẽ trả tiền. Em hãy đãi tụi nó đậu phụ rán loại thượng hạng và bánh mì thật thịnh soạn vào nhé.」",
+    "kind": "terminology",
+    "fix": "「Cảm ơn Kon và Kato Suzume nhé. Reina, anh sẽ trả tiền. Em hãy đãi tụi nó đậu phụ rán loại thượng hạng và bánh mì thật thịnh soạn vào nhé.」",
+    "note": "Quyết định B8 (19/11, Hieu): JP là コン (tên cáo trắng), không phải くぅ (tiếng kêu) — sửa \"Kuu\" → \"Kon\" theo tên chuẩn (Paulette 01 search dùng \"Kon\" 10×)."
+  },
+  {
+    "key": "2551",
+    "speaker": "monologue",
+    "jp": "転がるようにホームに下りれば、\\nれいなはコンと、ずぶ濡れの加東雀を従えている。",
+    "tw": "我急急忙忙地跑下站台，看到玲奈和空的身後跟著渾身濕透的加藤雀。",
+    "old_vn": "Tôi lao xuống sân ga như lăn, thấy Reina đi cùng Kuu và Kato Suzume đang ướt sũng.",
+    "kind": "terminology",
+    "fix": "Tôi lao xuống sân ga như lăn, thấy Reina đi cùng Kon và Kato Suzume đang ướt sũng.",
+    "note": "Quyết định B8 (19/11, Hieu): JP là コン (tên cáo trắng), không phải くぅ (tiếng kêu) — sửa \"Kuu\" → \"Kon\" theo tên chuẩn (Paulette 01 search dùng \"Kon\" 10×)."
+  }
+]

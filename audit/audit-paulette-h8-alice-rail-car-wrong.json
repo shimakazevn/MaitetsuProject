@@ -1,0 +1,1565 @@
+[
+    {
+        "key": 1456,
+        "character": "monologue",
+        "jp": "……十分、甘さを堪能しつくし、\\n舌を口内に引きこもらせる。",
+        "tw": "……在好好享受一番甜美的滋味之後，我把舌頭收了回來。",
+        "old_vn": "「Ưm? ……A——phù——này? Anh Soutetsu——ưm.\\nEm, muốn——nhiều đồ ngọt, hơn nữa——chụt」",
+        "fix": "……Thưởng thức trọn vẹn vị ngọt ngào, tôi rụt lưỡi vào trong miệng.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 2340; bản sửa là VN cũ của key 2161 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 1463,
+        "character": "monologue",
+        "jp": "……豊かな香りがレールショップを満たし始める。",
+        "tw": "……鐵路商店裡開始被茶香填滿。",
+        "old_vn": "Đặt ấm trà và đĩa lên khay,\\nPaulette quay trở lại bàn.",
+        "fix": "……Hương thơm nồng nàn bắt đầu lan tỏa khắp cửa hàng đường sắt.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3490; bản sửa là VN cũ của key 2478 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 1502,
+        "character": "ポーレット",
+        "jp": "「……ん――あ。双鉄、くん。\\nくすぐったい――です」",
+        "tw": "「……嗯——啊。雙鐵君。這樣好癢」",
+        "old_vn": "Thừa thế xông lên, tôi liếm láp, mút mát.\\nThưởng thức trọn vẹn vị ngọt ngào, rồi chóp chép nhả ra.",
+        "fix": "「……Ưm——a. Anh Soutetsu. Nhột——quá.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3282; bản sửa là VN cũ của key 3268 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 1504,
+        "character": "双鉄",
+        "jp": "「……ああ――確かに旨いな」",
+        "tw": "「……嗯——確實很好喝」",
+        "old_vn": "「Bánh eclair mini. Hợp lắm đấy? Rất hợp luôn.」",
+        "fix": "「……À——Đúng là ngon thật.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2762; bản sửa là VN cũ của key 3520 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 1506,
+        "character": "双鉄",
+        "jp": "「…………むぅ。これは――すごいな」",
+        "tw": "「……嗯。這個好」",
+        "old_vn": "Có lẽ đây là, hương vị của người lớn chăng.",
+        "fix": "「…………Hừm. Cái này——tuyệt thật đấy.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3638; bản sửa là VN cũ của key 3653 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 1510,
+        "character": "双鉄",
+        "jp": "「……ポーレット」",
+        "tw": "「……波萊特」",
+        "old_vn": "「Ưm——ưm chụt——chụt——ưm, phù.\\nÀ ừm……sao, thế ạ? Anh Soutetsu.」",
+        "fix": "「……Paulette.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch của JP ở key 2279; bản sửa là VN cũ của key 3114 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 1513,
+        "character": "双鉄",
+        "jp": "「……本当にお疲れ様だ。素晴らしかった。\\nこの上ないプロモーションになったと思う」",
+        "tw": "「……真的辛苦你了，簡直完美。我覺得沒有什麼宣傳能比這個更好」",
+        "old_vn": "「……Em thực sự vất vả rồi. Tuyệt vời lắm.\\nAnh nghĩ đây là một chiến dịch quảng bá không thể nào tốt hơn được nữa.」",
+        "fix": "「……Em thực sự vất vả rồi. Tuyệt vời lắm. Tôi nghĩ đây là một chiến dịch quảng bá không thể nào tốt hơn được nữa.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 1516,
+        "character": "双鉄",
+        "jp": "「……予算や設備の都合もあろうが、僕としては、\\n『世界各国の絵本と触れ合える』程度は必要かと思う」",
+        "tw": "「……肯定會有預算和設備上的限制，但我還是覺得有必要做到“能接觸到世界各國的繪本”」",
+        "old_vn": "「……Dù sẽ có những hạn chế về ngân sách và cơ sở vật chất, nhưng theo anh,\\nít nhất cũng cần phải đạt đến mức 『Có thể tiếp xúc với truyện tranh từ khắp nơi trên thế giới』.」",
+        "fix": "「……Dù sẽ có những hạn chế về ngân sách và cơ sở vật chất, nhưng theo tôi, ít nhất cũng cần phải đạt đến mức 『Có thể tiếp xúc với truyện tranh từ khắp nơi trên thế giới』.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2047,
+        "character": "双鉄",
+        "jp": "「なんだかんだいっても僕は酒蔵の養子だからな。\\n酒のことには、多少は詳しい」",
+        "tw": "「不管怎麼說我也是酒廠家的養子。關於酒這方面還是了解一點」",
+        "old_vn": "「Nói gì thì nói, anh cũng là con nuôi của xưởng rượu mà.\\nNên anh cũng biết đôi chút về rượu.」",
+        "fix": "「Nói gì thì nói, tôi cũng là con nuôi của xưởng rượu mà. Nên tôi cũng biết đôi chút về rượu.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2067,
+        "character": "双鉄",
+        "jp": "「おそまつどころか、この上も無いごちそうだ」",
+        "tw": "「什麼不成敬意，就沒有比這更好吃的東西了」",
+        "old_vn": "Yết hầu Paulette khẽ chuyển động cái ực.",
+        "fix": "「Không có chi cái gì, đây là một bữa tiệc ngon lành không gì sánh bằng đấy.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3483; bản sửa là VN cũ của key 2769 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2080,
+        "character": "双鉄",
+        "jp": "「イって――いい――くっ――僕も――すぐっ」",
+        "tw": "「你就——高潮吧——我也——很快要——」",
+        "old_vn": "「Cứ lên đỉnh——đi——ư——anh cũng——sắp rồi」",
+        "fix": "「Cứ lên đỉnh——đi——ư——tôi cũng——sắp rồi」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2088,
+        "character": "ポーレット",
+        "jp": "「はい、あ～ん」",
+        "tw": "「來，張嘴」",
+        "old_vn": "Dù nói là mini, nhưng để ăn hết trong một miếng thì hơi to.\\nTôi chỉ cắn một nửa vào miệng——",
+        "fix": "「Nào, a~」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3653; bản sửa là VN cũ của key 2298 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2089,
+        "character": "双鉄",
+        "jp": "「さ、つづきだ。\\nせっかくだ。最後まで読んでくれ」",
+        "tw": "「來，繼續吧。機會難得，就一直讀到最後吧」",
+        "old_vn": "「Nào, tiếp tục thôi.\\nCất công rồi, hãy đọc cho anh nghe đến cuối đi.」",
+        "fix": "「Nào, tiếp tục thôi. Cất công rồi, hãy đọc cho tôi nghe đến cuối đi.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2110,
+        "character": "双鉄",
+        "jp": "「おかわりを――今度は僕に、食べさせてくれ」",
+        "tw": "「再來一個——這次讓我再吃一個」",
+        "old_vn": "「À ừm——ưm!?」",
+        "fix": "「Cho tôi thêm miếng nữa đi——Lần này, hãy để tôi ăn.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (cuối chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch mồ côi, không có JP nào trong dự án khớp với nó; bản sửa là VN cũ của key 2279 — bản dịch đúng của JP dòng này. (đã sửa \"anh\"→\"tôi\" ×2 trong VN gốc — \"anh\" là Soutetsu tự xưng, JP 僕に)"
+    },
+    {
+        "key": 2125,
+        "character": "双鉄",
+        "jp": "「『足踏みワイン体験』単体ではもったいない。\\n御一夜にはクマ焼酎というブランドがあるのだから」",
+        "tw": "「只做“腳踩製酒體驗”就太浪費了。御一夜有隈燒酒這個品牌」",
+        "old_vn": "「Chỉ tổ chức 『Trải nghiệm làm rượu vang bằng chân』 không thôi thì phí quá.\\nOhimitera vốn có thương hiệu rượu Shochu Kuma mà.」",
+        "fix": "「Chỉ tổ chức 『Trải nghiệm làm rượu vang bằng chân』 không thôi thì phí quá. Ohitoyo vốn có thương hiệu rượu Shochu Kuma mà.」",
+        "kind": "terminology",
+        "reason": "御一夜 bị dịch \"Ohimitera\" — theo quyết định 19/11 phải là \"Ohitoyo\"."
+    },
+    {
+        "key": 2132,
+        "character": "ポーレット",
+        "jp": "「ひゅあぁぁぁぁぁぁぁぁぁぁぁぁぁぁんっ！！！」",
+        "tw": "「呀啊啊啊啊啊！！！」",
+        "old_vn": "「Hyuaaaaaaaaaaaaaaaan!!!」",
+        "fix": "「Híuaaaaaaaaaaaaaaan!!!」",
+        "kind": "romanised",
+        "reason": "JP ひゅあぁぁぁぁぁぁぁぁぁぁぁぁぁぁんっ (15 あ/ぁ) bị phiên âm \"Hyua…an\" — Việt hoá: \"Híu\" + 15 chữ a + \"n!!!\" (đã đếm bằng script: đúng 15 a)."
+    },
+    {
+        "key": 2136,
+        "character": "ポーレット",
+        "jp": "「ひあっ！？」",
+        "tw": "「呀！？」",
+        "old_vn": "「Hya!?」",
+        "fix": "「Hia!?」",
+        "kind": "romanised",
+        "reason": "JP ひあっ bị dịch \"Hya\" — sai âm: ひあ là \"Hia\", không phải ひゃ \"Hya\" — sửa thành \"Hia!?\"."
+    },
+    {
+        "key": 2137,
+        "character": "ポーレット",
+        "jp": "「ひゃうっ！？　あっ――ふっ――く、あっ――\\nわたっ――わたし――イッた――イっ、ってっ！」",
+        "tw": "「呀！？啊——呼——啊——我——我——丟了——丟了！」",
+        "old_vn": "「Hya!? A——phù——ư, a——\\nem——em——lên đỉnh——lên đỉnh, rồi mà!」",
+        "fix": "「Hiau!? A——phù——ư, a——em——em——lên đỉnh——lên đỉnh, rồi mà!」",
+        "kind": "romanised",
+        "reason": "JP ひゃうっ bị dịch \"Hya\" (mất âm う) — Việt hoá \"Hiau\" (tiền lệ h1/h2: ひゃう→\"Hiau\")."
+    },
+    {
+        "key": 2139,
+        "character": "ポーレット",
+        "jp": "「きゃふっ！？　はっ！　ああっ――早い、のっ――\\nんっっ――ふあっ――もっと、これ、腰、ずれ、てっ」",
+        "tw": "「呀！？啊！啊——好快——嗯——呼啊——再來、這樣、腰會錯開」",
+        "old_vn": "「Kya phu!? Hà! A a——nhanh, quá——\\nưm——phù a——nữa đi, thế này, eo, lệch, mất」",
+        "fix": "「Kyaphù!? Hà! A a——nhanh, quá——ưm——phù a——nữa đi, thế này, eo, lệch, mất」",
+        "kind": "romanised",
+        "reason": "JP きゃふっ bị phiên âm \"Kya phu\" — Việt hoá viết liền một từ \"Kyaphù\" (tiền lệ h6 769: きゃふっ→\"Kyaphù\"); ふあっ→\"phù a\"."
+    },
+    {
+        "key": 2142,
+        "character": "ポーレット",
+        "jp": "「ひあ！？　あっ！　それ、らめっ！　イっちゃう、\\nわた、しっ――すぐっ――ふ、きゅ――イっ、ちゃっ」",
+        "tw": "「呀！？啊！這樣不行！要丟了，我馬上要——呼——丟了」",
+        "old_vn": "「Hia!? A! Thế này, không được! Lên đỉnh mất,\\nem——ngay lập tức——phù, kyu——lên đỉnh, mất」",
+        "fix": "「Hia!? A! Thế này, không được! Lên đỉnh mất, em——ngay lập tức——phù, Kíu——lên đỉnh, mất」",
+        "kind": "romanised",
+        "reason": "JP きゅ bị phiên âm \"kyu\" — Việt hoá \"Kíu\" (tiền lệ h6: きゅ→\"Kíu\"). (ひあ→\"Hia\" trong VN cũ đã đúng.)"
+    },
+    {
+        "key": 2150,
+        "character": "双鉄",
+        "jp": "「いや――よだれで汚しては申し訳ないと思ってな」",
+        "tw": "「呃，我想要是把衣服弄髒就不好了」",
+        "old_vn": "Nương theo ánh mắt của tôi,\\nPaulette cũng cúi xuống nhìn cơ thể mình, nhìn bầu ngực mình.",
+        "fix": "「Không——Tôi nghĩ làm bẩn bằng nước bọt thì có lỗi lắm.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 3606; bản sửa là VN cũ của key 3343 — bản dịch đúng của JP dòng này. (đã sửa \"Anh\"→\"Tôi\" trong VN gốc vì đó là lỗi xưng hô của dòng cho)"
+    },
+    {
+        "key": 2154,
+        "character": "双鉄",
+        "jp": "「まさしく、上質。最高に豊かな味わいだ」",
+        "tw": "「味道真棒，口感非常豐富」",
+        "old_vn": "「À, ừm……cái đó, không có chi, ạ.」",
+        "fix": "「Quả thực, là thượng hạng. Một hương vị phong phú tuyệt đỉnh.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2769; bản sửa là VN cũ của key 3282 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2158,
+        "character": "ポーレット",
+        "jp": "「はっ――ああっ――きもち、いいいっ――んっ、\\nあ――ぷくって、亀頭――なか、を――こす、って」",
+        "tw": "「呼——啊——好舒服——嗯——啊——碰到了——龜頭——蹭著裡面」",
+        "old_vn": "「Hà——a a——sướng, quá đi——ưm,\\na——phồng lên, quy đầu——đang cọ, xát——bên trong」",
+        "fix": "「Hà——a a——sướng, quá đi——ưm, a——phồng lên, quy đầu——bên trong——đang cọ, xát」",
+        "kind": "meaning",
+        "reason": "Sai thứ tự từ: JP 亀頭――なか、を――こす (quy đầu — bên trong — cọ xát) nhưng VN cũ đảo thành \"bên trong——quy đầu\" — đổi lại đúng thứ tự JP."
+    },
+    {
+        "key": 2161,
+        "character": "ポーレット",
+        "jp": "「は……ん……ちゅっ――ちゅうっ――チュ――\\nふ、あ――しゅき――ほーへふ、ふん――ん、ちゅっ」",
+        "tw": "「呼……嗯……啾——啾——啾——呼啊——我喜歡你——雙鐵——嗯——啾」",
+        "old_vn": "……Thưởng thức trọn vẹn vị ngọt ngào,\\ntôi rụt lưỡi vào trong miệng.",
+        "fix": "「Hà……ưm……chụt——chụt——chụt——phù, a——thích quá——Anh Soutetsu, ơi——ưm, ưm, chụt」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 1456; bản sửa là VN cũ của key 3512 — bản dịch đúng của JP dòng này. (đã thêm một \"ưm\" — JP có hai tiếng ふん――ん)"
+    },
+    {
+        "key": 2177,
+        "character": "ポーレット",
+        "jp": "「わぁあ、フォトンの紅茶とミニエクレア！\\n嬉しい、ママ、覚えててくれたんだ」",
+        "tw": "「哇，是福頓的紅茶和迷你泡芙！我好高興，媽媽還記得呢」",
+        "old_vn": "「Là món em thích sao?」",
+        "fix": "「Oa, hồng trà Fauchon và bánh eclair mini này! Vui quá, mẹ vẫn còn nhớ.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng E footsteps/tea (7)): VN cũ là bản dịch của JP ở key 2560; bản sửa là VN cũ của key 3479 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2179,
+        "character": "双鉄",
+        "jp": "「おっと」",
+        "tw": "「哎」",
+        "old_vn": "「Ốp」",
+        "fix": "「Ối」",
+        "kind": "meaning",
+        "reason": "JP おっと bị dịch \"Ốp\" — sai hoàn toàn; theo tiền lệ h7 861 (おっと \"Ốp\"→\"Ối\") sửa thành \"Ối\"."
+    },
+    {
+        "key": 2185,
+        "character": "ポーレット",
+        "jp": "「ふえっ！？」",
+        "tw": "「哎！？」",
+        "old_vn": "——Nguy hiểm, quá.\\nTôi lùi về phía giường để tạo khoảng cách, chật vật lắm mới kìm lại được.",
+        "fix": "「Phê!?」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (đầu chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 3183; JP dòng này chưa có bản dịch đúng trong file — dịch mới từ JP."
+    },
+    {
+        "key": 2187,
+        "character": "ポーレット",
+        "jp": "「えっ！？　やっ――いまのッ――んひゃうっ！？\\nんんんんっ！？　なに、これっ――わたし、いまっ」",
+        "tw": "「哎！？呀——剛才——嗯！？嗯嗯嗯！？這是什麼——我剛才」",
+        "old_vn": "「Hả!? Á——vừa rồi——ưm hyau!?\\nƯm ưm ưm ưm!? Gì, thế này——em, vừa nãy」",
+        "fix": "「Hả!? Á——vừa rồi——ưm hiau!? Ưm ưm ưm ưm!? Gì, thế này——em, vừa nãy」",
+        "kind": "romanised",
+        "reason": "JP んひゃうっ bị phiên âm \"hyau\" — Việt hoá \"hiau\" (ん→\"ưm\" đã đúng; ひゃう→\"hiau\")."
+    },
+    {
+        "key": 2203,
+        "character": "ポーレット",
+        "jp": "「はむっ――ちゅううっ――れるっ――じゅずっ――\\nずっ――（ごくっ）――れるっ――れろお――ちゅむ」",
+        "tw": "「唔——啾嚕——啾嚕——啾噗——呼——（嚥下）——啾嚕——啾噗——啾噗——」",
+        "old_vn": "Cảm giác dính chặt, càng thêm gia tăng.",
+        "fix": "「Hàm——chụt——rộp——chụt——chụt——（ực）——rộp——rộp——chụt」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3262; bản sửa là VN cũ của key 3332 — bản dịch đúng của JP dòng này. (đã bỏ khoảng trắng sau —— trong VN gốc, theo quy ước gạch ——)"
+    },
+    {
+        "key": 2208,
+        "character": "双鉄",
+        "jp": "「っ――ぐっ！」",
+        "tw": "「啊——呃！」",
+        "old_vn": "「——Ư!」",
+        "fix": "「——Ư——hự!」",
+        "kind": "gasp",
+        "reason": "JP っ――ぐっ！ bị bỏ mất ぐっ trong VN (\"——Ư!\") — sửa thành \"——Ư——hự!\" (っ→Ư, ぐっ→hự)."
+    },
+    {
+        "key": 2224,
+        "character": "ポーレット",
+        "jp": "「あ――んっ……ちゅっ――ふ――あっ――\\nちゅっ――ちゅむっ――ちゅうっ――ちゅっ――」",
+        "tw": "「啊——嗯……啾——呼——啊——啾——啾嚕——啾噗——啾——」",
+        "old_vn": "Tiếng thở hổn hển. Bốc lên,\\nlà hương thơm hòa quyện giữa mồ hôi, sô-cô-la và Paulette.",
+        "fix": "「A——ưm……chụt——phù——a——chụt——chụt——chụt——chụt——」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3512; bản sửa là VN cũ của key 3307 — bản dịch đúng của JP dòng này. (đã bỏ khoảng trắng sau —— trong VN gốc, theo quy ước gạch ——)"
+    },
+    {
+        "key": 2227,
+        "character": "ポーレット",
+        "jp": "「あ――いただきまぁす\\nんっ――ぱくっ――ぱく――」",
+        "tw": "「啊——我開動了。嗯——嚼嚼——」",
+        "old_vn": "「Hự」",
+        "fix": "「A——em xin phép ạ. Ưm——ngoạm——ngoạm——」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (cuối chuỗi xoay vòng mega (30)): VN cũ là bản dịch mồ côi, không có JP nào trong dự án khớp với nó; bản sửa là VN cũ của key 3277 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2241,
+        "character": "ポーレット",
+        "jp": "「はきゅっ！？　くっ――ふうううううっ」」",
+        "tw": "「啊呀！？啊——呼啊」",
+        "old_vn": "「Hakyu!? Ư——phuuuuuu」",
+        "fix": "「Hakíu!? Ư——phuuuuuu」",
+        "kind": "romanised",
+        "reason": "JP はきゅっ bị phiên âm \"Hakyu\" — Việt hoá \"Hakíu\" (は→\"Ha\", きゅ→\"kíu\")."
+    },
+    {
+        "key": 2270,
+        "character": "双鉄",
+        "jp": "「っ」",
+        "tw": "「喔」",
+        "old_vn": "Bị bao bọc.",
+        "fix": "「Hự」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (đầu chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch của JP ở key 3382; JP dòng này chưa có bản dịch đúng trong file — dịch mới từ JP."
+    },
+    {
+        "key": 2273,
+        "character": "双鉄",
+        "jp": "「ん――くっ――」",
+        "tw": "「嗯——唔——」",
+        "old_vn": "Tôi ôm ghì lấy cô ấy.\\nCảm giác như đang ôm một túi chườm nóng vậy. Thật ấm áp.",
+        "fix": "「Ưm——hự——」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng D giggle/eclair (8)): VN cũ là bản dịch của JP ở key 3249; bản sửa là VN cũ của key 2282 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2275,
+        "character": "双鉄",
+        "jp": "「ん――くっ――（ごくっ）」",
+        "tw": "「嗯——唔——（嚥下）」",
+        "old_vn": "「Ưm……chụt——chụt——rộp——rộp,\\nchụt——chụt——chụt——（ực）」",
+        "fix": "「Ưm——hự——（ực）」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 2289; bản sửa là VN cũ của key 3430 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2277,
+        "character": "ポーレット",
+        "jp": "「ん――んんっ――んっ――」",
+        "tw": "「嗯——嗯——嗯——」",
+        "old_vn": "Vị ngọt ngào ập đến trong khoang miệng.",
+        "fix": "「Ưm——ưm ưm——ưm——」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (đầu chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3552; JP dòng này chưa có bản dịch đúng trong file — dịch mới từ JP."
+    },
+    {
+        "key": 2279,
+        "character": "ポーレット",
+        "jp": "「ん――んちゅ――ちゅぱ――ん、ぷぁ。\\nえと……どう、しました？　双鉄くん」",
+        "tw": "「嗯——嗯啾——啾噗——嗯——噗。那個……怎麼了，雙鐵君」",
+        "old_vn": "「Cho anh thêm miếng nữa đi——Lần này, hãy để anh ăn.」",
+        "fix": "「Ưm——ưm chụt——chụt——ưm, phù a. À ừm……sao, thế ạ? Anh Soutetsu.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch của JP ở key 2110; bản sửa là VN cũ của key 1510 — bản dịch đúng của JP dòng này. (đã sửa \"phù\"→\"phù a\" — JP ぷぁ, theo quy ước file ふぁ→\"phù a\")"
+    },
+    {
+        "key": 2282,
+        "character": "ポーレット",
+        "jp": "「ん……」",
+        "tw": "「嗯……」",
+        "old_vn": "「Ưm——hự——」",
+        "fix": "「Ưm……」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng D giggle/eclair (8)): VN cũ là bản dịch của JP ở key 2273; bản sửa là VN cũ của key 3529 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2286,
+        "character": "ポーレット",
+        "jp": "「ん……あ――すごい……おちんちん、\\nおっき、すぎて――これ――よいしょ――えいっ！」",
+        "tw": "「嗯……啊——好厲害……雞雞真大——這個——嘿咻！」",
+        "old_vn": "「Ưm……a——Tuyệt quá……dương vật,\\nto, quá——cái này——yoozo——ây da!」",
+        "fix": "「Ưm……a——Tuyệt quá……dương vật, to, quá——cái này——yôi-zo——ây da!」",
+        "kind": "romanised",
+        "reason": "JP よいしょ bị phiên âm \"yoozo\" (chữ thường, dạng La-tinh) — Việt hoá \"yôi-zo\" (theo cách file diễn よいしょ: \"Yôi-zo\" ở 2365)."
+    },
+    {
+        "key": 2289,
+        "character": "ポーレット",
+        "jp": "「ん……ちゅっ――ちゅるっ――れるっ――れろっ、\\nちゅううっ――ちゅっ――ちゅずずずっ――（こく）」",
+        "tw": "「嗯……啾——啾嚕——啾嚕——啾噗——啾噗——啾噗——啾嚕——（嚥下）」",
+        "old_vn": "Bánh eclair mini đã trôi xuống cổ họng.\\nNhưng vị ngọt ngào lại càng tăng thêm.",
+        "fix": "「Ưm……chụt——chụt——rộp——rộp, chụt——chụt——chụt——（ực）」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3307; bản sửa là VN cũ của key 2275 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2290,
+        "character": "ポーレット",
+        "jp": "「ん……ちゅっ――ちゅるっ――れるっ――\\nちゅむ――ちゅうっ――ぺろっっ――れろおおっ」",
+        "tw": "「嗯……啾——啾嚕——啾嚕——啾噗——啾噗——啾嚕——啾噗」",
+        "old_vn": "Hoàn toàn là, những chuyển động khiêu gợi tôi.",
+        "fix": "「Ưm……chụt——chụt——rộp——chụt——chụt——liếm——rộp」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch của JP ở key 3156; bản sửa là VN cũ của key 3339 — bản dịch đúng của JP dòng này. (đã bỏ khoảng trắng sau —— trong VN gốc, theo quy ước gạch ——)"
+    },
+    {
+        "key": 2292,
+        "character": "ポーレット",
+        "jp": "「ん……ちゅっ――っ――はむっ――れるっ、るっ、\\nちゅうっ、ちゅるっ――ちゅるるっ――れる、れろっ」",
+        "tw": "「嗯……啾——嗯——唔——啾嚕——啾嚕——啾噗——啾噗——啾噗——」",
+        "old_vn": "Mỗi khi lưỡi Paulette ngọ nguậy,\\ntôi có cảm giác như đến cả não mình cũng đang bị liếm láp.",
+        "fix": "「Ưm……chụt——ưm——hàm——rộp, rộp, chụt, chụt——chụt——rộp, rộp」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3485; bản sửa là VN cũ của key 3478 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2298,
+        "character": "ポーレット",
+        "jp": "「はい。\\n絵柄は、ホワイトチョコへのプリントですから」",
+        "tw": "「嗯。圖案是用白巧克力畫上去的」",
+        "old_vn": "「Nào, a~」",
+        "fix": "「Vâng. Họa tiết được in lên lớp sô-cô-la trắng đấy ạ.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2088; bản sửa là VN cũ của key 2753 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2300,
+        "character": "双鉄",
+        "jp": "「うむ。御一夜駅-マイントレジャー駅間のみの\\n利用者が多すぎるのは、確かにかなりもったいない」",
+        "tw": "「嗯。現在只有從御一夜站到煤探樂園站的乘客比較多，這樣實在是很浪費」",
+        "old_vn": "「Ừm. Quả thực rất lãng phí khi lượng hành khách\\nchỉ tập trung ở đoạn ga Ohimitera đến ga Mine Treasure.」",
+        "fix": "「Ừm. Quả thực rất lãng phí khi lượng hành khách chỉ tập trung ở đoạn ga Ohitoyo đến ga Mine Treasure.」",
+        "kind": "terminology",
+        "reason": "御一夜 bị dịch \"Ohimitera\" — theo quyết định 19/11 phải là \"Ohitoyo\"."
+    },
+    {
+        "key": 2304,
+        "character": "ポーレット",
+        "jp": "「んゆっ！！？」",
+        "tw": "「嗯啊！！？」",
+        "old_vn": "「Ưm yu!!?」",
+        "fix": "「Ưm iu!!?」",
+        "kind": "romanised",
+        "reason": "JP んゆっ bị phiên âm \"yu\" — Việt hoá \"iu\" (ん→\"Ưm\" đã đúng; ゆ→\"iu\")."
+    },
+    {
+        "key": 2307,
+        "character": "双鉄",
+        "jp": "「んんんんっ！」",
+        "tw": "「嗯嗯嗯！」",
+        "old_vn": "「Ưm ưm ưm!」",
+        "fix": "「Ưm ưm ưm ưm!」",
+        "kind": "gasp",
+        "reason": "JP んんんんっ！ có 4 tiếng ん nhưng VN chỉ có 3 \"Ưm\" — sửa thành 4 \"Ưm\"."
+    },
+    {
+        "key": 2314,
+        "character": "双鉄",
+        "jp": "「ああ、御一夜の酒蔵関係者や、\\n湯医の絵本館の関係者を一同に集めてだ」",
+        "tw": "「嗯，可以讓御一夜的酒廠相關人員，還有湯醫的繪本館的人員都聚在一起」",
+        "old_vn": "「Ừ, tập hợp những người liên quan đến xưởng rượu ở Ohimitera,\\nvà những người liên quan đến thư viện truyện tranh Yunosaka lại với nhau.」",
+        "fix": "「Ừ, tập hợp những người liên quan đến xưởng rượu ở Ohitoyo, và những người liên quan đến thư viện truyện tranh Yunoi lại với nhau.」",
+        "kind": "terminology",
+        "reason": "御一夜 bị dịch \"Ohimitera\" — theo quyết định 19/11 phải là \"Ohitoyo\".",
+        "note": "Quyết định 湯医 19/11 (Hieu): \"Yunosaka\" → \"Yunoi\"."
+    },
+    {
+        "key": 2327,
+        "character": "双鉄",
+        "jp": "「ああ。望むところだ。\\n今日すぐにでも、まだ頑張れるぞ」",
+        "tw": "「嗯，我求之不得。今天我還能再努力一下」",
+        "old_vn": "「Ừ. Anh cầu còn không được.\\nNgay hôm nay, anh vẫn còn có thể cố gắng tiếp đấy.」",
+        "fix": "「Ừ. Tôi cầu còn không được. Ngay hôm nay, tôi vẫn còn có thể cố gắng tiếp đấy.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2329,
+        "character": "双鉄",
+        "jp": "「ああ、さして強くない僕でも楽しめる、\\n飲みくちのよい、軽いワインだ」",
+        "tw": "「嗯，我這種不會喝酒的人也能品嘗，是一種口味很輕的葡萄酒」",
+        "old_vn": "「Ừ, một người tửu lượng kém như anh cũng có thể thưởng thức,\\nlà loại rượu vang nhẹ, rất dễ uống.」",
+        "fix": "「Ừ, một người tửu lượng kém như tôi cũng có thể thưởng thức, là loại rượu vang nhẹ, rất dễ uống.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2338,
+        "character": "双鉄",
+        "jp": "「ああ、喜んで見せてもらおう」",
+        "tw": "「嗯，那我就看看吧」",
+        "old_vn": "「Ừ, anh rất sẵn lòng chiêm ngưỡng.」",
+        "fix": "「Ừ, tôi rất sẵn lòng chiêm ngưỡng.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2340,
+        "character": "ポーレット",
+        "jp": "「ん？　……ぁ――ぷあっ――ね？　双鉄くん――ん。\\nわたし、もっと――甘いの、ほしい――ちゅっ」",
+        "tw": "「嗯？……啊——呼——雙鐵君——嗯。我還想吃——更多甜甜的」",
+        "old_vn": "Paulette chủ động tách môi tôi ra.",
+        "fix": "「Ưm? ……A——phù——này? Anh Soutetsu——ưm. Em, muốn——nhiều đồ ngọt, hơn nữa——chụt」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3478; bản sửa là VN cũ của key 1456 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2343,
+        "character": "双鉄",
+        "jp": "「うむ？　抱くことが染めることとは感じるが――\\n抱くだけではなく、染める、とは？」",
+        "tw": "「嗯？親熱不就有這個意思了嗎，不僅是親熱還要染色是什麼意思？」",
+        "old_vn": "「Hửm? Anh cứ nghĩ ôm ấp chính là nhuộm màu rồi chứ——\\nKhông chỉ ôm ấp, mà là nhuộm màu, nghĩa là sao?」",
+        "fix": "「Hửm? Tôi cứ nghĩ ôm ấp chính là nhuộm màu rồi chứ——Không chỉ ôm ấp, mà là nhuộm màu, nghĩa là sao?」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2356,
+        "character": "ポーレット",
+        "jp": "「うふふっ。ありがとうございます。\\nだけど――ですね？　双鉄くん」",
+        "tw": "「嘻嘻，謝謝你。不過呢，雙鐵君——」",
+        "old_vn": "（Tuột——）",
+        "fix": "「Ufufu. Cảm ơn anh. Nhưng mà——nhé? Anh Soutetsu.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 3757; bản sửa là VN cũ của key 2755 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2360,
+        "character": "ポーレット",
+        "jp": "「ふふっ、村娘風？　って感じですか？\\nワインとか、足踏みしてつくっちゃったり」",
+        "tw": "「嘻嘻，這個可以叫鄉下的姑娘吧？比如用腳踩葡萄釀酒之類的」",
+        "old_vn": "「Fufu, kiểu cô gái thôn quê? Cảm giác vậy đúng không anh?\\nKiểu như, dùng chân giẫm để làm rượu vang ấy.」",
+        "fix": "「Fufu, kiểu cô gái thôn quê? Cảm giác vậy đúng không anh? Kiểu như, dùng chân giẫm để làm rượu vang ấy.」",
+        "kind": "gasp",
+        "reason": "JP ふふっ (tiếng cười khúc khích) bị phiên âm \"Fufu\" — sửa theo quy ước file ふふっ→\"Ư hự\" (như 2345–2364: うふふ→\"Ư hự hự\")."
+    },
+    {
+        "key": 2365,
+        "character": "ポーレット",
+        "jp": "「よいしょ――よいしょ――しこ――しこ――\\nもにゅ、もにゅ――しこ――しこ――えいっ」",
+        "tw": "「嘿咻——嘿咻——套來——套去——揉來——揉去——套來——套去，嘿」",
+        "old_vn": "「Yoozo——yoozo——sục——sục——\\nnắn, nắn——sục——sục——ây da」",
+        "fix": "「Yôi-zo——yôi-zo——sục——sục——nắn, nắn——sục——sục——ây da」",
+        "kind": "romanised",
+        "reason": "JP よいしょ――よいしょ bị phiên âm \"Yoozo——yoozo\" — Việt hoá \"Yôi-zo——yôi-zo\"."
+    },
+    {
+        "key": 2370,
+        "character": "ポーレット",
+        "jp": "「んふふ、ははひはひはぁ」",
+        "tw": "「嘿嘿，真沒辦法」",
+        "old_vn": "Chỉ cắn đứt một nửa.",
+        "fix": "「Ừm fufu, haha hihi haa」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng D giggle/eclair (8)): VN cũ là bản dịch của JP ở key 3120; bản sửa là VN cũ của key 3310 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2376,
+        "character": "双鉄",
+        "jp": "「ぷあっ！？　（ずううううううううっっ！！）」",
+        "tw": "「噗啊！？（後退）」",
+        "old_vn": "「Hể!?」",
+        "fix": "「Phù a!? （Lùi lạiiiiiiiii!!）」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (cuối chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch mồ côi, không có JP nào trong dự án khớp với nó; bản sửa là VN cũ của key 3294 — bản dịch đúng của JP dòng này. (đã sửa \"Phù\"→\"Phù a\" — JP ぷあっ, theo quy ước file)"
+    },
+    {
+        "key": 2402,
+        "character": "ポーレット",
+        "jp": "「はぁい。うふふ、嬉しいなぁ。\\nママにもらった紅茶を、双鉄くんと飲めるだなんて」",
+        "tw": "「好。嘻嘻，我好高興。竟然能把媽媽送的紅茶泡給你喝」",
+        "old_vn": "「Anh cũng rất vui. Thật hạnh phúc.」",
+        "fix": "「Vâng. Ufufu, vui quá đi. Được uống hồng trà mẹ tặng cùng với Anh Soutetsu thế này.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2478; bản sửa là VN cũ của key 2784 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2407,
+        "character": "ポーレット",
+        "jp": "「はぁい、どうぞ、召し上がれ」",
+        "tw": "「好了，請用吧」",
+        "old_vn": "Vào chiếc cốc đã được hâm nóng sữa sẵn,\\nngay khoảnh khắc hạt cát cuối cùng rơi xuống, hồng trà được thong thả rót vào.",
+        "fix": "「Xin mời anh thưởng thức.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3520; bản sửa là VN cũ của key 3427 — bản dịch đúng của JP dòng này. (đã bỏ \"Xong rồi đây, \" trong VN gốc — cụm này không có trong JP)"
+    },
+    {
+        "key": 2413,
+        "character": "ポーレット",
+        "jp": "「きもち――いい――そこっ――だから、ねっ――\\nんひゅっ！？　ふ――らめぇ――いま、今は、まだっ」",
+        "tw": "「好舒服——那裡——所以————嗯呀！？呼——不行——現在不行」",
+        "old_vn": "「Sướng——quá——chỗ đó——nên là, nhé——\\nưm hyu!? Phù——không được——bây, bây giờ, chưa được」",
+        "fix": "「Sướng——quá——chỗ đó——nên là, nhé——ưm hiu!? Phù——không được——bây, bây giờ, chưa được」",
+        "kind": "romanised",
+        "reason": "JP んひゅっ bị phiên âm \"hyu\" — Việt hoá \"hiu\" (ん→\"ưm\" đã đúng; ひゅ→\"hiu\")."
+    },
+    {
+        "key": 2416,
+        "character": "ポーレット",
+        "jp": "「重くて、痛い――すごく、濃いっ――んっ――\\nはぁっ――熱い、すごいの――わたし、どろどろっ」",
+        "tw": "「好重，好痛——好濃稠啊——嗯——呼——好燙——我已經變得黏糊糊了」",
+        "old_vn": "「Nặng quá, đau quá——đặc, quá——ưm——\\nhà——nóng quá, dữ dội quá——em, nhão nhoét hết rồi」",
+        "fix": "「Nặng quá, đau quá——đặc, quá——ưm——Hà——nóng quá, dữ dội quá——em, nhão nhoét hết rồi」",
+        "kind": "meaning",
+        "reason": "Lỗi đánh máy: JP はぁっ (tiếng thở dài) bị dịch \"nhà\" — sửa thành \"Hà\"."
+    },
+    {
+        "key": 2421,
+        "character": "双鉄",
+        "jp": "「ポーレットの足踏みワインなら、是非飲みたい」",
+        "tw": "「如果是你做的腳踩葡萄酒的話，那我真想嘗一嘗」",
+        "old_vn": "「Nếu là rượu vang do Paulette giẫm chân làm ra, anh nhất định muốn uống thử.」",
+        "fix": "「Nếu là rượu vang do Paulette giẫm chân làm ra, tôi nhất định muốn uống thử.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2436,
+        "character": "双鉄",
+        "jp": "「うむ。御一夜は酒造りの町だし――\\n隈元には、ぶどう農園もワイナリーもある」",
+        "tw": "「對。御一夜本來就是產酒的地方——隈元有葡萄園，也有葡萄酒廠」",
+        "old_vn": "「Ừm. Ohimitera vốn là thị trấn nấu rượu mà——\\nỞ Kumamoto cũng có cả vườn nho lẫn xưởng rượu vang.」",
+        "fix": "「Ừm. Ohitoyo vốn là thị trấn nấu rượu mà——Ở Kumamoto cũng có cả vườn nho lẫn xưởng rượu vang.」",
+        "kind": "terminology",
+        "reason": "御一夜 bị dịch \"Ohimitera\" — theo quyết định 19/11 phải là \"Ohitoyo\"."
+    },
+    {
+        "key": 2462,
+        "character": "双鉄",
+        "jp": "「福岳から[しゃんはい,1]上杯に飛んで、パル＝イスか。\\nポーレットの働きものは、ご両親譲りなのだな」",
+        "tw": "「從福岳飛到上烸，再到巴黎。你工作這麼賣力估計是父母的遺傳」",
+        "old_vn": "「Bay từ Fukuoka đến Thượng Hải, rồi sang Paris sao.\\nSự chăm chỉ của Paulette, chắc là được thừa hưởng từ ba mẹ nhỉ.」",
+        "fix": "「Bay từ Fukutake đến Thượng Hải, rồi sang Paris sao. Sự chăm chỉ của Paulette, chắc là được thừa hưởng từ ba mẹ nhỉ.」",
+        "kind": "meaning",
+        "reason": "Sai tên địa danh: JP 福岳 bị dịch \"Fukuoka\" (福岡) — 福岳 là địa danh khác, đọc kun \"Fukutake\" (đề xuất, chờ Hieu xác nhận)."
+    },
+    {
+        "key": 2474,
+        "character": "双鉄",
+        "jp": "「わからんな。もっとハッキリ言ってくれ。\\nポーレットのどこを、僕の何で、染めてほしいのか」",
+        "tw": "「我不懂啊，你說清楚一點。你想讓我在你的哪裡染上顏色？」",
+        "old_vn": "「Anh không hiểu. Nói rõ hơn cho anh nghe đi.\\nEm muốn anh nhuộm phần nào của Paulette, bằng cái gì của anh?」",
+        "fix": "「Tôi không hiểu. Nói rõ hơn cho tôi nghe đi. Em muốn tôi nhuộm phần nào của Paulette, bằng cái gì của tôi?」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" ×2 trong thoại (JP ポーレットのどこを、僕の何で) → \"Tôi\" ×2."
+    },
+    {
+        "key": 2478,
+        "character": "双鉄",
+        "jp": "「僕も嬉しい。しあわせだ」",
+        "tw": "「我也很開心，真是幸福啊」",
+        "old_vn": "……Hương thơm nồng nàn bắt đầu lan tỏa khắp cửa hàng đường sắt.",
+        "fix": "「Tôi cũng rất vui. Thật hạnh phúc.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 1463; bản sửa là VN cũ của key 2402 — bản dịch đúng của JP dòng này. (đã sửa \"Anh\"→\"Tôi\" trong VN gốc vì đó là lỗi xưng hô của dòng cho)"
+    },
+    {
+        "key": 2489,
+        "character": "双鉄",
+        "jp": "「婚約者同士の話が楽しく、弾みすぎただけのことだ。\\nごめんなさいというのなら、僕も同罪になるぞ？」",
+        "tw": "「我們只是未婚夫妻之間開心地閒聊了一會。你要是道歉的話，我也有罪了」",
+        "old_vn": "「Chỉ là câu chuyện giữa những người đã đính hôn quá vui vẻ, nên mới đi xa thôi.\\nNếu em xin lỗi, thì anh cũng mang tội chung đấy nhé?」",
+        "fix": "「Chỉ là câu chuyện giữa những người đã đính hôn quá vui vẻ, nên mới đi xa thôi. Nếu em xin lỗi, thì tôi cũng mang tội chung đấy nhé?」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2504,
+        "character": "双鉄",
+        "jp": "「楽しみだ」",
+        "tw": "「我很期待」",
+        "old_vn": "「Anh rất mong chờ đấy.」",
+        "fix": "「Tôi rất mong chờ đấy.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2505,
+        "character": "ポーレット",
+        "jp": "「それはもう、ちっちゃいころから！\\n待ってて下さい。すぐ淹れますね」",
+        "tw": "「我從小就愛吃！你等一下，我去泡茶」",
+        "old_vn": "Lạch bạch lạch bạch, đến cả tiếng bước chân cũng rộn rã.",
+        "fix": "「Thích từ hồi còn bé tí luôn ấy chứ! Anh đợi một lát nhé. Em đi pha ngay đây.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng E footsteps/tea (7)): VN cũ là bản dịch của JP ở key 3170; bản sửa là VN cũ của key 2560 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2512,
+        "character": "双鉄",
+        "jp": "「僕は、ポーレットをいっぱいに――\\n夢中にさせたくて動いてる」",
+        "tw": "「我是為了讓你眼裡只有我在動」",
+        "old_vn": "「Anh đang chuyển động, để khiến Paulette tràn ngập——\\nsay đắm anh đấy.」",
+        "fix": "「Tôi đang chuyển động, để khiến Paulette tràn ngập——say đắm tôi đấy.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2517,
+        "character": "双鉄",
+        "jp": "「補い合うために僕がいる。細部にとらわれず、\\nポーレットにはポーレットの着想を伸ばしてほしい」",
+        "tw": "「我會幫忙完善。你不用在意細節，只管豐富你的想法就行了」",
+        "old_vn": "「Có anh ở đây để bù đắp cho em mà. Đừng bận tâm đến những tiểu tiết,\\nanh muốn Paulette cứ phát huy ý tưởng của Paulette đi.」",
+        "fix": "「Có tôi ở đây để bù đắp cho em mà. Đừng bận tâm đến những tiểu tiết, tôi muốn Paulette cứ phát huy ý tưởng của Paulette đi.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP 補い合うために僕がいる) → \"Tôi\"."
+    },
+    {
+        "key": 2518,
+        "character": "双鉄",
+        "jp": "「染め抜いて、上書きをして、マーキングする」",
+        "tw": "「我會把你染上顏色，覆蓋過去的痕跡，標上我的印記」",
+        "old_vn": "「Anh sẽ nhuộm thắm, ghi đè lên, và đánh dấu.」",
+        "fix": "「Tôi sẽ nhuộm thắm, ghi đè lên, và đánh dấu.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2520,
+        "character": "双鉄",
+        "jp": "「僕の、勃起は――おちんちんさんは――\\nポーレットの、乳首を、ちゅうちゅう、したいっ」",
+        "tw": "「我的肉棒——我的雞雞先生——想親親你的乳頭」",
+        "old_vn": "「Sự cương cứng của anh——dương vật của anh——\\nmuốn, mút mút, nhũ hoa, của Paulette.」",
+        "fix": "「Sự cương cứng của tôi——dương vật của tôi——muốn, mút mút, nhũ hoa, của Paulette.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" ×2 trong thoại (JP 僕の、勃起は――おちんちんさんは) → \"Tôi\" ×2."
+    },
+    {
+        "key": 2524,
+        "character": "双鉄",
+        "jp": "「僕も――ポーレットでいっぱいだ」",
+        "tw": "「我眼裡也只有你了」",
+        "old_vn": "「Anh cũng——tràn ngập Paulette rồi.」",
+        "fix": "「Tôi cũng——tràn ngập Paulette rồi.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2529,
+        "character": "双鉄",
+        "jp": "「ポーレットは僕のおんなだと、僕のものだと。\\n全身すべて、骨にも、こころにも、染み込ませよう」",
+        "tw": "「我要宣示你是我的女人，是我的所有物。我要把你的全身，把你的骨肉，把你的心靈，全染上我的顏色」",
+        "old_vn": "「Để khẳng định Paulette là người phụ nữ của anh, là của riêng anh.\\nAnh sẽ để nó thấm sâu vào toàn bộ cơ thể, vào tận xương tủy, và cả trái tim em.」",
+        "fix": "「Để khẳng định Paulette là người phụ nữ của tôi, là của riêng tôi. Tôi sẽ để nó thấm sâu vào toàn bộ cơ thể, vào tận xương tủy, và cả trái tim em.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" ×2 trong thoại (JP ポーレットは僕のおんなだと、僕のものだと) → \"Tôi\" ×2."
+    },
+    {
+        "key": 2530,
+        "character": "双鉄",
+        "jp": "「極上のイベント列車だったと思う。まさに適材適所。\\n僕も、その一員を務めることができ、光栄だ」",
+        "tw": "「我覺得這個特別列車辦得真是太好了，真是物盡其用。我能作為一員參與其中，感覺很光榮」",
+        "old_vn": "「Anh nghĩ đây là một chuyến tàu sự kiện cực kỳ xuất sắc. Đúng là dụng nhân như dụng mộc.\\nAnh cũng rất vinh dự khi được đóng góp một phần vào đó.」",
+        "fix": "「Tôi nghĩ đây là một chuyến tàu sự kiện cực kỳ xuất sắc. Đúng là dụng nhân như dụng mộc. Tôi cũng rất vinh dự khi được đóng góp một phần vào đó.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2552,
+        "character": "双鉄",
+        "jp": "「僕の、好きにか？」",
+        "tw": "「換我了嗎？」",
+        "old_vn": "「Đến lượt anh, làm theo ý thích sao?」",
+        "fix": "「Đến lượt tôi, làm theo ý thích sao?」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2554,
+        "character": "双鉄",
+        "jp": "「お話ももちろんだが、朗読がよかった。\\n声の雨が、僕を、物語にひたしてくれた」",
+        "tw": "「故事當然有意思，不過你的朗讀也非常棒。聲音營造出的雨讓我完全沉浸在故事裡了」",
+        "old_vn": "「Câu chuyện hay là đương nhiên rồi, nhưng cách em đọc cũng rất tuyệt.\\nCơn mưa bằng giọng nói của em đã nhấn chìm anh vào câu chuyện.」",
+        "fix": "「Câu chuyện hay là đương nhiên rồi, nhưng cách em đọc cũng rất tuyệt. Cơn mưa bằng giọng nói của em đã nhấn chìm tôi vào câu chuyện.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2559,
+        "character": "双鉄",
+        "jp": "「心得た」",
+        "tw": "「明白」",
+        "old_vn": "「Anh hiểu rồi.」",
+        "fix": "「Tôi hiểu rồi.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2560,
+        "character": "双鉄",
+        "jp": "「好物なのか？」",
+        "tw": "「是你愛吃的東西嗎？」",
+        "old_vn": "「Thích từ hồi còn bé tí luôn ấy chứ!\\nAnh đợi một lát nhé. Em đi pha ngay đây.」",
+        "fix": "「Là món em thích sao?」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng E footsteps/tea (7)): VN cũ là bản dịch của JP ở key 2505; bản sửa là VN cũ của key 2177 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2566,
+        "character": "ポーレット",
+        "jp": "「ですよね。湯医ローカルな施設にしちゃったら、\\n御一夜鉄道的には、ほとんど利益を生めませんよね」",
+        "tw": "「是啊。如果變成湯醫本地用的設施的話，御一夜鐵道方面就沒有收益了」",
+        "old_vn": "「Đúng vậy nhỉ. Nếu chỉ biến nó thành cơ sở mang tính địa phương của Yunosaka,\\nthì xét về mặt Đường sắt Ohimitera, hầu như sẽ chẳng sinh ra lợi nhuận gì.」",
+        "fix": "「Đúng vậy nhỉ. Nếu chỉ biến nó thành cơ sở mang tính địa phương của Yunoi, thì xét về mặt Đường sắt Ohitoyo, hầu như sẽ chẳng sinh ra lợi nhuận gì.」",
+        "kind": "terminology",
+        "reason": "御一夜 bị dịch \"Ohimitera\" — theo quyết định 19/11 phải là \"Ohitoyo\".",
+        "note": "Quyết định 湯医 19/11 (Hieu): \"Yunosaka\" → \"Yunoi\"."
+    },
+    {
+        "key": 2571,
+        "character": "ポーレット",
+        "jp": "「そうでした！　開けてみないと」",
+        "tw": "「是啊！快打開看看吧」",
+        "old_vn": "Paulette hớn hở tháo lớp gói quà trang nhã.",
+        "fix": "「Đúng rồi! Phải mở ra xem mới được.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (đầu chuỗi xoay vòng E footsteps/tea (7)): VN cũ là bản dịch của JP ở key 3479; JP dòng này chưa có bản dịch đúng trong file — dịch mới từ JP."
+    },
+    {
+        "key": 2586,
+        "character": "双鉄",
+        "jp": "「好みもあろうが、間違いなく質は高い。\\n僕としては、特に赤がいい。馬サシとの相性は抜群だ」",
+        "tw": "「有我個人喜好的因素在裡面，不過客觀來講品質也很好。我特別喜歡紅酒，跟馬肉刺身非常搭」",
+        "old_vn": "「Tuy còn tùy khẩu vị, nhưng chất lượng thì miễn chê.\\nCá nhân anh đặc biệt thích rượu vang đỏ. Cực kỳ hợp với thịt ngựa sống luôn.」",
+        "fix": "「Tuy còn tùy khẩu vị, nhưng chất lượng thì miễn chê. Cá nhân tôi đặc biệt thích rượu vang đỏ. Cực kỳ hợp với thịt ngựa sống luôn.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2608,
+        "character": "ポーレット",
+        "jp": "「『だから』、汚してもいいんです。\\nママが、わたしのために作ってくれた服だから」",
+        "tw": "「正因為如此，弄髒也沒關係。正因為是媽媽給我做的衣服才沒關係」",
+        "old_vn": "「Hả?」",
+        "fix": "「『Vì vậy』, làm bẩn cũng không sao. Vì đây là bộ quần áo mẹ làm riêng cho em mà.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (cuối chuỗi xoay vòng F dress (13)): VN cũ là bản dịch mồ côi, không có JP nào trong dự án khớp với nó; bản sửa là VN cũ của key 2629 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2614,
+        "character": "双鉄",
+        "jp": "「違ってはいない。メルヘン、という感じはする。\\n大変に可愛らしいし、好きか嫌いかでいえば大好きだ」",
+        "tw": "「沒有不對勁，看起來非常有童話風。真的非常可愛，要說的話我很喜歡」",
+        "old_vn": "「Không sai đâu. Mang lại cảm giác rất cổ tích.\\nCực kỳ đáng yêu, nếu hỏi thích hay không thì anh rất thích.」",
+        "fix": "「Không sai đâu. Mang lại cảm giác rất cổ tích. Cực kỳ đáng yêu, nếu hỏi thích hay không thì tôi rất thích.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2629,
+        "character": "双鉄",
+        "jp": "「ポーレット？」",
+        "tw": "「波萊特？」",
+        "old_vn": "「『Vì vậy』, làm bẩn cũng không sao.\\nVì đây là bộ quần áo mẹ làm riêng cho em mà.」",
+        "fix": "「Paulette?」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 2608; bản sửa là VN cũ của key 3760 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2647,
+        "character": "ポーレット",
+        "jp": "「現状、湯医方面における観光要素の弱さの克服が、\\n御一夜鉄道の更なる改善へのカギになってますよね？」",
+        "tw": "「現在克服湯醫方面觀光要素太少的問題，就是改善御一夜鐵道的關鍵，我說的沒錯吧？」",
+        "old_vn": "「Hiện tại, việc khắc phục sự yếu kém về yếu tố du lịch ở khu vực Yunosaka,\\nchính là chìa khóa để cải thiện Đường sắt Ohimitera hơn nữa đúng không anh?」",
+        "fix": "「Hiện tại, việc khắc phục sự yếu kém về yếu tố du lịch ở khu vực Yunoi, chính là chìa khóa để cải thiện Đường sắt Ohitoyo hơn nữa đúng không anh?」",
+        "kind": "terminology",
+        "reason": "御一夜 bị dịch \"Ohimitera\" — theo quyết định 19/11 phải là \"Ohitoyo\".",
+        "note": "Quyết định 湯医 19/11 (Hieu): \"Yunosaka\" → \"Yunoi\"."
+    },
+    {
+        "key": 2661,
+        "character": "双鉄",
+        "jp": "「もう鬼籍に入られているのか。\\n残念だな、一度お会いしてみたかった」",
+        "tw": "「真遺憾，他已經去世了。我真想見見他」",
+        "old_vn": "「Thầy ấy đã qua đời rồi sao.\\nTiếc thật, anh rất muốn được gặp thầy một lần.」",
+        "fix": "「Thầy ấy đã qua đời rồi sao. Tiếc thật, tôi rất muốn được gặp thầy một lần.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2686,
+        "character": "双鉄",
+        "jp": "「僕に？」",
+        "tw": "「被我？」",
+        "old_vn": "「Bị anh?」",
+        "fix": "「Bị tôi?」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2693,
+        "character": "双鉄",
+        "jp": "「するか？　おんぶ」",
+        "tw": "「要我背你嗎？」",
+        "old_vn": "「Anh cõng em nhé?」",
+        "fix": "「Tôi cõng em nhé?」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2695,
+        "character": "双鉄",
+        "jp": "「れいなにもナイショであるなら、\\n御一夜鉄道最高機密のひとつだな――心得た」",
+        "tw": "「要是對玲奈都保密的話，這就是御一夜鐵道的最高機密之一了——我知道了」",
+        "old_vn": "「Nếu phải giữ bí mật với cả Reina,\\nthì đây là một trong những bí mật tối cao của Đường sắt Ohimitera rồi——Anh hiểu.」",
+        "fix": "「Nếu phải giữ bí mật với cả Reina, thì đây là một trong những bí mật tối cao của Đường sắt Ohitoyo rồi——Tôi hiểu.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"Anh\" trong thoại (JP 心得た) → \"Tôi\"; đồng thời sửa Ohimitera→Ohitoyo."
+    },
+    {
+        "key": 2711,
+        "character": "ポーレット",
+        "jp": "「もうちょっとだけ待ってくださいね」",
+        "tw": "「請再稍等一下」",
+        "old_vn": "Cát trong đồng hồ cát mang màu hổ phách.\\nTuôn rơi nhè nhẹ, chảy trôi giữa quá khứ và tương lai.",
+        "fix": "「Anh đợi thêm một chút xíu nữa nhé.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3427; bản sửa là VN cũ của key 3490 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2751,
+        "character": "双鉄",
+        "jp": "「ポーレットを染め抜くための精液だ。\\n僕ではなく、ポーレットの意思で絞り出してほしい」",
+        "tw": "「這些精液是給你染色用的。那就不要按我的喜好，用你想要的方法把它榨出來吧」",
+        "old_vn": "「Đây là tinh dịch dùng để nhuộm thắm Paulette.\\nAnh muốn em tự vắt kiệt nó theo ý mình, chứ không phải ý anh.」",
+        "fix": "「Đây là tinh dịch dùng để nhuộm thắm Paulette. Tôi muốn em tự vắt kiệt nó theo ý mình, chứ không phải ý tôi.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"Anh\" trong thoại (JP 僕ではなく、ポーレットの意思で) → \"Tôi\"."
+    },
+    {
+        "key": 2753,
+        "character": "双鉄",
+        "jp": "「これは、このまま食べられるのか？」",
+        "tw": "「這個可以直接吃嗎？」",
+        "old_vn": "「Vâng.\\nHọa tiết được in lên lớp sô-cô-la trắng đấy ạ.」",
+        "fix": "「Cái này, cứ thế ăn luôn được à?」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2298; bản sửa là VN cũ của key 3489 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2755,
+        "character": "双鉄",
+        "jp": "「せっかく、お義母様が作って下さったドレスだ」",
+        "tw": "「這可是岳母大人給你做的寶貴衣服」",
+        "old_vn": "「Ư hự hự. Cảm ơn anh.\\nNhưng mà——nhé? Anh Soutetsu.」",
+        "fix": "「Chiếc váy mẹ vợ cất công may cho mà.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 2356; bản sửa là VN cũ của key 3606 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2762,
+        "character": "ポーレット",
+        "jp": "「ミニエクレア。あいますよ？　すごく」",
+        "tw": "「這跟泡芙非常搭」",
+        "old_vn": "Paulette nhón lấy một chiếc bánh có họa tiết chùm nho sặc sỡ,\\nrồi đưa về phía tôi.",
+        "fix": "「Bánh eclair mini. Hợp lắm đấy? Rất hợp luôn.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3489; bản sửa là VN cũ của key 1504 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2764,
+        "character": "双鉄",
+        "jp": "「僕も一乗客になり、気動車の国のアリスに\\nおもてなししてほしいと思ったほどだ。最高だった」",
+        "tw": "「連我都想變成乘客，讓內燃機車之國的愛麗絲招待我一下。真的是太棒了」",
+        "old_vn": "「Đến mức anh cũng muốn trở thành một hành khách,\\nđể được Alice ở xứ sở toa xe tự hành thiết đãi đấy. Tuyệt vời lắm.」",
+        "fix": "「Đến mức tôi cũng muốn trở thành một hành khách, để được Alice ở xứ sở toa xe tự hành thiết đãi đấy. Tuyệt vời lắm.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2769,
+        "character": "ポーレット",
+        "jp": "「え、ええと……その、おそまつさま、です」",
+        "tw": "「那、那個……不成敬意」",
+        "old_vn": "「Không có chi cái gì, đây là một bữa tiệc ngon lành không gì sánh bằng đấy.」",
+        "fix": "「À, ừm……cái đó, không có chi, ạ.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2067; bản sửa là VN cũ của key 2154 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2776,
+        "character": "ポーレット",
+        "jp": "「えと――むぐっ！？」",
+        "tw": "「那個——唔！？」",
+        "old_vn": "Tôi nhét chiếc bánh eclair mini vào đôi môi ướt át của Paulette.\\nHá to miệng như một chú chim non, dùng ngón tay hối thúc.",
+        "fix": "「À ừm——múp!?」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (đầu chuỗi xoay vòng D giggle/eclair (8)): VN cũ là bản dịch của JP ở key 3310; JP dòng này chưa có bản dịch đúng trong file — dịch mới từ JP."
+    },
+    {
+        "key": 2777,
+        "character": "ポーレット",
+        "jp": "「え、と……」",
+        "tw": "「那個……」",
+        "old_vn": "Đưa mắt nhìn xuống khuôn mặt có vẻ bối rối kia,\\nPaulette đang tròn xoe mắt nhìn tôi.",
+        "fix": "「À, ừm……」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 3343; bản sửa là VN cũ của key 3183 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2781,
+        "character": "ポーレット",
+        "jp": "「ええと――なら。\\nわたしも、食べてみたい、です」",
+        "tw": "「那個，既然如此，那我也想吃吃看」",
+        "old_vn": "Đáp lễ ly rượu, à không, đáp lễ bánh eclair.\\nTôi nhón lấy một chiếc có màu như bánh mì nướng, đưa cho cô ấy.",
+        "fix": "「À ừm——nếu vậy. Em cũng, muốn ăn thử, ạ.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3277; bản sửa là VN cũ của key 3483 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2783,
+        "character": "双鉄",
+        "jp": "「それは困るな。\\nなら、大人しく聞くとしよう。説明をあらためて頼む」",
+        "tw": "「那可就麻煩了。那我就聽你說吧，請你做一下說明」",
+        "old_vn": "「Vậy thì rắc rối đấy.\\nThế thì anh sẽ ngoan ngoãn lắng nghe. Nhờ em giải thích lại nhé.」",
+        "fix": "「Vậy thì rắc rối đấy. Thế thì tôi sẽ ngoan ngoãn lắng nghe. Nhờ em giải thích lại nhé.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2784,
+        "character": "双鉄",
+        "jp": "「では、それで」",
+        "tw": "「那就奶茶」",
+        "old_vn": "「Vâng. Ư hự hự, vui quá đi.\\nĐược uống hồng trà mẹ tặng cùng với Anh Soutetsu thế này.」",
+        "fix": "「Vậy thì, cứ thế đi.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (đầu chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2402; JP dòng này chưa có bản dịch đúng trong file — dịch mới từ JP."
+    },
+    {
+        "key": 2788,
+        "character": "双鉄",
+        "jp": "「僕の好みも、正攻法でな」",
+        "tw": "「那就用我喜歡的正面攻擊」",
+        "old_vn": "「Sở thích của anh, cũng là đánh trực diện mà.」",
+        "fix": "「Sở thích của tôi, cũng là đánh trực diện mà.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2794,
+        "character": "双鉄",
+        "jp": "「ならば、是非。手に入れるので、一緒に飲もう」",
+        "tw": "「那就試試吧。我去買來，我們一起喝」",
+        "old_vn": "「Vậy thì nhất định rồi. Anh sẽ mua về, chúng ta cùng uống nhé.」",
+        "fix": "「Vậy thì nhất định rồi. Tôi sẽ mua về, chúng ta cùng uống nhé.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2798,
+        "character": "双鉄",
+        "jp": "「で、あれば、和風に寄せるのには反対だ。\\n地元対策になるかもしれんが、観光アピールが弱まる」",
+        "tw": "「那我就反對偏向日式風格了。這對說服當地人可能有用，但是作為旅遊資源來說就太弱了」",
+        "old_vn": "「Nếu vậy thì anh phản đối việc thiên về phong cách Nhật Bản.\\nCó thể nó sẽ là đối sách tốt với địa phương, nhưng sức hút du lịch sẽ bị giảm sút.」",
+        "fix": "「Nếu vậy thì tôi phản đối việc thiên về phong cách Nhật Bản. Có thể nó sẽ là đối sách tốt với địa phương, nhưng sức hút du lịch sẽ bị giảm sút.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2800,
+        "character": "双鉄",
+        "jp": "「ならば、機を見て僕にもご挨拶させてくれ」",
+        "tw": "「那有機會我也問候一下」",
+        "old_vn": "「Nếu vậy, khi có dịp hãy cho anh gửi lời chào hỏi nhé.」",
+        "fix": "「Nếu vậy, khi có dịp hãy cho tôi gửi lời chào hỏi nhé.」",
+        "kind": "pronoun",
+        "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP: chủ ngữ là Soutetsu, 僕) → \"Tôi\"."
+    },
+    {
+        "key": 2817,
+        "character": "ポーレット",
+        "jp": "「アッサムだから、\\nミルクティーがおすすめですけどー」",
+        "tw": "「阿薩姆的話，我推薦奶茶——」",
+        "old_vn": "「Vậy thì, pha như thế đi.」",
+        "fix": "「Vì là trà Assam, nên em đề cử pha trà sữa nhé——」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (cuối chuỗi xoay vòng E footsteps/tea (7)): VN cũ là bản dịch mồ côi, không có JP nào trong dự án khớp với nó; bản sửa là VN cũ của key 3170 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 2826,
+        "character": "双鉄",
+        "jp": "「あむっ」",
+        "tw": "「（咬）」",
+        "old_vn": "Hăng hái cắn miếng thứ hai.\\nTôi lỡ ngậm luôn cả đầu ngón tay của Paulette vào miệng.",
+        "fix": "「Am.」",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3268; bản sửa là VN cũ của key 3404 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3114,
+        "character": "monologue",
+        "jp": "吸い上げながら、しつこく、ゆるく――\\n指の第一関節の付け根のところを、舐めあげてくる。",
+        "tw": "她一邊吸吮著，一邊在手指的第一關節處舔來舔去。",
+        "old_vn": "「……Paulette.」",
+        "fix": "Vừa mút mát, vừa dai dẳng, chầm chậm——liếm láp phần gốc khớp ngón tay đầu tiên của tôi.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch của JP ở key 1510; bản sửa là VN cũ của key 3156 — bản dịch đúng của JP dòng này. (đã bỏ khoảng trắng sau —— trong VN gốc, theo quy ước gạch ——)"
+    },
+    {
+        "key": 3120,
+        "character": "monologue",
+        "jp": "半分だけを噛みちぎり。",
+        "tw": "她咬下一半泡芙。",
+        "old_vn": "Chóp chép, chóp chép, chầm chậm, chầm chậm,\\nnhư đang trêu ngươi, nhai nghiền nát chiếc bánh eclair mini——",
+        "fix": "Chỉ cắn đứt một nửa.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng D giggle/eclair (8)): VN cũ là bản dịch của JP ở key 3529; bản sửa là VN cũ của key 2370 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3156,
+        "character": "monologue",
+        "jp": "完全に、僕を誘う動きだ。",
+        "tw": "她的動作完全是在勾引我。",
+        "old_vn": "Vừa mút mát, vừa dai dẳng, chầm chậm——\\nliếm láp phần gốc khớp ngón tay đầu tiên của tôi.",
+        "fix": "Hoàn toàn là, những chuyển động khiêu gợi tôi.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch của JP ở key 3114; bản sửa là VN cũ của key 2290 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3170,
+        "character": "monologue",
+        "jp": "パタパタと、足音までもが弾んでいる。",
+        "tw": "她的腳步聲跟說話聲一樣輕快。",
+        "old_vn": "「Vì là trà Assam,\\nnên em đề cử pha trà sữa nhé——」",
+        "fix": "Lạch bạch lạch bạch, đến cả tiếng bước chân cũng rộn rã.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng E footsteps/tea (7)): VN cũ là bản dịch của JP ở key 2817; bản sửa là VN cũ của key 2505 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3183,
+        "character": "monologue",
+        "jp": "――危う、かった。\\nベッドに退避し距離を稼いで、なんとか防げた。",
+        "tw": "好危險。我退到了床那邊，才制止自己做出出格的舉動。",
+        "old_vn": "「À, ừm……」",
+        "fix": "——Nguy hiểm, quá. Tôi lùi về phía giường để tạo khoảng cách, chật vật lắm mới kìm lại được.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 2777; bản sửa là VN cũ của key 2185 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3214,
+        "character": "monologue",
+        "jp": "幸福感が達成感が独占欲が全て混じって精子になって、\\nポーレットの卵子を溺れさせてく。",
+        "tw": "幸福感、成就感、獨占欲都化作了精子，衝向了波萊特的卵子。",
+        "old_vn": "Cảm giác hạnh phúc, cảm giác thành tựu, tính độc chiếm, tất cả hòa quyện thành tinh trùng,\\nnhấn chìm buồng trứng của Paulette.",
+        "fix": "Cảm giác hạnh phúc, cảm giác thành tựu, tính độc chiếm, tất cả hòa quyện thành tinh trùng, nhấn chìm trứng của Paulette.",
+        "kind": "meaning",
+        "reason": "Sai nghĩa: JP 卵子 (trứng/noãn) bị dịch \"buồng trứng\" (cơ quan) — sửa thành \"trứng\"."
+    },
+    {
+        "key": 3249,
+        "character": "monologue",
+        "jp": "抱き寄せる。\\n湯たんぽを抱いているような気になる。あたたかだ。",
+        "tw": "我一下把她抱了過來。我感覺像是抱著暖水袋一樣，她身上暖暖的。",
+        "old_vn": "「Ưm——ưm——ưm——」",
+        "fix": "Tôi ôm ghì lấy cô ấy. Cảm giác như đang ôm một túi chườm nóng vậy. Thật ấm áp.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (cuối chuỗi xoay vòng D giggle/eclair (8)): VN cũ là bản dịch mồ côi, không có JP nào trong dự án khớp với nó; bản sửa là VN cũ của key 2273 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3262,
+        "character": "monologue",
+        "jp": "密着感が、更に増す。",
+        "tw": "我們抱得更緊了。",
+        "old_vn": "Muốn cứ thế này mà ôm lấy em.\\nMuốn làm tình với em một cách điên cuồng——!!?",
+        "fix": "Cảm giác dính chặt, càng thêm gia tăng.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3294; bản sửa là VN cũ của key 2203 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3268,
+        "character": "monologue",
+        "jp": "勢い込んでの二口目。\\nポーレットの指先までを口にしてしまう。",
+        "tw": "我又接著吃了第二口。結果就不小心咬到了波萊特的指尖。",
+        "old_vn": "「……Ưm——a. Anh Soutetsu.\\nNhột——quá.」",
+        "fix": "Hăng hái cắn miếng thứ hai. Tôi lỡ ngậm luôn cả đầu ngón tay của Paulette vào miệng.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 1502; bản sửa là VN cũ của key 2826 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3277,
+        "character": "monologue",
+        "jp": "ご返杯、ではなくご返エクレア。\\n焼けたトーストの色をしたものを、つまみ、差し出す。",
+        "tw": "我回敬她一顆泡芙。我拿起一顆顏色跟烤好的吐司一樣的泡芙，遞到她面前。",
+        "old_vn": "「A——em xin phép ạ.\\nƯm——ngoạm——ngoạm——」",
+        "fix": "Đáp lễ ly rượu, à không, đáp lễ bánh eclair. Tôi nhón lấy một chiếc có màu như bánh mì nướng, đưa cho cô ấy.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2227; bản sửa là VN cũ của key 2781 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3282,
+        "character": "monologue",
+        "jp": "調子にのって、舐め、ねぶる。\\nたっぷり甘みを堪能してから、音をたて、離す。",
+        "tw": "我就得意忘形地開始舔了起來。我好好享用了一番甜美的手指，吸得咂砸作響，然後再鬆口。",
+        "old_vn": "「Quả thực, là thượng hạng. Một hương vị phong phú tuyệt đỉnh.」",
+        "fix": "Thừa thế xông lên, tôi liếm láp, mút mát. Thưởng thức trọn vẹn vị ngọt ngào, rồi chóp chép nhả ra.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2154; bản sửa là VN cũ của key 1502 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3294,
+        "character": "monologue",
+        "jp": "このまま抱いてしまいたい。\\nめちゃくちゃに犯してしまいたっ――！！？",
+        "tw": "我想直接跟她這麼做愛。我想好好蹂躪她一番——",
+        "old_vn": "「Phù!? （Lùi lạiiiiiiiii!!）」",
+        "fix": "Muốn cứ thế này mà ôm lấy em. Muốn làm tình với em một cách điên cuồng——!!?",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 2376; bản sửa là VN cũ của key 3262 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3307,
+        "character": "monologue",
+        "jp": "ミニエクレアは、喉へと落ちた。\\nけれど、甘さは増していく。",
+        "tw": "我把迷你泡芙咽了下去，但是嘴裡的甜味反而更濃了。",
+        "old_vn": "「A——ưm……chụt——phù——a——\\nchụt——chụt——chụt——chụt——」",
+        "fix": "Bánh eclair mini đã trôi xuống cổ họng. Nhưng vị ngọt ngào lại càng tăng thêm.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 2224; bản sửa là VN cũ của key 2289 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3310,
+        "character": "monologue",
+        "jp": "ポーレットの濡れた唇にミニエクレアをくわえさせ。\\n雛鳥の如く自分の口を大きく開いて、指で促す。",
+        "tw": "我把迷你泡芙塞進了波萊特的小嘴裡，然後張開自己的嘴，用手指著，就像等待餵食的雛鳥一樣。",
+        "old_vn": "「Ư hự hự, hự hự hự hự」",
+        "fix": "Tôi nhét chiếc bánh eclair mini vào đôi môi ướt át của Paulette. Há to miệng như một chú chim non, dùng ngón tay hối thúc.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng D giggle/eclair (8)): VN cũ là bản dịch của JP ở key 2370; bản sửa là VN cũ của key 2776 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3332,
+        "character": "monologue",
+        "jp": "食べられている。僕の全部が。\\nポーレットがその口唇で、愛し、味わってくれている。",
+        "tw": "我的一切都被她品嘗著。波萊特可愛唇舌的動作充滿了愛意。",
+        "old_vn": "「Hàm——chụt——rộp——chụt——\\nchụt——（ực）——rộp——rộp——chụt」",
+        "fix": "Đang bị ăn. Toàn bộ con người tôi. Paulette đang dùng đôi môi ấy để yêu thương, để nếm thử tôi.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 2203; bản sửa là VN cũ của key 3485 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3339,
+        "character": "monologue",
+        "jp": "僕の指先があっというまに、\\nポーレットの熱く濡れた口内に。",
+        "tw": "我的指尖被波萊特又熱又濕的小嘴包住了。",
+        "old_vn": "「Ưm……chụt——chụt——rộp——\\nchụt——chụt——liếm——rộp」",
+        "fix": "Đầu ngón tay của tôi trong nháy mắt, đã nằm gọn trong khoang miệng nóng hổi ướt át của Paulette.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch của JP ở key 2290; bản sửa là VN cũ của key 3382 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3343,
+        "character": "monologue",
+        "jp": "困ったような顔に視線をおろしていけば、\\nポーレットは、目を丸くして僕を見ている。",
+        "tw": "我看向一臉困惑的波萊特，只見她瞪大了眼睛盯著我的下半身。",
+        "old_vn": "「Không——Anh nghĩ làm bẩn bằng nước bọt thì có lỗi lắm.」",
+        "fix": "Đưa mắt nhìn xuống khuôn mặt có vẻ bối rối kia, Paulette đang tròn xoe mắt nhìn tôi.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 2150; bản sửa là VN cũ của key 2777 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3382,
+        "character": "monologue",
+        "jp": "包まれる。",
+        "tw": "指尖被包住了。",
+        "old_vn": "Đầu ngón tay của tôi trong nháy mắt,\\nđã nằm gọn trong khoang miệng nóng hổi ướt át của Paulette.",
+        "fix": "Bị bao bọc.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng C Alice (9)): VN cũ là bản dịch của JP ở key 3339; bản sửa là VN cũ của key 2270 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3404,
+        "character": "monologue",
+        "jp": "熟した葡萄が持っている、ほんの少しのワイン感――\\nその上に、芳醇な甘みが広がっていく。",
+        "tw": "有成熟葡萄特有的一點葡萄酒的感覺，同時還有芳醇的甘甜。",
+        "old_vn": "「Am.」",
+        "fix": "Mang chút cảm giác rượu vang nhè nhẹ của những trái nho chín mọng——Hòa quyện cùng vị ngọt ngào êm dịu lan tỏa.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2826; bản sửa là VN cũ của key 3638 — bản dịch đúng của JP dòng này. (đã bỏ khoảng trắng sau —— trong VN gốc, theo quy ước gạch —— không có khoảng trắng hai bên)"
+    },
+    {
+        "key": 3427,
+        "character": "monologue",
+        "jp": "砂時計の砂は、琥珀色。\\n過去と未来の間をさらさら、流れて落ちる。",
+        "tw": "沙漏裡的砂子呈現琥珀色。連接著過去與未來的細沙緩緩流下。",
+        "old_vn": "「Xong rồi đây, xin mời anh thưởng thức.」",
+        "fix": "Cát trong đồng hồ cát mang màu hổ phách. Tuôn rơi nhè nhẹ, chảy trôi giữa quá khứ và tương lai.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2407; bản sửa là VN cũ của key 2711 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3430,
+        "character": "monologue",
+        "jp": "エクレアと、ポーレットの舌と唾液と。\\nそれがどろどろ、舌から股間に流れ込む。",
+        "tw": "泡芙混合上了波萊特小舌和香津。這黏稠的感覺刺激著我的味蕾，也激起了我的欲望。",
+        "old_vn": "「Ưm——hự——（ực）」",
+        "fix": "Bánh eclair, cùng với lưỡi và nước bọt của Paulette. Thứ hỗn hợp sền sệt ấy, từ lưỡi chảy thẳng xuống háng.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 2275; bản sửa là VN cũ của key 3552 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3478,
+        "character": "monologue",
+        "jp": "ポーレットから、僕の唇を割ってくる。",
+        "tw": "波萊特主動把舌頭伸進了我嘴裡。",
+        "old_vn": "「Ưm……chụt——ưm——hàm——rộp, rộp,\\nchụt, chụt——chụt——rộp, rộp」",
+        "fix": "Paulette chủ động tách môi tôi ra.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 2292; bản sửa là VN cũ của key 2340 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3479,
+        "character": "monologue",
+        "jp": "いそいそと、ポーレットが小洒落た包みを解いていく。",
+        "tw": "波萊特俐落地解開了漂亮的包裝布。",
+        "old_vn": "「Oa, hồng trà Fauchon và bánh eclair mini này!\\nVui quá, mẹ vẫn còn nhớ.」",
+        "fix": "Paulette hớn hở tháo lớp gói quà trang nhã.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng E footsteps/tea (7)): VN cũ là bản dịch của JP ở key 2177; bản sửa là VN cũ của key 2571 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3483,
+        "character": "monologue",
+        "jp": "こくりと、ポーレットの喉が小さく動く。",
+        "tw": "波萊特咽了一口唾沫。",
+        "old_vn": "「À ừm——nếu vậy.\\nEm cũng, muốn ăn thử, ạ.」",
+        "fix": "Yết hầu Paulette khẽ chuyển động cái ực.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2781; bản sửa là VN cũ của key 2067 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3485,
+        "character": "monologue",
+        "jp": "ポーレットの舌が蠢くたびに、\\n脳までなめられている気持ちになる。",
+        "tw": "波萊特在我嘴裡攪來攪去，簡直就是在直接舔我的快感神經。",
+        "old_vn": "Đang bị ăn. Toàn bộ con người tôi.\\nPaulette đang dùng đôi môi ấy để yêu thương, để nếm thử tôi.",
+        "fix": "Mỗi khi lưỡi Paulette ngọ nguậy, tôi có cảm giác như đến cả não mình cũng đang bị liếm láp.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3332; bản sửa là VN cũ của key 2292 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3489,
+        "character": "monologue",
+        "jp": "ポーレットがひとつ、鮮やかな葡萄の模様のものを\\n摘んで僕へと差し出してくれる。",
+        "tw": "波萊特把一顆葡萄圖案的迷你泡芙遞到我面前。",
+        "old_vn": "「Cái này, cứ thế ăn luôn được à?」",
+        "fix": "Paulette nhón lấy một chiếc bánh có họa tiết chùm nho sặc sỡ, rồi đưa về phía tôi.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2753; bản sửa là VN cũ của key 2762 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3490,
+        "character": "monologue",
+        "jp": "ティーポットとお皿をトレーに乗せて、\\nポーレットがテーブルへと戻ってくる。",
+        "tw": "波萊特把茶壺和盤子放在托盤上，端到了桌子這邊。",
+        "old_vn": "「Anh đợi thêm một chút xíu nữa nhé.」",
+        "fix": "Đặt ấm trà và đĩa lên khay, Paulette quay trở lại bàn.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 2711; bản sửa là VN cũ của key 1463 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3507,
+        "character": "monologue",
+        "jp": "ポーレットがエプロンを外して、たたむ。\\nそうして、そのまま――",
+        "tw": "波萊特脫下圍裙，疊了起來。然後她就直接——",
+        "old_vn": "（Tách——tách——）",
+        "fix": "Paulette cởi tạp dề ra, gấp lại. Và rồi, cứ thế——",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 3760; bản sửa là VN cũ của key 3757 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3512,
+        "character": "monologue",
+        "jp": "漏れてくる息。立ち登ってくる、\\n汗とチョコと、ポーレットとの混じった香り。",
+        "tw": "波萊特輕輕喘息著。升騰起來的汗香和巧克力的味道，加上波萊特的香味。",
+        "old_vn": "「Hà……ưm……chụt——chụt——chụt——\\nphù, a——thích quá——Anh Soutetsu, ơi——ưm, chụt」",
+        "fix": "Tiếng thở hổn hển. Bốc lên, là hương thơm hòa quyện giữa mồ hôi, sô-cô-la và Paulette.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 2161; bản sửa là VN cũ của key 2224 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3520,
+        "character": "monologue",
+        "jp": "ミルクがすでに温められてるカップへと、\\n砂が落ちきったその瞬間、紅茶がゆったり注がれる。",
+        "tw": "溫好的杯子裡已經倒上了牛奶，沙漏裡的沙子流完之後，她就把紅茶慢慢倒了進去。",
+        "old_vn": "「……À——Đúng là ngon thật.」",
+        "fix": "Vào chiếc cốc đã được hâm nóng sữa sẵn, ngay khoảnh khắc hạt cát cuối cùng rơi xuống, hồng trà được thong thả rót vào.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 1504; bản sửa là VN cũ của key 2407 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3529,
+        "character": "monologue",
+        "jp": "ちゅく、ちゅくと、ゆっくりゆっくり、\\n焦らすようにしてミニエクレアを噛みほぐし――",
+        "tw": "然後她慢慢地嚼著泡芙，故意讓我心急——",
+        "old_vn": "「Ưm……」",
+        "fix": "Chóp chép, chóp chép, chầm chậm, chầm chậm, như đang trêu ngươi, nhai nghiền nát chiếc bánh eclair mini——",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng D giggle/eclair (8)): VN cũ là bản dịch của JP ở key 2282; bản sửa là VN cũ của key 3120 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3552,
+        "character": "monologue",
+        "jp": "口内に甘さが押し寄せてくる。",
+        "tw": "甜美的味道進入了我的口中。",
+        "old_vn": "Bánh eclair, cùng với lưỡi và nước bọt của Paulette.\\nThứ hỗn hợp sền sệt ấy, từ lưỡi chảy thẳng xuống háng.",
+        "fix": "Vị ngọt ngào ập đến trong khoang miệng.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng B+10 (19)): VN cũ là bản dịch của JP ở key 3430; bản sửa là VN cũ của key 2277 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3606,
+        "character": "monologue",
+        "jp": "僕の視線を追いかけて、\\nポーレットも自分の体を、胸もとを見下ろす。",
+        "tw": "見我看向她，波萊特也低頭看著自己，看向自己的胸前。",
+        "old_vn": "「Chiếc váy mẹ vợ cất công may cho mà.」",
+        "fix": "Nương theo ánh mắt của tôi, Paulette cũng cúi xuống nhìn cơ thể mình, nhìn bầu ngực mình.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 2755; bản sửa là VN cũ của key 2150 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3638,
+        "character": "monologue",
+        "jp": "大人の味、というのだろうか。",
+        "tw": "這可以說是成年人才能享用的美味吧。",
+        "old_vn": "Mang chút cảm giác rượu vang nhè nhẹ của những trái nho chín mọng——\\nHòa quyện cùng vị ngọt ngào êm dịu lan tỏa.",
+        "fix": "Có lẽ đây là, hương vị của người lớn chăng.",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 3404; bản sửa là VN cũ của key 1506 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3653,
+        "character": "monologue",
+        "jp": "ミニとはいえど、一口で食べきるにはやや大きい。\\n半分だけを口の中へと納めれば――",
+        "tw": "雖然是迷你泡芙，一口還是吃不下去。我把它一半放進了嘴裡——",
+        "old_vn": "「…………Hừm. Cái này——tuyệt thật đấy.」",
+        "fix": "Dù nói là mini, nhưng để ăn hết trong một miếng thì hơi to. Tôi chỉ cắn một nửa vào miệng——",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng mega (30)): VN cũ là bản dịch của JP ở key 1506; bản sửa là VN cũ của key 2088 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3757,
+        "character": "monologue",
+        "jp": "（しゅるっ――）",
+        "tw": "（脫下）",
+        "old_vn": "Paulette cởi tạp dề ra, gấp lại.\\nVà rồi, cứ thế——",
+        "fix": "（Tuột——）",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 3507; bản sửa là VN cũ của key 2356 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": 3760,
+        "character": "monologue",
+        "jp": "（ぷち――ぷちっ――）",
+        "tw": "（解開鈕扣）",
+        "old_vn": "「Paulette?」",
+        "fix": "（Tách——tách——）",
+        "kind": "misaligned",
+        "reason": "Lệch vị trí (chuỗi xoay vòng F dress (13)): VN cũ là bản dịch của JP ở key 2629; bản sửa là VN cũ của key 3507 — bản dịch đúng của JP dòng này."
+    },
+    {
+        "key": "2085",
+        "speaker": "双鉄",
+        "jp": "「ショールームということは、メルヘン列車が、、\\n『湯医絵本館』の雛形になるという理解でよいか？」",
+        "tw": "「你說童話列車是展示廳，那它就是“湯醫繪本館”的雛形對嗎？」",
+        "old_vn": "「Là phòng trưng bày, nghĩa là có thể hiểu chuyến tàu cổ tích sẽ trở thành mô hình thu nhỏ của 『Thư viện Truyện tranh Yunosaka』 đúng không?」",
+        "kind": "terminology",
+        "fix": "「Là phòng trưng bày, nghĩa là có thể hiểu chuyến tàu cổ tích sẽ trở thành mô hình thu nhỏ của 『Thư viện Truyện tranh Yunoi』 đúng không?」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    },
+    {
+        "key": "2635",
+        "speaker": "ポーレット",
+        "jp": "「[ゆのい,1]湯医にも、ブランド！　『湯医ワイン』」",
+        "tw": "「湯醫也來個品牌！“湯醫葡萄酒”」",
+        "old_vn": "「Yunosaka cũng có thương hiệu! 『Rượu vang Yunosaka』」",
+        "kind": "terminology",
+        "fix": "「Yunoi cũng có thương hiệu! 『Rượu vang Yunoi』」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    },
+    {
+        "key": "2636",
+        "speaker": "双鉄",
+        "jp": "「湯医と絵本の繋がりは？」",
+        "tw": "「湯醫和繪本有關係嗎？」",
+        "old_vn": "「Sự liên kết giữa Yunosaka và truyện tranh là gì?」",
+        "kind": "terminology",
+        "fix": "「Sự liên kết giữa Yunoi và truyện tranh là gì?」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    },
+    {
+        "key": "2637",
+        "speaker": "ポーレット",
+        "jp": "「湯医側にも、その懸念は伝えてありました。\\nそこで先日出てきたのが、『湯医絵本館』案です」",
+        "tw": "「湯醫方面也說過這個問題。所以之前我們提出的是“湯醫繪本館”這個建議」",
+        "old_vn": "「Em cũng đã truyền đạt mối lo ngại đó cho phía Yunosaka. Và đề xuất 『Thư viện Truyện tranh Yunosaka』 đã được đưa ra vào hôm trước.」",
+        "kind": "terminology",
+        "fix": "「Em cũng đã truyền đạt mối lo ngại đó cho phía Yunoi. Và đề xuất 『Thư viện Truyện tranh Yunoi』 đã được đưa ra vào hôm trước.」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    },
+    {
+        "key": "2638",
+        "speaker": "ポーレット",
+        "jp": "「[ゆのいえほんかん,4]湯医絵本館のこと、\\nそこまで一気に考えてくれるなんて」",
+        "tw": "「湯醫繪本館的主意，居然能一下子想這麼遠」",
+        "old_vn": "「Chuyện về Thư viện Truyện tranh Yunosaka, anh có thể nghĩ xa đến mức đó trong chớp mắt.」",
+        "kind": "terminology",
+        "fix": "「Chuyện về Thư viện Truyện tranh Yunoi, anh có thể nghĩ xa đến mức đó trong chớp mắt.」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    },
+    {
+        "key": "2681",
+        "speaker": "双鉄",
+        "jp": "「そうできたら理想的だな。絵本館でも販売し、\\nそれこそ、『湯医メルヘンワイン』とでもできたら」",
+        "tw": "「能辦成就再好不過了。放在繪本館裡賣，那就成了“湯醫童話葡萄酒”了」",
+        "old_vn": "「Làm được vậy thì lý tưởng quá. Bán ở cả thư viện truyện tranh nữa, lúc đó gọi là 『Rượu vang cổ tích Yunosaka』 cũng hay.」",
+        "kind": "terminology",
+        "fix": "「Làm được vậy thì lý tưởng quá. Bán ở cả thư viện truyện tranh nữa, lúc đó gọi là 『Rượu vang cổ tích Yunoi』 cũng hay.」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    },
+    {
+        "key": "2756",
+        "speaker": "ポーレット",
+        "jp": "「その絵本の絵を描いてらっしゃる、\\n『[きのこだいすけ,2]茸大介』先生が、湯医出身なんだそうです」",
+        "tw": "「這本繪本的作著茸大介老師就是湯醫出身的」",
+        "old_vn": "「Tác giả vẽ cuốn truyện tranh này, thầy 『Kinoko Daisuke』, nghe nói là người gốc Yunosaka đấy ạ.」",
+        "kind": "terminology",
+        "fix": "「Tác giả vẽ cuốn truyện tranh này, thầy 『Kinoko Daisuke』, nghe nói là người gốc Yunoi đấy ạ.」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    },
+    {
+        "key": "2759",
+        "speaker": "双鉄",
+        "jp": "「なるほど。それは素晴らしいな。\\nああ――ひょっとすると、湯医に絵本の原画なども？」",
+        "tw": "「這樣啊。那還真不錯。啊——莫非湯醫有這繪本的原稿嗎？」",
+        "old_vn": "「Ra vậy. Tuyệt vời thật. À——không chừng, ở Yunosaka còn có cả bản gốc của truyện tranh nữa sao?」",
+        "kind": "terminology",
+        "fix": "「Ra vậy. Tuyệt vời thật. À——không chừng, ở Yunoi còn có cả bản gốc của truyện tranh nữa sao?」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    },
+    {
+        "key": "2793",
+        "speaker": "双鉄",
+        "jp": "「ならば実現化したいものだな――その……ああ！\\n『湯医絵本館』のオープニングイベントとして」",
+        "tw": "「那就真想實現一下——啊，對了！就當作“湯醫繪本館”的開業活動」",
+        "old_vn": "「Vậy thì muốn hiện thực hóa nó quá nhỉ——cái đó……A! Làm sự kiện khai trương cho 『Thư viện Truyện tranh Yunosaka』 luôn」",
+        "kind": "terminology",
+        "fix": "「Vậy thì muốn hiện thực hóa nó quá nhỉ——cái đó……A! Làm sự kiện khai trương cho 『Thư viện Truyện tranh Yunoi』 luôn」",
+        "note": "Quyết định 湯医 19/11 (Hieu): JP là 湯医 (furigana ゆのい) — \"Yunosaka\" là cách đọc nhầm; sửa thành \"Yunoi\"."
+    }
+]

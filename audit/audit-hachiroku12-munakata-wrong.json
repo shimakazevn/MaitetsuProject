@@ -1,0 +1,462 @@
+[
+  {
+    "key": 1567,
+    "speaker": "オリヴィ",
+    "jp": "「でも、コッカケーカク？　でやったことなら、\\nちゃんと記録、のこってるんじゃないの？」",
+    "tw": "「但既然是按照那個什麼國家計劃建設的，不就更應該留下完整的紀錄嗎？」",
+    "old_vn": "「Nhưng mà, KẾ HOẠCH QUỐC GIA? Nếu là việc được thực hiện bởi cái đó, thì chẳng phải ghi chép vẫn còn được lưu lại đàng hoàng sao? Để sau này còn phân tích nguyên nhân thất bại? Không thể áp dụng cho lần sau sao?」",
+    "kind": "displaced",
+    "fix": "「Nhưng mà, KẾ HOẠCH QUỐC GIA? Nếu là việc được thực hiện bởi cái đó, thì chẳng phải ghi chép vẫn còn được lưu lại đàng hoàng sao?」",
+    "note": "VN appends two sentences that belong to key 1718 ('Để sau này còn phân tích nguyên nhân thất bại? Không thể áp dụng cho lần sau sao?'); key 1718 itself is correct. Fix removes the appended fragment only."
+  },
+  {
+    "key": 1687,
+    "speaker": "ハチロク",
+    "jp": "「！」\\n「れいな」",
+    "tw": "「唔！」\\n「玲奈」",
+    "old_vn": "「「!」\\n「Reina」」",
+    "kind": "punctuation",
+    "fix": "「!」\\n「Reina」",
+    "note": "Extra opening 「: VN starts with 「「 and ends with a single 」."
+  },
+  {
+    "key": 1697,
+    "speaker": "双鉄",
+    "jp": "「あ！」\\n「まぁ！」",
+    "tw": "「啊！」\\n「哇！」",
+    "old_vn": "「「A!」\\n「Chà!」」",
+    "kind": "punctuation",
+    "fix": "「A!」\\n「Chà!」",
+    "note": "Extra opening 「: VN starts with 「「 and ends with a single 」."
+  },
+  {
+    "key": 2025,
+    "speaker": "ハチロク",
+    "jp": "「はい、左様です。この[やません,1]山線――元帝鉄[ひさつ,1]肥颯線、\\n御一夜ー早戸間は、軍用路線だったとのことで」",
+    "tw": "「正是，因為這條山路——原帝國鐵路肥薩線，本是御一夜至隼人的軍用鐵路專線」",
+    "old_vn": "「Vâng, đúng vậy ạ. \\x%lTuyến núi%l;#; này——nguyên là Tuyến Hisatsu của Teitetsu, đoạn Ohimitera - Hayato, được cho là tuyến đường sắt quân sự」",
+    "kind": "punctuation",
+    "fix": "「Vâng, đúng vậy ạ. \\x%l山線;#00ffc040;Tuyến núi%l;#; này——nguyên là Tuyến Hisatsu của Teitetsu, đoạn Ohitoyo - Hayato, được cho là tuyến đường sắt quân sự」",
+    "note": "Malformed %l tag: '\\x%lTuyến núi%l;#;' has no JP term and no colour code; correct form '\\x%l山線;#00ffc040;Tuyến núi%l;#;'."
+  },
+  {
+    "key": 2169,
+    "speaker": "双鉄",
+    "jp": "「それは――」\\n「逆だ、オリヴィ」",
+    "tw": "「這——」\\n「剛好相反，奧莉薇」",
+    "old_vn": "「「Chuyện đó thì——」\\n「Ngược lại đấy, Olivy」」",
+    "kind": "punctuation",
+    "fix": "「Chuyện đó thì——」\\n「Ngược lại đấy, Olivy」",
+    "note": "Extra opening 「: VN starts with 「「 and ends with a single 」."
+  },
+  {
+    "key": 2182,
+    "speaker": "宗方",
+    "jp": "「ああ」\\n「グンヨーロセン？」",
+    "tw": "「這樣啊」\\n「“軍用鐵路專線”？」",
+    "old_vn": "「「A」\\n「Tuyến đường quân sự?」」",
+    "kind": "punctuation",
+    "fix": "「A」\\n「Tuyến đường quân sự?」",
+    "note": "Extra opening 「: VN starts with 「「 and ends with a single 」."
+  },
+  {
+    "key": 2513,
+    "speaker": "monologue",
+    "jp": "ハチロクの声にほっとする。\\nこの声ならば確実に、僕を助ける手段を思いついている。",
+    "tw": "八六的聲音令我心中一塊石頭落地，她肯定是想到了助我說服宗方先生的辦法。",
+    "old_vn": "「Giọng nói của Hachiroku khiến tôi thở phào nhẹ nhõm. Với giọng điệu này, chắc chắn em ấy đã nghĩ ra cách để giúp tôi.」",
+    "kind": "punctuation",
+    "fix": "Giọng nói của Hachiroku khiến tôi thở phào nhẹ nhõm. Với giọng điệu này, chắc chắn em ấy đã nghĩ ra cách để giúp tôi.",
+    "note": "Monologue line wrapped in dialogue quotes 「」; the only monologue row in the file rendered as dialogue (heuristic type mismatch, confirmed real)."
+  },
+  {
+    "key": 2538,
+    "speaker": "monologue",
+    "jp": "『記録』とは、位置情報だけではないのか。",
+    "tw": "原來這巡線的“記錄”，不單單只有發生問題的位置嗎。",
+    "old_vn": "Ghi chép' không chỉ là thông tin vị trí sao.",
+    "kind": "punctuation",
+    "fix": "『Ghi chép』 không chỉ là thông tin vị trí sao.",
+    "note": "Opening 『 lost; closing 』 became a stray apostrophe '."
+  },
+  {
+    "key": 2691,
+    "speaker": "monologue",
+    "jp": "虚をつかれたのか、\\nムナカタさんが一瞬ギクリと止まってしまう。",
+    "tw": "宗方似乎被她這話打了個措手不及，在原地愣了一拍。",
+    "old_vn": "Bị đánh trúng điểm mù, ông Munakata giật mình khựng lại trong giây lát.",
+    "kind": "address",
+    "fix": "Bị đánh trúng điểm mù, chú Munakata giật mình khựng lại trong giây lát.",
+    "note": "File convention is 'chú Munakata' in Soutetsu monologue; this row uses 'ông Munakata'."
+  },
+  {
+    "key": 2824,
+    "speaker": "monologue",
+    "jp": "ハチロクと顔を見合わせたなら、\\nオリヴィがふふん！　と誇らしげな声を出す。",
+    "tw": "我跟八六面面相覷，這時奧莉薇突然眉飛色舞地說道。",
+    "old_vn": "Không cần tôi và Hachiroku nhìn nhau, Olivy đã hừm! một tiếng đầy tự hào.",
+    "kind": "meaning",
+    "fix": "Khi tôi và Hachiroku nhìn nhau, Olivy đã hừm! một tiếng đầy tự hào.",
+    "note": "VN negates the JP: 'Không cần tôi và Hachiroku nhìn nhau' vs JP 'when [we] exchanged glances'."
+  },
+  {
+    "key": 2899,
+    "speaker": "monologue",
+    "jp": "『お前も大したものだったのだな』\\n――そんな言葉が、語られぬままに伝わってくる。",
+    "tw": "無需明言，從如此簡單一個動作便能知曉，他是在肯定奧莉薇的過人之處。",
+    "old_vn": "Nhóc cũng cừ lắm đấy chứ' ——Dù không nói ra, nhưng lời đó vẫn truyền đạt được.",
+    "kind": "punctuation",
+    "fix": "『Nhóc cũng cừ lắm đấy chứ』 ——Dù không nói ra, nhưng lời đó vẫn truyền đạt được.",
+    "note": "Opening 『 lost; closing 』 became a stray apostrophe '."
+  },
+  {
+    "key": 2914,
+    "speaker": "monologue",
+    "jp": "線路を避けた、犬走りのあたりから掘り進んでいく。",
+    "tw": "當然他沒有從鐵軌這邊開挖，而是從土墩下部的平坦區域入手。",
+    "old_vn": "Tránh phần đường ray, chú ấy bắt đầu đào từ khu vực lối đi dành cho chó.",
+    "kind": "meaning",
+    "fix": "Tránh phần đường ray, chú ấy bắt đầu đào từ khu vực lối đi hẹp ven đường.",
+    "note": "犬走り (narrow strip beside the track) rendered literally as 'lối đi dành cho chó' (path for dogs)."
+  },
+  {
+    "key": 2528,
+    "speaker": "monologue",
+    "jp": "小畑線の保線体制の再整備は、\\nどのみち必要なことでもあるし――",
+    "tw": "再說這大畑線的巡線體制，遲早也是需要重建的。",
+    "old_vn": "Việc tổ chức lại hệ thống bảo trì đường ray cho tuyến Okoba, đằng nào cũng là việc cần thiết——",
+    "kind": "decided-no-change",
+    "fix": "Việc tổ chức lại hệ thống bảo trì đường ray cho tuyến Okoba, đằng nào cũng là việc cần thiết——",
+    "note": "DECIDED 19/11 by Hieu: 小畑 (in-game name; 小畑線), romanised 'Okoba' per the team's own convention — project-wide check: 'Okoba' for 小畑 in 43 rows incl. the whole ハチロク04_小畑越え chapter; only 4 rows use 'Obata' (ハチロク15a 1842, 1455; ハチロク15b 1999; 日々姫01 2225) and those are the minority to unify later. No change needed here."
+  },
+  {
+    "key": 2811,
+    "speaker": "monologue",
+    "jp": "小畑を越えた8620を早戸駅の留置線にいれ、\\nエアクラトラックで三十分ほど戻って隆起現場へ。",
+    "tw": "我們駕駛８６２０翻過大畑，停在隼人站的存車線後，再坐空凝機卡車大約三十分鐘，便抵達了發生隆起的地點。",
+    "old_vn": "Đưa chiếc 8620 vừa vượt qua Okoba vào đường ray lưu đỗ ở ga Hayato, chúng tôi quay lại hiện trường phồng rộp bằng xe tải Aircra mất khoảng ba mươi phút.",
+    "kind": "decided-no-change",
+    "fix": "Đưa chiếc 8620 vừa vượt qua Okoba vào đường ray lưu đỗ ở ga Hayato, chúng tôi quay lại hiện trường phồng rộp bằng xe tải Aircra mất khoảng ba mươi phút.",
+    "note": "DECIDED 19/11 by Hieu: 小畑 (in-game name; 小畑線), romanised 'Okoba' per the team's own convention — project-wide check: 'Okoba' for 小畑 in 43 rows incl. the whole ハチロク04_小畑越え chapter; only 4 rows use 'Obata' (ハチロク15a 1842, 1455; ハチロク15b 1999; 日々姫01 2225) and those are the minority to unify later. No change needed here."
+  },
+  {
+    "key": 2976,
+    "speaker": "monologue",
+    "jp": "言われて、気づく。オリヴィは冥国製――\\n先の\\x%l大戦;#00ffc040;大戦%l;#;の戦勝国で製造された\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;だ。",
+    "tw": "聽到她這些話我才反應過來，奧莉薇是美國式——也就是在先前那場\\x%l大戦;#00ffc040;大戰%l;#;的戰勝國製造的\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;。",
+    "old_vn": "Nghe vậy, tôi mới nhận ra. Olivy được sản xuất tại Meikoku—— là một \\x%lレイルロオド;#00ffc040;Railord%l;#; được chế tạo ở quốc gia chiến thắng trong cuộc \\x%l大戦;#00ffc040;Đại chiến%l;#; trước.",
+    "kind": "decided",
+    "fix": "Nghe vậy, tôi mới nhận ra. Olivy được sản xuất tại Minh Quốc——là một \\x%lレイルロオド;#00ffc040;Railord%l;#; được chế tạo ở quốc gia chiến thắng trong cuộc \\x%l大戦;#00ffc040;Đại chiến%l;#; trước.",
+    "note": "DECIDED 19/11 by Hieu: 冥国 = 'Minh Quốc' (consistent with 冥軍 = 'Minh Quân'). Spelling verified 19/11: 'Railord' (1 l) per team glossary (translation_guidelines.md:40, context_trans.md #68; 907 project uses vs Raillord 0) and 'Olivy' (1,434 uses vs Olivi 0). Dash per team convention (no spaces either side, 22,055 project rows): 'Minh Quốc——là'. In supplementary TOML block, 1/1 verified."
+  },
+  {
+    "key": "1097",
+    "speaker": "monologue",
+    "jp": "……宗方さんの接し方を見ていれば、わかってくる。\\n宗方さんはオリヴィを、確かによく使いこなしている。",
+    "tw": "……一看宗方先生的態度便能理解其中的道理，他的確是經常使喚奧莉薇做事。",
+    "old_vn": "...Nhìn cách đối xử của \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata, tôi cũng hiểu ra phần nào. \\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata quả thực sử dụng Olivy rất thành thạo.",
+    "kind": "gloss-removal",
+    "fix": "...Nhìn cách đối xử của Munakata, tôi cũng hiểu ra phần nào. Munakata quả thực sử dụng Olivy rất thành thạo.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "1103",
+    "speaker": "monologue",
+    "jp": "……実によく働く。宗方さんも、オリヴィも。\\n感心させられると同時に、理解もさせられる。",
+    "tw": "……宗方先生和奧莉薇在工作中都毫不拖沓，態度非常積極，這令我無比佩服，同時也對二人的關係有了進一步理解。",
+    "old_vn": "...Thực sự làm việc rất chăm chỉ. Cả \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata và Olivy. Vừa thán phục, đồng thời tôi cũng hiểu ra.",
+    "kind": "gloss-removal",
+    "fix": "...Thực sự làm việc rất chăm chỉ. Cả Munakata và Olivy. Vừa thán phục, đồng thời tôi cũng hiểu ra.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "1539",
+    "speaker": "双鉄",
+    "jp": "「いや、そのままでかまわない。つまり、宗方さんの\\n作業の様子を、観察、記録してほしい」",
+    "tw": "「不，你就別幫忙了，我想讓你仔細觀察並記錄宗方先生的行動」",
+    "old_vn": "「Không, em cứ đứng đó là được rồi. Tóm lại, tôi muốn em quan sát và ghi chép lại quá trình làm việc của \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata.」",
+    "kind": "gloss-removal",
+    "fix": "「Không, em cứ đứng đó là được rồi. Tóm lại, tôi muốn em quan sát và ghi chép lại quá trình làm việc của Munakata.」",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2480",
+    "speaker": "monologue",
+    "jp": "イスから浮きかけてしまっていた腰を、\\n気まずげに、宗方さんは落ち着け直す。",
+    "tw": "他一個激靈，幾乎從椅子上站了起來，但又很快坐穩了身姿，顯得有些不好意思。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata bối rối ngồi phịch xuống ghế, chiếc ghế mà chú ấy vừa định nhổm dậy.",
+    "kind": "gloss-removal",
+    "fix": "Munakata bối rối ngồi phịch xuống ghế, chiếc ghế mà chú ấy vừa định nhổm dậy.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2498",
+    "speaker": "monologue",
+    "jp": "オリヴィはけれどしらんふりして、\\nいつもの調子で、宗方さんへと問いかける。",
+    "tw": "但她又佯裝沒有聽到，以平時的興奮勁詢問宗方先生。",
+    "old_vn": "Nhưng Olivy vờ như không có chuyện gì, với điệu bộ thường ngày, quay sang hỏi \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata.",
+    "kind": "gloss-removal",
+    "fix": "Nhưng Olivy vờ như không có chuyện gì, với điệu bộ thường ngày, quay sang hỏi Munakata.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2565",
+    "speaker": "monologue",
+    "jp": "が、宗方さんはれいなの言葉を――御一夜鉄道の文化を、\\n少なくとも表面上は、気にせず受け入れてくれている。",
+    "tw": "可是宗方先生對玲奈的發言——對我們御一夜鐵路的文化並沒有表現出排斥，至少表面上他是示以理解的。",
+    "old_vn": "Nhưng, \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata đã đón nhận lời nói của Reina——văn hóa của Đường sắt Ohito, ít nhất là ngoài mặt, mà không hề bận tâm.",
+    "kind": "gloss-removal",
+    "fix": "Nhưng, Munakata đã đón nhận lời nói của Reina——văn hóa của Đường sắt Ohito, ít nhất là ngoài mặt, mà không hề bận tâm.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2634",
+    "speaker": "monologue",
+    "jp": "カラリと晴れた、一点の曇りも混じらぬオリヴィの声。\\n会話のズレに、思わずだろう。宗方さんの手が止まる。",
+    "tw": "奧莉薇的腔調顯得無比積極開朗，而宗方先生對於對話的錯位也是頗感意外，不禁停下手來。",
+    "old_vn": "Giọng nói của Olivy trong trẻo, quang đãng, không một chút vẩn đục. Có lẽ do sự lệch pha trong cuộc trò chuyện. Bàn tay của \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata bất giác dừng lại.",
+    "kind": "gloss-removal",
+    "fix": "Giọng nói của Olivy trong trẻo, quang đãng, không một chút vẩn đục. Có lẽ do sự lệch pha trong cuộc trò chuyện. Bàn tay của Munakata bất giác dừng lại.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2637",
+    "speaker": "monologue",
+    "jp": "オリヴィの喉から歓喜の声。\\n宗方氏の意向が確定するまで、ぬか喜びをさせぬよう――",
+    "tw": "奧莉薇立刻發出喜出望外的聲音，可是原本為了不讓她空歡喜一場——",
+    "old_vn": "Tiếng hoan hô bật ra từ cổ họng Olivy. Cho đến khi ý định của \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata được xác nhận, để không làm em ấy mừng hụt——",
+    "kind": "gloss-removal",
+    "fix": "Tiếng hoan hô bật ra từ cổ họng Olivy. Cho đến khi ý định của Munakata được xác nhận, để không làm em ấy mừng hụt——",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2693",
+    "speaker": "monologue",
+    "jp": "ざく、ざく、ざく。\\nまた別の地点を掘り返しながら、宗方さんが言う。",
+    "tw": "宗方先生一邊在別的地點挖土調查，一邊向她解釋。",
+    "old_vn": "Phập, phập, phập. \\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata vừa đào một địa điểm khác, vừa nói.",
+    "kind": "gloss-removal",
+    "fix": "Phập, phập, phập. Munakata vừa đào một địa điểm khác, vừa nói.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2695",
+    "speaker": "monologue",
+    "jp": "宗方さんも頭を下げて――オリヴィまでがそれに合わせる。",
+    "tw": "宗方先生也彎腰致歉，就連奧莉薇也跟著低下頭來。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata cũng cúi đầu——và thậm chí cả Olivy cũng làm theo.",
+    "kind": "gloss-removal",
+    "fix": "Munakata cũng cúi đầu——và thậm chí cả Olivy cũng làm theo.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2699",
+    "speaker": "monologue",
+    "jp": "宗方さんが受け取るやいなやでオリヴィが覗きにかかるが、\\n叱咤も制止も見られない。",
+    "tw": "宗方先生剛接過計算器，奧莉薇就湊過去一起看，但也不見他有半點阻攔或者訓斥的意思。",
+    "old_vn": "Ngay khi \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata vừa nhận lấy, Olivy đã chúi mũi vào xem, nhưng không hề bị la mắng hay ngăn cản.",
+    "kind": "gloss-removal",
+    "fix": "Ngay khi Munakata vừa nhận lấy, Olivy đã chúi mũi vào xem, nhưng không hề bị la mắng hay ngăn cản.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2701",
+    "speaker": "monologue",
+    "jp": "宗方さんの手が動く。",
+    "tw": "宗方先生動起手來。",
+    "old_vn": "Bàn tay \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata chuyển động.",
+    "kind": "gloss-removal",
+    "fix": "Bàn tay Munakata chuyển động.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2705",
+    "speaker": "monologue",
+    "jp": "軽く一礼。\\n宗方さんが振り向けば、オリヴィもすぐにその後を追う。",
+    "tw": "宗方先生向我們點頭行禮，隨即轉身向外走，奧莉薇也馬上跟了上去。",
+    "old_vn": "Khẽ cúi chào. Khi \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata quay người lại, Olivy cũng lập tức đi theo sau.",
+    "kind": "gloss-removal",
+    "fix": "Khẽ cúi chào. Khi Munakata quay người lại, Olivy cũng lập tức đi theo sau.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2707",
+    "speaker": "monologue",
+    "jp": "宗方さんが鼻から漏らしたのは笑いの息だ。",
+    "tw": "宗方先生呼出的這口氣帶著滿滿的笑意。",
+    "old_vn": "Tiếng cười bật ra từ mũi \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata.",
+    "kind": "gloss-removal",
+    "fix": "Tiếng cười bật ra từ mũi Munakata.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2713",
+    "speaker": "monologue",
+    "jp": "カメラと書類バサミをオリヴィに預け、\\n宗方さんは無造作にガンスコを隆起部分――",
+    "tw": "宗方先生將相機和資料夾交給奧莉薇，開始用鏟子在隆起的地方挖了起來。",
+    "old_vn": "Giao máy ảnh và kẹp tài liệu cho Olivy, \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata thản nhiên dùng Gansuko đào phần bị phồng rộp——",
+    "kind": "gloss-removal",
+    "fix": "Giao máy ảnh và kẹp tài liệu cho Olivy, Munakata thản nhiên dùng Gansuko đào phần bị phồng rộp——",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2715",
+    "speaker": "monologue",
+    "jp": "そこで、宗方さんが悩んでしまう。\\n例え話は不得意らしい。",
+    "tw": "宗方先生思索了一下，看來他並不擅長舉例說明。",
+    "old_vn": "Tới đây, \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata lại tỏ ra bối rối. Có vẻ như chú ấy không giỏi lấy ví dụ cho lắm.",
+    "kind": "gloss-removal",
+    "fix": "Tới đây, Munakata lại tỏ ra bối rối. Có vẻ như chú ấy không giỏi lấy ví dụ cho lắm.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2717",
+    "speaker": "monologue",
+    "jp": "宗方さんが他の地点へ移動する。",
+    "tw": "宗方先生於是走向其他地點。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata di chuyển sang địa điểm khác.",
+    "kind": "gloss-removal",
+    "fix": "Munakata di chuyển sang địa điểm khác.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2720",
+    "speaker": "monologue",
+    "jp": "宗方さんが顎を激しくしごくようにし、首を振る。",
+    "tw": "宗方先生用力搓了搓下巴，隨後搖頭說道。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata vuốt mạnh cằm và lắc đầu.",
+    "kind": "gloss-removal",
+    "fix": "Munakata vuốt mạnh cằm và lắc đầu.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2722",
+    "speaker": "monologue",
+    "jp": "宗方さんが立ち上がる。",
+    "tw": "宗方先生站起身，奧莉薇則是愣在原地。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata đứng dậy.",
+    "kind": "gloss-removal",
+    "fix": "Munakata đứng dậy.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2725",
+    "speaker": "monologue",
+    "jp": "言って、ふと、宗方さんの目が僕に向く。",
+    "tw": "宗方先生說罷，又突然看向我。",
+    "old_vn": "Vừa nói, ánh mắt của \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata chợt hướng về phía tôi.",
+    "kind": "gloss-removal",
+    "fix": "Vừa nói, ánh mắt của Munakata chợt hướng về phía tôi.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2726",
+    "speaker": "monologue",
+    "jp": "宗方さんが、僕らの方へと向き直る。",
+    "tw": "宗方先生說著又面向我們。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata, quay về phía chúng tôi.",
+    "kind": "gloss-removal",
+    "fix": "Munakata, quay về phía chúng tôi.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2730",
+    "speaker": "monologue",
+    "jp": "宗方さんはホッとした様な顔になり、\\nけれどもすぐに、その表情を引き締め直す。",
+    "tw": "宗方先生露出釋然的表情，但他很快又神情嚴肅地說道。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata mang vẻ mặt nhẹ nhõm, nhưng ngay lập tức, nét mặt lại trở nên nghiêm nghị.",
+    "kind": "gloss-removal",
+    "fix": "Munakata mang vẻ mặt nhẹ nhõm, nhưng ngay lập tức, nét mặt lại trở nên nghiêm nghị.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2731",
+    "speaker": "monologue",
+    "jp": "宗方さんの解答はただ、頷きだけだ。\\n工夫の余地も妥協の余地も、全く無いと伝わってくる。",
+    "tw": "宗方先生點了點頭作為回應，由此可見，當真沒有任何處置或妥協的餘地。",
+    "old_vn": "Câu trả lời của \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata chỉ là một cái gật đầu. Truyền đạt rõ ràng rằng hoàn toàn không có chỗ cho sự thỏa hiệp hay giải pháp nào khác.",
+    "kind": "gloss-removal",
+    "fix": "Câu trả lời của Munakata chỉ là một cái gật đầu. Truyền đạt rõ ràng rằng hoàn toàn không có chỗ cho sự thỏa hiệp hay giải pháp nào khác.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2805",
+    "speaker": "monologue",
+    "jp": "宗方さんは学習意欲が高く、状況把握能力の高い――\\n極めて現場向きの、仕事のできる人間だろうと感じられる。",
+    "tw": "我也能感受到，宗方先生的確是認真上進，並且一點就通，非常適合實地工作，能力著實令人佩服。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata có tinh thần ham học hỏi cao, khả năng nắm bắt tình hình nhạy bén—— Có thể cảm nhận được chú ấy là một người cực kỳ phù hợp với công việc thực tế, một người rất có năng lực.",
+    "kind": "gloss-removal",
+    "fix": "Munakata có tinh thần ham học hỏi cao, khả năng nắm bắt tình hình nhạy bén—— Có thể cảm nhận được chú ấy là một người cực kỳ phù hợp với công việc thực tế, một người rất có năng lực.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2830",
+    "speaker": "monologue",
+    "jp": "ならばあるいは、鉄道事業者の経営についてなど――\\nそうした講習も、宗方さんは受講していたのかもしれん。",
+    "tw": "或許其他諸如關於鐵路商業經營之類的講座，宗方先生也都有參加。",
+    "old_vn": "Nếu vậy thì có lẽ, về quản lý doanh nghiệp đường sắt hay những thứ tương tự—— Những bài giảng đó, \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata cũng đã từng tham gia.",
+    "kind": "gloss-removal",
+    "fix": "Nếu vậy thì có lẽ, về quản lý doanh nghiệp đường sắt hay những thứ tương tự—— Những bài giảng đó, Munakata cũng đã từng tham gia.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2891",
+    "speaker": "monologue",
+    "jp": "ポーレットが電卓を出す。\\n紙を見ながらキーを叩いて、宗方さんにそっと差し出す。",
+    "tw": "波萊特拿出計算器，邊看紙邊算，再輕輕將計算出的結果遞給宗方先生看。",
+    "old_vn": "Paulette lấy máy tính ra. Vừa nhìn vào tờ giấy vừa bấm máy, rồi nhẹ nhàng đẩy về phía \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata.",
+    "kind": "gloss-removal",
+    "fix": "Paulette lấy máy tính ra. Vừa nhìn vào tờ giấy vừa bấm máy, rồi nhẹ nhàng đẩy về phía Munakata.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2962",
+    "speaker": "monologue",
+    "jp": "それが当然といった仕草でオリヴィは、\\n宗方さんの作業の様子を撮影している。",
+    "tw": "而奧莉薇也一副習以為常的樣子，將宗方先生的一系列動作拍攝下來。",
+    "old_vn": "Bằng một cử chỉ coi đó là điều hiển nhiên, Olivy dang chụp ảnh lại quá trình làm việc của \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata.",
+    "kind": "gloss-removal",
+    "fix": "Bằng một cử chỉ coi đó là điều hiển nhiên, Olivy dang chụp ảnh lại quá trình làm việc của Munakata.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2966",
+    "speaker": "monologue",
+    "jp": "それに対する宗方さんも、また明快だ。",
+    "tw": "而宗方先生給出的答案一樣簡單明瞭。",
+    "old_vn": "\\x%l機関士;#00ffc040;Lái tàu%l;#; Munakata đáp lại cũng rất rõ ràng.",
+    "kind": "gloss-removal",
+    "fix": "Munakata đáp lại cũng rất rõ ràng.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2975",
+    "speaker": "monologue",
+    "jp": "ほぼ間違いなくそうした措置を、宗方さんは経験している。\\nその感覚が、不安をいくらか和らげてくれる。",
+    "tw": "而這些措施毫無疑問都來自於他長年累月的經驗，他準確的判斷也令我的擔憂緩和了些許。",
+    "old_vn": "Gần như chắc chắn \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata đã từng có kinh nghiệm xử lý những biện pháp như vậy. Cảm giác đó giúp tôi vơi bớt phần nào sự bất an.",
+    "kind": "gloss-removal",
+    "fix": "Gần như chắc chắn Munakata đã từng có kinh nghiệm xử lý những biện pháp như vậy. Cảm giác đó giúp tôi vơi bớt phần nào sự bất an.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2979",
+    "speaker": "monologue",
+    "jp": "オリヴィは、働くことが、使われることが幸せなのだ。\\nそれが宗方さんにであれば、おそらく、何より――",
+    "tw": "能夠投身於工作，被命令做事於奧莉薇而言屬於一種幸福，更何況對方是宗方先生，想必此刻她心中更是充滿喜悅。",
+    "old_vn": "Olivy hạnh phúc khi được làm việc, khi được sử dụng. Nếu người đó là \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata, thì có lẽ, hơn bất cứ điều gì——",
+    "kind": "gloss-removal",
+    "fix": "Olivy hạnh phúc khi được làm việc, khi được sử dụng. Nếu người đó là Munakata, thì có lẽ, hơn bất cứ điều gì——",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  },
+  {
+    "key": "2997",
+    "speaker": "monologue",
+    "jp": "それを好感してくれたのか、宗方さんの引き締まった顔が、\\nふ、と緩む。",
+    "tw": "見此，宗方先生嚴肅的面容上流露出幾分笑意，或許他也對此頗有好感。",
+    "old_vn": "Có lẽ vì có ấn tượng tốt với điều đó, khuôn mặt nghiêm nghị của \\x%l機関士;#00ffc040;lái tàu%l;#; Munakata, khẽ giãn ra.",
+    "kind": "gloss-removal",
+    "fix": "Có lẽ vì có ấn tượng tốt với điều đó, khuôn mặt nghiêm nghị của Munakata, khẽ giãn ra.",
+    "note": "Quyết định 12 (19/11, Hieu): gỡ thẻ gloss 機関士 thêm vào — JP không có 機関士 ở dòng này; chỉ gỡ thẻ, giữ nguyên phần còn lại của câu."
+  }
+]

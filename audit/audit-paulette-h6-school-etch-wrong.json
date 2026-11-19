@@ -1,0 +1,362 @@
+[
+ {
+  "key": 738,
+  "character": "双鉄",
+  "jp": "「はっきり言うんだ。ポーレット。学園時代の僕ならば、\\n今よりさらに、その手のことには理解が薄いぞ？」",
+  "tw": "「你要說清楚，波萊特。如果是學生時代的我，這方面的知識可要少很多」",
+  "old_vn": "「Nói rõ ra đi, Paulette. Nếu là anh thời học sinh,\\nhiểu biết về mấy chuyện đó còn kém xa bây giờ đấy nhé?」",
+  "fix": "「Nói rõ ra đi, Paulette. Nếu là tôi thời học sinh, hiểu biết về mấy chuyện đó còn kém xa bây giờ đấy nhé?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP 学園時代の僕ならば) → \"Tôi\"."
+ },
+ {
+  "key": 740,
+  "character": "双鉄",
+  "jp": "「どうしたい、とは、何についてだ？\\nはっきりいってもらえねばわからん」",
+  "tw": "「你說的做是要做什麼啊？不說清楚我可不明白」",
+  "old_vn": "「Muốn thế nào, là về chuyện gì cơ?\\nEm không nói rõ thì anh không hiểu đâu.」",
+  "fix": "「Muốn thế nào, là về chuyện gì cơ? Em không nói rõ thì tôi không hiểu đâu.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP はっきりいってもらえねばわからん, chủ ngữ là Soutetsu) → \"Tôi\"."
+ },
+ {
+  "key": 768,
+  "character": "ポーレット",
+  "jp": "「きゅぅぅぅぅぅぅぅぅぅん！！！」",
+  "tw": "「呀啊啊啊！！！」",
+  "old_vn": "「Kyuuuuuuuuuun!!!」",
+  "fix": "「Kíuuuuuuuuun!!!」",
+  "kind": "romanised",
+  "reason": "JP きゅぅぅぅぅぅぅぅぅぅん (tiếng ré dài) bị phiên âm \"Kyuuuuuuuuuun\" — theo tiền lệ h2 (\"fuaaaaaaaaaaan\" là lỗi): Việt hoá, giữ âm đầu \"Kí\" + kéo dài u (10 nguyên âm như JP)."
+ },
+ {
+  "key": 769,
+  "character": "ポーレット",
+  "jp": "「きゃふっ！！！」",
+  "tw": "「呀！！！」",
+  "old_vn": "「Kya!!!」",
+  "fix": "「Kyaphù!!!」",
+  "kind": "romanised",
+  "reason": "JP きゃふっ bị phiên âm \"Kya\" — theo đề xuất h3/h4 (Việt hoá họ きゃふ/ふにゃ/んきゅ/ふひゃ, viết liền một từ): \"Kyaphù\"."
+ },
+ {
+  "key": 770,
+  "character": "ポーレット",
+  "jp": "「ひゃふっ！！？」",
+  "tw": "「呀！！？」",
+  "old_vn": "「Hya!!?」",
+  "fix": "「Hyafu!!?」",
+  "kind": "romanised",
+  "reason": "JP ひゃふっ bị phiên âm \"Hya\" (mất âm ふ) — theo đề xuất h3/h4: \"Hyafu\" (giữ ひゃ→\"Hya\" theo tiền lệ h1/h2, thêm \"fu\")."
+ },
+ {
+  "key": 774,
+  "character": "双鉄",
+  "jp": "「っ！！？」",
+  "tw": "「呃！！？」",
+  "old_vn": "「!!?」",
+  "fix": "「Ư!!?」",
+  "kind": "gasp",
+  "reason": "JP 「っ！！？」 bị bỏ mất trong VN (\"!!?\") — sweep đã sửa, giá trị khớp (sweep-confirmed)."
+ },
+ {
+  "key": 784,
+  "character": "ポーレット",
+  "jp": "「ふっ――んっ――ちゅっ――ちゅうっ――んっ――\\nほーへふ、ふ――ん――わらひ――もっ――っ！！！！」",
+  "tw": "「呼——嗯——啾——啾——嗯——雙鐵——嗯——我也——！！！！」",
+  "old_vn": "「Phù——ưm——chụt——chụt——ưm——\\nAnh Sou, tetsu——ưm——em——cũng——!!!!」",
+  "fix": "「Phù——ưm——chụt——chụt——ưm—— Anh Sou, tetsu——ưm——ehm——cũng——Ư!!!!」",
+  "kind": "slurred",
+  "reason": "JP わらひ (nói ngọng của \"わたし\") bị dịch \"em\" — phải giữ dạng ngọng \"ehm\" (theo tiền lệ h3 1154: わらし→\"ehm\"). Tiếng nấc cuối っ→Ư đã có trong sweep (sweep-confirmed cho phần gasp)."
+ },
+ {
+  "key": 790,
+  "character": "ポーレット",
+  "jp": "「フ、ァッ！――あっ！　おっぱい――そこ――\\nさきっぽ――ちく、び――っ！」",
+  "tw": "「呼、啊！——啊！胸部——那裡——前端——乳頭！」",
+  "old_vn": "「Phù, a!——A! Ngực——chỗ đó——\\nĐầu vú——núm, vú——!」",
+  "fix": "「Phù, a!——A! Ngực——chỗ đó—— Đầu vú——núm, vú——Ư!」",
+  "kind": "gasp",
+  "reason": "JP ちく、び――っ！ (trailing っ sau dấu gạch dài) bị bỏ mất trong VN (\"——!\") — sweep đã sửa, giá trị khớp (sweep-confirmed)."
+ },
+ {
+  "key": 800,
+  "character": "双鉄",
+  "jp": "「くぁ――あっ――」",
+  "tw": "「唔——啊——」",
+  "old_vn": "「Kua——a——」",
+  "fix": "「Ư a——a——」",
+  "kind": "romanised",
+  "reason": "JP くぁ bị phiên âm \"Kua\" — theo quyết định くぁ/くあ→\"Ư a\" (h6 806 và sfx doc くっ→\"Hự\"/\"Ư\")."
+ },
+ {
+  "key": 814,
+  "character": "双鉄",
+  "jp": "「っ！」",
+  "tw": "「啊！」",
+  "old_vn": "「っ!」",
+  "fix": "「Ư!」",
+  "kind": "gasp",
+  "reason": "JP 「っ！」 bị bỏ mất trong VN (bản Việt còn nguyên っ) — sweep đã sửa, giá trị khớp (sweep-confirmed)."
+ },
+ {
+  "key": 815,
+  "character": "ポーレット",
+  "jp": "「っ！　ふあっ！　あっ――んうっ――ちゅっ！」",
+  "tw": "「啊！呼啊！啊——嗯——啾！」",
+  "old_vn": "「! Phù! A——ưm——chụt!」",
+  "fix": "「Ư! Phù! A——ưm——chụt!」",
+  "kind": "gasp",
+  "reason": "JP っ！ ở ĐẦU dòng bị bỏ mất trong VN (\"! Phù!…\") — sweep BỎ SÓT (leading gasp trong dòng dài); sửa theo quy tắc っ→Ư."
+ },
+ {
+  "key": 816,
+  "character": "双鉄",
+  "jp": "「っ！　――っ！？」",
+  "tw": "「啊！嗯！？」",
+  "old_vn": "「A! ——!?」",
+  "fix": "「A! ——Ư!?」",
+  "kind": "gasp",
+  "reason": "JP 「っ！　――っ！？」: っ đầu → \"A\" (tiếng nấc sắc), ――っ → Ư — sweep đã sửa, giá trị khớp (sweep-confirmed)."
+ },
+ {
+  "key": 817,
+  "character": "双鉄",
+  "jp": "「っ！！」",
+  "tw": "「啊！！」",
+  "old_vn": "「!!」",
+  "fix": "「Ư!!」",
+  "kind": "gasp",
+  "reason": "JP 「っ！！」 bị bỏ mất trong VN (\"!!\") — sweep đã sửa, giá trị khớp (sweep-confirmed)."
+ },
+ {
+  "key": 818,
+  "character": "双鉄",
+  "jp": "「くあっ！！！」",
+  "tw": "「啊！！！」",
+  "old_vn": "「Kua!!!」",
+  "fix": "「Ư a!!!」",
+  "kind": "romanised",
+  "reason": "JP くあっ bị phiên âm \"Kua\" — theo quyết định くぁ/くあ→\"Ư a\"."
+ },
+ {
+  "key": 819,
+  "character": "双鉄",
+  "jp": "「っ！？」",
+  "tw": "「啊！？」",
+  "old_vn": "「!?」",
+  "fix": "「Ư!?」",
+  "kind": "gasp",
+  "reason": "JP 「っ！？」 bị bỏ mất trong VN (\"!?\") — sweep đã sửa, giá trị khớp (sweep-confirmed)."
+ },
+ {
+  "key": 835,
+  "character": "ポーレット",
+  "jp": "「んっ――ひっへふははひ――ぷっ――ほーへふ……\\nふっ――んっ！　――ちゅうううううううううっ！！」",
+  "tw": "「嗯——呼啊呼啊——噗——哈……呼嗯！啾嚕！！」",
+  "old_vn": "「Ưm——hihhefuhahahi——phụt——Houhehu……\\nPhù——ưm! ——Chụtttttttttt!!」",
+  "fix": "「Ưm——Hí-hề-phù-ha-ha-hí——phụt——Hôu-hê-hu…… Phù——ưm! ——Chụtttttttttt!!」",
+  "kind": "slurred",
+  "reason": "JP ひっへふははひ bị phiên âm \"hihhefuhahahi\" và ほーへふ bị phiên âm \"Houhehu\" — nói ngọng, Việt hoá từng âm tiết có gạch nối (tiền lệ h3 1154) và giữ nguyên dạng dài."
+ },
+ {
+  "key": 840,
+  "character": "ポーレット",
+  "jp": "「んっ――ちゅっ――じゅるっ――じゅううっ――\\nあっ――んうっ――んっ――ちゅるっ――ちゅっ――」",
+  "tw": "「嗯——啾——啾嚕——啾噗——啊——嗯——嗯——啾嚕——啾噗」",
+  "old_vn": "「Ưm——chụt——sụt——chụtttt——\\nA——ưm——ưm——chu——chụt——」",
+  "fix": "「Ưm——chụt——sụt——chụtttt—— A——ưm——ưm——chụt——chụt——」",
+  "kind": "sfx",
+  "reason": "JP ちゅるっ bị dịch \"chu\" — không nhất quán với chính file (842, 873: ちゅるっ→\"chụt\") và docs (ちゅっ→\"Chụt\")."
+ },
+ {
+  "key": 847,
+  "character": "ポーレット",
+  "jp": "「ん……ぷっ――ん――ちゅっ――ちゅるっ――\\nれろっ――ぺろっ――ちゅっ――ちゅろろっ」",
+  "tw": "「嗯……呼——嗯——啾嚕——啾嚕——啾噗——啾嚕——啾噗——啾噗」",
+  "old_vn": "「Ưm……phù——ưm——chụt——chu——\\nliếm——liếm——chụt——chụtttt」",
+  "fix": "「Ưm……phù——ưm——chụt——chụt—— liếm——liếm——chụt——chụtttt」",
+  "kind": "sfx",
+  "reason": "JP ちゅるっ bị dịch \"chu\" — không nhất quán với chính file (842, 873: ちゅるっ→\"chụt\") và docs."
+ },
+ {
+  "key": 850,
+  "character": "ポーレット",
+  "jp": "「ん……ふぁ……っ――ほーへふ……ふん……んっ――\\nちゅ――ちゅむっ――ねろおっ――れるうっ――っ――」",
+  "tw": "「嗯……呼……啊——呼……嗯……嗯——雙鐵——啾噗——啾嚕——啾噗——嗯——」",
+  "old_vn": "「Ưm……phù……——Houhehu……hun……ưm——\\nChụt——chu——liếmmmm——liếmmmm——」",
+  "fix": "「Ưm……phù……——Hôu-hê-hu……hừm……ưm—— Chụt——chụt——liếmmmmƯ——Ư——」",
+  "kind": "gasp",
+  "reason": "JP có HAI っ cuối dòng bị bỏ mất (れるうっ và っ độc lập sau ――) — sweep BỎ SÓT; mỗi っ một Ư (tiền lệ addendum sweep: một Ư cho một っ). Đồng thời sửa ほーへふ→\"Hôu-hê-hu\", ふん→\"hừm\" (nói ngọng), ちゅむっ→\"chụt\"."
+ },
+ {
+  "key": 856,
+  "character": "ポーレット",
+  "jp": "「ん……ちゅっ……ちゅう……ちゅむっ……ふっ――\\nんっ――ちゅるっ――ちゅっ――れろっ――れるっ――」",
+  "tw": "「嗯……啾……啾……啾嚕……呼——嗯——啾嚕——啾噗——啾嚕——啾嚕——」",
+  "old_vn": "「Ưm……chụt……chu……chụt……phù——\\nƯm——chu——chụt——liếm——liếm——」",
+  "fix": "「Ưm……chụt……chụt……chụt……phù—— Ưm——chụt——chụt——liếm——liếm——」",
+  "kind": "sfx",
+  "reason": "JP ちゅう và ちゅるっ đều bị dịch \"chu\" — không nhất quán với chính file (802, 842: ちゅう→\"chụt\"; 842, 873: ちゅるっ→\"chụt\") và docs."
+ },
+ {
+  "key": 866,
+  "character": "双鉄",
+  "jp": "「ああ。動こう。だが――」",
+  "tw": "「嗯。那我就動，但是——」",
+  "old_vn": "「Ừ. Anh sẽ cử động. Nhưng mà——」",
+  "fix": "「Ừ. Tôi sẽ cử động. Nhưng mà——」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại (JP 動こう) → \"Tôi\"."
+ },
+ {
+  "key": 868,
+  "character": "ポーレット",
+  "jp": "「んきゅっっ――うっ――い、いっ――おっぱいっ――\\nもっ――こしゅんって、こす、れて――きもち、いいっ」",
+  "tw": "「嗯啊——啊——好——胸部——也被蹭到——好舒服——」",
+  "old_vn": "「Ư a——ư——sướng, quá——ngực——\\ncũng——bị cọ, xát——sướng, quá」",
+  "fix": "「Ưm——ư——sướng, quá——ngực—— cũng——bị cọ, xát——sướng, quá」",
+  "kind": "sfx",
+  "reason": "JP んきゅっっ bị dịch \"Ư a\" — sai: んきゅ→\"Ưm\" (tiền lệ h4); \"Ư a\" là cách dịch của くあ, không phải んきゅ. (うっ→\"ư\" đã đúng.)"
+ },
+ {
+  "key": 869,
+  "character": "ポーレット",
+  "jp": "「んきゅんっ！」",
+  "tw": "「嗯啊！」",
+  "old_vn": "「Nkyun!」",
+  "fix": "「Ưm!」",
+  "kind": "romanised",
+  "reason": "JP んきゅんっ bị phiên âm \"Nkyun!\" — theo tiền lệ h4 (んきゅ→\"Ưm\") và h6 805 (\"ưm\")."
+ },
+ {
+  "key": 879,
+  "character": "双鉄",
+  "jp": "「ああ。僕もだ。ポーレットのことが大好きだ」",
+  "tw": "「嗯，我也一樣，我也最喜歡你了」",
+  "old_vn": "「Ừ. Anh cũng vậy. Anh rất yêu Paulette.」",
+  "fix": "「Ừ. Tôi cũng vậy. Tôi rất yêu Paulette.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" ×2 trong thoại (JP 僕もだ) → \"Tôi\" ×2."
+ },
+ {
+  "key": 885,
+  "character": "双鉄",
+  "jp": "「ポーレットがもし同級にいれば、そのことに。\\n僕もあるいは、気づけていたのかもしれないな」",
+  "tw": "「如果我跟你同年級的話，我也許就能早些發現這一點了」",
+  "old_vn": "「Nếu Paulette học cùng lớp, có lẽ.\\nAnh đã nhận ra điều đó sớm hơn rồi.」",
+  "fix": "「Nếu Paulette học cùng lớp, có lẽ. Tôi đã nhận ra điều đó sớm hơn rồi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại (JP 僕もあるいは、気づけていたのかもしれないな) → \"Tôi\"."
+ },
+ {
+  "key": 899,
+  "character": "双鉄",
+  "jp": "「僕も、もっと。ポーレットの熱を感じたい」",
+  "tw": "「我也想多感受感受你的溫度」",
+  "old_vn": "「Anh cũng muốn, cảm nhận hơi nóng của Paulette nhiều hơn nữa.」",
+  "fix": "「Tôi cũng muốn, cảm nhận hơi nóng của Paulette nhiều hơn nữa.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại (JP 僕も、もっと) → \"Tôi\"."
+ },
+ {
+  "key": 900,
+  "character": "双鉄",
+  "jp": "「僕もだ――ポーレット」",
+  "tw": "「我也愛你——波萊特」",
+  "old_vn": "「Anh cũng vậy——Paulette」",
+  "fix": "「Tôi cũng vậy——Paulette」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại (JP 僕もだ) → \"Tôi\"."
+ },
+ {
+  "key": 903,
+  "character": "双鉄",
+  "jp": "「つまり、ポーレット。僕は君にも――\\nポーレットにも、好きに動いて欲しいのだ」",
+  "tw": "「我的意思是，波萊特。我想讓你也——想怎麼動就怎麼動」",
+  "old_vn": "「Nghĩa là, Paulette à. Anh cũng muốn em——\\nMuốn Paulette cũng tự do cử động theo ý thích.」",
+  "fix": "「Nghĩa là, Paulette à. Tôi cũng muốn em—— Muốn Paulette cũng tự do cử động theo ý thích.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại (JP 僕は君にも) → \"Tôi\"."
+ },
+ {
+  "key": 909,
+  "character": "双鉄",
+  "jp": "「もっとだ。全部。僕の全部を――\\nポーレットに、呑み込んで欲しい」",
+  "tw": "「我還想要，我想讓我的全部都被你吞進去」",
+  "old_vn": "「Nữa đi. Tất cả. Toàn bộ con người anh——\\nAnh muốn Paulette nuốt trọn lấy.」",
+  "fix": "「Nữa đi. Tất cả. Toàn bộ con người tôi—— Tôi muốn Paulette nuốt trọn lấy.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" ×2 trong thoại (JP 僕の全部を) → \"Tôi\" ×2."
+ },
+ {
+  "key": 924,
+  "character": "双鉄",
+  "jp": "「いいのか？　どろどろに汚してしまうぞ？」",
+  "tw": "「沒關係嗎？這樣會弄髒的」",
+  "old_vn": "「Có sao không? Anh sẽ làm bẩn nhầy nhụa hết đấy nhé?」",
+  "fix": "「Có sao không? Tôi sẽ làm bẩn nhầy nhụa hết đấy nhé?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại (JP どろどろに汚してしまうぞ) → \"Tôi\"."
+ },
+ {
+  "key": 935,
+  "character": "双鉄",
+  "jp": "「――これほどまでに魅力的な胸だったとは、\\nさすがに思えんからな」",
+  "tw": "「真沒想到你的胸部這麼有魅力」",
+  "old_vn": "「——Quả thực anh không thể ngờ,\\nngực em lại quyến rũ đến nhường này đấy.」",
+  "fix": "「——Quả thực tôi không thể ngờ, ngực em lại quyến rũ đến nhường này đấy.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP さすがに思えんからな, chủ ngữ là Soutetsu) → \"Tôi\"."
+ },
+ {
+  "key": 946,
+  "character": "双鉄",
+  "jp": "「これでは、足りん。\\n僕が、ポーレットのおっぱいを“使う”のならば」",
+  "tw": "「這樣還不夠。如果要說我“用”你的胸的話」",
+  "old_vn": "「Thế này thì, chưa đủ.\\nNếu anh muốn 'sử dụng' ngực của Paulette.」",
+  "fix": "「Thế này thì, chưa đủ. Nếu tôi muốn 'sử dụng' ngực của Paulette.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại (JP 僕が、ポーレットのおっぱいを“使う”のならば) → \"Tôi\"."
+ },
+ {
+  "key": 1271,
+  "character": "monologue",
+  "jp": "腰を思い切り進めれば、\\nポーレットもそのタイミングで大きく震えてっ――っ！？",
+  "tw": "我用力一推，波萊特忽然渾身一抖！",
+  "old_vn": "Dồn hết sức đẩy hông tới,\\nđúng lúc đó Paulette cũng giật nảy mình run rẩy——!?",
+  "fix": "Dồn hết sức đẩy hông tới, đúng lúc đó Paulette cũng giật nảy mình run rẩyƯ——Ư!?",
+  "kind": "gasp",
+  "reason": "JP 震えてっ――っ！？ có HAI っ — sweep chỉ sửa MỘT (\"——Ư!?\"); sửa lại theo JP: một Ư cho một っ (震えてっ→\"run rẩyƯ\", ――っ→\"——Ư\"; tiền lệ addendum sweep)."
+ },
+ {
+  "key": 1290,
+  "character": "monologue",
+  "jp": "だから子宮に甘くキスして、\\n僕が僕だと伝えてあげ――っ！？",
+  "tw": "所以我就讓肉棒親上子宮，清清楚楚地告訴它我是誰——",
+  "old_vn": "Nên tôi hôn ngọt ngào lên tử cung,\\nđể nói cho nó biết tôi là ai——!?",
+  "fix": "Nên tôi hôn ngọt ngào lên tử cung, để nói cho nó biết tôi là ai——Ư!?",
+  "kind": "gasp",
+  "reason": "JP 伝えてあげ――っ！？ (trailing っ) bị bỏ mất trong VN (\"——!?\") — sweep đã sửa, giá trị khớp (sweep-confirmed)."
+ },
+ {
+  "key": 1377,
+  "character": "monologue",
+  "jp": "そうして、かわいい口が開く。\\n全部飲めたと、ほめてほめてといわんばかりに――っ！",
+  "tw": "然後她張開了可愛的小嘴示意，簡直就是在等我誇她全部喝下去了。",
+  "old_vn": "Sau đó, cái miệng đáng yêu hé mở.\\nNhư muốn khoe khoang rằng em đã nuốt hết rồi, hãy khen em đi——!",
+  "fix": "Sau đó, cái miệng đáng yêu hé mở. Như muốn khoe khoang rằng em đã nuốt hết rồi, hãy khen em đi——Ư!",
+  "kind": "gasp",
+  "reason": "JP ――っ！ (trailing っ) bị bỏ mất trong VN (\"——!\") — sweep đã sửa, giá trị khớp (sweep-confirmed)."
+ },
+ {
+  "key": 1586,
+  "character": "monologue",
+  "jp": "（ずっ――）",
+  "tw": "（挺動）",
+  "old_vn": "（Trượt——）",
+  "fix": "（Phập——）",
+  "kind": "sfx",
+  "reason": "JP ずっ (âm đâm vào) bị dịch \"Trượt——\" (trượt ra) — SAI HƯỚNG: họ ず = đâm vào (quy tắc h4; TW 挺動 xác nhận). Phải là \"Phập\" (như 1572: ずっ→\"Phập\")."
+ }
+]
