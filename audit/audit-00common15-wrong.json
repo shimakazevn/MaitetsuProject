@@ -1,0 +1,272 @@
+[
+ {
+  "key": "1516",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「『運転試験　ハチロク』か。単純であるがかわいらしい。\\nこのマンガは、運転[ボディ]体のハチロクだな？」",
+  "tw": "「“走行測試八六”。很簡單，不過很可愛。這漫畫畫的，是八六的駕駛體吧？」",
+  "old_vn": "「『Chạy thử nghiệm Hachiroku』 à. Đơn giản nhưng đáng yêu thật.\\nHình vẽ manga này là cơ thể lái tàu của Hachiroku nhỉ?」",
+  "fix": "「『Chạy thử nghiệm Hachiroku』 à. Đơn giản nhưng đáng yêu thật.\\nHình vẽ manga này là thân vận hành của Hachiroku nhỉ?」",
+  "why": "運転体 = \"thân vận hành\" (quyết chốt; \"cơ thể lái tàu\" không thống nhất với file 08/10/13)."
+ },
+ {
+  "key": "1541",
+  "character": "双鉄",
+  "kind": "meaning",
+  "jp": "「……正直、わからん。\\nそのために整備修復してきたことは、確かだが」",
+  "tw": "「……說實話，我不知道。但我們整備和修復為的就是讓它跑起來」",
+  "old_vn": "「……Thành thật mà nói, anh không biết.\\nDù mục đích của việc bảo dưỡng và phục hồi là để nó chạy được.」",
+  "fix": "「……Thành thật mà nói, anh không biết.\\nNhưng chắc chắn là chúng ta đã bảo dưỡng và phục hồi nó để nó chạy được.」",
+  "why": "JP 「そのために整備修復してきたことは、確かだが」: khẳng định CHẮC CHẮN đã bảo dưỡng/phục hồi vì mục đích đó (TW: 為的就是讓它跑起來). Bản cũ bịa \"Dù\" (nhượng bộ không có trong JP) và làm mất 確かだ."
+ },
+ {
+  "key": "1544",
+  "character": "蓑笠",
+  "kind": "terminology",
+  "jp": "「……御一夜の職人たちの、誇りば感じる仕事ですな。\\n新旧部品すり合わせ良し、ぴたりハマっておりますばい」",
+  "tw": "「……這工作真讓御一夜的匠人們感到驕傲啊。新舊零件磨合得非常完美」",
+  "old_vn": "「……Quả là một công việc mang đầy niềm tự hào của những người thợ thủ công Ohimitera nhỉ.\\nViệc mài khớp các bộ phận cũ và mới rất tốt, vừa khít luôn.」",
+  "fix": "「……Quả là một công việc mang đầy niềm tự hào của những người thợ thủ công Ohitoyo nhỉ.\\nViệc mài khớp các bộ phận cũ và mới rất tốt, vừa khít luôn.」",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "1795",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「つながりの力で、御一夜の力で。\\n――みんなで、8620の傷を、直したんだ」",
+  "tw": "「依靠人與人的情誼，依靠御一夜的力量——我們一起修好了８６２０」",
+  "old_vn": "「Bằng sức mạnh của sự kết nối, bằng sức mạnh của Ohimitera.\\n——Tất cả mọi người, đã cùng nhau sửa chữa vết thương của 8620.」",
+  "fix": "「Bằng sức mạnh của sự kết nối, bằng sức mạnh của Ohitoyo.\\n——Tất cả mọi người, đã cùng nhau sửa chữa vết thương của 8620.」",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "1843",
+  "character": "日々姫",
+  "kind": "pronoun",
+  "jp": "「見学会のチラシのときに、資料、いろいろ調べて。\\nそれで、記念の時にはあった方がいいかと思ったの」",
+  "tw": "「參觀會做傳單的時候，我查了不少資料。所以，我覺得在這個值得紀念的時刻有會它更好」",
+  "old_vn": "「Lúc làm tờ rơi cho buổi tham quan, chị đã tìm hiểu rất nhiều tài liệu.\\nNên chị nghĩ, vào những dịp kỷ niệm thì có cái này sẽ tốt hơn.」",
+  "fix": "「Lúc làm tờ rơi cho buổi tham quan, em đã tìm hiểu rất nhiều tài liệu.\\nNên em nghĩ, vào những dịp kỷ niệm thì có cái này sẽ tốt hơn.」",
+  "why": "Hibiki tự xưng \"em\" với Soutetsu (1536, 2332, 2344 trong file này; \"em\" 1157 vs \"chị\" 352 toàn dự án). Dòng này giải thích banner với Soutetsu/nhóm."
+ },
+ {
+  "key": "1906",
+  "character": "ハチロク",
+  "kind": "gasp",
+  "jp": "「まぁ」\\n「っ！」",
+  "tw": "「哎呀」\\n「！」",
+  "old_vn": "「Chà.」\\n「!」",
+  "fix": "「Chà.」\\n「Ư!」",
+  "why": "Sweep lost-gasp-whole, kiểm chứng đúng vs JP: 「まぁ」\\n「っ！」 — っ trần ở đầu dòng = tiếng hít (tiền lệ file 09 key 2802)."
+ },
+ {
+  "key": "1943",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「うん。言ってみてくれ」",
+  "tw": "「嗯，你說吧」",
+  "old_vn": "「Ừm. Cô cứ nói đi.」",
+  "fix": "「Ừm. Em cứ nói đi.」",
+  "why": "Soutetsu gọi người nghe là \"em\" — mọi đối tượng khả dĩ (Nagi/Hibiki/Paulette/Hachiroku) đều lấy \"em\"; \"cô\" sai với tất cả. Người nghe suy từ lời mời song song 1956→1958 (Nagi)."
+ },
+ {
+  "key": "1951",
+  "character": "ハチロク",
+  "kind": "meaning",
+  "jp": "「ええ、本当に」",
+  "tw": "「嗯，是啊」",
+  "old_vn": "「Vâng, thật sự rất biết ơn.」",
+  "fix": "「Vâng, đúng vậy.」",
+  "why": "JP 「ええ、本当に」= \"Vâng, đúng vậy.\" — \"rất biết ơn\" bịa thêm, JP không có biết ơn (kiểu bịa của Gemini)."
+ },
+ {
+  "key": "2063",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「わかっている。ゆっくり、少しずつ、まんべんなくだ」",
+  "tw": "「我知道。我會慢慢地、一點點地、均衡地來」",
+  "old_vn": "「Anh biết rồi. Phải từ từ, từng chút một, và trải đều ra.」",
+  "fix": "「Tôi biết rồi. Phải từ từ, từng chút một, và trải đều ra.」",
+  "why": "Soutetsu tự xưng \"tôi\" với Hachiroku (quy tắc đã sửa 20/11) — trả lời Hachiroku ở 2060 về vận hành đầu máy."
+ },
+ {
+  "key": "2064",
+  "character": "日々姫",
+  "kind": "terminology",
+  "jp": "「もっと御一夜のことを良く知ったほうがいいと思うの。\\n兄さんが、御一夜を本当に復興させたいんなら」",
+  "tw": "「我覺得如果哥哥真的想振興御一夜的話，應該去更加深入地了解御一夜」",
+  "old_vn": "「Em nghĩ anh nên tìm hiểu thêm về Ohimitera.\\nNếu anh thực sự muốn phục hưng Ohimitera.」",
+  "fix": "「Em nghĩ anh nên tìm hiểu thêm về Ohitoyo.\\nNếu anh thực sự muốn phục hưng Ohitoyo.」",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai). (2 lần trong dòng)."
+ },
+ {
+  "key": "2132",
+  "character": "日々姫",
+  "kind": "pronoun",
+  "jp": "「決まりとかあるなら違っちゃってるかもしれないし、\\nプラバンに油絵の具だから、強度も正直わかんないけど」",
+  "tw": "「有可能和傳統當中的不一樣，材質是塑膠板，上色用的油畫顏料，到底耐不耐用我也不清楚」",
+  "old_vn": "「Nếu có quy định gì đó thì có thể chị đã làm sai,\\nvà vì chị vẽ bằng sơn dầu trên tấm nhựa dẻo nên thú thật chị cũng không rõ độ bền của nó đâu.」",
+  "fix": "「Nếu có quy định gì đó thì có thể em đã làm sai,\\nvà vì em vẽ bằng sơn dầu trên tấm nhựa dẻo nên thú thật em cũng không rõ độ bền của nó đâu.」",
+  "why": "Hibiki tự xưng \"em\" với Soutetsu — trả lời câu hỏi của Soutetsu ở 2130, Soutetsu đồng tình ở 2133."
+ },
+ {
+  "key": "2173",
+  "character": "ハチロク",
+  "kind": "terminology",
+  "jp": "「御一夜温泉駅入線。一番ホーム。停止準備を」",
+  "tw": "「準備進入御一夜溫泉站，一號站台。準備停車」",
+  "old_vn": "「Tiến vào ga suối nước nóng Ohimitera. Sân ga số 1. Chuẩn bị dừng lại.」",
+  "fix": "「Tiến vào ga suối nước nóng Ohitoyo. Sân ga số 1. Chuẩn bị dừng lại.」",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "2307",
+  "character": "ハチロク",
+  "kind": "terminology",
+  "jp": "「これが、御一夜――\\n双鉄様が守ろうとしている、町と人たちなのですね」",
+  "tw": "「這就是御一夜——這就是雙鐵少爺想要守護的城市和人嗎」",
+  "old_vn": "「Đây là, Ohimitera——\\nLà thị trấn và những con người mà ngài Soutetsu đang cố gắng bảo vệ đúng không ạ.」",
+  "fix": "「Đây là, Ohitoyo——\\nLà thị trấn và những con người mà ngài Soutetsu đang cố gắng bảo vệ đúng không ạ.」",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "2308",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「これが御一夜、僕を育ててくれた町だ。\\n守ろうなどとはおこがましいが――」",
+  "tw": "「這就是御一夜。哺育我長大的城市。守護這個詞用起來太自大了——」",
+  "old_vn": "「Đây là Ohimitera, thị trấn đã nuôi dưỡng anh khôn lớn.\\nNói là bảo vệ thì có vẻ hơi kiêu ngạo nhưng——」",
+  "fix": "「Đây là Ohitoyo, thị trấn đã nuôi dưỡng tôi khôn lớn.\\nNói là bảo vệ thì có vẻ hơi kiêu ngạo nhưng——」",
+  "why": "御一夜 = \"Ohitoyo\"; Soutetsu tự xưng \"tôi\" với Hachiroku — trả lời Hachiroku ở 2307."
+ },
+ {
+  "key": "2312",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「今回の試験走行までで、御一夜のキーマンが何人も、\\n双鉄くんを信頼してくれたと思いますし、その人脈も」",
+  "tw": "「通過這次的走行測試，御一夜有幾個大人物應該已經開始信任你了，他們的熟人也會同樣信任你」",
+  "old_vn": "「Cho đến cuộc chạy thử nghiệm lần này, tôi nghĩ đã có rất nhiều nhân vật chủ chốt của Ohimitera\\ntin tưởng anh Soutetsu, và cả những mối quan hệ đó nữa.」",
+  "fix": "「Cho đến cuộc chạy thử nghiệm lần này, tôi nghĩ đã có rất nhiều nhân vật chủ chốt của Ohitoyo\\ntin tưởng anh Soutetsu, và cả những mối quan hệ đó nữa.」",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "2339",
+  "character": "日々姫",
+  "kind": "terminology",
+  "jp": "「酒蔵のことも、私の看板描きやなにもかも、\\n御一夜の人と密接するお仕事でしょ？　だから――」",
+  "tw": "「酒窖裡的工作，還有我畫招牌畫的工作，都是與御一夜的人息息相關的工作。所以——」",
+  "old_vn": "「Chuyện xưởng rượu, chuyện vẽ biển hiệu của em và mọi thứ khác,\\nđều là những công việc gắn liền với người dân Ohimitera đúng không? Vì vậy——」",
+  "fix": "「Chuyện xưởng rượu, chuyện vẽ biển hiệu của em và mọi thứ khác,\\nđều là những công việc gắn liền với người dân Ohitoyo đúng không? Vì vậy——」",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "2378",
+  "character": "凪",
+  "kind": "sfx",
+  "jp": "「ぐぎぎぎぎぎぎ」",
+  "tw": "「（咬牙切齒）」",
+  "old_vn": "「Gừ gừ gừ gừ gừ」",
+  "fix": "「Ken két ken két ken két」",
+  "why": "ぐぎぎぎ = nghiến răng (TW: 咬牙切齒). \"Gừ\" là tiếng gầm — sai loại âm. \"Ken két\" là tiếng nghiến răng tiếng Việt."
+ },
+ {
+  "key": "2619",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "かちり、\\x%lタブレット;#00ffc040;タブレット%l;#;が交換される。\\nぱちり、\\x%l運転体;#00ffc040;運転体%l;#;のハチロクの目が開く。",
+  "tw": "交換完\\x%lタブレット;#00ffc040;操作板%l;#;，八六的\\x%l運転体;#00ffc040;駕駛體%l;#;睜開了眼。",
+  "old_vn": "Cạch, \\x%lタブレット;#00ffc040;thẻ bảng%l;#; được hoán đổi.\\nChớp chớp, đôi mắt của Hachiroku \\x%l運転体;#00ffc040;thân chính%l;#; mở ra.",
+  "fix": "Cạch, \\x%lタブレット;#00ffc040;máy tính bảng%l;#; được hoán đổi.\\nChớp chớp, đôi mắt của Hachiroku \\x%l運転体;#00ffc040;thân vận hành%l;#; mở ra.",
+  "why": "タブレット = \"máy tính bảng\" (entry 38 docs; \"thẻ bảng\" sai); 運転体 = \"thân vận hành\"."
+ },
+ {
+  "key": "2673",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "同じく観光振興、御一夜再生を目的として、\\nしかし手段は１８０度異なっている。",
+  "tw": "儘管目的同樣是振興旅遊業、振興御一夜，但手段卻完全不同。",
+  "old_vn": "Cùng có chung mục đích là chấn hưng du lịch, tái thiết Ohimitera,\\nnhưng phương tiện lại khác nhau 180 độ.",
+  "fix": "Cùng có chung mục đích là chấn hưng du lịch, tái thiết Ohitoyo,\\nnhưng phương tiện lại khác nhau 180 độ.",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "2895",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "\\x%l石造機関庫;#00ffc040;石造機関庫%l;#;から御一夜駅ホームまで。\\n全行程で１キロも無い、新生\\x%l8620;#00ffc040;8620%l;#;、初めての旅。",
+  "tw": "從\\x%l石造機関庫;#00ffc040;石製機車庫%l;#;到御一夜站站台，全程不到一公里。新\\x%l8620;#00ffc040;８６２０%l;#;第一次踏上了旅途。",
+  "old_vn": "Từ \\x%l石造機関庫;#00ffc040;xưởng đầu máy bằng đá%l;#; đến sân ga Ohimitera.\\nToàn bộ hành trình chưa đến 1 km, chuyến đi đầu tiên của \\x%l8620;#00ffc040;8620%l;#; mới sinh.",
+  "fix": "Từ \\x%l石造機関庫;#00ffc040;xưởng đầu máy bằng đá%l;#; đến sân ga Ohitoyo.\\nToàn bộ hành trình chưa đến 1 km, chuyến đi đầu tiên của \\x%l8620;#00ffc040;8620%l;#; mới sinh.",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "2903",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "御一夜周辺――湯医線沿線やクマ川流域の広くからも、\\n数えきれぬほどの応援と励ましと手とを、いただいた。",
+  "tw": "御一夜附近——包括湯醫線沿線還有隈河流域的居民們，都給予了我們無數的鼓勵與幫助。",
+  "old_vn": "Xung quanh Ohimitera——dọc theo tuyến Yui và trên một khu vực rộng lớn của lưu vực sông Kuma,\\nchúng tôi đã nhận được vô số sự ủng hộ, động viên và giúp đỡ.",
+  "fix": "Xung quanh Ohitoyo——dọc theo tuyến Yunoi và trên một khu vực rộng lớn của lưu vực sông Kuma,\\nchúng tôi đã nhận được vô số sự ủng hộ, động viên và giúp đỡ.",
+  "why": "御一夜 = \"Ohitoyo\"; 湯医線 = \"tuyến Yunoi\" (quyết chốt; \"Yui\" sai — dòng Yui thứ 3 toàn dự án)."
+ },
+ {
+  "key": "2938",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "\\x%l機関士;#00ffc040;機関士%l;#;鞄を大きく開き、\\n中から\\x%l運転体;#00ffc040;運転体%l;#;のハチロクを取り出す。",
+  "tw": "我打開\\x%l機関士;#00ffc040;司機%l;#;專用包，從中取出八六的\\x%l運転体;#00ffc040;駕駛體%l;#;。",
+  "old_vn": "Tôi mở rộng chiếc cặp \\x%l機関士;#00ffc040;nhân viên cơ vụ%l;#;,\\nlấy Hachiroku \\x%l運転体;#00ffc040;thân chính%l;#; từ bên trong ra.",
+  "fix": "Tôi mở rộng chiếc cặp \\x%l機関士;#00ffc040;nhân viên cơ vụ%l;#;,\\nlấy Hachiroku \\x%l運転体;#00ffc040;thân vận hành%l;#; từ bên trong ra.",
+  "why": "運転体 = \"thân vận hành\" (quyết chốt; \"thân chính\" sai)."
+ },
+ {
+  "key": "2942",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "\\x%l汽笛;#00ffc040;汽笛%l;#;を鳴らす。\\nホームの、御一夜の人たちに、心の限りの感謝を込めて。",
+  "tw": "我拉響了\\x%l汽笛;#00ffc040;汽笛%l;#;。向站台上的、御一夜的人們表達最真誠的謝意。",
+  "old_vn": "Tôi kéo \\x%l汽笛;#00ffc040;còi hơi nước%l;#;.\\nGửi gắm vào đó tất cả lòng biết ơn chân thành nhất đến những người dân Ohimitera trên sân ga.",
+  "fix": "Tôi kéo \\x%l汽笛;#00ffc040;còi hơi nước%l;#;.\\nGửi gắm vào đó tất cả lòng biết ơn chân thành nhất đến những người dân Ohitoyo trên sân ga.",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "3108",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "ポーレットの\\x%lまいてつ;#00ffc040;まいてつ%l;#;仲間や、赤井宮司の人脈から\\n集まってくれた旧\\x%l帝鉄;#00ffc040;帝鉄%l;#;の技師さんや職員さんたち。",
+  "tw": "波萊特的\\x%lまいてつ;#00ffc040;掌車人%l;#;伙伴，以及赤井宮司認識的那些前\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;的技師與員工們——",
+  "old_vn": "Những người bạn \\x%lまいてつ;#00ffc040;chủ tàu%l;#; của Paulette, cùng với các kỹ sư và nhân viên của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ\\nđược tập hợp lại thông qua mạng lưới quan hệ của đền chủ Akai.",
+  "fix": "Những người bạn \\x%lまいてつ;#00ffc040;chủ tàu%l;#; của Paulette, cùng với các kỹ sư và nhân viên của \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũ\\nđược tập hợp lại thông qua mạng lưới quan hệ của đền chủ Akai.",
+  "why": "帝鉄 = \"Teitetsu\" (quyết chốt 21:20; \"Đường sắt Hoàng gia\" là dịch sai 帝→皇). まいてつ \"chủ tàu\" và 宮司 \"đền chủ Akai\" trong cùng dòng đã đúng, giữ nguyên."
+ },
+ {
+  "key": "3140",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "そのまま崩れる\\x%l整備体;#00ffc040;整備体%l;#;のハチロクを、\\n機関庫内にしつらえた、専用席へと座らせる。",
+  "tw": "然後將八六癱倒在地上的\\x%l整備体;#00ffc040;整備體%l;#;扶坐在機車庫裡設置的專用座位上。",
+  "old_vn": "Tôi đỡ lấy Hachiroku \\x%l整備体;#00ffc040;thân chính%l;#; đang đổ gục xuống,\\nvà đặt em ấy ngồi vào chiếc ghế chuyên dụng được chuẩn bị sẵn trong xưởng đầu máy.",
+  "fix": "Tôi đỡ lấy Hachiroku \\x%l整備体;#00ffc040;thân bảo trì%l;#; đang đổ gục xuống,\\nvà đặt em ấy ngồi vào chiếc ghế chuyên dụng được chuẩn bị sẵn trong xưởng đầu máy.",
+  "why": "整備体 = \"thân bảo trì\" (quyết chốt; \"thân chính\" sai)."
+ },
+ {
+  "key": "3307",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司が招いてくれた粉蔵時代の技師さんは、\\nさらに仲間の技師たちに、御一夜へ来るよう誘ってくれた。",
+  "tw": "赤井宮司請來了他在小倉時認識的技師，而他又邀請了更多的技師同伴們來到了御一夜。",
+  "old_vn": "Kỹ sư thời ở nhà máy bột mà đền chủ Akai mời đến,\\nlại tiếp tục rủ thêm các kỹ sư đồng nghiệp đến Ohimitera.",
+  "fix": "Kỹ sư thời ở nhà máy bột mà đền chủ Akai mời đến,\\nlại tiếp tục rủ thêm các kỹ sư đồng nghiệp đến Ohitoyo.",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ },
+ {
+  "key": "3358",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "点火材として使うにはもったいないほどのそれは、\\n御一夜森林組合の皆様からの寄付品だ。",
+  "tw": "這是御一夜森林行會送給我們的。不得不說拿這個做引火物很浪費。",
+  "old_vn": "Dùng chúng làm mồi lửa thì thật lãng phí,\\nđây là món đồ được quyên góp từ mọi người trong Hiệp hội Lâm nghiệp Ohimitera.",
+  "fix": "Dùng chúng làm mồi lửa thì thật lãng phí,\\nđây là món đồ được quyên góp từ mọi người trong Hiệp hội Lâm nghiệp Ohitoyo.",
+  "why": "御一夜 = \"Ohitoyo\" (quyết chốt; \"Ohimitera\" sai)."
+ }
+]

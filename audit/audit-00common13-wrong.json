@@ -1,0 +1,452 @@
+[
+ {
+  "key": "1537",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「\\x%l保線;#00ffc040;[ほせん,1]保線%l;#;だ。鉄道に\\x%l保線;#00ffc040;保線%l;#;は欠かせぬと」",
+  "tw": "「\\x%l保線;#00ffc040;巡線%l;#;啊。\\x%l保線;#00ffc040;巡線%l;#;就是鐵路的生命線」",
+  "old_vn": "「\\x%l保線;#00ffc040;Bảo trì đường ray%l;#; đấy. Cô bảo đường sắt thì không thể thiếu \\x%l保線;#00ffc040;bảo trì đường ray%l;#; mà.」",
+  "fix": "「\\x%l保線;#00ffc040;Bảo trì đường ray%l;#; đấy. Em bảo đường sắt thì không thể thiếu \\x%l保線;#00ffc040;bảo trì đường ray%l;#; mà.」",
+  "why": "Soutetsu nói với Hachiroku (JP お前; cô ấy vừa nói về 保線). Xưng hô đúng là \"em\", không phải \"cô\"."
+ },
+ {
+  "key": "1550",
+  "character": "ハチロク",
+  "kind": "terminology",
+  "jp": "「\\x%l勾配千分率;#00ffc040;勾配千分率%l;#;1.6。\\x%l施工基面高;#00ffc040;施工基面高%l;#;[イチニイサンテンマルキュウ,5]123.09」。\\n\\x%l勾配距離;#00ffc040;勾配距離%l;#;が、149.23。\\x%lレール種別;#00ffc040;レール種別%l;#;は[さんじゅっ,1]30キロままです」",
+  "tw": "「\\x%l勾配千分率;#00ffc040;坡度千分率%l;#;１.６。\\x%l施工基面高;#00ffc040;施工基面高%l;#;１２３.０９。\\x%l勾配距離;#00ffc040;坡度距離%l;#;是１４９.２３。\\x%lレール種別;#00ffc040;鐵軌類型%l;#;是３０公斤不變」",
+  "old_vn": "「\\x%l勾配千分率;#00ffc040;Độ dốc phần nghìn%l;#; 1.6. \\x%l施工基面高;#00ffc040;Cao độ mặt nền đường sắt%l;#; 123.09.\\n\\x%l勾配距離;#00ffc040;Chiều dài đoạn dốc%l;#; là 149.23. \\x%lレール種別;#00ffc040;Loại đường sắt%l;#; vẫn là 30 ký.」",
+  "fix": "「\\x%l勾配千分率;#00ffc040;Độ dốc phần nghìn%l;#; 1.6. \\x%l施工基面高;#00ffc040;Cao độ mặt nền đường sắt%l;#; 123.09. \\x%l勾配距離;#00ffc040;Chiều dài đoạn dốc%l;#; là 149.23. \\x%lレール種別;#00ffc040;Loại ray%l;#; vẫn là 30 ký.」",
+  "why": "JP レール種別, TW 鐵軌類型 = loại ray (thanh ray 30 ký/m). \"Loại đường sắt\" là loại hình đường sắt — sai nghĩa."
+ },
+ {
+  "key": "1568",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「……お前は、物で、道具なのだな」",
+  "tw": "「……你真的是物品，為人所用的工具啊」",
+  "old_vn": "「……Cô quả thực là một đồ vật, một công cụ nhỉ.」",
+  "fix": "「……Em quả thực là một đồ vật, một công cụ nhỉ.」",
+  "why": "Soutetsu nói với Hachiroku (JP お前). \"Cô\"→\"em\"."
+ },
+ {
+  "key": "1874",
+  "character": "ハチロク",
+  "kind": "gasp",
+  "jp": "「ダメです！　完全に幹で塞がれていま――っ！！？」",
+  "tw": "「不行！完全被樹幹堵住了！！？」",
+  "old_vn": "「Không xong rồi! Bị thân cây chắn ngang hoàn toàn rồi——!!?」",
+  "fix": "「Không xong rồi! Bị thân cây chắn ngang hoàn toàn rồi——Ư!!?」",
+  "why": "Sweep っ-gasp: JP 「…塞がれていま――っ！！？」. Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "1878",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「しかし、運転[ボディ]体のセンサーというのは大した物だな。\\n器具なしで勾配を測定できるとは」",
+  "tw": "「不過，沒想到駕駛體的感測器這麼厲害，沒有工具也能測量坡度」",
+  "old_vn": "「Nhưng mà, cảm biến của cơ thể lái tuyệt thật đấy.\\nKhông cần dụng cụ mà vẫn đo được độ dốc cơ mà.」",
+  "fix": "「Nhưng mà, cảm biến của thân vận hành tuyệt thật đấy. Không cần dụng cụ mà vẫn đo được độ dốc cơ mà.」",
+  "why": "JP 運転[ボディ]体 = 運転ボディ. Quyết định: 運転ボディ = \"thân vận hành\" (không phải \"cơ thể lái\")."
+ },
+ {
+  "key": "1892",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「しかしハチロク、僕は僕以外の何者でもない。\\nお前の代わりに、お前の答えを考えてはやれんぞ？」",
+  "tw": "「但是八六，我只是我自己而已。我是沒有辦法替你找到你自己的答案的哦？」",
+  "old_vn": "「Nhưng Hachiroku này, tôi không phải ai khác ngoài chính tôi.\\nTôi không thể suy nghĩ thay cô để tìm ra câu trả lời cho cô được đâu?」",
+  "fix": "「Nhưng Hachiroku này, tôi không phải ai khác ngoài chính tôi. Tôi không thể suy nghĩ thay em để tìm ra câu trả lời cho em được đâu?」",
+  "why": "Soutetsu nói với Hachiroku (JP お前 ×2). \"Cô\"→\"em\" ×2."
+ },
+ {
+  "key": "1904",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「ショックではなかったのか？」",
+  "tw": "「你沒有覺得受到打擊嗎？」",
+  "old_vn": "「Cô không thấy sốc sao?」",
+  "fix": "「Em không thấy sốc sao?」",
+  "why": "1903 Soutetsu gọi thẳng tên Fukami (しっかりしろ、ふかみ). Dòng này vẫn nói với Fukami → \"em\"."
+ },
+ {
+  "key": "1906",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「お前がコントロール出来ない部分がおそらく、\\n勝手に考えてしまうがゆえの、“考えすぎ”だ」",
+  "tw": "「你無法控制的部分恐怕就是因為你不自覺地東想西想引起的，所以說“想太多”」",
+  "old_vn": "「Những phần mà cô không thể kiểm soát có lẽ là,\\ndo cô tự ý suy nghĩ, nên mới thành ra \"suy nghĩ quá nhiều\".」",
+  "fix": "「Những phần mà em không thể kiểm soát có lẽ là, do em tự ý suy nghĩ, nên mới thành ra \"suy nghĩ quá nhiều\".」",
+  "why": "Tiếp mạch 1903–1904, vẫn nói với Fukami về chứng \"suy nghĩ quá nhiều\" của cô ấy. \"Cô\"→\"em\" ×2."
+ },
+ {
+  "key": "1925",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「なぁ、ハチロク。お前がいっていたとおりだな」",
+  "tw": "「八六。正如你所說的那樣」",
+  "old_vn": "「Này, Hachiroku. Đúng như những gì cô đã nói nhỉ.」",
+  "fix": "「Này, Hachiroku. Đúng như những gì em đã nói nhỉ.」",
+  "why": "Soutetsu nói với Hachiroku (JP なぁ、ハチロク。お前). \"Cô\"→\"em\"."
+ },
+ {
+  "key": "1927",
+  "character": "双鉄",
+  "kind": "gasp",
+  "jp": "「ハチロクから先に――っ！」\\n「双鉄様からお先に――っ！」",
+  "tw": "「八六先說！」\\n「雙鐵少爺先說！」",
+  "old_vn": "「Hachiroku nói trước đi——!」\\n「Ngài Soutetsu nói trước đi ạ——!」",
+  "fix": "「Hachiroku nói trước đi——Ư!」\\n「Ngài Soutetsu nói trước đi ạ——Ư!」",
+  "why": "Sweep っ-gasp: JP hai vế đều kết thúc ――っ！. Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "2023",
+  "character": "凪",
+  "kind": "sfx",
+  "jp": "「ひあっ！？　ひあああっ！？　エラいことばいっ！！」",
+  "tw": "「呀！？哎呀呀！？大事不好咧！！」",
+  "old_vn": "「Hya!? Hyaaa!? Chuyện lớn rồi!!」",
+  "fix": "「Hia!? Hiaaa!? Chuyện lớn rồi!!」",
+  "why": "JP ひあっ/ひあああっ — không phải ひゃ. Tiền lệ lr_h1 1005: ひあっ → \"Hia\"."
+ },
+ {
+  "key": "2028",
+  "character": "双鉄",
+  "kind": "gasp",
+  "jp": "「ふ～～っ」",
+  "tw": "「呼～～」",
+  "old_vn": "「Phù~~」",
+  "fix": "「Phù~~Ư」",
+  "why": "Sweep っ-gasp: JP 「ふ～～っ」. Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "2033",
+  "character": "ふかみ",
+  "kind": "sfx",
+  "jp": "「は……ふぁ……やっぱり、ふたりって、そういう～」",
+  "tw": "「哈……呼……果然，他們兩位是這種～」",
+  "old_vn": "「Hả…… hả…… quả nhiên, hai người, là mối quan hệ như thế~」",
+  "fix": "「Hả…… phà…… quả nhiên, hai người, là mối quan hệ như thế~」",
+  "why": "JP は……ふぁ…… — tiếng thở thứ hai là ふぁ. Quy tắc fa/fu: ふぁ → \"phà\"."
+ },
+ {
+  "key": "2038",
+  "character": "ふかみ",
+  "kind": "sfx",
+  "jp": "「ふぇぇぇええっ！？　だいじょうぶっ！　\\n大丈夫っ！　です」",
+  "tw": "「哎哎哎！？沒事！沒事的！嗯」",
+  "old_vn": "「Êêêêê!? Không sao đâu! \\nKhông sao đâu! Ạ.」",
+  "fix": "「Phuêêêêê!? Không sao đâu! Không sao đâu! Ạ.」",
+  "why": "JP ふぇぇぇええっ (5 ký tự kéo dài sau ふぇ). Quy tắc fa/fu: ふぇ → \"phuê\"; giữ 5 ê kéo dài. っ cuối là ngắt giọng nhấn mạnh trên SFX đã diễn, không phải gasp riêng — sweep không gắn cờ dòng này."
+ },
+ {
+  "key": "2052",
+  "character": "双鉄",
+  "kind": "sfx",
+  "jp": "「ふうむ」",
+  "tw": "「唔」",
+  "old_vn": "「Hừm.」",
+  "fix": "「Hừừm.」",
+  "why": "JP ふうむ (1 う). Công thức độ dài nguyên âm: số nguyên âm VN = 1 + số う/ぅ = 2 → \"Hừừm.\"."
+ },
+ {
+  "key": "2076",
+  "character": "凪",
+  "kind": "terminology",
+  "jp": "「あ、じいちゃん？　あのね、今ね、御一夜の駅でね」",
+  "tw": "「喂，爺爺？你聽咱說咧，咱現在在御一夜站」",
+  "old_vn": "「A, ông ạ? Chuyện là, bây giờ cháu đang ở ga Ohimitera.」",
+  "fix": "「A, ông ạ? Chuyện là, bây giờ cháu đang ở ga Ohitoyo.」",
+  "why": "JP 御一夜. Quyết định: 御一夜 = \"Ohitoyo\" (không phải \"Ohimitera\")."
+ },
+ {
+  "key": "2119",
+  "character": "ハチロク",
+  "kind": "terminology",
+  "jp": "「川沿いが基本となっているためか、\\n本当になだらかな路線ですね、湯医線は」",
+  "tw": "「大概是因為基本上都沿河而建吧，湯醫線真的是一段很平穩的線路」",
+  "old_vn": "「Có lẽ vì cơ bản là chạy dọc theo con sông,\\nnên tuyến Yui quả thực là một tuyến đường rất thoai thoải nhỉ.」",
+  "fix": "「Có lẽ vì cơ bản là chạy dọc theo con sông, nên tuyến Yunoi quả thực là một tuyến đường rất thoai thoải nhỉ.」",
+  "why": "JP 湯医線. Quyết định: 湯医/湯医線 = \"Yunoi\"."
+ },
+ {
+  "key": "2126",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「よかろう。ならばハチロク――\\nまず手始めから頼めるか？」",
+  "tw": "「好吧。那八六——一能拜託你先講講基本方式嗎？」",
+  "old_vn": "「Được thôi. Vậy thì Hachiroku——\\nCô có thể giúp hướng dẫn từ bước đầu tiên được không?」",
+  "fix": "「Được thôi. Vậy thì Hachiroku—— Em có thể giúp hướng dẫn từ bước đầu tiên được không?」",
+  "why": "Soutetsu nói với Hachiroku (JP ならばハチロク). \"Cô\"→\"em\"."
+ },
+ {
+  "key": "2151",
+  "character": "凪",
+  "kind": "pronoun",
+  "jp": "「ふかみちゃん……ダメばい、\\n汗と黒いの、うつっちゃうばい」",
+  "tw": "「小深……別碰咱，會沾上汗和黑粉的咧……」",
+  "old_vn": "「Fukami…… không được đâu,\\nmồ hôi với thứ đen đen này, dính sang cậu mất.」",
+  "fix": "「Chị Fukami…… không được đâu, mồ hôi với thứ đen đen này, dính sang chị mất.」",
+  "why": "Nagi nói với Fukami (JP ふかみちゃん). Quy tắc file 10: Nagi gọi Fukami là \"chị\" (Fukami lớn tuổi hơn, gọi Nagi là \"bé Nagi\"). \"Fukami… cậu\"→\"Chị Fukami… chị\"."
+ },
+ {
+  "key": "2153",
+  "character": "凪",
+  "kind": "pronoun",
+  "jp": "「ふかみちゃん、背中流してあげるばいっ！」",
+  "tw": "「小深，咱來給你沖背後咧！」",
+  "old_vn": "「Fukami, để tớ kỳ lưng cho nhé!」",
+  "fix": "「Chị Fukami, để em kỳ lưng cho nhé!」",
+  "why": "Nagi nói với Fukami (JP ふかみちゃん). \"Fukami, để tớ\"→\"Chị Fukami, để em\"."
+ },
+ {
+  "key": "2156",
+  "character": "凪",
+  "kind": "pronoun",
+  "jp": "「ふかみちゃん、顔真っ赤ばい！　のぼせたと？」",
+  "tw": "「小深，臉好紅！泡暈咧？」",
+  "old_vn": "「Fukami, mặt cậu đỏ bừng kìa! Bị ngâm nóng quá rồi hả?」",
+  "fix": "「Chị Fukami, mặt chị đỏ bừng kìa! Bị ngâm nóng quá rồi hả?」",
+  "why": "Nagi nói với Fukami (JP ふかみちゃん). \"Fukami, mặt cậu\"→\"Chị Fukami, mặt chị\"."
+ },
+ {
+  "key": "2215",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「了解した！　お前はれいなを起こし続けろっ！」",
+  "tw": "「我知道了！你繼續試著叫醒玲奈！」",
+  "old_vn": "「Rõ rồi! Cô hãy tiếp tục đánh thức Reina đi!」",
+  "fix": "「Rõ rồi! Em hãy tiếp tục đánh thức Reina đi!」",
+  "why": "Soutetsu nói với Hachiroku (JP お前はれいなを起こし続けろ). \"Cô\"→\"em\"."
+ },
+ {
+  "key": "2218",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「もう少し、近くで見ていいか？」",
+  "tw": "「我能湊近些看嗎？」",
+  "old_vn": "「Anh đến gần xem một chút được không?」",
+  "fix": "「Tôi đến gần xem một chút được không?」",
+  "why": "Soutetsu nói với Hachiroku (cảnh 考えすぎ; các dòng quanh đó đều là Hachiroku; 2219 cùng mạch dùng \"tôi\"). Tự xưng đúng là \"tôi\", không phải \"anh\"."
+ },
+ {
+  "key": "2267",
+  "character": "ハチロク",
+  "kind": "terminology",
+  "jp": "「そうですね、ここから御一夜に戻る線路は\\n\\x%lキハ07;#00ffc040;キハ07%l;#;の中でも確認させていただきましたが――」",
+  "tw": "「是啊，雖說從這裡回御一夜的線路上次在\\x%lキハ07;#00ffc040;Ｋｉｈａ０７%l;#;裡已經確認過了——」",
+  "old_vn": "「Vâng ạ, tuyến đường từ đây trở về Ohimitera\\nem cũng đã xác nhận lúc ở trong \\x%lキハ07;#00ffc040;KiHa 07%l;#; rồi, nhưng mà——」",
+  "fix": "「Vâng ạ, tuyến đường từ đây trở về Ohitoyo em cũng đã xác nhận lúc ở trong \\x%lキハ07;#00ffc040;KiHa 07%l;#; rồi, nhưng mà——」",
+  "why": "JP 御一夜. Quyết định: 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "2271",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「パワーがある、ということか？　\\n細かな部分までは気にせず踏破できるだけの」",
+  "tw": "「是因為有足夠的動力嗎？可以做到無視輕微的坡度變化」",
+  "old_vn": "「Ý cô là sức mạnh sao? \\nĐủ sức vượt qua mà không cần bận tâm đến những chi tiết nhỏ nhặt ấy.」",
+  "fix": "「Ý em là sức mạnh sao? Đủ sức vượt qua mà không cần bận tâm đến những chi tiết nhỏ nhặt ấy.」",
+  "why": "Soutetsu nói với Hachiroku (tiếp mạch 2267–2270, Hachiroku giải thích về động cơ). \"Cô\"→\"em\"."
+ },
+ {
+  "key": "2329",
+  "character": "ハチロク",
+  "kind": "pronoun",
+  "jp": "「さっきよりは遥かに良くなっています。\\n１００点満点中、２２点は差し上げられます」",
+  "tw": "「比剛才好很多了。百分制打２２分吧」",
+  "old_vn": "「Đã tốt hơn lúc nãy rất nhiều rồi ạ.\\nTrên thang điểm 100, em có thể cho cô 22 điểm.」",
+  "fix": "「Đã tốt hơn lúc nãy rất nhiều rồi ạ. Trên thang điểm 100, em có thể cho ngài 22 điểm.」",
+  "why": "Hachiroku chấm điểm cho Soutetsu (2390: \"Đạt yêu cầu rồi ạ, ngài Soutetsu\"). Cô ấy gọi Soutetsu là \"ngài\", không phải \"cô\". \"cho cô 22 điểm\"→\"cho ngài 22 điểm\"."
+ },
+ {
+  "key": "2333",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「望むところだ。\\n厳しい指導は、よりよい成長に繋がろうから」",
+  "tw": "「求之不得。嚴厲的指導才能讓人成長嘛」",
+  "old_vn": "「Anh đang mong thế đây.\\nSự chỉ bảo nghiêm khắc sẽ dẫn đến sự trưởng thành tốt hơn mà.」",
+  "fix": "「Tôi đang mong thế đây. Sự chỉ bảo nghiêm khắc sẽ dẫn đến sự trưởng thành tốt hơn mà.」",
+  "why": "Soutetsu đáp lại Hachiroku (2260: cô ấy dọa sẽ \"nghiêm khắc la mắng ngài Soutetsu\"). Tự xưng đúng là \"tôi\", không phải \"anh\"."
+ },
+ {
+  "key": "2335",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「そうだ。知性や……理性すら本当は制御しがたいものだ。\\n僕にとっても――恐らくは、ハチロク、お前にとっても」",
+  "tw": "「沒錯。智慧……還有理性，真的很難控制。我也是——八六，恐怕你也是」",
+  "old_vn": "「Đúng vậy. Trí tuệ hay…… ngay cả lý trí thực chất cũng rất khó kiểm soát.\\nĐối với tôi——và có lẽ, đối với cả cô nữa, Hachiroku.」",
+  "fix": "「Đúng vậy. Trí tuệ hay…… ngay cả lý trí thực chất cũng rất khó kiểm soát. Đối với tôi——và có lẽ, đối với cả em nữa, Hachiroku.」",
+  "why": "Soutetsu nói với Hachiroku (JP ハチロク、お前にとっても). \"Cô\"→\"em\"."
+ },
+ {
+  "key": "2349",
+  "character": "ふかみ",
+  "kind": "meaning",
+  "jp": "「のぼせた……う～～っ、かなり、\\nのぼせて、アテられたかも～」",
+  "tw": "「泡暈……嗚～～大概是泡太久了～」",
+  "old_vn": "「Ngâm nóng quá…… ư~~, chắc là,\\nbị ngâm nóng quá nên say sóng luôn rồi~」",
+  "fix": "「Ngâm nóng quá…… ư~~, chắc là, bị ngâm nóng quá nên choáng váng luôn rồi~」",
+  "why": "JP のぼせてアテられた = choáng váng vì ngâm nước nóng quá lâu; TW 泡暈 xác nhận. \"Say sóng\" (seasickness) là sai nghĩa hoàn toàn."
+ },
+ {
+  "key": "2380",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「もちろん、僕も付き合おう」",
+  "tw": "「當然，我會陪你的」",
+  "old_vn": "「Tất nhiên rồi, tôi sẽ đi cùng cô.」",
+  "fix": "「Tất nhiên rồi, tôi sẽ đi cùng em.」",
+  "why": "Soutetsu nói với Hachiroku (JP 僕も付き合おう — đi cùng cô ấy). \"Cô\"→\"em\"."
+ },
+ {
+  "key": "2432",
+  "character": "ふかみ",
+  "kind": "sfx",
+  "jp": "「は……ふぇ？」",
+  "tw": "「蛤啊……嗯？」",
+  "old_vn": "「Hả…… hả?」",
+  "fix": "「Hả…… phuê?」",
+  "why": "JP は……ふぇ？. Quy tắc fa/fu: ふぇ → \"phuê\" (ưa chuộng)."
+ },
+ {
+  "key": "2436",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「なければいいな、湯医まで」",
+  "tw": "「要是到湯醫為止都沒有陡坡就好了」",
+  "old_vn": "「Đến Yui mà không có thì tốt nhỉ.」",
+  "fix": "「Đến Yunoi mà không có thì tốt nhỉ.」",
+  "why": "JP 湯医まで. Quyết định: 湯医 = \"Yunoi\"."
+ },
+ {
+  "key": "2481",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「そうか、ここから湯医まで。\\nなんだかんだで、未だ乗ってはいなかったのだな」",
+  "tw": "「這樣啊，陰差陽錯，我們還沒坐過從這裡到湯醫的部分」",
+  "old_vn": "「Ra là vậy, từ đây đến Yui.\\nTính ra thì, chúng ta vẫn chưa đi chuyến nào nhỉ.」",
+  "fix": "「Ra là vậy, từ đây đến Yunoi. Tính ra thì, chúng ta vẫn chưa đi chuyến nào nhỉ.」",
+  "why": "JP ここから湯医まで. Quyết định: 湯医 = \"Yunoi\"."
+ },
+ {
+  "key": "2498",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「ならば、ハチロク。頼めるか」",
+  "tw": "「那就拜託你了，八六」",
+  "old_vn": "「Nếu vậy thì, Hachiroku. Nhờ cô được không.」",
+  "fix": "「Nếu vậy thì, Hachiroku. Nhờ em được không.」",
+  "why": "Soutetsu nói với Hachiroku (JP ならば、ハチロク。頼めるか). \"Cô\"→\"em\"."
+ },
+ {
+  "key": "2512",
+  "character": "ハチロク",
+  "kind": "pronoun",
+  "jp": "「１００キロ\\x%l投炭;#00ffc040;投炭%l;#;とはいえ、連続で３セットですからね。\\n……わたくし、最後は\\x%l機関助士;#00ffc040;機関助士%l;#;候補と見ておりました」",
+  "tw": "「雖然只是一百公斤的\\x%l投炭;#00ffc040;加煤%l;#;練習，但一口氣做了三組呢。……我希望能讓她當候補\\x%l機関助士;#00ffc040;司爐%l;#;」",
+  "old_vn": "「Tuy chỉ là \\x%l投炭;#00ffc040;xúc than%l;#; 100 ký, nhưng lại làm liên tục 3 set cơ mà.\\n……Đến cuối cùng, em đã xem cô ấy như một ứng cử viên cho vị trí \\x%l機関助士;#00ffc040;phụ lái tàu%l;#; rồi đấy ạ.」",
+  "fix": "「Tuy chỉ là \\x%l投炭;#00ffc040;xúc than%l;#; 100 ký, nhưng lại làm liên tục 3 set cơ mà. ……Đến cuối cùng, em đã xem em ấy như một ứng cử viên cho vị trí \\x%l機関助士;#00ffc040;phụ lái tàu%l;#; rồi đấy ạ.」",
+  "why": "Hachiroku nói về Hibiki — ứng cử viên 機関助士 (1987 đã xác lập Hibiki là ứng viên). Hachiroku lớn tuổi hơn, gọi Hibiki là \"em\" (Hibiki gọi cô ấy là \"chị\"). \"cô ấy\"→\"em ấy\"."
+ },
+ {
+  "key": "2514",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「ああ、頼む――と言いたいところではあるが、\\n今日のところは僕より凪にしてやってくれ」",
+  "tw": "「雖然我也很想拜託你——不過今天你就去幫凪按摩吧」",
+  "old_vn": "「À, nhờ cô——tôi rất muốn nói vậy,\\nnhưng hôm nay cô hãy làm cho Nagi thay vì tôi đi.」",
+  "fix": "「À, nhờ em——tôi rất muốn nói vậy, nhưng hôm nay em hãy làm cho Nagi thay vì tôi đi.」",
+  "why": "Soutetsu nhờ Hachiroku mát-xa cho Nagi thay mình (TW: \"你就去幫凪按摩吧\"). \"Cô\"→\"em\" ×2."
+ },
+ {
+  "key": "2533",
+  "character": "双鉄",
+  "kind": "gasp",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "fix": "「Ư!」",
+  "why": "Sweep っ-gasp: JP 「っ！」 — gasp cả dòng. Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "2534",
+  "character": "双鉄",
+  "kind": "gasp",
+  "jp": "「っ！！」",
+  "tw": "「！！」",
+  "old_vn": "「!!」",
+  "fix": "「Ư!!」",
+  "why": "Sweep っ-gasp: JP 「っ！！」 — gasp cả dòng. Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "2535",
+  "character": "双鉄",
+  "kind": "gasp",
+  "jp": "「っ！！！！！」",
+  "tw": "「！！！！！」",
+  "old_vn": "「!!!!!」",
+  "fix": "「Ư!!!!!」",
+  "why": "Sweep っ-gasp: JP 「っ！！！！！」 — gasp cả dòng. Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "2538",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「1.6の123.09。ここまでの\\x%l勾配距離;#00ffc040;勾配距離%l;#;が149.23で、\\n\\x%lレール種別;#00ffc040;レール種別%l;#;は変化なし――と」",
+  "tw": "「１．６、１２３．０９。到這裡的\\x%l勾配距離;#00ffc040;坡度距離%l;#;是１４９.２３，\\x%lレール種別;#00ffc040;鐵軌類型%l;#;不變——好了」",
+  "old_vn": "「1.6 và 123.09. \\x%l勾配距離;#00ffc040;Chiều dài đoạn dốc%l;#; đến đây là 149.23,\\n\\x%lレール種別;#00ffc040;loại đường sắt%l;#; không đổi——xong.」",
+  "fix": "「1.6 và 123.09. \\x%l勾配距離;#00ffc040;Chiều dài đoạn dốc%l;#; đến đây là 149.23, \\x%lレール種別;#00ffc040;loại ray%l;#; không đổi——xong.」",
+  "why": "JP レール種別, TW 鐵軌類型 = loại ray. \"Loại đường sắt\" sai nghĩa (như 1550)."
+ },
+ {
+  "key": "2707",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司にいただいたご助言に従って、\\n今日にでも、登呂流湯に行っておくべきだろう。",
+  "tw": "今天應該按照赤井宮司的建議，讓她去登呂流浴場做檢查吧。",
+  "old_vn": "Theo lời khuyên của thầy Akai,\\ncó lẽ ngay trong hôm nay, tôi nên đến nhà tắm Tororyu-yu.",
+  "fix": "Theo lời khuyên của Đền chủ Akai, có lẽ ngay trong hôm nay, tôi nên đến nhà tắm Tororyu-yu.",
+  "why": "JP 赤井宮司. Quyết định 19/11: 宮司 = \"đền chủ\" — tiền lệ file 11: 赤井宮司 → \"đền chủ Akai\" ở cả 38 dòng. \"Thầy Akai\" là biến thể thứ ba, chuẩn hóa theo quyết định."
+ },
+ {
+  "key": "2810",
+  "character": "monologue",
+  "kind": "gasp",
+  "jp": "鼓動を呼吸を乱せばその分、速度が落ちる。\\n事故の危険を増させてしま――っ！！？",
+  "tw": "劇烈的心跳會攪亂呼吸，讓我的速度慢下來。這樣也就增加了事故的風險——！！？",
+  "old_vn": "Nếu để nhịp tim và nhịp thở rối loạn, tốc độ sẽ giảm đi tương ứng.\\nSẽ làm tăng nguy cơ xảy ra tai nạn mất——!!?",
+  "fix": "Nếu để nhịp tim và nhịp thở rối loạn, tốc độ sẽ giảm đi tương ứng. Sẽ làm tăng nguy cơ xảy ra tai nạn mất——Ư!!?",
+  "why": "Sweep っ-gasp: JP …しま――っ！！？. Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "2941",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司に言われたことを思い出す。\\n未来など、人にも物にも、誰にとっても手探りなのだと。",
+  "tw": "我想起了赤井宮司曾經對我說過的話。人也好，物也好，未來就是在黑暗中摸索。",
+  "old_vn": "Tôi nhớ lại những lời thầy Akai đã nói.\\nTương lai, dù là con người hay đồ vật, dù là ai đi nữa cũng đều phải tự mình mò mẫm.",
+  "fix": "Tôi nhớ lại những lời Đền chủ Akai đã nói. Tương lai, dù là con người hay đồ vật, dù là ai đi nữa cũng đều phải tự mình mò mẫm.",
+  "why": "JP 赤井宮司. Như 2707: \"thầy Akai\"→\"Đền chủ Akai\" theo quyết định 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2948",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "線路にそっと\\x%l運転体;#00ffc040;運転体%l;#;のハチロクを下ろしてやれば、\\n小さな顔の右頬がぴたり、レールにくっつけられる。",
+  "tw": "我把八六的\\x%l運転体;#00ffc040;駕駛體%l;#;放了下來，只見她小小的右臉緊緊貼在鐵軌上。",
+  "old_vn": "Tôi nhẹ nhàng đặt cơ thể lái của Hachiroku xuống đường ray,\\nmá phải trên khuôn mặt nhỏ nhắn của cô ấy áp sát vào thanh ray.",
+  "fix": "Tôi nhẹ nhàng đặt \\x%l運転体;#00ffc040;thân vận hành%l;#; của Hachiroku xuống đường ray, má phải trên khuôn mặt nhỏ nhắn của cô ấy áp sát vào thanh ray.",
+  "why": "JP có thẻ %l 運転体; bản Việt không chỉ dịch sai thuật ngữ (\"cơ thể lái\" thay vì \"thân vận hành\") mà còn LÀM RỚT cả thẻ (JP 1 thẻ, VN 0 thẻ — đây chính là lệch đếm %l 57 vs 56 của file). Fix khôi phục thẻ với gloss \"thân vận hành\"."
+ },
+ {
+  "key": "3237",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "レールショップでクマ川下りの、\\n発船所では御一夜鉄道一日乗車の割引券をそれぞれ配る。",
+  "tw": "鐵路商店會發放隈河漂流的優惠券，而漂流發船點則會發放御一夜鐵路一日遊的優惠券。",
+  "old_vn": "Ở cửa hàng đường sắt thì phát vé giảm giá xuôi dòng sông Kuma,\\ncòn ở bến thuyền thì phát vé giảm giá đi tàu đường sắt Ohimitera một ngày.",
+  "fix": "Ở cửa hàng đường sắt thì phát vé giảm giá xuôi dòng sông Kuma, còn ở bến thuyền thì phát vé giảm giá đi tàu đường sắt Ohitoyo một ngày.",
+  "why": "JP 御一夜鉄道. Quyết định: 御一夜 = \"Ohitoyo\"."
+ }
+]

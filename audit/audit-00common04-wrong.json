@@ -1,0 +1,192 @@
+[
+  {
+    "key": "1791",
+    "character": "monologue",
+    "jp": "……ハチロクが簡潔に説明してくれる。\\n\\x%lバラスト;#00ffc040;バラスト%l;#;とはすなわち線路と\\x%l枕木;#00ffc040;枕木%l;#;とを支える敷石だと。",
+    "tw": "……八六作了簡要的說明。\\x%lバラスト;#00ffc040;道砟%l;#;即墊在線路下，用作承托鐵軌和\\x%l枕木;#00ffc040;枕木%l;#;的碎石。",
+    "old_vn": "……Hachiroku giải thích ngắn gọn cho tôi. \\x%lバラスト;#00ffc040;Đá ba-lát%l;#; chính là lớp đá dăm lót dưới để nâng đỡ đường ray và \\x%l枕木;#00ffc040;tàu vẹt%l;#;.",
+    "fix": "……Hachiroku giải thích ngắn gọn cho tôi. \\x%lバラスト;#00ffc040;Đá ba-lát%l;#; chính là lớp đá dăm lót dưới để nâng đỡ đường ray và \\x%l枕木;#00ffc040;tà vẹt%l;#;.",
+    "kind": "terminology",
+    "reason": "Gloss 枕木 viết sai chính tả 'tàu vẹt' — từ đúng là 'tà vẹt' (xem 2098 dùng 'tà vẹt đường ray')."
+  },
+  {
+    "key": "2098",
+    "character": "ハチロク",
+    "jp": "「だめだめだめだめやめてやめてやめてやめて！\\n\\x%l踏面;#00ffc040;踏面%l;#;削れて\\x%l枕木;#00ffc040;枕木%l;#;傷み\\x%lバラスト;#00ffc040;バラスト%l;#;くだけてしまいます！」",
+    "tw": "「不行不行不行不行別別別別！會削掉\\x%l踏面;#00ffc040;踏面%l;#;的，會傷到\\x%l枕木;#00ffc040;枕木%l;#;的，會碾碎\\x%lバラスト;#00ffc040;道砟%l;#;的！」",
+    "old_vn": "「Không được không được không được không được, dừng lại dừng lại dừng lại đi! Sẽ làm mòn \\x%l踏面;#00ffc040;mặt lăn bánh xe%l;#;, hỏng \\x%l枕木;#00ffc040;tà vẹt đường ray%l;#; và nghiền nát \\x%lバラスト;#00ffc040;đá ba-lát%l;#; mất!」",
+    "fix": "「Không được không được không được không được, dừng lại dừng lại dừng lại dừng lại đi! Sẽ làm mòn \\x%l踏面;#00ffc040;mặt lăn bánh xe%l;#;, hỏng \\x%l枕木;#00ffc040;tà vẹt đường ray%l;#; và nghiền nát \\x%lバラスト;#00ffc040;đá ba-lát%l;#; mất!」",
+    "kind": "minor",
+    "reason": "JP やめて×4, bản cũ chỉ dịch 3 lần 'dừng lại' — thêm lần thứ 4 cho đủ (quy tắc không để mất âm/lặp)."
+  },
+  {
+    "key": "2138",
+    "character": "双鉄",
+    "jp": "「お前も凛としているぞ、ハチロク。\\nこれなら失礼には当たるまい――む」",
+    "tw": "「你也很有精神，八六。絕不會失禮——嗯？」",
+    "old_vn": "「Cô cũng rất rạng rỡ đấy, Hachiroku. Theo này thì chắc chắn không thất lễ đâu——hửm.」",
+    "fix": "「Em cũng rất rạng rỡ đấy, Hachiroku. Thế này thì chắc chắn không thất lễ đâu——hửm.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu gọi Hachiroku là 'Cô' — sai quy ước (Soutetsu→Hachiroku là 'em', 65 dòng ở file 03, 0 lần 'cô'). 'Theo này thì' → 'Thế này thì' cho đúng JP これなら."
+  },
+  {
+    "key": "2154",
+    "character": "双鉄",
+    "jp": "「ハチロク。時計とぜんまいカギを」",
+    "tw": "「八六，給我時鐘和發條鑰匙」",
+    "old_vn": "「Hachiroku. Đồng hồ và chìa khóa lên dây cót đâu.」",
+    "fix": "「Hachiroku. Đưa tôi đồng hồ và chìa khóa lên dây cót.」",
+    "kind": "meaning",
+    "reason": "JP cụt (時計とぜんまいカギを, không động từ); TW '給我時鐘和發條鑰匙' (đưa tôi) + mạch truyện (2157 gọi Hachiroku lại gần) → yêu cầu đưa đồ, không phải câu hỏi 'đâu'."
+  },
+  {
+    "key": "2177",
+    "character": "双鉄",
+    "jp": "「なるほど。おかげで納得できた。\\n会いたいものだな。その\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;と、\\x%l運転士;#00ffc040;運転士%l;#;とに」",
+    "tw": "「原來如此。你這麼一講我明白了。真想見一見那位\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;和\\x%l運転士;#00ffc040;駕駛員%l;#;」",
+    "old_vn": "「Ra là vậy. Nhờ cô giải thích mà tôi hiểu rồi. Thật muốn gặp mặt quá. Cả \\x%lレイルロオド;#00ffc040;Railord%l;#; và \\x%l運転士;#00ffc040;người lái tàu%l;#; đó.」",
+    "fix": "「Ra là vậy. Nhờ em giải thích mà tôi hiểu rồi. Thật muốn gặp mặt quá. Cả \\x%lレイルロオド;#00ffc040;Railord%l;#; và \\x%l運転士;#00ffc040;người lái tàu%l;#; đó.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu gọi người giải thích là 'cô' — dù người đó là Reina, Paulette hay Hachiroku thì Soutetsu đều xưng 'em' với cả ba; 'cô' sai quy ước."
+  },
+  {
+    "key": "2254",
+    "character": "ハチロク",
+    "jp": "「ですので、わたくしたち\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;は、\\n運行管理[ボディ]体と\\x%l整備体;#00ffc040;整備体%l;#;の二種の体を使い分けるのです」",
+    "tw": "「因此，我們\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;會切換使用駕駛體和\\x%l整備体;#00ffc040;整備體%l;#;」",
+    "old_vn": "「Vì vậy, \\x%lレイルロオド;#00ffc040;Railord%l;#; chúng tôi, sử dụng hai loại cơ thể là \\x%l運転体;#00ffc040;kíp lái%l;#; và \\x%l整備体;#00ffc040;thân chính%l;#; tùy theo mục đích ạ.」",
+    "fix": "「Vì vậy, \\x%lレイルロオド;#00ffc040;Railord%l;#; chúng tôi, sử dụng hai loại cơ thể là thân vận hành và \\x%l整備体;#00ffc040;thân bảo trì%l;#; tùy theo mục đích ạ.」",
+    "kind": "terminology",
+    "reason": "JP là 運行管理[ボディ]体 (không có tag %l) + 整備体; bản cũ bịa tag 運転体 gloss 'kíp lái' (sai nghĩa) và dịch 整備体 thành 'thân chính' — quyết định #11: 整備体='thân bảo trì'; gỡ tag bịa, giữ tag 整備体 của JP."
+  },
+  {
+    "key": "2262",
+    "character": "ハチロク",
+    "jp": "「わたくしの現役最後の時代……\\n旧\\x%l帝鉄;#00ffc040;帝鉄%l;#;では、それが守られなくなっていたからです」",
+    "tw": "「在我一線生涯的最後那段時間……在那個年代，前\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;已經開始有人不遵守了」",
+    "old_vn": "「Trong thời kỳ cuối cùng em còn hoạt động ở tiền tuyến…… Tại \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ, điều đó đã không còn được tuân thủ nữa ạ.」",
+    "fix": "「Trong thời kỳ cuối cùng em còn hoạt động ở tiền tuyến…… Tại \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũ, điều đó đã không còn được tuân thủ nữa ạ.」",
+    "kind": "terminology",
+    "reason": "帝鉄 → 'Teitetsu' theo quyết định #6 (bỏ 'Đường sắt Hoàng gia')."
+  },
+  {
+    "key": "2329",
+    "character": "れいな",
+    "jp": "「あえてうれしいです、ハチロクさん」",
+    "tw": "「很高興見到你，八六小姐」",
+    "old_vn": "「Được gặp chị Reina vui lắm nha, chị Hachiroku~」",
+    "fix": "「Được gặp chị, Reina vui lắm nha, chị Hachiroku~」",
+    "kind": "minor",
+    "reason": "Thiếu dấu phẩy khiến 'Được gặp chị Reina' đọc như gặp chính Reina; thêm phẩy theo đúng mạch (Reina nói kiểu ngôi thứ ba, xem 2284)."
+  },
+  {
+    "key": "2388",
+    "character": "双鉄",
+    "jp": "「整備ボディ？」",
+    "tw": "「整備體？」",
+    "old_vn": "「Thân chính?」",
+    "fix": "「Thân bảo trì?」",
+    "kind": "terminology",
+    "reason": "整備ボディ → 'thân bảo trì' theo quyết định #11; 'thân chính' sai."
+  },
+  {
+    "key": "2393",
+    "character": "れいな",
+    "jp": "「はぁい。れいな。\\nじじょおは、れいなから聞いちゃだめって覚えましたぁ」",
+    "tw": "「明白了。不可以去打聽別人的隱情，玲奈記住啦」",
+    "old_vn": "「Vâng ạ~. Reina, Reina nhớ là không được hỏi về ẩn tình của người khác rồi nha~」",
+    "fix": "「Vâng ạ~. Reina nhớ rồi, không được hỏi Reina về ẩn tình đâu nha~」",
+    "kind": "meaning",
+    "reason": "JP: じじょおは、れいなから聞いちゃだめ — 'không được hỏi Reina về ẩn tình'; bản cũ 'ẩn tình của người khác' theo TW (TW khái quát hoá), JP thắng TW."
+  },
+  {
+    "key": "2404",
+    "character": "双鉄",
+    "jp": "「ほう？　なぜわかる」",
+    "tw": "「是嗎？你怎麼知道的」",
+    "old_vn": "「Hô? Sao cô biết?」",
+    "fix": "「Hô? Sao em biết?」",
+    "kind": "pronoun",
+    "reason": "Soutetsu hỏi Hachiroku (người vừa giải thích) — 'cô' sai quy ước, phải 'em'."
+  },
+  {
+    "key": "2534",
+    "character": "ポーレット",
+    "jp": "「非常停止よし。要救助者を確認」",
+    "tw": "「緊急停車正常完成。確認救助對象」",
+    "old_vn": "「Dừng khẩn cấp thành công. Đã xác nhận người cần cứu hộ.」",
+    "fix": "「Dừng khẩn cấp, xác nhận! Xác nhận người cần cứu hộ.」",
+    "kind": "meaning",
+    "reason": "非常停止よし là lời hô xác nhận trong nghi thức 喚呼, không phải báo cáo 'thành công'; 要救助者を確認 là mệnh lệnh hô, không phải quá khứ 'đã xác nhận'."
+  },
+  {
+    "key": "2558",
+    "character": "ハチロク",
+    "jp": "「わたくしが整備[ボディ]体なら、\\n\\x%lバラスト;#00ffc040;バラスト%l;#;敷きのお手伝いくらいは出来るのですが――」",
+    "tw": "「要是用的是整備體的話，我就能幫忙鋪設\\x%lバラスト;#00ffc040;道砟%l;#;了」",
+    "old_vn": "「Nếu tôi là \\x%l整備体;#00ffc040;thân chính%l;#;, thì ít nhất cũng có thể giúp rải \\x%lバラスト;#00ffc040;đá ba-lát%l;#;——」",
+    "fix": "「Nếu tôi là thân bảo trì, thì ít nhất cũng có thể giúp rải \\x%lバラスト;#00ffc040;đá ba-lát%l;#;——」",
+    "kind": "terminology",
+    "reason": "JP 整備[ボディ]体 không có tag %l (chỉ có ruby [ボディ]); bản cũ bịa tag gloss 'thân chính' — gỡ tag, dịch 'thân bảo trì' theo quyết định #11."
+  },
+  {
+    "key": "2591",
+    "character": "双鉄",
+    "jp": "「トウメン？」",
+    "tw": "「踏面？」",
+    "old_vn": "「Mặt lăn bánh xe?」",
+    "fix": "「Toumen?」",
+    "kind": "meaning",
+    "reason": "JP トウメン？ là Soutetsu lặp lại cách đọc vừa nghe ở 2586 ('đọc là toumen'); bản cũ 'Mặt lăn bánh xe?' làm mất mạch lặp lại cách đọc."
+  },
+  {
+    "key": "2624",
+    "character": "双鉄",
+    "jp": "「ならば、何故そのように表情が冴えぬのだ？」",
+    "tw": "「那你為什麼還看起來不太高興？」",
+    "old_vn": "「Vậy thì, tại sao trông sắc mặt cô lại ủ rũ thế kia?」",
+    "fix": "「Vậy thì, tại sao trông sắc mặt em lại ủ rũ thế kia?」",
+    "kind": "pronoun",
+    "reason": "Soutetsu hỏi Reina (2625 Reina trả lời ngay sau) — 'cô' sai quy ước, Reina là 'em' (Hachiroku cũng gọi Reina là 'em', 2167)."
+  },
+  {
+    "key": "2658",
+    "character": "双鉄",
+    "jp": "「雛衣ポーレット……というと、御一夜市長？」",
+    "tw": "「雛衣波萊特……莫非是御一夜市長？」",
+    "old_vn": "「Hinai Paulette…… là Thị trưởng thành phố Ohimitera sao?」",
+    "fix": "「Hinai Paulette…… là Thị trưởng thành phố Ohitoyo sao?」",
+    "kind": "terminology",
+    "reason": "御一夜 → 'Ohitoyo', không phải 'Ohimitera'."
+  },
+  {
+    "key": "2676",
+    "character": "ハチロク",
+    "jp": "「っ！」",
+    "tw": "「！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」",
+    "kind": "gasp",
+    "reason": "JP っ！ cả dòng là rên, bản cũ chỉ còn '!' — thêm Ư (sweep lost-gasp-whole, đã xác nhận)."
+  },
+  {
+    "key": "2677",
+    "character": "双鉄",
+    "jp": "「っ！」\\n「あ」",
+    "tw": "「！」\\n「啊」",
+    "old_vn": "「!」\\n「A」",
+    "fix": "「Ư!」\\n「A」",
+    "kind": "gasp",
+    "reason": "JP っ！ ở đầu dòng bị mất rên, bản cũ chỉ còn '!' — thêm Ư (sweep lost-gasp-whole, đã xác nhận)."
+  },
+  {
+    "key": "2966",
+    "character": "monologue",
+    "jp": "ガタン、ゴトン、\\nガタン、ゴトン――",
+    "tw": "哐璫哐璫哐璫哐璫——",
+    "old_vn": "（Cọc cạch, cọc cạch, cọc cạch, cọc cạch——）",
+    "fix": "Cọc cạch, cọc cạch, cọc cạch, cọc cạch——",
+    "kind": "minor",
+    "reason": "JP ガタン、ゴトン、ガタン、ゴトン―― không có ngoặc; bản cũ tự thêm （） — gỡ ngoặc cho đúng định dạng gốc."
+  }
+]

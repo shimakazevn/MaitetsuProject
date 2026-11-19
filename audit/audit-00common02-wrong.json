@@ -1,0 +1,332 @@
+[
+ {
+  "key": 1560,
+  "character": "日々姫",
+  "jp": "「\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;っ！？」",
+  "tw": "「\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;！？」",
+  "old_vn": "「\\x%lレイルロオド;#00ffc040;Railord%l;#;!?」",
+  "fix": "「\\x%lレイルロオド;#00ffc040;Railord%l;#;Ư!?」",
+  "kind": "gasp",
+  "reason": "JP レイルロオドっ！？ — tiếng gasp っ sau tên Railord bị mất; sweep không bắt được (sweep-missed). Thêm Ư ngay sau thẻ Railord."
+ },
+ {
+  "key": 1872,
+  "character": "双鉄",
+  "jp": "「一生。それはたまらんな。\\nならば聞くまい。自分で、おいおい考えてみよう」",
+  "tw": "「一輩子啊，這可真是受不了。那我也不問了，自己慢慢琢磨吧」",
+  "old_vn": "「Cả đời cơ à. Thế thì chịu không nổi đâu. Vậy em không hỏi nữa. Em sẽ tự mình từ từ suy nghĩ vậy.」",
+  "fix": "「Cả đời cơ à. Thế thì chịu không nổi đâu. Vậy anh không hỏi nữa. Anh sẽ tự mình từ từ suy nghĩ vậy.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Hibiki (em gái) — sai; docs §2.1: \"Anh\" khi nói với Hibiki. Hibiki đáp lại ở 1876, Mayami vắng mặt trong đoạn này."
+ },
+ {
+  "key": 1880,
+  "character": "双鉄",
+  "jp": "「おっと、転ぶぞ？　動きには気をつけろ」",
+  "tw": "「不好，別摔倒了？要當心一點哦」",
+  "old_vn": "「Ái chà, ngã bây giờ? Cẩn thận cử động chứ.」",
+  "fix": "「Ái chà, sắp ngã đấy? Cẩn thận cử động chứ.」",
+  "kind": "meaning",
+  "reason": "転ぶぞ = \"sắp ngã đấy\" (cảnh báo), không phải \"ngã bây giờ?\" (hỏi)."
+ },
+ {
+  "key": 1976,
+  "character": "双鉄",
+  "jp": "「なに、実際に簡単だ。\\n僕の\\x%lエアクラ;#00ffc040;エアクラ%l;#;は優秀だからな」",
+  "tw": "「別擔心，的確很簡單。我的\\x%lエアクラ;#00ffc040;空凝機%l;#;可是很優秀的」",
+  "old_vn": "「Có gì đâu, thực sự rất đơn giản mà. \\x%lエアクラ;#00ffc040;Aircra%l;#; của anh xuất sắc lắm đấy.」",
+  "fix": "「Có gì đâu, thực sự rất đơn giản mà. \\x%lエアクラ;#00ffc040;Aircra%l;#; của tôi xuất sắc lắm đấy.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" nhưng người nghe là Mayami/Hachiroku (Hibiki không xuất hiện trong đoạn 1967–1981) — chỉ được \"anh\" với Hibiki (docs §2.1)."
+ },
+ {
+  "key": 2009,
+  "character": "日々姫",
+  "jp": "「じゃけん、そん\\x%lエアクラ;#00ffc040;エアクラ%l;#;が」\\n「\\x%lエアクラ;#00ffc040;エアクラ%l;#;っ！！？」",
+  "tw": "「可是，\\x%lエアクラ;#00ffc040;空凝機%l;#;是不能——」\\n「\\x%lエアクラ;#00ffc040;空凝機%l;#;！！？」",
+  "old_vn": "「Thì thế, cái \\x%lエアクラ;#00ffc040;Aircra%l;#; đó...」\\n「\\x%lエアクラ;#00ffc040;Aircra%l;#;!!?」",
+  "fix": "「Thì thế, cái \\x%lエアクラ;#00ffc040;Aircra%l;#; đó...」\\n「\\x%lエアクラ;#00ffc040;Aircra%l;#;Ư!!?」",
+  "kind": "gasp",
+  "reason": "JP エアクラっ！！？ — gasp っ bị mất; sweep không bắt được (sweep-missed). Cùng JP với 2194 (sweep đã sửa) nhưng VN ở đây ngắn, đặt Ư ngay sau Aircra thứ hai."
+ },
+ {
+  "key": 2016,
+  "character": "日々姫",
+  "jp": "「ぴゃああああああっ！！！」",
+  "tw": "「呀呀呀呀呀呀！！！」",
+  "old_vn": "「Pyaaaaaa!!!」",
+  "fix": "「Pyaaaaaaa!!!」",
+  "kind": "sfx",
+  "reason": "JP ぴゃああああああっ = ぴゃ + 7 âm a; VN \"Pyaaaaaa\" chỉ có 6 âm a — thiếu 1 (quy tắc độ dài SFX)."
+ },
+ {
+  "key": 2017,
+  "character": "日々姫",
+  "jp": "「きゃあああっ！？」",
+  "tw": "「呀呀呀呀呀！？」",
+  "old_vn": "「Kyaaaaa!?」",
+  "fix": "「Kyaaaa!?」",
+  "kind": "sfx",
+  "reason": "JP きゃあああっ = きゃ + 3 âm a = 4 âm a; VN \"Kyaaaaa\" có 5 âm a — thừa 1."
+ },
+ {
+  "key": 2018,
+  "character": "日々姫",
+  "jp": "「ひゃうっ！？　ひゃ、あっ――平気！　平気ったい！\\nあ！　その、無事です、怪我はありません」",
+  "tw": "「呀！唔，我沒事！沒事啦！啊！那個，我沒事，也沒有受傷」",
+  "old_vn": "「Hya!? Hya, á——Không sao! Em không sao! A! À ừm, em không sao, không bị thương gì cả.」",
+  "fix": "「Hyau!? Hya, á——Không sao! Em không sao! A! À ừm, em không sao, không bị thương gì cả.」",
+  "kind": "sfx",
+  "reason": "JP ひゃうっ — âm う bị mất (\"Hya\" chỉ giữ ひゃ); quy tắc \"không để mất âm\"."
+ },
+ {
+  "key": 2035,
+  "character": "真闇",
+  "jp": "「おやまぁ、これは随分と」",
+  "tw": "「哎呀，這可真是……」",
+  "old_vn": "「Ây da, em khách sáo quá.」",
+  "fix": "「Ây da, cái này thì đúng là——」",
+  "kind": "meaning",
+  "reason": "JP これは随分と là câu cụt (không có vị ngữ); VN \"em khách sáo quá\" là bịa thêm phần hoàn thiện — vi phạm quy tắc không bịa phần kết cho câu cụt trong JP."
+ },
+ {
+  "key": 2064,
+  "character": "双鉄",
+  "jp": "「うん。大学は休学してきた」",
+  "tw": "「嗯。大學那邊我休學了」",
+  "old_vn": "「Vâng. Em đã bảo lưu ở đại học rồi.」",
+  "fix": "「Vâng. Anh đã bảo lưu ở đại học rồi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" — sai; người nghe là Hibiki (Mayami rời đi ở 2059, Hibiki là người đối thoại trong đoạn). Với Hibiki là \"anh\"."
+ },
+ {
+  "key": 2076,
+  "character": "日々姫",
+  "jp": "「“姉さん”も、\\n兄さんと同じことを言っていましたから」",
+  "tw": "「因為“姐姐”也和哥哥說過同樣的話」",
+  "old_vn": "「Vì \"chị gái\" cũng, nói y hệt như anh trai vậy.」",
+  "fix": "「Vì \"chị gái\" cũng nói y hệt như anh trai vậy.」",
+  "kind": "minor",
+  "reason": "Dấu phẩy kiểu máy dịch: \"cũng, nói\" — bỏ dấu phẩy thừa."
+ },
+ {
+  "key": 2135,
+  "character": "ハチロク",
+  "jp": "「[おひとよ,2]御一夜……右田」",
+  "tw": "「御一夜……右田」",
+  "old_vn": "「Ohimitera……Migita.」",
+  "fix": "「Ohitoyo……Migita.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11), không phải \"Ohimitera\"."
+ },
+ {
+  "key": 2162,
+  "character": "双鉄",
+  "jp": "「そうならよかったのだが、僕は」",
+  "tw": "「我也希望是這樣，但我——」",
+  "old_vn": "「Nếu được vậy thì tốt quá, nhưng tôi thì...」",
+  "fix": "「Nếu được vậy thì tốt quá, nhưng anh thì...」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"tôi\" khi nói với Hibiki — không nhất quán với \"anh\" ở 2160 ngay trước đó, cùng cuộc đối thoại; docs §2.1: \"Anh\" với Hibiki."
+ },
+ {
+  "key": 2163,
+  "character": "双鉄",
+  "jp": "「僕も相続人のはしくれではある。が、一番の相続人。\\n右田家の現当主ということであれば、真闇姉だ」",
+  "tw": "「我也是繼承人之一。但要說第一順位的繼承人的話，應該是右田家的現任當家，真闇姐」",
+  "old_vn": "「Tôi cũng là một trong những người thừa kế. Nhưng người thừa kế số một, đương kim gia chủ nhà Migita hiện tại, là chị Mayami.」",
+  "fix": "「Anh cũng là một trong những người thừa kế. Nhưng người thừa kế số một, đương kim gia chủ nhà Migita hiện tại, là chị Mayami.」",
+  "kind": "pronoun",
+  "reason": "Như 2162: \"tôi\" khi nói với Hibiki → \"anh\" (tiếp nối 2160–2162)."
+ },
+ {
+  "key": 2167,
+  "character": "双鉄",
+  "jp": "「ただいま、真闇姉。ただいま、日々姫」",
+  "tw": "「我回來了，真闇姐。我回來了，日日姬」",
+  "old_vn": "「Em về rồi đây, chị Mayami. Anh về rồi đây, Hibiki.」",
+  "fix": "「Tôi về rồi đây, chị Mayami. Anh về rồi đây, Hibiki.」",
+  "kind": "pronoun",
+  "reason": "Câu hỗn hợp hai người nghe: với Mayami phải là \"tôi\" (quyết định 19/11: Soutetsu→Mayami \"tôi\", không ngoại lệ); nửa sau với Hibiki giữ \"anh\"."
+ },
+ {
+  "key": 2182,
+  "character": "ハチロク",
+  "jp": "「わたくしは\\x%l帝鉄;#00ffc040;帝鉄%l;#;[ハチロクニイマル,3]8620形\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;、トップナンバー・\\n\\x%l8620;#00ffc040;8620%l;#;号専用レイルロオド、ハチロクと申します」",
+  "tw": "「我是\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;８６２０型\\x%l蒸気機関車;#00ffc040;蒸汽機車%l;#;首車·\\x%l8620;#00ffc040;８６２０%l;#;專用鐵路人偶——八六」",
+  "old_vn": "「Tôi là Hachiroku, Railord chuyên dụng cho chiếc đầu tiên mang số hiệu \\x%l8620;#00ffc040;8620%l;#; thuộc dòng \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; loại 8620 của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;.」",
+  "fix": "「Tôi là Hachiroku, Railord chuyên dụng cho chiếc đầu tiên mang số hiệu \\x%l8620;#00ffc040;8620%l;#; thuộc dòng \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; loại 8620 của \\x%l帝鉄;#00ffc040;Teitetsu%l;#;.」",
+  "kind": "terminology",
+  "reason": "帝鉄 = \"Teitetsu\" (quyết định 19/11 #6 — bỏ \"Đường sắt Hoàng gia\"); chỉ sửa gloss trong thẻ %l."
+ },
+ {
+  "key": 2201,
+  "character": "日々姫",
+  "jp": "「わ、わたしは右田日々姫。\\n[おひとよ,2]御一夜の学園の学園生です」",
+  "tw": "「我，我是右田日日姬。是御一夜學校的學生」",
+  "old_vn": "「T, tôi là Migita Hibiki. Là học sinh của học viện Ohimitera.」",
+  "fix": "「T, tôi là Migita Hibiki. Là học sinh của học viện Ohitoyo.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\", không phải \"Ohimitera\"."
+ },
+ {
+  "key": 2209,
+  "character": "双鉄",
+  "jp": "「僕の部屋など物置でも押入れでも構わない。\\nああ、酒の倉庫は……できれば、勘弁して欲しいが」",
+  "tw": "「把我安排在倉庫或是隔間都沒有問題。啊，但還是儘量……不要是放酒的倉庫」",
+  "old_vn": "「Phòng của em thì nhà kho hay tủ âm tường cũng được. A, nhưng kho rượu thì……nếu được, xin tha cho em.」",
+  "fix": "「Phòng của anh thì nhà kho hay tủ âm tường cũng được. A, nhưng kho rượu thì……nếu được, xin tha cho anh.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Hibiki (×2) — sai; với Hibiki là \"anh\"."
+ },
+ {
+  "key": 2323,
+  "character": "日々姫",
+  "jp": "「なか……んっ、無いと思います、兄さん。\\nですが、ひょっとすると[じゅつせんどう,2]術仙洞に」",
+  "tw": "「沒……嗯，應該是沒有，哥哥。但是，說不定在術仙洞有」",
+  "old_vn": "「Khôn……ưm, em nghĩ là không có đâu, anh trai. Nhưng mà, biết đâu ở Jussendo lại có.」",
+  "fix": "「Khôn……ưm, em nghĩ là không có đâu, anh trai. Nhưng mà, biết đâu ở Jutsu-sendo lại có.」",
+  "kind": "terminology",
+  "reason": "術仙 = \"Jutsu-sen\" (quyết định ở Grand 04: \"Jussen\" bỏ mất chữ \"t\" là sai); 術仙洞 → \"Jutsu-sendo\"."
+ },
+ {
+  "key": 2324,
+  "character": "双鉄",
+  "jp": "「いや。　一人でも夜……\\n明日の朝までにはなんとか出来るようには思う」",
+  "tw": "「沒事。一個人的話到晚……明天早上的話應該可以整理完」",
+  "old_vn": "「Không. Một mình em thì đến đêm…… chắc đến sáng mai là có thể xoay xở xong.」",
+  "fix": "「Không. Một mình anh thì đến đêm…… chắc đến sáng mai là có thể xoay xở xong.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Hibiki (Hibiki vừa nói ở 2323) — sai; với Hibiki là \"anh\"."
+ },
+ {
+  "key": 2413,
+  "character": "日々姫",
+  "jp": "「御一夜の衰退を考えれば、当然の結論だというだけです。\\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;の工場誘致は、安定的な発展をもたらします」",
+  "tw": "「考慮到御一夜的衰退，這是必然的結論罷了。引進\\x%lエアクラ;#00ffc040;空凝機%l;#;工廠落戶，就能帶來穩定的發展」",
+  "old_vn": "「Nếu nghĩ đến sự suy thoái của Ohimitera, thì đó chỉ là kết luận tất nhiên thôi. Việc mời nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; về sẽ mang lại sự phát triển ổn định.」",
+  "fix": "「Nếu nghĩ đến sự suy thoái của Ohitoyo, thì đó chỉ là kết luận tất nhiên thôi. Việc mời nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; về sẽ mang lại sự phát triển ổn định.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\", không phải \"Ohimitera\"."
+ },
+ {
+  "key": 2418,
+  "character": "双鉄",
+  "jp": "「汰斗さんの部屋なら光栄だ。\\nよければ、案内して欲しい」",
+  "tw": "「能住汰斗老爺的房間我倍感榮幸。可以的話，麻煩帶我過去吧」",
+  "old_vn": "「Được ở phòng ông Taito thì vinh hạnh quá. Nếu được, mong chị dẫn đường cho em.」",
+  "fix": "「Được ở phòng ông Taito thì vinh hạnh quá. Nếu được, mong chị dẫn đường cho tôi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami (\"chị\" = Mayami) — sai; Soutetsu→Mayami là \"tôi\" (quyết định 19/11, không ngoại lệ)."
+ },
+ {
+  "key": 2433,
+  "character": "双鉄",
+  "jp": "「飲まされはしたが、一向に。\\nどうも[きゅうしゅう,1]九洲男児とは、体質からして異なるようだ」",
+  "tw": "「被人勸著喝過，但一點也沒變強。感覺九州男子在體質上與別處的人有很大差異」",
+  "old_vn": "「Cũng bị ép uống, nhưng chẳng khá khẩm gì. Có vẻ thể chất của em khác hẳn với đàn ông Kyushu rồi.」",
+  "fix": "「Cũng bị ép uống, nhưng chẳng khá khẩm gì. Có vẻ thể chất của tôi khác hẳn với đàn ông Kyushu rồi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami (chủ đề uống rượu với Mayami, xem 2368) — sai; Soutetsu→Mayami là \"tôi\"."
+ },
+ {
+  "key": 2443,
+  "character": "ハチロク",
+  "jp": "「左様ですね。ご助言、ありがとうございます。\\n――すみませんが、後ろを向いていていただけますか？」",
+  "tw": "「說得是。非常感謝您的提醒。不好意思，能麻煩您轉過身去嗎？」",
+  "old_vn": "「Đúng vậy nhỉ. Cảm ơn cô đã nhắc nhở. ——Xin lỗi, ngài có thể quay lưng lại được không ạ?」",
+  "fix": "「Đúng vậy nhỉ. Cảm ơn ngài đã nhắc nhở. ——Xin lỗi, ngài có thể quay lưng lại được không ạ?」",
+  "kind": "pronoun",
+  "reason": "Hachiroku gọi người nghe là \"cô\" nhưng cùng câu sau đã dùng \"ngài\" (\"ngài có thể quay lưng lại được không ạ?\") — người nghe là Soutetsu (nam), \"cô\" sai; thống nhất \"ngài\"."
+ },
+ {
+  "key": 2495,
+  "character": "双鉄",
+  "jp": "「御一夜に\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場を誘致するという話。\\n今、どの程度のものになってる？」",
+  "tw": "「邀請\\x%lエアクラ;#00ffc040;空凝機%l;#;工廠在御一夜落戶的事情，進展到哪裡了？」",
+  "old_vn": "「Chuyện mời nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; về Ohimitera. Bây giờ tiến triển đến đâu rồi chị?」",
+  "fix": "「Chuyện mời nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; về Ohitoyo. Bây giờ tiến triển đến đâu rồi chị?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\", không phải \"Ohimitera\"."
+ },
+ {
+  "key": 2563,
+  "character": "双鉄",
+  "jp": "「それは――そうかと思います。\\n[とう,1]義父さんは、帝都でも僕によくしてくださいまして」",
+  "tw": "「都是託父親的福。父親在帝都也很照顧我」",
+  "old_vn": "「Chuyện đó——chắc là vậy ạ. Cha nuôi ở Đế đô cũng đối xử rất tốt với em.」",
+  "fix": "「Chuyện đó——chắc là vậy ạ. Cha nuôi ở Đế đô cũng đối xử rất tốt với tôi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Hachiroku/Mayami (đoạn đối thoại với Hachiroku, xem 2564) — sai; với cả hai đều là \"tôi\"."
+ },
+ {
+  "key": 2693,
+  "character": "monologue",
+  "jp": "さすがは、右田家の現当主――\\n“クマの右田の女杜氏”だ。",
+  "tw": "不愧是右田家的現任當家，“隈右田女掌窖”。",
+  "old_vn": "Không hổ danh là đương kim gia chủ nhà Migita—— \"\\x%l杜氏;#00ffc040;Nữ trưởng hầm rượu%l;#; nhà Migita xứ Kuma\".",
+  "fix": "Không hổ danh là đương kim gia chủ nhà Migita—— \"Nữ trưởng hầm rượu nhà Migita xứ Kuma\".",
+  "kind": "tag",
+  "reason": "VN tự thêm thẻ gloss %l cho 杜氏 (JP và TW đều không có thẻ); theo tiền lệ 機関士 (Hachiroku 12) và reina02 — gỡ thẻ, giữ chữ."
+ },
+ {
+  "key": 2695,
+  "character": "monologue",
+  "jp": "ねぇねぇではなく、あえて姉さん。\\n姉妹喧嘩、と。その四文字が頭に浮かぶ。",
+  "tw": "不是阿姐，而是姐姐嗎。我的腦子浮現出了“姐妹吵架”四個字。",
+  "old_vn": "Không gọi là chị hai, mà cố tình gọi là chị gái. Hai chữ \"chị em cãi nhau\" hiện lên trong đầu tôi.",
+  "fix": "Không gọi là chị hai, mà cố tình gọi là chị gái. Bốn chữ \"chị em cãi nhau\" hiện lên trong đầu tôi.",
+  "kind": "meaning",
+  "reason": "その四文字 = \"bốn chữ\" (姉妹喧嘩 có 4 chữ Hán); VN ghi \"Hai chữ\" — sai số lượng."
+ },
+ {
+  "key": 2848,
+  "character": "monologue",
+  "jp": "その見事さに威圧感さえ感じれば――\\n右田家に、戻ってきたと実感できる。",
+  "tw": "如此整潔，甚至讓人有一絲壓力，我不由得深感到自己確實回到了右田家。",
+  "old_vn": "Sự lộng lẫy đến mức tạo ra cảm giác áp đảo ấy―― Giúp tôi cảm nhận được một cách chân thực rằng mình đã trở về nhà Migita.",
+  "fix": "Sự lộng lẫy đến mức tạo ra cảm giác áp đảo ấy―― Giúp tôi cảm nhận được một cách chân thực rằng tôi đã trở về nhà Migita.",
+  "kind": "pronoun",
+  "reason": "Độc thoại Soutetsu xưng \"mình\" ở mệnh đề chính — không phải độc thoại tự vấn cảm xúc nội tâm nên ngoại lệ \"mình\" không áp dụng; chuẩn là \"tôi\" (đối chiếu 3008 \"Mình nghe nhầm sao?\" là tự vấn, được giữ)."
+ },
+ {
+  "key": 3009,
+  "character": "monologue",
+  "jp": "そう、御一夜に、この家にもらわれて来て、初めて知った。\\n水が、氷が、これほどうまいということを。",
+  "tw": "是的，自從被領養到御一夜的這個家後，我才意識到原來水和冰也能如此美味。",
+  "old_vn": "Đúng vậy, kể từ khi được nhận nuôi ở ngôi nhà này tại Ohimitera, tôi mới biết. Rằng nước, rằng đá lại có thể ngon đến thế này.",
+  "fix": "Đúng vậy, kể từ khi được nhận nuôi ở ngôi nhà này tại Ohitoyo, tôi mới biết. Rằng nước, rằng đá lại có thể ngon đến thế này.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\", không phải \"Ohimitera\"."
+ },
+ {
+  "key": 3184,
+  "character": "monologue",
+  "jp": "あれは――果たしてどこでだったか――\\nおや？",
+  "tw": "那到底是在什麼地方來著？",
+  "old_vn": "Đó là——rốt cuộc là ở đâu nhỉ—— Ô? ",
+  "fix": "Đó là——rốt cuộc là ở đâu nhỉ—— Ô?",
+  "kind": "minor",
+  "reason": "Khoảng trắng thừa cuối câu (\"Ô? \") — cắt bỏ."
+ },
+ {
+  "key": 3243,
+  "character": "monologue",
+  "jp": "（ぽんっ）",
+  "tw": "（啪）",
+  "old_vn": "（Bốp!）",
+  "fix": "（Bốp）",
+  "kind": "minor",
+  "reason": "JP （ぽんっ） không có dấu \"!\"; VN tự thêm \"!\" — phân biệt với （パンっ！） ở 3242. Bỏ \"!\"."
+ },
+ {
+  "key": 3247,
+  "character": "monologue",
+  "jp": "（ガシャンっ！！！！！！！）",
+  "tw": "（嘩啦！！！！！！）",
+  "old_vn": "（Choang!!!!!!!!）",
+  "fix": "（Choang!!!!!!!）",
+  "kind": "minor",
+  "reason": "JP ガシャンっ có 7 dấu \"！\"; VN \"Choang\" có 8 dấu \"!\" — thừa 1."
+ }
+]

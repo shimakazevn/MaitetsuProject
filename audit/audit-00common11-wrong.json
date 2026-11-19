@@ -1,0 +1,1022 @@
+[
+ {
+  "key": "1777",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "……ハチロクの経験した事故もまた、\\nあるいは帝鉄史に残るほど、苛烈なものであったのだろう。",
+  "tw": "……恐怕八六經歷的是能在帝國鐵路史上留名的慘烈事故吧。",
+  "old_vn": "……Vụ tai nạn mà Hachiroku trải qua,\\ncó lẽ thảm khốc đến mức lưu danh trong lịch sử Đường sắt Hoàng gia.",
+  "fix": "……Vụ tai nạn mà Hachiroku trải qua,\\ncó lẽ thảm khốc đến mức lưu danh trong lịch sử Teitetsu.",
+  "why": "JP 帝鉄史. Quyết định 19/11: 帝鉄 = \"Teitetsu\" (bỏ \"Đường sắt Hoàng gia\")."
+ },
+ {
+  "key": "1797",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「\\x%l本屋;#00ffc040;[ほんおく,1]本屋%l;#;に[きゃっかしゃく,3]客貨車区。二つも専門用語を習った。\\nハチロクを驚かすくらいの役には立とう」",
+  "tw": "「\\x%l本屋;#00ffc040;主棟%l;#;還有客貨車區。我學到了這兩個專業術語。至少可以說出來嚇嚇八六呢」",
+  "old_vn": "「\\x%l本屋;#00ffc040;Tòa nhà chính%l;#; và khu toa khách toa hàng. Tôi đã học được hai thuật ngữ chuyên ngành.\\nChắc cũng đủ để làm Hachiroku ngạc nhiên đấy.」",
+  "fix": "「\\x%l本屋;#00ffc040;Tòa nhà chính%l;#; và khu toa khách toa hàng. Anh đã học được hai thuật ngữ chuyên ngành.\\nChắc cũng đủ để làm Hachiroku ngạc nhiên đấy.」",
+  "why": "Soutetsu nói với Paulette (cảnh đi dạo đêm, chỉ có hai người; Paulette gọi Soutetsu là \"anh Soutetsu\" per khóa B4). Tự xưng đúng là \"anh\", không phải \"tôi\"."
+ },
+ {
+  "key": "1811",
+  "character": "ハチロク",
+  "kind": "gasp",
+  "jp": "「…………っ」",
+  "tw": "「…………」",
+  "old_vn": "「…………っ」",
+  "fix": "「…………Ư」",
+  "why": "Sweep っ-gasp: JP 「…………っ」. Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "1828",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「……なるほどな。\\nでは、勤務地も御一夜ではなかった？」",
+  "tw": "「……原來如此。那麼，他的工作地點也不在御一夜？」",
+  "old_vn": "「……Ra là vậy.\\nVậy, nơi làm việc cũng không phải ở Ohimitera?」",
+  "fix": "「……Ra là vậy.\\nVậy, nơi làm việc cũng không phải ở Ohitoyo?」",
+  "why": "JP 御一夜. Quyết định: 御一夜 = \"Ohitoyo\" (không phải Ohimitera/Ohito)."
+ },
+ {
+  "key": "1845",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「……ポーレットは、\\nいつから鉄道を好きになったのだ？」",
+  "tw": "「……波萊特，你是從什麼時候開始喜歡鐵路的呢？」",
+  "old_vn": "「……Paulette này,\\ncô bắt đầu thích đường sắt từ khi nào vậy?」",
+  "fix": "「……Paulette này,\\nem bắt đầu thích đường sắt từ khi nào vậy?」",
+  "why": "Soutetsu hỏi Paulette. Quyết định 19/11: Soutetsu gọi Paulette là \"em\" (thống nhất; \"cô\" 49 dòng còn lại chờ pass thống nhất)."
+ },
+ {
+  "key": "2238",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「面白そうだな。手伝えることがあったら言ってくれ。\\n観光振興の、それも一助となるかもしれん」",
+  "tw": "「不是挺有趣的嗎。要是有什麼我能幫上忙的就儘管說。這或許也能為復興旅遊業提供一份助力」",
+  "old_vn": "「Có vẻ thú vị đấy. Nếu có gì cần giúp thì cứ nói với tôi.\\nCó thể nó cũng sẽ góp phần vào việc chấn hưng du lịch đấy.」",
+  "fix": "「Có vẻ thú vị đấy. Nếu có gì cần giúp thì cứ nói với anh.\\nCó thể nó cũng sẽ góp phần vào việc chấn hưng du lịch đấy.」",
+  "why": "Soutetsu nói với Paulette (kế hoạch cho mèo trưởng ga của Paulette; Paulette đáp 2459 \"lúc đó sẽ nhờ anh nhé\"). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2239",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「構わん。というか、急ぎなら」",
+  "tw": "「不用在意。你既然有急事——」",
+  "old_vn": "「Không sao. Nếu cô đang vội thì――」",
+  "fix": "「Không sao. Nếu em đang vội thì――」",
+  "why": "Soutetsu nói với Paulette (đáp lại 2435 Paulette vội đến gặp anh). \"cô\" → \"em\"."
+ },
+ {
+  "key": "2250",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「いや、動けるのならば、今これ以上の話は無い。\\n腰を痛めでもしているのではないかと心配したのだが」",
+  "tw": "「不，你要是能自己站起來，我就沒什麼要說的了。我還以為你扭到腰了呢」",
+  "old_vn": "「Không, nếu cô cử động được thì bây giờ không còn chuyện gì để nói nữa.\\nTôi đã lo lắng không biết có phải cô bị đau lưng không.」",
+  "fix": "「Không, nếu em cử động được thì bây giờ không còn chuyện gì để nói nữa.\\nAnh đã lo lắng không biết có phải em bị đau lưng không.」",
+  "why": "Soutetsu nói với Paulette (hỏi về lưng cô ấy; Paulette đáp 2749). \"cô\" → \"em\" (2 chỗ), \"tôi\" → \"anh\"."
+ },
+ {
+  "key": "2253",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「いや、今の話だけでも十分参考になった。\\nありがとう」",
+  "tw": "「不，剛才的話十分有參考價值。謝謝你」",
+  "old_vn": "「Không, chỉ những chuyện vừa rồi cũng đủ để tham khảo rồi.\\nCảm ơn cô.」",
+  "fix": "「Không, chỉ những chuyện vừa rồi cũng đủ để tham khảo rồi.\\nCảm ơn em.」",
+  "why": "Soutetsu cảm ơn Paulette (báo cáo buổi sáng ở cửa hàng đường sắt). \"cô\" → \"em\"."
+ },
+ {
+  "key": "2293",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「の、つもりらしかったがな。\\n赤井宮司は、切り崩されずになんとか追い返したらしい」",
+  "tw": "「似乎她是有這個打算。不過好像赤井先生總算沒有被她說動，把她趕了回去」",
+  "old_vn": "「Có vẻ là định như vậy.\\nNhưng cung tư tế Akai không bị lung lạc mà đã tìm cách đuổi về được.」",
+  "fix": "「Có vẻ là định như vậy.\\nNhưng đền chủ Akai không bị lung lạc mà đã tìm cách đuổi về được.」",
+  "why": "JP 赤井宮司. Quyết định 19/11: 宮司 = \"đền chủ\" (thống nhất; \"cung tư tế\" là dịch cũ)."
+ },
+ {
+  "key": "2299",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「この前聞いた、駅長犬のか？」",
+  "tw": "「你之前說過的，讓它當站長犬那件事？」",
+  "old_vn": "「Vụ chó trưởng ga mà cô nói hôm trước à?」",
+  "fix": "「Vụ chó trưởng ga mà em nói hôm trước à?」",
+  "why": "Soutetsu hỏi Paulette (kế hoạch mèo trưởng ga do Paulette kể). \"cô\" → \"em\"."
+ },
+ {
+  "key": "2302",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「双鉄くんも知ってたんですね。\\nけど、赤井宮司さんは工場勤務じゃなかったそうですよ」",
+  "tw": "「你也知道了啊。不過，赤井宮司當年似乎不是在工廠工作的」",
+  "old_vn": "「Anh Soutetsu cũng biết nhỉ.\\nNhưng nghe nói cung tư tế Akai không làm việc ở nhà máy đâu.」",
+  "fix": "「Anh Soutetsu cũng biết nhỉ.\\nNhưng nghe nói đền chủ Akai không làm việc ở nhà máy đâu.」",
+  "why": "JP 赤井宮司さん. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2308",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「宝生稀咲という娘を知っているか？」",
+  "tw": "「你認識寶生稀咲嗎？」",
+  "old_vn": "「Cô có biết cô gái tên Houshou Kisaki không?」",
+  "fix": "「Em có biết cô gái tên Houshou Kisaki không?」",
+  "why": "Soutetsu hỏi Paulette (báo cáo buổi sáng; Paulette là người biết Kisaki). \"cô\" → \"em\"."
+ },
+ {
+  "key": "2380",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「僕の経営資源を確認しても構わんか？」",
+  "tw": "「可以陪我去看看我的經營資源嗎？」",
+  "old_vn": "「Cô có phiền cùng tôi đi xác nhận tài nguyên kinh doanh của tôi không?」",
+  "fix": "「Em có phiền cùng anh đi xác nhận tài nguyên kinh doanh của anh không?」",
+  "why": "Soutetsu mời Paulette cùng đi (cảnh đi dạo đêm, chỉ hai người). \"cô\" → \"em\", \"tôi\" → \"anh\" (2 chỗ)."
+ },
+ {
+  "key": "2396",
+  "character": "赤井宮司",
+  "kind": "gasp",
+  "jp": "「ふぅ」",
+  "tw": "「呼」",
+  "old_vn": "「Phù」",
+  "fix": "「Phùù」",
+  "why": "Akai thở dài: JP ふぅ. Công thức độ dài nguyên âm (VN = 1 + số う/ぅ trong JP): ふぅ có 1 う → \"Phùù\" (2 u). Bản cũ \"Phù\" thiếu 1 nguyên âm."
+ },
+ {
+  "key": "2401",
+  "character": "赤井宮司",
+  "kind": "terminology",
+  "jp": "「と。自己紹介もせずに昔話を失礼しました。\\n私はこの[やしろ]社の宮司、赤井[きよはる,1]清春です」",
+  "tw": "「哎呀。瞧我還沒自我介紹，就開始回憶往昔了。我是這所神社的宮司，名叫赤井清春」",
+  "old_vn": "「Ái chà. Thật thất lễ khi chưa tự giới thiệu mà đã kể chuyện xưa.\\nTôi là cung tư tế của đền này, Akai Kiyoharu.」",
+  "fix": "「Ái chà. Thật thất lễ khi chưa tự giới thiệu mà đã kể chuyện xưa.\\nTôi là đền chủ của đền này, Akai Kiyoharu.」",
+  "why": "JP 宮司. 宮司 = \"đền chủ\". (Akai tự giới thiệu; \"tôi\" ở đây là Akai, giữ nguyên.)"
+ },
+ {
+  "key": "2404",
+  "character": "真闇",
+  "kind": "tag",
+  "jp": "「あら、双ちゃんにハチロクちゃん。\\n[じょうぞうぐら,2]醸造蔵に来るとは、めずらしかとねぇ」",
+  "tw": "「哎呀，這不是小雙和八六嗎。你們竟然會來酒窖，這可真是少見咧」",
+  "old_vn": "「Ây da, bé Sou và bé Hachiroku.\\nĐến \\x%l醸造蔵;#00ffc040;nhà xưởng ủ rượu%l;#; thế này, hiếm thấy ghê nha.」",
+  "fix": "「Ây da, bé Sou và bé Hachiroku.\\nĐến nhà xưởng ủ rượu thế này, hiếm thấy ghê nha.」",
+  "why": "JP chỉ có ruby [じょうぞうぐら,2] trên 醸造蔵, KHÔNG có thẻ %l (đã kiểm chứng comment # JP trong TOML). Thẻ \\x%l醸造蔵;#00ffc040;...%l;#; là do bản Việt tự thêm — gỡ, giữ chữ thường \"nhà xưởng ủ rượu\". Kiểu bịa của Gemini: thêm tag/gloss JP không có."
+ },
+ {
+  "key": "2419",
+  "character": "双鉄",
+  "kind": "gasp",
+  "jp": "「ふぅむ」",
+  "tw": "「唔」",
+  "old_vn": "「Hừm.」",
+  "fix": "「Hừừm.」",
+  "why": "Soutetsu trầm ngâm: JP ふぅむ. Công thức độ dài nguyên âm: 1 う → \"Hừừm\" (2 ừ). Tiền lệ file 06 key 2074 (ふだむ→\"Hừừm.\"), giữ dấu chấm như bản cũ."
+ },
+ {
+  "key": "2423",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「あ、ああ。そうだな。早く休んだ方がいい」",
+  "tw": "「啊、嗯。是啊。還是早點休息為好」",
+  "old_vn": "「A, à. Đúng vậy nhỉ. Cô nên nghỉ ngơi sớm đi.」",
+  "fix": "「A, à. Đúng vậy nhỉ. Em nên nghỉ ngơi sớm đi.」",
+  "why": "Soutetsu nói với Paulette (cô ấy ho, khản giọng sau buổi họp hội đồng). \"cô\" → \"em\"."
+ },
+ {
+  "key": "2445",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「これを飲むといい」",
+  "tw": "「喝吧」",
+  "old_vn": "「Cô uống cái này đi.」",
+  "fix": "「Em uống cái này đi.」",
+  "why": "Soutetsu đưa đồ uống yuzu mật ong cho Paulette. \"cô\" → \"em\"."
+ },
+ {
+  "key": "2450",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「うむ。そのとおりだ。お願いしたい」",
+  "tw": "「嗯。是的。請告訴我」",
+  "old_vn": "「Ừm. Đúng là vậy. Em muốn nhờ chị.」",
+  "fix": "「Ừm. Đúng là vậy. Tôi muốn nhờ chị.」",
+  "why": "Soutetsu nói với Mayami (chị Mayami). Quyết định #18: Soutetsu với Mayami = \"tôi\" (không có ngoại lệ); \"em\" là thói quen cũ của dịch giả mang từ cảnh Paulette sang. (2450 không phải cảnh Paulette.)"
+ },
+ {
+  "key": "2466",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「僕は携帯を持たんからな」",
+  "tw": "「因為我不帶手機的」",
+  "old_vn": "「Tôi không mang điện thoại mà.」",
+  "fix": "「Anh không mang điện thoại mà.」",
+  "why": "Soutetsu nói với Paulette (cô ấy hỏi sao không nghe máy lúc 7 giờ). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2479",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「女性機関士か？　珍しかったとハチロクに聞いたが」",
+  "tw": "「女性司機？八六說過女性司機很少見呢」",
+  "old_vn": "「Nữ lái tàu sao? Tôi nghe Hachiroku nói là hiếm lắm mà.」",
+  "fix": "「Nữ lái tàu sao? Anh nghe Hachiroku nói là hiếm lắm mà.」",
+  "why": "Soutetsu nói với Paulette (chuyện bà nội Katsuko từng làm lái tàu). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2503",
+  "character": "ハチロク",
+  "kind": "terminology",
+  "jp": "「かしこまりました、赤井宮司」",
+  "tw": "「好的，請讓我稱呼您為赤井宮司」",
+  "old_vn": "「Tôi đã hiểu, cung tư tế Akai.」",
+  "fix": "「Tôi đã hiểu, đền chủ Akai.」",
+  "why": "JP 赤井宮司. Hachiroku xưng hô với Akai. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2522",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「市の職員さんに、宮司さんの叔母さんがいるんですけど。\\nわざわざ帝鉄に勤めに出たのも、おなじ理由らしいです」",
+  "tw": "「宮司的叔母是市內的公務員。但他當年卻刻意選擇就職於帝國鐵路，似乎也是因為這個」",
+  "old_vn": "「Trong số các nhân viên tòa thị chính, có dì của cung tư tế.\\nNghe nói việc ngài ấy cất công đi làm ở Đường sắt Hoàng gia cũng vì lý do tương tự.」",
+  "fix": "「Trong số các nhân viên tòa thị chính, có dì của đền chủ.\\nNghe nói việc ngài ấy cất công đi làm ở Teitetsu cũng vì lý do tương tự.」",
+  "why": "JP 宮司さん + 帝鉄. Hai fix trong một dòng: 宮司 = \"đền chủ\"; 帝鉄 = \"Teitetsu\"."
+ },
+ {
+  "key": "2525",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「8620修復自体を、御一夜全体の経営資源として共有する。\\nその活用で利益を産めると、皆に考えてもらえるように」",
+  "tw": "「將８６２０修復計劃本身作為御一夜整體的經營資源和大家共享。要讓大家認為利用這項資源能夠帶來利益」",
+  "old_vn": "「Chia sẻ bản thân việc phục hồi 8620 như một tài nguyên kinh doanh của toàn bộ Ohimitera.\\nĐể mọi người nghĩ rằng, có thể sinh ra lợi nhuận từ việc tận dụng nó.」",
+  "fix": "「Chia sẻ bản thân việc phục hồi 8620 như một tài nguyên kinh doanh của toàn bộ Ohitoyo.\\nĐể mọi người nghĩ rằng, có thể sinh ra lợi nhuận từ việc tận dụng nó.」",
+  "why": "JP 御一夜. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "2529",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「粉蔵……蓑笠老人の話にも出てきたな。\\n帝鉄の工場があったというところで間違いないか？」",
+  "tw": "「小倉……蓑笠老人也提起過。那裡似乎曾經有帝國鐵路的工廠？」",
+  "old_vn": "「Kokura……Cũng từng được nhắc đến trong câu chuyện của ông lão Minokasa.\\nChắc chắn là nơi từng có nhà máy của Đường sắt Hoàng gia đúng không?」",
+  "fix": "「Kokura……Cũng từng được nhắc đến trong câu chuyện của ông lão Minokasa.\\nChắc chắn là nơi từng có nhà máy của Teitetsu đúng không?」",
+  "why": "JP 帝鉄の工場. 帝鉄 = \"Teitetsu\"."
+ },
+ {
+  "key": "2530",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「粉蔵の機関区にも、[ハチロクニイマル,3]8620形は配備されていた。ゆえ、\\n8620形レイルロオドの姿を赤井宮司は見知っていた」",
+  "tw": "「小倉的機務段也曾配備了８６２０型。所以您才知道８６２０型的鐵路人偶是什麼樣子」",
+  "old_vn": "「Khu đầu máy Kokura cũng được trang bị dòng 8620. Do đó,\\ncung tư tế Akai đã biết đến hình dáng của Railord dòng 8620.」",
+  "fix": "「Khu đầu máy Kokura cũng được trang bị dòng 8620. Do đó,\\nđền chủ Akai đã biết đến hình dáng của Railord dòng 8620.」",
+  "why": "JP 赤井宮司. 宮司 = \"đền chủ\". (\"Railord\" 1 chữ l đã đúng, giữ nguyên.)"
+ },
+ {
+  "key": "2535",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「名付けるなら、そう――\\n『蒸気焼酎・おひとよしのハチロク』でどうだろう」",
+  "tw": "「就取名叫——“蒸汽燒酒·御一夜八六”如何」",
+  "old_vn": "「Nếu đặt tên, thì sao nhỉ――\\n『Shochu Hơi Nước・Hachiroku Ohimitera』 thì thế nào.」",
+  "fix": "「Nếu đặt tên, thì sao nhỉ――\\n『Shochu Hơi Nước・Hachiroku Ohitoyo』 thì thế nào.」",
+  "why": "JP 御一夜 trong tên rượu đề xuất. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "2546",
+  "character": "赤井宮司",
+  "kind": "terminology",
+  "jp": "「最晩年の帝鉄は、経営資源の全てを電化に投資し、\\nしかしリターンを得ることが出来ず、滅んだのです」",
+  "tw": "「帝國鐵路最後孤注一擲將全部經營資源押在電動機車上，然而卻沒能逆轉局勢，最終倒閉了」",
+  "old_vn": "「Đường sắt Hoàng gia những năm cuối đời đã đầu tư toàn bộ nguồn lực kinh doanh vào việc điện khí hóa,\\nnhưng không thu được lợi nhuận, và đã sụp đổ.」",
+  "fix": "「Teitetsu những năm cuối đời đã đầu tư toàn bộ tài nguyên kinh doanh vào việc điện khí hóa,\\nnhưng không thu được lợi nhuận, và đã sụp đổ.」",
+  "why": "JP 帝鉄 + 経営資源. Hai fix: 帝鉄 = \"Teitetsu\"; 経営資源 = \"tài nguyên kinh doanh\" (thuật ngữ chủ đề của file, đa số trong file 3 lần ở 2267/2881/3028; \"nguồn lực kinh doanh\" chỉ 1 lần này)."
+ },
+ {
+  "key": "2572",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「うまくいくだろうな、それは。\\n僕の知る限り、日々姫は動物にたいそう好かれる」",
+  "tw": "「應該沒什麼問題吧。據我所知，日日姬很受動物歡迎」",
+  "old_vn": "「Chắc sẽ suôn sẻ thôi.\\nTheo như tôi biết, Hibiki rất được động vật yêu quý.」",
+  "fix": "「Chắc sẽ suôn sẻ thôi.\\nTheo như anh biết, Hibiki rất được động vật yêu quý.」",
+  "why": "Soutetsu trấn an Paulette về kế hoạch cho mèo ăn làm quen (kế hoạch của Paulette với Reina; Paulette nói trước 2887 và tiếp sau 2805; Hachiroku chỉ hỏi xen 2247). Tự xưng \"anh\". Lưu ý: địa chỉ suy từ mạch truyện, không chắc tuyệt đối như các dòng đi dạo đêm — nhưng kế hoạch là của Paulette nên \"anh\" đứng vững."
+ },
+ {
+  "key": "2578",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「さすがにそこまでは……わたしも、\\n宮司さんご本人と踏み込んだお話はしませんし」",
+  "tw": "「我不是很清楚……畢竟我也沒怎麼和宮司聊過」",
+  "old_vn": "「Đến mức đó thì……tôi cũng,\\nchưa nói chuyện sâu với bản thân cung tư tế.」",
+  "fix": "「Đến mức đó thì……tôi cũng,\\nchưa nói chuyện sâu với bản thân đền chủ.」",
+  "why": "JP 宮司さん. Paulette nói về Akai. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2580",
+  "character": "赤井宮司",
+  "kind": "terminology",
+  "jp": "「機関士も経験しましたが、最後は運転士でした。\\n[こくら,1]粉蔵の試験区間で、\\x%l電車;#00ffc040;電車%l;#;運転を」",
+  "tw": "「我也做過司機，不過最後還是做駕駛員了。負責在小倉的測試路段駕駛電動機車」",
+  "old_vn": "「Tôi cũng từng trải qua vị trí lái tàu (kikanshi), nhưng cuối cùng thì tôi là người điều khiển tàu (untenshi).\\nỞ đoạn đường thử nghiệm Kokura, tôi đã điều khiển \\x%l電車;#00ffc040;tàu điện%l;#;.」",
+  "fix": "「Tôi cũng từng làm lái tàu, nhưng cuối cùng thì làm nhân viên cơ vụ.\\nỞ đoạn đường thử nghiệm Kokura, tôi đã điều khiển \\x%l電車;#00ffc040;tàu điện%l;#;.」",
+  "why": "Akai kể nghề nghiệp cũ. JP 機関士/運転士, bản Việt thêm chú thích romaji \"(kikanshi)\"/\"(untenshi)\" không có trong JP — gỡ. Dùng thuật ngữ đã quyết: 機関士 = \"lái tàu\", 運転士 = \"nhân viên cơ vụ\". Thẻ %l của 電車 là của JP, giữ nguyên."
+ },
+ {
+  "key": "2582",
+  "character": "ポーレット",
+  "kind": "meaning",
+  "jp": "「わたしだって[ヒノモト,2]日ノ本人ですよ？\\n育ちは、結構長い間フランクでしたけど」",
+  "tw": "「我也是日本人呀？雖然小時候在法國待了很長一段時間」",
+  "old_vn": "「Tôi cũng là người Hinomoto mà?\\nDù thời gian lớn lên ở Frank (Pháp) khá dài.」",
+  "fix": "「Tôi cũng là người Hinomoto mà?\\nDù thời gian lớn lên ở Frank khá dài.」",
+  "why": "JP フランク (Frank) không có chú thích nào. \"(Pháp)\" là bản Việt tự thêm giải thích — gỡ. Kiểu bịa của Gemini: thêm chú thích trong ngoặc không có nguồn JP. (Cùng lỗi ở 2628 \"(Mỹ)\".)"
+ },
+ {
+  "key": "2583",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「前にも少し見たことがあるが、見事なものだな」",
+  "tw": "「我以前也見過，這表做工真好啊」",
+  "old_vn": "「Trước đây tôi cũng từng nhìn thấy một chút rồi, thật là một món đồ tuyệt đẹp.」",
+  "fix": "「Trước đây anh cũng từng nhìn thấy một chút rồi, thật là một món đồ tuyệt đẹp.」",
+  "why": "Soutetsu nói với Paulette (ngắm mặt dây chuyền đồng hồ bỏ túi của cô ấy). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2596",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「僕の、いったい何がさすがだ？」",
+  "tw": "「我做了什麼嗎？」",
+  "old_vn": "「Tôi thì có gì mà không hổ danh?」",
+  "fix": "「Anh thì có gì mà không hổ danh?」",
+  "why": "Soutetsu đáp lại lời khen của Paulette 2355 (\"Quả không hổ danh là anh Soutetsu\"). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2599",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「さっき、電話をしたのだが」",
+  "tw": "「我剛才給你打電話了」",
+  "old_vn": "「Vừa nãy, tôi có gọi điện thoại.」",
+  "fix": "「Vừa nãy, anh có gọi điện thoại.」",
+  "why": "Soutetsu nói với Paulette (cảnh gặp nhau buổi tối; Paulette hỏi 2298 về cuộc gọi 7 giờ). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2612",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「今、ポーレットたちと計画していることがある」",
+  "tw": "「我正在和波萊特他們計劃一件事」",
+  "old_vn": "「Hiện tại, em đang lên kế hoạch cho một việc cùng với nhóm Paulette.」",
+  "fix": "「Hiện tại, tôi đang lên kế hoạch cho một việc cùng với nhóm Paulette.」",
+  "why": "Soutetsu nói với Mayami (\"Hiện tại, em đang...\" sai; Mayami là chị lớn, Soutetsu = \"tôi\" per quyết định #18)."
+ },
+ {
+  "key": "2620",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「旧帝鉄にお勤めだったと人に聞きましたが――\\n宮司は、機関士でいらっしゃったのですか？」",
+  "tw": "「我聽聞您曾就職於前帝國鐵路，您曾經是司機嗎？」",
+  "old_vn": "「Tôi nghe người ta nói ngài từng làm việc ở Đường sắt Hoàng gia cũ――\\nCung tư tế, ngài từng là lái tàu sao?」",
+  "fix": "「Tôi nghe người ta nói ngài từng làm việc ở Teitetsu cũ――\\nĐền chủ, ngài từng là lái tàu sao?」",
+  "why": "JP 旧帝鉄 + 宮司. Hai fix: 帝鉄 = \"Teitetsu\"; 宮司 = \"đền chủ\" (đầu dòng nên viết hoa \"Đền chủ\" — xưng hô trực tiếp với Akai)."
+ },
+ {
+  "key": "2624",
+  "character": "ポーレット",
+  "kind": "meaning",
+  "jp": "「わたし、\\nあまり役に立つお話できなかった気もしますけど」",
+  "tw": "「我說的這些可能沒多大用處」",
+  "old_vn": "「Tôi có cảm giác,\\nmình chưa kể được chuyện gì có ích cho lắm.」",
+  "fix": "「Tôi có cảm giác,\\ntôi chưa kể được chuyện gì có ích cho lắm.」",
+  "why": "Paulette tự xưng lẫn lộn trong một dòng: \"Tôi... mình\" (JP chỉ có わたし). Thống nhất về \"tôi\" (cách Paulette tự xưng trong cả file)."
+ },
+ {
+  "key": "2628",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「国産じゃないんですよ。\\n[めいこく,1]冥国製です。[ウォールサム,7]WALLTHAM」",
+  "tw": "「我這塊表不是國貨，是美國廠商的。ＷＡＬＬＴＨＡＭ」",
+  "old_vn": "「Không phải hàng nội địa đâu.\\nLà hàng sản xuất tại Meikoku (Mỹ) đấy. WALLTHAM.」",
+  "fix": "「Không phải hàng nội địa đâu.\\nLà hàng sản xuất tại Minh Quốc đấy. WALLTHAM.」",
+  "why": "JP [めいこく,1]冥国製. Quyết định: 冥国 = \"Minh Quốc\" (furigana めいこく không lấn át chữ chính 冥国); \"(Mỹ)\" là bản Việt tự thêm giải thích — gỡ."
+ },
+ {
+  "key": "2645",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「僕と？」",
+  "tw": "「找我？」",
+  "old_vn": "「Gặp tôi?」",
+  "fix": "「Gặp anh?」",
+  "why": "Soutetsu hỏi lại Paulette 2435 (\"xem có gặp được anh Soutetsu không\"). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2672",
+  "character": "赤井宮司",
+  "kind": "terminology",
+  "jp": "「元・運転士ですよ。今は、ただの宮司です」",
+  "tw": "「是原駕駛員。現在只是一介宮司」",
+  "old_vn": "「Là cựu lái tàu thôi. Bây giờ, tôi chỉ là một cung tư tế.」",
+  "fix": "「Là cựu lái tàu thôi. Bây giờ, tôi chỉ là một đền chủ.」",
+  "why": "JP 宮司. Akai tự giới thiệu. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2689",
+  "character": "赤井宮司",
+  "kind": "terminology",
+  "jp": "「[ヒロデン,5]廣島電気鉄道のことですか。\\nなるほど――そう考えれば、我々も多少は報われますか」",
+  "tw": "「是指廣島電鐵嗎。原來如此——這麼想的話，我們的努力也並非徒勞」",
+  "old_vn": "「Ý cô là Đường sắt Điện lực Hiroshima sao.\\nRa là vậy――nếu nghĩ như thế, thì chúng tôi cũng được đền đáp phần nào nhỉ.」",
+  "fix": "「Ý cô là Đường sắt điện Hiroshima sao.\\nRa là vậy――nếu nghĩ như thế, thì chúng tôi cũng được đền đáp phần nào nhỉ.」",
+  "why": "JP [ヒロデン,5]廣島電気鉄道 = Hiroshima Electric Railway. \"Đường sắt Điện lực\" sai nghĩa (電気鉄道 = đường sắt điện, không phải công ty điện lực)."
+ },
+ {
+  "key": "2693",
+  "character": "赤井宮司",
+  "kind": "terminology",
+  "jp": "「ええ。[ホッカイドウ,2]北開道、[シコク,1]四國、[キュウシュウ,1]九洲――[ヒノモト,2]日ノ本全土で。\\n帝鉄は\\x%l電車;#00ffc040;電車%l;#;こそを復活の切り札にと、必死でした」",
+  "tw": "「是的。北海道、四國、九州——乃至日本全土都有。帝國鐵路認為電動機車才是復活鐵路的關鍵」",
+  "old_vn": "「Vâng. Hokkaido, Shikoku, Kyushu――Trên toàn cõi Hinomoto.\\nĐường sắt Hoàng gia đã tuyệt vọng coi \\x%l電車;#00ffc040;tàu điện%l;#; chính là con bài tẩy để phục sinh.」",
+  "fix": "「Vâng. Hokkaido, Shikoku, Kyushu――Trên toàn cõi Hinomoto.\\nTeitetsu đã tuyệt vọng coi \\x%l電車;#00ffc040;tàu điện%l;#; chính là con bài tẩy để phục sinh.」",
+  "why": "JP 帝鉄. 帝鉄 = \"Teitetsu\". (Thẻ %l của 電車 là của JP, giữ nguyên.)"
+ },
+ {
+  "key": "2711",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「その字か。なるほど、理解できた」",
+  "tw": "「是這個意思啊。原來如此，我明白了」",
+  "old_vn": "「Là chữ đó sao. Ra là vậy, tôi hiểu rồi.」",
+  "fix": "「Là chữ đó sao. Ra là vậy, anh hiểu rồi.」",
+  "why": "Soutetsu nói với Paulette (cô ấy giải thích chữ trên mặt dây chuyền). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2753",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「“御一夜温泉駅史”によると、この機関庫は、\\n[めいじ,1]明智四十一年、\\x%l本屋;#00ffc040;[ほんおく,1]本屋%l;#;とともに作られたそうです」",
+  "tw": "「根據《御一夜溫泉站史》記載，這個機車庫是明治四十一年和\\x%l本屋;#00ffc040;主棟%l;#;一起建起來的」",
+  "old_vn": "「Theo “Lịch sử ga suối nước nóng Ohimitera”, xưởng đầu máy này,\\nđược xây dựng cùng với \\x%l本屋;#00ffc040;tòa nhà chính%l;#; vào năm Minh Trí thứ 41 đấy.」",
+  "fix": "「Theo “Lịch sử ga suối nước nóng Ohitoyo”, xưởng đầu máy này,\\nđược xây dựng cùng với \\x%l本屋;#00ffc040;tòa nhà chính%l;#; vào năm Minh Trí thứ 41 đấy.」",
+  "why": "JP “御一夜温泉駅史”. 御一夜 = \"Ohitoyo\". (Thẻ %l của 本屋 là của JP, giữ nguyên.)"
+ },
+ {
+  "key": "2782",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「赤井宮司さんに自力でたどり着いたことですよ。\\nもう少しあとにご紹介しよう、って思ってたんですけど」",
+  "tw": "「沒想到你自己去找赤井宮司了。我原本還想過一段時間再介紹給你的」",
+  "old_vn": "「Là việc anh tự mình tìm đến được chỗ cung tư tế Akai đấy.\\nTôi vốn định để một thời gian nữa mới giới thiệu cơ.」",
+  "fix": "「Là việc anh tự mình tìm đến được chỗ đền chủ Akai đấy.\\nTôi vốn định để một thời gian nữa mới giới thiệu cơ.」",
+  "why": "JP 赤井宮司さん. Paulette nói về Akai. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2783",
+  "character": "ハチロク",
+  "kind": "terminology",
+  "jp": "「随分と現実的な方でしたね、赤井宮司は」",
+  "tw": "「沒想到您還是一位挺現實的人呢」",
+  "old_vn": "「Ngài ấy là một người khá thực tế nhỉ, cung tư tế Akai ấy.」",
+  "fix": "「Ngài ấy là một người khá thực tế nhỉ, đền chủ Akai ấy.」",
+  "why": "JP 赤井宮司. Hachiroku nói về Akai. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2814",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「お忙しいんですね、宮司さんも」",
+  "tw": "「畢竟神社的宮司很忙呢」",
+  "old_vn": "「Cung tư tế cũng bận rộn nhỉ.」",
+  "fix": "「Đền chủ cũng bận rộn nhỉ.」",
+  "why": "JP 宮司さん. Paulette nói về Akai (đầu câu nên viết hoa \"Đền chủ\"). 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2817",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「もちろんです。銀行さん――\\n[くまもと,1]隈元銀行御一夜支店の支店長さんで、つまり……」",
+  "tw": "「當然了。她是銀行——隈元銀行御一夜支行的支行長，也就是說……」",
+  "old_vn": "「Tất nhiên rồi. Ngân hàng――\\nLà giám đốc chi nhánh Ohimitera của Ngân hàng Kumamoto, nghĩa là...」",
+  "fix": "「Tất nhiên rồi. Ngân hàng――\\nLà giám đốc chi nhánh Ohitoyo của Ngân hàng Kumamoto, nghĩa là...」",
+  "why": "JP 御一夜支店. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "2818",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「それはもちろん、8620の復活と走行をもってです。\\nそうするために必要な作業を、できるだけ御一夜でと」",
+  "tw": "「當然是修復並開動８６２０。而且最好所有工作都在御一夜完成」",
+  "old_vn": "「Tất nhiên là bằng sự phục sinh và lăn bánh của 8620.\\nĐể làm được điều đó, tôi muốn thực hiện các công việc cần thiết ở Ohimitera càng nhiều càng tốt.」",
+  "fix": "「Tất nhiên là bằng sự phục sinh và lăn bánh của 8620.\\nĐể làm được điều đó, tôi muốn thực hiện các công việc cần thiết ở Ohitoyo càng nhiều càng tốt.」",
+  "why": "JP 御一夜で. Soutetsu nói với Akai. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "2839",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「真闇姉、使われていない石炭ボイラが、\\nまだこの家にはあると聞いたと記憶しているが」",
+  "tw": "「真闇姐，我記得家裡還有不用的燒煤鍋爐啊」",
+  "old_vn": "「Chị Mayami, em nhớ chị từng nói là trong nhà này\\nvẫn còn một cái lò hơi than không dùng đến.」",
+  "fix": "「Chị Mayami, tôi nhớ chị từng nói là trong nhà này\\nvẫn còn một cái lò hơi than không dùng đến.」",
+  "why": "Soutetsu hỏi Mayami. \"em\" sai với Mayami (quyết định #18: Soutetsu với Mayami = \"tôi\")."
+ },
+ {
+  "key": "2842",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「その上で真闇姉、ひとつ、教えて欲しいことがある」",
+  "tw": "「真闇姐，還有一件事」",
+  "old_vn": "「Dựa trên điều đó, chị Mayami, có một chuyện em muốn chị chỉ cho em.」",
+  "fix": "「Dựa trên điều đó, chị Mayami, có một chuyện tôi muốn chị chỉ cho tôi.」",
+  "why": "Soutetsu hỏi Mayami. \"em\" → \"tôi\" (2 chỗ, quyết định #18)."
+ },
+ {
+  "key": "2886",
+  "character": "双鉄",
+  "kind": "terminology",
+  "jp": "「ともかく、その稀咲が訪ねていったそうなのだ。\\n僕らが訪問する前に、赤井宮司のところへと」",
+  "tw": "「總之，聽說那位稀咲去拜訪了赤井宮司。在我們去之前」",
+  "old_vn": "「Dù sao thì, nghe nói Kisaki đó đã đến thăm.\\nTrước khi chúng tôi đến thăm chỗ cung tư tế Akai.」",
+  "fix": "「Dù sao thì, nghe nói Kisaki đó đã đến thăm.\\nTrước khi chúng tôi đến thăm chỗ đền chủ Akai.」",
+  "why": "JP 赤井宮司のところ. Soutetsu báo cáo với Paulette. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "2901",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「冥国の大統領が来た時、\\n移動に、お召し列車を使ってもらったそうなんです」",
+  "tw": "「聽說美國總統來訪時，坐過一輛御召列車」",
+  "old_vn": "「Khi tổng thống Meikoku đến thăm,\\nnghe nói họ đã dùng tàu ngự dụng để ông ấy di chuyển.」",
+  "fix": "「Khi tổng thống Minh Quốc đến thăm,\\nnghe nói họ đã dùng tàu ngự dụng để ông ấy di chuyển.」",
+  "why": "JP 冥国. Paulette kể chuyện bà nội. 冥国 = \"Minh Quốc\" (chữ chính; furigana めいこく không lấn át)."
+ },
+ {
+  "key": "2937",
+  "character": "赤井宮司",
+  "kind": "terminology",
+  "jp": "「御一夜に、\\n人と技術とを集める、というお考えでしょうか」",
+  "tw": "「讓技術和人才集中於御一夜，是嗎」",
+  "old_vn": "「Ý cậu là,\\ntập trung con người và công nghệ ở Ohimitera sao.」",
+  "fix": "「Ý cậu là,\\ntập trung con người và công nghệ ở Ohitoyo sao.」",
+  "why": "JP 御一夜に. Akai hỏi Soutetsu. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "2960",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「赤井阿蘇神社は、御一夜最大最古の神社で、\\n当然、[うじこ,1]氏子さんもすごく多くて、影響力があるんです」",
+  "tw": "「赤井阿蘇神社是御一夜最大、最古老的神社，自然信徒眾多，擁有很大的影響力」",
+  "old_vn": "「Đền Akai Aso là ngôi đền lớn nhất và lâu đời nhất ở Ohimitera,\\ntất nhiên, số lượng giáo dân cũng rất đông, nên có sức ảnh hưởng lớn.」",
+  "fix": "「Đền Akai Aso là ngôi đền lớn nhất và lâu đời nhất ở Ohitoyo,\\ntất nhiên, số lượng giáo dân cũng rất đông, nên có sức ảnh hưởng lớn.」",
+  "why": "JP 御一夜最大最古. Paulette giới thiệu đền Akai Aso. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "2987",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「そうだな、[ヒノモト,2]日ノ本人の僕にも少し難しい」",
+  "tw": "「這個讀音對我這個日本人來說也有點繞」",
+  "old_vn": "「Đúng vậy, đối với một người Hinomoto như tôi cũng hơi khó.」",
+  "fix": "「Đúng vậy, đối với một người Hinomoto như anh cũng hơi khó.」",
+  "why": "Soutetsu nói với Paulette (cô ấy kể về gốc gác Frank/Hinomoto). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2995",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「そうか。ならば安心した」",
+  "tw": "「這樣啊。那我就放心了」",
+  "old_vn": "「Vậy sao. Nếu thế thì tôi yên tâm rồi.」",
+  "fix": "「Vậy sao. Nếu thế thì anh yên tâm rồi.」",
+  "why": "Soutetsu nói với Paulette (cô ấy nói sẽ chuẩn bị cho mèo). Tự xưng \"anh\"."
+ },
+ {
+  "key": "2997",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「ああ、喉が疲れているのか。\\nちょっと待て」",
+  "tw": "「這樣啊，你嗓子一定累了吧。稍等」",
+  "old_vn": "「À, cổ họng cô bị mệt sao.\\nĐợi một chút.」",
+  "fix": "「À, cổ họng em bị mệt sao.\\nĐợi một chút.」",
+  "why": "Soutetsu nói với Paulette (cô ấy ho). \"cô\" → \"em\"."
+ },
+ {
+  "key": "2998",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「そうか、ならば、夜にでも電話で報告しよう」",
+  "tw": "「這樣啊，那我晚上再打電話報告」",
+  "old_vn": "「Vậy sao, nếu thế, tối nay tôi sẽ gọi điện thoại báo cáo.」",
+  "fix": "「Vậy sao, nếu thế, tối nay anh sẽ gọi điện thoại báo cáo.」",
+  "why": "Soutetsu nói với Paulette (hẹn báo cáo buổi tối). Tự xưng \"anh\"."
+ },
+ {
+  "key": "3002",
+  "character": "ポーレット",
+  "kind": "terminology",
+  "jp": "「それじゃあ、\\n赤井宮司さんにも会ってきたんですか」",
+  "tw": "「這麼說，你們昨天還去見了赤井宮司啊」",
+  "old_vn": "「Vậy ra,\\nhai người cũng đã đi gặp cung tư tế Akai rồi sao.」",
+  "fix": "「Vậy ra,\\nhai người cũng đã đi gặp đền chủ Akai rồi sao.」",
+  "why": "JP 赤井宮司さん. Paulette hỏi Soutetsu+Hachiroku. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3003",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「そのくらいはおごらせてくれ。\\nそれが嫌なら、授業料ということで処理してくれ」",
+  "tw": "「這點小錢就讓我請了吧。或者你可以當是學費」",
+  "old_vn": "「Chút đó cứ để tôi mời đi.\\nNếu cô ngại, thì cứ coi như là học phí đi.」",
+  "fix": "「Chút đó cứ để anh mời đi.\\nNếu em ngại, thì cứ coi như là học phí đi.」",
+  "why": "Soutetsu nói với Paulette (mời đồ uống; Paulette đòi trả \"học phí\" 2461). \"tôi\" → \"anh\", \"cô\" → \"em\"."
+ },
+ {
+  "key": "3016",
+  "character": "ハチロク",
+  "kind": "meaning",
+  "jp": "「あのっ！」",
+  "tw": "「那個！」",
+  "old_vn": "「Chỗ này ạ!」",
+  "fix": "「Ưm!」",
+  "why": "Hachiroku giơ tay: JP 「あのっ！\" (tiếng ngập ngừng gọi). Bản cũ \"Chỗ này ạ!\" bịa ra \"chỗ này\" — JP không hề có địa điểm. Sửa theo âm: \"Ưm!\" (tiền lệ: tiếng ngập ngừng あの → \"Ưm\")."
+ },
+ {
+  "key": "3023",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「では、僕はお先に失礼する」",
+  "tw": "「那我也先走一步」",
+  "old_vn": "「Vậy, tôi xin phép đi trước.」",
+  "fix": "「Vậy, anh xin phép đi trước.」",
+  "why": "Soutetsu chào Paulette ra về (cảnh buổi sáng ở cửa hàng). Tự xưng \"anh\"."
+ },
+ {
+  "key": "3031",
+  "character": "双鉄",
+  "kind": "pronoun",
+  "jp": "「話すなら、どうだ、このまま歩かんか？\\n丁度、僕も駅の方へと向かおうかと思っていた」",
+  "tw": "「那麼我們邊走邊聊如何？我正好也想去趟車站」",
+  "old_vn": "「Nếu muốn nói chuyện, hay là chúng ta cứ vừa đi vừa nói nhé?\\nĐúng lúc tôi cũng đang định đi về phía nhà ga.」",
+  "fix": "「Nếu muốn nói chuyện, hay là chúng ta cứ vừa đi vừa nói nhé?\\nĐúng lúc anh cũng đang định đi về phía nhà ga.」",
+  "why": "Soutetsu rủ Paulette vừa đi vừa nói (mở đầu cảnh đi dạo đêm). Tự xưng \"anh\". (\"chúng ta\" là số nhiều, giữ nguyên.)"
+ },
+ {
+  "key": "3067",
+  "character": "双鉄",
+  "kind": "gasp",
+  "jp": "「っ！！！！」",
+  "tw": "「！！！！」",
+  "old_vn": "「!!!!」",
+  "fix": "「Ư!!!!」",
+  "why": "Sweep っ-gasp: JP 「っ！！！！\". Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP."
+ },
+ {
+  "key": "3068",
+  "character": "双鉄",
+  "kind": "gasp",
+  "jp": "「っ！？」",
+  "tw": "「！？」",
+  "old_vn": "「!?」",
+  "fix": "「Ư!?」",
+  "why": "Sweep っ-gasp: JP 「っ！？\". Áp nguyên giá trị sweep, đã kiểm chứng đúng với JP. (TOML đã làm phẳng \\n của dòng này thành khoảng trắng — không phải lỗi dịch.)"
+ },
+ {
+  "key": "3076",
+  "character": "ポーレット",
+  "kind": "tag",
+  "jp": "「[ハチロクニイマル,3]8620ですね、もちろんです！」",
+  "tw": "「８６２０是嗎，當然了！」",
+  "old_vn": "「Là \\x%l8620;#00ffc040;8620%l;#; nhỉ, tất nhiên rồi!」",
+  "fix": "「Là 8620 nhỉ, tất nhiên rồi!」",
+  "why": "JP chỉ có ruby [ハチロクニイマル,3] trên 8620, KHÔNG có thẻ %l (đã kiểm chứng comment # JP trong TOML). Thẻ \\x%l8620;#00ffc040;8620%l;#; là do bản Việt tự thêm — gỡ, giữ \"8620\" thường."
+ },
+ {
+  "key": "3253",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "そうして赤井宮司はじっと、\\n僕を、ハチロクを順々に、見据える。",
+  "tw": "之後，他依次審視著我和八六。",
+  "old_vn": "Rồi cung tư tế Akai chăm chú,\\nnhìn thẳng vào tôi, rồi lần lượt nhìn sang Hachiroku.",
+  "fix": "Rồi đền chủ Akai chăm chú,\\nnhìn thẳng vào tôi, rồi lần lượt nhìn sang Hachiroku.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3273",
+  "character": "monologue",
+  "kind": "meaning",
+  "jp": "けれども――少しさみしげな。",
+  "tw": "但是又顯得有些落寞。",
+  "old_vn": "Nhưng――có chút gì đó cô cô đơn.",
+  "fix": "Nhưng――có chút gì đó cô đơn.",
+  "why": "JP 少しさみしげな (hơi buồn/cô đơn). Bản cũ \"cô cô đơn\" là lỗi đánh máy (lặp từ \"cô\")."
+ },
+ {
+  "key": "3307",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "当然のように宮司の言葉を受けるハチロク。\\nだが、僕は――疑問の方が先に立つ。",
+  "tw": "八六似乎理所當然地接受了宮司的話。但我心中卻冒出一個疑問。",
+  "old_vn": "Hachiroku đón nhận lời của cung tư tế như một lẽ đương nhiên.\\nNhưng tôi thì――câu hỏi lại xuất hiện trước.",
+  "fix": "Hachiroku đón nhận lời của đền chủ như một lẽ đương nhiên.\\nNhưng tôi thì――câu hỏi lại xuất hiện trước.",
+  "why": "JP 宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3313",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司の言葉を遮るような、ハチロクの声。\\nしかし宮司は、それさえ穏やかに受け入れる。",
+  "tw": "八六打斷了赤井宮司的話。但宮司並不在意。",
+  "old_vn": "Giọng của Hachiroku như muốn ngắt lời cung tư tế Akai.\\nNhưng cung tư tế, thậm chí còn điềm tĩnh đón nhận điều đó.",
+  "fix": "Giọng của Hachiroku như muốn ngắt lời đền chủ Akai.\\nNhưng đền chủ, thậm chí còn điềm tĩnh đón nhận điều đó.",
+  "why": "JP 赤井宮司 (dòng 1) + 宮司 (dòng 2). Độc thoại. 宮司 = \"đền chủ\" (2 chỗ trong một dòng)."
+ },
+ {
+  "key": "3321",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "帝鉄の末期を知れどハチロクは、事故で眠ったそのために、\\n最晩年の姿を恐らく、知らないのだと。",
+  "tw": "八六雖然經歷過帝國鐵路的末期，卻因遭遇事故陷入長眠，恐怕並不知道帝國鐵路最後的樣子。",
+  "old_vn": "Dù biết về sự kết thúc của Đường sắt Hoàng gia, nhưng Hachiroku, vì đã ngủ say sau vụ tai nạn,\\ncó lẽ không biết về bộ dạng của nó trong những năm tháng cuối cùng.",
+  "fix": "Dù biết về sự kết thúc của Teitetsu, nhưng Hachiroku, vì đã ngủ say sau vụ tai nạn,\\ncó lẽ không biết về bộ dạng của nó trong những năm tháng cuối cùng.",
+  "why": "JP 帝鉄. Độc thoại. 帝鉄 = \"Teitetsu\"."
+ },
+ {
+  "key": "3332",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司がくれた助言の中にあった、\\n『銀行への相談』が、まず間違いなくそれだろう。",
+  "tw": "其中一個，無疑就是宮司所提及的“找銀行商量”的建議。",
+  "old_vn": "Trong số những lời khuyên mà cung tư tế Akai đưa ra,\\n『Thảo luận với ngân hàng』, chắc chắn là điều đó.",
+  "fix": "Trong số những lời khuyên mà đền chủ Akai đưa ra,\\n『Thảo luận với ngân hàng』, chắc chắn là điều đó.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3390",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "ポーレットが教えてくれたように、\\n赤井宮司は影響を与えたがらない人物らしい。",
+  "tw": "和波萊特說的一樣，赤井宮司是一位謹言慎行的人。",
+  "old_vn": "Giống như những gì Paulette đã nói cho tôi biết,\\ncung tư tế Akai có vẻ là người không thích gây ảnh hưởng.",
+  "fix": "Giống như những gì Paulette đã nói cho tôi biết,\\nđền chủ Akai có vẻ là người không thích gây ảnh hưởng.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3434",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "御一夜全体を巻き込むため、利益共有をはかるため、\\n真闇姉のアドバイスどおり、『稼がせる』ことが必要だ。",
+  "tw": "如果要將整個御一夜拉進我們的計劃，大家共享利益的話，就得像真闇姐說的，要讓大家“有得賺”。",
+  "old_vn": "Để lôi kéo toàn bộ Ohimitera, để chia sẻ lợi nhuận,\\nđúng như lời khuyên của chị Mayami, cần phải 『cho người khác kiếm tiền』.",
+  "fix": "Để lôi kéo toàn bộ Ohitoyo, để chia sẻ lợi nhuận,\\nđúng như lời khuyên của chị Mayami, cần phải 『cho người khác kiếm tiền』.",
+  "why": "JP 御一夜全体. Độc thoại. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "3444",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "やがて深く息が吐かれて、\\nやむなしとでもいわんばかりに、宮司が重そうに口を開く。",
+  "tw": "宮司等了一會，看我似乎沒有理解他的意思，只得深深嘆了口氣，開口說。",
+  "old_vn": "Một lúc sau, cung tư tế thở dài thườn thượt,\\nnhư thể nói hết cách rồi, ngài ấy nặng nề mở lời.",
+  "fix": "Một lúc sau, đền chủ thở dài thườn thượt,\\nnhư thể nói hết cách rồi, ngài ấy nặng nề mở lời.",
+  "why": "JP 宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3445",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司はごく穏やかに微笑んで、\\nハチロクを見て、また僕を見る。",
+  "tw": "宮司露出安穩的笑容，看著八六，然後再看向我。",
+  "old_vn": "Cung tư tế Akai mỉm cười thật hiền từ,\\nnhìn Hachiroku, rồi lại nhìn tôi.",
+  "fix": "Đền chủ Akai mỉm cười thật hiền từ,\\nnhìn Hachiroku, rồi lại nhìn tôi.",
+  "why": "JP 赤井宮司. Độc thoại (đầu câu nên viết hoa \"Đền chủ\"). 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3470",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "そしてもうひとつ、僕は経営資源を得た。\\n赤井宮司の助言が、どれほど的確か――",
+  "tw": "就這樣，我又得到了一份經營資源。赤井宮司的建議真是驚人地準確——",
+  "old_vn": "Và một điều nữa, tôi đã có được một tài nguyên kinh doanh.\\nLời khuyên của cung tư tế Akai, xác đáng đến nhường nào――",
+  "fix": "Và một điều nữa, tôi đã có được một tài nguyên kinh doanh.\\nLời khuyên của đền chủ Akai, xác đáng đến nhường nào――",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3487",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "旧帝鉄の残影を、\\nまぶたの裏に、まるで描いているかのように。",
+  "tw": "彷彿闔上眼就能看到前帝國鐵路的昔日殘影。",
+  "old_vn": "Như thể đang vẽ lại tàn ảnh của Đường sắt Hoàng gia cũ\\nbên trong mí mắt.",
+  "fix": "Như thể đang vẽ lại tàn ảnh của Teitetsu cũ\\nbên trong mí mắt.",
+  "why": "JP 旧帝鉄. Độc thoại. 帝鉄 = \"Teitetsu\"."
+ },
+ {
+  "key": "3529",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "僕らが訪ねた赤井宮司は、論戦によほど疲れたらしく、\\n……率直にいってヘロヘロだった。",
+  "tw": "我們去拜訪赤井宮司的時候，他看起來滿臉疲憊……老實說，大概已經精疲力盡了。",
+  "old_vn": "Cung tư tế Akai mà chúng tôi đến thăm có vẻ rất mệt mỏi vì cuộc tranh luận,\\n……nói thẳng ra là bơ phờ.",
+  "fix": "Đền chủ Akai mà chúng tôi đến thăm có vẻ rất mệt mỏi vì cuộc tranh luận,\\n……nói thẳng ra là bơ phờ.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\" — dòng này bị sót trong lần đọc theo chunk, bắt được nhờ quét regex toàn file (lượt soát 2)."
+ },
+ {
+  "key": "3536",
+  "character": "monologue",
+  "kind": "gasp",
+  "jp": "感心のあまりこぼれた「ああ」を、\\n真闇姉は、同意のそれと受け取ってしまう。",
+  "tw": "我在感動之餘脫口而出的回答，被真闇姐當成了肯定之意。",
+  "old_vn": "Tiếng 「A」 buột miệng thốt ra vì quá khâm phục của tôi,\\nđã bị chị Mayami hiểu nhầm thành sự đồng tình.",
+  "fix": "Tiếng 「Aa」 buột miệng thốt ra vì quá khâm phục của tôi,\\nđã bị chị Mayami hiểu nhầm thành sự đồng tình.",
+  "why": "Độc thoại nhắc lại âm thanh: JP 「ああ」 (2 nguyên âm あ). Công thức độ dài: \"Aa\" (2 chữ). Bản cũ \"A\" chỉ 1 chữ, mất một âm."
+ },
+ {
+  "key": "3542",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "8620発見のこと、改修計画のこと。\\n蓑笠老人、凪とふかみ、赤井宮司から教わったこと。",
+  "tw": "我將發現８６２０、準備修復計劃、還有從蓑笠老人、凪、深美還有赤井宮司那裡得知的事情一五一十全盤托出。",
+  "old_vn": "Tôi đã kể lại chuyện phát hiện ra 8620, chuyện kế hoạch phục hồi.\\nNhững gì được ông lão Minokasa, Nagi và Fukami, cung tư tế Akai chỉ dạy.",
+  "fix": "Tôi đã kể lại chuyện phát hiện ra 8620, chuyện kế hoạch phục hồi.\\nNhững gì được ông lão Minokasa, Nagi và Fukami, đền chủ Akai chỉ dạy.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3559",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "単刀直入に切り出せば、\\nゆっくりと、赤井宮司が振り返る。",
+  "tw": "我直接切入正題，聽到我這麼說，赤井宮司緩緩回過頭去。",
+  "old_vn": "Mở lời trực tiếp,\\ncung tư tế Akai từ từ quay lại.",
+  "fix": "Mở lời trực tiếp,\\nđền chủ Akai từ từ quay lại.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3562",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "麹番をしている女性には見覚えがある。\\n僕が御一夜を発ったころには、まだ掃除番だった人だ。",
+  "tw": "我記得這位看顧酒麴的女性。我離開御一夜的時候，她還只是負責打掃的員工。",
+  "old_vn": "Tôi có biết người phụ nữ đang làm công việc trông coi men kōji.\\nKhi tôi rời Ohimitera, cô ấy vẫn còn là người dọn dẹp.",
+  "fix": "Tôi có biết người phụ nữ đang làm công việc trông coi men kōji.\\nKhi tôi rời Ohitoyo, cô ấy vẫn còn là người dọn dẹp.",
+  "why": "JP 御一夜を発った. Độc thoại. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "3567",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "歩きながら、赤井宮司との会話について報告する。\\nもちろん、真闇姉との会話の内容も。",
+  "tw": "我邊走邊告訴她，我和赤井宮司還有真闇姐商量的內容。",
+  "old_vn": "Vừa đi, tôi vừa báo cáo về cuộc nói chuyện với cung tư tế Akai.\\nTất nhiên là cả nội dung cuộc nói chuyện với chị Mayami nữa.",
+  "fix": "Vừa đi, tôi vừa báo cáo về cuộc nói chuyện với đền chủ Akai.\\nTất nhiên là cả nội dung cuộc nói chuyện với chị Mayami nữa.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3589",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "遠く、粉蔵の機関区づとめだったという赤井宮司。\\nその人が、“あの事故”として承知している。",
+  "tw": "既然遠在小倉機務段的赤井宮司都知道“那場事故”。",
+  "old_vn": "Cung tư tế Akai, người từng làm việc ở khu đầu máy Kokura xa xôi.\\nNgười đó, biết về nó như là “vụ tai nạn đó”.",
+  "fix": "Đền chủ Akai, người từng làm việc ở khu đầu máy Kokura xa xôi.\\nNgười đó, biết về nó như là “vụ tai nạn đó”.",
+  "why": "JP 赤井宮司. Độc thoại (đầu câu nên viết hoa \"Đền chủ\"). 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3611",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "丁度いい。面会をいただくその前に、\\n赤井宮司の人となりにつき、聞いておければありがたい。",
+  "tw": "正好，藉這個機會，在和赤井宮司會面前，先向波萊特打聽一下他的為人吧。",
+  "old_vn": "Vừa hay. Trước khi có cuộc gặp,\\nnếu được nghe kể về tính cách của cung tư tế Akai thì thật tốt.",
+  "fix": "Vừa hay. Trước khi có cuộc gặp,\\nnếu được nghe kể về tính cách của đền chủ Akai thì thật tốt.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\" — dòng này bị sót trong lần đọc theo chunk, bắt được nhờ quét hệ thống."
+ },
+ {
+  "key": "3645",
+  "character": "monologue",
+  "kind": "meaning",
+  "jp": "ポーレットが珍しく、口惜しそうな表情をして無言で頷く。",
+  "tw": "波萊特少見地露出不甘心的表情，沉默著點點頭。",
+  "old_vn": "Paulette hiếm khi lộ vẻ mặt cam chịu và gật đầu trong im lặng.",
+  "fix": "Paulette hiếm khi lộ vẻ mặt không cam lòng và gật đầu trong im lặng.",
+  "why": "JP 口惜しそうな (vẻ mặt không cam lòng/ấm ức); TW 不甘心. Bản cũ \"cam chịu\" là ngược nghĩa (cam chịu = chấp nhận, 口惜しい = không chấp nhận)."
+ },
+ {
+  "key": "3758",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "蓑笠老人が見せようとした、“今の御一夜観光の実態”。\\n――収益不足による人材流失と、空洞化が産む悪循環と。",
+  "tw": "蓑笠老人讓我親眼見證的“御一夜旅遊現狀”。——由於收入不足導致的人才流失，以及產業空洞化所造成的惡性循環。",
+  "old_vn": "“Thực trạng du lịch Ohimitera hiện nay” mà ông lão Minokasa muốn cho tôi thấy.\\n――Chảy máu chất xám do thiếu hụt lợi nhuận, và vòng luẩn quẩn do sự trống rỗng tạo ra.",
+  "fix": "“Thực trạng du lịch Ohitoyo hiện nay” mà ông lão Minokasa muốn cho tôi thấy.\\n――Chảy máu chất xám do thiếu hụt lợi nhuận, và vòng luẩn quẩn do sự trống rỗng tạo ra.",
+  "why": "JP 御一夜観光. Độc thoại. 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "3792",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "たずねた途端、宮司の表情が柔らかみを増す。\\n「わかってらっしゃる」――顔が、言葉を発してる。",
+  "tw": "話音剛落，宮司的表情就變得更加柔和起來，也就是說我沒猜錯。",
+  "old_vn": "Ngay khi tôi vừa hỏi, nét mặt cung tư tế trở nên hiền hòa hơn.\\n『Cậu hiểu rõ đấy』――Khuôn mặt ngài ấy đang nói như vậy.",
+  "fix": "Ngay khi tôi vừa hỏi, nét mặt đền chủ trở nên hiền hòa hơn.\\n『Cậu hiểu rõ đấy』――Khuôn mặt ngài ấy đang nói như vậy.",
+  "why": "JP 宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3829",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "ハチロクの驚きを見て、\\nもったいぶるように、赤井宮司はひといきを置く。",
+  "tw": "赤井宮司停下來，欣賞了一下八六驚訝的表情，然後說道。",
+  "old_vn": "Nhìn thấy sự ngạc nhiên của Hachiroku,\\nnhư thể đang làm ra vẻ quan trọng, cung tư tế Akai dừng lại một nhịp.",
+  "fix": "Nhìn thấy sự ngạc nhiên của Hachiroku,\\nnhư thể đang làm ra vẻ quan trọng, đền chủ Akai dừng lại một nhịp.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\" — dòng này bị sót trong lần đọc theo chunk, bắt được nhờ quét hệ thống."
+ },
+ {
+  "key": "3830",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "しみじみと、赤井宮司は目を閉じる。",
+  "tw": "赤井宮司感慨頗深地閉上眼睛。",
+  "old_vn": "Cung tư tế Akai nhắm mắt lại đầy thấm thía.",
+  "fix": "Đền chủ Akai nhắm mắt lại đầy thấm thía.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\" — dòng này bị sót trong lần đọc theo chunk, bắt được nhờ quét regex toàn file (lượt soát 2)."
+ },
+ {
+  "key": "3832",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "ならば安心というように、\\n赤井宮司は穏やかな目でハチロクを見る。",
+  "tw": "赤井宮司溫柔地望著歡喜雀躍的八六，似乎是在對她說“不用擔心”。",
+  "old_vn": "Như muốn nói vậy thì yên tâm rồi,\\ncung tư tế Akai nhìn Hachiroku bằng ánh mắt hiền từ.",
+  "fix": "Như muốn nói vậy thì yên tâm rồi,\\nđền chủ Akai nhìn Hachiroku bằng ánh mắt hiền từ.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3833",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司の視線がリストの上へと落ちる。\\nハチロクも緊張するのか、唇をきゅっと引き結んでいる。",
+  "tw": "赤井宮司瀏覽起清單。八六雙唇緊閉，她似乎也很緊張。",
+  "old_vn": "Ánh mắt của cung tư tế Akai lướt trên danh sách.\\nHachiroku có lẽ cũng căng thẳng, mím chặt môi.",
+  "fix": "Ánh mắt của đền chủ Akai lướt trên danh sách.\\nHachiroku có lẽ cũng căng thẳng, mím chặt môi.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3834",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "元帝鉄のレイルロオドのハチロクに、\\n赤井宮司は、まるで１から教えるような話しぶりだ。",
+  "tw": "赤井宮司的語氣，聽起來彷彿是在從零開始教導八六這個前帝國鐵路的鐵路人偶一般。",
+  "old_vn": "Đối với Hachiroku, một Railord của Đường sắt Hoàng gia cũ,\\ncung tư tế Akai nói chuyện như thể đang dạy lại từ đầu.",
+  "fix": "Đối với Hachiroku, một Railord của Teitetsu cũ,\\nđền chủ Akai nói chuyện như thể đang dạy lại từ đầu.",
+  "why": "JP 元帝鉄 + 赤井宮司. Hai fix: 帝鉄 = \"Teitetsu\"; 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3835",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司は、疲れが抜けたご様子だ。",
+  "tw": "赤井宮司看來已經恢復了。",
+  "old_vn": "Cung tư tế Akai có vẻ đã hết mệt mỏi.",
+  "fix": "Đền chủ Akai có vẻ đã hết mệt mỏi.",
+  "why": "JP 赤井宮司. Độc thoại (đầu câu nên viết hoa \"Đền chủ\"). 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3836",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "帝鉄の末路を知る赤井宮司。\\n衰退に、まさに晒されている御一夜の人たち。",
+  "tw": "赤井宮司見證過帝國鐵路的末路。也了解為衰退所苦的御一夜的人們。",
+  "old_vn": "Cung tư tế Akai biết về kết cục của Đường sắt Hoàng gia.\\nNhững người dân Ohimitera đang thực sự phơi mình trước sự suy thoái.",
+  "fix": "Đền chủ Akai biết về kết cục của Teitetsu.\\nNhững người dân Ohitoyo đang thực sự phơi mình trước sự suy thoái.",
+  "why": "JP 帝鉄 + 赤井宮司 + 御一夜. Ba fix trong một dòng: 帝鉄 = \"Teitetsu\"; 宮司 = \"đền chủ\"; 御一夜 = \"Ohitoyo\"."
+ },
+ {
+  "key": "3837",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "小さく頷き、\\n赤井宮司は今度はハチロクへと向きなおる。",
+  "tw": "赤井宮司輕輕點頭，看向八六。",
+  "old_vn": "Khẽ gật đầu,\\ncung tư tế Akai lần này quay sang Hachiroku.",
+  "fix": "Khẽ gật đầu,\\nđền chủ Akai lần này quay sang Hachiroku.",
+  "why": "JP 赤井宮司. Độc thoại. 宮司 = \"đền chủ\"."
+ },
+ {
+  "key": "3838",
+  "character": "monologue",
+  "kind": "terminology",
+  "jp": "赤井宮司は静かに頷き、僕の目を見る。",
+  "tw": "赤井宮司靜靜點頭，直視我的眼睛。",
+  "old_vn": "Cung tư tế Akai lặng lẽ gật đầu, nhìn vào mắt tôi.",
+  "fix": "Đền chủ Akai lặng lẽ gật đầu, nhìn vào mắt tôi.",
+  "why": "JP 赤井宮司. Độc thoại (đầu câu nên viết hoa \"Đền chủ\"). 宮司 = \"đền chủ\"."
+ }
+]

@@ -1,0 +1,314 @@
+{
+ "1082": {
+  "old_vn": "Đã từng có, là thì quá khứ.\\nBàn quay đầu máy ở ga Ohimitera hiện tại vẫn còn tồn tại.",
+  "fix": "Đã từng có, là thì quá khứ.\\nBàn quay đầu máy ở ga Ohitoyo hiện tại vẫn còn tồn tại.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1128": {
+  "old_vn": "「……Tôi cũng sinh ra ở Ohimitera. Tôi hiểu lập trường của cậu.\\nChính vì hiểu, nên tôi mới chấp thuận khoản vay này.」",
+  "fix": "「……Tôi cũng sinh ra ở Ohitoyo. Tôi hiểu lập trường của cậu.\\nChính vì hiểu, nên tôi mới chấp thuận khoản vay này.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1137": {
+  "old_vn": "「……Anh hai cứ làm theo ý mình đi.\\nOhimitera phồn vinh, là hy vọng chung của tất cả mọi người mà.」",
+  "fix": "「……Anh hai cứ làm theo ý mình đi.\\nOhitoyo phồn vinh, là hy vọng chung của tất cả mọi người mà.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1407": {
+  "old_vn": "「Không…… Không có gì đặc biệt cả.\\nAnh nghĩ là em ấy không nói gì.」",
+  "fix": "「Không…… Không có gì đặc biệt cả.\\nTôi nghĩ là em ấy không nói gì.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" → \"Tôi\": đang trả lời Kisaki (nói ở 1404); Kisaki gọi cậu là \"cậu\", cậu gọi cô là \"cô\" — quan hệ trang trọng/thương vụ, tự xưng \"tôi\" theo tiền lệ lr_稀咲h1."
+ },
+ "1411": {
+  "old_vn": "「Không phải. Ohimitera là quê hương thứ hai của tôi.\\nBảo vệ nguồn nước và môi trường nơi đây không bị ô nhiễm——đó mới là mục đích của tôi.」",
+  "fix": "「Không phải. Ohitoyo là quê hương thứ hai của tôi.\\nBảo vệ nguồn nước và môi trường nơi đây không bị ô nhiễm——đó mới là mục đích của tôi.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1418": {
+  "old_vn": "「Anh không biết. Vì anh hoàn toàn không có ý định thất bại,\\nnên cũng không nghĩ đến việc xác nhận lại.」",
+  "fix": "「Tôi không biết. Vì tôi hoàn toàn không có ý định thất bại,\\nnên cũng không nghĩ đến việc xác nhận lại.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" → \"Tôi\" (2 chỗ): đang trả lời người của ngân hàng (Urakami/Kisaki). Với Urakami là mẫu \"anh–tôi\" trong công việc (bằng chứng 1781 tự xưng \"tôi\" với Urakami); với Kisaki là \"tôi\". Dù người nghe là ai thì \"tôi\" cũng đúng."
+ },
+ "1435": {
+  "old_vn": "「Nghĩa là, trước đây ở Yui cũng từng có bàn quay đầu máy,\\nnhưng mà, nó đã bị mất rồi sao?」",
+  "fix": "「Nghĩa là, trước đây ở Yunoi cũng từng có bàn quay đầu máy,\\nnhưng mà, nó đã bị mất rồi sao?」",
+  "kind": "terminology",
+  "reason": "湯医 = \"Yunoi\" (quyết định 19/11; \"Yui\" sai)."
+ },
+ "1443": {
+  "old_vn": "「Gì chứ! Cả bố lẫn cái ông chú Mototada đó,\\nhoàn toàn coi anh hai như đồ vật vậy～っ」",
+  "fix": "「Gì chứ! Cả bố lẫn cái ông chú Mototada đó,\\nhoàn toàn coi anh hai như đồ vật vậy～Ư」",
+  "kind": "gasp",
+  "reason": "Sweep っ: giá trị sweep đã kiểm chứng đúng với JP, áp dụng nguyên văn (1443 đã khôi phục dạng \\n của CSV3)."
+ },
+ "1456": {
+  "old_vn": "「Nhưng mà Hibiki này. Navi——\\nnó không hề quên mục đích tôi quay lại đây đâu.」",
+  "fix": "「Nhưng mà Hibiki này. Navi——\\nnó không hề quên mục đích anh quay lại đây đâu.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"tôi\" → \"anh\": câu mở đầu \"Nhưng mà Hibiki này\" — nói trực tiếp với Hibiki, người gọi cậu là \"anh hai\"."
+ },
+ "1461": {
+  "old_vn": "「Nhưng mà, chủ sở hữu hiện tại của nhà kho——tức là Đường sắt Ohimitera,\\nđã được công nhận là người nhận hợp pháp rồi đúng không?」",
+  "fix": "「Nhưng mà, chủ sở hữu hiện tại của nhà kho——tức là Đường sắt Ohitoyo,\\nđã được công nhận là người nhận hợp pháp rồi đúng không?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1467": {
+  "old_vn": "「Nhưng mà, ừm——em xin phép quay lại chủ đề chính một chút,\\nđúng như Hibiki đã nói, đây là vấn đề của Đường sắt Ohimitera.」",
+  "fix": "「Nhưng mà, ừm——em xin phép quay lại chủ đề chính một chút,\\nđúng như Hibiki đã nói, đây là vấn đề của Đường sắt Ohitoyo.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1471": {
+  "old_vn": "「Với điều kiện là bảo lưu kết quả học tập ở Đại học Đế quốc, và xin nghỉ việc ở xưởng rượu,\\nem đã hứa với cha nuôi vài điều.」",
+  "fix": "「Với điều kiện là bảo lưu kết quả học tập ở Đại học Đế quốc, và xin nghỉ việc ở xưởng rượu,\\ntôi đã hứa với cha nuôi vài điều.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" → \"tôi\": \"em\" không bao giờ đúng với Soutetsu; đang giải thích điều kiện với nhóm ngân hàng → \"tôi\"."
+ },
+ "1487": {
+  "old_vn": "「Các giao dịch cá nhân sẽ được thực hiện riêng biệt.\\nChỉ cần như vậy, Đường sắt Ohimitera có thể duy trì được tính độc lập của mình.」",
+  "fix": "「Các giao dịch cá nhân sẽ được thực hiện riêng biệt.\\nChỉ cần như vậy, Đường sắt Ohitoyo có thể duy trì được tính độc lập của mình.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1499": {
+  "old_vn": "「Ra là vậy.\\nVì thế nên ga Ohimitera mới có \\x%l転車台;#00ffc040;bàn quay đầu máy%l;#; nhỉ?」",
+  "fix": "「Ra là vậy.\\nVì thế nên ga Ohitoyo mới có \\x%l転車台;#00ffc040;bàn quay đầu máy%l;#; nhỉ?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1520": {
+  "old_vn": "「Nhưng mà——ngoài tài sản của Đường sắt Ohimitera ra,\\nthì làm gì còn thứ gì có thể làm tài sản thế chấp lớn đến vậy chứ.」",
+  "fix": "「Nhưng mà——ngoài tài sản của Đường sắt Ohitoyo ra,\\nthì làm gì còn thứ gì có thể làm tài sản thế chấp lớn đến vậy chứ.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1527": {
+  "old_vn": "「Đồng thời, nó cũng là vấn đề của tôi. Paulette.\\nVì vậy, tôi mới định đề xuất một phương án thỏa hiệp.」",
+  "fix": "「Đồng thời, nó cũng là vấn đề của anh. Paulette.\\nVì vậy, tôi mới định đề xuất một phương án thỏa hiệp.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"tôi\" → \"anh\": câu ghi rõ tên Paulette (\"Đồng thời, nó cũng là vấn đề của tôi. Paulette.\") — với Paulette là \"anh\"."
+ },
+ "1529": {
+  "old_vn": "「Hả? A! Ra là vậy, đúng vậy nhỉ!! Trong trường hợp xấu nhất,\\nmình chỉ cần lấy Đường sắt Ohimitera làm tài sản thế chấp để vay một khoản tiền mới.」",
+  "fix": "「Hả? A! Ra là vậy, đúng vậy nhỉ!! Trong trường hợp xấu nhất,\\nem chỉ cần lấy Đường sắt Ohitoyo làm tài sản thế chấp để vay một khoản tiền mới.」",
+  "kind": "pronoun",
+  "reason": "Paulette tự xưng \"mình\" → \"em\": mẫu trong file là \"em\" (1467, 1564); \"mình\" lạc khỏi mẫu. (Kèm Ohimitera → Ohitoyo.)"
+ },
+ "1548": {
+  "old_vn": "「À. Đúng là vậy nhỉ.\\n\\x%l8620;#00ffc040;8620%l;#; có phân biệt trước sau, còn KiHa 07 thì có thể nói là hai mặt đều là phía trước.」",
+  "fix": "「À. Đúng là vậy nhỉ.\\n8620 có phân biệt trước sau, còn KiHa 07 thì có thể nói là hai mặt đều là phía trước.」",
+  "kind": "tag",
+  "reason": "VN tự thêm tag %l cho 8620 trong khi JP chỉ có ruby [ハチロクニイマル,3] — gỡ tag theo tiền lệ reina02/file 09, giữ nguyên chữ \"8620\"."
+ },
+ "1549": {
+  "old_vn": "「Aー……aー……a～～っ」",
+  "fix": "「Aー……aー……a～～Ư」",
+  "kind": "gasp",
+  "reason": "Sweep っ: giá trị sweep đã kiểm chứng đúng với JP, áp dụng nguyên văn (1443 đã khôi phục dạng \\n của CSV3)."
+ },
+ "1550": {
+  "old_vn": "「A～～っ」",
+  "fix": "「A～～Ư」",
+  "kind": "gasp",
+  "reason": "Sweep っ: giá trị sweep đã kiểm chứng đúng với JP, áp dụng nguyên văn (1443 đã khôi phục dạng \\n của CSV3)."
+ },
+ "1551": {
+  "old_vn": "「Này này giám đốc chi nhánh Ohimitera.\\nNói với chủ tịch mà lại dùng từ 'được không' sao.」",
+  "fix": "「Này này giám đốc chi nhánh Ohitoyo.\\nNói với chủ tịch mà lại dùng từ 'được không' sao.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1554": {
+  "old_vn": "「Vâng. À không, chuyện này,\\nlẽ ra em nên nói cho mọi người biết sớm hơn mới phải——」",
+  "fix": "「Vâng. À không, chuyện này,\\nlẽ ra tôi nên nói cho mọi người biết sớm hơn mới phải——」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" → \"tôi\": \"em\" không bao giờ đúng với Soutetsu; đang nói với cả nhóm → \"tôi\"."
+ },
+ "1555": {
+  "old_vn": "「Vâng. Em đã từ chối, bảo là không thể nhận lời được.」",
+  "fix": "「Vâng. Tôi đã từ chối, bảo là không thể nhận lời được.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Em\" → \"Tôi\": như 1554, đang nói với cả nhóm."
+ },
+ "1559": {
+  "old_vn": "「Ừm. Cảm ơn cô.」",
+  "fix": "「Ừm. Cảm ơn chị.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu \"Cảm ơn cô\" → \"Cảm ơn chị\": người được cảm ơn là Mayami — lời đề nghị \"đáng quý đến mức lãng phí\" (1558) là khoản vay 200 triệu không lãi của Mayami ở 1515; Soutetsu gọi Mayami là \"chị\", không bao giờ gọi \"cô\". (Phán đoán từ ngữ cảnh — xem §7.)"
+ },
+ "1569": {
+  "old_vn": "「Hửm? Hình như tôi nghe nói Đường sắt Ohimitera đang chịu lỗ mà.\\nCó thể xin được tiền trợ cấp từ thành phố sao?」",
+  "fix": "「Hửm? Hình như tôi nghe nói Đường sắt Ohitoyo đang chịu lỗ mà.\\nCó thể xin được tiền trợ cấp từ thành phố sao?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1571": {
+  "old_vn": "「Hửm?\\nCái 'Xây mới \\x%l三角線;#00ffc040;đường tam giác%l;#; ga Yui' này là sao?」",
+  "fix": "「Hửm?\\nCái 'Xây mới đường tam giác ga Yunoi' này là sao?」",
+  "kind": "terminology",
+  "reason": "湯医 = \"Yunoi\" (quyết định 19/11; \"Yui\" sai). VN tự thêm tag %l cho 三角線 trong khi JP chỉ có ruby — gỡ tag, giữ nguyên \"đường tam giác\"."
+ },
+ "1599": {
+  "old_vn": "「Nếu để chậm trễ việc trả nợ, tôi sẽ đòi gắt gao đấy.\\nCho dù có tôi ở giữa, thì trách nhiệm của Paulette vẫn không thay đổi đâu nhé?」",
+  "fix": "「Nếu để chậm trễ việc trả nợ, anh sẽ đòi gắt gao đấy.\\nCho dù có anh ở giữa, thì trách nhiệm của Paulette vẫn không thay đổi đâu nhé?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"tôi\" → \"anh\" (2 chỗ): đang nói với Paulette (ghi rõ tên trong câu) — với Paulette là \"anh\"."
+ },
+ "1637": {
+  "old_vn": "「Đường sắt Ohimitera đã thành lập bộ phận \\x%l保線;#00ffc040;bảo trì đường ray%l;#; rồi sao.\\nĐó là do ảnh hưởng từ sự cố hôm nọ à?」",
+  "fix": "「Đường sắt Ohitoyo đã thành lập bộ phận \\x%l保線;#00ffc040;bảo trì đường ray%l;#; rồi sao.\\nĐó là do ảnh hưởng từ sự cố hôm nọ à?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1657": {
+  "old_vn": "「Hôm nay, tôi đến không phải với tư cách là nhân viên xưởng rượu,\\nmà là để bàn bạc với tư cách Trưởng bộ phận \\x%l保線;#00ffc040;bảo trì đường ray%l;#; của Đường sắt Ohimitera.」",
+  "fix": "「Hôm nay, tôi đến không phải với tư cách là nhân viên xưởng rượu,\\nmà là để bàn bạc với tư cách Trưởng bộ phận \\x%l保線;#00ffc040;bảo trì đường ray%l;#; của Đường sắt Ohitoyo.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1662": {
+  "old_vn": "「Tôi sẽ dùng Navi làm tài sản thế chấp để vay 400 triệu từ Kisaki.\\nSau đó, với cùng điều kiện đó, tôi sẽ cho Đường sắt Ohimitera vay lại.」",
+  "fix": "「Tôi sẽ dùng Navi làm tài sản thế chấp để vay 400 triệu từ Kisaki.\\nSau đó, với cùng điều kiện đó, tôi sẽ cho Đường sắt Ohitoyo vay lại.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1671": {
+  "old_vn": "「Ngược lại…… có lẽ chính vì có bàn quay đầu máy,\\nngười ta mới đưa 8620 vào chạy tuyến Ohimitera - Yui đấy ạ.」",
+  "fix": "「Ngược lại…… có lẽ chính vì có bàn quay đầu máy,\\nngười ta mới đưa 8620 vào chạy tuyến Ohitoyo - Yunoi đấy ạ.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai). 湯医 = \"Yunoi\" (quyết định 19/11; \"Yui\" sai)."
+ },
+ "1686": {
+  "old_vn": "「Vì thế nên đương nhiên, toàn bộ chi phí liên quan đến \\x%l保線;#00ffc040;bảo trì đường ray%l;#;,\\nCông ty Cổ phần Đường sắt Ohimitera dự định sẽ chi trả toàn bộ. Nhưng mà——」",
+  "fix": "「Vì thế nên đương nhiên, toàn bộ chi phí liên quan đến \\x%l保線;#00ffc040;bảo trì đường ray%l;#;,\\nCông ty Cổ phần Đường sắt Ohitoyo dự định sẽ chi trả toàn bộ. Nhưng mà——」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1717": {
+  "old_vn": "「Vâng, kể từ sau khi \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; giải thể, số tiền đó,\\nthành phố có vẻ đã giữ lại dưới dạng khoản thu không rõ người nhận.」",
+  "fix": "「Vâng, kể từ sau khi \\x%l帝鉄;#00ffc040;Teitetsu%l;#; giải thể, số tiền đó,\\nthành phố có vẻ đã giữ lại dưới dạng khoản thu không rõ người nhận.」",
+  "kind": "terminology",
+  "reason": "帝鉄 = \"Teitetsu\" (quyết định 19/11; \"Đường sắt Hoàng gia\" là dịch sai: 帝鉄 = Đường sắt Đế quốc, không phải Hoàng gia)."
+ },
+ "1731": {
+  "old_vn": "「Việc bỏ mặc đường ray xuống cấp là lỗi của Đường sắt Ohimitera mà!\\nTại sao anh hai lại phải làm đến mức đó chứ!?」",
+  "fix": "「Việc bỏ mặc đường ray xuống cấp là lỗi của Đường sắt Ohitoyo mà!\\nTại sao anh hai lại phải làm đến mức đó chứ!?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1735": {
+  "old_vn": "「Vâng. Thẳng thắn mà nói thì,\\nlà do tôi đánh giá hệ thống \\x%l保線;#00ffc040;bảo trì đường ray%l;#; hiện tại của Đường sắt Ohimitera vẫn chưa đủ tốt.」",
+  "fix": "「Vâng. Thẳng thắn mà nói thì,\\nlà do tôi đánh giá hệ thống \\x%l保線;#00ffc040;bảo trì đường ray%l;#; hiện tại của Đường sắt Ohitoyo vẫn chưa đủ tốt.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1766": {
+  "old_vn": "「Tại Ohimitera, nơi có khu vực \\x%lエアクラ;#00ffc040;Aircra%l;#; không thể hoạt động,\\nngân hàng chúng tôi cũng đánh giá cao tính công cộng của đường sắt.」",
+  "fix": "「Tại Ohitoyo, nơi có khu vực \\x%lエアクラ;#00ffc040;Aircra%l;#; không thể hoạt động,\\nngân hàng chúng tôi cũng đánh giá cao tính công cộng của đường sắt.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1797": {
+  "old_vn": "「Anh Urakami, anh được phái cử đến đây,\\nlà để xây dựng nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; ở Ohimitera đúng không?」",
+  "fix": "「Anh Urakami, anh được phái cử đến đây,\\nlà để xây dựng nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; ở Ohitoyo đúng không?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1805": {
+  "old_vn": "「Khu vực rộng lớn quanh ga Yui đều là đất của Đường sắt Ohimitera,\\nnên so với bàn quay đầu máy thì sẽ rẻ hơn rất nhiều…… nhưng mà.」",
+  "fix": "「Khu vực rộng lớn quanh ga Yunoi đều là đất của Đường sắt Ohitoyo,\\nnên so với bàn quay đầu máy thì sẽ rẻ hơn rất nhiều…… nhưng mà.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai). 湯医 = \"Yunoi\" (quyết định 19/11; \"Yui\" sai)."
+ },
+ "1831": {
+  "old_vn": "「Ohimitera đã nhận được sự tiến cử từ điều phối viên địa phương,\\nnhư một ứng cử viên vô cùng tiềm năng. Nhưng mà.」",
+  "fix": "「Ohitoyo đã nhận được sự tiến cử từ điều phối viên địa phương,\\nnhư một ứng cử viên vô cùng tiềm năng. Nhưng mà.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1832": {
+  "old_vn": "「Đương nhiên rồi. Em sẽ dốc toàn lực để giúp đỡ.」",
+  "fix": "「Đương nhiên rồi. Tôi sẽ dốc toàn lực để giúp đỡ.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Em\" → \"Tôi\": \"em\" không bao giờ đúng với Soutetsu; đang đáp lời nhóm/Mayami → \"tôi\"."
+ },
+ "1834": {
+  "old_vn": "「Tất nhiên, giả sử việc thu hút nhà máy bị cưỡng chế tiến hành, sông Kuma bị ô nhiễm,\\nthị trấn Ohimitera bị tàn phá, thì tôi cũng chẳng chết được.」",
+  "fix": "「Tất nhiên, giả sử việc thu hút nhà máy bị cưỡng chế tiến hành, sông Kuma bị ô nhiễm,\\nthị trấn Ohitoyo bị tàn phá, thì tôi cũng chẳng chết được.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1858": {
+  "old_vn": "「Trong thời gian ngắn như vậy mà cô đã đưa ra được bản dự toán này, làm tốt lắm.」",
+  "fix": "「Trong thời gian ngắn như vậy mà em đã đưa ra được bản dự toán này, làm tốt lắm.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette \"cô\" → \"em\": người làm bản dự toán là Paulette (1134); Soutetsu gọi Paulette là \"em\", không phải \"cô\"."
+ },
+ "1874": {
+  "old_vn": "「Nếu trong thời hạn đó có thể hủy bỏ việc thu hút nhà máy,\\ncha hứa sẽ kết thúc thời gian học việc và cho phép em tự lập.」",
+  "fix": "「Nếu trong thời hạn đó có thể hủy bỏ việc thu hút nhà máy,\\ncha hứa sẽ kết thúc thời gian học việc và cho phép anh tự lập.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" → \"anh\": tiếp nối câu trả lời cho câu hỏi của Hibiki ở 1862 (\"Kết hôn với ai?\") — với Hibiki là \"anh\"."
+ },
+ "1896": {
+  "old_vn": "「Với số tiền đó, thì chỉ còn cách đi vay thôi.\\nVì vậy, việc dùng một phần cơ sở vật chất của Đường sắt Ohimitera làm tài sản thế chấp thì.」",
+  "fix": "「Với số tiền đó, thì chỉ còn cách đi vay thôi.\\nVì vậy, việc dùng một phần cơ sở vật chất của Đường sắt Ohitoyo làm tài sản thế chấp thì.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "1928": {
+  "old_vn": "「Không được.\\nĐể cho ngân hàng, thuộc phe ủng hộ nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;,\\nnắm giữ huyết mạch của Đường sắt Ohimitera - thành trì của phe phản đối thì.」",
+  "fix": "「Không được.\\nĐể cho ngân hàng, thuộc phe ủng hộ nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;,\\nnắm giữ huyết mạch của Đường sắt Ohitoyo - thành trì của phe phản đối thì.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "2152": {
+  "old_vn": "“Em nhất định sẽ trả lại toàn bộ”\\nTôi định nói vậy, nhưng lại nuốt vào trong, không thốt ra thành lời.",
+  "fix": "“Tôi nhất định sẽ trả lại toàn bộ”\\nTôi định nói vậy, nhưng lại nuốt vào trong, không thốt ra thành lời.",
+  "kind": "pronoun",
+  "reason": "Độc thoại, lời nghĩ thầm trong ngoặc kép: Soutetsu tự xưng \"Em\" → \"Tôi\". \"Em\" không bao giờ đúng với Soutetsu."
+ },
+ "2402": {
+  "old_vn": "Tôi không thể nào thốt nên lời.\\nNhững câu như 『Em không thể gây rắc rối như vậy được』.",
+  "fix": "Tôi không thể nào thốt nên lời.\\nNhững câu như 『Tôi không thể gây rắc rối như vậy được』.",
+  "kind": "pronoun",
+  "reason": "Độc thoại, lời nghĩ thầm trong ngoặc kép: Soutetsu tự xưng \"Em\" → \"Tôi\". Như 2152."
+ },
+ "2404": {
+  "old_vn": "Tôi kể lại. Không tô vẽ, không e dè.\\nRằng những cuộc gặp gỡ ở Ohimitera đã giúp tôi trưởng thành.",
+  "fix": "Tôi kể lại. Không tô vẽ, không e dè.\\nRằng những cuộc gặp gỡ ở Ohitoyo đã giúp tôi trưởng thành.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "2488": {
+  "old_vn": "Huống hồ, lại còn là người ngoài Ohimitera,\\ncó lẽ đây là một đối tác đàm phán khó nhằn hơn cả Kisaki.",
+  "fix": "Huống hồ, lại còn là người ngoài Ohitoyo,\\ncó lẽ đây là một đối tác đàm phán khó nhằn hơn cả Kisaki.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "2642": {
+  "old_vn": "Chính vì vậy, tôi muốn bảo vệ Ohimitera——\\nBảo vệ nguồn nước và con người của thị trấn này, không muốn chúng bị tổn hại.",
+  "fix": "Chính vì vậy, tôi muốn bảo vệ Ohitoyo——\\nBảo vệ nguồn nước và con người của thị trấn này, không muốn chúng bị tổn hại.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "2674": {
+  "old_vn": "Phòng giám đốc chi nhánh Ohimitera của Ngân hàng Kumamoto——\\nPhòng làm việc của Houshou Kisaki, rất rộng rãi và nhiều ánh sáng.",
+  "fix": "Phòng giám đốc chi nhánh Ohitoyo của Ngân hàng Kumamoto——\\nPhòng làm việc của Houshou Kisaki, rất rộng rãi và nhiều ánh sáng.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11; \"Ohimitera\" sai)."
+ },
+ "2686": {
+  "old_vn": "Chuyện đó là đương nhiên. \\x%l自弁;#00ffc040;Van hãm tự động%l;#;・\\x%l単弁;#00ffc040;van hãm đơn%l;#;——\\nChỉ cần tháo tay gạt \\x%lブレーキ;#00ffc040;phanh%l;#; ra rồi mang sang đầu kia là được.",
+  "fix": "Chuyện đó là đương nhiên. \\x%l自弁;#00ffc040;Van hãm tự động%l;#; và \\x%l単弁;#00ffc040;van hãm đơn%l;#;——\\nChỉ cần tháo tay gạt \\x%lブレーキ;#00ffc040;phanh%l;#; ra rồi mang sang đầu kia là được.",
+  "kind": "minor",
+  "reason": "Dấu ・ (nakaguro Nhật) giữa hai thuật ngữ van hãm trong VN → \" và \" cho tự nhiên tiếng Việt; JP giữ nguyên cấu trúc tag."
+ }
+}

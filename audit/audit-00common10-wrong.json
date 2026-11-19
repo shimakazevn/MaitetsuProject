@@ -1,0 +1,402 @@
+[
+  {
+    "key": "2209",
+    "character": "稀咲",
+    "kind": "gasp",
+    "jp": "「『損得の話じゃない』なんてまるきり妄言じゃないか。\\n得がなければ、この神社だって維持できまい――っ！」",
+    "tw": "「什麼“不是利益的問題”，完全就是胡話嘛。若沒有利益，就連這座神社都無法維持下去！」",
+    "old_vn": "「Cái gì mà 『Không phải chuyện lợi ích』 chứ, toàn là nói xằng nói bậy. Nếu không có lợi ích, thì ngay cả ngôi đền này cũng chẳng duy trì nổi đâu――っ!」",
+    "fix": "「Cái gì mà 『Không phải chuyện lợi ích』 chứ, toàn là nói xằng nói bậy. Nếu không có lợi ích, thì ngay cả ngôi đền này cũng chẳng duy trì nổi đâu――Ư!」",
+    "why": "Sweep raw-tsu: JP kết bằng ――っ! (gasp cuối câu), VN cũ để nguyên ký tự っ. Áp nguyên văn giá trị sweep (đã kiểm chứng đúng JP)."
+  },
+  {
+    "key": "2218",
+    "character": "凪",
+    "kind": "pronoun",
+    "jp": "「水くさかとよ、ふかみちゃん。\\n困った時はお互いさまばいっ！」",
+    "tw": "「你太見外啦，小深。遇到困難就要互相幫助咧！」",
+    "old_vn": "「Khách sáo quá nha, bé Fukami.\\nLúc khó khăn thì phải giúp đỡ lẫn nhau chứ nha!」",
+    "fix": "「Khách sáo quá nha, chị Fukami.\\nLúc khó khăn thì phải giúp đỡ lẫn nhau chứ nha!」",
+    "why": "Nagi (nhỏ tuổi hơn, năm thứ hai, vóc nhỏ) gọi Fukami (lớn tuổi hơn, cao lớn, đại diện chủ bến, làm từ nhỏ) — \"bé\" ngược vai vế. Fukami gọi Nagi là \"bé Nagi\" + tự xưng \"chị\" (2415), nên chiều ngược lại Nagi gọi Fukami là \"chị\". Tiền lệ file 07: Hikari 4 tuổi tự xưng \"chị\" bị sửa — dự án coi trọng đúng hướng tuổi tác."
+  },
+  {
+    "key": "2221",
+    "character": "ふかみ",
+    "kind": "pronoun",
+    "jp": "「凪ちゃんのこと？」",
+    "tw": "「你是指小凪嗎？」",
+    "old_vn": "「Chị nói bé Nagi sao?」",
+    "fix": "「Anh nói bé Nagi sao?」",
+    "why": "Fukami đang hỏi Soutetsu (người vừa khuyên ở 2217; Nagi chen vào ở 2218; Fukami hỏi lại \"凪ちゃんのこと?\" — \"Anh nói bé Nagi sao?\"). Người duy nhất Fukami gọi \"chị\" là Hachiroku, mà Hachiroku không nói gì liên quan ở đây. \"Chị\" không có đối tượng đúng."
+  },
+  {
+    "key": "2228",
+    "character": "凪",
+    "kind": "pronoun",
+    "jp": "「クマ川くだりはお客さんが減りすぎて、船頭さん達が\\nやめてっちゃったって、ふかみちゃん困っとったばい」",
+    "tw": "「來隈河漂流的客人銳減，好多掌棹人都不做了，小深為此傷透了腦筋咧」",
+    "old_vn": "「Khách đi thuyền trên sông Kuma giảm đi nhiều quá, các bác cầm lái\\nnghỉ việc hết trơn, bé Fukami đang gặp khó khăn lắm nha.」",
+    "fix": "「Khách đi thuyền trên sông Kuma giảm đi nhiều quá, các bác cầm lái\\nnghỉ việc hết trơn, chị Fukami đang gặp khó khăn lắm nha.」",
+    "why": "Như 2218: Nagi gọi Fukami — \"chị\" mới đúng hướng tuổi tác."
+  },
+  {
+    "key": "2264",
+    "character": "稀咲",
+    "kind": "terminology",
+    "jp": "「帝大生ということも、家業をお手伝いされてることも\\n――と、そうだ」",
+    "tw": "「包括您就讀於帝大，以及在幫忙打理家業——哦，對了」",
+    "old_vn": "「Chuyện anh là sinh viên Đại học Hoàng gia, chuyện anh đang giúp đỡ công việc gia đình\\n――À, phải rồi.」",
+    "fix": "「Chuyện anh là sinh viên Đại học Đế quốc, chuyện anh đang giúp đỡ công việc gia đình\\n――À, phải rồi.」",
+    "why": "帝大 = 帝国大学 (Đại học Đế quốc). \"Hoàng gia\" là cùng kiểu dịch sai như 帝鉄→\"Đường sắt Hoàng gia\" đã bị bãi bỏ 19/11 (帝 = Đế, không phải Hoàng gia); đối chiếu 2543 帝都→\"Đế đô\" trong cùng file."
+  },
+  {
+    "key": "2276",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「なるほど。湯医-御一夜間なら」",
+    "tw": "「原來如此。若是要在湯醫至御一夜之間往返的話」",
+    "old_vn": "「Ra là vậy. Nếu là đoạn giữa Yui và Ohimitera thì.」",
+    "fix": "「Ra là vậy. Nếu là đoạn giữa Yunoi và Ohitoyo thì.」",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\". (Lần 2 bắt được: bản thảo chỉ sửa Ohimitera, quên Yui→Yunoi trong cùng dòng.)"
+  },
+  {
+    "key": "2352",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「ああ――それはもちろん。いやそういう点で、\\n御一夜を田舎扱いして驚いたのではなくて」",
+    "tw": "「啊——那是當然。不過我並沒有把御一夜當成鄉下而驚訝於這裡居然存在學生任職」",
+    "old_vn": "「À――chuyện đó thì tất nhiên. Không, không phải tôi ngạc nhiên vì coi Ohimitera là vùng quê ở điểm đó.」",
+    "fix": "「À――chuyện đó thì tất nhiên. Không, không phải tôi ngạc nhiên vì coi Ohitoyo là vùng quê ở điểm đó.」",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "2369",
+    "character": "ふかみ",
+    "kind": "sfx",
+    "jp": "「う……はぅ……」",
+    "tw": "「嗚……好……」",
+    "old_vn": "「Ư…… Vâng……」",
+    "fix": "「Ư…… Hau……」",
+    "why": "はぅ là tiếng thốt bối rối, không phải lời đồng ý. VN cũ dịch thành \"Vâng\" (= đồng ý) là sai nghĩa — câu hỏi 2490 (\"Gọi là bé Fukami — được không nhỉ?\") chưa được trả lời đồng ý ở đây. Tiền lệ h7/h8: はうっ→\"Hau\" (giữ âm Nhật, không diễn thành lời). Công thức độ dài nguyên âm: はぅ có 1 ぅ → \"Hau\" có 2 nguyên âm (a+u), khớp."
+  },
+  {
+    "key": "2396",
+    "character": "ふかみ",
+    "kind": "terminology",
+    "jp": "「発船所――[ゆのい,1]湯医にもあるから。\\nもっと上流からの、もっと急流のヤツ」",
+    "tw": "「在湯醫——也有一個發船點。在更加上游的地方，水流更湍急」",
+    "old_vn": "「Bến thuyền――ở Yui cũng có ạ.\\nỞ đoạn thượng nguồn xa hơn, nước chảy xiết hơn.」",
+    "fix": "「Bến thuyền――ở Yunoi cũng có ạ.\\nỞ đoạn thượng nguồn xa hơn, nước chảy xiết hơn.」",
+    "why": "Quyết định 19/11: 湯医/湯医線 = \"Yunoi\" (furigana ゆのい ghi ngay trong JP dòng này: [ゆのい,1]湯医)."
+  },
+  {
+    "key": "2430",
+    "character": "凪",
+    "kind": "pronoun",
+    "jp": "「ふかみちゃーーん！」",
+    "tw": "「小深——！」",
+    "old_vn": "「Bé Fukami ơiii!」",
+    "fix": "「Chị Fukami ơiii!」",
+    "why": "Như 2218: Nagi gọi Fukami — \"chị\"."
+  },
+  {
+    "key": "2475",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「僕は――」",
+    "tw": "「我——」",
+    "old_vn": "「Anh――」",
+    "fix": "「Tôi――」",
+    "why": "Soutetsu đang nói với Hachiroku (cảnh ma/quỷ: 1863, 2804, 2784, 2626 đều là Hachiroku; 2479 tiếp nối cùng cảnh). Quy tắc: \"tôi\" với Hachiroku."
+  },
+  {
+    "key": "2477",
+    "character": "双鉄",
+    "kind": "meaning",
+    "jp": "「どう……だろうな」",
+    "tw": "「我……不確定」",
+    "old_vn": "「Chắc……là vậy rồi.」",
+    "fix": "「Sao…… nhỉ.」",
+    "why": "JP 「どう……だろうな」 = \"Sao nhỉ / Không biết nữa\" (do dự, không chắc). VN cũ \"Chắc là vậy rồi\" khẳng định quá mạnh, mâu thuẫn với độc thoại ngay sau (3226: \"Không thể trả lời. Ngay cả bản thân tôi cũng không hiểu.\"). TW cũng là 不確定 (không chắc)."
+  },
+  {
+    "key": "2479",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「幽霊も鬼も恐れはしない。\\n現実は常に、そうしたものを駆逐するから」",
+    "tw": "「我不害怕鬼怪幽靈。因為現實總會將它們排除在外」",
+    "old_vn": "「Anh không sợ ma hay quỷ.\\nVì thực tế luôn xua đuổi những thứ đó.」",
+    "fix": "「Tôi không sợ ma hay quỷ.\\nVì thực tế luôn xua đuổi những thứ đó.」",
+    "why": "Soutetsu trả lời Hachiroku (2626 cô ấy hỏi \"Thực tế mới là điều ngài e sợ nhất sao?\"). Quy tắc: \"tôi\" với Hachiroku."
+  },
+  {
+    "key": "2486",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「ひとまずは、御一夜の駅まで戻ろうと思うが」",
+    "tw": "「我們打算先回御一夜的車站」",
+    "old_vn": "「Trước mắt, bọn anh định quay lại ga Ohimitera.」",
+    "fix": "「Trước mắt, bọn anh định quay lại ga Ohitoyo.」",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "2508",
+    "character": "ハチロク",
+    "kind": "terminology",
+    "jp": "「双鉄様からご紹介にあずかりました、旧\\x%l帝鉄;#00ffc040;帝鉄%l;\\x%l8620;#;#00ffc040;8620%l;#;形\\n\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;、\\x%l8620;#00ffc040;8620%l;#;専用\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;、ハチロクです」",
+    "tw": "「我是剛才承蒙雙鐵少爺介紹的，前\\x%l帝鉄;#00ffc040;帝國鐵路%l;\\x%l8620;#;#00ffc040;８６２０%l;#;型\\x%l蒸気機関車;#00ffc040;蒸汽機車%l;#;、\\x%l8620;#00ffc040;８６２０%l;#;專用\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;，八六」",
+    "old_vn": "「Em là Hachiroku, \\x%lレイルロオド;#00ffc040;Railord%l;#; chuyên dụng của \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; \\x%l8620;#00ffc040;8620%l;#;,\\nthuộc dòng \\x%l8620;#00ffc040;8620%l;#; của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ, như ngài Soutetsu vừa giới thiệu ạ.」",
+    "fix": "「Em là Hachiroku, \\x%lレイルロオド;#00ffc040;Railord%l;#; chuyên dụng của \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; \\x%l8620;#00ffc040;8620%l;#;,\\nthuộc dòng \\x%l8620;#00ffc040;8620%l;#; của \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũ, như ngài Soutetsu vừa giới thiệu ạ.」",
+    "why": "Quyết định 19/11: 帝鉄 = \"Teitetsu\" (viết tắt của 帝国鉄道 = Đường sắt Đế quốc, không phải \"Hoàng gia\"). Chỉ sửa gloss trong thẻ %l, giữ nguyên cấu trúc thẻ. Lưu ý: JP ở dòng này có thẻ dị dạng (đóng %l; thiếu dấu ; cuối + thừa \\x%l8620;#;) — VN đã chuẩn hóa thành thẻ thường từ trước, không sửa thêm."
+  },
+  {
+    "key": "2510",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「工場誘致を撤回させようと御一夜に戻ってきた者だ。\\nせっかくなので、少し話をさせてもらえるかな？」",
+    "tw": "「我是為了阻止工廠落戶而回到御一夜的。這次機會難得，我們可以談談嗎？」",
+    "old_vn": "「Tôi là người trở về Ohimitera để yêu cầu hủy bỏ việc thu hút nhà máy.\\nNhân cơ hội này, chúng ta có thể nói chuyện một chút được không?」",
+    "fix": "「Tôi là người trở về Ohitoyo để yêu cầu hủy bỏ việc thu hút nhà máy.\\nNhân cơ hội này, chúng ta có thể nói chuyện một chút được không?」",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "2604",
+    "character": "凪",
+    "kind": "pronoun",
+    "jp": "「そうばい！　このにーさんらは、うちたちの味方ばい！\\nじゃっけーん、ふかみちゃんとこ、連れてきたばいっ！」",
+    "tw": "「沒錯咧！大哥哥他們是跟咱們同一個陣營的！所以咱把他們帶來見小深咧！」",
+    "old_vn": "「Đúng nha! Mấy anh chị này là đồng minh của chúng ta nha!\\nThế nên, em mới dẫn đến chỗ bé Fukami nha!」",
+    "fix": "「Đúng nha! Mấy anh chị này là đồng minh của chúng ta nha!\\nThế nên, em mới dẫn đến chỗ chị Fukami nha!」",
+    "why": "Như 2218: Nagi nói về Fukami — \"chị\"."
+  },
+  {
+    "key": "2605",
+    "character": "ふかみ",
+    "kind": "terminology",
+    "jp": "「そう。だからトラック。です。\\n今は、湯医の発船場、人が足りなくて使ってないけど」",
+    "tw": "「沒錯，所以要用到卡車。雖然現在湯醫發船點，因人手不夠而不再使用了」",
+    "old_vn": "「Đúng vậy. Thế nên mới cần xe tải. Ạ.\\nBây giờ bến thuyền ở Yui thiếu người nên không dùng nữa.」",
+    "fix": "「Đúng vậy. Thế nên mới cần xe tải. Ạ.\\nBây giờ bến thuyền ở Yunoi thiếu người nên không dùng nữa.」",
+    "why": "Quyết định 19/11: 湯医 = \"Yunoi\"."
+  },
+  {
+    "key": "2642",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「見事な手際だったな。\\n凪が、『ふかみちゃんは小さな頃から』と言っていたが」",
+    "tw": "「真是叫人讚嘆的技術啊。聽凪說，“小深是從小開始做的”」",
+    "old_vn": "「Tay nghề điêu luyện thật đấy.\\nNagi có nói là 『bé Fukami làm từ hồi nhỏ』 nhỉ.」",
+    "fix": "「Tay nghề điêu luyện thật đấy.\\nNagi có nói là 『chị Fukami làm từ hồi nhỏ』 nhỉ.」",
+    "why": "Soutetsu trích lời Nagi (\"Nagi có nói là…\") nên dùng đúng cách gọi của Nagi: \"chị Fukami\"."
+  },
+  {
+    "key": "2656",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「確かにな。澄み切っている感じを受ける。\\nここは、昔も今も変わらず」",
+    "tw": "「確實啊。這裡給人一種無比清新的感覺。無論過去還是現在，這裡都沒有改變」",
+    "old_vn": "「Đúng vậy. Anh cũng cảm thấy rất trong lành.\\nNơi này, xưa nay vẫn không hề thay đổi.」",
+    "fix": "「Đúng vậy. Tôi cũng cảm thấy rất trong lành.\\nNơi này, xưa nay vẫn không hề thay đổi.」",
+    "why": "Soutetsu đáp lại Hachiroku 2640 (\"ngôi đền rất đẹp ạ\") — \"cũng\" nối tiếp lời cô ấy; Fukami không có mặt ở đền. Quy tắc: \"tôi\" với Hachiroku."
+  },
+  {
+    "key": "2708",
+    "character": "ふかみ",
+    "kind": "terminology",
+    "jp": "「おまたせいたしました。御一夜クマ川くだり発船所、\\n受付の早瀬でございます」",
+    "tw": "「讓您久等了。這裡是御一夜隈河漂流發船點，我是櫃臺接待早瀨」",
+    "old_vn": "「Xin lỗi vì đã để quý khách phải đợi. Đây là bến thuyền xuôi dòng Kuma Ohimitera,\\nnhân viên tiếp tân Hayase xin nghe.」",
+    "fix": "「Xin lỗi vì đã để quý khách phải đợi. Đây là bến thuyền xuôi dòng Kuma Ohitoyo,\\nnhân viên tiếp tân Hayase xin nghe.」",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "2767",
+    "character": "ふかみ",
+    "kind": "terminology",
+    "jp": "「だったら、丁度いい――\\nえっと、\\x%l帝鉄;#00ffc040;帝鉄%l;#;？　とかいうので働いてたっていう人が」",
+    "tw": "「那正好，有一位曾經在那個……\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;？曾經在那裡工作的人」",
+    "old_vn": "「Vậy thì, vừa hay――\\nƯm, có một người từng làm việc ở \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;? hay gì đó ạ.」",
+    "fix": "「Vậy thì, vừa hay――\\nƯm, có một người từng làm việc ở \\x%l帝鉄;#00ffc040;Teitetsu%l;#;? hay gì đó ạ.」",
+    "why": "Quyết định 19/11: 帝鉄 = \"Teitetsu\"."
+  },
+  {
+    "key": "2771",
+    "character": "ハチロク",
+    "kind": "terminology",
+    "jp": "「[じゅつせんはいたんこう,4]術仙廃炭鉱でしたか。あの近く――\\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;が使えなくなる場所を通るのですね？」",
+    "tw": "「那裡有術仙廢煤礦呀。是為了通過那一段\\x%lエアクラ;#00ffc040;空凝機%l;#;無法使用的道路對吧？」",
+    "old_vn": "「Mỏ than bỏ hoang Jussen phải không ạ. Gần đó――\\nlà đi qua khu vực không thể sử dụng \\x%lエアクラ;#00ffc040;Aircra%l;#; đúng không ạ?」",
+    "fix": "「Mỏ than bỏ hoang Jutsu-sen phải không ạ. Gần đó――\\nlà đi qua khu vực không thể sử dụng \\x%lエアクラ;#00ffc040;Aircra%l;#; đúng không ạ?」",
+    "why": "Quyết định 19/11: 術仙 = \"Jutsu-sen\" (tiền lệ Grand 04 sửa 4× \"Jussen\"). Ruby JP [じゅつせんはいたんこう,4] xác nhận đọc \"jutsen\"."
+  },
+  {
+    "key": "2778",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「ならば、ともに頑張ろう。\\n御一夜の観光復権で、湯医発船場も復活だ」",
+    "tw": "「那麼，就讓我們一起努力吧。通過御一夜的旅遊業復興，讓湯醫發船點的生意也興隆起來」",
+    "old_vn": "「Nếu vậy, chúng ta cùng cố gắng nhé.\\nPhục hưng du lịch Ohimitera, cũng là hồi sinh bến thuyền Yui.」",
+    "fix": "「Nếu vậy, chúng ta cùng cố gắng nhé.\\nPhục hưng du lịch Ohitoyo, cũng là hồi sinh bến thuyền Yunoi.」",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\". (Lần 2 bắt được: bản thảo chỉ sửa Ohimitera, quên Yui→Yunoi trong cùng dòng.)"
+  },
+  {
+    "key": "2779",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「ならば、僕とハチロクにクマ川下りを経験させてくれ。\\n料金は、無論、大人二人分を払う」",
+    "tw": "「那麼，就讓我和八六體驗一回隈河漂流吧。當然，我們會按兩名成人的價格付款」",
+    "old_vn": "「Nếu vậy, hãy cho tôi và Hachiroku trải nghiệm đi thuyền xuôi dòng Kuma đi.\\nĐương nhiên là tôi sẽ trả tiền vé cho hai người lớn.」",
+    "fix": "「Nếu vậy, hãy cho anh và Hachiroku trải nghiệm đi thuyền xuôi dòng Kuma đi.\\nĐương nhiên là anh sẽ trả tiền vé cho hai người lớn.」",
+    "why": "Soutetsu nói với Fukami: Fukami gọi Soutetsu là \"anh Soutetsu\" (双鉄おにいさん, key 2706; docs pronouns_detail.md cũng ghi \"Anh Soutetsu\"). Trong file Soutetsu xưng \"anh\" với Fukami 12 dòng (1881, 2520, 2573, 2629, 2781, 2375, 2486, 2782, 2656→sửa, 2475/2479→sửa, 1868); dòng 2779 dùng \"tôi\" là lạc nhịp duy nhất. Sửa cả 2 chỗ \"tôi\" trong dòng."
+  },
+  {
+    "key": "2801",
+    "character": "ハチロク",
+    "kind": "terminology",
+    "jp": "「御一夜は、水の匂いのする町ですが……\\nここの空気は、ひときわ澄み切っているようです」",
+    "tw": "「雖然御一夜是一座飄蕩著水香的城市……但這裡的空氣似乎更加的清新無比」",
+    "old_vn": "「Ohimitera là một thị trấn thoang thoảng mùi nước……\\nNhưng không khí ở đây dường như lại trong lành hơn hẳn.」",
+    "fix": "「Ohitoyo là một thị trấn thoang thoảng mùi nước……\\nNhưng không khí ở đây dường như lại trong lành hơn hẳn.」",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "2813",
+    "character": "ハチロク",
+    "kind": "terminology",
+    "jp": "「鬼に、幽霊。\\n御一夜は、意外と恐ろしい土地なのですね」",
+    "tw": "「鬼還有幽靈。沒想到御一夜還有些可怕呀」",
+    "old_vn": "「Quỷ, rồi lại ma.\\nOhimitera là một vùng đất đáng sợ ngoài sức tưởng tượng nhỉ.」",
+    "fix": "「Quỷ, rồi lại ma.\\nOhitoyo là một vùng đất đáng sợ ngoài sức tưởng tượng nhỉ.」",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "2815",
+    "character": "ハチロク",
+    "kind": "gasp",
+    "jp": "「っ！？」",
+    "tw": "「！？」",
+    "old_vn": "「!?」",
+    "fix": "「Ư!?」",
+    "why": "Sweep lost-gasp-whole: JP 「っ！？」 là cả dòng chỉ có gasp, VN cũ chỉ còn \"!?\". Áp nguyên văn giá trị sweep."
+  },
+  {
+    "key": "2995",
+    "character": "monologue",
+    "kind": "gasp",
+    "jp": "念のため、名刺を受け取り仔細に見れば、そこにはやはり、\\n『隈元銀行　御一夜支店長』の文字列――っ！？",
+    "tw": "以防萬一我仔細查看了收下的名片，在那裡果然寫著“隈元銀行·御一夜支行行長”一行字——！？",
+    "old_vn": "Để chắc chắn, tôi nhận lấy tấm danh thiếp và nhìn kỹ, quả nhiên trên đó ghi,\\n『Giám đốc chi nhánh Ohimitera, Ngân hàng Kumamoto』――っ!?",
+    "fix": "Để chắc chắn, tôi nhận lấy tấm danh thiếp và nhìn kỹ, quả nhiên trên đó ghi,\\n『Giám đốc chi nhánh Ohitoyo, Ngân hàng Kumamoto』――Ư!?",
+    "why": "Sweep raw-tsu: JP kết bằng ――っ！？, VN cũ để nguyên っ. Áp giá trị sweep + sửa Ohimitera→Ohitoyo trong cùng dòng (tên trên danh thiếp)."
+  },
+  {
+    "key": "3005",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "ハチロクの依頼どおり、\\x%l乗務鞄;#00ffc040;乗務鞄%l;#;は肌身離さず扱っている。\\n中にはもちろん、\\x%l運転体;#00ffc040;運転体%l;#;だ。",
+    "tw": "依照八六的要求，我隨身攜帶著\\x%l乗務鞄;#00ffc040;乘務包%l;#;。裡面裝著的自然是\\x%l運転体;#00ffc040;駕駛體%l;#;。",
+    "old_vn": "Theo lời nhờ vả của Hachiroku, tôi luôn giữ \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#; khư khư bên mình.\\nBên trong tất nhiên là \\x%l運転体;#00ffc040;kíp lái%l;#; rồi.",
+    "fix": "Theo lời nhờ vả của Hachiroku, tôi luôn giữ \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#; khư khư bên mình.\\nBên trong tất nhiên là \\x%l運転体;#00ffc040;thân vận hành%l;#; rồi.",
+    "why": "Quyết định 19/11: 運転体 = \"thân vận hành\" (là thân thể/bộ phận, không phải kíp người — tiền lệ file 08 sửa 5 dòng). Gloss 乗務鞄 \"túi phi hành đoàn\" GIỮ NGUYÊN chờ Hieu chốt ở đợt thống nhất (tiền lệ file 08)."
+  },
+  {
+    "key": "3092",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "ふかみが僕に教えてくれた、旧\\x%l帝鉄;#00ffc040;帝鉄%l;#;の元職員――\\n赤井神社の宮司に会うため。",
+    "tw": "去見深美介紹的那位前\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;原職員——赤井神社的宮司。",
+    "old_vn": "Để gặp cựu nhân viên của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ mà Fukami đã cho tôi biết――\\nCung tư tế của đền Akai.",
+    "fix": "Để gặp cựu nhân viên của \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũ mà Fukami đã cho tôi biết――\\nĐền chủ của đền Akai.",
+    "why": "Quyết định 19/11: 帝鉄 = \"Teitetsu\"; 宮司 = \"đền chủ\" (không dùng \"Cung tư tế\"). Hai sửa trong một dòng."
+  },
+  {
+    "key": "3129",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "頷いて――その瞬間にそうかと気付く。\\n『隈元銀行御一夜支店』の、支店長。",
+    "tw": "在點頭的瞬間，我突然想起來。“隈元銀行御一夜支行”的支行長。",
+    "old_vn": "Gật đầu――và ngay khoảnh khắc đó tôi chợt nhận ra.\\nGiám đốc chi nhánh của 『Ngân hàng Kumamoto chi nhánh Ohimitera』.",
+    "fix": "Gật đầu――và ngay khoảnh khắc đó tôi chợt nhận ra.\\nGiám đốc chi nhánh của 『Ngân hàng Kumamoto chi nhánh Ohitoyo』.",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "3217",
+    "character": "monologue",
+    "kind": "pronoun",
+    "jp": "お参りをした。\\n汰斗さんと、日々姫と真闇姉とに連れられて。",
+    "tw": "我曾經在汰斗老爺、日日姬與真闇姐的帶領下來這裡參拜過。",
+    "old_vn": "Anh từng đến đây viếng đền rồi.\\nĐược ông Taito, Hibiki và chị Mayami dẫn đi.",
+    "fix": "Tôi từng đến đây viếng đền rồi.\\nĐược ông Taito, Hibiki và chị Mayami dẫn đi.",
+    "why": "Độc thoại (không có 「」): Soutetsu tự thuật — \"anh\" trong độc thoại là sai (ngoại lệ h3 1683 chỉ cho phép \"mình\" trong độc thoại nội tâm tự vấn cảm xúc; \"anh\" không bao giờ đúng ở độc thoại)."
+  },
+  {
+    "key": "3254",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "蓑笠老人がおっしゃってくださったように、\\n御一夜における観光の実態を学ぶことこそが最優先だ。",
+    "tw": "正如蓑笠老人所說的那樣，現在最要緊的是了解御一夜旅遊業的實際情況。",
+    "old_vn": "Như lời ông lão Minokasa đã nói,\\nviệc tìm hiểu thực trạng du lịch ở Ohimitera mới là ưu tiên hàng đầu.",
+    "fix": "Như lời ông lão Minokasa đã nói,\\nviệc tìm hiểu thực trạng du lịch ở Ohitoyo mới là ưu tiên hàng đầu.",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "3268",
+    "character": "monologue",
+    "kind": "meaning",
+    "jp": "川の顔だの表情だのを、まるで考えたこともないが、\\n毎日見ているものには、少し興味が湧いてくる。",
+    "tw": "河川的面容與表情，我雖然之前從來都沒有想過，此刻卻對這些每天都見到的景色產生了些許興趣。",
+    "old_vn": "Chưa bao giờ tôi nghĩ về khuôn mặt hay biểu cảm của dòng sông,\\nnhưng nghe những điều người ta thấy hàng ngày, tôi bỗng thấy hơi tò mò.",
+    "fix": "Chưa bao giờ tôi nghĩ về khuôn mặt hay biểu cảm của dòng sông,\\nnhưng thứ mà tôi nhìn thấy mỗi ngày khiến tôi bỗng thấy hơi tò mò.",
+    "why": "Bịa thêm nghĩa (kiểu Gemini): JP 毎日見ているものには、少し興味が湧いてくる = \"thứ tôi nhìn thấy mỗi ngày khiến tôi hơi tò mò\" — không có \"nghe\" (聞) và không có \"người ta\" trong JP. VN cũ tự thêm cả hai. (Lần 2: bỏ \"lại\" thừa trong bản thảo fix.)"
+  },
+  {
+    "key": "3296",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "ふかみは、深みを持っている。\\n引き出せたなら、恐らくは、御一夜を支える力になる。",
+    "tw": "深美，很有深度。若能將其發掘出來，或許，她能成為支撐御一夜的力量。",
+    "old_vn": "Fukami có chiều sâu.\\nNếu có thể khơi gợi nó ra, có lẽ cô bé sẽ trở thành sức mạnh chống đỡ cho Ohimitera.",
+    "fix": "Fukami có chiều sâu.\\nNếu có thể khơi gợi nó ra, có lẽ cô bé sẽ trở thành sức mạnh chống đỡ cho Ohitoyo.",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "3356",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "そうしてここは、御一夜有数の観光スポット。\\nだというのに……まるで人の気配がない。",
+    "tw": "而這裡是御一夜為數不多的觀光景點，可是……卻空無一人。",
+    "old_vn": "Vậy mà nơi đây, một trong những địa điểm du lịch nổi tiếng của Ohimitera.\\nLại vắng tanh vắng ngắt... chẳng có lấy một bóng người.",
+    "fix": "Vậy mà nơi đây, một trong những địa điểm du lịch nổi tiếng của Ohitoyo.\\nLại vắng tanh vắng ngắt... chẳng có lấy một bóng người.",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  },
+  {
+    "key": "3359",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "\\x%l運転体;#00ffc040;運転体%l;#;のときと変わらず僕のヒザに乗るハチロクも、\\nそのまま動きにつられ、揺られる。",
+    "tw": "與使用\\x%l運転体;#00ffc040;駕駛體%l;#;時一樣坐在我膝蓋上的八六，也被我的轉身帶動，搖晃了一下。",
+    "old_vn": "Hachiroku vẫn ngồi trên đùi tôi y như lúc dùng \\x%l運転体;#00ffc040;kíp lái%l;#;,\\ncũng bị chuyển động đó làm cho đung đưa theo.",
+    "fix": "Hachiroku vẫn ngồi trên đùi tôi y như lúc dùng \\x%l運転体;#00ffc040;thân vận hành%l;#;,\\ncũng bị chuyển động đó làm cho đung đưa theo.",
+    "why": "Quyết định 19/11: 運転体 = \"thân vận hành\"."
+  },
+  {
+    "key": "3376",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "\\x%lタブレット;#00ffc040;タブレット%l;#;を換装すればジュニアサイズも大きくなるが\\nさてその場合、救命胴衣はどう扱われる――おや。",
+    "tw": "若將\\x%lタブレット;#00ffc040;操作板%l;#;更換到駕駛體的話，就連兒童救生衣都會顯得太大。那樣的話，不知該穿什麼尺碼的救生衣——哦？",
+    "old_vn": "Nếu đổi \\x%lタブレット;#00ffc040;thẻ bảng%l;#; thì size trẻ em cũng sẽ thành to thôi,\\nnhưng trong trường hợp đó thì xử lý áo phao thế nào đây――ủa.",
+    "fix": "Nếu đổi \\x%lタブレット;#00ffc040;máy tính bảng%l;#; thì size trẻ em cũng sẽ thành to thôi,\\nnhưng trong trường hợp đó thì xử lý áo phao thế nào đây――ủa.",
+    "why": "Quyết định: タブレット = \"máy tính bảng\" (tiền lệ file 04/08)."
+  },
+  {
+    "key": "3404",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "御一夜に銀行といえば、ひとつしかない。",
+    "tw": "說到御一夜的銀行，就只有一間了。",
+    "old_vn": "Nói đến ngân hàng ở Ohimitera, thì chỉ có một.",
+    "fix": "Nói đến ngân hàng ở Ohitoyo, thì chỉ có một.",
+    "why": "Quyết định 19/11: 御一夜 = \"Ohitoyo\", không dùng \"Ohimitera\"."
+  }
+]

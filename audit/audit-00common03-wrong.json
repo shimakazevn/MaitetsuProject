@@ -1,0 +1,152 @@
+[
+ {
+  "key": "911",
+  "character": "双鉄",
+  "jp": "「\\x%l帝鉄;#00ffc040;帝鉄%l;#;末期……」",
+  "tw": "「\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;末期…」",
+  "old_vn": "「Cuối thời kỳ \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;……」",
+  "fix": "「Cuối thời kỳ \\x%l帝鉄;#00ffc040;Teitetsu%l;#;……」",
+  "kind": "terminology",
+  "reason": "帝鉄 → Teitetsu theo quyết định 19/11 (bỏ 'Đường sắt Hoàng gia' — 帝鉄 là 帝国鉄道, không phải 皇室)."
+ },
+ {
+  "key": "912",
+  "character": "ハチロク",
+  "jp": "「\\x%l帝鉄;#00ffc040;帝鉄%l;#;末期には、\\x%l保線;#00ffc040;保線%l;#;係の不足も甚だしい物となりました。\\nあの時期、鉄道事故が多発した一因は、それです」",
+  "tw": "「\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;末期，\\x%l保線;#00ffc040;巡線%l;#;員嚴重不足，也是那段時期鐵路事故多發的誘因之一」",
+  "old_vn": "「Vào cuối thời kỳ \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;, tình trạng thiếu hụt nhân viên \\x%l保線;#00ffc040;bảo trì đường ray%l;#; đã trở nên vô cùng nghiêm trọng.\\nĐó chính là một trong những nguyên nhân khiến tai nạn đường sắt xảy ra liên tục vào thời điểm đó.」",
+  "fix": "「Vào cuối thời kỳ \\x%l帝鉄;#00ffc040;Teitetsu%l;#;, tình trạng thiếu hụt nhân viên \\x%l保線;#00ffc040;bảo trì đường ray%l;#; đã trở nên vô cùng nghiêm trọng. Đó chính là một trong những nguyên nhân khiến tai nạn đường sắt xảy ra liên tục vào thời điểm đó.」",
+  "kind": "terminology",
+  "reason": "帝鉄 → Teitetsu theo quyết định 19/11; đồng thời gộp \\n thành một dòng theo quy ước fix (game tự ngắt dòng)."
+ },
+ {
+  "key": "1147",
+  "character": "ナビ",
+  "jp": "「隠れてなどいません。\\n本機の姿は、あなたの視界に捉えられています」",
+  "tw": "「並未有所隱藏。本機一直就在你的視線之中」",
+  "old_vn": "「Tôi không hề lẩn trốn.\\nHình dáng của hệ thống này vẫn luôn nằm trong tầm nhìn của cô đấy.」",
+  "fix": "「Tôi không hề lẩn trốn. Hình dáng của hệ thống này vẫn luôn nằm trong tầm nhìn của anh đấy.」",
+  "kind": "pronoun",
+  "reason": "Navi nói với Soutetsu (nam) mà VN dùng 'cô' — sai xưng hô. Navi gọi Soutetsu là 'anh' ở cả dự án (vd. lr真闇追加01 1372); 'cô' cho Soutetsu chỉ xuất hiện đúng dòng này. Sửa thành 'anh'."
+ },
+ {
+  "key": "1200",
+  "character": "双鉄",
+  "jp": "「人が悪いのも仕方ないのだ。\\nなにせ僕は、御一夜市の生まれではない」",
+  "tw": "「使點壞心眼又有何不可。你可知道，我也不是生在御一夜市的啊」",
+  "old_vn": "「Xấu tính thì cũng đành chịu thôi.\\nDù sao thì tôi cũng không sinh ra ở thành phố Ohimitera mà.」",
+  "fix": "「Xấu tính thì cũng đành chịu thôi. Dù sao thì tôi cũng không sinh ra ở thành phố Ohitoyo mà.」",
+  "kind": "terminology",
+  "reason": "御一夜 → Ohitoyo theo quyết định 19/11 (không dùng Ohimitera)."
+ },
+ {
+  "key": "1273",
+  "character": "ハチロク",
+  "jp": "「っ！！！」",
+  "tw": "「啊！！！」",
+  "old_vn": "「!!!」",
+  "fix": "「Ư!!!」",
+  "kind": "gasp",
+  "reason": "Sweep gasp (lost-gasp-whole): JP là tiếng rên っ!!! nguyên dòng, TW 啊!!!, VN chỉ còn '!!!' — mất âm. Fix theo sweep: Ư!!!"
+ },
+ {
+  "key": "1274",
+  "character": "ハチロク",
+  "jp": "「っ！？」",
+  "tw": "「啊！？」",
+  "old_vn": "「!?」",
+  "fix": "「Ư!?」",
+  "kind": "gasp",
+  "reason": "Sweep gasp (lost-gasp-whole): JP っ!? nguyên dòng, TW 啊!?, VN chỉ còn '!?'. Fix theo sweep: Ư!?"
+ },
+ {
+  "key": "1309",
+  "character": "ハチロク",
+  "jp": "「はい。かしこまりました双鉄様――\\nっ！？　なにっ？　\\x%l共感;#00ffc040;共感%l;#;っ！？」",
+  "tw": "「好的，我明白了，雙鐵少爺！？什麼？\\x%l共感;#00ffc040;共鳴%l;#;！？」",
+  "old_vn": "「Vâng. Em hiểu rồi thưa ngài Soutetsu——\\n!? Cái gì? \\x%l共感;#00ffc040;Cộng cảm%l;#;!?」",
+  "fix": "「Vâng. Em hiểu rồi thưa ngài Soutetsu——Ư!? Cái gì? \\x%l共感;#00ffc040;Cộng cảm%l;#;!?」",
+  "kind": "gasp",
+  "reason": "Sweep-missed gasp: JP có 3 tiếng っ — っ!? đứng một mình sau ―― là tiếng rên thật (Hachiroku giật mình), VN chỉ còn '!?'. Hai っ còn lại (なにっ? / 共感っ!?) là っ nhấn mạnh gắn vào từ, theo quy tắc không thêm Ư. Chỉ thêm Ư cho tiếng rên đứng một mình."
+ },
+ {
+  "key": "1318",
+  "character": "ハチロク",
+  "jp": "「怒ってないから、むしろです。\\n平手打ちを余分にひとつ。わたくしは双鉄様に」",
+  "tw": "「就是因為不生氣了才這麼說。我還欠雙鐵少爺一件事才算扯平了」",
+  "old_vn": "「Chính vì không giận nên mới thế ạ.\\nMột cái tát tay thừa thãi. Em đã dành cho ngài Soutetsu.」",
+  "fix": "「Chính vì không giận nên mới thế ạ. Một cái tát thừa. Em còn nợ ngài Soutetsu một cái.」",
+  "kind": "meaning",
+  "reason": "Hieu chốt 19/11 23:37: hướng 'còn nợ' theo TW. JP cụt ở 「わたくしは双鉄様に」 (không động từ) nên mơ hồ; TW đọc là Hachiroku còn nợ Soutetsu một cái tát mới hòa, khớp mạch おあいこ xuyên suốt cảnh (1306, 1380 'hòa nhau, sòng phẳng'); bản cũ đọc ngược thành 'đã dành cho' (đã tát)."
+ },
+ {
+  "key": "1323",
+  "character": "ハチロク",
+  "jp": "「そうであっても！　\\x%lエアクラ;#00ffc040;エアクラ%l;#;になぞっ」",
+  "tw": "「就算粉身碎骨，我也不要乘什麼\\x%lエアクラ;#00ffc040;空凝機%l;#;」",
+  "old_vn": "「Dù có vậy đi chăng nữa! Em cũng không thèm đi \\x%lエアクラ;#00ffc040;Aircra%l;#;っ」",
+  "fix": "「Dù có vậy đi chăng nữa! Em cũng không thèm đi \\x%lエアクラ;#00ffc040;Aircra%l;#;Ư」",
+  "kind": "gasp",
+  "reason": "Sweep gasp (raw-tsu): VN còn nguyên ký tự Nhật っ ở cuối câu. Fix theo sweep: thay bằng Ư."
+ },
+ {
+  "key": "1358",
+  "character": "双鉄",
+  "jp": "「ハチロクが想像しているのの、多分数倍は痛い奴だ。\\nこつんでもごつんでもなく、ガン！　と来た」",
+  "tw": "「恐怕比八六你想的還要痛好幾倍吧。捶或者掄其實都太輕，說一頓狠揍更合適」",
+  "old_vn": "「Chắc chắn là đau gấp mấy lần những gì Hachiroku tưởng tượng đấy.\\nKhông phải là cái gõ nhẹ hay cái cốc đầu đâu, mà là một cú giáng trời giáng! luôn.」",
+  "fix": "「Chắc chắn là đau gấp mấy lần những gì Hachiroku tưởng tượng đấy. Không phải là cái gõ nhẹ hay cái cốc đầu đâu, mà là một cú trời giáng! luôn.」",
+  "kind": "minor",
+  "reason": "Lỗi văn phong nhỏ: 'một cú giáng trời giáng!' lặp từ 'giáng' hai lần, đọc lủng củng. JP ガン!と来た = một cú trời giáng."
+ },
+ {
+  "key": "1430",
+  "character": "双鉄",
+  "jp": "「そうだな。僕もそう思った。そして同時に――\\nこの人は僕を叱ってくれると、ホっとした」",
+  "tw": "「是啊，我也這麼覺得。而當我發現她願意訓斥我，我也感到很安心」",
+  "old_vn": "「Đúng vậy. Tôi cũng nghĩ thế. Và đồng thời——\\nTôi cảm thấy nhẹ nhõm vì người này đã chịu mắng mình.」",
+  "fix": "「Đúng vậy. Tôi cũng nghĩ thế. Và đồng thời—— Tôi cảm thấy nhẹ nhõm vì người này đã chịu mắng tôi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu độc thoại dùng 'mình' làm tân ngữ ('mắng mình') — theo tiền lệ pilot 1652 (đẩy mình → đẩy tôi), tân ngữ 'mình' của Soutetsu phải về 'tôi'. ('Mình' ở mệnh đề phụ/quan hệ/sở hữu/phản thân không tính lỗi — tiền lệ hearing 2151/2247/2248.)"
+ },
+ {
+  "key": "1435",
+  "character": "双鉄",
+  "jp": "「御一夜[じょうし,1]城址。あそこからも御一夜の町並みを見下ろせる。\\n無論、ここからほどに広くは無理だが」",
+  "tw": "「是御一夜城遺址。從那裡也可以俯瞰御一夜的街道。當然論視野開闊的話比起這裡還是略遜一籌」",
+  "old_vn": "「Đó là tàn tích thành Ohimitera. Từ đó cũng có thể nhìn xuống toàn cảnh thành phố.\\nTất nhiên là không thể rộng bằng góc nhìn từ trên này được.」",
+  "fix": "「Đó là tàn tích thành Ohitoyo. Từ đó cũng có thể nhìn xuống toàn cảnh thành phố. Tất nhiên là không thể rộng bằng góc nhìn từ trên này được.」",
+  "kind": "terminology",
+  "reason": "御一夜城址 → 'tàn tích thành Ohitoyo' theo quyết định 19/11."
+ },
+ {
+  "key": "1506",
+  "character": "双鉄",
+  "jp": "「歩いて見る御一夜の町は、また別の顔だ。\\n歩くうち、あるいは見覚えに出くわすかもしれん」",
+  "tw": "「漫步其中時看到的御一夜，又是另一幅景象。多去走走的話，或許會想起往昔的回憶呢」",
+  "old_vn": "「Thành phố Ohimitera khi dạo bước ngắm nhìn sẽ mang một vẻ đẹp khác.\\nTrong lúc đi dạo, biết đâu em lại bắt gặp một khung cảnh quen thuộc nào đó.」",
+  "fix": "「Thành phố Ohitoyo khi dạo bước ngắm nhìn sẽ mang một vẻ đẹp khác. Trong lúc đi dạo, biết đâu em lại bắt gặp một khung cảnh quen thuộc nào đó.」",
+  "kind": "terminology",
+  "reason": "御一夜の町 → 'Thành phố Ohitoyo' theo quyết định 19/11."
+ },
+ {
+  "key": "2025",
+  "character": "monologue",
+  "jp": "ごくまっとうに、ごくごく普通に――\\n僕を扱ってくれる人間に、ようやく出会えて。",
+  "tw": "終於遇到可以普普通通，自然待我的人了。",
+  "old_vn": "Một cách rất chính đáng, rất đỗi bình thường——\\nCuối cùng tôi cũng gặp được những người đối xử với mình như bao người khác.",
+  "fix": "Một cách rất chính đáng, rất đỗi bình thường—— Cuối cùng tôi cũng gặp được những người đối xử với tôi như bao người khác.",
+  "kind": "pronoun",
+  "reason": "Soutetsu độc thoại dùng 'mình' làm tân ngữ ('đối xử với mình') — theo tiền lệ pilot 1652, về 'tôi'."
+ },
+ {
+  "key": "2106",
+  "character": "monologue",
+  "jp": "素朴な疑問を伝えれば、\\nハチロクはふふ、と満足そうな笑みを浮かべる。",
+  "tw": "面對這樣質樸的疑問，八六露出了滿足的笑容。",
+  "old_vn": "Khi tôi nói ra thắc mắc giản đơn đó,\\nHachiroku mỉm cười đầy mãn nguyện.",
+  "fix": "Khi tôi nói ra thắc mắc giản đơn đó, Hachiroku khẽ bật cười đầy mãn nguyện.",
+  "kind": "sfx",
+  "reason": "JP có tiếng cười ふふ (Hachiroku 'fufu, tỏ vẻ mãn nguyện mỉm cười') mà VN chỉ còn 'mỉm cười' — mất âm cười. Quy tắc 'không để mất âm': thêm tiếng cười 'khẽ bật cười'."
+ }
+]

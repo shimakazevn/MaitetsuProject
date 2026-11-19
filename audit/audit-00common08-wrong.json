@@ -1,0 +1,344 @@
+[
+  {
+    "key": "71",
+    "kind": "pronoun",
+    "jp": "\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;の傷も自然に「治る」のか、\\nハチロクにも傷跡があるのに気付いちゃう。",
+    "tw": "\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;的傷也會自然“癒合”嗎？我注意到八六身上也有傷痕。",
+    "old_vn": "Vết thương của \\x%lレイルロオド;#00ffc040;Railord%l;#; cũng tự nhiên \"lành\" lại sao,\\nem nhận ra trên người Hachiroku cũng có vết sẹo.",
+    "fix": "Vết thương của \\x%lレイルロオド;#00ffc040;Railord%l;#; cũng tự nhiên \"lành\" lại sao,\\ntôi nhận ra trên người Hachiroku cũng có vết sẹo.",
+    "reason": "Độc thoại Soutetsu: tự xưng \"em\" → \"tôi\". Đây là quan sát thường (nhận ra vết sẹo), không phải tự vấn cảm xúc nội tâm nên không thuộc ngoại lệ \"mình\"; và \"em\" càng không phải cách Soutetsu tự xưng."
+  },
+  {
+    "key": "76",
+    "kind": "pronoun",
+    "jp": "\\x%l整備体;#00ffc040;整備体%l;#;……私より少し小さいハチロクは、\\nぱっと見だったら、人間の女の子そのものだ。",
+    "tw": "\\x%l整備体;#00ffc040;整備體%l;#;……比我稍顯嬌小的八六，乍看之下和人類女孩一模一樣。",
+    "old_vn": "\\x%l整備体;#00ffc040;Thân chính%l;#;……Hachiroku, người nhỏ bé hơn em một chút,\\nnhìn thoáng qua thì giống hệt một bé gái con người.",
+    "fix": "\\x%l整備体;#00ffc040;thân bảo trì%l;#;……Hachiroku, người nhỏ bé hơn tôi một chút,\\nnhìn thoáng qua thì giống hệt một bé gái con người.",
+    "reason": "Hai lỗi một dòng: (a) gloss 整備体 \"Thân chính\" → \"thân bảo trì\" theo quyết định #11 (19/11); (b) độc thoại Soutetsu: 私より = \"hơn tôi\", tự xưng \"em\" → \"tôi\"."
+  },
+  {
+    "key": "77",
+    "kind": "terminology",
+    "jp": "\\x%l整備体;#00ffc040;整備体%l;#;のハチロクは、\\n運転席とおぼしき場所に置いてある、黒い鞄を僕に示す。",
+    "tw": "\\x%l整備体;#00ffc040;整備體%l;#;的八六指著放在似乎是駕駛座上的黑色皮包。",
+    "old_vn": "Hachiroku trong \\x%l整備体;#00ffc040;thân chính%l;#;,\\nchỉ cho tôi xem một chiếc cặp màu đen đặt ở nơi có vẻ như là ghế lái.",
+    "fix": "Hachiroku trong \\x%l整備体;#00ffc040;thân bảo trì%l;#;,\\nchỉ cho tôi xem một chiếc cặp màu đen đặt ở nơi có vẻ như là ghế lái.",
+    "reason": "Gloss 整備体 \"thân chính\" → \"thân bảo trì\" theo quyết định #11."
+  },
+  {
+    "key": "1456",
+    "kind": "terminology",
+    "jp": "――音がする。それと同時に\\x%l運転体;#00ffc040;運転体%l;#;のハチロクが、\\nぜんまい切れを起こしたように崩れてしまう。",
+    "tw": "——聲音傳來，與此同時\\x%l運転体;#00ffc040;駕駛體%l;#;的八六好像是發條鬆了一樣倒在了地上。",
+    "old_vn": "——Một âm thanh vang lên. Cùng lúc đó, \\x%l運転体;#00ffc040;kíp lái%l;#; của Hachiroku\\nđổ gục xuống như một món đồ chơi bị đứt cót.",
+    "fix": "――Một âm thanh vang lên. Cùng lúc đó, \\x%l運転体;#00ffc040;thân vận hành%l;#; của Hachiroku\\nđổ gục xuống như một món đồ chơi bị đứt cót.",
+    "reason": "運転体 là thân thể vận hành (TW: 駕駛體), không phải một kíp người (\"kíp lái\"). Theo cặp gloss đã chốt (運転ボディ = \"thân vận hành\")."
+  },
+  {
+    "key": "1480",
+    "kind": "terminology",
+    "jp": "「\\x%lタブレット;#00ffc040;タブレット%l;#;は……お前の、魂なのか？」",
+    "tw": "「\\x%lタブレット;#00ffc040;操作板%l;#;……那是你的靈魂嗎？」",
+    "old_vn": "「\\x%lタブレット;#00ffc040;Thẻ bảng%l;#;……là linh hồn của em sao?」",
+    "fix": "「\\x%lタブレット;#00ffc040;máy tính bảng%l;#;……là linh hồn của em sao?」",
+    "reason": "タブレット = \"máy tính bảng\" theo thuật ngữ đã chốt (操作板/タブレット); \"Thẻ bảng\" sai nghĩa — lỗi giống file 07 key 2525."
+  },
+  {
+    "key": "1486",
+    "kind": "tag",
+    "jp": "「\\x%l乗務鞄;#00ffc040;乗務鞄%l;#;の中には、運転[ボディ]体が収まるようになっています」",
+    "tw": "「\\x%l乗務鞄;#00ffc040;乘務包%l;#;裡面，剛好可以放下駕駛體」",
+    "old_vn": "「Bên trong \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#; được thiết kế để vừa vặn chứa \\x%l運転体;#00ffc040;kíp lái%l;#; ạ.」",
+    "fix": "「Bên trong \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#; được thiết kế để vừa vặn chứa thân vận hành ạ.」",
+    "reason": "Hai lỗi: (a) VN tự thêm thẻ %l cho 運転体 — JP chỉ có [ボディ] dạng ruby trong ngoặc, không có thẻ %l — gỡ theo tiền lệ reina02; (b) gloss 運転体 \"kíp lái\" → \"thân vận hành\" (xem 1456). Gloss 乗務鞄 \"túi phi hành đoàn\" giữ nguyên, ghi vào mục thống nhất (§10)."
+  },
+  {
+    "key": "1490",
+    "kind": "gasp",
+    "jp": "「っ――」",
+    "tw": "「——」",
+    "old_vn": "「——」",
+    "fix": "「Ư――」",
+    "reason": "JP là gasp nguyên dòng っ + gạch ngang; VN chỉ giữ gạch ngang, mất hẳn tiếng gasp. Sweep-missed (sweep chỉ có 1996/2098/2099 ở file này) — theo quy tắc gasp nguyên dòng → Ư."
+  },
+  {
+    "key": "1688",
+    "kind": "pronoun",
+    "jp": "「いや？　予想よりもずっと早かった」",
+    "tw": "「不。比我預想的要快得多了」",
+    "old_vn": "「Không đâu? Nhanh hơn anh tưởng nhiều.」",
+    "fix": "「Không đâu? Nhanh hơn tôi tưởng nhiều.」",
+    "reason": "Soutetsu nói với Hachiroku — cả đoạn 1688–1725 chỉ có Soutetsu + Hachiroku, Hibiki mãi 1728 mới lên tiếng — nên tự xưng \"anh\" sai (\"anh\" chỉ với Hibiki) → \"tôi\"."
+  },
+  {
+    "key": "1725",
+    "kind": "pronoun",
+    "jp": "「予想よりもずっと早く、はるかに見事な歩みだった」",
+    "tw": "「你的步伐比我預想的還要邁得更快，更漂亮」",
+    "old_vn": "「Nhanh hơn anh tưởng nhiều, và là một bước đi vô cùng tuyệt vời.」",
+    "fix": "「Nhanh hơn tôi tưởng nhiều, và là một bước đi vô cùng tuyệt vời.」",
+    "reason": "Soutetsu khen bước đi của Hachiroku, nói với Hachiroku → tự xưng \"anh\" sai → \"tôi\" (xem 1688)."
+  },
+  {
+    "key": "1747",
+    "kind": "tag",
+    "jp": "「ハチロクさん、整備[ボディ]体ですねぇ。\\nすてきですぅ、とっても、とってもきれいですぅ」",
+    "tw": "「八六小姐，這是整備體吧。太漂亮了，真是美極了」",
+    "old_vn": "「Chị Hachiroku, là \\x%l整備体;#00ffc040;thân chính%l;#; nhỉ~.\\nTuyệt quá đi ạ~, cực kỳ, cực kỳ đẹp luôn đó ạ~」",
+    "fix": "「Chị Hachiroku, là thân bảo trì nhỉ~.\\nTuyệt quá đi ạ~, cực kỳ, cực kỳ đẹp luôn đó ạ~」",
+    "reason": "Hai lỗi: (a) VN tự thêm thẻ %l cho 整備体 — JP chỉ có [ボディ] dạng ruby, không có thẻ %l — gỡ theo tiền lệ reina02; (b) gloss \"thân chính\" → \"thân bảo trì\" theo quyết định #11."
+  },
+  {
+    "key": "1782",
+    "kind": "pronoun",
+    "jp": "「破損箇所のマークにだったら十分すぎるだろう。\\n始めたい。ハチロク。どうか指導を頼む」",
+    "tw": "「只是標出破損處的話已經足夠了吧。八六，我想先做起來，請你指導我吧」",
+    "old_vn": "「Để đánh dấu những chỗ hư hỏng thì thế này là quá đủ rồi.\\nAnh muốn bắt đầu. Hachiroku. Nhờ em chỉ dẫn cho anh nhé.」",
+    "fix": "「Để đánh dấu những chỗ hư hỏng thì thế này là quá đủ rồi.\\nTôi muốn bắt đầu. Hachiroku. Nhờ em chỉ dẫn cho tôi nhé.」",
+    "reason": "Soutetsu nói với Hachiroku (gọi tên cô ấy trong câu) → tự xưng \"anh\" ×2 sai → \"tôi\" ×2. \"Nhờ em\" (gọi Hachiroku) giữ nguyên, đúng."
+  },
+  {
+    "key": "1810",
+    "kind": "tag",
+    "jp": "「ああ……よかった。\\nわたくしです――わたくしの整備[ボディ]体です」",
+    "tw": "「啊……太好了。那就是我——我的整備體」",
+    "old_vn": "「A……may quá.\\nLà em——là \\x%l整備体;#00ffc040;thân chính%l;#; của em ạ.」",
+    "fix": "「A……may quá.\\nLà em——là thân bảo trì của em ạ.」",
+    "reason": "Hai lỗi: (a) VN tự thêm thẻ %l cho 整備体 — JP chỉ có [ボディ] dạng ruby — gỡ theo tiền lệ reina02; (b) gloss \"thân chính\" → \"thân bảo trì\"."
+  },
+  {
+    "key": "1855",
+    "kind": "pronoun",
+    "jp": "「ありがたい。\\nその時には、遠慮をしている余裕など無くなろうからな」",
+    "tw": "「太感謝了。因為到時候，恐怕也沒辦法跟你客氣了啊」",
+    "old_vn": "「Cảm ơn cô.\\nĐến lúc đó thì chắc tôi cũng chẳng còn tâm trí đâu mà khách sáo nữa.」",
+    "fix": "「Cảm ơn em.\\nĐến lúc đó thì chắc tôi cũng chẳng còn tâm trí đâu mà khách sáo nữa.」",
+    "reason": "Soutetsu cảm ơn Reina — cô ấy vừa nói sẽ ở lại cùng anh cho đỡ chán (1846–1847) — nên \"Cảm ơn cô\" sai → \"Cảm ơn em\"."
+  },
+  {
+    "key": "1858",
+    "kind": "pronoun",
+    "jp": "「さてと、ハチロク。指示してくれ。\\n２３：００には終わらせたい」",
+    "tw": "「好了，八六，給我指示吧。我想在２３：００前做完工作」",
+    "old_vn": "「Được rồi, Hachiroku. Ra chỉ thị cho anh đi.\\nAnh muốn hoàn thành trước 23:00.」",
+    "fix": "「Được rồi, Hachiroku. Ra chỉ thị cho tôi đi.\\nTôi muốn hoàn thành trước 23:00.」",
+    "reason": "Soutetsu nói với Hachiroku (gọi tên trong câu) → tự xưng \"anh\" ×2 sai → \"tôi\" ×2."
+  },
+  {
+    "key": "1876",
+    "kind": "pronoun",
+    "jp": "「諦めるなら、反対はせん。\\n僕はお前の望みに従い――\\x%l8620;#00ffc040;8620%l;#;を殺してしまおう」",
+    "tw": "「如果你想放棄，我也不反對。我會如你所願——殺死\\x%l8620;#00ffc040;８６２０%l;#;」",
+    "old_vn": "「Nếu em bỏ cuộc, anh sẽ không phản đối.\\nAnh sẽ làm theo ý em——giết chết \\x%l8620;#00ffc040;8620%l;#;.」",
+    "fix": "「Nếu em bỏ cuộc, tôi sẽ không phản đối.\\nTôi sẽ làm theo ý em——giết chết \\x%l8620;#00ffc040;8620%l;#;.」",
+    "reason": "Soutetsu nói với Hachiroku → tự xưng \"anh\" ×2 sai → \"tôi\" ×2. \"Nếu em bỏ cuộc\" / \"làm theo ý em\" (gọi Hachiroku) giữ nguyên."
+  },
+  {
+    "key": "1881",
+    "kind": "terminology",
+    "jp": "「これを……御一夜まで引っ張ってきたのか」",
+    "tw": "「它……就這麼被一路拖回了御一夜嗎」",
+    "old_vn": "「Thứ này……đã bị kéo lê đến tận Ohimitera sao.」",
+    "fix": "「Thứ này……đã bị kéo lê đến tận Ohitoyo sao.」",
+    "reason": "御一夜 = \"Ohitoyo\" theo quyết định đã chốt; \"Ohimitera\" là dạng cũ cần thống nhất."
+  },
+  {
+    "key": "1897",
+    "kind": "pronoun",
+    "jp": "「僕とお前だ。\\n集中すれば、こなせよう」",
+    "tw": "「憑你我，集中精力肯定能完成」",
+    "old_vn": "「Có anh và em mà.\\nChỉ cần tập trung thì sẽ làm được thôi.」",
+    "fix": "「Có tôi và em mà.\\nChỉ cần tập trung thì sẽ làm được thôi.」",
+    "reason": "Soutetsu nói với Hachiroku (僕とお前だ) → tự xưng \"anh\" sai → \"tôi\"."
+  },
+  {
+    "key": "1901",
+    "kind": "pronoun",
+    "jp": "「手は貸さん。\\nハチロク、お前は、お前の足だけで立ち上がれ」",
+    "tw": "「我不會幫你的。八六，你要靠你自己的雙腳站起來」",
+    "old_vn": "「Anh sẽ không giúp đâu.\\nHachiroku, em phải tự đứng lên bằng chính đôi chân của mình.」",
+    "fix": "「Tôi sẽ không giúp đâu.\\nHachiroku, em phải tự đứng lên bằng chính đôi chân của mình.」",
+    "reason": "Soutetsu nói với Hachiroku → tự xưng \"Anh\" sai → \"Tôi\". \"Đôi chân của mình\" giữ nguyên — \"mình\" ở đây là chân của Hachiroku (phản thân ngôi hai, JP: お前の足), không phải Soutetsu tự xưng."
+  },
+  {
+    "key": "1921",
+    "kind": "pronoun",
+    "jp": "「わかった。そのときにハチロクのやり方を見て学ぼう」",
+    "tw": "「我知道了。到時候看看八六你是怎麼做的吧」",
+    "old_vn": "「Anh hiểu rồi. Lúc đó anh sẽ quan sát cách làm của em rồi học theo.」",
+    "fix": "「Tôi hiểu rồi. Lúc đó tôi sẽ quan sát cách làm của em rồi học theo.」",
+    "reason": "Soutetsu nói với Hachiroku → tự xưng \"anh\" ×2 sai → \"tôi\" ×2."
+  },
+  {
+    "key": "1923",
+    "kind": "pronoun",
+    "jp": "「わかった。責任をもって預かろう」",
+    "tw": "「我知道了。我會負起責任收好它的」",
+    "old_vn": "「Anh hiểu rồi. Anh sẽ giữ nó cẩn thận.」",
+    "fix": "「Tôi hiểu rồi. Tôi sẽ giữ nó cẩn thận.」",
+    "reason": "Soutetsu nói với Hachiroku (nhận giữ 乗務鞄) → tự xưng \"anh\" ×2 sai → \"tôi\" ×2."
+  },
+  {
+    "key": "1929",
+    "kind": "terminology",
+    "jp": "「\\x%lタブレット;#00ffc040;タブレット%l;#;を交換します。\\n驚かないでくださいましね？」",
+    "tw": "「我要交換\\x%lタブレット;#00ffc040;操作板%l;#;了。您可不要吃驚哦？」",
+    "old_vn": "「Em sẽ đổi \\x%lタブレット;#00ffc040;thẻ bảng%l;#;.\\nNgài đừng ngạc nhiên nhé?」",
+    "fix": "「Em sẽ đổi \\x%lタブレット;#00ffc040;máy tính bảng%l;#;.\\nNgài đừng ngạc nhiên nhé?」",
+    "reason": "タブレット = \"máy tính bảng\" theo thuật ngữ đã chốt; \"thẻ bảng\" sai nghĩa."
+  },
+  {
+    "key": "1937",
+    "kind": "pronoun",
+    "jp": "「ここから先は僕も一緒だ。\\nハチロク、まずは何から始める？」",
+    "tw": "「接下來的路，有我陪你走。八六，首先該做什麼？」",
+    "old_vn": "「Từ đây trở đi sẽ có anh đồng hành.\\nHachiroku, trước tiên chúng ta bắt đầu từ đâu?」",
+    "fix": "「Từ đây trở đi sẽ có tôi đồng hành.\\nHachiroku, trước tiên chúng ta bắt đầu từ đâu?」",
+    "reason": "Soutetsu nói với Hachiroku (gọi tên trong câu) → tự xưng \"anh\" sai → \"tôi\"."
+  },
+  {
+    "key": "1958",
+    "kind": "pronoun",
+    "jp": "「そうか？　綺麗な図面に見えるが」",
+    "tw": "「是嗎？圖紙看起來挺漂亮的啊」",
+    "old_vn": "「Vậy sao? Anh thấy bản vẽ đẹp mà.」",
+    "fix": "「Vậy sao? Tôi thấy bản vẽ đẹp mà.」",
+    "reason": "Soutetsu nhận xét bản vẽ của Hachiroku, nói với cô ấy → tự xưng \"anh\" sai → \"tôi\"."
+  },
+  {
+    "key": "1974",
+    "kind": "pronoun",
+    "jp": "「ポーレット、よければ――そしてもしも有ればだが、\\n\\x%l8620;#00ffc040;8620%l;#;の状態の方を見ておいてもらえるか」",
+    "tw": "「波萊特，如果可以的話——前提是\\x%l8620;#00ffc040;８６２０%l;#;在這裡的話——你能去幫我確認一下它的狀況嗎」",
+    "old_vn": "「Paulette, nếu cô muốn——và giả sử nó có ở đó thật,\\nthì cô có thể vào xem tình trạng của \\x%l8620;#00ffc040;8620%l;#; trước giúp tôi được không?」",
+    "fix": "「Paulette, nếu em muốn——và giả sử nó có ở đó thật,\\nthì em có thể vào xem tình trạng của \\x%l8620;#00ffc040;8620%l;#; trước giúp tôi được không?」",
+    "reason": "Soutetsu gọi Paulette \"cô\" ×2 → \"em\" theo quyết định thống nhất (Soutetsu→Paulette = \"em\")."
+  },
+  {
+    "key": "1982",
+    "kind": "terminology",
+    "jp": "「れいなも、\\x%l整備体;#00ffc040;整備体%l;#;で来てよかったですぅ。\\nがんばってハチロクさんのお手伝いをしちゃいますねぇ」",
+    "tw": "「玲奈幸好也是用\\x%l整備体;#00ffc040;整備體%l;#;過來的。這樣就能幫八六小姐好多忙了」",
+    "old_vn": "「May mà Reina cũng đến bằng \\x%l整備体;#00ffc040;thân chính%l;#; nha~.\\nReina sẽ cố gắng hết sức giúp đỡ chị Hachiroku đó nha~」",
+    "fix": "「May mà Reina cũng đến bằng \\x%l整備体;#00ffc040;thân bảo trì%l;#; nha~.\\nReina sẽ cố gắng hết sức giúp đỡ chị Hachiroku đó nha~」",
+    "reason": "Gloss 整備体 \"thân chính\" → \"thân bảo trì\" theo quyết định #11."
+  },
+  {
+    "key": "1991",
+    "kind": "terminology",
+    "jp": "「人間の体に例えるのなら、\\n\\x%lタブレット;#00ffc040;タブレット%l;#;は、脳に近いかとわたくしは」",
+    "tw": "「用人類的身體來比喻的話，我覺得\\x%lタブレット;#00ffc040;操作板%l;#;應該更接近於大腦吧」",
+    "old_vn": "「Nếu so sánh với cơ thể con người,\\nthì em nghĩ \\x%lタブレット;#00ffc040;thẻ bảng%l;#; giống với bộ não hơn ạ.」",
+    "fix": "「Nếu so sánh với cơ thể con người,\\nthì em nghĩ \\x%lタブレット;#00ffc040;máy tính bảng%l;#; giống với bộ não hơn ạ.」",
+    "reason": "タブレット = \"máy tính bảng\" theo thuật ngữ đã chốt; \"thẻ bảng\" sai nghĩa."
+  },
+  {
+    "key": "1996",
+    "kind": "gasp",
+    "jp": "「そら、ハチロク。入ったぞ――っ！？」",
+    "tw": "「看啊，八六，我們到了——！？」",
+    "old_vn": "「Đó, Hachiroku. Vào rồi đấy——!?」",
+    "fix": "「Đó, Hachiroku. Vào rồi đấy——Ư!?」",
+    "reason": "Sweep lost-gasp-trailing: JP kết bằng ――っ！？, VN giữ gạch ngang nhưng mất gasp — chèn Ư sau gạch ngang. Lấy nguyên văn từ sweep."
+  },
+  {
+    "key": "1999",
+    "kind": "pronoun",
+    "jp": "「すまなかったな。だが、助かった」",
+    "tw": "「真對不起。不過你真的幫了大忙」",
+    "old_vn": "「Xin lỗi em nhé. Nhưng nhờ có em mà anh đỡ vất vả hơn nhiều.」",
+    "fix": "「Xin lỗi em nhé. Nhưng nhờ có em mà tôi đỡ vất vả hơn nhiều.」",
+    "reason": "Soutetsu nói với Hachiroku → tự xưng \"anh\" sai → \"tôi\"."
+  },
+  {
+    "key": "2076",
+    "kind": "pronoun",
+    "jp": "「ならばハチロク。僕は、今一度だけ問おう。\\nお前は、\\x%l8620;#00ffc040;8620%l;#;を助けるものか？　見捨てるものか？」",
+    "tw": "「那麼八六，我現在就只問你一次。你是來拯救\\x%l8620;#00ffc040;８６２０%l;#;的，還是來拋棄它的？」",
+    "old_vn": "「Vậy thì Hachiroku. Anh sẽ hỏi em một lần cuối.\\nEm sẽ cứu \\x%l8620;#00ffc040;8620%l;#; chứ? Hay là bỏ mặc nó?」",
+    "fix": "「Vậy thì Hachiroku. Tôi sẽ hỏi em một lần cuối.\\nEm sẽ cứu \\x%l8620;#00ffc040;8620%l;#; chứ? Hay là bỏ mặc nó?」",
+    "reason": "Soutetsu nói với Hachiroku (gọi tên trong câu) → tự xưng \"anh\" sai → \"tôi\"."
+  },
+  {
+    "key": "2084",
+    "kind": "pronoun",
+    "jp": "「そ、双鉄くんっ！？」",
+    "tw": "「雙、雙鐵君！？」",
+    "old_vn": "「S-Soutetsu-kun!?」",
+    "fix": "「A-Anh Soutetsu!?」",
+    "reason": "B4: JP là 双鉄くん, Paulette gọi Soutetsu. Bản cũ giữ romaji \"Soutetsu-kun\" — theo khóa B4 thì dạng gọi này luôn là \"anh Soutetsu\" (không có ngoại lệ rên; đây cũng không phải cảnh đánh vần tên như file 04 key 2214). Giữ lại nét lắp bắp bằng \"A-Anh\"."
+  },
+  {
+    "key": "2098",
+    "kind": "gasp",
+    "jp": "「っ！」",
+    "tw": "「！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」",
+    "reason": "Sweep lost-gasp-whole: JP nguyên dòng 「っ！」, VN chỉ còn dấu chấm than — chèn Ư. Lấy nguyên văn từ sweep."
+  },
+  {
+    "key": "2099",
+    "kind": "gasp",
+    "jp": "「っ！！」",
+    "tw": "「！！」",
+    "old_vn": "「!!」",
+    "fix": "「Ư!!」",
+    "reason": "Sweep lost-gasp-whole: JP nguyên dòng 「っ！！」, VN chỉ còn dấu chấm than — chèn Ư. Lấy nguyên văn từ sweep."
+  },
+  {
+    "key": "2453",
+    "kind": "terminology",
+    "jp": "倒れている\\x%l整備体;#00ffc040;整備体%l;#;の服の胸元を開け、\\nそこから何か、ネックレスのようなものを引き出して――",
+    "tw": "她拉開\\x%l整備体;#00ffc040;整備體%l;#;胸口的衣服，從中取出一條像是項鍊一樣的東西——",
+    "old_vn": "Em ấy mở phần ngực áo của \\x%l整備体;#00ffc040;thân chính%l;#; đang nằm gục ra,\\nrút từ đó ra một thứ gì đó giống như một chiếc vòng cổ——",
+    "fix": "Em ấy mở phần ngực áo của \\x%l整備体;#00ffc040;thân bảo trì%l;#; đang nằm gục ra,\\nrút từ đó ra một thứ gì đó giống như một chiếc vòng cổ——",
+    "reason": "Gloss 整備体 \"thân chính\" → \"thân bảo trì\" theo quyết định #11."
+  },
+  {
+    "key": "2517",
+    "kind": "terminology",
+    "jp": "鞄を開けば、ハチロクが僕に\\x%l運転体;#00ffc040;運転体%l;#;をそっと手渡す。\\n鞄の中へ――ああ、これは見事にきっちり収まるものだ。",
+    "tw": "我打開皮包，八六輕輕將她的\\x%l運転体;#00ffc040;駕駛體%l;#;遞給我。我把它放進皮包中——啊，真的是剛剛好的大小。",
+    "old_vn": "Khi tôi mở cặp ra, Hachiroku nhẹ nhàng trao \\x%l運転体;#00ffc040;kíp lái%l;#; cho tôi.\\nCho vào trong cặp——à, quả thực là vừa khít luôn.",
+    "fix": "Khi tôi mở cặp ra, Hachiroku nhẹ nhàng trao \\x%l運転体;#00ffc040;thân vận hành%l;#; cho tôi.\\nCho vào trong cặp——à, quả thực là vừa khít luôn.",
+    "reason": "運転体 \"kíp lái\" → \"thân vận hành\" (xem 1456)."
+  },
+  {
+    "key": "2529",
+    "kind": "terminology",
+    "jp": "ハチロクの求めるままに\\x%l運転体;#00ffc040;運転体%l;#;を床へと下ろせば、\\n小さな体は倒れる体に、静かに静かに歩み寄る。",
+    "tw": "我按照八六的要求把她的\\x%l運転体;#00ffc040;駕駛體%l;#;放到地板上。她小小的身體默默地朝倒在地上的那副身體走去。",
+    "old_vn": "Làm theo yêu cầu của Hachiroku, tôi đặt \\x%l運転体;#00ffc040;kíp lái%l;#; xuống sàn nhà,\\ncơ thể nhỏ bé đó lặng lẽ, lặng lẽ tiến lại gần cơ thể đang nằm gục kia.",
+    "fix": "Làm theo yêu cầu của Hachiroku, tôi đặt \\x%l運転体;#00ffc040;thân vận hành%l;#; xuống sàn nhà,\\ncơ thể nhỏ bé đó lặng lẽ, lặng lẽ tiến lại gần cơ thể đang nằm gục kia.",
+    "reason": "運転体 \"kíp lái\" → \"thân vận hành\" (xem 1456)."
+  },
+  {
+    "key": "2547",
+    "kind": "terminology",
+    "jp": "ポーレットとれいなに案内されて、\\n御一夜駅のホームを通り、敷地の更に奥へと進む。",
+    "tw": "我被波萊特和玲奈帶著穿過御一夜車站的站台，往更深處走去。",
+    "old_vn": "Được Paulette và Reina dẫn đường,\\nchúng tôi đi qua sân ga Ohimitera, tiến sâu hơn vào bên trong khuôn viên.",
+    "fix": "Được Paulette và Reina dẫn đường,\\nchúng tôi đi qua sân ga Ohitoyo, tiến sâu hơn vào bên trong khuôn viên.",
+    "reason": "御一夜 = \"Ohitoyo\"; \"Ohimitera\" là dạng cũ. Đây là lần Ohimitera cuối cùng trong file này — sau file này, 00_Common còn 103 lần (xem §9)."
+  },
+  {
+    "key": "2692",
+    "kind": "terminology",
+    "jp": "\\x%l乗務鞄;#00ffc040;乗務鞄%l;#;のずっしりとした重さに比べ、\\nあまりに軽かった\\x%l運転体;#00ffc040;運転体%l;#;。",
+    "tw": "與\\x%l乗務鞄;#00ffc040;乘務包%l;#;的沉重比起來，\\x%l運転体;#00ffc040;駕駛體%l;#;實在是顯得太輕了。",
+    "old_vn": "So với độ nặng trịch của \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#;,\\nthì \\x%l運転体;#00ffc040;kíp lái%l;#; lại quá đỗi nhẹ nhàng.",
+    "fix": "So với độ nặng trịch của \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#;,\\nthì \\x%l運転体;#00ffc040;thân vận hành%l;#; lại quá đỗi nhẹ nhàng.",
+    "reason": "運転体 \"kíp lái\" → \"thân vận hành\" (xem 1456). Gloss 乗務鞄 \"túi phi hành đoàn\" giữ nguyên — ghi vào mục thống nhất (§10)."
+  },
+  {
+    "key": "2836",
+    "kind": "terminology",
+    "jp": "（あれが\\x%lタブレット;#00ffc040;タブレット%l;#;とやらか？\\n交換、とハチロクは言っていたが……）",
+    "tw": "（那就是\\x%lタブレット;#00ffc040;操作板%l;#;嗎？八六說要交換這個……）",
+    "old_vn": "（Đó là cái gọi là \\x%lタブレット;#00ffc040;thẻ bảng%l;#; sao?\\nHachiroku có nói là đổi, nhưng mà……）",
+    "fix": "（Đó là cái gọi là \\x%lタブレット;#00ffc040;máy tính bảng%l;#; sao?\\nHachiroku có nói là đổi, nhưng mà……）",
+    "reason": "タブレット = \"máy tính bảng\" theo thuật ngữ đã chốt; \"thẻ bảng\" sai nghĩa."
+  }
+]

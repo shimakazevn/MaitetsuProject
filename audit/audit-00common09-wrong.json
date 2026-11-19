@@ -1,0 +1,362 @@
+[
+  {
+    "key": "102",
+    "character": "monologue",
+    "kind": "meaning",
+    "jp": "\\x%l8620;#00ffc040;8620%l;#;改修は現状、妨害に耐えられるような計画ではない。\\nであるのならば、堅いところから始めるべきだ。",
+    "tw": "\\x%l8620;#00ffc040;８６２０%l;#;的修復計劃現狀並非牢不可破。那麼我們就應該從最艱難的部分開始。",
+    "old_vn": "Kế hoạch sửa chữa \\x%l8620;#00ffc040;8620%l;#; hiện tại chưa đủ vững chắc để chống chọi lại những hành động phá hoại.\\nNếu vậy, chúng ta nên bắt đầu từ những nơi an toàn nhất.",
+    "fix": "Kế hoạch sửa chữa \\x%l8620;#00ffc040;8620%l;#; hiện tại chưa đủ vững chắc để chống chọi lại những hành động phá hoại.\\nNếu vậy, chúng ta nên bắt đầu từ những chỗ khó khăn nhất.",
+    "why": "JP 堅いところ = chỗ khó khăn/cứng rắn; TW 從最艱難的部分開始. Bản cũ dịch ngược nghĩa (\"nơi an toàn nhất\")."
+  },
+  {
+    "key": "2161",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「そういってもらえればありがたい」",
+    "tw": "「你能這麼說我很開心」",
+    "old_vn": "「Cô nói vậy tôi thấy rất biết ơn.」",
+    "fix": "「Ông nói vậy tôi thấy rất biết ơn.」",
+    "why": "Đối tượng là ông lão Minokasa (蓑笠老人). Gọi ông lão là \"cô\" sai. (Đối chiếu 2464 cùng file: Soutetsu với Minokasa dùng \"Ông\".)"
+  },
+  {
+    "key": "2182",
+    "character": "路子",
+    "kind": "tag",
+    "jp": "「れっしゃのゆか、木の板だからいたいよぉ」",
+    "tw": "「列車的地板是木頭鋪的，掉下來好痛啦～」",
+    "old_vn": "「Sàn \\x%l列車;#00ffc040;tàu%l;#; làm bằng gỗ nên đau lắm đó.」",
+    "fix": "「Sàn tàu làm bằng gỗ nên đau lắm đó.」",
+    "why": "JP không có tag %l ở 列車 (「れっしゃのゆか」) — tag do bản Việt tự thêm. Tiền lệ reina02: gỡ tag VN tự thêm, giữ text."
+  },
+  {
+    "key": "2199",
+    "character": "日々姫",
+    "kind": "terminology",
+    "jp": "「十四万五千って！\\n御一夜の人口よりずっとずううっと多いばいっ！！」",
+    "tw": "「十四萬五千人！這不是比御一夜的人口還老鼻子多咧！」",
+    "old_vn": "「Mười bốn vạn năm ngàn người cơ á!\\nNhiều hơn dân số của Ohimitera rất rất nhiều luôn đó!!」",
+    "fix": "「Mười bốn vạn năm ngàn người cơ á!\\nNhiều hơn dân số của Ohitoyo rất rất nhiều luôn đó!!」",
+    "why": "御一夜 = \"Ohitoyo\" theo quyết định 19/11 (không dùng Ohimitera/Ohito)."
+  },
+  {
+    "key": "2216",
+    "character": "凪",
+    "kind": "meaning",
+    "jp": "「ゆーちてっかい！」",
+    "tw": "「反對工廠！」",
+    "old_vn": "「Hủy bỏ thu hút!」",
+    "fix": "「Phản đối thu hút nhà máy!」",
+    "why": "JP ゆーちてっかい = 誘致反対 (phương ngữ của Nagi); TW 反對工廠. 反対 = phản đối, không phải \"hủy bỏ\"."
+  },
+  {
+    "key": "2221",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「水汚染が起きれば、御一夜はゆるやかに死んでいく――\\nそうと理解しているものは、決して少なくないはずだ」",
+    "tw": "「只要水源被汙染，御一夜就會陷入慢性死亡——這麼想的人肯定不在少數」",
+    "old_vn": "「Nếu ô nhiễm nguồn nước xảy ra, Ohimitera sẽ chết mòn——\\nNhững người hiểu được điều đó chắc chắn không hề ít đâu.」",
+    "fix": "「Nếu ô nhiễm nguồn nước xảy ra, Ohitoyo sẽ chết mòn——\\nNhững người hiểu được điều đó chắc chắn không hề ít đâu.」",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "2326",
+    "character": "双鉄",
+    "kind": "gasp",
+    "jp": "「あぐっ！」",
+    "tw": "「啊嗚！」",
+    "old_vn": "「Á!」",
+    "fix": "「Agu!」",
+    "why": "JP あぐっ！ — っ bị mất hẳn. Tiền lệ file 05 key 2284: あぐっ → \"Agu.\"."
+  },
+  {
+    "key": "2355",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「うむ。だからやるさ。\\nついては、知恵を貸して欲しい」",
+    "tw": "「嗯。所以我們得馬上開展工作。總之，馬上有件事想聽聽你的意見」",
+    "old_vn": "「Ừm. Nên mới phải làm chứ.\\nNhân tiện, tôi muốn nhờ cô cho tôi chút ý kiến.」",
+    "fix": "「Ừm. Nên mới phải làm chứ.\\nNhân tiện, tôi muốn nhờ em cho tôi chút ý kiến.」",
+    "why": "Soutetsu xưng hô với người đối thoại trong cảnh này (Michiko/Paulette) — \"cô\" sai; với cả hai người này Soutetsu đều dùng \"em\"."
+  },
+  {
+    "key": "2363",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「ああ、すまん。\\n朝方の貴重な時間を、ありがとう」",
+    "tw": "「嗯，抱歉。謝謝你利用清晨的寶貴時間為我出主意」",
+    "old_vn": "「À, xin lỗi nhé.\\nCảm ơn cô đã dành thời gian quý báu buổi sáng cho tôi.」",
+    "fix": "「À, xin lỗi nhé.\\nCảm ơn em đã dành thời gian quý báu buổi sáng cho tôi.」",
+    "why": "Đối tượng là Paulette (2362 Paulette vừa nói; cô ấy là người đã dành thời gian buổi sáng). Soutetsu→Paulette = \"em\"."
+  },
+  {
+    "key": "2397",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「十四万四千九百二十八人、と聞いたぞ」",
+    "tw": "「她說十四萬四千九百二十八人」",
+    "old_vn": "「Mười bốn vạn bốn ngàn chín trăm hai mươi tám người, anh nghe vậy đấy.」",
+    "fix": "「Mười bốn vạn bốn ngàn chín trăm hai mươi tám người, tôi nghe vậy đấy.」",
+    "why": "Soutetsu đang báo con số Reina nói cho Minokasa nghe (2399 Minokasa đáp lại; cảnh thảo luận với Minokasa). Với Minokasa Soutetsu xưng \"tôi/cháu\" (2760 \"cháu\"), không dùng \"anh\"."
+  },
+  {
+    "key": "2452",
+    "character": "日々姫",
+    "kind": "terminology",
+    "jp": "「御一夜から湯医までが大人６９０円でしょう？\\nだったら、ええっと……、一億円だとして――」",
+    "tw": "「從御一夜到湯醫一張成人票６９０日元對吧？也就是說……嗯，一億日元的話——」",
+    "old_vn": "「Từ Ohimitera đến Yunoi, vé người lớn là 690 yên đúng không?\\nVậy thì, à ừm……, giả sử là một trăm triệu yên thì——」",
+    "fix": "「Từ Ohitoyo đến Yunoi, vé người lớn là 690 yên đúng không?\\nVậy thì, à ừm……, giả sử là một trăm triệu yên thì——」",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "2461",
+    "character": "ポーレット",
+    "kind": "pronoun",
+    "jp": "「どうしたんですか？　双鉄くん」",
+    "tw": "「怎麼了嗎？雙鐵君」",
+    "old_vn": "「Sao vậy? Soutetsu-kun.」",
+    "fix": "「Sao vậy? Anh Soutetsu.」",
+    "why": "B4: Paulette gọi 双鉄くん trần là sai → \"anh Soutetsu\" (kể cả khi đang ngạc nhiên, không có ngoại lệ). \"Anh\" viết hoa vì đứng đầu câu sau dấu \"?\"."
+  },
+  {
+    "key": "2482",
+    "character": "ハチロク",
+    "kind": "terminology",
+    "jp": "「旧\\x%l帝鉄;#00ffc040;帝鉄%l;\\x%l8620;#;#00ffc040;8620%l;#;形トップナンバー\\x%l8620;#00ffc040;8620%l;#;専用\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;、\\nハチロクともうします」",
+    "tw": "「我是前\\x%l帝鉄;#00ffc040;帝國鐵路%l;\\x%l8620;#;#00ffc040;８６２０%l;#;型首車\\x%l8620;#00ffc040;８６２０%l;#;專用\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;——八六」",
+    "old_vn": "「Em là \\x%lレイルロオド;#00ffc040;Railord%l;#; chuyên dụng của đầu máy số hiệu đầu tiên thuộc dòng \\x%l8620;#00ffc040;8620%l;#; của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ,\\ntên là Hachiroku ạ.」",
+    "fix": "「Em là \\x%lレイルロオド;#00ffc040;Railord%l;#; chuyên dụng của đầu máy số hiệu đầu tiên thuộc dòng \\x%l8620;#00ffc040;8620%l;#; của \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũ,\\ntên là Hachiroku ạ.」",
+    "why": "帝鉄 = \"Teitetsu\" theo quyết định 19/11 (#6); \"Đường sắt Hoàng gia\" là dịch sai (帝鉄 viết tắt 帝国鉄道, không phải hoàng gia)."
+  },
+  {
+    "key": "2497",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「だから、御一夜を。\\nクマ川と焼酎と温泉の――この水の町を救いたいんです」",
+    "tw": "「所以，我想要拯救御一夜、隈河、燒酒廠還有溫泉——拯救這座水鄉」",
+    "old_vn": "「Vì thế, cháu muốn cứu lấy Ohimitera.\\nCứu lấy dòng sông Kuma, shochu và suối nước nóng――cứu lấy thị trấn của nước này.」",
+    "fix": "「Vì thế, cháu muốn cứu lấy Ohitoyo.\\nCứu lấy dòng sông Kuma, shochu và suối nước nóng――cứu lấy thị trấn của nước này.」",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "2569",
+    "character": "蓑笠",
+    "kind": "terminology",
+    "jp": "「御一夜の観光の実情がどぎゃんもんか、\\nほーで少しは、わかってもらえると思いますけん」",
+    "tw": "「正好也親眼見識一下御一夜旅遊業的實際情況」",
+    "old_vn": "「Để cậu có thể hiểu được phần nào,\\nthực trạng du lịch ở Ohimitera là như thế nào.」",
+    "fix": "「Để cậu có thể hiểu được phần nào,\\nthực trạng du lịch ở Ohitoyo là như thế nào.」",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "2580",
+    "character": "路子",
+    "kind": "tag",
+    "jp": "「だいじょうぶ！？　\\nじょうききかんしゃの火、消えちゃわない？」",
+    "tw": "「沒事吧！？蒸——汽——機——車的火，不會滅掉吧？」",
+    "old_vn": "「Không sao chứ!?\\nLửa của \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; có bị tắt không?」",
+    "fix": "「Không sao chứ!?\\nLửa của đầu máy hơi nước có bị tắt không?」",
+    "why": "JP không có tag %l ở 蒸気機関車 — tag do bản Việt tự thêm. Gỡ tag, giữ text."
+  },
+  {
+    "key": "2601",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「ポーレット、すまんがここで解散だ。\\n日々姫に見つからぬよう、行ってくれ」",
+    "tw": "「波萊特，不好意思，我們就在這解散吧。你走的時候小心不要讓日日姬發現」",
+    "old_vn": "「Paulette, xin lỗi nhưng chúng ta giải tán ở đây nhé.\\nCô hãy đi đi kẻo Hibiki phát hiện.」",
+    "fix": "「Paulette, xin lỗi nhưng chúng ta giải tán ở đây nhé.\\nEm hãy đi đi kẻo Hibiki phát hiện.」",
+    "why": "Đối tượng là Paulette. Soutetsu→Paulette = \"em\"."
+  },
+  {
+    "key": "2632",
+    "character": "ポーレット",
+    "kind": "pronoun",
+    "jp": "「ほんとだ。双鉄くんの言うとおり。\\nそれなら、やらないと損ですね」",
+    "tw": "「確實，就如雙鐵君所說。既然這樣，不去嘗試才是損失呢」",
+    "old_vn": "「Đúng thật. Đúng như Soutetsu-kun nói.\\nNếu vậy thì không làm mới là thiệt thòi nhỉ.」",
+    "fix": "「Đúng thật. Đúng như anh Soutetsu nói.\\nNếu vậy thì không làm mới là thiệt thòi nhỉ.」",
+    "why": "B4: 双鉄くん → \"anh Soutetsu\"."
+  },
+  {
+    "key": "2644",
+    "character": "蓑笠",
+    "kind": "terminology",
+    "jp": "「[こくら,1]粉蔵の辺りに、\\x%l帝鉄;#00ffc040;帝鉄%l;#;の車両工場ばあったそうですたい。\\nそこがのうなって、ま、やむなく言うところでしょうの」",
+    "tw": "「聽說小倉那一帶以前就是\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;的車輛工廠。因為那邊倒了，她們才不得已來找我這糟老頭子吧」",
+    "old_vn": "「Nghe nói quanh khu vực Kokura từng có nhà máy chế tạo toa xe của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;.\\nChỗ đó không còn nữa, nên chắc là bất đắc dĩ mới phải nhờ đến tôi thôi.」",
+    "fix": "「Nghe nói quanh khu vực Kokura từng có nhà máy chế tạo toa xe của \\x%l帝鉄;#00ffc040;Teitetsu%l;#;.\\nChỗ đó không còn nữa, nên chắc là bất đắc dĩ mới phải nhờ đến tôi thôi.」",
+    "why": "帝鉄 = \"Teitetsu\"."
+  },
+  {
+    "key": "2710",
+    "character": "蓑笠",
+    "kind": "terminology",
+    "jp": "「右田の――ほれ、御一夜でいっとう古か焼酎蔵さんの、\\n息子さんよ」",
+    "tw": "「這位是右田家的——就那個御一夜最老的燒酒廠的大兒子」",
+    "old_vn": "「Của nhà Migita đấy――cháu biết mà, con trai của xưởng shochu lâu đời nhất Ohimitera đó.」",
+    "fix": "「Của nhà Migita đấy――cháu biết mà, con trai của xưởng shochu lâu đời nhất Ohitoyo đó.」",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "2719",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「そうか。\\nそう言われると、なんとも誇らしい気持ちを感じる」",
+    "tw": "「這樣啊。聽到你這麼說，我感到很自豪」",
+    "old_vn": "「Vậy sao.\\nNghe em nói vậy, tôi bỗng cảm thấy thật tự hào.」",
+    "fix": "「Vậy sao.\\nNghe em nói vậy, anh bỗng cảm thấy thật tự hào.」",
+    "why": "Soutetsu trả lời Nagi (2718 Nagi nói \"Thầy của em là giỏi nhất Hinomoto\"). Nagi gọi Soutetsu là にーさん (\"anh hai\") 421 lần toàn dự án, không bao giờ gọi 双鉄さん/双鉄様 — theo nguyên tắc đối ứng (khóa B4), Soutetsu là \"anh\" với Nagi. \"Tôi\" sai. Bổ sung bởi parent 20/11 (audit gốc bỏ sót dòng này và sai tiền đề ở 2123)."
+  },
+  {
+    "key": "2724",
+    "character": "ハチロク",
+    "kind": "terminology",
+    "jp": "「ここの刃物は、みな、命を持っているようです。\\n命を持った部品など、\\x%l帝鉄;#00ffc040;帝鉄%l;#;でもほとんど見ませんでした」",
+    "tw": "「這裡的刀具彷彿像活的一樣。這麼具有生命力的部件，就算在\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;之中也很罕見」",
+    "old_vn": "「Dao kéo ở đây, trông cái nào cũng như có sinh mệnh vậy.\\nNhững phụ tùng có sinh mệnh như thế này, ngay cả ở \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; em cũng hiếm khi thấy.」",
+    "fix": "「Dao kéo ở đây, trông cái nào cũng như có sinh mệnh vậy.\\nNhững phụ tùng có sinh mệnh như thế này, ngay cả ở \\x%l帝鉄;#00ffc040;Teitetsu%l;#; em cũng hiếm khi thấy.」",
+    "why": "帝鉄 = \"Teitetsu\"."
+  },
+  {
+    "key": "2737",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「では、あげてくれ。\\nうまくいかないと何が困る？」",
+    "tw": "「那你說說。行不通會有什麼問題？」",
+    "old_vn": "「Vậy cô cứ nói đi.\\nNếu không suôn sẻ thì có gì đáng lo ngại?」",
+    "fix": "「Vậy em cứ nói đi.\\nNếu không suôn sẻ thì có gì đáng lo ngại?」",
+    "why": "Đối tượng là Paulette (2739 Paulette đáp). Soutetsu→Paulette = \"em\"."
+  },
+  {
+    "key": "2740",
+    "character": "路子",
+    "kind": "tag",
+    "jp": "「ねぇ、そーちゃん、いま何時？\\nれっしゃ、どの辺を走ってるの？」",
+    "tw": "「那個，小雙，現在幾點了？車子現在行駛到哪裡了呢？」",
+    "old_vn": "「Này, Sou-chan, bây giờ là mấy giờ rồi?\\n\\x%l列車;#00ffc040;Tàu%l;#; đang chạy đến đoạn nào rồi?」",
+    "fix": "「Này, Sou-chan, bây giờ là mấy giờ rồi?\\nTàu đang chạy đến đoạn nào rồi?」",
+    "why": "JP không có tag %l ở 列車 (「れっしゃ」) — tag do bản Việt tự thêm. Gỡ tag, giữ text."
+  },
+  {
+    "key": "2741",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「隈元銀行御一夜支店。\\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致推進派の、いわば総本山だな」",
+    "tw": "「那可是隈元銀行御一夜支行——\\x%lエアクラ;#00ffc040;空凝機%l;#;工廠支持派的大本營呢」",
+    "old_vn": "「Chi nhánh Ohimitera của Ngân hàng Kumamoto.\\nCó thể nói đây là tổng hành dinh của phe thúc đẩy thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;.」",
+    "fix": "「Chi nhánh Ohitoyo của Ngân hàng Kumamoto.\\nCó thể nói đây là tổng hành dinh của phe thúc đẩy thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;.」",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "2770",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「銀行サイド……\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致派もまた、\\n御一夜の復興を真摯に願っていることは確からしいな」",
+    "tw": "「銀行那邊……支持\\x%lエアクラ;#00ffc040;空凝機%l;#;工廠建設的人似乎也真切盼望御一夜的復興」",
+    "old_vn": "「Phía ngân hàng……những người ủng hộ việc thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;,\\ncó vẻ như cũng đang thực tâm mong muốn sự phục hưng của Ohimitera nhỉ.」",
+    "fix": "「Phía ngân hàng……những người ủng hộ việc thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;,\\ncó vẻ như cũng đang thực tâm mong muốn sự phục hưng của Ohitoyo nhỉ.」",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "2782",
+    "character": "双鉄",
+    "kind": "terminology",
+    "jp": "「クマ川の町、水の町、温泉と焼酎の町――\\n御一夜のイメージが広く定着すれば、誘致も頓挫しよう」",
+    "tw": "「隈河之畔的城市、水之鄉、有著溫泉和燒酒的城市——只要給御一夜多貼上一些標籤，工廠落戶計劃想必也將受阻」",
+    "old_vn": "「Thành phố của sông Kuma, thành phố của nước, thành phố của suối nước nóng và shochu——\\nNếu hình ảnh của Ohimitera được khẳng định rộng rãi, thì kế hoạch thu hút nhà máy cũng sẽ bị cản trở thôi.」",
+    "fix": "「Thành phố của sông Kuma, thành phố của nước, thành phố của suối nước nóng và shochu——\\nNếu hình ảnh của Ohitoyo được khẳng định rộng rãi, thì kế hoạch thu hút nhà máy cũng sẽ bị cản trở thôi.」",
+    "why": "御一夜 = \"Ohitoyo\". (Monologue; JP 御一夜のイメージ.)"
+  },
+  {
+    "key": "2796",
+    "character": "双鉄",
+    "kind": "gasp",
+    "jp": "「っ！」",
+    "tw": "「！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」",
+    "why": "JP bare 「っ！」 — gasp mất hẳn, chỉ còn \"!\". Tiền lệ sweep file 01 key 1247: っ đầu dòng → \"Ư\"."
+  },
+  {
+    "key": "2802",
+    "character": "路子",
+    "kind": "gasp",
+    "jp": "「っ！！？　これダメっ！\\nにげてっ！　にげてそーちゃんっ！！」",
+    "tw": "「！！？這個要出事！快逃！快逃啊，小雙！！」",
+    "old_vn": "「!!? Không được rồi!\\nChạy đi! Chạy đi Sou-chan!!」",
+    "fix": "「Ư!!? Không được rồi!\\nChạy đi! Chạy đi Sou-chan!!」",
+    "why": "JP mở đầu bằng っ (「っ！！？」) — gasp đầu dòng bị mất. Tiền lệ sweep lr_h1 1077: っ đầu dòng → \"Ư\". Phần còn lại (ダメっ, にげてっ) là っ nhấn mạnh cuối từ, không thêm Ư."
+  },
+  {
+    "key": "3001",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "古き時間をそのまま熟成させている――\\n僕の知る御一夜の町並みを、ハチロクに見せてやりたくて。",
+    "tw": "保存著過去景象的御一夜街道——我想要快點讓八六看到，我所熟知的街景。",
+    "old_vn": "Lưu giữ trọn vẹn những tháng năm cổ kính――\\nTôi muốn cho Hachiroku thấy dãy phố Ohimitera mà tôi từng biết.",
+    "fix": "Lưu giữ trọn vẹn những tháng năm cổ kính――\\nTôi muốn cho Hachiroku thấy dãy phố Ohitoyo mà tôi từng biết.",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "3005",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "隈元銀行御一夜支店の、目指すところがそこであるなら、\\nやはり僕らの目的地とは、些か異なってくるようだ。",
+    "tw": "假如這就是隈元銀行御一夜支行的目標的話，那麼果然和我們的目標是有著細微差異的。",
+    "old_vn": "Nếu mục tiêu của chi nhánh Ohimitera của Ngân hàng Kumamoto là như vậy,\\nthì quả nhiên đích đến của chúng tôi có chút khác biệt.",
+    "fix": "Nếu mục tiêu của chi nhánh Ohitoyo của Ngân hàng Kumamoto là như vậy,\\nthì quả nhiên đích đến của chúng tôi có chút khác biệt.",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "3027",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "二時間ならば、\\nポーレットたちが湯医まで行き御一夜に戻るほどの時間だ。",
+    "tw": "兩小時後是波萊特她們從湯醫回到御一夜的時間。",
+    "old_vn": "Hai tiếng đồng hồ,\\nvừa đủ để nhóm Paulette đi đến Yui rồi quay lại Ohimitera.",
+    "fix": "Hai tiếng đồng hồ,\\nvừa đủ để nhóm Paulette đi đến Yunoi rồi quay lại Ohitoyo.",
+    "why": "Hai thuật ngữ trong một dòng: 湯医 = \"Yunoi\" (quyết định 19/11 #7; \"Yui\" sai), 御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "3138",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "渡されたのは、\\n『御一夜観光イラストマップ』。",
+    "tw": "她拿給我的是“御一夜觀光彩繪地圖”。",
+    "old_vn": "Thứ cô ấy đưa cho tôi,\\nlà \"Bản đồ minh họa du lịch Ohimitera\".",
+    "fix": "Thứ cô ấy đưa cho tôi,\\nlà \"Bản đồ minh họa du lịch Ohitoyo\".",
+    "why": "御一夜 = \"Ohitoyo\" (tên trong 『御一夜観光イラストマップ』)."
+  },
+  {
+    "key": "3150",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "右田に迎えられることがなければ、\\n御一夜でたくさんを学ばなければ、僕は腐って死んでいた。",
+    "tw": "如果沒有被右田家收養，如果沒有在御一夜長大，我一定已經爛在某個不知名的角落裡了。",
+    "old_vn": "Nếu không được nhà Migita nhận nuôi,\\nnếu không được học hỏi nhiều điều ở Ohimitera, thì cháu đã mục nát và chết từ lâu rồi.",
+    "fix": "Nếu không được nhà Migita nhận nuôi,\\nnếu không được học hỏi nhiều điều ở Ohitoyo, thì cháu đã mục nát và chết từ lâu rồi.",
+    "why": "御一夜 = \"Ohitoyo\"."
+  },
+  {
+    "key": "3303",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "日々姫の視線が、レールショップの壁へと走る。\\nそこにあるのは、御一夜鉄道クマ川線の運賃表だ。",
+    "tw": "日日姬不禁看向鐵路商店的牆上。那裡貼的是御一夜鐵路隈河線的票價表。",
+    "old_vn": "Ánh mắt Hibiki hướng về phía bức tường của cửa hàng đường sắt.\\nNơi đó có dán bảng giá vé tuyến Kumagawa của Đường sắt Ohimitera.",
+    "fix": "Ánh mắt Hibiki hướng về phía bức tường của cửa hàng đường sắt.\\nNơi đó có dán bảng giá vé tuyến Kumagawa của Đường sắt Ohitoyo.",
+    "why": "御一夜 = \"Ohitoyo\" (御一夜鉄道クマ川線)."
+  },
+  {
+    "key": "3519",
+    "character": "monologue",
+    "kind": "tag",
+    "jp": "車内販売のお姉さんが、\\nなんとかみんなを落ち着かせようと頑張っている。",
+    "tw": "負責在列車上售賣商品的姐姐正在努力安撫乘客。",
+    "old_vn": "Chị \\x%l車販;#00ffc040;nhân viên bán hàng%l;#; trên tàu,\\nđang cố gắng hết sức để trấn an mọi người.",
+    "fix": "Chị nhân viên bán hàng trên tàu,\\nđang cố gắng hết sức để trấn an mọi người.",
+    "why": "JP không có tag %l ở 車販 — tag do bản Việt tự thêm. Gỡ tag, giữ text."
+  }
+]

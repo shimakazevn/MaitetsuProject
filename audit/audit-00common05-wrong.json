@@ -1,0 +1,522 @@
+[
+  {
+    "key": "77",
+    "kind": "terminology",
+    "character": "monologue",
+    "jp": "\\x%l列車;#00ffc040;列車%l;#;は、御一夜へと戻っている。",
+    "tw": "\\x%l列車;#00ffc040;列車%l;#;正返回御一夜。",
+    "old_vn": "\\x%l列車;#00ffc040;Đoàn tàu%l;#; đang quay trở về Ohimitera.",
+    "fix": "\\x%l列車;#00ffc040;Đoàn tàu%l;#; đang quay trở về Ohitoyo.",
+    "why": "御一夜 → Ohitoyo theo quyết định 19/11 (không dùng Ohimitera)."
+  },
+  {
+    "key": "1809",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「\\x%l帝鉄;#00ffc040;帝鉄%l;#;が夢見ていた全線電化。それがもっと進んでいれば\\n少しは事情も違ったのかもしれないですけれど」",
+    "tw": "「\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;曾計劃全線電力化。如果能推進得再快些的話，其後或許還能有所不同」",
+    "old_vn": "「Toàn tuyến điện khí hóa mà \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; từng mơ ước. Nếu điều đó được tiến hành nhanh hơn\\nthì có lẽ tình hình đã khác đi một chút.」",
+    "fix": "「Toàn tuyến điện khí hóa mà \\x%l帝鉄;#00ffc040;Teitetsu%l;#; từng mơ ước. Nếu điều đó được tiến hành nhanh hơn thì có lẽ tình hình đã khác đi một chút.」",
+    "why": "帝鉄 → Teitetsu theo quyết định 19/11."
+  },
+  {
+    "key": "1812",
+    "kind": "terminology",
+    "character": "双鉄",
+    "jp": "「\\x%l気動車;#00ffc040;気動車%l;#;」",
+    "tw": "「\\x%l気動車;#00ffc040;動車%l;#;」",
+    "old_vn": "「\\x%l気動車;#00ffc040;Động cơ%l;#;.」",
+    "fix": "「\\x%l気動車;#00ffc040;Toa xe tự hành%l;#;.」",
+    "why": "Gloss 気動車 “Động cơ” → “Toa xe tự hành”: 気動車 là toa xe tự hành (xe diesel tự hành), không phải động cơ (cái máy). Tiền lệ trong chính file: ディーゼル気動車 → “toa xe diesel tự hành” (2493, 2258); toàn dự án “toa xe tự hành” 27 dòng vs “động cơ” 5 dòng."
+  },
+  {
+    "key": "1840",
+    "kind": "sfx",
+    "character": "れいな",
+    "jp": "「……すやぁ……すやぁ……うふふふふ……」",
+    "tw": "「……呼……呼……嗚嘿嘿嘿嘿……」",
+    "old_vn": "「……Khò……khò……ư hừ hừ hừ……」",
+    "fix": "「……Khò……khò……Ufufufufu……」",
+    "why": "Tiếng cười bị diễn thành tiếng rên: JP うふふふふ (Reina cười trong lúc ngủ) mà VN viết “ư hừ hừ hừ”. Theo quy tắc 22:05, tiếng cười (ふふっ/うふふ/んふふ) phải diễn thành tiếng cười, KHÔNG thành tiếng rên — tiền lệ h8 “Ư hự” đã bị bãi bỏ. Sửa thành “Ufufufufu” (う + ふ×4)."
+  },
+  {
+    "key": "1843",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「……そこまで細かく知っている、っていうことは。\\nハチロクさんは、やっぱりもともとは\\x%l帝鉄;#00ffc040;帝鉄%l;#;の？」",
+    "tw": "「……既然知道得這麼詳細，也就是說，果然八六小姐原本是\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;的？」",
+    "old_vn": "「……Biết rõ chi tiết đến mức đó, nghĩa là.\\nChị Hachiroku, quả nhiên vốn dĩ là người của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; sao?」",
+    "fix": "「……Biết rõ chi tiết đến mức đó, nghĩa là. Chị Hachiroku, quả nhiên vốn dĩ là người của \\x%l帝鉄;#00ffc040;Teitetsu%l;#; sao?」",
+    "why": "帝鉄 → Teitetsu theo quyết định 19/11."
+  },
+  {
+    "key": "2139",
+    "kind": "pronoun",
+    "character": "双鉄",
+    "jp": "「すまんが、ハチロクに石炭を補充できていなくてな。\\nもしよければ」",
+    "tw": "「不好意思，八六一直都沒能補充煤炭。如果可以的話」",
+    "old_vn": "「Xin lỗi, nhưng tôi vẫn chưa thể bổ sung than cho Hachiroku.\\nNếu cô không phiền.」",
+    "fix": "「Xin lỗi, nhưng tôi vẫn chưa thể bổ sung than cho Hachiroku. Nếu em không phiền.」",
+    "why": "Soutetsu gọi Paulette: “cô” → “em” theo quyết định 19/11."
+  },
+  {
+    "key": "2151",
+    "kind": "terminology",
+    "character": "れいな",
+    "jp": "「だけじゃないですぅ。\\nガソリン\\x%l気動車;#00ffc040;気動車%l;#;もありますよぉ」",
+    "tw": "「並不只有這些的。還有汽油\\x%l気動車;#00ffc040;動車%l;#;哦」",
+    "old_vn": "「Không chỉ vậy đâu nha.\\nCòn có \\x%l気動車;#00ffc040;động cơ%l;#; xăng nữa đó ạ.」",
+    "fix": "「Không chỉ vậy đâu nha. Còn có \\x%l気動車;#00ffc040;toa xe tự hành%l;#; xăng nữa đó ạ.」",
+    "why": "Gloss 気動車 “động cơ” → “toa xe tự hành” (xem 1812). ガソリン気動車 = toa xe tự hành xăng."
+  },
+  {
+    "key": "2183",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「なんという幸運……すばらしい、栄誉です。\\nまさか、それほどの機体が御一夜に来てくれるだなんて」",
+    "tw": "「何等的幸運……簡直是至高無上的榮譽。竟有如此寶貴的機體來到了御一夜」",
+    "old_vn": "「Thật là may mắn……một vinh dự tuyệt vời.\\nKhông ngờ, một cỗ máy tầm cỡ như vậy lại đến Ohimitera.」",
+    "fix": "「Thật là may mắn……một vinh dự tuyệt vời. Không ngờ, một cỗ máy tầm cỡ như vậy lại đến Ohitoyo.」",
+    "why": "御一夜 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "2185",
+    "kind": "pronoun",
+    "character": "双鉄",
+    "jp": "「なぜ知っている？\\n僕が、“帰ってきた”のだと」",
+    "tw": "「你為什麼會知道我是“回來”的？」",
+    "old_vn": "「Sao cô lại biết?\\nRằng tôi “trở về”.」",
+    "fix": "「Sao em lại biết? Rằng tôi “trở về”.」",
+    "why": "Soutetsu gọi Paulette: “cô” → “em” theo quyết định 19/11."
+  },
+  {
+    "key": "2188",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「さっき乗ってもらったように、\\x%l運転台;#00ffc040;運転台%l;#;と客席が、\\nひとつの車輌に一緒になってるのが\\x%l気動車;#00ffc040;気動車%l;#;です」",
+    "tw": "「像剛才咱們坐過的那種\\x%l運転台;#00ffc040;駕駛台%l;#;和乘客座位在同一節車廂裡的，就是\\x%l気動車;#00ffc040;動車%l;#;」",
+    "old_vn": "「Như lúc nãy anh đã đi thử đó, \\x%l運転台;#00ffc040;buồng lái%l;#; và ghế hành khách\\nđược kết hợp trong cùng một toa xe thì gọi là \\x%l気動車;#00ffc040;động cơ%l;#; ạ.」",
+    "fix": "「Như lúc nãy anh đã đi thử đó, \\x%l運転台;#00ffc040;buồng lái%l;#; và ghế hành khách được kết hợp trong cùng một toa xe thì gọi là \\x%l気動車;#00ffc040;toa xe tự hành%l;#; ạ.」",
+    "why": "Gloss 気動車 “động cơ” → “toa xe tự hành” (xem 1812). Dòng này giải thích 気動車 là gì nên gọi nó là “động cơ” làm vỡ nghĩa giải thích."
+  },
+  {
+    "key": "2227",
+    "kind": "terminology",
+    "character": "双鉄",
+    "jp": "「なるほど、それが整備[ボディ]体か」",
+    "tw": "「原來如此，這就是整備體嗎」",
+    "old_vn": "「Ra là vậy, đó là cơ thể bảo dưỡng sao.」",
+    "fix": "「Ra là vậy, đó là thân bảo trì sao.」",
+    "why": "整備体 → “thân bảo trì” theo quyết định 19/11 (không dùng “cơ thể bảo dưỡng”). JP có ruby [ボディ] trên 体, khớp với “thân”."
+  },
+  {
+    "key": "2254",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「ハチロクさんの[ハチロクニイマル,3]8620を是非、\\n御一夜鉄道で走らせてくれませんか？」",
+    "tw": "「可以讓八六小姐的８６２０行駛在御一夜鐵路公司的線路上嗎？」",
+    "old_vn": "「Anh có thể cho chiếc 8620 của chị Hachiroku\\nchạy trên tuyến đường sắt Ohimitera được không?」",
+    "fix": "「Anh có thể cho chiếc 8620 của chị Hachiroku chạy trên tuyến đường sắt Ohitoyo được không?」",
+    "why": "御一夜鉄道 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "2266",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「あの、それは――ええと、右田っ！　右田家といえば、\\n高額納税者ナンバーワンですから、御一夜市の」",
+    "tw": "「呃，是因為——那個什麼，右田！說到右田家，可是御一夜第一高額納稅人」",
+    "old_vn": "「À, chuyện đó——ừm, Migita! Nhắc đến nhà Migita,\\nthì đó là người nộp thuế cao nhất của thành phố Ohimitera mà.」",
+    "fix": "「À, chuyện đó——ừm, Migita! Nhắc đến nhà Migita, thì đó là người nộp thuế cao nhất của thành phố Ohitoyo mà.」",
+    "why": "御一夜市 → Ohitoyo theo quyết định 19/11. “Nhà Migita” (右田家) giữ nguyên — họ Migita, không phải xưởng rượu Migita Ichi."
+  },
+  {
+    "key": "2284",
+    "kind": "gasp",
+    "character": "ポーレット",
+    "jp": "「あぐっ」",
+    "tw": "「啊嗚」",
+    "old_vn": "「A.」",
+    "fix": "「Agu.」",
+    "why": "Sweep-missed: JP 「あぐっ」 (tiếng nghẹn của Paulette khi luống cuống) mà VN chỉ còn “A.” — mất hẳn âm ぐっ. TW 啊嗚. Diễn thành “Agu.” giữ âm Nhật theo nguyên tắc 22:19."
+  },
+  {
+    "key": "2287",
+    "kind": "gasp",
+    "character": "双鉄",
+    "jp": "「ああ、ハチロクの石炭と――っ！！」",
+    "tw": "「啊，就像是八六的煤炭——啊！！」",
+    "old_vn": "「A, giống như than của Hachiroku——!!」",
+    "fix": "「A, giống như than của Hachiroku——Ư!!」",
+    "why": "Sweep gasp (lost-gasp-trailing), nhận nguyên văn: JP 「――っ！！」 — tiếng rên giật mình cuối câu bị mất, TW có 啊. Chỉ thêm Ư cho っ đứng một mình cuối câu."
+  },
+  {
+    "key": "2378",
+    "kind": "terminology",
+    "character": "ハチロク",
+    "jp": "「\\x%l市電;#00ffc040;市電%l;#;とはいえ全線電化など――\\nよくも、それほどの偉業を」",
+    "tw": "「就算是\\x%l市電;#00ffc040;市電%l;#;，怎麼說也都是全線電力化。竟能夠完成如此的偉業」",
+    "old_vn": "「Dù là \\x%l市電;#00ffc040;nguồn điện chính%l;#; nhưng lại điện khí hóa toàn tuyến sao——\\nThật đáng nể, một vĩ nghiệp như vậy.」",
+    "fix": "「Dù là \\x%l市電;#00ffc040;tàu điện thành phố%l;#; nhưng lại điện khí hóa toàn tuyến sao—— Thật đáng nể, một vĩ nghiệp như vậy.」",
+    "why": "Gloss 市電 “nguồn điện chính” → “tàu điện thành phố” (xem 2404). Hieu đã chốt “tàu điện thành phố” 20/11; docs mục 119 đã sửa."
+  },
+  {
+    "key": "2392",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「――帝鉄末期、これが1000を超えている地方路線は、\\nザラだったと聞いています」",
+    "tw": "「帝國鐵路末期，聽說這個係數超過１０００的地方線路隨處可見」",
+    "old_vn": "「——Vào cuối thời kỳ Đường sắt Hoàng gia, nghe nói những tuyến đường địa phương có hệ số này vượt quá 1000\\nlà chuyện rất bình thường.」",
+    "fix": "「——Vào cuối thời kỳ Teitetsu, nghe nói những tuyến đường địa phương có hệ số này vượt quá 1000 là chuyện rất bình thường.」",
+    "why": "帝鉄末期 → “cuối thời kỳ Teitetsu” theo quyết định 19/11 (dòng này không có tag %l, sửa thẳng vào văn bản)."
+  },
+  {
+    "key": "2395",
+    "kind": "pronoun",
+    "character": "双鉄",
+    "jp": "「それは助かる。頼みというのは、\\n石炭を分けて欲しいということなのだが」",
+    "tw": "「幫大忙了。其實是希望你能分給我們一些煤炭」",
+    "old_vn": "「Thế thì tốt quá. Chuyện tôi muốn nhờ là,\\ntôi muốn xin cô một ít than đá.」",
+    "fix": "「Thế thì tốt quá. Chuyện tôi muốn nhờ là, tôi muốn xin em một ít than đá.」",
+    "why": "Soutetsu gọi Paulette: “cô” → “em” theo quyết định 19/11."
+  },
+  {
+    "key": "2404",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「\\x%l市電;#00ffc040;市電%l;#;なんです[ひろでん,1]廣電は。ですから\\x%l架線;#00ffc040;[がせん,1]架線%l;#;も容易で、\\n大廃線以前から、完全電化がされていました」",
+    "tw": "「廣島電鐵是\\x%l市電;#00ffc040;市電%l;#;。所以\\x%l架線;#00ffc040;架線%l;#;也很容易，在大廢線以前，就實現了完全電力化」",
+    "old_vn": "「Đường sắt điện Hiroshima là \\x%l市電;#00ffc040;nguồn điện chính%l;#; mà. Vì vậy việc \\x%l架線;#00ffc040;đường dây tiếp điện trên cao%l;#; cũng dễ dàng,\\ntừ trước đợt Đại bãi bỏ, nó đã được điện khí hóa hoàn toàn rồi.」",
+    "fix": "「Đường sắt điện Hiroshima là \\x%l市電;#00ffc040;tàu điện thành phố%l;#; mà. Vì vậy việc \\x%l架線;#00ffc040;đường dây tiếp điện trên cao%l;#; cũng dễ dàng, từ trước đợt Đại bãi bỏ, nó đã được điện khí hóa hoàn toàn rồi.」",
+    "why": "Gloss 市電 “nguồn điện chính” → “tàu điện thành phố”: 市電 = tàu điện thành phố (tram) — 広電 là hãng tàu điện Hiroshima, cả đoạn đang nói về mạng lưới tàu điện và đường dây trên cao. “Nguồn điện chính” (main power source) làm câu vô nghĩa. XUNG ĐỘT DOCS: context_trans.md mục 119 ghi 市電 → “Nguồn điện chính” và toàn dự án đang dùng cách này (4/4 dòng) — Hieu đã chốt “tàu điện thành phố” 20/11; docs mục 119 đã sửa."
+  },
+  {
+    "key": "2408",
+    "kind": "terminology",
+    "character": "ハチロク",
+    "jp": "「全盛期から、\\x%l帝鉄;#00ffc040;帝鉄%l;#;はあまりに巨大過ぎました。\\n理念と現実が一致せず、上部と末端は乖離していました」",
+    "tw": "「從全盛期開始，\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;的規模就過於龐大了。理想跟不上現實，上層與底層產生了分裂」",
+    "old_vn": "「Ngay từ thời kỳ hoàng kim, \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; đã quá đỗi khổng lồ.\\nLý tưởng và hiện thực không đồng nhất, cấp trên và cấp dưới bị chia rẽ.」",
+    "fix": "「Ngay từ thời kỳ hoàng kim, \\x%l帝鉄;#00ffc040;Teitetsu%l;#; đã quá đỗi khổng lồ. Lý tưởng và hiện thực không đồng nhất, cấp trên và cấp dưới bị chia rẽ.」",
+    "why": "帝鉄 → Teitetsu theo quyết định 19/11."
+  },
+  {
+    "key": "2417",
+    "kind": "minor",
+    "character": "女子Ｂ",
+    "jp": "「と、違うかねぇ――あ、ううんっ！？\\nね、ね？　似おーとらん？　あん二人」",
+    "tw": "「應該不是吧——啊，不對哦！？你們快看，那兩個人是不是很速配啊」",
+    "old_vn": "「Cũng không hẳn đâu——a, hửm!?\\nNày, này? Thấy hai người họ đẹp đôi không?」",
+    "fix": "「Cũng không hẳn đâu——a, không phải!? Này, này? Thấy hai người họ đẹp đôi không?」",
+    "why": "Lệch sắc thái: JP ううんっ là âm phủ định (“không phải”) khi 女子Ｂ tự sửa suy nghĩ; TW 不對. VN “hửm!?” diễn thành âm ngơ ngác (“hả?”) — mất ý phủ định."
+  },
+  {
+    "key": "2418",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「そうだろうって思います。それでも、\\x%l帝鉄;#00ffc040;帝鉄%l;#;は、\\n強く電化を推し進めようとしていました」",
+    "tw": "「應該是的。即便如此，\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;也還是強力推行了電力化」",
+    "old_vn": "「Tôi cũng nghĩ vậy. Dù thế, \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; vẫn\\ncố gắng đẩy mạnh việc điện khí hóa.」",
+    "fix": "「Tôi cũng nghĩ vậy. Dù thế, \\x%l帝鉄;#00ffc040;Teitetsu%l;#; vẫn cố gắng đẩy mạnh việc điện khí hóa.」",
+    "why": "帝鉄 → Teitetsu theo quyết định 19/11."
+  },
+  {
+    "key": "2426",
+    "kind": "terminology",
+    "character": "双鉄",
+    "jp": "「僕が御一夜に帰ってきたのは、\\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致計画を撤回させるそのためだ」",
+    "tw": "「我之所以會回到御一夜，是為了促使\\x%lエアクラ;#00ffc040;空凝機%l;#;工場落戶計劃撤銷」",
+    "old_vn": "「Lý do tôi trở về Ohimitera,\\nlà để hủy bỏ kế hoạch thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;.」",
+    "fix": "「Lý do tôi trở về Ohitoyo, là để hủy bỏ kế hoạch thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#;.」",
+    "why": "御一夜 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "2440",
+    "kind": "pronoun",
+    "character": "双鉄",
+    "jp": "「僕としては悪くない話であると考える。\\nが――ハチロク。鉄道のことはお前の判断を尊重しよう」",
+    "tw": "「我覺得這對我來說是個不錯的提議。不過——八六，事關鐵路，我尊重你的判斷」",
+    "old_vn": "「Tôi thấy đây là một đề nghị không tồi.\\nNhưng——Hachiroku. Về chuyện đường sắt, tôi sẽ tôn trọng quyết định của cô.」",
+    "fix": "「Tôi thấy đây là một đề nghị không tồi. Nhưng——Hachiroku. Về chuyện đường sắt, tôi sẽ tôn trọng quyết định của em.」",
+    "why": "Soutetsu gọi Hachiroku: “cô” → “em”. Tiền lệ đã chốt: file 03 Soutetsu→Hachiroku “em” nhất quán (65 dòng); 夜の嵐 1528 fix về “Hachiroku, em không khỏe à?”; Hachiroku tự xưng “Em” theo docs §2.2."
+  },
+  {
+    "key": "2442",
+    "kind": "pronoun",
+    "character": "双鉄",
+    "jp": "「勘違いした。僕と君とが、昔会ってでもいるのかと」",
+    "tw": "「我誤會了。我還以為我們之前是不是見過」",
+    "old_vn": "「Tôi đã hiểu lầm. Cứ tưởng tôi và cô, ngày xưa đã từng gặp nhau.」",
+    "fix": "「Tôi đã hiểu lầm. Cứ tưởng tôi và em, ngày xưa đã từng gặp nhau.」",
+    "why": "Soutetsu gọi Paulette: “cô” → “em” theo quyết định 19/11 (JP 僕と君とが — 君 = em)."
+  },
+  {
+    "key": "2443",
+    "kind": "terminology",
+    "character": "双鉄",
+    "jp": "「なぁ、ハチロク。さっきポーレットが言っていたな。\\n『時代が時代。\\x%lまいてつ;#00ffc040;まいてつ%l;#;それぞれに事情がある』と」",
+    "tw": "「我說，八六。剛才波萊特是這樣說的——“這個時代情況很複雜。\\x%lまいてつ;#00ffc040;掌車人%l;#;各有各的隱情”」",
+    "old_vn": "「Này, Hachiroku. Lúc nãy Paulette có nói mà.\\n『Thời đại bây giờ là vậy. Mỗi \\x%lまいてつ;#00ffc040;người sành toa xe%l;#; đều có những lý do riêng』」",
+    "fix": "「Này, Hachiroku. Lúc nãy Paulette có nói mà. 『Thời đại bây giờ là vậy. Mỗi \\x%lまいてつ;#00ffc040;chủ tàu%l;#; đều có những lý do riêng』」",
+    "why": "Gloss まいてつ “người sành toa xe” → “Maitetsu”: “sành” (sành sỏi) không đúng nghĩa gốc — 2155 tự định nghĩa まいてつ là người sở hữu và vận hành đoàn tàu; file này dùng “Maitetsu” ở 6 dòng khác (1826, 2132, 2155, 2501, 3296, 2472) và file 03 cũng dùng “Maitetsu”. Thống nhất về “Maitetsu” trong file. (Toàn dự án còn chia 4 cách: chủ tàu 23 / Maitetsu 11 / người sành toa xe 9 / người đam mê đường sắt 3 — cần Hieu chốt một cách ở đợt thống nhất.)"
+  },
+  {
+    "key": "2467",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「大廃線後の鉄道文化をぎりぎり支えてるのは、\\n地方地方の民間鉄道と、\\x%lまいてつ;#00ffc040;まいてつ%l;#;たちなんです」",
+    "tw": "「支撐著大廢線之後的鐵路文化的，就是各地的民間鐵路，以及\\x%lまいてつ;#00ffc040;掌車人%l;#;們」",
+    "old_vn": "「Những người đang cố gắng chống đỡ nền văn hóa đường sắt sau đợt Đại bãi bỏ,\\nchính là các tuyến đường sắt tư nhân ở các địa phương và những \\x%lまいてつ;#00ffc040;người sành toa xe%l;#; đấy.」",
+    "fix": "「Những người đang cố gắng chống đỡ nền văn hóa đường sắt sau đợt Đại bãi bỏ, chính là các tuyến đường sắt tư nhân ở các địa phương và những \\x%lまいてつ;#00ffc040;chủ tàu%l;#; đấy.」",
+    "why": "Gloss まいてつ “người sành toa xe” → “Maitetsu” (thống nhất trong file, xem 2443)."
+  },
+  {
+    "key": "2474",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「大人物です。\\x%lまいてつ;#00ffc040;まいてつ%l;#;界きっての有名人ですし」",
+    "tw": "「是一位大人物。在\\x%lまいてつ;#00ffc040;掌車人%l;#;圈子裡最有名的」",
+    "old_vn": "「Là một nhân vật vĩ đại đấy. Cô ấy là người nổi tiếng nhất trong giới \\x%lまいてつ;#00ffc040;người sành toa xe%l;#; mà.」",
+    "fix": "「Là một nhân vật vĩ đại đấy. Cô ấy là người nổi tiếng nhất trong giới \\x%lまいてつ;#00ffc040;chủ tàu%l;#; mà.」",
+    "why": "Gloss まいてつ “người sành toa xe” → “Maitetsu” (thống nhất trong file, xem 2443)."
+  },
+  {
+    "key": "2484",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「私と、れいなとのふたりのです。\\n御一夜鉄道レールショップは、私達のお城ですから」",
+    "tw": "「是我和玲奈兩個人的愛好。御一夜鐵路的鐵路商店就像是我們的城堡一樣」",
+    "old_vn": "「Là của cả tôi và Reina.\\nCửa hàng đường sắt Ohimitera là lâu đài của chúng tôi mà.」",
+    "fix": "「Là của cả tôi và Reina. Cửa hàng đường sắt Ohitoyo là lâu đài của chúng tôi mà.」",
+    "why": "御一夜鉄道 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "2495",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「はい。わたしは、れいなと\\x%lキハ07;#00ffc040;キハ07%l;#;Sの\\x%lまいてつ;#00ffc040;まいてつ%l;#;です。\\nかつ、御一夜鉄道株式会社の社長でもあります」",
+    "tw": "「是的。我是玲奈和\\x%lキハ07;#00ffc040;Ｋｉｈａ０７%l;#;Ｓ的\\x%lまいてつ;#00ffc040;掌車人%l;#;。也是御一夜鐵路股份公司的社長」",
+    "old_vn": "「Vâng. Tôi là \\x%lまいてつ;#00ffc040;người sành toa xe%l;#; của Reina và \\x%lキハ07;#00ffc040;KiHa 07%l;#;S.\\nĐồng thời, cũng là giám đốc của Công ty Cổ phần Đường sắt Ohimitera.」",
+    "fix": "「Vâng. Tôi là \\x%lまいてつ;#00ffc040;chủ tàu%l;#; của Reina và \\x%lキハ07;#00ffc040;KiHa 07%l;#;S. Đồng thời, cũng là giám đốc của Công ty Cổ phần Đường sắt Ohitoyo.」",
+    "why": "Hai lỗi trong một dòng: gloss まいてつ “người sành toa xe” → “Maitetsu” (thống nhất trong file, xem 2443) và 御一夜鉄道 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "2509",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「そうですね、\\x%l電車;#00ffc040;電車%l;#;は、厳密には電気\\x%l気動車;#00ffc040;気動車%l;#;のことです。\\nでも、\\x%l電車;#00ffc040;電車%l;#;っていう略称ぽいのが実は正式名称なんです」",
+    "tw": "「是的。電車，嚴格來說是叫電力\\x%l気動車;#00ffc040;動車%l;#;。不過，電車這種聽起來像是簡稱的稱呼，實際上卻是正式名稱」",
+    "old_vn": "「Đúng vậy ạ, \\x%l電車;#00ffc040;tàu điện%l;#; nói chính xác thì là \\x%l気動車;#00ffc040;động cơ%l;#; điện.\\nNhưng mà, cái tên nghe như viết tắt \\x%l電車;#00ffc040;tàu điện%l;#; đó thực ra lại là tên chính thức đấy ạ.」",
+    "fix": "「Đúng vậy ạ, \\x%l電車;#00ffc040;tàu điện%l;#; nói chính xác thì là \\x%l気動車;#00ffc040;toa xe tự hành%l;#; điện. Nhưng mà, cái tên nghe như viết tắt \\x%l電車;#00ffc040;tàu điện%l;#; đó thực ra lại là tên chính thức đấy ạ.」",
+    "why": "Gloss 気動車 “động cơ” → “toa xe tự hành” (xem 1812). 電気気動車 = toa xe tự hành điện."
+  },
+  {
+    "key": "2524",
+    "kind": "terminology",
+    "character": "ハチロク",
+    "jp": "「はい、\\x%l帝鉄;#00ffc040;帝鉄%l;#;[ハチロクニイマル,3]8620形\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;\\x%l8620;#;#00ffc040;8620%l;#;トップナンバー機の\\n専用\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;――それが、わたくしの出自です」",
+    "tw": "「是的，\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;８６２０型\\x%l蒸気機関車;#00ffc040;蒸汽機車%l;\\x%l8620;#;#00ffc040;８６２０%l;#;首車的專用\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;——這就是，我的出身」",
+    "old_vn": "「Vâng, \\x%lレイルロオド;#00ffc040;Railord%l;#; chuyên dụng của chiếc đầu máy số một\\n\\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; dòng \\x%l8620;#00ffc040;8620%l;#; thuộc \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;——đó chính là xuất thân của tôi.」",
+    "fix": "「Vâng, \\x%lレイルロオド;#00ffc040;Railord%l;#; chuyên dụng của chiếc đầu máy số một \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; dòng \\x%l8620;#00ffc040;8620%l;#; thuộc \\x%l帝鉄;#00ffc040;Teitetsu%l;#;——đó chính là xuất thân của tôi.」",
+    "why": "帝鉄 → Teitetsu theo quyết định 19/11. Giữ nguyên cấu trúc tag phức tạp của JP (tag %l; lồng ruby [ハチロクニイマル,3]) — chỉ đổi gloss."
+  },
+  {
+    "key": "2551",
+    "kind": "pronoun",
+    "character": "ポーレット",
+    "jp": "「やっぱり！　双鉄くっ――ん、双鉄さんも、\\n\\x%lまいてつ;#00ffc040;まいてつ%l;#;なんですね！　そこまでわかっちゃうなんて」",
+    "tw": "「果然！雙鐵君……不，雙鐵先生，也是一位\\x%lまいてつ;#00ffc040;掌車人%l;#;呢！居然連這都知道」",
+    "old_vn": "「Quả nhiên! Anh Soutetsu……à không, anh Soutetsu cũng là\\n\\x%lまいてつ;#00ffc040;người sành toa xe%l;#; nhỉ! Đến mức đó mà anh cũng hiểu được.」",
+    "fix": "「Quả nhiên! Cậu Soutetsu……à không, anh Soutetsu cũng là \\x%lまいてつ;#00ffc040;chủ tàu%l;#; nhỉ! Đến mức đó mà anh cũng hiểu được.」",
+    "why": "Hai lỗi: (1) Paulette tự sửa 双鉄くん→双鉄さん mà VN viết “anh Soutetsu……à không, anh Soutetsu” — mất hẳn trò đùa tự sửa. Theo tiền lệ trong chính file (2721, 2421, 2275: くん→“cậu”, さん→“anh”), sửa thành “Cậu Soutetsu……à không, anh Soutetsu”. (2) Gloss まいてつ “người sành toa xe” → “Maitetsu” (xem 2443)."
+  },
+  {
+    "key": "2559",
+    "kind": "meaning",
+    "character": "双鉄",
+    "jp": "「いや、\\n\\x%l列車;#00ffc040;列車%l;#;の遅れを回復するのが最優先なのは当然だろう」",
+    "tw": "「沒事，當時最重要的是挽回\\x%l列車;#00ffc040;列車%l;#;的延誤嘛」",
+    "old_vn": "「Không sao,\\nviệc khôi phục lại sự chậm trễ của \\x%l列車;#00ffc040;đoàn tàu%l;#; đương nhiên là ưu tiên hàng đầu mà.」",
+    "fix": "「Không sao, việc khắc phục sự chậm trễ của \\x%l列車;#00ffc040;đoàn tàu%l;#; đương nhiên là ưu tiên hàng đầu mà.」",
+    "why": "Sai hướng nghĩa: JP 遅れを回復する = khắc phục/bù lại sự chậm trễ (lấy lại giờ), TW 挽回延誤. VN “khôi phục lại sự chậm trễ” = khôi phục lại chính cái sự trễ — ngược nghĩa."
+  },
+  {
+    "key": "2573",
+    "kind": "pronoun",
+    "character": "双鉄",
+    "jp": "「ポーレット、すまんが力を貸して欲しい」",
+    "tw": "「波萊特，不好意思，想請你幫個忙」",
+    "old_vn": "「Paulette, xin lỗi nhưng tôi muốn nhờ cô giúp một tay.」",
+    "fix": "「Paulette, xin lỗi nhưng tôi muốn nhờ em giúp một tay.」",
+    "why": "Soutetsu gọi Paulette: “cô” → “em” theo quyết định 19/11 (unify “cô”→“em”)."
+  },
+  {
+    "key": "2587",
+    "kind": "tag",
+    "character": "ポーレット",
+    "jp": "「\\x%l就業後検査;#00ffc040;就業後検査%l;#;――とわたし達は呼んでるんですが、それを。\\n[コウバン,1]交番検査ができないので、都度で細かくやってるんです」",
+    "tw": "「玲奈在進行所謂的\\x%l就業後検査;#00ffc040;結業檢查%l;#;。由於做不到輪換檢查，我們只能在每天結業後仔細檢查一遍」",
+    "old_vn": "「Chúng tôi gọi đó là——\\x%l就業後検査;#00ffc040;kiểm tra sau ca làm việc%l;#;.\\nVì không thể thực hiện \\x%l交番検査;#00ffc040;kiểm tra luân chuyển%l;#;, nên mỗi lần xong việc đều phải làm rất tỉ mỉ.」",
+    "fix": "「Chúng tôi gọi đó là——\\x%l就業後検査;#00ffc040;kiểm tra sau ca làm việc%l;#;. Vì không thể thực hiện kiểm tra luân chuyển, nên mỗi lần xong việc đều phải làm rất tỉ mỉ.」",
+    "why": "Tag %l do VN tự thêm: JP chỉ có tag %l cho 就業後検査, còn 交番検査 chỉ có ruby [コウバン,1] — VN gắn thêm tag %l cho nó. Theo tiền lệ reina02 (gỡ gloss VN tự thêm cho 改軌/8620), gỡ tag, giữ text thường “kiểm tra luân chuyển”."
+  },
+  {
+    "key": "2591",
+    "kind": "terminology",
+    "character": "れいな",
+    "jp": "「今はそうです。でも、れいな。\\nもともとはガソリン\\x%l気動車;#00ffc040;気動車%l;#;だったんですよぉ」",
+    "tw": "「現在是的。不過，玲奈本來是汽油\\x%l気動車;#00ffc040;動車%l;#;哦」",
+    "old_vn": "「Bây giờ thì đúng là vậy. Nhưng mà, Reina nha.\\nVốn dĩ ban đầu là \\x%l気動車;#00ffc040;động cơ%l;#; xăng đó ạ.」",
+    "fix": "「Bây giờ thì đúng là vậy. Nhưng mà, Reina nha. Vốn dĩ ban đầu là \\x%l気動車;#00ffc040;toa xe tự hành%l;#; xăng đó ạ.」",
+    "why": "Gloss 気動車 “động cơ” → “toa xe tự hành” (xem 1812)."
+  },
+  {
+    "key": "2641",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「ところで、双鉄さんは、\\nどんなご用で御一夜に帰ってらしたんですか？」",
+    "tw": "「話說回來，雙鐵先生回到御一夜是有什麼事呢？」",
+    "old_vn": "「Nhân tiện, anh Soutetsu,\\nanh trở về Ohimitera có việc gì vậy ạ?」",
+    "fix": "「Nhân tiện, anh Soutetsu, anh trở về Ohitoyo có việc gì vậy ạ?」",
+    "why": "御一夜 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "2645",
+    "kind": "terminology",
+    "character": "双鉄",
+    "jp": "「\\x%l蒸気機関車;#00ffc040;蒸気機関車%l;#;を御一夜で？」",
+    "tw": "「讓\\x%l蒸気機関車;#00ffc040;蒸汽機車%l;#;在御一夜行駛？」",
+    "old_vn": "「Cho \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; chạy ở Ohimitera sao?」",
+    "fix": "「Cho \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#; chạy ở Ohitoyo sao?」",
+    "why": "御一夜 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "2662",
+    "kind": "tag",
+    "character": "双鉄",
+    "jp": "「[コウバン,1]交番検査？」",
+    "tw": "「輪換檢查？」",
+    "old_vn": "「\\x%l交番検査;#00ffc040;Kiểm tra luân chuyển%l;#;?」",
+    "fix": "「Kiểm tra luân chuyển?」",
+    "why": "Tag %l do VN tự thêm: JP 「[コウバン,1]交番検査？」 chỉ có ruby, không có tag %l. Gỡ tag theo tiền lệ reina02."
+  },
+  {
+    "key": "2680",
+    "kind": "terminology",
+    "character": "ハチロク",
+    "jp": "「その話は事実です。\\x%l帝鉄;#00ffc040;帝鉄%l;#;は、国有鉄道という性質上、\\nもともと、それを許容する体質でした」",
+    "tw": "「這個的確是事實。\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;作為國有鐵路，從體制上來說，是允許此類情況發生的」",
+    "old_vn": "「Chuyện đó là sự thật. \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;, với tính chất là đường sắt quốc gia,\\nvốn dĩ đã có cơ cấu chấp nhận điều đó rồi.」",
+    "fix": "「Chuyện đó là sự thật. \\x%l帝鉄;#00ffc040;Teitetsu%l;#;, với tính chất là đường sắt quốc gia, vốn dĩ đã có cơ cấu chấp nhận điều đó rồi.」",
+    "why": "帝鉄 → Teitetsu theo quyết định 19/11."
+  },
+  {
+    "key": "2685",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「それで十分です。\\x%lエアクラ;#00ffc040;エアクラ%l;#;の台頭。大廃線。\\n\\x%l帝鉄;#00ffc040;帝鉄%l;#;までもが解体され、鉄道は衰退の一途をたどります」",
+    "tw": "「這樣就足夠了。\\x%lエアクラ;#00ffc040;空凝機%l;#;的普及，導致了大廢線。連\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;都被迫解體，鐵路踏上了無可避免的衰退」",
+    "old_vn": "「Vậy là đủ rồi. Sự trỗi dậy của \\x%lエアクラ;#00ffc040;Aircra%l;#;. Đại bãi bỏ.\\nNgay cả \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũng bị giải thể, đường sắt đang trên đà suy thoái.」",
+    "fix": "「Vậy là đủ rồi. Sự trỗi dậy của \\x%lエアクラ;#00ffc040;Aircra%l;#;. Đại bãi bỏ. Ngay cả \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũng bị giải thể, đường sắt đang trên đà suy thoái.」",
+    "why": "帝鉄 → Teitetsu theo quyết định 19/11 (bỏ “Đường sắt Hoàng gia” — 帝鉄 là 帝国鉄道, không phải 皇室)."
+  },
+  {
+    "key": "2699",
+    "kind": "meaning",
+    "character": "双鉄",
+    "jp": "「随分と強いようだな」",
+    "tw": "「還真是能喝啊」",
+    "old_vn": "「Trông em có vẻ đô con nhỉ.」",
+    "fix": "「Trông em uống khỏe thật đấy.」",
+    "why": "Sai nghĩa: JP 随分と強いようだな — Soutetsu khen Reina uống khỏe (vừa tu cạn bình nhiên liệu), TW 還真是能喝啊. VN “Trông em có vẻ đô con nhỉ” = trông to khỏe về vóc dáng — sai hẳn."
+  },
+  {
+    "key": "2719",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "jp": "「ええと、\\x%lまいてつ;#00ffc040;まいてつ%l;#;の話でしたね。\\nそういう事情で、鉄道網はずたずたになりました」",
+    "tw": "「那個，我們在說\\x%lまいてつ;#00ffc040;掌車人%l;#;對吧。由於出現剛才所說的那種情況，鐵路網也變得支離破碎了」",
+    "old_vn": "「À ừm, chúng ta đang nói về \\x%lまいてつ;#00ffc040;người sành toa xe%l;#; nhỉ.\\nVì những lý do đó, mạng lưới đường sắt đã trở nên tan nát.」",
+    "fix": "「À ừm, chúng ta đang nói về \\x%lまいてつ;#00ffc040;chủ tàu%l;#; nhỉ. Vì những lý do đó, mạng lưới đường sắt đã trở nên tan nát.」",
+    "why": "Gloss まいてつ “người sành toa xe” → “Maitetsu” (thống nhất trong file, xem 2443)."
+  },
+  {
+    "key": "2727",
+    "kind": "pronoun",
+    "character": "双鉄",
+    "jp": "「ならば、ハチロク。\\n僕はお前の\\x%l機関士;#00ffc040;機関士%l;#;と」",
+    "tw": "「那麼，八六。就由我來當你的\\x%l機関士;#00ffc040;司機%l;#;」",
+    "old_vn": "「Nếu vậy, Hachiroku.\\nTôi sẽ trở thành \\x%l機関士;#00ffc040;người lái tàu%l;#; của cô.」",
+    "fix": "「Nếu vậy, Hachiroku. Tôi sẽ trở thành \\x%l機関士;#00ffc040;người lái tàu%l;#; của em.」",
+    "why": "Soutetsu gọi Hachiroku: “cô” → “em” (xem 2440)."
+  },
+  {
+    "key": "2730",
+    "kind": "terminology",
+    "character": "双鉄",
+    "jp": "「ならば、ポーレットも\\x%lまいてつ;#00ffc040;まいてつ%l;#;なのだな？」",
+    "tw": "「那麼，波萊特也是\\x%lまいてつ;#00ffc040;掌車人%l;#;囉？」",
+    "old_vn": "「Nếu vậy, Paulette cũng là \\x%lまいてつ;#00ffc040;người sành toa xe%l;#; nhỉ?」",
+    "fix": "「Nếu vậy, Paulette cũng là \\x%lまいてつ;#00ffc040;chủ tàu%l;#; nhỉ?」",
+    "why": "Gloss まいてつ “người sành toa xe” → “Maitetsu” (thống nhất trong file, xem 2443)."
+  },
+  {
+    "key": "2763",
+    "kind": "gasp",
+    "character": "双鉄",
+    "jp": "「っ！？」",
+    "tw": "「！？」",
+    "old_vn": "「!?」",
+    "fix": "「Ư!?」",
+    "why": "Sweep gasp (lost-gasp-whole), nhận nguyên văn: JP 「っ！？」 nguyên dòng, VN chỉ còn “!?”."
+  },
+  {
+    "key": "2991",
+    "kind": "tag",
+    "character": "monologue",
+    "jp": "広大な鉄道用地を利しての周辺開発。\\nホテル業、旅行業、ターミナル駅での百貨店経営。",
+    "tw": "以廣闊的鐵路用地作為優勢進行周邊開發。經營鐵路沿線的住宿業、旅遊業以及終點站的百貨商店。",
+    "old_vn": "Tận dụng diện tích đất đường sắt rộng lớn để phát triển khu vực xung quanh.\\nKinh doanh khách sạn, du lịch, và bách hóa tại các \\x%lターミナル駅;#00ffc040;ga đầu mối%l;#;.",
+    "fix": "Tận dụng diện tích đất đường sắt rộng lớn để phát triển khu vực xung quanh. Kinh doanh khách sạn, du lịch, và bách hóa tại các ga đầu mối.",
+    "why": "Tag %l do VN tự thêm: JP không có tag nào ở dòng này, VN gắn tag cho ターミナル駅. Gỡ tag theo tiền lệ reina02."
+  },
+  {
+    "key": "3082",
+    "kind": "terminology",
+    "character": "monologue",
+    "jp": "御一夜温泉駅につく。",
+    "tw": "到達了御一夜溫泉站。",
+    "old_vn": "Chúng tôi đến ga suối nước nóng Ohimitera.",
+    "fix": "Chúng tôi đến ga suối nước nóng Ohitoyo.",
+    "why": "御一夜温泉駅 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "3089",
+    "kind": "minor",
+    "character": "monologue",
+    "jp": "\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;が、れいなが眠っているにもかかわらず、\\nポーレットの運転のなめらかさには、変化が無い。",
+    "tw": "即使\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;——即使玲奈睡著了，波萊特也依然能夠流暢駕駛。",
+    "old_vn": "Mặc dù \\x%lレイルロオド;#00ffc040;Railord%l;#;, Reina đang ngủ,\\nnhưng sự mượt mà trong thao tác lái của Paulette vẫn không hề thay đổi.",
+    "fix": "Dù \\x%lレイルロオド;#00ffc040;Railord%l;#; Reina đang ngủ, nhưng sự mượt mà trong thao tác lái của Paulette vẫn không hề thay đổi.",
+    "why": "Văn phong lủng củng: “Mặc dù Railord, Reina đang ngủ,” ngắt câu sai chỗ — Railord là Reina (danh xưng), không phải hai chủ ngữ. Gộp lại “Dù Railord Reina đang ngủ” cho trơn. Nghĩa giữ nguyên."
+  },
+  {
+    "key": "3104",
+    "kind": "terminology",
+    "character": "monologue",
+    "jp": "“水の町、温泉の町　御一夜”を強くアピールできれば、\\nそれは当然、工場誘致への強い拒否感へとつながるだろう。",
+    "tw": "只要大力宣傳“水鄉、溫泉之鄉——御一夜”的概念，自然會促使人們對汙染水源的工場落戶計劃產生反感。",
+    "old_vn": "Nếu có thể quảng bá mạnh mẽ hình ảnh “Ohimitera - Thành phố của nước, thành phố của suối nước nóng”,\\nthì đương nhiên điều đó sẽ dẫn đến sự phản đối mạnh mẽ đối với việc thu hút nhà máy.",
+    "fix": "Nếu có thể quảng bá mạnh mẽ hình ảnh “Ohitoyo - Thành phố của nước, thành phố của suối nước nóng”, thì đương nhiên điều đó sẽ dẫn đến sự phản đối mạnh mẽ đối với việc thu hút nhà máy.",
+    "why": "御一夜 → Ohitoyo theo quyết định 19/11."
+  },
+  {
+    "key": "3560",
+    "kind": "pronoun",
+    "character": "monologue",
+    "jp": "（僕もハチロクを見習うか。\\n質問はあとまわしにして――ともかく今は見学だ）",
+    "tw": "（我也向八六看齊吧。把疑問留到以後——現在先好好參觀學習）",
+    "old_vn": "（Mình cũng nên học tập Hachiroku thôi.\\nĐể dành câu hỏi lại sau——dù sao thì bây giờ cứ quan sát đã.）",
+    "fix": "（Tôi cũng nên học tập Hachiroku thôi. Để dành câu hỏi lại sau——dù sao thì bây giờ cứ quan sát đã.）",
+    "why": "Soutetsu độc thoại dùng “Mình” làm chủ ngữ mệnh đề chính — sai theo quy tắc: Soutetsu = “tôi”, “mình” chỉ được trong độc thoại tự vấn cảm xúc. Đây là quyết tâm (“nên học tập…”), không phải tự vấn → về “tôi”. (Các “mình” khác trong file đều đúng: sở hữu/phản thân/mệnh đề phụ/thành ngữ — xem mục phân tích xưng hô.)"
+  }
+]

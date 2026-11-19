@@ -1,0 +1,482 @@
+[
+  {
+    "key": "996",
+    "jp": "…………なんで、こんなに眠いんだ――\\nさっきまで、僕……寝てた、の、に…………",
+    "tw": "…………為什麼，這麼睏呢——明明，直到剛才……我都還……在……睡…………",
+    "old_vn": "…………Tại sao, lại buồn ngủ thế này——\\nRõ ràng, lúc nãy mình……vẫn còn đang……ngủ, cơ, mà…………",
+    "fix": "…………Sao mà buồn ngủ thế này——\\nRõ ràng lúc nãy tôi……vẫn còn đang……ngủ cơ mà…………",
+    "kind": "pronoun",
+    "reason": "Pilot giữ: mình→tôi (mặc định; độc thoại nhận ra mình buồn ngủ, không phải tự vấn cảm xúc kiểu h3 1683 nên ngoại lệ mình không bắt buộc); Tại sao, lại→Sao mà; bỏ dấu phẩy kiểu máy dịch.",
+    "character": "monologue"
+  },
+  {
+    "key": "1000",
+    "jp": "……ダメ、だ。\\n聞いてること、意味、わからない。",
+    "tw": "……不行……了。聽到的話……已經……理解不了了。",
+    "old_vn": "……Không, được rồi.\\nNhững gì mình nghe thấy, chẳng, hiểu gì cả.",
+    "fix": "……Không ổn rồi.\\nNhững gì tôi nghe thấy, chẳng hiểu gì cả.",
+    "kind": "meaning",
+    "reason": "Pilot giữ: ダメ、だ=Không ổn rồi (không phải Không, được rồi); mình→tôi; bỏ dấu phẩy thừa.",
+    "character": "monologue"
+  },
+  {
+    "key": "1004",
+    "jp": "……出血、僕の、頭……から。\\nなら、このまま――けど……………………",
+    "tw": "……出血，我的，頭……上。那索性，就這樣——可是……………………",
+    "old_vn": "……Chảy máu, từ……đầu, của mình.\\nVậy thì, cứ thế này——nhưng mà……………………",
+    "fix": "……Máu chảy từ……đầu tôi.\\nVậy thì, cứ thế này——nhưng mà……………………",
+    "kind": "pronoun",
+    "reason": "Pilot giữ: mình→tôi; bỏ dấu phẩy kiểu máy dịch.",
+    "character": "monologue"
+  },
+  {
+    "key": "1009",
+    "jp": "……物との会話。\\nあるいは、ただの独り言。",
+    "tw": "……我對著東西說話。或者說，只是自言自語。",
+    "old_vn": "……Trò chuyện với đồ vật.\\nHay có lẽ, chỉ là độc thoại.",
+    "fix": "……Trò chuyện với đồ vật.\\nHay có lẽ chỉ là độc thoại.",
+    "kind": "minor",
+    "reason": "Pilot giữ: bỏ dấu phẩy thừa sau có lẽ.",
+    "character": "monologue"
+  },
+  {
+    "key": "1012",
+    "jp": "……声、誰かの声が聞こえる。\\n……感じる……手……誰かが、僕を……ゆすってる。",
+    "tw": "……聲音，好像聽到了誰的聲音。……感覺到……手……有誰，在……搖晃我。",
+    "old_vn": "……Tiếng nói, tôi nghe thấy tiếng ai đó.\\n……Cảm nhận được……bàn tay……ai đó, đang……lay tôi.",
+    "fix": "……Tôi nghe thấy tiếng ai đó.\\n……Cảm nhận được……bàn tay……ai đó đang……lay tôi.",
+    "kind": "minor",
+    "reason": "Pilot giữ: gọn câu trùng lặp; bỏ dấu phẩy thừa.",
+    "character": "monologue"
+  },
+  {
+    "key": "1023",
+    "jp": "「\\x%l制動;#00ffc040;制動%l;#;了解。この速度から\\x%l非常;#00ffc040;非常%l;#;は無理――よね」",
+    "tw": "「\\x%l制動;#00ffc040;減速%l;#;了解。現在這速度\\x%l非常;#00ffc040;緊急%l;#;是沒辦法用了」",
+    "old_vn": "「Đã rõ \\x%l制動;#00ffc040;hãm phanh%l;#;. Với tốc độ này thì \\x%l非常;#00ffc040;phanh khẩn cấp%l;#; là không thể——rồi.」",
+    "fix": "「Đã rõ, \\x%l制動;#00ffc040;hãm phanh%l;#;. Với tốc độ này thì \\x%l非常;#00ffc040;phanh khẩn cấp%l;#; là không thể——nhỉ.」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: よね=nhỉ (không phải rồi); thêm dấu phẩy sau Đã rõ.",
+    "character": "清美勝子"
+  },
+  {
+    "key": "1027",
+    "character": "ハチロク",
+    "kind": "meaning",
+    "jp": "「\\x%l粘着力;#00ffc040;粘着力%l;#;が著しく低下しています。\\n[すなま,1]砂撒きを進言します」",
+    "tw": "「\\x%l粘着力;#00ffc040;黏著力%l;#;大幅下降。建議放沙」",
+    "old_vn": "「\\x%l粘着力;#00ffc040;Lực bám đường%l;#; đang sụt giảm nghiêm trọng.\\nKiến nghị phun cát dồn toa.」",
+    "fix": "「\\x%l粘着力;#00ffc040;Lực bám đường%l;#; đang sụt giảm nghiêm trọng.\\nKiến nghị phun cát.」",
+    "why": "Hieu chốt 20/11 02:03 (\"dịch sao thuần việt dễ hiểu nhất là ok\"): \"dồn toa\" không có trong JP (砂撒きを進言します) lẫn TW (建議放沙) — chỉ có trong ví dụ mẫu ai_translation_prompt.md của Hieu. Bỏ \"dồn toa\" → \"Kiến nghị phun cát.\" thuần Việt, dễ hiểu nhất. Fix do parent bổ sung sau audit, kiểm chứng 1/1 vs JP/TW."
+  },
+  {
+    "key": "1041",
+    "jp": "「……これ以上は\\x%l滑走;#00ffc040;滑走%l;#;します。\\n限界です。制動力は足りません」",
+    "tw": "「……力度再大就要\\x%l滑走;#00ffc040;打滑%l;#;了。已經到極限了。減速度不足」",
+    "old_vn": "「……Hơn nữa sẽ bị \\x%l滑走;#00ffc040;trượt bánh%l;#; mất.\\nĐến giới hạn rồi. Lực hãm phanh không đủ.」",
+    "fix": "「……Cứ thế này nữa sẽ bị \\x%l滑走;#00ffc040;trượt bánh%l;#; mất.\\nĐến giới hạn rồi. Lực hãm phanh không đủ.」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: これ以上=cứ thế này nữa (không phải hơn nữa).",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1047",
+    "jp": "「……やむなしね。\\n[しずおか,1]靜岡での\\x%l接続;#00ffc040;接続%l;#;は遅らせたくなかったんだけど」",
+    "tw": "「……沒辦法啦。還要在靜岡進行\\x%l接続;#00ffc040;會車%l;#;呢，真不想晚點啊」",
+    "old_vn": "「……Hết cách rồi.\\nTôi không muốn làm chậm trễ việc \\x%l接続;#00ffc040;kết nối chuyển tàu%l;#; ở Shizuoka đâu.」",
+    "fix": "「……Hết cách rồi.\\nTôi đã không muốn làm chậm việc \\x%l接続;#00ffc040;kết nối chuyển tàu%l;#; ở Shizuoka đâu.」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 遅らせたくなかった là ý muốn trong quá khứ → đã không muốn làm chậm.",
+    "character": "清美勝子"
+  },
+  {
+    "key": "1160",
+    "jp": "「いや、転覆だ！　\\x%l脱線転覆;#00ffc040;脱線転覆%l;#;！！\\nだが、全滅よりはよほどマシだっ！！」",
+    "tw": "「不，傾覆了！\\x%l脱線転覆;#00ffc040;脫軌傾覆%l;#;！！不過總比全滅好多了！！」",
+    "old_vn": "「Không, lật rồi! \\x%l脱線転覆;#00ffc040;Trật bánh lật tàu%l;#;!!\\nNhưng thế này vẫn còn tốt chán so với bị diệt vong toàn bộ!!」",
+    "fix": "「Không, là lật tàu! \\x%l脱線転覆;#00ffc040;Trật bánh lật tàu%l;#;!!\\nNhưng thế này vẫn còn tốt hơn nhiều so với tất cả cùng chết!!」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 転覆だ=là lật tàu; 全滅=tất cả cùng chết (không phải bị diệt vong toàn bộ).",
+    "character": "帝鉄職員Ａ"
+  },
+  {
+    "key": "1166",
+    "jp": "「お客様、ご着席大丈夫でしょうか」",
+    "tw": "「乘客們不知有沒有好好落座呢」",
+    "old_vn": "「Hành khách, không biết đã ngồi vững hết chưa.」",
+    "fix": "「Quý khách đã ngồi vào chỗ ổn cả chưa ạ.」",
+    "kind": "minor",
+    "reason": "Pilot giữ: お客様→Quý khách (kính ngữ); câu cũ lủng củng.",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1168",
+    "jp": "「そうだな、着水前に一度上から見ておこう」",
+    "tw": "「也是，在水上降落前先從空中俯瞰一下吧」",
+    "old_vn": "「Cũng được, trước khi hạ cánh xuống nước thì nhìn từ trên cao một chút vậy.」",
+    "fix": "「Ừ, trước khi hạ cánh xuống nước thì nhìn từ trên cao một lượt vậy.」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: そうだな=Ừ (không phải Cũng được).",
+    "character": "双鉄"
+  },
+  {
+    "key": "1170",
+    "jp": "「承知しています。まもなく、目的地の[みぎたいちしゅぞうもと,5]右田一酒造元です。\\n上空を一度通過しますか？」",
+    "tw": "「了解。即將抵達目的地，右田一釀酒廠。要從上空先飛過一次嗎？」",
+    "old_vn": "「Tôi hiểu rồi. Sắp tới điểm đến là xưởng rượu Migita System.\\nNgài có muốn bay qua không phận một lần không?」",
+    "fix": "「Tôi hiểu rồi. Sắp tới điểm đến là xưởng rượu Migita Ichi.\\nNgài có muốn bay qua không phận một lần không?」",
+    "kind": "terminology",
+    "reason": "Migita System→Migita Ichi (quyết định 19/11 #17; JP 右田一酒造元, TW 右田一釀酒廠; không tồn tại thực thể Migita System). Pilot giữ theo docs cũ — quyết định mới thay thế.",
+    "character": "ナビ"
+  },
+  {
+    "key": "1173",
+    "jp": "「\\x%l車掌;#00ffc040;車掌%l;#;・[せき]関、\\x%l車販;#00ffc040;車販%l;#;・[まゆずみ]黛のコンビでしょ？\\nやってるわ。きちんと、彼女たちの仕事を」",
+    "tw": "「今天是關擔當\\x%l車掌;#00ffc040;列車長%l;#;、黛負責\\x%l車販;#00ffc040;車售%l;#;吧？她們一定會做好自己的工作的」",
+    "old_vn": "「Hôm nay là bộ đôi \\x%l車掌;#00ffc040;trưởng tàu%l;#; Seki và \\x%l車販;#00ffc040;nhân viên bán hàng%l;#; Mayuzumi mà nhỉ?\\nHọ đang làm đấy. Chắc chắn họ sẽ hoàn thành tốt công việc của mình.」",
+    "fix": "「Là bộ đôi \\x%l車掌;#00ffc040;trưởng tàu%l;#; Seki và \\x%l車販;#00ffc040;nhân viên bán hàng%l;#; Mayuzumi mà nhỉ?\\nHọ đang làm đấy. Chắc chắn họ sẽ hoàn thành tốt công việc của mình.」",
+    "kind": "meaning",
+    "reason": "SỬA LẠI pilot: bỏ Hôm nay (JP không có; TW thêm 今天 nhưng JP hơn TW). Câu 2 giữ nguyên bản cũ theo TW (TW: 她們一定會做好自己的工作的) — pilot đổi thành mệnh lệnh Cứ để họ làm... là lệch giọng (JP やってるわ là khẳng định). JP cụt nhưng TW cho đủ căn cứ hoàn thiện.",
+    "character": "清美勝子"
+  },
+  {
+    "key": "1185",
+    "jp": "「やってやるわよ。一世一代の仕事をね！」",
+    "tw": "「來吧。這輩子就押在這一次了！」",
+    "old_vn": "「Làm thôi. Đánh cược cả đời vào lần này!」",
+    "fix": "「Làm thôi! Đây là công việc cả đời mới có một lần đấy!」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 一世一代=cả đời mới có một lần (không phải đánh cược cả đời).",
+    "character": "清美勝子"
+  },
+  {
+    "key": "1217",
+    "jp": "「停止、以外――。\\nでしたら、逆に！」",
+    "tw": "「剎停以外嗎。那就反其道行之！」",
+    "old_vn": "「Ngoài việc, dừng lại——.\\nNếu vậy thì, làm ngược lại!」",
+    "fix": "「Ngoài việc dừng lại ra——.\\nVậy thì, làm ngược lại!」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 停止以外=ngoài việc dừng lại ra; bỏ dấu phẩy thừa.",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1224",
+    "jp": "「なるほど。それゆえ、御一夜は衰退し、\\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場の誘致話が持ち上がったわけか？」",
+    "tw": "「原來如此。所以御一夜才會衰退成這樣，甚至提出讓\\x%lエアクラ;#00ffc040;空凝機%l;#;工廠落戶嗎？」",
+    "old_vn": "「Ra là vậy. Vì thế nên Ohimitera mới suy thoái,\\nvà câu chuyện thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; mới được đưa ra bàn tán sao?」",
+    "fix": "「Ra là vậy. Vì thế nên Ohitoyo mới suy thoái,\\nvà câu chuyện thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; mới được đưa ra bàn tán sao?」",
+    "kind": "terminology",
+    "reason": "Ohimitera→Ohitoyo (quyết định 19/11; JP 御一夜).",
+    "character": "双鉄"
+  },
+  {
+    "key": "1247",
+    "jp": "「っ！　――最大限の\\x%l制動;#00ffc040;制動%l;#;をください。\\n\\x%l滑走;#00ffc040;滑走%l;#;せぬよう補助します」",
+    "tw": "「啊！請進行全力\\x%l制動;#00ffc040;減速%l;#;。我來輔助避免\\x%l滑走;#00ffc040;打滑%l;#;」",
+    "old_vn": "「っ! ——Xin hãy dùng \\x%l制動;#00ffc040;hãm phanh%l;#; tối đa.\\nTôi sẽ hỗ trợ để không bị \\x%l滑走;#00ffc040;trượt bánh%l;#;.」",
+    "fix": "「Ư! ——Xin hãy dùng \\x%l制動;#00ffc040;hãm phanh%l;#; tối đa.\\nTôi sẽ hỗ trợ để không bị \\x%l滑走;#00ffc040;trượt bánh%l;#;.」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu (đã kiểm chứng JP 「っ！――...」): っ đầu câu →Ư. Áp nguyên giá trị sweep, chuyển sang dạng ngắt dòng của CSV3.",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1260",
+    "jp": "「矛盾の判断には大きな演算能力を必要とし、\\nその負荷が双鉄様の安全を脅かすという……双鉄様？」",
+    "tw": "「在矛盾中做出判斷需要大量的計算能力，而這個負荷又會威脅到雙鐵少爺的安全……雙鐵少爺？」",
+    "old_vn": "「Việc đưa ra quyết định trong sự mâu thuẫn đòi hỏi năng lực tính toán lớn,\\nvà khối lượng công việc đó sẽ đe dọa đến sự an toàn của ngài Soutetsu…… Ngài Soutetsu?」",
+    "fix": "「Việc phán đoán trong mâu thuẫn đòi hỏi năng lực tính toán rất lớn,\\nvà gánh nặng đó sẽ đe dọa sự an toàn của ngài Soutetsu…… Ngài Soutetsu?」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 判断=phán đoán; 負荷=gánh nặng (không phải khối lượng công việc).",
+    "character": "ナビ"
+  },
+  {
+    "key": "1262",
+    "jp": "「ここだ！　落ちてない！　落ちてないぞっ！」",
+    "tw": "「在這裡！沒有墜河！沒有墜河！」",
+    "old_vn": "「Ở đây! Không bị rơi! Không bị rơi xuống sông!」",
+    "fix": "「Ở đây! Không rơi! Không rơi đâu!」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: bỏ xuống sông bịa thêm (JP 落ちてない không có sông; JP hơn TW — TW ghi 墜河 nhưng JP mới là gốc).",
+    "character": "帝鉄職員Ａ"
+  },
+  {
+    "key": "1278",
+    "jp": "「ご命令を了解しました。\\n同期間における御一夜市の変化をご報告します」",
+    "tw": "「已收到您的命令。立即向您報告該期間御一夜市發生的變化」",
+    "old_vn": "「Đã rõ mệnh lệnh.\\nXin báo cáo những thay đổi của thành phố Ohimitera trong cùng khoảng thời gian.」",
+    "fix": "「Đã rõ mệnh lệnh.\\nXin báo cáo những thay đổi của thành phố Ohitoyo trong cùng khoảng thời gian.」",
+    "kind": "terminology",
+    "reason": "Ohimitera→Ohitoyo (quyết định 19/11; JP 御一夜).",
+    "character": "ナビ"
+  },
+  {
+    "key": "1308",
+    "jp": "「お前のように優秀なナビを、\\n敵に回したくはないからな」",
+    "tw": "「我可不想與你這麼優秀的導航系統為敵」",
+    "old_vn": "「Bởi vì tôi không muốn đối đầu\\nvới một hệ thống dẫn đường xuất sắc như cô đâu.」",
+    "fix": "「Vì tôi chẳng muốn biến một Navi xuất sắc như cô\\nthành kẻ địch đâu.」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 敵に回したくない=không muốn biến thành kẻ địch. Giữ nguyên vị trí ngắt dòng theo JP (2 dòng).",
+    "character": "双鉄"
+  },
+  {
+    "key": "1317",
+    "jp": "「[ま]撒いた瞬間流されるのがオチでしょうけど。\\nま、やらないよりはね――っと」",
+    "tw": "「放下的沙子恐怕轉瞬就會被沖走吧。算了，總比什麼也不做強——吧」",
+    "old_vn": "「Chắc rắc xuống cái là bị cuốn trôi đi ngay thôi.\\nNhưng mà, có làm còn hơn không——っ」",
+    "fix": "「Chắc rắc xuống cái là bị cuốn trôi đi ngay thôi.\\nNhưng mà, có làm còn hơn không——Ư」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu (đã kiểm chứng JP ――っと): ――っと cuối câu →――Ư. Áp nguyên giá trị sweep.",
+    "character": "清美勝子"
+  },
+  {
+    "key": "1329",
+    "jp": "「はい。ご息女です。\\nしかし、行政手腕は遺伝しなかったとの評判です」",
+    "tw": "「是的，是前任市長千金。不過依風評看來，她並沒有遺傳前任市長的執政能力」",
+    "old_vn": "「Vâng. Là con gái của ngài ấy.\\nTuy nhiên, có nhiều đánh giá cho rằng năng lực hành chính không được di truyền.」",
+    "fix": "「Vâng. Là con gái của ngài ấy.\\nNhưng nghe nói năng lực hành chính thì không được di truyền.」",
+    "kind": "minor",
+    "reason": "Pilot giữ: 評判=nghe nói; gọn câu.",
+    "character": "ナビ"
+  },
+  {
+    "key": "1335",
+    "jp": "「状況未確定の事故報告。\\x%l発報;#00ffc040;発報%l;#;は[キュウロクヨンニイ,3]9642\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;。\\n\\x%l帝鉄貨物;#00ffc040;帝鉄貨物%l;#;。十五両\\x%l編成;#00ffc040;編成%l;#;。全車両喪失の可能性あり」",
+    "tw": "「有狀況尚未確認的事故報告。\\x%l発報;#00ffc040;發報%l;#;的是９６４２\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;。\\x%l帝鉄貨物;#00ffc040;帝國鐵路貨運%l;#;。十五輛\\x%l編成;#00ffc040;編組%l;#;。可能已全部損失」",
+    "old_vn": "「Báo cáo sự cố tình trạng chưa xác định. \\x%l発報;#00ffc040;Phát tín hiệu báo động%l;#; từ \\x%lレイルロオド;#00ffc040;Railord%l;#; 9642.\\n\\x%l帝鉄貨物;#00ffc040;Vận tải hàng hóa Đường sắt Hoàng gia%l;#;. \\x%l編成;#00ffc040;Đoàn tàu%l;#; mười lăm toa. Có khả năng toàn bộ toa xe đã bị tổn thất.」",
+    "fix": "「Báo cáo sự cố tình trạng chưa xác định. \\x%l発報;#00ffc040;Phát tín hiệu báo động%l;#; từ \\x%lレイルロオド;#00ffc040;Railord%l;#; 9642.\\n\\x%l帝鉄貨物;#00ffc040;Vận tải hàng hóa Đường sắt Đế quốc%l;#;. \\x%l編成;#00ffc040;Đoàn tàu%l;#; mười lăm toa. Có khả năng mất toàn bộ toa xe.」",
+    "kind": "meaning",
+    "reason": "Pilot giữ câu cuối (mất toàn bộ toa xe). Thêm: gloss 帝鉄貨物 Đường sắt Hoàng gia→Đường sắt Đế quốc — quyết định 19/11 #6; file 01 là file mở đầu game và đây là lần xuất hiện 帝鉄 duy nhất trong file → tooltip %l lần đầu dùng dạng đầy đủ Đường sắt Đế quốc.",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1337",
+    "jp": "「当機に停止の手段無し。\\x%l制動;#00ffc040;制動%l;#;力を最大限適正にとっても……七五秒後、止まりきれずに――」",
+    "tw": "「本次列車已無法停車。即便進行極限\\x%l制動;#00ffc040;減速%l;#;也無法剎停，在七十五秒後……」",
+    "old_vn": "「Chuyến tàu này đã không còn cách dừng lại. Dù có dùng lực \\x%l制動;#00ffc040;hãm phanh%l;#; tối đa đi chăng nữa…… thì 75 giây sau, cũng không thể dừng hẳn lại mà——」",
+    "fix": "「Chuyến tàu này đã không còn cách dừng lại. Dù có dùng lực \\x%l制動;#00ffc040;hãm phanh%l;#; tối đa một cách hợp lý nhất…… 75 giây sau, cũng không dừng hẳn được mà——」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: bổ sung 適正に=một cách hợp lý nhất (bản cũ sót); 止まりきれず=không dừng hẳn được.",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1352",
+    "jp": "「その便利な物品を作る工場を、双鉄様は、\\n御一夜に誘致してほしくはないとおっしゃっています」",
+    "tw": "「然而雙鐵少爺卻說，不想讓生產這些方便物品的工廠在御一夜落戶」",
+    "old_vn": "「Thế mà ngài Soutetsu lại nói,\\nkhông muốn thu hút nhà máy sản xuất những vật phẩm tiện lợi đó về Ohimitera.」",
+    "fix": "「Thế mà ngài Soutetsu lại nói,\\nkhông muốn thu hút nhà máy sản xuất những vật phẩm tiện lợi đó về Ohitoyo.」",
+    "kind": "terminology",
+    "reason": "Ohimitera→Ohitoyo (quyết định 19/11; JP 御一夜).",
+    "character": "ナビ"
+  },
+  {
+    "key": "1359",
+    "jp": "「御一夜以外に作って欲しいと思わずにはいられんのだ。\\nここは、僕のもうひとつの故郷なのだから」",
+    "tw": "「看到這景色自然會希望不要在御一夜進行生產。這裡可是我的第二故鄉啊」",
+    "old_vn": "「Không thể không mong muốn họ xây dựng nó ở nơi khác ngoài Ohimitera.\\nBởi vì nơi này, là quê hương thứ hai của tôi.」",
+    "fix": "「Không thể không mong muốn họ xây dựng nó ở nơi khác ngoài Ohitoyo.\\nBởi vì nơi này, là quê hương thứ hai của tôi.」",
+    "kind": "terminology",
+    "reason": "Ohimitera→Ohitoyo (quyết định 19/11; JP 御一夜).",
+    "character": "双鉄"
+  },
+  {
+    "key": "1375",
+    "jp": "「すぐに先方の\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;へ\\x%l共感;#00ffc040;共感%l;#;をつなぎ遅延連絡\\n――っ！？　なっ！？　え？　もう一度っ！？」",
+    "tw": "「立即與前方最近的\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;進行\\x%l共感;#00ffc040;共鳴%l;#;連結告知晚點——！？什…！？哎？請重複！？」",
+    "old_vn": "「Tôi sẽ lập tức kết nối \\x%l共感;#00ffc040;cộng cảm%l;#; với \\x%lレイルロオド;#00ffc040;Railord%l;#; phía trước để thông báo việc chậm trễ\\n——っ!? Gì cơ!? Hả? Xin hãy nhắc lại!?」",
+    "fix": "「Tôi sẽ lập tức kết nối \\x%l共感;#00ffc040;cộng cảm%l;#; với \\x%lレイルロオド;#00ffc040;Railord%l;#; phía trước để thông báo việc chậm trễ\\n——Ư!? Gì cơ!? Hả? Xin hãy nhắc lại!?」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu (đã kiểm chứng JP ――っ!?): →――Ư!? Áp nguyên giá trị sweep.",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1382",
+    "jp": "「\\x%l制動;#00ffc040;制動%l;#;続行。\\n――もう少し――圧、もう少しだけ――っ！！！」",
+    "tw": "「繼續\\x%l制動;#00ffc040;減速%l;#;。壓力還差一點，加把勁！！！」",
+    "old_vn": "「Tiếp tục \\x%l制動;#00ffc040;hãm phanh%l;#;.\\n——Thêm chút nữa——áp suất, thêm một chút nữa thôi——っ!!!」",
+    "fix": "「Tiếp tục \\x%l制動;#00ffc040;hãm phanh%l;#;.\\n——Thêm chút nữa——áp suất, thêm một chút nữa thôi——Ư!!!」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu (đã kiểm chứng JP ――っ!!!): →――Ư!!! Áp nguyên giá trị sweep.",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1397",
+    "jp": "「そうですね。\\nわたくしたちも、わたくしたちの」",
+    "tw": "「說得也是呢。我們也要，做好我們的…」",
+    "old_vn": "「Nói cũng phải.\\nChúng ta cũng phải, làm tốt công việc của chúng ta.」",
+    "fix": "「Nói cũng phải.\\nChúng ta cũng phải làm tốt công việc của mình.」",
+    "kind": "minor",
+    "reason": "Pilot giữ: bỏ dấu phẩy thừa; câu gốc cụt — phần hoàn thiện theo đúng bản cũ, không bịa thêm.",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1398",
+    "jp": "「報告なさい。何の方法？　報告が一秒遅れるだけで、\\n危険が何メートル近づくかわかってるでしょうに」",
+    "tw": "「請報告，什麼辦法？你應該清楚，晚一秒報告危險就會接近多少公尺的吧」",
+    "old_vn": "「Báo cáo đi. Hết cách gì? Báo cáo chậm một giây thôi là\\nnguy hiểm sẽ tiến gần thêm bao nhiêu mét, cô biết rõ mà.」",
+    "fix": "「Báo cáo đi. Phương pháp gì cơ? Báo cáo chậm một giây thôi là\\nnguy hiểm tiến gần thêm bao nhiêu mét, cô biết rõ mà.」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 何の方法？=Phương pháp gì cơ? (không phải Hết cách gì?).",
+    "character": "清美勝子"
+  },
+  {
+    "key": "1404",
+    "jp": "「お客様乗せてんのよ、無理でも止めるっ！！\\n再減速！　そっち主導で！！」",
+    "tw": "「車上還有乘客，無論如何都要停下！！進一步減速，以你為主！！」",
+    "old_vn": "「Trên tàu vẫn còn hành khách, không thể cũng phải dừng lại!!\\nTiếp tục giảm tốc! Cô làm chủ đạo đi!!」",
+    "fix": "「Trên tàu còn có hành khách đấy, dù không thể cũng phải dừng lại!!\\nGiảm tốc lại! Cô chủ đạo đi!!」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 再減速=giảm tốc lại (không phải tiếp tục giảm tốc).",
+    "character": "清美勝子"
+  },
+  {
+    "key": "1430",
+    "jp": "「再減速了解。\\x%l圧;#00ffc040;[あつ,4]ブレーキ力%l;#;、強めます――っ！」",
+    "tw": "「進一步減速了解。加大\\x%l圧;#00ffc040;壓力%l;#;！」",
+    "old_vn": "「Đã rõ tiếp tục giảm tốc. \\x%l圧;#00ffc040;Áp suất%l;#; hãm phanh, tăng cường——っ!」",
+    "fix": "「Đã rõ, giảm tốc lại. \\x%l圧;#00ffc040;Áp suất%l;#; hãm phanh, tăng thêm——Ư!」",
+    "kind": "meaning",
+    "reason": "Gộp pilot + sweep: 再減速=giảm tốc lại, 強めます=tăng thêm (pilot); っ cuối câu →Ư (sweep 1430, đã kiểm chứng JP).",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1434",
+    "jp": "「ならどうしろとっ！！」",
+    "tw": "「那你說怎麼辦！！」",
+    "old_vn": "「Vậy cậu bảo phải làm sao!!」",
+    "fix": "「Vậy thì phải làm sao đây!!」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: bỏ cậu bảo bịa thêm (JP どうしろと=phải làm sao đây).",
+    "character": "帝鉄職員Ａ"
+  },
+  {
+    "key": "1438",
+    "jp": "「だったら他っ！　停止以外の方策をっ！\\n手段は問わない！　目標は転落回避っ！！！」",
+    "tw": "「那就想想別的辦法！剎停以外的方法！什麼辦法都行！能不墜河就行！！！」",
+    "old_vn": "「Thế thì cách khác! Tìm cách khác ngoài việc dừng tàu đi!\\nCách gì cũng được! Mục tiêu là tránh rơi xuống sông!!!」",
+    "fix": "「Thế thì cách khác! Tìm cách khác ngoài việc dừng tàu đi!\\nCách gì cũng được! Mục tiêu là tránh bị rơi xuống!!!」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 転落回避=tránh bị rơi xuống, bỏ xuống sông bịa thêm (JP hơn TW — TW ghi 墜河 nhưng JP không có sông).",
+    "character": "清美勝子"
+  },
+  {
+    "key": "1440",
+    "jp": "「もちろんです！　\\nですが――、一刻も早く病院につれていかないとっ」",
+    "tw": "「那是自然！可是，得儘快送他去醫院」",
+    "old_vn": "「Tất nhiên rồi!\\nNhưng mà——, phải đưa đến bệnh viện càng sớm càng tốt.」",
+    "fix": "「Tất nhiên rồi!\\nNhưng mà——phải đưa đến bệnh viện càng sớm càng tốt.」",
+    "kind": "minor",
+    "reason": "Pilot giữ: bỏ dấu phẩy thừa sau ——.",
+    "character": "帝鉄職員Ｃ"
+  },
+  {
+    "key": "1450",
+    "jp": "「[ひない,1]雛衣というと、前の市長の？」",
+    "tw": "「雛衣啊，是前任市長的？」",
+    "old_vn": "「Hinai à, là của thị trưởng tiền nhiệm sao?」",
+    "fix": "「Hinai à, là con gái thị trưởng tiền nhiệm sao?」",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 前の市長の雛衣=con gái thị trưởng tiền nhiệm (câu cũ gây khó hiểu).",
+    "character": "双鉄"
+  },
+  {
+    "key": "1457",
+    "jp": "「9642\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;は『鉄橋崩落』と――断末魔の\\x%l共感;#00ffc040;共感%l;#;で。\\n……[ふじがわ,2]冨士川[きょうりょう,1]橋梁が崩落したと」",
+    "tw": "「９６４２\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;在最後關頭通過\\x%l共感;#00ffc040;共鳴%l;#;發出了“鐵橋坍塌”的消息。……內容是“富士川橋樑坍塌”」",
+    "old_vn": "「\\x%lレイルロオド;#00ffc040;Railord%l;#; 9642 truyền đạt qua \\x%l共感;#00ffc040;cộng cảm%l;#; lúc hấp hối rằng 『Cầu sắt sập』.\\n……Nội dung là cầu sắt Fujikawa đã sập.」",
+    "fix": "「\\x%lレイルロオド;#00ffc040;Railord%l;#; 9642 truyền đạt qua \\x%l共感;#00ffc040;cộng cảm%l;#; lúc hấp hối rằng 『Cầu sắt sập』.\\n……Cầu sắt Fujikawa đã sập.」",
+    "kind": "minor",
+    "reason": "Pilot giữ: bỏ Nội dung là thừa (đã có truyền đạt rằng).",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1551",
+    "jp": "だから視線はすぐに捉える――眼下を流れる光の帯を。\\n太陽の煌きを豊かに返す、御一夜の象徴、クマ川を。",
+    "tw": "因此，我的視線立即捕捉到了，眼前流淌著的光帶——那將太陽的光芒反射得五彩繽紛的，正是御一夜的象徵，隈河。",
+    "old_vn": "Nên ánh mắt tôi lập tức bắt lấy——dải sáng lấp lánh chảy dưới tầm mắt.\\nCon sông Kuma, biểu tượng của Ohimitera, phản chiếu rực rỡ ánh mặt trời.",
+    "fix": "Nên ánh mắt tôi lập tức bắt lấy——dải sáng lấp lánh chảy dưới tầm mắt.\\nCon sông Kuma, biểu tượng của Ohitoyo, phản chiếu rực rỡ ánh mặt trời.",
+    "kind": "terminology",
+    "reason": "Ohimitera→Ohitoyo (quyết định 19/11; JP 御一夜).",
+    "character": "monologue"
+  },
+  {
+    "key": "1592",
+    "jp": "上空から見下ろす御一夜の町並みは、\\n出て行ったときと、何も変わっていないように見える。",
+    "tw": "我從上空俯瞰御一夜的街道。與當初離開時相比，這裡似乎一點都沒改變。",
+    "old_vn": "Nhìn từ trên cao, quang cảnh thành phố Ohimitera\\ncó vẻ như chẳng hề thay đổi so với lúc tôi rời đi.",
+    "fix": "Nhìn từ trên cao, quang cảnh thành phố Ohitoyo\\ncó vẻ như chẳng hề thay đổi so với lúc tôi rời đi.",
+    "kind": "terminology",
+    "reason": "Ohimitera→Ohitoyo (quyết định 19/11; JP 御一夜).",
+    "character": "monologue"
+  },
+  {
+    "key": "1601",
+    "jp": "機体姿勢を即座に戻し、けれど航路は変更しない。",
+    "tw": "機身迅速回正，然而航線卻未有絲毫變化。",
+    "old_vn": "Ngay lập tức điều chỉnh lại tư thế máy bay, nhưng không thay đổi đường bay.",
+    "fix": "Ngay lập tức lấy lại tư thế thân máy, nhưng không thay đổi đường bay.",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 機体姿勢を戻し=lấy lại tư thế thân máy (không phải điều chỉnh lại tư thế máy bay).",
+    "character": "monologue"
+  },
+  {
+    "key": "1628",
+    "jp": "そうして、[おひとよ,2]御一夜――\\n眼下に広がるこの町も、僕を間違いなく救ってくれた。",
+    "tw": "而此時，御一夜——下方映入眼簾的城鎮，也同樣拯救過我。",
+    "old_vn": "Và lúc này, Ohimitera——\\nthành phố trải dài dưới tầm mắt kia, cũng đã từng cứu rỗi tôi.",
+    "fix": "Và lúc này, Ohitoyo——\\nthành phố trải dài dưới tầm mắt kia, cũng đã từng cứu rỗi tôi.",
+    "kind": "terminology",
+    "reason": "Mở rộng pilot (pilot chỉ sửa khoảng trắng sau ——): Ohimitera→Ohitoyo (quyết định 19/11; JP 御一夜). Trong CSV3 vị trí đó là ký tự ngắt dòng nên không còn khoảng trắng để sửa.",
+    "character": "monologue"
+  },
+  {
+    "key": "1634",
+    "jp": "生家という言葉に習うのならば、僕の育家である\\n――右田一酒造元の、その姿を。",
+    "tw": "若是類比誕生之家這個詞彙的話，這就是我的養育之家——右田一釀酒廠。",
+    "old_vn": "Nếu dùng từ nhà đẻ, thì đây chính là nhà nuôi của tôi\\n——hình dáng của xưởng rượu Migita System.",
+    "fix": "Nếu dùng từ nhà đẻ, thì đây chính là nhà nuôi của tôi\\n——hình dáng của xưởng rượu Migita Ichi.",
+    "kind": "terminology",
+    "reason": "Migita System→Migita Ichi (quyết định 19/11 #17; JP 右田一酒造元, TW 右田一釀酒廠). Pilot giữ theo docs cũ — quyết định mới thay thế.",
+    "character": "monologue"
+  },
+  {
+    "key": "1637",
+    "jp": "ナビという物品。\\x%lエアクラ;#00ffc040;エアクラ%l;#;・ナビ。\\n\\x%lエアクラ;#00ffc040;エアクラ%l;#;とともに急発展し、一般にまで普及した擬似知能。",
+    "tw": "被我稱作Ｎａｖｉ的物品，全稱\\x%lエアクラ;#00ffc040;空凝機%l;#;導航系統，是隨著\\x%lエアクラ;#00ffc040;空凝機%l;#;的高速發展而廣為普及的人工智慧。",
+    "old_vn": "Vật phẩm mang tên Navi. \\x%lエアクラ;#00ffc040;Aircra%l;#; Navi.\\nTrí tuệ nhân tạo phát triển nhanh chóng cùng với \\x%lエアクラ;#00ffc040;Aircra%l;#;, và đã trở nên phổ biến trong đại chúng.",
+    "fix": "Vật phẩm mang tên Navi. \\x%lエアクラ;#00ffc040;Aircra%l;#; Navi.\\nTrí tuệ giả lập phát triển nhanh chóng cùng với \\x%lエアクラ;#00ffc040;Aircra%l;#;, và đã trở nên phổ biến trong đại chúng.",
+    "kind": "meaning",
+    "reason": "Pilot giữ: 擬似知能=trí tuệ giả lập (không phải trí tuệ nhân tạo).",
+    "character": "monologue"
+  },
+  {
+    "key": "1647",
+    "jp": "なら、僕……生きてる……\\n僕だけ……僕の、はんぶんは――",
+    "tw": "這麼說，我……還活著……只有我……我的，另一半——",
+    "old_vn": "Vậy ra, mình……vẫn còn sống……\\nChỉ có mình……còn, một nửa của mình——",
+    "fix": "Vậy ra, tôi……vẫn còn sống……\\nChỉ có tôi……một nửa của tôi——",
+    "kind": "pronoun",
+    "reason": "Pilot giữ: mình→tôi (mặc định; độc thoại nhận ra mình còn sống — không phải tự vấn nên ngoại lệ mình không bắt buộc).",
+    "character": "monologue"
+  },
+  {
+    "key": "1652",
+    "jp": "それじゃあ、みちが――\\n僕を、突き飛ばしてくれた[いもうと,1]路子が――",
+    "tw": "那樣的話，路子——推開了我的[妹妹,1]路子不就——",
+    "old_vn": "Như thế thì, Michi——\\nMichiko, đứa em gái đã đẩy mình ra sẽ——",
+    "fix": "Thế thì, Michi——\\nMichiko, đứa em gái đã đẩy tôi ra, sẽ——",
+    "kind": "pronoun",
+    "reason": "Pilot giữ: mình→tôi; gọn dấu câu.",
+    "character": "monologue"
+  },
+  {
+    "key": "1659",
+    "jp": "着水し、ナビの\\x%l翼端;#00ffc040;翼端%l;#;を歩いて渡り岸に下りれば――\\n御一夜だ。",
+    "tw": "降落後，只要從Ｎａｖｉ的\\x%l翼端;#00ffc040;翼梢%l;#;走上岸，就算到御一夜了。",
+    "old_vn": "Hạ cánh xuống nước, đi bộ qua \\x%l翼端;#00ffc040;đầu cánh%l;#; của Navi rồi bước lên bờ——\\nlà Ohimitera.",
+    "fix": "Hạ cánh xuống nước, đi bộ qua \\x%l翼端;#00ffc040;đầu cánh%l;#; của Navi rồi bước lên bờ——\\nlà Ohitoyo.",
+    "kind": "terminology",
+    "reason": "Ohimitera→Ohitoyo (quyết định 19/11; JP 御一夜).",
+    "character": "monologue"
+  }
+]

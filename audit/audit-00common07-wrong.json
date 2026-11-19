@@ -1,0 +1,342 @@
+[
+ {
+  "key": "1417",
+  "character": "れいな",
+  "jp": "「重たいんですよぉ、\\x%l8620;#00ffc040;8620%l;#;は。\\nれいなのキハ[レイナナエス,3]07-sが全長19.7mで総重量27.2tですからぁ」",
+  "tw": "「\\x%l8620;#00ffc040;８６２０%l;#;可重啦。玲奈的Ｋｉｈａ０７－Ｓ全長１９．７公尺，總重量才２７．２噸呢」",
+  "old_vn": "「\\x%l8620;#00ffc040;8620%l;#; nặng lắm đó nha~.\\nKiha 07S của Reina tổng chiều dài 19.7m mà tổng trọng lượng cũng chỉ có 27.2 tấn thôi đó~」",
+  "fix": "「\\x%l8620;#00ffc040;8620%l;#; nặng lắm đó nha~. KiHa 07S của Reina tổng chiều dài 19.7m mà tổng trọng lượng cũng chỉ có 27.2 tấn thôi đó~」",
+  "kind": "terminology",
+  "reason": "KiHa theo quyết định 19/11 (#14, cách viết chính thức của JR: Ki = 気動車, Ha = 普通車); \"Kiha\" sai chính tả."
+ },
+ {
+  "key": "1423",
+  "character": "ポーレット",
+  "jp": "「――すごい」",
+  "tw": "「——天啊」",
+  "old_vn": "「——Khủng khiếp quá.」",
+  "fix": "「——Khủng thật。」",
+  "kind": "meaning",
+  "reason": "すごい ở đây là thán phục trước quy mô (TW: 天啊 — \"trời ơi\"); \"Khủng khiếp quá\" đọc thành \"kinh khủng/khiếp sợ\", sai sắc thái. (Lượt soát 2: bản cũ có 「」, fix lần 1 gõ tay làm rơi — đã khôi phục.)"
+ },
+ {
+  "key": "1431",
+  "character": "れいな",
+  "jp": "「『中古\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;、機関車一式』――\\nはわわ、これ、ハチロクさんたちのことですねぇ」",
+  "tw": "「“舊\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;、機車一套”——哇，這個應該說的是八六小姐她們吧」",
+  "old_vn": "「'Trọn bộ \\x%lレイルロオド;#00ffc040;Railord%l;#; và đầu máy cũ'——\\nOa, cái này, là nói về nhóm chị Hachiroku đó nha~」",
+  "fix": "「'Trọn bộ \\x%lレイルロオド;#00ffc040;Railord%l;#; cũ và đầu máy'—— Oa, cái này, là nói về nhóm chị Hachiroku đó nha~」",
+  "kind": "minor",
+  "reason": "中古 bổ nghĩa cho レイルロオド (Railord cũ), không phải 機関車; bản cũ đặt \"cũ\" vào đầu máy — sai phạm vi bổ nghĩa. (Lượt soát 2: fix lần 1 dùng chuỗi thay thế sai — thẻ %l chen giữa \"Railord\" và \"và đầu máy cũ\" nên replace không khớp, fix thực chất chưa sửa gì; đã sửa lại bằng chuỗi đúng.)"
+ },
+ {
+  "key": "1445",
+  "character": "ハチロク",
+  "jp": "「……昨日のお話、の続きでしょうね」",
+  "tw": "「……是來繼續昨天那個話題的吧」",
+  "old_vn": "「……Chắc là tiếp tục, câu chuyện ngày hôm qua nhỉ.」",
+  "fix": "「……Chắc là chuyện tiếp theo của ngày hôm qua nhỉ。」",
+  "kind": "minor",
+  "reason": "Trật tự từ tiếng Việt lủng củng (\"Chắc là tiếp tục, câu chuyện ngày hôm qua nhỉ\"); JP: 「昨日のお話、の続きでしょうね」 = chuyện tiếp theo của hôm qua. (Lượt soát 2: bản cũ có 「」, fix lần 1 gõ tay làm rơi — đã khôi phục.)"
+ },
+ {
+  "key": "1665",
+  "character": "双鉄",
+  "jp": "「無いというなら、ポーレットにはもっと無い。\\nそれより、後処理だ。怪我などないか？」",
+  "tw": "「不怪我的話，那就更不怪你了。不說這個了，趕緊開始收拾吧。你沒有受傷吧？」",
+  "old_vn": "「Nếu tôi không có lỗi, thì Paulette lại càng không.\\nQuan trọng hơn là dọn dẹp hậu quả đã. Cô có bị thương không?」",
+  "fix": "「Nếu tôi không có lỗi, thì Paulette lại càng không. Quan trọng hơn là dọn dẹp hậu quả đã. Em có bị thương không?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1674",
+  "character": "ポーレット",
+  "jp": "「いえ、そんなっ！　双鉄くんの責任なんて」",
+  "tw": "「不，別這麼說！這不怪雙鐵君」",
+  "old_vn": "「Không, đâu có! Sao lại là lỗi của Soutetsu-kun được.」",
+  "fix": "「Không, đâu có! Sao lại là lỗi của anh Soutetsu được.」",
+  "kind": "pronoun",
+  "reason": "Paulette gọi Soutetsu: 双鉄くん → \"anh Soutetsu\" theo quyết định B4 (19/11, Hieu ủy quyền Muse chốt; ngoại lệ tên rên đã bãi bỏ — gọi tên trần/\"-kun\" đều sai)."
+ },
+ {
+  "key": "1684",
+  "character": "ポーレット",
+  "jp": "「任せてください。双鉄くん」",
+  "tw": "「交給我吧，雙鐵君」",
+  "old_vn": "「Cứ giao cho tôi. Soutetsu-kun.」",
+  "fix": "「Cứ giao cho tôi. Anh Soutetsu.」",
+  "kind": "pronoun",
+  "reason": "Paulette gọi Soutetsu: 双鉄くん → \"anh Soutetsu\" theo quyết định B4 (19/11, Hieu ủy quyền Muse chốt; ngoại lệ tên rên đã bãi bỏ — gọi tên trần/\"-kun\" đều sai). (Lượt soát 2: \"anh Soutetsu\" đứng đầu câu sau dấu chấm phải viết hoa \"Anh\" — fix lần 1 giữ thường là sai.)"
+ },
+ {
+  "key": "1700",
+  "character": "双鉄",
+  "jp": "「思い出せないか？　自分がいつごろ、\\n汰斗さんに連れられ、この御一夜にやってきたのか」",
+  "tw": "「你想不起來了嗎？汰斗老爺帶著你來到御一夜，具體是什麼時候的事？」",
+  "old_vn": "「Em không nhớ được sao? Khoảng thời gian nào,\\nem được ông Taito đưa đến Ohimitera này.」",
+  "fix": "「Em không nhớ được sao? Khoảng thời gian nào, em được ông Taito đưa đến Ohitoyo này.」",
+  "kind": "terminology",
+  "reason": "御一夜 → Ohitoyo theo quyết định 19/11; \"Ohimitera\" là dạng cũ."
+ },
+ {
+  "key": "1704",
+  "character": "双鉄",
+  "jp": "「心当たりの倉庫があるのか」",
+  "tw": "「你知道可能在什麼倉庫裡嗎」",
+  "old_vn": "「Cô biết nhà kho đó ở đâu sao?」",
+  "fix": "「Em biết nhà kho đó ở đâu sao?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1711",
+  "character": "双鉄",
+  "jp": "「それほどに大きく重い物であれば、\\nそう簡単に格納も移動も出来ない、ということになるか」",
+  "tw": "「像這樣一件龐然大物，無論是存放還是挪動都不簡單，對吧」",
+  "old_vn": "「Một thứ to lớn và nặng nề như vậy,\\nthì không thể dễ dàng cất giấu hay di chuyển được, ý cô là vậy sao.」",
+  "fix": "「Một thứ to lớn và nặng nề như vậy, thì không thể dễ dàng cất giấu hay di chuyển được, ý em là vậy sao.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1723",
+  "character": "ポーレット",
+  "jp": "「全長が16.7[メートル]m、全高が3.8m。\\n機関車だけでも、\\x%l運転整備重量;#00ffc040;運転整備重量%l;#;が39.8[トン]tもあるんです」",
+  "tw": "「全長１６．７公尺，全高３．８公尺。單算機車，都有３９．８噸的\\x%l運転整備重量;#00ffc040;行駛整備質量%l;#;」",
+  "old_vn": "「Tổng chiều dài là 16.7m, tổng chiều cao là 3.8m.\\nChỉ tính riêng đầu máy thôi, \\x%l運転整備重量;#00ffc040;khối lượng chỉnh bị vận hành%l;#; đã lên tới 39.8 tấn rồi.」",
+  "fix": "「Tổng chiều dài là 16.7m, tổng chiều cao là 3.8m. Chỉ tính riêng đầu máy thôi, \\x%l運転整備重量;#00ffc040;khối lượng vận hành%l;#; đã lên tới 39.8 tấn rồi.」",
+  "kind": "terminology",
+  "reason": "運転整備重量 = khối lượng vận hành (trọng lượng khi sẵn sàng chạy); \"khối lượng chỉnh bị vận hành\" — \"chỉnh bị\" không phải từ tiếng Việt (gõ sai), làm câu tối nghĩa."
+ },
+ {
+  "key": "1753",
+  "character": "双鉄",
+  "jp": "「知っている――のだよな。\\n右田のことは」",
+  "tw": "「右田家的事情，你——是知道的吧」",
+  "old_vn": "「Cô biết——đúng không.\\nChuyện của nhà Migita ấy.」",
+  "fix": "「Em biết——đúng không. Chuyện của nhà Migita ấy.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1777",
+  "character": "双鉄",
+  "jp": "「ああ、うん。今行く」",
+  "tw": "「啊——好。這就去」",
+  "old_vn": "「À, vâng. Em ra ngay đây.」",
+  "fix": "「À, vâng. Tôi ra ngay đây.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu không bao giờ tự xưng \"em\" (tiền lệ file 02: 8 dòng \"em\" đều sai). Người gọi là người lớn tuổi hơn (Mayami/Paulette, xưng \"vâng\"); \"tôi\" là dạng mặc định đúng — \"anh\" chỉ dùng khi đối thoại với người nhỏ hơn."
+ },
+ {
+  "key": "1799",
+  "character": "ハチロク",
+  "jp": "「まぁ。\\nまさしく塞翁が馬ですね、双鉄様」",
+  "tw": "「嗯。這可真是塞翁失馬焉知非福呀，雙鐵少爺」",
+  "old_vn": "「Chà.\\nĐúng là tái ông thất mã ngài nhỉ, ngài Soutetsu.」",
+  "fix": "「Chà. Đúng là tái ông thất mã nhỉ, ngài Soutetsu.」",
+  "kind": "minor",
+  "reason": "Thừa một \"ngài\": JP chỉ có một 双鉄様 (đã dịch là \"ngài Soutetsu\" ở cuối câu); \"tái ông thất mã ngài nhỉ\" gắn \"ngài\" sai chỗ."
+ },
+ {
+  "key": "1801",
+  "character": "双鉄",
+  "jp": "「ふむ。ならばその時には」",
+  "tw": "「嗯。那有需要的時候就用吧」",
+  "old_vn": "「Hừm. Vậy thì khi nào cần em sẽ dùng.」",
+  "fix": "「Hừm. Vậy thì khi nào cần anh sẽ dùng.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"em\" — sai (nói với Hachiroku, người nhỏ hơn; Soutetsu xưng \"anh\" với Hachiroku)."
+ },
+ {
+  "key": "1830",
+  "character": "双鉄",
+  "jp": "「だご汁はいいな。\\n『ああ、御一夜だ』という気がするよ」",
+  "tw": "「團兒湯真是個好東西。喝著就有一股御一夜的味道」",
+  "old_vn": "「Canh Dago ngon thật đấy.\\nCảm giác đúng kiểu 'A, Ohimitera đây rồi'.」",
+  "fix": "「Canh Dago ngon thật đấy. Cảm giác đúng kiểu 'A, Ohitoyo đây rồi'.」",
+  "kind": "terminology",
+  "reason": "御一夜 → Ohitoyo theo quyết định 19/11."
+ },
+ {
+  "key": "1845",
+  "character": "双鉄",
+  "jp": "「わかった。いったん下りてくれ」",
+  "tw": "「好的。你先下來吧」",
+  "old_vn": "「Hiểu rồi. Cô xuống trước đi đã.」",
+  "fix": "「Hiểu rồi. Em xuống trước đi đã.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1863",
+  "character": "双鉄",
+  "jp": "「誰の責任かといえば、僕のだろう。\\n慌てさせたのもはしごを手放したのも、僕だからな」",
+  "tw": "「實在要說的話，這也是我的責任。讓你緊張的，鬆開梯子的都是我」",
+  "old_vn": "「Nếu nói là lỗi của ai, thì chắc là của tôi rồi.\\nNgười làm cô hoảng hốt và buông tay khỏi cái thang đều là tôi mà.」",
+  "fix": "「Nếu nói là lỗi của ai, thì chắc là của tôi rồi. Người làm em hoảng hốt và buông tay khỏi cái thang đều là tôi mà.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1886",
+  "character": "ポーレット",
+  "jp": "「覚悟」",
+  "tw": "「心理」",
+  "old_vn": "「Chuẩn bị tinh thần?」",
+  "fix": "「Chuẩn bị tinh thần!」",
+  "kind": "minor",
+  "reason": "JP 覚悟 là một từ cụt, dạng cảm thán/quyết tâm (\"Quyết tâm rồi!\"); bản cũ thêm \"?\" biến thành câu hỏi, đảo ngược thái độ người nói."
+ },
+ {
+  "key": "1895",
+  "character": "ポーレット",
+  "jp": "「あの、旧\\x%l帝鉄;#00ffc040;帝鉄%l;#;から施設の譲り渡しを受けたとき……\\n個人に貸与している物だから手を触れるなって言われて」",
+  "tw": "「怎麼說呢，接受前\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;轉讓設施的時候……我被警告過——別去碰那些租借給個人的設施」",
+  "old_vn": "「À ừm, lúc nhận bàn giao cơ sở vật chất từ \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ……\\nhọ có dặn là những thứ đang cho cá nhân thuê thì đừng có động vào.」",
+  "fix": "「À ừm, lúc nhận bàn giao cơ sở vật chất từ \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũ…… họ có dặn là những thứ đang cho cá nhân thuê thì đừng có động vào.」",
+  "kind": "terminology",
+  "reason": "帝鉄 → Teitetsu theo quyết định 19/11 (#6, bỏ \"Đường sắt Hoàng gia\" — 帝鉄 là 帝国鉄道, không phải 皇室)."
+ },
+ {
+  "key": "1926",
+  "character": "双鉄",
+  "jp": "「わかる気がする。意識の外へと追いやったんだな？\\n気にすれば、何もかもが手につかなくなってしまうから」",
+  "tw": "「我懂。你是故意忘了這件事吧？總是在意這種事情，就沒辦法專心去做別的事情了」",
+  "old_vn": "「Tôi hiểu mà. Cô đã cố gạt nó ra khỏi tâm trí đúng không?\\nVì nếu cứ bận tâm, cô sẽ chẳng làm nên trò trống gì cả.」",
+  "fix": "「Tôi hiểu mà. Em đã cố gạt nó ra khỏi tâm trí đúng không? Vì nếu cứ bận tâm, em sẽ chẳng làm nên trò trống gì cả.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1930",
+  "character": "双鉄",
+  "jp": "「随分と熱心に見ていたようだが――」",
+  "tw": "「我看你剛才，看得還挺認真——」",
+  "old_vn": "「Lúc nãy thấy cô xem chăm chú lắm mà——」",
+  "fix": "「Lúc nãy thấy em xem chăm chú lắm mà——」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1949",
+  "character": "双鉄",
+  "jp": "「引渡し時の注意をずっと、守り続けてきたわけか」",
+  "tw": "「接受轉讓之後，一直都遵守了這個要求嗎」",
+  "old_vn": "「Nghĩa là cô vẫn luôn tuân thủ lời dặn lúc bàn giao sao.」",
+  "fix": "「Nghĩa là em vẫn luôn tuân thủ lời dặn lúc bàn giao sao.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1964",
+  "character": "双鉄",
+  "jp": "「そうか。ならば任せる」",
+  "tw": "「是嗎。那就交給你了」",
+  "old_vn": "「Vậy sao. Thế thì giao cho cô đấy.」",
+  "fix": "「Vậy sao. Thế thì giao cho em đấy.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "1970",
+  "character": "ポーレット",
+  "jp": "「はい――これ、見てください双鉄くん。\\n背表紙……ほら、『会計記録』ってあります」",
+  "tw": "「是的——看看這個吧，雙鐵君。這書脊……你看，是《會計記錄》」",
+  "old_vn": "「Vâng——Soutetsu-kun, anh xem cái này đi.\\nGáy sách này……anh thấy không, có ghi 'Hồ sơ kế toán'.」",
+  "fix": "「Vâng——anh Soutetsu, anh xem cái này đi. Gáy sách này……anh thấy không, có ghi 'Hồ sơ kế toán'.」",
+  "kind": "pronoun",
+  "reason": "Paulette gọi Soutetsu: 双鉄くん → \"anh Soutetsu\" theo quyết định B4 (19/11, Hieu ủy quyền Muse chốt; ngoại lệ tên rên đã bãi bỏ — gọi tên trần/\"-kun\" đều sai)."
+ },
+ {
+  "key": "1972",
+  "character": "ポーレット",
+  "jp": "「そうなんです。\\n双鉄くんの言うとおりな感じで、だから」",
+  "tw": "「是的。和雙鐵君說得一樣，所以」",
+  "old_vn": "「Đúng vậy ạ.\\nCảm giác đúng như Soutetsu-kun nói, thế nên.」",
+  "fix": "「Đúng vậy ạ. Cảm giác đúng như anh Soutetsu nói, thế nên.」",
+  "kind": "pronoun",
+  "reason": "Paulette gọi Soutetsu: 双鉄くん → \"anh Soutetsu\" theo quyết định B4 (19/11, Hieu ủy quyền Muse chốt; ngoại lệ tên rên đã bãi bỏ — gọi tên trần/\"-kun\" đều sai)."
+ },
+ {
+  "key": "2012",
+  "character": "双鉄",
+  "jp": "「ポーレット、大丈夫か怪我はないか？」",
+  "tw": "「波萊特，你沒事吧，有沒有受傷？」",
+  "old_vn": "「Paulette, cô không sao chứ, có bị thương ở đâu không?」",
+  "fix": "「Paulette, em không sao chứ, có bị thương ở đâu không?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "2048",
+  "character": "双鉄",
+  "jp": "「本当に平気か？　痛むのではないか？\\n顔が赤く呼吸が荒いぞ？」",
+  "tw": "「真的沒事嗎？有沒有哪裡覺得痛？你的臉很紅，呼吸也很急促」",
+  "old_vn": "「Cô thực sự không sao chứ? Có đau ở đâu không?\\nMặt cô đỏ bừng, hơi thở cũng gấp gáp lắm đấy?」",
+  "fix": "「Em thực sự không sao chứ? Có đau ở đâu không? Mặt em đỏ bừng, hơi thở cũng gấp gáp lắm đấy?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu gọi Paulette: \"cô\" → \"em\" theo quyết định 19/11 (#13, cặp xưng hô \"anh – em\")."
+ },
+ {
+  "key": "2133",
+  "character": "ポーレット",
+  "jp": "「双鉄くん！」",
+  "tw": "「雙鐵君！」",
+  "old_vn": "「Soutetsu-kun!」",
+  "fix": "「Anh Soutetsu!」",
+  "kind": "pronoun",
+  "reason": "Paulette gọi Soutetsu: 双鉄くん → \"anh Soutetsu\" theo quyết định B4 (19/11, Hieu ủy quyền Muse chốt; ngoại lệ tên rên đã bãi bỏ — gọi tên trần/\"-kun\" đều sai). (Lượt soát 2: cả dòng chỉ là một tiếng gọi độc lập, đầu câu phải viết hoa \"Anh\" — fix lần 1 giữ thường là sai.)"
+ },
+ {
+  "key": "2144",
+  "character": "双鉄",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "fix": "「Ư!」",
+  "kind": "gasp",
+  "reason": "Sweep lost-gasp-whole (JP 「っ！」 nguyên dòng, TW 「！」): VN chỉ còn \"!\" — mất âm. Fix theo sweep: 「Ư!」."
+ },
+ {
+  "key": "2436",
+  "character": "monologue",
+  "jp": "口を結んで手と目を動かす。\\n部屋の散らかり具合からして、汰斗さんは雑な性格だろう。",
+  "tw": "我閉上了嘴，開始仔細地找起來。房間這麼亂，想必汰斗老爺也是個很隨性的人吧。",
+  "old_vn": "Tôi mím môi, bắt đầu di chuyển tay và mắt.\\nNhìn căn phòng bừa bộn thế này, chắc hẳn ông Taito là người có tính cách cẩu thả.",
+  "fix": "Tôi mím môi, bắt tay vào tìm kiếm. Nhìn căn phòng bừa bộn thế này, chắc hẳn ông Taito là người có tính cách cẩu thả.",
+  "kind": "minor",
+  "reason": "\"Bắt đầu di chuyển tay và mắt\" là dịch từng chữ vụng về của 手と目を動かす (bắt tay vào tìm kiếm)."
+ },
+ {
+  "key": "2525",
+  "character": "monologue",
+  "jp": "整備ボディのれいなにじいっと見守られる中、\\nポーレットがなにやら真剣に説明している。",
+  "tw": "波萊特在整備體玲奈的注視下，認真地向我們解說著什麼。",
+  "old_vn": "Dưới ánh mắt chăm chú theo dõi của Reina trong \\x%l整備体;#00ffc040;thân chính%l;#;,\\nPaulette đang nghiêm túc giải thích điều gì đó.",
+  "fix": "Dưới ánh mắt chăm chú theo dõi của Reina trong thân bảo trì, Paulette đang nghiêm túc giải thích điều gì đó.",
+  "kind": "tag",
+  "reason": "VN tự thêm thẻ gloss %l (JP không có thẻ — 整備ボディ là chữ thường trong JP); theo tiền lệ reina02/file 02 (2693), thẻ gloss VN tự thêm phải gỡ. Gloss \"thân chính\" cũng sai: 整備体 = \"thân bảo trì\" theo quyết định #11. Fix: bỏ thẻ, dùng \"thân bảo trì\" dạng chữ thường."
+ },
+ {
+  "key": "2543",
+  "character": "monologue",
+  "jp": "御一夜鉄道社長として、御一夜市長として――\\n\\x%l8620;#00ffc040;8620%l;#;を発見し、そこに未来を見出したいのだろう。",
+  "tw": "畢竟她是御一夜鐵路的社長，是御一夜的市長——因此她也想找出\\x%l8620;#00ffc040;８６２０%l;#;，為公司和城市帶來新的希望吧。",
+  "old_vn": "Với tư cách là giám đốc Đường sắt Ohimitera, với tư cách là thị trưởng Ohimitera——\\nCó lẽ cô ấy muốn tìm thấy \\x%l8620;#00ffc040;8620%l;#; và nhìn thấy tương lai ở đó.",
+  "fix": "Với tư cách là giám đốc Đường sắt Ohitoyo, với tư cách là thị trưởng Ohitoyo—— Có lẽ cô ấy muốn tìm thấy \\x%l8620;#00ffc040;8620%l;#; và nhìn thấy tương lai ở đó.",
+  "kind": "terminology",
+  "reason": "御一夜 → Ohitoyo theo quyết định 19/11 (2 chỗ trong dòng)."
+ },
+ {
+  "key": "2636",
+  "character": "monologue",
+  "jp": "産まれこそは帝都だが、育ちのいくらかは御一夜だ。\\n問われればすぐに思い当たる。",
+  "tw": "雖然我出生於帝都，但多少也算是在御一夜長大的人。聽見這個問題立刻就能給出答案。",
+  "old_vn": "Dù sinh ra ở Đế đô, nhưng tôi cũng lớn lên ở Ohimitera một thời gian.\\nNên khi được hỏi, tôi liền nhớ ra ngay.",
+  "fix": "Dù sinh ra ở Đế đô, nhưng tôi cũng lớn lên ở Ohitoyo một thời gian. Nên khi được hỏi, tôi liền nhớ ra ngay.",
+  "kind": "terminology",
+  "reason": "御一夜 → Ohitoyo theo quyết định 19/11."
+ }
+]
