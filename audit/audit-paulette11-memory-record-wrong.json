@@ -1,0 +1,222 @@
+[
+ {
+  "key": 998,
+  "speaker": "Soutetsu",
+  "jp": "「\\x%lタブレット;#00ffc040;タブレット%l;#;は……記録と同時に、記憶もしてしまう？\\nが、脳に近似しているのなら、恐らくプロセッサも――」",
+  "tw": "「\\x%lタブレット;#00ffc040;操作板%l;#;在記錄的同時……還會完成記憶？可是，既然處理器與大腦很相似，那恐怕它也——」",
+  "old_vn": "「\\x%lタブレット;#00ffc040;Thẻ bảng%l;#……không chỉ ghi chép mà còn ghi nhớ luôn sao?\\nNhưng nếu nó gần giống với não bộ, thì có lẽ bộ vi xử lý cũng——」",
+  "kind": "terminology",
+  "fix": "「\\x%lタブレット;#00ffc040;máy tính bảng%l;#……không chỉ ghi chép mà còn ghi nhớ luôn sao? Nhưng nếu nó gần giống với não bộ, thì có lẽ bộ vi xử lý cũng——」",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"Thẻ bảng\" (tiền lệ stove 2076/2642). Thẻ %l giữ nguyên. Lưu ý: glossary trong game (context_trans.md:541) vẫn ghi \"Thẻ bảng\" — xem đề xuất cập nhật context."
+ },
+ {
+  "key": 1001,
+  "speaker": "Soutetsu",
+  "jp": "「――いえ。特に区別して取り扱ってはいないようです」",
+  "tw": "「——不。我似乎並沒有刻意去區分它們」",
+  "old_vn": "「——Không ạ. Hình như cháu không có sự phân biệt đặc biệt nào khi xử lý chúng.」",
+  "kind": "meaning",
+  "fix": "「——Không ạ. Hình như nó không có sự phân biệt đặc biệt nào khi xử lý chúng.」",
+  "reason": "Chủ ngữ là cái thẻ bảng (chủ đề từ 998: タブレットは……記録と同時に、記憶もしてしまう？); TW đọc ngôi thứ nhất (\"我似乎…\") nên bản cũ theo TW, biến Soutetsu thành chủ ngữ (\"cháu\"). Theo quy tắc JP-trên-TW."
+ },
+ {
+  "key": 1008,
+  "speaker": "Soutetsu",
+  "jp": "「――っ！！？」",
+  "tw": "「——！！？」",
+  "old_vn": "「——!!?」",
+  "kind": "minor",
+  "fix": "「——Ư!!?」",
+  "reason": "JP 「――っ！！？」 là tiếng hít độc lập; bản cũ \"——!!?\" làm mất tiếng hít."
+ },
+ {
+  "key": 1349,
+  "speaker": "Chủ nhà tắm Tororyu-yu",
+  "jp": "「\\x%lタブレット;#00ffc040;タブレット%l;#;ば交換すれば、\\nどん\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;も同一の機能ばできるようになる――」",
+  "tw": "「只要更換\\x%lタブレット;#00ffc040;操作板%l;#;，任何\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;都能夠擁有相同的功能——」",
+  "old_vn": "「Chỉ cần thay đổi \\x%lタブレット;#00ffc040;thẻ bảng%l;#,\\nthì bất kỳ \\x%lレイルロオド;#00ffc040;Railord%l;# nào cũng có thể thực hiện được chức năng tương tự——」",
+  "kind": "terminology",
+  "fix": "「Chỉ cần thay đổi \\x%lタブレット;#00ffc040;máy tính bảng%l;#, thì bất kỳ \\x%lレイルロオド;#00ffc040;Railord%l;# nào cũng có thể thực hiện được chức năng tương tự——」",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"thẻ bảng\" (tiền lệ stove 2076/2642). Thẻ %l giữ nguyên."
+ },
+ {
+  "key": 1463,
+  "speaker": "Paulette",
+  "jp": "「わたしは――今の御一夜を……今のれいなを、\\n今のままをただ守りたくって――」",
+  "tw": "「我只是——想守護現在的御一夜……守護現在的玲奈、守護現狀——」",
+  "old_vn": "「Tôi――chỉ muốn bảo vệ Ohimitera hiện tại……bảo vệ Reina hiện tại,\\nbảo vệ mọi thứ như hiện tại thôi――」",
+  "kind": "terminology",
+  "fix": "「Tôi――chỉ muốn bảo vệ Ohitoyo hiện tại……bảo vệ Reina hiện tại, bảo vệ mọi thứ như hiện tại thôi――」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1528,
+  "speaker": "Niiroku",
+  "jp": "「そういう意味。そうして再び走れるのなら、\\n自分の\\x%lタブレット;#00ffc040;タブレット%l;#;を[イニシャライズ,2]初期化しても構わない」",
+  "tw": "「是的。如果能夠再一次奔跑，就算將我的\\x%lタブレット;#00ffc040;操作板%l;#;初始化也沒關係」",
+  "old_vn": "「Ý tôi là vậy đấy. Nếu làm vậy mà có thể chạy lại được,\\nthì có [khởi tạo,2]khởi tạo lại \\x%lタブレット;#00ffc040;thẻ bảng%l;# của tôi cũng không sao.」",
+  "kind": "terminology",
+  "fix": "「Ý tôi là vậy đấy. Nếu làm vậy mà có thể chạy lại được, thì có [khởi tạo,2]khởi tạo lại \\x%lタブレット;#00ffc040;máy tính bảng%l;# của tôi cũng không sao.」",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"thẻ bảng\". Ruby [khởi tạo,2] giữ nguyên theo file (1512/1714 cũng giữ ruby)."
+ },
+ {
+  "key": 1538,
+  "speaker": "Soutetsu",
+  "jp": "「最悪……れいなは、ディーゼルとして稼働していた……\\n御一夜鉄道で過ごした時間の、記憶を失う危険さえ――」",
+  "tw": "「最壞情況下，玲奈甚至有可能失去作為\\x%lディーゼル気動車;#00ffc040;柴油動車%l;#;運行的……關於御一夜鐵路的所有記憶——」",
+  "old_vn": "「Trường hợp xấu nhất……Reina thậm chí có nguy cơ mất đi ký ức……\\nvề khoảng thời gian hoạt động dưới dạng diesel, khoảng thời gian gắn bó với Đường sắt Ohito――」",
+  "kind": "terminology",
+  "fix": "「Trường hợp xấu nhất……Reina thậm chí có nguy cơ mất đi ký ức…… về khoảng thời gian hoạt động dưới dạng diesel, khoảng thời gian gắn bó với Đường sắt Ohitoyo――」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1550,
+  "speaker": "Soutetsu",
+  "jp": "「例えば御一夜市の人口が、何年に幾人だった、という\\n数値や数値群が、データ――事実であり、資料です」",
+  "tw": "「比方說，御一夜市在某一年有多少人口，這樣的一組或多組數值就是Ｄａｔａ——也就是事實、數據」",
+  "old_vn": "「Ví dụ, dân số của thành phố Ohimitera vào năm nào là bao nhiêu người,\\nnhững con số hoặc nhóm con số đó chính là Data——sự thật, và là tài liệu.」",
+  "kind": "terminology",
+  "fix": "「Ví dụ, dân số của thành phố Ohitoyo vào năm nào là bao nhiêu người, những con số hoặc nhóm con số đó chính là Data——sự thật, và là tài liệu.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1551,
+  "speaker": "Soutetsu",
+  "jp": "「例えば、ハチロクの\\x%lタブレット;#00ffc040;タブレット%l;#;を\\nれいなのボディに換装すると、そのボディは――」",
+  "tw": "「比方說，若將八六的\\x%lタブレット;#00ffc040;操作板%l;#;裝入玲奈的機體，那麼那個機體——」",
+  "old_vn": "「Ví dụ, nếu lắp \\x%lタブレット;#00ffc040;thẻ bảng%l;# của Hachiroku\\nvào cơ thể của Reina, thì cơ thể đó sẽ——」",
+  "kind": "terminology",
+  "fix": "「Ví dụ, nếu lắp \\x%lタブレット;#00ffc040;máy tính bảng%l;# của Hachiroku vào cơ thể của Reina, thì cơ thể đó sẽ——」",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"thẻ bảng\". Thẻ %l giữ nguyên."
+ },
+ {
+  "key": 1660,
+  "speaker": "Soutetsu",
+  "jp": "「ひょっとして……それが、\\x%lタブレット;#00ffc040;タブレット%l;#;ですか？」",
+  "tw": "「莫非……存儲介質就是\\x%lタブレット;#00ffc040;操作板%l;#;嗎？」",
+  "old_vn": "「Không lẽ……đó chính là, \\x%lタブレット;#00ffc040;thẻ bảng%l;# sao ạ?」",
+  "kind": "terminology",
+  "fix": "「Không lẽ……đó chính là, \\x%lタブレット;#00ffc040;máy tính bảng%l;# sao ạ?」",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"thẻ bảng\". Thẻ %l giữ nguyên."
+ },
+ {
+  "key": 1724,
+  "speaker": "Đại tư tế Akai",
+  "jp": "「そうか……冷静に考えれば、れいなくんの\\x%lタブレット;#00ffc040;タブレット%l;#;を\\nニイロクに実装するのと大差ない」",
+  "tw": "「這樣啊……冷靜下來一想，這基本上等於將玲奈的\\x%lタブレット;#00ffc040;操作板%l;#;安裝到二六體內」",
+  "old_vn": "「Vậy sao……Nghĩ kỹ lại thì, việc này chẳng khác gì\\ncài đặt \\x%lタブレット;#00ffc040;thẻ bảng%l;# của cô bé Reina cho Niiroku cả.」",
+  "kind": "terminology",
+  "fix": "「Vậy sao……Nghĩ kỹ lại thì, việc này chẳng khác gì cài đặt \\x%lタブレット;#00ffc040;máy tính bảng%l;# của cô bé Reina cho Niiroku cả.」",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"thẻ bảng\". Thẻ %l giữ nguyên."
+ },
+ {
+  "key": 1754,
+  "speaker": "Soutetsu",
+  "jp": "「なら、\\n他者の\\x%lタブレット;#00ffc040;タブレット%l;#;をそこに実装してしまえば――」",
+  "tw": "「那麼，如果為其安裝了他人的\\x%lタブレット;#00ffc040;操作板%l;#;——」",
+  "old_vn": "「Nếu vậy,\\nnếu cài đặt \\x%lタブレット;#00ffc040;thẻ bảng%l;# của người khác vào đó thì——」",
+  "kind": "terminology",
+  "fix": "「Nếu vậy, nếu cài đặt \\x%lタブレット;#00ffc040;máy tính bảng%l;# của người khác vào đó thì——」",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"thẻ bảng\". Thẻ %l giữ nguyên."
+ },
+ {
+  "key": 1771,
+  "speaker": "Paulette",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "kind": "minor",
+  "fix": "「Ư!」",
+  "reason": "JP 「っ！」 là tiếng hít độc lập; bản cũ \"「!」\" làm mất tiếng hít. Tiền lệ 再開発 2103."
+ },
+ {
+  "key": 1772,
+  "speaker": "Paulette",
+  "jp": "「っ！」\\n「っ！」",
+  "tw": "「！」\\n「！」",
+  "old_vn": "「!」\\n「!」",
+  "kind": "minor",
+  "fix": "「Ư!」 「Ư!」",
+  "reason": "JP 「っ！」\\n「っ！」 là hai tiếng hít độc lập; bản cũ \"「!」\\n「!」\" làm mất cả hai. Khối TOML viết một dòng (không dùng \\n thủ công, theo quy tắc của Hieu)."
+ },
+ {
+  "key": 1774,
+  "speaker": "Paulette",
+  "jp": "「っ！！」",
+  "tw": "「！！」",
+  "old_vn": "「!!」",
+  "kind": "minor",
+  "fix": "「Ư!!」",
+  "reason": "JP 「っ！！」 là tiếng hít độc lập; bản cũ \"「!!」\" làm mất tiếng hít."
+ },
+ {
+  "key": 1775,
+  "speaker": "Soutetsu",
+  "jp": "「っ！！！」",
+  "tw": "「！！！」",
+  "old_vn": "「!!!」",
+  "kind": "minor",
+  "fix": "「Ư!!!」",
+  "reason": "JP 「っ！！！」 là tiếng hít độc lập; bản cũ \"「!!!」\" làm mất tiếng hít."
+ },
+ {
+  "key": 1776,
+  "speaker": "Soutetsu",
+  "jp": "「っ！！？」",
+  "tw": "「！！？」",
+  "old_vn": "「!!?」",
+  "kind": "minor",
+  "fix": "「Ư!!?」",
+  "reason": "JP 「っ！！？」 là tiếng hít độc lập; bản cũ \"「!!?」\" làm mất tiếng hít."
+ },
+ {
+  "key": 1777,
+  "speaker": "Paulette",
+  "jp": "「っ！！？」\\n「ひゃわっ！！？」",
+  "tw": "「！！？」\\n「呀！！？」",
+  "old_vn": "「!!?」\\n「Hyawa!!?」",
+  "kind": "minor",
+  "fix": "「Ư!!?」 「Hyawa!!?」",
+  "reason": "JP 「っ！！？」\\n「ひゃわっ！！？」 — dòng đầu là tiếng hít độc lập, bản cũ \"!!?\" làm mất; dòng hai ひゃわっ → \"Hyawa\" giữ nguyên. Khối TOML viết một dòng (không dùng \\n thủ công)."
+ },
+ {
+  "key": 2006,
+  "speaker": "lời dẫn",
+  "jp": "しかし、\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;の\\x%lタブレット;#00ffc040;タブレット%l;#;の場合は、\\nどうなのだろう？",
+  "tw": "但如果換成\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;的\\x%lタブレット;#00ffc040;操作板%l;#;，又會怎麼樣呢？",
+  "old_vn": "Tuy nhiên, trong trường hợp \\x%lタブレット;#00ffc040;thẻ bảng%l;# của \\x%lレイルロオド;#00ffc040;Railord%l;#,\\nthì sẽ thế nào?",
+  "kind": "terminology",
+  "fix": "Tuy nhiên, trong trường hợp \\x%lタブレット;#00ffc040;máy tính bảng%l;# của \\x%lレイルロオド;#00ffc040;Railord%l;#, thì sẽ thế nào?",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"thẻ bảng\". Thẻ %l giữ nguyên."
+ },
+ {
+  "key": 2085,
+  "speaker": "lời dẫn",
+  "jp": "別のボディにその\\x%lタブレット;#00ffc040;タブレット%l;#;を換装すれば、\\nハチロクは、即座に新しい生を得ることが出来る。",
+  "tw": "只要將\\x%lタブレット;#00ffc040;操作板%l;#;更換到其它機體中，八六便能夠重獲新生。",
+  "old_vn": "Nếu lắp \\x%lタブレット;#00ffc040;thẻ bảng%l;# đó vào một cơ thể khác,\\nHachiroku sẽ ngay lập tức có được một cuộc sống mới.",
+  "kind": "terminology",
+  "fix": "Nếu lắp \\x%lタブレット;#00ffc040;máy tính bảng%l;# đó vào một cơ thể khác, Hachiroku sẽ ngay lập tức có được một cuộc sống mới.",
+  "reason": "タブレット = \"máy tính bảng\", không phải \"thẻ bảng\". Thẻ %l giữ nguyên."
+ },
+ {
+  "key": 2600,
+  "speaker": "lời dẫn",
+  "jp": "（この笑顔を……見せてもらえなくなるかもしれんのか）",
+  "tw": "（我有可能……再也看不到這樣的笑容嗎）",
+  "old_vn": "（Liệu mình có thể……không bao giờ được nhìn thấy nụ cười này nữa không.）",
+  "kind": "pronoun",
+  "fix": "（Liệu tôi có thể……không bao giờ được nhìn thấy nụ cười này nữa không.）",
+  "reason": "\"Mình\" làm chủ ngữ độc lập trong suy nghĩ ngoặc đơn của Soutetsu → \"Tôi\" (tiền lệ hearing 2580/2584/2586/2590)."
+ },
+ {
+  "key": 2601,
+  "speaker": "lời dẫn",
+  "jp": "（あるいは、僕が、決断までを――\\nまるごと全てを、いっそ引き受けるべきなのか）",
+  "tw": "（或許我應該將最終的決定——甚至所有的一切也一同承擔下來）",
+  "old_vn": "（Hay là, mình nên đưa ra quyết định――\\nthà gánh vác toàn bộ mọi thứ luôn cho rồi.）",
+  "kind": "pronoun",
+  "fix": "（Hay là, tôi nên đưa ra quyết định――mà gánh vác toàn bộ mọi thứ luôn cho rồi.）",
+  "reason": "Hai lỗi trong một dòng: (1) \"mình\" làm chủ ngữ độc lập trong suy nghĩ ngoặc đơn của Soutetsu → \"Tôi\"; (2) \"thà\" là lỗi dùng từ/lỗi đánh máy — \"thà… còn hơn…\" không có vế sau, đúng ra là \"mà gánh vác\". Đã chuẩn hoá khoảng trắng quanh ―― theo quy ước."
+ }
+]

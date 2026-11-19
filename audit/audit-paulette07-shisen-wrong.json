@@ -1,0 +1,252 @@
+[
+ {
+  "key": 1249,
+  "speaker": "ポーレット",
+  "jp": "「\\x%l架台;#00ffc040;架台%l;#;の方は、蓑笠さんに相談ですね。\\n宝箱は……もともと、御一夜は木工も盛んですし」",
+  "tw": "「\\x%l架台;#00ffc040;底座%l;#;就去找蓑笠先生商量一下。寶箱的話……原本御一夜的木工水準就很高」",
+  "old_vn": "「Về phần \\x%l架台;#00ffc040;bệ đỡ%l;#; thì phải bàn với ông Minokasa thôi.\\nCòn rương kho báu…… vốn dĩ nghề mộc ở Ohimitera cũng rất thịnh vượng mà」",
+  "kind": "terminology",
+  "fix": "「……vốn dĩ nghề mộc ở Ohitoyo cũng rất thịnh vượng mà」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11). Bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1528,
+  "speaker": "双鉄",
+  "jp": "「けれど今は……なってみたいと感じる気持ちもある。\\nそれと同時に、とても怖いという気持ちも」",
+  "tw": "「不過現在……我也有點想嘗試的心情。但與此同時又感到很害怕」",
+  "old_vn": "「Nhưng bây giờ…… anh cũng có cảm giác muốn thử trở thành một người cha.\\nVà đồng thời, cũng có cảm giác rất sợ hãi nữa」",
+  "kind": "pronoun",
+  "fix": "「Nhưng bây giờ…… tôi cũng có cảm giác muốn thử trở thành một người cha. Và đồng thời, cũng có cảm giác rất sợ hãi nữa」",
+  "reason": "Soutetsu tự xưng \"anh\"; docs: \"Tôi\" (\"Anh\" chỉ với Hibiki). Trong file này Soutetsu KHÔNG có lần nào xưng \"tôi\" trong thoại — 17/17 lần tự xưng đều là \"anh\", tức là cách dịch hệ thống của file, trái docs."
+ },
+ {
+  "key": 1638,
+  "speaker": "双鉄",
+  "jp": "「ああ、すまん。\\n僕は――これより他に褒めようを知らぬ」",
+  "tw": "「啊，抱歉。我——只會用這種方式表達誇讚」",
+  "old_vn": "「À, xin lỗi.\\nAnh——chẳng biết cách khen ngợi nào khác ngoài cách này」",
+  "kind": "pronoun",
+  "fix": "「À, xin lỗi. Tôi——chẳng biết cách khen ngợi nào khác ngoài cách này」",
+  "reason": "Soutetsu tự xưng \"Anh\" với Paulette; docs: \"Tôi\"."
+ },
+ {
+  "key": 1664,
+  "speaker": "れいな",
+  "jp": "「整備[ボディ]体では――だっこ、\\nほとんどされることってないですからぁ」",
+  "tw": "「因為玲奈在使用整備體的的時候，好像還沒有被人抱起來過呢」",
+  "old_vn": "「Tại vì trong \\x%l整備体;#00ffc040;thân chính%l;#;——\\nReina hiếm khi được bế lắm ạ~」",
+  "kind": "terminology",
+  "fix": "「Tại vì trong \\\\x%l整備体;#00ffc040;thân bảo trì%l;#;——Reina hiếm khi được bế lắm ạ~」",
+  "reason": "整備体 bị dịch thành \"thân chính\" — gộp chung với 運転ボディ, trong khi JP phân biệt hai thân (整備体 = thân bảo trì, 運転ボディ = thân vận hành). Đề xuất dùng \"thân bảo trì\" theo tiền lệ Hachiroku 12 再開発 (3195/3021) — CHƯA được Hieu chốt, ghi là đề xuất. Thẻ %l giữ nguyên, chỉ đổi gloss."
+ },
+ {
+  "key": 1668,
+  "speaker": "双鉄",
+  "jp": "「――発電所を見た時も思ったのだが」",
+  "tw": "「在找到發電廠的時候，我也有這種感覺」",
+  "old_vn": "「——Lúc nhìn thấy nhà máy điện anh cũng đã nghĩ thế này」",
+  "kind": "pronoun",
+  "fix": "「——Lúc nhìn thấy nhà máy điện tôi cũng đã nghĩ thế này」",
+  "reason": "Soutetsu tự xưng \"anh\"; docs: \"Tôi\"."
+ },
+ {
+  "key": 1696,
+  "speaker": "双鉄",
+  "jp": "「持ち帰りを、普段づかいもできるような箱とすれば、\\n御一夜の木工・竹工の生きた宣伝にもなるはずです」",
+  "tw": "「將小寶箱做成平時也能使用的樣式，應該還能宣傳御一夜的木工藝和竹工藝」",
+  "old_vn": "「Nếu chiếc rương mang về được thiết kế để có thể sử dụng thường ngày,\\nthì nó sẽ trở thành một cách quảng bá sống động cho nghề mộc và thủ công mỹ nghệ tre của Ohimitera」",
+  "kind": "terminology",
+  "fix": "「……cho nghề mộc và thủ công mỹ nghệ tre của Ohitoyo」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11). Bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1733,
+  "speaker": "双鉄",
+  "jp": "「事故を、僕は経験して。自分のふたごを――\\n半身を亡くしてしまっているから」",
+  "tw": "「我曾經在那場事故中，失去了雙胞胎妹妹——也就是自己的另一半」",
+  "old_vn": "「Vì anh đã trải qua vụ tai nạn đó. Và mất đi người em sinh đôi——\\nmất đi một nửa của mình」",
+  "kind": "pronoun",
+  "fix": "「Vì tôi đã trải qua vụ tai nạn đó. Và mất đi người em sinh đôi——mất đi một nửa của mình」",
+  "reason": "Soutetsu tự xưng \"anh\"; docs: \"Tôi\". \"một nửa của mình\" giữ nguyên — sở hữu cách phản thân, đúng tiếng Việt (tiền lệ Hachiroku 12)."
+ },
+ {
+  "key": 1736,
+  "speaker": "双鉄",
+  "jp": "「僕は今まで――、一度たりとも、\\n父になりたいかどうかなど、考えたこともなかった」",
+  "tw": "「我至今為止，還沒考慮過要不要當爸爸這個問題」",
+  "old_vn": "「Từ trước đến nay——, chưa một lần nào,\\nanh nghĩ đến chuyện mình có muốn làm cha hay không」",
+  "kind": "pronoun",
+  "fix": "「Từ trước đến nay——, chưa một lần nào, tôi nghĩ đến chuyện mình có muốn làm cha hay không」",
+  "reason": "Soutetsu tự xưng \"anh\"; docs: \"Tôi\". \"mình\" trong mệnh đề phụ (\"chuyện mình có muốn…\") giữ nguyên — dạng \"Tôi… mình…\" trong mệnh đề phụ là chuẩn (tiền lệ Hachiroku 12)."
+ },
+ {
+  "key": 1742,
+  "speaker": "双鉄",
+  "jp": "「だから、ときおり不安になるのだ。\\n無理を、させすぎているのではないかと思ってしまう」",
+  "tw": "「所以我有時候會感覺是不是在勉強你，這讓我非常不安」",
+  "old_vn": "「Thế nên, thỉnh thoảng anh lại thấy bất an.\\nAnh cứ nghĩ có phải mình đang ép em làm việc quá sức hay không」",
+  "kind": "pronoun",
+  "fix": "「Thế nên, thỉnh thoảng tôi lại thấy bất an. Tôi cứ nghĩ có phải mình đang ép em làm việc quá sức hay không」",
+  "reason": "Soutetsu tự xưng \"Anh\" 2 lần; docs: \"Tôi\". \"mình\" trong mệnh đề phụ giữ nguyên (xem 1736)."
+ },
+ {
+  "key": 1743,
+  "speaker": "双鉄",
+  "jp": "「だから自分もいつか死ぬと、それまでの生と考えて。\\n父となる、子をなすことなど、想像もしていなかった」",
+  "tw": "「所以我認為自己此刻生存在世，只是為了迎接將來某一天的死亡。生兒女、為人父這樣的事，我從來沒考慮過」",
+  "old_vn": "「Nên anh cứ nghĩ rằng đằng nào mình cũng sẽ chết, và sống chỉ để chờ đến lúc đó.\\nAnh chưa từng tưởng tượng đến việc trở thành một người cha, hay sinh con đẻ cái」",
+  "kind": "pronoun",
+  "fix": "「Nên tôi cứ nghĩ rằng đằng nào mình cũng sẽ chết, và sống chỉ để chờ đến lúc đó. Tôi chưa từng tưởng tượng đến việc trở thành một người cha, hay sinh con đẻ cái」",
+  "reason": "Soutetsu tự xưng \"anh\" 2 lần; docs: \"Tôi\". \"mình\" trong mệnh đề phụ giữ nguyên (xem 1736)."
+ },
+ {
+  "key": 1781,
+  "speaker": "蓑笠",
+  "jp": "「そぎゃんとですな。\\n御一夜の[たけゆみ,1]竹弓ば、日ノ本中から求められとりますよ」",
+  "tw": "「是咧。御一夜的竹弓在整個日本都是很有名的咧」",
+  "old_vn": "「Đúng vậy đó.\\nCung tre của Ohimitera được săn lùng khắp cả Hinomoto đấy」",
+  "kind": "terminology",
+  "fix": "「Cung tre của Ohitoyo được săn lùng khắp cả Hinomoto đấy」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11). Bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1797,
+  "speaker": "双鉄",
+  "jp": "「そうだな。今考えてみれば、坑道自体も同じかもしれん。\\n設備のほとんどは、そのまま残されていたような気が」",
+  "tw": "「是啊。現在想想，礦洞裡也是一樣。感覺裡面的設備都被好好原樣保存著」",
+  "old_vn": "「Đúng vậy. Giờ nghĩ lại, bản thân hầm mỏ có lẽ cũng thế.\\nAnh có cảm giác hầu hết các thiết bị đều được giữ nguyên như vậy」",
+  "kind": "pronoun",
+  "fix": "「Đúng vậy. Giờ nghĩ lại, bản thân hầm mỏ có lẽ cũng thế. Tôi có cảm giác hầu hết các thiết bị đều được giữ nguyên như vậy」",
+  "reason": "Soutetsu tự xưng \"Anh\" giữa câu (\"Anh có cảm giác\"); docs: \"Tôi\". Dễ sót vì không đứng đầu câu."
+ },
+ {
+  "key": 1856,
+  "speaker": "蓑笠",
+  "jp": "「で。市長さんのおっしゃられるとおり、\\n御一夜は、木工、[ちっこう,1]竹工にも古か歴史を持つ町とです」",
+  "tw": "「正如市長所說，御一夜的木工竹工也有悠久的歷史」",
+  "old_vn": "「Vậy đó. Đúng như lời cô Thị trưởng nói,\\nOhimitera là một thị trấn có lịch sử lâu đời về nghề mộc và nghề thủ công mỹ nghệ tre」",
+  "kind": "terminology",
+  "fix": "「Ohitoyo là một thị trấn có lịch sử lâu đời về nghề mộc và nghề thủ công mỹ nghệ tre」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11). Bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1872,
+  "speaker": "双鉄",
+  "jp": "「ポーレットは、本当にすごいと思う。\\n視野の広さも、怠らず手当をすることも」",
+  "tw": "「波萊特真的很厲害。不僅視野寬廣，工作上還這麼勤奮」",
+  "old_vn": "「Anh thấy Paulette thực sự rất tuyệt vời.\\nCả về tầm nhìn rộng mở, lẫn sự chăm lo không hề chểnh mảng」",
+  "kind": "pronoun",
+  "fix": "「Tôi thấy Paulette thực sự rất tuyệt vời. Cả về tầm nhìn rộng mở, lẫn sự chăm lo không hề chểnh mảng」",
+  "reason": "Soutetsu tự xưng \"Anh\"; docs: \"Tôi\"."
+ },
+ {
+  "key": 1892,
+  "speaker": "双鉄",
+  "jp": "「発電所の状態も思っていたよりずっと良かった。\\nあれならあるいは、再稼働さえ可能であるかもしれん」",
+  "tw": "「發電廠的情況也比預想的要好得多。甚至說不定能將它再次啟動」",
+  "old_vn": "「Tình trạng của nhà máy điện cũng tốt hơn anh nghĩ nhiều.\\nNhư thế thì có khi còn có thể tái khởi động lại được ấy chứ」",
+  "kind": "pronoun",
+  "fix": "「Tình trạng của nhà máy điện cũng tốt hơn tôi nghĩ nhiều. Như thế thì có khi còn có thể tái khởi động lại được ấy chứ」",
+  "reason": "Soutetsu tự xưng \"anh\"; docs: \"Tôi\"."
+ },
+ {
+  "key": 1929,
+  "speaker": "双鉄",
+  "jp": "「蓑笠さんなら、きっとその方面にもツテがあろう。\\n出来れば、ご紹介を願いたいものだな」",
+  "tw": "「蓑笠爺爺應該有這方面的人脈。希望他能幫我們介紹一下」",
+  "old_vn": "「Nếu là ông Minokasa thì chắc chắn sẽ có mối quan hệ trong lĩnh vực đó.\\nNếu được, anh rất muốn nhờ ông ấy giới thiệu」",
+  "kind": "pronoun",
+  "fix": "「Nếu là ông Minokasa thì chắc chắn sẽ có mối quan hệ trong lĩnh vực đó. Nếu được, tôi rất muốn nhờ ông ấy giới thiệu」",
+  "reason": "Soutetsu tự xưng \"anh\"; docs: \"Tôi\"."
+ },
+ {
+  "key": 1935,
+  "speaker": "双鉄",
+  "jp": "「抱っこはどうだ？　必要ならば、言ってくれ」",
+  "tw": "「要我抱你嗎？如果需要的話儘管開口」",
+  "old_vn": "「Có cần anh bế không? Nếu cần thì cứ nói nhé」",
+  "kind": "pronoun",
+  "fix": "「Có cần tôi bế không? Nếu cần thì cứ nói nhé」",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với Reina; docs: \"Tôi\" (\"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1942,
+  "speaker": "れいな",
+  "jp": "「[ハチロク,3]8620にも\\x%l客車;#00ffc040;客車%l;#;がついたら、\\n御一夜鉄道、すごくにぎやかになりますねぇ」",
+  "tw": "「要是八六也裝上了\\x%l客車;#00ffc040;客運車廂%l;#;，御一夜鐵路一下子就會變得熱鬧起來啦」",
+  "old_vn": "「Nếu 8620 cũng được gắn \\x%l客車;#00ffc040;toa hành khách%l;#;,\\nthì Đường sắt Ohimitera sẽ nhộn nhịp lắm đây nha~」",
+  "kind": "terminology",
+  "fix": "「……thì Đường sắt Ohitoyo sẽ nhộn nhịp lắm đây nha~」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11). Bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1945,
+  "speaker": "双鉄",
+  "jp": "「苦しいことがあるなら、僕に聞かせて欲しい。\\n僕は、ポーレットを支えたい」",
+  "tw": "「要是有什麼痛苦，就告訴我。我想成為波萊特你的依靠」",
+  "old_vn": "「Nếu có chuyện gì đau khổ, anh muốn em hãy nói cho anh nghe.\\nAnh muốn được trở thành chỗ dựa cho Paulette」",
+  "kind": "pronoun",
+  "fix": "「Nếu có chuyện gì đau khổ, tôi muốn em hãy nói cho tôi nghe. Tôi muốn được trở thành chỗ dựa cho Paulette」",
+  "reason": "Soutetsu tự xưng \"anh\" 3 lần; docs: \"Tôi\"."
+ },
+ {
+  "key": 1952,
+  "speaker": "双鉄",
+  "jp": "「設計が出来たとして、作る方は？\\n御一夜で出来れば一番良いと思うのだが」",
+  "tw": "「設計好了之後，要在哪裡製作呢？最好是能在御一夜當地製作」",
+  "old_vn": "「Cho là có thiết kế rồi, vậy còn người làm thì sao?\\nAnh nghĩ tốt nhất là nên làm ở Ohimitera」",
+  "kind": "pronoun",
+  "fix": "「Cho là có thiết kế rồi, vậy còn người làm thì sao? Tôi nghĩ tốt nhất là nên làm ở Ohitoyo」",
+  "reason": "Hai lỗi trong một dòng: Soutetsu tự xưng \"Anh\" → \"Tôi\" (docs), và 御一夜 \"Ohimitera\" → \"Ohitoyo\" (quyết định 19/11)."
+ },
+ {
+  "key": 1963,
+  "speaker": "双鉄",
+  "jp": "「うっかりしたのは僕らのほうだ」",
+  "tw": "「走神的是我們才對」",
+  "old_vn": "「Bất cẩn là bọn anh mới đúng」",
+  "kind": "pronoun",
+  "fix": "「Bất cẩn là bọn tôi mới đúng」",
+  "reason": "Soutetsu tự xưng \"bọn anh\" (số nhiều, nói thay cả nhóm); docs: \"Tôi\" → \"bọn tôi\"."
+ },
+ {
+  "key": 2002,
+  "speaker": "双鉄",
+  "jp": "「ならば、疲れたら言ってくれ。ポーレットには、\\n議会も社長業もあるのだからな」",
+  "tw": "「那如果累了就說一聲。畢竟你還有市長和社長的工作」",
+  "old_vn": "「Vậy thì nếu mệt cứ bảo anh nhé. Dù sao Paulette\\ncũng còn công việc ở hội đồng và chức giám đốc nữa mà」",
+  "kind": "pronoun",
+  "fix": "「Vậy thì nếu mệt cứ bảo tôi nhé. Dù sao Paulette cũng còn công việc ở hội đồng và chức giám đốc nữa mà」",
+  "reason": "Soutetsu tự xưng \"anh\" với Paulette; docs: \"Tôi\"."
+ },
+ {
+  "key": 2014,
+  "speaker": "双鉄",
+  "jp": "「これは配慮が足りなかったな。\\n僕らには小さな障害も、れいなの歩幅では――」",
+  "tw": "「都怪我想的不周到。就算對我們來說只是小小的障礙，但以玲奈的步幅來衡量的話——」",
+  "old_vn": "「Là do anh thiếu chu đáo rồi.\\nChướng ngại nhỏ đối với chúng ta, nhưng với sải chân của Reina thì——」",
+  "kind": "pronoun",
+  "fix": "「Là do tôi thiếu chu đáo rồi. Chướng ngại nhỏ đối với chúng ta, nhưng với sải chân của Reina thì——」",
+  "reason": "Soutetsu tự xưng \"anh\"; docs: \"Tôi\"."
+ },
+ {
+  "key": 2311,
+  "speaker": "monologue",
+  "jp": "戻りの\\x%l列車;#00ffc040;列車%l;#;を御一夜にまで運んだあとで、\\n\\x%l8620;#00ffc040;8620%l;#;は転車し、術仙洞廃駅で待っててくれる。",
+  "tw": "回程的\\x%l列車;#00ffc040;列車%l;#;會在御一夜放下客人，然後\\x%l8620;#00ffc040;８６２０%l;#;進行轉車，前往術仙煤礦廢車站等我們。",
+  "old_vn": "Sau khi đưa \\x%l列車;#00ffc040;chuyến tàu%l;#; chiều về đến Ohimitera,\\n\\x%l8620;#00ffc040;8620%l;#; sẽ quay đầu và đợi chúng tôi ở ga bỏ hoang Jutsu-sen.",
+  "kind": "terminology",
+  "fix": "「Sau khi đưa chuyến tàu chiều về đến Ohitoyo,」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11). Bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2366,
+  "speaker": "monologue",
+  "jp": "この計画が上手く行き、御一夜が発展の途を進むとして、\\nしかし、宝箱は置き去りになる。",
+  "tw": "就算我們的計劃成功，御一夜迎來了繁榮的發展。而寶箱卻會被就此棄置不管。",
+  "old_vn": "Cho dù kế hoạch này thành công, Ohimitera tiếp tục phát triển,\\nnhưng những chiếc rương kho báu sẽ bị bỏ lại đó.",
+  "kind": "terminology",
+  "fix": "「Cho dù kế hoạch này thành công, Ohitoyo tiếp tục phát triển,」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11). Bản cũ \"Ohimitera\"."
+ }
+]

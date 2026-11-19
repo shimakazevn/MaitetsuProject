@@ -1,0 +1,132 @@
+[
+ {
+  "key": 1548,
+  "speaker": "双鉄",
+  "jp": "「大丈夫だ。いつでも、どんなときだって、\\n僕は、ポーレットの側にいる」",
+  "tw": "「不用擔心。無論何時我都會陪在你身邊」",
+  "old_vn": "「Không sao đâu. Dù là lúc nào, ở đâu,\\nanh cũng sẽ luôn ở bên cạnh Paulette」",
+  "kind": "pronoun",
+  "fix": "「Không sao đâu. Dù là lúc nào, ở đâu, tôi cũng sẽ luôn ở bên cạnh Paulette」",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với Hikari/Paulette; docs locations §2.1: Soutetsu xưng \"Tôi\", \"Anh\" chỉ khi nói với Hibiki. Trong file này Soutetsu chỉ có 1 lần xưng \"tôi\" trong thoại, 4 lần \"anh\" — \"anh\" là không nhất quán."
+ },
+ {
+  "key": 1604,
+  "speaker": "ひかり",
+  "jp": "「あの――ね、みてた、の」",
+  "tw": "「其實……光看見它了」",
+  "old_vn": "「À thì—— này, chị có thấy, đó」",
+  "kind": "meaning",
+  "fix": "「À thì—— này, Hikari có thấy, đó」",
+  "reason": "Người nói là Hikari (4 tuổi). JP 「あの――ね、みてた、の」: chủ ngữ là chính Hikari; bản cũ gán \"chị\" cho cô bé — Hikari không bao giờ tự xưng \"chị\". TW 「那個……有看到」 không có chủ ngữ, không cứu được."
+ },
+ {
+  "key": 1605,
+  "speaker": "ひかり",
+  "jp": "「あの、ね？　みてたの――ひかり、うさちゃん」",
+  "tw": "「其實，光有看到……看到小兔子」",
+  "old_vn": "「À thì, này nhé? Chị có thấy——Hikari có thấy, bé thỏ đó」",
+  "kind": "meaning",
+  "fix": "「À thì, này nhé? Hikari có thấy——Hikari có thấy bé thỏ đó」",
+  "reason": "Cùng lỗi 1604: JP 「あの、ね？みてたの――ひかり、うさちゃん」 — Hikari nói về chính mình (\"Hikari có thấy\"), bản cũ \"Chị có thấy\" gán nhầm chủ ngữ. TW 「那個、那個？有看到喔——小光有看到、小兔兔」 xác nhận chủ ngữ là Hikari."
+ },
+ {
+  "key": 1690,
+  "speaker": "双鉄",
+  "jp": "「ああ……うたた寝をしてしまっていたのか」",
+  "tw": "「啊……我不小心睡著了啊」",
+  "old_vn": "「A…… Mình ngủ gật mất rồi à」",
+  "kind": "pronoun",
+  "fix": "「A…… Tôi ngủ gật mất rồi à」",
+  "reason": "Soutetsu nói thành tiếng (thoại, không phải độc thoại) mà tự xưng \"Mình\"; docs: Soutetsu xưng \"Tôi\" (\"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1841,
+  "speaker": "若い母親",
+  "jp": "「しょうくん？　おねえちゃんが」",
+  "tw": "「小翔，快看這位姐姐」",
+  "old_vn": "「Shou-kun? Có chị đang gọi con kìa」",
+  "kind": "meaning",
+  "fix": "「Shou-kun? Nhìn chị này nè」",
+  "reason": "JP 「しょうくん？おねえちゃんが」 chỉ là \"Shou-kun? Chị này…\" (câu bỏ lửng, mẹ giới thiệu Paulette với Shou). Bản cũ bịa thêm \"đang gọi con kìa\" — không có trong JP lẫn TW (TW: 「小翔，快看這位姐姐」)."
+ },
+ {
+  "key": 1884,
+  "speaker": "双鉄",
+  "jp": "「わかった」",
+  "tw": "「我明白了」",
+  "old_vn": "「Anh hiểu rồi」",
+  "kind": "pronoun",
+  "fix": "「Tôi hiểu rồi」",
+  "reason": "Soutetsu tự xưng \"Anh\"; docs: \"Tôi\" (\"Anh\" chỉ với Hibiki). Người nghe ở đây là Paulette/Hikari."
+ },
+ {
+  "key": 1887,
+  "speaker": "双鉄",
+  "jp": "「かわいいな。僕の奥さんは――（ちゅっ）」",
+  "tw": "「我老婆真是太可愛了（親）」",
+  "old_vn": "「Đáng yêu quá. Vợ của anh——（Chụt）」",
+  "kind": "pronoun",
+  "fix": "「Đáng yêu quá. Vợ của tôi——（Chụt）」",
+  "reason": "Soutetsu tự xưng \"Anh\" với vợ mình (Paulette); docs: \"Tôi\" (\"Anh\" chỉ với Hibiki). Tiền lệ Paulette 06_雪の宿: 5 lần \"anh\" với Paulette đều đã tính sai."
+ },
+ {
+  "key": 2096,
+  "speaker": "双鉄",
+  "jp": "「重すぎて使えんだろうし、\\n僕がひかりに指導できるのは、こいつの使い方だけだ」",
+  "tw": "「那台太重了，小孩子沒辦法用。而且我也只能教光用這台」",
+  "old_vn": "「Nặng quá con bé không dùng được đâu,\\nvới lại, anh chỉ có thể hướng dẫn Hikari cách dùng cái máy này thôi」",
+  "kind": "pronoun",
+  "fix": "「Nặng quá con bé không dùng được đâu, với lại, tôi chỉ có thể hướng dẫn Hikari cách dùng cơ bản thôi」",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với Paulette về Hikari; docs: \"Tôi\"."
+ },
+ {
+  "key": 2115,
+  "speaker": "双鉄",
+  "jp": "「御一夜まではまだまだだ。\\n[こごた,2]小言田は……多分すぎていると思うが」",
+  "tw": "「離御一夜還遠得很呢。我想，應該已經過了小牛田了」",
+  "old_vn": "「Vẫn chưa đến Ohimitera đâu.\\nChắc là…… vừa qua Kogota rồi」",
+  "kind": "terminology",
+  "fix": "「Vẫn chưa đến Ohitoyo đâu. Chắc là…… vừa qua Kogota rồi」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11: furigana おひとよ + 8/8 \"Ohitoyo\" ở Hachiroku 12 再開発). Bản cũ \"Ohimitera\" là dạng cũ cần thống nhất."
+ },
+ {
+  "key": 2380,
+  "speaker": "monologue",
+  "jp": "それこそ産まれたときから見慣れまくっているせいか、\\n御一夜鉄道の車両たちを、ひかりは撮ろうともしなかった。",
+  "tw": "可能是因為從出生起光就見慣了御一夜鐵路的火車，在家裡的時候她並沒有表露出對拍照的興趣。",
+  "old_vn": "Có lẽ do đã quá quen mắt từ lúc mới sinh ra,\\nnên Hikari chưa bao giờ có ý định chụp lại những toa xe của Đường sắt Ohimitera.",
+  "kind": "terminology",
+  "fix": "「……nên Hikari chưa bao giờ có ý định chụp lại những toa xe của Đường sắt Ohitoyo.」",
+  "reason": "御一夜鉄道 = \"Đường sắt Ohitoyo\" (quyết định 19/11). Bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2536,
+  "speaker": "monologue",
+  "jp": "小股、べた足でぺたぺたと。\\nペンギンにでもなったような気持ちがしてくる。",
+  "tw": "我邁著小碎步左右搖晃著身體走了起來。我覺得自己此刻活像一隻企鵝。",
+  "old_vn": "Bước nhỏ, bàn chân áp sát lạch bạch lạch bạch.\\nCảm giác cứ như mình biến thành chim cánh cụt vậy.",
+  "kind": "pronoun",
+  "fix": "「Bước nhỏ, bàn chân áp sát lạch bạch lạch bạch. Cảm giác cứ như tôi biến thành chim cánh cụt vậy.」",
+  "reason": "Độc thoại Soutetsu: chủ ngữ \"mình\" trong \"cứ như mình biến thành…\" là Soutetsu tự nói về mình; file này độc thoại Soutetsu dùng \"Tôi\" 57/64 chỗ có đại từ — \"mình\" ở đây là không nhất quán. (Các \"mình\" khác trong file là sở hữu cách/tân ngữ/thuộc về người khác — không tính sai.)"
+ },
+ {
+  "key": 2611,
+  "speaker": "monologue",
+  "jp": "そのままダイブ！",
+  "tw": "然後撲進了媽媽的懷裡！",
+  "old_vn": "Rồi con bé lao thẳng vào lòng họ!",
+  "kind": "meaning",
+  "fix": "「Rồi con bé lao thẳng vào lòng mẹ!」",
+  "reason": "JP 「（そのままダイブ！)」 không có chủ ngữ/tân ngữ; TW 「然後撲進了媽媽的懷裡！」 — \"lao vào lòng MẸ\". Bản cũ \"lòng họ\" sai hẳn: \"họ\" là ai cũng không rõ, và không khớp TW. Người lao vào là Hikari (đang được Soutetsu đưa tay ra ở 2603), mẹ là Paulette."
+ },
+ {
+  "key": 2776,
+  "speaker": "monologue",
+  "jp": "（ごとっ）",
+  "tw": "（咚）",
+  "old_vn": "「（Cộc）」",
+  "kind": "minor",
+  "fix": "（Cộc）",
+  "reason": "SFX trong ngoặc đơn ở lời dẫn, JP （ごとっ） TW （咚）. Bản cũ thêm 「」 bao ngoài thành 「（Cộc）」 — trong file này mọi SFX ngoặc đơn khác (2781–2787) đều không có 「」, nên đây là thừa dấu, không phải lỗi nghĩa."
+ }
+]

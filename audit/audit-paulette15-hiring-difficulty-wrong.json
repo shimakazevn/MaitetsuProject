@@ -1,0 +1,362 @@
+[
+ {
+  "key": 1062,
+  "speaker": "lời dẫn",
+  "jp": "“秦さんだったら断らない”“きっと協力してくれる”\\n――そんな希望に、甘え縋ろうとしただけだった。",
+  "tw": "“秦氏一定不會拒絕”“一定願意幫助我們”——我只是想從這樣一份寄託之中，尋得些許安慰。",
+  "old_vn": "“Nếu là anh Hata thì sẽ không từ chối đâu” “Chắc chắn anh ấy sẽ hợp tác”\\n——Em chỉ định dựa dẫm và bấu víu vào niềm hy vọng đó thôi.",
+  "kind": "pronoun",
+  "fix": "“Nếu là anh Hata thì sẽ không từ chối đâu” “Chắc chắn anh ấy sẽ hợp tác” ——Tôi chỉ định dựa dẫm và bấu víu vào niềm hy vọng đó thôi.",
+  "reason": "Độc thoại của Soutetsu tự xưng \"Em\" — trái quy ước độc thoại của file (tôi 62 dòng vs mình 9 dòng, tất cả đều đúng) và docs (locations §2.1: độc thoại \"Tôi\")."
+ },
+ {
+  "key": 1103,
+  "speaker": "Soutetsu",
+  "jp": "「……すまん。いささか、動揺した。\\nまさかここまで追い込まれるとは思ってなかった」",
+  "tw": "「……抱歉，我有點動搖了。之前沒想過會被逼入這種絕境」",
+  "old_vn": "「……Xin lỗi chị. Em hơi kích động.\\nKhông ngờ lại bị dồn đến mức này.」",
+  "kind": "pronoun",
+  "fix": "「……Xin lỗi chị. Tôi hơi kích động. Không ngờ lại bị dồn đến mức này.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami (\"Xin lỗi chị\") — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki; \"em\" cũng không phải dạng tự xưng của Soutetsu)."
+ },
+ {
+  "key": 1396,
+  "speaker": "Soutetsu",
+  "jp": "「いや――しかし――\\n秦さんにも、他の幾人にも、僕は頭を下げ、て…………」",
+  "tw": "「不——可是——不管是對秦氏，還是其他幾個人，我都是低頭去懇、求…………」",
+  "old_vn": "「Không——nhưng mà——\\nCả với anh Hata, và vài người khác nữa, em đã cúi đầu, nhờ vả…………」",
+  "kind": "pronoun",
+  "fix": "「Không——nhưng mà—— Cả với anh Hata, và vài người khác nữa, tôi đã cúi đầu, nhờ vả…………」",
+  "reason": "Soutetsu tự xưng \"em\" khi kể với Mayami/Fukami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1398,
+  "speaker": "Soutetsu",
+  "jp": "「真闇姉一人の話ではない。蓑笠さんにも、赤井宮司にも\\n――頼れる相手がいるのなら、心底頼るべきだった」",
+  "tw": "「不光是真闇姐一個人。還有蓑笠先生、赤井宮司——既然找得到幫手，我就應該誠心誠意地求助」",
+  "old_vn": "「Không chỉ một mình chị Mayami. Cả ông Minokasa, cả đền chủ Akai\\n——nếu có người để dựa dẫm, đáng lẽ em phải dựa dẫm từ tận đáy lòng.」",
+  "kind": "pronoun",
+  "fix": "「Không chỉ một mình chị Mayami. Cả ông Minokasa, cả đền chủ Akai——nếu có người để dựa dẫm, đáng lẽ tôi phải dựa dẫm từ tận đáy lòng.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1402,
+  "speaker": "Fukami",
+  "jp": "「ううん、だって――\\nわたし達、御一夜でこれからも暮らしていくでしょ？」",
+  "tw": "「不行，因為——我們是要一直生活在御一夜的對不對？」",
+  "old_vn": "「Không được, bởi vì——\\nchúng ta, từ nay về sau vẫn sẽ tiếp tục sống ở Ohimitera mà đúng không?」",
+  "kind": "terminology",
+  "fix": "「Không được, bởi vì—— chúng ta, từ nay về sau vẫn sẽ tiếp tục sống ở Ohitoyo mà đúng không?」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1407,
+  "speaker": "Minokasa",
+  "jp": "「礼を言われることじゃなかとです。凪たちのため、\\n御一夜の水ば守るのは、私の望みでもありますけん」",
+  "tw": "「不需要道謝。我也想為了孩子們，保住御一夜的水咧」",
+  "old_vn": "「Không cần phải cảm ơn đâu. Vì Nagi và bọn trẻ,\\nbảo vệ nguồn nước của Ohimitera, cũng là mong muốn của tôi mà.」",
+  "kind": "terminology",
+  "fix": "「Không cần phải cảm ơn đâu. Vì Nagi và bọn trẻ, bảo vệ nguồn nước của Ohitoyo, cũng là mong muốn của tôi mà.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1410,
+  "speaker": "Soutetsu",
+  "jp": "「いや、教わった――\\n一から十まで、丁寧に教えていただいた」",
+  "tw": "「不，學到了——從頭到尾，秦氏都仔細地教會了我」",
+  "old_vn": "「Không, em đã được dạy rồi——\\nĐược chỉ dạy tận tình từ đầu đến cuối rồi.」",
+  "kind": "pronoun",
+  "fix": "「Không, tôi đã được dạy rồi—— Được chỉ dạy tận tình từ đầu đến cuối rồi.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1483,
+  "speaker": "Soutetsu",
+  "jp": "「その辺も含め、お話ししてきた。\\n蓑笠さんも、すぐに動いてくださるそうだ」",
+  "tw": "「包括玲奈的事在內，我已經去談過了。蓑笠先生也表示會立刻做好準備的」",
+  "old_vn": "「Bao gồm cả chuyện đó, anh đã nói chuyện xong rồi.\\nÔng Minokasa cũng bảo sẽ lập tức hành động.」",
+  "kind": "pronoun",
+  "fix": "「Bao gồm cả chuyện đó, tôi đã nói chuyện xong rồi. Ông Minokasa cũng bảo sẽ lập tức hành động.」",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với Mayami/Fukami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1514,
+  "speaker": "Soutetsu",
+  "jp": "「教えてくれ、真闇姉。\\n僕は、そうするために何をすればいい？」",
+  "tw": "「告訴我，真闇姐。我要怎麼做才能成功？」",
+  "old_vn": "「Chỉ cho em với, chị Mayami.\\nĐể làm được như vậy, em phải làm gì?」",
+  "kind": "pronoun",
+  "fix": "「Chỉ cho tôi với, chị Mayami. Để làm được như vậy, tôi phải làm gì?」",
+  "reason": "Soutetsu tự xưng \"em\" ×2 khi nói với Mayami (\"chị Mayami\") — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1527,
+  "speaker": "Soutetsu",
+  "jp": "「っと？　早すぎたか？」",
+  "tw": "「哎呀？來得太早了嗎？」",
+  "old_vn": "「Ủa? Mình đến sớm quá sao?」",
+  "kind": "pronoun",
+  "fix": "「Ủa? Tôi đến sớm quá sao?」",
+  "reason": "Soutetsu tự xưng \"Mình\" trong thoại trực tiếp — trái docs (locations §2.1: \"Tôi\"; tiền lệ Paulette 07 usagi 1690: \"Mình\" trong thoại trực tiếp là sai)."
+ },
+ {
+  "key": 1580,
+  "speaker": "Soutetsu",
+  "jp": "「うん――うん……そうか、わかった」",
+  "tw": "「嗯——嗯……是嗎，我知道了」",
+  "old_vn": "「Ừ——ừm……vậy sao, anh hiểu rồi.」",
+  "kind": "pronoun",
+  "fix": "「Ừ——ừm……vậy sao, tôi hiểu rồi.」",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói điện thoại với Minokasa — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1610,
+  "speaker": "Soutetsu",
+  "jp": "「\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致は御一夜の滅びに繋がると――\\nわかってくれたのではなかったのか」",
+  "tw": "「大家不是都已經明白了——\\x%lエアクラ;#00ffc040;空凝機%l;#;工廠落戶會毀掉御一夜嗎」",
+  "old_vn": "「Việc thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; sẽ dẫn đến sự diệt vong của Ohimitera——\\nChẳng phải mọi người đã hiểu ra rồi sao.」",
+  "kind": "terminology",
+  "fix": "「Việc thu hút nhà máy Aircra sẽ dẫn đến sự diệt vong của Ohitoyo—— Chẳng phải mọi người đã hiểu ra rồi sao.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1619,
+  "speaker": "Soutetsu",
+  "jp": "「明日がなければ、泊まって行きたい。\\nが――今は」",
+  "tw": "「如果明天沒有事，我也很想留下過夜。可是，現在這個時期——」",
+  "old_vn": "「Nếu không có ngày mai, anh rất muốn ở lại.\\nNhưng——bây giờ thì.」",
+  "kind": "pronoun",
+  "fix": "「Nếu không có ngày mai, tôi rất muốn ở lại. Nhưng——bây giờ thì.」",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với Paulette (1618 Reina chúc ngủ ngon Paulette và Soutetsu; Soutetsu đang chào tạm biệt ở nhà Paulette) — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1631,
+  "speaker": "Soutetsu",
+  "jp": "「宝生元忠は……そこまでを準備し、仕掛けて来た。\\nそれは――今の僕には及びもつかぬ力量だ」",
+  "tw": "「寶生元忠……做了如此周詳的準備，向我們展開攻勢。他的能力——是現在的我所不可匹敵的」",
+  "old_vn": "「Houshou Mototada……đã chuẩn bị đến mức đó, và ra tay.\\nĐó là——năng lực mà em hiện tại không thể sánh bằng.」",
+  "kind": "pronoun",
+  "fix": "「Houshou Mototada……đã chuẩn bị đến mức đó, và ra tay. Đó là——năng lực mà tôi hiện tại không thể sánh bằng.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1640,
+  "speaker": "Soutetsu",
+  "jp": "「申し訳ない。金の誘惑に負けたなど――\\n未熟な僕の、逆恨みによる暴言に過ぎなかった」",
+  "tw": "「對不起。所謂敗給了金錢的誘惑——只是幼稚的我遷怒於人的惡言」",
+  "old_vn": "「Em xin lỗi. Cái gì mà thua trước cám dỗ của đồng tiền chứ——\\nĐó chỉ là những lời lẽ cay nghiệt do sự oán hận vô lý của một kẻ non nớt như em thôi.」",
+  "kind": "pronoun",
+  "fix": "「Tôi xin lỗi. Cái gì mà thua trước cám dỗ của đồng tiền chứ—— Đó chỉ là những lời lẽ cay nghiệt do sự oán hận vô lý của một kẻ non nớt như tôi thôi.」",
+  "reason": "Soutetsu tự xưng \"em\" ×2 khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1641,
+  "speaker": "Soutetsu",
+  "jp": "「済まない。僕が完全に間違えていた。\\n口コミの誘いを断られ続け、きっと意固地になっていた」",
+  "tw": "「對不起，是我完全錯了。我想我是因為勸說一直被拒絕，變得有點意氣用事了」",
+  "old_vn": "「Em xin lỗi. Là em hoàn toàn sai.\\nBị từ chối liên tục qua những lời mời truyền miệng, chắc chắn em đã trở nên cố chấp rồi.」",
+  "kind": "pronoun",
+  "fix": "「Tôi xin lỗi. Là tôi hoàn toàn sai. Bị từ chối liên tục qua những lời mời truyền miệng, chắc chắn tôi đã trở nên cố chấp rồi.」",
+  "reason": "Soutetsu tự xưng \"em\" ×2 khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1646,
+  "speaker": "Soutetsu",
+  "jp": "「ああ、他の秦さんに用は無い」",
+  "tw": "「對，我找別的秦氏也沒事啊」",
+  "old_vn": "「Vâng, em đâu có việc gì với anh Hata nào khác đâu.」",
+  "kind": "pronoun",
+  "fix": "「Vâng, tôi đâu có việc gì với anh Hata nào khác đâu.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1666,
+  "speaker": "Fukami",
+  "jp": "「だよね。御一夜で800円を越える時給なんて……\\n深夜帯だって、1000円行くか行かないかなのに」",
+  "tw": "「就是啊。在御一夜時薪超過８００日元的兼職……就算是打夜工，時薪都不一定超過１０００日元」",
+  "old_vn": "「Đúng vậy. Ở Ohimitera mà lương theo giờ vượt quá 800 yên thì……\\nDù là làm đêm, cũng chỉ tầm 1000 yên hoặc không tới thôi.」",
+  "kind": "terminology",
+  "fix": "「Đúng vậy. Ở Ohitoyo mà lương theo giờ vượt quá 800 yên thì…… Dù là làm đêm, cũng chỉ tầm 1000 yên hoặc không tới thôi.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1677,
+  "speaker": "Soutetsu",
+  "jp": "「れいなが託してもらったものを、フルに活かそう。\\nそれがれいなにも僕らにも、きっと御一夜にも一番いい」",
+  "tw": "「就讓我們好好運用技師們託付給玲奈的東西吧。這對於玲奈、我們，對於御一夜而言，一定都是最好的選擇」",
+  "old_vn": "「Hãy tận dụng tối đa những gì Reina đã được gửi gắm.\\nĐó chắc chắn là điều tốt nhất cho Reina, cho chúng ta, và cả cho Ohimitera nữa.」",
+  "kind": "terminology",
+  "fix": "「Hãy tận dụng tối đa những gì Reina đã được gửi gắm. Đó chắc chắn là điều tốt nhất cho Reina, cho chúng ta, và cả cho Ohitoyo nữa.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1686,
+  "speaker": "Soutetsu",
+  "jp": "「お互い様だ。僕も多くを、\\nポーレットに任せているわけだしな」",
+  "tw": "「彼此彼此。我也把很多事情交給了波萊特了嘛」",
+  "old_vn": "「Có qua có lại thôi. Anh cũng,\\ngiao phó rất nhiều việc cho Paulette mà.」",
+  "kind": "pronoun",
+  "fix": "「Có qua có lại thôi. Tôi cũng, giao phó rất nhiều việc cho Paulette mà.」",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với Paulette (1700 Paulette đáp lại \"cảm ơn anh\") — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1694,
+  "speaker": "Minokasa",
+  "jp": "「そん隠れ蓑に――\\nいいように御一夜の業者も使われてしまいましたかの」",
+  "tw": "「恐怕御一夜的業內人士，也是被這一偽裝給利用了吧」",
+  "old_vn": "「Cái vỏ bọc đó——\\nchắc là các nhà thầu ở Ohimitera cũng bị lợi dụng rồi nhỉ.」",
+  "kind": "terminology",
+  "fix": "「Cái vỏ bọc đó—— chắc là các nhà thầu ở Ohitoyo cũng bị lợi dụng rồi nhỉ.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1702,
+  "speaker": "Soutetsu",
+  "jp": "「僕は――まず、真闇姉に助力を願うべきだった」",
+  "tw": "「我——應該最先請求真闇姐的幫助」",
+  "old_vn": "「Em——đáng lẽ phải nhờ chị Mayami giúp đỡ đầu tiên.」",
+  "kind": "pronoun",
+  "fix": "「Tôi——đáng lẽ phải nhờ chị Mayami giúp đỡ đầu tiên.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1718,
+  "speaker": "Soutetsu",
+  "jp": "「引き止めてもらえて、嬉しかった。\\nおかげで、明日もがんばれる」",
+  "tw": "「我很高興你把我叫住。這樣一來，我明天又有動力了」",
+  "old_vn": "「Anh rất vui vì em đã giữ anh lại.\\nNhờ vậy, ngày mai anh lại có thể cố gắng rồi.」",
+  "kind": "pronoun",
+  "fix": "「Tôi rất vui vì em đã giữ tôi lại. Nhờ vậy, ngày mai tôi lại có thể cố gắng rồi.」",
+  "reason": "Soutetsu tự xưng \"anh\" ×2 khi nói với Paulette (1712 Paulette rủ vào trong, 1700 Paulette \"cảm ơn anh\") — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Em\" gọi Paulette (ngôi hai) giữ nguyên — thuộc đề xuất \"cô\"/\"em\" đang chờ chốt."
+ },
+ {
+  "key": 1729,
+  "speaker": "Soutetsu",
+  "jp": "「どうしたらいいかな、真闇姉。他はともかく、\\n秦さんまでもが、金の力に負けてしまった」",
+  "tw": "「我該怎麼辦，真闇姐。不說其他人，就連秦氏都敗給了金錢的力量」",
+  "old_vn": "「Em phải làm sao đây, chị Mayami. Chưa nói đến những người khác,\\nngay cả anh Hata, cũng đã gục ngã trước sức mạnh của đồng tiền.」",
+  "kind": "pronoun",
+  "fix": "「Tôi phải làm sao đây, chị Mayami. Chưa nói đến những người khác, ngay cả anh Hata, cũng đã gục ngã trước sức mạnh của đồng tiền.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami (\"chị Mayami\") — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1774,
+  "speaker": "Soutetsu",
+  "jp": "「僕の甘さが……苦境を深めてしまっていたのか」",
+  "tw": "「是我的天真……加深了此刻的困境嗎」",
+  "old_vn": "「Sự ngây thơ của em……đã làm hoàn cảnh thêm khó khăn sao.」",
+  "kind": "pronoun",
+  "fix": "「Sự ngây thơ của tôi……đã làm hoàn cảnh thêm khó khăn sao.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1796,
+  "speaker": "Soutetsu",
+  "jp": "「炭鉱、技術者さんたちの――\\nかつて、術仙炭鉱で働いていた」",
+  "tw": "「曾就職於術仙煤礦的技工名單」",
+  "old_vn": "「Của các kỹ sư mỏ than——\\nnhững người từng làm việc ở mỏ than Jutsusen.」",
+  "kind": "terminology",
+  "fix": "「Của các kỹ sư mỏ than—— những người từng làm việc ở mỏ than Jutsu-sen.」",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\" (thiếu gạch nối: bản cũ \"Jutsusen\")."
+ },
+ {
+  "key": 1801,
+  "speaker": "Soutetsu",
+  "jp": "「無いものを欲しがるから……\\n実際以上に、僕は追い詰められた気になったのか」",
+  "tw": "「正因我得不到還要去強求……才會覺得情況比實際更糟糕」",
+  "old_vn": "「Vì cứ ham muốn những thứ không có nên……\\nem mới cảm thấy mình bị dồn ép hơn cả thực tế sao.」",
+  "kind": "pronoun",
+  "fix": "「Vì cứ ham muốn những thứ không có nên…… tôi mới cảm thấy mình bị dồn ép hơn cả thực tế sao.」",
+  "reason": "Soutetsu tự xưng \"em\" khi nói với Mayami — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Mình\" phản thân (\"mình bị dồn ép\") giữ nguyên."
+ },
+ {
+  "key": 1819,
+  "speaker": "Soutetsu",
+  "jp": "「そうするために。真闇姉。\\n僕に、僕らに――力を貸して欲しいんだ」",
+  "tw": "「為了實現這個目標……真闇姐，我希望你能幫助我——借給我們你的力量」",
+  "old_vn": "「Để làm được như vậy. Chị Mayami.\\nEm muốn chị cho em, cho chúng em——mượn sức mạnh của chị.」",
+  "kind": "pronoun",
+  "fix": "「Để làm được như vậy. Chị Mayami. Tôi muốn chị cho tôi, cho chúng tôi——mượn sức mạnh của chị.」",
+  "reason": "Soutetsu tự xưng \"em\" ×3 khi nói với Mayami (\"chị Mayami\") — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1903,
+  "speaker": "Soutetsu",
+  "jp": "「証？　\\n……っ！！」",
+  "tw": "「證據？……啊！！」",
+  "old_vn": "「Minh chứng?\\n……!!」",
+  "kind": "minor",
+  "fix": "「Minh chứng? ……Ư!!」",
+  "reason": "Mất tiếng hít っ: JP 「証？　……っ！！」 dịch thành \"Minh chứng? ……!!\" — tiếng hít biến mất (TW giữ lại bằng \"啊!!\"). Tiền lệ Hachiroku 12 2103/2537 và Paulette 09 2274/2275/2277: JP 「っ！」→ \"Ư!\"."
+ },
+ {
+  "key": 1943,
+  "speaker": "Soutetsu",
+  "jp": "「それはいいな。\\nそのときは、僕にも同乗させてくれ」",
+  "tw": "「那可真不錯。到時候，讓我也當一回乘客吧」",
+  "old_vn": "「Thế thì tốt quá.\\nLúc đó, cho anh đi cùng với nhé.」",
+  "kind": "pronoun",
+  "fix": "「Thế thì tốt quá. Lúc đó, cho tôi đi cùng với nhé.」",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với Paulette (1939 Paulette mời ở lại qua đêm) — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1976,
+  "speaker": "Soutetsu",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "kind": "minor",
+  "fix": "「Ư!」",
+  "reason": "Mất tiếng hít っ: JP 「っ！」 dịch thành \"!\" trơ trụi. Tiền lệ Hachiroku 12 2103/2537 và Paulette 09 2274/2275/2277: JP 「っ！」→ \"Ư!\"."
+ },
+ {
+  "key": 1977,
+  "speaker": "Soutetsu",
+  "jp": "「っ！！」",
+  "tw": "「！！」",
+  "old_vn": "「!!」",
+  "kind": "minor",
+  "fix": "「Ư!!」",
+  "reason": "Mất tiếng hít っ: JP 「っ！！」 dịch thành \"!!\" trơ trụi. Tiền lệ Hachiroku 12 2103/2537 và Paulette 09 2274/2275/2277: JP 「っ！」→ \"Ư!\"."
+ },
+ {
+  "key": 1978,
+  "speaker": "Soutetsu",
+  "jp": "「っ！？」",
+  "tw": "「！？」",
+  "old_vn": "「!?」",
+  "kind": "minor",
+  "fix": "「Ư!?」",
+  "reason": "Mất tiếng hít っ: JP 「っ！？」 dịch thành \"!?\" trơ trụi. Tiền lệ Hachiroku 12 2103/2537 và Paulette 09 2274/2275/2277: JP 「っ！」→ \"Ư!\"."
+ },
+ {
+  "key": 2151,
+  "speaker": "lời dẫn",
+  "jp": "だが――御一夜は長い不況の中にある。",
+  "tw": "但是——御一夜的經濟蕭條持續已久。",
+  "old_vn": "Nhưng——Ohimitera đang chìm trong thời kỳ suy thoái kéo dài.",
+  "kind": "terminology",
+  "fix": "「Nhưng——Ohitoyo đang chìm trong thời kỳ suy thoái kéo dài.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2359,
+  "speaker": "lời dẫn",
+  "jp": "しているつもりだ。\\nベストも、尽くしてきたつもりだ。",
+  "tw": "我當然下定了決心。並且，也在全力以赴。",
+  "old_vn": "Em nghĩ là em đã chuẩn bị tâm lý rồi.\\nEm cũng nghĩ là mình đã cố gắng hết sức.",
+  "kind": "pronoun",
+  "fix": "「Tôi nghĩ là tôi đã chuẩn bị tâm lý rồi. Tôi cũng nghĩ là mình đã cố gắng hết sức.」",
+  "reason": "Độc thoại của Soutetsu tự xưng \"Em\" ×2 — trái quy ước độc thoại của file và docs (locations §2.1: độc thoại \"Tôi\"). \"Mình\" ở câu hai giữ nguyên theo mẫu \"Tôi… mình…\" (tiền lệ Paulette 10: \"mình\" sau \"Tôi\" trong cùng câu là cách phản thân, được giữ)."
+ },
+ {
+  "key": 2462,
+  "speaker": "lời dẫn",
+  "jp": "ふかみのか細い指が差す先、求人先の企業名は、\\n（株）御一夜ワークサービス　となっている。",
+  "tw": "深美纖細的手指指向一處，上面寫著發布招聘訊息的企業名——御一夜職業服務股份公司。",
+  "old_vn": "Nơi ngón tay thon thả của Fukami chỉ vào, tên doanh nghiệp tuyển dụng là,\\nCông ty cổ phần Ohimitera Work Service.",
+  "kind": "terminology",
+  "fix": "「Nơi ngón tay thon thả của Fukami chỉ vào, tên doanh nghiệp tuyển dụng là, Công ty cổ phần Ohitoyo Work Service.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\". Đây là tên công ty: (株)御一夜ワークサービス = Công ty cổ phần Ohitoyo Work Service."
+ }
+]

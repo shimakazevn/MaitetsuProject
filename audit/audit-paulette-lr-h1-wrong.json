@@ -1,0 +1,642 @@
+[
+ {
+  "key": 707,
+  "character": "双鉄",
+  "jp": "「――家族旅行の穏やかな夜を壊したくない。\\nしっかり声を抑えてくれよ？」",
+  "tw": "「——我不想破壞家庭旅行之夜的安穩。你可要努力控制好音量」",
+  "old_vn": "「――Anh không muốn phá hỏng đêm yên bình của chuyến du lịch gia đình đâu.\\nEm phải cố gắng kìm nén giọng nói đấy nhé?」",
+  "fix": "「――Tôi không muốn phá hỏng đêm yên bình của chuyến du lịch gia đình đâu. Em phải cố gắng kìm nén giọng nói đấy nhé?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\" (độc thoại và thoại đều dùng \"tôi\"; \"anh\" chỉ đúng khi nói với Hibiki)."
+ },
+ {
+  "key": 712,
+  "character": "双鉄",
+  "jp": "「『ごまかしやすい』。だな？　心得た」",
+  "tw": "「“才容易解釋”。對吧？我明白了」",
+  "old_vn": "「『Dễ che giấu hơn』. Đúng không? Anh hiểu rồi」",
+  "fix": "「『Dễ che giấu hơn』. Đúng không? Tôi hiểu rồi」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 732,
+  "character": "ポーレット",
+  "jp": "「……こんな夜、には、こっそり、声を、抑えながら――\\nそれでも、きっと……、エッチ――エッチ、を――んっ」",
+  "tw": "「……在這樣的，夜晚裡，壓低著聲音——偷偷地……做——做愛——嗯」",
+  "old_vn": "「……Vào một đêm như thế này, họ sẽ lén lút, kìm nén giọng nói――\\nNhưng chắc chắn……họ sẽ làm tình――làm tình――ưm」",
+  "fix": "「……Vào một đêm như thế này, chúng mình sẽ lén lút, kìm nén giọng nói―― Nhưng chắc chắn……chúng mình sẽ làm tình――làm tình――ưm」",
+  "kind": "meaning",
+  "reason": "Paulette nói về chính mình + Soutetsu (\"chúng mình\"), không phải \"họ\" — JP không có chủ ngữ chỉ người khác; TW cũng là hành động của hai người."
+ },
+ {
+  "key": 953,
+  "character": "双鉄",
+  "jp": "「してほしいのではないなら――なんだ？」",
+  "tw": "「不想做的話——那是想怎樣呢？」",
+  "old_vn": "「Nếu không phải là muốn anh làm――thì là gì?」",
+  "fix": "「Nếu không phải là muốn tôi làm――thì là gì?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 967,
+  "character": "双鉄",
+  "jp": "「なにを、してほしいんだ？」",
+  "tw": "「你想要我做什麼？」",
+  "old_vn": "「Em muốn, anh làm gì?」",
+  "fix": "「Em muốn, tôi làm gì?」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 984,
+  "character": "双鉄",
+  "jp": "「それでもひとつだけはわかる」",
+  "tw": "「即便如此，有件事我可以肯定」",
+  "old_vn": "「Nhưng có một điều anh chắc chắn.」",
+  "fix": "「Nhưng có một điều tôi chắc chắn.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 998,
+  "character": "ポーレット",
+  "jp": "「きゅっふっ！！！？　～～～～～～～っ！！！！」",
+  "tw": "「呀呼！！！？哇～～～～～！！！！」",
+  "old_vn": "「Kyufu!!!? ~~~~~~~!!!!」",
+  "fix": "「Kíuphù!!!? ~~~~~~~Ư!!!!」",
+  "kind": "breath-sfx",
+  "reason": "きゅっふっ còn La-tinh \"Kyufu\" — sửa thành \"Kíuphù\" (きゅ→\"Kíu\" theo tiền lệ h8 2142); gasp cuối đã có trong sweep (xác nhận)."
+ },
+ {
+  "key": 1000,
+  "character": "ポーレット",
+  "jp": "「ひゃうっ――んっ――ふあっ――ふっ――\\n指、かたいとこ――かんせつ――こしゅ、れてっ」",
+  "tw": "「呀唔——嗯——呼啊——呼——手指的——關節——硬硬的，蹭到了」",
+  "old_vn": "「Hya――ưm――phù――phù――\\nChỗ cứng của, ngón tay――khớp xương――đang cọ, xát」",
+  "fix": "「Hiau――ưm――phà――phù―― Chỗ cứng của, ngón tay――khớp xương――đang cọ, xát」",
+  "kind": "breath-sfx",
+  "reason": "ひゃうっ còn \"Hya\" — sửa thành \"Hiau\" (ひゃう→\"Hiau\" theo tiền lệ h8 2137); ふあっ→\"phà\" theo quyết định fa/fu 19/11."
+ },
+ {
+  "key": 1002,
+  "character": "ポーレット",
+  "jp": "「ひゃうっ！！　けどっ―きもちいっ――んっ――\\nそうてつ、くっ――んっ――しょこっ――そこっ」",
+  "tw": "「呀唔！！但是——好舒服——嗯雙鐵君——嗯——好棒——那裡」",
+  "old_vn": "「Hya!! Nhưng mà――sướng quá――ưm――\\nAnh Soutetsu――ưm――chỗ đó――chỗ đó」",
+  "fix": "「Hiau!! Nhưng mà――sướng quá――ưm―― Anh Soutetsu――ưm――chỗ đó――chỗ đó」",
+  "kind": "breath-sfx",
+  "reason": "ひゃうっ còn \"Hya\" — sửa thành \"Hiau\"."
+ },
+ {
+  "key": 1003,
+  "character": "ポーレット",
+  "jp": "「ひゃうっ！？　あっ――んっ！　くっ――ふぁっ！\\nんあっ！！」",
+  "tw": "「呀唔！？啊——嗯！咕——呼啊！嗯啊！！」",
+  "old_vn": "「Hyau!? A――ưm! Hự――phù!\\nƯm a!!」",
+  "fix": "「Hiau!? A――ưm! Hự――phà! Ưm a!!」",
+  "kind": "breath-sfx",
+  "reason": "ひゃうっ còn \"Hyau\" — sửa thành \"Hiau\"; くふっ→\"Khự\"; ふぁっ→\"phà\"."
+ },
+ {
+  "key": 1005,
+  "character": "ポーレット",
+  "jp": "「ひあっ！　ぁ――うっ――～～～～～っ！\\nけどっ――これっ――ごちゅってなると――声、勝手に」",
+  "tw": "「呀啊！啊——唔～～～～！可是——這個——一被頂到花心——就會不由自主地，叫出來」",
+  "old_vn": "「Hya! A——ư——～～～～～!\\nNhưng mà——thế này——cứ đâm lút cán là——em lại không kiềm được tiếng rên.」",
+  "fix": "「Hia! A——ư——～～～～～Ư! Nhưng mà——thế này——cứ đâm lút cán là——em lại không kiềm được tiếng rên.」",
+  "kind": "breath-sfx",
+  "reason": "ひあっ còn \"Hya\" — sửa thành \"Hia\" (sweep chỉ sửa gasp, giữ \"Hya\" — audit thay bằng \"Hia\"); gasp ～～～～～っ đã có trong sweep (xác nhận)."
+ },
+ {
+  "key": 1007,
+  "character": "ポーレット",
+  "jp": "「ひあっ！　あっ！！　これっ！　しゅきっ！」",
+  "tw": "「呀啊！啊！！這樣！好喜歡！」",
+  "old_vn": "「Hya! A!! Thế này! Em thích lắm!」",
+  "fix": "「Hia! A!! Thế này! Em thích lắm!」",
+  "kind": "breath-sfx",
+  "reason": "ひあっ còn \"Hya\" — sửa thành \"Hia\"."
+ },
+ {
+  "key": 1011,
+  "character": "ポーレット",
+  "jp": "「ひあっ！　あっ――きもちい――きもちい、よぉ――\\nん――そうてつくんの、指――わたし――乳首――あっ」",
+  "tw": "「呀！啊——好舒服——好舒服啊——嗯——雙鐵君的，手指——把我的——乳頭——啊」",
+  "old_vn": "「Hyaa! A――Sướng quá――sướng quá, đi――\\nƯm――Ngón tay, của anh Soutetsu――núm vú――của em――a」",
+  "fix": "「Hia! A――Sướng quá――sướng quá, đi―― Ưm――Ngón tay, của anh Soutetsu――núm vú――của em――a」",
+  "kind": "breath-sfx",
+  "reason": "ひあっ còn \"Hyaa\" (thừa 1 chữ a + \"Hya\") — sửa thành \"Hia\"."
+ },
+ {
+  "key": 1019,
+  "character": "ポーレット",
+  "jp": "「ふぁっ――あっ――あっ――あっ――」",
+  "tw": "「呼啊——啊——啊——啊——」",
+  "old_vn": "「Phù――a――a――a――」",
+  "fix": "「Phà――a――a――a――」",
+  "kind": "breath-sfx",
+  "reason": "ふぁっ còn \"Phù\" — sửa thành \"Phà\" theo quyết định fa/fu."
+ },
+ {
+  "key": 1020,
+  "character": "ポーレット",
+  "jp": "「ふあっ――あっ――ねっ――ふあっ――もっと――\\nそうてつ、くんっ――おまんこ――もっと――」",
+  "tw": "「呼啊——啊——我說——呼啊——繼續——雙鐵君——小穴——還要更多——」",
+  "old_vn": "「Pha——a——nè——pha——nữa đi——\\nAnh Soutetsu——âm đạo——nữa đi——」",
+  "fix": "「Phà——a——nè——phà——nữa đi—— Anh Soutetsu——âm đạo——nữa đi——」",
+  "kind": "breath-sfx",
+  "reason": "ふあっ còn \"Pha\"/\"pha\" — sửa thành \"Phà\"/\"phà\"."
+ },
+ {
+  "key": 1022,
+  "character": "ポーレット",
+  "jp": "「ふぁっ――あっ――指より――わた、しっ――んっ――\\nおちん、ちん――そうてつくん、の、ほしい、のにっっ」",
+  "tw": "「呼啊——啊——比起手指——我——嗯——明明——更想要，你的，肉棒呀」",
+  "old_vn": "「Phù――a――Hơn cả ngón tay――em――ưm――\\nMuốn, chim――của anh Soutetsu, cơ」",
+  "fix": "「Phà――a――Hơn cả ngón tay――em――ưm―― Muốn, chim――của anh Soutetsu, cơ」",
+  "kind": "breath-sfx",
+  "reason": "ふぁっ còn \"Phù\" — sửa thành \"Phà\"."
+ },
+ {
+  "key": 1023,
+  "character": "ポーレット",
+  "jp": "「ふあっ――あっ！　あっ！　あっ！\\nはっ！　あっ――んうっ――くふっ――あっ！」",
+  "tw": "「呼啊——啊！啊！啊！哈！啊——嗯唔——咕呼——啊！」",
+  "old_vn": "「Phù――a! A! A!\\nHà! A――ưm――kufu――a!」",
+  "fix": "「Phà――a! A! A! Hà! A――ưm――Khự――a!」",
+  "kind": "breath-sfx",
+  "reason": "ふぁっ còn \"Phù\" — sửa thành \"Phà\"; くふっ còn \"kufu\" — sửa thành \"Khự\"."
+ },
+ {
+  "key": 1025,
+  "character": "ポーレット",
+  "jp": "「ふぁっ――ンッ――（こくっ）――チュむっ――ちゅ\\nれるっ――れりゅううっ――ぢゅるっ――ちゅううっ」",
+  "tw": "「呼啊——嗯——（吞嚥）——啾唔——啾滋溜——滋嚕嚕——啾嚕——啾唔唔」",
+  "old_vn": "「Phù――ưm――（ực）――chùn chụt――chụt\\nLiếm――liếm――chùn chụt――chùn chụt」",
+  "fix": "「Phà――ưm――（ực）――chụt――chụt Rộp――rộộộp――rột——chụụụt」",
+  "kind": "breath-sfx",
+  "reason": "ふぁっ→\"Phà\"; れるっ/れりゅううっ còn \"Liếm\"/\"chùn chụt\" — sửa thành \"rộp\"/\"rộôôp\" (họ れる→\"rộp\", れりゅううっ = 3 tiếng u: りゅ+う×2); ぢゅるっ→\"rột\"; ちゅううっ→\"chụụụt\" (3 tiếng u: ちゅ+う×2)."
+ },
+ {
+  "key": 1040,
+  "character": "ポーレット",
+  "jp": "「っ――～～～っ――っ！　ぁっ――んむっ――\\nチュッ――ちゅうううっ――ヂュルッ――（ごくっ）」",
+  "tw": "「唔——嗯～～～唔——！啊——嗯唔——啾——啾唔唔唔——啾嚕——（吞嚥）」",
+  "old_vn": "「Ư——～～～——! A——ưm——\\nchụt——chụt——chu ru——（Ực）」",
+  "fix": "「Ư——～～～Ư——Ư! A——ưm—— chụt——chụụụụt——rột——（Ực）」",
+  "kind": "breath-sfx",
+  "reason": "Còn mất 2 tiếng っ (～～～っ và っ！) — bổ sung Ư; ちゅうううっ còn \"chụt\" không kéo dài — sửa thành \"chụụụụt\" (4 tiếng u: ちゅ+う×3); ヂュルッ còn \"chu ru\" — sửa thành \"rột\"."
+ },
+ {
+  "key": 1042,
+  "character": "ポーレット",
+  "jp": "「っっ～～！　っ――チュッ――ちゅうっ――はっ――\\nジュルっ――チュッ――っ～～チュズッ――（ごくっ）」",
+  "tw": "「唔唔～～！——啾——啾唔——哈——啾嚕——啾——唔～～啾茲——（吞嚥）」",
+  "old_vn": "「Ư～～! Ư——chụt——chụt——ha——\\nchu ru——chụt——ư～～chu zu——（Ực）」",
+  "fix": "「ƯƯ～～! Ư——chụt——chụụt——ha—— rột——chụt——ư～～chụt——（Ực）」",
+  "kind": "breath-sfx",
+  "reason": "っっ đầu dòng chỉ có 1 tiếng Ư — sửa thành \"ƯƯ\" (1 Ư cho mỗi っ); ちゅうっ còn \"chụt\" không kéo dài — sửa thành \"chụụt\" (2 tiếng u: âm gốc + う×1); ジュルっ còn \"chu ru\" — sửa thành \"rột\"; っ～～チュズッ còn \"ư～～chu zu\" — sửa thành \"ư～～chụt\"."
+ },
+ {
+  "key": 1043,
+  "character": "ポーレット",
+  "jp": "「んむっ！？！　んっ――ちゅっ――じゅりゅっ――\\nりゅっ――れるっ――ちゅぷっ――ちゅむっ――ぷぁ」",
+  "tw": "「唔嗯！？！嗯——啾——啾溜——溜——滋溜——啾噗——啾嗯——噗啊」",
+  "old_vn": "「Ưm!?! Ưm——chụt——chu ryu——\\nryu——rê ru——chu pu——chu mu——pha」",
+  "fix": "「Ưm!?! Ưm——chụt——rột—— rộp——rộp——chụt——chụt——phà」",
+  "kind": "breath-sfx",
+  "reason": "じゅりゅっ/りゅっ/れるっ/ちゅぷっ/ちゅむっ còn La-tinh — sửa thành \"rột\"/\"rộp\"/\"rộp\"/\"chụt\"/\"chụt\"; ぷぁ còn \"pha\" — sửa thành \"phà\"."
+ },
+ {
+  "key": 1044,
+  "character": "ポーレット",
+  "jp": "「っ！　っ！　っ！　～～～～～っ！！！」",
+  "tw": "「唔！唔！唔！唔～～～～～！！！」",
+  "old_vn": "「Ư! Ư! Ư! ～～～～～!!!」",
+  "fix": "「Ư! Ư! Ư! ～～～～～Ư!!!」",
+  "kind": "gasp",
+  "reason": "Sweep đánh dấu already-rendered nhưng còn mất 1 tiếng っ (JP 4 tiếng っ, VN chỉ có 3 tiếng Ư) — bổ sung Ư sau ～～～～～."
+ },
+ {
+  "key": 1045,
+  "character": "ポーレット",
+  "jp": "「っ！！！　～～～っ！！　っ――ぁっ――っ！！！」",
+  "tw": "「唔！！！唔～～～！！唔——啊——唔！！！」",
+  "old_vn": "「Ư!!! ～～～!! Ư——a——ư!!!」",
+  "fix": "「Ư!!! ～～～Ư!! Ư——a——ư!!!」",
+  "kind": "gasp",
+  "reason": "Sweep đánh dấu already-rendered nhưng còn mất 1 tiếng っ (JP ～～～っ, VN chỉ có ～～～) — bổ sung Ư."
+ },
+ {
+  "key": 1049,
+  "character": "ポーレット",
+  "jp": "「ぁっ――っ――ふあ――あっ――おくっ――おちんちん\\n――きとう――あたると――頭も、ごちゅっって――」",
+  "tw": "「啊——唔——呼啊——啊——裡面——肉棒——龜頭——頂到之後——腦袋也，像被頂開了花——」",
+  "old_vn": "「A——ư——pha——a——bên trong——dương vật\\n——quy đầu——chạm vào——đầu em cũng, như muốn nổ tung——」",
+  "fix": "「A——ư——phà——a——bên trong——dương vật ——quy đầu——chạm vào——đầu em cũng, như muốn nổ tung——」",
+  "kind": "breath-sfx",
+  "reason": "ふあ còn \"pha\" — sửa thành \"phà\" (tiếng っ giữa đã có \"ư\" trong VN cũ, giữ nguyên)."
+ },
+ {
+  "key": 1056,
+  "character": "ポーレット",
+  "jp": "「ぁっ――チュむっ――ちゅ！　れりゅうううっ！\\nりゅっ！　にゅる！　チュルルっ――ちゅむううっ！」",
+  "tw": "「啊——啾唔——啾！滋嚕嚕嚕嚕！嚕！啾嚕！啾嚕嚕——啾嗯嗯嗯！」",
+  "old_vn": "「A——chu mu——chụt! Rê ryu uu!\\nRyu! Nyu ru! Chu ru ru——chu mu uu!」",
+  "fix": "「A——chụt——chụt! Rộộộộp! Rộp! Trơn tuột! Chụt——chụụụt!」",
+  "kind": "breath-sfx",
+  "reason": "チュむっ còn \"chu mu\" — sửa thành \"chụt\"; れりゅうううっ còn \"Rê ryu uu\" — sửa thành \"Rộôôôp\" (4 tiếng u: âm gốc + う×3); りゅっ→\"Rộp\"; にゅる→\"Trơn tuột\" (quy ước riêng của file); チュルルっ→\"chụt\"; ちゅむううっ→\"chụụụt\" (3 tiếng u: âm gốc + う×2)."
+ },
+ {
+  "key": 1058,
+  "character": "ポーレット",
+  "jp": "「あっ――うんっ――けどっ――ふあっ、あっ――\\nけど、ね？　そうてつくぅん」",
+  "tw": "「啊——嗯——可是——呼啊，啊——可是啊，雙鐵君」",
+  "old_vn": "「A——ưm——nhưng mà——pha, a——\\nnhưng mà, anh Soutetsu」",
+  "fix": "「A——ưm——nhưng mà——phà, a—— nhưng mà, anh Soutetsu」",
+  "kind": "breath-sfx",
+  "reason": "ふあっ còn \"pha\" — sửa thành \"phà\"."
+ },
+ {
+  "key": 1060,
+  "character": "ポーレット",
+  "jp": "「っぁっ――ンッ――れるっ――ちゅむっ！\\nちゅっ！　ちゅうう！　ちゅっ！　れりゅっ！！」",
+  "tw": "「啊——嗯——滋溜——啾嗯！啾！啾唔唔！啾！滋嚕！！」",
+  "old_vn": "「A——ưm——rê ru——chu mu!\\nChụt! Chụt! Chụt! Rê ryu!!」",
+  "fix": "「A——ưm——rộp——chụt! Chụt! Chụụụt! Chụt! Rộp!!」",
+  "kind": "breath-sfx",
+  "reason": "れるっ còn \"rê ru\" — sửa thành \"rộp\"; ちゅむっ còn \"chu mu\" — sửa thành \"chụt\"; ちゅうう còn \"Chụt\" không kéo dài — sửa thành \"chụụụt\" (3 tiếng u: ちゅ+う×2); れりゅっ còn \"Rê ryu\" — sửa thành \"rộp\"."
+ },
+ {
+  "key": 1062,
+  "character": "ポーレット",
+  "jp": "「ぁ……チュッ――ちゅっ――んっ――ふぁっ。\\nん……えへへっ――わたしも、愛しています。双鉄くん」",
+  "tw": "「啊……啾——啾——嗯——呼啊。嗯……哎嘿嘿——我也愛你。雙鐵君」",
+  "old_vn": "「A……chụt——chụt——ưm——pha.\\nƯm……ehehe——em cũng yêu anh. Anh Soutetsu」",
+  "fix": "「A……chụt——chụt——ưm——phà. Ưm……ehehe——em cũng yêu anh. Anh Soutetsu」",
+  "kind": "breath-sfx",
+  "reason": "ふぁっ còn \"pha\" — sửa thành \"phà\" (cười \"ehehe\" giữ nguyên — chờ quyết định)."
+ },
+ {
+  "key": 1065,
+  "character": "ポーレット",
+  "jp": "「あ……。ん――ちゅっ――ちゅむっ――ちゅっ、\\nちゅぶっ――ちゅぱっ――ぷぁ――れろっ――にゅるっ」",
+  "tw": "「啊……嗯——啾——啾嗯——啾，啾噗——啾啪——噗啊——滋溜——啾嚕」",
+  "old_vn": "「A……. Ưm――chụt――chùn chụt――chụt,\\nchụt――chụt――phù――liếm――trơn tuột」",
+  "fix": "「A……. Ưm――chụt――chụt――chụt, chụt――chụt――phà――rộp――trơn tuột」",
+  "kind": "breath-sfx",
+  "reason": "ちゅむっ còn \"chùn chụt\" — sửa thành \"chụt\"; ぷぁ còn \"phù\" — sửa thành \"phà\"; れろっ còn \"liếm\" — sửa thành \"rộp\"."
+ },
+ {
+  "key": 1072,
+  "character": "ポーレット",
+  "jp": "「ぁんっ――ちゅっ――ちゅるっ――にゅむるっ――\\nにゅっ――ちゅっ――ヂュるるるる～っ――（こくっ）」",
+  "tw": "「啊嗯——啾——啾嚕——滋嚕——滋——啾——啾嚕嚕嚕嚕～（吞嚥）」",
+  "old_vn": "「A――chụt――chùn chụt――nyumuru――\\nNyu――chụt――jurururu~――（ực）」",
+  "fix": "「A――chụt――chụt――rột―― rột――chụt――rột~――（ực）」",
+  "kind": "breath-sfx",
+  "reason": "ちゅるっ còn \"chùn chụt\" — sửa thành \"chụt\"; にゅむるっ/にゅっ/ヂュるるるる～っ còn La-tinh — sửa thành \"rột\"/\"rột\"/\"rột~\"."
+ },
+ {
+  "key": 1073,
+  "character": "ポーレット",
+  "jp": "「あんっ」",
+  "tw": "「啊嗯」",
+  "old_vn": "「A」",
+  "fix": "「An」",
+  "kind": "breath-sfx",
+  "reason": "あんっ còn \"A\" (mất âm mũi n) — sửa thành \"An\"."
+ },
+ {
+  "key": 1074,
+  "character": "ポーレット",
+  "jp": "「あんっ！」",
+  "tw": "「啊嗯！」",
+  "old_vn": "「A!」",
+  "fix": "「An!」",
+  "kind": "breath-sfx",
+  "reason": "あんっ！ còn \"A!\" — sửa thành \"An!\"."
+ },
+ {
+  "key": 1075,
+  "character": "ポーレット",
+  "jp": "「あんっ！！」",
+  "tw": "「啊嗯！！」",
+  "old_vn": "「A!!」",
+  "fix": "「An!!」",
+  "kind": "breath-sfx",
+  "reason": "あんっ！！ còn \"A!!\" — sửa thành \"An!!\"."
+ },
+ {
+  "key": 1077,
+  "character": "双鉄",
+  "jp": "「っ！　――ポーレット」",
+  "tw": "「啊！——波萊特」",
+  "old_vn": "「! ――Paulette」",
+  "fix": "「Ư! ――Paulette」",
+  "kind": "gasp",
+  "reason": "Gasp sweep bỏ sót: JP っ！ đầu dòng, VN chỉ còn \"!\" — sửa thành \"Ư!\"."
+ },
+ {
+  "key": 1082,
+  "character": "ポーレット",
+  "jp": "「ちゅっ――ちゅむっ――ぢゅるるうっ――りゅっ――\\nにゅぶっ――ちゅくっ――ちゅううっ――ちゅぶっつ」",
+  "tw": "「啾——啾嗯——啾嚕嚕——溜——滋噗——啾咕——啾唔唔——啾噗」",
+  "old_vn": "「Chụt――chùn chụt――jururuu――ryu――\\nNhóp nhép――chụt――chùn chụt――chụt」",
+  "fix": "「Chụt——chụt——rột——rộp—— Bụp——chụt——chụụụt——chụt」",
+  "kind": "breath-sfx",
+  "reason": "ちゅむっ còn \"chùn chụt\" — sửa thành \"chụt\"; ぢゅるるうっ còn \"jururuu\" — sửa thành \"rột\"; りゅっ còn \"ryu\" — sửa thành \"rộp\"; にゅぶっ còn \"Nhóp nhép\" (tiếng nhai, sai) — sửa thành \"Bụp\"; ちゅううっ còn \"chùn chụt\" — sửa thành \"chụụụt\" (3 tiếng u: ちゅ+う×2)."
+ },
+ {
+  "key": 1083,
+  "character": "ポーレット",
+  "jp": "「ちゅっ――んっ――ちゅうっ――チュッ――れるっ――\\nリュッ――じゅるっ――じゅろっ――ちゅむ――っ！？」",
+  "tw": "「啾——嗯——啾唔——啾——滋溜——溜——滋溜——滋溜——啾嗯——！？」",
+  "old_vn": "「Chụt——ưm——chụt——chụt——rê ru——\\nryu——chu ru——chu ro——chu mu——!?」",
+  "fix": "「Chụt——ưm——chụụt——chụt——rộp—— rộp——rột——rột——chụt——Ư!?」",
+  "kind": "breath-sfx",
+  "reason": "Sweep chỉ sửa gasp cuối, giữ nguyên các mảnh La-tinh — audit Việt hoá toàn bộ: ちゅうっ còn \"chụt\" không kéo dài — sửa thành \"chụụt\" (2 tiếng u: âm gốc + う×1); れるっ→\"rộp\", リュッ→\"rộp\", じゅるっ→\"rột\", じゅろっ→\"rột\", ちゅむ→\"chụt\"."
+ },
+ {
+  "key": 1085,
+  "character": "ポーレット",
+  "jp": "「ぢゅるるうっ――（こくっ）――チュッ――ちゅむっ、\\nちゅるっ――チュッ――れるるうっ――ちゅずっ」",
+  "tw": "「啾嚕嚕嚕——（吞嚥）——啾——啾嗯，啾嚕——啾——滋嚕嚕——啾茲」",
+  "old_vn": "「Chu ru ru——（Ực）——chụt——chu mu,\\nchu ru——chụt——rê ru ru——chu zu」",
+  "fix": "「Rột——（Ực）——chụt——chụt, chụt——chụt——rộp——chụt」",
+  "kind": "breath-sfx",
+  "reason": "ぢゅるるうっ còn \"Chu ru ru\" — sửa thành \"rột\"; ちゅむっ/ちゅるっ/ちゅずっ còn La-tinh — sửa thành \"chụt\"/\"chụt\"/\"chụt\"; れるるうっ còn \"rê ru ru\" — sửa thành \"rộp\"."
+ },
+ {
+  "key": 1089,
+  "character": "ポーレット",
+  "jp": "「ンッ――チュッ――っ――はっ――チュむっ――\\nちゅうっ――れりゅ――れろっ――れろっ――ちゅぶっ」",
+  "tw": "「嗯——啾——唔——哈——啾唔——啾——滋溜——滋溜——滋溜——啾噗」",
+  "old_vn": "「Ưm——chụt——ư——ha——chu mu——\\nchụt——rê ryu——rê ro——rê ro——chu bu」",
+  "fix": "「Ưm——chụt——ư——ha——chụt—— chụụt——rộp——rộp——rộp——chụt」",
+  "kind": "breath-sfx",
+  "reason": "チュむっ còn \"chu mu\" — sửa thành \"chụt\"; ちゅうっ còn \"chụt\" không kéo dài — sửa thành \"chụụt\" (2 tiếng u: âm gốc + う×1); れりゅ/れろっ còn \"rê ryu\"/\"rê ro\" — sửa thành \"rộp\"/\"rộp\"; ちゅぶっ còn \"chu bu\" — sửa thành \"chụt\" (tiếng っ giữa đã có \"ư\" trong VN cũ, giữ nguyên)."
+ },
+ {
+  "key": 1096,
+  "character": "ポーレット",
+  "jp": "「んきゅっ――ふぁっ――あっ、これ――しゅきっ――\\nっっ――ふっ――ねっ――このまま――もっと」",
+  "tw": "「嗯呀——呼啊——啊，這個——好棒——唔——呼——來——就這樣——繼續」",
+  "old_vn": "「Ưm——pha——a, thế này——thích quá——\\nư——phu——nè——cứ thế này——nữa đi」",
+  "fix": "「Ưm kyu——phà——a, thế này——thích quá—— ư ư——phu——nè——cứ thế này——nữa đi」",
+  "kind": "breath-sfx",
+  "reason": "んきゅっ còn \"Ưm\" (mất \"kyu\") — sửa thành \"Ưm kyu\" (theo tiền lệ h7); ふぁっ còn \"pha\" — sửa thành \"phà\"; っっ chỉ có 1 tiếng \"ư\" — sửa thành \"ư ư\" (1 tiếng cho mỗi っ)."
+ },
+ {
+  "key": 1100,
+  "character": "ポーレット",
+  "jp": "「んっ！　――ふぁっっ――やぁんっ――指っ――んっ！\\nいきなりっ――に、ほんっ――ひ――ぁっ――」",
+  "tw": "「嗯！——呼啊——呀嗯——手指——嗯！一上來就——兩根——呀——啊——」",
+  "old_vn": "「Ưm! ――Phù――A――Ngón tay――ưm!\\nĐột nhiên――hai, ngón――hi――a――」",
+  "fix": "「Ưm! ――Phà――A――Ngón tay――ưm! Đột nhiên――hai, ngón――hi――a――」",
+  "kind": "breath-sfx",
+  "reason": "ふぁっっ còn \"Phù\" — sửa thành \"phà\"."
+ },
+ {
+  "key": 1108,
+  "character": "双鉄",
+  "jp": "「ああ、それをまた履くのはイヤなものだろうな。\\nすまん。着たままするにはこれが一番良いかと思って」",
+  "tw": "「嗯，那樣的話確實不會想要再穿回去。對不起。我以為要穿著做的話這個方式是最合適的」",
+  "old_vn": "「À, vậy thì mặc lại cũng khó chịu thật nhỉ.\\nXin lỗi em. Anh cứ nghĩ làm trong lúc mặc đồ thì cách này là tốt nhất」",
+  "fix": "「À, vậy thì mặc lại cũng khó chịu thật nhỉ. Xin lỗi em. Tôi cứ nghĩ làm trong lúc mặc đồ thì cách này là tốt nhất」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1113,
+  "character": "ポーレット",
+  "jp": "「ぷあっ！　あっ――はっ――あっ――しゅごっ――\\nおまんこ――しきゅう――すごい――こい、のっ」",
+  "tw": "「噗啊！啊——哈——啊——好厲害——小穴——子宮——好多——濃濃的」",
+  "old_vn": "「Pha! A——ha——a——tuyệt quá——\\nâm đạo——tử cung——nhiều quá——đặc quá」",
+  "fix": "「Phà! A——ha——a——tuyệt quá—— âm đạo——tử cung——nhiều quá——đặc quá」",
+  "kind": "breath-sfx",
+  "reason": "ぷあっ còn \"Pha\" — sửa thành \"Phà\"."
+ },
+ {
+  "key": 1122,
+  "character": "双鉄",
+  "jp": "「素敵だった。最高だった。\\nポーレット――好きだ。愛してる――んっ」",
+  "tw": "「太美妙太完美了。波萊特——我喜歡你。我愛你——嗯」",
+  "old_vn": "「Tuyệt lắm. Hoàn hảo lắm.\\nPaulette——Anh thích em. Anh yêu em——ưm」",
+  "fix": "「Tuyệt lắm. Hoàn hảo lắm. Paulette——Tôi thích em. Tôi yêu em——ưm」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" 2 lần — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1124,
+  "character": "ポーレット",
+  "jp": "「はい……っ――ふあっ――たくさん、たくさん――\\n精子、わたし――そうてつくんから――受け取って」",
+  "tw": "「好的……呼啊——雙鐵君——要給我很多，很多——精子」",
+  "old_vn": "「Vâng……ưm――phù――Thật nhiều, thật nhiều――\\nTinh trùng, em――sẽ nhận lấy――từ anh Soutetsu」",
+  "fix": "「Vâng……ưm――phà――Thật nhiều, thật nhiều―― Tinh trùng, em――sẽ nhận lấy――từ anh Soutetsu」",
+  "kind": "breath-sfx",
+  "reason": "ふあっ còn \"phù\" — sửa thành \"phà\"."
+ },
+ {
+  "key": 1137,
+  "character": "双鉄",
+  "jp": "「僕の勃起が、えぐって、こすって、ノックして。\\n精子をびゅうびゅう、溢れるほどに注ぎ込んで」",
+  "tw": "「就由我的勃起來搗弄、來刮蹭、來叩門。讓裡面灌滿我的精子」",
+  "old_vn": "「Dương vật của anh, sẽ khoét sâu, cọ xát, và gõ cửa.\\nRót tinh trùng vào tràn trề, ồ ạt」",
+  "fix": "「Dương vật của tôi, sẽ khoét sâu, cọ xát, và gõ cửa. Rót tinh trùng vào tràn trề, ồ ạt」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1140,
+  "character": "双鉄",
+  "jp": "「無理に広げるつもりはないさ。\\nただ――」",
+  "tw": "「我並不是硬要撐開。只不過——」",
+  "old_vn": "「Anh không định mở rộng nó ra bằng sức mạnh đâu.\\nChỉ là――」",
+  "fix": "「Tôi không định mở rộng nó ra bằng sức mạnh đâu. Chỉ là――」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1144,
+  "character": "双鉄",
+  "jp": "「ここからなのだ、と思ってな。\\nひかりの生命のすべてがここから産まれたのだと」",
+  "tw": "「我只是在感嘆而已。光的整個生命就是從這裡誕生的啊」",
+  "old_vn": "「Anh chỉ nghĩ, là từ nơi này.\\nToàn bộ sinh mệnh của Hikari đã được sinh ra từ nơi này」",
+  "fix": "「Tôi chỉ nghĩ, là từ nơi này. Toàn bộ sinh mệnh của Hikari đã được sinh ra từ nơi này」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1149,
+  "character": "双鉄",
+  "jp": "「わかっている、ポーレット。溜まりに溜まった精液を、\\n注ぎ込みたい先ならば、ただ一箇所しかありえない」",
+  "tw": "「我明白，波萊特。我這積蓄已久的精液，不可能存在其他的宣洩之處」",
+  "old_vn": "「Anh biết mà, Paulette. Nơi duy nhất anh muốn rót trào\\nlượng tinh dịch đã dồn nén bấy lâu nay, chỉ có thể là một chỗ mà thôi」",
+  "fix": "「Tôi biết mà, Paulette. Nơi duy nhất tôi muốn rót trào lượng tinh dịch đã dồn nén bấy lâu nay, chỉ có thể là một chỗ mà thôi」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" 2 lần — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1151,
+  "character": "双鉄",
+  "jp": "「風呂に誘って浴衣に着替えて……\\nなどとも考えていたのだがな」",
+  "tw": "「我本打算邀你換上浴衣一起去泡澡的……」",
+  "old_vn": "「Anh đã định rủ em đi tắm rồi thay yukata……\\nvà vài chuyện khác nữa cơ」",
+  "fix": "「Tôi đã định rủ em đi tắm rồi thay yukata…… và vài chuyện khác nữa cơ」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1155,
+  "character": "双鉄",
+  "jp": "「動くぞ。ポーレット」",
+  "tw": "「我要動了。波萊特」",
+  "old_vn": "「Anh chuyển động đây. Paulette」",
+  "fix": "「Tôi chuyển động đây. Paulette」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1169,
+  "character": "双鉄",
+  "jp": "「だな。そのたびに――僕も強烈に絞られている」",
+  "tw": "「是啊。每次頂到花心——我也有種被死死勒住的感覺」",
+  "old_vn": "「Đúng vậy. Mỗi lần chạm vào đó——anh cũng bị siết chặt dữ dội.」",
+  "fix": "「Đúng vậy. Mỗi lần chạm vào đó——tôi cũng bị siết chặt dữ dội.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1172,
+  "character": "双鉄",
+  "jp": "「だよな。以前よりずっと気持ちいい。\\n肌と肌とが、吸いあっているような気さえする」",
+  "tw": "「是啊。比之前還要舒服得多。我都覺得皮膚之間好像產生了吸力一樣」",
+  "old_vn": "「Đúng vậy nhỉ. Sướng hơn trước kia rất nhiều.\\nAnh thậm chí còn có cảm giác như da thịt chúng ta đang hút chặt lấy nhau vậy」",
+  "fix": "「Đúng vậy nhỉ. Sướng hơn trước kia rất nhiều. Tôi thậm chí còn có cảm giác như da thịt chúng ta đang hút chặt lấy nhau vậy」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1184,
+  "character": "ポーレット",
+  "jp": "「そん、なに……っ――はっ――あっ――んっ――\\nんふっ――きもち……いい……です、か？――ぁ」",
+  "tw": "「有這麼……哈——啊——嗯——嗯呼——舒服……嗎？——啊」",
+  "old_vn": "「Đến, mức đó……ưm――hà――a――ưm――\\nƯm fu――sướng……lắm……sao?――a」",
+  "fix": "「Đến, mức đó……ưm――hà――a――ưm―― Ưm phù――sướng……lắm……sao?――a」",
+  "kind": "breath-sfx",
+  "reason": "んふっ còn \"Ưm fu\" — sửa thành \"Ưm phù\"."
+ },
+ {
+  "key": 1190,
+  "character": "双鉄",
+  "jp": "「大丈夫。僕に上等な代案がある」",
+  "tw": "「沒關係。我有個更好的方案」",
+  "old_vn": "「Không sao. Anh có một phương án thay thế tuyệt vời.」",
+  "fix": "「Không sao. Tôi có một phương án thay thế tuyệt vời.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1201,
+  "character": "ポーレット",
+  "jp": "「れりゅっ――りゅっ！　じゅるるるるっ――（ごくっ）\\nぷあっ――ね、双鉄くん――ンッ――ちゅ、ちゅむっ！」",
+  "tw": "「滋嚕——嚕！滋嚕嚕嚕嚕——（吞嚥）噗啊——雙鐵君——嗯——啾、啾唔！」",
+  "old_vn": "「Rê ryu——ryu! Chu ru ru ru——（Ực）\\nPha——nè, anh Soutetsu——ưm——chu, chu mu!」",
+  "fix": "「Rộp——rộp! Rột——（Ực） Phà——nè, anh Soutetsu——ưm——chụt, chụt!」",
+  "kind": "breath-sfx",
+  "reason": "れりゅっ/りゅっ/じゅるるるるっ còn La-tinh — sửa thành \"rộp\"/\"rộp\"/\"rột\"; ぷあっ còn \"Pha\" — sửa thành \"Phà\"; ちゅ/ちゅむっ còn \"chu\"/\"chu mu\" — sửa thành \"chụt\"/\"chụt\"."
+ },
+ {
+  "key": 1203,
+  "character": "ポーレット",
+  "jp": "「れるっ――れろっ――りゅううっ――ニュルッ――\\nちゅっ――ちゅむっ――ずじゅ――ずゅ――（こくっ）」",
+  "tw": "「滋溜——滋溜——溜嚕嚕——啾嚕——啾——啾嗯——滋溜——滋——（吞口水）」",
+  "old_vn": "「Liếm――liếm――liếm――trơn tuột――\\nChụt――chùn chụt――zuju――zu――（ực）」",
+  "fix": "「Rộp——rộp――rộộộp――trơn tuột―― Chụt――chụt――rột――rột——（ực）」",
+  "kind": "breath-sfx",
+  "reason": "れるっ/れろっ còn \"Liếm\" — sửa thành \"rộp\"/\"rộp\"; りゅううっ còn \"liếm\" — sửa thành \"rộôôp\" (3 tiếng u: りゅ+う×2); ちゅむっ còn \"chùn chụt\" — sửa thành \"chụt\"; ずじゅ/ずゅ còn \"zuju\"/\"zu\" — sửa thành \"rột\"/\"rột\"."
+ },
+ {
+  "key": 1212,
+  "character": "双鉄",
+  "jp": "「初めて肌を重ねたときに、\\nこれほどの快感がこの世にあるのかと驚愕したが」",
+  "tw": "「第一次肌膚相親之時，我絕對不會料到將來的某天晚上能收穫到如此強烈的快感」",
+  "old_vn": "「Lần đầu tiên chúng ta ân ái,\\nanh đã kinh ngạc không ngờ trên đời này lại có thứ khoái cảm nhường này, nhưng」",
+  "fix": "「Lần đầu tiên chúng ta ân ái, tôi đã kinh ngạc không ngờ trên đời này lại có thứ khoái cảm nhường này, nhưng」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1220,
+  "character": "ポーレット",
+  "jp": "「はああっ！　あっ！　――んムッ！？　ちゅっ――\\nれるっ――れりゅっ――ジュルっ――チュッ――ちゅう」",
+  "tw": "「蛤啊啊！啊！——嗯唔！？啾——滋溜——滋嚕——啾嚕——啾——啾唔」",
+  "old_vn": "「Haaa! A! ——Ưm!? Chụt——\\nrê ru——rê ryu——chu ru——chụt——chụt」",
+  "fix": "「Haaa! A! ——Ưm!? Chụt—— rộp——rộp——rột——chụt——chụụt」",
+  "kind": "breath-sfx",
+  "reason": "れるっ/れりゅっ còn \"rê ru\"/\"rê ryu\" — sửa thành \"rộp\"/\"rộp\"; ジュルっ còn \"chu ru\" — sửa thành \"rột\"; ちゅう cuối còn \"chụt\" không kéo dài — sửa thành \"chụụt\" (2 tiếng u: ちゅ+う)."
+ },
+ {
+  "key": 1223,
+  "character": "双鉄",
+  "jp": "「さぁ。どうだろうな。\\nそれは僕にはわからない」",
+  "tw": "「誰知道呢。這種事我也不知道」",
+  "old_vn": "「Chà. Ai mà biết được.\\nChuyện đó thì anh chịu thôi.」",
+  "fix": "「Chà. Ai mà biết được. Chuyện đó thì tôi chịu thôi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" — sửa thành \"tôi\"."
+ },
+ {
+  "key": 1592,
+  "character": "monologue",
+  "jp": "（ちゅっ――ぽっ）",
+  "tw": "（——拔出）",
+  "old_vn": "（Chụt——Phụt）",
+  "fix": "（Chụt——Bụp）",
+  "kind": "mono-sfx",
+  "reason": "ぽっ là tiếng \"bụp\" (môi tách ra), không phải \"phụt\" (phun) — sửa thành \"Bụp\"."
+ },
+ {
+  "key": 1610,
+  "character": "monologue",
+  "jp": "（ぐいっ）",
+  "tw": "（ぐいっ）",
+  "old_vn": "（Nhấc bổng）",
+  "fix": "（Giật mạnh）",
+  "kind": "mono-sfx",
+  "reason": "ぐいっ → \"Giật mạnh\" theo tài liệu SFX; \"Nhấc bổng\" sai nghĩa."
+ },
+ {
+  "key": 1711,
+  "character": "monologue",
+  "jp": "（じゅぶううううっ！！！　ごちゅっ！！）",
+  "tw": "（深深一插！！！觸底！！）",
+  "old_vn": "（Phập!!! Thúc mạnh!!）",
+  "fix": "（Phậậậậập!!! Thúc mạnh!!）",
+  "kind": "mono-sfx",
+  "reason": "じゅぶううううっ còn \"Phập\" không kéo dài — sửa thành \"Phậậậập\" (5 tiếng u: âm gốc + う×4); ごちゅっ→\"Thúc mạnh\" giữ nguyên (đúng)."
+ },
+ {
+  "key": 1716,
+  "character": "monologue",
+  "jp": "（にゅ、るっ――ぬ、るっ――にゅ、る――く、ちゅっ）",
+  "tw": "（滑來，滑去，蹭來，蹭去）",
+  "old_vn": "（Trơn, tuột——Trượt, dài——Trơn, láng——Nhóp, nhép）",
+  "fix": "（Trơn, tuột——Trượt, trơn——Trơn, láng——Nhóp, nhép）",
+  "kind": "mono-sfx",
+  "reason": "\"Trượt, dài\" bịa thêm \"dài\" (JP không có) — sửa thành \"Trượt, trơn\"."
+ },
+ {
+  "key": 1721,
+  "character": "monologue",
+  "jp": "（ずゅぶっぅぅっ！！！）",
+  "tw": "（猛插！！！）",
+  "old_vn": "（Phập!!!）",
+  "fix": "（Phậậập!!!）",
+  "kind": "mono-sfx",
+  "reason": "ずゅぶっぅぅっ còn \"Phập\" không kéo dài — sửa thành \"Phậậập\" (3 tiếng u: âm gốc + ぅ×2)."
+ }
+]

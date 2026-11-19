@@ -1,0 +1,72 @@
+[
+ {
+  "key": 822,
+  "speaker": "Soutetsu",
+  "jp": "「――っ」",
+  "tw": "「——」",
+  "old_vn": "「――」",
+  "kind": "minor",
+  "fix": "「――Ư」",
+  "reason": "JP 「――っ」 là tiếng hít độc lập sau dấu gạch; bản cũ 「――」 làm mất tiếng hít. Tiền lệ Hachiroku 12 再開発 2103/2537 và Paulette 09/11: sửa thành \"Ư\"."
+ },
+ {
+  "key": 1121,
+  "speaker": "Paulette",
+  "jp": "「\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致の話が御一夜にあるって聞いて――\\nそれでパパ、反対運動に協力することにしたんです」",
+  "tw": "「爸爸聽說\\x%lエアクラ;#00ffc040;空凝機%l;#;工廠要在御一夜落戶，就表示要去參與反對運動」",
+  "old_vn": "「Nghe nói có chuyện mời gọi nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;# đến Ohimitera――\\nNên ba tôi quyết định hợp tác với phong trào phản đối.」",
+  "kind": "terminology",
+  "fix": "「Nghe nói có chuyện mời gọi nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; đến Ohitoyo―― Nên ba tôi quyết định hợp tác với phong trào phản đối.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\". Thẻ %l của エアクラ thiếu dấu \";\" đóng thẻ (JP có \"%l;#;\") — sửa luôn trong cùng một dòng."
+ },
+ {
+  "key": 1161,
+  "speaker": "Soutetsu",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "kind": "minor",
+  "fix": "「Ư!」",
+  "reason": "JP 「っ！」 là tiếng hít độc lập; bản cũ 「!」 làm mất tiếng hít. Tiền lệ 再開発 2103/2537: sửa thành \"Ư!\"."
+ },
+ {
+  "key": 1162,
+  "speaker": "Soutetsu",
+  "jp": "「っ！？　いや――僕は――」",
+  "tw": "「！？　但是——我並沒有——」",
+  "old_vn": "「!? Không――Tôi thì――」",
+  "kind": "minor",
+  "fix": "「Ư!? Không――Tôi thì――」",
+  "reason": "JP 「っ！？」 là tiếng hít độc lập; bản cũ 「!?」 làm mất tiếng hít. Tiền lệ 再開発 2103/2537: sửa thành \"Ư!?\"."
+ },
+ {
+  "key": 1448,
+  "speaker": "lời dẫn",
+  "jp": "ぽわっと。\\nポーレットの手のひらがあたたかくなる。",
+  "tw": "波萊特的掌心，忽然燙了起來。",
+  "old_vn": "Phừng phực.\\nLòng bàn tay Paulette trở nên ấm áp.",
+  "kind": "meaning",
+  "fix": "Ấm dần lên. Lòng bàn tay Paulette trở nên ấm áp.",
+  "reason": "ぽわっと là hơi ấm lan toả dịu dàng (cùng họ với ふわっと → \"Nhẹ nhàng\" trong sfx doc); \"Phừng phực\" là lửa bùng lên — sai hẳn hình ảnh. Sửa thành \"Ấm dần lên.\""
+ },
+ {
+  "key": 1510,
+  "speaker": "lời dẫn",
+  "jp": "悲しく歌うようだった、\\nそぼふる雨のようだった――音の流れが。",
+  "tw": "那宛若悲歌一般的聲音，宛若淅瀝雨點一般的聲音——停了下來。",
+  "old_vn": "Dòng âm thanh――\\nnhư một khúc ca buồn, như một cơn mưa phùn――đã dừng lại.",
+  "kind": "meaning",
+  "fix": "Dòng âm thanh―― như một khúc ca buồn, như một cơn mưa phùn――.",
+  "reason": "JP là mảnh câu bỏ lửng, không có động từ \"dừng lại\" (――音の流れが。); TW thêm 停了下來 (\"dừng lại\") và bản cũ theo TW. Theo quy tắc JP-trên-TW, bỏ \"đã dừng lại\"."
+ },
+ {
+  "key": 1525,
+  "speaker": "lời dẫn",
+  "jp": "（いや――まて、僕）",
+  "tw": "（不——等等）",
+  "old_vn": "（Không――khoan đã, mình）",
+  "kind": "pronoun",
+  "fix": "（Không――khoan đã, tôi）",
+  "reason": "Suy nghĩ ngoặc đơn của Soutetsu; quy ước độc thoại của file là \"Tôi\" (92 dòng lời dẫn còn lại đều dùng \"Tôi\"/không đại từ). \"mình\" ở đây là chủ ngữ độc lập — sửa thành \"Tôi\". Tiền lệ hearing 2580/2584/2586/2590."
+ }
+]

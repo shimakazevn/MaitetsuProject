@@ -1,0 +1,412 @@
+[
+ {
+  "key": 1572,
+  "character": "双鉄",
+  "jp": "「いや、心配ない。\\n僕は、むしろ充実している」",
+  "tw": "「不必擔心我。不如說這段時間我過得很充實」",
+  "old_vn": "「Không, đừng lo.\\nAnh ngược lại còn thấy rất sung mãn.」",
+  "fix": "「Không, đừng lo.\nTôi ngược lại còn thấy rất sung mãn.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với thầy Akai; theo docs (locations §2.1) Soutetsu tự xưng \"Tôi\" (\"Anh\" chỉ khi nói với Hibiki)."
+ },
+ {
+  "key": 1574,
+  "character": "双鉄",
+  "jp": "「いや？　それは知っているが――」",
+  "tw": "「不是哦？　我當然知道這點——」",
+  "old_vn": "「Không? Chuyện đó thì anh biết, nhưng——」",
+  "fix": "「Không? Chuyện đó thì tôi biết, nhưng——」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với thầy Akai; theo docs Soutetsu tự xưng \"Tôi\"."
+ },
+ {
+  "key": 1581,
+  "character": "双鉄",
+  "jp": "「しかし、文化財指定というアイディアには驚いた」",
+  "tw": "「不過，我真沒想到還有認定文化財產這一招」",
+  "old_vn": "「Nhưng mà, ý tưởng công nhận Di sản Văn hóa làm anh ngạc nhiên đấy.」",
+  "fix": "「Nhưng mà, ý tưởng công nhận Di sản Văn hóa làm tôi ngạc nhiên đấy.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trước cả nhóm (không phải Hibiki); theo docs Soutetsu tự xưng \"Tôi\"."
+ },
+ {
+  "key": 1582,
+  "character": "双鉄",
+  "jp": "「ならば、\\n御一夜の特産としては売りが弱くなりますか」",
+  "tw": "「不過，這也就意味著很難將其作為御一夜特產來推廣啊」",
+  "old_vn": "「Nếu vậy,\\nthì sức hút của nó với tư cách là đặc sản Ohito sẽ bị giảm sút sao?」",
+  "fix": "「Nếu vậy,\nthì sức hút của nó với tư cách là đặc sản Ohitoyo sẽ bị giảm sút sao?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1598,
+  "character": "双鉄",
+  "jp": "「今日は、その辺のことを相談したく、\\nみなに集まってもらったのだ」",
+  "tw": "「今天就是為了討論這些而把大家叫來的」",
+  "old_vn": "「Hôm nay, anh tập hợp mọi người lại,\\nchính là để bàn bạc về những chuyện đó.」",
+  "fix": "「Hôm nay, tôi tập hợp mọi người lại,\nchính là để bàn bạc về những chuyện đó.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với \"mọi người\" (cả nhóm); theo docs Soutetsu tự xưng \"Tôi\". Quét máy bắt thêm dòng này — đọc tay đã bỏ sót."
+ },
+ {
+  "key": 1617,
+  "character": "双鉄",
+  "jp": "「『良いことに気づかせてもらった』――\\nと解釈しておけば良いと思う」",
+  "tw": "「你就理解為“讓我學到了新東西”就好」",
+  "old_vn": "「『Nhờ cháu mà tôi đã nhận ra được một điều tuyệt vời』——\\nCứ hiểu như vậy là được.」",
+  "fix": "「『Nhờ thầy mà tôi đã nhận ra được một điều tuyệt vời』——\nCứ hiểu như vậy là được.」",
+  "kind": "meaning",
+  "reason": "Nhầm chủ thể: JP/TW nói Soutetsu \"nhờ [Akai] mà nhận ra\" — Akai là người giúp Soutetsu nhận ra; bản cũ \"Nhờ cháu mà tôi...\" đảo ngược chủ thể (Soutetsu tự xưng \"cháu\" với thầy Akai là đúng, nhưng \"cháu\" không thể là người giúp Soutetsu nhận ra)."
+ },
+ {
+  "key": 1638,
+  "character": "双鉄",
+  "jp": "「なるほど。――っ！？」",
+  "tw": "「原來如此。——啊！」",
+  "old_vn": "「Ra là vậy. ——!?」",
+  "fix": "「Ra là vậy. ——Ư!?」",
+  "kind": "minor",
+  "reason": "Mất tiếng hít っ: JP 「――っ！？」 chỉ còn \"——!?\" — khôi phục \"Ư!?\"."
+ },
+ {
+  "key": 1640,
+  "character": "双鉄",
+  "jp": "「なるほど、少し理解できたように思う」",
+  "tw": "「原來如此，我似乎有點理解你的想法了」",
+  "old_vn": "「Ra là vậy, anh nghĩ mình đã hiểu được một chút rồi.」",
+  "fix": "「Ra là vậy, tôi nghĩ mình đã hiểu được một chút rồi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với thầy Akai; theo docs \"Tôi\". Giữ nguyên \"mình\" lồng trong mệnh đề (\"nghĩ mình đã hiểu\") theo tiền lệ Hachiroku 12."
+ },
+ {
+  "key": 1683,
+  "character": "日々姫",
+  "jp": "「行くんですか？　兄さん。\\n術仙炭鉱跡の調査に」",
+  "tw": "「哥哥，你要去調查那個術仙廢煤礦嗎？」",
+  "old_vn": "「Anh định đi sao? Anh trai.\\nĐi điều tra tàn tích Mỏ than Jussen ấy.」",
+  "fix": "「Anh định đi sao? Anh trai.\nĐi điều tra tàn tích Mỏ than Jutsu-sen ấy.」",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 1688,
+  "character": "双鉄",
+  "jp": "「ほう、古地図か――\\n御一夜の……いや、もっと広域のものか」",
+  "tw": "「哦，這是御一夜的古地圖嗎……不，應該是更大範圍的地圖」",
+  "old_vn": "「Ồ, bản đồ cổ sao——\\nCủa Ohito... Không, khu vực rộng hơn thế.」",
+  "fix": "「Ồ, bản đồ cổ sao——\nCủa Ohitoyo... Không, khu vực rộng hơn thế.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1719,
+  "character": "ポーレット",
+  "jp": "「あ、それは術仙炭鉱の廃駅前からです。\\n遠足のときだけは、臨時停車することになってて」",
+  "tw": "「啊，是從術仙煤礦廢車站那裡。只有去遠足的時候能臨時在那裡停車」",
+  "old_vn": "「A, là từ trước nhà ga Mỏ than Jussen bị bỏ hoang ạ.\\nChỉ những lúc dã ngoại, tàu mới dừng tạm ở đó.」",
+  "fix": "「A, là từ trước nhà ga Mỏ than Jutsu-sen bị bỏ hoang ạ.\nChỉ những lúc dã ngoại, tàu mới dừng tạm ở đó.」",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 1725,
+  "character": "双鉄",
+  "jp": "「うむ。術仙炭鉱跡の周辺に、\\nそうした何かが残ってないか、誰かもしも」",
+  "tw": "「嗯。有人知道術仙廢煤礦周圍的鐵路還有留下來嗎」",
+  "old_vn": "「Ừm. Xung quanh tàn tích Mỏ than Jussen,\\ncó ai biết liệu còn sót lại thứ gì như vậy không.」",
+  "fix": "「Ừm. Xung quanh tàn tích Mỏ than Jutsu-sen,\ncó ai biết liệu còn sót lại thứ gì như vậy không.」",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 1751,
+  "character": "双鉄",
+  "jp": "「御一夜のこと、文化のこと。\\n普段から興味を持たぬ者では、ああいう話は出てこない」",
+  "tw": "「如果不是熱愛御一夜和文化的人，是不會說出那種話的」",
+  "old_vn": "「Chuyện về Ohito, chuyện về văn hóa.\\nNếu không phải là người luôn quan tâm đến những điều đó thì sẽ không thể nói ra được những lời như vậy.」",
+  "fix": "「Chuyện về Ohitoyo, chuyện về văn hóa.\nNếu không phải là người luôn quan tâm đến những điều đó thì sẽ không thể nói ra được những lời như vậy.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1753,
+  "character": "赤井宮司",
+  "jp": "「もし仮に、日ノ本一売れる駅弁を作れれば、\\nそうしたフェアの全てが御一夜の宣伝になる」",
+  "tw": "「如果你們能發明日本第一暢銷的鐵路便當，那就相當於所有的鐵路便當博覽會都在免費宣傳御一夜了」",
+  "old_vn": "「Giả sử các cháu có thể làm ra hộp cơm nhà ga bán chạy nhất Hinomoto,\\nthì tất cả những hội chợ đó sẽ trở thành nơi quảng bá cho Ohito.」",
+  "fix": "「Giả sử các cháu có thể làm ra hộp cơm nhà ga bán chạy nhất Hinomoto,\nthì tất cả những hội chợ đó sẽ trở thành nơi quảng bá cho Ohitoyo.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1763,
+  "character": "双鉄",
+  "jp": "「状態よく残っていれば――\\nどうかな、面白いのではないかと考えている」",
+  "tw": "「如果狀態良好的話——你覺得呢？　我認為是個不錯的主意」",
+  "old_vn": "「Nếu vẫn còn nguyên vẹn——\\nThế nào, anh nghĩ ý tưởng này khá thú vị đấy chứ.」",
+  "fix": "「Nếu vẫn còn nguyên vẹn——\nThế nào, tôi nghĩ ý tưởng này khá thú vị đấy chứ.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trước cả nhóm; theo docs Soutetsu tự xưng \"Tôi\"."
+ },
+ {
+  "key": 1782,
+  "character": "赤井宮司",
+  "jp": "「よろしくお願いいたします。\\nっと――そうだ」",
+  "tw": "「就拜託你了。對了——還有」",
+  "old_vn": "「Trăm sự nhờ cô.\\nÀ——phải rồi.」",
+  "fix": "「Trăm sự nhờ cậu.\nÀ——phải rồi.」",
+  "kind": "meaning",
+  "reason": "Sai người được gọi: Akai nói \"Trăm sự nhờ cô\" — nhưng trong đoạn trao đổi trực tiếp (Reina 1778 → Hibiki 1780 → Akai 1782 → Soutetsu 1784) người được nhờ là Soutetsu (trưởng nhóm điều tra, đối tác trao đổi thường xuyên của Akai trong file); \"cô\" không ứng với Hibiki (\"cháu\") hay Soutetsu (\"cậu\"). Sửa theo hướng Soutetsu."
+ },
+ {
+  "key": 1826,
+  "character": "双鉄",
+  "jp": "「御一夜らしい駅弁を、と考えています。それで、\\nキジ馬についてご教示いただきたくお邪魔いたしました」",
+  "tw": "「我們想要製作有御一夜特色的鐵路便當。所以特來請教宮司有關雉子馬的事情」",
+  "old_vn": "「Bọn cháu đang muốn làm một hộp cơm nhà ga mang đậm chất Ohito. Vì vậy,\\nbọn cháu đến đây để thỉnh giáo thầy về ngựa Kiji ạ.」",
+  "fix": "「Bọn cháu đang muốn làm một hộp cơm nhà ga mang đậm chất Ohitoyo. Vì vậy,\nbọn cháu đến đây để thỉnh giáo thầy về ngựa Kiji ạ.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1840,
+  "character": "双鉄",
+  "jp": "「僕は君に、聞きたいことがひとつ」",
+  "tw": "「我有件事想問你」",
+  "old_vn": "「Anh có một chuyện muốn hỏi em.」",
+  "fix": "「Tôi có một chuyện muốn hỏi em.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" khi nói với Paulette; theo docs \"Tôi\" (\"Anh\" chỉ với Hibiki). \"Em\" (gọi Paulette) giữ nguyên."
+ },
+ {
+  "key": 1842,
+  "character": "双鉄",
+  "jp": "「僕などは、簡単に意見を変えてしまうからな。\\nポーレットのいうしつこさが、少し眩しい」",
+  "tw": "「我總是輕易地改變自己的意見。所以稍微有些羨慕波萊特你的固執」",
+  "old_vn": "「Người như anh thì rất dễ dàng thay đổi ý kiến.\\nSự cố chấp mà Paulette nói, đối với anh có chút chói lóa đấy.」",
+  "fix": "「Người như tôi thì rất dễ dàng thay đổi ý kiến.\nSự cố chấp mà Paulette nói, đối với tôi có chút chói lóa đấy.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" 2 lần khi nói với Paulette; theo docs \"Tôi\"."
+ },
+ {
+  "key": 1856,
+  "character": "双鉄",
+  "jp": "「近くに無くても奥ならどうだ？\\n術仙炭鉱までにレールは、残ってないのか？」",
+  "tw": "「既然廢車站那裡沒有，那深處呢？現在還有通向術仙煤礦的鐵軌嗎？」",
+  "old_vn": "「Gần đó không có, nhưng ở sâu bên trong thì sao?\\nĐường ray đến tận Mỏ than Jussen, chẳng lẽ không còn sót lại chút nào sao?」",
+  "fix": "「Gần đó không có, nhưng ở sâu bên trong thì sao?\nĐường ray đến tận Mỏ than Jutsu-sen, chẳng lẽ không còn sót lại chút nào sao?」",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 1858,
+  "character": "双鉄",
+  "jp": "「宿舎がいっぱい、というほどの規模なら、\\n術仙炭鉱は産出量に恵まれていたのかな？」",
+  "tw": "「既然有那麼多礦工居住的宿舍，也就是說術仙煤礦曾經產量很高囉？」",
+  "old_vn": "「Nếu quy mô đến mức có nhiều khu nhà ở,\\nthì sản lượng của Mỏ than Jussen chắc phải cao lắm nhỉ?」",
+  "fix": "「Nếu quy mô đến mức có nhiều khu nhà ở,\nthì sản lượng của Mỏ than Jutsu-sen chắc phải cao lắm nhỉ?」",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 1896,
+  "character": "ポーレット",
+  "jp": "「はい！　もしも線路が状態よく残ってれば、\\nそことつなげて、\\x%lポイント;#00ffc040;ポイント%l;#;整備するだけですから」",
+  "tw": "「是的！　如果線路的保存狀態良好的話，只要接上那裡再整備好\\x%lポイント;#00ffc040;轉轍器%l;#;就可以了」",
+  "old_vn": "「Vâng! Nếu đường ray vẫn còn nguyên vẹn,\\nthì chỉ cần nối với nó và bảo dưỡng lại \\x%lポイント;#00ffc040;công tắc%l;#; là được ạ.」",
+  "fix": "「Vâng! Nếu đường ray vẫn còn nguyên vẹn,\nthì chỉ cần nối với nó và bảo dưỡng lại \\x%lポイント;#00ffc040;ghi%l;#; là được ạ.」",
+  "kind": "terminology",
+  "reason": "ポイント (điểm chuyển ray / ghi) bị dịch thành \"công tắc\" (công tắc điện) — TW 轉轍器 xác nhận đây là ghi ray, không phải công tắc điện."
+ },
+ {
+  "key": 1900,
+  "character": "赤井宮司",
+  "jp": "「ええ、あの方は御一夜と鉄道とを愛しておられた。\\nその二つを復活させるため、手を尽くしておられた」",
+  "tw": "「是的，他一直愛著御一夜和鐵路。他也為了復興這二者而一直在拚命努力著」",
+  "old_vn": "「Vâng, ông ấy rất yêu Ohito và đường sắt.\\nÔng ấy đã làm mọi cách để vực dậy hai thứ đó.」",
+  "fix": "「Vâng, ông ấy rất yêu Ohitoyo và đường sắt.\nÔng ấy đã làm mọi cách để vực dậy hai thứ đó.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1924,
+  "character": "双鉄",
+  "jp": "「木地師文化と――\\nその集積地としての御一夜、赤井阿蘇神社」",
+  "tw": "「木旋工文化的集散地——御一夜赤井阿蘇神社」",
+  "old_vn": "「Văn hóa thợ tiện gỗ và——\\nOhito, đền Akai Aso với tư cách là nơi tập trung của văn hóa đó.」",
+  "fix": "「Văn hóa thợ tiện gỗ và——\nOhitoyo, đền Akai Aso với tư cách là nơi tập trung của văn hóa đó.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1935,
+  "character": "双鉄",
+  "jp": "「だから、御一夜という土地にも、\\n多くの古いキジ馬が残されているのですか？」",
+  "tw": "「正因如此，御一夜這片土地才會保留著很多古老的雉子馬嗎？」",
+  "old_vn": "「Vì vậy, ở vùng đất Ohito này,\\nmới còn lưu giữ nhiều ngựa Kiji cổ đến vậy sao?」",
+  "fix": "「Vì vậy, ở vùng đất Ohitoyo này,\nmới còn lưu giữ nhiều ngựa Kiji cổ đến vậy sao?」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 2037,
+  "character": "双鉄",
+  "jp": "「僕は、面白そうだと感じているが……」",
+  "tw": "「至少我是覺得很有意思……」",
+  "old_vn": "「Anh thì thấy có vẻ thú vị đấy...」",
+  "fix": "「Tôi thì thấy có vẻ thú vị đấy...」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trước cả nhóm (Paulette, Akai); theo docs \"Tôi\"."
+ },
+ {
+  "key": 2048,
+  "character": "双鉄",
+  "jp": "「[じゅつせんどう,2]術仙洞駅――\\nそうか、この頃にはまだ廃駅ではないのだな」",
+  "tw": "「術仙洞站——原來如此，那時候還沒被廢棄啊」",
+  "old_vn": "「Ga Jussendo——\\nRa vậy, thời điểm này nó vẫn chưa bị bãi bỏ.」",
+  "fix": "「Ga Jutsusendo——\nRa vậy, thời điểm này nó vẫn chưa bị bãi bỏ.」",
+  "kind": "terminology",
+  "reason": "術仙洞 = \"Jutsusendo\"; bản cũ \"Jussendo\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 2052,
+  "character": "真闇",
+  "jp": "「術仙炭鉱のあたりには、宿舎がいっぱい建っとったんよ。\\nさぞや栄えとったんろーねぇ」",
+  "tw": "「術仙煤礦那裡曾經建了好多居住區。當年肯定非常繁榮吧」",
+  "old_vn": "「Quanh Mỏ than Jussen, người ta xây nhiều khu nhà ở lắm.\\nChắc hẳn ngày xưa sầm uất lắm nhỉ.」",
+  "fix": "「Quanh Mỏ than Jutsu-sen, người ta xây nhiều khu nhà ở lắm.\nChắc hẳn ngày xưa sầm uất lắm nhỉ.」",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 2100,
+  "character": "赤井宮司",
+  "jp": "「いえいえ、御一夜ほどに古いキジ馬が\\n数多く残っている土地はありません」",
+  "tw": "「這倒不是，因為只有御一夜保留了這麼多的古老雉子馬」",
+  "old_vn": "「Không đâu, không có vùng đất nào\\nlưu giữ được nhiều ngựa Kiji cổ xưa như Ohito cả.」",
+  "fix": "「Không đâu, không có vùng đất nào\nlưu giữ được nhiều ngựa Kiji cổ xưa như Ohitoyo cả.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 2104,
+  "character": "ポーレット",
+  "jp": "「\\x%l大詔;#00ffc040;大詔%l;#;の頃のものでしょうかね？\\n[ていてつゆのいせん,4]帝鉄湯医線って、ほら、ここ」",
+  "tw": "「這是大正時期的地圖吧？你看這裡，還寫著帝鐵湯醫線呢」",
+  "old_vn": "「Có lẽ là từ thời \\x%l大詔;#00ffc040;Đại Chiếu%l;#; nhỉ?\\nTuyến Teitetsu Yui này, anh xem, ở đây.」",
+  "fix": "「Có lẽ là từ thời \\x%l大詔;#00ffc040;Taisho%l;#; nhỉ?\nTuyến Teitetsu Yui này, anh xem, ở đây.」",
+  "kind": "terminology",
+  "reason": "大詔 = \"Taisho\" (niên hiệu Đại Chính); bản cũ \"Đại Chiếu\" dịch âm Hán-Việt sai — theo tiền lệ Hachiroku 12 再開発 3054."
+ },
+ {
+  "key": 2105,
+  "character": "双鉄",
+  "jp": "「そうか、ありがとう。\\n聞かせてもらった話、とても参考になった」",
+  "tw": "「這樣啊，謝謝各位。這些情報很有用」",
+  "old_vn": "「Vậy ạ, cảm ơn chị.\\nNhững chuyện chị kể, rất có giá trị tham khảo.」",
+  "fix": "「Vậy ạ, cảm ơn thầy.\nNhững chuyện thầy kể, rất có giá trị tham khảo.」",
+  "kind": "meaning",
+  "reason": "Sai người được gọi: Soutetsu cảm ơn thầy Akai (người kể chuyện Kiji); bản cũ \"cảm ơn chị\" — Akai là nam, cao tuổi, chức thầy tế."
+ },
+ {
+  "key": 2136,
+  "character": "ポーレット",
+  "jp": "「もう、とっくの昔に廃線されてますよ？\\n術仙炭鉱廃駅の近くに、そんな設備は」",
+  "tw": "「那裡可是早就已經廢線了呀？術仙煤礦廢車站那裡已經沒有相應設備了」",
+  "old_vn": "「Tuyến đường đó đã bị bãi bỏ từ lâu lắm rồi mà?\\nGần nhà ga Mỏ than Jussen bị bỏ hoang, làm gì còn thiết bị nào...」",
+  "fix": "「Tuyến đường đó đã bị bãi bỏ từ lâu lắm rồi mà?\nGần nhà ga Mỏ than Jutsu-sen bị bỏ hoang, làm gì còn thiết bị nào...」",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 2172,
+  "character": "双鉄",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "fix": "「Ư!」",
+  "kind": "minor",
+  "reason": "Mất tiếng hít っ: JP 「っ！」 chỉ còn \"「!」\" — khôi phục \"Ư!\"."
+ },
+ {
+  "key": 2173,
+  "character": "ふかみ",
+  "jp": "「っ！！！」",
+  "tw": "「！！！」",
+  "old_vn": "「!!!」",
+  "fix": "「Ư!!!」",
+  "kind": "minor",
+  "reason": "Mất tiếng hít っ: JP 「っ！！！」 chỉ còn \"「!!!」\" — khôi phục \"Ư!!!\"."
+ },
+ {
+  "key": 2394,
+  "character": "monologue",
+  "jp": "凪の言葉を因数分解すれば、\\n“術仙炭鉱跡＝（遠い+汚い）×２”ということになる。",
+  "tw": "因式分解一下凪的話，就是“術仙廢煤礦＝（遠＋髒）ｘ２”。",
+  "old_vn": "Nếu phân tích nhân tử lời của Nagi,\\nthì sẽ thành 'Tàn tích Mỏ than Jussen = (Xa + Bẩn) x 2'.",
+  "fix": "Nếu phân tích nhân tử lời của Nagi,\nthì sẽ thành 'Tàn tích Mỏ than Jutsu-sen = (Xa + Bẩn) x 2'.",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 2414,
+  "character": "monologue",
+  "jp": "言われてみれば、術仙炭鉱駅から\\n術仙洞の文字の上、鉱山の地図記号へと、線がある。",
+  "tw": "她這麼一指，我發現從術仙煤礦站到術仙洞幾個字上面的礦山地圖符號之間有一條線連接著。",
+  "old_vn": "Nghe cô ấy nói tôi mới để ý, từ ga Mỏ than Jussen\\nđến ký hiệu bản đồ mỏ phía trên chữ Jussendo, có một đường kẻ.",
+  "fix": "Nghe cô ấy nói tôi mới để ý, từ ga Mỏ than Jutsu-sen\nđến ký hiệu bản đồ mỏ phía trên chữ Jutsusendo, có một đường kẻ.",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\" và 術仙洞 = \"Jutsusendo\"; bản cũ \"Jussen\" + \"Jussendo\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 2553,
+  "character": "monologue",
+  "jp": "[ヨコカワ,1]横河のカマ飯、[ニシアカシ,2]西赤司のタコ飯、[オシャマンベ,3]御社万部のカニ飯、\\n[ヒタチダイゴ,3]常陸醍醐のシャモ飯、[イズデンシモダ,4]伊津電霜田のキンメダイ飯――",
+  "tw": "橫川的釜飯、西明石的章魚飯、長萬部的螃蟹飯、常陸大子的軍雞飯、伊豆下田的金眼鯛飯——",
+  "old_vn": "Cơm thố Yokokawa, cơm bạch tuộc Nishi Akashi, cơm cua Oshamambe,\\ncơm gà chọi Hitachi Daigo, cơm cá tráp đỏ Izuden Shimoda——",
+  "fix": "Cơm thố Yokokawa, cơm bạch tuộc Nishi Akashi, cơm cua Oshamambe,\ncơm gà chọi Hitachi Daigo, cơm cá mắt vàng Izuden Shimoda——",
+  "kind": "meaning",
+  "reason": "キンメダイ = cá mắt vàng (splendid alfonsino, 金目鯛); bản cũ \"cá tráp đỏ\" là cá tráp đỏ (真鯛) — loài khác. TW 金眼鯛 xác nhận."
+ },
+ {
+  "key": 2560,
+  "character": "monologue",
+  "jp": "無理もない。僕等は木地師、キジ馬、御一夜関連。\\nれいなは鉄道関連と、手分けして探していたのだから。",
+  "tw": "沒辦法，畢竟我們找的是木旋工、雉子馬還有御一夜的相關書籍。而玲奈則是在找鐵路的相關書籍。",
+  "old_vn": "Cũng phải thôi. Chúng tôi đang chia nhau ra tìm, tôi và Paulette tìm về thợ tiện gỗ, ngựa Kiji, Ohito.\\nCòn Reina thì tìm về đường sắt mà.",
+  "fix": "Cũng phải thôi. Chúng tôi đang chia nhau ra tìm, tôi và Paulette tìm về thợ tiện gỗ, ngựa Kiji, Ohitoyo.\nCòn Reina thì tìm về đường sắt mà.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 2670,
+  "character": "monologue",
+  "jp": "恐らくは術仙炭鉱跡。\\n老朽化が、急速に進んでしまっているのだ。",
+  "tw": "術仙廢煤礦的老化正在以極快的速度進行著。",
+  "old_vn": "Có lẽ là tàn tích Mỏ than Jussen.\\nSự xuống cấp đang diễn ra với tốc độ chóng mặt.",
+  "fix": "Có lẽ là tàn tích Mỏ than Jutsu-sen.\nSự xuống cấp đang diễn ra với tốc độ chóng mặt.",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ },
+ {
+  "key": 2675,
+  "character": "monologue",
+  "jp": "文化財指定を勝ち得たのなら、\\n赤井阿蘇神社の、ひいては御一夜市の知名度も高まろう。",
+  "tw": "要是能獲得文化財產認定，赤井阿蘇神社就會連帶著御一夜市一起提高知名度。",
+  "old_vn": "Nếu giành được danh hiệu Tài sản văn hóa,\\nđộ nhận diện của đền Akai Aso, và cả thành phố Ohito sẽ tăng lên đáng kể.",
+  "fix": "Nếu giành được danh hiệu Tài sản văn hóa,\nđộ nhận diện của đền Akai Aso, và cả thành phố Ohitoyo sẽ tăng lên đáng kể.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 2747,
+  "character": "monologue",
+  "jp": "線路は、上質の鉄材だ。誰かが、恐らくは持ち去っている。\\nが、術仙炭鉱付近は\\x%lエアクラ;#00ffc040;エアクラ%l;#;の作動不能地帯――",
+  "tw": "鐵軌都是用的上等鋼鐵鋪設，一般來說廢線後都會被人拿走。不過術仙煤礦附近是無法使用\\x%lエアクラ;#00ffc040;空凝機%l;#;的——",
+  "old_vn": "Đường ray là loại thép chất lượng cao. Có lẽ ai đó đã lấy trộm rồi.\\nNhưng khu vực Mỏ than Jussen là vùng cấm hoạt động của \\x%lエアクラ;#00ffc040;Aircra%l;#;——",
+  "fix": "Đường ray là loại thép chất lượng cao. Có lẽ ai đó đã lấy trộm rồi.\nNhưng khu vực Mỏ than Jutsu-sen là vùng cấm hoạt động của \\x%lエアクラ;#00ffc040;Aircra%l;#;——",
+  "kind": "terminology",
+  "reason": "術仙炭鉱 = \"mỏ than Jutsu-sen\"; bản cũ \"Jussen\" (thiếu chữ \"t\")."
+ }
+]

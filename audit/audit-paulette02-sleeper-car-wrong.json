@@ -1,0 +1,492 @@
+[
+  {
+    "key": 1222,
+    "character": "双鉄",
+    "jp": "「……出会いは、大事だ。\\nその機会を、ひかりにはむざむざ失って欲しくはない」",
+    "tw": "「……人與人的相遇，是很珍貴的。我不希望光輕易地錯過那樣的機會」",
+    "old_vn": "「……Sự gặp gỡ rất quan trọng.\\nAnh không muốn Hikari đánh mất cơ hội đó một cách vô ích.」",
+    "fix": "「……Sự gặp gỡ rất quan trọng.\nTôi không muốn Hikari đánh mất cơ hội đó một cách vô ích.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" khi nói về Hikari; theo docs (locations §2.1) Soutetsu tự xưng \"Tôi\" (\"Anh\" chỉ khi nói với Hibiki)."
+  },
+  {
+    "key": 1240,
+    "character": "双鉄",
+    "jp": "「……話をしてみたいものだな。みち鉄の方と」",
+    "tw": "「……真想跟陸鐵的工作人員好好聊聊啊」",
+    "old_vn": "「……Anh muốn nói chuyện thử xem sao. Với người của Michitetsu ấy.」",
+    "fix": "「……Tôi muốn nói chuyện thử xem sao. Với người của Michitetsu ấy.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" khi nói với người của Michitetsu; theo docs \"Tôi\"."
+  },
+  {
+    "key": 1248,
+    "character": "双鉄",
+    "jp": "「……言い直そう。嬉しいことだな。\\n思い出の列車と、また新しいレールの上で、再会できて」",
+    "tw": "「……那容我換個說法吧。能與充滿回憶的列車在新的線路上再次相遇是一件值得高興的事」",
+    "old_vn": "「……Để anh nói lại nhé. Thật đáng mừng.\\nKhi em có thể gặp lại chuyến tàu kỷ niệm trên một tuyến đường ray mới.」",
+    "fix": "「……Để tôi nói lại nhé. Thật đáng mừng.\nKhi chúng ta có thể gặp lại chuyến tàu kỷ niệm trên một tuyến đường ray mới.」",
+    "kind": "pronoun",
+    "reason": "Hai lỗi: (1) Soutetsu tự xưng \"anh\" → \"Tôi\"; (2) đảo chủ thể — JP 再会できて là \"chúng ta gặp lại\" (Soutetsu cùng Paulette/Reina gặp lại chuyến tàu), bản cũ \"Khi em có thể gặp lại\" gán việc gặp lại cho riêng Paulette."
+  },
+  {
+    "key": 1604,
+    "character": "双鉄",
+    "jp": "「[せんだい,1]仙岱近郊となると……\\nそれほどには雪の降らない印象もあるが」",
+    "tw": "「不過既然她去了仙台近郊……那邊好像並不怎麼下雪」",
+    "old_vn": "「Nếu là vùng ngoại ô Sendai thì……\\nAnh có ấn tượng là tuyết không rơi nhiều đến thế.」",
+    "fix": "「Nếu là vùng ngoại ô Sendai thì……\nTôi có ấn tượng là tuyết không rơi nhiều đến thế.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\"; theo docs \"Tôi\"."
+  },
+  {
+    "key": 1614,
+    "character": "双鉄",
+    "jp": "「良く頑張ったし。頑張っているな」",
+    "tw": "「今天你真的很努力。真的很努力啊」",
+    "old_vn": "「Hôm nay em đã làm rất tốt. Rất cố gắng đấy.」",
+    "fix": "「Hôm nay con đã làm rất tốt. Rất cố gắng đấy.」",
+    "kind": "pronoun",
+    "reason": "Sai người được gọi: Soutetsu khen Hikari (4 tuổi) — bản cũ \"Hôm nay em đã làm rất tốt\" dùng \"em\"; trong file Soutetsu gọi Hikari là \"con\" (1633, 1957)."
+  },
+  {
+    "key": 1623,
+    "character": "双鉄",
+    "jp": "「カメラを出すには早すぎる」",
+    "tw": "「你也不用現在就拿相機出來吧」",
+    "old_vn": "「Anh cũng không cần lấy máy ảnh ra sớm thế đâu.」",
+    "fix": "「Em cũng không cần lấy máy ảnh ra sớm thế đâu.」",
+    "kind": "pronoun",
+    "reason": "Đảo chủ thể: JP カメラを出すには早すぎる (\"còn quá sớm để lấy máy ảnh ra\") — Paulette định lấy máy ảnh ra, Soutetsu ngăn lại; bản cũ \"Anh cũng không cần lấy máy ảnh ra\" biến Soutetsu thành chủ thể. Sửa thành \"Em cũng không cần...\" (gọi Paulette)."
+  },
+  {
+    "key": 1624,
+    "character": "ポーレット",
+    "jp": "「双鉄くんにも、頑張ってくれてるご褒美です！\\n（ちゅっ！）」",
+    "tw": "「你也很努力，我也給你獎勵！（啾！）」",
+    "old_vn": "（♪~）",
+    "fix": "「Cũng là phần thưởng cho anh Soutetsu vì đã vất vả nhé!\n(Chụt!)」",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2676 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 1680 (obasan 1680 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 1636,
+    "character": "ひかり",
+    "jp": "「ひかり……ひかり、ねぇ。\\nうーんと……うーんとぉ」",
+    "tw": "「光……光要……唔……唔……」",
+    "old_vn": "「Hikari…… Hikari chọn.\\nƯm…… ưm.」",
+    "fix": "「Hikari…… Hikari……\nƯm…… ưm.」",
+    "kind": "meaning",
+    "reason": "Bịa thêm: JP chỉ là câu bỏ lửng ngập ngừng của Hikari (うーんと……うーんとぉ), không có động từ \"chọn\"; TW cũng bỏ lửng. Theo quy tắc P13 1510 / P16 1838: không bịa phần kết cho câu JP bỏ lửng."
+  },
+  {
+    "key": 1712,
+    "character": "ポーレット",
+    "jp": "「うふふ、ごちそうさまでした。\\nこれで明日も頑張れそう！　おやすみなさい、双鉄くん」",
+    "tw": "「呵呵呵，多謝。這樣我明天也有動力了！晚安，雙鐵君」",
+    "old_vn": "「Đây là bản nhạc biểu tượng của các chuyến tàu đường dài thời Đế Thiết cũ.\\nThật vui khi họ lại chăm chút đến mức này.」",
+    "fix": "「Fufufu, cảm ơn anh vì bữa ăn nha.\nThế này thì ngày mai em lại có thêm động lực rồi! Chúc ngủ ngon, anh Soutetsu.」",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2012 — tràn chương obasan → sleeper. Bản dịch đúng của dòng này nằm tại obasan 2637, nhưng có 1 từ dịch sai: \"phần thưởng\" cho JP ごちそうさまでした (cảm ơn vì bữa ăn; TW 多謝) — người dịch đã lẫn với dòng ご褒美 (1624) ngay cạnh trong cùng cảnh. Đã sửa 1 từ đó, còn lại giữ nguyên bản dịch tại obasan 2637."
+  },
+  {
+    "key": 1760,
+    "character": "ポーレット",
+    "jp": "「あ――――（ちゅっ）」",
+    "tw": "「啊……（啾）」",
+    "old_vn": "「Fufufu. Bé Hikari thích bắt chước nhỉ.」",
+    "fix": "「A—— (Chụt)」",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2017 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 2017 (obasan 2017 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 1779,
+    "character": "ひかり",
+    "jp": "「っ！！？」",
+    "tw": "「啊？！」",
+    "old_vn": "「!?」",
+    "fix": "「Ư!?」",
+    "kind": "minor",
+    "reason": "Mất tiếng hít っ: JP 「っ！！？」 chỉ còn \"「!?」\" — khôi phục \"Ư!?\"."
+  },
+  {
+    "key": 1781,
+    "character": "ポーレット",
+    "jp": "「はぅう」",
+    "tw": "「嗚」",
+    "old_vn": "「Hả.」",
+    "fix": "「Hau.」",
+    "kind": "minor",
+    "reason": "はぅう là tiếng thở dài ngái ngủ, không phải câu hỏi; bản cũ \"Hả.\" đọc thành câu hỏi. TW 嗚 xác nhận đây là tiếng thở ra."
+  },
+  {
+    "key": 1797,
+    "character": "双鉄",
+    "jp": "「――うん。ありがとう」",
+    "tw": "「嗯。謝謝你」",
+    "old_vn": "Phát thanh trên tàu.\\nNgay khoảnh khắc âm thanh vang lên, đôi mắt Hikari càng thêm lấp lánh.",
+    "fix": "「——Ừm. Cảm ơn em.」",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2277 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 2277 (obasan 2277 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 1807,
+    "character": "双鉄",
+    "jp": "「ああ、おやすみ、ポーレット」",
+    "tw": "「嗯，晚安，波萊特」",
+    "old_vn": "「Vui quá, hoài niệm quá~」",
+    "fix": "「Ừm, chúc ngủ ngon, Paulette.」",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 1704 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 1704 (obasan 1704 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 1819,
+    "character": "双鉄",
+    "jp": "「おお！　なるほど。そうか、回数券では、\\n鋏痕による乗車駅特定が必要になるか」",
+    "tw": "「噢！確實。是這樣啊，用多次票的時候，就需要靠鉗口來區別搭車的那站了」",
+    "old_vn": "「Ồ! Ra là vậy. Thì ra là với vé tháng, người ta cần xác định ga lên tàu dựa vào vết cắt à.」",
+    "fix": "「Ồ! Ra là vậy. Thì ra là với vé lượt, người ta cần xác định ga lên tàu dựa vào vết cắt à.」",
+    "kind": "terminology",
+    "reason": "回数券 = vé lượt (vé đi nhiều lượt, TW 多次票); bản cũ \"vé tháng\" là vé đi theo tháng — loại vé khác. Phân biệt với 定期券 = \"vé định kỳ\" (2038, đúng, không sửa)."
+  },
+  {
+    "key": 1832,
+    "character": "ひかり",
+    "jp": "「かいすうけんは、どっちからでものれるもーん」",
+    "tw": "「多次票從哪裡上車都可以呀」",
+    "old_vn": "「Vé tháng thì lên từ ga nào cũng được mà.」",
+    "fix": "「Vé lượt thì lên từ ga nào cũng được mà.」",
+    "kind": "terminology",
+    "reason": "回数券 = vé lượt (TW 多次票); bản cũ \"vé tháng\" — loại vé khác."
+  },
+  {
+    "key": 1833,
+    "character": "双鉄",
+    "jp": "「今回の旅行も、ポーレットのおかげで実現できた。\\nおかげで、最高に楽しめている」",
+    "tw": "「多虧了波萊特，才有了我們這次旅行。我現在非常開心」",
+    "old_vn": "「Chuyến du lịch lần này thực hiện được cũng là nhờ có Paulette.\\nNhờ có em mà anh đang tận hưởng chuyến đi một cách tuyệt vời nhất.」",
+    "fix": "「Chuyến du lịch lần này thực hiện được cũng là nhờ có Paulette.\nNhờ có em mà tôi đang tận hưởng chuyến đi một cách tuyệt vời nhất.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" khi nói với Paulette; theo docs \"Tôi\". \"Em\" (gọi Paulette) giữ nguyên."
+  },
+  {
+    "key": 1887,
+    "character": "双鉄",
+    "jp": "「だよなぁ。であればあのとき、\\n僕に声をかけてくれてもいなかっただろうし――」",
+    "tw": "「我想也是。要不然那時候，你也不會跟我搭話的」",
+    "old_vn": "「Anh cũng nghĩ vậy. Nếu thế thì lúc đó,\\nem đã chẳng bắt chuyện với anh rồi——」",
+    "fix": "「Tôi cũng nghĩ vậy. Nếu thế thì lúc đó,\nem đã chẳng bắt chuyện với tôi rồi——」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" 2 lần khi nói với Paulette; theo docs \"Tôi\". \"Em\" (gọi Paulette) giữ nguyên."
+  },
+  {
+    "key": 1892,
+    "character": "ポーレット",
+    "jp": "「ですから、わたし、行きます――けど」",
+    "tw": "「所以，我回去了——」",
+    "old_vn": "「Đính chính lại. Ngon quá!」",
+    "fix": "「Vì vậy, em về đây—— nhưng mà...」",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại (\"Đính chính lại. Ngon quá!\") là bản dịch đúng của obasan 1978 — tràn chương obasan → sleeper. Bản dịch đúng của dòng này không tồn tại ở đâu trong dự án (đã tra chỉ mục Việt toàn dự án) — dịch mới từ JP + TW (TW 回去 ủng hộ \"về đây\" thay vì \"đi đây\")."
+  },
+  {
+    "key": 1920,
+    "character": "双鉄",
+    "jp": "「だよなぁ。が、いつまでも箱入りにもしておけん。\\nやはり健やかに成長してほしい」",
+    "tw": "「是啊。但是，我們也不能一直這樣嬌慣她。還是希望她能沐浴著外面的風雨健康成長」",
+    "old_vn": "「Đúng vậy nhỉ. Nhưng chúng ta cũng không thể cứ giấu con bé trong tủ kính mãi được.\\nAnh vẫn mong con bé lớn lên khỏe mạnh.」",
+    "fix": "「Đúng vậy nhỉ. Nhưng chúng ta cũng không thể cứ giấu con bé trong tủ kính mãi được.\nTôi vẫn mong con bé lớn lên khỏe mạnh.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\"; theo docs \"Tôi\"."
+  },
+  {
+    "key": 1931,
+    "character": "ポーレット",
+    "jp": "「ですね。御一夜と似た感じの交通難所で、その上雪深い。\\n最初から観光のための手段として、鉄道を残した町です」",
+    "tw": "「是啊。那裡與御一夜差不多，交通不便，而且經常降雪。那裡也是以觀光為目的從一開始就留下鐵路的城市」",
+    "old_vn": "「Vâng. Là một nơi giao thông khó khăn giống như Ohito, hơn nữa tuyết lại rơi dày.\\nĐây là thị trấn giữ lại đường sắt ngay từ đầu như một phương tiện phục vụ du lịch.」",
+    "fix": "「Vâng. Là một nơi giao thông khó khăn giống như Ohitoyo, hơn nữa tuyết lại rơi dày.\nĐây là thị trấn giữ lại đường sắt ngay từ đầu như một phương tiện phục vụ du lịch.」",
+    "kind": "terminology",
+    "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+  },
+  {
+    "key": 1946,
+    "character": "ポーレット",
+    "jp": "「はい。巡り合わせ次第では、うちに――\\n御一夜鉄道に来てくれる可能性もありました」",
+    "tw": "「是的。原本如果有緣，她也有可能來到我們這裡——來到御一夜鐵路」",
+    "old_vn": "「Vâng. Tùy thuộc vào duyên số, cô bé đó cũng có khả năng——\\nĐến với Đường sắt Ohito của chúng ta đấy ạ.」",
+    "fix": "「Vâng. Tùy thuộc vào duyên số, cô bé đó cũng có khả năng——\nĐến với Đường sắt Ohitoyo của chúng ta đấy ạ.」",
+    "kind": "terminology",
+    "reason": "御一夜鉄道 = \"Đường sắt Ohitoyo\" (quyết định 19/11); bản cũ \"Đường sắt Ohito\"."
+  },
+  {
+    "key": 1961,
+    "character": "双鉄",
+    "jp": "「いや、ダブルミーニングかと思ったのだ。\\n『湯を巡る』と、『夢を巡る』で、『ゆめぐり』かと」",
+    "tw": "「沒什麼，我在想這個是不是雙關。這個“夢巡”的夢不光是溫泉，更是鐵路人的夢想」",
+    "old_vn": "「Không, anh đang nghĩ đó có phải là chơi chữ không.\\n『Dạo quanh suối nước nóng (Yu wo meguru)』 và 『Dạo quanh những giấc mơ (Yume wo meguru)』, nên mới là 『Yumeguri』.」",
+    "fix": "「Không, tôi đang nghĩ đó có phải là chơi chữ không.\n『Dạo quanh suối nước nóng (Yu wo meguru)』 và 『Dạo quanh những giấc mơ (Yume wo meguru)』, nên mới là 『Yumeguri』.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\"; theo docs \"Tôi\"."
+  },
+  {
+    "key": 2036,
+    "character": "双鉄",
+    "jp": "「寝台券の方はどうなっているのだ？\\n僕とポーレットとれいなの分は当然だろうが――」",
+    "tw": "「臥鋪票買好了嗎？我和波萊特還有玲奈的票當然是買了」",
+    "old_vn": "「Vé giường nằm thế nào rồi em?\\nVé của anh, em và Reina thì chắc chắn là có rồi, nhưng——」",
+    "fix": "「Vé giường nằm thế nào rồi em?\nVé của tôi, em và Reina thì chắc chắn là có rồi, nhưng——」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" (\"Vé của anh\") khi nói với Paulette; theo docs \"Tôi\". \"Em\" (gọi Paulette) giữ nguyên."
+  },
+  {
+    "key": 2037,
+    "character": "双鉄",
+    "jp": "「いいものだな。寝台列車は。\\n聞いていた話以上だ。実に良い」",
+    "tw": "「臥鋪車真好啊。百聞不如一見。真是太棒了」",
+    "old_vn": "「Tàu giường nằm thích thật đấy.\\nTuyệt vời hơn cả những gì anh từng nghe kể. Thực sự rất tuyệt.」",
+    "fix": "「Tàu giường nằm thích thật đấy.\nTuyệt vời hơn cả những gì tôi từng nghe kể. Thực sự rất tuyệt.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\"; theo docs \"Tôi\"."
+  },
+  {
+    "key": 2053,
+    "character": "双鉄",
+    "jp": "「旅の準備もなにもかも、\\n頑張ってくれてるお礼――というか、ご褒美だ」",
+    "tw": "「謝謝你準備旅行，還有在各種事情上都這麼努力，所以我想獎勵你」",
+    "old_vn": "「Không cần thêm câu đính chính đâu con~」",
+    "fix": "「Cảm ơn em vì đã vất vả chuẩn bị cho chuyến đi và lo liệu mọi thứ——\nNói đúng hơn là, phần thưởng cho em đây.」",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2265 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 2265 (obasan 2265 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2081,
+    "character": "双鉄",
+    "jp": "「ナビによる補正がかかってもなお、\\n対応できないほどの風が吹くのか？」",
+    "tw": "「這裡的風這麼厲害嗎，連導航系統的調節都應對不了？」",
+    "old_vn": "「Ngay cả khi có sự điều chỉnh của hệ thống dẫn đường, gió vẫn thổi mạnh đến mức không thể đối đối phó được sao?」",
+    "fix": "「Ngay cả khi có sự điều chỉnh của hệ thống dẫn đường, gió vẫn thổi mạnh đến mức không thể đối phó được sao?」",
+    "kind": "minor",
+    "reason": "Lỗi gõ: \"đối đối phó\" thừa một chữ \"đối\"."
+  },
+  {
+    "key": 2082,
+    "character": "双鉄",
+    "jp": "「それは確かに落ち着かんかな。\\nどんな様子か見てみたい気もするが」",
+    "tw": "「這麼說，車上可能的確會比較亂，來來往往的。好想親眼看看那個場面啊」",
+    "old_vn": "「Thế thì chắc chắn là không thể nghỉ ngơi yên tĩnh được rồi.\\nAnh cũng tò mò muốn xem thử nó như thế nào.」",
+    "fix": "「Thế thì chắc chắn là không thể nghỉ ngơi yên tĩnh được rồi.\nTôi cũng tò mò muốn xem thử nó như thế nào.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\"; theo docs \"Tôi\"."
+  },
+  {
+    "key": 2095,
+    "character": "双鉄",
+    "jp": "「そうしたら体からベッドにごろんだ。\\nれいな、つかまえてやってくれ」",
+    "tw": "「那就用身體爬到床上去。玲奈，接她一下」",
+    "old_vn": "「Thế thì con rướn người bò lên giường đi.\\nReina, đỡ con bé giúp anh với.」",
+    "fix": "「Thế thì con rướn người bò lên giường đi.\nReina, đỡ con bé giúp tôi với.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu tự xưng \"anh\" khi nhờ Reina đỡ Hikari; theo docs \"Tôi\"."
+  },
+  {
+    "key": 2339,
+    "character": "monologue",
+    "jp": "僕まで過保護になってどうする。\\nひかりがせっかく、自立心を発揮しようとしているのだ。",
+    "tw": "可不能連我都成了過度保護孩子的家長。難得光想發揚獨立性啊。",
+    "old_vn": "Đến cả mình cũng bao bọc con quá mức thì làm sao được.\\nHikari đang khó khăn lắm mới bộc lộ tính tự lập mà.",
+    "fix": "Đến cả tôi cũng bao bọc con quá mức thì làm sao được.\nHikari đang khó khăn lắm mới bộc lộ tính tự lập mà.",
+    "kind": "pronoun",
+    "reason": "Độc thoại của Soutetsu dùng \"mình\" làm chủ ngữ độc lập (\"Đến cả mình cũng bao bọc...\"); quy ước của file là \"Tôi\" (48 dòng \"tôi\", chỉ 2 dòng \"mình\" chủ ngữ độc lập sai — 2339 và 2590)."
+  },
+  {
+    "key": 2389,
+    "character": "monologue",
+    "jp": "笑顔が輝く。\\nこれなら誘導できそうだ。",
+    "tw": "她露出了燦爛的笑容。看來，我的引導很順利。",
+    "old_vn": "Nụ cười tỏa nắng rạng rỡ.\\nThế này thì chắc là dụ dỗ được rồi.",
+    "fix": "Nụ cười tỏa nắng rạng rỡ.\nThế này thì chắc là dẫn dắt được rồi.",
+    "kind": "meaning",
+    "reason": "誘導 = hướng dẫn/dẫn dắt; bản cũ \"dụ dỗ\" mang nghĩa dụ dỗ/lôi kéo (sai ngữ cảnh — Soutetsu đang dẫn dắt Hikari, TW 引導 xác nhận)."
+  },
+  {
+    "key": 2402,
+    "character": "monologue",
+    "jp": "みっちりとした、あまりにも素晴らしすぎる秘密基地感。\\nここを家族で独占できる――うむ？",
+    "tw": "封閉的車廂有種相當真實、堪稱完美的秘密基地的感覺。而我們一家人此刻可以獨占這裡……唔？",
+    "old_vn": "Cảm giác kín đáo, giống như một căn cứ bí mật tuyệt vời.\\nCả gia đình có thể độc chiếm nơi này—— hửm?」",
+    "fix": "Cảm giác kín đáo, giống như một căn cứ bí mật tuyệt vời.\nCả gia đình có thể độc chiếm nơi này—— hửm?",
+    "kind": "minor",
+    "reason": "Thừa dấu đóng 」: lời dẫn (không có ngoặc mở 「) nhưng cuối câu có 」 lẻ."
+  },
+  {
+    "key": 2432,
+    "character": "monologue",
+    "jp": "くっついたまま、\\n鼻先同士、おでこ同士をすりあわせる。",
+    "tw": "我們仍然緊緊相擁，耳鬢廝磨著。",
+    "old_vn": "「Là khúc dạ khúc Heykens!」",
+    "fix": "Cứ dính chặt lấy nhau như thế,\nchúng tôi cọ mũi, cọ trán vào nhau.",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 1583 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 1583 (obasan 1583 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2446,
+    "character": "monologue",
+    "jp": "自分がどんな人生を歩んでいたか、\\n想像するだけでも恐ろしい。",
+    "tw": "我甚至想都不敢想，自己現在會過著怎樣的人生。",
+    "old_vn": "Tôi sẽ bước vào một cuộc đời như thế nào đây,\\nchỉ tưởng tượng thôi cũng thấy đáng sợ rồi.",
+    "fix": "Tôi đã sống một cuộc đời như thế nào,\nchỉ tưởng tượng thôi cũng thấy đáng sợ rồi.",
+    "kind": "meaning",
+    "reason": "Sai thì: JP 自分がどんな人生を歩んでいたか là giả định quá khứ (\"cuộc đời mình ĐÃ sống ra sao\"); bản cũ \"Tôi sẽ bước vào một cuộc đời như thế nào\" dùng thì tương lai. TW 我現在會過著怎樣的人生 xác nhận đây là giả định."
+  },
+  {
+    "key": 2450,
+    "character": "monologue",
+    "jp": "胸が高なり、体が騒いでしまっている。\\n瞳を閉じて、レールのつなぎ目の数でも数えてみよう。",
+    "tw": "我的心卻跳個不停，身體也難以平靜下來。我閉上眼睛，試著開始數鐵軌接縫。",
+    "old_vn": "「Hả? Mới đến Iwaki thôi sao?」",
+    "fix": "Tim đập rộn ràng, cơ thể rạo rực không yên.\nThôi thì nhắm mắt lại, đếm số lần bánh xe lăn qua mối nối đường ray xem sao.",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 1628 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 1628 (obasan 1628 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2459,
+    "character": "monologue",
+    "jp": "軽いキス。\\nポーレットは幸せそうに、笑ってくれる。",
+    "tw": "我輕輕一吻。波萊特幸福地笑了。",
+    "old_vn": "「Fufufu, Hikari thích bắt chước mà~」",
+    "fix": "Một nụ hôn nhẹ nhàng.\nPaulette mỉm cười đầy hạnh phúc.",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 1961 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 1961 (obasan 1961 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2519,
+    "character": "monologue",
+    "jp": "すりっと、ポーレットの顔が僕の胸板に甘えてくる。\\n小さな頭を両手でつかまえ、僕へと向かせる。",
+    "tw": "波萊特的臉又蹭了蹭我的胸口。我伸出雙手抓住她小小的頭，讓她面對著我。",
+    "old_vn": "「Không cần thêm câu đính chính đâu con.」",
+    "fix": "Paulette lại cọ cọ khuôn mặt nũng nịu vào ngực tôi.\nTôi đưa hai tay ôm lấy chiếc đầu nhỏ nhắn, xoay em ấy đối diện với mình.",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 1682 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 1682 (obasan 1682 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2531,
+    "character": "monologue",
+    "jp": "どちらにしても、それは最高の瞬間となる。\\n絶対、見逃したくは無い。",
+    "tw": "無論如何，那對我來說都會是最棒的瞬間，絕對不容錯過。",
+    "old_vn": "「Oa oa! Tiền vé tàu tốc hành được miễn phí luôn!」",
+    "fix": "Dù thế nào đi nữa, đó cũng sẽ là một khoảnh khắc tuyệt vời nhất.\nTuyệt đối không thể bỏ lỡ.",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 1830 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 1830 (obasan 1830 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2560,
+    "character": "monologue",
+    "jp": "確かにだ。回数券には、日付の記入がなされない。\\nゆえ、最低料金回数券を、発駅で入鋏してもらう――",
+    "tw": "確實。多次票上不會記錄日期。因此，只要拿著最低價的多次票，在出發站點剪一次票——",
+    "old_vn": "Đúng là vậy. Vé tháng không ghi ngày tháng.\\nVì thế, chỉ cần mua vé tháng mệnh giá thấp nhất, rồi nhờ bấm vé ở ga đi——",
+    "fix": "Đúng là vậy. Vé lượt không ghi ngày tháng.\nVì thế, chỉ cần mua vé lượt mệnh giá thấp nhất, rồi nhờ bấm vé ở ga đi——",
+    "kind": "terminology",
+    "reason": "回数券 = vé lượt (TW 多次票); bản cũ \"vé tháng\" 2 lần — loại vé khác."
+  },
+  {
+    "key": 2570,
+    "character": "monologue",
+    "jp": "カーテンを開けてまた閉めて、\\nポーレットは向かいの寝台へと戻っていく。",
+    "tw": "簾子拉開，隨後又合上。波萊特回到了對面的鋪位。",
+    "old_vn": "Sự đáng sợ của giáo dục—— hay nói đúng hơn là sự kinh khủng của nó,\\nnhư được phơi bày rõ mồn một trước mắt tôi.",
+    "fix": "Rèm mở ra rồi lại đóng vào,\nPaulette quay trở về chiếc giường đối diện.",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2517 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 2517 (obasan 2517 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2584,
+    "character": "monologue",
+    "jp": "雪景色なら、嬉しかろう。\\nもしもそうならひかりにとっては、初めての雪だ。",
+    "tw": "若是雪景，我一定會很開心。若真是雪景，那就會是光第一次見到雪。",
+    "old_vn": "Chẳng lẽ…… tàu đang chạy giảm tốc sao?」",
+    "fix": "Nếu là khung cảnh tuyết trắng thì thật tuyệt.\nNếu vậy, đây sẽ là lần đầu tiên Hikari được thấy tuyết.",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2478 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 2478 (obasan 2478 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2590,
+    "character": "monologue",
+    "jp": "どれ、僕が――",
+    "tw": "要不，我就……",
+    "old_vn": "Để xem, hay là mình——",
+    "fix": "Để xem, hay là tôi——",
+    "kind": "pronoun",
+    "reason": "Độc thoại của Soutetsu dùng \"mình\" làm chủ ngữ độc lập (\"hay là mình——\"); quy ước của file là \"Tôi\". JP どれ、僕が―― xác nhận chủ ngữ là Soutetsu."
+  },
+  {
+    "key": 2646,
+    "character": "monologue",
+    "jp": "名残惜しいが、ここまでにして体を離す。\\nこれ以上に血が熱くなれば、眠れなくなってしまうから。",
+    "tw": "雖然很捨不得，但我倆就此分開了身體。如果再熱血上湧的話，我就睡不著了。",
+    "old_vn": "「Hửm?」",
+    "fix": "Dù luyến tiếc, nhưng đến đây thì đành phải buông nhau ra thôi.\nBởi nếu máu trong người nóng lên hơn nữa thì sẽ không ngủ được mất.",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2503 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 2503 (obasan 2503 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2662,
+    "character": "monologue",
+    "jp": "（……あれほど軽いキスだったのにな）",
+    "tw": "（……明明那輕吻不過蜻蜓點水一般）",
+    "old_vn": "「Chào buổi sáng quý hành khách.\\nĐoàn tàu sắp sửa đến ga Iwaki.」",
+    "fix": "（……Rõ ràng chỉ là một nụ hôn nhẹ thôi mà.）",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2563 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 2563 (obasan 2563 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2681,
+    "character": "monologue",
+    "jp": "（笑顔になるのか――驚いて固まってしまうかな？）",
+    "tw": "（她是會笑呢，還是會驚訝得動彈不得呢？）",
+    "old_vn": "「Chậm hơn lịch trình dự kiến 130 phút rồi nha.」",
+    "fix": "（Con bé sẽ mỉm cười—— hay là ngạc nhiên đến đơ người ra nhỉ?）",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 1809 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 1809 (obasan 1809 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2684,
+    "character": "monologue",
+    "jp": "（シャーっ）",
+    "tw": "（沙——）",
+    "old_vn": "……Một đứa trẻ 4 tuổi, rõ ràng chưa từng có cơ hội trải nghiệm,\\nlại cảm thấy hoài niệm về chuyến tàu đường dài thời Đế Thiết.",
+    "fix": "（Vù——）",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan 1135 — tràn chương obasan → sleeper. Bản dịch đúng của dòng này không tồn tại ở đâu trong dự án — dịch mới: JP （シャーっ）, TW （沙——） là âm thanh xào xạc/vù vù kéo dài (trong cảnh tàu đêm đang chạy), không phải tiếng \"xình xịch\" của bánh xe."
+  },
+  {
+    "key": 2688,
+    "character": "monologue",
+    "jp": "（目が覚めたとき……どこまでたどり着けているのか）",
+    "tw": "（等我醒來的時候……不知能見到怎樣的景色呢）",
+    "old_vn": "Nghe vậy, tôi hướng mắt ra ngoài cửa sổ.\\nCảnh vật trôi qua một cách chậm chạp.",
+    "fix": "（Khi tỉnh dậy…… không biết tàu đã đến đâu rồi nhỉ.）",
+    "kind": "misaligned",
+    "reason": "Bản Việt hiện tại là bản dịch đúng của obasan key 2466 (đã xác minh JP/TW tại obasan) — tràn chương hai chiều obasan ↔ sleeper; bản dịch đúng của dòng này đang nằm sai vị trí tại obasan 2466 (obasan 2466 đã có trong danh sách sai của audit obasan, sẽ được sửa bằng bản dịch đúng của JP obasan)."
+  },
+  {
+    "key": 2690,
+    "character": "monologue",
+    "jp": "（ゴーーーーーっ）",
+    "tw": "（隆——）",
+    "old_vn": "（Xình xịch xình xịch——）",
+    "fix": "（Ù ù ù ù——）",
+    "kind": "minor",
+    "reason": "Sai hiệu ứng âm thanh: JP （ゴーーーーーっ） là tiếng gầm/vù kéo dài (TW 隆——), bản cũ \"Xình xịch xình xịch\" là tiếng lách cách của bánh xe trên mối nối (ガタンゴトン) — âm khác."
+  },
+  {
+    "key": "1627",
+    "speaker": "双鉄",
+    "jp": "「どうする？　上にあがるか？」",
+    "tw": "「你打算怎麼辦？要去上面嗎？」",
+    "old_vn": "「Sao đây? Em có muốn lên trên không?」",
+    "kind": "meaning/addressee",
+    "fix": "「Sao đây? Con có muốn lên trên không?」",
+    "note": "Quyết định B1 (19/11, Hieu): kiểm tra 5 dòng lân cận — 1628 Paulette quay sang Hikari, 1633 Soutetsu lo Hikari leo thang/ngủ một mình trên giường trên — người được hỏi là Hikari, không phải Paulette. Đổi \"Em\" → \"Con\"."
+  }
+]

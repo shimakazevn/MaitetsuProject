@@ -1,0 +1,442 @@
+[
+ {
+  "key": 1151,
+  "character": "monologue",
+  "jp": "……ポーレットと並んで歩く。\\nれいなを挟まず、ハチロクを連れず。",
+  "tw": "……我與波萊特並肩同行。玲奈不在，八六也不在。",
+  "old_vn": "……Sóng bước cùng Paulette.",
+  "fix": "……Sóng bước cùng Paulette. Không có Reina xen giữa, không dẫn Hachiroku theo.",
+  "kind": "meaning",
+  "reason": "Dòng bị cắt cụt: JP có 2 câu, bản Việt chỉ còn 1 câu — câu 2 (\"Không có Reina xen giữa, không dẫn Hachiroku theo.\") đang nằm thừa ở đầu 2196 (cặp lệch vị trí 1151↔2196)."
+ },
+ {
+  "key": 1196,
+  "character": "双鉄",
+  "jp": "「……記憶にあるより、随分と近代化したのだな」",
+  "tw": "「……與我記憶中相比，這裡已經發展了不少啊」",
+  "old_vn": "「...Đã hiện đại hóa hơn rất nhiều so với trong ký ức của anh nhỉ.」",
+  "fix": "「...Đã hiện đại hóa hơn rất nhiều so với trong ký ức của tôi nhỉ.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1463,
+  "character": "双鉄",
+  "jp": "「いや、そうではない。\\nもしそうであれば、コンを連れても来てはいないさ」",
+  "tw": "「不，不是的。如果我不想被打擾，就不會帶著空一起來了」",
+  "old_vn": "「Không, không phải vậy.\\nNếu thế thì anh đã chẳng mang Kon theo.」",
+  "fix": "「Không, không phải vậy. Nếu thế thì tôi đã chẳng mang Kon theo.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1524,
+  "character": "双鉄",
+  "jp": "「何か世界一――は無理としても、日ノ本一はないかな。\\nクマ川なり、御一夜なりに」",
+  "tw": "「即使做不到世界第一，但能不能以隈河、御一夜自己的方式做到日本第一呢」",
+  "old_vn": "「Nhất thế giới thì có vẻ hơi quá sức, nhưng nhất Hinomoto thì sao.\\nDù là sông Kuma hay Ohito.」",
+  "fix": "「Nhất thế giới thì có vẻ hơi quá sức, nhưng nhất Hinomoto thì sao. Dù là sông Kuma hay Ohitoyo.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1527,
+  "character": "双鉄",
+  "jp": "「なるほど、御一夜に観光に来るものは、\\n御一夜の外の人間なのだな」",
+  "tw": "「原來如此，來御一夜旅遊的都不是御一夜本地人啊」",
+  "old_vn": "「Quả thực, những người đến Ohito du lịch,\\nđều là người từ nơi khác đến.」",
+  "fix": "「Quả thực, những người đến Ohitoyo du lịch, đều là người từ nơi khác đến.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1538,
+  "character": "双鉄",
+  "jp": "「僕でよければ、この手を貸そう。\\nコンの手よりは、いくらか役に立つはずだ」",
+  "tw": "「只要你不嫌棄，就讓我來幫助你吧。至少應該比空更加派得上用場」",
+  "old_vn": "「Nếu anh có thể giúp được gì, anh sẵn sàng.\\nÍt ra cũng có ích hơn Kon một chút.」",
+  "fix": "「Nếu tôi có thể giúp được gì, tôi sẵn sàng. Ít ra cũng có ích hơn Kon một chút.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1563,
+  "character": "双鉄",
+  "jp": "「ああ、うむ。観光振興についてだが、\\n現状、解決すべき点はいくつもあるかと思う」",
+  "tw": "「啊——嗯。關於旅遊業復興，我認為目前有幾點急需解決」",
+  "old_vn": "「À, ừm. Về việc chấn hưng du lịch,\\nanh nghĩ hiện tại có một vài điểm cần phải giải quyết.」",
+  "fix": "「À, ừm. Về việc chấn hưng du lịch, tôi nghĩ hiện tại có một vài điểm cần phải giải quyết.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1588,
+  "character": "ポーレット",
+  "jp": "「あ、そうですよね。だったら――\\nここにいる中で、御一夜のことをまだ知らないのは」",
+  "tw": "「啊，對呢。那麼——我們這些人當中，對御一夜還不太了解的是——」",
+  "old_vn": "「A, đúng vậy nhỉ. Nếu thế thì——\\nTrong số những người ở đây, người vẫn chưa biết nhiều về Ohito là...」",
+  "fix": "「A, đúng vậy nhỉ. Nếu thế thì—— Trong số những người ở đây, người vẫn chưa biết nhiều về Ohitoyo là...」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1592,
+  "character": "双鉄",
+  "jp": "「ああ、すまん。気やすすぎたな。\\n妹がいたので、ついつい」",
+  "tw": "「啊，抱歉。這樣太過親近了啊。因為我有個妹妹，一不小心就——」",
+  "old_vn": "「A, xin lỗi. Tự nhiên quá đà rồi.\\nTại anh có em gái, nên cứ tiện tay...」",
+  "fix": "「A, xin lỗi. Tự nhiên quá đà rồi. Tại tôi có em gái, nên cứ tiện tay...」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1625,
+  "character": "双鉄",
+  "jp": "「ああ、\\n蔵の一部を見学コースとして開放しているとは聞くな」",
+  "tw": "「嗯，確實有聽說開放了一部分酒窖供遊客參觀」",
+  "old_vn": "「À,\\nanh có nghe nói họ mở cửa một phần xưởng rượu cho khách tham quan.」",
+  "fix": "「À, tôi có nghe nói họ mở cửa một phần xưởng rượu cho khách tham quan.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1633,
+  "character": "双鉄",
+  "jp": "「ポーレットの提案を受けて、僕は考えたのだ」",
+  "tw": "「在聽了波萊特的提議後，我在想一件事」",
+  "old_vn": "「Nhận được đề xuất của Paulette, anh đã suy nghĩ.」",
+  "fix": "「Nhận được đề xuất của Paulette, tôi đã suy nghĩ.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1649,
+  "character": "双鉄",
+  "jp": "「僕の手で、もしも構わなければ――」",
+  "tw": "「如果你不介意我來幫你的話——」",
+  "old_vn": "「Nếu em không chê sự giúp đỡ của anh——」",
+  "fix": "「Nếu em không chê sự giúp đỡ của tôi——」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1668,
+  "character": "双鉄",
+  "jp": "「ということで、\\nみなのアイディアをもらえないかと考えた」",
+  "tw": "「就是這樣，我想請大家幫忙出主意」",
+  "old_vn": "「Vì vậy,\\nanh muốn xin ý kiến của mọi người.」",
+  "fix": "「Vì vậy, tôi muốn xin ý kiến của mọi người.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1683,
+  "character": "凪",
+  "jp": "「ここにいるばい！\\n御一夜が地元で観光に詳しい凪様がっ！」",
+  "tw": "「御一夜出身，並且熟知當地旅遊景點的凪大小姐在此咧！」",
+  "old_vn": "「Có em ở đây nè!\\nNagi đại nhân, người bản địa Ohito, am hiểu du lịch đây!」",
+  "fix": "「Có em ở đây nè! Bổn tiểu thư đây, người bản địa Ohitoyo, am hiểu du lịch đây!」",
+  "kind": "meaning",
+  "reason": "御一夜 = \"Ohitoyo\"; Nagi tự xưng 凪様 (ngôi ba) — tiền lệ Paulette 08 future-rail 2277: \"Bổn tiểu thư\", không phải \"Nagi đại nhân\" (cách gọi khi Soutetsu gọi Nagi thì khác)."
+ },
+ {
+  "key": 1686,
+  "character": "ポーレット",
+  "jp": "「御一夜らしさ……」",
+  "tw": "「御一夜特色……」",
+  "old_vn": "「Đậm chất Ohito...」",
+  "fix": "「Đậm chất Ohitoyo...」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1691,
+  "character": "ポーレット",
+  "jp": "「も、あると思います。御一夜は、隈元市内みたいに\\n直接の大空襲は受けてないですけど、それでも」",
+  "tw": "「應該也有這個原因。雖然御一夜並沒有像隈元市市區那樣直接受到大規模空襲，但仍然還是——」",
+  "old_vn": "「Em nghĩ cũng có phần. Ohito tuy không bị không kích trực tiếp\\nnhư trung tâm thành phố Kumamoto, nhưng mà...」",
+  "fix": "「Em nghĩ cũng có phần. Ohitoyo tuy không bị không kích trực tiếp như trung tâm thành phố Kumamoto, nhưng mà...」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1693,
+  "character": "ポーレット",
+  "jp": "「実地の方は全然です、わたしも。\\n御一夜に来てから、政治と鉄道のことばっかりで」",
+  "tw": "「我也幾乎沒去過實地調查。自從來到御一夜，就一直在忙政治與鐵路的事情」",
+  "old_vn": "「Em cũng chưa đi thực tế bao giờ.\\nTừ lúc đến Ohito, em chỉ lo chuyện chính trị và đường sắt thôi.」",
+  "fix": "「Em cũng chưa đi thực tế bao giờ. Từ lúc đến Ohitoyo, em chỉ lo chuyện chính trị và đường sắt thôi.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1696,
+  "character": "双鉄",
+  "jp": "「マイナーな温泉地から一歩を踏み出す、御一夜の魅力。\\nそれをどう周知していくか、僕らは考えねばならん」",
+  "tw": "「我們必須思考怎樣才能使人們認識到御一夜的魅力，讓它擺脫大眾心中的“二流溫泉景區”標籤」",
+  "old_vn": "「Sức hấp dẫn của Ohito, để thoát khỏi cái mác 'khu suối nước nóng hẻo lánh'.\\nChúng ta phải suy nghĩ cách quảng bá nó.」",
+  "fix": "「Sức hấp dẫn của Ohitoyo, để thoát khỏi cái mác 'khu suối nước nóng hẻo lánh'. Chúng ta phải suy nghĩ cách quảng bá nó.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1699,
+  "character": "双鉄",
+  "jp": "「僕とて、たまには一人になりたい時間もあるさ」",
+  "tw": "「我偶爾也想一個人待會嘛」",
+  "old_vn": "「Anh cũng có những lúc muốn ở một mình chứ.」",
+  "fix": "「Tôi cũng có những lúc muốn ở một mình chứ.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1704,
+  "character": "双鉄",
+  "jp": "「\\x%l8620;#00ffc040;8620%l;#;を一度じっくり、一人で見ておきたかっただけだ。\\nポーレットが来る前に、その目的は達成できていた」",
+  "tw": "「我只是想一個人仔細觀察一下\\x%l8620;#00ffc040;８６２０%l;#;，在波萊特來之前，我的目的就已經達成了」",
+  "old_vn": "「Anh chỉ muốn ngắm \\x%l8620;#00ffc040;8620%l;#; một mình thật kỹ thôi.\\nTrước khi Paulette đến, mục đích đó đã hoàn thành rồi.」",
+  "fix": "「Tôi chỉ muốn ngắm \\x%l8620;#00ffc040;8620%l;#; một mình thật kỹ thôi. Trước khi Paulette đến, mục đích đó đã hoàn thành rồi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1716,
+  "character": "双鉄",
+  "jp": "「日々姫は御一夜に詳しかろう。\\n地元で、しかも看板描きで密接にかかわっている」",
+  "tw": "「日日姬應該很熟悉御一夜吧。你是當地人，而且為了繪製招牌，經常接觸這些」",
+  "old_vn": "「Hibiki chắc hẳn rất rành về Ohito.\\nLà người địa phương, lại còn vẽ biển hiệu nên có mối liên hệ rất mật thiết.」",
+  "fix": "「Hibiki chắc hẳn rất rành về Ohitoyo. Là người địa phương, lại còn vẽ biển hiệu nên có mối liên hệ rất mật thiết.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1756,
+  "character": "ポーレット",
+  "jp": "「はい。ですからわたし、廃\\x%l客車;#00ffc040;客車%l;#;を譲ってくれる\\n\\x%lまいてつ;#00ffc040;まいてつ%l;#;さんがいないか、あたってみたいと思います」",
+  "tw": "「是的。所以我想找找看有沒有\\x%lまいてつ;#00ffc040;掌車人%l;#;願意將廢棄的\\x%l客車;#00ffc040;客運車廂%l;#;轉讓給我們」",
+  "old_vn": "「Vâng. Vì vậy, em định tìm xem có \\x%lまいてつ;#00ffc040;chủ tàu%l;#; nào\\nchịu nhượng lại \\x%l客車;#00ffc040;toa hành khách%l;#; phế liệu không.」",
+  "fix": "「Vâng. Vì vậy, em định tìm xem có \\x%lまいてつ;#00ffc040;chủ tàu%l;#; nào chịu nhượng lại \\x%l客車;#00ffc040;toa hành khách%l;#; bỏ hoang không.」",
+  "kind": "meaning",
+  "reason": "廃客車 = toa hành khách bỏ hoang (tiền lệ 廃駅 = \"ga bỏ hoang\", Paulette 14 1683); bản cũ \"phế liệu\" — chỗ duy nhất khác trong dự án (日々姫08 3317) dùng \"toa hành khách bỏ đi\". Thẻ `%l` cho 客車 giữ nguyên."
+ },
+ {
+  "key": 1776,
+  "character": "ポーレット",
+  "jp": "「かもしれませんね、御一夜で一番古い場所ですし」",
+  "tw": "「有可能呢，畢竟那裡是御一夜最古老的地方」",
+  "old_vn": "「Có thể lắm ạ, đó là nơi lâu đời nhất ở Ohito mà.」",
+  "fix": "「Có thể lắm ạ, đó là nơi lâu đời nhất ở Ohitoyo mà.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1786,
+  "character": "ハチロク",
+  "jp": "「まして御一夜のことを、\\nわたくしは詳しく知りません」",
+  "tw": "「況且我對御一夜並不熟悉」",
+  "old_vn": "「Hơn nữa, về Ohito,\\ntôi cũng không biết rõ lắm.」",
+  "fix": "「Hơn nữa, về Ohitoyo, tôi cũng không biết rõ lắm.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1789,
+  "character": "双鉄",
+  "jp": "「ポーレットはどうだ？　御一夜の観光については」",
+  "tw": "「波萊特對御一夜的觀光旅遊有多了解？」",
+  "old_vn": "「Paulette thì sao? Về việc tham quan Ohito ấy.」",
+  "fix": "「Paulette thì sao? Về việc tham quan Ohitoyo ấy.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1817,
+  "character": "双鉄",
+  "jp": "「確かに、観光振興のことを考えてでもあったな。\\nそれが全てでもなかったが」",
+  "tw": "「的確，我來這裡也是為了思考有關旅遊業復興的事。但這並不是全部的原因」",
+  "old_vn": "「Đúng là anh cũng có nghĩ đến việc chấn hưng du lịch.\\nDù đó không phải là tất cả lý do.」",
+  "fix": "「Đúng là tôi cũng có nghĩ đến việc chấn hưng du lịch. Dù đó không phải là tất cả lý do.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1820,
+  "character": "双鉄",
+  "jp": "「現状、宿泊地に選ばれるほどの強みを持たん御一夜は、\\n短時間の観光で通過されてしまう……というわけか」",
+  "tw": "「目前御一夜不具備讓遊客選擇留宿的特色，很容易被看做景區之間的中轉站而草草經過嗎」",
+  "old_vn": "「Hiện tại, Ohito không có đủ sức hấp dẫn để được chọn làm nơi lưu trú,\\nnên chỉ là một điểm dừng chân chớp nhoáng rồi bị bỏ qua... ra là vậy.」",
+  "fix": "「Hiện tại, Ohitoyo không có đủ sức hấp dẫn để được chọn làm nơi lưu trú, nên chỉ là một điểm dừng chân chớp nhoáng rồi bị bỏ qua... ra là vậy.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1846,
+  "character": "真闇",
+  "jp": "「あんね、双ちゃん。ウチも古い御一夜の人間やけん、\\n[よそ,1]他所の人らに、何が魅力的に見ゆるやはわからんね」",
+  "tw": "「聽我說呀，小雙。我雖然也是御一夜土生土長的，可卻不知道在外地的人眼中，哪裡才是有魅力的地方咧」",
+  "old_vn": "「Chị nói nghe nè, Sou-chan. Chị cũng là người Ohito gốc,\\nnên không biết trong mắt người xứ khác, Ohito có điểm gì hấp dẫn đâu nha.」",
+  "fix": "「Chị nói nghe nè, Sou-chan. Chị cũng là người Ohitoyo gốc, nên không biết trong mắt người xứ khác, Ohitoyo có điểm gì hấp dẫn đâu nha.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1859,
+  "character": "凪",
+  "jp": "「御一夜の観光ば、クマ川下りで決まりばい！\\nクマ川下りを前面に押し出して宣伝するばい！！」",
+  "tw": "「要說御一夜的旅遊特色，當然是隈河漂流咧！咱們要重點宣傳隈河漂流咧！！」",
+  "old_vn": "「Nói đến du lịch Ohito, chắc chắn phải là chèo thuyền trên sông Kuma rồi!\\nChúng ta phải đẩy mạnh quảng bá chèo thuyền trên sông Kuma!!」",
+  "fix": "「Nói đến du lịch Ohitoyo, chắc chắn phải là chèo thuyền trên sông Kuma rồi! Chúng ta phải đẩy mạnh quảng bá chèo thuyền trên sông Kuma!!」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1888,
+  "character": "双鉄",
+  "jp": "「これこそ、まさにキジウマですな」",
+  "tw": "「這可真是，跟雉子馬一樣Ｑ」",
+  "old_vn": "「Cái này, ngon bá cháy bọ chét luôn.」",
+  "fix": "「Cái này, đúng là một con ngựa Kiji mà.」",
+  "kind": "meaning",
+  "reason": "JP これこそ、まさにキジウマですな — bản Việt bỏ hẳn tên キジウマ (ngựa Kiji); TW \"跟雉子馬一樣Ｑ\" xác nhận. Câu đùa chỉ có nghĩa khi giữ tên con ngựa gỗ (Paulette bật cười ở 1627)."
+ },
+ {
+  "key": 1889,
+  "character": "ポーレット",
+  "jp": "「ここが、御一夜で一番古い現存建造物とされてます。\\n確か……築百三十年とか百四十年とか」",
+  "tw": "「這就是御一夜現存最古老的建築物。我記得……已經有１３０年還是１４０年的歷史了」",
+  "old_vn": "「Đây được cho là công trình kiến trúc hiện tồn lâu đời nhất ở Ohito.\\nChắc là... được xây dựng cách đây 130 hay 140 năm gì đó.」",
+  "fix": "「Đây được cho là công trình kiến trúc hiện tồn lâu đời nhất ở Ohitoyo. Chắc là... được xây dựng cách đây 130 hay 140 năm gì đó.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1914,
+  "character": "双鉄",
+  "jp": "「僕が最も適任となるか？　\\n昔も今も、ほぼ御一夜の観光をした記憶がない」",
+  "tw": "「那麼我就是那個最佳人選吧？無論過去還是現在，我都沒有在御一夜觀光過的經歷」",
+  "old_vn": "「Anh là người phù hợp nhất sao?\\nTừ trước đến nay, anh hầu như không có ký ức gì về việc đi tham quan Ohito cả.」",
+  "fix": "「Tôi là người phù hợp nhất sao? Từ trước đến nay, tôi hầu như không có ký ức gì về việc đi tham quan Ohitoyo cả.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\". Đồng thời Soutetsu tự xưng \"anh\" — trái docs (locations §2.1: \"Tôi\")."
+ },
+ {
+  "key": 1926,
+  "character": "双鉄",
+  "jp": "「ならば、ポーレット。今週のスケジュールを貰えるか？\\nできるだけ早く動きたい」",
+  "tw": "「那麼，波萊特。能把這週的日程表給我嗎？我想要儘快行動」",
+  "old_vn": "「Vậy thì, Paulette. Em cho anh xem lịch trình tuần này được không?\\nAnh muốn tiến hành càng sớm càng tốt.」",
+  "fix": "「Vậy thì, Paulette. Em cho tôi xem lịch trình tuần này được không? Tôi muốn tiến hành càng sớm càng tốt.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\"; \"Anh\" chỉ dùng với Hibiki)."
+ },
+ {
+  "key": 1927,
+  "character": "双鉄",
+  "jp": "「ならどうだ。僕と一緒に見てみんか？　御一夜の観光を、\\nどのように盛りたてていけばいいかを、新しい視点で」",
+  "tw": "「那麼，要不要和我一起去看看？　以一個全新的角度，去思考怎麼樣才能振興御一夜的旅遊業」",
+  "old_vn": "「Vậy thì sao nào. Em có muốn cùng anh đi xem thử không?\\nXem làm thế nào để thúc đẩy du lịch Ohito, dưới một góc nhìn mới.」",
+  "fix": "「Vậy thì sao nào. Em có muốn cùng tôi đi xem thử không? Xem làm thế nào để thúc đẩy du lịch Ohitoyo, dưới một góc nhìn mới.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\". Đồng thời Soutetsu tự xưng \"anh\" — trái docs (locations §2.1: \"Tôi\")."
+ },
+ {
+  "key": 1936,
+  "character": "ポーレット",
+  "jp": "「御一夜[じょうし,1]城址、クマ川下り発船所の他だと、\\n[みぎたいちしゅぞうもと,5]右田一酒造元もそうですよね」",
+  "tw": "「除了御一夜城址、隈河漂流發船點之外，右田一釀酒廠也是其中之一呢」",
+  "old_vn": "「Ngoài Di tích thành Ohito và bến tàu chèo sông Kuma ra,\\nthì Nhà máy rượu Migita System cũng là một điểm tham quan nhỉ.」",
+  "fix": "「Ngoài Di tích thành Ohitoyo và bến tàu chèo sông Kuma ra, thì Nhà máy rượu Migita System cũng là một điểm tham quan nhỉ.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1945,
+  "character": "双鉄",
+  "jp": "「まずは、御一夜らしいこと。\\nその魅力を伝える駅弁であること」",
+  "tw": "「首先，要有御一夜特色。您的鐵路便當需要能夠彰顯它的魅力」",
+  "old_vn": "「Trước hết, phải mang đậm chất Ohito.\\nPhải là một hộp cơm truyền tải được sức hấp dẫn của nơi này.」",
+  "fix": "「Trước hết, phải mang đậm chất Ohitoyo. Phải là một hộp cơm truyền tải được sức hấp dẫn của nơi này.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 1947,
+  "character": "日々姫",
+  "jp": "「っ！」\\n「――っ」",
+  "tw": "「！」\\n「——」",
+  "old_vn": "「!」\\n「——」",
+  "fix": "「Ư!」 「——Ư」",
+  "kind": "minor",
+  "reason": "JP 「っ！」\\n「――っ」 — bản Việt mất cả hai tiếng hít (mẫu mất っ toàn dự án; sfx §3: \"——っ\" được giữ)."
+ },
+ {
+  "key": 1950,
+  "character": "ポーレット",
+  "jp": "「/////っ！！」",
+  "tw": "「（臉紅）！！」",
+  "old_vn": "「/////!!」",
+  "fix": "「/////Ư!!」",
+  "kind": "minor",
+  "reason": "JP 「/////っ！！」 — bản Việt \"/////!!\" mất tiếng hít っ (mẫu mất っ toàn dự án)."
+ },
+ {
+  "key": 2196,
+  "character": "monologue",
+  "jp": "故にペースをあわせることなく、自然に歩ける。\\n歩幅が近いということが、ごく単純に心地良い。",
+  "tw": "因此我不必顧及他人的步伐，走得很自然。兩個人的步幅相近，原來是如此令人感到舒適。",
+  "old_vn": "Không có Reina xen giữa, không dẫn Hachiroku theo.\\nNên chúng tôi có thể bước đi tự nhiên, không cần phải gượng ép bắt nhịp với ai.",
+  "fix": "Nên chúng tôi có thể bước đi tự nhiên, không cần phải gượng ép bắt nhịp với ai.",
+  "kind": "meaning",
+  "reason": "Dòng thừa câu đầu: câu \"Không có Reina xen giữa, không dẫn Hachiroku theo.\" là bản dịch câu 2 của 1151, không thuộc 2196 (cặp lệch vị trí 1151↔2196)."
+ },
+ {
+  "key": 2307,
+  "character": "monologue",
+  "jp": "御一夜[じょうし,1]城址をゆっくり下りれば、\\nすぐに市役所前に出る。",
+  "tw": "我們慢慢地走下御一夜城址，很快走到了市政府門前。",
+  "old_vn": "Từ tốn đi xuống từ Di tích thành Ohito,\\nsẽ ra ngay trước Tòa thị chính.",
+  "fix": "Từ tốn đi xuống từ Di tích thành Ohitoyo, sẽ ra ngay trước Tòa thị chính.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 2471,
+  "character": "monologue",
+  "jp": "御一夜城址、三の丸跡から一望できる御一夜の町。\\n正直ごくごく平凡な、一昔前の田舎町という印象だったが。",
+  "tw": "站在御一夜城址的三之丸遺址上，便能將御一夜的街道盡收眼底。我對它的印象還停留在原本平凡而落後的小鄉村。",
+  "old_vn": "Từ tàn tích Sannomaru của thành Ohito, có thể phóng tầm mắt bao quát toàn bộ thị trấn.\\nThành thật mà nói, ấn tượng của tôi về nó chỉ là một thị trấn nông thôn hết sức bình thường của ngày xưa.",
+  "fix": "Từ tàn tích Sannomaru của thành Ohitoyo, có thể phóng tầm mắt bao quát toàn bộ thị trấn. Thành thật mà nói, ấn tượng của tôi về nó chỉ là một thị trấn nông thôn hết sức bình thường của ngày xưa.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 2480,
+  "character": "monologue",
+  "jp": "ふかみと凪は――っ！？",
+  "tw": "而深美和凪——嗯！？",
+  "old_vn": "Fukami và Nagi thì——!?",
+  "fix": "Fukami và Nagi thì——Ư!?",
+  "kind": "minor",
+  "reason": "JP \"――っ！？\" — bản Việt \"——!?\" mất tiếng hít っ (mẫu mất っ toàn dự án)."
+ },
+ {
+  "key": 2551,
+  "character": "monologue",
+  "jp": "クマ川、焼酎、水、幽霊――\\n永山さんの「らしさ」がそこに、記されていく。",
+  "tw": "隈河、燒酒、水、幽靈——永山女士依次寫下在她心目中的“特色”。",
+  "old_vn": "Sông Kuma, rượu shochu, nước, ma quỷ——\\nNhững 'chất Ohito' theo suy nghĩ của cô Nagayama được ghi lại trên đó.",
+  "fix": "Sông Kuma, rượu shochu, nước, ma quỷ—— Những 'chất Ohitoyo' theo suy nghĩ của cô Nagayama được ghi lại trên đó.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 2556,
+  "character": "monologue",
+  "jp": "鯉のぼりに車輪をつけたような御一夜伝統の木工細工は、\\n小さくとも大きくとも、それぞれ愛嬌に満ちている。",
+  "tw": "雉子馬的外形類似裝了兩個輪子的鯉魚旗，是御一夜傳統的木工工藝品。有大有小，非常討人喜歡。",
+  "old_vn": "Món đồ gỗ truyền thống của Ohito, trông như chiếc cờ cá chép được gắn thêm bánh xe,\\ndù to hay nhỏ đều mang vẻ đáng yêu riêng.",
+  "fix": "Món đồ gỗ truyền thống của Ohitoyo, trông như chiếc cờ cá chép được gắn thêm bánh xe, dù to hay nhỏ đều mang vẻ đáng yêu riêng.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ }
+]

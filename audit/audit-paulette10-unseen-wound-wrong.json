@@ -1,0 +1,202 @@
+[
+ {
+  "key": 984,
+  "speaker": "Paulette",
+  "jp": "「っ――」",
+  "tw": "「——」",
+  "old_vn": "「――」",
+  "kind": "minor",
+  "fix": "「Ư――」",
+  "reason": "JP 「っ――」 là tiếng hít/gasp; bản cũ chỉ còn \"――\" làm mất tiếng hít. Sửa theo tiền lệ 再開発 2103/2537 và Paulette 09 2274/2275/2277."
+ },
+ {
+  "key": 1000,
+  "speaker": "Maia",
+  "jp": "「っ！　掃除も食事の準備も満足にできないのは、\\nあなたが仕事を、いきなり投げ出したからでしょう！」",
+  "tw": "「——！　我之所以沒辦法做好打掃和飯菜，還不是因為你突然撒手不工作了的緣故！」",
+  "old_vn": "「! Việc em không thể dọn dẹp hay chuẩn bị bữa ăn chu đáo,\\nchẳng phải là do anh đột nhiên vứt bỏ công việc sao!」",
+  "kind": "minor",
+  "fix": "「Ư! Việc em không thể dọn dẹp hay chuẩn bị bữa ăn chu đáo, chẳng phải là do anh đột nhiên vứt bỏ công việc sao!」",
+  "reason": "JP mở đầu bằng っ！ (tiếng hít sắc trước câu mắng); bản cũ chỉ còn \"!\" trơ trọi làm mất tiếng hít. Người nói là Maia (mẹ Paulette)."
+ },
+ {
+  "key": 1042,
+  "speaker": "Kozo",
+  "jp": "「……すまないとは思っている。それでも……\\n[ふるさと,1]故郷が――御一夜が失われるのを、放置など――」",
+  "tw": "「……我知道我對不起你。但即使如此……我也不能眼睜睜看著我的故鄉——看著御一夜就此消亡——」",
+  "old_vn": "「...Anh biết là anh có lỗi. Nhưng dù vậy...\\nAnh không thể làm ngơ trước việc quê hương――Ohimitera bị hủy hoại được――」",
+  "kind": "terminology",
+  "fix": "「...Anh biết là anh có lỗi. Nhưng dù vậy... Anh không thể làm ngơ trước việc quê hương――Ohitoyo bị hủy hoại được――」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1382,
+  "speaker": "Soutetsu",
+  "jp": "「おお！　れいなもありがとう。\\n不慣れな僕を、よくナビゲートしてくれた」",
+  "tw": "「噢噢！　還要謝謝玲奈。謝謝你為生疏的我提供指導」",
+  "old_vn": "「Ồ! Cảm ơn em nhé, Reina.\\nCảm ơn em đã chỉ dẫn tận tình cho một người còn nhiều bỡ ngỡ như anh.」",
+  "kind": "pronoun",
+  "fix": "「Ồ! Cảm ơn em nhé, Reina. Cảm ơn em đã chỉ dẫn tận tình cho một người còn nhiều bỡ ngỡ như tôi.」",
+  "reason": "Soutetsu tự xưng \"tôi\" trong thoại (docs; quét máy: \"tôi/Tôi\" 19 dòng vs \"anh/Anh\" chỉ 2 dòng sai 1382/1445). \"Em\" ở đây là xưng hô với Reina, giữ nguyên."
+ },
+ {
+  "key": 1445,
+  "speaker": "Soutetsu",
+  "jp": "「僕もそうする。ベストを尽くす。\\nもっと上手になれるよう、もっと一緒にいられるように」",
+  "tw": "「我也一樣會盡我所能。為了能夠精益求精，為了能夠更加接近大家」",
+  "old_vn": "「Anh cũng sẽ làm vậy. Anh sẽ cố gắng hết sức.\\nĐể có thể giỏi hơn, để có thể ở bên mọi người nhiều hơn.」",
+  "kind": "pronoun",
+  "fix": "「Tôi cũng sẽ làm vậy. Tôi sẽ cố gắng hết sức. Để có thể giỏi hơn, để có thể ở bên mọi người nhiều hơn.」",
+  "reason": "Soutetsu tự xưng \"tôi\" trong thoại; bản cũ dùng \"Anh\" 2 lần."
+ },
+ {
+  "key": 1573,
+  "speaker": "Kozo",
+  "jp": "「何を――\\x%lエアクラ;#00ffc040;エアクラ%l;#;工場誘致計画は、『御一夜を壊す』と、\\nおまえも反対していただろう」",
+  "tw": "「說什麼呢——你不是也反對\\x%lエアクラ;#00ffc040;空凝機%l;#;工廠落戶計劃，認為它會“毀掉御一夜”嗎」",
+  "old_vn": "「Nói gì thế――kế hoạch thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; sẽ 『Phá hủy Ohimitera』,\\nchính em cũng đã phản đối cơ mà.」",
+  "kind": "terminology",
+  "fix": "「Nói gì thế――kế hoạch thu hút nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; sẽ 『Phá hủy Ohitoyo』, chính em cũng đã phản đối cơ mà.」",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\". Thẻ %l giữ nguyên."
+ },
+ {
+  "key": 1611,
+  "speaker": "Paulette",
+  "jp": "「えと、お[さゆ,1]白湯、先にいただけますか？」",
+  "tw": "「那個——我能先喝水嗎？」",
+  "old_vn": "「Ưm, cho tôi xin cốc nước lọc trước được không?」",
+  "kind": "meaning",
+  "fix": "「Ưm, cho tôi xin cốc nước ấm trước được không?」",
+  "reason": "白湯 (sayu) là nước đun sôi để nguội/nước ấm, không phải \"nước lọc\"; chính file này ở 1504 đã dịch 白湯 là \"nước ấm\". Toàn dự án chỉ có 4 dòng JP chứa 白湯."
+ },
+ {
+  "key": 1633,
+  "speaker": "Soutetsu",
+  "jp": "「っ！　――制限５０、良しっ！」",
+  "tw": "「！　——限速５０，正常！」",
+  "old_vn": "「! ——Giới hạn 50, tốt!」",
+  "kind": "minor",
+  "fix": "「Ư!――Giới hạn 50, tốt!」",
+  "reason": "JP mở đầu bằng っ！ (tiếng hít trước câu hô xác nhận lái tàu); bản cũ chỉ còn \"!\". Đã chuẩn hoá khoảng trắng quanh ―― theo quy ước."
+ },
+ {
+  "key": 1634,
+  "speaker": "Soutetsu",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "kind": "minor",
+  "fix": "「Ư!」",
+  "reason": "JP 「っ！」 là tiếng hít độc lập; bản cũ \"「!」\" làm mất tiếng hít. Tiền lệ 再開発 2103."
+ },
+ {
+  "key": 1635,
+  "speaker": "Soutetsu",
+  "jp": "「っ！！！」",
+  "tw": "「！！！」",
+  "old_vn": "「!!!」",
+  "kind": "minor",
+  "fix": "「Ư!!!」",
+  "reason": "JP 「っ！！！」 là tiếng hít độc lập; bản cũ \"「!!!」\" làm mất tiếng hít."
+ },
+ {
+  "key": 1636,
+  "speaker": "Paulette",
+  "jp": "「～～～ッ」",
+  "tw": "「～～～」",
+  "old_vn": "「~~~!」",
+  "kind": "minor",
+  "fix": "「~~~Ư!」",
+  "reason": "JP 「～～～ッ」 là tiếng hít nghẹn kéo dài; bản cũ \"「~~~!」\" làm mất tiếng hít. Theo mẫu \"~Ư!\" (Paulette 09 2277)."
+ },
+ {
+  "key": 1639,
+  "speaker": "Soutetsu",
+  "jp": "「～～～っ！」",
+  "tw": "「～～～！」",
+  "old_vn": "「~~~!」",
+  "kind": "minor",
+  "fix": "「~~~Ư!」",
+  "reason": "JP 「～～～っ！」 là tiếng hít nghẹn kéo dài; bản cũ \"「~~~!」\" làm mất tiếng hít. Theo mẫu \"~Ư!\" (Paulette 09 2277)."
+ },
+ {
+  "key": 1846,
+  "speaker": "lời dẫn",
+  "jp": "やだ、いやだ。\\n泣いちゃった……ママ――",
+  "tw": "不，不要。媽媽她……哭了——",
+  "old_vn": "\"Không, không muốn đâu.\\nMẹ... khóc mất rồi――\"",
+  "kind": "meaning",
+  "fix": "\"Không, không muốn đâu. Mình... khóc mất rồi―― Mẹ――\"",
+  "reason": "JP không có chủ ngữ — đây là độc thoại của Paulette lúc nhỏ (khóc và gọi mẹ); TW chèn 媽媽她 làm chủ ngữ nên bản cũ dịch sai thành \"Mẹ... khóc mất rồi\". Bằng chứng: 2154 có も (\"ba cũng khóc\") nên Paulette cũng đang khóc. Dùng \"Mình\" theo quy ước POV trẻ con của file; giữ dấu ngoặc kép \"…\" theo quy ước của 62 dòng độc thoại POV trẻ con trong file."
+ },
+ {
+  "key": 1963,
+  "speaker": "lời dẫn",
+  "jp": "れいなにだったらどうふるまうか――\\n考えればすぐ、最適と思われる解は見つかる。",
+  "tw": "如果在我面前的是玲奈，我會怎麼做——這樣一想，我便很快找到了最佳答案。",
+  "old_vn": "Nếu là Reina thì mình sẽ làm thế nào——\\nChỉ cần nghĩ vậy, tôi liền tìm ra cách giải quyết tối ưu nhất.",
+  "kind": "pronoun",
+  "fix": "Nếu là Reina thì tôi sẽ làm thế nào——Chỉ cần nghĩ vậy, tôi liền tìm ra cách giải quyết tối ưu nhất.",
+  "reason": "\"Mình\" làm chủ ngữ của mệnh đề điều kiện độc lập, không có \"Tôi\" chi phối trước đó — theo quy tắc \"mình\" (xem phương pháp). Mệnh đề sau đã dùng \"tôi\". Đã chuẩn hoá khoảng trắng quanh —— theo quy ước (không có khoảng trắng hai bên)."
+ },
+ {
+  "key": 2019,
+  "speaker": "lời dẫn",
+  "jp": "すっかり冷めてしまっているが、白湯はどうかと勧めれば、\\nポーレットはそれもまた旨そうに、ごくごく飲み干す。",
+  "tw": "我問波萊特要不要喝那杯已經完全涼了的白開水，她也同樣津津有味地喝完了。",
+  "old_vn": "Tôi hỏi cô ấy có muốn uống nốt cốc nước lọc đã nguội ngắt kia không,\\nPaulette cũng ngon lành uống cạn một hơi.",
+  "kind": "meaning",
+  "fix": "Tôi hỏi cô ấy có muốn uống nốt cốc nước ấm đã nguội ngắt kia không, Paulette cũng ngon lành uống cạn một hơi.",
+  "reason": "白湯 là nước ấm (đã nguội), không phải \"nước lọc\"; theo chuẩn của chính file này ở 1504. TW 白開水 đồng thuận."
+ },
+ {
+  "key": 2133,
+  "speaker": "lời dẫn",
+  "jp": "ポーレットと、れいなと。\\n御一夜鉄道の仲間達と。",
+  "tw": "波萊特與玲奈，還有御一夜鐵路的伙伴們。",
+  "old_vn": "Cùng với Paulette, cùng với Reina.\\nCùng với những người đồng đội ở Đường sắt Ohito.",
+  "kind": "terminology",
+  "fix": "Cùng với Paulette, cùng với Reina. Cùng với những người đồng đội ở Đường sắt Ohitoyo.",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohito\"."
+ },
+ {
+  "key": 2148,
+  "speaker": "lời dẫn",
+  "jp": "“れいなが僕に謝れば、ポーレットはそれを気に病む”と、\\n耳もと、素早く囁きかける。",
+  "tw": "然後貼近她耳邊輕聲地說“如果玲奈向我道歉，波萊特就會感到自責”。",
+  "old_vn": "Tôi nhanh chóng thì thầm vào tai con bé,\\n“Nếu Reina xin lỗi anh, Paulette sẽ lại bận tâm về chuyện đó đấy”.",
+  "kind": "pronoun",
+  "fix": "Tôi nhanh chóng thì thầm vào tai con bé, \"Nếu Reina xin lỗi tôi, Paulette sẽ lại bận tâm về chuyện đó đấy\".",
+  "reason": "Soutetsu đang nói với Reina (thì thầm vào tai \"con bé\" = Reina); \"anh\" tự xưng với Reina là sai — phải là \"tôi\". JP: れいなが僕に謝れば (Reina xin lỗi tôi)."
+ },
+ {
+  "key": 2283,
+  "speaker": "lời dẫn",
+  "jp": "過保護すぎるかと少し思うが、\\nポーレットは心地よさそうだ。",
+  "tw": "雖然有些擔心我是不是太小題大做了，但波萊特似乎覺得很舒坦。",
+  "old_vn": "Dù hơi lo rằng mình đang chăm sóc thái quá,\\nnhưng có vẻ Paulette thấy rất thoải mái.",
+  "kind": "pronoun",
+  "fix": "Dù hơi lo rằng tôi đang chăm sóc thái quá, nhưng có vẻ Paulette thấy rất thoải mái.",
+  "reason": "\"Mình\" làm chủ ngữ của mệnh đề \"rằng\" mà cả câu không có \"Tôi\" hiển ngôn nào chi phối — theo quy tắc \"mình\" (không thuộc mẫu \"Tôi… mình…\")."
+ },
+ {
+  "key": 2360,
+  "speaker": "lời dẫn",
+  "jp": "（僕も、同じだ）",
+  "tw": "（我——也是一樣）",
+  "old_vn": "\"（Mình cũng, giống như vậy.）\"",
+  "kind": "pronoun",
+  "fix": "\"（Tôi cũng, giống như vậy.）\"",
+  "reason": "\"Mình\" làm chủ ngữ độc lập trong suy nghĩ ngoặc đơn của Soutetsu → \"Tôi\" (tiền lệ hearing 2580/2584/2586/2590). Giữ dấu ngoặc kép \"…\" theo file."
+ },
+ {
+  "key": 2385,
+  "speaker": "lời dẫn",
+  "jp": "（ならば、今からでも体制を作り出せねばならん）",
+  "tw": "（那麼我現在必須儘快想出一套體制才行）",
+  "old_vn": "\"（Nếu vậy, ngay từ bây giờ mình phải tạo ra một hệ thống mới được.）\"",
+  "kind": "pronoun",
+  "fix": "\"（Nếu vậy, ngay từ bây giờ tôi phải tạo ra một hệ thống mới được.）\"",
+  "reason": "\"Mình\" làm chủ ngữ độc lập trong suy nghĩ ngoặc đơn của Soutetsu → \"Tôi\". Giữ dấu ngoặc kép \"…\" theo file."
+ }
+]

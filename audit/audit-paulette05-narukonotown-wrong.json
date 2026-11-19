@@ -1,0 +1,242 @@
+[
+  {
+    "key": "1245",
+    "char": "monologue",
+    "jp": "……慎重にいきたいところだが、\\nこのままとどまっているのも怖い。",
+    "tw": "……雖然我想慎重一點，可一直待在這裡也挺讓我害怕的。",
+    "old_vn": "（Đây là một ngọn núi cao khoảng 1 mét. Cho dù có rơi xuống,\\nchắc cũng không đến mức bị thương nặng——）",
+    "fix": "……Tôi muốn thật cẩn thận, nhưng cứ đứng yên ở đây thế này cũng đáng sợ.",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 2784 (núi tuyết cao 1m) — lệch chuỗi tuyết; bản dịch đúng của dòng này không còn ở đâu trong dự án, dịch mới."
+  },
+  {
+    "key": "1264",
+    "char": "双鉄",
+    "jp": "「……雪の下が空洞になっている部分があったのだな。\\nそこを踏み抜き、右足がすっぽり落ちてしまった」",
+    "tw": "「……看來雪下面有個空洞。我右腳踩在上面陷進去了」",
+    "old_vn": "Tiếp theo, dùng lời nói để xác nhận tình trạng hiện tại.",
+    "fix": "「……Có một khoảng trống dưới lớp tuyết nhỉ. Tôi đã dẫm phải chỗ đó, và chân phải bị lọt thỏm xuống.」",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 2568 (\"Tiếp theo, dùng lời nói…\"); bản dịch đúng của dòng này đang ở 2518."
+  },
+  {
+    "key": "1625",
+    "char": "ポーレット",
+    "jp": "「御一夜だけじゃないですよ？\\n九洲は、温泉卵やってる温泉の方がレアです」",
+    "tw": "「不光是御一夜。整個九州都很少有做溫泉蛋的」",
+    "old_vn": "「Không chỉ riêng Ohimitera đâu ạ?\\nỞ Kyushu, suối nước nóng có làm món trứng này hiếm lắm.」",
+    "fix": "「Không chỉ riêng Ohitoyo đâu ạ? Ở Kyushu, suối nước nóng có làm món trứng này hiếm lắm.」",
+    "type": "terminology",
+    "note": "御一夜: quyết định 19/11 của Hieu = \"Ohitoyo\" (không dùng \"Ohimitera\" nữa)."
+  },
+  {
+    "key": "1660",
+    "char": "双鉄",
+    "jp": "「まかせておけ。ハチロクとは長いつきあいだ。\\nあれのこけしなら、僕は相当うまくつくれる気がする」",
+    "tw": "「交給我吧。我跟八六認識這麼久了，肯定會做出一個和她一模一樣的木芥子來的」",
+    "old_vn": "「Cứ giao cho tôi. Tôi đã quen biết Hachiroku từ lâu rồi.\\nNếu là Kokeshi của em ấy, tôi có cảm giác mình sẽ làm khá tốt đấy.」",
+    "fix": "「Cứ giao cho tôi. Tôi đã quen biết Hachiroku từ lâu rồi. Nếu là Kokeshi của em ấy, tôi có cảm giác sẽ làm khá tốt đấy.」",
+    "type": "pronoun",
+    "note": "Soutetsu thoại xưng \"mình\" làm chủ ngữ mệnh đề phụ, quy ước file/docs là \"Tôi\"."
+  },
+  {
+    "key": "1700",
+    "char": "ひかり",
+    "jp": "「あのね、ひかりね。\\nきゅっきゅってなるこがいいのー」",
+    "tw": "「光想試試那個會吱吱叫的」",
+    "old_vn": "「Mẹ ơi, Hikari nhé.\\nMuốn làm cái kêu cót két cơ~」",
+    "fix": "「Này nhé~! Hikari muốn làm cái kêu cót két cơ~」",
+    "type": "meaning",
+    "note": "VN thêm \"Mẹ ơi\" không có trong JP (あのね) — mà Hikari lúc này đang nói với papa (Soutetsu), không phải với mẹ; sai người nghe."
+  },
+  {
+    "key": "1726",
+    "char": "ひかり",
+    "jp": "「ふゆのたのしみー！\\nゆきだるま！　ゆきがっせん！　かまくま！」",
+    "tw": "「冬天的樂趣！堆雪人！打雪仗！住雪洞！」",
+    "old_vn": "「Niềm vui mùa đông~!\\nNgười tuyết! Ném tuyết! Gấu tuyết!」",
+    "fix": "「Niềm vui mùa đông~!\\nNgười tuyết! Ném tuyết! Gấu tuyết!」",
+    "type": "correct-audit-error-reverted",
+    "note": "REVERTED 19/11 (Hieu): JP is really かまくま — Hikari's deliberate mispronunciation (かまくら + くま), corrected by Soutetsu at 1633, self-corrected at 1945. Current VN 'Gấu tuyết!' is CORRECT; the audit's 'Lều tuyết' fix was wrong (it followed TW 住雪洞 and killed the joke). Removed from TOML block."
+  },
+  {
+    "key": "1969",
+    "char": "双鉄",
+    "jp": "「僕は大丈夫。\\n痛みはない、おそらく、怪我もしていない」",
+    "tw": "「我沒事。身上不痛，應該也沒有受傷」",
+    "old_vn": "「A!!」",
+    "fix": "「Tôi không sao. Không thấy đau, có lẽ cũng không bị thương.」",
+    "type": "misaligned",
+    "note": "VN cũ \"A!!\" trùng y hệt 1854 (chỉ 1854 đúng); bản dịch đúng của dòng này đang ở 2699."
+  },
+  {
+    "key": "1992",
+    "char": "ひかり",
+    "jp": "「いただくのー！」",
+    "tw": "「教我們吧！」",
+    "old_vn": "「Xin được chỉ giáo~!」",
+    "note": "DECIDED 19/11 (Hieu asked for 3-5 lines of context instead of playing the scene): 1987 Hikari massaging ('Quý khách ơi~, có chỗ nào bị ngứa không ạ~'), 1990 'Buông em ra~, em muốn leo lên cơ~', 1995 'Cháu hiểu rồi ạ~. Xoa xoa, xoa xoa' — she is being allowed to climb up to massage; いただく = receive/take, never 'teach'. Old VN 'Xin được chỉ giáo~!' followed the wrong TW 教我們吧. Fix uses 'em' per line 1990 (1995 uses 'cháu' — Hieu may unify).",
+    "type": "decided",
+    "fix": "「Em xin nhận đây~!」"
+  },
+  {
+    "key": "2010",
+    "char": "双鉄",
+    "jp": "「水切り、な。ポーレット。空いているかごの鎖の端を、\\nひかりに持たせてやってくれるか？」",
+    "tw": "「是瀝水籃。波萊特，你能讓光拿著空籃子那一邊的鐵鏈嗎？」",
+    "old_vn": "「Vớt nước, nhé. Paulette. Cô có thể đưa đầu xích của một chiếc rổ trống\\ncho Hikari cầm giúp tôi được không?」",
+    "fix": "「Rổ ráo nước, nhé. Paulette. Cô có thể đưa đầu xích của một chiếc rổ trống cho Hikari cầm giúp tôi được không?」",
+    "type": "meaning",
+    "note": "水切り (TW: 瀝水籃 — rổ để ráo nước) bị dịch thành \"Vớt nước\"."
+  },
+  {
+    "key": "2112",
+    "char": "双鉄",
+    "jp": "「そういえば、御一夜では温泉卵をやらないな」",
+    "tw": "「說起來，我也沒在御一夜見到過溫泉蛋呢」",
+    "old_vn": "「Nhắc mới nhớ, ở Ohimitera không làm trứng luộc suối nước nóng nhỉ.」",
+    "fix": "「Nhắc mới nhớ, ở Ohitoyo không làm trứng luộc suối nước nóng nhỉ.」",
+    "type": "terminology",
+    "note": "御一夜: quyết định 19/11 của Hieu = \"Ohitoyo\" (không dùng \"Ohimitera\" nữa)."
+  },
+  {
+    "key": "2136",
+    "char": "双鉄",
+    "jp": "「ひもではなく鎖。鎖が、水切りかごに結びつけられ、\\n水切りかごは、温泉の湯の中に沈んでいる」",
+    "tw": "「這不是繩子，是鐵鏈。鐵鏈上掛著瀝水籃，可以把蛋放進籃子，再把籃子放進溫泉裡」",
+    "old_vn": "「Không phải dây mà là xích. Xích được buộc vào rổ vớt nước,\\nvà rổ vớt nước đang chìm trong nước suối nóng.」",
+    "fix": "「Không phải dây mà là xích. Xích được buộc vào rổ ráo nước, và rổ ráo nước đang chìm trong nước suối nóng.」",
+    "type": "meaning",
+    "note": "水切りかご = rổ để ráo nước (TW: 瀝水籃), không phải \"rổ vớt nước\" (2 lần trong dòng)."
+  },
+  {
+    "key": "2140",
+    "char": "ポーレット",
+    "jp": "「参考にしないとですよね。御一夜は素泊まりしちゃうと\\n朝食を食べられるお店に困るって声、市長時代から」",
+    "tw": "「這可得好好參考一下。從我還是市長的時候，就有好多客人來投訴說在御一夜住宿，早上起來找不到店吃早餐」",
+    "old_vn": "「Chúng ta phải tham khảo thôi. Từ hồi tôi còn làm thị trưởng,\\nđã có ý kiến cho rằng nếu chỉ thuê phòng nghỉ ở Ohimitera thì sẽ rất khó tìm quán ăn sáng.」",
+    "fix": "「Chúng ta phải tham khảo thôi. Từ hồi tôi còn làm thị trưởng, đã có ý kiến cho rằng nếu chỉ thuê phòng nghỉ ở Ohitoyo thì sẽ rất khó tìm quán ăn sáng.」",
+    "type": "terminology",
+    "note": "御一夜: quyết định 19/11 của Hieu = \"Ohitoyo\" (không dùng \"Ohimitera\" nữa)."
+  },
+  {
+    "key": "2177",
+    "char": "ひかり",
+    "jp": "「くさりと、みずきいかごーと、おんせんのゆー」",
+    "tw": "「鐵鏈掛著瀝睡籃，放進溫泉」",
+    "old_vn": "「Xích, và rổ vớt nước, và nước suối nóng~」",
+    "fix": "「Xích, và rổ ráo nước, và nước suối nóng~」",
+    "type": "meaning",
+    "note": "水切りかご = rổ để ráo nước (TW: 瀝水籃), không phải \"rổ vớt nước\"."
+  },
+  {
+    "key": "2187",
+    "char": "ポーレット",
+    "jp": "「双鉄くん、足、抜ける？」",
+    "tw": "「雙鐵君，能把右腿拔出來嗎？」",
+    "old_vn": "Nhưng, cũng không biết dưới ngọn núi này có phải là mặt đất hay không.\\nNếu nó là một cái rãnh sâu, thì không phải chuyện đùa đâu, sẽ nguy hiểm đến tính mạng đấy.",
+    "fix": "「Anh Soutetsu, chân rút ra được không?」",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 2375; bản dịch đúng của dòng này (Paulette hỏi Soutetsu có rút được chân ra không) không còn ở đâu trong dự án, dịch mới."
+  },
+  {
+    "key": "2375",
+    "char": "monologue",
+    "jp": "しかし、山の下に地面があるかもわからない。\\n深い溝にでもなっていたなら、冗談ではなく命の危機だ。",
+    "tw": "但我不知道雪堆底下是不是地面。要是掉進深溝裡就不妙了，真可能會有生命危險，這可不是鬧著玩的。",
+    "old_vn": "Dưới lớp tuyết. Không biết khoảng trống đó rộng bao nhiêu.\\nNếu nó rộng, có thể cả chân trái còn lại——toàn thân tôi sẽ rơi xuống dưới mất.",
+    "fix": "Nhưng, cũng không biết dưới ngọn núi này có phải là mặt đất hay không. Nếu nó là một cái rãnh sâu, thì không phải chuyện đùa đâu, sẽ nguy hiểm đến tính mạng đấy.",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 2518; bản dịch đúng của dòng này đang ở 2187."
+  },
+  {
+    "key": "2512",
+    "char": "monologue",
+    "jp": "産まれてこの方、ひかりは御一夜を殆ど離れたことが無い。\\nそして御一夜にいれば、身内だけですべてがこと足りる。",
+    "tw": "從出生之後光就幾乎沒有離開過御一夜。而只要在御一夜待著，她就會被認識的人關心呵護，滿足一切需求。",
+    "old_vn": "Từ khi sinh ra đến nay, Hikari hầu như chưa bao giờ rời khỏi Ohimitera.\\nVà nếu ở Ohimitera, chỉ cần những người thân thiết là đủ cho mọi thứ.",
+    "fix": "Từ khi sinh ra đến nay, Hikari hầu như chưa bao giờ rời khỏi Ohitoyo. Và nếu ở Ohitoyo, chỉ cần những người thân thiết là đủ cho mọi thứ.",
+    "type": "terminology",
+    "note": "御一夜: quyết định 19/11 của Hieu = \"Ohitoyo\" (không dùng \"Ohimitera\" nữa)."
+  },
+  {
+    "key": "2518",
+    "char": "monologue",
+    "jp": "雪の下。どれだけの範囲に空洞があるのかわからない。\\n広ければ、残ってる左足ごと――全身が下に落ちかねない。",
+    "tw": "我不知道雪下面的空洞有多大。要是洞很大，我的左腳甚至全身都有可能會掉下去。",
+    "old_vn": "「……Có một khoảng trống dưới lớp tuyết nhỉ.\\nTôi đã dẫm phải chỗ đó, và chân phải bị lọt thỏm xuống.」",
+    "fix": "Dưới lớp tuyết. Không biết khoảng trống đó rộng bao nhiêu. Nếu nó rộng, có thể cả chân trái còn lại——toàn thân tôi sẽ rơi xuống dưới mất.",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 1264; bản dịch đúng của dòng này đang ở 2375."
+  },
+  {
+    "key": "2558",
+    "char": "monologue",
+    "jp": "状況が上手く把握できない。\\nならば最優先すべきは、二次災害の防止。",
+    "tw": "我還沒搞清楚目前的狀況。那麼，現在的首要任務應該是防止次生災害。",
+    "old_vn": "「Đợi đã! Đừng động đậy, đừng lại gần đây!!」",
+    "fix": "Tôi chưa nắm rõ được tình hình. Vậy thì ưu tiên hàng đầu là ngăn ngừa tai nạn thứ cấp.",
+    "type": "misaligned",
+    "note": "VN cũ \"Đợi đã! Đừng động đậy…\" trùng y hệt 2091 (chỉ 2091 đúng); bản dịch đúng của dòng này đang ở 2568."
+  },
+  {
+    "key": "2568",
+    "char": "monologue",
+    "jp": "次いで、言葉に直して現状確認。",
+    "tw": "接著，我把現狀用語言描述了出來。",
+    "old_vn": "Tôi chưa nắm rõ được tình hình.\\nVậy thì ưu tiên hàng đầu là ngăn ngừa tai nạn thứ cấp.",
+    "fix": "Tiếp theo, dùng lời nói để xác nhận tình trạng hiện tại.",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 2558; bản dịch đúng của dòng này đang ở 1264."
+  },
+  {
+    "key": "2593",
+    "char": "monologue",
+    "jp": "暖まってみて初めて自分が、\\nかなり冷えていたことに気づかされる。",
+    "tw": "泡了溫泉，整個人暖和了之後，我才發現自己剛才身上真的很冷。",
+    "old_vn": "Chỉ khi ấm lên rồi tôi mới nhận ra rằng,\\nmình đã bị lạnh đến nhường nào.",
+    "fix": "Chỉ khi ấm lên rồi tôi mới nhận ra rằng, tôi đã bị lạnh đến nhường nào.",
+    "type": "pronoun",
+    "note": "Soutetsu độc thoại xưng \"mình\" làm chủ ngữ mệnh đề phụ (\"mình đã bị lạnh\"), quy ước là \"Tôi\"."
+  },
+  {
+    "key": "2640",
+    "char": "monologue",
+    "jp": "無論、ハチロクまで来てしまうと御一夜鉄道の仕事が……\\nということもあったが――",
+    "tw": "當然，她來不了的原因之一也是因為還有御一夜鐵路的工作在身……",
+    "old_vn": "Tất nhiên, nếu Hachiroku cũng đi thì công việc ở Đường sắt Ohimitera sẽ……\\ncũng có lý do đó, nhưng——",
+    "fix": "Tất nhiên, nếu Hachiroku cũng đi thì công việc ở Đường sắt Ohitoyo sẽ…… cũng có lý do đó, nhưng——",
+    "type": "terminology",
+    "note": "御一夜: quyết định 19/11 của Hieu = \"Ohitoyo\" (không dùng \"Ohimitera\" nữa)."
+  },
+  {
+    "key": "2697",
+    "char": "monologue",
+    "jp": "言えば、危険を理解する。",
+    "tw": "話一說出口，我就理解了這個問題的危險性。",
+    "old_vn": "Lời nói giúp tôi bình tĩnh lại,\\nvà tầm nhìn đang bị thu hẹp dần mở rộng ra.",
+    "fix": "Nói ra thì mới hiểu được sự nguy hiểm.",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 2699; bản dịch đúng của dòng này đang ở 2784."
+  },
+  {
+    "key": "2699",
+    "char": "monologue",
+    "jp": "言葉が気持ちを落ち着けて、\\nせばまっていた視野が広がる。",
+    "tw": "說出口後，我就感覺自己冷靜了下來，視野也沒那麼狹隘了。",
+    "old_vn": "「Tôi không sao.\\nKhông thấy đau, có lẽ cũng không bị thương.」",
+    "fix": "Lời nói giúp tôi bình tĩnh lại, và tầm nhìn đang bị thu hẹp dần mở rộng ra.",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 1969; bản dịch đúng của dòng này đang ở 2697."
+  },
+  {
+    "key": "2784",
+    "char": "monologue",
+    "jp": "（１メートルほどの高さの山だ。例え落ちても、\\n大けがをするようなことは無かろうが――）",
+    "tw": "（不過這雪堆也只有一公尺多高，就算掉下去也不會怎樣）",
+    "old_vn": "Nói ra thì mới hiểu được sự nguy hiểm.",
+    "fix": "（Đây là một ngọn núi cao khoảng 1 mét. Cho dù có rơi xuống, chắc cũng không đến mức bị thương nặng——）",
+    "type": "misaligned",
+    "note": "VN cũ là bản dịch đúng của 2697; bản dịch đúng của dòng này đang ở 1245."
+  }
+]
