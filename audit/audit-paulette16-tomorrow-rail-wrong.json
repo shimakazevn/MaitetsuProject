@@ -1,0 +1,552 @@
+[
+ {
+  "key": 1303,
+  "character": "monologue",
+  "jp": "“君がうれしいと僕もうれしい”――\\nその単純で利己的で、とても幼稚で、尊い気持ちを。",
+  "tw": "“你開心我就也開心”——這一單純而自私、極其幼稚卻無比寶貴的思想。",
+  "old_vn": "“Em vui thì anh cũng vui”——\\nCái thứ cảm xúc đơn thuần, ích kỷ, vô cùng trẻ con và quý giá đó.",
+  "fix": "“Em vui thì tôi cũng vui”—— Cái thứ cảm xúc đơn thuần, ích kỷ, vô cùng trẻ con và quý giá đó.",
+  "kind": "pronoun",
+  "reason": "Độc thoại của Soutetsu tự xưng \"anh\" — trái docs (locations §2.1: độc thoại \"Tôi\"); \"Em\" gọi Paulette giữ nguyên (đề xuất \"cô\"/\"em\" đang chờ)."
+ },
+ {
+  "key": 1313,
+  "character": "monologue",
+  "jp": "『御一夜の過去は間違ってない』\\n『過去があっての、今がある』",
+  "tw": "“御一夜的過去並不是一個錯誤”“正因有了過去，才會有現在這一刻”",
+  "old_vn": "『Quá khứ của Ohimitera không hề sai』\\n『Có quá khứ mới có hiện tại』",
+  "fix": "『Quá khứ của Ohitoyo không hề sai』 『Có quá khứ mới có hiện tại』",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1699,
+  "character": "ポーレット",
+  "jp": "「いいですね。それ、いい。借り物じゃない――\\n御一夜のかつての姿の、テーマパーク」",
+  "tw": "「不錯呀。這真是個好主意。並非借鑑別處——而是還原了御一夜昔日樣貌的主題公園」",
+  "old_vn": "「Hay đấy. Ý tưởng đó rất hay. Không phải vay mượn từ đâu cả——\\nMà là một công viên giải trí mang dáng dấp của Ohimitera ngày xưa.」",
+  "fix": "「Hay đấy. Ý tưởng đó rất hay. Không phải vay mượn từ đâu cả—— Mà là một công viên giải trí mang dáng dấp của Ohitoyo ngày xưa.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1703,
+  "character": "双鉄",
+  "jp": "「いや、買ってあるのだ。家にある。\\nどうしよう、今からナビを呼んで」",
+  "tw": "「不，我已經買好了。放在家裡。怎麼辦，我馬上把Ｎａｖｉ叫來——」",
+  "old_vn": "「Không, anh đã mua sẵn rồi. Đang để ở nhà.\\nLàm sao đây, bây giờ gọi Navi tới nhé.」",
+  "fix": "「Không, tôi đã mua sẵn rồi. Đang để ở nhà. Làm sao đây, bây giờ gọi Navi tới nhé.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1707,
+  "character": "双鉄",
+  "jp": "「そうか――日程を考えれば、一人が習熟できるのは、\\nせいぜい一役でギリギリだから」",
+  "tw": "「也對啊——考慮到日程安排，一個人最多只來得及學會扮演一個角色」",
+  "old_vn": "「Cũng phải nhỉ——xét theo lịch trình, một người có thể thành thạo,\\ncùng lắm cũng chỉ một vai là kịch kim rồi.」",
+  "fix": "「Cũng phải nhỉ——xét theo lịch trình, một người có thể thành thạo, cùng lắm cũng chỉ một vai là đã chật vật lắm rồi.」",
+  "kind": "meaning",
+  "reason": "JP ギリギリ = \"chỉ vừa đủ, chật vật lắm mới kịp\" — \"kịch kim\" không phải từ tiếng Việt (chỉ xuất hiện đúng 1 lần trong toàn dự án, chính dòng này), không truyền được nghĩa \"vừa đủ/chật vật\"."
+ },
+ {
+  "key": 1711,
+  "character": "双鉄",
+  "jp": "「他人か。なのかもしれん\\nあの頃の僕と、今の僕とは、もうすでに」",
+  "tw": "「事不關己嗎。那個時候的我，或許的確和現在的我是兩個人了」",
+  "old_vn": "「Người khác sao. Có lẽ là vậy.\\nAnh của lúc đó, và anh của bây giờ, đã là.」",
+  "fix": "「Người khác sao. Có lẽ là vậy. Tôi của lúc đó, và tôi của bây giờ, đã là.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1738,
+  "character": "双鉄",
+  "jp": "「が、僕が受けた最大の恩は、それでは決して返せない。\\nそのことに気づけたがゆえ、変わったのだ」",
+  "tw": "「但是，我所接受的最大的恩情，是無法透過這個方式報答的。當我明白這個道理的時候，我就改變了」",
+  "old_vn": "「Nhưng, ân huệ lớn nhất mà anh nhận được, tuyệt đối không thể đền đáp bằng cách đó.\\nVì nhận ra điều đó, nên anh đã thay đổi.」",
+  "fix": "「Nhưng, ân huệ lớn nhất mà tôi nhận được, tuyệt đối không thể đền đáp bằng cách đó. Vì nhận ra điều đó, nên tôi đã thay đổi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" ×2 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1739,
+  "character": "ポーレット",
+  "jp": "「でも、双鉄くん。\\nその目覚めをくれたのは――たった一人の、あなたです」",
+  "tw": "「但是，雙鐵君。喚醒這座城市的，只有一個人——那就是你」",
+  "old_vn": "「Nhưng mà, Soutetsu.\\nNgười đã mang đến sự thức tỉnh đó——chỉ có duy nhất một người, là cậu đấy.」",
+  "fix": "「Nhưng mà, Soutetsu. Người đã mang đến sự thức tỉnh đó——chỉ có duy nhất một người, là anh đấy.」",
+  "kind": "meaning",
+  "reason": "Paulette gọi Soutetsu là \"cậu\" — trái docs (locations §2.4: Paulette gọi Soutetsu là \"Anh Soutetsu\") và trái dạng chủ đạo của chính file này (Paulette gọi Soutetsu là \"anh\" 7 lần: 1349, 1749, 1759, 1968, 2135, 2385, 2428; toàn dự án 470 lần \"anh Soutetsu\" vs 13 lần \"Cậu Soutetsu\" trong lời Paulette)."
+ },
+ {
+  "key": 1743,
+  "character": "双鉄",
+  "jp": "「そうするためにまず、\\n視察を乗り切るのに最小限必要な人数を洗い直したい」",
+  "tw": "「作為第一步，我想再重新計算一次通過視察檢驗所需要的最少人數」",
+  "old_vn": "「Để làm được điều đó, trước tiên,\\nanh muốn tính toán lại số lượng người tối thiểu cần thiết để vượt qua đợt thị sát.」",
+  "fix": "「Để làm được điều đó, trước tiên, tôi muốn tính toán lại số lượng người tối thiểu cần thiết để vượt qua đợt thị sát.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1745,
+  "character": "双鉄",
+  "jp": "「どんなことでも言ってくれ。\\nそのため、僕はここにいるんだから」",
+  "tw": "「你什麼事都可以跟我說。我就是為了這個而來到這裡的」",
+  "old_vn": "「Có chuyện gì cứ nói với anh.\\nVì điều đó, nên anh mới ở đây mà.」",
+  "fix": "「Có chuyện gì cứ nói với tôi. Vì điều đó, nên tôi mới ở đây mà.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" ×2 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1838,
+  "character": "ふかみ",
+  "jp": "「わぁ。いいもの。ですね。妖精さんの宝箱。なら」",
+  "tw": "「哇。精靈的寶箱，那一定是好東西呀」",
+  "old_vn": "「Oa. Đồ tốt, nhỉ. Nếu là rương báu của Tinh linh. Thì chắc chắn rồi.」",
+  "fix": "「Oa. Đồ tốt, nhỉ. Nếu là rương báu của Tinh linh thì…」",
+  "kind": "meaning",
+  "reason": "JP trailing off với なら (nếu là... thì...) — bản Việt tự bịa thêm kết luận \"Thì chắc chắn rồi\" không có trong JP (tiền lệ Paulette 13 1510: thêm \"đã dừng lại\" vào câu dở dang của JP là sai)."
+ },
+ {
+  "key": 1912,
+  "character": "ポーレット",
+  "jp": "「あ、でしたら、引き換えさせてください。\\n御一夜の特産品と」",
+  "tw": "「啊，既然如此，請允許我用御一夜的特產與您交換」",
+  "old_vn": "「A, nếu vậy thì, xin hãy để cháu trao đổi.\\nBằng đặc sản của Ohimitera ạ.」",
+  "fix": "「A, nếu vậy thì, xin hãy để cháu trao đổi. Bằng đặc sản của Ohitoyo ạ.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 1947,
+  "character": "双鉄",
+  "jp": "「ああ、正午だと聞いている」",
+  "tw": "「嗯，說是中午送來」",
+  "old_vn": "「Ừ, anh nghe nói là giữa trưa.」",
+  "fix": "「Ừ, tôi nghe nói là giữa trưa.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 1967,
+  "character": "双鉄",
+  "jp": "「ポーレットのことを好きになり。\\n君といることが幸せで――だから、わかった」",
+  "tw": "「因為我喜歡上了波萊特，因為和你在一起很幸福——所以我才終於明白了」",
+  "old_vn": "「Anh đã yêu Paulette.\\nĐược ở bên em là niềm hạnh phúc——nên, anh đã hiểu ra.」",
+  "fix": "「Tôi đã yêu Paulette. Được ở bên em là niềm hạnh phúc——nên, tôi đã hiểu ra.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" ×2 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Em\" gọi Paulette giữ nguyên (đề xuất \"cô\"/\"em\" đang chờ)."
+ },
+ {
+  "key": 1968,
+  "character": "ポーレット",
+  "jp": "「だって、そうなったら双鉄くん……\\n御一夜から、いなくなっちゃう」",
+  "tw": "「因為，如果變成那樣，雙鐵君就要……就要離開御一夜了」",
+  "old_vn": "「Bởi vì, nếu chuyện đó xảy ra, anh Soutetsu……\\nsẽ rời khỏi Ohimitera mất.」",
+  "fix": "「Bởi vì, nếu chuyện đó xảy ra, anh Soutetsu…… sẽ rời khỏi Ohitoyo mất.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2032,
+  "character": "ポーレット",
+  "jp": "「走っても、すぐに止まります。\\n御一夜-湯医の24.8キロだけで」",
+  "tw": "「就算跑起來，也很快會停下。它只會跑御一夜到湯醫之間的這短短２４．８公里」",
+  "old_vn": "「Dù có chạy thì cũng sẽ dừng lại ngay thôi ạ.\\nChỉ trong phạm vi 24,8 km từ Ohimitera đến Yui.」",
+  "fix": "「Dù có chạy thì cũng sẽ dừng lại ngay thôi ạ. Chỉ trong phạm vi 24,8 km từ Ohitoyo đến Yui.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\". \"Yui\" cho 湯医 giữ nguyên — quyết định \"Yunoi\" vs \"Yui\" đang chờ chốt."
+ },
+ {
+  "key": 2038,
+  "character": "職員Ｂ",
+  "jp": "「市長は、御一夜のためにたったひとりでも頑張った。\\n自分、それを見て感動したから、真似したいんです」",
+  "tw": "「市長您哪怕孤身一人，也一直在為御一夜而奮鬥。我看在眼裡非常感動，也想向您學習」",
+  "old_vn": "「Thị trưởng đã cố gắng hết mình vì Ohimitera dù chỉ có một thân một mình.\\nTôi nhìn thấy vậy nên rất cảm động, và cũng muốn bắt chước theo.」",
+  "fix": "「Thị trưởng đã cố gắng hết mình vì Ohitoyo dù chỉ có một thân một mình. Tôi nhìn thấy vậy nên rất cảm động, và cũng muốn bắt chước theo.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2043,
+  "character": "文科大臣",
+  "jp": "「持ち帰り、孫や知り合いに見せますよ。\\nこの御一夜の[じゅうぶん,1]重文や、技術継承炭鉱の話とあわせて、ね」",
+  "tw": "「帶回去，給我的孫子和朋友們看看。同時跟他們講講，御一夜的重要文化財產與技術繼承煤礦」",
+  "old_vn": "「Tôi sẽ mang về cho cháu và người quen xem.\\nCùng với câu chuyện về Di sản Văn hóa Trọng điểm của Ohimitera và Mỏ than kế thừa công nghệ.」",
+  "fix": "「Tôi sẽ mang về cho cháu và người quen xem. Cùng với câu chuyện về Di sản Văn hóa Trọng điểm của Ohitoyo và Mỏ than kế thừa công nghệ.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2075,
+  "character": "職員Ｂ",
+  "jp": "「諦めなかったじゃないですか。御一夜の水を守るために。\\n自分たちが様子見してたころにも、たったひとりでも」",
+  "tw": "「您一直都沒有放棄保護御一夜的水源不是嗎。在我們還在觀望情況的時候，您也在一個人努力著」",
+  "old_vn": "「Ngài đã không bỏ cuộc mà. Để bảo vệ nguồn nước của Ohimitera.\\nNgay cả lúc chúng tôi còn đang đứng nhìn, dù chỉ có một mình ngài.」",
+  "fix": "「Ngài đã không bỏ cuộc mà. Để bảo vệ nguồn nước của Ohitoyo. Ngay cả lúc chúng tôi còn đang đứng nhìn, dù chỉ có một mình ngài.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2087,
+  "character": "双鉄",
+  "jp": "「事故のとき――僕はふたごの妹に、\\n突き放されたと……そう思ってた」",
+  "tw": "「我一直覺得在事故發生的那天——我被我的雙胞胎妹妹推開了」",
+  "old_vn": "「Lúc xảy ra tai nạn——anh đã nghĩ rằng,\\nmình đã bị em gái sinh đôi……đẩy ra.」",
+  "fix": "「Lúc xảy ra tai nạn——tôi đã nghĩ rằng, mình đã bị em gái sinh đôi……đẩy ra.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Mình\" ở vế sau giữ nguyên theo mẫu \"Tôi… mình…\" (phản thân)."
+ },
+ {
+  "key": 2102,
+  "character": "双鉄",
+  "jp": "「ふたごだった。何をするのも一緒だった。\\nずっと一緒に大人になると……そうとぼんやり思ってた」",
+  "tw": "「我們是雙胞胎。無論做什麼都是兩人一起。我曾經理所當然地以為，我倆會一起長大成人」",
+  "old_vn": "「Bọn anh là anh em sinh đôi. Làm gì cũng có nhau.\\nAnh đã mơ hồ nghĩ rằng……chúng anh sẽ mãi mãi cùng nhau trưởng thành.」",
+  "fix": "「Bọn tôi là anh em sinh đôi. Làm gì cũng có nhau. Tôi đã mơ hồ nghĩ rằng……chúng tôi sẽ mãi mãi cùng nhau trưởng thành.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\"/\"anh\" ×3 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 2105,
+  "character": "双鉄",
+  "jp": "「テーマパークやキャストという言葉に囚われすぎた。\\n冷静になれば、御一夜の炭鉱に西洋風の衣装は似合わん」",
+  "tw": "「我們被“主題公園”、“演員”這些舶來的詞彙限制了思路。仔細想想，御一夜的煤礦並不適合西式的服裝」",
+  "old_vn": "「Chúng ta đã quá bị bó buộc vào mấy từ như công viên giải trí hay diễn viên rồi.\\nBình tĩnh mà nghĩ thì, mỏ than của Ohimitera đâu có hợp với trang phục kiểu Tây.」",
+  "fix": "「Chúng ta đã quá bị bó buộc vào mấy từ như công viên giải trí hay diễn viên rồi. Bình tĩnh mà nghĩ thì, mỏ than của Ohitoyo đâu có hợp với trang phục kiểu Tây.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2117,
+  "character": "双鉄",
+  "jp": "「僕は、君のことが好きだ」",
+  "tw": "「我喜歡你」",
+  "old_vn": "「Anh yêu em.」",
+  "fix": "「Tôi yêu em.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Em\" gọi Paulette giữ nguyên (đề xuất \"cô\"/\"em\" đang chờ)."
+ },
+ {
+  "key": 2121,
+  "character": "双鉄",
+  "jp": "「僕は一人じゃなくなった。\\n――君が幸せに笑ってくれれば、僕も幸せになれるんだ」",
+  "tw": "「我已經不再是孤身一人了。——只要你綻放著幸福的笑容，那麼我也將會是幸福的」",
+  "old_vn": "「Anh không còn cô độc nữa.\\n——Chỉ cần em mỉm cười hạnh phúc, anh cũng có thể trở nên hạnh phúc.」",
+  "fix": "「Tôi không còn cô độc nữa. ——Chỉ cần em mỉm cười hạnh phúc, tôi cũng có thể trở nên hạnh phúc.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\"/\"anh\" ×2 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Em\" gọi Paulette giữ nguyên (đề xuất \"cô\"/\"em\" đang chờ)."
+ },
+ {
+  "key": 2141,
+  "character": "双鉄",
+  "jp": "「だからこれから、ずっと一人だと思っていた。\\n一人で、誰かに、尽くすものだと思っていた。が――」",
+  "tw": "「所以我曾經以為，我將一直是孤身一人。以為我會就這樣孤身一人地為他人奉獻我的一生。但是——」",
+  "old_vn": "「Nên từ đó, anh đã nghĩ mình sẽ mãi mãi cô độc.\\nNghĩ rằng mình sẽ cống hiến cho một ai đó, trong cô độc. Nhưng——」",
+  "fix": "「Nên từ đó, tôi đã nghĩ mình sẽ mãi mãi cô độc. Nghĩ rằng mình sẽ cống hiến cho một ai đó, trong cô độc. Nhưng——」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Mình\" ở vế sau giữ nguyên theo mẫu \"Tôi… mình…\" (phản thân)."
+ },
+ {
+  "key": 2144,
+  "character": "双鉄",
+  "jp": "「だから僕は、いなくならない。\\n誰の意向がどうあれど、僕はポーレットのそばにいる」",
+  "tw": "「所以，我不會離開。無論是誰提出怎樣的意見，我都要和你在一起」",
+  "old_vn": "「Nên anh, sẽ không đi đâu cả.\\nDù ý muốn của ai có ra sao, anh vẫn sẽ ở bên cạnh Paulette.」",
+  "fix": "「Nên tôi, sẽ không đi đâu cả. Dù ý muốn của ai có ra sao, tôi vẫn sẽ ở bên cạnh Paulette.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" ×2 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 2152,
+  "character": "ポーレット",
+  "jp": "「みなさん、どうか――\\n御一夜のために、そのお力を貸してください！！」",
+  "tw": "「拜託各位了——為了御一夜，請助我一臂之力！！」",
+  "old_vn": "「Mọi người, xin hãy——\\nVì Ohimitera, hãy cho tôi mượn sức mạnh của mọi người!!」",
+  "fix": "「Mọi người, xin hãy—— Vì Ohitoyo, hãy cho tôi mượn sức mạnh của mọi người!!」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2162,
+  "character": "双鉄",
+  "jp": "「ならば僕は、自分の生きたいよう生きる。\\n自分の生を、精一杯に使い切る」",
+  "tw": "「既然如此，我就要按照自己的想法活下去。我要盡情地享受我全部的人生」",
+  "old_vn": "「Nếu vậy thì anh sẽ sống theo cách anh muốn.\\nAnh sẽ tận dụng tối đa cuộc đời mình.」",
+  "fix": "「Nếu vậy thì tôi sẽ sống theo cách tôi muốn. Tôi sẽ tận dụng tối đa cuộc đời mình.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\"/\"Anh\" ×2 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Mình\" sở hữu cách (\"cuộc đời mình\") giữ nguyên."
+ },
+ {
+  "key": 2186,
+  "character": "双鉄",
+  "jp": "「僕が頼んだ。真闇姉を通じてだが」",
+  "tw": "「是我托真闇姐幫忙點的」",
+  "old_vn": "「Anh đã đặt đấy. Dù là thông qua chị Mayami.」",
+  "fix": "「Tôi đã đặt đấy. Dù là thông qua chị Mayami.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 2194,
+  "character": "ポーレット",
+  "jp": "「はい、御一夜の特産品のひとつです」",
+  "tw": "「是的，是御一夜的特產之一」",
+  "old_vn": "「Vâng, nó là một trong những đặc sản của Ohimitera ạ.」",
+  "fix": "「Vâng, nó là một trong những đặc sản của Ohitoyo ạ.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2196,
+  "character": "文科大臣",
+  "jp": "「鉱山の方――と、と。妖精さんが持たせてくれた。\\n御一夜木工の宝箱なんだそうだ」",
+  "tw": "「是礦山的工作人員——啊，不。是精靈送給我的。聽說這是御一夜木工製作的寶箱」",
+  "old_vn": "「Người của khu mỏ——à, không. Là Tinh linh đã tặng cho tôi đấy.\\nNghe nói đó là rương báu do thợ mộc Ohimitera làm.」",
+  "fix": "「Người của khu mỏ——à, không. Là Tinh linh đã tặng cho tôi đấy. Nghe nói đó là rương báu do thợ mộc Ohitoyo làm.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2211,
+  "character": "双鉄",
+  "jp": "「そうなるために、僕は生かしてもらえたんだ。\\n僕が生きているそのことが、路子の喜びだったから」",
+  "tw": "「正是為了獲得幸福，我才活了下來。因為看到我活在這個世上，就是路子的喜悅」",
+  "old_vn": "「Để trở nên như vậy, anh mới được sống tiếp.\\nVì việc anh sống, chính là niềm vui của Michiko.」",
+  "fix": "「Để trở nên như vậy, tôi mới được sống tiếp. Vì việc tôi sống, chính là niềm vui của Michiko.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" ×2 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 2217,
+  "character": "経産大臣",
+  "jp": "「帰りは川下りになるとはな。\\n御一夜の観光を堪能させてもらえるわけか」",
+  "tw": "「沒想到返程是乘坐漂流船呀。是要讓我們好好體驗一回御一夜的觀光景點嗎」",
+  "old_vn": "「Không ngờ lúc về lại đi xuôi dòng sông đấy.\\nThế này là định cho chúng tôi tận hưởng trọn vẹn du lịch Ohimitera đây sao.」",
+  "fix": "「Không ngờ lúc về lại đi xuôi dòng sông đấy. Thế này là định cho chúng tôi tận hưởng trọn vẹn du lịch Ohitoyo đây sao.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2247,
+  "character": "双鉄",
+  "jp": "「この状況だ。気が急くのも解るが――」",
+  "tw": "「現在情況特殊，你會感到焦慮也是情有可原——」",
+  "old_vn": "「Tình hình hiện tại là thế này. Anh hiểu em đang nóng ruột nhưng——」",
+  "fix": "「Tình hình hiện tại là thế này. Tôi hiểu em đang nóng ruột nhưng——」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Em\" gọi Paulette giữ nguyên (đề xuất \"cô\"/\"em\" đang chờ)."
+ },
+ {
+  "key": 2252,
+  "character": "経産大臣",
+  "jp": "「もちろん結構ですとも。[じゅつせん,1]術仙技術継承炭鉱には、\\n今後大いに発展してもらわねばなりませんからな」",
+  "tw": "「當然沒有意見。我可是對術仙技術繼承煤礦今後的發展寄予厚望的」",
+  "old_vn": "「Tất nhiên là được rồi. Mỏ than kế thừa công nghệ Jutsusen,\\ntừ nay về sau cần phải phát triển mạnh mẽ hơn nữa mà.」",
+  "fix": "「Tất nhiên là được rồi. Mỏ than kế thừa công nghệ Jutsu-sen, từ nay về sau cần phải phát triển mạnh mẽ hơn nữa mà.」",
+  "kind": "terminology",
+  "reason": "術仙技術継承炭鉱 = \"Mỏ than kế thừa công nghệ Jutsu-sen\" (thiếu gạch nối: bản cũ \"Jutsusen\")."
+ },
+ {
+  "key": 2253,
+  "character": "双鉄",
+  "jp": "「義父が与えてくれた機会を無為にする気も、無論ない。\\n万が一など起こしはしないし、誰の期待も裏切らない」",
+  "tw": "「當然，我也不打算浪費養父給我的機會。我不會允許意外發生，也不會辜負任何人的期待」",
+  "old_vn": "「Tất nhiên, anh cũng không có ý định lãng phí cơ hội mà cha nuôi đã trao cho.\\nAnh sẽ không để xảy ra chuyện vạn nhất nào, và cũng sẽ không phản bội kỳ vọng của bất kỳ ai.」",
+  "fix": "「Tất nhiên, tôi cũng không có ý định lãng phí cơ hội mà cha nuôi đã trao cho. Tôi sẽ không để xảy ra chuyện vạn nhất nào, và cũng sẽ không phản bội kỳ vọng của bất kỳ ai.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\"/\"Anh\" ×2 trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 2269,
+  "character": "ポーレット",
+  "jp": "「助かります。ね？　双鉄くん。\\n\\x%l保線;#00ffc040;保線%l;#;は、力仕事だけじゃないですし」",
+  "tw": "「真是幫大忙了。對吧，雙鐵君。\\x%l保線;#00ffc040;巡線%l;#;也不只是粗活」",
+  "old_vn": "「Giúp được nhiều lắm đấy. Đúng không? Cậu Soutetsu.\\n\\x%l保線;#00ffc040;Bảo trì đường ray%l;#; đâu phải chỉ toàn việc chân tay đâu.」",
+  "fix": "「Giúp được nhiều lắm đấy. Đúng không? Anh Soutetsu. \\x%l保線;#00ffc040;Bảo trì đường ray%l;#; đâu phải chỉ toàn việc chân tay đâu.」",
+  "kind": "meaning",
+  "reason": "Paulette gọi Soutetsu là \"Cậu Soutetsu\" — trái docs (locations §2.4: Paulette gọi Soutetsu là \"Anh Soutetsu\") và trái dạng chủ đạo của chính file này (7 lần \"anh\" vs 4 lần \"cậu\"). Thẻ %l 保線 giữ nguyên."
+ },
+ {
+  "key": 2321,
+  "character": "ポーレット",
+  "jp": "「御一夜から、北は[ふくおか,1]福丘、[こくら,1]粉蔵、[もじ,1]門次まで。\\n南は、[かごしま,2]鹿兒島、[まくらざき,1]枕咲へと」",
+  "tw": "「自御一夜出發，北至福岡、小倉、門司。南至鹿兒島、枕崎」",
+  "old_vn": "「Từ Ohimitera, phía Bắc đến Fukuoka, Kokura, Moji.\\nPhía Nam thì đến Kagoshima, Makurazaki.」",
+  "fix": "「Từ Ohitoyo, phía Bắc đến Fukuoka, Kokura, Moji. Phía Nam thì đến Kagoshima, Makurazaki.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2326,
+  "character": "双鉄",
+  "jp": "「蓑笠さんが」",
+  "tw": "「蓑笠夫人」",
+  "old_vn": "「Phu nhân Minokasa...」",
+  "fix": "「Ông Minokasa...」",
+  "kind": "meaning",
+  "reason": "JP 蓑笠さんが = ông Minokasa (người đàn ông) — bản Việt theo TW 蓑笠夫人 (\"phu nhân\") là sai; quy tắc JP-trên-TW (Hieu 19/11). Bằng chứng trong chính file: 3308 dịch 蓑笠さん là \"ông Minokasa\", còn vợ ông được gọi riêng là 蓑笠さんの奥さん (2180)."
+ },
+ {
+  "key": 2338,
+  "character": "双鉄",
+  "jp": "「視察を成功へと導いたのは、御一夜の力にほかならない。\\nこの町が重ねて来たものが、正しく目覚めてくれたから」",
+  "tw": "「視察之所以成功，完全是憑藉御一夜自身的力量。是這座城市一路走來的積累，以正確的方式甦醒了過來」",
+  "old_vn": "「Điều dẫn đến thành công của chuyến thị sát không gì khác ngoài sức mạnh của Ohimitera.\\nBởi vì những gì thành phố này tích lũy được đã thức tỉnh một cách đúng đắn.」",
+  "fix": "「Điều dẫn đến thành công của chuyến thị sát không gì khác ngoài sức mạnh của Ohitoyo. Bởi vì những gì thành phố này tích lũy được đã thức tỉnh một cách đúng đắn.」",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\"."
+ },
+ {
+  "key": 2344,
+  "character": "双鉄",
+  "jp": "「僕と、結婚して欲しい」",
+  "tw": "「請和我結婚吧」",
+  "old_vn": "「Hãy kết hôn với anh nhé.」",
+  "fix": "「Hãy kết hôn với tôi nhé.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại (cầu hôn) — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 2351,
+  "character": "ポーレット",
+  "jp": "「ありがとう、ありがとう、双鉄くん。\\nみんな、双鉄くんのおかげです！」",
+  "tw": "「謝謝你，謝謝你，雙鐵君。這都是你的功勞！」",
+  "old_vn": "「Cảm ơn cậu, cảm ơn cậu nhiều lắm, Soutetsu.\\nTất cả đều là nhờ cậu cả đấy!」",
+  "fix": "「Cảm ơn anh, cảm ơn anh nhiều lắm, Soutetsu. Tất cả đều là nhờ anh cả đấy!」",
+  "kind": "meaning",
+  "reason": "Paulette gọi Soutetsu là \"cậu\" ×2 — trái docs (locations §2.4: Paulette gọi Soutetsu là \"Anh Soutetsu\") và trái dạng chủ đạo của chính file này (7 lần \"anh\" vs 4 lần \"cậu\")."
+ },
+ {
+  "key": 2408,
+  "character": "双鉄",
+  "jp": "「あの頃の僕は思いこんでた。人に望まれることをする\\n――それが唯一の贖罪であり、恩返しする方法なのだと」",
+  "tw": "「那時候的我盲目地以為——去做人們所期望之事，就是我唯一的贖罪，也是唯一的報恩方法」",
+  "old_vn": "「Anh của lúc đó đã đinh ninh rằng. Làm những điều người khác mong muốn\\n——đó là sự chuộc tội duy nhất, và cũng là cách để đền đáp công ơn.」",
+  "fix": "「Tôi của lúc đó đã đinh ninh rằng. Làm những điều người khác mong muốn ——đó là sự chuộc tội duy nhất, và cũng là cách để đền đáp công ơn.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"Anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 2412,
+  "character": "双鉄",
+  "jp": "「ならば――よかった。\\n君を目覚めさせたのが、他の誰でも無い、僕で」",
+  "tw": "「那真是太好了——喚醒你的不是其他任何人，而是我」",
+  "old_vn": "「Nếu vậy thì——thật tốt quá.\\nNgười đánh thức em, không phải ai khác, mà chính là anh.」",
+  "fix": "「Nếu vậy thì——thật tốt quá. Người đánh thức em, không phải ai khác, mà chính là tôi.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Em\" gọi Paulette giữ nguyên (đề xuất \"cô\"/\"em\" đang chờ)."
+ },
+ {
+  "key": 2425,
+  "character": "双鉄",
+  "jp": "「僕の方でもいくつかの手を打ってはいるが、\\nポーレットも、思いつくことがあったら言ってくれ」",
+  "tw": "「雖然我也已經做了一些對策，不過波萊特如果有想到什麼好主意，也說給我聽聽吧」",
+  "old_vn": "「Phía anh cũng đã đánh vài nước cờ rồi,\\nnhưng Paulette, nếu em có nghĩ ra điều gì thì cứ nói nhé.」",
+  "fix": "「Phía tôi cũng đã đánh vài nước cờ rồi, nhưng Paulette, nếu em có nghĩ ra điều gì thì cứ nói nhé.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki). \"Em\" gọi Paulette giữ nguyên (đề xuất \"cô\"/\"em\" đang chờ)."
+ },
+ {
+  "key": 2429,
+  "character": "ポーレット",
+  "jp": "「双鉄くん！　やりました！\\nわたしたち、わたしたちやりましたっ！！」",
+  "tw": "「雙鐵君！　成功了！我們、我們成功了！！」",
+  "old_vn": "「Cậu Soutetsu! Làm được rồi!\\nChúng ta, chúng ta làm được rồi!!」",
+  "fix": "「Anh Soutetsu! Làm được rồi! Chúng ta, chúng ta làm được rồi!!」",
+  "kind": "meaning",
+  "reason": "Paulette gọi Soutetsu là \"Cậu Soutetsu\" — trái docs (locations §2.4: Paulette gọi Soutetsu là \"Anh Soutetsu\") và trái dạng chủ đạo của chính file này (7 lần \"anh\" vs 4 lần \"cậu\")."
+ },
+ {
+  "key": 2430,
+  "character": "双鉄",
+  "jp": "「いなくなる、か。\\nそういえば、僕にもそんな話があったな」",
+  "tw": "「離開御一夜嗎。聽你這麼一說，好像的確有這麼一回事啊」",
+  "old_vn": "「Sẽ rời đi, sao.\\nNhắc mới nhớ, anh cũng từng nói chuyện đó nhỉ.」",
+  "fix": "「Sẽ rời đi, sao. Nhắc mới nhớ, tôi cũng từng nói chuyện đó nhỉ.」",
+  "kind": "pronoun",
+  "reason": "Soutetsu tự xưng \"anh\" trong thoại — trái docs (locations §2.1: \"Tôi\", \"Anh\" chỉ với Hibiki)."
+ },
+ {
+  "key": 2448,
+  "character": "ポーレット",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "fix": "「Ư!」",
+  "kind": "minor",
+  "reason": "Mất tiếng hít っ: JP 「っ！」 dịch thành \"!\" trơ trụi. Tiền lệ Hachiroku 12 2103/2537 và Paulette 09 2274/2275/2277: JP 「っ！」→ \"Ư!\"."
+ },
+ {
+  "key": 2449,
+  "character": "双鉄",
+  "jp": "「っ！！？」",
+  "tw": "「！！？」",
+  "old_vn": "「!!?」",
+  "fix": "「Ư!!?」",
+  "kind": "minor",
+  "reason": "Mất tiếng hít っ: JP 「っ！！？」 dịch thành \"!!?\" trơ trụi. Tiền lệ Hachiroku 12 2103/2537 và Paulette 09 2274/2275/2277: JP 「っ！」→ \"Ư!\"."
+ },
+ {
+  "key": 2450,
+  "character": "双鉄",
+  "jp": "「っ！？」",
+  "tw": "「！？」",
+  "old_vn": "「!?」",
+  "fix": "「Ư!?」",
+  "kind": "minor",
+  "reason": "Mất tiếng hít っ: JP 「っ！？」 dịch thành \"!?\" trơ trụi. Tiền lệ Hachiroku 12 2103/2537 và Paulette 09 2274/2275/2277: JP 「っ！」→ \"Ư!\"."
+ },
+ {
+  "key": 2816,
+  "character": "monologue",
+  "jp": "一緒に行くのを、一緒に死ぬのを拒まれたと――\\n突き放されたことを、心のどこかは、恨んでさえいた。",
+  "tw": "她卻拒絕了我跟她一道同行，拒絕了我跟她一起死去——我對於她那奮力的一推，甚至曾心存怨恨。",
+  "old_vn": "Bị từ chối đi cùng nhau, bị từ chối chết cùng nhau——\\nBị đẩy ra, ở một góc nào đó trong tim, anh thậm chí đã từng oán hận.",
+  "fix": "Bị từ chối đi cùng nhau, bị từ chối chết cùng nhau—— Bị đẩy ra, ở một góc nào đó trong tim, tôi thậm chí đã từng oán hận.",
+  "kind": "pronoun",
+  "reason": "Độc thoại của Soutetsu tự xưng \"anh\" — trái docs (locations §2.1: độc thoại \"Tôi\")."
+ },
+ {
+  "key": 2933,
+  "character": "monologue",
+  "jp": "御一夜駅のホームに出れば、\\n赤井宮司の言葉の理由が、すぐわかる。",
+  "tw": "我們走出御一夜站月台，馬上理解了赤井宮司的話。",
+  "old_vn": "Vừa bước ra sân ga Ohimitera,\\ntôi lập tức hiểu được lý do cho lời nói của ông Guuji.",
+  "fix": "Vừa bước ra sân ga Ohitoyo, tôi lập tức hiểu được lý do cho lời nói của ông Guuji.",
+  "kind": "terminology",
+  "reason": "御一夜 = \"Ohitoyo\" (quyết định 19/11); bản cũ \"Ohimitera\". \"Ông Guuji\" cho 宮司 giữ nguyên — đề xuất thống nhất \"đền chủ\"/\"Cung tư tế\"/\"Guuji\" đang chờ chốt."
+ },
+ {
+  "key": 3015,
+  "character": "monologue",
+  "jp": "相手を本当に思いやる。踏み込んで相手のことを考える。\\n――僕にもそうすることができると、教えてもらえた。",
+  "tw": "是波萊特教會了我——我也能夠真正去關心一個人，我也能夠涉足他人的世界，設身處地為她著想。",
+  "old_vn": "Thực sự quan tâm đến đối phương. Bước vào và suy nghĩ cho đối phương.\\n——Anh đã được dạy rằng, anh cũng có thể làm được như vậy.",
+  "fix": "Thực sự quan tâm đến đối phương. Bước vào và suy nghĩ cho đối phương. ——Tôi đã được dạy rằng, tôi cũng có thể làm được như vậy.",
+  "kind": "pronoun",
+  "reason": "Độc thoại của Soutetsu tự xưng \"Anh\" ×2 — trái docs (locations §2.1: độc thoại \"Tôi\")."
+ },
+ {
+  "key": 3330,
+  "character": "monologue",
+  "jp": "せっかくあれほど、\\n古きよき日ノ本の雰囲気をもってらっしゃる――っ！",
+  "tw": "難得那位老人，擁有如此優良古樸的日本氣質——啊！",
+  "old_vn": "Hiếm lắm mới có người mang đậm phong thái\\nHinomoto cổ kính và tốt đẹp đến nhường ấy——っ!",
+  "fix": "Hiếm lắm mới có người mang đậm phong thái Hinomoto cổ kính và tốt đẹp đến nhường ấy——Ư!",
+  "kind": "minor",
+  "reason": "Tiếng hít っ còn sót lại dưới dạng kana Nhật \"っ\" trong câu Việt (\"——っ!\") — ký tự Nhật chưa dịch, không khớp quy ước dự án (JP 「っ！」→ \"Ư!\", tiền lệ Hachiroku 12 2103/2537)."
+ },
+ {
+  "key": 3391,
+  "character": "monologue",
+  "jp": "（ありがとうな。\\n助けてくれて――生かしてくれて）",
+  "tw": "（謝謝你。救了我——讓我活了下來）",
+  "old_vn": "（Cảm ơn em nhé.\\nVì đã cứu anh——để anh được sống.）",
+  "fix": "（Cảm ơn em nhé. Vì đã cứu tôi——để tôi được sống.）",
+  "kind": "pronoun",
+  "reason": "Suy nghĩ trong ngoặc của Soutetsu tự xưng \"anh\" — trái docs (locations §2.1: \"Tôi\"). \"Em\" (người đã cứu anh — Michiko/Paulette, người nghe không xác định được từ 3–5 dòng xung quanh) giữ nguyên vì không ảnh hưởng đến bản sửa."
+ }
+]
