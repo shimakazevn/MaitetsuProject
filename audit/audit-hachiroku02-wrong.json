@@ -1,0 +1,155 @@
+[
+  {
+    "key": "71",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "\\x%l市電;#00ffc040;市電%l;#;なら、線路は町の間を縫って走っているはず。\\n\\x%l8620;#00ffc040;8620%l;#;の吐き出す煙は、町を真っ黒にしてしまおう。",
+    "tw": "\\x%l市電;#00ffc040;市電%l;#;的路線鋪設在街道之間。\\x%l8620;#00ffc040;８６２０%l;#;排出的煙將會燻黑附近街道的設施。",
+    "old_vn": "Nếu là \\x%l市電;#00ffc040;nguồn điện chính%l;#;, thì đường ray chắc chắn sẽ chạy len lỏi giữa các khu phố.\\nKhói do \\x%l8620;#00ffc040;8620%l;#; nhả ra sẽ nhuộm đen cả thành phố mất.",
+    "fix": "Nếu là \\x%l市電;#00ffc040;tàu điện thành phố%l;#;, thì đường ray chắc chắn sẽ chạy len lỏi giữa các khu phố.\\nKhói do \\x%l8620;#00ffc040;8620%l;#; nhả ra sẽ nhuộm đen cả thị trấn mất."
+  },
+  {
+    "key": "1465",
+    "character": "双鉄",
+    "kind": "gasp",
+    "jp": "「っ――」",
+    "tw": "「——」",
+    "old_vn": "「——」",
+    "fix": "「Ư——」"
+  },
+  {
+    "key": "1741",
+    "character": "ハチロク",
+    "kind": "terminology",
+    "jp": "「もっとも、[めいこく,1]冥国は戦後、素晴らしい国となりました。\\nあの国の大統領は、立派な方でございます」",
+    "tw": "「不過，美國在戰後確實國力昌盛。美國的總統，也是一位治國有方的人」",
+    "old_vn": "「Tuy nhiên, nước Mỹ sau chiến tranh đã trở thành một quốc gia tuyệt vời.\\nTổng thống của đất nước đó là một người xuất chúng ạ.」",
+    "fix": "「Tuy nhiên, Minh Quốc sau chiến tranh đã trở thành một quốc gia tuyệt vời.\\nTổng thống của đất nước đó là một người xuất chúng ạ.」"
+  },
+  {
+    "key": "1837",
+    "character": "双鉄",
+    "kind": "gasp",
+    "jp": "「っ！」",
+    "tw": "「呃！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」"
+  },
+  {
+    "key": "1906",
+    "character": "双鉄",
+    "kind": "mistranslation",
+    "jp": "「ほう。西洋にもそうした――\\n体育会系ノリというヤツはあるのだな」",
+    "tw": "「噢。在西方也有這種——體育系風格的禮尚往來方式啊」",
+    "old_vn": "「Hô. Ở phương Tây cũng có kiểu——\\nđộng chân động tay của mấy người theo chủ nghĩa thể thao à.」",
+    "fix": "「Hô. Ở phương Tây cũng có kiểu——\\nđáp lễ kiểu dân thể thao à.」"
+  },
+  {
+    "key": "1917",
+    "character": "ハチロク",
+    "kind": "terminology",
+    "jp": "「[ばいえん,1]煤煙――煙突から出る猛然たる煙によって、です。\\n廣島電気鉄道は、\\x%l市電;#00ffc040;[しでん,1]市電%l;#;とお伺いいたしましたので」",
+    "tw": "「因為煙囪中會排出大量的黑煙——也就是煤煙。據我所知廣島電氣鐵路為\\x%l市電;#00ffc040;市電%l;#;」",
+    "old_vn": "「Là do muội than——khói mù mịt thải ra từ ống khói ạ.\\nVì em được biết Đường sắt Điện Hiroshima là \\x%l市電;#00ffc040;nguồn điện chính%l;#; ạ.」",
+    "fix": "「Là do muội than——khói mù mịt thải ra từ ống khói ạ.\\nVì em được biết Đường sắt Điện Hiroshima là \\x%l市電;#00ffc040;tàu điện thành phố%l;#; ạ.」"
+  },
+  {
+    "key": "1940",
+    "character": "ハチロク",
+    "kind": "omission",
+    "jp": "「それを繰り返していけば、[うちの子,3]8620のことを、\\nみなさまにも広く、より深く知っていただけるのですね」",
+    "tw": "「如此反覆下去，大家就會對[我們家這孩子,3]８６２０理解更多，訊息也會傳播得更廣」",
+    "old_vn": "「Nếu cứ lặp đi lặp lại như vậy, mọi người sẽ biết đến 8620,\\nmột cách rộng rãi và sâu sắc hơn nhỉ.」",
+    "fix": "「Nếu cứ lặp đi lặp lại như vậy, mọi người sẽ biết đến 8620 nhà mình,\\nmột cách rộng rãi và sâu sắc hơn nhỉ.」"
+  },
+  {
+    "key": "1945",
+    "character": "ハチロク",
+    "kind": "typo",
+    "jp": "「もっともっとです、双鉄様。いずれ、あの高窓に、\\n[すみぞ,1]墨染めの雀が鈴なりになりますとも」",
+    "tw": "「它原本就這麼黑，雙鐵少爺。也許不用多久，那邊的天窗上就會有成群結隊的墨染一般黑的麻雀了」",
+    "old_vn": "「Sẽ còn đen hơn nữa cơ ạ, ngài Soutetsu. Rồi sẽ đến lúc, trên những ô cửa sổ cao kia,\\nđàn chim sẻ đen như nhuộm mực sẽ đậu trĩu trĩt cho xem.」",
+    "fix": "「Sẽ còn đen hơn nữa cơ ạ, ngài Soutetsu. Rồi sẽ đến lúc, trên những ô cửa sổ cao kia,\\nđàn chim sẻ đen như nhuộm mực sẽ đậu trĩu trịt cho xem.」"
+  },
+  {
+    "key": "1951",
+    "character": "ポーレット",
+    "kind": "pronoun",
+    "jp": "「それはそうと双鉄くん。\\n姫様がお呼びです」",
+    "tw": "「對了，雙鐵君。公主殿下傳你過去」",
+    "old_vn": "「Nhắc mới nhớ, cậu Soutetsu.\\nCông chúa đang gọi cậu đấy.」",
+    "fix": "「Nhắc mới nhớ, anh Soutetsu.\\nCông chúa đang gọi anh đấy.」"
+  },
+  {
+    "key": "2222",
+    "character": "双鉄",
+    "kind": "mistranslation",
+    "jp": "「確かに……これはうまいな。\\nパンはもちもち、カツはさくさく――っと」",
+    "tw": "「這麵包……確實挺好吃的。外面的麵包皮鬆軟可口，裡面的炸肉排口感酥脆——啊」",
+    "old_vn": "「Công nhận……ngon thật.\\nBánh mì thì dai mềm, thịt cốt lết thì giòn rụm——ái chà.」",
+    "fix": "「Công nhận……ngon thật.\\nBánh mì thì dai mềm, thịt cốt lết thì giòn rụm——.」"
+  },
+  {
+    "key": "2230",
+    "character": "双鉄",
+    "kind": "pronoun",
+    "jp": "「飾りではない。あのハンドルは回して開けるためにある。\\n僕も最初に目にしたときは、驚いた」",
+    "tw": "「那可不是裝飾啊。只要扭動那個把手就真的可以打開。其實我第一次看到那東西的時候也嚇了一跳」",
+    "old_vn": "「Không phải đồ trang trí đâu. Tay cầm đó dùng để vặn mở đấy.\\nLần đầu tiên nhìn thấy, tôi cũng ngạc nhiên lắm.」",
+    "fix": "「Không phải đồ trang trí đâu. Tay cầm đó dùng để vặn mở đấy.\\nLần đầu tiên nhìn thấy, anh cũng ngạc nhiên lắm.」"
+  },
+  {
+    "key": "2261",
+    "character": "ハチロク",
+    "kind": "gasp",
+    "jp": "「っ！！」",
+    "tw": "「！！」",
+    "old_vn": "「!!」",
+    "fix": "「Ư!!」"
+  },
+  {
+    "key": "2272",
+    "character": "凪",
+    "kind": "gasp",
+    "jp": "『「え～～っ！」\\n「え～～っ！」』",
+    "tw": "『「是嗎！」\\n「是嗎！」』",
+    "old_vn": "『「Hả~~!」\\n「Hả~~!」』",
+    "fix": "『「Hả~~Ư!」\\n「Hả~~Ư!」』"
+  },
+  {
+    "key": "2282",
+    "character": "ハチロク",
+    "kind": "gasp",
+    "jp": "『「っ！！？」\\n「あっ」』",
+    "tw": "『「！！？」\\n「啊」』",
+    "old_vn": "『「!!?」\\n「A.」』",
+    "fix": "『「Ư!!?」\\n「A.」』"
+  },
+  {
+    "key": "2415",
+    "character": "monologue",
+    "kind": "SFX",
+    "jp": "なぜなのか、凪はけらけら笑っている。\\nふかみは両手で口を押さえて、目を輝かせ僕らを見てる。",
+    "tw": "不知怎的，凪發出了爽朗的笑聲。而深美則是用兩隻手將嘴遮住，朝我們投來饒有興致的目光。",
+    "old_vn": "Chẳng hiểu sao, Nagi lại cười khúc khích.\\nCòn Fukami thì lấy hai tay che miệng, mắt sáng rực nhìn chúng tôi.",
+    "fix": "Chẳng hiểu sao, Nagi lại cười ha hả.\\nCòn Fukami thì lấy hai tay che miệng, mắt sáng rực nhìn chúng tôi."
+  },
+  {
+    "key": "2535",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "分割された画面の中から、僕と同様真っ黒な顔の日々姫と、\\n整備ボディに換装し、真っ白なハチロクの叱咤を浴びる。",
+    "tw": "在分屏畫面中傳來了和我一樣臉上黑糊糊的日日姬的，還有換上了整備體被我嚇得滿臉蒼白的八六的訓斥聲。",
+    "old_vn": "Từ trong màn hình được chia nhỏ, tôi bị Hibiki với khuôn mặt đen thui giống mình,\\nvà Hachiroku vừa thay thân chính trắng trẻo mắng mỏ.",
+    "fix": "Từ trong màn hình được chia nhỏ, tôi bị Hibiki với khuôn mặt đen thui giống mình,\\nvà Hachiroku vừa thay thân bảo trì trắng trẻo mắng mỏ."
+  },
+  {
+    "key": "2766",
+    "character": "monologue",
+    "kind": "terminology",
+    "jp": "冥国なり詠国なりの、しかも老婆が、\\n賞賛の意で、よもやチョップをくれるなど――",
+    "tw": "美國或者是英國出身的遊客，況且還是老婆婆，居然以贈送小肥肉為表達讚賞的方式――",
+    "old_vn": "Một bà cụ người Mỹ hay người Anh,\\nlại đi tặng \"cú chặt\" để tỏ ý khen ngợi sao——",
+    "fix": "Một bà cụ người Minh Quốc hay người Anh,\\nlại đi tặng \"cú chặt\" để tỏ ý khen ngợi sao——"
+  }
+]
