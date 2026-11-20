@@ -1271,7 +1271,7 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 
 - Chờ Hieu: phán đoán 2520 あぐっ → "Agù" (tiền lệ mâu thuẫn: 3 file dùng "A"/"Á" vs 1 file "Agu" — cần parent chốt); 2529 あー → "Aa" (日々姫06 dùng "Aaa!" cho あー！); đợt thống nhất: "Đường sắt Ohito" (1766, 3568), "Đại học Hoàng gia" (1759), "hợp đồng Maitetsu" (1766), "Phù a" giữ nguyên (2452, 2445, 2589, 2428, 2526), "ông nội/bà nội" (2668 — chờ chốt "ông nội" hay "ông ngoại").
 
-- Parent kiểm chứng 20/11 ~15:45: JSON 89 mục dạng chuẩn, khóa chuỗi; khối TOML 89 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 89/89; đại từ kiểm chứng qua dòng kề (mẫu 11/50 dòng đều đối thoại với Nagi — 'anh hai', 'em'; 61 lần 'tôi' trong 50 dòng 双鉄, sửa chỉ đổi tôi→anh, giữ nguyên viết hoa đầu câu); 2749/3346/3717 nghĩa kiểm tra đúng JP/TW; lượt soát 2 ghi trong review (89/89, 0 bỏ, 0 sửa). **PHÁN QUYẾT 2520 あぐっ: giữ 'Agù'** — §5 của agent ghi ngược tiền lệ: tiền lệ đã audit là 'Agu' (Common 05 key 2284 + Common 09 key 2326, đều đã gộp); 'A' chỉ là VN cũ trước audit. **Totals line REBASE: snippet ghi cơ sở 98/4.686 → 99/4.775; tổng đúng 100/4.799 (cơ sở 99/4.710 sau khi れいなh3 gộp trước).** Chờ Hieu: 2529 あー → 'Aa' (日々姫06 dùng 'Aaa!' cho あー！); đợt thống nhất 'Đường sắt Ohito' (1766, 3568), 'Đại học Hoàng gia' (1759), 'hợp đồng Maitetsu' (1766), 'Phù a' giữ nguyên (5 dòng), 'ông nội/bà nội' 2668.
+- Parent kiểm chứng 20/11 ~15:45: JSON 89 mục dạng chuẩn, khóa chuỗi; khối TOML 89 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 89/89; đại từ kiểm chứng qua dòng kề (mẫu 11/50 dòng đều đối thoại với Nagi — 'anh hai', 'em'; 61 lần 'tôi' trong 50 dòng 双鉄, sửa chỉ đổi tôi→anh, giữ nguyên viết hoa đầu câu); 2749/3346/3717 nghĩa kiểm tra đúng JP/TW; lượt soát 2 ghi trong review (89/89, 0 bỏ, 0 sửa). **PHÁN QUYẾT 2520 あぐっ: giữ 'Agù'** — §5 của agent ghi ngược tiền lệ: tiền lệ đã audit là 'Agu' (Common 05 key 2284 + Common 09 key 2326, đều đã gộp); 'A' chỉ là VN cũ trước audit. **Totals line REBASE: snippet ghi cơ sở 98/4.686 → 99/4.775; tổng đúng 100/4.799 (cơ sở 99/4.710 sau khi れいなh3 gộp trước).** Chờ Hieu: 2529 あー → 'Aa' (日々姫06 dùng 'Aaa!' cho あー！); đợt thống nhất 'Đường sắt Ohito' (1766, 3568), 'Đại học Hoàng gia' (1759), 'hợp đồng Maitetsu' (1766), 'Phù a' giữ nguyên (5 dòng), 'ông nội/bà nội' 2668. **Moan-pass flag 21/11 ~02:31: 2515 あふゅいっ → "Nóng quá" — câu hỏi nghĩa (TW 危 vs VN "Nóng quá"), thuộc vòng audit, ghi chú lại cho đợt sửa sau.**
 
 ## 日々姫10_稀咲の未来図、日々姫の未来図 — 日々姫10 (02_Hibiki) — 16/489 (3,3%)
 
@@ -2929,7 +2929,7 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 
 ---
 
-# ハチロク02_ハートブレイク・レイルロオド.txt.toml — 26/495 (5,3%)
+## ハチロク02 — ハチロク02_ハートブレイク・レイルロオド.txt.toml — 26/495 (5,3%)
 
 - File: `ハチロク02_ハートブレイク・レイルロオド.txt.toml` — route 01_Hachiroku, 495 dòng script (monologue 171, 双鉄 105, ポーレット 56, ハチロク 38, れいな 23, 凪 23, オリヴィ 23, 日々姫 15, ふかみ 14, 真闇 10, 稀咲 9, 宗方 7, 赤井 1). Nội dung: Đầu máy số 9 + Railord Olivy chuyển từ Đường sắt Mikan sang; Olivy đến trong nước mắt, Munakata ký xong rời đi ngay.
 - Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp phẳng TOML 494/495 (2653 chỉ gộp `\n`), comment `# JP:` khớp CSV3 495/495. TOML md5 `56cbf6691a5d618da886e8bffcf5b681`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng.
