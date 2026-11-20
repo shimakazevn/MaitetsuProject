@@ -1,0 +1,242 @@
+[
+  {
+    "key": "1276",
+    "jp": "「\\x%l帝鉄;#00ffc040;帝鉄%l;#;[にまんにせんけいかい,6]22000系改、御一夜\\x%l22形;#00ffc040;[ニイニイ,1]22系%l;#;1号\\x%l客車;#00ffc040;客車%l;#;、\\n\\x%lイロ;#00ffc040;ナイロ[ニイニイイチ,2]221%l;#;改修の全工程は、終了しました」",
+    "tw": "「\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;２２０００型改、御一夜\\x%l22形;#00ffc040;２２型%l;#;１號\\x%l客車;#00ffc040;客運車廂%l;#;、\\x%lナイロ221;#00ffc040;Ｎａｉｒｏ２２１%l;#;的修復工程全部結束了」",
+    "old_vn": "「Toa \\x%l客車;#00ffc040;hành khách%l;#; số 1 Ohimitera \\x%l22形;#00ffc040;Loại 22%l;#;, cải tạo từ Dòng 22000 của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#;,\\ntoàn bộ quá trình cải tạo \\x%lイロ;#00ffc040;Nairo 221%l;#; đã hoàn tất.」",
+    "fix": "「Toa \\x%l客車;#00ffc040;hành khách%l;#; số 1 Ohitoyo \\x%l22形;#00ffc040;Loại 22%l;#;, cải tạo từ Dòng 22000 của \\x%l帝鉄;#00ffc040;Đường sắt Đế quốc%l;#;,\\ntoàn bộ quá trình cải tạo \\x%lイロ;#00ffc040;Nairo 221%l;#; đã hoàn tất.」",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "reason": "御一夜 'Ohimitera'→'Ohitoyo' (thuật ngữ đã chốt 19/11); 帝鉄 gloss 'Đường sắt Hoàng gia'→'Đường sắt Đế quốc' — lần đầu xuất hiện 帝鉄 trong file (theo thứ tự script), dùng dạng đầy đủ trong thẻ %l, tiền lệ Common 01/09/10/14."
+  },
+  {
+    "key": "1597",
+    "jp": "「\\x%l運転体;#00ffc040;運転体%l;#;へ、\\x%lタブレット;#00ffc040;タブレット%l;#;交換はしないのか？」",
+    "tw": "「你不把\\x%lタブレット;#00ffc040;操作板%l;#;替換到\\x%l運転体;#00ffc040;駕駛體%l;#;上嗎？」",
+    "old_vn": "「Không đổi \\x%lタブレット;#00ffc040;thẻ bảng%l;#; sang \\x%l運転体;#00ffc040;kíp lái%l;#; sao?」",
+    "fix": "「Không đổi \\x%lタブレット;#00ffc040;máy tính bảng%l;#; sang \\x%l運転体;#00ffc040;thân vận hành%l;#; sao?」",
+    "kind": "terminology",
+    "character": "双鉄",
+    "reason": "運転体 'kíp lái'→'thân vận hành' — đó là thân thể, không phải kíp người (tiền lệ Common 08: 1456/1486/2517/2529/2692); タブレット 'thẻ bảng'→'máy tính bảng' (tiền lệ Common 08/15, Paulette 11)."
+  },
+  {
+    "key": "1689",
+    "jp": "「はぅう～いいですねぇ。\\nれいな、すっごくうらやましいですぅ」",
+    "tw": "「哈呼～真好啊。玲奈好羨慕」",
+    "old_vn": "「Haa~ Thích quá đi.\\nReina, vô cùng ghen tị luôn đó ạ~」",
+    "fix": "「Hauu~ Thích quá đi.\\nReina, vô cùng ghen tị luôn đó ạ~」",
+    "kind": "sfx",
+    "character": "れいな",
+    "reason": "はぅう～ 'Haa~'→'Hauu~' — công thức độ dài nguyên âm: 1 + 2 (ぅ/う) = 3 nguyên âm (a,u,u); tiền lệ Grand 04 1833 'Hauu!', lr真闇追加02 1254 'Hauuu~'."
+  },
+  {
+    "key": "1714",
+    "jp": "「あっ――あのッ――あうぅうう～っ！」",
+    "tw": "「啊——那個——啊嗚嗚嗚嗚～！」",
+    "old_vn": "「A――Cái đó――Auuuu~!」",
+    "fix": "「A――Cái đó――Auuuu~Ư!」",
+    "kind": "gasp",
+    "character": "ふかみ",
+    "reason": "Sweep lost-gasp-trailing (đã kiểm chứng đúng JP): あうだうう～っ — VN giữ dấu ~ nhưng mất tiếng hít っ cuối → thêm Ư. Số nguyên âm kiểm lại độc lập: あうぅうう = 1+4 = 5 (Auuuu)."
+  },
+  {
+    "key": "1729",
+    "jp": "「はい――ずっと――っ！！」",
+    "tw": "「嗯——永遠——！」",
+    "old_vn": "「Vâng――sẽ mãi mãi――!!」",
+    "fix": "「Vâng――sẽ mãi mãi――Ư!!」",
+    "kind": "gasp",
+    "character": "日々姫",
+    "reason": "Sweep lost-gasp-trailing (đã kiểm chứng đúng JP): はい――ずっと――っ！！ — VN mất っ cuối → thêm Ư."
+  },
+  {
+    "key": "1744",
+    "jp": "「はい、湯医で」",
+    "tw": "「嗯，湯醫見」",
+    "old_vn": "「Vâng, hẹn gặp ở ga Yui.」",
+    "fix": "「Vâng, hẹn gặp ở ga Yunoi.」",
+    "kind": "terminology",
+    "character": "ハチロク",
+    "reason": "湯医 'ga Yui'→'ga Yunoi' (thuật ngữ đã chốt 19/11; tiền lệ Hachiroku14_橋 1754 sửa trong audit theo chỉ đạo Hieu 21/11 01:51)."
+  },
+  {
+    "key": "1824",
+    "jp": "「き、[きのう,1]昨夜から！？　昨夜からって――はうう～っ！」",
+    "tw": "「從、從昨天晚上開始！？從昨天晚上開始也就是——哈嗚～！」",
+    "old_vn": "「Từ, từ đêm qua sao!? Từ đêm qua nghĩa là――Hauu~!」",
+    "fix": "「Từ, từ đêm qua sao!? Từ đêm qua nghĩa là――Hauu~Ư!」",
+    "kind": "gasp",
+    "character": "ふかみ",
+    "reason": "Sweep lost-gasp-trailing (đã kiểm chứng đúng JP): はうう～っ — VN mất っ cuối → thêm Ư. Số nguyên âm kiểm lại độc lập: はうう = 1+2 = 3 (Hauu)."
+  },
+  {
+    "key": "1876",
+    "jp": "「次に会うのは、湯医でとなることを期待します」",
+    "tw": "「我期待下一次我們見面的地方是湯醫」",
+    "old_vn": "「Kỳ vọng rằng lần tới chúng ta gặp nhau sẽ là ở ga Yui.」",
+    "fix": "「Kỳ vọng rằng lần tới chúng ta gặp nhau sẽ là ở ga Yunoi.」",
+    "kind": "terminology",
+    "character": "ハチロク",
+    "reason": "湯医 'ga Yui'→'ga Yunoi' (thuật ngữ đã chốt)."
+  },
+  {
+    "key": "1889",
+    "jp": "「ボクって……え？　えと！　稀咲先輩っ！？」",
+    "tw": "「我自己……哎？哎！稀咲學姐！？」",
+    "old_vn": "「Bản thân chị…… Hả? À ừm! Tiền bối Kisaki!?」",
+    "fix": "「Boku…… Hả? À ừm! Tiền bối Kisaki!?」",
+    "kind": "meaning",
+    "character": "日々姫",
+    "reason": "ボクって là Hibiki nhắc lại từ ボク của Kisaki ở 1868 (「ボクを使ってほしい」) — ngạc nhiên trước cách tự xưng của Kisaki. Bản cũ 'Bản thân chị……' sai: Hibiki tự xưng 'em' với Kisaki (không bao giờ 'chị'), và 'bản thân' không có trong JP. Giữ nguyên từ được nhắc lại bằng romaji 'Boku' để giữ hiệu ứng echo; TW 我自己 chỉ là diễn đạt lỏng, JP thắng TW."
+  },
+  {
+    "key": "2166",
+    "jp": "「なら、私も。にぃにぃ――っ！」",
+    "tw": "「那，我也。阿哥——！」",
+    "old_vn": "「Nếu vậy, em cũng thế. Anh hai――!」",
+    "fix": "「Nếu vậy, em cũng thế. Anh hai――Ư!」",
+    "kind": "gasp",
+    "character": "日々姫",
+    "reason": "Sweep lost-gasp-trailing (đã kiểm chứng đúng JP): にぃにぃ――っ！ — VN mất っ cuối → thêm Ư."
+  },
+  {
+    "key": "2168",
+    "jp": "「ならば、湯医で」",
+    "tw": "「那，湯醫見」",
+    "old_vn": "「Nếu vậy, hẹn gặp ở ga Yui.」",
+    "fix": "「Nếu vậy, hẹn gặp ở ga Yunoi.」",
+    "kind": "terminology",
+    "character": "双鉄",
+    "reason": "湯医 'ga Yui'→'ga Yunoi' (thuật ngữ đã chốt)."
+  },
+  {
+    "key": "2174",
+    "jp": "「開票結果は、票数が少ないところから集計がくるの。\\nつまり、御一夜の中心部以外の場所から」",
+    "tw": "「開票結果是先從票數少的地區開始統計的。也就是從御一夜市中心以外的地區」",
+    "old_vn": "「Kết quả kiểm phiếu sẽ được tổng hợp từ những nơi có ít phiếu bầu trước.\\nNói cách khác, là từ những khu vực ngoài trung tâm Ohimitera.」",
+    "fix": "「Kết quả kiểm phiếu sẽ được tổng hợp từ những nơi có ít phiếu bầu trước.\\nNói cách khác, là từ những khu vực ngoài trung tâm Ohitoyo.」",
+    "kind": "terminology",
+    "character": "ポーレット",
+    "reason": "御一夜 'Ohimitera'→'Ohitoyo' (thuật ngữ đã chốt)."
+  },
+  {
+    "key": "2185",
+    "jp": "「双鉄様と日々姫と。ふたりだけの運転で湯医まで、\\n\\x%l22形;#00ffc040;ナイロ221%l;#;を引いた\\x%l8620;#00ffc040;8620%l;#;を持っていく」",
+    "tw": "「雙鐵少爺和日日姬，你們兩人要開著\\x%l8620;#00ffc040;８６２０%l;#;把\\x%lナイロ221;#00ffc040;Ｎａｉｒｏ２２１%l;#;拉到湯醫去」",
+    "old_vn": "「Ngài Soutetsu và Hibiki. Hai người sẽ tự mình lái \\x%l8620;#00ffc040;8620%l;#;\\nkéo theo \\x%l22形;#00ffc040;Nairo 221%l;#; đến tận ga Yui.」",
+    "fix": "「Ngài Soutetsu và Hibiki. Hai người sẽ tự mình lái \\x%l8620;#00ffc040;8620%l;#;\\nkéo theo \\x%l22形;#00ffc040;Nairo 221%l;#; đến tận ga Yunoi.」",
+    "kind": "terminology",
+    "character": "ハチロク",
+    "reason": "湯医 'ga Yui'→'ga Yunoi' (thuật ngữ đã chốt)."
+  },
+  {
+    "key": "2193",
+    "jp": "「っ！」",
+    "tw": "「！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」",
+    "kind": "gasp",
+    "character": "双鉄",
+    "reason": "Sweep lost-gasp-whole (đã kiểm chứng đúng JP): 「っ！」 — cả dòng chỉ là tiếng hít, VN chỉ còn dấu ! → 'Ư!'."
+  },
+  {
+    "key": "2194",
+    "jp": "「っ！！！！」",
+    "tw": "「！！！！」",
+    "old_vn": "「!!!!」",
+    "fix": "「Ư!!!!」",
+    "kind": "gasp",
+    "character": "日々姫",
+    "reason": "Sweep lost-gasp-whole (đã kiểm chứng đúng JP): 「っ！！！！」 → 'Ư!!!!'."
+  },
+  {
+    "key": "2195",
+    "jp": "「っ！！？」",
+    "tw": "「！！？」",
+    "old_vn": "「!!?」",
+    "fix": "「Ư!!?」",
+    "kind": "gasp",
+    "character": "双鉄",
+    "reason": "Sweep lost-gasp-whole (đã kiểm chứng đúng JP): 「っ！！？」 → 'Ư!!?'."
+  },
+  {
+    "key": "2196",
+    "jp": "「っ！？」",
+    "tw": "「！？」",
+    "old_vn": "「!?」",
+    "fix": "「Ư!?」",
+    "kind": "gasp",
+    "character": "双鉄",
+    "reason": "Sweep lost-gasp-whole (đã kiểm chứng đúng JP): 「っ！？」 → 'Ư!?'."
+  },
+  {
+    "key": "2609",
+    "jp": "そうして二人で――\\n僕と日々姫と二人の力で、御一夜の夜を駆け抜けよう。",
+    "tw": "就這樣憑藉兩個人——我和日日姬兩個人的力量，來穿越御一夜的黑夜吧。",
+    "old_vn": "Và rồi hai chúng tôi――\\nbằng sức mạnh của cả hai, tôi và Hibiki sẽ cùng nhau băng qua màn đêm của Ohimitera.",
+    "fix": "Và rồi hai chúng tôi――\\nbằng sức mạnh của cả hai, tôi và Hibiki sẽ cùng nhau băng qua màn đêm của Ohitoyo.",
+    "kind": "terminology",
+    "character": "monologue",
+    "reason": "御一夜 'Ohimitera'→'Ohitoyo' (thuật ngữ đã chốt)."
+  },
+  {
+    "key": "2637",
+    "jp": "御一夜の、すべての人達で――\\nそれが、日々姫の描いた未来だ。",
+    "tw": "御一夜所有的人面帶歡笑——這就是日日姬所描繪的未來。",
+    "old_vn": "Cùng với tất cả mọi người ở Ohimitera――\\nĐó chính là tương lai mà Hibiki đã vẽ nên.",
+    "fix": "Cùng với tất cả mọi người ở Ohitoyo――\\nĐó chính là tương lai mà Hibiki đã vẽ nên.",
+    "kind": "terminology",
+    "character": "monologue",
+    "reason": "御一夜 'Ohimitera'→'Ohitoyo' (thuật ngữ đã chốt)."
+  },
+  {
+    "key": "2721",
+    "jp": "唸りをあげる凪の気持ちは想像できる。\\nここで一気に勝負をかけて、圧勝にまで運びたいのだ。",
+    "tw": "我能理解凪為何不滿地嘟起了嘴。她是想一口氣賭一把然後順勢取得完勝。",
+    "old_vn": "Tôi có thể tưởng tượng được cảm xúc của Nagi khi rên rỉ như vậy.\\nCon bé muốn dốc toàn lực quyết thắng ở đây, và giành chiến thắng áp đảo.",
+    "fix": "Tôi có thể tưởng tượng được cảm xúc của Nagi khi gầm gừ như vậy.\\nCon bé muốn dốc toàn lực quyết thắng ở đây, và giành chiến thắng áp đảo.",
+    "kind": "meaning",
+    "character": "monologue",
+    "reason": "唸り 'rên rỉ'→'gầm gừ' — 唸る là gầm gừ/càu nhàu vì bực bội, không phải rên rỉ (đau/khoái cảm); TW 不滿 (bất mãn) xác nhận sắc thái; tiền lệ toàn dự án lr_凪h2 1533 'khẽ gầm gừ một tiếng'."
+  },
+  {
+    "key": "2888",
+    "jp": "それから御一夜に入線し、おそらくそのまま、\\nあの乗客を乗せて引くことともなるのだろう。",
+    "tw": "然後就要駛入御一夜，到時候恐怕還會載上剛才那些乘客們吧。",
+    "old_vn": "Sau đó tiến vào ga Ohimitera, và có lẽ cứ thế,\\nkéo theo những hành khách kia nữa.",
+    "fix": "Sau đó tiến vào ga Ohitoyo, và có lẽ cứ thế,\\nkéo theo những hành khách kia nữa.",
+    "kind": "terminology",
+    "character": "monologue",
+    "reason": "御一夜 'Ohimitera'→'Ohitoyo' (thuật ngữ đã chốt)."
+  },
+  {
+    "key": "2967",
+    "jp": "天井が見える。\\nと、いうことは僕は倒れて――っ！？",
+    "tw": "能看見天花板。那也就是說我摔倒了——！？",
+    "old_vn": "Tôi có thể nhìn thấy trần nhà.\\nNói cách khác là tôi đã ngã xuống――!?",
+    "fix": "Tôi có thể nhìn thấy trần nhà.\\nNói cách khác là tôi đã ngã xuống――Ư!?",
+    "kind": "gasp",
+    "character": "monologue",
+    "reason": "Sweep lost-gasp-trailing (đã kiểm chứng đúng JP): 倒れて――っ！？ — VN mất っ cuối → thêm Ư."
+  },
+  {
+    "key": "3030",
+    "jp": "ならば221の方は、旧\\x%l帝鉄;#00ffc040;帝鉄%l;#;22000系改め御一夜22系の22に、\\n単純に一号客車の1を付け足しただけのものか。",
+    "tw": "那２２１，就只是單純在舊\\x%l帝鉄;#00ffc040;帝國鐵路%l;#;２２０００型改御一夜２２型的“２２”上加了個表示一號客運車廂的“１”啊。",
+    "old_vn": "Vậy thì phần 221, chỉ đơn giản là số 22 của Dòng 22 Ohimitera được đổi từ Dòng 22000 của \\x%l帝鉄;#00ffc040;Đường sắt Hoàng gia%l;#; cũ,\\ncộng thêm số 1 của toa hành khách số 1 thôi sao.",
+    "fix": "Vậy thì phần 221, chỉ đơn giản là số 22 của Dòng 22 Ohitoyo được đổi từ Dòng 22000 của \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũ,\\ncộng thêm số 1 của toa hành khách số 1 thôi sao.",
+    "kind": "terminology",
+    "character": "monologue",
+    "reason": "御一夜 'Ohimitera'→'Ohitoyo'; 帝鉄 gloss 'Đường sắt Hoàng gia'→'Teitetsu' — lần thứ hai 帝鉄 xuất hiện trong file (lần đầu 1276 đã dùng dạng đầy đủ 'Đường sắt Đế quốc'), tiền lệ Common 10 (63 đầy đủ, 2436/1900 'Teitetsu')."
+  },
+  {
+    "key": "3052",
+    "jp": "まずは僕から\\x%l運転台;#00ffc040;運転台%l;#;へ――っ！？",
+    "tw": "首先我走到\\x%l運転台;#00ffc040;駕駛台%l;#;前——！？",
+    "old_vn": "Đầu tiên tôi sẽ lên \\x%l運転台;#00ffc040;buồng lái%l;#;――!?",
+    "fix": "Đầu tiên tôi sẽ lên \\x%l運転台;#00ffc040;buồng lái%l;#;――Ư!?",
+    "kind": "gasp",
+    "character": "monologue",
+    "reason": "Sweep lost-gasp-trailing (đã kiểm chứng đúng JP): 運転台へ――っ！？ — VN mất っ cuối → thêm Ư."
+  }
+]

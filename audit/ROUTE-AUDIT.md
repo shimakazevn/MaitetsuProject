@@ -2947,3 +2947,35 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 - Parent kiểm chứng 21/11 ~02:05: JSON 26 mục dạng chuẩn, khóa chuỗi; khối TOML [script] 26 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 26/26; không có fix viết lại lớn; lượt soát 2: 26/26, 0 bỏ, 0 sửa; đại từ kiểm chứng theo dòng kề: 2052→Hachiroku "tôi", 2445→Kisaki "tôi", 2311 Kisaki tên trần 双鉄→"cậu", 2699 Paulette 双鉄くん→"anh Soutetsu" (khóa B4); các dòng "anh" còn lại đã rà lại — đều nói với Paulette/Hibiki/Nagi/Fukami (2532 nhắc Olivy nhưng đối tượng là Hibiki). Không sửa nào bị loại. Cờ cho Hieu: mapping [characters] 2823/3034 = "Olive" vs chính tả đã chốt "Olivy" (không phải dòng script); "Ohito" 29 dòng → đợt thống nhất. Snippet rebase: cơ sở 136/6.200 → 137/6.259 vì ハチロク14 gộp trước.
 
 **Tổng cộng sau file này: 138 file / 6.285 dòng sai** (cơ sở 137 file / 6.259 + 26 file này)
+
+---
+
+## 02_Hibiki — 日々姫14_投開票.txt.toml — 24/476 (5,0%)
+
+- File: `日々姫14_投開票.txt.toml` — route 02_Hibiki, 476 dòng script đã đọc hết.
+- **24 dòng sai (5,0%)** — thuật ngữ 11 (Ohimitera→Ohitoyo 6, Yui→Yunoi 4, 帝鉄 2, 運転体+タブレット 1 dòng ×2 gloss), gasp 10 (sweep, đã kiểm chứng), SFX 1 (1689 はぅう "Haa~"→"Hauu~"), sai nghĩa 2 (1889 ボクって echo→"Boku……", 2721 唸り "rên rỉ"→"gầm gừ").
+- 0 lệch vị trí, 0 xoay chuỗi, 0 nhiễm chéo, 0 mồ côi, 0 chưa dịch, 0 trùng khóa. TOML md5 `fe0d16d01d8081c02be60d88086da2e8`, không có bản trùng.
+- Sweep っ-gasp: 10/11 entry áp nguyên sau kiểm chứng (1714, 1729, 1824, 2166, 2193–2196, 2967, 3052); 1712 already-rendered giữ nguyên; 0 bỏ sót.
+- Lượt soát 2: 24/24 tái kiểm chứng, 0 bỏ, 3 sửa (1744/1876/2168: lỗi dấu 「」/. bắt được bằng diff-sanity).
+- Cờ cho Hieu (không quyết): 5 dòng đại từ Soutetsu không chắc về đối tượng, giữ nguyên — 1841, 1854, 1856, 2102, 2181 (chi tiết trong `audit-hibiki14-touhyou-REVIEW.md` §4).
+- Chi tiết đầy đủ: `audit-hibiki14-touhyou-REVIEW.md`; danh sách sửa: `audit-hibiki14-touhyou-wrong.json` (24 mục).
+- Parent kiểm chứng 21/11 ~02:55: JSON 24 mục dạng chuẩn, khóa chuỗi; khối TOML 24 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 24/24; không có fix viết lại lớn; lượt soát 2: 24/24, 0 bỏ, 3 sửa; đại từ kiểm chứng theo dòng kề: 14 dòng "anh" còn lại đúng đối tượng (Hibiki/Paulette/Fukami); 5 dòng không chắc giữ nguyên chờ quyết. Không sửa nào bị loại.
+
+**Tổng cộng sau file này: 139 file / 6.309 dòng sai** (cơ sở 138 file / 6.285 dòng sai + 24 file này)
+
+---
+
+## 02_Hibiki — 日々姫06_日々姫の決断.txt.toml — 8/462 (1,7%)
+
+- File: `日々姫06_日々姫の決断.txt.toml` — route 02_Hibiki, 462 dòng script (monologue 205, 双鉄 83, 日々姫 53, ポーレット 51, ハチロク 34, 真闇 20, れいな 16). Nội dung: Paulette kể về lời đề nghị tài trợ của Ngân hàng Kumamoto kèm điều kiện Thị trưởng từ chức; Hibiki nhận ra chính mình đã vô tình gợi ý cho Kisaki; cả nhóm bàn chiến lược bầu cử (người–tiền–gió); Paulette quyết định từ chức để mở bầu cử, Hibiki quyết định tự ra ứng cử thay vì để Soutetsu làm ứng cử viên kế nhiệm; đêm cuối, Hibiki hôn Soutetsu để lấy dũng khí.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp phẳng TOML 462/462, comment `# JP:` khớp CSV3 462/462. TOML md5 `84d952a011337e111855c573aae8d311`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng.
+- Phân loại (8): gasp 2, sai nghĩa 6. Thoại 5/257 (1,9%), độc thoại 3/205 (1,5%).
+- Gasp 2 (sweep áp nguyên văn sau kiểm chứng): 2942 「っ!」→「Ư!」, 2489 「Hibiki? ——っ!!」→「Hibiki? ——Ư!!」. Quét bổ sung toàn bộ các dòng JP có っ — 0 gasp sót.
+- Sai nghĩa 6: 2923 ねぇねぇ "Anh hai——"→"Chị——" (TW 阿姐 xác nhận); 2374 事態は既に動いていた "đã được định sẵn"→"đã bắt đầu diễn ra từ trước rồi"; 3675 ティーカップを前に thêm "Đứng trước tách trà"→"Trước tách trà"; 3567 呼び水 "mồi nhử"→"lời gợi mở"; 2493 無理矢理 "dùng vũ lực"→"cưỡng ép"; 2658 手だってひける "nắm lấy tay"→"dắt tay anh trai bước đi" (TW 牽著哥哥向前走).
+- Giữ nguyên: 義理でも兄/義妹 → "anh trai nuôi"/"em gái nuôi" (TW 義兄/義妹, theo tiền lệ file 14); độc thoại Soutetsu "tôi", chỉ 3752 "mình" (tự vấn cảm xúc, đúng ngoại lệ); ふぇ？→"Hể?" (thán từ hỏi, không phải rên); ひゃうう→"Hyaa." (tự phát, Reina giật mình); hoàn thiện câu JP cụt theo TW (3748, 2929/2087 nói mớ, 2767); vần "bàn" ở 2886 chỉ giữ được 2/3 — giới hạn dịch, không sửa. Quy tắc romaji fallback cho tiếng rên không áp dụng cho file này.
+- Chờ đợt thống nhất: "Ohimitera" 13 dòng → "Ohitoyo" (trong đó 3326 là tên công ty 御一夜鉄道株式会社, cùng câu hỏi đang chờ Hieu như ハチロク14 2748); "Hinamoto" 2 dòng (2709, 2628) → "Hinomoto"; 頭取 2897 "Giám đốc Houshou" vs "chủ tịch" (共通14) / "tổng giám đốc" (共通11) — cần chốt 1 dạng; gloss 機関士 "người lái tàu"/"nữ lái tàu" vs thuật ngữ đã chốt "thợ lái đầu máy".
+- Kiểm chứng: JSON 8 mục dạng chuẩn, khóa chuỗi; khối TOML 8 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 8/8; lượt soát 2: 9/9 agent, parent loại 2764 → 8.
+- Chi tiết đầy đủ: `audit-hibiki06-hibiki-no-ketsudan-REVIEW.md`; danh sách sửa: `audit-hibiki06-hibiki-no-ketsudan-wrong.json` (8 mục).
+- Parent kiểm chứng 21/11 ~02:55: JSON ban đầu 9 mục, khối TOML 9 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 9/9 — NHƯNG 1 sửa bị loại: 2764 Soutetsu "anh"→"tôi" với Hachiroku. Bằng chứng agent viện dẫn (key 233/237) không tồn tại trong file này; dòng kề thực tế (2760 Hibiki gọi "にぃにぃ… 兄さん", 2766 Soutetsu trấn an Hibiki, 2767 Hibiki đáp "Đúng vậy, anh trai") cho thấy người nghe là Hibiki → "anh" đúng, giữ nguyên old VN. Đã gỡ 2764 khỏi JSON + khối TOML + tổng số (9 → 8), ghi chú trong review §2. Tiền lệ file 09 key 2123. Snippet rebase: cơ sở 138/6.285 → 139/6.309 vì 日々姫14 gộp trước.
+
+**Tổng cộng sau file này: 140 file / 6.317 dòng sai** (cơ sở 139 file / 6.309 dòng sai + 8 file này)
