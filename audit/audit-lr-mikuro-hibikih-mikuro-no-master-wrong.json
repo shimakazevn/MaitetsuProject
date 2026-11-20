@@ -1,0 +1,822 @@
+[
+ {
+  "key": "1114",
+  "jp": "「──っ！　っ～～～っ」",
+  "tw": "「……！」",
+  "old_vn": "「──っ! っ~~~っ」",
+  "fix": "「──Ư! Ư~~~Ư」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1678",
+  "jp": "「ひゃうっ──んっ──ふあっ──あっ──\\nあっ──あっ──あっ──ああっ──」",
+  "tw": "「呀啊——嗯——呼啊——啊——　啊——啊——啊——啊啊——」",
+  "old_vn": "「Hyau── ưm── fua── a──\\nA── a── a── aa──」",
+  "fix": "「Hyau── ưm── phùa── a──\\nA── a── a── aa──」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1680",
+  "jp": "「ひゃうっ」",
+  "tw": "「呀嗚」",
+  "old_vn": "「Hyau」",
+  "fix": "「HyauƯ」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "1681",
+  "jp": "「ひゃんっっ」",
+  "tw": "「呀嗯」",
+  "old_vn": "「Hyan」",
+  "fix": "「HyanƯƯ」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "JP ひゃんっっ (2 っ cuối dòng, không dấu câu sau); VN cũ 'Hyan' làm mất cả hai — thêm 2 Ư (mỗi っ→1 Ư, tiền lệ sweep 2330)."
+ },
+ {
+  "key": "1703",
+  "jp": "「ふっ──あっ──あっ──ああっ」",
+  "tw": "「呼——啊——啊——啊啊」",
+  "old_vn": "「Phù──a──a──aa.」",
+  "fix": "「Phù──a──a──aaƯ.」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "1707",
+  "jp": "「ふぅ。御一夜温泉駅、着。定刻」",
+  "tw": "「呼。準時抵達御一夜溫泉站」",
+  "old_vn": "「Phù. Đến ga suối nước nóng Ohimitera. Đúng giờ.」",
+  "fix": "「Phù. Đến ga suối nước nóng Ohitoyo. Đúng giờ.」",
+  "kind": "terminology",
+  "character": "双鉄",
+  "reason": "JP 御一夜温泉駅: VN cũ 'Ohimitera' — sai dạng tên đã chốt; sửa 'Ohitoyo'."
+ },
+ {
+  "key": "1708",
+  "jp": "「ふえっ！？　またっ──みくろっ！　またっ！\\nだって！　ぼっきっ！　だってっ！　だってぇっ！！」",
+  "tw": "「呼哎？！又來了——美玖路又要洩了！因為！肉棒！真的！非常舒服！！」",
+  "old_vn": "「Fue!? Lại nữa── Mikuro! Lại nữa!\\nBởi vì! Cương cứng! Bởi vì! Bởi vì!!」",
+  "fix": "「Phuê!? Lại nữa── Mikuro! Lại nữa!\\nBởi vì! Cương cứng! Bởi vì! Bởi vì!!」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふえっ: VN cũ romanisation 'Fue' — sửa 'Phuê' (ふぇ/ふえ→'phuê' theo quy tắc fa/fu)."
+ },
+ {
+  "key": "1711",
+  "jp": "「ふあっ──やっ──にぃにっ、いきなり、指、\\n二本とかぁ──ふぁうっ！！！？」",
+  "tw": "「呼啊——呀——阿哥，怎麼突然兩根手指插進來了——呼啊！！！」",
+  "old_vn": "「Fua── a── anh hai, tự nhiên lại, đưa cả hai ngón tay\\nvào thế── fua!!!?」",
+  "fix": "「Phùa── a── anh hai, tự nhiên lại, đưa cả hai ngón tay\\nvào thế── phàu!!!?」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP có 2 âm fa/fu: ふあっ──→'phùa──' và ふぁうっ→'phàu' (ふぁ→'phà' + う→'u')."
+ },
+ {
+  "key": "1712",
+  "jp": "「ふぁっ──あっ──あっ──ああっ」",
+  "tw": "「呼啊——啊——啊——啊啊」",
+  "old_vn": "「Fua── a── a── aa.」",
+  "fix": "「Phà── a── a── aaƯ.」",
+  "kind": "gasp + fa/fu",
+  "character": "日々姫",
+  "reason": "JP ふぁっ──: ふぁ→'phà' theo quy tắc fa/fu. Đồng thời gasp cuối dòng: ああっ→'aaƯ.' (JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất).)"
+ },
+ {
+  "key": "1714",
+  "jp": "「ふあっ──あっ──あっ──なに、これ──\\nなに、これぇっっ！！　きもちい、みくろ、気持ちいい」",
+  "tw": "「呼啊——啊——啊——這是什麼感覺，感覺好怪啊！！美玖路變得好舒服啊」",
+  "old_vn": "「Fua── a── a── gì thế, này──\\nGì thế, này!! Sướng quá, Mikuro, sướng quá.」",
+  "fix": "「Phùa── a── a── gì thế, này──\\nGì thế, này!! Sướng quá, Mikuro, sướng quá.」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1716",
+  "jp": "「ふあっ──あっ──すごっ──ふえっ！！？\\nや、みくろ──ごめんっ、制服──私、汚してっっ」",
+  "tw": "「呼啊——啊——天啊——哎？！！呀，美玖路，對不起，你的制服被我弄髒了」",
+  "old_vn": "「Fua── a── tuyệt quá── fue!!?\\nA, Mikuro── xin lỗi, đồng phục── chị, làm bẩn mất rồi」",
+  "fix": "「Phùa── a── tuyệt quá── phuê!!?\\nA, Mikuro── xin lỗi, đồng phục── chị, làm bẩn mất rồi」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP ふあっ── và ふえっ: VN cũ romanisation 'Fua'/'fue' — sửa 'Phùa'/'phuê' theo quy tắc fa/fu."
+ },
+ {
+  "key": "1718",
+  "jp": "「ふあっ──あっ──すごっ──こんなにっ──あ──\\nこんなに──はやくっ──つよくっ──ふか、くにっ」",
+  "tw": "「呼啊——啊——好厲害——這麼——啊——這麼快——這麼用力——這麼深」",
+  "old_vn": "「Fua── a── tuyệt quá── thế này── a──\\nNhanh── mạnh── sâu, thế này」",
+  "fix": "「Phùa── a── tuyệt quá── thế này── a──\\nNhanh── mạnh── sâu, thế này」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1720",
+  "jp": "「ふあっ──あっ──日々姫さんの、指……指が──\\nみくろ──みくろの、クリトリス、をっ──」",
+  "tw": "「呼啊——啊——日日姬小姐的手指……手指在撫摸美玖路、美玖路的陰核——」",
+  "old_vn": "「Fua── a── ngón tay của chị Hibiki…… ngón tay──\\nMikuro── âm vật của Mikuro, đang──」",
+  "fix": "「Phùa── a── ngón tay của chị Hibiki…… ngón tay──\\nMikuro── âm vật của Mikuro, đang──」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1722",
+  "jp": "「ふあっ──あっ──くぱって──みくろ──\\n日々姫さんに──ひらかれて、ますっ」",
+  "tw": "「呼啊——啊——美玖路的下面張開了，被日日姬小姐撐開了」",
+  "old_vn": "「Fua── a── mở rộng ra── Mikuro──\\nđang được chị Hibiki── vạch ra, ạ」",
+  "fix": "「Phùa── a── mở rộng ra── Mikuro──\\nđang được chị Hibiki── vạch ra, ạ」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1724",
+  "jp": "「ふあっ……あっ──しゅごっ──すごいっ──\\nんっ──あっつ──はっ──きれぇ──綺麗っ……」",
+  "tw": "「呼啊……啊——天啊——好厲害——嗯——啊——哈——好美——太美了……」",
+  "old_vn": "「Fua…… a── tuyệt── tuyệt quá──\\nƯm── nóng── hà── đẹp── đẹp quá……」",
+  "fix": "「PhùaƯ…… a── tuyệt── tuyệt quá──\\nƯm── nóng── hà── đẹp── đẹp quá……」",
+  "kind": "gasp + fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあっ……: ふあ→'phùa'; っ trước …… làm mất gasp — thêm Ư (JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất).)"
+ },
+ {
+  "key": "1725",
+  "jp": "「ふあっ……あっ──日々姫、さん。\\nみくろ──は、あっ──みくろ──う、んっ」",
+  "tw": "「呼啊……啊，日日姬小姐。美玖路——啊——美玖路——唔、嗯」",
+  "old_vn": "「Fua…… a── chị Hibiki.\\nMikuro── là, a── Mikuro── ư, ưm」",
+  "fix": "「PhùaƯ…… a── chị Hibiki.\\nMikuro── là, a── Mikuro── ư, ưm」",
+  "kind": "gasp + fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあっ……: ふあ→'phùa'; っ trước …… làm mất gasp — thêm Ư."
+ },
+ {
+  "key": "1727",
+  "jp": "「ふあっ……みくろ……シーリングが解けたとこ──\\nおんなのこのとこ、全部──日々姫さんにこんな近くで」",
+  "tw": "「呼啊……美玖路……封印解除的地方——女孩子的地方，離日日姬小姐這麼近——」",
+  "old_vn": "「Fua…… Mikuro…… chỗ phong ấn vừa được giải trừ──\\nchỗ con gái, toàn bộ── ở gần chị Hibiki thế này」",
+  "fix": "「PhùaƯ…… Mikuro…… chỗ phong ấn vừa được giải trừ──\\nchỗ con gái, toàn bộ── ở gần chị Hibiki thế này」",
+  "kind": "gasp + fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあっ……: ふあ→'phùa'; っ trước …… làm mất gasp — thêm Ư."
+ },
+ {
+  "key": "1728",
+  "jp": "「ふあっ」",
+  "tw": "「呼啊」",
+  "old_vn": "「Fua.」",
+  "fix": "「PhùaƯ.」",
+  "kind": "gasp + fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあっ (không dấu câu sau): ふあ→'phùa'; っ mất hẳn — thêm Ư."
+ },
+ {
+  "key": "1729",
+  "jp": "「ふあぁぁぁぁぁぁあああああああんっ！！！！」",
+  "tw": "「呼啊啊啊啊啊啊啊嗯！！！！」",
+  "old_vn": "「Fuaaaaaaaaaaaaaaaaan!!!!」",
+  "fix": "「Phùaaaaaaaaaaaaaaaaan!!!!」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP ふあぁぁぁぁぁぁあああああああんっ: VN cũ romanisation 'Fua…' — sửa 'Phù…' (ふあ→'phùa', giữ nguyên số lượng a của VN cũ; xem ghi chú §4 về số lượng nguyên âm)."
+ },
+ {
+  "key": "1731",
+  "jp": "「ふやぁぁぁっぁぁぁんっ！　みくろ、好きっ！！\\nこれ、しゅきっ！　ぐりゅって、されるのい、しゅきぃ」",
+  "tw": "「呼啊啊啊啊啊啊嗯！美玖路好喜歡這樣！這樣真棒！頂來頂去的，好喜歡」",
+  "old_vn": "「Fuyaaaaaaan! Mikuro, thích lắm!!\\nCái này, thích lắm! Được cọ xát, thích lắmmm」",
+  "fix": "「Phuyaaaaaaan! Mikuro, thích lắm!!\\nCái này, thích lắm! Được cọ xát, thích lắmmm」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふやぁぁぁっぁぁぁんっ: VN cũ romanisation 'Fuya…' — sửa 'Phuya…' (ふやぁ→'phuya' theo quy tắc đã chốt; tiền lệ reinah3 1019). Giữ nguyên số lượng a của VN cũ; xem ghi chú §4."
+ },
+ {
+  "key": "1733",
+  "jp": "「ふああっ！？　あっ──み、みくろ、いま──\\nみくろの、おまた──すごく、きもちよくて」",
+  "tw": "「呼啊啊？！啊——美、美玖路剛剛——美玖路的胯部——非常舒服」",
+  "old_vn": "「Fuaa!? A──Mi, Mikuro, vừa nãy──\\nChỗ đó của Mikuro── sướng lắm ạ.」",
+  "fix": "「Phùaa!? A──Mi, Mikuro, vừa nãy──\\nChỗ đó của Mikuro── sướng lắm ạ.」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふああっ: VN cũ romanisation 'Fuaa' — sửa 'Phùaa' (ふあ→'phùa' + giữ nguyên âm a dài)."
+ },
+ {
+  "key": "1735",
+  "jp": "「ふあっ！　あっ！　いっしょ──いっしょにぃっ！」",
+  "tw": "「呼啊！啊！一起，我們一起！」",
+  "old_vn": "「Fua! A! Cùng nhau── cùng nhauuu!」",
+  "fix": "「Phùa! A! Cùng nhau── cùng nhauuu!」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1736",
+  "jp": "「ふあっ　あっ！　あっ！　ああああっ！！！！！！」",
+  "tw": "「呼啊！啊！啊！啊啊啊啊！！！！！！」",
+  "old_vn": "「Fua a! A! Aaaa!!!!!!」",
+  "fix": "「Phùa a! A! Aaaa!!!!!!」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1737",
+  "jp": "「ふあっ！　あっ！　にぃにっ！　にぃにっ！！！！\\nきょうっ！　すごっ──わたしっ──かんじてっ！」",
+  "tw": "「呼啊！啊！阿哥！阿哥！！！！今天！你特別勇猛，我好舒服啊！」",
+  "old_vn": "「Fua! A! Anh hai! Anh hai!!!!\\nHôm nay! Tuyệt quá── em── cảm nhận được!」",
+  "fix": "「Phùa! A! Anh hai! Anh hai!!!!\\nHôm nay! Tuyệt quá── em── cảm nhận được!」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1739",
+  "jp": "「ふあっ！　あっ！！　あっ──ああああっ！！！！」",
+  "tw": "「呼啊！啊！！啊——啊啊啊啊！！！！」",
+  "old_vn": "「Fua! A!! A── aaaa!!!!」",
+  "fix": "「Phùa! A!! A── aaaa!!!!」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1741",
+  "jp": "「ふやっ──なにっ、これっ──あちゅいのっ──\\nおなか──おまた──どろって──ふっ──あっ」",
+  "tw": "「呼啊，這是什麼？好熱的東西進到肚子裡面去了，胯部黏糊糊的，呼——啊」",
+  "old_vn": "「Fuya── gì thế, này── nóng quá──\\nBụng── vùng kín── nhão nhoét── phu── a」",
+  "fix": "「Phuya── gì thế, này── nóng quá──\\nBụng── vùng kín── nhão nhoét── phu── aƯ」",
+  "kind": "gasp + fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふやっ──: ふや→'phuya' theo quy tắc fa/fu. Đồng thời gasp cuối dòng: あっ→'aƯ' (JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất).)"
+ },
+ {
+  "key": "1743",
+  "jp": "「ふあっ！？　あっ──にぃにっ──あっつっ──んっ\\nいっつも──より、も──あつ──くて──ふと──っ」",
+  "tw": "「呼啊？！啊——阿哥——啊——嗯——比平時——要熱得多——而且很粗——」",
+  "old_vn": "「Fua!? A── anh hai── nóng quá── ưm\\nHơn── mọi khi── nóng── và── to──」",
+  "fix": "「Phùa!? A── anh hai── nóng quá── ưm Hơn── mọi khi── nóng── và── to──Ư」",
+  "kind": "gasp + fa/fu",
+  "character": "日々姫",
+  "reason": "Sweep っ: JP kết bằng ──/～～ + っ; VN cũ giữ dấu nhưng làm mất gasp — fix sweep thêm Ư (đã kiểm chứng vs JP). Đồng thời ふあっ→'phùa' theo quy tắc fa/fu."
+ },
+ {
+  "key": "1746",
+  "jp": "「くはっ」",
+  "tw": "「咕哈」",
+  "old_vn": "「Kuha.」",
+  "fix": "「KuhaƯ.」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "1758",
+  "jp": "「ひゅあっ！？　あ──あ……ふえっ！？」",
+  "tw": "「咿呀？！啊——啊……呼哎？！」",
+  "old_vn": "「Hyua!? A── a…… fue!?」",
+  "fix": "「Hyua!? A── a…… phuê!?」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふえっ: VN cũ romanisation 'fue' — sửa 'phuê' (ふぇ/ふえ→'phuê')."
+ },
+ {
+  "key": "1767",
+  "jp": "「っ！　わあっ」",
+  "tw": "「哇啊！」",
+  "old_vn": "「っ! Oa」",
+  "fix": "「Ư! Oa」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1771",
+  "jp": "「っ！！！！！！！！」",
+  "tw": "「哇！！！！！！！！」",
+  "old_vn": "「っ!!!!!!!!」",
+  "fix": "「Ư!!!!!!!!」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1773",
+  "jp": "「はっっ──あっ──ふっ──ふあっ──」",
+  "tw": "「哈——啊——呼——呼啊——」",
+  "old_vn": "「Hà── a── phu── fua──」",
+  "fix": "「Hà── a── phu── phùa──」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1774",
+  "jp": "「はっっっ──あっ！　っ──んっ──んひゅっっっ」",
+  "tw": "「哈——啊！——嗯——嗯唔」",
+  "old_vn": "「Hà── a! っ── ưm── ưm hưuuu」",
+  "fix": "「Hà── a! Ư── ưm── ưm hưuuu」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1777",
+  "jp": "「はっ……あっ──にぃに──にぃにっ──\\nそぎゃん、ずうっと──クリ、ばっかり──んあっ」",
+  "tw": "「哈……啊——阿哥——阿哥——你一直摸陰核的話——嗯啊」",
+  "old_vn": "「Hà…… a── anh hai── anh hai──\\nCứ thế, mãi── chỉ có âm vật── ưm a」",
+  "fix": "「Hà…… a── anh hai── anh hai──\\nCứ thế, mãi── chỉ có âm vật── ưm aƯ」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "1785",
+  "jp": "「はうっ」",
+  "tw": "「哈嗚」",
+  "old_vn": "「Hau.」",
+  "fix": "「HauƯ.」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "1786",
+  "jp": "「はうっ！　あっ！　あっ！　あああっ！\\nふあ──っ──んっ！　んううううっ！！！」",
+  "tw": "「哈嗚！啊！啊！啊啊啊！呼啊——嗯！嗯唔唔！！！」",
+  "old_vn": "「Hau! A! A! Aaa!\\nFua──っ──ưm! Ưm uuuu!!!」",
+  "fix": "「Hau! A! A! Aaa! Phùa──Ư──ưm! Ưm uuuu!!!」",
+  "kind": "gasp + fa/fu",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep). Đồng thời ふあ→'phùa' theo quy tắc fa/fu."
+ },
+ {
+  "key": "1790",
+  "jp": "「お──おっ」",
+  "tw": "「哦——哦」",
+  "old_vn": "「O── o」",
+  "fix": "「O── oƯ」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "1794",
+  "jp": "「っ……ぁ」",
+  "tw": "「唔……啊」",
+  "old_vn": "「っ……a.」",
+  "fix": "「Ư……a.」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1804",
+  "jp": "「ぁ──ぅっ」",
+  "tw": "「啊——唔」",
+  "old_vn": "「A──ư.」",
+  "fix": "「A──ưƯ.」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất). (Phán đoán: 'ư' chỉ diễn ぅ, っ mất hẳn — thêm Ư.)"
+ },
+ {
+  "key": "1811",
+  "jp": "「あ……ん──ちゅっ──ちゅむっ──ちゅっ──ふ\\n……ん……れるっ──れりゅっ──れろおおっ──ぷあ」",
+  "tw": "「啊……嗯——啾——啾唔——啾——呼……嗯……咧溜——滋溜溜——噗啊」",
+  "old_vn": "「A……ưm──chụt──chụt──chụt──fu\\n……ưm……liếm──liếm──liếmmm──pua」",
+  "fix": "「A……ưm──chụt──chụt──chụt──fu\\n……ưm……liếm──liếm──liếmmm──pùa」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP ぷあ cuối dòng: VN cũ romanisation 'pua' — sửa 'pùa' theo tương tự nhóm fa/fu (chưa có tiền lệ trực tiếp cho ぷあ — ghi chú để Hieu xác nhận, §4)."
+ },
+ {
+  "key": "1814",
+  "jp": "「あ……にぃに──そこ──んっ──やあっ」",
+  "tw": "「啊……阿哥——那裡——嗯——呀啊」",
+  "old_vn": "「A…… anh hai── chỗ đó── ưm── a」",
+  "fix": "「A…… anh hai── chỗ đó── ưm── aƯ」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "1818",
+  "jp": "「あはっ」",
+  "tw": "「啊哈」",
+  "old_vn": "「Aha」",
+  "fix": "「Aha.」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "JP あはっ (tiếng cười); VN cũ 'Aha' không dấu câu — thêm '.' theo quy ước của chính dịch giả cho tiếng cười (ふふっ→'Fufu.'). Không thêm Ư vì đây là cười, không phải gasp."
+ },
+ {
+  "key": "1820",
+  "jp": "「ふぁんっ！！」",
+  "tw": "「啊啊嗯！！」",
+  "old_vn": "「Fan!!」",
+  "fix": "「Phàn!!」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふぁんっ: ふぁ→'phà' + ん→'n'; っ đã diễn bằng '!'."
+ },
+ {
+  "key": "1823",
+  "jp": "「あ、ううん」",
+  "tw": "「啊，對了」",
+  "old_vn": "「A, không được.」",
+  "fix": "「A, không.」",
+  "kind": "mistranslation",
+  "character": "日々姫",
+  "reason": "JP あ、ううん ('à, không' — tự sửa lời); VN cũ 'không được' (cấm đoán) sai nghĩa — sửa 'A, không.' (JP hơn TW: TW '啊，對了' mâu thuẫn JP)."
+ },
+ {
+  "key": "1833",
+  "jp": "「ん──っ──え──れっ──れろおおっっ」",
+  "tw": "「嗯——滋溜——咧溜」",
+  "old_vn": "「Ưm──っ──ê──liếm──liếmmmmm」",
+  "fix": "「Ưm──Ư──ê──liếm──liếmmmmm」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1857",
+  "jp": "「んきゅ！　ふあっ！　あ──ずりゅって──ずる、って──やぁぁあっ──にぃに──ぜんぶ、いっちゃうぅ」",
+  "tw": "「嗯唔！呼啊！啊——滋溜——滋嚕的好大聲——呀啊啊啊——阿哥——全都進來了」",
+  "old_vn": "「Ưm kyu! Fua! A── trượt── tuột, ra── aaaa── anh hai── ra hết, mất」",
+  "fix": "「Ưm kyu! Phùa! A── trượt── tuột, ra── aaaa── anh hai── vào hết, mất」",
+  "kind": "fa/fu + mistranslation",
+  "character": "日々姫",
+  "reason": "JP ふあっ→'phùa' theo quy tắc fa/fu. Đồng thời: JP ぜんぶ、いっちゃうぅ ('vào hết') — TW '全都進來了' đồng ý; VN cũ 'ra hết' ngược hướng — sửa 'vào hết'."
+ },
+ {
+  "key": "1871",
+  "jp": "「はい！　みくろ、そぎゃんしたいです！\\nだから、みくろ──そぎゃんします！　──っ！！」",
+  "tw": "「嗯！美玖路想親！所以，美玖路要開始親了！」",
+  "old_vn": "「Vâng ạ! Mikuro, muốn thế ạ!\\nVì vậy, Mikuro── sẽ làm thế! ──っ!!」",
+  "fix": "「Vâng ạ! Mikuro, muốn thế ạ! Vì vậy, Mikuro── sẽ làm thế! ──Ư!!」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1901",
+  "jp": "「ぷあっ──ふふっ、だって。みくろ」",
+  "tw": "「噗啊——呵呵，阿哥是這麼說的哦。美玖路」",
+  "old_vn": "「Pua──fufu, anh ấy bảo thế kìa. Mikuro.」",
+  "fix": "「Pùa──fufu, anh ấy bảo thế kìa. Mikuro.」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP ぷあっ──: VN cũ romanisation 'Pua' — sửa 'Pùa' theo tương tự nhóm fa/fu (chưa có tiền lệ trực tiếp cho ぷあ — ghi chú để Hieu xác nhận, §4)."
+ },
+ {
+  "key": "1925",
+  "jp": "「きつ、いっ──ふっ──ふうううっ──はあああっ」",
+  "tw": "「好緊——呼——呼唔唔——蛤啊啊啊」",
+  "old_vn": "「Chật, quá── phu── phuuuu── haaaa」",
+  "fix": "「Chật, quá── phu── phuuuu── haaaaƯ」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "1928",
+  "jp": "「はいっ！　ですっ──んっ──ひび、き──さんっ──\\nふあっ──みくろも、セックス──セックス、セックス」",
+  "tw": "「好！好的——嗯——日日姬——小姐——呼啊——美玖路也想要做愛——很想，非常想」",
+  "old_vn": "「Vâng ạ! Đúng vậy── ưm── chị Hibi, ki──\\nFua── Mikuro cũng, làm tình── làm tình, làm tình」",
+  "fix": "「Vâng ạ! Đúng vậy── ưm── chị Hibi, ki──\\nPhùa── Mikuro cũng, làm tình── làm tình, làm tình」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "1942",
+  "jp": "「そうだ。その膣に──くっ──こう、して──\\n勃起を──挿入──しっ──っっっ」",
+  "tw": "「對的。對著這個陰道——唔——像這樣——把肉棒——插進去——」",
+  "old_vn": "「Đúng vậy. Vào trong âm đạo đó── hự── thế này──\\nđưa── dương vật cương cứng── vào──っっっ」",
+  "fix": "「Đúng vậy. Vào trong âm đạo đó── hự── thế này── đưa── dương vật cương cứng── vào──ƯƯƯ」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1961",
+  "jp": "「どうした、日々──っ！！！」",
+  "tw": "「怎麼了，日日——！！！」",
+  "old_vn": "「Sao thế, Hibi──っ!!!」",
+  "fix": "「Sao thế, Hibi──Ư!!!」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "1967",
+  "jp": "「見たいっ──ですっ──んひゅっ──ふあ──あっ、\\nみたい、けど──みくろっ──なんだか、みくろぉっ」",
+  "tw": "「想看——好想看——嗯唔——呼啊——啊真的很想看——但美玖路——感覺怪怪的」",
+  "old_vn": "「Muốn nhìn── ạ── ưm hưu── fua── a,\\nMuốn nhìn, nhưng mà── Mikuro── sao thế này, Mikuro」",
+  "fix": "「Muốn nhìn── ạ── ưm hưu── phùa── a,\\nMuốn nhìn, nhưng mà── Mikuro── sao thế này, Mikuro」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "2100",
+  "jp": "「み……くろっ──っ」",
+  "tw": "「美……玖路——」",
+  "old_vn": "「Mi……kuro──っ」",
+  "fix": "「Mi……kuro──Ư」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2101",
+  "jp": "「みくろもっ──すぐ。にっ──一緒や、けん──ねっ\\n──にぃにと、わたし、と──っ──三人、でっ──」",
+  "tw": "「美玖路——你也很快——就能來了呢——到時候和阿哥還有我——我們三個一起——」",
+  "old_vn": "「Mikuro cũng── sẽ sớm. Cùng nhau, thôi── nhé\\n──Anh hai, chị, và──っ──ba người, cùng nhau──」",
+  "fix": "「Mikuro cũng── sẽ sớm. Cùng nhau, thôi── nhé ──Anh hai, chị, và──Ư──ba người, cùng nhau──」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2104",
+  "jp": "「みく、ろ──っ──くっ──あっ──」",
+  "tw": "「美玖路——唔——啊——」",
+  "old_vn": "「Miku, ro──っ──hự──a──」",
+  "fix": "「Miku, ro──Ư──hự──a──」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2107",
+  "jp": "「みくっ、ろっ──みて──あっ──ふあっ──\\nこいっ、ばっ──セックスっ──私、と、にぃに、の」",
+  "tw": "「美玖路——看著吧——啊——呼啊——這就是——做愛——我和阿哥的做愛」",
+  "old_vn": "「Miku, ro── nhìn đi── a── fua──\\nCái này── làm tình── của chị, và, anh hai」",
+  "fix": "「Miku, ro── nhìn đi── a── phùa──\\nCái này── làm tình── của chị, và, anh hai」",
+  "kind": "fa/fu",
+  "character": "日々姫",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "2110",
+  "jp": "「みくろ……っ──みくろ……おなか、が」",
+  "tw": "「美玖路……美玖路……肚子」",
+  "old_vn": "「Mikuro…… ──Mikuro…… bụng, đau」",
+  "fix": "「Mikuro…… ──Mikuro…… bụng, em…」",
+  "kind": "fabrication",
+  "character": "みくろ",
+  "reason": "JP 'おなか、が' cụt (TW chỉ '肚子'); VN cũ tự thêm 'đau' — bịa phần hoàn thiện cho câu JP cụt. Sửa bỏ 'đau', giữ câu cụt 'bụng, em…'."
+ },
+ {
+  "key": "2125",
+  "jp": "「みくろも、日々姫とっ──くっ──\\n同じ、刺激が──好き、なのだなっ──っ！！！」",
+  "tw": "「美玖路和日日姬——唔——都喜歡用一樣的方式來刺激的啊！！！」",
+  "old_vn": "「Mikuro cũng, giống như Hibiki── hự──\\nThích, kiểu kích thích── này, nhỉ──っ!!!」",
+  "fix": "「Mikuro cũng, giống như Hibiki── hự── Thích, kiểu kích thích── này, nhỉ──Ư!!!」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2148",
+  "jp": "「見て、ます──みくろっ──っ──あっ──日々姫、\\nさん──双鉄、さんも──すごく、綺麗──で、んっ！」",
+  "tw": "「美玖路有在看——啊——日日姬、小姐——還有雙鐵先生——都非常迷人——嗯！」",
+  "old_vn": "「Mikuro đang, nhìn ạ── Mikuro──っ──a── chị Hibiki,\\n──anh Soutetsu, cũng── rất, đẹp── ạ, ưm!」",
+  "fix": "「Mikuro đang, nhìn ạ── Mikuro──Ư──a── chị Hibiki, ──anh Soutetsu, cũng── rất, đẹp── ạ, ưm!」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2180",
+  "jp": "「僕の妻たる日々姫になら──っ！」",
+  "tw": "「而身為我妻子的日日姬——！」",
+  "old_vn": "「Nhưng nếu là Hibiki, người vợ của anh thì──っ!」",
+  "fix": "「Nhưng nếu là Hibiki, người vợ của anh thì──Ư!」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2198",
+  "jp": "「いい！　ですっ──すご──くっ──ふあっ！\\nみく、ろっ──これっ──しゅきいっ」",
+  "tw": "「舒服！非常舒爽——呼啊！美玖路好喜歡這樣」",
+  "old_vn": "「Sướng! Lắm ạ── rất── hự── fua!\\nMiku, ro── cái này── thích lắmmm」",
+  "fix": "「Sướng! Lắm ạ── rất── hự── phùa!\\nMiku, ro── cái này── thích lắmmm」",
+  "kind": "fa/fu",
+  "character": "みくろ",
+  "reason": "JP ふあ/ふぁ: VN cũ romanisation — sửa theo quy tắc fa/fu đã chốt (ふあ→'phùa', ふぁ→'phà'; tiền lệ reinah3)."
+ },
+ {
+  "key": "2200",
+  "jp": "「はあっ──ふうっ──はああっ──ふううっ」",
+  "tw": "「蛤啊——呼——蛤啊——呼」",
+  "old_vn": "「Hà── phu── hà── phu」",
+  "fix": "「Hà── phu── hà── phuƯ」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "2201",
+  "jp": "「はあっ──ん、ふっ──はひゅっ──くっふっ」",
+  "tw": "「蛤啊——嗯、呼——哈——唔呼」",
+  "old_vn": "「Hà── ưm, phu── ha hyu── kufu」",
+  "fix": "「Hà── ưm, phu── ha hyu── kufuƯ」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "JP là từ âm thanh + っ cuối dòng, không dấu câu sau; VN cũ làm mất hẳn っ — thêm Ư theo quy tắc gasp đã chốt 20/11 (っ gắn từ âm thanh là gasp; chỉ thêm khi âm っ hoàn toàn mất)."
+ },
+ {
+  "key": "2250",
+  "jp": "「っ──。速くて、その、強そうに見えますけど……\\n双鉄さん、痛い、とかなんですか？」",
+  "tw": "「速度好快，而且好像還很用力的樣子……雙鐵先生會不會覺得痛啊？」",
+  "old_vn": "「っ──. Nhanh quá, cái đó, trông có vẻ mạnh bạo nhưng……\\nAnh Soutetsu, có bị đau, hay gì không ạ?」",
+  "fix": "「Ư──. Nhanh quá, cái đó, trông có vẻ mạnh bạo nhưng…… Anh Soutetsu, có bị đau, hay gì không ạ?」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2292",
+  "jp": "「っ！！」",
+  "tw": "「！！」",
+  "old_vn": "「っ!!」",
+  "fix": "「Ư!!」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2293",
+  "jp": "「っ！！！」",
+  "tw": "「！！！」",
+  "old_vn": "「っ!!!」",
+  "fix": "「Ư!!!」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2294",
+  "jp": "「っ！！！！」",
+  "tw": "「！！！！」",
+  "old_vn": "「っ!!!!」",
+  "fix": "「Ư!!!!」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2295",
+  "jp": "「っ！！！！！」",
+  "tw": "「！！！！！」",
+  "old_vn": "「っ!!!!!」",
+  "fix": "「Ư!!!!!」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2311",
+  "jp": "「（あむっ）──んっ──ん～～。\\nどぎゃん？　みくろ。おいしかものじゃなかけど」",
+  "tw": "「（啊嗚）——嗯——嗯～～美玖路，要試試看嗎？雖然味道並不怎麼樣」",
+  "old_vn": "「（Amu）──Ưm──ưm~~.\\nThế nào? Mikuro. Dù không phải là thứ ngon lành gì.」",
+  "fix": "「（AmuƯ）──Ưm──ưm~~.\\nThế nào? Mikuro. Dù không phải là thứ ngon lành gì.」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "JP （あむっ） (tiếng ngậm miệng); VN cũ '(Amu)' phiên âm, っ mất hẳn — thêm Ư (phán đoán: giữ dạng phiên âm, chỉ bổ sung Ư)."
+ },
+ {
+  "key": "2316",
+  "jp": "「///っ」",
+  "tw": "「（害羞）」",
+  "old_vn": "「///」",
+  "fix": "「///Ư」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "JP ///っ (gasp sau dấu đỏ mặt); VN cũ '///' làm mất hẳn gasp — thêm Ư."
+ },
+ {
+  "key": "2321",
+  "jp": "「っ！？」",
+  "tw": "「？！」",
+  "old_vn": "「っ!?」",
+  "fix": "「Ư!?」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2322",
+  "jp": "「っ！？　ん……ふっ──ふっ──ぁっ──」",
+  "tw": "「？！嗯……呼——呼——啊」",
+  "old_vn": "「っ!? Ưm……phu──phu──a──」",
+  "fix": "「Ư!? Ưm……phu──phu──a──」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2323",
+  "jp": "「っ！？　にぃにっ」",
+  "tw": "「？！阿哥」",
+  "old_vn": "「っ!? Anh hai.」",
+  "fix": "「Ư!? Anh hai.」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2325",
+  "jp": "「っ！！！？」",
+  "tw": "「？！！！」",
+  "old_vn": "「っ!!!?」",
+  "fix": "「Ư!!!?」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2328",
+  "jp": "「～～～～～～～っ」",
+  "tw": "「～～～～～～」",
+  "old_vn": "「~~~~~~~っ」",
+  "fix": "「~~~~~~~Ư」",
+  "kind": "gasp",
+  "character": "日々姫",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2330",
+  "jp": "「～～～～～～～～～～～～～～～～っっっっっっ！」",
+  "tw": "「～～～～～～～～～～～！」",
+  "old_vn": "「~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!」",
+  "fix": "「~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ƯƯƯƯƯƯ!」",
+  "kind": "gasp",
+  "character": "みくろ",
+  "reason": "Sweep っ: JP kết bằng 6 っ liên tiếp (～×16 + っ×6); VN cũ chỉ còn dấu ~ — fix sweep 6 Ư (đã kiểm chứng vs JP; tiền lệ đa-っ 19/11)."
+ },
+ {
+  "key": "2595",
+  "jp": "幾百──という単位ではもう足りなくなった繰り返し。\\n御一夜温泉駅ホームへの、8620形での入線。",
+  "tw": "成百上千次——這樣的描述已經無法形容這周而復始的次數。８６２０型列車再一次進站，抵達御一夜溫泉站。",
+  "old_vn": "Hàng trăm──đơn vị đó không còn đủ để đếm số lần lặp lại nữa.\\nTiến vào sân ga suối nước nóng Ohimitera trên đầu máy 8620.",
+  "fix": "Hàng trăm──đơn vị đó không còn đủ để đếm số lần lặp lại nữa.\\nTiến vào sân ga suối nước nóng Ohitoyo trên đầu máy 8620.",
+  "kind": "terminology",
+  "character": "monologue",
+  "reason": "JP 御一夜温泉駅: VN cũ 'Ohimitera' — sai dạng tên đã chốt; sửa 'Ohitoyo' (quyết định 19/11)."
+ },
+ {
+  "key": "2655",
+  "jp": "加速していく。まずいと感じる。\\nこのままいけばほどなく射精をしてしまっ──っ！！？",
+  "tw": "抽動的速度不斷加快，我感到了一陣危機感。這樣下去射精迫在眉睫——？！！",
+  "old_vn": "Tôi đang tăng tốc. Tôi cảm thấy không ổn rồi.\\nCứ thế này thì tôi sẽ xuất tinh mất──っ!!?",
+  "fix": "Tôi đang tăng tốc. Tôi cảm thấy không ổn rồi. Cứ thế này thì tôi sẽ xuất tinh mất──Ư!!?",
+  "kind": "gasp",
+  "character": "monologue",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "2747",
+  "jp": "日々姫は勃起を指で撫ぜあげ、\\nぱっとその手を開いてみせる。",
+  "tw": "日日姬用手指輕輕摩挲肉棒，隨後又攤開了手掌。",
+  "old_vn": "Hibiki dùng ngón tay vuốt dọc theo dương vật cương cứng,\\nrồi xòe tay ra làm động tác phác họa.",
+  "fix": "Hibiki dùng ngón tay vuốt dọc theo dương vật cương cứng,\\nrồi xòe tay ra cho xem.",
+  "kind": "fabrication",
+  "character": "monologue",
+  "reason": "JP chỉ 'xòe tay ra cho xem'; VN cũ tự thêm 'làm động tác phác họa' — bỏ phần bịa."
+ },
+ {
+  "key": "2822",
+  "jp": "あたる。みくろの最奥に。\\n勃起の全てを収めきってはくれないが──っ！！？",
+  "tw": "經歷一番千辛萬苦我終於插到美玖路的最深處。肉棒雖然並沒有整個進去——",
+  "old_vn": "Chạm rồi. Tận sâu nhất của Mikuro.\\nDù không thể chứa hết toàn bộ dương vật cương cứng của tôi nhưng──っ!!?",
+  "fix": "Chạm rồi. Tận sâu nhất của Mikuro. Dù không thể chứa hết toàn bộ dương vật cương cứng của tôi nhưng──Ư!!?",
+  "kind": "gasp",
+  "character": "monologue",
+  "reason": "Sweep っ: VN cũ còn っ thô của JP — fix sweep thay っ→Ư (đã kiểm chứng vs JP, nhận nguyên fix sweep)."
+ },
+ {
+  "key": "3143",
+  "jp": "（もちっ）",
+  "tw": "（輕觸）",
+  "old_vn": "（Béo má）",
+  "fix": "（Mềm mại）",
+  "kind": "SFX",
+  "character": "monologue",
+  "reason": "JP （もちっ） (tiếng má bị bóp mềm, mochi); TW （輕觸）. VN cũ 'Béo má' (má béo — sai nghĩa, không diễn âm) — sửa 'Mềm mại' (phán đoán)."
+ }
+]
