@@ -1,0 +1,382 @@
+[
+  {
+    "key": "1189",
+    "character": "双鉄H",
+    "jp": "「何も、無理して飲まずとも」",
+    "tw": "「不用逼著自己吞下去的」",
+    "old_vn": "「Em không cần phải cố nuốt xuống đâu」",
+    "fix": "「Cô không cần phải cố nuốt xuống đâu」",
+    "kind": "pronoun",
+    "reason": "Soutetsu gọi Kisaki \"em\"→\"cô\" (quy tắc đã khóa; tiền lệ Grand 11 2173)."
+  },
+  {
+    "key": "1204",
+    "character": "稀咲",
+    "jp": "「ボクが相手じゃ、ピンと来ないだなんて」",
+    "tw": "「你面對的可是我，怎麼能一點感覺都沒有」",
+    "old_vn": "「Đối phương là tôi mà, anh lại bảo không có cảm giác gì sao.」",
+    "fix": "「Đối phương là em mà, anh lại bảo không có cảm giác gì sao.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\"; \"anh\" (gọi Soutetsu) GIỮ NGUYÊN theo câu hỏi đang chờ Hieu."
+  },
+  {
+    "key": "1217",
+    "character": "稀咲",
+    "jp": "「それにしたって、随分とヘンな電話だと思っていたんだ。\\n夜の夜中に、『普段より二時間は早く出勤しろ』なんて」",
+    "tw": "「其實我還覺得電話的內容奇怪呢。大半夜的電話叫我『比平時早兩小時來上班』」",
+    "old_vn": "「Dù vậy, tôi cũng thấy cuộc gọi đó khá kỳ lạ.\\nNửa đêm nửa hôm lại bảo 『hãy đi làm sớm hơn bình thường hai tiếng』.」",
+    "fix": "「Dù vậy, em cũng thấy cuộc gọi đó khá kỳ lạ.\\nNửa đêm nửa hôm lại bảo 『hãy đi làm sớm hơn bình thường hai tiếng』.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\" (tiền lệ lr_稀咲h1/h3; file này \"em\" 19 dòng vs \"tôi\" 11 dòng, không chia theo cảnh)."
+  },
+  {
+    "key": "1243",
+    "character": "稀咲",
+    "jp": "「きゅ――ん――ひゃっ――ぇあっ――あっ――」",
+    "tw": "「呀――嗯――呀――啊――啊――」",
+    "old_vn": "「Kyu――ưm――hya――a――a――」",
+    "fix": "「Kyu――ưm――hya――ea――a――」",
+    "kind": "sfx",
+    "reason": "JP ぇあっ: ぇ+あ → \"ea\" (romaji fallback cho rên; \"đừng để mất âm\"); VN cũ \"a\" làm mất âm ぇ."
+  },
+  {
+    "key": "1254",
+    "character": "稀咲",
+    "jp": "「いっひゅうぅぅぅぅぅぅぅっっ！！！」",
+    "tw": "「咿呀啊啊啊啊！！！」",
+    "old_vn": "「I hyuuuuuuuっっ!!!」",
+    "fix": "「I hyuuuuuuuuuƯƯ!!!」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu: っっ thô trong VN → ƯƯ. Đếm lại độc lập số u: JP いっひゅうぅぅぅぅぅぅぅ = ひゅ(1u) + う(1) + ぅ(7) = 9 u (công thức độ dài nguyên âm; tiền lệ moan lr稀咲追加h 1855: ひゅ1+う8=9u) — bản sweep giữ 7 u của Gemini là SAI, đã sửa thành 9 u."
+  },
+  {
+    "key": "1288",
+    "character": "双鉄H",
+    "jp": "「ああ――起こしてくれていたのか」",
+    "tw": "「嗯――是你叫醒我的吧」",
+    "old_vn": "「À——em đã đánh thức anh sao.」",
+    "fix": "「À——cô đã đánh thức tôi sao.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki là \"tôi\" (JP 僕), gọi Kisaki \"cô\" — quy tắc đã khóa; VN cũ \"em/anh\" sai cả hai chiều (tiền lệ Grand 11 2173/2347)."
+  },
+  {
+    "key": "1303",
+    "character": "稀咲",
+    "jp": "「うん。まぁ、ボクも同じだ。\\nいずれ……遠からず……近いうちに、みたいな感じにね」",
+    "tw": "「嗯。其實我也一樣。感覺……很快就會了……應該不會離得太遠的」",
+    "old_vn": "「Ừm. Chà, tôi cũng vậy.\\nMột ngày nào đó…… không xa…… kiểu như trong tương lai gần vậy.」",
+    "fix": "「Ừm. Chà, em cũng vậy.\\nMột ngày nào đó…… không xa…… kiểu như trong tương lai gần vậy.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\" (tiền lệ lr_稀咲h1/h3)."
+  },
+  {
+    "key": "1306",
+    "character": "稀咲",
+    "jp": "「んきゅ――くはっ――んあっ――～～～っ！！！」",
+    "tw": "「嗯呀――嗚啊――嗯啊――～～～！！！」",
+    "old_vn": "「Ưm kyu――kuha――ưm a――~~~っ!!!」",
+    "fix": "「Ưm kyu――kuha――ưm a――~~~Ư!!!」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu: っ thô cuối dòng → Ư (JP ～～～っ; 3 dấu ~ khớp JP)."
+  },
+  {
+    "key": "1308",
+    "character": "稀咲",
+    "jp": "「んくっ――ごくっ――んっ――ごくっ、んっ――\\nぷえっ！」",
+    "tw": "「嗯唔――咕嘟――嗯――咕嘟、嗯――噗哈！」",
+    "old_vn": "「Ưm――ực――ưm――ực, ưm――\\nphù!」",
+    "fix": "「Ưm――ực――ưm――ực, ưm――\\nphuê!」",
+    "kind": "sfx",
+    "reason": "JP ぷえっ: ぷ+え+っ → \"phuê\" (tiền lệ ふぇっ→\"Phuê\"); VN cũ \"phù!\" sai nguyên âm (e→u)."
+  },
+  {
+    "key": "1310",
+    "character": "稀咲",
+    "jp": "「んぷっ！？　ぷっ――ん～～～～～～っ」",
+    "tw": "「嗯唔！？　噗――嗯～～～～～～」",
+    "old_vn": "「Ưm!? Phụt――ưm~~~~~~っ」",
+    "fix": "「Ưm!? Phụt――ưm~~~~~~Ư」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu: っ thô cuối dòng → Ư (JP ん～～～～～～っ; 6 dấu ~ khớp JP)."
+  },
+  {
+    "key": "1316",
+    "character": "双鉄H",
+    "jp": "「ああ、僕もだ。\\n――僕も……っっ――イくっ」",
+    "tw": "「嗯，我也想。――我也……――要射了」",
+    "old_vn": "「Ừm, anh cũng vậy.\\n――Anh cũng……っっ――ra đây」",
+    "fix": "「Ừm, tôi cũng vậy.\\n――Tôi cũng……ƯƯ――ra đây」",
+    "kind": "pronoun",
+    "reason": "Hai lỗi một dòng: (1) Soutetsu với Kisaki \"anh\"→\"tôi\" (2 lần, JP 僕もだ/僕も); (2) gasp っっ thô trong VN → ƯƯ (sweep raw-tsu, đã kiểm chứng vs JP)."
+  },
+  {
+    "key": "1323",
+    "character": "稀咲",
+    "jp": "「ん～～～～～っ――んっ――んうっ――ごくんっ！」",
+    "tw": "「嗯～～～～～――嗯――嗯唔――咕嚕！」",
+    "old_vn": "「Ưm~~~~~っ――ưm――ưm――ực!」",
+    "fix": "「Ưm~~~~~Ư――ưm――ưm――ực!」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu: っ thô sau ~~~~~ → Ư (JP ん～～～～～っ; 5 dấu ~ khớp JP)."
+  },
+  {
+    "key": "1357",
+    "character": "稀咲",
+    "jp": "「性は――セックスは嫌悪をするべきものじゃない。\\nボクが、双鉄にそれを教えてあげる」",
+    "tw": "「性事――做愛不是什麼應該厭惡的事。我會手把手教會你這一點的」",
+    "old_vn": "「Tình dục——tình dục không phải là thứ đáng bị ghê tởm.\\nTôi sẽ dạy cho anh Soutetsu điều đó.」",
+    "fix": "「Tình dục——tình dục không phải là thứ đáng bị ghê tởm.\\nEm sẽ dạy cho anh Soutetsu điều đó.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\"; \"anh Soutetsu\" GIỮ NGUYÊN theo câu hỏi đang chờ Hieu."
+  },
+  {
+    "key": "1361",
+    "character": "双鉄H",
+    "jp": "「僕が――稀咲に？」",
+    "tw": "「我――告訴你嗎？」",
+    "old_vn": "「Anh――dạy cho Kisaki sao?」",
+    "fix": "「Tôi――dạy cho Kisaki sao?」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki: \"anh\"→\"tôi\" (JP 僕が)."
+  },
+  {
+    "key": "1364",
+    "character": "双鉄H",
+    "jp": "「僕もだ――僕のセックスも、稀咲からしか教われないし、\\n教わりたくない」",
+    "tw": "「我也是――我的做愛只有稀咲能教會，我也不想別人來教」",
+    "old_vn": "「Anh cũng vậy――tình dục của anh, cũng chỉ có thể học từ Kisaki,\\nvà anh cũng không muốn học từ ai khác」",
+    "fix": "「Tôi cũng vậy――tình dục của tôi, cũng chỉ có thể học từ Kisaki,\\nvà tôi cũng không muốn học từ ai khác」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki: \"anh\"→\"tôi\" (3 lần, JP 僕)."
+  },
+  {
+    "key": "1366",
+    "character": "双鉄H",
+    "jp": "「僕もだ――稀咲っ！　もう少し、でっ――っ！」",
+    "tw": "「我也是――稀咲！　再忍耐一小――！」",
+    "old_vn": "「Anh cũng vậy――Kisaki! Một chút, nữa thôi――っ!」",
+    "fix": "「Tôi cũng vậy――Kisaki! Một chút, nữa thôi――Ư!」",
+    "kind": "pronoun",
+    "reason": "Hai lỗi một dòng: (1) Soutetsu với Kisaki \"anh\"→\"tôi\" (JP 僕もだ); (2) gasp っ thô trong VN → Ư (sweep raw-tsu, đã kiểm chứng vs JP でっ――っ)."
+  },
+  {
+    "key": "1369",
+    "character": "稀咲",
+    "jp": "「あんなに激しく感じたり、実際にするのかどうか――\\nそこはフィクションなのかな？　とも思ってたけど……」",
+    "tw": "「我也會覺得，事實上真會那麼有感覺嗎――或許全是演出來的呢？　想是會這麼想……」",
+    "old_vn": "「Cảm thấy mãnh liệt như vậy, không biết thực tế có làm thế không——\\nhay đó chỉ là hư cấu nhỉ? Tôi cũng từng nghĩ thế nhưng……」",
+    "fix": "「Cảm thấy mãnh liệt như vậy, không biết thực tế có làm thế không——\\nhay đó chỉ là hư cấu nhỉ? Em cũng từng nghĩ thế nhưng……」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\" (tiền lệ lr_稀咲h1/h3)."
+  },
+  {
+    "key": "1373",
+    "character": "稀咲",
+    "jp": "「わかっているよ、双鉄」",
+    "tw": "「我懂的，雙鐵」",
+    "old_vn": "「Tôi hiểu mà, anh Soutetsu.」",
+    "fix": "「Em hiểu mà, anh Soutetsu.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\"; \"anh Soutetsu\" GIỮ NGUYÊN theo câu hỏi đang chờ Hieu."
+  },
+  {
+    "key": "1376",
+    "character": "稀咲",
+    "jp": "「ボクの気持ちとおんなじに、\\nボクの体も、双鉄とくっつきあえて喜んでるんだ」",
+    "tw": "「我的心情很愉悅，身體也因為接觸到你而愉悅不已呢」",
+    "old_vn": "「Giống hệt như tâm trạng của tôi,\\ncơ thể tôi cũng đang rất vui sướng vì được gắn kết với anh Soutetsu đấy.」",
+    "fix": "「Giống hệt như tâm trạng của em,\\ncơ thể em cũng đang rất vui sướng vì được gắn kết với anh Soutetsu đấy.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu (2 lần): \"tôi\"→\"em\"; \"anh Soutetsu\" GIỮ NGUYÊN theo câu hỏi đang chờ Hieu."
+  },
+  {
+    "key": "1379",
+    "character": "双鉄H",
+    "jp": "「もっと貪欲に学びたい。\\n稀咲の、ヴァギナの傷が癒えたら、すぐにでも」",
+    "tw": "「我還想再多學點呢。只要稀咲小穴的傷好了，我願意立刻就做」",
+    "old_vn": "「Anh còn muốn học hỏi nhiều hơn nữa.\\nChỉ cần vết thương ở âm đạo của Kisaki lành lại, anh sẵn sàng làm ngay lập tức」",
+    "fix": "「Tôi còn muốn học hỏi nhiều hơn nữa.\\nChỉ cần vết thương ở âm đạo của Kisaki lành lại, tôi sẵn sàng làm ngay lập tức」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki: \"anh\"→\"tôi\" (2 lần, JP ngầm — người nói là Soutetsu)."
+  },
+  {
+    "key": "1394",
+    "character": "双鉄H",
+    "jp": "「そうだな……好きだ。ペニスも、僕も、稀咲の――髪\\n……も――手も……息も、匂いも……全てを、大好きだ」",
+    "tw": "「是啊……我喜歡。我的陰莖、我的心，喜歡稀咲的――頭髮……――手……呼吸、氣味……喜歡稀咲的一切」",
+    "old_vn": "「Đúng vậy…… anh thích lắm. Cả dương vật lẫn bản thân anh, đều thích――mái tóc\\n……của Kisaki――cả đôi bàn tay…… hơi thở, và mùi hương…… anh yêu tất cả mọi thứ thuộc về em」",
+    "fix": "「Đúng vậy…… tôi thích lắm. Cả dương vật lẫn bản thân tôi, đều thích――mái tóc\\n……của Kisaki――cả đôi bàn tay…… hơi thở, và mùi hương…… tôi yêu tất cả mọi thứ thuộc về cô」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki: \"anh\"→\"tôi\" (3 lần, JP 僕) và \"em\"→\"cô\" (JP không có đại từ — gọi Kisaki; tiền lệ Grand 11 2173)."
+  },
+  {
+    "key": "1398",
+    "character": "稀咲",
+    "jp": "「そう……だね。ボクも、乳首が気持ちいい。\\n双鉄の体に触れてる部分、全部、溶けそうに気持ちいい」",
+    "tw": "「是啊……是的，我的乳頭也很敏感。碰到雙鐵身體的每一處都舒服得要融化了」",
+    "old_vn": "「Đúng…… vậy. Tôi cũng, thấy sướng ở núm vú.\\nNhững phần chạm vào cơ thể anh Soutetsu, tất cả, đều sướng đến mức như sắp tan chảy ra vậy.」",
+    "fix": "「Đúng…… vậy. Em cũng, thấy sướng ở núm vú.\\nNhững phần chạm vào cơ thể anh Soutetsu, tất cả, đều sướng đến mức như sắp tan chảy ra vậy.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\"; \"anh Soutetsu\" GIỮ NGUYÊN theo câu hỏi đang chờ Hieu."
+  },
+  {
+    "key": "1400",
+    "character": "双鉄H",
+    "jp": "「そうか？　初めてのことなのだがな」",
+    "tw": "「是嗎？　明明是第一次啊」",
+    "old_vn": "「Vậy sao? Dù đây là lần đầu tiên anh làm chuyện này đấy」",
+    "fix": "「Vậy sao? Dù đây là lần đầu tiên tôi làm chuyện này đấy」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki: \"anh\"→\"tôi\" (JP ngầm — người nói là Soutetsu, lần đầu của cậu)."
+  },
+  {
+    "key": "1416",
+    "character": "稀咲",
+    "jp": "「いや、慣れっこさ。\\n双鉄は巻き込まれただけ。首謀者は父――頭取だ」",
+    "tw": "「沒事，我都習慣了。你只是被捲進來的，罪魁禍首是爸爸――行長」",
+    "old_vn": "「Không sao, tôi quen rồi.\\nAnh Soutetsu chỉ bị cuốn vào thôi. Kẻ chủ mưu là bố——giám đốc ngân hàng cơ.」",
+    "fix": "「Không sao, em quen rồi.\\nAnh Soutetsu chỉ bị cuốn vào thôi. Kẻ chủ mưu là bố——giám đốc ngân hàng cơ.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\" theo tiền lệ đã merge lr_稀咲h1 + h3 (\"em\" toàn file); \"anh Soutetsu\" GIỮ NGUYÊN theo câu hỏi đang chờ Hieu (h3 33 dòng, file 02 10 dòng)."
+  },
+  {
+    "key": "1426",
+    "character": "双鉄H",
+    "jp": "「稀咲――これ以上、したら――もうっ！」",
+    "tw": "「稀咲――別再繼續了――我忍不住的！」",
+    "old_vn": "「Kisaki――nếu cứ tiếp tục thế này――anh ra mất!」",
+    "fix": "「Kisaki――nếu cứ tiếp tục thế này――tôi ra mất!」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki: \"anh\"→\"tôi\" (JP 僕, ngầm trong もう — \"tôi sắp ra\")."
+  },
+  {
+    "key": "1432",
+    "character": "双鉄H",
+    "jp": "「稀咲……綺麗だ」",
+    "tw": "「稀咲……你好美」",
+    "old_vn": "「Kisaki…… em đẹp lắm」",
+    "fix": "「Kisaki…… cô đẹp lắm」",
+    "kind": "pronoun",
+    "reason": "Soutetsu gọi Kisaki \"em\"→\"cô\" (quy tắc đã khóa; tiền lệ Grand 11 2173)."
+  },
+  {
+    "key": "1433",
+    "character": "双鉄H",
+    "jp": "「稀咲……パンツを脱いでくれるか？」",
+    "tw": "「稀咲……可以脫掉內褲嗎？」",
+    "old_vn": "「Kisaki…… em cởi quần lót ra được không?」",
+    "fix": "「Kisaki…… cô cởi quần lót ra được không?」",
+    "kind": "pronoun",
+    "reason": "Soutetsu gọi Kisaki \"em\"→\"cô\" (quy tắc đã khóa; tiền lệ Grand 11 2173)."
+  },
+  {
+    "key": "1449",
+    "character": "双鉄H",
+    "jp": "「肌を重ねあうことがこれほど素敵なことだと……\\n稀咲に教えてもらえることが、僕は本当に幸せだ」",
+    "tw": "「肌膚之親竟然如此美妙……有稀咲告訴我這一點，我真是太幸福了」",
+    "old_vn": "「Sự tiếp xúc da thịt lại tuyệt vời đến thế này……\\nĐược Kisaki dạy cho điều đó, anh thực sự rất hạnh phúc」",
+    "fix": "「Sự tiếp xúc da thịt lại tuyệt vời đến thế này……\\nĐược Kisaki dạy cho điều đó, tôi thực sự rất hạnh phúc」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki: \"anh\"→\"tôi\" (JP 僕は)."
+  },
+  {
+    "key": "1450",
+    "character": "双鉄H",
+    "jp": "「そのおかげで、僕も――」",
+    "tw": "「託你的福，我也――」",
+    "old_vn": "「Nhờ vậy mà, anh cũng――」",
+    "fix": "「Nhờ vậy mà, tôi cũng――」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki: \"anh\"→\"tôi\" (JP 僕も)."
+  },
+  {
+    "key": "1451",
+    "character": "双鉄H",
+    "jp": "「稀咲が起こしてくれたおかげかな。\\nとても気持ちよく目覚めることが出来た」",
+    "tw": "「謝謝你叫醒我，醒來的感覺真的不錯」",
+    "old_vn": "「Chắc là nhờ Kisaki đánh thức anh chăng.\\nAnh đã có thể thức dậy với một tâm trạng vô cùng sảng khoái.」",
+    "fix": "「Chắc là nhờ Kisaki đánh thức tôi chăng.\\nTôi đã có thể thức dậy với một tâm trạng vô cùng sảng khoái.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu với Kisaki là \"tôi\" (JP 僕, 2 lần) — quy tắc đã khóa; VN cũ \"anh\" cả hai lần."
+  },
+  {
+    "key": "1462",
+    "character": "稀咲",
+    "jp": "「そうなんだ。\\nなら、もっと気持ち良くしてあげるよ」",
+    "tw": "「這就對了。我來幫你更加舒服吧」",
+    "old_vn": "「Ra là vậy.\\nNếu thế, tôi sẽ làm cho anh sướng hơn nữa nhé.」",
+    "fix": "「Ra là vậy.\\nNếu thế, em sẽ làm cho anh sướng hơn nữa nhé.」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\"; \"anh\" GIỮ NGUYÊN theo câu hỏi đang chờ Hieu."
+  },
+  {
+    "key": "1464",
+    "character": "稀咲",
+    "jp": "「それも慣れっこ。\\nで？　父はボクについて、どんな話をしたんだい？」",
+    "tw": "「這我也習慣了。然後呢？　我爸講了我什麼事啊？」",
+    "old_vn": "「Chuyện đó tôi cũng quen rồi.\\nThế? Bố tôi đã nói gì về tôi vậy?」",
+    "fix": "「Chuyện đó em cũng quen rồi.\\nThế? Bố em đã nói gì về em vậy?」",
+    "kind": "pronoun",
+    "reason": "Kisaki tự xưng ボク với Soutetsu: \"tôi\"→\"em\"; \"Bố tôi/về tôi\"→\"Bố em/về em\" theo cùng quy tắc (nói về bản thân với Soutetsu)."
+  },
+  {
+    "key": "1486",
+    "character": "双鉄H",
+    "jp": "「っ！」",
+    "tw": "「！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-whole: JP 「っ！」 cả dòng chỉ là gasp, VN cũ chỉ còn \"!\" — thêm Ư."
+  },
+  {
+    "key": "1487",
+    "character": "稀咲",
+    "jp": "「っ！！」",
+    "tw": "「！！」",
+    "old_vn": "「!!」",
+    "fix": "「Ư!!」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-whole: JP 「っ！！」 cả dòng chỉ là gasp, VN cũ chỉ còn \"!!\" — thêm Ư."
+  },
+  {
+    "key": "1488",
+    "character": "双鉄H",
+    "jp": "「っ！！！」",
+    "tw": "「！！！」",
+    "old_vn": "「っ!!!」",
+    "fix": "「Ư!!!」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu: JP 「っ！！！」 cả dòng chỉ là gasp, VN còn nguyên っ → Ư."
+  },
+  {
+    "key": "1492",
+    "character": "双鉄H",
+    "jp": "「～～～～～っ！！！」",
+    "tw": "「～～～～～！！！」",
+    "old_vn": "「~~~~~っ!!!」",
+    "fix": "「~~~~~Ư!!!」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu: っ thô sau ~~~~~ → Ư (JP ～×5, VN ~×5 khớp)."
+  },
+  {
+    "key": "1494",
+    "character": "稀咲",
+    "jp": "「～～～～～～～～～～っ！！！」",
+    "tw": "「～～～～～～～～～～！！！」",
+    "old_vn": "「~~~~~~~~~~っ!!!」",
+    "fix": "「~~~~~~~~~~Ư!!!」",
+    "kind": "gasp",
+    "reason": "Sweep raw-tsu: っ thô sau ~~~~~~~~~~ → Ư (JP ～×10, VN ~×10 khớp)."
+  },
+  {
+    "key": "1650",
+    "character": "monologue",
+    "jp": "嬉しげな笑み。\\n強ばっていた稀咲の体が、少しやわら――っ！！？",
+    "tw": "她撐出了一個看似放鬆的微笑。稀咲原本僵硬的身體也柔軟了一――！！？",
+    "old_vn": "Nụ cười rạng rỡ.\\nCơ thể đang căng cứng của Kisaki, chợt mềm ra một chút――!!?",
+    "fix": "「Nụ cười rạng rỡ.\\nCơ thể đang căng cứng của Kisaki, chợt mềm ra một chút――Ư!!?」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-trailing: JP やわら――っ！！？ — gasp cuối dòng bị mất hẳn trong VN, thêm Ư sau ――."
+  }
+]

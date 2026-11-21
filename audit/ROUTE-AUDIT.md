@@ -3182,3 +3182,43 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 - Chi tiết đầy đủ: `audit-hachirokuh1-chigiri-REVIEW.md`; danh sách sửa: `audit-hachirokuh1-chigiri-wrong.json` (57 mục).
 
 **Tổng cộng sau file này: 150 file / 6.658 dòng sai** (cơ sở 149 file / 6.601 dòng sai + 57 file này)
+
+
+---
+
+# ハチロクh8_桜色のひめごと.txt.toml — 63/332 sai (19,0%)
+
+- File: `ハチロクh8_桜色のひめごと.txt.toml` — route 01_Hachiroku, 332 dòng script (monologue 176, ハチロク 98, 双鉄 58). Nội dung: cảnh H thứ tám của Hachiroku (lễ hội Hinamatsuri, rượu ngọt/amazake, wakame-zake và wareme-zake) — Soutetsu và Hachiroku làm tình, xen kẽ độc thoại Soutetsu và một đoạn dài SFX trong ngoặc （） (1524–1594).
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 332 dòng, 0 key trùng, 0 VN trống. TOML và CSV3 khớp tuyệt đối ngoài 183 dòng chênh ở `\\n` literal bị TOML-2 làm phẳng (CSV3 là chuẩn). TOML md5 `818002990fb400412684b19303c9839c`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng.
+- Phân loại (63): romaji 34, đại từ 12, gasp 9, đếm nguyên âm 5, nghĩa 3. Theo nhân vật: ハチロク 39/98 (39,8%), 双鉄 17/58 (29,3%), monologue 7/176 (4,0%). Thoại 56/156 (35,9%), độc thoại 7/176 (4,0%).
+- Gasp 8 mục sweep: áp nguyên 7/8 (467, 749, 951, 952, 1225, 1274, 1276), sửa lại 1 mục (953: sweep ghi 9 dấu ~, JP chỉ có 7 ~). Thêm 2 gasp sweep bỏ sót: 706 (おっぱい――っ giữa dòng) và 835 (っ đầu dòng + đếm u sai). Sweep không bỏ sót gasp nào khác (đã quét cơ học toàn bộ dòng JP có っ).
+- Đại từ 12: Soutetsu "anh"→"tôi" với Hachiroku (9 thoại 双鉄: 870, 871, 872, 874, 876, 885, 905, 929, 936; 3 độc thoại: 1253, 1300, 1304). Đã quét cơ học: sau khi sửa, file không còn dòng Soutetsu nào tự xưng "anh".
+- Romaji 34 — lỗi hệ thống: bản dịch cũ diễn mọi ふ/ふぁ/ふあ thành "hu/hua/huaa". Sửa theo romaji fallback + tiền lệ h1: ふぁ/ふあ→"Fua/Fuaa" (19 dòng), ふっ/ふ→"Phù/phù" (13 dòng), きゃふっ→"Kyafu" (703). ひあ/ひゃ đã đúng romaji sẵn — không sửa.
+- Đếm nguyên âm 5 (709, 736, 782, 811, 836): sửa lớn nhất 836 (26 u → 12 u), 811 (15 i → 10 i).
+- Nghĩa 3: 798 ぶぢゅ "Bạch"→"Bụp" (sai âm); 878 gỡ "ưm" bịa ở にっ; 1162 "bị phân tâm"→"tan ra" (散らされていく).
+- Giữ nguyên có lý do: あっ/ああっ bare → "A"/"Aa" (tiền lệ h1, không thêm Ư); っ nhấn mạnh gắn từ có nội dung; っ cuối dòng sau nguyên âm dài bỏ (tiền lệ h1 1238); "Kh" tắc thanh quản giữ (782); SFX ngoặc diễn theo nghĩa hành động, chỉ sửa chỗ sai hẳn âm; độ dài kéo chữ của từ hành động giữ nguyên (công thức đếm chỉ áp cho tiếng rên romaji).
+- Cờ cho Hieu: 798 ぶぢゅ→"Bụp" (phán đoán âm thanh); 1162 →"tan ra" (phán đoán nghĩa, có TW hỗ trợ); 878 gỡ "ưm" ở にっ (theo tiền lệ); B19 vẫn park.
+- Lượt soát 2: 63/63 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Kiểm chứng: JSON 63 mục dạng chuẩn, khóa chuỗi; khối TOML 63 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 63/63; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-hachirokuh8-sakura-iro-no-himegoto-REVIEW.md`; danh sách sửa: `audit-hachirokuh8-sakura-iro-no-himegoto-wrong.json` (63 mục).
+
+- Parent kiểm chứng 21/11 ~11:30: JSON 63 mục, TOML [script] 63 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 63/63. Đại từ kiểm chứng theo dòng kề (871/936/1253 Soutetsu "anh"→"tôi" với Hachiroku đúng); 953 sweep sửa đúng (JP 7 ~, fix 5 Ư + 7 ~ + 1 Ư); 836 đếm u 26→12 đúng công thức; 798 "Bụp" + 1162 "tan ra" chấp nhận (TW hỗ trợ), cờ cho Hieu; 878 gỡ "ưm" bịa đúng. Không sửa nào bị loại.
+
+**Tổng cộng sau file này: 151 file / 6.721 dòng sai** (cơ sở 150 file / 6.658 dòng sai + 63 file này)
+
+---
+
+## 稀咲h1_性生活 — 稀咲h1_性生活.txt.toml — 38/335 (11,3%)
+
+- File: `稀咲h1_性生活.txt.toml` — route 06_Kisaki, 335 dòng script (93 thoại Kisaki, 73 thoại Soutetsu, 169 độc thoại). Nội dung: 5h sáng, Kisaki đánh thức Soutetsu trong phòng giám đốc chi nhánh sau buổi nhậu với ông Mototada; Kisaki dạy Soutetsu về tình dục — cảnh H đầu tiên của hai người (oral, mất trinh, xuất tinh trong miệng rồi quan hệ), kết bằng nụ hôn và lời hẹn "cùng nhau học hỏi suốt đời".
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, key khớp tuyệt đối 335/335; VN khớp TOML 172/335 (163 dòng còn lại chỉ khác ở chỗ TOML-2 làm phẳng `\n` thành khoảng trắng — CSV3 là chuẩn). `[selections]` rỗng. 1 tag `%l` duy nhất (1325, gloss 真摯 — JP có ruby nên hợp lệ). Không có bản sao file này (md5 `ac459e00d403158a8ecd05162a0194d0`).
+- Phân loại (38): đại từ 26 (Soutetsu "anh"→"tôi" / "em"→"cô" với Kisaki 15 — 1288, 1451, 1394, 1426, 1189, 1432, 1449, 1361, 1364, 1433, 1400, 1316, 1366, 1379, 1450; Kisaki tự xưng "tôi"→"em" với Soutetsu 11 — 1416, 1217, 1464, 1303, 1204, 1373, 1357, 1462, 1369, 1398, 1376), gasp 10 (cả 10 từ sweep: 1254, 1306, 1310, 1323, 1486, 1487, 1488, 1492, 1494, 1650 — 1254 chỉnh số u 7→9 theo công thức), SFX 2 (1308 ぷえっ→"phuê", 1243 ぇあっ→"ea").
+- Sweep kiểm chứng: 13 mục cho file, nhận 12 fix (1316/1366 gộp với fix đại từ; 1254 chỉnh số u) + 1 already-rendered (1012); quét máy bổ sung toàn bộ dòng JP chứa っ — không còn gasp sót. Romaji fallback đã áp dụng: ふあっ→"fua" (1460, 1466), ひゃっ→"hya" giữ nguyên.
+- Kisaki gọi Soutetsu "anh Soutetsu" 41 dòng GIỮ NGUYÊN, cờ chờ Hieu (câu hỏi từ file 01/02, đã cờ lại ở h3 33 dòng) — tiền lệ "cậu"/tên trần (Common 14, Grand 11) đều từ ngữ cảnh họp/nhóm, trong khi file này là cảnh H thân mật nên không tự đổi hàng loạt. Độc thoại "em ấy" vs "cô ấy" (1692/1624/1759/1943 vs 1642) giữ nguyên, ghi nhận để đợt thống nhất xem xét.
+- Chi tiết đầy đủ: `audit-kisakih1-seikatsu-REVIEW.md`; danh sách sửa: `audit-kisakih1-seikatsu-wrong.json` (38 mục, khối TOML 38 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 38/38; lượt soát 2: 38/38, 0 bỏ, 0 sửa).
+
+- Parent kiểm chứng 21/11 ~11:30: JSON 38 mục, TOML 38 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 38/38. Đại từ kiểm chứng theo dòng kề (1288 Soutetsu với Kisaki, 1464 Kisaki với Soutetsu đúng quy tắc đã khóa); 1254 đếm u 7→9 đúng công thức; 4 dòng chạm "anh Soutetsu" chỉ sửa tự xưng Kisaki, giữ nguyên cách gọi — cờ chờ Hieu. Không sửa nào bị loại.
+
+**Tổng cộng sau file này: 152 file / 6.759 dòng sai** (cơ sở 151 file / 6.721 dòng sai + 38 file này)
+
+- Chờ Hieu: Kisaki gọi Soutetsu "anh Soutetsu" 41 dòng (đổi sang "cậu"/tên trần toàn tuyến Kisaki hay giữ? — như h3/file 02); 1244 しゅごっ/すごっ→"tuyệt quá" (TW cũng diễn "nhiều lắm"; tiền lệ h3 2155 cũng đang cờ); 1255 「ぃあっ」→"Ư a" (phương án romaji "Ia" để moan-fix loop xem xét); độc thoại "em ấy" vs "cô ấy" (đợt thống nhất).
