@@ -3278,3 +3278,21 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 155 file / 6.937 dòng sai** (cơ sở 154 file / 6.891 dòng sai + 46 file này)
 
 - Ghi nhận đợt thống nhất / vòng moan: họ fa/fu "Phù a" giữ nguyên trong audit này, chờ xem xét romaji ở vòng moan / đợt thống nhất (quyết định 21/11 ~01:56). File H — vòng moan sẽ nhận khi tới lượt.
+---
+
+## lr_れいなh1_レディ・れいな — lr_れいなh1_レディ・れいな.txt.toml — 60/311 (19,3%)
+
+- File: `lr_れいなh1_レディ・れいな.txt.toml` — route 04_Reina, 311 dòng script (monologue 134, thoại Reina 106, thoại Soutetsu 71). Nội dung: cảnh H của Reina ("Lady Reina") — Reina mặc đồ lót motif chó con, đóng vai cún (chủ nhân), handjob rồi oral; sau đó làm tình trước gương khi được bế bổng, tè dầm vào thau rửa mặt, rồi hiệp hai.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, key khớp tuyệt đối 311/311; VN khớp TOML 154/311 (157 dòng còn lại chỉ khác ở chỗ TOML-2 làm phẳng `\n` thành khoảng trắng — CSV3 là chuẩn). `[selections]` rỗng. 0 tag `%l`. Không có bản sao file này (md5 `229a246bcd0ae55d389ed9f3493620b3`).
+- Phân loại (60): đại từ 5 (Soutetsu "tôi"→"anh" với Reina: 1153 ×2, 1234, 1339 ×2, 1353, 1423), gasp 8 (sweep áp nguyên: 904, 1258, 1282, 1431, 1432, 1433, 1434, 1440), rên/thở romaji 39 (họ fa/fu 24 + họ ひゃ/ひゅ/きゃ/きゅ 11 mới + cười 4 mới — trộn romaji–Việt trong cùng âm, cười bị gắn Ư gasp), nguyên âm 5 (1226, 1244, 1284, 1288, 1584), âm khác 3 (1279 っっ→"ƯƯ", 1285 ぉっ→"Ô", 1305 んぉっ→"Ôm").
+- Sweep kiểm chứng: 15 mục cho file, nhận 8 fix + 5 already-rendered (1271, 1280, 1281, 1283, 1761) + 2 needs-file-audit đã kiểm chứng không sửa (1597, 1790); quét máy bổ sung toàn bộ dòng JP chứa っ — không tìm thêm gasp nào sweep bỏ sót ngoài 1279. Quy tắc ひゃ-family 21/11 áp dụng cho 1170/1171/1173/1174/1175/1176/1177/1303/1304/1306/1307/1308 (romaji Hya/Hyu/Kya/Kyu/Nhyu/Nkyu); romaji fallback họ fa/fu áp dụng cho 24 dòng (Fa/Fua/Fe/Fue/Fuya/Hau).
+- Giữ nguyên, ghi nhận đợt thống nhất: おまんこ "lồn" (1150, 1736) vs "chỗ đó" (1400, 1427) tỉ lệ 2/2. Giữ nguyên theo thực hành đã kiểm chứng: tiếng rên kiểu chó "Ư ử" (1379, 1381, 1436); っ cuối rên ngắn giữ La-tinh (905, 1242, 1247, 1252, 1301, 1243, 1228, 1238); SFX dài chuỗi "t"/"m" lệch −4..+3, không outlier; SFX ngoặc đơn diễn bằng nghĩa (1884, 1856, 1888, 1908, 1913, 1914, 1871, 1886, 1889, 1902, 1885).
+- Chi tiết đầy đủ: `audit-lr-reinah1-lady-reina-REVIEW.md`; danh sách sửa: `audit-lr-reinah1-lady-reina-wrong.json` (60 mục, khối TOML 60 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 60/60; lượt soát 2: 60/60, 0 bỏ, 0 sửa).
+
+
+- Parent kiểm chứng 21/11 ~13:00: JSON 60 mục, TOML [script] 60 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 60/60. Đại từ kiểm chứng theo dòng kề (5 dòng Soutetsu "tôi"→"anh", người đối thoại duy nhất là Reina — đúng quy tắc đã khóa); 1170 きゃあん→"Kyaan!", 1174 ひゃううううんっ→"Hyauuuun!" theo quy tắc romaji họ ひゃ; 1298/1299 rên dài trộn romaji–Việt → romaji nguyên dòng; 1225/1240 KHÔNG tính sai — giữ nguyên có lý do, đã ghi nhận (xem dưới). Không sửa nào bị loại.
+
+**Tổng cộng sau file này: 156 file / 6.997 dòng sai** (cơ sở 155 file / 6.937 dòng sai + 60 file này)
+
+- Lưu ý rebase: snippet ghi cơ sở 154 file / 6.891 dòng sai, nhưng file ハチロクh2 (46 dòng sai) đã được gộp lúc ~12:45 trong khi audit này đang chạy — đã kiểm chứng trực tiếp dòng tổng cuối của ROUTE-AUDIT.md (155 file / 6.937) và dùng cơ sở mới; snippet đã sửa lại cho khớp.
+- Chờ Hieu (chỉ ghi nhận, không cần quyết ngay): おまんこ "lồn" vs "chỗ đó" 2/2 (thống nhất 1 dạng toàn tuyến Reina hay giữ cả hai? — cùng câu hỏi như Mayami h1 6/6); mâu thuẫn quy tắc SFX ngắn + っ (file này giữ La-tinh theo thực hành đã kiểm chứng, đã cờ ở hachirokuh3); 2 phán đoán ít chắc chắn giữ nguyên: 1240 ふか、いっ→"sâu, quá" (いっ là mảnh vỡ của いい), 1225 くっ→"Ư" (mất phụ âm k đầu tiếng gằn).

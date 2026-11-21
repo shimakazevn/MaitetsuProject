@@ -9,4 +9,4 @@
 
 - Parent kiểm chứng: (để parent điền)
 
-**Tổng cộng sau file này: 155 file / 6.951 dòng sai** (cơ sở 154 file / 6.891 dòng sai + 60 file này)
+**Tổng cộng sau file này: 156 file / 6.997 dòng sai** (cơ sở 155 file / 6.937 dòng sai + 60 file này)
