@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **29 files / 646 rows changed**.
+Merged moan-fix log. Running totals: **30 files / 653 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -606,3 +606,23 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 - FLAG (đợt thống nhất): HỦY 17 fix fa/fu của audit — giữ romaji cũ (1172, 1181, 1187, 1193, 1202, 1207, 1213, 1232, 1248, 1267, 1269, 1271, 1274, 1357, 1366, 1397, 1420; chi tiết ở REVIEW §6). や chưa quyết chung: file này giữ "Á" cho や là từ chối (1181/1187/1203) nhưng đổi "Yaa" cho やぁ là rên (1325) — chờ quyết một lần toàn dự án.
 - Parent kiểm chứng 21/11 ~16:35: JSON 26 mục dạng chuẩn, khóa string; khối TOML 26 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 26/26 (1 bộ duy nhất, 293 dòng); TOML md5 khớp audit; đếm nguyên âm kiểm chứng độc lập: 1185 10 a, 1276 12 a (chữ A hoa cũng tính là 1 âm a — agent đúng, không sửa), 1278 7 a, 1205 "Haa" 2 a ×7, 1273 2 a, 1203 "Áa"/"Áaaa"/"áa" đúng; 1188 "Hyauuu" 3 u đúng; sweep 8 mục không đụng; không dòng "Kh" nào bị đổi; lượt soát 2: 26/26, 0 bỏ, 0 sửa.
 - FLAG (đợt thống nhất): 1164 "Kh," nói lắp (ngoài phạm vi moan); 1313 ふーーっ giữ "Phù" (borderline).
+
+---
+
+# Moan-fix snippet — 稀咲h1_性生活 (moan-kisaki-h1-seiseikatsu)
+
+- File: `稀咲h1_性生活.txt.toml` — 335 dòng script, TOML md5 `ac459e00d403158a8ecd05162a0194d0`, không có bản trùng.
+- CSV3: 1 bộ duy nhất (335/335 khớp, không khóa trùng).
+- Đã đọc 335/335 dòng; xét 74 dòng rên/SFX (60 thoại rên/thở + 14 SFX độc thoại).
+- Đổi 7 dòng: romaji 6 (1253 `I――Gi!`, 1255 `Ia`, 1260 `hia`, 1265 `Ua`, 1281 `Ua!!`, 1283 `hia`) + đếm nguyên âm 1 (1185 やぁっ `á`→`áa`).
+- Kiểu lỗi chính: ひあっ bị diễn sai thành "hya" (1260, 1283); âm đơn bị tách mảnh ("Ư a"→"Ia", "ư a"/"U a"→"Ua"); mất âm いっ/ぎっ ("Á――á!"→"I――Gi!", 1253).
+- Giữ 67 dòng rên/SFX (ひゃ/きゃ đã romaji đúng, fa/fu đã "fua"/"fu", cười "Fufu", quy ước あっ→"A", はぅっ→"Hau", んっ→"Ưm", SFX "Phập"/"Phụt" theo quy ước file).
+- Sweep: 13 mục đã kiểm chứng — 12 fix audit đã áp đúng (1254 đếm lại = 9 u), 1 already-rendered (1012) giữ. Không sửa lại dòng gasp Ư nào; không có dòng "Kh" nào trong file.
+- Cờ cho đợt thống nhất: F1 — 1253 "I――Gi!" có thể revert về "Á――á!" nếu Hieu thấy "Á!" tự nhiên hơn; F2 — 1244 しゅごっ→"tuyệt quá" (cờ từ audit, JP mơ hồ); F3 — や chưa quyết chung (1185 giữ "Á" cho từ chối, chỉ sửa đếm); F4 — SFX độc thoại （きゅっ）→"Siết chặt!" diễn nghĩa, chưa đếm nguyên âm.
+- Lượt soát 2: tổng 7 / tái kiểm chứng 7 / bỏ 0 / sửa 0. JSON 7 mục, khóa string, jp/tw/old_vn khớp CSV3 7/7. Khối TOML parse bằng tomllib: 7 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-kisaki-h1-seiseikatsu-REVIEW.md`; danh sách sửa: `moan-kisaki-h1-seiseikatsu-wrong.json`.
+
+**Tổng cộng sau file này: 30 file / 653 dòng sai (moan)** (cơ sở 29 file / 646 dòng + 7 file này)
+
+- Parent kiểm chứng 21/11 ~16:55: JSON 7 mục dạng chuẩn, khóa string; khối TOML 7 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 7/7 (1 bộ duy nhất, 335 dòng); TOML md5 khớp agent; 0 key trùng audit (38 dòng); sweep 13 mục, 0 trùng key moan — không dòng gasp Ư nào bị đụng; không dòng "Kh" nào bị đổi; đếm nguyên âm kiểm chứng độc lập: 1185 やぁっ = 2 a (tiền lệ lr-nagih2 1203); 1260/1283 ひあ→"hia" đúng quy tắc 3b; lượt soát 2: 7/7, 0 bỏ, 0 sửa.
+- FLAG (đợt thống nhất): F1 1253 "I――Gi!" có thể revert về "Á――á!" nếu Hieu thấy "Á!" tự nhiên hơn; F2 1244 (しゅごっ→"tuyệt quá", cờ từ audit); F3 や chưa quyết chung (1185 giữ "Á" cho từ chối vs lr-nagih2 1325 "Yaa" cho rên); F4 SFX độc thoại （きゅっ）→"Siết chặt!" (2049, 2055) diễn nghĩa, chưa đếm nguyên âm.
