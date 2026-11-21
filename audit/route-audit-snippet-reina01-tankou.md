@@ -1,0 +1,12 @@
+## れいな01 — れいな01_炭鉱探索.txt.toml — 35/403 (8,7%)
+
+- File: `れいな01_炭鉱探索.txt.toml` — route 04_Reina, 403 dòng script (145 độc thoại, 120 thoại Soutetsu, 94 thoại Reina, 44 thoại Paulette). Nội dung: khảo sát mỏ than bỏ hoang 術仙 — Reina giảng về mỏ than (quặng pirit, axit sunfuric, celluloid, đường sắt mỏ, tàu hỗn hợp, xe goòng chở người); cảnh "chơi trò gia đình" ở ký túc xá; kết bằng việc Paulette và Reina được giải phóng khỏi chuyến chạy định kỳ.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối 403/403 (266 chênh lệch đều là TOML làm phẳng `\n` thành khoảng trắng, 0 chênh lệch nội dung). `[selections]` rỗng. Không có bản sao file này (md5 `945c238f9039b7edc88998a761c5cdb8`).
+- Phân loại (35): đại từ 20 (1559, 1582, 1599, 1601, 1606, 1610, 1611, 1614, 1615, 1691, 1742, 1745, 1747, 1763, 1769, 1775, 1833, 1862, 2006, 2019 — Soutetsu "tôi"→"anh" với Reina/Paulette, "cô"→"em" cho Paulette, Paulette "chị"→"em" với Soutetsu; 1742 kèm 術仙 "Jussen"→"Jutsu-sen"), SFX 7 (1538 えへへぇ "E hèm"→"Ehehe~"; 1624, 1626, 1629, 1630, 1633, 1634 うふふぅ "Ư hự hự"→"Ufufu"), gasp 1 (2035 từ sweep), sai nghĩa 4 (1580 mỏ=núi; 1643 KiHa 07 bị gọi "người"; 1663 お麩 "váng đậu"→"phù"; 2348 đảo chiều sai khiến 思い出させる), thuật ngữ 3 (1644 整備体→"thân bảo trì"; 2218 運転ボディ→"thân vận hành"; 2349 Ohimitera→Ohitoyo + Yui→Yunoi).
+- Sweep kiểm chứng: 1 mục cho file (2035), áp nguyên văn; quét máy toàn bộ っ: không còn gasp nào sót.
+- Soutetsu "anh" với Reina/Paulette đã nhất quán sau sửa (17 dòng "tôi" sai + 2 "cô" + 1 Paulette "chị"); độc thoại "tôi" giữ nguyên theo quy tắc chung. Paulette "tôi" ở 4 dòng công việc trang trọng (1717, 1748, 1920, 1987) giữ nguyên theo tiền lệ "tôi ở hội đồng".
+- Chi tiết đầy đủ: `audit-reina01-tankou-REVIEW.md`; danh sách sửa: `audit-reina01-tankou-wrong.json` (35 mục, khối TOML 35 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 35/35; lượt soát 2: 35/35, 0 bỏ, 0 sửa; diff-sanity bắt 3 lỗi ngoặc 「」 tự thêm vào 2218/2348/2349, đã sửa trước soát 2).
+
+**Tổng cộng sau file này: 107 file / 4.971 dòng sai** (cơ sở 106 file / 4.936 dòng sai + 35 file này)
+
+- Chờ Hieu: 2415 (ô JP chứa tiếng Việt "Bước đi xạo xạc." + TW sao nhầm của 1917 — dữ liệu gốc hỏng ở cả CSV3 lẫn TOML, JP thật không rõ, không sửa được); 2348 + 1804 (TW sao nhầm của dòng khác, đã lấy JP làm chuẩn — chỉ ghi nhận, không cần quyết).

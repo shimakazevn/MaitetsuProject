@@ -1,0 +1,11 @@
+## 02_Hibiki 日々姫16 — 夢を乗せて — 16/400 (4,0%)
+
+- Cảnh nghị viện + chạy tàu buổi sáng: Hibiki trả lời chất vấn về đồng hồ búp bê ga Ohitoyo, rồi cả nhóm chạy chuyến SL Ohitoyo; Soutetsu cầu hôn Hibiki trên buồng lái. Kiểm tra ĐẦY ĐỦ 400 dòng (215 thoại, 185 độc thoại).
+- Phân loại (16): terminology 9 (まいてつ gloss "người đam mê đường sắt" → "chủ tàu" 3 — 2710, 2391, 2107, cả 3 dòng duy nhất toàn dự án dùng gloss này; 湯医 → "Yunoi" 2 — 2106, 1950; 整備ボディ → "thân bảo trì" 3 — 2609, 2408, 2340, 2340 kèm タブレット "thẻ bảng" → "máy tính bảng"; 運転ボディ → "thân vận hành" 1 — 2545), pronoun 6 (Soutetsu "anh"/"em" → "tôi" với Hachiroku 3 — 1709, 2084, 2087; với Kisaki 1 — 1893; với Mayami 1 — 2010 "Bên em" → "Bên tôi"; Paulette gọi Soutetsu thiếu "anh" 1 — 1719, khóa B4), gasp 1 (2683 raw-tsu, sweep áp nguyên sau kiểm chứng).
+- 0 misaligned / 0 rotation / 0 contamination / 0 orphan / 0 untranslated / 0 duplicate key / 0 uncertain.
+- CSV bộ duy nhất 400 dòng; CSV↔TOML: 361 khớp tuyệt đối + 39 gộp `\n` thành khoảng trắng, 0 khác biệt thực chất; JP comment khớp CSV3. TOML md5 c647cda50a94fe07d0b75fbcf3712a94, BOM + CRLF, [selections] rỗng, không bản sao trùng. Thẻ %l: tag parity OK 16/16, không thẻ hỏng trong file.
+- Sweep: 2 mục — 2683 áp nguyên đã kiểm chứng; 1703 already-rendered (VN "Ưm~~" đã diễn gasp — không sửa).
+- Lượt soát 2: 16 tổng / 16 tái kiểm chứng / 0 loại bỏ / 0 sửa lại. JSON 16 khóa chuỗi; jp/tw/old_vn khớp CSV3 tuyệt đối 16/16; khối TOML parse OK, 16 khóa, 0 sai lệch.
+- Phán đoán ghi chú: "Đường sắt Ohito" GIỮ (2107, 1994) — 215 lần toàn dự án vs "Đường sắt Ohitoyo" 5 lần, chờ Hieu/unification quyết có đổi tên công ty đường sắt không; "Ohimitera" 16 dòng GIỮ chờ thống nhất; "bọn anh" của Soutetsu GIỮ (1840, 1837, 1391) theo quy tắc dạng nhóm; Hachiroku bỏ 様 với Hibiki/Nagi (1735, 2111, 2109, 2119) — không nhất quán, cần quy ước; Nagi gọi Fukami tên trần ở 1788 (dự án "bé" 56×) — ghi chú thống nhất, tuyệt đối không đổi sang "chị"; 1868 義理の兄妹 → "anh em nuôi" GIỮ theo TW 義兄妹 (tiền lệ file 14); "dồn toa" cho 入換/入替 GIỮ theo quy ước 1027; gloss 機関助士 "phụ lái tàu" GIỮ (54× nhất quán); "Denshahime" GIỮ; 1685 っ cuối câu nhấn mạnh bỏ đúng, không thêm Ư.
+
+**Tổng cộng sau file này: 65 file / 3.670 dòng sai** (cơ sở 64 file / 3.654 + 16 file này).

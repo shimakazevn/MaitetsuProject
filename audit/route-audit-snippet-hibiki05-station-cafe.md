@@ -1,0 +1,9 @@
+## 日々姫05 — 日々姫05_御一夜ステーションカフェ.txt.toml — 13/577 (2,3%)
+
+- File: `日々姫05_御一夜ステーションカフェ.txt.toml` — route 02_Hibiki, 577 dòng script. Nội dung: ngày chạy thử quán cà phê ga Ohitoyo (Gamadas Café đổi tên) — Soutetsu và Hibiki phục vụ khách trong toa ăn (Hachiroku, Reina, Paulette, Kisaki, Fukami, Nagi, phu nhân Nagayama, các gia đình có trẻ con); thực đơn SL curry / dầu diesel / than đá; cuộc thi đặt biệt danh cho quán; chủ đề "mảnh ghép hạnh phúc" và bướm lột xác; sự bảo bọc quá mức của Mayami; chuyện cái chăn đắp cho hai người ngủ quên; kết bằng lời thề của Soutetsu sẽ làm ngọn gió nâng cánh Hibiki.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối sau chuẩn hóa `\\n` (326 lệch chỉ là TOML-2 làm phẳng literal `\\n` thành khoảng trắng, 0 khác biệt thực chất). `[selections]` rỗng. Thẻ `%l` đúng (3 thẻ: 2854 ×2, 3041 ×1). Không có bản sao file này.
+- Phân loại (13): xưng hô 4 (1518 Soutetsu→Hibiki "tôi"→"anh"; 2212 Soutetsu→Hachiroku "anh"→"tôi"; 2407 Soutetsu→Mayami "em"→"tôi" ×2; 2577 độc thoại "Anh"→"Tôi"), gasp 4 (2040, 2069, 2967, 3330 — cả 4 từ sweep, đã kiểm chứng), SFX 4 (1509 ふぅ "Phù."→"Phùù." theo công thức nguyên âm; 2081 ああっ "A."→"Aa."; 2364 ああっ "A,"→"Aa,"; 1909 khôi phục tiếng cười ゲゲゲ "[Gegege,2]Tệ tệ tệ của [Ge]tệ đấy"), sai nghĩa 1 (3179 くすぐったそうに "buồn buồn buồn buồn"→"nhột").
+- Chi tiết đầy đủ: `audit-hibiki05-station-cafe-REVIEW.md`; danh sách sửa: `audit-hibiki05-station-cafe-wrong.json` (13 mục, khối TOML 13 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 13/13; lượt soát 2: 13/13, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 93 file / 4.537 dòng sai** (cơ sở 92 file / 4.524 + 13 file này)
+- Chờ Hieu: "Ohimitera" 3 dòng (2560, 3223, 3285) chờ đợt thống nhất; 1909 khôi phục thẻ [Gegege,2]/[Ge] cần Hieu xác nhận cách diễn; 1928 "chú" (người nghe không xác định chắc chắn) và 2038 gasp っ trước あ chưa diễn là 2 điểm cần Hieu xem lại.

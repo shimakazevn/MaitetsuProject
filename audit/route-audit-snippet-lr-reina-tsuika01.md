@@ -1,0 +1,14 @@
+## 04_Reina lrれいな追加01 — はじめての冬 — 15/322 (4,7%)
+
+- "Mùa đông đầu tiên": Soutetsu và Reina ngồi sưởi sàn ăn quýt, xem album ảnh cũ của bác Denjirou và cô Kayoko (thời mỏ than Katakami, lớp bổ túc ban đêm 夜学), bàn khóa tu dưỡng tân nương và nhờ chị Mayami làm giáo viên; Mayami ghé qua sau một ngày làm ở xưởng rượu. Kiểm tra ĐẦY ĐỦ 322 dòng (233 thoại, 89 độc thoại).
+- Phân loại (15): sfx-laughter 7 (977, 1111, 1168, 1170, 1174, 1177, 1178 — うふふ/うっふふ "Ư phu phu"→"Ufufu"), pronoun 4 (975, 1285 Soutetsu "tôi"→"anh" với Reina; 1155, 1312 "em"→"anh" với Reina), fa/fu 2 (1097 ふあぁーあ "Phu a~ a"→"Phùa~ a"; 1101 ふぁ "Phu a"→"Phà"), fabrication 1 (1051 "những di sản quý giá" bịa thêm), terminology 1 (1594 "Đường sắt Ohito"→"Đường sắt Ohitoyo"). Thoại 14/233 (6,0%), độc thoại 1/89 (1,1%).
+- 0 misaligned / 0 rotation / 0 contamination / 0 orphan / 0 untranslated / 0 duplicate key / 0 uncertain.
+- CSV bộ duy nhất 322 dòng; CSV↔TOML: 124 khớp tuyệt đối + 198 gộp `\n` thành khoảng trắng, 0 khác biệt thực chất; JP comment 322/322 khớp CSV3. TOML md5 91bbc47d045eb6f41187c89c5fd5255d, BOM + CRLF (666 CRLF, 0 LF-only), [selections] rỗng, không bản sao trùng. Thẻ %l: số lượng khớp JP mọi dòng, 0 thẻ thiếu `;`. Không có っ thô trong VN.
+- Sweep: 0 mục cho file này — đã kiểm tra trực tiếp trong sweep-raw-gasp-wrong.json (1 kết quả khớp tên khi tìm mờ thuộc file Mayami lr真闇追加01 key 1657, không phải file này).
+- Lượt soát 2: 15 tổng / 15 tái kiểm chứng / 0 loại bỏ / 0 sửa lại. JSON 15 khóa chuỗi; khối TOML parse OK, 15 khóa, 0 sai lệch. Diff-sanity 15/15 (tương đồng 0,71–0,99; thấp nhất 1101 vì cả dòng chỉ có một tiếng). Quét bổ sung: toàn bộ "tôi"/"em" trong thoại Soutetsu và toàn bộ "Ư phu phu"/"Phu a" (9 chỗ) đã rà lại, không còn sót.
+- Phán đoán ghi chú (không tự quyết, chỉ ghi lại): 1008 hoàn thiện câu cụt JP bằng "thì sao?" — giữ nguyên; 1103 ふわわわ giữ "Oa oa oa" (TW 哇哇 đồng ý); 1541 "đáng yêu lắm" hoàn thiện chỗ lửng さぞや — giữ nguyên; 1130 んふー giữ "Ưm phu~!" — không mất âm; 649/1747 "cha nuôi/mẹ nuôi" đúng (TW 養父/養母).
+- Chờ thống nhất (không tính sai): không có — không còn dạng cũ nào khác trong file ("Ohito" duy nhất ở 1594 đã sửa thẳng trong audit này theo tiền lệ 08b).
+
+**Tổng cộng sau file này: 67 file / 3.702 dòng sai** (cơ sở 66 file / 3.687 + 15 file này)
+
+- Parent kiểm chứng 20/11 ~06:07: JSON 15 mục dạng chuẩn, khối TOML 15 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 15/15; diff-sanity 15/15 chỉ khác ở chỗ sửa có chủ đích (tỉ lệ 0,71–0,99); 1051 bịa "di sản quý giá" xác nhận (JP không có), 1594 御一夜鉄道→"Ohitoyo" đúng, 977/1097 tiếng cười/yawn đúng quy tắc; lượt soát 2 ghi trong review (15/15, 0 bỏ, 0 sửa). **1312 SỬA LẠI bởi parent: agent cho "Tôi" với Mayami nhưng người nghe là Reina (1318 "僕かられいなにお願いさせてくれ"; Mayami chưa vào cảnh, lần đầu lên tiếng ở 1387) — đúng là "Anh có một việc nhất định phải nhờ chị Mayami."** Bài học: đại từ theo NGƯỜI NGHE, không theo người được nhắc tới.

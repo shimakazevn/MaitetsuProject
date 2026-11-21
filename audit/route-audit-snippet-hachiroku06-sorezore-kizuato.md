@@ -1,0 +1,12 @@
+## ハチロク06 — ハチロク06_それぞれの傷跡.txt.toml — 24/407 (5,9%)
+
+- File: `ハチロク06_それぞれの傷跡.txt.toml` — route 01_Hachiroku, 407 dòng script (74 thoại Hachiroku, 62 thoại Soutetsu, 39 thoại Paulette, 33 thoại Hibiki, 16 thoại Reina, 183 độc thoại). Nội dung: Hachiroku phát hiện khung gầm 8620 bị biến dạng; Soutetsu thừa nhận sợ tai nạn đường sắt, định ngừng vận hành 8620 để bảo vệ Hachiroku; hiểu lầm giữa hai người rồi được Hibiki hoà giải; kế hoạch tàu BBQ + đổi biểu đồ chạy tàu; thời hạn 2 năm từ cha của Mayami.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối 407/407 (262 dòng chỉ khác ở chỗ TOML-2 làm phẳng dấu \n thành khoảng trắng). `[selections]` rỗng. Không có bản sao file này (md5 `c27fb7616a7462dcc5232456dbb9e977`).
+- Phân loại (24): gasp 9 (1613, 1638, 1648, 1974, 1979, 2025, 2026, 2031, 2629 — 5 từ sweep + 2 sweep bỏ sót + 2 đính chính sweep), đại từ 8 (1770 "ngài ấy"→"ngài"; 1991 Soutetsu→Paulette "cô"→"em"; 2356, 2420, 2455, 2474, 2768, 2797 độc thoại Hachiroku "em"→"tôi"), tag 3 (1556, 1710, 1784 — VN tự thêm thẻ gloss cho 8620, JP chỉ có ruby), nghĩa 3 (1654 gỡ "Do" bịa ở câu cụt; 2350 口惜しい "hối hận"→"không cam lòng"; 2800 "run lên bần bật"→"run rẩy nhè nhẹ"), SFX 1 (2598 ぐっ bị bỏ mất).
+- Sweep kiểm chứng: 7 mục cho file — nhận nguyên 5 fix (1974, 2025, 2026, 2031, 2629; 2629 chuẩn lại dấu \n theo CSV3); đính chính 1638 already-rendered ("A!!" diễn âm あ, không phải っ) và 1979 needs-file-audit (VN 「Chuyện đó!」 bịa từ cho một tiếng gasp); quét bổ sung bắt thêm 2 gasp sweep bỏ sót (1613, 1648 bare っ→"Ưm").
+- Soutetsu "tôi" với Hachiroku đúng toàn file (0 dòng "anh" sai); độc thoại Hachiroku "tôi" ở ~30 dòng, chỉ 6 dòng lạc sang "em". Thuật ngữ chờ đợt thống nhất: "Ohimitera" 4 dòng (1710, 1819, 2706, 2710), "tuyến Yui" 2 dòng (1801, 2710).
+- Chi tiết đầy đủ: `audit-hachiroku06-sorezore-kizuato-REVIEW.md`; danh sách sửa: `audit-hachiroku06-sorezore-kizuato-wrong.json` (24 mục, khối TOML 24 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 24/24; lượt soát 2: 24/24, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 105 file / 4.900 dòng sai** (cơ sở 104 file / 4.876 dòng sai + 24 file này)
+
+- Chờ Hieu: 1654 (câu cụt 「双鉄くんに……」 của Paulette — phần tiếp theo không rõ); đợt thống nhất "Ohimitera"→"Ohitoyo" và "tuyến Yui"→"tuyến Yunoi"; 1850 ("trực tiếp nghe" theo ngữ cảnh 1966 hay "trực tiếp hỏi" theo TW).

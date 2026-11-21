@@ -1,0 +1,12 @@
+## 07_Nagi_Fukami 凪ふかみ08c — 新しい家族 — 17/483 (3,5%)
+
+- "Gia đình mới": Soutetsu kiệt sức ngã gục, Nagi + Fukami chăm sóc; anh đề xuất ba người thành một gia đình; họp toàn thể (Paulette, Kisaki, Hachiroku, Reina, Mayami, hai ông Minokasa + Seki) bàn "Đặc khu Hình thái Gia đình mới" và lập pháp hóa hợp đồng gia đình; kết 7 năm sau với "Gia đình được chứng nhận". Kiểm tra ĐẦY ĐỦ 483 dòng (339 thoại, 144 độc thoại).
+- Phân loại (17): pronoun 8 (Soutetsu tự xưng "em"→"tôi" với Mayami 3: 2516, 2329, 2290; Soutetsu gọi Paulette "cậu"→"em" 2: 2290, 2131; Paulette "cậu Soutetsu"→"anh Soutetsu" 4: 1838, 2514, 1870, 2332 — khóa B4), meaning 3 (倒れる "ngã bệnh"→"ngã gục" 2: 1823, 2336; それぞれで "từng người"→"hai người một nhóm" 1: 2270), gasp 1 (2140 sweep áp nguyên), sfx 1 (2073 ふあっ "Oa"→"Phùa"), tag 3 (rò chữ JP trong ruby 2413; thẻ %l mang thuật ngữ TW 3071, 2996), typo 1 (2956 dấu `'` thừa). Thoại 14/339 (4,1%), độc thoại 3/144 (2,1%).
+- 0 misaligned / 0 rotation / 0 contamination / 0 orphan / 0 untranslated / 0 duplicate key / 1 uncertain (2030 — giữ "anh", chờ Hieu).
+- CSV bộ duy nhất 483 dòng; CSV↔TOML: 189 khớp tuyệt đối + 294 gộp `\n` thành khoảng trắng, 0 khác biệt thực chất; JP comment 483/483 khớp CSV3. TOML md5 57e635feca460be6e6b563f3201ab484, BOM + CRLF, [selections] rỗng, không bản sao trùng. Thẻ %l: 14 thẻ, 11 đúng; 3108 [窯] giữ nguyên (JP viết カマ = katakana của 窯).
+- Sweep: 2 mục — 2140 áp nguyên đã kiểm chứng trực tiếp; 3052 needs-file-audit đã xử lý (VN "――hả!?" đã diễn gasp, không sửa).
+- Lượt soát 2: 18 tổng / 17 tái kiểm chứng / 1 loại bỏ (2030, parent) / 0 sửa lại. JSON 17 khóa chuỗi; khối TOML parse OK, 17 khóa, 0 sai lệch. (Kiểm chứng cơ học phát hiện 12 bản sửa viết tay thiếu cặp ngoặc 「」 của VN cũ — đã bổ sung trước khi chốt; lỗi chép lại, không tính vào lượt soát 2.)
+- Phán đoán ghi chú: Seki gọi "ông nội" hay "ông ngoại" — CÂU HỎI TOÀN DỰ ÁN, không sửa ở file này (Seki gọi Midori là 娘 ở 2456, Midori là mẹ Fukami → ông ngoại theo họ hàng Việt; nhưng toàn dự án đều dùng "ông nội" cho Seki — cần Hieu chốt). Nagi tự xưng "mình" (1984, 1995, 436) giữ nguyên. Grand01 còn sót 2 dòng Paulette "cậu Soutetsu" (2756, 2181) chưa sửa (audit trước đính chính B4) — báo để parent ghi nhận. Key 2030 LOẠI BỎ bởi parent: giữ "anh" (người nghe là Nagi 2029, 2554 thuộc cảnh khác), chờ Hieu chốt.
+- Chờ thống nhất (không tính sai): "Ohito"→"Ohitoyo" 7 dòng / 8 lần (2585, 2199 ×2, 2196, 2041, 2420, 2341, 2248); "Yui"→"Yunoi" 2 dòng (2541, 2068).
+
+**Tổng cộng sau file này: 66 file / 3.687 dòng sai** (cơ sở 65 file / 3.670 + 17 file này).
