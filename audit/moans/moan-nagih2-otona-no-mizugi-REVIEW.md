@@ -162,8 +162,8 @@ Quy tắc áp dụng chung: romaji Hepburn, độ dài nguyên âm theo công th
 - JP: 「んゅうううううううぅぅっ！！！」
 - TW: 「唔！！！」
 - Old VN: 「Ưnnnnnnnnnnn!!!」
-- New VN: 「Nyuuuuuuuuu!!!」
-- Lý do: âm là "nyuu..." dài (んゅ + 9 nguyên âm u, đã đếm bằng script), old "Ưnnn..." diễn thành tiếng hừm "nnn" làm mất hẳn âm "yu" — đây đúng trường hợp quy tắc romaji nhắm tới (moan dài nhiều nguyên âm). Romaji "Nyuuuuuuuuu" (Ny + 9 u).
+- New VN: 「Nyuuuuuuuuuu!!!」
+- Lý do: âm là "nyuu..." dài (んゅ + 9 nguyên âm う/ぅ = 10 u theo công thức, đã đếm lại), old "Ưnnn..." diễn thành tiếng hừm "nnn" làm mất hẳn âm "yu" — đây đúng trường hợp quy tắc romaji nhắm tới (moan dài nhiều nguyên âm). Romaji "Nyuuuuuuuuuu" (Ny + 10 u).
 
 ### Key 2512 — 凪
 - JP: 「んひゅっ！！！？」
@@ -254,6 +254,7 @@ Quy tắc áp dụng chung: romaji Hepburn, độ dài nguyên âm theo công th
 - Corrected (sửa lại giá trị fix sau lần 2): **0**
 
 Ghi chú lần 2: đã đếm lại bằng script các chuỗi dài — 2500 んゅう… = 9 nguyên âm u → "Nyuuuuuuuuu" (Ny + 9 u) đúng; 2416/2419 ひゃああ(あ) = 3 a → "Hyaaa" đúng; 2414/2412 ひあああ = "Hiaaa" đúng; 2534 ああああ = "Aaaa" đúng. Không có fix nào bị loại hay sửa ở lần 2.
+- Ghi chú của parent (21/11 ~02:35, sau khi merge): key 2500 SỬA — fix "Nyuuuuuuuuu" (9 u) → "Nyuuuuuuuuuu" (10 u). JP んゅうううううううぅぅ có ゅ(1) + う×7 + ぅ×2 = 10 u theo công thức (1 + số う/ぅ); agent đã đếm thiếu 1 (chỉ đếm う/ぅ = 9, quên +1 cho ゅ). Đã sửa wrong.json + REVIEW (dòng này + khối TOML). File này sẽ được push lại GitHub cùng đợt push sau (staging vẫn giữ bản cũ đã push).
 
 ## 7. TOML block (parse-verified với tomllib: 25 key, 0 value mismatch vs wrong.json)
 
@@ -277,7 +278,7 @@ Ghi chú lần 2: đã đếm lại bằng script các chuỗi dài — 2500 ん
 "2452" = "「Fua」"
 "2462" = "「Fa!?」"
 "2483" = "「Ưmmm——A——A——Âm, đạo, vẫn còn——\\nchỗ, sướng, hơn——mà——Ưm——Phù」"
-"2500" = "「Nyuuuuuuuuu!!!」"
+"2500" = "「Nyuuuuuuuuuu!!!」"
 "2512" = "「Nhyu!!!?」"
 "2520" = "「Ka——Hà! A! Agu——Kafu!\\nHà! Hà! Hà! Hà!」"
 "2526" = "「Fua——Anh hai-hyan——Ưm, chụt——\\nChụt, chụt」"

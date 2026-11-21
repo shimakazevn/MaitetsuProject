@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **46 files / 1230 rows changed**.
+Merged moan-fix log. Running totals: **47 files / 1239 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -957,3 +957,24 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 **Tổng cộng sau file này: 46 file / 1230 dòng sai (moan)** (cơ sở 45 file / 1214 dòng + 16 file này — cơ sở đã kiểm chứng trực tiếp dòng tổng cuối của ROUTE-MOANS.md)
 - Parent kiểm chứng 22/11 ~01:20: JSON 16 mục dạng chuẩn, khóa string; khối TOML 16 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 16/16 (1 bộ duy nhất, 329 dòng); TOML md5 khớp audit; đếm nguyên âm kiểm chứng độc lập: 1003 9u (く+う×8), 1019 Nfuu 2u / Nuuu 3u / Kufuun 3u — đếm trực tiếp theo mora (ん không mang nguyên âm, nên công thức tắt "1+う" không áp cho token bắt đầu bằng ん: んうううっ = 3u, agent đúng); sweep 6 mục (1011/1230/1231/1232/1237/1670) không trùng key moan nào; không dòng "Kh" nào bị đổi; lượt soát 2: 16/16, 0 bỏ, 0 sửa.
 - FLAG (đợt thống nhất): F1 くっ "Hự" vs "Ku" (câu hỏi mở toàn dự án — file này áp "Hự" theo quy ước nội bộ, 1043/1044/1062 đều dùng "Hự"/"hự" cho くっ; tiền lệ ngược ふかみh3 dùng "Ku"); F2 fa/fu "Phù" 4 dòng (1013/1017/1018/1059) → unification; F3 1015 nói ngọng (không phải rên, để audit); F4 1022 ふえっ→"Fue" (phán đoán: nằm đầu chuỗi rên, khác tiền lệ giữ "Hả"/"Hể" cho thán từ độc lập); F5 1040 giữ "Ưm—————"; F6 key 970 dùng giá trị moan (đã gồm fix nghĩa audit "Vào trong tử cung"), KHÔNG áp riêng bản audit.
+
+---
+
+# Moan-fix snippet — lr_ハチロクh1_今ひとたびの契り.txt.toml (moan-lr-hachiroku-h1-ima-hitotabi-no-chigiri)
+
+- File: `lr_ハチロクh1_今ひとたびの契り.txt.toml` — route 01_Hachiroku, 358 dòng script, audit trước đó 64 sai.
+- Đã đọc 358/358 dòng; xét 180 dòng rên/SFX (thoại 123 + SFX （） độc thoại 57; thêm 41 dòng văn xuôi có từ tượng thanh đã kiểm tra, giữ nguyên).
+- Đổi 9 dòng (đếm nguyên âm 3, romaji 6), giữ 171 dòng rên/SFX.
+- Đếm nguyên âm 3: 1163 はぁっ "ha"→"haa", 1170 はぁ ×3 "Ha"→"Haa", 1245 はあっ "Ha!"→"Haa!" (mỗi âm 2 a, VN cũ thiếu 1).
+- Romaji 6: 1149 んうっ "ưm"→"ưm ư" (thiếu nguyên âm う); 1213/1234/1241/1252/2008 ちゅむっ "chum"/"Chum"→"chumu"/"Chumu" (thiếu nguyên âm của む; tiền lệ h1_契り 2147).
+- 1234 THAY THẾ fix audit cùng key (khác fix audit chỉ ở "chum"→"chumu"; giữ nguyên "——Ư" của audit).
+- Đồng ý 34/34 dòng moan của audit (đếm lại theo mora: 1142 14u, 1263 12u, 1264 4n+4u, 1947 9u, 1998 10u, 1999 12u, 2000 13u — đều đúng).
+- Giữ hệ SFX （） diễn theo nghĩa hành động (tiền lệ h8/h1_契り); trả lời cờ audit ở 1965: giữ "Xâm nhậpppp..." (しにゅう → "xâm nhập" nhất quán trong file, chuỗi p kéo dài là phong cách nghệ thuật).
+- Sweep: 18 mục đã kiểm chứng trực tiếp (17 fix audit áp đúng + 1314 needs-file-audit); không dòng "Kh" nào bị đổi; không dòng gasp Ư nào bị xem lại.
+- Cờ: F1 1314 "rồi——Ư!" chờ Hieu (audit đã cờ); F2 1234 thay thế fix audit; F3 1982 "chụt" cho ちゅむうっ (hệ diễn-nghĩa) vs tiền lệ 2147 "Chumu"; F4 そうてつさま không nhất quán (audit đã cờ).
+- Lượt soát 2: 9/9 tái kiểm chứng, 0 bỏ, 0 sửa (đã loại 1 lỗi đếm nháp ở 1992: JP đủ 10 u, VN đúng 10 u, không sửa).
+- Chi tiết đầy đủ: `moan-lr-hachiroku-h1-ima-hitotabi-no-chigiri-REVIEW.md`; danh sách sửa: `moan-lr-hachiroku-h1-ima-hitotabi-no-chigiri-wrong.json`.
+- **Tổng cộng sau file này: 47 file / 1239 dòng sai (moan)** (cơ sở 46 file / 1230 dòng + 9 file này — cơ sở đã kiểm chứng trực tiếp dòng tổng của ROUTE-MOANS.md)
+
+- Parent kiểm chứng 22/11 ~02:30: JSON 9 mục dạng chuẩn, khóa string; khối TOML 9 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 9/9 (1 bộ duy nhất, 358 dòng, 0 key trùng); TOML md5 khớp audit, 1 bản duy nhất; đếm nguyên âm kiểm chứng độc lập: 1163/1170/1245 = 2 a (1+1う), 1213/1234/1241/1252/2008 ちゅむっ → "chumu" (chu+mu, khôi phục nguyên âm u của む), 1149 んうっ → "ưm ư" (ん+う); 1992 kiểm chứng lại: JP じゅ+ぶ+りゅ+7う = 10 u, VN 10 u đúng — agent giữ đúng, không sửa; chỉ 1 key trùng audit (1234) — fix moan chỉ khác audit ở "chum"→"chumu", giữ nguyên "——Ư" của audit; không dòng gasp Ư nào bị xem lại; không dòng "Kh" nào bị đổi (1163 "Kh-không" là lắp thoại, không đụng); lượt soát 2: 9/9, 0 bỏ, 0 sửa.
+- FLAG (đợt thống nhất): F1 1314 "rồi——Ư!" chờ Hieu (audit đã cờ); F2 1234 thay thế fix audit; F3 1982 "chụt" cho ちゅむうっ (hệ diễn-nghĩa) vs tiền lệ "Chumu" (h1_契り 2147); F4 そうてつさま không nhất quán (audit đã cờ).
