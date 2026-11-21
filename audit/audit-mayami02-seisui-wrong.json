@@ -1,0 +1,731 @@
+[
+  {
+    "key": "1113",
+    "jp": "「\\x%l列車;#00ffc040;列車%l;#;の自動\\x%lブレーキ;#00ffc040;ブレーキ%l;#;は、空気圧がかかり続けることで\\n解除されてる。圧力を抜けば、\\x%lブレーキ;#00ffc040;ブレーキ%l;#;がかかる構造だ」",
+    "tw": "「\\x%l列車;#00ffc040;列車%l;#;的自動\\x%lブレーキ;#00ffc040;剎車%l;#;可以透過持續對空氣加壓來將其解除。在這個構造下如果將壓力降低\\x%lブレーキ;#00ffc040;剎車%l;#;就會起作用」",
+    "old_vn": "「\\x%lブレーキ;#00ffc040;Phanh%l;# tự động của \\x%l列車;#00ffc040;tàu%l;# được nhả ra bằng cách liên tục duy trì áp suất không khí. \\nCấu tạo của nó là khi xả áp suất thì \\x%lブレーキ;#00ffc040;phanh%l;# sẽ hoạt động.」",
+    "fix": "「\\x%lブレーキ;#00ffc040;Phanh%l;#; tự động của \\x%l列車;#00ffc040;tàu%l;#; được nhả ra bằng cách liên tục duy trì áp suất không khí. \\nCấu tạo của nó là khi xả áp suất thì \\x%lブレーキ;#00ffc040;phanh%l;#; sẽ hoạt động.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1119",
+    "jp": "「\\x%l減圧;#00ffc040;減圧%l;#;？　加圧じゃなかと？」",
+    "tw": "「\\x%l減圧;#00ffc040;減壓%l;#;？不是加壓嗎？」",
+    "old_vn": "「\\x%l減圧;#00ffc040;Giảm áp%l;#? Không phải là tăng áp sao?」",
+    "fix": "「\\x%l減圧;#00ffc040;Giảm áp%l;#;? Không phải là tăng áp sao?」",
+    "kind": "tag",
+    "character": "真闇"
+  },
+  {
+    "key": "1147",
+    "jp": "「……しかし。やはりしっくり来んのだ。\\nここでの方が落ち着くし、深く話せるようにも感じて」",
+    "tw": "「……可是，我就是靜不下心來。總感覺到這裡來才能放空自己、和你說些更重要的話」",
+    "old_vn": "「……Nhưng mà. Vẫn thấy không thoải mái. \\nỞ đây yên tĩnh hơn, và em có cảm giác có thể nói chuyện sâu sắc hơn.」",
+    "fix": "「……Nhưng mà. Vẫn thấy không thoải mái. \\nỞ đây yên tĩnh hơn, và tôi có cảm giác có thể nói chuyện sâu sắc hơn.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1157",
+    "jp": "「……僕だけではないのだな」",
+    "tw": "「……看來這樣的不止是我自己啊」",
+    "old_vn": "「……Không chỉ có mình em nhỉ.」",
+    "fix": "「……Không chỉ có mình tôi nhỉ.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1162",
+    "jp": "「……祝杯をあげたい気分だ」",
+    "tw": "「……真想要舉杯慶祝一番」",
+    "old_vn": "「……Em đang có tâm trạng muốn nâng ly chúc mừng đây.」",
+    "fix": "「……Tôi đang có tâm trạng muốn nâng ly chúc mừng đây.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1168",
+    "jp": "「……わからない、かな」",
+    "tw": "「……這個，我還不清楚」",
+    "old_vn": "「……Chắc là, em không biết.」",
+    "fix": "「……Chắc là, tôi không biết.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1452",
+    "jp": "「が、\\x%l絶気運転;#00ffc040;絶気運転%l;#;中もシリンダー内のピストンは動き続ける。\\nそうなると、ピストン内部の空気の逃げ場が失くなる」",
+    "tw": "「不過\\x%l絶気運転;#00ffc040;無汽行駛%l;#;過程中汽缸內的活塞還是會繼續運作。這樣一來活塞內兩邊的空氣就無處可去了」",
+    "old_vn": "「Nhưng trong lúc \\x%l絶気運転;#00ffc040;chạy cắt hơi%l;#, piston trong xi-lanh vẫn tiếp tục chuyển động. \\nKhi đó, không khí bên trong piston sẽ không có chỗ thoát.」",
+    "fix": "「Nhưng trong lúc \\x%l絶気運転;#00ffc040;chạy cắt hơi%l;#;, piston trong xi-lanh vẫn tiếp tục chuyển động. \\nKhi đó, không khí bên trong piston sẽ không có chỗ thoát.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1454",
+    "jp": "「それでも、喧嘩にはならなかったな。\\nそれが僕には必要なのだと、やがて、わかってもらえて」",
+    "tw": "「不過就算這樣，我們也沒有吵架。到最後，她都會理解我，知道那是我的必需品」",
+    "old_vn": "「Dù vậy, bọn em cũng không hề cãi vã.\\nVì em ấy sẽ nhanh chóng hiểu ra rằng, đó là thứ cần thiết đối với em.」",
+    "fix": "「Dù vậy, bọn tôi cũng không hề cãi vã.\\nVì em ấy sẽ nhanh chóng hiểu ra rằng, đó là thứ cần thiết đối với tôi.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1507",
+    "jp": "「\\x%l機関士;#00ffc040;機関士%l;#;の才……か？　どうかな？\\nハチロクに言われるままに動いているだけなのだが」",
+    "tw": "「做\\x%l機関士;#00ffc040;司機%l;#;的……才能？誰知道呢？我只是按照八六的指示來做罷了」",
+    "old_vn": "「Tài năng của một \\x%l機関士;#00ffc040;lái tàu%l;#;……sao? Ai biết được? \\nEm chỉ làm theo những gì Hachiroku bảo thôi mà.」",
+    "fix": "「Tài năng của một \\x%l機関士;#00ffc040;lái tàu%l;#;……sao? Ai biết được? \\nTôi chỉ làm theo những gì Hachiroku bảo thôi mà.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1528",
+    "jp": "「焼酎\\x%l列車;#00ffc040;列車%l;#;の案が更に深まるかもしれないし、\\n僕としては、是非とも乗ってもらいたい」",
+    "tw": "「其實我是很希望你能來列車上坐坐的，說不定這樣一來還可以最佳化燒酒\\x%l列車;#00ffc040;列車%l;#;方案」",
+    "old_vn": "「Biết đâu ý tưởng về chuyến \\x%l列車;#00ffc040;tàu%l;#; shochu sẽ càng sâu sắc hơn, \\nvề phần em, em rất muốn chị thử lên ngồi.」",
+    "fix": "「Biết đâu ý tưởng về chuyến \\x%l列車;#00ffc040;tàu%l;#; shochu sẽ càng sâu sắc hơn, \\nvề phần tôi, tôi rất muốn chị thử lên ngồi.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1543",
+    "jp": "「任せてください。双鉄くんは、双鉄くんのお仕事を。\\nわたしたち、チームなんですから」",
+    "tw": "「包在我身上。雙鐵君就專心做你該做的工作吧。畢竟我們是個團隊嘛」",
+    "old_vn": "「Cứ giao cho em. Soutetsu-kun cứ lo phần việc của Soutetsu-kun đi. \\nChúng ta là một đội mà.」",
+    "fix": "「Cứ giao cho em. Anh Soutetsu cứ lo phần việc của mình đi. \\nChúng ta là một đội mà.」",
+    "kind": "pronoun",
+    "character": "ポーレット"
+  },
+  {
+    "key": "1559",
+    "jp": "「こそこそせねば、会えぬものかと思ってな」",
+    "tw": "「只怕要不是我鬼鬼祟祟的，還見不到你呢」",
+    "old_vn": "「Em nghĩ nếu không lén lút thì không gặp được chị chứ sao.」",
+    "fix": "「Tôi nghĩ nếu không lén lút thì không gặp được chị chứ sao.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1582",
+    "jp": "「うちは、右田の――焼酎蔵の\\x%l杜氏;#00ffc040;杜氏%l;#;やけん」",
+    "tw": "「咱是右田的——燒酒作坊的\\x%l杜氏;#00ffc040;掌窖%l;#;」",
+    "old_vn": "「Chị là \\x%l杜氏;#00ffc040;trưởng hầm rượu%l;# của Migita——của xưởng rượu shochu mà.」",
+    "fix": "「Chị là \\x%l杜氏;#00ffc040;trưởng hầm rượu%l;#; của Migita——của xưởng rượu shochu mà.」",
+    "kind": "tag",
+    "character": "真闇"
+  },
+  {
+    "key": "1598",
+    "jp": "「はぁぁ……細かかとこまでよぅ出来とるねぇ」",
+    "tw": "「唉……還做得這麼細緻啊」",
+    "old_vn": "「Hàà……Thiết kế tỉ mỉ đến từng chi tiết nhỉ.」",
+    "fix": "「Hààà……Thiết kế tỉ mỉ đến từng chi tiết nhỉ.」",
+    "kind": "vowel",
+    "character": "真闇"
+  },
+  {
+    "key": "1616",
+    "jp": "「ああいや、そうではなく、キャブ――\\n\\x%l運転台;#00ffc040;運転台%l;#;に、乗ってみてはどうかと思っているのだ」",
+    "tw": "「啊不是那個意思。我的意思是，你想不想坐在駕駛室——也就是\\x%l運転台;#00ffc040;駕駛台%l;#;上呢」",
+    "old_vn": "「À không, không phải thế, ý em là buồng lái——\\nchị có muốn thử ngồi lên \\x%l運転台;#00ffc040;buồng lái%l;#; không.」",
+    "fix": "「À không, không phải thế, ý tôi là buồng lái——\\nchị có muốn thử ngồi lên \\x%l運転台;#00ffc040;buồng lái%l;#; không.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1641",
+    "jp": "「うん――わかる気がする」",
+    "tw": "「嗯——我可以感受得到」",
+    "old_vn": "「Vâng――em nghĩ là em hiểu.」",
+    "fix": "「Vâng――tôi nghĩ là tôi hiểu.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1652",
+    "jp": "「そう。結果、シリンダーへ蒸気は入らなくなった。\\nこの状態を、\\x%l絶気運転;#00ffc040;絶気運転%l;#;という」",
+    "tw": "「嗯。最後將不會有蒸汽進到汽缸裡。我們稱這個狀態為\\x%l絶気運転;#00ffc040;無汽行駛%l;#;」",
+    "old_vn": "「Đúng vậy. Kết quả là hơi nước không vào xi-lanh nữa. \\nTrạng thái này gọi là \\x%l絶気運転;#00ffc040;chạy cắt hơi%l;#.」",
+    "fix": "「Đúng vậy. Kết quả là hơi nước không vào xi-lanh nữa. \\nTrạng thái này gọi là \\x%l絶気運転;#00ffc040;chạy cắt hơi%l;#;.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1656",
+    "jp": "「うむ。まず、このキャブのすぐ後ろにあるテンダー……\\n\\x%l炭水車;#00ffc040;炭水車%l;#;の中には、水と石炭が積まれている」",
+    "tw": "「嗯。首先在這個駕駛室後方有一節\\x%l炭水車;#00ffc040;煤水車%l;#;……在那裡面放著水和煤炭」",
+    "old_vn": "「Ừm. Đầu tiên, ở chiếc tender ngay phía sau buồng lái này……\\nbên trong \\x%l炭水車;#00ffc040;toa tiếp than nước%l;# có chứa nước và than.」",
+    "fix": "「Ừm. Đầu tiên, ở chiếc tender ngay phía sau buồng lái này……\\nbên trong \\x%l炭水車;#00ffc040;toa tiếp than nước%l;#; có chứa nước và than.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1661",
+    "jp": "「うん、\\x%l減圧;#00ffc040;減圧%l;#;で正しいんだ」",
+    "tw": "「嗯，是\\x%l減圧;#00ffc040;減壓%l;#;」",
+    "old_vn": "「Vâng, là \\x%l減圧;#00ffc040;giảm áp%l;# mới đúng.」",
+    "fix": "「Vâng, là \\x%l減圧;#00ffc040;giảm áp%l;#; mới đúng.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1691",
+    "jp": "「ハチロクちゃん、分析力と作業精度がすごかけん。\\nちょっと真似できん域まで突きつめてくれたとよ」",
+    "tw": "「多虧了八六優秀的分析能力和操作精度咧。她的鑽研精神真是連我都學不來」",
+    "old_vn": "「Bé Hachiroku, năng lực phân tích và độ chính xác trong công việc tuyệt vời lắm.\\nĐã đào sâu đến mức chị cũng chẳng thể bắt chước được luôn đó.」",
+    "fix": "「Hachiroku-chan, năng lực phân tích và độ chính xác trong công việc tuyệt vời lắm.\\nĐã đào sâu đến mức chị cũng chẳng thể bắt chước được luôn đó.」",
+    "kind": "meaning",
+    "character": "真闇"
+  },
+  {
+    "key": "1709",
+    "jp": "「さて、ここからは\\x%lブレーキ;#00ffc040;ブレーキ%l;#;だ」",
+    "tw": "「好，接下來就要\\x%lブレーキ;#00ffc040;剎車%l;#;了」",
+    "old_vn": "「Nào, từ đây sẽ là \\x%lブレーキ;#00ffc040;phanh%l;#.」",
+    "fix": "「Nào, từ đây sẽ là \\x%lブレーキ;#00ffc040;phanh%l;#;.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1726",
+    "jp": "「大正解だと僕は思う。\\nこれは……雑味ではなく、風味だ」",
+    "tw": "「就該這麼做。這個味道……不是雜味，是風味」",
+    "old_vn": "「Em nghĩ đó là một quyết định hoàn toàn chính xác.\\nĐây…… không phải là tạp vị, mà là hương vị.」",
+    "fix": "「Tôi nghĩ đó là một quyết định hoàn toàn chính xác.\\nĐây…… không phải là tạp vị, mà là hương vị.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1740",
+    "jp": "「僕……僕は――」",
+    "tw": "「我……我——」",
+    "old_vn": "「Em…… em thì――」",
+    "fix": "「Tôi…… tôi thì――」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1741",
+    "jp": "「僕、が――か？」",
+    "tw": "「我、我——？」",
+    "old_vn": "「Em, á―― sao?」",
+    "fix": "「Tôi, á―― sao?」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1742",
+    "jp": "「人間も、\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;も。意思を持つものには必ず、\\n望みを持ち、叶える権利があると、僕は信じる」",
+    "tw": "「我相信不論是人還是\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;，只要擁有意識，那就應該有胸懷希望，以及將其實現的權利」",
+    "old_vn": "「Dù là con người, hay \\x%lレイルロオド;#00ffc040;Railord%l;#;. Em tin rằng, bất cứ ai có ý chí,\\nđều có quyền mang trong mình những ước muốn, và quyền được hiện thực hóa chúng.」",
+    "fix": "「Dù là con người, hay \\x%lレイルロオド;#00ffc040;Railord%l;#;. Tôi tin rằng, bất cứ ai có ý chí,\\nđều có quyền mang trong mình những ước muốn, và quyền được hiện thực hóa chúng.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1747",
+    "jp": "「どうでもいいものは譲ったが。\\n本当に欲しいものなら、たとえ泣かれても譲らなかった」",
+    "tw": "「我確實會忍讓些無關痛癢的東西。但是就算把她弄哭我也不會把真正想要的東西讓給她」",
+    "old_vn": "「Những thứ không quan trọng thì em nhường.\\nNhưng nếu là thứ em thực sự muốn, thì dù có bị khóc lóc em cũng không nhường đâu.」",
+    "fix": "「Những thứ không quan trọng thì tôi nhường.\\nNhưng nếu là thứ tôi thực sự muốn, thì dù có bị khóc lóc tôi cũng không nhường đâu.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1750",
+    "jp": "「まず、\\x%l加減弁;#00ffc040;加減弁%l;#;を閉じた」",
+    "tw": "「我首先把\\x%l加減弁;#00ffc040;汽門%l;#;給關了」",
+    "old_vn": "「Đầu tiên, em đóng \\x%l加減弁;#00ffc040;van tiết lưu hơi%l;# lại.」",
+    "fix": "「Đầu tiên, tôi đóng \\x%l加減弁;#00ffc040;van tiết lưu hơi%l;#; lại.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1755",
+    "jp": "「僕か？　僕は――それほどには譲らなかったぞ？」",
+    "tw": "「我？其實——我也沒做什麼讓步啊？」",
+    "old_vn": "「Em á? Em thì―― đâu có nhường nhịn đến mức đó đâu?」",
+    "fix": "「Tôi á? Tôi thì―― đâu có nhường nhịn đến mức đó đâu?」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1757",
+    "jp": "「だから、シリンダーに送り込む蒸気の量が増えれば、\\n\\x%l動輪;#00ffc040;動輪%l;#;回転も速くなり、加速するのだ――っと」",
+    "tw": "「所以只要增加流入汽缸的蒸汽量，就可以使\\x%l動輪;#00ffc040;動輪%l;#;的運轉速度提升，帶動列車加速——哎喲」",
+    "old_vn": "「Vì vậy, nếu lượng hơi nước bơm vào xi-lanh tăng lên, \\ntốc độ quay của \\x%l動輪;#00ffc040;bánh xe chủ động%l;# cũng sẽ nhanh hơn, và tàu sẽ tăng tốc——Á.」",
+    "fix": "「Vì vậy, nếu lượng hơi nước bơm vào xi-lanh tăng lên, \\ntốc độ quay của \\x%l動輪;#00ffc040;bánh xe chủ động%l;#; cũng sẽ nhanh hơn, và tàu sẽ tăng tốc——Á.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1762",
+    "jp": "「だから、空気が抜けたとき\\x%lブレーキ;#00ffc040;ブレーキ%l;#;がかかるようにして、\\n安全性を、さらに向上させているのだ」",
+    "tw": "「所以就設計成只要空氣不加壓就會使\\x%lブレーキ;#00ffc040;剎車%l;#;起作用，這樣一來就可以進一步提高安全性」",
+    "old_vn": "「Vì vậy, việc thiết kế sao cho khi không khí thoát ra thì \\x%lブレーキ;#00ffc040;phanh%l;# sẽ hoạt động, \\nlà để nâng cao thêm tính an toàn.」",
+    "fix": "「Vì vậy, việc thiết kế sao cho khi không khí thoát ra thì \\x%lブレーキ;#00ffc040;phanh%l;#; sẽ hoạt động, \\nlà để nâng cao thêm tính an toàn.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1766",
+    "jp": "「と、いうわけで、\\n二週間後には\\x%l客車;#00ffc040;客車%l;#;、御一夜に到着します！」",
+    "tw": "「所以，按計劃兩週後\\x%l客車;#00ffc040;客運車廂%l;#;就會抵達御一夜了！」",
+    "old_vn": "「Vậy nên, \\nhai tuần nữa \\x%l客車;#00ffc040;toa hành khách%l;# sẽ đến Ohimitera!」",
+    "fix": "「Vậy nên, \\nhai tuần nữa \\x%l客車;#00ffc040;toa hành khách%l;#; sẽ đến Ohitoyo!」",
+    "kind": "terminology",
+    "character": "ポーレット"
+  },
+  {
+    "key": "1773",
+    "jp": "「そしたら、次も――もっと、ずうっと欲しかったもんも、\\nきっと手に入れてみせるけん」",
+    "tw": "「拿獎以後——咱一定也可以，把握住咱一直想要的東西唄」",
+    "old_vn": "「Vậy thì, tiếp theo―― thứ mà em vẫn luôn muốn có,\\nchắc chắn em cũng sẽ lấy được cho xem.」",
+    "fix": "「Vậy thì, tiếp theo―― thứ mà chị vẫn luôn muốn có,\\nchắc chắn chị cũng sẽ lấy được cho xem.」",
+    "kind": "pronoun",
+    "character": "真闇"
+  },
+  {
+    "key": "1780",
+    "jp": "「と、いうことだが。真闇姉から何か希望はあるか？\\n焼酎\\x%l列車;#00ffc040;列車%l;#;としても運用できるよう」",
+    "tw": "「於是，真闇姐你有什麼可以運用到燒酒\\x%l列車;#00ffc040;列車%l;#;上的想法嗎？」",
+    "old_vn": "「Chuyện là vậy đó. Chị Mayami có nguyện vọng gì không? \\nĐể có thể vận hành như một chuyến \\x%l列車;#00ffc040;tàu%l;# shochu.」",
+    "fix": "「Chuyện là vậy đó. Chị Mayami có nguyện vọng gì không? \\nĐể có thể vận hành như một chuyến \\x%l列車;#00ffc040;tàu%l;#; shochu.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1798",
+    "jp": "「はい。御一夜と向こうさん、\\nなんだか、土地同士の昔の縁もあるみたいなんです――」",
+    "tw": "「是的。似乎御一夜和他們的城市之間以前有著什麼聯繫——」",
+    "old_vn": "「Vâng. Giữa Ohimitera và bên đó, \\nhình như có một mối duyên nợ xa xưa nào đó về đất đai thì phải——」",
+    "fix": "「Vâng. Giữa Ohitoyo và bên đó, \\nhình như có một mối duyên nợ xa xưa nào đó về đất đai thì phải——」",
+    "kind": "terminology",
+    "character": "ポーレット"
+  },
+  {
+    "key": "1806",
+    "jp": "「ここしばらく――何故僕を――いや、\\nここでこうして会い、話すことを避けていたのだ？」",
+    "tw": "「最近——為什麼你一直在——不對，為什麼你會避免在這裡跟我說話呢？」",
+    "old_vn": "「Dạo gần đây——Tại sao chị lại tránh mặt em——À không, \\ntại sao chị lại tránh việc gặp gỡ và trò chuyện ở đây như thế này?」",
+    "fix": "「Dạo gần đây——Tại sao chị lại tránh mặt tôi——À không, \\ntại sao chị lại tránh việc gặp gỡ và trò chuyện ở đây như thế này?」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1808",
+    "jp": "「あった。望みが。欲しいものが」",
+    "tw": "「有了。我知道我想要什麼了」",
+    "old_vn": "「Có rồi. Mong muốn. Thứ em muốn có.」",
+    "fix": "「Có rồi. Mong muốn. Thứ tôi muốn có.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1822",
+    "jp": "「シリンダの中にはピストンがございます。\\nそのピストンの運動が、\\x%l動輪;#00ffc040;動輪%l;#;の回転運動となるのです」",
+    "tw": "「汽缸之中有活塞。活塞的運動就會帶動\\x%l動輪;#00ffc040;動輪%l;#;運轉」",
+    "old_vn": "「Bên trong xi-lanh có piston. \\nChuyển động của piston đó sẽ biến thành chuyển động quay của \\x%l動輪;#00ffc040;bánh xe chủ động%l;#.」",
+    "fix": "「Bên trong xi-lanh có piston. \\nChuyển động của piston đó sẽ biến thành chuyển động quay của \\x%l動輪;#00ffc040;bánh xe chủ động%l;#;.」",
+    "kind": "tag",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1844",
+    "jp": "「\\x%lブレーキ;#00ffc040;ブレーキ%l;#;管の損傷や、\\x%l客車;#00ffc040;客車%l;#;・\\x%l貨車;#00ffc040;貨車%l;#;が分離してしまった\\n場合に備えてです」",
+    "tw": "「為了應對\\x%lブレーキ;#00ffc040;剎車%l;#;管受損以及\\x%l客車;#00ffc040;客運車廂%l;\\x%l貨車;#;#00ffc040;貨運車廂%l;#;與機車分離的情況」",
+    "old_vn": "「Là để phòng trường hợp ống \\x%lブレーキ;#00ffc040;phanh%l;# bị hỏng, \\nhoặc \\x%l客車;#00ffc040;toa hành khách%l;#・\\x%l貨車;#00ffc040;toa chở hàng%l;# bị tách rời ạ.」",
+    "fix": "「Là để phòng trường hợp ống \\x%lブレーキ;#00ffc040;phanh%l;#; bị hỏng, \\nhoặc \\x%l客車;#00ffc040;toa hành khách%l;#;・\\x%l貨車;#00ffc040;toa chở hàng%l;#; bị tách rời ạ.」",
+    "kind": "tag",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1861",
+    "jp": "「今、\\x%l自弁;#00ffc040;自弁%l;#;ハンドルがあるのが\\x%l常用;#00ffc040;常用%l;#;――\\n普通に使う\\x%lブレーキ;#00ffc040;ブレーキ%l;#;の位置だ」",
+    "tw": "「現在我把\\x%l自弁;#00ffc040;自剎%l;#;杆調到了\\x%l常用;#00ffc040;常用%l;#;位置——也就是平常使用的\\x%lブレーキ;#00ffc040;剎車%l;#;位置」",
+    "old_vn": "「Bây giờ, tay gạt \\x%l自弁;#00ffc040;van hãm tự động%l;# đang ở vị trí \\x%l常用;#00ffc040;phanh thường%l;#——\\nlà vị trí \\x%lブレーキ;#00ffc040;phanh%l;# sử dụng thông thường.」",
+    "fix": "「Bây giờ, tay gạt \\x%l自弁;#00ffc040;van hãm tự động%l;#; đang ở vị trí \\x%l常用;#00ffc040;phanh thường%l;#;——\\nlà vị trí \\x%lブレーキ;#00ffc040;phanh%l;#; sử dụng thông thường.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1888",
+    "jp": "「どうだろうか、真闇姉。忙しいことはわかっているが、\\n一度、[ハチロクニイマル,3]8620に乗ってみないか？」",
+    "tw": "「真闇姐，我有個提議。雖然你很忙，但是要不要乘坐一次８６２０試試？」",
+    "old_vn": "「Ý chị thế nào, chị Mayami. Em biết chị rất bận, \\nnhưng chị có muốn thử ngồi lên chiếc \\x%l8620;#00ffc040;8620%l;#; một lần không?」",
+    "fix": "「Ý chị thế nào, chị Mayami. Tôi biết chị rất bận, \\nnhưng chị có muốn thử ngồi lên chiếc \\x%l8620;#00ffc040;8620%l;#; một lần không?」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1896",
+    "jp": "「シリンダーから水を抜いたのだ。\\nこのシリンダー排水弁を、開けて、閉じる」",
+    "tw": "「給汽缸放水。也就是把這個汽缸排水閥打開以後馬上合上」",
+    "old_vn": "「Em vừa xả nước khỏi xi-lanh. \\nMở van xả nước xi-lanh này ra, rồi đóng lại.」",
+    "fix": "「Tôi vừa xả nước khỏi xi-lanh. \\nMở van xả nước xi-lanh này ra, rồi đóng lại.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1933",
+    "jp": "「この位置だと、\\x%lブレーキ;#00ffc040;ブレーキ%l;#;内の圧縮空気が、\\n[れいてんよんきろへいほう,7]0.4kg/平方センチ、\\x%l減圧;#00ffc040;減圧%l;#;される」",
+    "tw": "「調到這個位置的話\\x%lブレーキ;#00ffc040;剎車%l;#;裡的壓縮空氣就會\\x%l減圧;#00ffc040;減壓%l;#;到０．４ｋｇ／平方公分」",
+    "old_vn": "「Ở vị trí này, khí nén trong \\x%lブレーキ;#00ffc040;phanh%l;# \\nsẽ được \\x%l減圧;#00ffc040;giảm áp%l;# 0.4kg/cm2.」",
+    "fix": "「Ở vị trí này, khí nén trong \\x%lブレーキ;#00ffc040;phanh%l;#; \\nsẽ được \\x%l減圧;#00ffc040;giảm áp%l;#; 0.4kg/cm2.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1938",
+    "jp": "「\\x%lブレーキ;#00ffc040;ブレーキ%l;#;を保つのは圧縮空気の働きで。\\nそれを作る\\x%l空気圧縮機;#00ffc040;空気圧縮機%l;#;の動力も、もちろん蒸気だからだ」",
+    "tw": "「負責穩住\\x%lブレーキ;#00ffc040;剎車%l;#;的就是壓縮空氣。負責給\\x%l空気圧縮機;#00ffc040;空氣壓縮機%l;#;提供動力的當然也是蒸汽」",
+    "old_vn": "「Việc duy trì \\x%lブレーキ;#00ffc040;phanh%l;# là nhờ hoạt động của khí nén. \\nVà động lực của \\x%l空気圧縮機;#00ffc040;máy nén khí%l;# tạo ra nó, tất nhiên cũng là hơi nước.」",
+    "fix": "「Việc duy trì \\x%lブレーキ;#00ffc040;phanh%l;#; là nhờ hoạt động của khí nén. \\nVà động lực của \\x%l空気圧縮機;#00ffc040;máy nén khí%l;#; tạo ra nó, tất nhiên cũng là hơi nước.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1973",
+    "jp": "「御一夜のためでも、右田のためでもなく。\\n僕個人が、単純に勝ちたい。この酒で」",
+    "tw": "「這不是為了御一夜，也不是為了右田家。這只是我個人的意願，我想要用這酒來拿獎」",
+    "old_vn": "「Không phải vì Ohimitera, cũng không phải vì nhà Migita.\\nMà với tư cách cá nhân, em đơn thuần chỉ muốn chiến thắng. Bằng loại rượu này.」",
+    "fix": "「Không phải vì Ohitoyo, cũng không phải vì nhà Migita.\\nMà với tư cách cá nhân, tôi đơn thuần chỉ muốn chiến thắng. Bằng loại rượu này.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1974",
+    "jp": "「この\\x%l逆転機;#00ffc040;逆転機%l;#;は、自動車でいえばギアだ。\\n前進、後進、\\x%lミッドギア;#00ffc040;ミッドギア%l;#;――つまり[ニュートラル,1]中立に設定できる」",
+    "tw": "「這個\\x%l逆転機;#00ffc040;回動機%l;#;可以理解為汽車上的變速箱。分別有前進檔、後退檔、\\x%lミッドギア;#00ffc040;中位檔%l;#;——也就是類似空檔的狀態」",
+    "old_vn": "「\\x%l逆転機;#00ffc040;Cần đảo chiều%l;# này, nếu so với ô tô thì giống như cần số vậy. \\nCó thể cài đặt tiến, lùi, và \\x%lミッドギア;#00ffc040;số trung tính%l;#——tức là Neutral.」",
+    "fix": "「\\x%l逆転機;#00ffc040;Cần đảo chiều%l;#; này, nếu so với ô tô thì giống như cần số vậy. \\nCó thể cài đặt tiến, lùi, và \\x%lミッドギア;#00ffc040;số trung tính%l;#;——tức là Neutral.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "1981",
+    "jp": "「フォローは……無論、\\n出来る限りはしているのだが――」",
+    "tw": "「這倒不用說……我肯定會盡力幫她，不過——」",
+    "old_vn": "「Việc hỗ trợ thì……tất nhiên, \\nem đang cố gắng hết sức có thể nhưng——」",
+    "fix": "「Việc hỗ trợ thì……tất nhiên, \\ntôi đang cố gắng hết sức có thể nhưng——」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "1994",
+    "jp": "「それを申すならわたくしこそです。\\n\\x%l機関士;#00ffc040;機関士%l;#;と\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;は、一心同体も同然ですから」",
+    "tw": "「這樣說的話我才是。\\x%l機関士;#00ffc040;司機%l;#;和\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;肯定是心意相通的」",
+    "old_vn": "「Nếu nói vậy thì phải là em mới đúng. \\n\\x%l機関士;#00ffc040;Lái tàu%l;# và \\x%lレイルロオド;#00ffc040;Railord%l;# chẳng khác nào tuy hai mà một.」",
+    "fix": "「Nếu nói vậy thì phải là em mới đúng. \\n\\x%l機関士;#00ffc040;Lái tàu%l;#; và \\x%lレイルロオド;#00ffc040;Railord%l;#; chẳng khác nào tuy hai mà một.」",
+    "kind": "tag",
+    "character": "ハチロク"
+  },
+  {
+    "key": "1996",
+    "jp": "「クマ川の水と、御一夜の土と。\\nそれが、ぎゅうっと詰まってる」",
+    "tw": "「這酒裡凝聚了隈河的水還有御一夜的土的味道」",
+    "old_vn": "「Nước sông Kuma, và đất của Ohimitera. \\nTất cả được cô đọng lại trong này.」",
+    "fix": "「Nước sông Kuma, và đất của Ohitoyo. \\nTất cả được cô đọng lại trong này.」",
+    "kind": "terminology",
+    "character": "双鉄"
+  },
+  {
+    "key": "1999",
+    "jp": "「チームいうなら私ばい！\\n\\x%l機関士;#00ffc040;機関士%l;#;と\\x%l機関助士;#00ffc040;機関助士%l;#;は、コンビやけんねーっ！」",
+    "tw": "「這麼說我和阿哥才是一個團隊咧！\\x%l機関士;#00ffc040;司機%l;#;和\\x%l機関助士;#00ffc040;司爐%l;#;不就是成對的嗎！」",
+    "old_vn": "「Nếu nói là đội thì phải là em chứ! \\n\\x%l機関士;#00ffc040;Lái tàu%l;# và \\x%l機関助士;#00ffc040;phụ lái tàu%l;# là một cặp bài trùng mà!」",
+    "fix": "「Nếu nói là đội thì phải là em chứ! \\n\\x%l機関士;#00ffc040;Lái tàu%l;#; và \\x%l機関助士;#00ffc040;phụ lái tàu%l;#; là một cặp bài trùng mà!」",
+    "kind": "tag",
+    "character": "日々姫"
+  },
+  {
+    "key": "2003",
+    "jp": "「圧縮空気で\\x%lブレーキ;#00ffc040;ブレーキ%l;\\x%l圧;#;#00ffc040;圧%l;#;をかける方式では、\\n分離時の客貨車は、\\x%lブレーキ;#00ffc040;ブレーキ%l;#;なしに暴走してしまう」",
+    "tw": "「通過壓縮空氣使\\x%lブレーキ;#00ffc040;剎車%l;#;施加\\x%l圧;#00ffc040;壓力%l;#;的話，與機車分離時車廂無法\\x%lブレーキ;#00ffc040;剎車%l;#;就會失去控制」",
+    "old_vn": "「Với phương pháp dùng khí nén để tạo \\x%l圧;#00ffc040;áp suất%l;# \\x%lブレーキ;#00ffc040;phanh%l;#, \\nthì khi bị tách rời, toa khách và toa hàng sẽ mất kiểm soát vì không có \\x%lブレーキ;#00ffc040;phanh%l;#.」",
+    "fix": "「Với phương pháp dùng khí nén để tạo \\x%l圧;#00ffc040;áp suất%l;#; \\x%lブレーキ;#00ffc040;phanh%l;#;, \\nthì khi bị tách rời, toa khách và toa hàng sẽ mất kiểm soát vì không có \\x%lブレーキ;#00ffc040;phanh%l;#;.」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "2013",
+    "jp": "「では、旨い酒ができたときには、\\n僕のアイディアもその上に乗っからせて欲しい」",
+    "tw": "「那到時候釀出了好喝的酒的時候，麻煩把我的主意也加進去咯」",
+    "old_vn": "「Vậy thì, khi nào làm ra được loại rượu ngon, \\nhãy cho em đóng góp thêm ý tưởng của mình vào đó nhé.」",
+    "fix": "「Vậy thì, khi nào làm ra được loại rượu ngon, \\nhãy cho tôi đóng góp thêm ý tưởng của mình vào đó nhé.」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "2033",
+    "jp": "「ボイラ内の水は、石炭が燃える熱により蒸気に変わる。\\n生まれた蒸気は、この\\x%l加減弁;#00ffc040;加減弁%l;#;テコ――」",
+    "tw": "「鍋爐裡的水會被煤炭產生的熱量加熱汽化。使用這個\\x%l加減弁;#00ffc040;汽門%l;#;操作杆就可以使產生的蒸汽——」",
+    "old_vn": "「Nước trong lò hơi sẽ chuyển thành hơi nước nhờ sức nóng của than cháy. \\nHơi nước sinh ra, thông qua tay gạt \\x%l加減弁;#00ffc040;van tiết lưu hơi%l;# này——」",
+    "fix": "「Nước trong lò hơi sẽ chuyển thành hơi nước nhờ sức nóng của than cháy. \\nHơi nước sinh ra, thông qua tay gạt \\x%l加減弁;#00ffc040;van tiết lưu hơi%l;#; này——」",
+    "kind": "tag",
+    "character": "双鉄"
+  },
+  {
+    "key": "2041",
+    "jp": "「僕のことを？」",
+    "tw": "「關於我的事？」",
+    "old_vn": "「Chuyện về em sao?」",
+    "fix": "「Chuyện về tôi sao?」",
+    "kind": "pronoun",
+    "character": "双鉄"
+  },
+  {
+    "key": "2048",
+    "jp": "「ひょっとして、\\x%l客車;#00ffc040;客車%l;#;関係！？」",
+    "tw": "「難道說，和\\x%l客車;#00ffc040;客運車廂%l;#;有關！？」",
+    "old_vn": "「Không lẽ nào, liên quan đến \\x%l客車;#00ffc040;toa hành khách%l;#!?」",
+    "fix": "「Không lẽ nào, liên quan đến \\x%l客車;#00ffc040;toa hành khách%l;#;!?」",
+    "kind": "tag",
+    "character": "日々姫"
+  },
+  {
+    "key": "2054",
+    "jp": "「\\x%l客車;#00ffc040;客車%l;#;、譲渡いただけることになったんです！\\n\\x%l気動車;#00ffc040;気動車%l;#;改造の\\x%l客車;#00ffc040;客車%l;#;を、[すんたい,1]駿袋鉄道さんから」",
+    "tw": "「駿遠鐵路願意將他們用\\x%l気動車;#00ffc040;動車%l;#;改造的\\x%l客車;#00ffc040;客運車廂%l;#;轉讓給我們！」",
+    "old_vn": "「Chúng ta đã được nhượng lại \\x%l客車;#00ffc040;toa hành khách%l;# rồi! \\nLà \\x%l客車;#00ffc040;toa hành khách%l;# được cải tạo từ \\x%l気動車;#00ffc040;toa xe tự hành%l;#, từ Đường sắt Suntai.」",
+    "fix": "「Chúng ta đã được nhượng lại \\x%l客車;#00ffc040;toa hành khách%l;#; rồi! \\nLà \\x%l客車;#00ffc040;toa hành khách%l;#; được cải tạo từ \\x%l気動車;#00ffc040;toa xe tự hành%l;#;, từ Đường sắt Suntai.」",
+    "kind": "tag",
+    "character": "ポーレット"
+  },
+  {
+    "key": "2060",
+    "jp": "「っ！！」",
+    "tw": "「！！」",
+    "old_vn": "「!!」",
+    "fix": "「Ư!!」",
+    "kind": "gasp",
+    "character": "真闇"
+  },
+  {
+    "key": "2061",
+    "jp": "「っ！？」",
+    "tw": "「！？」",
+    "old_vn": "「っ!?」",
+    "fix": "「Ư!?」",
+    "kind": "gasp",
+    "character": "双鉄"
+  },
+  {
+    "key": "2239",
+    "jp": "標識確認・\\x%l喚呼;#00ffc040;喚呼%l;#;を終えれば、ハチロクの目がツと動く。\\n……この先しばらくは、森の中。",
+    "tw": "八六確認好標識、完成\\x%l喚呼;#00ffc040;復誦%l;#;之後，她便開始四下瞭望——接下來一段路是在森林裡穿行。",
+    "old_vn": "Sau khi xác nhận biển báo và \\x%l喚呼;#00ffc040;hô xác nhận%l;# xong, mắt Hachiroku khẽ động. \\n……Phía trước một đoạn sẽ là khu vực trong rừng.",
+    "fix": "Sau khi xác nhận biển báo và \\x%l喚呼;#00ffc040;hô xác nhận%l;#; xong, mắt Hachiroku khẽ động. \\n……Phía trước một đoạn sẽ là khu vực trong rừng.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2323",
+    "jp": "制限60――\\n標識を確認すると同時に、ハチロクと僕の\\x%l喚呼;#00ffc040;喚呼%l;#;が揃う。",
+    "tw": "在我和八六看到了限速６０的標誌同時，異口同聲地進行了\\x%l喚呼;#00ffc040;復誦%l;#;。",
+    "old_vn": "Giới hạn 60——\\nNgay khi xác nhận biển báo, tiếng \\x%l喚呼;#00ffc040;hô xác nhận%l;# của tôi và Hachiroku vang lên đồng thanh.",
+    "fix": "Giới hạn 60——\\nNgay khi xác nhận biển báo, tiếng \\x%l喚呼;#00ffc040;hô xác nhận%l;#; của tôi và Hachiroku vang lên đồng thanh.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2335",
+    "jp": "日々姫は鮮やかにワンスコを操り、\\n\\x%l火室;#00ffc040;火室%l;#;の炎を維持しつづける。",
+    "tw": "她熟練地使用公斤鍬加煤，維持著\\x%l火室;#00ffc040;燃燒室%l;#;裡的火焰。",
+    "old_vn": "Hibiki điều khiển chiếc xẻng xúc than một cách điêu luyện, \\ntiếp tục duy trì ngọn lửa trong \\x%l火室;#00ffc040;buồng đốt%l;#.",
+    "fix": "Hibiki điều khiển chiếc xẻng xúc than một cách điêu luyện, \\ntiếp tục duy trì ngọn lửa trong \\x%l火室;#00ffc040;buồng đốt%l;#;.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2342",
+    "jp": "ごく当然の指摘にけれど、戸惑わされる。",
+    "tw": "她的指正合情合理，卻讓我越來越不解。",
+    "old_vn": "Mặc dù đó là một lời chỉ trích hoàn toàn hiển nhiên, nhưng tôi vẫn cảm thấy bối rối.",
+    "fix": "Mặc dù đó là một lời nhận xét hoàn toàn hiển nhiên, nhưng tôi vẫn cảm thấy bối rối.",
+    "kind": "meaning",
+    "character": "monologue"
+  },
+  {
+    "key": "2367",
+    "jp": "僕としては、むしろ\\x%l庫内手;#00ffc040;庫内手%l;#;のスキルの方が、\\nぐんぐん伸びていってる感覚さえもある。",
+    "tw": "就我個人而言，總感覺我一直在提升\\x%l庫内手;#00ffc040;洗爐工%l;#;該有的技能。",
+    "old_vn": "Về phần mình, tôi thậm chí còn có cảm giác \\nkỹ năng của một \\x%l庫内手;#00ffc040;máy rửa lò%l;#; đang tăng lên vùn vụt.",
+    "fix": "Về phần mình, tôi thậm chí còn có cảm giác \\nkỹ năng của một \\x%l庫内手;#00ffc040;thợ rửa lò%l;#; đang tăng lên vùn vụt.",
+    "kind": "meaning",
+    "character": "monologue"
+  },
+  {
+    "key": "2376",
+    "jp": "どんな\\x%l客車;#00ffc040;客車%l;#;を、どんな経緯で、譲渡を受けるにいたったか。",
+    "tw": "從對方會送來怎樣的\\x%l客車;#00ffc040;客運車廂%l;#;，到他們會將其轉讓給我們的緣由。",
+    "old_vn": "Nhận được loại \\x%l客車;#00ffc040;toa hành khách%l;# nào, và quá trình được nhượng lại ra sao.",
+    "fix": "Nhận được loại \\x%l客車;#00ffc040;toa hành khách%l;#; nào, và quá trình được nhượng lại ra sao.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2405",
+    "jp": "シリンダー排水弁を開いて閉じて、\\n\\x%l逆転機;#00ffc040;逆転機%l;#;をまた\\x%l前進フルギア;#00ffc040;前進フルギア%l;#;、同時に\\x%lバイパス弁;#00ffc040;バイパス弁%l;#;も閉じ――",
+    "tw": "我又開閉了一次汽缸的排水閥，而後將\\x%l逆転機;#00ffc040;回動機%l;#;調至\\x%l前進フルギア;#00ffc040;滿檔前進%l;#;，同時關閉了\\x%lバイパス弁;#00ffc040;旁路閥%l;#;——",
+    "old_vn": "Mở rồi đóng van xả nước xi-lanh, \\ngạt \\x%l逆転機;#00ffc040;cần đảo chiều%l;# về \\x%l前進フルギア;#00ffc040;cài hết số tiến%l;# một lần nữa, đồng thời đóng \\x%lバイパス弁;#00ffc040;van bypass%l;# lại——",
+    "fix": "Mở rồi đóng van xả nước xi-lanh, \\ngạt \\x%l逆転機;#00ffc040;cần đảo chiều%l;#; về \\x%l前進フルギア;#00ffc040;cài hết số tiến%l;#; một lần nữa, đồng thời đóng \\x%lバイパス弁;#00ffc040;van bypass%l;#; lại——",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2412",
+    "jp": "\\x%l自弁;#00ffc040;自弁%l;#;を\\x%l重なり位置;#00ffc040;重なり位置%l;#;へと戻し、\\x%lブレーキ;#00ffc040;ブレーキ%l;#;力は保持しつつ、\\n圧縮空気を込めなおす。",
+    "tw": "我將\\x%l自弁;#00ffc040;自剎%l;#;調回\\x%l重なり位置;#00ffc040;保持位置%l;#;，一邊維持\\x%lブレーキ;#00ffc040;剎車%l;#;的力度一邊將壓縮空氣重新注入其中。",
+    "old_vn": "Đưa \\x%l自弁;#00ffc040;van hãm tự động%l;# về \\x%l重なり位置;#00ffc040;vị trí giữ phanh%l;#, vừa duy trì lực \\x%lブレーキ;#00ffc040;phanh%l;#, \\nvừa nạp lại khí nén.",
+    "fix": "Đưa \\x%l自弁;#00ffc040;van hãm tự động%l;#; về \\x%l重なり位置;#00ffc040;vị trí giữ phanh%l;#;, vừa duy trì lực \\x%lブレーキ;#00ffc040;phanh%l;#;, \\nvừa nạp lại khí nén.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2422",
+    "jp": "\\x%l自弁;#00ffc040;自弁%l;#;をゆっくり、\\x%l常用;#00ffc040;常用%l;#;位置へと持っていく。",
+    "tw": "我慢慢將\\x%l自弁;#00ffc040;自剎%l;#;拉至\\x%l常用;#00ffc040;常用%l;#;位置。",
+    "old_vn": "Từ từ đưa \\x%l自弁;#00ffc040;van hãm tự động%l;# về vị trí \\x%l常用;#00ffc040;phanh thường%l;#.",
+    "fix": "Từ từ đưa \\x%l自弁;#00ffc040;van hãm tự động%l;#; về vị trí \\x%l常用;#00ffc040;phanh thường%l;#;.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2426",
+    "jp": "開放のままの\\x%lバイパス弁;#00ffc040;バイパス弁%l;#;を、\\nとんとん、指先で叩いてしめす。",
+    "tw": "我敲了敲打開了的\\x%lバイパス弁;#00ffc040;旁路閥%l;#;，讓真闇姐知道是哪裡。",
+    "old_vn": "Tôi gõ nhẹ ngón tay vào \\x%lバイパス弁;#00ffc040;van bypass%l;# đang mở \\nđể chỉ cho chị ấy.",
+    "fix": "Tôi gõ nhẹ ngón tay vào \\x%lバイパス弁;#00ffc040;van bypass%l;#; đang mở \\nđể chỉ cho chị ấy.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2430",
+    "jp": "もういっぱいを飲み干せば、\\n御一夜の夏の焼けた風が、喉を抜けたと感じさえする。",
+    "tw": "我猜若是把杯中的酒一飲而盡，將會有種御一夜夏天熾熱的風順著我的咽喉直衝而下的感覺。",
+    "old_vn": "Uống cạn thêm một ly nữa,\\ntôi thậm chí còn cảm thấy như cơn gió rát bỏng của mùa hè Ohimitera, vừa lướt qua cuống họng.",
+    "fix": "Uống cạn thêm một ly nữa,\\ntôi thậm chí còn cảm thấy như cơn gió rát bỏng của mùa hè Ohitoyo, vừa lướt qua cuống họng.",
+    "kind": "terminology",
+    "character": "monologue"
+  },
+  {
+    "key": "2437",
+    "jp": "\\x%l自弁;#00ffc040;自弁%l;#;に常にかけている手を一瞬離して、\\nこれが\\x%lブレーキ;#00ffc040;ブレーキ%l;#;を作用させると動かし示す。",
+    "tw": "我短暫地鬆開了一下一直拉著\\x%l自弁;#00ffc040;自剎%l;#;的手，向她示範如何\\x%lブレーキ;#00ffc040;剎車%l;#;。",
+    "old_vn": "Tôi buông tay đang giữ \\x%l自弁;#00ffc040;van hãm tự động%l;# ra một thoáng, \\nvà làm động tác cho thấy đây là thứ điều khiển \\x%lブレーキ;#00ffc040;phanh%l;#.",
+    "fix": "Tôi buông tay đang giữ \\x%l自弁;#00ffc040;van hãm tự động%l;#; ra một thoáng, \\nvà làm động tác cho thấy đây là thứ điều khiển \\x%lブレーキ;#00ffc040;phanh%l;#;.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2442",
+    "jp": "なぜかは知らねど不満気な\\x%l8620;#00ffc040;8620%l;#;チームをなんとか宥め、\\n真闇姉へと振り返る。",
+    "tw": "我總算將情緒有些浮躁的\\x%l8620;#00ffc040;８６２０%l;#;團隊給安撫好，然後轉向真闇姐。",
+    "old_vn": "Dù không hiểu tại sao, tôi vẫn cố gắng xoa dịu đội \\x%l8620;#00ffc040;8620%l;# đang tỏ vẻ bất mãn, \\nvà quay lại nhìn chị Mayami.",
+    "fix": "Dù không hiểu tại sao, tôi vẫn cố gắng xoa dịu đội \\x%l8620;#00ffc040;8620%l;#; đang tỏ vẻ bất mãn, \\nvà quay lại nhìn chị Mayami.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2446",
+    "jp": "僕は、きっと、真闇姉に。\\n自分の仕事を――見て、気に入ってもらいたいのだ。",
+    "tw": "我肯定更想讓真闇姐看到我工作時的模樣——希望她能喜歡。",
+    "old_vn": "Chắc chắn tôi muốn chị Mayami. \\nNhìn thấy công việc của mình——và thích nó.",
+    "fix": "Chắc chắn tôi muốn chị Mayami nhìn thấy công việc của mình——và thích nó.",
+    "kind": "meaning",
+    "character": "monologue"
+  },
+  {
+    "key": "2454",
+    "jp": "言いつつ、\\x%l逆転機;#00ffc040;逆転機%l;#;を\\x%lミッドギア;#00ffc040;ミッドギア%l;#;。\\nわかりやすいよう、ゆっくり大きく操作する。",
+    "tw": "我邊說邊把\\x%l逆転機;#00ffc040;回動機%l;#;調到\\x%lミッドギア;#00ffc040;中位檔%l;#;。我故意緩慢、大幅度地執行每一個動作，力求簡單易懂。",
+    "old_vn": "Vừa nói, tôi vừa gạt \\x%l逆転機;#00ffc040;cần đảo chiều%l;# về \\x%lミッドギア;#00ffc040;số trung tính%l;#. \\nTôi thao tác chậm rãi và rõ ràng để chị ấy dễ hiểu.",
+    "fix": "Vừa nói, tôi vừa gạt \\x%l逆転機;#00ffc040;cần đảo chiều%l;#; về \\x%lミッドギア;#00ffc040;số trung tính%l;#;. \\nTôi thao tác chậm rãi và rõ ràng để chị ấy dễ hiểu.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2460",
+    "jp": "\\x%l整備体;#00ffc040;整備体%l;#;への換装を終えたハチロクと、日々姫も\\nキャブから降りてくる。",
+    "tw": "換成\\x%l整備体;#00ffc040;整備體%l;#;的八六和日日姬也都走出了駕駛室。",
+    "old_vn": "Hachiroku và Hibiki sau khi thay sang \\x%l整備体;#00ffc040;thân chính%l;# \\ncũng bước xuống từ buồng lái.",
+    "fix": "Hachiroku và Hibiki sau khi thay sang \\x%l整備体;#00ffc040;thân bảo trì%l;#; \\ncũng bước xuống từ buồng lái.",
+    "kind": "terminology",
+    "character": "monologue"
+  },
+  {
+    "key": "2470",
+    "jp": "言葉とともに、\\x%l8620;#00ffc040;8620%l;#;は緩やかに減速していく。",
+    "tw": "於是\\x%l8620;#00ffc040;８６２０%l;#;就隨著我的話語徐徐減速。",
+    "old_vn": "Cùng với lời nói, \\x%l8620;#00ffc040;8620%l;# từ từ giảm tốc độ.",
+    "fix": "Cùng với lời nói, \\x%l8620;#00ffc040;8620%l;#; từ từ giảm tốc độ.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2535",
+    "jp": "焼酎\\x%l列車;#00ffc040;列車%l;#;のアイディアも、無論大事なことではあるが。\\nそれ以前。",
+    "tw": "燒酒\\x%l列車;#00ffc040;列車%l;#;方案毫無疑問很重要，但是在此之上……",
+    "old_vn": "Tất nhiên, ý tưởng về chuyến \\x%l列車;#00ffc040;tàu%l;# shochu cũng rất quan trọng. \\nNhưng trước đó.",
+    "fix": "Tất nhiên, ý tưởng về chuyến \\x%l列車;#00ffc040;tàu%l;#; shochu cũng rất quan trọng. \\nNhưng trước đó.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2538",
+    "jp": "試験運転を無事終えて御一夜駅へと降り立てば、\\n満面の笑顔を浮かべたポーレットが僕らを迎えてくれる。",
+    "tw": "當我們安全結束了試運營回到御一夜站下到站台的時候，等在那裡的波萊特便滿臉笑容地迎了上來。",
+    "old_vn": "Kết thúc chuyến chạy thử nghiệm suôn sẻ và bước xuống ga Ohimitera, \\nPaulette đón chúng tôi với nụ cười rạng rỡ trên môi.",
+    "fix": "Kết thúc chuyến chạy thử nghiệm suôn sẻ và bước xuống ga Ohitoyo, \\nPaulette đón chúng tôi với nụ cười rạng rỡ trên môi.",
+    "kind": "terminology",
+    "character": "monologue"
+  },
+  {
+    "key": "2572",
+    "jp": "ちょっと呆れたような顔。",
+    "tw": "真闇姐一臉無奈的表情。",
+    "old_vn": "Một khuôn mặt có chút sững sờ.",
+    "fix": "Một khuôn mặt có chút ngao ngán.",
+    "kind": "meaning",
+    "character": "monologue"
+  },
+  {
+    "key": "2597",
+    "jp": "感心しきり。\\nそんな、長くて熱のある息。",
+    "tw": "真闇姐發出了長長一聲喘息，音色中聽得出她無比佩服的感情。",
+    "old_vn": "Vô cùng ngưỡng mộ. \\nMột tiếng thở dài và đầy nhiệt huyết.",
+    "fix": "Vô cùng ngưỡng mộ. \\nMột hơi thở dài, đầy nhiệt huyết.",
+    "kind": "meaning",
+    "character": "monologue"
+  },
+  {
+    "key": "2717",
+    "jp": "酒が、唇をなめらかにする。",
+    "tw": "這酒讓我有點關不住話匣子。",
+    "old_vn": "Rượu, làm cho đôi môi trở nên trơn tru.",
+    "fix": "Rượu khiến tôi nói năng trơn tru hẳn lên.",
+    "kind": "meaning",
+    "character": "monologue"
+  },
+  {
+    "key": "2744",
+    "jp": "そして\\x%l加減弁;#00ffc040;加減弁%l;#;をじわじわ閉じつつ、\\n\\x%lバイパス弁;#00ffc040;バイパス弁%l;#;を開けてみせる。",
+    "tw": "隨後我將\\x%l加減弁;#00ffc040;汽門%l;#;徐徐關閉，同時打開了\\x%lバイパス弁;#00ffc040;旁路閥%l;#;給她看。",
+    "old_vn": "Rồi tôi từ từ đóng \\x%l加減弁;#00ffc040;van tiết lưu hơi%l;# lại, \\nvà mở \\x%lバイパス弁;#00ffc040;van bypass%l;# cho chị ấy xem.",
+    "fix": "Rồi tôi từ từ đóng \\x%l加減弁;#00ffc040;van tiết lưu hơi%l;#; lại, \\nvà mở \\x%lバイパス弁;#00ffc040;van bypass%l;#; cho chị ấy xem.",
+    "kind": "tag",
+    "character": "monologue"
+  },
+  {
+    "key": "2751",
+    "jp": "蛇足極まる説明だとは思いつつ、\\n\\x%lブレーキ;#00ffc040;ブレーキ%l;#;と口を動かし続ける。",
+    "tw": "雖然我覺得已是畫蛇添足，但是我還是一邊操作\\x%lブレーキ;#00ffc040;剎車%l;#;一邊說。",
+    "old_vn": "Dù nghĩ rằng đây là một lời giải thích thừa thãi, \\nnhưng tôi vẫn tiếp tục nói về \\x%lブレーキ;#00ffc040;phanh%l;#.",
+    "fix": "Dù nghĩ rằng đây là một lời giải thích thừa thãi, \\nnhưng tôi vẫn tiếp tục nói về \\x%lブレーキ;#00ffc040;phanh%l;#;.",
+    "kind": "tag",
+    "character": "monologue"
+  }
+]

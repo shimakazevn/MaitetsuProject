@@ -1,0 +1,302 @@
+[
+  {
+    "key": "1383",
+    "jp": "「ばってん、それならもっと先に頑張るところあるばい」",
+    "tw": "「不過，以後需要你努力的時候還多了去咧」",
+    "old_vn": "「Nhưng mà, nếu vậy thì còn nhiều chỗ cần cậu phải cố gắng trước đó nữa.」",
+    "fix": "「Nhưng mà, nếu vậy thì còn nhiều chỗ cần anh phải cố gắng trước đó nữa.」",
+    "kind": "pronoun",
+    "character": "凪",
+    "reason": "Nagi→Soutetsu phải là \"anh\" (cô gọi anh là \"anh hai\"); \"cậu\" sai."
+  },
+  {
+    "key": "1386",
+    "jp": "「いや、さすがに遊んでるヒマなどは――わぷっ！」",
+    "tw": "「不，我現在根本就沒有時間玩——咕噗！」",
+    "old_vn": "「Không, làm gì có thời gian rảnh mà chơi——oáp!」",
+    "fix": "「Không, làm gì có thời gian rảnh mà chơi——phụt!」",
+    "kind": "sfx",
+    "character": "双鉄",
+    "reason": "わぷっ là tiếng sặc nước/phụt nước (TW 咕噗), \"oáp\" là tiếng ngáp — sai âm."
+  },
+  {
+    "key": "1452",
+    "jp": "「ぷはーーーっ！」",
+    "tw": "「呼哈——！」",
+    "old_vn": "「Phù hơ——!」",
+    "fix": "「Phù haaaa——!」",
+    "kind": "sfx",
+    "character": "双鉄",
+    "reason": "ぷはーーーっ = pu + ha + 3 ー = 4 mora \"a\"; \"Phù hơ\" đổi nguyên âm a→ơ và mất độ dài."
+  },
+  {
+    "key": "1456",
+    "jp": "「ぷあっ！？　何をっ」",
+    "tw": "「咕哇！？你幹什麼」",
+    "old_vn": "「Phù!? Em làm gì vậy hả.」",
+    "fix": "「Phùa!? Em làm gì vậy hả.」",
+    "kind": "sfx",
+    "character": "双鉄",
+    "reason": "ぷあっ = pu+a; \"Phù\" làm mất mora あ (quy tắc fa/fu: ふあ→\"phùa\")."
+  },
+  {
+    "key": "1457",
+    "jp": "「むぎゅっ」",
+    "tw": "「咕嗚」",
+    "old_vn": "「Ư ư」",
+    "fix": "「Mugyu」",
+    "kind": "sfx",
+    "character": "ふかみ",
+    "reason": "むぎゅっ là tiếng siết/ôm chặt, không phải tiếng rên; \"Ư ư\" sai hẳn tính chất âm; romaji giữ nguyên âm JP."
+  },
+  {
+    "key": "1469",
+    "jp": "「ふわっぷ！」",
+    "tw": "「哇！？」",
+    "old_vn": "「Oái!」",
+    "fix": "「Phụp!」",
+    "kind": "sfx",
+    "character": "ふかみ",
+    "reason": "ふわっぷ là tiếng phụt/phun (SFX hành động), không phải tiếng kêu giật mình \"Oái\"."
+  },
+  {
+    "key": "1482",
+    "jp": "「えっ、えとっ」",
+    "tw": "「哎，唔」",
+    "old_vn": "「Ơ, dạ.」",
+    "fix": "「Ơ, ừm.」",
+    "kind": "filler",
+    "character": "ふかみ",
+    "reason": "えとっ là từ đệm \"um\" (TW 唔); \"dạ\" là lời đáp khẳng định, sai chức năng."
+  },
+  {
+    "key": "1483",
+    "jp": "「え、別に無理なんて」",
+    "tw": "「哎，我沒勉強啊」",
+    "old_vn": "「Ơ, tớ đâu có quá sức gì đâu.」",
+    "fix": "「Ơ, em đâu có quá sức gì đâu.」",
+    "kind": "pronoun",
+    "character": "ふかみ",
+    "reason": "Fukami nói với Soutetsu → tự xưng \"em\"; \"tớ\" chỉ dùng với Nagi (cặp tớ–cậu)."
+  },
+  {
+    "key": "1541",
+    "jp": "「ちょっ！　待てっ――ぷあっ！？」",
+    "tw": "「喂！等——嗚哇！？」",
+    "old_vn": "「Khoan! Đợi đã——phù!?」",
+    "fix": "「Khoan! Đợi đã——phùa!?」",
+    "kind": "sfx",
+    "character": "双鉄",
+    "reason": "ぷあっ: như 1456, mất mora あ."
+  },
+  {
+    "key": "1544",
+    "jp": "「うひゃあ」",
+    "tw": "「嗚哇」",
+    "old_vn": "「Uisss」",
+    "fix": "「Uhyaa」",
+    "kind": "sfx",
+    "character": "凪",
+    "reason": "うひゃあ = u-hya-a; \"Uisss\" bịa thêm âm \"sss\" không có trong JP, mất phụ âm hy-."
+  },
+  {
+    "key": "1547",
+    "jp": "「ふぇぇっ」",
+    "tw": "「嗚唉」",
+    "old_vn": "「Ư ơ.」",
+    "fix": "「Phuêê.」",
+    "kind": "sfx",
+    "character": "ふかみ",
+    "reason": "ふぇぇっ: ふぇ→\"phuê\" (quy tắc đã quyết), ぇ thêm = 2 ê; \"Ư ơ\" làm mất phụ âm ph-."
+  },
+  {
+    "key": "1572",
+    "jp": "「ぶはっ！」",
+    "tw": "「噗哈！」",
+    "old_vn": "「Phù!」",
+    "fix": "「Phù ha!」",
+    "kind": "sfx",
+    "character": "双鉄",
+    "reason": "ぶはっ = bu-ha; \"Phù\" làm mất mora は."
+  },
+  {
+    "key": "1619",
+    "jp": "「どぎゃんもこぎゃんも……\\n逆に、何故ドキドキするのか教えてくれんか？」",
+    "tw": "「就算你這麼問……我反而想問你為什麼我要小鹿亂撞啊？」",
+    "old_vn": "「Tại sao cái gì chứ……\\nNgược lại, em nói cho anh biết tại sao anh phải thấy tim đập thình thịch đi?」",
+    "fix": "「Dù em có hỏi thế nào đi nữa……\\nNgược lại, em nói cho anh biết tại sao anh phải thấy tim đập thình thịch đi?」",
+    "kind": "mistranslation",
+    "character": "双鉄",
+    "reason": "どぎゃんもこぎゃんも = \"dù có hỏi thế nào đi nữa\" (TW 就算你這麼問); \"Tại sao cái gì chứ\" là dịch garbled."
+  },
+  {
+    "key": "1641",
+    "jp": "「わたし、双鉄さんに。\\n川下り、お手伝いしてほしい。です！」",
+    "tw": "「我想請雙鐵先生你來幫忙！嗯」",
+    "old_vn": "「Em, rất mong anh Soutetsu.\\nĐến phụ giúp công việc chèo thuyền xuôi dòng. Ạ!」",
+    "fix": "「Em rất mong anh Soutetsu\\nđến phụ giúp việc chèo thuyền xuôi dòng ạ!」",
+    "kind": "mistranslation",
+    "character": "ふかみ",
+    "reason": "Câu JP là một câu hoàn chỉnh (わたし、双鉄さんに。川下り、お手伝いしてほしい。です！); VN cũ vỡ thành 3 mảnh, \"Ạ!\" đứng riêng vô nghĩa."
+  },
+  {
+    "key": "1655",
+    "jp": "「だから……その、頑張る理由。\\nええと……つまり……あ、うちのため、とかもあるし」",
+    "tw": "「所以……那個，我這麼努力的理由。唔……也就是……啊，當然也有為了我自己家的原因啦」",
+    "old_vn": "「Thì là……lý do tớ cố gắng ấy.\\nƯm……tức là……A, cũng vì gia đình tớ nữa.」",
+    "fix": "「Thì là……lý do em cố gắng ấy.\\nƯm……tức là……A, cũng vì gia đình em nữa.」",
+    "kind": "pronoun",
+    "character": "ふかみ",
+    "reason": "Fukami nói với Soutetsu → \"em\" (2 chỗ trong dòng); \"tớ\" chỉ dùng với Nagi."
+  },
+  {
+    "key": "1667",
+    "jp": "「やっけーん、疲れとるいうことでしょお。\\nふかみちゃんがウッカリミスばしよるとか」",
+    "tw": "「才不是呢，是你太累了吧。你才不可能會這麼粗心呢」",
+    "old_vn": "「Thì đó, chứng tỏ là cậu đang mệt mỏi mà.\\nChứ Fukami mà lại mắc lỗi bất cẩn sao.」",
+    "fix": "「Thì đó, chứng tỏ là anh đang mệt mỏi mà.\\nChứ Fukami mà lại mắc lỗi bất cẩn sao.」",
+    "kind": "pronoun",
+    "character": "凪",
+    "reason": "Nagi→Soutetsu phải là \"anh\" (gọi \"anh hai\"); \"cậu\" sai."
+  },
+  {
+    "key": "1754",
+    "jp": "「なんとも見事な――わぷっ！？」",
+    "tw": "「真是太漂亮了——嗚哇！？」",
+    "old_vn": "「Thật là đẹp mắt——oáp!?」",
+    "fix": "「Thật là đẹp mắt——phụt!?」",
+    "kind": "sfx",
+    "character": "双鉄",
+    "reason": "わぷっ: như 1386 — tiếng sặc nước, không phải ngáp."
+  },
+  {
+    "key": "1786",
+    "jp": "「大丈夫か――、か」",
+    "tw": "「要不要緊——嗎」",
+    "old_vn": "「Vẫn ổn chứ——, à.」",
+    "fix": "「Vẫn ổn chứ——, chứ?」",
+    "kind": "mistranslation",
+    "character": "双鉄",
+    "reason": "JP 大丈夫か――、か lặp lại trợ từ か; \"à.\" sau dấu phẩy là garbled; lặp \"chứ\" giữ đúng cấu trúc."
+  },
+  {
+    "key": "1813",
+    "jp": "「今度は僕が、凪とふかみを手助けするのだ」",
+    "tw": "「這次就換我來幫凪和深美吧」",
+    "old_vn": "「Lần này, tôi sẽ là người giúp đỡ Nagi và Fukami.」",
+    "fix": "「Lần này, anh sẽ là người giúp đỡ Nagi và Fukami.」",
+    "kind": "pronoun",
+    "character": "双鉄",
+    "reason": "Soutetsu nói với Fukami/Nagi → tự xưng \"anh\" (quy tắc đã sửa 20/11); \"tôi\" sai."
+  },
+  {
+    "key": "1824",
+    "jp": "「あ、あれは……ちょっとウッカリミスとか」",
+    "tw": "「那、那個是……只是我有點粗心了而已」",
+    "old_vn": "「A, cái đó là……tớ hơi bất cẩn một chút thôi.」",
+    "fix": "「A, cái đó là……em hơi bất cẩn một chút thôi.」",
+    "kind": "pronoun",
+    "character": "ふかみ",
+    "reason": "Fukami nói với Soutetsu (1822 gọi \"anh Soutetsu\") → \"em\"."
+  },
+  {
+    "key": "1854",
+    "jp": "「っ！！？」",
+    "tw": "「！！？」",
+    "old_vn": "「!!?」",
+    "fix": "「Ư!!?」",
+    "kind": "gasp",
+    "character": "双鉄",
+    "reason": "Sweep lost-gasp-whole: JP 「っ！！？」 là tiếng gasp thuần; VN cũ mất hẳn âm っ."
+  },
+  {
+    "key": "1855",
+    "jp": "「っ！？」",
+    "tw": "「！？」",
+    "old_vn": "「!?」",
+    "fix": "「Ư!?」",
+    "kind": "gasp",
+    "character": "双鉄",
+    "reason": "Sweep lost-gasp-whole: JP 「っ！？」."
+  },
+  {
+    "key": "2057",
+    "jp": "そうであっても、煙を掴まえなければならぬ。",
+    "tw": "但就算這樣，我們還是得抓住這縹緲的煙才行。",
+    "old_vn": "Dù vậy, chúng tôi vẫn phải tóm được làn khói đó.",
+    "fix": "Dù vậy, tôi vẫn phải tóm được làn khói đó.",
+    "kind": "subject",
+    "character": "monologue",
+    "reason": "Monologue của Soutetsu, chủ ngữ JP là 僕 (số ít); file dùng \"tôi\" cho mọi monologue khác; \"chúng tôi\" không có cơ sở JP."
+  },
+  {
+    "key": "2287",
+    "jp": "ポケットの中にメモ帳が無い。\\nならば、恐らく\\x%l乗務鞄;#00ffc040;乗務鞄%l;#;に……ああ。",
+    "tw": "我沒在口袋中翻到記事本。那估計應該是在\\x%l乗務鞄;#00ffc040;乘務包%l;#;裡吧……有了。",
+    "old_vn": "Sổ tay không có trong túi.\\nVậy thì chắc là ở trong \\x%l乗務鞄;#00ffc040;túi phi hành đoàn%l;#;……A.",
+    "fix": "Sổ tay không có trong túi.\\nVậy thì chắc là ở trong \\x%l乗務鞄;#00ffc040;túi công tác%l;#;……A.",
+    "kind": "terminology",
+    "character": "monologue",
+    "reason": "乗務鞄 = \"túi công tác\" (đã quyết 20/11); \"túi phi hành đoàn\" là thuật ngữ hàng không, cấm dùng."
+  },
+  {
+    "key": "2334",
+    "jp": "例えば\\x%l8620;#00ffc040;8620%l;#;の石炭を、\\nそのまま点火剤として流用するとか――――っ！",
+    "tw": "比如說可以把\\x%l8620;#00ffc040;８６２０%l;#;的煤炭作為引火物之類的————！",
+    "old_vn": "Ví dụ như lấy than của \\x%l8620;#00ffc040;8620%l;#;\\ndùng luôn làm chất mồi lửa chẳng hạn――――!",
+    "fix": "Ví dụ như lấy than của \\x%l8620;#00ffc040;8620%l;#;\\ndùng luôn làm chất mồi lửa chẳng hạn――――Ư!",
+    "kind": "gasp",
+    "character": "monologue",
+    "reason": "Sweep lost-gasp-trailing: JP とか――――っ！; giữ nguyên \\n của VN cũ (fix của sweep bỏ mất \\n — đã sửa lại, chỉ đổi phần gasp)."
+  },
+  {
+    "key": "2385",
+    "jp": "ふかみが素直に、気兼ねなく涼めるようにと、\\nシャツをめくって、まずは自分が大げさなほど暑がった。",
+    "tw": "為了讓深美能毫無顧慮地接受自己的好意，凪還先掀起衣服故意誇張地做出覺得很熱的樣子。",
+    "old_vn": "Để Fukami có thể ngoan ngoãn, thoải mái hóng mát,\\ncon bé đã vén áo lên, tự mình làm quá lên rằng rất nóng trước.",
+    "fix": "Để Fukami có thể ngoan ngoãn, thoải mái hóng mát,\\nNagi đã vén áo lên, tự mình làm quá lên rằng rất nóng trước.",
+    "kind": "mistranslation",
+    "character": "monologue",
+    "reason": "Chủ ngữ JP là Nagi (TW: 凪還先掀起衣服; 2415 xác nhận Nagi vén áo trước); \"con bé\" trong VN đọc thành Fukami — sai chủ thể."
+  },
+  {
+    "key": "2553",
+    "jp": "（ぐ～～っ――）",
+    "tw": "（咕～）",
+    "old_vn": "（Rột rột——）",
+    "fix": "（Ừ——）",
+    "kind": "sfx",
+    "character": "monologue",
+    "reason": "ぐ～～っ là tiếng rên/gồng (TW 咕～); \"Rột rột\" là tiếng lạo xạo/rè rè — sai âm."
+  },
+  {
+    "key": "2577",
+    "jp": "（ぬぎっ！）",
+    "tw": "（脫衣服聲）",
+    "old_vn": "（Cởi!）",
+    "fix": "（Tuột!）",
+    "kind": "sfx",
+    "character": "monologue",
+    "reason": "ぬぎっ là SFX tiếng tuột/cởi đồ, không phải mệnh lệnh \"Cởi!\"."
+  },
+  {
+    "key": "2581",
+    "jp": "（っ！）",
+    "tw": "（！）",
+    "old_vn": "（!）",
+    "fix": "（Ư!）",
+    "kind": "gasp",
+    "character": "monologue",
+    "reason": "Sweep lost-gasp-whole: JP （っ！）."
+  },
+  {
+    "key": "2582",
+    "jp": "（っ！？）",
+    "tw": "（！？）",
+    "old_vn": "（!?）",
+    "fix": "（Ư!?）",
+    "kind": "gasp",
+    "character": "monologue",
+    "reason": "Sweep lost-gasp-whole: JP （っ！？）."
+  }
+]

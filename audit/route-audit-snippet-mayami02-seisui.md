@@ -1,0 +1,12 @@
+## 真闇02_精髄 — 真闇02_精髄.txt.toml — 81/425 (19,1%)
+
+- File: `真闇02_精髄.txt.toml` — route 05_Mayami, 425 dòng script (độc thoại 170, 双鉄 124, 真闇 104, ポーレット 12, ハチロク 9, 日々姫 6). Nội dung: Soutetsu cùng Mayami nếm thử loại shochu hơi nước mới (“tinh túy” — ひとしずく), rồi lái đầu máy 8620 chở Mayami đi một vòng để cô hiểu về hơi nước; kết bằng việc Soutetsu tìm ra mong muốn của mình: giành Grand Prix ISC bằng loại rượu này.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 425 dòng, 0 VN trống. TOML md5 `7ae6ef99a0143b27886371110ff06b4b`, 1 bản duy nhất, BOM + CRLF, `[selections]` rỗng. TOML khớp CSV3 tuyệt đối sau chuẩn hoá `\n` literal (2 dòng 2064/2072 giữ nguyên `\n` như CSV3). 3 cặp VN trùng đều là câu lặp hợp lệ.
+- Phân loại (81): đại từ xưng hô 27 (Soutetsu “em”→“tôi” với Mayami 25 dòng — 2013, 2041, 1888, 1616, 1528, 1896, 1750, 1559, 1147, 1806, 1641, 1726, 1162, 1755, 1747, 1454, 1742, 1741, 1740, 1168, 1157, 1808, 1973, 1507, 1981; Mayami tự xưng “em”→“chị” 1773; Paulette 双鉄くん→“anh Soutetsu” 1543 theo khóa B4), tag %l thiếu `;` 41 dòng / 64 thẻ (38 dòng chỉ sửa tag + 1750, 2460, 1766 kết hợp sửa khác), thuật ngữ 6 (御一夜 “Ohimitera”→“Ohitoyo” 2538, 1798, 1766, 1996, 2430 + 1973; 整備体 “thân chính”→“thân bảo trì” 2460), nghĩa/cấu trúc 7 (2572, 2342, 2367, 2446, 2597, 2717, 1691), số nguyên âm 1 (1598 はぁぁ 2→3 a), gasp sweep 2 (2060, 2061).
+- Sweep kiểm chứng: 2 entry cho file, nhận cả 2 fix sau khi đối chiếu JP (2060 「っ！！」→「Ư!!」, 2061 「っ！？」→「Ư!?」); quét máy toàn file không còn っ thô nào khác trong VN.
+- Đại từ đã kiểm chứng: “em” còn lại trong file đều đúng đối tượng (Mayami gọi Soutetsu “em”; “nhờ em” 1831 là Paulette; “em ấy” là Hachiroku/Michiko); 0 dòng Soutetsu “anh” sai với Mayami; độc thoại nội tâm 2786 “Mình” giữ theo ngoại lệ.
+- Chi tiết đầy đủ: `audit-mayami02-seisui-REVIEW.md`; danh sách sửa: `audit-mayami02-seisui-wrong.json` (81 mục, khối TOML 81 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 81/81; lượt soát 2: 81/81, 80 tái kiểm chứng đúng, 1 sửa (1747), 0 loại bỏ).
+
+**Tổng cộng sau file này: 173 file / 7.927 dòng sai** (cơ sở 172 file / 7.846 dòng sai + 81 file này)
+
+- Chờ Hieu: (1) 麹菌 “nấm men kōji” (1989, 1564) — nấm mốc hay nấm men, cần chốt thuật ngữ toàn dự án; (2) 杜氏 gloss “trưởng hầm rượu” (69, 1926, 1582, 2295) — vai trò giữ gloss hay dùng “Toji” mọi chỗ; (3) 列車 gloss “tàu” vs “đoàn tàu” (1113 vs 2319) — ứng viên đợt thống nhất; (4) SFX 2793 （くっ――くいっ）→“Phụt” — tiếng kéo van hay đổi “Kéo”. B19 vẫn park.
