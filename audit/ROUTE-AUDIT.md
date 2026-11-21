@@ -3466,3 +3466,32 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 168 file / 7.676 dòng sai** (cơ sở 167 file / 7.633 dòng sai + 43 file này)
 
 - Parent kiểm chứng 21/11 ~16:55: JSON 43 mục (key chuỗi, list-of-dicts), khối TOML 43 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 43/43 (1 set duy nhất, 471 dòng). 2851 ĐÃ KIỂM CHỨNG: người được nhắc là Fukami (2849/2853: đoạn độc thoại về Fukami; "em ấy" dùng cho Fukami 26 dòng trong file) — "cô ấy"→"em ấy" đúng; thẻ %l 車掌 bỏ đúng (JP không có thẻ). 2189 "em" đúng (Fukami báo cáo với Soutetsu — dạng kính ngữ です ở 2190/2192; 2179 mới là nói với Nagi). 1910 "Hạnh phúc" bịa → "Gì cơ ạ?" đúng (JP thắng TW). Sweep 2084 + 2086 trong JSON. Không sửa nào bị loại. CỜ CHO HIEU: cụm 2208–2215 giữ nguyên (người nghe mơ hồ); 代理車掌 "trưởng tàu đại diện" vs "trưởng tàu đại lý" (凪ふかみ03 2058) — ứng viên unification pass.
+
+
+# Snippet — ハチロク04_小畑越え (01_Hachiroku) — 27/448 (6,0%)
+
+- File: `ハチロク04_小畑越え.txt.toml` — route 01_Hachiroku, 448 dòng script. Nội dung: lần đầu vượt đèo Okoba cùng Hachiroku (đường vòng zigzag + đường vòng tròn); hồi tưởng chuyến phà thời thơ ấu với Mayami (hải âu cướp bánh Shibaten, lời hứa đưa Hibiki đi phà); đến ga Yatsushiro, gặp Mima và Munakata (lái tàu cũ của Olivy); Olivy đóng kín cộng cảm vì tưởng mình bị Mikan vứt bỏ, kiểm tra cho thấy lão hóa nặng nên khuyến cáo kiểm tra toàn diện hàng năm; Olivy muốn sang Ohitoyo làm việc càng sớm càng tốt.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối 448/448 (sau chuẩn hóa \n). `[selections]` rỗng. Không có thẻ `%l` sai định dạng (1951 VN tự thêm thẻ theo đúng ruby JP, chỉ ghi nhận). Không có bản sao file này. TOML md5 `bbf7d882e646cde74ace8b5fe1541e47`.
+- Phân loại (27): toàn bộ thuật ngữ — 御一夜→Ohitoyo 16 (2061, 3226, 2081, 1807, 2524, 2048, 2959, 1432, 2175, 2512, 1823, 1844, 2083, 3082, 2094, 2495), 帝鉄→Teitetsu 7 (1897, 2112, 2460, 1859, 1802, 2340, 2125 — \"Đường sắt Hoàng gia\" bị cấm theo quyết định 19/11), 湯医線→Yunoi 3 (1922, 2750, 2837), 宮司→đền chủ 1 (2466: \"ông Akai\" bỏ mất chức danh).
+- Đại từ đúng toàn file: Soutetsu \"tôi\" 38× với Hachiroku, 0 \"anh\" tự xưng; Hachiroku \"em\" 22×, \"ngài Soutetsu\" 10×; Soutetsu gọi Hibiki \"anh\" (2212) và Mayami \"chị\" đúng. Sweep っ: 0 mục cho file này, quét bổ sung không còn gasp mất (1947 きゃっ→\"Á!?\", 1998 あっ→\"A.\", 2001 ああああああっ！→\"Aaaaa!\" đều giữ theo tiền lệ).
+- Thuật ngữ GIỮ chờ Hieu/unification: \"Đường sắt Ohito\" (tên công ty) 11 dòng (1477, 1973, 2298, 2217, 1902, 2121, 2181, 2112, 1823, 2234, 2182); \"Jutsusen\" vs \"Jutsu-sen\" (2458, toàn dự án 34 vs 13); giọng Munakata オレ (\"tôi\" vs \"tao\"); 1925 由衣 \"khu vực Yui\" là địa danh khác, không phải 湯医.
+- Chi tiết đầy đủ: `audit-hachiroku04-okoba-goe-REVIEW.md`; danh sách sửa: `audit-hachiroku04-okoba-goe-wrong.json` (27 mục, khối TOML 27 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 27/27; lượt soát 2: 27/27, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 169 file / 7.703 dòng sai** (cơ sở 168 file / 7.676 dòng sai + 27 file này)
+
+- Parent kiểm chứng 21/11 ~17:15: JSON 27 mục (key chuỗi, list-of-dicts), khối TOML 27 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 27/27 (1 set duy nhất, 448 dòng). 1897 "Đường sắt Hoàng gia cũ——"→"Teitetsu cũ——" là đổi thuật ngữ đúng điểm sửa. Không sửa nào bị loại. CỜ CHO HIEU: tên công ty "Đường sắt Ohito" (11 dòng, chờ quyết đổi tên); "Jutsusen" vs "Jutsu-sen" (2458); giọng Munakata オレ "tôi" vs "tao".
+
+## ニイロク04_終端 — ニイロク04_終端.txt.toml — 44/452 (9,7%)
+
+- File: `ニイロク04_終端.txt.toml` — route 08_Niiroku, 452 dòng script (monologue ~150, ニイロク ~150, 赤井 ~120, 後東/電車区長/先輩/技工 còn lại). Nội dung: hồi kết route Niiroku — Kuha 26 bị đưa đi phế thải hồi tống về Moji; Shiro hy sinh thân bảo trì để cứu Niiroku; Kiyoharu cùng Trưởng khu tàu điện và Gotou xoay xở 338 chữ ký và kế hoạch công ty đường sắt mới. Không có H-scene.
+- Đọc: 452/452. Sai: **44 dòng (9,7%)**.
+- Phân loại: thuật ngữ 34 · gasp 10.
+- Lệch hàng 0 · xoay vòng 0 · nhiễm 0 · mồ côi 0 · chưa dịch 0 · trùng key 0.
+- Sweep っ-gasp: 9 mục cho file đã áp dụng; phát hiện thêm 1 gasp sweep bỏ sót (1748).
+- Lượt soát 2: 44 fix đọc lại — 44 giữ nguyên, 0 sửa, 0 loại bỏ.
+- Cờ cho Hieu: không có câu hỏi mở. Soutetsu không xuất hiện trong file (0 lần 双鉄).
+- Ghi chú: 3 dòng sửa cả term trong tag %l cho khớp JP (1639/2024/2603: VN ghi 乗務鞄, JP là 運転鞄/運転士鞄); "Master" (7 dòng) giữ nguyên theo tiền lệ toàn dự án.
+
+**Tổng cộng sau file này: 170 file / 7.747 dòng sai** (cơ sở 169 file / 7.703 dòng sai + 44 file này)
+
+- Parent kiểm chứng 21/11 ~17:15: JSON 44 mục (key chuỗi, list-of-dicts), khối TOML 44 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 44/44 (1 set duy nhất, 452 dòng). 1748 ĐÃ KIỂM CHỨNG: JP 「っ！？」 VN cũ mất hẳn っ → "Ư!?" đúng (gasp sweep bỏ sót). 2550/2796 "Kaita" đúng (ruby JP ごとうかいた thắng TW 慶太). 2411 機関士 dạng đầy đủ "thợ lái đầu máy" đúng (độc thoại). 1639/2024/2603 sửa term %l 乗務鞄→運転鞄/運転士鞄 khớp JP đúng. Không sửa nào bị loại. Không có cờ cho Hieu.
