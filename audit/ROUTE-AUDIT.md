@@ -4871,3 +4871,66 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 201 file / 9.210 dòng sai** (cơ sở 200 file / 9.191 dòng sai + 19 file này)
 
 - Parent kiểm chứng 22/11 ~03:05: JSON 19 mục, khối TOML 19 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 19/19; second pass agent 19/19/0/0. **1572/1860 ĐÃ KIỂM CHỨNG**: Khương gọi Soutetsu "ngài" đúng — "ngài" nhất quán trong các dòng khác của cô (1357, 1464, 1619, 1704, 1708, 1741, 1863); 1860 JP あなた + 双鉄先生. **TW lệch cột trong file này** (TW 684 ≈ JP 1145...) — VN theo JP đúng toàn file. CỜ CHO HIEU: cụm đại từ vợ chồng Soutetsu–Kisaki (Soutetsu "Anh"/Kisaki "anh Soutetsu") + các dòng Kisaki "tôi"/"em" ranh giới (1327, 1132, 1024, 984, 1516, 1711, 1783) → đợt thống nhất xét lại (tiền lệ tsuika02). B19 vẫn park.
+
+---
+
+# Audit snippet — lr_日々姫h1_鏡の中日々姫.txt.toml (route 02_Hibiki)
+
+- File: `lr_日々姫h1_鏡の中日々姫.txt.toml` — route 02_Hibiki, 325 dòng script, đọc toàn bộ 325/325 dòng đối chiếu JP + TW từ CSV3.
+- **Sai 41 dòng (12,6%)** — mất Ư 19, rên (romaji fa/fu, họ ひゃ, đếm âm) 18, sai nghĩa 4. Không lệch vị trí, không chuỗi xoay, không nhiễm chéo, không mồ côi, không chưa dịch, không trùng khóa.
+- Lỗi chính: gasp toàn dòng/cuối dòng mất Ư (1092–1097, 1123, 1127, 1331, 1338; sweep) + 5 lỗi gasp sweep bỏ sót (1022, 1034, 1066, 1266, 1337); ふあっ → "Fa"/"fa" thay cho "Fua" (1029, 1033, 1039, 1063, 1067, 1069, 1103); きゃんっ → "Á" thay cho "Kyan" (1041); đếm âm sai: はぁ/はあ → "Ha" thay cho "Haa" (1103, 1107, 1108, 1219, 1291, 1292, 1433), 1115 (15a/5n thay cho 13a/3n), 1145 (15u thay cho 13u), 1064 (7a/6n thay cho 9a/1n), んふっ → "Nnfu" (1139), んくんっ → "Ưn" thay cho "Nkun" (1142); bịa nghĩa: はしゃいで → "đang hưng phấn" (1117), bịa động từ "đã khiến" cho câu cụt (1321), 僕の勃起 → "tôi" (1377, 1455).
+- Sweep っ-gasp: nhận 14/14 mục fix; ghi đè 1 phân loại "already-rendered" (1069 — đoạn ～～っ bị mất っ); bổ sung 5 lỗi sweep bỏ sót. Không có thẻ %l trong file. Đại từ Soutetsu "anh" với Hibiki đúng xuyên suốt, 0 lỗi.
+- Không có cờ cho Hieu — không thuật ngữ mới, không đại từ mơ hồ, không vấn đề tag/B19.
+- Chi tiết đầy đủ: `audit-lr-hibikih1-kagami-no-naka-hibiki-REVIEW.md`; danh sách sửa: `audit-lr-hibikih1-kagami-no-naka-hibiki-wrong.json` (41 mục).
+
+**Tổng cộng sau file này: 202 file / 9.251 dòng sai** (cơ sở 201 file / 9.210 dòng sai + 41 file này)
+
+- Parent kiểm chứng 22/11 ~03:45: JSON 41 mục, khối TOML 41 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 41/41; second pass agent 41/41/0/3 (3 fix nháp thêm nhầm 「」 đã sửa). **1377/1455 ĐÃ KIỂM CHỨNG**: 僕の勃起 → "chỗ đó của tôi" đúng; giá trị fix giữ khoảng trắng như TOML gốc (TOML đã làm phẳng \\n→khoảng trắng). Không sửa đại từ nào. Không có cờ cho Hieu.
+
+---
+
+# Audit snippet — 稀咲h2_プライベートルーム.txt.toml (route 06_Kisaki)
+
+- File: `稀咲h2_プライベートルーム.txt.toml` — route 06_Kisaki, 323 dòng script, đọc toàn bộ 323/323 dòng đối chiếu JP + TW từ CSV3.
+- **Sai 24 dòng (7,4%)** — sweep 9 (raw-tsu 4, lost-gasp-whole 3, lost-gasp-trailing 2), rên/thở gấp tự tìm 8, sai nghĩa 3, SFX 4. Không lệch vị trí, không chuỗi xoay, không nhiễm chéo, không mồ côi, không chưa dịch, không trùng khóa.
+- Lỗi chính: gasp cuối dòng bị mất (1134 はっ, 1151 んあっ, 1189 ああっ, 1221 んふっ); moan romaji/đếm nguyên âm (1152 Hyaa, 1154 Hyau, 1161 Fu kyuu, 1218 Nhyu, 1960 Kyuuuuun 6u); sai chủ ngữ 1259 出してあげる (Kisaki lấy ra giùm, không phải lệnh cho Soutetsu tự làm); きゅんきゅん 1616 "co thắt" thay cho "rên rỉ"; SFX 1941 くちゅっ "Chụt" thay cho "Lạch cạch", 1961 ぐっ "Gừ" thay cho "Kéo", 1972 ふみゅ "Giẫm" thay cho "Nhào".
+- CỜ CHO HIEU / đợt thống nhất: cụm đại từ Soutetsu↔Kisaki (58 dòng, giữ nguyên — quyết định 22/11 ~03:32, quy tắc 19:45 vẫn áp dụng): "anh Soutetsu" 29 + Kisaki "anh" độc lập 9 (924, 1160, 1176, 1215, 1244, 1259, 1279, 1317, 1349) + Soutetsu "Anh" 17 + Soutetsu→Kisaki "em" 3 (933, 1334, 1338 — nhập hạng mục mới "em"→"cô"). Độc thoại đã dùng "tôi" 100%, chỉ thoại dùng "Anh" — file tự mâu thuẫn. 1961 ぐっ: "Gừ" đã quyết, cách đọc khác "Thúc" ghi lại để đợt thống nhất xem xét. [character_subs] 1865 trỏ key không có trong script (dư thừa vô hại).
+- Chi tiết đầy đủ: `audit-kisakih2-private-room-REVIEW.md`; danh sách sửa: `audit-kisakih2-private-room-wrong.json` (24 mục).
+
+**Tổng cộng sau file này: 203 file / 9.275 dòng sai** (cơ sở 202 file / 9.251 dòng sai + 24 file này)
+
+- Parent kiểm chứng 22/11 ~03:45: JSON 24 mục, khối TOML 24 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 24/24; second pass 24/24/0/0. Không sửa đại từ nào. CỜ CHO HIEU: cụm đại từ Soutetsu↔Kisaki (58 dòng) → đợt thống nhất theo quyết định 22/11 ~03:32; 1961 ぐっ "Gừ" vs "Thúc" để đợt thống nhất xem xét. B19 vẫn park.
+
+---
+
+# Audit snippet — 日々姫h3_汚れてしまった制服で.txt.toml (route 02_Hibiki)
+
+- File: `日々姫h3_汚れてしまった制服で.txt.toml` — route 02_Hibiki, 322 dòng script, đọc toàn bộ 322/322 dòng đối chiếu JP + TW từ CSV3.
+- **Sai 36 dòng (11,2%)** — rên 32, thở gấp 3 (2 từ sweep), SFX 1. Không lệch vị trí, không chuỗi xoay, không nhiễm chéo, không mồ côi, không chưa dịch, không trùng khóa.
+- Lỗi chính: các dòng rên H-scene — romaji họ ひゃ/や bị viết thành 'A'/'Hyaa' sai số nguyên âm hoặc mất phụ âm (y, h, f, ky, n): ひゃっ→'Hyaa' thừa a (1009/1013/1036), ひゃああんっ→'Hyaaaan' thừa 2 a (1033), ひゃっんっ→'Hyaa' mất ん (1034), ひあっ→'Hyaa' thay vì 'Hia' (1027/1041/1121), やっ/やあっ→'A' mất y (1007/1010/1023/1030/1041/1044/1046/1048/1070/1021), ふやっ→'Hyaa' sai hẳn phụ âm (1042), ふあ(っ)→'phù' thay vì 'phùa' (1016/1041/1042/1053/1071/1077/1084/1100/1121), んひゅっ/んきゅううっ/んひゃううううっ trộn 2 kiểu diễn 'ưm hyu' (1030/1076/1016/1121), 3 dòng rên dài bị viết gọn thành 'Ưm a' (1123/1125) hoặc thiếu 1 u (1124), きゅっ→'ưm' mất ky (1109), あんっ→'A' mất ん (1096); gasp 1262/1264 áp nguyên văn sweep ('Ư!'/'Ư!?'); SFX 1107 ううむ→'Ừm'.
+- Sweep gasp: 3/3 mục đã kiểm tra trực tiếp — 2 nhận nguyên văn (1262, 1264), 1855 không sửa (dòng không lệch, VN diễn đúng cả hai tiếng khịt mũi).
+- Đại từ: không sửa dòng nào — Soutetsu 'anh' với Hibiki đúng toàn file (Hibiki gọi 'anh hai'). Thuật ngữ: không có lỗi (Terre Verte đúng; không có 御一夜/帝鉄/湯医 trong file). Thẻ %l: 0 lệch. [character_subs] 1557/1712 trỏ key không có trong script (dư thừa vô hại, cùng mẫu Kisaki 1961).
+- CỜ CHO HIEU: (1) 1073/1112 — あっ/ぁっ cuối dòng không dấu câu, VN chỉ còn 'a' trần (tiếng cụt っ có thể coi là mất; dạng 'aƯ' chưa từng xuất hiện — để vòng moan-fix phán lại); (2) 1050 ぬ――→'Ư' (mất n đầu, 'Nư' không tự nhiên); (3) 1082 う――っ――→'ư――' (っ không diễn riêng); (4) B19 vẫn park.
+- Chi tiết đầy đủ: `audit-hibikih3-yogorete-shimatta-seifuku-de-REVIEW.md`; danh sách sửa: `audit-hibikih3-yogorete-shimatta-seifuku-de-wrong.json` (36 mục).
+
+**Tổng cộng sau file này: 204 file / 9.311 dòng sai** (cơ sở 203 file / 9.275 dòng sai + 36 file này)
+
+- Parent kiểm chứng 22/11 ~03:45: JSON 36 mục, khối TOML 36 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 36/36; second pass 36/36/0/0. Đếm nguyên âm các dòng rên dài đã kiểm chứng lại bằng đếm cơ học (1123: 8u; 1125: 7u; 1124: 11u). Không sửa đại từ nào. CỜ CHO HIEU: 1073/1112 'a' trần, 1050 ぬ――→'Ư', 1082 う――っ――→'ư――' → vòng moan-fix phán lại. B19 vẫn park.
+
+---
+
+# lr_ニイロクh_誓い。約束.txt.toml — 63/320 (19,7%)
+
+- File: `08_Niiroku/lr_ニイロクh_誓い。約束.txt.toml` (route 08_Niiroku, 320 dòng script; monologue 126, ニイロク 114, 赤井 80). Nội dung: Niiroku và Akai thề ước — học về làm tình/ái ân vuốt ve rồi làm tình lần đầu (mở niêm phong Sealing); phần lớn file là H-scene.
+- TOML md5 baf71db80b8ef4a9e7bfd57bf6313b21, không có bản trùng; CSV3 1 bộ 320 dòng, key khớp tuyệt đối, VN khớp TOML 320/320 (chỉ khác dạng làm phẳng `\\n`→khoảng trắng), 0 dòng VN trống. [selections] rỗng; 0 tag %l.
+- Phân loại (63): romaji 19 (ひゃ/ひゅ/ひあ/きゃ → Hya/Hyu/Hia/Kya + mở rộng cùng nguyên tắc: きゅあ→Kyua, んきゅ→Nkyu, んひゅ→Nhyu, ふきゅ→Fukyu, ふえ→Fue, くあ→Kua, んく→Nku, みゅ→Myu), nguyên âm 22 (ふあ/ぷあ→"phùa" ×18 chỗ trong nhóm này, ふぁ/ぷぁ→"phà" ×2, đếm sai: 1277 14a→12a, 1278 6a→4a + 5a→4a, 1280 3a→2a, 1297 ふうっ→"phùu", 1337 Kiyoharu→"Kiyoharuu", 1438 4a→3a + thêm ん), gasp 12 (sweep 1318/1323/1324/1325/1474 áp nguyên văn; 1580 giữ ƯƯƯƯ nhưng sửa ~ 25→15; 1365 ghi đè sweep; 1319/1360 sweep bỏ sót; đa-っ 1272/1292/1381), sai nghĩa 4 (945 "vấy bẩn"→"méo mó"; 1300 "của nó"→"chỗ đó"; 1346 "làm tình với Niiroku"→bỏ "với Niiroku"; 1675 "tuôn trào… ướt đẫm"→"chảy ra… ướt"), SFX 4 (ずりゅ→"trượt" 1260/1385/2047/2069; 2050 くくっ→"ư ư"), bịa thêm 1 (1517 bỏ "ngài"), bịa hoàn thiện câu cụt 1 (1545 giữ câu cụt "nếu anh dừng lại giúp em thì...").
+- Sweep gasp: 7 mục đã kiểm tra trực tiếp — 5 áp nguyên văn, 1 áp có sửa (1580), 1 ghi đè (1365: っっ đầu dòng không có diễn nào); +2 gasp sweep bỏ sót (1319, 1360) tìm thêm bằng quét cơ học toàn bộ dòng JP có っ.
+- Đại từ: không sửa dòng nào — không có Soutetsu trong file; Niiroku "em" ×15 / "Tôi" ×0 (1211, 1215, 1293, 1322, 1339, 1377, 1402, 1438, 1439, 1457, 1508, 1534, 1545, 1547, 1549) — cờ cho Hieu: theo quyết định 22/11 ~03:32 đại từ Niiroku với Akai thống nhất thành "Tôi" trong đợt thống nhất, NHƯNG file này phân bố ngược với Niiroku 01/02 (15 "em"/0 "Tôi" vs 31 "Tôi"/3 "Em") nên đợt thống nhất cần xác nhận lại. Akai gọi Niiroku là "cô" nhất quán; Niiroku gọi Akai là "anh" (1258/1333/1508/1519).
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 0 lệch. Không còn っ thô trong VN.
+- Lượt soát 2: 63/63 tái kiểm chứng, 0 bỏ, 1 sửa (1336 "Kyuunn" 2u → "Kyuuunn" 3u theo JP きゅううんん). JSON 63 mục (key chuỗi); khối TOML 63 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 63/63; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-lr-niirokuh-chikai-yakusoku-REVIEW.md`; danh sách sửa: `audit-lr-niirokuh-chikai-yakusoku-wrong.json` (63 mục).
+- Cờ cho Hieu: (1) đại từ Niiroku "em" ×15 → đợt thống nhất (phân bố ngược 01/02, xem trên); (2) 1439 "cơ thể, của mình" — đợt thống nhất xem có đổi thành "của tôi"; (3) 945 睦言 "lời đường mật" giữ nguyên; (4) diễn tự do 1813/1827 giữ nguyên; (5) ghi đè sweep 1365 + sửa số ~ 1580; (6) B19 vẫn park.
+
+**Tổng cộng sau file này: 205 file / 9.374 dòng sai** (cơ sở 204 file / 9.311 dòng sai + 63 file này)
+
+- Parent kiểm chứng 22/11 ~03:45: JSON 63 mục, khối TOML 63 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 63/63; second pass 63/62/0/1 (1 fix nháp 1336 sai đếm đã sửa). **1346/1517/1545 ĐÃ KIỂM CHỨNG**: 1346 bỏ "với Niiroku" bịa thêm (JP に chỉ Niiroku là người nghe); 1517 bỏ "ngài" bịa thêm (JP/TW không có honorific); 1545 giữ câu cụt JP とめて、くれたら, "anh" = Akai. Không sửa đại từ nào. CỜ CHO HIEU: Niiroku "em"×15/"Tôi"×0 — phân bố ngược 01/02, đợt thống nhất xác nhận lại quyết định "Tôi"; 1439 "cơ thể, của mình" → đợt thống nhất. B19 vẫn park.
