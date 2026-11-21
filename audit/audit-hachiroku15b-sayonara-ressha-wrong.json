@@ -1,0 +1,202 @@
+[
+  {
+    "key": "1264",
+    "character": "オリヴィ",
+    "jp": "「――っ」",
+    "tw": "「——唔」",
+    "old_vn": "「——」",
+    "fix": "「——Ư」",
+    "kind": "lost-gasp-trailing",
+    "note": "Sweep: JP 「――っ」; VN dropped the gasp."
+  },
+  {
+    "key": "1524",
+    "character": "オリヴィ",
+    "jp": "「っ！！？」",
+    "tw": "「什！！？」",
+    "old_vn": "「!!?」",
+    "fix": "「Ư!!?」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！！？」 whole-line gasp."
+  },
+  {
+    "key": "1568",
+    "character": "オリヴィ",
+    "jp": "「っ！！！」",
+    "tw": "「呀！！！」",
+    "old_vn": "「!!!」",
+    "fix": "「Ư!!!」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！！！」 whole-line gasp."
+  },
+  {
+    "key": "1569",
+    "character": "双鉄",
+    "jp": "「っ！！？」",
+    "tw": "「呃！！？」",
+    "old_vn": "「!!?」",
+    "fix": "「Ư!!?」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！！？」 whole-line gasp."
+  },
+  {
+    "key": "1570",
+    "character": "宗方",
+    "jp": "「っ！？」",
+    "tw": "「呃！？」",
+    "old_vn": "「!?」",
+    "fix": "「Ư!?」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！？」 whole-line gasp."
+  },
+  {
+    "key": "1571",
+    "character": "オリヴィ",
+    "jp": "「ふぁ……うふふっ――えへへ～。\\nね？　おいしー、でしょ？」",
+    "tw": "「呼……唔呼呼——哎嘿嘿～好喝吧？」",
+    "old_vn": "「Phu……ufufu——ehehe~.\\nThấy chưa? Ngon, đúng không?」",
+    "fix": "「Phà……ufufu——ehehe~.\\nThấy chưa? Ngon, đúng không?」",
+    "kind": "sfx-fa",
+    "note": "JP ふぁ……: 'Phu' drops the 'a' vowel; decided fa/fu rule ふぁ→'phà'. Laughter 'ufufu'/'ehehe' kept."
+  },
+  {
+    "key": "1574",
+    "character": "オリヴィ",
+    "jp": "「あ、れ？　イタく、ない\\nなら、これ――オリヴィの夢、なの？」",
+    "tw": "「咦？一點也不痛。難道說，奧莉薇還在夢裡嗎？」",
+    "old_vn": "「Ủa? Không, đau.\\nNếu vậy, đây——là giấc mơ, của Olivy, sao?」",
+    "fix": "「Ủa? Không đau.\\nNếu vậy, đây——là giấc mơ, của Olivy, sao?」",
+    "kind": "meaning-inversion",
+    "note": "JP イタく、ない = 'it does not hurt' (TW 一點也不痛). Old VN 'Không, đau.' = 'No, it hurts' — inverted; breaks the dream logic."
+  },
+  {
+    "key": "1590",
+    "character": "双鉄",
+    "jp": "「っ！！？」",
+    "tw": "「哦！！？」",
+    "old_vn": "「!!?」",
+    "fix": "「Ư!!?」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！！？」 whole-line gasp."
+  },
+  {
+    "key": "1591",
+    "character": "オリヴィ",
+    "jp": "「っ――あっ――」",
+    "tw": "「唔——啊——」",
+    "old_vn": "「——A——」",
+    "fix": "「Ư——A——」",
+    "kind": "lost-gasp-initial",
+    "note": "NEW (sweep missed): JP 「っ――あっ――」; VN dropped the line-initial っ. TW 唔——啊—— renders both. あっ――→'A——' kept per locked rule."
+  },
+  {
+    "key": "1592",
+    "character": "ハチロク",
+    "jp": "「っ！！？」",
+    "tw": "「唔！！？」",
+    "old_vn": "「!!?」",
+    "fix": "「Ư!!?」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！！？」 whole-line gasp."
+  },
+  {
+    "key": "1600",
+    "character": "双鉄",
+    "jp": "「っ！」",
+    "tw": "「啊！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！」 whole-line gasp."
+  },
+  {
+    "key": "1601",
+    "character": "日々姫",
+    "jp": "「っ！！！」",
+    "tw": "「啊！！！」",
+    "old_vn": "「!!!」",
+    "fix": "「Ư!!!」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！！！」 whole-line gasp."
+  },
+  {
+    "key": "1602",
+    "character": "日々姫",
+    "jp": "「っ！　～～～っ！」",
+    "tw": "「啊～～～！」",
+    "old_vn": "「! ~~~!」",
+    "fix": "「Ư! ~~~Ư!」",
+    "kind": "lost-gasp-trailing",
+    "note": "Sweep: JP 「っ！　～～～っ！」; both gasps dropped."
+  },
+  {
+    "key": "1614",
+    "character": "オリヴィ",
+    "jp": "「ふあっ」",
+    "tw": "「噗哈」",
+    "old_vn": "「Phu」",
+    "fix": "「Phà」",
+    "kind": "sfx-fa",
+    "note": "JP ふあっ: 'Phu' renders ふ (fu) not ふぁ (fa); decided fa/fu rule ふぁ→'phà'."
+  },
+  {
+    "key": "1616",
+    "character": "オリヴィ",
+    "jp": "「っ！！！！」",
+    "tw": "「噫！！！！」",
+    "old_vn": "「!!!!」",
+    "fix": "「Ư!!!!」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！！！！」 whole-line gasp."
+  },
+  {
+    "key": "1637",
+    "character": "オリヴィ",
+    "jp": "「オリヴィ、メリケンで――オヒトヨの、こ、だけど。\\nだけど、ね？　ずっと、オリヴィ――ムナカタのこと」",
+    "tw": "「奧莉薇——雖然，又是美國式——又是，御一夜的，鐵路人偶。可奧莉薇，一直認為，宗方就是——」",
+    "old_vn": "「Olivy, ở Mỹ——là con của, Ohito, nhưng.\\nNhưng, nhé? Từ lâu, Olivy——đối với Munakata」",
+    "fix": "「Olivy, Meriken——là con của, Ohito, nhưng.\\nNhưng, nhé? Từ lâu, Olivy——đối với Munakata」",
+    "kind": "terminology",
+    "note": "JP メリケン (spoken) → decided 'Meriken' (precedent ハチロク09/10 fixed furigana メリケン→'Meriken' in-audit). Old VN 'ở Mỹ' = 'in America' (location, not origin). 'Ohito' left for unification pass."
+  },
+  {
+    "key": "1657",
+    "character": "オリヴィ",
+    "jp": "「むなふぁふぁほ、ふゅひ、ほへはふへ、ひほひ、ひー\\nひゅへへ、ふぁっふぁふぁ、ほへ、ほんほー、はんは」",
+    "tw": "「宗發發、呼嘿、嚯哈呼嘿、嘿嚯嘿、嘿——咻嘿嘿、發發發、嚯嘿、轟嚯、吭哈」",
+    "old_vn": "「Munafafa, fyuhi, hohefafuhe, hihohi, hi——\\nhyuhehe, faffafa, hohe, honho, hanha」",
+    "fix": "「Munafafaho, fyuhi, hohefafuhe, hihohi, hi——\\nhyuhehe, faffafa, hohe, honho——, hanha」",
+    "kind": "sfx-transliteration",
+    "note": "Gibberish sleep-talk: むなふぁふぁほ = mu-na-fa-fa-ho, old VN 'Munafafa' dropped final ほ; ほんほー long vowel → 'honho——' for consistency with 'hi——' in same line. All other syllables verified."
+  },
+  {
+    "key": "1668",
+    "character": "宗方",
+    "jp": "「起きろ、オリヴィ！　八ツ城までもう少しだ！\\nお前、そんな無責任な\\x%lレイルロオド;#00ffc040;レイルロオド%l;#;じゃ――っ！！！」",
+    "tw": "「快起來，奧莉薇！還差一點就到八代了！你才不是那麼不負責任的\\x%lレイルロオド;#00ffc040;鐵路人偶%l;#;吧！！！」",
+    "old_vn": "「Dậy đi, Olivy! Chỉ còn một chút nữa là đến Yatsushiro rồi!\\nCô đâu phải là một \\x%lレイルロオド;#00ffc040;Railord%l;#; vô trách nhiệm như vậy——!!!」",
+    "fix": "「Dậy đi, Olivy! Chỉ còn một chút nữa là đến Yatsushiro rồi!\\nCô đâu phải là một \\x%lレイルロオド;#00ffc040;Railord%l;#; vô trách nhiệm như vậy——Ư!!!」",
+    "kind": "lost-gasp-trailing",
+    "note": "Sweep (\\n restored from CSV3 — sweep flattened it to a space): JP じゃ――っ！！！ trailing gasp."
+  },
+  {
+    "key": "1680",
+    "character": "ハチロク",
+    "jp": "「さぁ、いかがでしょう？　わたくし、\\n\\x%l運転体;#00ffc040;運転体%l;#;に換装してしまいましたし、力が弱く――ああ！」",
+    "tw": "「我不太清楚。也可能是因為我換了\\x%l運転体;#00ffc040;駕駛體%l;#;，沒什麼力氣——啊！」",
+    "old_vn": "「Chà, sao nhỉ? Em,\\nđã đổi sang \\x%l運転体;#00ffc040;thân chính%l;#; rồi, nên lực tay hơi yếu——A!」",
+    "fix": "「Chà, sao nhỉ? Em,\\nđã đổi sang \\x%l運転体;#00ffc040;thân vận hành%l;#; rồi, nên lực tay hơi yếu——A!」",
+    "kind": "terminology-gloss",
+    "note": "JP 運転体 = driving body (TW 駕駛體); gloss 'thân chính' (main body) is wrong — decided 運転ボディ/運転体→'thân vận hành' (precedent ハチロク07 fixed 運転体 gloss in-audit)."
+  },
+  {
+    "key": "1863",
+    "character": "双鉄",
+    "jp": "「っ！」",
+    "tw": "「！」",
+    "old_vn": "「!」",
+    "fix": "「Ư!」",
+    "kind": "lost-gasp-whole",
+    "note": "Sweep: JP 「っ！」 whole-line gasp."
+  }
+]

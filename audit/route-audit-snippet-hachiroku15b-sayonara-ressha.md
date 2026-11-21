@@ -1,0 +1,12 @@
+## ハチロク15b_さよなら列車 — ハチロク15b_さよなら列車.txt.toml — 20/291 (6,9%)
+
+- File: `ハチロク15b_さよなら列車.txt.toml` — route 01_Hachiroku, 291 dòng script (monologue 110, オリヴィ 78, 宗方 43, 双鉄 17, ハチロク 16, 日々姫 16, 真闇 4, ふかみ 2, ポーレット 1, れいな 1, 赤井 1, ニイロク 1, 凪 1). Nội dung: chuyến tàu tạm biệt — Olivy giải nghệ, chuyến cuối về Yatsushiro cùng Munakata, Soutetsu, Hachiroku, Hibiki; Olivy yếu dần, được Soutetsu bế kiểu công chúa, nói lời từ biệt ("good bye――My Master").
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 291/291 key; VN khớp TOML 100% sau chuẩn hóa `\n`. `[selections]` rỗng. 0 lệch tag `%l`. 1 bản TOML duy nhất (md5 `404ce649831d5bba51a449dd4bd86755`).
+- Phân loại (20): gasp 14 (1264, 1524, 1568, 1569, 1570, 1590, 1591, 1592, 1600, 1601, 1602, 1616, 1668, 1863 — 13 từ sweep áp nguyên + 1 mới 1591 do sweep bỏ sót っ đầu dòng), SFX fa/fu 2 (1571, 1614: ふぁ/ふあ "Phu"→"Phà"), sai nghĩa 1 (1574: イタくない "Không, đau"→"Không đau" — đảo nghĩa), thuật ngữ 2 (1637 メリケン "ở Mỹ"→"Meriken"; 1680 gloss 運転体 "thân chính"→"thân vận hành"), phiên âm gibberish 1 (1657: "Munafafa"→"Munafafaho" + "honho"→"honho——").
+- Sweep kiểm chứng: 13 mục cho file — nhận 13/13 (JP khớp 13/13, old_vn khớp 12/13; 1668 khôi phục `\n` từ CSV3 vì sweep làm phẳng thành khoảng trắng); quét máy bổ sung toàn bộ dòng JP chứa っ — tìm thêm 1 gasp sweep bỏ sót (1591).
+- Giữ nguyên, ghi nhận đợt thống nhất (8 dòng): 御一夜/御鉄 "Ohito"→"Ohitoyo" 6 dòng (1299, 1512, 1637, 1689, 1999, 2143); 小畑線 "Obata"→"Okoba" 1 dòng (1999 — cùng dòng có cả "Ohito"); 右田一 "Migita System"→"Migita Ichi" 1 dòng (2228). **Chờ Hieu:** (1) cụm đại từ Olivy ↔ Soutetsu — file dùng Olivy "chị"/Soutetsu "anh" nhưng độc thoại Soutetsu gọi Olivy "em ấy" 8 lần, còn ハチロク06/10/14 giữ Olivy "tôi" + "cậu" (các dòng 1699, 1839, 1640, 1515, 1522, 1583, 1589, 1858, 1703, 1808); (2) 1654 Olivy tự xưng "chị" với Munakata; (3) 1566 Soutetsu tự xưng "anh" với Munakata ("anh"+"ngài" vênh nhau; tiền lệ ハチロク12 dùng "cháu/chú"); (4) `[characters]` ghi 'Olive' thay vì "Olivy" (key 1908, character_subs 2063 — không phải dòng script).
+- Chi tiết đầy đủ: `audit-hachiroku15b-sayonara-ressha-REVIEW.md`; danh sách sửa: `audit-hachiroku15b-sayonara-ressha-wrong.json` (20 mục, khối TOML 20 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 20/20; lượt soát 2: 20/20, 0 bỏ, 5 sửa — khôi phục dấu 「」 bị sót ở 1571/1574/1614/1637/1657).
+
+- Parent kiểm chứng: (để parent điền)
+
+**Tổng cộng sau file này: 158 file / 7.033 dòng sai** (cơ sở 157 file / 7.013 dòng sai + 20 file này)
