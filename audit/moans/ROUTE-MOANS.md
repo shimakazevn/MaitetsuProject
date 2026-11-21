@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **15 files / 341 rows changed**.
+Merged moan-fix log. Running totals: **17 files / 377 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -319,3 +319,42 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 **Tổng cộng sau file này: 15 file / 341 dòng sai (moan)** (cơ sở 14 file / 321 dòng + 20 file này) [parent REBASE 21/11 ~12:05 — snippet ghi cơ sở 13/318 vì ハチロクh8 đã gộp trước]
 - Parent kiểm chứng 21/11 ~12:05: JSON 20 mục dạng chuẩn, khóa string; khối TOML 20 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 20/20 (1 bộ duy nhất, 327 dòng); TOML md5 khớp audit; 6 key trùng audit chỉ khác đúng token rên (1410 Hya→Hia + Fua, 1424/1429/1433/1436/1440 Haa→Fa/Fua — "YuunƯ"/"AhyuƯ"/"AƯ" và "Em, em"/"máy tính bảng" đều là giá trị audit giữ nguyên); đếm nguyên âm kiểm chứng độc lập: 1428 5 a, 1442 3 a, 1443 6 a, 1425 "Faa" 2 a, 1453 "Uaaaa" 4 a, 1466 "Rerooo" 3 o, 1715 "Reruuuuuuu" 7 u — đều đúng; sweep 20 mục cho file này đã kiểm chứng (9 mục còn lại thuộc ハチロクh2_お勉強の成果, file khác), 1567 KHÔNG có trong sweep (gasp mới, audit sót — ぁっ cuối tuyệt đối dòng 1, thêm Ư theo đúng ranh giới gasp); không dòng "Kh" nào bị đổi (1473 chỉ chứa chữ "không"); lượt soát 2: 20/20, 0 bỏ, 0 sửa.
 - FLAG (đợt thống nhất): F1 1484 (くっ→"Ku" vs audit giữ "Ưm" — tiền lệ Paulette h3 906); F2 chuỗi SFX miệng "chụt" vs romaji (1475/1476/1479/1481/1715); F3 gasp っ―― (1582, 1589); F4 SFX độc thoại 2166–2210; F5 Fa/Fua chặt vs h8 (h8 dùng "Fua" cho cả ふぁ); F6 1473.
+
+---
+
+# Moan-fix snippet — lr_ハチロクh3_通販失敗いたしましたにゃん.txt.toml
+
+- File: lr_ハチロクh3_通販失敗いたしましたにゃん.txt.toml (01_Hachiroku, 331 dòng script).
+- Đã đọc 331/331 dòng; 220 dòng chứa token ứng cử viên rên/SFX.
+- Audit đã áp romaji fa/fu + họ ひゃ từ trước (34 dòng rên) — đợt moan này chỉ kiểm chứng lại, sửa 2 dòng.
+- Sửa 1232: はひゅっ "hahu" → "hahyu" (mất âm ゅ; cùng token diễn đúng "Hahyu" ở 1240).
+- Sửa 1307: gasp っ thứ hai sau ―― bị mất, "Ưm——!" → "Ưm——Ư!" (ghi đè quyết định giữ nguyên của audit §4 + phân loại already-rendered của sweep — parent chốt lúc gộp).
+- Xác nhận cờ audit: họ ちゅう bỏ 't' cuối khi JP không có っ (1277/1279/1283/1287) đúng; 1224 ふあっっっっ → "Fua!!!!!" đúng (っ×4 là nhấn mạnh).
+- Giữ nguyên: 34 dòng rên audit, 15 gasp sweep, 15 dòng SFX （ ） theo quy ước, rên ngắn La-tinh không thêm Ư, không dòng "Kh" nào bị đổi, không còn "Á" cho họ ひゃ.
+- Cờ: F1 1307 cần parent chốt; F2 đếm lặp phụ âm SFX （ ） lệch ±1–2 (1909/1966/1983); F3 しゅこんっ "Ngậm lấy" vs "Nắm chặt" theo ngữ cảnh; F4 1192 りゅっ→"mất" (ngoài phạm vi moan); F5 1370 っ giữa câu giữ không Ư.
+- Lượt soát 2: tổng 2 / tái kiểm chứng 2 / loại bỏ 0 / sửa lại 0.
+- TOML block: parse-verified (tomllib), 2 khóa, 0 sai lệch giá trị vs wrong.json.
+
+**Tổng cộng sau file này: 16 file / 343 dòng sai (moan)** (cơ sở 15 file / 341 dòng + 2 file này)
+- Parent kiểm chứng 21/11 ~12:35: JSON 2 mục dạng chuẩn, khóa string; khối TOML 2 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 2/2 (1 bộ duy nhất, 331 dòng); TOML md5 khớp audit; 1232 chỉ khác giá trị audit đúng token "hahu"→"hahyu" (cùng token diễn đúng "Hahyu" ở 1240); 1307 GIỮ fix của agent ("Ưm——Ư!") — quyết của parent: mẫu っ――っ audit đã thêm Ư ở 1378/1385/1642, phân loại already-rendered của sweep là heuristic sai ("Ưm" chỉ diễn うむっ, tiếng っ thứ hai sau ―― mất hẳn); cờ F1 đã giải quyết, không còn chờ. Lượt soát 2: 2/2, 0 bỏ, 0 sửa.
+- FLAG (đợt thống nhất): F2 (đếm lặp phụ âm SFX （ ） lệch ±1–2: 1909/1966/1983); F3 (しゅこんっ "Ngậm lấy" vs "Nắm chặt" theo ngữ cảnh); F4 (1192 りゅっ→"mất", ngoài phạm vi moan); F5 (1370 っ giữa câu giữ không Ư).
+
+---
+
+# Moan-fix snippet — lr_凪ふかみh1_じぇいけい！.txt.toml (moan-lr-nagifukami-h1-jiekei)
+
+- File: `lr_凪ふかみh1_じぇいけい！.txt.toml` — route 07_Nagi_Fukami, 404 dòng script, TOML md5 `ef960cfc3776057ff0cbcad101eb4875` (khớp md5 audit), không có bản trùng.
+- CSV3: 1 bộ duy nhất, 404 dòng, 0 key trùng; VN khớp TOML 404/404 sau chuẩn hoá `\n`/khoảng trắng.
+- Đã đọc 404/404 dòng; xét 229 dòng rên/hơi thở/SFX.
+- Đổi 34 dòng: 21 romaji + 12 đếm nguyên âm + 1 sai âm.
+- Romaji họ fa/fu (21): 1479, 1481, 1505, 1509, 1510, 1512, 1513, 1522, 1523, 1532, 1581, 1583, 1590, 1595, 1597, 1598, 1603, 1619, 1657, 1658, 1714 — ふあ→Fua, ふぁ→Fa; đổi ngược token fa/fu audit đã đổi thành "Phà" (romaji fallback Hieu 21/11 ~01:56, tiền lệ file mẫu 凪ふかみh1). 1502/1505 khôi phục "Fu……a——" (ふ……ぁ là hai âm riêng, audit gộp sai).
+- Đếm nguyên âm (12): 1477 Hyuaaa (3 a), 1483 Hyuaaaaaaan (7 a + n), 1491 Hyuaaaaaan (5 a + n), 1507 Haa/fuu, 1552 Nfufuun, 1574 Haa——, 1599 Haa ×4, 1614 Haa ×4, 1677 haa + 8 a + n, 1695 Haa ×2, 1789 Aa, 1485 auu.
+- Sai âm (1): 1502 ふ……ぁ audit gộp thành "Phà" → khôi phục "Fu……a——".
+- Giữ 195 dòng rên/SFX: gasp Ư (audit, 15), họ ひゃ đã romaji (1475/1476/1484/1488/1490/1521…), くっ→"Hự", んっ→"Ưm", cười Fufu/Ufufu, SFX liếm/mút kiểu động từ Việt, はうっ "Hau" (1587/1841), nói ngọng 1375/1545/1550 (audit).
+- Sweep: 17 mục đã kiểm chứng — 13 fix + 1624 đã vào audit, 3 already-rendered đúng, 1838 đã diễn âm; không đụng mục nào.
+- Audit: 22 key trùng audit, fix chỉ khác đúng token rên (difflib); 12 key fix == old_vn (CSV3) vì đổi ngược đúng token audit đã đổi. Lượt soát 2: tổng 34 / tái kiểm chứng 34 / bỏ 0 / sửa 1 (1491: 6 a → 5 a). JSON 34 mục, khóa string, jp/tw/old_vn khớp CSV3 34/34. Khối TOML parse bằng tomllib: 34 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-lr-nagifukami-h1-jiekei-REVIEW.md`; danh sách sửa: `moan-lr-nagifukami-h1-jiekei-wrong.json`.
+
+**Tổng cộng sau file này: 17 file / 377 dòng sai (moan)** (cơ sở 16 file / 343 dòng + 34 file này) [parent REBASE 21/11 ~12:35 — snippet ghi cơ sở cũ 15/341 vì lr_ハチロクh3 đã gộp trước]
+- Parent kiểm chứng 21/11 ~12:35: JSON 34 mục dạng chuẩn, khóa string; khối TOML 34 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 34/34 (1 bộ duy nhất, 404 dòng); TOML md5 khớp audit; 22 key trùng audit — kiểm chứng bằng diff: mọi fix chỉ khác giá trị audit đúng token rên (Phà/phà→Fa/Fua/fua + đếm nguyên âm 1581/1590; 1479 "Bổn tiểu thư——" là giá trị audit giữ nguyên, moan chỉ đổi "Phà"→"Fua"); 12 key fix==old_vn đều là hoàn lại đúng token fa/fu audit đã đổi (tiền lệ lr追加/h2); 12 key mới đều đếm nguyên âm, kiểm chứng độc lập 12/12 theo công thức (1477 3a, 1483 7a+n, 1491 5a+n, 1507 Haa/fuu, 1552 2u, 1574 2a, 1599 2a×4, 1614 2a×4, 1677 2a+8a+n, 1695 2a×2, 1789 2a, 1485 2u); sweep 17 mục không đụng (0 key trùng); không dòng "Kh" nào bị đổi ("Khịt"/"Khoan" là từ cũ giữ nguyên); không dòng gasp Ư nào bị đụng; lượt soát 2: 34/34, 0 bỏ, 1 sửa (1491 6a→5a).
+- FLAG (đợt thống nhất): F1 (kiểu hơi thở "fu" vs "phù" 1502/1505); F3 ("Nfufuun" vs kiểu "Fufu-n" của audit ở 1550); F5 (hai kiểu diễn độ dài A~~ vs Haa trong cùng dòng 1695); các cờ F2/F4/F6 trong REVIEW ghi lại, không quyết.
