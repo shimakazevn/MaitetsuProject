@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **41 files / 1025 rows changed**.
+Merged moan-fix log. Running totals: **43 files / 1114 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -861,3 +861,42 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 - Parent kiểm chứng 21/11 ~23:05: JSON 44 mục dạng chuẩn, khóa string; khối TOML 44 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 44/44 (1 bộ duy nhất, 265 dòng); TOML md5 64abe8098966360371870067cd0d2843 khớp audit; đếm nguyên âm kiểm chứng độc lập: 881 11u, 911 11a+n, 1008 12a, 901/970 2a, 908 2a, 912 6u, 961 7u, 960 4i, 887 1a+2u; lượt soát 2: 44/44, 0 bỏ, 0 sửa.
 - LƯU Ý: 882/884 fix == VN cũ — HỦY fix romanisation của audit (882 "KyaphùaƯ", 884 "Ưm!!"), giữ VN cũ theo quy tắc romaji (đã đối chiếu audit-paulette-h4-cream-and-cream-wrong.json); 42/44 dòng đổi giá trị so với VN cũ. 906/914/970 giữ phần không-phải-rên của audit, chỉ đổi token rên (đã đối chiếu audit JSON). 1010 thêm "Ư" cho っ đứng riêng (F5, cần xác nhận ở đợt thống nhất — っ sẽ mất hẳn nếu không diễn).
 - FLAG (đợt thống nhất): F1–F10 ghi lại trong snippet (F5 1010; F6 897 きちゃう→"chạm vào" là lỗi nghĩa, agent đã flag không sửa; F8 882/884 hủy fix audit).
+
+---
+
+# Moan-fix snippet — lr_凪h1_痛いの痛いの飛んでけばい (moan-lr-nagih1-itaino-itaino-tondekebai)
+
+- File: `lr_凪h1_痛いの痛いの飛んでけばい.txt.toml` — 304 dòng script, TOML md5 `3b4b468a7b4e2fc41327c15a75dd230c`, không có bản trùng.
+- CSV3: 1 bộ duy nhất 304 dòng (thư mục home `07_Nagi_Fukami`); khớp TOML 304/304 sau chuẩn hoá `\n`.
+- Đã đọc 304/304 dòng; xét 168 dòng rên/SFX (Nagi 83, Soutetsu 19, độc thoại 66 — trong đó 56 dòng SFX （）).
+- Đổi 34 dòng: 17 romaji + 5 mất/sai âm + 12 đếm nguyên âm.
+- Romaji họ fa/fu (13): 1145 `Phuan`→`Fan` (ふぁん), 1185 `phua`→`fa`, 1143 `Phua`→`Fua`, 1180 `Phua`→`Fua`, 1201 `Phua`→`Fa`, 1233 `phua`→`fua`, 1199 `Phua`→`Fua`, 1187 `Phua`→`Fa`, 1195 `Huê`→`Fue` (ふぇ), 1236 `phua`→`fua`, 1158 `Phua`→`Fua`, 1162 `phua`→`fa`, 1129 `Phuya`→`Fuya` (ふや).
+- Gộp một âm bị tách mảnh (4): 1157 `Ưm hyun`→`Nhyun`, 1161 `Ưm hyun`→`Nhyunn`, 1242 `Khu hyun`→`Kuhyun`, 1234 `phu haa`→`Fahaa`.
+- Mất/sai âm (5): 1190 ふあっ `a!`→`fua!` (mất f), 1216 ぺろっ `rero`×5→`pero`×5 (mất p), 1219 ぢゅぼっ `Chubo`→`Jubo` (mất hữu thanh), 1214 わっ `Oa`→`Wa` (mất w), 1169 ぁあっ `a á!`→`Aa!`.
+- Đếm nguyên âm (12): 1163 はあっ×4 `ha`→`haa`, 1130 `Kya phuu…u` (17u)→`Kyafuuuuuuuuuu` (10u, gộp 1 token), 1131 `Nhyuaaaaaa` (6a)→`Nhyuaaaaaaaaaaa` (11a), 1223 `Zujuu…u` (20u)→19u + giữ Ư audit, 1217 `Zuryuuuuu` (6u)→`Zuryuuuuuu` (7u), 1221 `Juruuuuuu` (7u)→`Juruuuuu` (6u), 1222 `Reryuuuu` (4u)→`Reryuuuuu` (5u), 1213 `Juuuuuu` (6u)→`Juuuuu` (5u) + áp Ư audit, 1220 `Reruuuuu` (5u)→`Reruuuu` (4u), 1298 ふーっ `Phù`→`Phùu` ×2, 1379 ふーーーっ `Phùuu`→`Phùuuu` ×4, 1137 ふー `Phù`→`Phùu` ×2.
+- Lỗi hệ thống chính: bản cũ dùng chung "phua"/"Phua" cho cả ふぁ lẫn ふあ (sai âm — ふぁ phải là "Fa") và tách nhiều âm rên đơn thành mảnh rời ("Ưm hyun", "Khu hyun", "phu haa").
+- Giữ 134 dòng rên/SFX (ひゃうっ→"Hyau", んひゅっ→"Nhyu", はひゅっ→"Hahyu", くあっ→"Kua", くふっ→"Kufu", cười "Ufufu"/"Ehehe"/"Nihehe", ぷあっ→"Pua", ふあっ đã romaji đúng 1203/1204/1167/1173/1248/1134/1128, hơi thở ふっ→"Phu"/"phu", toàn bộ 19 dòng gasp Ư của audit).
+- Sweep: 13 mục đã kiểm chứng — không còn mục nào chưa xử lý (9 áp nguyên trong audit + 2 already-rendered + 2 needs-file-audit). Chỉ gộp với audit ở 1213/1223 (giữ Ư, đổi token rên); không dòng "Kh" nào bị đổi.
+- Lượt soát 2: tổng 34 / tái kiểm chứng 34 / bỏ 0 / sửa 0. JSON 34 mục, khóa string, jp/tw/old_vn khớp CSV3 34/34. Khối TOML parse bằng tomllib: 34 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-lr-nagih1-itaino-itaino-tondekebai-REVIEW.md`; danh sách sửa: `moan-lr-nagih1-itaino-itaino-tondekebai-wrong.json`.
+
+**Tổng cộng sau file này: 42 file / 1059 dòng sai (moan)** (cơ sở 41 file / 1025 dòng + 34 file này — cơ sở đã kiểm chứng trực tiếp dòng tổng cuối của ROUTE-MOANS.md)
+- FLAG (đợt thống nhất): F1 kiai 1224/1225 thiếu 1 o theo công thức (16 thay vì 17; 10 thay vì 11) — tiếng hô kiếm thuật, không phải rên, để nguyên chờ quyết; F2 1337 つっっっ→"quá" (audit đã flag chờ Hieu); F3 1366 lời ngọng chưa giải mã (audit đã flag chờ Hieu); F4 "Phu"/"phu" cho ふっ (1155, 1227) giữ không dấu — đợt thống nhất quyết có chuẩn hoá thành "phù" không.
+
+---
+
+# Moan-fix snippet — lr追加_ひよこ電車姫オリヴィ「セックスのお勉強」.txt.toml (moan-lr-hiyoko-olivy-sex-no-obenkyou)
+
+- File: `lr追加_ひよこ電車姫オリヴィ「セックスのお勉強」.txt.toml` — route 11_Other, 441 dòng script, TOML md5 `bdb02933933db615a0380eb3839cd6de`, không có bản trùng.
+- CSV3: 1 bộ duy nhất, 441 dòng, 0 trùng khóa; TOML vs CSV3 khớp 441/441 (chỉ khác `\\n` literal → khoảng trắng, mẫu đã biết).
+- Đọc 441/441 dòng, xét ~160 dòng rên/SFX, sửa 55 dòng, giữ ~105 dòng.
+- Đổi 55 dòng: 19 họ fa/fu → romaji (Fua/Fuaa/Fuaaa/Fuaaaaaa/Pua), 9 họ ひゃ/ひゅ/ひあ/きゃ/や → romaji (Hia/Hyai/Hyagu/Nhyu/Ya/Yaa), 9 họ ん+X gộp romaji (Nku/Nchu/Nkyu/Nkyun/Nuu/Nuuuu/Nfuuuuuu/Fuuuuun), 7 họ ちゅ/れる/じゅ/ごちゅ → romaji (Chumu/Chuu/Chubu/Reru/Rero/Jubu/Jururuu/Zuji/Buchu/Gochu/Pechu), 7 dòng くっ → "Ku", 2 dòng か…… → "Ka", 1 dòng いっ → "I", 4 dòng sửa đếm nguyên âm (1409 1→4a, 1424 3→2a, 1773 phù 1→2u + Ahhh 3→2a, 2343 tách mảnh + 3a).
+- Kiểu lỗi chính: bản cũ tách MỘT âm rên thành nhiều mảnh ("phù ah", "Ư hiu", "Ưm ư ư ư ư", "chụt ưm"), mất phụ âm mora (くっ→"ư", やっ→"Ư", いっ→"Ư", か→"Kh"), sai đếm nguyên âm ("Ahhh" cho 2a, "Cứuu…" cho 13u).
+- Trùng fix audit 2 khóa (2331, 2426): 2331 "Pua" ghi đè "phù ah" của audit (audit sửa "phụt"→"phù ah"); 2426 giữ "Ư" + đếm 13u của audit, chỉ đổi いっ "Ư"→"I". Không hủy toàn bộ fix audit nào. 0 key trùng sweep gasp đã sửa (1301/1554/1591/1925/2099/2166 do audit sửa, không đụng); không dòng "Kh" cho っ nào bị đổi.
+- Sweep: 6 mục — 1301/1554/1591/1925/2099/2166 đã sửa (không đụng); 2146 っっ――→"ư——" giữ nguyên (gasp đã diễn bằng Ư).
+- Giữ ~105 dòng rên/SFX (kiểu ふむ→"Hừm", んっ→"Ưm", あっ/はっ→"Ah/Ha", ふっ→"Phù", cười ふふっ→"Fufu", SFX ngoặc diễn thành động từ VN "Tách ra/Nắn bóp/Phập/Nhóp nhép/Trượt vào/Ngoạm/Ực"; ふえっ→"Hể!?" giữ; 1369 giữ diễn nghĩa).
+- Cờ cho đợt thống nhất: F1 んうっ "Ưm" (ngắn) vs romaji "Nu/Nuu" (dài); F2 ふっ "phù" vs "Fu"; F3 SFX miệng/lưỡi trong thoại → romaji vs động từ VN (ranh giới với SFX ngoặc); F4 べろおおおおっっ → "Berooooo" vs "liếm liếm liếm liếm"; F5 ひっ、ぐっ → "Hi, gu" vs "Hức, hức"; F6 1655 ひよこぉ/もっとぉ mất độ dài ぉ (không sửa); F7 1369 giữ diễn nghĩa SFX hành động trong câu; F8 trùng audit 2331/2426 (xem trên); F9 あっ "Ah" vs "A"/"Á"; F10 2146 っっ――→"ư——" giữ (sweep không bao phủ).
+- Lượt soát 2: tổng 55 / tái kiểm chứng 54 / bỏ 0 / sửa 1 (2437: "Fukyuuuuuuu" 8u → "Fukyuuuuuuuu" 9u). JSON 55 mục, khóa string, jp/tw/old_vn khớp CSV3 55/55. Khối TOML parse bằng tomllib: 55 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-lr-hiyoko-olivy-sex-no-obenkyou-REVIEW.md`; danh sách sửa: `moan-lr-hiyoko-olivy-sex-no-obenkyou-wrong.json`.
+
+**Tổng cộng sau file này: 43 file / 1114 dòng sai (moan)** (cơ sở 42 file / 1059 dòng + 55 file này — REBASE: cơ sở lúc spawn là 41/1025, nhưng lr_凪h1 (34 dòng) đã gộp trước trong cùng lượt, nên tổng hiện tại của ROUTE-MOANS.md là 42/1059)
