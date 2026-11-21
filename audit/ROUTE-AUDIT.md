@@ -4730,6 +4730,25 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 - Lượt soát 2: 36/36, 0 bỏ, 0 sửa. Khối TOML 36 khóa đã parse-kiểm chứng, 0 sai lệch giá trị so với JSON.
 - Cờ cho Hieu: 1802 người nghe mơ hồ (後東 "anh hỏi chúng tôi" — giữ "anh", chưa quyết); 2331 "Cứu mình với" vs "Cứu tôi với" (câu kêu cứu quen thuộc); 1429 dạng "Fukyu" (romaji) vs "Phù kiu".
 
-**Tổng cộng sau file này: 193 file / 9.053 dòng sai** (cơ sở 192 file / 9.016 dòng sai + 36 file này)
+**Tổng cộng sau file này: 193 file / 9.052 dòng sai** (cơ sở 192 file / 9.016 dòng sai + 36 file này) [sửa 22/11: 9.016+36=9.052, không phải 9.053]
 
 - Parent kiểm chứng 22/11 ~02:05: JSON 36 mục (key chuỗi, list-of-dicts), khối TOML 36 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 36/36; second pass 36/36/0/0. Đại từ ĐÃ KIỂM CHỨNG: 1985 "ông ấy"→"anh ấy" đúng — người xoa đầu/ôm là Kiyoharu (TW 2193 清春; VN 1982 đã "Anh ấy"); monologue "tôi"→"mình" ×5 theo chuẩn nội bộ 38/43. Không sửa nào bị loại. CỜ CHO HIEU: 1802 người nghe mơ hồ (giữ "anh"); 2331 "Cứu mình với" vs "Cứu tôi với". B19 vẫn park.
+
+
+---
+
+## 02_Hibiki 日々姫04_同乗.txt.toml — 17/342 (5,0%)
+
+- File: `02_Hibiki/日々姫04_同乗.txt.toml` (route 02_Hibiki, 342 dòng script; monologue 167, 双鉄 43, 日々姫 27, ハチロク 23, 凪 19, ふかみ 19, れいな 15, ポーレット 14, おじいさん 8, おばあさん 4, 男性 2, 女性 1). Nội dung: chuyến đi thử trên 8620 + toa hành khách — khói tràn vào toa, khớp nối chưa kéo căng gây giật, Paulette chuẩn bị kỹ và xin lỗi, Hibiki/Soutetsu/Hachiroku bàn chuyện "nói cảm ơn thay vì xin lỗi", cảnh Nagi/Fukami/Reina giải thích khớp nối bằng ngón tay.
+- TOML md5 bf92fcfe127d0abefa28440544f2c0d5, không có bản trùng; CSV3 1 bộ 342 dòng, key khớp tuyệt đối, VN CSV3 khớp TOML (chỉ 1 khác biệt là kiểu làm phẳng `\n`→khoảng trắng của TOML-2 ở key 2054), 0 dòng VN trống. [selections] rỗng.
+- Phân loại (17): xưng hô 6 (1590, 1994, 2004, 2007, 2051, 2127 — Soutetsu "tôi"→"anh" với Hibiki ×3; Paulette 双鉄くん→"anh Soutetsu" ×2; 1590 dấu phẩy biến "anh" thành hô gọi), thuật ngữ 6 (1940 Jutsu-sen→Jutsusen; 2033, 2596, 2860 Kiha→KiHa; 2067, 2596 Ohimitera→Ohitoyo; 2432 タブレット "thẻ bảng"→"máy tính bảng" + 運転ボディ "cơ thể điều khiển"→"thân vận hành"), gasp 2 (2215, 2868 — cả 2 từ sweep, áp nguyên văn), SFX 2 (1880, 2525 うふふ "Ư hư hư"→"Ufufu" — cười, không phải rên), sai nghĩa 1 (2650 "cô ấy đang mong muốn"→"mọi người đang mong đợi" — TW 他們).
+- Gasp sweep: 2 mục cho file — cả 2 đều đúng JP, áp nguyên văn. Đã quét cơ học toàn bộ 174 dòng JP có っ — 0 gasp bị bỏ sót thêm.
+- Đã kiểm chứng đúng — giữ nguyên: 1569 thẻ JP gốc lệch, VN đã chuẩn hóa (không chạm); 1872–1874 きゃっ → "Á" (hét giật mình, không phải rên H-scene); 1882/1901/2130/2133 っ sau từ có nội dung hoặc cắt câu — không thêm Ư theo ranh giới gasp; 1968 "anh chị" cho 兄さんたち; 2035 "Nhờ cô tìm được" (người nghe là Paulette, cf. 1866); 2191 "nhờ em nhé" với Hachiroku (xưng hô đã thiết lập hai chiều); độc thoại Soutetsu "tôi" thống nhất toàn file; 2440 整備モードの体 ≠ 整備体; 2520/2521 SFX ngẫu hứng; 2615/2737/2762 sắc thái nhỏ; 2910/2911 がくんっ → "Khục"; 僕ら → "chúng tôi" (dạng nhóm).
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 0 lệch số lượng, 0 lệch thuật ngữ JP. Không còn っ thô trong VN (2 hit quét cơ học đều là ッ trong tên JP bên trong thẻ %l: ミッドギア, タブレット).
+- Lượt soát 2: 17/17, 0 bỏ, 0 sửa. Khối TOML 17 khóa đã parse-kiểm chứng, 0 sai lệch giá trị so với JSON.
+- Cờ cho Hieu: 2155 Soutetsu 「ありがとう」 → "Cảm ơn cô." GIỮ NGUYÊN — người nghe không ghi rõ trong JP (kề Reina 2140 và Hibiki 2156); "cô" = Paulette là suy đoán hợp lý nhất nhưng Hibiki/Reina ("em") cũng có thể — cần Hieu quyết. 2004 fix "tôi"→"anh" dựa trên mạch hội thoại (2006 Hibiki phản hồi trực tiếp); 2737 "khẽ" cho ス――と đã giữ.
+- Chi tiết đầy đủ: `audit-hibiki04-doujou-REVIEW.md`; danh sách sửa: `audit-hibiki04-doujou-wrong.json` (17 mục).
+
+**Tổng cộng sau file này: 194 file / 9.069 dòng sai** (cơ sở 193 file / 9.052 dòng sai + 17 file này)
+
+- Parent kiểm chứng 22/11 ~02:20: JSON 17 mục (key chuỗi, list-of-dicts), khối TOML 17 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 17/17; second pass 17/17/0/0. Đại từ ĐÃ KIỂM CHỨNG: 1994/2004/2007 "tôi"→"anh" đúng — người nghe Hibiki (2006 Hibiki phản hồi trực tiếp; Paulette cũng lấy "anh" nên "anh" đúng trong mọi đọc); 2051/2127 Paulette 双鉄くん→"anh Soutetsu"/"anh" đúng theo B4 lock. Spot-check: 2650 TW 他們→"mọi người" đúng; 2432 タブレット→"máy tính bảng", 運転ボディ→"thân vận hành" đúng; 2215/2868 Ư đúng (2868 TW có 呃); 1880/2525 うふふ→"Ufufu" đúng (cười); 1940 Jutsu-sen→Jutsusen đúng. Không sửa nào bị loại. CỜ CHO HIEU: 2155 "Cảm ơn cô." — người nghe không rõ (Paulette/Hibiki/Reina đều có thể); 2737 "khẽ" đã giữ. B19 vẫn park.
