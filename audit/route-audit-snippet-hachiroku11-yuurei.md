@@ -1,0 +1,5 @@
+# Snippet — ハチロク11_幽霊.txt.toml (Hachiroku 11 — "Ghost")
+
+**File:** `01_Hachiroku/ハチロク11_幽霊.txt.toml` — 411 dòng đã đọc đủ, **21 dòng sai (5,1%)**: đại từ nhân xưng 11 (Soutetsu "anh"→"tôi" với Hachiroku: 1377, 1405, 1652, 1810, 1926, 1930, 1932, 1980, 1986; "lời cô"→"lời em": 2131; khóa B4 Paulette "Cậu Soutetsu"→"Anh Soutetsu": 2163) · hơi thở っ bị mất 6 (cả 6 từ sweep: 1393, 1718, 1873, 2092, 2135, 2183) · sai nghĩa 1 (1903) · sai giới tính 1 (2006 "Ông chủ"→"Bà chủ") · lỗi đánh máy 1 (2015 "quý khá"→"quý kh——") · SFX 1 (2827 うふふ→"Ufufu"). Không misalignment, không rotation, không contamination, không orphan, không untranslated, không duplicate keys. Second pass: 21 / 21 re-verified / 0 removed / 0 corrected. Khối TOML 21 khóa đã parse-kiểm chứng, 0 sai lệch. Để vào unification: 2370 "Hinamoto"→"Hinomoto", 2184 gloss 列車 "chuyến tàu"→"đoàn tàu", 1814 帝大 "Đại học Hoàng gia"→"Đại học Đế quốc", 2701 gloss 機関士 "người lái tàu"→"lái tàu".
+
+**Tổng cộng sau file này: 181 file / 8.132 dòng sai** (cơ sở 180 file / 8.111 dòng sai + 21 file này)

@@ -1,0 +1,152 @@
+[
+ {
+  "key": "998",
+  "jp": "「……うなずいていてくれてる人、多い。です。\\nすごく、熱心に聞いてくれてる感じで」",
+  "tw": "「……有很多人在點頭，他們都聽得很認真。嗯」",
+  "old_vn": "「……Có rất nhiều người đang gật đầu. Ạ.\\nCảm giác như họ đang lắng nghe rất chăm chú.」",
+  "fix": "……Có rất nhiều người đang gật đầu.\\nCảm giác như họ đang lắng nghe rất chăm chú.",
+  "kind": "dịch thừa",
+  "character": "ふかみ",
+  "reason": "Bỏ “Ạ.” đứng một mình — です cuối câu không dịch thành một câu “Ạ.” riêng; VN không có hạt lịch sự đứng độc lập."
+ },
+ {
+  "key": "1304",
+  "jp": "「ふわわわわぁ～っ」",
+  "tw": "「哇啊啊啊～」",
+  "old_vn": "「Oa a a a a~」",
+  "fix": "「Oa a a a a~Ư」",
+  "kind": "gasp",
+  "character": "れいな",
+  "reason": "Sweep lost-gasp-trailing: JP ふわわわわぁ～っ, VN mất っ cuối; thêm Ư (6 mora JP = 6 âm VN, đã khớp)."
+ },
+ {
+  "key": "1326",
+  "jp": "「う、うん。わたしも。\\nそうかもって思う。です」",
+  "tw": "「嗯。我也覺得這樣可能比較好。嗯」",
+  "old_vn": "「Ư, ừm. Mình cũng.\\nNghĩ là như vậy. Ạ.」",
+  "fix": "「Ư, ừm. Mình cũng nghĩ là như vậy ạ.」",
+  "kind": "dịch thừa",
+  "character": "ふかみ",
+  "reason": "Bỏ “Ạ.” đứng một mình ở cuối (です); gộp “Mình cũng / Nghĩ là như vậy” thành một câu, giữ “ạ” cuối câu."
+ },
+ {
+  "key": "1330",
+  "jp": "「うん。\\n今なら抜けても気づかれないって思ったし――」",
+  "tw": "「嗯。我覺得現在正是悄悄離開的大好時機——」",
+  "old_vn": "「Ừm.\\nChị nghĩ nếu bây giờ rút lui thì cũng không ai nhận ra đâu――」",
+  "fix": "「Ừm.\\nEm nghĩ nếu bây giờ rút lui thì cũng không ai nhận ra đâu――」",
+  "kind": "pronoun",
+  "character": "日々姫",
+  "reason": "Hibiki nói với Soutetsu (anh trai, 1311 “Anh trai. Cảm ơn anh.”) — tự xưng phải là “em”, không phải “Chị”; các dòng khác của Hibiki trong file đều “em” (953, 1018, 1431, 1440)."
+ },
+ {
+  "key": "1334",
+  "jp": "「うん！」",
+  "tw": "「嗯！」",
+  "old_vn": "「Tuyệt quá!」",
+  "fix": "「Ừ!」",
+  "kind": "thêm nghĩa",
+  "character": "ポーレット",
+  "reason": "JP 「うん！」 chỉ là đồng tình “Ừ!”; “Tuyệt quá!” thêm nghĩa đánh giá không có trong JP."
+ },
+ {
+  "key": "1358",
+  "jp": "「レイアウト……せっかく持ってきたのに。です」",
+  "tw": "「好不容易把場景模型都……搬來了。嗯」",
+  "old_vn": "「Sa bàn…… cất công mang đến tận đây vậy mà. Ạ.」",
+  "fix": "「Sa bàn…… cất công mang đến tận đây vậy mà.」",
+  "kind": "dịch thừa",
+  "character": "ふかみ",
+  "reason": "Bỏ “Ạ.” đứng một mình — です cuối câu."
+ },
+ {
+  "key": "1527",
+  "jp": "「わたし、電話かけます。です。凪ちゃんと手分けして。\\nおかあさんから、名簿借りて、お願いしてみます。です」",
+  "tw": "「由我來打電話，我和小凪分頭打電話聯繫同行。我去問媽媽借名冊」",
+  "old_vn": "「Em sẽ, gọi điện thoại. Ạ. Chia nhau ra gọi cùng với Nagi.\\nEm sẽ mượn danh sách từ mẹ, rồi nhờ họ thử xem. Ạ.」",
+  "fix": "「Em sẽ gọi điện thoại ạ. Chia nhau ra gọi cùng với Nagi.\\nEm sẽ mượn danh sách từ mẹ, rồi nhờ họ thử xem ạ.」",
+  "kind": "dịch thừa",
+  "character": "ふかみ",
+  "reason": "Bỏ 2× “Ạ.” đứng một mình (2× です); gộp câu, giữ “ạ” cuối mỗi câu; bỏ dấu phẩy thừa sau “Em sẽ”."
+ },
+ {
+  "key": "1530",
+  "jp": "「無論だ。近くに着水させよう。\\nナビも状況を把握している」",
+  "tw": "「當然可以。我現在就讓它降落到附近的水面上。情況Ｎａｖｉ已經都了解了」",
+  "old_vn": "「Tất nhiên rồi. Anh sẽ cho nó hạ cánh trên mặt nước gần đây.\\nNavi cũng đã nắm bắt được tình hình rồi.」",
+  "fix": "「Tất nhiên rồi. Tôi sẽ cho nó hạ cánh trên mặt nước gần đây.\\nNavi cũng đã nắm bắt được tình hình rồi.」",
+  "kind": "pronoun",
+  "character": "双鉄",
+  "reason": "Soutetsu trả lời Hachiroku (1690 cô ấy hỏi) — theo quy tắc đã chốt Soutetsu “tôi” với Hachiroku, không phải “Anh”; kiểm chứng người nghe từ 1690."
+ },
+ {
+  "key": "1601",
+  "jp": "「あんなのできたら……\\n景観もなにもなくなっちゃう。です」",
+  "tw": "「要是建了那種工廠……城市的風貌就全沒了」",
+  "old_vn": "「Nếu thứ đó được xây lên thì……\\ncảnh quan hay gì đó cũng sẽ biến mất hết. Ạ.」",
+  "fix": "「Nếu thứ đó được xây lên thì……\\ncảnh quan hay gì đó cũng sẽ biến mất hết.」",
+  "kind": "dịch thừa",
+  "character": "ふかみ",
+  "reason": "Bỏ “Ạ.” đứng một mình — です cuối câu."
+ },
+ {
+  "key": "1703",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "fix": "「Ư!」",
+  "kind": "gasp",
+  "character": "双鉄",
+  "reason": "Sweep lost-gasp-whole: JP 「っ！」, VN chỉ còn “!”; thêm Ư."
+ },
+ {
+  "key": "1955",
+  "jp": "ゥィン――と、\\n低いモーター音が議場に響く。",
+  "tw": "嗡——會場中響起馬達的低鳴聲。",
+  "old_vn": "O o――\\nTiếng động cơ trầm thấp vang lên trong hội trường.",
+  "fix": "Uyn――\\nTiếng động cơ trầm thấp vang lên trong hội trường.",
+  "kind": "SFX",
+  "character": "monologue",
+  "reason": "JP ゥィン―― là tiếng mô-tơ rít “ween”; “O o” không khớp âm JP (TW 嗡——); sửa theo âm JP."
+ },
+ {
+  "key": "2251",
+  "jp": "そしてさらさら何かを――っ！！",
+  "tw": "然後她流利地畫出了——！！",
+  "old_vn": "Và rồi con bé thoăn thoắt vẽ thứ gì đó――!!",
+  "fix": "Và rồi con bé thoăn thoắt vẽ thứ gì đó――Ư!!",
+  "kind": "gasp",
+  "character": "monologue",
+  "reason": "Sweep lost-gasp-trailing: JP そしてさらさら何かを――っ！！, VN mất っ; thêm Ư."
+ },
+ {
+  "key": "2269",
+  "jp": "笑顔と、笑顔と、笑顔の中を、笑顔にあふれた御一夜を。\\n\\x%l8620;#00ffc040;8620%l;#;が\\x%lキハ07;#00ffc040;キハ07%l;#;sが新しい\\x%l客車;#00ffc040;客車%l;#;が、僕らをのせて走ってる。",
+  "tw": "畫上，\\x%l8620;#00ffc040;８６２０%l;#;和\\x%lキハ07;#00ffc040;Ｋｉｈａ０７%l;#;Ｓ以及全新的\\x%l客車;#00ffc040;客運車廂%l;#;正載著我們，跑在充滿笑容的御一夜中。",
+  "old_vn": "Giữa những nụ cười, nụ cười và nụ cười, một Ohimitera tràn ngập tiếng cười.\\n\\x%l8620;#00ffc040;8620%l;#; và \\x%lキハ07;#00ffc040;KiHa 07%l;#;S cùng \\x%l客車;#00ffc040;toa hành khách%l;#; mới, đang chở chúng tôi băng băng chạy.",
+  "fix": "Giữa những nụ cười, nụ cười và nụ cười, một Ohimitera tràn ngập nụ cười.\\n\\x%l8620;#00ffc040;8620%l;#; và \\x%lキハ07;#00ffc040;KiHa 07%l;#;S cùng \\x%l客車;#00ffc040;toa hành khách%l;#; mới, đang chở chúng tôi băng băng chạy.",
+  "kind": "dịch sai",
+  "character": "monologue",
+  "reason": "JP 笑顔にあふれた = tràn ngập nụ cười; “tiếng cười” (âm thanh cười) dịch sai 笑顔. Cùng dòng đã dịch 笑顔→“nụ cười” 3 lần trước đó. “Ohimitera” GIỮ — đợt thống nhất."
+ },
+ {
+  "key": "2344",
+  "jp": "ふっと、稀咲が笑顔を浮かべる。\\nあきれたような、疲れたような――",
+  "tw": "稀咲忽然笑了起來。她似乎是放棄了，又像是已經疲倦了。",
+  "old_vn": "Phụt, Kisaki nở một nụ cười.\\nNhư thể đã cạn lời, lại như thể đã mệt mỏi――",
+  "fix": "Bỗng nhiên, Kisaki nở một nụ cười.\\nNhư thể đã cạn lời, lại như thể đã mệt mỏi――",
+  "kind": "SFX",
+  "character": "monologue",
+  "reason": "JP ふっと、笑顔を浮かべる: ふっと là phó từ “bỗng nhiên” (TW 忽然), không phải hiệu ứng âm thanh; “Phụt” đọc sai phó từ thành SFX."
+ },
+ {
+  "key": "2515",
+  "jp": "（さて、僕も動かねば）",
+  "tw": "（我也該行動了）",
+  "old_vn": "（Giờ thì, mình cũng phải hành động thôi）",
+  "fix": "（Giờ thì, tôi cũng phải hành động thôi）",
+  "kind": "pronoun",
+  "character": "monologue",
+  "reason": "Độc thoại nội tâm Soutetsu 「（さて、僕も動かねば）」 — câu khẳng định quyết tâm, không phải tự vấn cảm xúc nên quy tắc chung “tôi” áp dụng (ngoại lệ “mình” chỉ cho tự vấn nội tâm cảm xúc); các độc thoại lân cận trong file đều “tôi” (1853, 1967, 2046, 2188)."
+ }
+]
