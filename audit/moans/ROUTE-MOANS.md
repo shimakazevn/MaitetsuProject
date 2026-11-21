@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **24 files / 528 rows changed**.
+Merged moan-fix log. Running totals: **25 files / 561 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -506,3 +506,21 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 
 **Tổng cộng sau file này: 24 file / 528 dòng sai (moan)** (cơ sở 23 file / 526 dòng + 2 file này)
 - Parent kiểm chứng 21/11 ~15:05: JSON 2 mục dạng chuẩn, khóa string; khối TOML 2 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 2/2 (1 bộ duy nhất, 667 dòng); TOML md5 khớp audit; đếm nguyên âm kiểm chứng độc lập: 2075 JP きゃふうううううん = ふ1u + う×5 = 6u — fix moan 6u đúng; LƯU Ý: giá trị fix của audit cho 2075 là 5u ở CẢ JSON lẫn khối TOML trong REVIEW.md của audit (không phải 6u như ghi chú parent lúc merge audit "sửa 7u→6u" — 7u chỉ có trong file tomlblock.txt cũ; giá trị 6u trong text review của audit không vào JSON/block) — fix moan 6u đè lên giá trị audit 5u ở đợt thống nhất; 2082 "a"→"Ya" (やっ mất phụ âm y, tiền lệ 2085 Yaa + Paulette h3); diff mỗi fix chỉ khác old_vn đúng chỗ mục tiêu; không dòng gasp Ư nào bị đụng (2075 Ư 0→0; 2082 "Ưm" đã có trong old_vn từ んっ); không dòng "Kh"; lượt soát 2: 2/2, 0 bỏ, 0 sửa.
+
+---
+
+# Moan snippet — ポーレットh2_制服変更？.txt.toml
+
+- File: ポーレットh2_制服変更？.txt.toml (03_Paulette, 292 dòng, audit 47 sai đã merge).
+- Đọc toàn bộ 292/292 dòng; 99 dòng rên/SFX theo mẫu quét.
+- Đổi 33 dòng rên: 8 romaji họ fa/fu + ひゃ/きゃ (932, 942, 944, 956, 991, 992, 1003, 1008); 5 "Á"/từ cho やっ/やあ (927, 935, 946, 980, 1025); 7 trộn "Ưm + romaji" trong một âm (938, 1019, 1021, 1022, 1023, 1025, 1026); 9 đếm nguyên âm (923, 929, 932, 946, 957, 962, 963, 992, 1008); 4 mất phụ âm mora (928, 931, 937, 967); 4 khác (950, 972, 1006, 1660).
+- Lỗi nặng nhất: rên ん + phụ âm bị tách "Ưm hyu"/"Ưm yu" (7 dòng, kể cả 1023 sai phụ âm ky→hy); họ fa/fu bị Việt hoá mất âm ("phù" cho ふあ, "phá" cho ふぁ); "Á" cho やっ/きゃっ mất phụ âm y/k.
+- Gasp Ư của sweep/audit (952, 985, 1004, 1135, 950-cuối) không đụng; không dòng "Kh" khóa nào bị đổi (1003 "Khà"→"Kua": "Kh" đó là cách diễn sai của くあ).
+- Cờ: 963 ĐÃ SỬA (parent): JP 10u (không phải 11u như agent đếm), VN cũ romaji 11u thừa 1u → fix romaji 10u "Afuuuuuuuuuun!!!", không áp fix audit; 5 dòng gasp Ư (952, 985, 1004, 1135, 950-cuối) đã có fix trong audit — áp ở đợt thống nhất, TOML-2 giữ VN cũ là đúng mô hình amendment; 960 nói ngọng để audit.
+- Lượt soát 2: 33/33 tái kiểm chứng, 0 bỏ, 1 sửa (32 của agent + 1 parent bổ sung 963; 929 bổ sung んううっ→"Nuu" bị sót lượt 1).
+- JSON 33 mục dạng chuẩn, khóa string, jp/tw/old_vn khớp CSV3 33/33; khối TOML 33 khóa parse đúng, 0 sai lệch. Parent SỬA 950: giá trị fix xây trên giá trị audit (giữ "anh Soutetsu" + "Ư!" cuối của audit, chỉ đổi "Hya un"→"Hyaun").
+
+**Tổng cộng sau file này: 25 file / 561 dòng sai (moan)** (cơ sở 24 file / 528 dòng + 33 file này) [REBASE — cơ sở lúc giao là 23/526, Hibiki h6 (2 dòng) đã gộp 21/11 ~15:05]
+- Parent kiểm chứng 21/11 ~15:35: JSON 33 mục dạng chuẩn, khóa string (32 của agent + 1 parent bổ sung 963); khối TOML 33 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 33/33 (1 bộ duy nhất, 292 dòng); TOML md5 khớp audit; đếm nguyên âm kiểm chứng độc lập: 923 10a, 957 5a, 962 8a, 980 4a, 1019 5u, 1021 11u, 1022 4u, 1023 6u, 929 2u+2a, 938 3u — đều đúng; 5 key trùng audit chỉ khác đúng token rên (923/932/956/957/991) — TRỪ 950 (xem dưới); 1003 "Khà"→"Kua": "Kh" đó là cách diễn sai của くあ, không phải Kh khóa cho っ; 1660 thống nhất theo 1645 (cùng JP （くちいっ）); lượt soát 2: 33/33, 0 bỏ, 1 sửa.
+- SỬA (parent): 950 — giá trị fix của agent xây trên VN cũ, bỏ mất 2 sửa của audit ("anh Soutetsu" + "Ư!" cuối dòng, sweep gasp); đã sửa thành giá trị xây trên fix audit (chỉ đổi "Hya un"→"Hyaun"). THÊM 963 — agent tưởng VN cũ romaji 11u đã đúng số lượng, nhưng JP đếm máy chỉ có 10u (ふ1u + う×9); VN cũ thừa 1u; fix romaji 10u "Afuuuuuuuuuun!!!", không áp fix audit "À phùuuuuuuuuun!!!" (đủ 10u nhưng Việt hoá theo lý do tiền-romaji-rule).
+- FLAG (đợt thống nhất): 963 — giữ romaji 10u (không áp fix audit); 960 nói ngọng để audit; 1001 くぅん sau tên giữ theo tiền lệ h1; 1639 "liếm" giữ. 5 dòng gasp Ư (952/985/1004/1135/950-cuối) đã có fix trong audit — áp ở đợt thống nhất; TOML-2 giữ VN cũ là đúng mô hình amendment, không thiếu gì.
