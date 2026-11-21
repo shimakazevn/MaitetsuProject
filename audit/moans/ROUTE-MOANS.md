@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **40 files / 981 rows changed**.
+Merged moan-fix log. Running totals: **41 files / 1025 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -839,3 +839,25 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 **Tổng cộng sau file này: 40 file / 981 dòng sai (moan)** (cơ sở 39 file / 962 dòng + 19 file này — cơ sở đã kiểm chứng trực tiếp dòng tổng cuối của ROUTE-MOANS.md)
 - Parent kiểm chứng 21/11 ~22:50: JSON 19 mục dạng chuẩn, khóa string; khối TOML 19 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 bộ tốt 11_Other 19/19 (bộ 07_Nagi_Fukami stale, 12/301); TOML md5 5dee3edcf2470621aa4f3b78c9c0a43b khớp audit; 0 key trùng audit; không dòng "Kh" nào bị đổi (989/997/1017/1731/1739); không đụng thẻ %l đã bỏ (1050/1073/1096×2); đếm nguyên âm kiểm chứng độc lập: 1011 8a, 1555 2a+n, 983 2a/2a, 1025 Fa/Fan, 1034 Fahi/Fan, 1043 Pua (ぷあ), 981 Fua, 982 Pua; lượt soát 2: 19/19, 0 bỏ, 0 sửa.
 - FLAG (đợt thống nhất): F1 — 6 dòng fa/fu (973/981/982/1025/1034/1043) sửa romaji thay cho ghi chú thống nhất "→ phà/phùa" (quyết 21/11 ~01:55) — áp romaji theo fallback Hieu duyệt 01:56 (bản cũ "phù ah"/"Phù a" tách mảnh, ngượng); cập nhật mục thống nhất cho file này. F2–F8 ghi lại trong snippet.
+
+---
+
+# Moan-fix snippet — ポーレットh4_クリーム＆クリーム.txt.toml (moan-paulette-h4-cream-cream)
+
+- File: `ポーレットh4_クリーム＆クリーム.txt.toml` — route 03_Paulette, 265 dòng script, TOML md5 `64abe8098966360371870067cd0d2843`, không có bản trùng.
+- CSV3: 1 bộ duy nhất, 265 dòng; TOML vs CSV3 khớp 265/265 (146 dòng chỉ khác `\n` literal → khoảng trắng, mẫu đã biết).
+- Đọc 265/265 dòng, xét 123 dòng rên/SFX (83 thoại + 40 SFX ngoặc), sửa 44 dòng, giữ 79 dòng.
+- Đổi 44 dòng: 18 họ fa/fu → romaji (Fua/Fuya/Funyaa/Fuhya/Pua), 12 họ ひゃ/ひゅ/ひあ/きゃ → romaji (Hya/Hyu/Hia/Kya/Nhyu...), 13 họ ん+phụ âm/nguyên âm dài → romaji gộp (Nkyu/Nmyu/Na/An/Nuu/Nuuuuuu...), 6 họ ちゅ → romaji (Chumu/Churo/Churu/Chuu...), 4 dòng やっ → "Ya", 8 dòng sửa đếm nguyên âm (881: 12→11u; 911: 10→11a + thêm n; 1008: 11→12a; 901/970: 1→2a; 896/932: phù→Phùu; 908: Hà→Haa).
+- Kiểu lỗi chính: bản cũ mất phụ âm mora (ひゅ/きゅ/や/か/が/く → "Á"/"a"/"Ưm"/"đang"), tách một âm rên thành nhiều mảnh ("Ưm hya", "Ưm ááá"), và diễn ふあ thành "phù" sai nguyên âm.
+- Trùng fix audit 11 khóa (859, 881, 882, 884, 901, 903, 906, 911, 914, 952, 970): 10 fix "romanisation" của audit (chuyển romaji về VN) bị moan sửa/hủy theo quy tắc romaji — trong đó 882/884 giá trị moan = VN cũ (hủy fix audit); 906/914/970 giữ phần không-phải-rên của audit (đại từ, nói ngọng), chỉ đổi token rên.
+- Sweep: 4 mục — 1030/1632/941 đã sửa (không đụng); 896 "already-rendered" (chuỗi っ cuối 6 ư vs 7 っ giữ nguyên theo sweep).
+- Giữ 79 dòng rên/SFX (kiểu "Hyan!"/"Hyaaa" đã đúng romaji; "hự" cho grunt Soutetsu; "phù" cho ふっ — h7 F7 vẫn mở; SFX ngoặc diễn thành động từ VN "Phập/Phụt/Siết/Nắn bóp"; "chụt" cho ちゅっ thuần).
+- Cờ cho đợt thống nhất: F1 họ く Ku vs Hự vs Ư; F2 ん+phụ âm romaji gộp vs "Ưm"; F3 ふっ "phù" vs "Fu"; F4 họ ちゅ "chụt" vs romaji (1594 giữ "chụt" trong SFX ngoặc vs 930 "Churu"); F5 gasp sweep chưa bao phủ — 1010 っ đứng riêng đã thêm "Ư" (cần xác nhận), 932 ～っ đầu dòng giữ "～"; F6 897 きちゃう→"chạm vào" là lỗi nghĩa, KHÔNG sửa (cần vòng audit); F7 896 chuỗi っ 6 ư vs 7 っ; F8 10 fix romanisation của audit bị moan thay thế; F9 họ ふ "F" vs "ph" (file này theo h7 809: Fuya/Fua); F10 1594 vs 930 cùng âm ちゅるっ hai cách diễn.
+- Lượt soát 2: tổng 44 / tái kiểm chứng 44 / bỏ 0 / sửa 0. JSON 44 mục, khóa string, jp/tw/old_vn khớp CSV3 44/44. Khối TOML parse bằng tomllib: 44 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-paulette-h4-cream-cream-REVIEW.md`; danh sách sửa: `moan-paulette-h4-cream-cream-wrong.json`.
+
+**Tổng cộng sau file này: 41 file / 1025 dòng sai (moan)** (cơ sở 40 file / 981 dòng + 44 file này — REBASE: cơ sở lúc spawn là 39/962, nhưng ふかみh2_homesweethome (19 dòng) đã gộp lúc 21/11 ~22:50 trong khi làm file này, nên tổng hiện tại của ROUTE-MOANS.md là 40/981)
+- FLAG (đợt thống nhất): F1–F10 ghi lại trong snippet (F6 897 きちゃう→"chạm vào" là lỗi nghĩa — agent đã flag, không tự sửa; F8 882/884 hủy fix audit của audit — giá trị moan = VN cũ).
+- Parent kiểm chứng 21/11 ~23:05: JSON 44 mục dạng chuẩn, khóa string; khối TOML 44 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 44/44 (1 bộ duy nhất, 265 dòng); TOML md5 64abe8098966360371870067cd0d2843 khớp audit; đếm nguyên âm kiểm chứng độc lập: 881 11u, 911 11a+n, 1008 12a, 901/970 2a, 908 2a, 912 6u, 961 7u, 960 4i, 887 1a+2u; lượt soát 2: 44/44, 0 bỏ, 0 sửa.
+- LƯU Ý: 882/884 fix == VN cũ — HỦY fix romanisation của audit (882 "KyaphùaƯ", 884 "Ưm!!"), giữ VN cũ theo quy tắc romaji (đã đối chiếu audit-paulette-h4-cream-and-cream-wrong.json); 42/44 dòng đổi giá trị so với VN cũ. 906/914/970 giữ phần không-phải-rên của audit, chỉ đổi token rên (đã đối chiếu audit JSON). 1010 thêm "Ư" cho っ đứng riêng (F5, cần xác nhận ở đợt thống nhất — っ sẽ mất hẳn nếu không diễn).
+- FLAG (đợt thống nhất): F1–F10 ghi lại trong snippet (F5 1010; F6 897 きちゃう→"chạm vào" là lỗi nghĩa, agent đã flag không sửa; F8 882/884 hủy fix audit).
