@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **26 files / 576 rows changed**.
+Merged moan-fix log. Running totals: **27 files / 603 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -542,3 +542,21 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 **Tổng cộng sau file này: 26 file / 576 dòng sai (moan)** (cơ sở 25 file / 561 dòng + 15 file này)
 - Parent kiểm chứng 21/11 ~15:45: JSON 15 mục dạng chuẩn, khóa string; khối TOML 15 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 15/15 (1 bộ duy nhất, 485 dòng); 5 key trùng audit chỉ khác đúng token rên (933/1358/1406/1423/1475), giữ nguyên phần gasp Ư của audit; đếm nguyên âm kiểm chứng độc lập: 1358 15u (ふぁ1u + ふゅ1u + ぅ×13), 1475 3u, 1406 2a — đều đúng; lượt soát 2: 15/15, 0 bỏ, 0 sửa.
 - FLAG (đợt thống nhất): F1 quy ước ふっ ("Hư" file này vs "phù"/"fu" file khác); F2 độ dài SFX （） 2467 vs 2468; F3 2451 くっ→"Ư" trong （）; F4 1475 audit đếm sai (đã sửa bằng giá trị moan); F5 5 dòng chồng audit.
+
+---
+
+# Moan-fix snippet — ハチロクh2_お勉強の成果.txt.toml
+
+- File: ハチロクh2_お勉強の成果.txt.toml (01_Hachiroku, 312 dòng, audit 46 sai đã merge).
+- Đọc toàn bộ 312/312 dòng; 120 dòng rên/SFX theo mẫu quét.
+- Đổi 27 dòng rên: 10 dòng họ fa/fu "phù a"→romaji (974, 976, 996, 1001, 1003, 1004, 1006, 1011, 1036, 1038 — ぷあ→"Pua", ふあ→"Fua", ふ，→"Fu, a"); 8 dòng họ ひゃ/ひゅ/ひあ/きゃ + やっ gộp mảnh/mất phụ âm (719 "Ua", 960/961 "Ya", 964 "Hyua", 965 "Hyafu", 966 "Hyan"+"Afu", 977 "Hiu", 995 "Ahi"); 5 dòng ん+X khôi phục âm mora (1036/1051 "Ưm fu", 1039 "ưm ku", 1054 "Ưm mư", 1120 "ưm ư"); 5 chuỗi dài về romaji + đếm đúng (1019 "Jururuuuuuuuuuu" 12u, 1020 "Junyururururururururu" る×8, 1030 "Kufuuuuuun" 7u, 1038 "Reroooo" 4o, 1206 "chuuuuu" 5u); 1 đếm nguyên âm (1056 "Ưm aa" 2a).
+- Lỗi nặng nhất: "phù a" tách mảnh hệ thống (10 dòng); 1030 "Ư hưm!!!" sai hoàn toàn (mất く, chuỗi 7u thành 1u); 1019/1020 chuỗi mút dài 12–14 mora bị thu thành một "Chu mút".
+- 3 giá trị audit thay thế ở đúng 1 token rên (964 "Hyu a"→"Hyua", 974 "Phù a"→"Fua", 976 "Phù a"→"Fua" giữ Ư cuối dòng); 6/8 fix moan của audit giữ nguyên (973 "Fuaaan", 1053 "Nhyu", 1055 "Nkyu", 1045 "liếm", 972/1148 "Ufufu").
+- Gasp Ư của sweep/audit (14 dòng) không đụng; không dòng "Kh" khóa nào bị đổi.
+- Cờ: 995 双鉄様っ！/双鉄さまぁっ！ (audit không thêm Ư như 990/1189 — để parent quyết); 1020 romaji nguyên dạng là phán đoán (có thể hoàn lại "Chu mút!!"); 976/1011 giữ "a a"/"A a" (tiền lệ kisaki-h3).
+- Lượt soát 2: 27/27 tái kiểm chứng, 0 bỏ, 0 sửa. JSON 27 mục dạng chuẩn, khóa string, jp/tw/old_vn khớp CSV3 27/27; khối TOML 27 khóa parse đúng, 0 sai lệch.
+- Chi tiết đầy đủ: `moan-hachiroku-h2-obenkyou-no-seika-REVIEW.md`; danh sách sửa: `moan-hachiroku-h2-obenkyou-no-seika-wrong.json`.
+
+**Tổng cộng sau file này: 27 file / 603 dòng sai (moan)** (cơ sở 26 file / 576 dòng + 27 file này) [REBASE — cơ sở lúc giao là 25/561, lr_日々姫ふかみh1 (15 dòng) đã gộp 21/11 ~15:45]
+- Parent kiểm chứng 21/11 ~15:50: JSON 27 mục dạng chuẩn, khóa string; khối TOML 27 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 27/27 (1 bộ duy nhất, 312 dòng); 3 key trùng audit chỉ khác đúng token rên (964/974/976), giữ nguyên phần gasp Ư của audit; đếm nguyên âm kiểm chứng độc lập: 1019 12u, 1020 10u (る×8), 1030 7u, 1038 4o, 1206 5u — đều đúng; lượt soát 2: 27/27, 0 bỏ, 0 sửa.
+- FLAG (đợt thống nhất): 995 双鉄様っ！/双鉄さまぁっ！ — audit không thêm Ư như 990/1189, vòng moan không tự thêm gasp (để parent quyết); 1020 romaji nguyên dạng là phán đoán (có thể hoàn lại "Chu mút!!"); 976/1011 giữ "a a"/"A a" theo tiền lệ kisaki-h3.
