@@ -1,5 +1,5 @@
 # Audit queue — Maitetsu: Last Run!! (216 unique files)
-Audited: 182 units (182 files / 8.147 wrong as of 22/11 ~00:35). Remaining: 34 units.
+Audited: 183 units (183 files / 8.449 wrong as of 22/11 ~01:00 — Grand 01 gộp ngoài queue, chưa từng nằm trong queue). Remaining: 34 units.
 
 Order: severity — strong-candidate count desc (from audit-strong-candidates.json), then row count desc. The loop takes the top 2 unaudited entries each run and MUST re-check ROUTE-AUDIT.md before auditing (skip any file already merged there).
 
