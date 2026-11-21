@@ -4810,3 +4810,64 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 197 file / 9.160 dòng sai** (cơ sở 196 file / 9.121 dòng sai + 39 file này)
 
 - Parent kiểm chứng 22/11 ~02:40: JSON 39 mục sau khi loại 1153 (agent nộp 40; key chuỗi, list-of-dicts), khối TOML 39 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 39/39; second pass agent 40/40/0/1 (1174 sửa đúng). **1153 ĐÃ LOẠI**: fix ghi 10 chữ a, JP あ×9 → đúng 9 a (parent đếm lại bằng máy; giá trị đúng ghi trong review để đợt thống nhất/moans áp dụng). Đếm nguyên âm các fix còn lại ĐÃ KIỂM CHỨNG lại bằng máy: 1151 8a/2n ✓, 1156 10a ✓ (1+9う), 1212 12u/6n ✓, 1265 6u ✓, 1195 4a ✓, 1172 2a ✓, 1218 3a ✓; 1240 ぼぢゅん→"Bojun" ✓ (ぢ=ji); 1264 んうきゅ→"Nukyu" ✓; 1674 キャンバス→"tấm vải vẽ" ✓ (JP+TW); gasp sweep 11/11 áp nguyên văn ✓. Không sửa đại từ nào. CỜ CHO HIEU: 1189 JP cụt (VN "đã bao phủ" vs TW "全射了出來"); 1145 "いったら" mơ hồ (giữ theo TW); 1234 nói ngọng (giữ theo TW); 1264/1154 là phán đoán audit, vòng moan-fix có thể phán lại. B19 vẫn park.
+---
+
+## 日々姫01_リゾート食堂列車計画 — 日々姫01 (02_Hibiki) — 4/339 (1,2%)
+
+- File: `日々姫01_リゾート食堂列車計画.txt.toml` — route 02_Hibiki, 339 dòng script. Nội dung: phiên chất vấn của nghị viên Niitsu với thị trưởng Hibiki về dự án tàu ăn uống nghỉ dưỡng xen kẽ cảnh quán cà phê (Soutetsu + Kisaki) và các đoạn riêng tư Soutetsu–Hibiki; chuẩn bị chuyến khảo sát Yufuin / Bungomori.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất; TOML-2 dẹp `\n` thành khoảng trắng ở 227 dòng (chỉ khác định dạng, CSV3 làm chuẩn).
+- Phân loại (4): dịch sai 1 (1220 文字 "dòng chữ" → "chữ"); gasp 1 (1603 「っ！」 "!" → "Ư!" — từ sweep, áp nguyên văn); thuật ngữ 1 (2143 乗務員 "tổ bay" → "nhân viên tàu" — sai lĩnh vực hàng không); đại từ 1 (2191 "chị ấy" → "em ấy" cho Hibiki trong khối độc thoại toàn "em ấy").
+- `[selections]` rỗng. Không có bản sao file này (md5 `b05f3119505d43486fb8018e0b256598` duy nhất).
+- Chi tiết đầy đủ: `audit-hibiki01-resort-shokudo-ressha-REVIEW.md`; danh sách sửa: `audit-hibiki01-resort-shokudo-ressha-wrong.json` (4 mục, khối TOML 4 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 4/4; lượt soát 2: 4/4, 0 bỏ, 0 sửa).
+- Chờ Hieu: không có dòng nào cần quyết. Thuật ngữ dạng cũ chờ thống nhất: "Ohimitera" 13 dòng (1224, 1561, 1658, 1680, 1714, 1773, 1895, 1973, 2004, 2225, 2473, 2484, 2506), "Obata" 1 dòng (2225).
+
+**Tổng cộng sau file này: 198 file / 9.164 dòng sai** (cơ sở 197 file / 9.160 dòng sai + 4 file này)
+
+- Parent kiểm chứng 22/11 ~03:05: JSON 4 mục (key chuỗi, list-of-dicts), khối TOML 4 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 4/4; second pass agent 4/4/0/0. **2191 ĐÃ KIỂM CHỨNG**: "chị ấy"→"em ấy" đúng — khối độc thoại 2175–2194 toàn "em ấy" (2194 nêu rõ Hibiki), 2191 là dòng duy nhất dùng "chị ấy". Không sửa đại từ nào khác. CỜ CHO HIEU: không có dòng nào cần quyết; "Ohimitera" 13 dòng + "Obata" 1 dòng chờ đợt thống nhất. B19 vẫn park.
+---
+
+## ニイロク01_正和四十一年・粉蔵.txt.toml — 17/338 (5,0%)
+
+- File: `08_Niiroku/ニイロク01_正和四十一年・粉蔵.txt.toml` (route 08_Niiroku, 338 dòng script; monologue 118, 赤井 116, ニイロク 104). Nội dung: Akai (lái tàu thử nghiệm) và Niiroku (Railord Kuha 26) trò chuyện trong phòng Akai qua trà/rượu/nấu ăn — quá khứ của Akai (gia đình Thần quan, vợ cũ, con trai, kỳ thi lái tàu thử nghiệm), lịch sử Teitetsu (năm Showa 1, Taisho 35, cắt ngân sách Showa 30, điện khí hóa toàn tuyến, chị D60 46, toa buffet), vai trò và sự ra đời của Niiroku.
+- TOML md5 8e7db333fcbe41b8f453b52285ffd200, không có bản trùng; CSV3 1 bộ 338 dòng, key khớp tuyệt đối, VN khớp TOML (chỉ khác làm phẳng `\n`→khoảng trắng), 0 dòng VN trống. [selections] rỗng; tag %l: JP 3 = VN 5 (2 tag VN thêm, gloss đúng, TW cũng thêm — giữ nguyên, xem review).
+- Phân loại (17): terminology 12 (帝鉄→Teitetsu ×6: 1422, 1554, 1596, 1597, 1677, 1761; 御一夜→Ohitoyo ×3: 1574, 1661, 1715; tài xế→lái tàu ×4: 1715, 1745, 1841, 2188), mistranslation 2 (1177: câu hỏi "thế nào rồi?" bị dịch thành "ai biết được chứ"; 1592: 脈 "Mạch"→"Hi vọng" — TW nhất quán 有希望 ×3, chuỗi echo 1592→1593→2337), gasp 1 (1499 — sweep, áp nguyên văn), SFX 1 (1510: cười うふふっ "Ư fufu"→"Ufufu"), invented-completion 1 (1887: 「では、と」 cụt, VN bịa "tôi xin phép"→"Vậy thì...").
+- Gasp sweep: 1 mục cho file (1499), áp nguyên văn; quét cơ học toàn bộ dòng JP có っ — 0 gasp bị bỏ sót thêm.
+- Đã kiểm chứng đúng — giữ nguyên: 2331 （ぐ～～～～っっ）→"(Ọt~~~~~)" (tiếng sôi bụng đã diễn); 1556/1715 SFX đã diễn; 1497 "Aaaaaa" (6 gạch ngang JP); 1643 "Mới ở đây" (nhấn mạnh); 1522 theo TW; 2202 "Nụ cười" cho それ (đối chiếu 2127/2075); 1563 "chị Shiro" vs 1907 "Chị D60 46" (JP viết khác nhau); 1911 tag %l JP hỏng phía JP, VN đã chuẩn hóa; đại từ đúng toàn file (Niiroku "anh" với Akai, Akai "cô" với Niiroku; không có Soutetsu).
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Không còn っ thô trong VN (dưới dạng hiển thị).
+- Lượt soát 2: 17/17, 0 bỏ, 0 sửa. Khối TOML 17 khóa đã parse-kiểm chứng, 0 sai lệch giá trị so với JSON.
+- Cờ cho Hieu: 1592 脈 là phán đoán của audit (TW nhất quán + ngữ cảnh ngày nghỉ); 1609/1911 tag %l VN thêm (ghi nhận quy ước, đợt thống nhất quyết giữ hay gỡ); 1563/1907 "Shiro" vs "D60 46" (JP viết khác nhau); B19 vẫn park.
+- Chi tiết đầy đủ: `audit-niiroku01-showa41-konazo-REVIEW.md`; danh sách sửa: `audit-niiroku01-showa41-konazo-wrong.json` (17 mục).
+
+**Tổng cộng sau file này: 199 file / 9.181 dòng sai** (cơ sở 198 file / 9.164 dòng sai + 17 file này)
+
+- Parent kiểm chứng 22/11 ~03:05: JSON 17 mục, khối TOML 17 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 17/17; second pass agent 17/17/0/0. **Parent SỬA 3 fix: khôi phục dấu 「」 bị rơi ở 1177/1592/1887** (JP và VN cũ đều có 「」; chỉ thêm lại dấu ngoặc, nghĩa fix giữ nguyên — đã sửa trong JSON + khối TOML + review; số lượng không đổi, vẫn 17). **1592 ĐÃ KIỂM CHỨNG**: 脈→"Hi vọng" đúng — TW 有希望 nhất quán ở 1563/1593/2337 + ngữ cảnh 1590 hỏi ngày nghỉ của Akai; chuỗi echo 1592→1593→2337 đều "Hi vọng". 1177: JP là câu hỏi, TW "我也不知道" sai theo JP (JP thắng TW). CỜ CHO HIEU: 1592 Hieu xác nhận khi chơi; 1609/1911 tag %l VN thêm (gloss đúng, TW cũng thêm) → đợt thống nhất quyết giữ hay gỡ. B19 vẫn park.
+---
+
+## ニイロク02_御一夜旅行.txt.toml — 10/334 (3,0%)
+
+- File: `08_Niiroku/ニイロク02_御一夜旅行.txt.toml` (route 08_Niiroku, 334 dòng script; monologue 107, ニイロク 121, 赤井 52, 電車区長 34). Nội dung: Niiroku tập diễn cảnh manga shoujo (ô + bánh mì nướng) để tiếp cận Akai; thi ném lon rỗng với Đoạn trưởng; thị sát tuyến Yunoi / về quê Akai ở Ohitoyo. Không có H-scene.
+- TOML md5 c7bfa06aef1191eec35f52dfcea23b82, không có bản trùng; CSV3 1 bộ 334 dòng, key khớp tuyệt đối, VN khớp TOML 334/334, 0 dòng VN trống. [selections] rỗng; 0 tag %l lệch.
+- Phân loại (10): gasp 4 (1503, 1561, 1635 — từ sweep, áp nguyên văn; 1571 — sweep bỏ sót, っ đứng một mình đầu dòng), thuật ngữ 3 (1623, 1760 Ohimitera→Ohitoyo; 2171 帝鉄 "Đường sắt Hoàng gia"→Teitetsu), nguyên âm 2 (1565 はうぅ "Ha ư"→"Ha ư ư"; 1592 うふふふふふ 5 fu, VN cũ 4 fu), bịa thêm 1 (1506 bỏ "Của mình." — から cuối câu không có nghĩa đó).
+- Sweep gasp: 6 mục đã kiểm tra trực tiếp — 3 nhận nguyên văn, 3 already-rendered (1524, 1560, 1563) giữ nguyên; +1 gasp sweep bỏ sót (1571) tìm thêm bằng quét cơ học toàn bộ dòng JP có っ.
+- Đại từ: không sửa dòng nào — không có Soutetsu trong file; Niiroku "Tôi" chủ đạo vs "Em" ở 1570/1788/1878 (nói với Akai) — cờ cho Hieu, chưa có quy tắc chốt.
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 0 lệch. Không còn っ thô trong VN.
+- Lượt soát 2: 10/10 tái kiểm chứng, 0 bỏ, 6 sửa (bắt được 6 fix bản nháp làm rơi dấu 「」 — đã khôi phục). JSON 10 mục (key chuỗi); khối TOML 10 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 10/10; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-niiroku02-ohitoyo-ryoko-REVIEW.md`; danh sách sửa: `audit-niiroku02-ohitoyo-ryoko-wrong.json` (10 mục).
+- Cờ cho Hieu: (1) 1547 大丈夫よ？ — VN "Chị nghe đây?" giữ nguyên, mơ hồ (JP "Em có sao không?" vs TW "chị đang rảnh"); (2) 1166 「と」→"Chứ" giữ nguyên (chơi chữ tiểu từ trích dẫn, không có cách diễn VN sạch); (3) đại từ Niiroku "Tôi" vs "Em" (1570/1788/1878) cần chuẩn thống nhất; (4) B19 vẫn park.
+
+**Tổng cộng sau file này: 200 file / 9.191 dòng sai** (cơ sở 199 file / 9.181 dòng sai + 10 file này)
+
+- Parent kiểm chứng 22/11 ~03:05: JSON 10 mục, khối TOML 10 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 10/10; second pass agent 10/10/0/6 (6 fix nháp rơi 「」 đã khôi phục trước khi nộp). **1571 ĐÃ KIỂM CHỨNG**: gasp sweep bỏ sót, agent tự quét cơ học mọi dòng JP có っ và bắt được — fix "Ư!!!" đúng. Không sửa đại từ nào. CỜ CHO HIEU: 1547 "Chị nghe đây?" mơ hồ (JP vs TW); 1166 wordplay quotative-と; đại từ Niiroku "Tôi" vs "Em" với Akai (1570/1788/1878) chưa có quy tắc chốt → đợt thống nhất. B19 vẫn park.
+---
+
+## lr稀咲追加01_仲国視察の誘い.txt.toml — 19/330 (5,8%)
+
+- File: `lr稀咲追加01_仲国視察の誘い.txt.toml` — route 06_Kisaki, 330 dòng script, đọc toàn bộ 330/330 dòng đối chiếu JP + TW từ CSV3.
+- **Sai 19 dòng (5,8%)** — thuật ngữ 14, thở gấp 1 (sweep 1400), sai nghĩa 1, đại từ 2, SFX 1. Không lệch vị trí, không chuỗi xoay, không nhiễm chéo, không mồ côi, không chưa dịch, không trùng khóa.
+- Lỗi chính: 御一夜 → "Ohitoyo" (1300, 1772, 1866, 1868, 1906, 1920, 1921); 湯医線 → "tuyến Yunoi" (1868); 姜 → "cô Khương" thay cho "cô Jiang" (1025, 1260, 1275, 1321, 1564, 1864); 隈銀 → "Ngân hàng Kumamoto" (1921); マイレールファンド → "Quỹ Đường sắt của tôi" (1309); ký tự CJK lọt vào "dự案" (1336); Khương gọi Soutetsu "ngài" thay cho "anh" (1572, 1860).
+- CỜ CHO HIEU / đợt thống nhất: cụm đại từ vợ chồng Soutetsu↔Kisaki — Soutetsu "Anh" 720/1116/1322, gọi Kisaki "em" (1025, 1116, 1187, 1246, 1249, 1290, 1371, 1534, độc thoại 1538), Kisaki gọi "anh Soutetsu" 1488/1687/1783 — giữ nguyên, chờ quyết định thống nhất (tiền lệ tsuika02). Kisaki "tôi"/"em" ranh giới: 1327, 1132, 1024, 984, 1516, 1711, 1783 — cờ rà lại theo quy tắc ngữ cảnh. [character_subs] 1961 trỏ key không có trong script. Cột TW lệch vị trí trong file này (TW 684 ≈ JP 1145, TW 700 ≈ JP 1780) — VN bám JP đúng.
+- Chi tiết đầy đủ: `audit-lr-kisaki-tsuika01-chukuni-shisatsu-no-sasoi-REVIEW.md`; danh sách sửa: `audit-lr-kisaki-tsuika01-chukuni-shisatsu-no-sasoi-wrong.json` (19 mục).
+
+**Tổng cộng sau file này: 201 file / 9.210 dòng sai** (cơ sở 200 file / 9.191 dòng sai + 19 file này)
+
+- Parent kiểm chứng 22/11 ~03:05: JSON 19 mục, khối TOML 19 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 19/19; second pass agent 19/19/0/0. **1572/1860 ĐÃ KIỂM CHỨNG**: Khương gọi Soutetsu "ngài" đúng — "ngài" nhất quán trong các dòng khác của cô (1357, 1464, 1619, 1704, 1708, 1741, 1863); 1860 JP あなた + 双鉄先生. **TW lệch cột trong file này** (TW 684 ≈ JP 1145...) — VN theo JP đúng toàn file. CỜ CHO HIEU: cụm đại từ vợ chồng Soutetsu–Kisaki (Soutetsu "Anh"/Kisaki "anh Soutetsu") + các dòng Kisaki "tôi"/"em" ranh giới (1327, 1132, 1024, 984, 1516, 1711, 1783) → đợt thống nhất xét lại (tiền lệ tsuika02). B19 vẫn park.
