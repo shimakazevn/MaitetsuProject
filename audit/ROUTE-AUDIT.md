@@ -3684,3 +3684,106 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 
 **Tổng cộng sau file này: 177 file / 8.022 dòng sai** (cơ sở 176 file / 8.005 dòng sai + 17 file này)
 - Parent kiểm chứng 21/11 ~19:55: JSON 17 mục (key chuỗi, list-of-dicts), khối TOML 17 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 17/17 (1 set duy nhất, 413 dòng). Đại từ ĐÃ KIỂM CHỨNG: 1427 Soutetsu "tôi" với Minokasa (1429 です); 1528/1532/1810 Soutetsu "anh" với Nagi/Fukami (1529 chuyến đi 3 người, 1545 Nagi đáp 1532, 1811 nói với Nagi); 2126 độc thoại "tôi". 2011 sửa lớn đã đọc lại — đúng JP/TW (2009–2010 Fukami chần chừ; TW 收腳). Không sửa nào bị loại. CỜ CHO HIEU: (1) "Ohito" 6 dòng chờ đợt thống nhất; (2) "Migitai" 3 dòng chờ đợt thống nhất → "Migita Ichi"; (3) gloss 列車 "tàu" 1561 chờ đợt thống nhất; (4) key 2058 (代理車掌) thuộc file 凪ふかみ03_みかんの旅, KHÔNG thuộc file này — quyết định 21/11 ~17:30 áp cho file đó. B19 vẫn park.
+
+## 真闇03_ひとしずく — 真闇03_ひとしずく.txt.toml — 61/419 (14,6%)
+
+- File: `真闇03_ひとしずく.txt.toml` — route 05_Mayami, 419 dòng script (độc thoại 177, 双鉄 98, 真闇 54, 日々姫 51, 凪 12, ハチロク 10, ふかみ 8, ポーレット 6, れいな 3). Nội dung: Hitoshizuku đạt hạng 8 ISC, Soutetsu tỏ tình Mayami (và Hibiki tỏ tình Soutetsu), rồi cả nhà nâng ly chúc mừng kép — giải 8 ISC và tình yêu của Soutetsu với Mayami đơm hoa kết trái.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 419 dòng, 0 VN trống. TOML md5 `5a9b6f7e85500efac9bfe8b54d5937a9`, 1 bản duy nhất, BOM + CRLF, `[selections]` rỗng. TOML khớp CSV3 tuyệt đối sau chuẩn hoá `\n` literal (258 dòng chỉ khác ở đó, 0 dòng khác nội dung). 1 cặp VN trùng là câu lặp hợp lệ (1626/1674 cùng “Hửm?”).
+- Phân loại (61): đại từ xưng hô 47 (thoại Soutetsu 24 — với Mayami → “tôi” 16: 1203, 1207, 1494, 1689, 1691, 1699, 1776, 1778, 1779, 1785, 1786, 1791, 1794, 1795, 1893, 1970; với Hibiki → “anh” 6: 1686, 1694, 1829, 1870, 1953, 1999; tiệc tập thể → “tôi” 1977; ngữ khí “Vâng”→“Ừ” 1668; độc thoại Soutetsu → “tôi” 23: 2221, 2227, 2229, 2243, 2378, 2384, 2400, 2419, 2442, 2448, 2455, 2475, 2490, 2505, 2563, 2601, 2619, 2626, 2671, 2712, 2731, 2747, 2750), gasp sweep 8 (1484, 1565, 1621, 1995, 1996, 1997, 2675, 2713), thuật ngữ 2 (右田一 → “Migita Ichi” 1656, 1657), sai nghĩa 2 (1947 “Chuyện” bịa → “Nà”; 2458 chủ ngữ kiểm tra điện thoại), SFX 1 (1586 むにゃあ → “lầm bầm”), số nguyên âm 1 (1912 はぁあ thừa 1 a).
+- Sweep kiểm chứng: 9 entry cho file, nhận 8 fix sau khi đối chiếu JP; 2746 BÁC — （し～っ） giữ “（Suỵt~）” (phụ âm cuối -t của “Suỵt” đã diễn tiếng っ ngắt; “Suỵt~Ư” sẽ diễn trùng âm). Quét máy toàn file không còn っ thô nào khác trong VN.
+- Đại từ đã kiểm chứng: “em” còn lại trong file đều đúng đối tượng (Mayami gọi Soutetsu “em”: 1590, 1743, 1850; “em ấy” ở 1689/1970 là Hibiki ngôi thứ ba; “em gái” 2441 là Hibiki tự nhắc); Soutetsu “anh” với Hibiki giữ nguyên đúng chỗ (1197, 1499, 1508, 1553, 1583, 1666, 1869, 1879, 1881, 1886, 1928); 1699 kèm sửa 冥国 → “Minh Quốc”; 1776 kèm khôi phục thẻ Railord bị VN bỏ mất (lỗi %l duy nhất toàn file).
+- Chi tiết đầy đủ: `audit-mayami03-hitoshizuku-REVIEW.md`; danh sách sửa: `audit-mayami03-hitoshizuku-wrong.json` (61 mục, khối TOML 61 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 61/61; lượt soát 2: 61/61, 0 bỏ, 0 sửa).
+
+```toml
+
+"1203" = "「……Tôi lúc nào cũng được chị giúp đỡ thật nhiều nhỉ.\\nTôi rất biết ơn chị.」"
+"1207" = "「……Có chuyện gì, khiến chị phải bận tâm sao?」"
+"1484" = "「Không có chi――Ư!」"
+"1494" = "「Nhưng mà―― chị Mayami. Khoan hãy nâng ly đã.\\nTôi có chuyện muốn nói, chuyện mà nếu có men rượu vào thì tôi sẽ không thể nói được.」"
+"1565" = "「Ra là vậy, há miệng chờ sung――Ư!!?」"
+"1586" = "「Khò khò~ lầm bầm~」"
+"1621" = "「Hửm? ――Ư!」"
+"1656" = "「Vâng, a lô, Migita Ichi―― a…… hửm?\\nWait. Đợi đã? Please.」"
+"1657" = "「Vâng, a lô, Migita Ichi――\\nYes, Here is a brewery of \"Hitoshizuku\".」"
+"1668" = "「Ừ. Tuyệt đấy.」"
+"1686" = "「Và rồi anh tự hỏi. Tại sao anh,\\nlại luôn nghĩ rằng mình không được dựa dẫm vào chị Mayami chứ.」"
+"1689" = "「Nếu ân huệ của nhà Migita là lý do.\\nThì không chỉ chị Mayami, em ấy cũng muốn được tôi thực hiện ước nguyện của mình.」"
+"1691" = "「Hibiki đã tỏ tình――\\nthổ lộ tình cảm với tôi.」"
+"1694" = "「Cùng nhau làm rượu. Nói chuyện rất nhiều, và anh cảm nhận rất rõ.\\nAnh muốn biết nhiều hơn về chị Mayami. Muốn đến gần chị hơn.」"
+"1699" = "「Xuất khẩu sao. Tôi hoàn toàn chưa có kinh nghiệm trong chuyện này――\\nNhưng hình như hãng rượu Asano có xuất hàng sang Minh Quốc thì phải.」"
+"1776" = "「Tôi cũng không rõ. Nhưng mà, Paulette, Hachiroku và Reina,\\nđều đề cử một \\x%lレイルロオド;#00ffc040;Railord%l;#; 『F. Scotty』.」"
+"1778" = "「Để tôi sắp xếp cho.\\nỪm……trước mắt thì chắc là đến đây thôi.」"
+"1779" = "「Để tôi thay chị nhé?\\nNếu là việc hướng dẫn dọn dẹp thì tôi cũng làm được.」"
+"1785" = "「Trước mặt tôi, tôi không muốn chị phải kìm nén bất cứ điều gì.\\nVì tôi――rất thích chị Mayami, nên tôi muốn chiều chuộng chị.」"
+"1786" = "「Tôi muốn được chị nghĩ là một người đàn ông có năng lực, muốn được chị thấy tôi thật ngầu.\\nVì thế nên tôi mới nghĩ rằng, mình không được phép dựa dẫm vào chị Mayami.」"
+"1791" = "「Tôi là con nuôi của nhà Migita, mang ơn chị Mayami đã che chở cho tôi.\\nNên việc đền đáp lại ân huệ đó, là chuyện hết sức hiển nhiên thôi.」"
+"1794" = "「Thích ở đây là tình cảm nam nữ, là mong muốn được ở bên cạnh chị.\\nLý do tôi bắt đầu nghĩ như vậy, là vì tôi đã nhận ra.」"
+"1795" = "「Về hết rồi. Tôi cũng bảo Navi đưa họ về rồi.」"
+"1829" = "「Là một chuyện rất quan trọng.\\nNói tóm lại―― anh thích chị Mayami.」"
+"1870" = "「Thế nên, anh đã nhận ra. Chẳng liên quan gì đến nghĩa lý hay ân huệ cả.\\nAnh, muốn được chị Mayami. Muốn được chị công nhận.」"
+"1893" = "「Chị Mayami.\\nTôi mong chị Mayami sẽ trở thành người yêu của tôi.」"
+"1912" = "「Haaa――\\nTiếc thật đấy. Không vô địch được sao.」"
+"1947" = "「Nà――á――」"
+"1953" = "「Chuyện đó thì anh cũng giống em thôi.\\nDù có phiền phức và rắc rối, anh vẫn muốn yêu chị Mayami.」"
+"1970" = "「Lúc đó, Hibiki đã hỏi tôi.\\nNếu lý do là vì nhà Migita, thì chẳng phải bản thân em ấy cũng giống vậy sao――」"
+"1977" = "「Vậy thì, chúc mừng Hitoshizuku đạt giải 8 tại ISC, và\\nchúc mừng tình yêu của tôi và chị Mayami đã đơm hoa kết trái, cạn ly!」"
+"1995" = "「Ư!」"
+"1996" = "「Ư!!!」"
+"1997" = "「Ư!!?」"
+"1999" = "「Navi á? A……Ra vậy――\\nCó lẽ anh thuộc tuýp người dễ đoán quá nhỉ.」"
+"2221" = "Nhưng――nếu đó là mong muốn của chị Mayami,\\ntất nhiên, tôi chỉ có việc đáp ứng thôi."
+"2227" = "Nhưng mà tôi vẫn muốn nhìn thấy nụ cười của chị hơn,\\nnên vội vàng nói tiếp."
+"2229" = "Nhưng, chỉ riêng chị Mayami……\\nTôi đã luôn cảm thấy chị là một ngoại lệ, là bởi vì――"
+"2243" = "Nhưng, bây giờ đang là ban ngày, lại ở trong xưởng rượu.\\nTôi không thể đáp ứng mong muốn của chị Mayami ngay lập tức được. Thế nên――"
+"2378" = "Chị ấy thì thầm vào tai tôi.\\nNgay lập tức, tôi như bị chuốc say từ đôi tai."
+"2384" = "Giọng điệu thất vọng của chị ấy.\\nLại làm trái tim tôi rộn ràng, xao xuyến."
+"2400" = "Nếu lý do là vì \"nhà Migita\",\\nthì đáng ra tôi cũng không được dựa dẫm vào Hibiki mới phải."
+"2419" = "Sơ yếu lý lịch, hay đúng hơn là hồ sơ cá nhân.\\nKhi tôi đưa cho chị Mayami một xấp dày cộp, mắt chị ấy tròn xoe."
+"2442" = "Đã truyền đạt được.\\nVì vậy, tôi cũng đón nhận."
+"2448" = "Trong lúc đó, tôi\\nmột mình uống cạn ly rượu vào miệng."
+"2455" = "Hai đôi môi dính chặt vào nhau,\\ntôi từ từ, truyền rượu sang."
+"2458" = "Tôi cẩn thận kiểm tra lại điện thoại,\\nchị Mayami từ tốn gật đầu đáp lại rằng không sao cả."
+"2475" = "Chị Mayami đang run rẩy.\\nDù vậy, ánh mắt chị ấy không hề rời khỏi tôi."
+"2490" = "Gần đến mức ngực hai người sắp chạm vào nhau.\\nChị Mayami cứ thế ngước lên nhìn tôi."
+"2505" = "Chắc chắn là nó đang đến.\\nMột luồng gió lớn và mạnh mẽ hơn rất nhiều so với những gì chúng tôi từng tưởng tượng."
+"2563" = "Đôi môi nóng hổi ấy cứ thế nhẹ nhàng,\\nghé sát vào tai tôi."
+"2601" = "Chị Mayami mệt mỏi dựa hẳn người vào tôi.\\n……Bận rộn đến mức này, cũng không trách được."
+"2619" = "Tôi cảm nhận sâu sắc rằng điều đó hoàn toàn đúng.\\nMột giọt mang tên tôi, một giọt mang tên chị Mayami."
+"2626" = "Đột nhiên, tôi muốn uống một ngụm rượu thật mạnh.\\nTôi đang rất xấu hổ, bồn chồn và gần như nghẹt thở."
+"2671" = "Lần này tôi chủ động hôn,\\nnhư một câu trả lời thay cho lời nói gửi đến chị Mayami."
+"2675" = "Vậy thì, cả chị Mayami cũng?\\nNhưng…… thái độ như vậy, chưa một lần nào――Ư!"
+"2712" = "Dù hơi để ý ánh mắt của những người thợ nấu rượu,\\nnhưng tôi vẫn nhẹ nhàng xoa đầu chị ấy."
+"2713" = "Rõ ràng là do tôi bảo anh ấy làm vậy,\\nnhưng sự thật là tôi vẫn――Ư!!?"
+"2731" = "Gật đầu. Chỉ có vậy.\\nNhưng tôi cảm giác như đã được chấp nhận, nên bước tới một bước."
+"2747" = "（Hôm nay. Chính là hôm nay. Dù cho kết quả có ra sao――\\nChỉ cần có kết quả, tôi sẽ nói ra.）"
+"2750" = "（Tôi cũng…… phải học tập Hibiki thôi.）"
+```
+
+**Tổng cộng sau file này: 178 file / 8.083 dòng sai** (cơ sở 177 file / 8.022 dòng sai + 61 file này)
+
+- Chờ Hieu: (1) 2484 “hỏi em ấy” không chắc (người nghĩ có thể là Hibiki → “chị ấy”, hoặc Soutetsu → “em ấy” đúng) — giữ nguyên; (2) đợt thống nhất: “Ohimitera” 1928, gloss 列車 “tàu” 1708/1735/1768, 詠国 “Anh Quốc” 1662/1905 vs “Eikoku (Vương quốc Anh)” 1687/1833/2533; (3) 1999 người nghe suy luận là Hibiki, 2747/2750 áp dụng hẹp ngoại lệ “mình”, 1977 tiệc tập thể → “tôi” — parent kiểm chứng lại. B19 vẫn park.
+- Parent kiểm chứng 21/11 ~20:10: JSON 61 mục (key chuỗi, list-of-dicts), khối TOML 61 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 61/61 (1 set duy nhất, 419 dòng). Đại từ ĐÃ KIỂM CHỨNG: mẫu hệ thống 47 — 16 với Mayami → "tôi" (1203/1207 đã đọc kề: 1200 "真闇姉", 1209 Mayami đáp); 6 với Hibiki → "anh" (1999 "ナビ" = Hibiki, 1994–1995 Hibiki đáp; 1686–1689 nói VỀ Mayami ngôi thứ ba nên người nghe là Hibiki); 23 độc thoại → "tôi" (2747/2750 là quyết tâm, không phải tự vấn nội tâm — ngoại lệ "mình" không áp dụng); 1977 tiệc tập thể → "tôi" (1980/1982 Hibiki chúc mừng). 1947 "Chuyện" bịa → "Nà" đúng JP な; 2458 chủ ngữ kiểm tra điện thoại đúng (Soutetsu); 1912 "Haaa" đúng công thức nguyên âm (はぁあ = 3 a); sweep 2746 BÁC đúng ("Suỵt" đã diễn っ). Không sửa nào bị loại. CỜ CHO HIEU: 2484 "hỏi em ấy" GIỮ — người nghĩ chưa xác định (Hibiki → "chị ấy" hay Soutetsu → "em ấy"); đợt thống nhất: "Ohimitera" 1928, gloss 列車 "tàu" 1708/1735/1768, 詠国 "Anh Quốc" 1662/1905 vs "Eikoku" 1687/1833/2533. B19 vẫn park.
+
+---
+
+# 日々姫11_御一夜モザイク.txt.toml — 02_Hibiki
+
+- File: `日々姫11_御一夜モザイク.txt.toml` (route 02_Hibiki), 412 dòng script, 1 bản sao.
+- Đã đọc: 412/412 dòng. **Sai: 6 dòng (1,5%)** — đại từ 3 (1921, 2215, 2480), gasp 2 (1907, 1952), SFX 1 (1874).
+- Lệch hàng 0, xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, khóa trùng 0. CSV3 1 set duy nhất, khớp khóa 1–1.
+- Lượt soát 2: 6/6 xác minh lại, 0 bỏ, 1 sửa (1921 thu hẹp: chỉ "chị"→"em", giữ "người khác" theo TW).
+- Sweep gasp: 2 mục — nhận 1952, 2321 already-rendered đúng; quét máy toàn bộ dòng っ không còn gasp sót.
+- Sửa: 1874 あうっ "Á"→"Aư" (công thức nguyên âm); 1907 はうっ "hấu"→"hấuƯ" (gasp đã khóa); 1921 Soutetsu→Hibiki "chị"→"em" (lân cận 1917/1918/1923/1925); 1952 sweep "——!!?"→"——Ư!!?"; 2215 Paulette 双鉄くん "Sou-chan"→"anh Soutetsu" (khóa B4); 2480 độc thoại về Hibiki "chị ấy"→"em ấy".
+- Chờ Hieu: 2038 "chị" chưa xác định người nghe (Mayami/Paulette/"anh") — giữ nguyên. Đợt thống nhất: "Ohimitera" ×12, "Denshahime" ×2 (1774 JP 毛利の姫; 2018 JP 電車姫様), "Hinamoto" 2498, "tuyến Yui" 2095, gloss 帝鉄 "Đường sắt Hoàng gia" 2141.
+
+```toml
+"1874" = "「Hả!? A——Aư——Hả!?」"
+"1907" = "「Ưm……ha……hấuƯ」"
+"1921" = "「Ừm. Thỉnh thoảng em cũng nên dựa dẫm vào người khác đi.」"
+"1952" = "「Ừ.\\n——Ư!!?」"
+"2215" = "「Để mọi người đợi lâu rồi! Ơ kìa?\\nAnh Soutetsu, Nagi-chan và Fukami-chan đâu rồi?」"
+"2480" = "Bỏ qua sự mệt mỏi về thể xác,\\nchắc chắn em ấy đang phải vận dụng tinh thần và trí não căng thẳng hơn bất kỳ ai trong chúng tôi."
+```
+
+**Tổng cộng sau file này: 179 file / 8.089 dòng sai** (cơ sở 178 file / 8.083 dòng sai + 6 file này)
+- Parent kiểm chứng 21/11 ~23:30: JSON 6 mục (key chuỗi, list-of-dicts), khối TOML 6 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 6/6 (1 set duy nhất, 412 dòng). Đại từ ĐÃ KIỂM CHỨNG: 1921 Soutetsu "em" với Hibiki (1917/1918/1923/1925 nhịp massage Soutetsu↔Hibiki; Mayami xa nhất 1859/1981); 2215 Paulette 双鉄くん → "anh Soutetsu" (khóa B4); 2480 "em ấy" về Hibiki (2479 về lãnh đạo Hibiki, TW dùng 她; tiền lệ 2528 "em ấy"). 1907 はうっ → "hấuƯ" đúng gasp đã khóa; 1874 あうっ → "Aư" đúng công thức nguyên âm; 1952 nhận đúng sweep. 3 dòng đa dòng chuẩn hóa dạng \n (giá trị TOML-2 hiện tại bị hỏng thành backslash + khoảng trắng; fix khôi phục literal backslash-n theo quy ước dự án). Không sửa nào bị loại. CỜ CHO HIEU: 2038 "chị" GIỮ — người nghe chưa xác định (Mayami/Paulette); đợt thống nhất: "Ohimitera" ×12, "Denshahime" ×2, "Hinamoto" 2498, "tuyến Yui" 2095, gloss 帝鉄 "Đường sắt Hoàng gia" 2141. B19 vẫn park.
