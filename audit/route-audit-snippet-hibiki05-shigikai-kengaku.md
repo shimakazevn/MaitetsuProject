@@ -1,0 +1,16 @@
+# 日々姫05_市議会見学.txt.toml — 12/385 (3,1%)
+
+- File: `日々姫05_市議会見学.txt.toml` — route 02_Hibiki, 385 dòng script (monologue 167, 稀咲 64, 日々姫 57, 双鉄 38, ハチロク 22, 男性議員 10, ポーレット 10, ヤジ 8, 女教師 7, 議長 2). Nội dung: bài báo về vụ nghị sĩ quấy rối Paulette và việc ông ta từ chức trong ngày (cả nhóm Soutetsu/Hibiki/Kisaki đọc báo ở nhà); buổi học tự chọn — tham quan hội đồng thành phố: phiên họp hỗn loạn, Paulette chảy máu cam, Kisaki từ ghế dự thính quát thẳng mặt nghị sĩ quấy rối; các cảnh nấu ăn (hamburger mini, hamburger đậu hũ); Kisaki giảng về kinh tế — thuế suất, tiền tệ và chất lượng của tương lai, nhà máy Aircra.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 385 dòng, 0 key trùng, 0 VN trống. TOML và CSV3 khớp tuyệt đối (chênh 1 dòng duy nhất 1943 ở `\n` literal bị TOML-2 làm phẳng thành khoảng trắng — CSV3 là chuẩn). TOML md5 `c891d3ccfd1bc9fe96d4853fd6628453`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng. Comment `# JP:` đủ 402/402. Thẻ `%l`: JP = VN mọi dòng, 0 thẻ hỏng.
+- Phân loại (12): gasp 7, đại từ 2, nghĩa 3. Thoại 10/218 (4,6%), độc thoại 2/167 (1,2%). Theo nhân vật: 双鉄 3/38, 日々姫 2/57, ポーレット 2/10, monologue 2/167, 男性議員 1/10, 女教師 1/7, 稀咲 1/64 (2281 là hai giọng Kisaki & Hibiki cùng gasp).
+- Gasp 7 (sweep 8 mục, áp nguyên 7/7, 0 sửa lại): 1554, 1878, 1945 (っ thô trong VN), 2202, 2281 (2 gasp), 2284, 2744 (っ thô trong VN). Sweep không bỏ sót gasp nào (đã quét cơ học toàn bộ 178 dòng JP có っ → 39 ứng viên: 7 áp dụng + 1 đã diễn 2280 "Hừ!" + 31 không phải gasp — っ nhấn mạnh gắn từ có nội dung hoặc âm đã diễn).
+- Đại từ 2: 2063 Soutetsu "mình"→"anh" với Hibiki (cùng mạch nấu ăn 1806/1823; thoại trực tiếp, không thuộc ngoại lệ độc thoại nội tâm); 2120 Soutetsu gọi điện cho Paulette "Tôi đây"→"Anh đây" và "cô đọc"→"em đọc" (quy tắc đã chốt: Soutetsu "anh" với Paulette, gọi Paulette là "em").
+- Nghĩa 3: 1844 "kết nghĩa thành phố kết nghĩa" lặp thừa + "Chuyện đó ấy!!" → "việc kết nghĩa thành phố" + "Chính là chuyện đó!!"; 1924 bỏ "trốn" tự thêm (JP/TW không có); 2692 "lòng ham muốn"→"cơn thèm ăn" (欲 = thèm ăn, TW 食慾 xác nhận).
+- Mục thuộc đợt unification (không sửa trong audit): "Ohimitera" dạng cũ 9 chỗ / 7 dòng (1570 ×2, 1868, 1992, 2050, 2239, 2243, 2701 ×2).
+- Giữ nguyên có lý do: 2941 (コン、コンッ！) là tiếng gõ cửa → "Cộc, cộc!" (tiền lệ Common 13 3299); 2434 隈元 → "Kumamoto" (thống nhất toàn dự án); 2435 TW tự thêm 金髮, VN theo JP là đúng; 1538 オヤジギャグ (TW dịch sai thành 色狼); 1848 "Làm tốt lắm" (TW 做得好); 2197 "đợi cơm" (TW 等著開飯); độc thoại Soutetsu "tôi" 2427/2470/2497/2630/2879; 2455 "Mình nghĩ" là độc thoại nội tâm.
+- Cờ cho Hieu: 1562 Soutetsu "tôi" (người nghe hỗn hợp Hibiki + Kisaki), 1566 Kisaki "cá nhân tôi" (nhóm có cả Soutetsu lẫn Hibiki), 1947 Kisaki "giao cho cô" (người nghe chưa rõ: Soutetsu → "cậu", Hachiroku → "cô") — giữ nguyên VN cũ; B19 vẫn park.
+- Lượt soát 2: 12/12 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Kiểm chứng: JSON 12 mục dạng chuẩn, khóa chuỗi; khối TOML 12 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 12/12; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-hibiki05-shigikai-kengaku-REVIEW.md`; danh sách sửa: `audit-hibiki05-shigikai-kengaku-wrong.json` (12 mục).
+
+**Tổng cộng sau file này: 147 file / 6.568 dòng sai** (cơ sở 146 file / 6.556 dòng sai + 12 file này)

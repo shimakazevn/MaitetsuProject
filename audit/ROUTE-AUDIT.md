@@ -3137,3 +3137,48 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 - Parent kiểm chứng 21/11 ~10:00: JSON 12 mục dạng chuẩn, khóa chuỗi; khối TOML 12 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 12/12; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa; lượt soát 2: 12/12, 0 bỏ, 0 sửa. Đại từ kiểm chứng theo dòng kề: 2063 Soutetsu "mình"→"anh" với Hibiki — cùng cảnh nấu ăn 1806/1823 đã dùng "anh"; 2120 gọi điện cho Paulette (JP ポーレットか？ 僕だ; 2121 Hibiki kêu "Chị Paulette") → "Anh đây" + "em đọc" đúng quy tắc đã chốt. Nghĩa kiểm chứng theo JP/TW: 2692 JP 欲 + TW 食慾 → "cơn thèm ăn" đúng; 1924 bỏ "trốn" tự thêm đúng; 2281 JP hai gasp っ. Gasp 7 kiểm chứng theo JP (1554/1878/1945/2202/2281/2284/2744 — っ thô hoặc っ cuối câu chưa diễn). Không sửa nào bị loại. CỜ CHO HIEU: 1562/1566/1947 người nghe chưa rõ — giữ nguyên VN cũ, chờ Hieu/đợt unification (ghi trong review); 9 chỗ "Ohimitera" chờ đợt unification; B19 vẫn park.
 
 **Tổng cộng sau file này: 148 file / 6.575 dòng sai** (cơ sở 147 file / 6.563 dòng sai + 12 file này)
+
+---
+
+# れいな03_しゅっぱつしんこう.txt.toml — 26/373 (7,0%)
+
+- File: `れいな03_しゅっぱつしんこう.txt.toml` — route 04_Reina, 373 dòng script (monologue 150, 双鉄 90, れいな 61, ポーレット 53, ハチロク 19). Nội dung: cuộc gọi từ Công ty Cổ phần Đường sắt Kurogane — công ty đường sắt mới tái cơ cấu các tuyến chở hàng/khai thác mỏ quanh mỏ than Chikuho, ý tưởng SL du lịch của Soutetsu được chọn làm biểu tượng phục hưng; Hachiroku xin đổi bố trí, nguyện vọng duy nhất là giảm gánh nặng cho Soutetsu; Soutetsu nhận ra muốn ở bên Reina; Reina đi Yahata chọn toa xe tự hành được nhượng lại; Soutetsu hiểu lầm rồi cầu hôn Reina; Paulette sẽ nhận Reina làm con nuôi để làm hộ khẩu; "phong ấn" của Reina mở ra; cả hai lên đường đi Yahata.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 373 dòng, 0 key trùng, 0 VN trống. TOML và CSV3 khớp tuyệt đối (208 dòng chênh chỉ ở `\\n` literal bị TOML-2 làm phẳng thành khoảng trắng — CSV3 là chuẩn). TOML md5 `f3f5d2ac9459591cb254ea25bdaf9766`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng. Comment `# JP:` đủ 382/382. Thẻ `%l`: JP = VN mọi dòng, 0 thẻ hỏng.
+- Phân loại (26): đại từ 12, gasp 6, SFX 6, thuật ngữ 1, nghĩa 1. Thoại 24/223 (10,8%), độc thoại 2/150 (1,3%). Theo nhân vật: 双鉄 14/90, ポーレット 4/53, れいな 5/61, ハチロク 1/19, monologue 2/150.
+- Gasp 6 (sweep 5 mục, áp nguyên 5/5: 1395, 1631, 1766, 1767, 2432; sweep bỏ sót 1 do audit tự tìm: 995 「っ――」→"Ư――", tiền lệ sweep グランドリライト10 1188/H7 477/H9 1354/P-h3 935/lrれいな追加03 1079). Sweep không bỏ sót gasp nào khác (quét cơ học toàn bộ 148 dòng JP có っ).
+- SFX 6: cười bị diễn thành gasp "Ư hự" 5 (1484 うふふっ→"Ufufu"; 1397/1396/1399 えへへぇ→"Ehehe~"; 1601 うふふふふ→"Ufufufufu"); rên 1 (1371 ふぁ……あっ: "Phù……a"→"Phà……aƯ" — ふぁ sai nguyên âm so với dạng khóa "phà", あっ mất tiếng cắt).
+- Đại từ 12: Soutetsu gọi Paulette "cô"→"em" + tự xưng "tôi"→"anh" với Paulette 10 (1691, 1520, 1417, 1298, 1626, 1443, 1538, 1555, 1552, 1522 — 1552/1555/1522 trả lời trực tiếp Paulette nên "anh" dù nhóm có mặt, tiền lệ 2477); Paulette tự xưng 2 (1547 "tôi"→"em" với Soutetsu — nói về Reina ở ngôi ba trong cảnh cầu hôn; 1489 "tôi"→"chị" với Reina — parent sửa từ "em", chứng cứ 1490 "chị" cùng mạch nói).
+- Thuật ngữ 1: 2387 độc thoại, gloss 機関士 "lái tàu"→"thợ lái đầu máy" (dạng đầy đủ trong độc thoại).
+- Nghĩa 1: 1438 "chào anh"→"chào tạm biệt" (JP/TW không có giới tính người gọi).
+- Mục thuộc đợt unification (không sửa trong audit): "Ohimitera" dạng cũ 7 dòng (1337, 1300, 1455, 1474, 2431, 2160, 2223) → "Ohitoyo"; gloss 帝鉄 1659 "Đường sắt Hoàng gia" → "Teitetsu".
+- Giữ nguyên có lý do: 1393 えええっ!?→"Ể!?" (tiền lệ H13 1846); 1423 ぁっ→"A" (tiền lệ sweep 凪ふかみ03 2274); 1444 くあっ!?→"Kua!?"; 1383 はうっ!?→"hau!?"; 1374 ひゃっ→"Hya."; 1486 ぷぁあ→"Puaa..."; 1384 ふふっ→"Fufu."; 1370 ふ……んっ――→"Phù……ưm――"; 1447 う……む→"Ừ……m." (diễn tách nhịp); 1373 ふわぁ→"Oa... phù oa."; 992 gloss 9600 rút gọn (ghi nhận); 2221 JP tự mang thẻ %l lỗi (VN đã chuẩn hóa); ngôi ba "cô ấy" chỉ Paulette giữ nguyên 5 dòng (1472, 2054, 2057, 2214, 2385 — tiền lệ P13 1163, 2604); 義父/義母/養子 theo TW đúng (2317, 2128, 1298, 1516, 1644).
+- Cờ cho Hieu: 1386/1644 giữ nguyên VN cũ "tôi" (người nghe không xác định được — parent loại fix, chờ Hieu xác định); B19 vẫn park.
+- Lượt soát 2: agent 28/28, 0 bỏ, 0 sửa; parent loại 2 (1386, 1644 — người nghe không xác định được), sửa 1 (1489 "em"→"chị") → 26 fix.
+- Kiểm chứng: JSON 26 mục dạng chuẩn, khóa chuỗi; khối TOML 26 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 26/26; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+
+- Parent kiểm chứng 21/11 ~11:00: JSON 26 mục, TOML 26 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 26/26. Đại từ kiểm chứng theo dòng kề: 10 fix Soutetsu đều đúng dù người nghe là Paulette hay Reina (Soutetsu đều xưng "anh" với cả hai); 1547 "em" đúng (nói về Reina ở ngôi ba, người nghe Soutetsu); 1489 sửa "em"→"chị" (người nghe Reina, chứng cứ 1490 "chị" cùng mạch); loại 1386/1644 (người nghe không xác định được; citation của agent cho cả hai đều sai — 1626 cách 240 key, 1417 không liên quan).
+- Chi tiết đầy đủ: `audit-reina03-shuppatsu-shinkou-REVIEW.md`; danh sách sửa: `audit-reina03-shuppatsu-shinkou-wrong.json` (26 mục).
+
+**Tổng cộng sau file này: 149 file / 6.601 dòng sai** (cơ sở 148 file / 6.575 dòng sai + 26 file này)
+
+---
+
+# ハチロクh1_契り.txt.toml — 57/353 sai (16,1%)
+
+- File: `ハチロクh1_契り.txt.toml` — route 01_Hachiroku, 353 dòng script (monologue 175, ハチロク 107, 双鉄H 71). Nội dung: cảnh H đầu tiên của Hachiroku — phong ấn được giải trừ, kết lời thề nguyện hai kiếp và làm tình lần đầu.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 353 dòng, 0 key trùng, 0 VN trống. TOML và CSV3 khớp tuyệt đối ngoài 191 dòng chênh ở `\n` literal bị TOML-2 làm phẳng (CSV3 là chuẩn). TOML md5 `ea6d9621d4124d9a966b6842fe53b602`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng.
+- Phân loại (57): romaji 19, sai âm 15, đếm nguyên âm 6, gasp 6, đại từ 5, thuật ngữ 3, thẻ %l 1, nghĩa 1, lỗi gõ 1. Theo nhân vật: ハチロク 37/107 (34,6%), 双鉄H 8/71 (11,3%), monologue 12/175 (6,9%). Thoại 45/178 (25,3%), độc thoại 12/175 (6,9%).
+- Gasp 6 (sweep 6 mục, áp nguyên 6/6: 1242, 1371, 1376, 1463, 1508, 1519; thêm 2 gasp sweep bỏ sót: 1271, 1293). Sweep không bỏ sót gasp nào khác (đã quét cơ học toàn bộ dòng JP có っ).
+- Đại từ 5: Soutetsu "anh"→"tôi" với Hachiroku (1274, 1369, 1371, 1429, 1499 — 1371 kèm gasp sweep). Đã quét cơ học: sau khi sửa, file không còn dòng Soutetsu nào tự xưng "anh".
+- Thuật ngữ 3: タブレット "thẻ bảng"→"máy tính bảng" (1382, 2013); 整備体 "thân chính"→"thân bảo trì" (1853). Không có mục mới cho đợt unification từ file này.
+- Moans 40 (romaji 19 + sai âm 15 + đếm nguyên âm 6): ふあ/ふぁ → "Fua/Fuaa" (10 dòng: 1214, 1251, 1257, 1266–1271, 1302); ひあ/ひゃ → romaji (1222 "Kya"→"Hia", 1225 "Kyafuu", 1226 "Hyaun", 1248 "Hiuuu"); âm sai: 1238 "I/Nkuu", 1241 "Kufuuuuun", 1265 "Ahyun", 1272 "Kaha", 1278 "Ưm chụt/Reru", 1282 "Ưm kyuuuuu"; SFX ngoặc sai âm: 2128, 2132, 2138, 2139, 2144, 2145, 2147, 2149, 2153, 2179.
+- Nghĩa 1: 1509 gỡ câu xin hôn lặp lại. Lỗi gõ 1: 1351 "dang"→"đang". Thẻ %l 1: 1319 gỡ thẻ VN tự thêm, thay bằng "Railord" text thường theo tiền lệ.
+- Giữ nguyên có lý do: や-family → "Nhá"/"A"/"á" (tiền lệ moan-fix); ふっ → "phù" (đa số tiền lệ); hệ SFX ngoặc diễn theo nghĩa hành động (きゅ → "Siết chặt", れる → "Sượt"/"liếm láp") chỉ sửa chỗ sai hẳn âm; "Kh" tắc thanh quản giữ (1144, 1210, 1315); Soutetsu "tôi" đúng giữ nguyên.
+- Cờ cho Hieu: 1238 いっ → "I" (phán đoán, có thể trả về "Á"); hệ SFX ngoặc để vòng moan-fix phán lại; 1319 gỡ thẻ %l (muốn giữ tooltip thì nói lại); B19 vẫn park.
+- Lượt soát 2: 57/57 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Kiểm chứng: JSON 57 mục dạng chuẩn, khóa chuỗi; khối TOML 57 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 57/57; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+
+- Parent kiểm chứng 21/11 ~11:00: JSON 57 mục, TOML 57 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 57/57. Đại từ kiểm chứng theo dòng kề (5 fix Soutetsu "anh"→"tôi" với Hachiroku đúng — cảnh H với Hachiroku, kề 双鉄様); romaji kiểm chứng theo JP (1241 "Kufuuuuun", 2139 "Kuryu", 2179 "Jururuurururu"). Không sửa nào bị loại.
+- Chi tiết đầy đủ: `audit-hachirokuh1-chigiri-REVIEW.md`; danh sách sửa: `audit-hachirokuh1-chigiri-wrong.json` (57 mục).
+
+**Tổng cộng sau file này: 150 file / 6.658 dòng sai** (cơ sở 149 file / 6.601 dòng sai + 57 file này)
