@@ -3437,3 +3437,32 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 166 file / 7.607 dòng sai** (cơ sở 165 file / 7.554 dòng sai + 53 file này)
 
 - Parent kiểm chứng 21/11 ~16:25: JSON 53 mục (key chuỗi, list-of-dicts), khối TOML 53 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 53/53 (1 set duy nhất, 471 dòng). PARENT SỬA 1869: "Anh biết rồi"→"Tôi biết rồi" (xưng hô, gộp với fix thuật ngữ trong cùng dòng) — agent giữ "anh" với lý do người nghe là Hibiki, nhưng Hibiki chỉ có 2 dòng trong file (1681, 2155), không có mặt trong đoạn 1860–1872; 1869 nằm giữa 1867 và 1870 (1870 agent đã sửa thành "tôi"), nên người nghe là Hachiroku → "tôi". Vẫn 53 dòng sai (1869 đã tính trong thuật ngữ), tổng điểm sửa 54. 1667 "Ư hừ hừ hừ hừ!"→"Ufufufufu!" đúng (JP うふふふふっ là tiếng cười, TW 呵呵呵呵). 2006 + 1158 KHÔNG sửa, chờ Hieu (người nghe chưa rõ / khán giả hỗn hợp). Không sửa nào khác bị loại.
+
+## グランドリライト03_日々姫 — グランドリライト03_日々姫.txt.toml — 26/469 (5,5%)
+
+- File: `グランドリライト03_日々姫.txt.toml` — Grand Rewrite 03 — Hibiki, 469 dòng script (monologue 158, 双鉄 153, 日々姫 138, 路子 12, ナビ 8). Nội dung: Soutetsu và Hibiki cùng làm việc cho dự án khôi phục tuyến đường — thiết kế bản đồ minh họa lưu vực sông Kuma, làm báo miễn phí, quảng bá Hibiki; Hibiki ứng cử làm 機関助士 (phụ lái tàu) trên 8620; Michiko chờ bố mẹ đến đón; Soutetsu đi viếng mộ bố mẹ, lo chuyện đền bù giải tỏa đất phân lô; xen kẽ cảnh Hibiki phối đồ/đi mua vest cho Soutetsu (áo sơ mi hãng OHITOYO). Không có H-scene.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 469/469 key; VN khớp phẳng TOML 469/469 (TOML-2 làm phẳng `\n` literal thành khoảng trắng, CSV3 là chuẩn). `[selections]` rỗng; `[characters]` 2638=Navi, 2705=Soutetsu, 2893=Hibiki, 3108=Michiko (key đánh dấu đổi nhân vật, không phải key script). 0 lệch tag `%l` (2 tag do VN tự thêm từ ruby JP — 1879, 2959 — nội dung đúng, chỉ ghi nhận). 2 bản TOML giống hệt nhau (md5 `638d22cb032e067b663ad42349d027a0`).
+- Phân loại (26 dòng / 27 điểm): thuật ngữ 13 (御一夜 "Ohitera"→"Ohitoyo" 13 dòng: 1525, 2047, 2138, 2168, 2189, 2320, 2377, 2419, 2504, 2755, 2761, 2828, 3177 — 2419 mang 2 lần trong cùng 1 dòng; sau khi sửa file không còn "Ohitera" nào), xưng hô 6 (1975, 2118, 2241: Soutetsu "cô/tôi/mình"→"em/anh" khi nói với Hibiki; 3025, 3100, 3133: độc thoại Soutetsu "anh"→"tôi"), sai nghĩa 6 (2348 居場所 "Chỗ ở"→"Chỗ Michi đang ở"; 2537 Hibiki nói trực tiếp với Navi "cô ấy"→"cô"; 2874 描く "tôi viết"→"tôi vẽ"; 2989 chủ ngữ lẩm bẩm "Tôi"→"Em ấy" theo TW; 3063 納得 "thuyết phục"→"như đã hiểu ra"; 3138 chủ ngữ "và Hachiroku"→"Hachiroku gọi là"), lỗi nhỏ 1 (2428 gasp っ thô từ sweep).
+- Sweep kiểm chứng: 2 mục cho file (nhân đôi cho 2 bản TOML, cùng key 2428) — nhận 1/1, 0 mục sai, 0 mục bỏ sót (quét toàn bộ っ trong JP: còn lại là っ trong từ, っ nhấn mạnh trên từ có nội dung, SFX đã diễn đạt, âm đã diễn đạt + dấu câu truyền tải độ ngắt).
+- Đại từ đã rà toàn file: Soutetsu "tôi" đúng với Navi (2282, 2331) và trong độc thoại; "anh" đúng trong thoại với Hibiki; "mình" chỉ còn ở mệnh đề phụ và dạng phản thân (giữ nguyên theo tiền lệ Hachiroku 12); "Em ấy" trong độc thoại đều chỉ Hibiki; Hibiki gọi "anh hai" đúng; Michiko gọi "anh Soutetsu" đúng.
+- Giữ nguyên, ghi nhận: 2201 KHÔNG SỬA, chờ Hieu ("Của bọn anh sao?" — đại từ nhóm, người nghe/cảnh chưa rõ); 1519 "Bố mẹ vẫn đang tiếp tục tìm kiếm" (ngữ cảnh 1899 chứng minh bố mẹ là người tìm Michi); 2019/3141 義父 "bố nuôi" (Soutetsu là con nuôi nhà Migita — sự thật trong truyện, TW 養父 ở 3141); 2986 "Hibiki mở ra." (JP cụt tân ngữ, VN soi gương); 2441 この子 "đứa trẻ này" cho 8620; 2831 "Anh" trong trích dẫn (lời định nói với Hibiki); 2748 日ノ本 "Hinomoto" đã đúng sẵn; OHITOYO viết hoa là tên thương hiệu; 1493 VN==TW 「……」 hiển nhiên.
+- Chi tiết đầy đủ: `audit-grand03-hibiki-REVIEW.md`; danh sách sửa: `audit-grand03-hibiki-wrong.json` (26 mục, khóa chuỗi; khối TOML 26 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 26/26; lượt soát 2: 26 tổng / 26 tái kiểm chứng / 0 bỏ / 0 sửa).
+
+**Tổng cộng sau file này: 167 file / 7.633 dòng sai** (cơ sở 166 file / 7.607 dòng sai + 26 file này)
+
+- Parent kiểm chứng 21/11 ~16:55: JSON 26 mục (key chuỗi, list-of-dicts), khối TOML 26 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 26/26 (1 set duy nhất, 469 dòng). Xưng hô: 1975/2118/2241 với Hibiki đúng (kiểm tra lân cận: 1972–1973, 2119/2121, 2240), độc thoại 3025/3100/3133 → "tôi" đúng. Sweep 2428 trong JSON. Không sửa nào bị loại. CỜ CHO HIEU: 2201 KHÔNG sửa (đại từ nhóm "Của bọn anh sao?", người nghe chưa rõ).
+
+## 凪ふかみ07_少しずつ、大人に — 凪ふかみ07_少しずつ、大人に.txt.toml — 43/471 (9,1%)
+
+- File: `凪ふかみ07_少しずつ、大人に.txt.toml` (route 07_Nagi_Fukami), 471 dòng.
+- Đọc: 471/471. Sai: **43 dòng (9,1%)**.
+- Phân loại: xưng hô 12 · thuật ngữ 4 · sai nghĩa 2 · SFX 1 + gasp 2 · dấu câu 1 · thẻ %l 21.
+- Lệch hàng 0 · xoay vòng 0 · nhiễm 0 · mồ côi 0 · chưa dịch 0 · trùng key 0.
+- Sweep っ-gasp: 1 entry (2084) đã áp dụng; phát hiện thêm 1 gasp B1 sweep bỏ sót (2086).
+- Lượt soát 2: 43 fix đọc lại — 41 giữ nguyên, 2 sửa (1910, 2042 bổ sung lại 「」), 0 loại bỏ.
+- Cờ cho Hieu: cụm 2208–2215 (người nghe mơ hồ, giữ nguyên); 2851 đã được parent kiểm chứng và giữ fix (xem dòng Parent bên dưới).
+- Ghi chú: 代理車掌 "trưởng tàu đại diện" (file này) vs "trưởng tàu đại lý" (凪ふかみ03) — ứng viên unification pass.
+
+**Tổng cộng sau file này: 168 file / 7.676 dòng sai** (cơ sở 167 file / 7.633 dòng sai + 43 file này)
+
+- Parent kiểm chứng 21/11 ~16:55: JSON 43 mục (key chuỗi, list-of-dicts), khối TOML 43 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 43/43 (1 set duy nhất, 471 dòng). 2851 ĐÃ KIỂM CHỨNG: người được nhắc là Fukami (2849/2853: đoạn độc thoại về Fukami; "em ấy" dùng cho Fukami 26 dòng trong file) — "cô ấy"→"em ấy" đúng; thẻ %l 車掌 bỏ đúng (JP không có thẻ). 2189 "em" đúng (Fukami báo cáo với Soutetsu — dạng kính ngữ です ở 2190/2192; 2179 mới là nói với Nagi). 1910 "Hạnh phúc" bịa → "Gì cơ ạ?" đúng (JP thắng TW). Sweep 2084 + 2086 trong JSON. Không sửa nào bị loại. CỜ CHO HIEU: cụm 2208–2215 giữ nguyên (người nghe mơ hồ); 代理車掌 "trưởng tàu đại diện" vs "trưởng tàu đại lý" (凪ふかみ03 2058) — ứng viên unification pass.
