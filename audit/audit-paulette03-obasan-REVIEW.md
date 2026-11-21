@@ -1,6 +1,6 @@
-# Audit: Paulette 03_大きなにもつのおばあさん — 255 dòng Việt sai (đã đối chiếu JP + TW)
+# Audit: Paulette 03_大きなにもつのおばあさん — 256 dòng Việt sai (đã đối chiếu JP + TW)
 
-File: `03_Paulette/ポーレット03_大きなにもつのおばあさん.txt.toml` — 455 dòng script, **255 dòng Việt sai = 56%**.
+File: `03_Paulette/ポーレット03_大きなにもつのおばあさん.txt.toml` — 455 dòng script, **256 dòng Việt sai = 56,3%**.
 Ngày audit: 19/11/2026. Nguồn đối chiếu: `Matetsu Last Run - Trang tính3.csv` (cột JP Original + TW Original/Current) và TOML-2. File này nặng hơn hẳn 廃炭鉱 (31%): hơn một nửa số dòng bị sai.
 
 ## Kết luận về cơ chế lỗi
@@ -8,7 +8,7 @@ Ngày audit: 19/11/2026. Nguồn đối chiếu: `Matetsu Last Run - Trang tính
 - Là **lỗi chép nhầm rải rác, quy mô lớn**: cột Việt bị xáo trộn giữa các dòng trong cùng file. Nhiều bản dịch đúng còn nằm ở key sai (xem "Các dòng bị chuyển chỗ" bên dưới), và nhiều dòng bị trùng lặp.
 - File CSV cũ (`maitetsu_translation.csv`) và file mới (Trang tính 3) lệch nhau 122 dòng nội dung ở file này — cả hai đều bị xáo trộn theo cách khác nhau, nên không thể dùng file cũ để sửa file mới.
 - Cột Nhật và cột Trung khớp nhau (~98%), nên chỉ cần dịch lại từ Nhật/Trung là ra bản đúng — không cần tìm thêm nguồn.
-- Lưu ý: 200 dòng còn lại đã kiểm tra là đúng, KHÔNG nằm trong danh sách dưới đây.
+- Lưu ý: 199 dòng còn lại đã kiểm tra là đúng, KHÔNG nằm trong danh sách dưới đây.
 
 ## Khối TOML để áp dụng (paste vào [script], giữ nguyên key)
 Lưu ý khi chép: xuống dòng viết dạng `\\n` — giống như các dòng đúng sẵn có trong file. File này KHÔNG tự sửa TOML gốc, Hieu duyệt rồi tự áp dụng.
@@ -24,7 +24,7 @@ Lưu ý khi chép: xuống dòng viết dạng `\\n` — giống như các dòng
 1488 = "「Không phải đâu ạ? Nửa đêm con bé cứ khóc nhè gọi 'Ba ơi',\\nnên em đã đưa con bé sang đây.」"
 1490 = "「Không biết nữa ạ. Chúng ta vẫn chưa đến Sendai mà——\\nHơn nữa bây giờ là tháng Ba rồi, khả năng có tuyết rơi chắc là thấp thôi ạ.」"
 1491 = "「Dù giữa đường tàu có trễ bao lâu đi nữa à?」"
-1494 = "「Cảm ơn anh đã chỉ bảo ạ.」"
+1494 = "「Cảm ơn em đã chỉ bảo.」"
 1496 = "「Để mọi người đợi lâu rồi ạ~」"
 1501 = "「Reina cũng muốn được kéo dãn ra nữa nha~」"
 1514 = "「Mọi người cứ nói 'xin lỗi' với 'thật ngại quá' như thế,\\ncon bé lại tưởng là mình đã làm gì sai đấy.」"
@@ -162,7 +162,7 @@ Lưu ý khi chép: xuống dòng viết dạng `\\n` — giống như các dòng
 1925 = "「Vì đây là thời đại Đại bãi bỏ tuyến đường sắt mà. Ở đâu cũng chỉ có thể làm trong khả năng của mình thôi.」"
 1927 = "「Cà chua!? Cà chua á.\\nHikari muốn nước ép ngọt cơ~」"
 1928 = "「Tất nhiên rồi ạ. Nhưng mà đơn giản thôi ạ,\\nbánh mì baguette với giăm bông và xà lách. Em định làm bánh mì kẹp mở ạ.」"
-1935 = "「Anh cũng đã khuyên chị Mayami là ngoài khám sức khỏe định kỳ ra,\\ncũng nên đi khám sức khỏe tổng quát nữa.」"
+1935 = "「Chị Mayami cũng đã khuyên anh là ngoài khám sức khỏe định kỳ ra, cũng nên đi khám sức khỏe tổng quát nữa.」"
 1938 = "「Được rồi, được rồi. Reina, nhờ em được không?」"
 1942 = "「Ra là vậy, đúng thật. Nghĩ lại thì,\\nReina khỏe mạnh hơn bọn anh nhiều đấy nhỉ.」"
 1950 = "「Chạy bù giờ—— ra là vậy, là để giữ thời gian trễ trong vòng 120 phút à.」"
@@ -184,7 +184,7 @@ Lưu ý khi chép: xuống dòng viết dạng `\\n` — giống như các dòng
 2047 = "「Em làm đây~ Từ từ, từ từ nào——\\nưm…… ưm.」"
 2048 = "「Vậy nhé, có dịp lại gặp nhau nhé.」"
 2051 = "「Vậy thì, lại đây nào. Reina cũng kéo dãn luôn nhé.」"
-2052 = "「Em ăn đây ạ~」"
+2052 = "「Con ăn đây ạ~」"
 2053 = "「Đúng là giờ này vẫn chưa có bài tập thể dục trên radio,\\nnhưng chỉ là vài động tác vươn vai thì cũng không gây tiếng động gì, chắc không sao đâu.」"
 2054 = "「Anh Soutetsu, anh định vươn vai kéo dãn lưng đúng không nha.」"
 2055 = "「Anh Soutetsu với mọi người cũng đi đi ạ.\\nChừng ba mươi phút nữa là đông đúc lắm đấy.」"
@@ -214,7 +214,7 @@ Lưu ý khi chép: xuống dòng viết dạng `\\n` — giống như các dòng
 2409 = "Vừa quay về giường nằm của bọn tôi,\\nHikari đã vui vẻ chào đón."
 2411 = "Con gái của bọn tôi mới chỉ bắt đầu chạy thôi.\\nĐể con bé không phải vội vàng trên chặng đường đó, hai vợ chồng tôi đồng lòng với nhau."
 2412 = "Chốc lát im lặng.\\nChỉ còn tiếng bánh xe gõ lên đường ray vang đều đều trong toa."
-2415 = "Dù là giọng của tôi, của Paulette, hay của Reina,\\nHikari vẫn nhắm nghiền mắt, cơ thể cứng đờ lại."
+2415 = "Tôi hạ giọng xuống——\\nÀ, đúng rồi."
 2417 = "Giọng nói nghe buồn ngủ.\\nMột bàn tay thò ra từ dưới chăn, rồi sau đó, đầu cũng ngẩng lên."
 2418 = "Cả hai chân đã chạm đất."
 2424 = "Tôi với Hikari chênh lệch chiều cao quá lớn."
@@ -264,10 +264,10 @@ Lưu ý khi chép: xuống dòng viết dạng `\\n` — giống như các dòng
 2643 = "Nếu chỉ có mình tôi đi tàu thì trên chuyến tàu không có bán hàng rong này,\\nchắc tôi đã phải chịu đựng cơn đói trong suốt chuyến đi dài rồi."
 2646 = "Được kéo dãn ra, tôi mới cảm nhận lại được.\\nQuả nhiên, chỗ nào cũng cứng đơ hết cả."
 2660 = "Dùng chăn làm ghế sofa cũng được thôi,\\nnhưng mà còn có Hikari ở đây."
-2661 = "Chính vì không thể phủ nhận được\\nnên tôi lại cảm thấy—— cứ như có gì đó day dứt trong lòng."
-2662 = "Tôi mở mắt ra.\\nHikari đã chuyển sang giường của tôi từ lúc nào không hay."
+2661 = "Dù lý trí thì hiểu là vậy, nhưng thực tế rất khó để xin nghỉ đi khám."
+2662 = "Chính vì không thể phủ nhận được\\nnên tôi lại cảm thấy—— cứ như có gì đó day dứt trong lòng."
 2664 = "「Chẳng lẽ…… tàu đang chạy giảm tốc sao?」"
-2685 = "（Cạch.）"
+2685 = "（Bịch.）"
 2687 = "（Hự—— hự hự——）"
 2691 = "（Tuúú…!）"
 ```
@@ -300,7 +300,7 @@ Khối TOML trên đã dùng đúng bản dịch cho các key này; các key ngu
 - **2215** ← bản dịch đúng ("Dù là giọng của tôi, của Paulette, hay của Reina, Hikari vẫn nhắm nghiền mắt…") đang nằm ở **2217**
 - **2217** đã sửa lại theo JP; bản cũ của nó thuộc về 2215.
 - **2414** ← bản dịch đúng ("Tất cả chúng tôi đều trở nên im lặng. Bởi vì trong miệng chứa đầy hương vị thơm ngon…") đang nằm ở **2488**
-- **2415** ← bản dịch đúng (cùng câu trên, dạng khác) — 2415 đã sửa lại theo JP.
+- **2415** ← bản cũ lấy nhầm câu của 2215 ("Dù là giọng của tôi…") — đã sửa lại theo JP ở lượt soát 2 (22/11): "Tôi hạ giọng xuống—— À, đúng rồi." (xem "Lượt soát 2").
 - **2418** ← bản dịch đúng ("Chỉ cần tàu bắt đầu chạy, chắc chắn sắt và khói sẽ một lần nữa khích lệ Hikari.") đang nằm ở **2432**
 - **2428** ← bản dịch đúng ("Ừm. Nếu là động tác đó thì không gian này cũng đủ rồi.") đang nằm ở **1700**
 - **2432** đã đúng — bản "Chỉ cần tàu bắt đầu chạy…" là của nó.
@@ -309,7 +309,7 @@ Khối TOML trên đã dùng đúng bản dịch cho các key này; các key ngu
 - **2494** ← bản dịch đúng ("Anh chưa nói sao? Anh muốn vận động cơ thể một chút.") đang nằm ở **1820**
 - **2548** đã đúng — bản cảnh bà lão mang hành lý là của nó.
 - **2567** ← bản dịch đúng ("Chào buổi sáng. Reina cũng dậy sớm quá nhỉ. Chuyến đi này em cứ ngủ nướng thêm một chút…") đang nằm ở **1852**
-- **2614** ← bản dịch đúng ("Thành thật xin lỗi quý khách, do quá đông đúc…") đang nằm ở **1540** (1540 đã đúng, giữ nguyên)
+- **2614** ← bản Việt cũ là bản dịch của **1540** (1540 đã đúng, giữ nguyên) — 2614 đã dịch mới từ JP (đầu máy C56). Ghi chú cũ nói ngược đã sửa ở lượt soát 2.
 - **2636** ← bản dịch đúng ("Chào buổi sáng, anh Soutetsu.") đang nằm ở **1854** (1854 đã sửa lại theo JP)
 
 ## Các cặp trùng lặp đáng chú ý
@@ -317,7 +317,7 @@ Nhiều giá trị Việt xuất hiện ở 2 key, chỉ một key đúng (key c
 
 ## Thuật ngữ đã dùng (theo docs + các dòng đúng sẵn có trong file)
 - 鉄分 = sắt; 煙分 = khói; 塩分 = muối (chơi chữ 鉄分/塩分/煙分 giữ nguyên ý)
-- 御一夜鉄道 = Đường sắt Ohito; 帝鉄 = Đế Thiết (theo các dòng đúng trong file: "thời Đế Thiết", "Đường sắt Ohito")
+- 御一夜鉄道 = Đường sắt Ohito; 帝鉄 = Đế Thiết (theo các dòng đúng trong file: "thời Đế Thiết", "Đường sắt Ohito") — LƯU Ý lượt soát 2 (22/11): theo quyết định 21/11, "Đường sắt Ohito" → "Đường sắt Ohitoyo" (236 dòng toàn dự án) và 帝鉄 → "Teitetsu" thuộc đợt thống nhất, KHÔNG sửa trong audit này (1750 "Đường sắt Ohito" giữ nguyên, đưa vào đợt thống nhất).
 - 行商 = bán dạo; 運転停車 = điểm dừng kỹ thuật; 回復運転 = chạy bù giờ; 特急料金 = tiền vé tàu tốc hành; 乗車料金 = tiền vé tàu
 - 人間ドック = khám sức khỏe tổng quát; 健康診断 = khám sức khỏe (định kỳ)
 - 薩摩守 = ngồi ké ghế (chơi chữ: ngồi ghế không trả tiền) — giữ tên gốc trong câu hỏi ở 2060
@@ -326,7 +326,7 @@ Nhiều giá trị Việt xuất hiện ở 2 key, chỉ một key đúng (key c
 - 2664 chỉ sai dấu ngoặc (thiếu 「 đầu câu) — nội dung đã đúng, đã sửa dấu trong khối trên.
 
 ## Giới hạn của audit này
-- Đã đọc hết 455 dòng script của file này: 255 dòng sai đã xác nhận, 200 dòng còn lại khớp Nhật/Trung.
+- Đã đọc hết 455 dòng script của file này: 256 dòng sai đã xác nhận, 199 dòng còn lại khớp Nhật/Trung.
 - Vẫn có thể sót vài dòng "trông hợp lý nhưng thực ra là bản dịch của dòng khác" — cách chắc chắn nhất vẫn là chơi qua chương và đối chiếu voice. Nếu Hieu gặp thêm dòng nào nghi ngờ trong file này thì gửi mình, mình kiểm tra nốt.
 - File này (56% sai) nặng hơn nhiều so với 廃炭鉱 (31%). Các file còn lại trong danh sách nặng (Grand 01, Hibiki 03, Hachiroku 13, Nagi_Fukami 08a) nhiều khả năng cũng ở mức tương tự — không nên tin vào con số ước tính bằng máy check (~662 dòng) nữa.
 
@@ -336,4 +336,43 @@ Nhiều giá trị Việt xuất hiện ở 2 key, chỉ một key đúng (key c
 3. Xuất lại CSV mới từ TOML (sau khi áp fix) để CSV không còn cũ — nhớ chép 146 dòng Grand 01/Hibiki 03 từ TOML vào CSV trước, kẻo mất bản dịch.
 
 ---
-**Bổ sung 19/11 (quét っ toàn dự án):** 3 giá trị sửa trong khối trên đã được sửa lại chỗ gasp — 2326 "Hơi có mùi khói——!"→"Hơi có mùi khói——Ư!", 1583 「Phù…… a~」→「Phù…… a~Ư」, 1590 「Phù~」→「Phù~Ư". Giá trị sweep thay thế giá trị audit (audit làm mất gasp). Khối TOML đã parse lại: 256/256 key, không còn chữ っ thô trong khối. Tổng số dòng sai không đổi (255 + 2664).
+**Bổ sung 19/11 (quét っ toàn dự án):** 3 giá trị sửa trong khối trên đã được sửa lại chỗ gasp — 2326 "Hơi có mùi khói——!"→"Hơi có mùi khói——Ư!", 1583 「Phù…… a~」→「Phù…… a~Ư」, 1590 「Phù~」→「Phù~Ư". Giá trị sweep thay thế giá trị audit (audit làm mất gasp). Khối TOML đã parse lại: 256/256 key, không còn chữ っ thô trong khối. Tổng số dòng sai: 256 (255 + 2664 — 2664 là lỗi dấu câu, tính vào tổng).
+
+---
+## Lượt soát 2 (22/11/2026) — hoàn thiện audit cũ để gộp (không audit lại từ đầu)
+
+File này đã audit ngày 19/11 nhưng chưa từng gộp vào ROUTE-AUDIT.md. Lượt này kiểm chứng lại toàn bộ công việc cũ theo AUDIT-BRIEF + skill aligned_translation_audit, chuẩn hóa JSON sang dạng list-of-dicts, viết snippet.
+
+**Kiểm chứng máy (đều PASS):**
+- JSON cũ: 255 mục, jp/tw/vn khớp CSV3 tuyệt đối 255/255 (0 lệch). CSV3: 1 bộ duy nhất, 455 dòng, 0 key trùng, 0 dòng VN trống, 0 dòng VN==TW.
+- Khối TOML trong review parse được (tomllib), 256 khóa. JSON mới: 256 mục (key chuỗi, list-of-dicts: key/jp/tw/old_vn/fix/kind/character/reason), khối TOML mới parse 256/256, 0 sai lệch giá trị so với JSON, 0 chữ っ thô trong khối, 0 fix trùng bản Việt cũ.
+- File JSON cũ `audit-obasan-wrong.json` giữ nguyên trên đĩa (dạng cũ: {k int, ch, jp, tw, vn}, không có fix). File mới: `audit-paulette03-obasan-wrong.json`.
+- TOML md5 `6c28ba1db40c5591d2610a386655770f`, BOM + CRLF, `[selections]` rỗng. KHÔNG có bản sao trùng trong toml2 (11 nhóm trùng toàn dự án không chứa file này) — fix chỉ áp cho 1 file. TOML-2 vs CSV3: 195 khác biệt, toàn bộ là `\\n` bị gộp thành khoảng trắng trong TOML-2 (0 khác biệt thực chất); CSV3 là chuẩn cho fix list.
+- Sweep gasp っ: 4 mục cho file này — 3 đã áp nguyên giá trị sweep (1583/1590/2326, kiểm chứng khớp JP); 1 mục "already-rendered" (1663 「っ！」→「Á!」, không sửa — âm đã được diễn, đúng quy tắc gasp).
+- Thẻ %l: JP 0 thẻ, VN 1 thẻ (1692 — gloss C56/炭水車 do Gemini thêm, JP không có; bản sửa đã bỏ thẻ theo đúng quy tắc). 0 thẻ thiếu dấu `;`.
+- Tràn chương hai chiều obasan ↔ sleeper (Paulette 02, đã gộp): kiểm chứng 17/17 key nguồn obasan (1680, 2637, 2017, 2277, 1704, 2265, 1583, 1628, 1961, 1682, 1830, 2517, 2478, 2503, 2563, 1809, 2466) đều nằm trong khối sửa này; bản sửa sleeper khớp bản Việt cũ tại key nguồn obasan (16/17 khớp tuyệt đối hoặc chỉ khác `\\n`/khoảng trắng; ngoại lệ duy nhất là 1712 — sửa 1 từ "phần thưởng"→"bữa ăn" đã ghi trong audit sleeper). KHÔNG xung đột.
+- Đại từ: không có fix nào đổi "anh"→"tôi" cho Soutetsu với Paulette/Reina trong file này (audit cũ giữ "anh" — đúng quy tắc đã sửa 20/11: "anh" với Paulette/Reina). 3 fix liên quan xưng hô được sửa ở lượt này (1494/1935/2052, xem dưới).
+- Không phát hiện thêm dòng sai mới trong 199 dòng "đúng": kiểm tra máy — 0 dòng có VN trùng với giá trị sửa khác, 0 cặp VN trùng dài trong nhóm đúng, 0 VN còn っ thô, 0 dòng có tỉ lệ dài VN/JP bất thường.
+
+**Đối chiếu 256-vs-255 (đã giải quyết, KHÔNG để lọt):** khối TOML cũ có 256 khóa, JSON cũ có 255 mục. Khóa thừa là **2664** — lỗi dấu câu thật (bản Việt cũ thiếu dấu 「 mở đầu: `Chẳng lẽ…… tàu đang chạy giảm tốc sao?」`), không có trong JSON cũ vì audit cũ không tính lỗi dấu câu vào tổng. GIỮ 2664, tổng chốt **256** (không phải 255). Ngoài ra phát hiện **2662 là no-op**: giá trị "sửa" của nó trùng y hệt bản Việt cũ (xem dưới).
+
+**Lượt soát 2: 256 tổng / 249 tái kiểm chứng / 0 bỏ / 7 sửa.** 7 giá trị sửa lại (đã cập nhật trong khối TOML + JSON mới):
+1. **1494** 「Cảm ơn anh đã chỉ bảo ạ.」→「Cảm ơn em đã chỉ bảo.」— người được cảm ơn là Paulette (cô ấy trả lời ở 1490; Reina vắng mặt đến 1496; bà lão chưa lên tiếng trong cảnh này). Soutetsu với Paulette xưng "em", không dùng "ạ" (song song 1542 "Cảm ơn em.").
+2. **1935** "Anh cũng đã khuyên chị Mayami…"→"Chị Mayami cũng đã khuyên anh…"— chiều bị đảo: JP 勧められて là bị động (Mayami khuyên Soutetsu), TW 勸我 xác nhận.
+3. **2052** "Em ăn đây ạ~"→"Con ăn đây ạ~"— Hikari tự xưng "con" trong cả file (1704/1707/1709), không phải "em".
+4. **2415** "Dù là giọng của tôi…"→"Tôi hạ giọng xuống—— À, đúng rồi."— bản cũ lấy nhầm câu của 2215 (2215 tự nó đã đúng, không cần sửa); dịch mới từ JP 声を抑えて――ああ、そうだ. Ghi chú lệch vị trí cũ về 2415 đã sửa theo.
+5. **2661** "Chính vì không thể phủ nhận được…"→"Dù lý trí thì hiểu là vậy, nhưng thực tế rất khó để xin nghỉ đi khám."— bản cũ là bản dịch của 2662, không phải của 2661 (JP 2661 nói về khó xin nghỉ đi khám).
+6. **2662** "Tôi mở mắt ra…"→"Chính vì không thể phủ nhận được\nnên tôi lại cảm thấy—— cứ như có gì đó day dứt trong lòng."— bản cũ trùng y hệt bản Việt cũ (no-op, do bản Việt cũ tại đây vốn là bản dịch của 2441); nhận lại bản dịch đúng của JP 2662 (vốn bị ghi nhầm ở 2661).
+7. **2685** "（Cạch.）"→"（Bịch.）"— とすっ là tiếng bịch trầm khi đặt hành lý xuống (TW 咚), không phải tiếng "cạch" sắc.
+
+**Hai ghi chú lệch vị trí cũ đã sửa (chỉ sửa tài liệu, không đổi số liệu):** 2614 — ghi chú cũ nói ngược ("Thành thật xin lỗi quý khách…" là bản dịch của 1540, không phải của 2614; 2614 đã dịch mới từ JP về đầu máy C56); 2415 (xem mục 4 trên).
+
+**Phân loại 256 dòng sai:** lệch vị trí 213 · sai nghĩa 20 · SFX 17 · gasp 5 · dấu câu 1. Thoại sai 175/293 (59,7%), độc thoại sai 81/162 (50,0%). Theo nhân vật: độc thoại 81, 双鉄 65, ポーレット 40, ひかり 34, れいな 27, おばあさん 9.
+**Cơ chế lỗi:** KHÔNG có key-shift sạch, KHÔNG có chuỗi xoay vòng (0 vòng trong 37 liên kết fix), KHÔNG có orphan đã xác nhận (20 dòng "sai nghĩa" không có bản sao y hệt nào khác trong toàn dự án — nguồn có thể đã bị ghi đè, không kết luận orphan), KHÔNG có dòng chưa dịch, KHÔNG có key trùng. Tràn chương: obasan ↔ sleeper hai chiều, 17 key nguồn (xem trên) + 2 dòng sleeper dịch mới (1892, 2684, không liên quan file này).
+
+**Đưa vào đợt thống nhất (KHÔNG sửa trong audit này):** 1750 "Đường sắt Ohito"→"Đường sắt Ohitoyo" (quyết định 21/11); 1925 帝鉄 trong "thời đại Đại bãi bỏ tuyến đường sắt" → "Teitetsu" (rà soát đợt thống nhất); các dạng "Ohito"/"Đế Thiết" còn lại trong các dòng đúng của file (1150, 2339) cũng thuộc đợt thống nhất.
+**Cần Hieu (flag, không tự quyết):** không có dòng nào mới cần Hieu quyết trong lượt này. B19 (kiểm tra trong game tại Paulette 13 key 1596) vẫn park như mọi file.
+
+## Kết bài
+
+Paulette 03_大きなにもつのおばあさん: 455 dòng đã đọc đủ, **256 dòng Việt sai (56,3%)** — file lệch vị trí rải rác nặng nhất tuyến Paulette (213/256 dòng là bản dịch nằm sai key, gồm tràn chương hai chiều 17 dòng với Paulette 02_解放b寝台). Lượt soát 2 đã kiểm chứng 256/256 bản sửa với JP + TW, sửa 7 bản sai (1494/1935/2052/2415/2661/2662/2685), giữ nguyên 249 bản, không bỏ bản nào, không phát hiện thêm dòng sai mới. JSON chuẩn `audit-paulette03-obasan-wrong.json` (256 mục) + snippet `route-audit-snippet-paulette03-obasan.md` đã sẵn sàng để gộp. Tổng sau file này (cơ sở 182 file / 8.147 đã kiểm chứng với ROUTE-AUDIT.md): **183 file / 8.403 dòng sai**.

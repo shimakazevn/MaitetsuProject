@@ -4171,3 +4171,498 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 
 **Tổng cộng sau file này: 183 file / 8.449 dòng sai** (cơ sở 182 file / 8.147 dòng sai + 302 file này)
 - Parent kiểm chứng 22/11 ~01:00: JSON 302 mục (key chuỗi, list-of-dicts), khối TOML 302 khóa (review + snippet giống hệt nhau), 0 sai lệch giá trị; jp/tw khớp CSV3 tuyệt đối 302/302; old_vn khớp 202/202 (100 dòng chưa dịch: old_vn == TW, CSV3 VN trống — đúng); 2609 'Anh Soutetsu' đã kiểm chứng (Paulette gọi trực tiếp, JP 双鉄くん, B4 lock); 3054 'Okoba' đúng furigana おこばえき; second pass 302/297/0/2 + 3 dòng gasp bổ sung (2308/2912/3588); REBASE: snippet ghi cơ sở 182 file / 8.147 — khớp ROUTE-AUDIT.md hiện tại, tổng mới 183 file / 8.449. Cờ cho Hieu: 1556 (Ư hay ……), 2287 'Hau!' (mâu thuẫn quy tắc はうっ — đã cờ ở ROUTE-AUDIT 3237), 2468/2557 'cậu Soutetsu' ngôi thứ ba giữ; đợt thống nhất: 2467 Teitetsu, 2724 'Công chúa Tàu điện', Ohimitera ×19, 'Đường sắt Ohito' 1550. B19 vẫn park.
+
+---
+
+# Snippet — ポーレット03_廃炭鉱.txt.toml (Paulette 03 — "haitan")
+
+**Tổng cộng sau file này: 184 file / 8.581 dòng sai** (cơ sở 183 file / 8.449 dòng sai + 132 file này)
+
+## ポーレット03_廃炭鉱 (19/11/2026, kiểm chứng lại 22/11/2026 đối chiếu CSV3) — 132/430 sai (30,7%)
+- Lệch vị trí rải rác 124 (VN là bản dịch của dòng khác — gồm các dòng "Hikari/ăn sáng/khám sức khỏe/kéo dãn" không khớp JP nào trong file), thêm nghĩa 2 (2002 bỏ "đấy"; 2410 bỏ "nhạy bén" thêm), dịch sai 3 (1740 そんな→"đâu có như vậy"; 2483 "những người"→"cảm giác"; 2674 Seki "ông bà"→"ông ngoại"), gasp 3 (1345 raw-tsu, 2154, 2155 — cả 3 đã kiểm chứng; 2154 đã có trong audit gốc, 1345/2155 từ sweep).
+- Kiểm chứng lại 22/11: bản audit gốc dùng CSV cũ (lỗi thời) — đã đối chiếu lại toàn bộ với CSV3: jp/tw khớp tuyệt đối 132/132; old_vn cập nhật theo CSV3 (36 dòng khác nội dung so với CSV cũ); JSON cũ thiếu key 2483 đã bổ sung; loại 4 (2466, 2856, 3000 — bản sửa trùng VN hiện tại; 2690 — VN hiện tại đã đúng); sửa 5 (1382/1383/2002 khôi phục 「」; 2442 khôi phục tag 圧; 2674 "ông ngoại"); thêm 3 (1345, 2155 sweep; 2752 VN "Chị Reina, bái bai!" hoàn toàn sai JP). Lượt soát 2: 133 / 124 giữ nguyên / 4 loại / 5 sửa (+3 thêm).
+- **0 chuỗi xoay vòng cố định, 0 tràn từ file Maitetsu khác, 0 dòng chưa dịch, 0 key trùng.** Dòng Việt mồ côi: có (các dòng "Hikari/ăn sáng/khám sức khỏe" không khớp JP nào trong toàn bộ CSV3 — chỉ xuất hiện trong file này). 1 cặp VN trùng giá trị (1779/2388 "Vâng ạ.") — bản sửa giải quyết cả hai. Tag %l: khối TOML 132 khóa parse-kiểm chứng, 0 sai lệch; 4 lệch thứ tự tag do đảo trật tự câu (1728, 2150, 2395, 2814 — cùng tập tag, không lỗi); 2484 tag ブレーキ theo TW (JP để ẩn); 1791 GIỮ ("ơ" render っ, TW 啊).
+- Đại từ ĐÃ KIỂM CHỨNG: không có sửa đại từ Soutetsu kiểu "anh"→"tôi" — 1811/2087/2796 "bọn anh" cho 僕ら GIỮ (tiền lệ Grand 03 2201; 1811 Soutetsu + Paulette đi cùng, nói với Hibiki); 1944 Paulette "bọn em" cho わたし達; 1961 "Yên tâm rồi à?" đúng (đã chốt); 1749 Hibiki "anh hai, chị Paulette" đúng.
+- Nguồn: TOML một bản duy nhất, md5 `56047b5be8ac3a038931f0aa94d43117`, `[selections]` rỗng. CSV3 1 bộ duy nhất, 430 dòng.
+- CỜ CHO HIEU: (1) 2042 はぁっ → "Hả." — GIỮ (っ đã thể hiện qua "Hả." + dấu chấm; TW 蛤啊 ủng hộ; "Hả Ư." sẽ nhân đôi âm); (2) 1791 っ cuối → "ơ" — GIỮ (TW 啊). Đợt thống nhất: "Jutsu-sen"→"Jutsusen" ×6 (5 bản sửa + 2052), "tuyến Yui"→"tuyến Yunoi" ×4 + "Yui"→"Yunoi" ×1 (2087), "Ohimitera"→"Ohitoyo" ×3 (1368, 2084, 2892), "Đường sắt Ohito"→"Đường sắt Ohitoyo" ×2 (1939, 2688), gloss 機関士 "Người lái tàu"→"lái tàu" ×1 (2814). B19 vẫn park.
+- Chi tiết đầy đủ: `audit-paulette03-haitan-REVIEW.md`; danh sách sửa: `audit-paulette03-haitan-wrong.json` (132 mục, khối TOML 132 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 132/132).
+
+```toml
+[script]
+75 = "\\x%lタイフォン;#00ffc040;còi Typhon%l;#; vang lên nhẹ nhàng, \\x%lキハ07;#00ffc040;Kiha 07%l;#; thả chúng tôi xuống rồi chạy vụt đi."
+1330 = "……Nói một lời thôi thì là chẳng có chút thi vị nào.\\nKhông, phải nói là ngoài “gió” ra thì thật sự chẳng còn gì cả."
+1340 = "……Tại sao Paulette, người yêu đường sắt đến vậy, lại chẳng tỏ ra mấy hứng thú với ga bỏ hoang này nhỉ——"
+1345 = "「Ư///////!」"
+1357 = "「——Ừm.」"
+1377 = "「……Em hiểu rồi. Nếu đã vậy thì」"
+1382 = "「……Di tích tuyến đường sắt bỏ hoang, quả nhiên quanh đây không có nhỉ.」"
+1383 = "「……Chắc hẳn nơi này từng phồn thịnh lắm.」"
+1630 = "「Cơ bản mà nói, dù Reina có bị xử lý chậm đi nữa, chỉ cần làm đúng theo chỉ dẫn của Hachiroku thì hoàn toàn không có vấn đề gì.」"
+1632 = "「Không.」"
+1640 = "「Không cần phải hoảng loạn đâu.\\nViệc cần làm bây giờ, chỉ là chăm chú nhìn về phía trước mà thôi.」"
+1645 = "「Không có gì đâu ạ.」"
+1652 = "「Nhưng mà, chỉ cần tận mắt chứng kiến cách xử lý trong tình huống khẩn cấp một lần ở đây, Hibiki sẽ hiểu sâu hơn về các chỉ dẫn lúc khẩn cấp.」"
+1653 = "「Nhưng mà, vẫn có khả năng cực kỳ thấp là Hibiki sẽ tự mình kéo \\x%lブレーキ;#00ffc040;phanh%l;#; theo phán đoán của em ấy.」"
+1656 = "「Nói cách khác, trong trường hợp đó, khi phải dừng khẩn cấp gần ga bỏ hoang mỏ than Jutsu-sen, chỉ cần Hibiki đi bộ đến ga bỏ hoang là xong, phải không?」"
+1674 = "「Nhưng mà……」"
+1691 = "「Xuất phát! Tiến lên!」"
+1696 = "「Khi chuyển số, hãy đạp bàn đạp ly hợp này, ở phía dưới \\x%l運転台;#00ffc040;buồng lái%l;#; ấy.」"
+1723 = "「Trừ khi thời tiết cực kỳ xấu, dọc tuyến Yui, chỗ duy nhất không có sóng điện thoại là khu vực quanh ga bỏ hoang mỏ than Jutsu-sen thôi.」"
+1728 = "「Chừng nào chúng tôi còn ở trên này, \\x%l8620;#00ffc040;8620%l;#; sẽ không chạy.\\nToàn bộ tuyến này sẽ trở thành khu vực \\x%l閉塞;#00ffc040;phong tỏa%l;#; độc quyền của \\x%lキハ07;#00ffc040;Kiha 07%l;#;.」"
+1738 = "「Hả!? Sao lại—— chỗ này, đâu phải ga, cũng đâu phải ga bỏ hoang gì đâu.」"
+1740 = "「Hả!? Em, em đâu có như vậy đâu!」"
+1743 = "「Hả? Nhưng mà, cơ hội luyện tập chỉ có đúng lần này thôi đó?」"
+1749 = "「Vậy nhé, anh hai, chị Paulette, cẩn thận nhé!」"
+1758 = "「Ừm, \\x%lバラスト;#00ffc040;đá dăm%l;#; sao——」"
+1779 = "「A!」"
+1790 = "「A, xin lỗi! Tại em hoảng quá.」"
+1803 = "「Ừm. Em hiểu rồi——em hiểu rồi ạ.」"
+1804 = "「Ừm.」"
+1805 = "「Vâng! À, vâng ạ. Cảm ơn nhiều lắm ạ!」"
+1807 = "「Vâng!」"
+1811 = "「Ừ, bọn anh đi một lát rồi về.」"
+1834 = "「Được rồi, vậy thì.」"
+1840 = "「Những lúc như vậy, đừng do dự, đừng hoảng loạn, hãy làm như thế này.」"
+1882 = "「Không thể yên tâm được.\\nSự yên tâm lúc nào cũng là nguồn gốc của tai nạn.」"
+1885 = "「Tôi cứ nghĩ nếu có liên lạc thì quanh đây hẳn phải còn dấu vết gì đó——\\nnhưng hoàn toàn chẳng có gì cả.」"
+1889 = "「Vì thứ tôi thích là đường sắt còn đang sống……\\nnên về khoản đó tôi không rõ lắm.」"
+1901 = "「Đã gạt số về phía trước rồi.\\nGiờ chỉ cần nối ly hợp là xe sẽ \\x%l力行;#00ffc040;chạy%l;#;.」"
+1909 = "「Theo bản đồ cũ, tuyến Yui với bên này từng liên thông……\\nkhả năng từng chạy thẳng qua nhau khá cao đấy ạ.」"
+1922 = "「Hibiki cũng vậy. Mong em lái tàu an toàn là trên hết.」"
+1925 = "「Đúng là, cơ hội để Hibiki quan sát chị Paulette học cách vận hành, chỉ có đúng “lần này” thôi.」"
+1944 = "「Vâng. Cứ đợi ở đó, khi bọn em quay lại gặp nhau, em sẽ lái tàu đưa mọi người về đến ga Ohitoyo.」"
+1956 = "「Với Hibiki thì, học bằng mắt……\\nnhìn rồi nhớ sẽ nhanh hơn——phải không ạ?」"
+1961 = "「Yên tâm rồi à?」"
+1982 = "「Không tốt chút nào! Đến cả biển báo giới hạn tốc độ còn chẳng buồn nhìn, thì việc nhắc lại như vẹt có ý nghĩa gì chứ!」"
+1984 = "「Đúng vậy.」"
+1986 = "「Đúng rồi. Cứ như vậy nhé.」"
+2002 = "「Sự khác biệt trong cách cảm nhận giữa “mọi người” và Paulette.\\nĐó có lẽ chính là thứ gọi là tố chất của một nhà lãnh đạo.」"
+2003 = "「Paulette. Nếu được, em có thể cho Hibiki xem mẫu cách dừng tạm thời ở ga mỏ than Jutsu-sen không?」"
+2004 = "「Paulette, em làm mẫu cho con bé xem được không?\\nDù sao thì, Hibiki mỗi khi học cái gì cũng——」"
+2010 = "「Sau đó đương nhiên là dấu vết của đường ray. Có lẽ……\\nthứ còn sót lại nhiều khả năng nhất là \\x%lバラスト;#00ffc040;đá dăm%l;#; đấy.」"
+2016 = "「Dù sao thì, tốt nhất là đừng bao giờ có cơ hội để Hibiki phải thao tác \\x%lブレーキ;#00ffc040;phanh%l;#;.」"
+2031 = "「Khi đã dừng hẳn, nhớ gài cả \\x%lブレーキ;#00ffc040;phanh tay%l;#; nữa nhé.」"
+2042 = "「Hả.」"
+2045 = "「Di tích tuyến đường sắt bỏ hoang, người ta tìm ra bằng cách nào vậy?」"
+2083 = "「Đây là…… ga bỏ hoang mỏ than Jutsu-sen sao.」"
+2086 = "「Đây là mẫu cho việc cần làm trong trường hợp khẩn cấp.」"
+2087 = "「Nếu được như vậy, dù là chuyến dừng đúng giờ ở Yui và Ohitoyo, hay chuyến dừng tạm buổi chiều để đón bọn anh, độ an toàn cũng sẽ cao hơn.」"
+2088 = "「Như vậy là đã dừng lại an toàn rồi——\\ngiờ hãy gọi điện cho anh Hayase, hoặc chị Mayami để cầu cứu.」"
+2105 = "「Dạ, em cũng muốn nhờ chị làm mẫu cho em xem ạ.」"
+2111 = "「Vậy thì, làm mẫu đến đây là đủ rồi chứ?」"
+2117 = "「Trong trường hợp đó, chắc phải có không gian và thiết bị để dỡ hàng từ \\x%l貨車;#00ffc040;toa chở hàng%l;#; xuống, hay để chuyển container——」"
+2127 = "「Nhưng mà, nếu dừng ở chỗ không có sóng thì sao ạ?」"
+2131 = "「Vậy thì, nếu như không liên lạc thì sao?」"
+2136 = "「Gi-giới hạn tốc độ, 50! Được rồi!」"
+2137 = "「Hết giới hạn tốc độ. Được rồi!」"
+2138 = "「Giới hạn tốc độ. 50!」"
+2150 = "「Trước tiên…… hãy coi cần số này tương đương với \\x%l逆転機;#00ffc040;cần đảo chiều%l;#; của \\x%l蒸気機関車;#00ffc040;đầu máy hơi nước%l;#;.」"
+2154 = "「Ư!」"
+2155 = "「Ư!!!」"
+2367 = "Đôi mắt xanh nãy giờ vẫn đang quan sát đường ray tuyến Yui rồi mặt đất xung quanh, ngẩng lên."
+2368 = "Không chỉ nhà ga bỏ hoang, mà xung quanh nó cũng——chẳng còn lại thứ gì."
+2376 = "Dù sao thì, thành quả huấn luyện cũng đã thể hiện ra.\\nLúc khởi hành trơn tru như trượt đi, lúc tăng tốc cũng không cảm nhận được rung lắc."
+2388 = "Thời tiết hôm nay quang đãng.\\nNhìn qua cửa sổ, bầu trời chẳng có lấy một gợn mây."
+2395 = "Nhìn kỹ lại…… ấn tượng hoàn toàn khác với \\x%l運転台;#00ffc040;buồng lái%l;#; của \\x%l8620;#00ffc040;8620%l;#;."
+2400 = "Những người đó thì có thể điều xe chạy xăng đến, còn chị Mayami thì chắc chắn lúc nào cũng nghĩ ra cách đối phó tốt nhất."
+2401 = "Nhưng mà, giọng đáp lại ngay lập tức lại căng thẳng trở lại."
+2405 = "Chẳng thấy thiết bị gì đâu, nhưng không gian thì thừa thãi."
+2410 = "Thế nhưng, tố chất hiếm có ấy, trực giác ấy.\\nCả về đường sắt lẫn chính trị, Paulette hiện tại đều chưa phát huy được hết."
+2430 = "Hachiroku gật đầu thật sâu."
+2432 = "Giọng nói của Hachiroku đầy vẻ cảm phục."
+2438 = "Vẻ gồng cứng đã hoàn toàn biến mất."
+2442 = "\\x%l圧;#00ffc040;Áp lực%l;#; dồn lên \\x%lブレーキ;#00ffc040;phanh%l;#; đương nhiên sẽ từ từ làm giảm tốc độ \\x%l列車;#00ffc040;đoàn tàu%l;#;——rồi cuối cùng dừng hẳn lại."
+2464 = "Chỉ cần lấy lại được bình tĩnh, thì nhất định sẽ không bỏ sót mục tiêu nào đâu."
+2483 = "Vì cảm giác “hiểu” và “nhìn thấu” quá rõ ràng, nên chắc em ấy chẳng thể tưởng tượng nổi cảm giác “không hiểu” và “không nhìn thấu”."
+2484 = "Nói cách khác, là vì đúng lúc đến lượt Reina thao tác \\x%lブレーキ;#00ffc040;phanh%l;#; thì em ấy lại bị xử lý chậm——ngủ gật, mà Paulette lại không có mặt."
+2489 = "Đồng thời với việc Reina bị xử lý chậm, khả năng Hachiroku gặp sự cố cũng không phải là bằng không."
+2492 = "Trong lúc hướng dẫn huấn luyện, chắc Hachiroku cũng đã hiểu ra.\\nKhả năng học hỏi của Hibiki tỏa sáng nhất là khi em ấy học bằng cách nhìn rồi bắt chước."
+2497 = "Nghe có tiếng thở phào nhẹ nhõm.\\nTừ Paulette đang ngồi ở ghế bên cạnh tôi."
+2521 = "Vừa nghiêm nghị, gọn gàng, mà lại cho ấn tượng vô cùng mềm mại và nhẹ nhàng."
+2522 = "Dáng đứng khiến người ta liên tưởng đến từ “khỏe khoắn”.\\nSau khi Reina xác nhận an toàn, Hibiki nhẹ nhàng đưa tay ra."
+2526 = "Đó là một nhận xét hoàn toàn chính xác.\\nSau chuyến \\x%l列車;#00ffc040;đoàn tàu%l;#; tạm thời lúc sáng sớm này, chuyến tiếp theo sẽ là chuyến \\x%l列車;#00ffc040;đoàn tàu%l;#; đi học đúng giờ buổi sáng."
+2539 = "Em ấy đã sửa lại thật chuẩn chỉ trong một lần.\\nĐúng là Hibiki——đôi mắt của một họa sĩ."
+2550 = "Đưa cần gạt trông như nấc số về lại, ngắt ly hợp, tắt số.\\nRồi dồn lực vào tay cầm \\x%lブレーキ;#00ffc040;phanh%l;#;."
+2576 = "Ngay cả siêu thị hay thứ gì đó, chủ sở hữu của bãi đỗ xe ấy, cũng đã rút đi, rồi dần dần người ta, xe cộ, mọi thứ đều rời khỏi nơi này."
+2577 = "Từ \\x%l運転台;#00ffc040;buồng lái%l;#;, vang lên tiếng “à” đầy vẻ đồng tình của Hibiki."
+2624 = "Tôi cũng có chút nghi ngờ, nhưng khi ra ngoài nhà ga nhìn tận mắt vật thật ở cự ly gần, tôi đã hiểu lý do."
+2627 = "Cái nào là \\x%l自弁;#00ffc040;phanh tự động%l;#;, cái nào là \\x%l単弁;#00ffc040;phanh đơn%l;#;, đến cả chuyện đó tôi cũng hoàn toàn không phân biệt nổi."
+2651 = "Nếu nói đây là cơ hội luyện tập được Paulette trực tiếp hướng dẫn, thì quả thực đây sẽ là lần đầu tiên và cũng là lần cuối cùng.\\nNhưng mà——"
+2654 = "Việc nơi này trở thành bãi đỗ xe có nghĩa là, ngay cả sau khi trở thành ga bỏ hoang, nơi đây vẫn còn giữ được chức năng đô thị."
+2668 = "Hibiki gật đầu.\\nMạnh đến mức dù chỉ nhìn thấy lưng em ấy, tôi cũng nhận ra rõ ràng."
+2670 = "Mỗi lần gật đầu, khuôn mặt Hibiki lại dần dần dịu lại."
+2672 = "Vai Hibiki khẽ động, tôi cảm nhận được em ấy thở phào nhẹ nhõm."
+2674 = "“Anh Hayase” trong trường hợp này, không phải là Fukami, mà là ông ngoại của Fukami——nhà Seki đó."
+2688 = "Với tôi thì đúng như dự đoán, nhưng Paulette lại dừng lại với vẻ mặt bối rối."
+2702 = "Chỉ với chừng ấy hướng dẫn, Hibiki đã thay đổi không chỉ bên trong, mà cả tư thế nữa."
+2733 = "Giống như tôi, chắc chắn Paulette cũng không rời mắt khỏi \\x%l運転台;#00ffc040;buồng lái%l;#; dù chỉ một khoảnh khắc."
+2739 = "Chân Paulette di chuyển, đồng thời tay phải em ấy thao tác cần số."
+2742 = "Cười nhẹ nhàng, Paulette buông tay khỏi các tay cầm.\\nHibiki cứ thế đón lấy chúng vào tay mình."
+2743 = "Vừa nói, Paulette vừa chỉ vào tuyến chính của tuyến Yui."
+2748 = "Từng lời từng chữ của Paulette, chắc sẽ gỡ bỏ được nỗi bất an của em ấy."
+2749 = "Dáng đứng của Paulette, gương mặt nghiêng thỉnh thoảng lại liếc thấy, không sao diễn tả được vẻ đẹp ấy."
+2752 = "Tay Paulette quay vòng vòng chiếc bánh xe sắt lớn như \\x%l舵輪;#00ffc040;bánh lái%l;#;."
+2756 = "Paulette lặng lẽ đứng dậy, tiến về phía \\x%l運転台;#00ffc040;buồng lái%l;#;."
+2782 = "Để tránh xảy ra tình huống như vậy, hãy giảm bớt lo lắng dù chỉ một chút——à, phải rồi."
+2794 = "Khi xảy ra sự cố nghiêm trọng thì chỉ cần dừng lại là được.\\nNhư vậy sẽ đảm bảo an toàn."
+2796 = "Đúng vậy.\\nBọn anh hoàn toàn chẳng hề nghĩ đến chuyện đó——"
+2814 = "Trong \\x%l運転台;#00ffc040;buồng lái%l;#; của \\x%lキハ07;#00ffc040;Kiha 07%l;#; mà em còn chưa quen, Hibiki lúc này không phải \\x%l機関助士;#00ffc040;phụ lái%l;#; cũng không phải \\x%l機関士;#00ffc040;Người lái tàu%l;#;, mà đang đóng vai trò \\x%l運転士;#00ffc040;người lái%l;#;."
+2817 = "Nhờ vào chỉ dẫn quá rõ ràng ấy, cơ thể Hibiki vốn đang co rúm lại cũng thấy nhẹ nhõm hơn."
+2855 = "Nếu ở đây mà căng thẳng quá, để rồi việc điều tra bị lơ là thì đúng là đặt xe trước ngựa."
+2895 = "Đã thiếu một \\x%l運転士;#00ffc040;lái tàu%l;#; chính thức, lại còn sắp phải dừng ở ga bỏ hoang mỏ than Jutsu-sen, nơi bình thường vẫn chạy thẳng qua."
+2898 = "Xung quanh rộng thênh thang quá mức, đến mức tôi chẳng biết phải nhìn đâu, nhìn thế nào nữa."
+2921 = "Có thể sẽ có mưa rào buổi chiều, nhưng trong vài giờ tới thì chắc sẽ không có cơn mưa lớn cực đoan nào đâu."
+2924 = "Dù đã tập luyện kỹ càng cùng Hachiroku, nhưng Hibiki vẫn căng thẳng đến cứng đờ cả người."
+2928 = "Dù chỉ cần làm theo chỉ dẫn của Hachiroku là được, nhưng việc Hibiki không giấu nổi sự dao động cũng là điều dễ hiểu."
+2955 = "Giọng Hibiki vang lên từ buồng lái, mắt vẫn không rời khỏi phía trước."
+2978 = "（Nhưng mà…… chuyện này có khi lại không hay rồi.）"
+2981 = "（Khác hẳn rồi.\\nChỉ cần có hướng dẫn phù hợp——không, chỉ cần có một “tấm gương”, là Hibiki đã có thể học được đến mức này bằng mắt sao.）"
+2987 = "（Kịch, cạch——kịch, cạch——）"
+2991 = "（À…… đúng là tư thế tự nhiên——\\ndáng vẻ của một chuyên gia dày dạn kinh nghiệm.）"
+2992 = "（À——）"
+3004 = "（Bụp!）"
+```
+- Parent kiểm chứng 22/11 ~01:30: JSON 132 mục (key chuỗi, list-of-dicts), khối TOML 132 khóa (review + snippet giống hệt nhau), 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 132/132; second pass 133 xét / 124 giữ / 4 bỏ / 5 sửa + 3 thêm; 2674 'ông ngoại' đúng quy tắc Seki; 2483 bổ sung (JSON cũ thiếu); REBASE: snippet ghi cơ sở 182 file / 8.147 — đã rebase về 183 file / 8.449 (sau khi gộp Grand 01), tổng mới 184 file / 8.581. Cờ cho Hieu: 2042 'Hả.' giữ, 1791 'ơ' giữ, 1811/2087/2796 'bọn anh' giữ, 2484 tag ブレーキ theo TW. Đợt thống nhất: 'Jutsu-sen'→'Jutsusen' ×6, 'Yui'→'Yunoi' ×5, 'Ohimitera'→'Ohitoyo' ×3, 'Đường sắt Ohito'→'Đường sắt Ohitoyo' ×2, gloss 機関士 'Người lái tàu'→'lái tàu'. B19 vẫn park.
+
+---
+
+# Snippet — ポーレット03_大きなにもつのおばあさん.txt.toml (Paulette 03 — "obasan")
+
+**Tổng cộng sau file này: 185 file / 8.837 dòng sai** (cơ sở 184 file / 8.581 dòng sai + 256 file này)
+
+## ポーレット03_大きなにもつのおばあさん (19/11/2026, hoàn thiện + kiểm chứng lại 22/11/2026) — 256/455 sai (56,3%)
+- Lệch vị trí rải rác 213 · sai nghĩa 20 · SFX 17 · gasp 5 · dấu câu 1. Thoại sai 175/293 (59,7%), độc thoại sai 81/162 (50,0%). Theo nhân vật: độc thoại 81, 双鉄 65, ポーレット 40, ひかり 34, れいな 27, おばあさん 9. File lệch vị trí rải rác nặng nhất tuyến Paulette: hơn một nửa số dòng là bản dịch nằm sai key, nhiều bản đúng còn nằm ở key sai trong file (xem "Các dòng bị chuyển chỗ" trong review).
+- Đối chiếu 256-vs-255 (đã giải quyết): khối TOML cũ 256 khóa vs JSON cũ 255 mục — khóa thừa là **2664** (lỗi dấu câu thật: thiếu dấu 「 mở đầu), GIỮ, tổng chốt **256**. Ngoài ra **2662 là no-op** (giá trị "sửa" cũ trùng y hệt bản Việt cũ) — đã sửa ở lượt soát 2.
+- Kiểm chứng lại 22/11 (không audit lại từ đầu): JSON cũ 255 mục, jp/tw/vn khớp CSV3 tuyệt đối 255/255; CSV3 1 bộ duy nhất, 455 dòng, 0 key trùng, 0 VN trống, 0 VN==TW. JSON mới `audit-paulette03-obasan-wrong.json` (256 mục, key chuỗi, list-of-dicts: key/jp/tw/old_vn/fix/kind/character/reason); khối TOML 256 khóa parse-kiểm chứng, 0 sai lệch giá trị so với JSON, 0 chữ っ thô trong khối, 0 fix trùng bản Việt cũ. Lượt soát 2: 256 / 249 tái kiểm chứng / 0 bỏ / 7 sửa (1494 xưng hô "anh"→"em" với Paulette; 1935 đảo chiều Mayami khuyên Soutetsu; 2052 Hikari "em"→"con"; 2415 lấy nhầm câu 2215, dịch mới từ JP; 2661/2662 hoán đổi bản dịch cho nhau; 2685 とすっ "Cạch"→"Bịch"). Không phát hiện thêm dòng sai mới trong 199 dòng "đúng" (0 VN trùng giá trị sửa khác, 0 cặp VN trùng dài, 0 VN còn っ thô, 0 tỉ lệ dài VN/JP bất thường).
+- **0 chuỗi xoay vòng (0 vòng trong 37 liên kết fix), 0 dòng chưa dịch, 0 key trùng, 0 orphan đã xác nhận** (20 dòng "sai nghĩa" không có bản sao y hệt nào khác trong toàn bộ dự án — nguồn có thể đã bị ghi đè, không kết luận orphan). Tràn chương hai chiều obasan ↔ sleeper (Paulette 02_解放b寝台, đã gộp): 17 key nguồn obasan đều nằm trong khối sửa này, bản sửa sleeper khớp bản Việt cũ tại key nguồn (16/17 khớp tuyệt đối hoặc chỉ khác `\n`/khoảng trắng; ngoại lệ 1712 sửa 1 từ "phần thưởng"→"bữa ăn" đã ghi trong audit sleeper) — KHÔNG xung đột.
+- Đại từ ĐÃ KIỂM CHỨNG: không có fix nào đổi "anh"→"tôi" cho Soutetsu với Paulette/Reina (audit cũ giữ "anh" — đúng quy tắc đã sửa 20/11: "anh" với Paulette/Reina); 1854 Paulette 双鉄くん→"anh Soutetsu" (khóa B4); 1653/1673/1804/1813/1820/1827 Soutetsu "anh" với Paulette/Reina giữ nguyên; 2021 "bọn cháu" với bà lão giữ nguyên; 1942 "bọn anh" (Soutetsu + Paulette) giữ nguyên; 2409/2411 "bọn tôi" độc thoại giữ nguyên.
+- Sweep gasp っ: 4 mục cho file này — 3 đã áp nguyên giá trị sweep (1583/1590/2326, kiểm chứng khớp JP); 1 "already-rendered" (1663 「っ！」→「Á!」, không sửa — âm đã được diễn). Thẻ %l: JP 0 thẻ, VN 1 thẻ (1692 — gloss C56/炭水車 do Gemini thêm, JP không có; bản sửa đã bỏ thẻ); 0 thẻ thiếu dấu `;`. Ruby [tên,1] 17 dòng, bỏ marker theo lệ toàn dự án.
+- Nguồn: TOML một bản duy nhất, md5 `6c28ba1db40c5591d2610a386655770f`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng (11 nhóm trùng toàn dự án không chứa file này). TOML-2 vs CSV3: 195 khác biệt, toàn bộ là `\n` bị gộp thành khoảng trắng (0 khác biệt thực chất); CSV3 là chuẩn cho fix list. File JSON cũ `audit-obasan-wrong.json` giữ nguyên trên đĩa (dạng cũ, không có fix).
+- CỜ CHO HIEU: không có dòng nào mới cần Hieu quyết trong lượt này. Đợt thống nhất: 1750 "Đường sắt Ohito"→"Đường sắt Ohitoyo"; 1925 帝鉄 trong "thời đại Đại bãi bỏ tuyến đường sắt"→"Teitetsu" (rà soát đợt thống nhất); các dạng "Ohito"/"Đế Thiết" còn lại trong các dòng đúng (1150, 2339) cũng thuộc đợt thống nhất. B19 vẫn park.
+- Chi tiết đầy đủ: `audit-paulette03-obasan-REVIEW.md` (kèm mục "Lượt soát 2" + "Kết bài"); danh sách sửa: `audit-paulette03-obasan-wrong.json` (256 mục, khối TOML 256 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 256/256 — 255 mục gốc + 2664 kiểm chứng từ CSV3).
+
+```toml
+[script]
+1127 = "——Không phải Michiko. Là cô gái đó.\\nCô gái với mái tóc vàng óng ả rực rỡ bên đường ray mùa hè——"
+1128 = "——Nhưng mà, ngon thật.\\nGiăm bông với sốt mayonnaise và bánh mì baguette hợp nhau ghê."
+1150 = "「……Hikari.」"
+1153 = "「……Con bé tự chuyển giường à?」"
+1154 = "「……Tàu đang chạy để bù lại thời gian trễ đấy ạ.」"
+1158 = "「……Giá mà Hikari cũng hấp thụ được thật nhiều sắt và khói,\\nđể con bé bớt lạ người đi phần nào thì tốt.」"
+1486 = "「Xin lỗ――i——」"
+1488 = "「Không phải đâu ạ? Nửa đêm con bé cứ khóc nhè gọi 'Ba ơi',\\nnên em đã đưa con bé sang đây.」"
+1490 = "「Không biết nữa ạ. Chúng ta vẫn chưa đến Sendai mà——\\nHơn nữa bây giờ là tháng Ba rồi, khả năng có tuyết rơi chắc là thấp thôi ạ.」"
+1491 = "「Dù giữa đường tàu có trễ bao lâu đi nữa à?」"
+1494 = "「Cảm ơn em đã chỉ bảo.」"
+1496 = "「Để mọi người đợi lâu rồi ạ~」"
+1501 = "「Reina cũng muốn được kéo dãn ra nữa nha~」"
+1514 = "「Mọi người cứ nói 'xin lỗi' với 'thật ngại quá' như thế,\\ncon bé lại tưởng là mình đã làm gì sai đấy.」"
+1516 = "「Hikari muốn bà ở lại à?」"
+1521 = "「Chơi chữ khéo đấy.」"
+1522 = "「Hóa ra em đã chuẩn bị cả phần sáng nay nữa rồi à.」"
+1524 = "「Em nghĩ là dừng để đổi lái tàu, hoặc là cấp thêm than và nước đó nha.」"
+1526 = "「Hikari cũng sảng khoái rồi!\\nRửa mặt xong là đói bụng luôn~」"
+1528 = "「Hikari cũng muốn~ Hikari cũng muốn làm nữa~」"
+1530 = "「Hikari muốn uống nước ép~」"
+1531 = "「Hikari muốn chơi với ba~」"
+1533 = "「Hikari dậy rồi à. Chào buổi sáng.」"
+1535 = "「Chào buổi sáng, Hikari.\\nĐi rửa mặt với mẹ nhé?」"
+1541 = "「Ra là vậy, còn có cách gọi như thế nữa à.」"
+1542 = "「Ra là vậy. Cảm ơn em.\\nChào buổi sáng, Paulette.」"
+1547 = "「Ra xem thử nhé.」"
+1556 = "「Giãn gân cốt!!! Đúng rồi nhỉ, tất nhiên rồi!\\nEm biết ngay mà!!」"
+1557 = "「Bà mà cứ ở đây thì con bé sẽ căng thẳng mất,\\ntội nghiệp lắm.」"
+1561 = "「Kyaa!」"
+1568 = "「Fufufu.\\nCái này giống hệt loại giăm bông nhà em hay dùng mà.」"
+1572 = "「Fufufu, rửa mặt xong là sảng khoái hẳn ra ạ~」"
+1577 = "「Fufufu, còn khói thì……」"
+1580 = "「Fufufu, đây, nước ép cà chua của em nè.」"
+1582 = "「Fufufu,\\nchào buổi sáng nha. Anh Soutetsu, Paulette.」"
+1583 = "「Phù…… a~Ư」"
+1586 = "「Phù…… a—— em, em—— cứng đơ—— hết cả rồi……\\nừm…… có tác dụng……」"
+1588 = "「Phù—— a~! Ư~, kéo dãn hơi quá rồi!\\nÀ nhưng mà…… ừm. Cảm giác máu lưu thông tốt hơn hẳn~」"
+1590 = "「Phù~Ư」"
+1592 = "「Khám sức khỏe tổng quát ạ. Chị Mayami có đi khám không ạ?」"
+1593 = "「Ủa, bà đâu rồi ạ?」"
+1594 = "「Hả?」"
+1597 = "「Oa, thích quá nha. Reina ghen tị quá đi~」"
+1607 = "「Haha, đúng là vậy thật.」"
+1619 = "「Ừ, chỉ là món ăn đạm bạc thôi mà.」"
+1628 = "「Ôi chà, đáng yêu quá, đáng yêu quá——\\nồ, vừa đúng lúc rồi đấy nhỉ.」"
+1629 = "「Hả? Nhưng mà Reina đâu có máu đâu ạ?」"
+1638 = "「Hả!? T-Từ giờ này á!!?」"
+1642 = "「A——\\nRa là vậy, tàu đã chạy suốt một đêm rồi mà.」"
+1649 = "「A, gì thế này. Chẳng có hạt tuyết nào cả—— á.」"
+1652 = "「Ưm…… ừm, bà không ở đây cũng được mà.\\nKhông ở đây cũng được, nhưng mà…… nhưng mà, ừm?」"
+1653 = "「Ừ, ừm—— cảm ơn em—— để anh đổi lượt nhé.」"
+1660 = "「A—— a—— ưm—— chờ đã——\\nanh Soutetsu—— em không chịu nổi nữa—— á!」"
+1662 = "「Á——」"
+1668 = "「A, vâng—— hây!」"
+1670 = "「A, ra được mà—— ừm?」"
+1673 = "「A, không được rồi. Để anh đính chính lại. 'Cái này ngon thật đấy, Paulette.'」"
+1679 = "「Ưm nya.」"
+1680 = "「Ư…… ư.」"
+1681 = "「Ưm~」"
+1682 = "「Hau!」"
+1683 = "「Hây!」"
+1685 = "「Ưm…… phù—— ưm——……\\nkhò khò~」"
+1686 = "「Ưm…… ưm.」"
+1687 = "「Ưm…… ưm~」"
+1689 = "「Ưm—— a—— dãn—— ra—— rồi——\\nư—— đúng là—— có tác dụng—— thật—— ừm.」"
+1691 = "「Ừm. Mà không chỉ chị ấy đâu, toàn bộ nhân viên chính thức của Xưởng rượu Migita Ichi đều vậy.\\nNgoài khám sức khỏe định kỳ ra, hai năm một lần còn có khám sức khỏe tổng quát nữa.」"
+1692 = "「Ừm. Ngoan nào.\\nNgủ đi, ngủ đi nào~」"
+1694 = "「Ừm. Từ từ, nhẹ nhàng thôi nào——\\ndãn ra, dãn ra nào——」"
+1696 = "「Ừm. Thì nãy giờ phát thanh cũng nói vậy mà.」"
+1699 = "「Ừm. Thế này là được rồi.」"
+1700 = "「Ừm. Nếu là động tác đó thì không gian này cũng đủ rồi.」"
+1701 = "「Ừm.」"
+1703 = "「Ưm~」"
+1704 = "「Ưm~…… con muốn đi tè~」"
+1707 = "「Dạ! Ba kéo dãn cho con nhé?」"
+1709 = "「Dạ! Con sẽ làm như vậy ạ!」"
+1711 = "「Ừm! Trả lời hay lắm.\\nVậy bọn chị đi một lát rồi về nhé.」"
+1715 = "「Hửm?\\n……Sắt thì là sắt của đường sắt rồi, còn muối thì là gì?」"
+1720 = "「Fufufu, kéo dãn người ra thích quá đi~」"
+1721 = "「Ồ—— ồ.」"
+1722 = "「Ồ, thế thì tốt quá nhỉ.」"
+1726 = "「Vì tàu đã vắng người nên bà ấy đi rồi.\\nBà ấy bảo ngồi ké ghế là không tốt.」"
+1727 = "「Vì đây là điểm dừng kỹ thuật ạ.」"
+1729 = "「Tuyết, có đang rơi không nhỉ?」"
+1739 = "「Cái này—— ngon thật đấy. Có phải dùng loại giăm bông hảo hạng không nhỉ?」"
+1741 = "「Con có đi tàu ké đâu mà~」"
+1743 = "「Dạ~」"
+1744 = "「Dạ, mời mọi người dùng ạ.」"
+1746 = "「Dạ, bé Hikari~」"
+1747 = "「Ngon quá đi!」"
+1750 = "「Phúc lợi tốt quá đi! Đường sắt Ohito cũng phải học theo mới được.」"
+1755 = "「Dạ, em đi đây ạ~」"
+1756 = "「Dạ~」"
+1757 = "「Dạ!」"
+1759 = "「Dạ, đi cùng Reina nhé~」"
+1762 = "「Ừ, về rồi thì đổi lượt nhé.」"
+1764 = "「Được rồi! Xong. Đi rửa mặt với mẹ đi con.」"
+1771 = "「Thôi nào~」"
+1772 = "「Bao trọn~ bao trọn~! Cả hành lang với phòng rửa mặt đều là bao trọn hết luôn~!」"
+1782 = "「Bé Hikari~ Chào buổi sáng nha~」"
+1784 = "「Ngại ngùng chút xíu thì cũng đáng yêu mà. Cứ nhìn con bé bằng ánh mắt dài lâu, từ từ thôi nhé.」"
+1786 = "「Là ngài Tadanori đấy ạ.」"
+1797 = "「Cái đó thì cả hai bên đều như nhau mà~」"
+1799 = "「Tiếc quá đi! Nước ép ngọt hiện đã bán hết rồi ạ~」"
+1804 = "「Có lý. Vậy thì, anh cũng làm những việc trong khả năng của mình vậy.\\nPaulette, em ra ngoài một lát được không?」"
+1809 = "「Bà xuống tàu ạ?」"
+1811 = "「Ừ. Chắc cũng không cần ngủ lại nữa đâu.」"
+1813 = "「Anh xuống tàu vận động cơ thể một chút đây.」"
+1820 = "「Anh chưa nói sao? Anh muốn vận động cơ thể một chút.」"
+1823 = "「Được rồi. Đi thôi, Reina.」"
+1825 = "「Được rồi. Lại đây nào.」"
+1827 = "「Anh hiểu rồi. Hóa ra 'enbun' không phải là muối mà là khói à.」"
+1829 = "「Được rồi, được rồi. Nào, dãn ra.」"
+1830 = "「Bà đi đến ga cuối, nhưng tàu cũng đã vắng rồi. Ngồi ké ghế mãi cũng không tốt đâu.」"
+1832 = "「Cái đó ấy, ba mẹ cũng nên để ý một chút thì tốt hơn đấy.」"
+1835 = "「Tôi cứ tưởng tàu chạy chậm là chuyện đương nhiên, nhưng hóa ra việc tốn thời gian là có lý do chính đáng.」"
+1836 = "「Anh xin phép dùng bữa.」"
+1841 = "「Dãn ra~」"
+1844 = "「Lắc, lắc—— gập—— ưm—— phù—— thế nào—— rồi ạ?」"
+1850 = "「Chào buổi sáng ạ~ Hikari cũng muốn làm nữa~」"
+1852 = "「Chào buổi sáng. Reina cũng dậy sớm quá nhỉ.\\nChuyến đi này em cứ ngủ nướng thêm một chút cũng được mà.」"
+1854 = "「Chào buổi sáng, anh Soutetsu.」"
+1857 = "「Đúng vậy nhỉ.」"
+1858 = "「Đúng vậy ạ. Dù giữa đường có trễ đến đâu,\\nviệc hoàn tiền sẽ do ga xuống quyết định ạ.」"
+1859 = "「Đúng vậy ạ. Dù giữa đường có trễ đến đâu đi nữa——」"
+1863 = "「Đúng vậy. Mà, nếu nói là bệnh nghề nghiệp thì——\\nReina? Chào buổi sáng.」"
+1865 = "「Đúng vậy ạ~ Hôm nay Paulette không làm việc,\\nnên hấp thụ được thật nhiều sắt và khói đấy ạ~」"
+1867 = "「Ừ. Cứ hễ liên quan đến Hikari và chuyến đi tàu\\nlà Paulette lại đáng tin cậy hơn hẳn mọi khi.」"
+1869 = "「Ừ, chuyện đó thì tuyệt đối chẳng phải điều đáng mong muốn.」"
+1872 = "「Ra vậy. Vậy thì lần sau gặp lại, em nói được là tốt rồi nhỉ.」"
+1873 = "「Ra vậy à.」"
+1885 = "「Đ-Đúng rồi nhỉ! Được thôi! Kéo dãn lưng!\\nEm sẽ kéo dãn anh Soutetsu hết cỡ luôn!」"
+1888 = "「Mọi người về rồi~」"
+1896 = "「Không xuống được? Nhưng mà, đang ở ga cơ mà?」"
+1897 = "「Bán hết rồi. Bán hết rồi thì đành chịu thôi~」"
+1898 = "「Đúng rồi đó~」"
+1899 = "「Không sao đâu, chắc chắn sẽ như vậy mà~」"
+1907 = "「Paulette đã làm mẹ rồi nhỉ~\\nNếu không có vậy thì bé Hikari đã sợ lắm rồi~」"
+1908 = "「Pa, paa!」"
+1915 = "「Reina cũng rửa mặt rồi nha~」"
+1916 = "「Em xin phép dùng bữa ạ.」"
+1917 = "「Chị Reina, tạm biệt~!」"
+1922 = "「Bây giờ là mấy giờ rồi?」"
+1924 = "「Một năm một lần mà nhỉ. Khám sức khỏe của bọn em ấy.」"
+1925 = "「Vì đây là thời đại Đại bãi bỏ tuyến đường sắt mà. Ở đâu cũng chỉ có thể làm trong khả năng của mình thôi.」"
+1927 = "「Cà chua!? Cà chua á.\\nHikari muốn nước ép ngọt cơ~」"
+1928 = "「Tất nhiên rồi ạ. Nhưng mà đơn giản thôi ạ,\\nbánh mì baguette với giăm bông và xà lách. Em định làm bánh mì kẹp mở ạ.」"
+1935 = "「Chị Mayami cũng đã khuyên anh là ngoài khám sức khỏe định kỳ ra, cũng nên đi khám sức khỏe tổng quát nữa.」"
+1938 = "「Được rồi, được rồi. Reina, nhờ em được không?」"
+1942 = "「Ra là vậy, đúng thật. Nghĩ lại thì,\\nReina khỏe mạnh hơn bọn anh nhiều đấy nhỉ.」"
+1950 = "「Chạy bù giờ—— ra là vậy, là để giữ thời gian trễ trong vòng 120 phút à.」"
+1953 = "「Vì táo ngon quá mà.\\nCon muốn nói 'Cảm ơn vì bữa ăn' cơ~」"
+1961 = "「Ngon nhỉ. Cháu ăn ngon lành như thế,\\nchắc chắn người nông dân cũng vui lắm đấy.」"
+1970 = "「Chăn thì sao ạ? Cất đi luôn nhé~?」"
+1971 = "「Ba này.」"
+1983 = "「Cảm ơn bà nhiều lắm ạ!」"
+2013 = "「Thật là, xin lỗi quá.」"
+2016 = "「Còn có sốt mayonnaise và trà đựng trong bình giữ nhiệt nữa nha~」"
+2017 = "「À, xin lỗi ạ.」"
+2018 = "「Không xuống được đâu ạ.」\\n「Không xuống được đâu nha.」"
+2021 = "「Giường nằm là bọn cháu đã trả đúng giá để đặt rồi,\\nnên bà cứ thong thả ở lại thêm chút nữa cũng được mà, coi như cảm ơn vì quả táo ạ.」"
+2030 = "「Chưa tới 5 giờ ạ. Đúng là bệnh nghề nghiệp nhỉ, cả hai chúng ta.」"
+2035 = "「Chắc là có dầu bôi trơn các thứ chứ.\\nDù không có đi nữa, cứ giữ nguyên một tư thế không cử động thì khớp cũng cứng lại thôi.」"
+2043 = "「Vậy thì về thôi.」"
+2045 = "「Vậy thì, mình ăn sáng nhé.」"
+2046 = "「An tâm quá nhỉ.」"
+2047 = "「Em làm đây~ Từ từ, từ từ nào——\\nưm…… ưm.」"
+2048 = "「Vậy nhé, có dịp lại gặp nhau nhé.」"
+2051 = "「Vậy thì, lại đây nào. Reina cũng kéo dãn luôn nhé.」"
+2052 = "「Con ăn đây ạ~」"
+2053 = "「Đúng là giờ này vẫn chưa có bài tập thể dục trên radio,\\nnhưng chỉ là vài động tác vươn vai thì cũng không gây tiếng động gì, chắc không sao đâu.」"
+2054 = "「Anh Soutetsu, anh định vươn vai kéo dãn lưng đúng không nha.」"
+2055 = "「Anh Soutetsu với mọi người cũng đi đi ạ.\\nChừng ba mươi phút nữa là đông đúc lắm đấy.」"
+2056 = "「Anh Soutetsu. Anh làm nhẹ nhàng, từ từ cho em ấy nhé?\\nReina thì đã được bảo dưỡng định kỳ rồi ạ.」"
+2060 = "「'Satsuma no kami' à?」"
+2067 = "（Am!）"
+2212 = "Không, không phải vậy. Cũng không phải là Paulette lúc mới gặp mặt."
+2213 = "Không phải vậy.\\nNếu muốn sửa thì phải sửa ngay từ khoảnh khắc này."
+2217 = "Nhưng mà, đó cũng là một cái thú của chuyến đi."
+2237 = "Nếu tạo ra tiền lệ dùng chăn làm ghế sofa thì có thể sẽ ảnh hưởng xấu đến việc dạy dỗ con bé sau này."
+2239 = "Tôi đã từng lo lắng vì Hikari có vẻ hơi chậm hơn các bạn khác về độ trưởng thành trong giao tiếp——\\nnhưng mà……"
+2263 = "Hikari cứ dụi mặt vào Paulette hết lần này đến lần khác,\\nnhư thể đang đánh dấu mùi hương vậy."
+2265 = "Giật mình vì giọng nói của bà lão,\\nHikari lại trốn sau lưng Paulette."
+2277 = "Hikari gật đầu lia lịa, vẻ mặt vui mừng."
+2280 = "Hikari vẫn còn ngái ngủ."
+2282 = "Con bé cứ thế được cõng đi, vui vẻ khua chân loạn xạ.\\nThôi thì…… thế này cũng coi như vận động rồi, cứ để vậy đi."
+2285 = "Em ấy gật đầu thật mạnh, rồi đứng khựng lại."
+2287 = "Má Hikari phồng lên."
+2315 = "Có lẽ vì đã thức giấc giữa đêm,\\nnên Hikari hoàn toàn không có vẻ gì là sắp tỉnh dậy."
+2325 = "Ra là vậy. Đúng như Paulette nói,\\nchỉ chênh nhau có mười phút thôi mà đã——"
+2326 = "Ồ, vào đường hầm rồi sao.\\nHơi có mùi khói——Ư!"
+2339 = "Bằng đôi bàn tay nhỏ bé, con bé nắm chặt lấy ngón tay tôi,\\nvà đang thở đều đều trong giấc ngủ yên bình."
+2391 = "Chỉ cần một năm thôi cũng đã đủ để bệnh tật âm thầm bào mòn cơ thể rồi."
+2397 = "Nghĩ vậy rồi, cùng với lòng biết ơn,\\ncơn đói lại càng trở nên rõ rệt hơn."
+2399 = "Em ấy lắc lắc người thật mạnh,\\nrồi từ từ, từ từ tăng dần độ cong của lưng."
+2408 = "Hai bồn rửa mặt đặt cạnh nhau.\\nTừ bên cạnh vang lên giọng nói thong thả của Reina."
+2409 = "Vừa quay về giường nằm của bọn tôi,\\nHikari đã vui vẻ chào đón."
+2411 = "Con gái của bọn tôi mới chỉ bắt đầu chạy thôi.\\nĐể con bé không phải vội vàng trên chặng đường đó, hai vợ chồng tôi đồng lòng với nhau."
+2412 = "Chốc lát im lặng.\\nChỉ còn tiếng bánh xe gõ lên đường ray vang đều đều trong toa."
+2415 = "Tôi hạ giọng xuống——\\nÀ, đúng rồi."
+2417 = "Giọng nói nghe buồn ngủ.\\nMột bàn tay thò ra từ dưới chăn, rồi sau đó, đầu cũng ngẩng lên."
+2418 = "Cả hai chân đã chạm đất."
+2424 = "Tôi với Hikari chênh lệch chiều cao quá lớn."
+2428 = "Tôi và Paulette gật đầu với nhau."
+2429 = "Hai đứa áp sát lưng vào nhau,\\nhai tay đan vào nhau ở phần khuỷu tay."
+2430 = "Cuộc trò chuyện với giọng nói kìm nén qua tấm rèm."
+2441 = "Tôi mở mắt ra.\\nHikari đã chuyển sang giường của tôi từ lúc nào không hay."
+2445 = "Tôi nhẹ nhàng gỡ ngón tay Hikari ra,\\nbước xuống giường, tiến ra lối đi——"
+2448 = "Tôi nhanh chóng nhưng cẩn thận rửa mặt, cạo râu,\\nrồi thấm nước chải tóc cho gọn gàng."
+2459 = "Lần này đến lượt tôi gập lưng xuống,\\ntừ từ nâng Paulette lên."
+2464 = "Từ trên đỉnh đầu, tiếng cười khúc khích vui vẻ vang lên."
+2465 = "Rồi đột nhiên, một cái ngáp thật to."
+2466 = "Bà lão nhanh nhẹn bắt đầu thu dọn hành lý."
+2478 = "Sau khi dừng ở vài ga,\\ntrong tàu có vẻ đã vắng đi nhiều."
+2488 = "Có lẽ vì đã đoán trước chuyện này,\\nPaulette đã bắt đầu mở giỏ ra rồi."
+2489 = "Nếu Paulette cứ thế gập thân trên về phía trước,\\nlưng tôi sẽ đặt lên hông em ấy, tạo thành một vòng cung."
+2490 = "Hễ Paulette vỗ vỗ vào đầu gối\\nlà em ấy lại leo lên đó như một chú mèo con, cuộn tròn lại."
+2491 = "Khuôn mặt đỏ bừng,\\nPaulette lao ra mép giường."
+2492 = "Em ấy dùng ngón tay chọc cho cái má phúng phính xẹp xuống,\\nrồi dịu dàng vuốt tóc Hikari."
+2494 = "Tàu đã không còn chạy giảm tốc nữa——\\nthậm chí còn đang chạy rất nhanh."
+2496 = "Đoàn tàu trượt vào sân ga.\\nVừa hay."
+2503 = "Ngay khoảnh khắc sau, một cái ngáp thật to."
+2513 = "Nghe giọng nói đầy cảm xúc của Reina, tôi gật đầu thật sâu."
+2516 = "Reina vội vàng bước xuống.\\nXoay một vòng, đáng yêu quay lưng lại."
+2517 = "Ngay lập tức Reina đỡ lấy Hikari,\\ngiúp đỡ con bé."
+2519 = "Giờ mà đánh thức con bé thì tội nghiệp quá."
+2522 = "Bởi vì tôi, giờ đã là người lớn rồi.\\nĐã là người lớn, và là một người cha——"
+2523 = "Đương nhiên, vốn dĩ nó không phù hợp cho việc kéo đường dài……\\nThực ra tôi mong là họ dừng đỗ kỹ thuật thường xuyên hơn mới phải."
+2526 = "Có lẽ vì đã yên tâm lắm rồi,\\nHikari lập tức chìm vào giấc ngủ."
+2531 = "Có vẻ như sắt và khói\\ncũng có tác dụng rất lớn đối với Reina."
+2541 = "Những ngón tay của tôi đang được nắm lấy một cách nhẹ nhàng.\\nTrong chăn, bên cạnh tôi là Michiko bé nhỏ——"
+2546 = "Quay lại lối đi,\\ntôi lướt qua những người vừa mới thức dậy."
+2558 = "Bà lão thoắt cái đã thu dọn hành lý\\nvà vác lên lưng."
+2563 = "Bà lão mỉm cười nhìn theo bóng lưng\\ncủa Reina bé nhỏ và Hikari còn bé nhỏ hơn."
+2567 = "Bà lão mở cửa toa xe thảm,\\nvác theo khối hành lý to tướng rồi đi mất."
+2573 = "Hikari, con bé ấy——\\nthực sự rất nhạy cảm với thái độ của người khác."
+2580 = "Nghe vậy, tôi chợt nhận ra."
+2581 = "Nghe lời Reina nói, lòng tôi nhẹ nhõm hẳn."
+2597 = "Chỉ cần vác lên lưng thôi——\\nnhưng mà cứ vươn vai ra thì không làm được nữa……"
+2612 = "Tôi nói rồi nhìn chằm chằm vào Hikari,\\ncon bé vội vàng nuốt nốt miếng bánh mì đang gặm dở rồi cười toe toét."
+2614 = "Đầu máy kéo C56 tuy có toa tiếp than nước,\\nnhưng nhỏ gọn nhẹ. Chỉ tính chiều dài thì còn nhỏ hơn cả 8620."
+2636 = "Cái đó——\\ncái đó đúng là, chắc chắn rồi."
+2637 = "Dậy sớm, ăn no căng bụng rồi yên tâm——\\nlàm sao mà không buồn ngủ được chứ."
+2638 = "Cái đó……\\nđúng là không thể phủ nhận được."
+2640 = "Chẳng có gì đặc biệt, chỉ là bánh mì kẹp mở với bánh baguette thậm chí còn chưa nướng,\\nkiểu như bữa sáng vội vàng của một gã độc thân."
+2641 = "Vị mặn đơn thuần mà ngon lành\\nlan tỏa khắp miệng, khắp cơ thể."
+2643 = "Nếu chỉ có mình tôi đi tàu thì trên chuyến tàu không có bán hàng rong này,\\nchắc tôi đã phải chịu đựng cơn đói trong suốt chuyến đi dài rồi."
+2646 = "Được kéo dãn ra, tôi mới cảm nhận lại được.\\nQuả nhiên, chỗ nào cũng cứng đơ hết cả."
+2660 = "Dùng chăn làm ghế sofa cũng được thôi,\\nnhưng mà còn có Hikari ở đây."
+2661 = "Dù lý trí thì hiểu là vậy, nhưng thực tế rất khó để xin nghỉ đi khám."
+2662 = "Chính vì không thể phủ nhận được\\nnên tôi lại cảm thấy—— cứ như có gì đó day dứt trong lòng."
+2664 = "「Chẳng lẽ…… tàu đang chạy giảm tốc sao?」"
+2685 = "（Bịch.）"
+2687 = "（Hự—— hự hự——）"
+2691 = "（Tuúú…!）"
+```
+- Parent kiểm chứng 22/11 ~01:30: JSON 256 mục (key chuỗi, list-of-dicts), khối TOML 256 khóa (review + snippet giống hệt nhau), 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 256/256; second pass 256/249/0/7; 1494 'Cảm ơn em' đã kiểm chứng (Paulette trả lời ở 1490, Reina tới 1496); 1935 đảo chiều đúng (JP bị động 勧められて); 2052 Hikari 'con' đúng; 2664 (thiếu 「) giải thích lệch 256-vs-255; REBASE: snippet ghi cơ sở 182 file / 8.147 — đã rebase về 184 file / 8.581 (sau khi gộp haitan), tổng mới 185 file / 8.837. Không cờ mới cho Hieu. Đợt thống nhất: 1750 'Đường sắt Ohito'→'Đường sắt Ohitoyo', 1925 帝鉄→'Teitetsu'. B19 vẫn park.
+
+---
+
+## 日々姫08 — 日々姫08_開きかけのつぼみ.txt.toml — 12/397 (3,0%)
+
+- File: `日々姫08_開きかけのつぼみ.txt.toml` — route 02_Hibiki, 397 dòng script. Nội dung: bài kiểm tra chạy thử với toa hành khách thay bằng bao cát, Hibiki bàn kế hoạch giảm tải + ứng cử thị trưởng, cuộc tranh luận "nhõng nhẽo" là gì, và cảnh tắm chung bàn kế hoạch (cảnh "nụ hồng đang hé nở").
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 397 dòng, 0 key trùng; key TOML = key CSV3 tuyệt đối. VN TOML vs CSV3 chỉ khác ở chỗ TOML-2 làm phẳng `\n` literal thành khoảng trắng (258 dòng, đã kiểm chứng cơ học). `[selections]` rỗng. Không có bản sao file này (md5 `90b0da495fd9c973b837e83dfa7c4063`).
+- Phân loại (12): đại từ 4 (1738 Soutetsu "mình"→"anh" với Hibiki — theo 2201 + 1739; 2164 Paulette "em"→"chị" với Hibiki — theo 2160/2161/2294; 2192 "cho phép anh"→"cho phép tôi" với Hachiroku — gọi đích danh; 2193 "Anh đã hiểu"→"Tôi đã hiểu" — nối tiếp 2192, phương án của Hachiroku/Paulette ở 2230), gasp 5 (1731, 2052, 2399, 2400, 3073 — cả 5 từ sweep, áp nguyên giá trị), thẻ %l VN tự thêm 2 (2039, 2186 — gỡ thẻ, giữ chữ "thiết bị thổi gió", theo tiền lệ Hachiroku 12/reina02/00_Common02 2693), sai nghĩa 1 (2608 khôi phục cấu trúc điều kiện なら: "Thế mà, nếu…" — nối sang 2609).
+- Sweep kiểm chứng: 5 mục cho file này trong sweep-raw-gasp-wrong.json (1731, 2052, 2399, 2400, 3073) — cả 5 đúng, đã áp. 6 mục "日々姫08" còn lại thuộc file 日々姫08_とれいん食堂, không liên quan. Thẻ `%l`: JP = VN ở mọi dòng trừ 2 dòng trên; 0 thẻ thiếu `;` đóng. Dòng 1706: thẻ dị dạng là của phía JP, VN chỉ sao y — không phải lỗi VN, không sửa. Không có っ thô trong text hiển thị Việt.
+- Chi tiết đầy đủ: `audit-hibiki08-hirakikake-no-tsubomi-REVIEW.md`; danh sách sửa: `audit-hibiki08-hirakikake-no-tsubomi-wrong.json` (12 mục, khối TOML 12 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 12/12; lượt soát 2: 12/12, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 186 file / 8.849 dòng sai** (cơ sở 185 file / 8.837 dòng sai + 12 file này)
+
+- Để vào đợt thống nhất: "Ohimitera"→"Ohitoyo" 4 dòng (2172, 2260, 2369, 2778); "Yui"→"Yunoi" 2 dòng (2260, 2302); gloss 列車 "tàu"→"đoàn tàu" 1 dòng (3052); gloss 機関士 "người lái tàu" 4 dòng (2155, 2299, 2626, 2838).
+- Chờ Hieu: 2102 (người nghe của Paulette — Hibiki hay Soutetsu — giữ nguyên); 2114 (Hibiki "Chị xin lỗi" — người nghe mơ hồ, nghiêng về "Em xin lỗi" — giữ nguyên).
+
+- Parent kiểm chứng 22/11 ~01:35: JSON 12 mục (key chuỗi, list-of-dicts), khối TOML 12 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 12/12; second pass 12/12/0/0. Đại từ ĐÃ KIỂM CHỨNG: 1738 "anh" (1739 + 2201, người nghe Hibiki); 2164 "chị" (2160 Hibiki gọi "chị Paulette", 2161/2294 Paulette tự xưng "chị"); 2192/2193 "tôi" (2192 gọi đích danh Hachiroku). 2608 khôi phục cấu trúc なら đúng JP. Không sửa nào bị loại. CỜ CHO HIEU: 2102 + 2114 giữ nguyên (người nghe mơ hồ); đợt thống nhất: "Ohimitera" ×4, "Yui" ×2, gloss 列車 ×1, gloss 機関士 ×4. B19 vẫn park.
+
+---
+
+## ハチロク05_軋み — ハチロク05_軋み.txt.toml — 10/380 (2,6%)
+
+- File: `ハチロク05_軋み.txt.toml` — route 01_Hachiroku, 380 dòng script. Nội dung: khiếu nại khói than từ cửa hàng Fumikiriya (nghi là phe thúc đẩy nhà máy Aircra chụp ảnh từ trên không để gây sức ép); lắp thiết bị gom khói 集煙装置 để đối phó; lái tàu trong mưa, rung động bất thường lặp lại ba lần; phát hiện khung gầm 台枠 của 8620 đã cong/xoắn từ vụ tai nạn cũ (vết thương vô hình tích tụ dần); Hachiroku muốn cố chạy thương mại thêm 1–2 năm để kịp ép rút quyết định mời gọi nhà máy; Soutetsu ôm lấy cô bé đang run rẩy, cho cô nghỉ ngơi; Reina và Kon đến cuối file.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối 380/380 (sau khi chuẩn hóa `\n` làm phẳng ở 232 dòng). `[selections]` rỗng. Không có thẻ `%l` sai định dạng. Không có bản sao file này (md5 `8224aacbc368b1d06c7e8dd22851afcc`).
+- Phân loại (10): gasp 5 (1538, 1900, 1901, 1910, 2410 — tất cả từ sweep), thuật ngữ 3 (雨三本 2: 101, 1895 "Lễ hội mưa"→"Phanh ba nhịp"; 整備ボディ 1: 2154 "thân chính"→"thân bảo trì"), xưng hô 1 (1893 Paulette gọi Soutetsu trái B4 lock: "Soutetsu, anh đang…"→"Anh Soutetsu đang…"), sai nghĩa 1 (2434: ぽっぽ "phịch phịch"→"phụt phụt").
+- Sweep kiểm chứng: 5 mục cho file, nhận cả 5; quét máy bổ sung: không còn ký tự っ thô nào trong VN ngoài 5 dòng đã sửa, không còn ký tự Nhật nào sót trong VN.
+- Thuật ngữ: "Ohimitera" 5 dòng (1437, 2235, 2475, 2124, 1761) + "Yui" 3 dòng (2726, 2518, 1755) + Seki "Ông nội" 1 dòng (1178) chờ đợt thống nhất, không tính sai. Bằng chứng mới cho quyết định đang chờ ("cô" vs "em" cho Soutetsu gọi Paulette): "cô" 3 lần (1235, 1519, 1870) vs "em" 0 — cộng dồn "cô" 46 vs "em" 65. Quirk CSV3: TW của 79 và 2131 bị hoán đổi cho nhau; VN cả hai đều bám đúng JP, không sai.
+- Chi tiết đầy đủ: `audit-hachiroku05-kishimi-REVIEW.md`; danh sách sửa: `audit-hachiroku05-kishimi-wrong.json` (10 mục, khối TOML 10 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 10/10; lượt soát 2: 10/10, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 187 file / 8.859 dòng sai** (cơ sở 186 file / 8.849 dòng sai + 10 file này)
+- Chờ Hieu: (1) quy ước （ ） không nhất quán ở ~60 dòng độc thoại nửa sau file (VD 2154, 2355, 2093, 2311, 2139, 2418, 2164, 2257, 2381, 2393, 2534, 2279, 2347, 2345, 2113, 2291, 2573, 2117, 2147, 2663, 2273, 2656, 2081, 2578, 83, 2137, 2507, 2660, 2162, 2473, 2130, 2328, 2149, 2359, 2135, 2206, 2657, 2166, 2111, 2228, 2260, 2385, 2397, 2264, 2343, 2399, 2380, 2476, 2374, 2158, 2654, 2157, 2327, 2445, 2250, 2575, 2208, 2142, 2409) — có chuẩn hóa trong đợt thống nhất hay giữ nguyên? (2) quyết định đang chờ "cô" vs "em" (Soutetsu gọi Paulette) — file này thêm 3 "cô"; (3) các thuật ngữ chờ thống nhất: "Ohimitera" 5 dòng, "Yui" 3 dòng, Seki "Ông nội" 1 dòng (1178).
+
+- Parent kiểm chứng 22/11 ~01:35: JSON 10 mục (key chuỗi, list-of-dicts), khối TOML 10 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 10/10; second pass 10/10/0/0. 1893 "Anh Soutetsu" đúng khóa B4 (JP 双鉄くん của Paulette); 101 + 1895 雨三本 "Phanh ba nhịp" + 2154 整備ボディ "thân bảo trì" đúng thuật ngữ đã chốt; 2434 ぽっぽ "phụt phụt" đúng TW 噗噗. Không sửa nào bị loại. CỜ CHO HIEU: ~60 dòng độc thoại nửa sau thiếu （ ） (JP cũng thiếu — cần quyết có chuẩn hóa ở đợt thống nhất không); Soutetsu→Paulette "cô" 46 vs "em" 65; đợt thống nhất: "Ohimitera" ×5, "Yui" ×3, Seki 1178 "ông nội"→"ông ngoại". B19 vẫn park.
+
+---
+
+# Audit snippet — 仲国03_北琴鉄道歴史館.txt.toml (10_Chikuni)
+
+- File 仲国03_北琴鉄道歴史館.txt.toml (377 dòng): 7 dòng sai (1,86%) — gasp 3 (1945, 1963, 2845, theo sweep), tag %l 3 (2084 thiếu `;` đóng; 2132 + 2145 thêm tag JP không có), dịch thiếu 1 (2911: cả câu chỉ còn lại tên "kỹ sư Shiba Kojiro", đã dịch lại đầy đủ). 0 lệch dòng / rotation / ô nhiễm chéo / mồ côi / chưa dịch / khóa trùng.
+- Cờ đợt thống nhất: 帝鉄→Teitetsu ×13; 冥国 "Meikoku"→"Minh Quốc" ×2 (2304, 2430); "Tuyến Yui"→"Yunoi" ×1 (2389 — dòng "Yui" thứ 3 ngoài P14 83, P16 2032). Cờ hỏi Hieu: "Đường sắt Đế hữu Hinomoto" (2082/2248); "chị" của Zhihuan (1948/2347); 5 dòng đại từ Soutetsu mơ hồ trong cảnh nhóm (1958, 2001, 1602, 2310, 2379 — giữ nguyên, không quyết). B19 vẫn park.
+- Second pass: 7 / 7 / 0 / 0 (tổng / kiểm chứng lại / gỡ bỏ / sửa).
+
+**Tổng cộng sau file này: 188 file / 8.866 dòng sai** (cơ sở 187 file / 8.859 dòng sai + 7 file này)
+
+- Parent kiểm chứng 22/11 ~01:35: JSON 7 mục (key chuỗi, list-of-dicts), khối TOML 7 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 7/7; second pass 7/7/0/0. 2911 viết lại đầy đủ từ JP đúng (tên 芝高次郎 "Shiba Kojiro" theo JP, không theo TW 島安次郎); 2132/2145 gỡ tag %l VN tự thêm đúng; 2084 thêm `;` đúng. Không sửa nào bị loại. CỜ CHO HIEU: 5 dòng đại từ mơ hồ giữ nguyên; "Đường sắt Đế hữu Hinomoto" (2082/2248); "chị" của Zhihuan (1948/2347); đợt thống nhất: 帝鉄 ×13, 冥国 "Meikoku" ×2, "Tuyến Yui" ×1. B19 vẫn park.
+
+---
+
+## 10_Chikuni 仲国07_芭岩鉄道.txt.toml — 15/375 (4,0%)
+
+- File: `10_Chikuni/仲国07_芭岩鉄道.txt.toml` (route 10_Chikuni, 375 dòng script; monologue 139, 双鉄 66, ハチロク 55, 日々姫 47, 西瓜 35, 姜 17, 志寰 12, 十九号 4). Nội dung: đoàn Soutetsu–Hibiki–Hachiroku tham quan Đường sắt Ba Nham ở Kiện Vi — đầu máy chạy lùi lên dốc, trâu nước liếm ray, thanh toán QR, cầu vồng do hơi nước tạo ra; kết bằng cuộc gọi/video với Paulette và đề xuất "Nine Stars phiên bản Trung Quốc".
+- TOML md5 ee21ff30c396df2fecc7be010fc96180, không có bản trùng; CSV3 1 bộ 375 dòng, key khớp tuyệt đối, VN CSV3 khớp TOML 375/375, 0 dòng VN trống. [selections] rỗng.
+- Phân loại (15): thuật ngữ 6 (1255, 1389, 1523, 1743, 2134, 2144), xưng hô 3 (876, 1404, 1673), gasp 3 (1383, 1980, 1985 — cả 3 từ sweep, nhận nguyên văn), sai nghĩa 2 (1542, 2110), SFX 1 (2306).
+- Xưng hô: 876 độc thoại "anh"→"em" (người nghe là Paulette — TW 你 + cuộc gọi 1404 + video 2154); 1404 Soutetsu "tôi đây"→"anh đây" (người nghe Paulette, tiền lệ 仲国08 2169); 1673 Hibiki "Cho chị hỏi"→"Cho em hỏi" (người nghe Zhihuan; Hibiki xưng "em" với Zhihuan đã chốt ở 仲国02 2596).
+- Thuật ngữ: 1389 御一夜 "Ohimitera"→"Ohitoyo"; 2134 湯医線 "tuyến Yui"→"tuyến Yunoi"; 1255/1523/1743/2144 仲国 "Trọng Quốc"→"Trung Quốc" (thống nhất theo đa số nội bộ 17–4).
+- Sai nghĩa: 1542/2110 ナッパ服 "Dịch vụ trang màu"→"đồng phục bảo hộ" (lỗi bịa của Gemini theo TW sai 彩頁服; dạng chuẩn toàn dự án: "đồng phục bảo hộ"/"trang phục bảo hộ"/"đồ bảo hộ").
+- SFX: 2306 （ポ～～ーーーっ！） "(Tuuuúúúú!)"→"(Tuuuúúúút!)" (っ cuối bị mất; theo mẫu 2304/2307 diễn っ bằng phụ âm cuối).
+- Đã kiểm chứng đúng — giữ nguyên: 日ノ本 "Hinomoto" 26/26; 帝鉄 "Teitetsu" (967, 1215); 宮司 "đền chủ Akai" (1237); エアクラ "Aircra" (2035); 共感 "cộng cảm" (1878, 2272); Soutetsu "anh" chỉ với Hibiki (1540); きゃっ/ひえっ (1332/1353) giữ "Á" (tiếng kêu giật mình, không phải rên); 虹っ (1475) không thêm Ư; 1562 汜川 → "Tứ Xuyên" giữ (Hán-Việt của 汜川 đúng là "Tứ Xuyên"); 1499 Hachiroku "em" giữ.
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 0 lệch số lượng, 0 lệch thuật ngữ JP. Không còn っ thô trong VN.
+- Lượt soát 2: 15/15, 0 bỏ, 0 sửa. Khối TOML 15 khóa đã parse-kiểm chứng, 0 sai lệch giá trị so với JSON.
+- Cờ cho Hieu: chuẩn 仲国 project-wide chưa chốt ("Trung Quốc" 21 dòng sau sửa ở file này vs "Trọng Quốc" 61 dòng ở 仲国08 + lr稀咲 vs "Zhongguo" 5 dòng ở 仲国04 — đợt thống nhất quyết); Hachiroku tự xưng "em" (1499) vs "tôi" (5×) trộn toàn route; ハチロク01 2718 có cùng lỗi "Dịch vụ trang màu"; suy luận người nghe ở 876; dạng SFX ở 2306.
+
+**Tổng cộng sau file này: 189 file / 8.881 dòng sai** (cơ sở 188 file / 8.866 dòng sai + 15 file này)
+
+- Parent kiểm chứng 22/11 ~01:35: JSON 15 mục (key chuỗi, list-of-dicts), khối TOML 15 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 15/15; second pass 15/15/0/0. Đại từ ĐÃ KIỂM CHỨNG: 876 "em" (người nghe Paulette — TW 你 + cuộc gọi 1404); 1404 "anh đây" (gọi Paulette); 1673 "em" (tiền lệ 仲国02 2596). 1542/2110 ナッパ服 "đồng phục bảo hộ" đúng chuẩn dự án. Không sửa nào bị loại. CỜ CHO HIEU: chuẩn 仲国 project-wide (Trung Quốc vs Trọng Quốc vs Zhongguo); Hachiroku "em" ×1 vs "tôi" ×5; ハチロク01 2718 cùng lỗi "Dịch vụ trang màu"; 876 suy luận người nghe, 2306 SFX theo mẫu nội bộ. B19 vẫn park.
