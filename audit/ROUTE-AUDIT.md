@@ -4752,3 +4752,41 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 194 file / 9.069 dòng sai** (cơ sở 193 file / 9.052 dòng sai + 17 file này)
 
 - Parent kiểm chứng 22/11 ~02:20: JSON 17 mục (key chuỗi, list-of-dicts), khối TOML 17 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 17/17; second pass 17/17/0/0. Đại từ ĐÃ KIỂM CHỨNG: 1994/2004/2007 "tôi"→"anh" đúng — người nghe Hibiki (2006 Hibiki phản hồi trực tiếp; Paulette cũng lấy "anh" nên "anh" đúng trong mọi đọc); 2051/2127 Paulette 双鉄くん→"anh Soutetsu"/"anh" đúng theo B4 lock. Spot-check: 2650 TW 他們→"mọi người" đúng; 2432 タブレット→"máy tính bảng", 運転ボディ→"thân vận hành" đúng; 2215/2868 Ư đúng (2868 TW có 呃); 1880/2525 うふふ→"Ufufu" đúng (cười); 1940 Jutsu-sen→Jutsusen đúng. Không sửa nào bị loại. CỜ CHO HIEU: 2155 "Cảm ơn cô." — người nghe không rõ (Paulette/Hibiki/Reina đều có thể); 2737 "khẽ" đã giữ. B19 vẫn park.
+
+
+---
+
+## lr稀咲追加02_仲国視察 — lr稀咲追加02_仲国視察.txt.toml — 10/345 (2,9%)
+
+- File: `lr稀咲追加02_仲国視察.txt.toml` — route 06_Kisaki, 345 dòng script (稀咲 103, độc thoại 82, 双鉄 62, 西瓜 61, 姜 37). Nội dung: Soutetsu và Kisaki khảo sát ở Trọng Quốc cùng Khương và Railord Suika — Bảo tàng Đường sắt Bắc Cầm (đầu máy 2101 Quốc Hệ Hào, xe Oiran đo giới hạn kiến trúc), Suika vẽ phác thảo giải thích giới hạn kiến trúc, ăn trưa ở toa ăn và bàn về việc đường sắt mất khách trẻ, Suika kể về Master đời trước, cuối cùng vào buồng lái đầu máy Dongfu loại IV và nắm tay nhau.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 345 dòng, key khớp tuyệt đối; 254 dòng TOML-2 làm phẳng literal `\n` thành khoảng trắng (mẫu đã biết), 0 khác biệt nội dung khác. `[selections]` rỗng. Không có thẻ `%l` nào trong file. Không có bản sao file này (md5 `501cd1d2da54ea70adfc3c529ea233f2`).
+- Phân loại (10): thuật ngữ 4 (1567, 1403, 1833, 1349 — 帝鉄 "Đường sắt Hoàng gia"→"Teitetsu", tiền lệ Niiroku 03), sai nghĩa 4 (1191 高さもとれている "được tăng lên"→"được đảm bảo"; 724 余所行き "đi tiệc tùng"→"diện khi ra ngoài"; 1389 通勤列車 bịa "điện ngầm"→"tàu đi làm" như 1610; 1605 餐車 hỏi sai đối tượng→"tiếng Trung gọi là 'canche'" theo TW), đọc sai 1 (1307 志 "Chi"→"Chí"), gasp 1 (1184 từ sweep 「Ư!!!」).
+- Sweep kiểm chứng: 1 mục cho file (1184), nhận nguyên; 1180 「ぁっ」→"A." giữ (âm "a" đã diễn, sweep không liệt kê).
+- Đại từ đã kiểm chứng: Soutetsu "tôi" toàn file với Kisaki; Kisaki "tôi" (chế độ công việc) + "chị" với Suika; Suika/Khương "anh Soutetsu"/"chị Kisaki" đúng. Soutetsu gọi Kisaki "em" giữ nguyên — cờ đợt thống nhất (mâu thuẫn toàn dự án đã ghi nhận).
+- Chi tiết đầy đủ: `audit-lr-kisaki-tsuika02-chukuni-shisatsu-REVIEW.md`; danh sách sửa: `audit-lr-kisaki-tsuika02-chukuni-shisatsu-wrong.json` (10 mục, khối TOML 10 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 10/10; lượt soát 2: 10/10, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 195 file / 9.079 dòng sai** (cơ sở 194 file / 9.069 dòng sai + 10 file này)
+
+- Chờ Hieu / đợt thống nhất: Kisaki gọi Soutetsu "anh Soutetsu" 5 dòng (1353, 1084, 1629, 1258, 1233) + "anh" (1561, 1629) — giữ, thuộc sweep thống nhất theo quyết định 21/11 ~19:45; Kisaki tự xưng ở 1233 ("tôi" hay "em" trong cảnh nắm tay); Soutetsu→Kisaki "em" (1118, 1089, 1188, 1216, 1910, 1761) — mâu thuẫn toàn dự án, rà lại ở đợt thống nhất. B19 vẫn park.
+
+- Parent kiểm chứng 22/11 ~02:25: JSON 10 mục (key chuỗi, list-of-dicts), khối TOML 10 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 10/10; second pass 10/10/0/0. Thuật ngữ ĐÃ KIỂM CHỨNG: 帝鉄→"Teitetsu" ×4 đúng quy tắc chốt; 1191 とれている→"được đảm bảo" đúng (JP とれる = được đảm bảo; TW 也可以做得更高 ghi nhận); 724 余所行き→"diện khi ra ngoài" đúng; 1389 通勤列車 bỏ "điện ngầm" bịa đúng; 1605 餐車→"canche" theo TW đúng; 1307 志→"Chí" đúng; gasp 1184 Ư!!! đúng. Không sửa nào bị loại. Không sửa đại từ — Soutetsu "tôi" với Kisaki giữ nguyên. CỜ CHO HIEU/đợt thống nhất: Kisaki gọi Soutetsu "anh Soutetsu" (1353/1084/1629/1258/1233) + "anh" (1561/1629) giữ nguyên theo quyết định 21/11 ~19:45; 1233 Kisaki tự xưng "tôi"/"em" rà lại; Soutetsu→Kisaki "em" (1118/1089/1188/1216/1910/1761) mâu thuẫn toàn dự án đã ghi nhận. B19 vẫn park.
+
+
+---
+
+# Snippet — 凪ふかみh2_みずあそび.txt.toml (07_Nagi_Fukami)
+
+- File: `07_Nagi_Fukami/凪ふかみh2_みずあそび.txt.toml` — H-scene ba người (Soutetsu + Nagi + Fukami, chơi đùa ở bãi sông).
+- Đọc: **350/350 dòng** (key 1008–2184; monologue 170, ふかみ 66, 凪 65, 双鉄H 49). Sai: **42 dòng (12,0%)**.
+- Phân loại (42): mất âm (rên romaji) 34; gasp 5 (đều từ sweep: 1015, 1294, 1865, 1946, 2019); sai nghĩa 1 (1258); thẻ %69 + sai nghĩa 1 (1528); thuật ngữ 1 (1852 水棹→"cây sào chống").
+- 0 lệch dòng / 0 chuỗi xoay / 0 nhiễm chéo / 0 dòng mồ côi / 0 chưa dịch / 0 key trùng. CSV3 1 set duy nhất, key trùng TOML 350/350; JP comment TOML khớp CSV3 350/350. TOML md5 `dc5ff6dcb84a35650fb89a8465df9fe0`.
+- Rên: họ ひゃ/ひゅ/ひあ/きゃ→romaji (Hya/Hyu/Hia/Kya, Nhyu/Nhyun), ふぁ/ふあ→Fa/Fua, ひっ→Hi/Hí, あんっ→An, えうっ→Eu, えむっ→Emu — theo quy tắc 21/11 + tiền lệ các file moan đã gộp; đếm vần đã kiểm tra (1274 Ky+14u+n, 1277 Hi+ky+9u+nn, 1297 Euuu).
+- Đại từ: không sửa dòng nào — Soutetsu "anh" với Nagi+Fukami, Fukami "em" với Soutetsu, Fukami→Nagi "cậu", Nagi→Fukami "bé" — đều đúng quy tắc đã chốt.
+- Sweep gasp: 10 mục đã kiểm tra trực tiếp — 5 nhận nguyên văn, 5 already-rendered (1291, 1319, 1330, 1373, 1382) giữ nguyên.
+- Lượt soát 2: 42/42 tái kiểm chứng, 0 bỏ, 0 sửa. JSON 42 mục (key chuỗi); khối TOML 42 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 42/42; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-nagifukamih2-mizuasobi-REVIEW.md`; danh sách sửa: `audit-nagifukamih2-mizuasobi-wrong.json` (42 mục).
+- Cờ cho Hieu: (1) 1276 ふきゅっ→"Fukyu" — cùng câu hỏi đang chờ Hieu từ file Niiroku 03 (romaji "Fukyu" vs "Phù kiu"); đã dùng "Fukyu" theo tiền lệ 3 file moan đã gộp. (2) 1299 dòng baby-talk líu nhí (にゅゅーっへ) giữ "ưm", không quyết thêm. B19 vẫn park.
+
+**Tổng cộng sau file này: 196 file / 9.121 dòng sai** (cơ sở 195 file / 9.079 dòng sai + 42 file này)
+
+- Parent kiểm chứng 22/11 ~02:25: JSON 42 mục (key chuỗi, list-of-dicts), khối TOML 42 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 42/42; second pass 42/42/0/0. Đếm nguyên âm ĐÃ KIỂM CHỨNG lại: 1274 14u ✓ (JP 13 う → 1+13), 1277 9u ✓ (JP 8 う → 1+8); 1528 khôi phục thẻ %69; + "biết tỏng" đúng; 1852 水棹→"cây sào chống" đúng (TW 棹); 1258 TW 別管啦→"Đừng để ý chuyện đó!" đúng. Không sửa đại từ nào — Nagi→Fukami "bé", Fukami→Nagi "cậu", Soutetsu "anh" đều đúng. Không sửa nào bị loại. Dòng tổng REBASE: snippet ghi 195/9.111 theo cơ sở 194/9.069, nhưng Kisaki 02 gộp trước trong lượt này nên cơ sở thực là 195/9.079 → 196/9.121. CỜ CHO HIEU: 1276 "Fukyu" vs "Phù kiu" (cùng câu hỏi đang chờ từ Niiroku 03); 1299 baby-talk giữ "ưm". B19 vẫn park.
