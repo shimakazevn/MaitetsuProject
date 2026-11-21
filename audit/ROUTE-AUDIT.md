@@ -3574,3 +3574,113 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 174 file / 7.957 dòng sai** (cơ sở 173 file / 7.927 dòng sai + 30 file này)
 
 - Parent kiểm chứng 21/11 ~18:30: JSON 30 mục (key chuỗi, list-of-dicts), khối TOML 30 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 30/30 (1 set duy nhất, 429 dòng). Đại từ ĐÃ KIỂM CHỨNG: 1383/1667 Nagi→Soutetsu “anh” đúng (1382/1665 Soutetsu nói kề); 1483 Fukami “em” với Soutetsu đúng (1480 Soutetsu xen vào + 1476 nhờ giúp đỡ; Nagi chỉ nói lại ở 1488); 1655/1824 “em” đúng (1653 Soutetsu, 1822 gọi “Soutetsu-san”); 1813 Soutetsu “anh” với Nagi+Fukami đúng. 2385 “Nagi” theo TW (凪掀起衣服). 2334 giữ nguyên \\n của VN cũ. Không sửa nào bị loại. CỜ CHO HIEU: (1) 1691 “mình” hay “tôi” (Soutetsu tự vấn trước Hachiroku, 1692 cô đáp lại); (2) 1452/1547 công thức mora cho tiếng thở/phụt; (3) 1544 “Uhyaa” romaji ngoài cảnh H. B19 vẫn park. REBASE: snippet ghi cơ sở 172/7.846 đã cũ (Mayami02 gộp trước, +81) — tổng đã đổi thành cơ sở 173/7.927 + 30.
+
+## 02_Hibiki 日々姫01_双鉄の妹 — 19/424 (4,5%)
+
+- Cảnh dọn xưởng rượu + chào hỏi quanh ga: Soutetsu quét dọn, Nagi trêu, gặp Reina, chủ tế Akai, phu nhân Nagayama bàn cơm hộp ga tàu (Hachikuma, 掛け紙), rồi cùng Hibiki lục phòng chứa đồ tìm tư liệu 8620 và bản vẽ thiết kế đầu máy hơi nước. Kiểm tra ĐẦY ĐỦ 424 dòng (193 độc thoại, 112 thoại Soutetsu, 76 thoại Hibiki, 24 thoại Nagayama, 16 thoại Nagi, 1 ông chú, 1 Reina, 1 chủ tế Akai).
+- Phân loại (19): thuật ngữ 11 (御一夜 "Ohimitera" → "Ohitoyo" 4 — 3290, 2294, 2555, 3034, sau khi sửa file còn 0 dòng Ohimitera; 帝鉄 gloss "Đường sắt Hoàng gia" → "Đường sắt Đế quốc" ở lần đầu 2097 + "Teitetsu" 3 lần sau 2119, 2312, 2500; "Migita Ichishuzou" → "Migita Ichi" 2 — 2807, 2973, dạng lai chỉ có ở 2 dòng này toàn dự án; chùa "Yuurei" → "Yurei" 1 — 1778, theo đa số file), xưng hô 2 (Soutetsu "mình"/"tôi" → "anh" khi nói với Hibiki — 2229, 2590), sai nghĩa 2 (2534 頭でっかち "cứng đầu" → "đầu óc nặng nề"; 2474 微妙 "tế nhị" → "lưng chừng"), gasp 2 (2588, 2589 — sweep áp nguyên sau kiểm chứng), thẻ %l tự thêm 1 (2208 — gỡ thẻ 8620 JP không có), lỗi nhỏ 1 (3140 thiếu 1 nhịp tim ドっ, 3 → 4).
+- 0 misaligned / 0 rotation / 0 contamination / 0 orphan / 0 untranslated / 0 duplicate key / 0 uncertain.
+- CSV bộ duy nhất 424 dòng; CSV↔TOML: 149 khớp tuyệt đối + 274 gộp `\n` thành khoảng trắng + 1 gộp `\n` thành rỗng (2102, quirk TOML-2 đã biết); JP comment khớp CSV3. TOML md5 1b7df32b0d9d2850a4cc55d76b04ca8d, BOM + CRLF, [selections] rỗng, không bản sao trùng. Thẻ %l: 22 dòng theo JP, parity khớp 21/22 trước sửa (2208), sau sửa 22 = JP.
+- Sweep: 2 mục — 2588, 2589 áp nguyên đã kiểm chứng; 0 sweep bỏ sót.
+- Lượt soát 2: 19 tổng / 19 tái kiểm chứng / 0 loại bỏ / 0 sửa lại. JSON 19 khóa chuỗi; jp/tw/old_vn khớp CSV3 tuyệt đối 19/19; khối TOML parse OK, 19 khóa, 0 sai lệch.
+- Phán đoán ghi chú: 2254 "mình" tự nhủ không người nghe GIỮ; 2386 "mình" tân ngữ GIỮ; 2990/3091/3244 義兄/義妹 "anh trai nuôi/em gái nuôi" GIỮ (Soutetsu đúng là con nuôi, TW 義兄/義妹); 1789 日ノ本帝有鐵道 "Đường sắt Hoàng gia Hinomoto" GIỮ (thuật ngữ khác, không phải 帝鉄); 2043 TW "một trăm năm" sai, VN theo JP "một nghìn cây kim" đúng.
+
+```toml
+[script]
+"3290" = "（……Đây cũng là để hiểu sâu hơn về Ohitoyo mà.）"
+"2294" = "「Giám đốc là của Đường sắt Ohitoyo ạ?\\nHinai——」"
+"2555" = "「Vậy thì Hibiki thì sao ạ?\\nCon bé là... của Ohitoyo.」"
+"3034" = "Biết rồi thì dễ nói chuyện thôi.\\nKiến thức và tình yêu dành cho Ohitoyo được truyền tải qua tấm bản đồ minh họa đó."
+"2097" = "「Trực giác tốt đấy. Hoàn toàn chính xác. Cơm Hachikuma,\\nvốn có nguồn gốc từ suất ăn cho nhân viên trong nhà bếp toa ăn của \\x%l帝鉄;#00ffc040;Đường sắt Đế quốc%l;#; cũ mà.」"
+"2119" = "「Toa ăn của \\x%l帝鉄;#00ffc040;Teitetsu%l;#; cũ ạ.」"
+"2312" = "「Là suất cơm Hachikuma đặc chế của \\x%l帝鉄;#00ffc040;Teitetsu%l;#;.\\nCô đã thử làm thành cơm hộp ga tàu đấy.」"
+"2500" = "「Cô Nagayama, vậy ra trước đây cô cũng làm việc cho \\x%l帝鉄;#00ffc040;Teitetsu%l;#;,\\nmà lại còn ở toa ăn sao?」"
+"2807" = "Thứ Nagi đang cầm là một chiếc bình đựng rượu lâu năm,\\ncó in sáu chữ \"Xưởng rượu Migita Ichi\" màu xanh đen trên nền trắng."
+"2973" = "Tại sao Nagi lại ở Xưởng rượu Migita Ichi……\\nCòn chưa kịp thắc mắc, tay phải của Nagi đã đưa ra câu trả lời."
+"1778" = "「……Là chuyện của phu nhân chùa Yurei đúng không ạ~」"
+"2229" = "「Hửm? Khoan đã——bình tĩnh nghĩ lại thì,\\ncó phải anh đã tự ý kéo Hibiki vào chuyện này không?」"
+"2590" = "「Chắc cô ấy đã đánh giá tình hình rồi. Nếu Hachiroku gặp chuyện không may,\\nanh sẽ không còn là người mà Navi công nhận nữa.」"
+"2534" = "「Chuyện đó, không nghĩ thì không biết sao?\\nAnh hai, đầu óc nặng nề quá đấy.」"
+"2474" = "「Đúng là có một số khách hàng vui đến phát khóc luôn đấy?\\nNhưng mà, những vị khách thông thường thì lại……kiểu……hơi lưng chừng?」"
+"2588" = "「Ư!!」"
+"2589" = "「Ư!?」"
+"2208" = "「Ừ. Bán thì bán hết đấy. Hết sạch sành sanh trong chớp mắt.\\nHiệu ứng SL, nhờ ơn 8620 cả đấy——nhưng mà nhé.」"
+"3140" = "Nóng hổi, mềm mại, nhưng chắc chắn đang đẩy ngược lại.\\nThình thịch, thình thịch, thình thịch, thình thịch, nhịp đập dữ dội truyền đến."
+```
+
+**Tổng cộng sau file này: 175 file / 7.976 dòng sai** (cơ sở 174 file / 7.957 dòng sai + 19 file này).
+- Parent kiểm chứng 21/11 ~19:10: JSON 19 mục (key chuỗi, list-of-dicts), khối TOML [script] 19 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 19/19 (1 set duy nhất, 424 dòng). Đại từ ĐÃ KIỂM CHỨNG: 2229 Soutetsu "anh" — Nagi đáp ngay ở 2230 ("にーさん"); 2590 "anh" với Hibiki (2576–2579 Hibiki gọi "にぃにぃ", 2593 Hibiki tiếp lời). Không sửa nào bị loại. CỜ CHO HIEU: (1) 2990/3091/3244 義兄/義妹 "anh trai nuôi/em gái nuôi" GIỮ (chờ điều tra 義 "nuôi" vs "kế" toàn dự án); (2) 1789 日ノ本帝有鐵道 "Đường sắt Hoàng gia Hinomoto" GIỮ (thuật ngữ khác, không phải 帝鉄); (3) 2254/2386 "mình" GIỮ. B19 vẫn park.
+
+## 稀咲03 — 稀咲03_純白のレール.txt.toml — 29/425 (6,8%)
+
+- File: `稀咲03_純白のレール.txt.toml` — route 06_Kisaki, 425 dòng script (độc thoại 192, 双鉄 86, 稀咲 47, 日々姫 35, ハチロク 18, 浦上 17, ポーレット 14, 元忠 11, 凪 2, ふかみ 1, 真闇 1, れいな 1). Nội dung: họp bàn quỹ My Rail kỳ 1 (bán hết ngay, 10.000+ đơn, ~1–5 tỷ yên), phương án kỳ 2 khôi phục tuyến Ohitoyo–Yatsushiro tạo đường vòng với Đường sắt Mikan, ý tưởng mua lại toàn bộ tuyến Đường sắt Ohitoyo; Hibiki gọi Soutetsu "anh trai" và kể chuyện "người bạn" để thúc anh tỏ tình; tàu du lịch đầu tiên chạy, Soutetsu tỏ tình với Kisaki ở ga, Urakami tiết lộ mình là nữ giả nam; kết bằng lời hẹn trải "đường ray thuần khiết".
+- Phân loại (29): thuật ngữ 14 (御一夜 địa danh → Ohitoyo 12: 1690, 2713, 2098, 1908, 1874, 1906, 2704, 2903, 2513, 2891, 1657, 1882; 運転体 → "thân vận hành" 77; 機関士代理 → "lái tàu tạm quyền" 2869), đại từ 4 (Soutetsu với Kisaki = tôi/cô: 1818, 1827, 1956, 2029), sai nghĩa 1 (1762 すごっ "nhiều quá"→"ghê thật"), SFX 3 (1750 うふふっ→"Ufufu", 1752 うふふぅ→"Ufufuu", 2721 "fufu" treo cuối câu→"cười khúc khích"), thở gấp 3 (2146, 2147, 2461 — cả 3 từ sweep, đã kiểm chứng), thẻ %l 2 (2038, 2632 khôi phục thẻ エアクラ bị rớt), dấu câu 2 (1755 "Cổ họng."→"Cổ họng!", 1938 "Anh, làm sao?"→"Anh làm sao thế?").
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất; TOML khớp CSV3 tuyệt đối modulo flatten `\n`→khoảng trắng đã biết (221 dòng); md5 `80f8a824e798ff9ca1e5377a7a6248d4`, không có bản sao. `[selections]` rỗng.
+- Đại từ đúng toàn file: Soutetsu "anh" với Hibiki, "tôi" với Hachiroku/nhóm; Hibiki "em"/"anh hai"; Hachiroku "em"/"ngài Soutetsu"; Nagi "anh hai"; Reina "anh Soutetsu"/"chị Kisaki".
+- Sweep: 3 mục áp nguyên đã kiểm chứng, 0 mục bị bác, 0 gasp sweep bỏ sót. Lượt soát 2: 29/29/0/0. JSON 29 mục dạng chuẩn, khóa chuỗi; khối TOML 29 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 29/29.
+- Chờ Hieu: Kisaki gọi "anh Soutetsu" 9 dòng + 1793 (giữ nguyên theo tiền lệ file 02/h3, chờ quyết toàn tuyến); Kisaki tự xưng "tôi" hay "em" với Soutetsu (bằng chứng mới: công việc "tôi" 3 dòng — 2034, 1847, 1934 — vs thân mật "em" 7 dòng); tên công ty "Đường sắt Ohito" 7 dòng chờ đợt thống nhất (1624, 2565, 1957, 1963, 2894 + phần công ty trong 1906, 1882); gloss 列車 "tàu" 3 dòng (2513, 2923, 1918) vs "đoàn tàu"; 運転体 "kíp lái" 26× toàn dự án (đã kết luận sai ở Common 08); 2912 義理 "anh em nuôi" chờ điều tra 義. Mâu thuẫn ghi nhận: Soutetsu→Kisaki "em" đã sửa về "cô" ở đây nhưng file 01/h3 giữ "em" — đợt thống nhất rà lại.
+
+```toml
+"1690" = "「Đường sắt, tài chính, hành chính. Ohitoyo cũ và Ohitoyo mới. Thậm chí cả công ty \\x%lエアクラ;#00ffc040;Aircra%l;#;——anh có một mạng lưới nhân mạch vô cùng mạnh mẽ.」"
+"2713" = "Dù sao thì Kisaki cũng là một nhà lãnh đạo xuất sắc được mọi người công nhận của Kumagin chi nhánh Ohitoyo mà."
+"2098" = "「Đau đầu thật đấy, vì đã bán hết sạch ngay lập tức rồi. Quỹ MRF kỳ 1: Quỹ khôi phục tuyến Ohitoyo - Kagoshima ấy.」"
+"1908" = "「Áp đảo nhất là đoạn Ohitoyo - Yatsushiro. Nếu có thể khôi phục tuyến đường này,\\nnó sẽ tạo thành một tuyến đường vòng tròn với tuyến đường của Đường sắt Mikan.」"
+"1874" = "「À này, Thị trưởng Paulette, chẳng phải ngài đang đau đầu sao.\\nVề việc \\x%l保線;#00ffc040;bảo trì đường ray%l;#; đoạn Ohitoyo - Kagoshima ấy ạ.」"
+"1906" = "「Của Đường sắt Ohito…… đoạn Ohitoyo - Yunoi sao?」"
+"2704" = "Sau đó, bằng một đường kẻ đỏ,\\ncô ấy khoanh một vòng tròn lớn bao quanh đoạn Yunoi - Ohitoyo - Kagoshima."
+"2903" = "Vậy thì, đoạn Ohitoyo - Kagoshima sẽ xử lý ra sao đây——"
+"2513" = "Khôi phục tuyến đường thành công, nhà máy \\x%lエアクラ;#00ffc040;Aircra%l;#; quyết định chuyển đến Sendai.\\nChuyến \\x%l列車;#00ffc040;tàu%l;#; du lịch đoạn Ohitoyo - Kagoshima bắt đầu lăn bánh."
+"2891" = "Vào cái ngày tôi trở về Ohitoyo,\\nđây là một khung cảnh mà tôi thậm chí còn chưa từng mơ tới."
+"1657" = "「Nóng nực gì chứ. Nguy hiểm thật đấy.\\nVừa quay lại Ohitoyo là đã lơi lỏng rồi sao?」"
+"1882" = "「『Đợt huy động bổ sung kỳ 1;\\nTuyến đường đang hoạt động của Công ty CP Đường sắt Ohito・Đoạn Ohitoyo - Yunoi』 sao ạ.」"
+"77" = "Từ cửa sổ buồng lái, khuôn mặt của Hachiroku trong trạng thái \\x%l運転体;#00ffc040;thân vận hành%l;#; ló ra."
+"2869" = "Nhìn vào dòng chữ được ghi trên chứng khoán, tôi chợt nhớ lại lời nói của Hibiki khi lần đầu tiên được giao làm lái tàu tạm quyền \\x%l機関士;#00ffc040;lái tàu%l;#;."
+"1818" = "「Tôi thích cô. Tôi——thích cô, Houshou Kisaki.」"
+"1827" = "「Ưm…… Kisaki, sao vậy? Cô muốn nói gì à.」"
+"1956" = "「Thế nên…… cô mới nhẫn nhịn sao?」"
+"2029" = "「Tôi sẽ cố gắng hết sức cho buổi thuyết trình.」"
+"1762" = "「Oa——ghê thật.」"
+"1750" = "「Ufufu, anh Soutetsu.」"
+"1752" = "「Ufufuu, chúc mừng nhé, hai đứa.」"
+"2721" = "Thấy tôi gật đầu, cô ấy cười khúc khích đầy vui vẻ."
+"2146" = "「Ư!」"
+"2147" = "「Ư!!?」"
+"2461" = "Đúng rồi, hôm nay anh Urakami cũng sẽ lại từ Sendai đến đây.\\nTôi cũng phải đi chào hỏi mới được——Ư!"
+"2038" = "「Cảm ơn anh rất nhiều về quỹ My Rail kỳ 1. Nhờ có hội sở hữu cổ phần nhân viên của \\x%lエアクラ;#00ffc040;Aircra%l;#; Hinomoto mà——」"
+"2632" = "Bất kỳ nhân viên nào của \\x%lエアクラ;#00ffc040;Aircra%l;#; Hinomoto cũng hiểu được sự thật đó,\\nvà có vẻ như điều này đã làm tăng thêm sự tin tưởng của hội sở hữu cổ phần đối với quỹ My Rail."
+"1755" = "「Hả? Á!? Cổ họng!」"
+"1938" = "「Anh làm sao thế?」"
+```
+
+**Tổng cộng sau file này: 176 file / 8.005 dòng sai** (cơ sở 175 file / 7.976 dòng sai + 29 file này)
+- Parent kiểm chứng 21/11 ~19:10: JSON 29 mục (key chuỗi, list-of-dicts), khối TOML 29 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 29/29 (1 set duy nhất, 425 dòng). Đại từ ĐÃ KIỂM CHỨNG: 1818/1827/2029 Soutetsu "tôi"/"cô" với Kisaki (1820 Fukami chúc mừng cặp đôi; 2027–2028 Kisaki nói kề); 1956 "cô" đúng — 1998 Kisaki đáp "そう、我慢。キミから先に言わせたくって" (lặp đúng từ 我慢). 1762/2721 sửa lớn đã đọc lại — đúng JP/TW. Không sửa nào bị loại. REBASE: snippet ghi cơ sở 174/7.957 đã cũ (日々姫01 gộp trước, +19) — tổng đã đổi thành cơ sở 175/7.976 + 29. CỜ CHO HIEU: (1) Kisaki gọi Soutetsu "anh Soutetsu" 9 dòng + 1793 GIỮ (chờ quyết toàn tuyến); (2) Kisaki tự xưng "tôi" (công việc) vs "em" (thân mật) — chờ Hieu; (3) tên công ty "Đường sắt Ohito" 7 dòng chờ đợt thống nhất; (4) gloss 列車 "tàu" vs "đoàn tàu"; (5) 運転体 "kíp lái" 26× toàn dự án; (6) 2912 義理 "anh em nuôi" chờ điều tra 義. B19 vẫn park.
+
+## 07_Nagi_Fukami 凪ふかみ03_三人いっしょ.txt.toml — 17/413 sai (4,1%)
+
+- Xưng hô 5 (1427 Soutetsu "em"→"tôi" với Minokasa; 1528/1532/1810 Soutetsu "tôi"→"anh" với Nagi/Fukami; 2126 độc thoại "Anh"→"Tôi"), sai nghĩa 7 (2011 chủ ngữ e dè là Nagi chứ không phải búa; "chân ga"→"bàn đạp" 6 dòng: 2135, 2333, 2445, 2504, 2530, 2537), mất gasp 3 theo sweep (1460, 1848, 1849), lỗi nhỏ 2 ("Ạ" đứng riêng câu: 1516, 1522). Lệch vị trí 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng key 0. Đại từ Fukami–Nagi 0 lỗi.
+- CSV3 1 bộ duy nhất (413 dòng); CSV↔TOML 197 khớp tuyệt đối + 216 gộp \n, 0 khác biệt thực chất; JP comment khớp CSV3 413/413. TOML md5 51f7f7a84eeaa7049b2f3d1eb2c30d00, không có bản sao trùng. Thẻ %l 4 thẻ, không lệch. Lượt soát 2: 17/17 đã kiểm chứng lại, 0 bỏ, 0 sửa lại. JSON khớp CSV3 17/17; khối TOML 17 khóa, 0 sai lệch giá trị.
+- CỜ CHO HIEU: (1) "Ohito" cho 御一夜 6 dòng (1411, 1580, 1620, 1646, 2183, 2489) chờ đợt thống nhất → "Ohitoyo"; (2) "Migitai" cho 右田一 3 dòng (1071, 1429, 2525) chờ đợt thống nhất → "Migita Ichi"; (3) gloss 列車 "tàu" 1561 chờ đợt thống nhất → "đoàn tàu"; (4) key 2058 (代理車掌) thuộc file 凪ふかみ03_みかんの旅, KHÔNG thuộc file này; (5) 0 dòng chưa chắc chắn. B19 vẫn park.
+
+```toml
+[script]
+"1427" = "「Nhưng——tôi là người nhà Migita」"
+"1460" = "「Oaaaa!\\nNagi, vẫn chưa được mở cửa đâ——uuuu~~Ư!?」"
+"1516" = "「Ưm... ừm, cái này——khó quá ạ.」"
+"1522" = "「Vâng, cảm giác như thế này ạ.」"
+"1528" = "「Ừm. Đúng như anh tưởng tượng.\\nNhà bếp của Migita không có con dao bản rộng nào cả」"
+"1532" = "「Ưm? Vậy ra là gắn kết với nhau vì lợi ích sao.\\nBên kia bảo là bạn bè, nên anh cũng nghĩ vậy thôi」"
+"1810" = "「Nếu vậy thì,\\nít nhất anh cũng có một người bạn ở Đại học Đế quốc」"
+"1848" = "「Ư!」"
+"1849" = "「Ư!!?」"
+"2011" = "Ngay cả búa đập cũng chỉ hơi nhúc nhích như đang thăm dò——\\ncó vẻ em ấy cũng đang chần chừ, chỉ chực rụt chân lại."
+"2126" = "Nagi thì lúc nào cũng tràn đầy năng lượng, còn Fukami thì luôn thận trọng.\\nTôi cũng đã thấy được những dáng vẻ hoàn toàn khác với hình ảnh đó."
+"2135" = "Nagi vừa đạp bàn đạp,\\nbúa đã giáng xuống nhanh gấp mấy lần lúc ông Minokasa làm."
+"2333" = "Hai vai Fukami chùng xuống,\\nbàn đạp cũng được đạp một cách tự nhiên."
+"2445" = "Ông Minokasa ngồi trước máy, đạp bàn đạp,\\nâm thanh rầm rầm vang lên, búa đập hoạt động như pít-tông."
+"2504" = "Cách đạp bàn đạp cũng hoàn toàn khác.\\nThận trọng... hay nói đúng hơn là đang ở chế độ căng thẳng."
+"2530" = "Để búa đập xuống một cách thoải mái,\\nđập liên tục——cuối cùng, Nagi cũng nhả bàn đạp."
+"2537" = "Tóm lại là không dùng sức đạp bàn đạp, giữ nguyên một mức độ——"
+```
+
+**Tổng cộng sau file này: 177 file / 8.022 dòng sai** (cơ sở 176 file / 8.005 dòng sai + 17 file này)
+- Parent kiểm chứng 21/11 ~19:55: JSON 17 mục (key chuỗi, list-of-dicts), khối TOML 17 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 17/17 (1 set duy nhất, 413 dòng). Đại từ ĐÃ KIỂM CHỨNG: 1427 Soutetsu "tôi" với Minokasa (1429 です); 1528/1532/1810 Soutetsu "anh" với Nagi/Fukami (1529 chuyến đi 3 người, 1545 Nagi đáp 1532, 1811 nói với Nagi); 2126 độc thoại "tôi". 2011 sửa lớn đã đọc lại — đúng JP/TW (2009–2010 Fukami chần chừ; TW 收腳). Không sửa nào bị loại. CỜ CHO HIEU: (1) "Ohito" 6 dòng chờ đợt thống nhất; (2) "Migitai" 3 dòng chờ đợt thống nhất → "Migita Ichi"; (3) gloss 列車 "tàu" 1561 chờ đợt thống nhất; (4) key 2058 (代理車掌) thuộc file 凪ふかみ03_みかんの旅, KHÔNG thuộc file này — quyết định 21/11 ~17:30 áp cho file đó. B19 vẫn park.
