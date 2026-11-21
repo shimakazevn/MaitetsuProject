@@ -1,6 +1,6 @@
 # Moan-fix queue — H-scene files already merged in ROUTE-AUDIT.md
 
-**26 files** (unique). Order: audit wrong-count desc. Newly merged H-files join here automatically (loop re-scans ROUTE-AUDIT.md each run).
+**25 files** (unique). Order: audit wrong-count desc. Newly merged H-files join here automatically (loop re-scans ROUTE-AUDIT.md each run).
 
 | # | File | Rows | Audit wrong |
 |---|---|---|---|
@@ -29,4 +29,3 @@
 | 23 | ハチロクh6_ウェディングドレスを脱ぎ捨てて.txt.toml | 461 | 16 |
 | 24 | 真闇h3_補習授業の廃校舎.txt.toml | 710 | 15 |
 | 25 | 日々姫h1_マッサージの続き.txt.toml | 329 | 12 |
-| 26 | 凪ふかみh1_修学旅行の夜.txt.toml | 318 | 8 |
