@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **23 files / 526 rows changed**.
+Merged moan-fix log. Running totals: **24 files / 528 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -490,3 +490,19 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 **Tổng cộng sau file này: 23 file / 526 dòng sai (moan)** (cơ sở 22 file / 492 dòng + 34 file này) [parent REBASE 21/11 ~14:35 — snippet ghi cơ sở cũ 21/476 vì ポーレットh1 đã gộp trước]
 - Parent kiểm chứng 21/11 ~14:35: JSON 34 mục dạng chuẩn, khóa string; khối TOML 34 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 34/34 (bộ tốt 11_Other, 291 dòng; bộ 07_Nagi_Fukami stale 5/291 đã loại); TOML md5 khớp audit; 24 key trùng audit chỉ khác đúng token rên (phà/phù→Fa/Fua, Ah→Hyau, 1087 "Ph"→"F"); 10 key mới đều moan-only; đếm nguyên âm kiểm chứng độc lập: 1085 JP 19 a (あ+ぁ×8+あ×10) — audit giữ 18 a, fix moan 19 a đúng, ƯƯ của 1085 là giá trị audit giữ nguyên; 1063 ƯƯƯ là giá trị audit giữ nguyên (moan chỉ thêm "——Hya"); sweep 21 mục đã kiểm chứng (1029/1063/1179/1260 chỉ khác đúng token rên, không đụng dòng gasp Ư nào); không dòng "Kh" nào bị đổi (1078 giữ "Kh" theo sweep uncertain); lượt soát 2: 34/34, 0 bỏ, 0 sửa.
 - FLAG (đợt thống nhất): F1 (1063 tách token "Anh——Hya——hau" vs gộp "Anhya"); F2 (1125 đếm âm mơ hồ); F3 (1078 giữ "Kh"); F4 (1085 19 a vs 18 a của audit — parent chốt 19 a đúng); F5 (1195 くっ→"hự" — tiền lệ trong file 1066/1070/1273 + 凪ふかみh1 1232); F6 (1770 っ sau 羽); F7 (Fa/Fua chặt vs h8).
+
+---
+
+# Moan-fix snippet — 日々姫h6_オリエンテーリング借り物競走（ペア）.txt.toml (moan-hibikih6-orienteering-karimono)
+
+- File: `日々姫h6_オリエンテーリング借り物競走（ペア）.txt.toml` — route 02_Hibiki, 667 dòng script, TOML md5 `77423bec9e1cb3f3bfbb14002019ad44` (khớp md5 audit), không có bản trùng.
+- CSV3: 1 bộ duy nhất, 667/667 key khớp TOML.
+- Light check: đã đọc 667/667 dòng; xét 134 dòng ứng viên rên/SFX (fa/fu 24, họ hya 7, SFX hôn/mút 11, SFX hành động 20, cười 5, gasp/thán từ 67).
+- Đổi 2 dòng: 2075 sửa giá trị fix audit về đúng 6u (`Kyafuuuuuun`, JSON audit đang sai 5u dù review ghi 6u) + giữ `Fua`; 2082 やっ "a"→"Ya" (mất phụ âm y, tiền lệ 2085/Paulette h3).
+- Kiểm chứng audit: 32 dòng moan của audit kiểm chứng lại bằng máy — 31 đúng, 1 sai giá trị (2075). Họ hya 0 dòng dùng "Á" (toàn romaji đúng). 2078 giữ nguyên 14u (parent đã loại khỏi audit, đếm lại đúng). Không đụng gasp Ư hay "Kh".
+- Giữ: dạng tách âm "phù, a" (1944, 2106, 2194, 2713), "Hà" cho はぁっ, cười "Ehehe/Ufufufu", SFX "chụt/Phụt/ực/hự", 2087 "a――――", 2656 "A!".
+- Lượt soát 2: tổng 2 / tái kiểm chứng 2 / bỏ 0 / sửa 0. JSON 2 mục, khóa string, jp/tw/old_vn khớp CSV3 2/2. Khối TOML parse bằng tomllib: 2 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-hibikih6-orienteering-karimono-REVIEW.md`; danh sách sửa: `moan-hibikih6-orienteering-karimono-wrong.json`.
+
+**Tổng cộng sau file này: 24 file / 528 dòng sai (moan)** (cơ sở 23 file / 526 dòng + 2 file này)
+- Parent kiểm chứng 21/11 ~15:05: JSON 2 mục dạng chuẩn, khóa string; khối TOML 2 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 2/2 (1 bộ duy nhất, 667 dòng); TOML md5 khớp audit; đếm nguyên âm kiểm chứng độc lập: 2075 JP きゃふうううううん = ふ1u + う×5 = 6u — fix moan 6u đúng; LƯU Ý: giá trị fix của audit cho 2075 là 5u ở CẢ JSON lẫn khối TOML trong REVIEW.md của audit (không phải 6u như ghi chú parent lúc merge audit "sửa 7u→6u" — 7u chỉ có trong file tomlblock.txt cũ; giá trị 6u trong text review của audit không vào JSON/block) — fix moan 6u đè lên giá trị audit 5u ở đợt thống nhất; 2082 "a"→"Ya" (やっ mất phụ âm y, tiền lệ 2085 Yaa + Paulette h3); diff mỗi fix chỉ khác old_vn đúng chỗ mục tiêu; không dòng gasp Ư nào bị đụng (2075 Ư 0→0; 2082 "Ưm" đã có trong old_vn từ んっ); không dòng "Kh"; lượt soát 2: 2/2, 0 bỏ, 0 sửa.
