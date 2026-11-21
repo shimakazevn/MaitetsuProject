@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **30 files / 653 rows changed**.
+Merged moan-fix log. Running totals: **31 files / 688 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -626,3 +626,30 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 
 - Parent kiểm chứng 21/11 ~16:55: JSON 7 mục dạng chuẩn, khóa string; khối TOML 7 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 7/7 (1 bộ duy nhất, 335 dòng); TOML md5 khớp agent; 0 key trùng audit (38 dòng); sweep 13 mục, 0 trùng key moan — không dòng gasp Ư nào bị đụng; không dòng "Kh" nào bị đổi; đếm nguyên âm kiểm chứng độc lập: 1185 やぁっ = 2 a (tiền lệ lr-nagih2 1203); 1260/1283 ひあ→"hia" đúng quy tắc 3b; lượt soát 2: 7/7, 0 bỏ, 0 sửa.
 - FLAG (đợt thống nhất): F1 1253 "I――Gi!" có thể revert về "Á――á!" nếu Hieu thấy "Á!" tự nhiên hơn; F2 1244 (しゅごっ→"tuyệt quá", cờ từ audit); F3 や chưa quyết chung (1185 giữ "Á" cho từ chối vs lr-nagih2 1325 "Yaa" cho rên); F4 SFX độc thoại （きゅっ）→"Siết chặt!" (2049, 2055) diễn nghĩa, chưa đếm nguyên âm.
+
+---
+
+# Moan-fix snippet — ポーレットh6_あなたとふたりの学園エッチ.txt.toml (moan-paulette-h6-gakuen-ecchi)
+
+- File: `ポーレットh6_あなたとふたりの学園エッチ.txt.toml` — route 03_Paulette, 304 dòng script, audit trước đó 36 sai.
+- TOML md5: `1a184880b82bce1ce58a67cbb3a5f923` (khớp md5 audit), không có bản trùng.
+- CSV3: 1 bộ duy nhất, 304 dòng, 0 key trùng; VN khớp TOML 304/304 sau chuẩn hoá `\n`/khoảng trắng.
+- Đã đọc 304/304 dòng; xét 193 dòng rên/SFX (44 dòng SFX trong ngoặc); sửa 35, giữ 158.
+- Đổi 35 dòng: romaji 28 + đếm nguyên âm 5 + sai âm 2.
+- Romaji họ fa/fu → Fa/Fua/Pa/Pua (12): 775 ふぁっ→"Fa", 777 ぷあっ→"Pua" + ふあっっ→"Fua", 788 ふぁ→"Fa", 807/815/833/850 ふあっ→"Fua", 838 ふぁ→"Fa" + ぷぁぁ→"Puaa", 853/859 ぷあっ→"Pua", 854 ふあっ→"Fua" + ぷあっ→"Pua", 944 ふぁんっ→"Fan". Không còn dòng fa/fu nào diễn "phù" mất âm a trong file (trừ fa tách giữ "phù, a" — xem cờ F4).
+- Romaji mất phụ âm mora (15): 762 ひゃんっ→"Hyan", 764/766 や→"Ya", 767 あんっ→"An", 769 きゃふっ→"Kyafu", 770 ひゃふっ→"Hyafu", 772 くっ→"Ku", 796 きゃっ→"Kya", 801 くぅ→"Kuu", 805 やふっ→"Yafu" + んきゅんっ→"Nkyun", 806 くあっ→"Kua", 836 んきゅっ→"Nkyu", 868 んきゅっっ→"Nkyu", 1348 かはっ→"Kaha", 792 うぁっ→"Wa".
+- Đếm nguyên âm (5): 778 んううっ→"ưm ư ư", 789 ぁあっ→"Aa" (+ gỡ dấu 」 thừa), 840/842/870 んうっ→"ưm ư"; gộp mảnh rời: 854 あああっ→"Aaa", 1561 ああ→"Aa"; 775/788 はぁ→"hàà"/"Hàà", 916 ふぅっ→"Phùu", 836 ふ(16 u)→"F"+16u (VN cũ 11 u).
+- Sai âm (2): 916 しょっ→"Sho" ("hự" sai phụ âm), 1600 ぐっ→"hự" ("ưm" mất hẳn âm g).
+- 4 fix audit bị HỦY (giữ VN cũ, KHÔNG đưa vào JSON): 768 ("Kíuuuuuuuuun" → giữ "Kyuuuuuuuuun"), 800/818 ("Ư a" → giữ "Kua"), 869 ("Ưm" → giữ "Nkyun!"). 5 fix xây trên giá trị audit (770, 815, 840, 850, 868 — chỉ đổi đúng token rên). 2 fix lật giá trị audit (806, 944). 27 dòng mới so với audit.
+- Giữ 158 dòng rên/SFX: gasp Ư khóa (771, 774, 814, 816, 817, 819, 1271, 1290, 1377), hơi ngắn ふっ/ぷっ→"phù", fa tách "phù, a"/"phù——a" (786, 790), họ ちゅ→"chụt", nói ngọng (784, 835, 858), SFX độc thoại （ ） dạng nghĩa Việt, んくっ→"ưm" (859), 871 "Ưm ư ư".
+- Sweep: 11 mục đã kiểm chứng — 10 fix gasp Ư không đụng, 1 already-rendered (833) chỉ đổi token fa. Không dòng "Kh" nào bị đổi (file không có token "Kh" độc lập).
+- Lượt soát 2: tổng 35 / tái kiểm chứng 35 / bỏ 0 / sửa 0. JSON 35 mục, khóa string, jp/tw/old_vn khớp CSV3 35/35. Khối TOML parse bằng tomllib: 35 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-paulette-h6-gakuen-ecchi-REVIEW.md`; danh sách sửa: `moan-paulette-h6-gakuen-ecchi-wrong.json`.
+
+**Tổng cộng sau file này: 31 file / 688 dòng sai (moan)** (cơ sở 30 file / 653 dòng + 35 file này) [REBASE — snippet ghi cơ sở cũ 29/646 vì 稀咲h1 (7 dòng) đã gộp trước]
+- FLAG (đợt thống nhất): F1 — HỦY 4 fix audit (768, 800, 818, 869 — giữ VN cũ, xem REVIEW §4); F2 — んきゅ "Nkyu" vs audit "Ưm"; F3 — くっ "Ku" (772) vs "Hự" (851) vs doc "Ư"; F4 — fa tách "phù, a" (786, 790) vs h9 "Fu, a"; F5 — họ ちゅう "chụt" vs h3 "chụụụt"; F6 — SFX độc thoại （ ） chưa áp công thức đếm (1541, 1543, 1552/1558/1560, 1597); F7 — んうっ→"ưm ư" (TW 1 âm 嗯 vs 2 âm 嗯啊); F8 — 916 "Sho", 1348 "Kaha" (phán đoán mới); F9 — 789 gỡ dấu 」 thừa; F10 — 793 "Uây!" giữ.
+
+- Parent kiểm chứng 21/11 ~17:10: JSON 35 mục dạng chuẩn, khóa string; khối TOML 35 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 35/35 (1 bộ duy nhất, 304 dòng); TOML md5 khớp audit; đếm nguyên âm kiểm chứng độc lập: 778 んううっ = 3 âm ("ưm ư ư"), 836 ふ = 16 u (1+15), 870 んうっ = 2, 775/788 はぁ = 2 a, 789 ぁあっ = 2 a, 916 ふぅっ = 2 u; sweep 11 mục — chỉ 833 trùng key (already-rendered, chỉ đổi token fa, không đụng gasp Ư); không dòng "Kh" nào bị đổi; lượt soát 2: 35/35, 0 bỏ, 0 sửa. \n làm phẳng thành khoảng trắng ở 16 fix — KHỚP quy ước audit của chính file này (audit 18/18 fix đa dòng đều làm phẳng), không phải lỗi.
+- 6 key trùng audit — áp giá trị moan: 770 giống hệt audit ("Hyafu!!?"); 769 audit "Kyaphù"→moan "Kyafu" (chỉ khác token fa; agent không liệt kê trong 2 nhóm, parent ghi thêm); 815 khác audit ở token fa + đếm んうっ; 840 chỉ khác đếm めうっ; 850 khác token fa + "Houhehu"→"Hôu-hê-hu" (đổi chính tả romaji, cờ cho đợt thống nhất); 868 "Ưm"→"Nkyu" (xem F2).
+- 806/944 lật giá trị audit — đã kiểm chứng qua REVIEW audit (không có trong audit JSON): 806 audit chốt くあ→"Ư a" trong REVIEW, moan đổi lại "Kua" (khớp F1 800/818 giữ "Kua"); 944 audit chấp nhận bỏ đuôi ん ("phù"), moan khôi phục "Fan" (ふぁんっ giữ ん, tiền lệ 762 "Hyan" cùng file).
+- FLAG (đợt thống nhất): F1 — HỦY 4 fix audit đã kiểm chứng là phá romaji đúng của VN cũ: 768 "Kyuuuuuuuuun"→audit "Kíuuuuuuuuun", 800 "Kua"→audit "Ư a", 818 "Kua"→audit "Ư a", 869 "Nkyun!"→audit "Ưm!" (giữ VN cũ, KHÔNG đưa vào JSON); F2 んきゅ "Nkyu" vs audit "Ưm" (836/868/869); F3 くっ "Ku" (772) vs "Hự" (851) vs doc "Ư"; F4 fa tách "phù, a" (786, 790) vs h9 "Fu, a"; F5 họ ちゅう "chụt" vs h3 "chụụụt"; F6 SFX độc thoại （ ） chưa áp công thức đếm; F7 んうっ→"ưm ư" (TW 1 âm 嗯 vs 2 âm 嗯啊); F8 916 "Sho", 1348 "Kaha" (phán đoán mới) + 1600 ぐっ→"hự" (vs tiền lệ h7 745 "Gu" romaji — SFX độc thoại dùng động từ Việt nên "hự" hợp quy ước file, chờ quyết chung); F9 789 gỡ dấu 」 thừa; F10 793 "Uây!" giữ.
