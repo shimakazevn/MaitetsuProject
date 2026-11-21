@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **47 files / 1239 rows changed**.
+Merged moan-fix log. Running totals: **49 files / 1247 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -978,3 +978,39 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 
 - Parent kiểm chứng 22/11 ~02:30: JSON 9 mục dạng chuẩn, khóa string; khối TOML 9 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 9/9 (1 bộ duy nhất, 358 dòng, 0 key trùng); TOML md5 khớp audit, 1 bản duy nhất; đếm nguyên âm kiểm chứng độc lập: 1163/1170/1245 = 2 a (1+1う), 1213/1234/1241/1252/2008 ちゅむっ → "chumu" (chu+mu, khôi phục nguyên âm u của む), 1149 んうっ → "ưm ư" (ん+う); 1992 kiểm chứng lại: JP じゅ+ぶ+りゅ+7う = 10 u, VN 10 u đúng — agent giữ đúng, không sửa; chỉ 1 key trùng audit (1234) — fix moan chỉ khác audit ở "chum"→"chumu", giữ nguyên "——Ư" của audit; không dòng gasp Ư nào bị xem lại; không dòng "Kh" nào bị đổi (1163 "Kh-không" là lắp thoại, không đụng); lượt soát 2: 9/9, 0 bỏ, 0 sửa.
 - FLAG (đợt thống nhất): F1 1314 "rồi——Ư!" chờ Hieu (audit đã cờ); F2 1234 thay thế fix audit; F3 1982 "chụt" cho ちゅむうっ (hệ diễn-nghĩa) vs tiền lệ "Chumu" (h1_契り 2147); F4 そうてつさま không nhất quán (audit đã cờ).
+
+# Moan-fix snippet — 日々姫h5_白濁絵の具の射精会.txt.toml (moan-hibikih5-hakudaku-enogu)
+
+- File: `日々姫h5_白濁絵の具の射精会.txt.toml` — route 02_Hibiki, 343 dòng script, audit trước đó 39 sai.
+- Đã đọc 343/343 dòng; xét 153 dòng rên/SFX (thoại 105 + monologue 48, gồm 44 dòng SFX （）).
+- Đổi 3 dòng (nguyên âm 1, moan 2), giữ 150 dòng rên/SFX.
+- Nguyên âm 1: 1153 ひゅっ！あああああああああんっ "Hyu! Aaaaaaaaaaaan" (12 a) → "Hyu! Aaaaaaaaan" (9 a) — áp lại fix audit đã bị parent loại, với giá trị ĐÚNG 9 a (JP 9 a + 1 n, đếm bằng máy).
+- Moan 2: 1215 はっ "A!" → "Hà!" (mất phụ âm h — ngoại lệ duy nhất của quy ước はっ→"Hà" trong file); 1255 ふ、ぅ "phù" → "phù, u" (âm ぅ bị mất hẳn; tiền lệ 1190 ふ、ぁ→"phù, a"; TW hai tiếng 呼).
+- Đồng ý toàn bộ 37 fix moan/gasp/nguyên âm còn hiệu lực của audit; phán lại và đồng ý cả hai phán đoán của audit: 1264 "Nukyu" (ん-う-きゅ đủ 3 mora) và 1154 "Po" (ぽッ là âm tiết おちんぽ bị cắt; "ưm" cũ là âm mũi không có trong JP).
+- Đếm nguyên âm kiểm tra lại bằng máy cho mọi chuỗi moan dài: 1151 8a/2n, 1156 10a, 1157 1a/1u/1n, 1152 1a/1u/2n, 1212 12u/6n, 1213 9u, 1228 18o, 1261 3u, 1265 6u, 1269 3u, 1226 5u — tất cả khớp.
+- Không dòng gasp Ư nào bị xem lại; không dòng "Kh" nào bị đổi; không có dòng ふぇ/ふや hay dòng cười nào trong file.
+- Cờ: F1 1189 không phải dòng moan — MEMORY 22/11 ~02:47 đã quyết bỏ "đã bao phủ", áp ở đợt thống nhất; F2 1215 "Hà!" là fix mới — parent xem lại ở lúc gộp nếu thấy "A!" là diễn có chủ ý.
+- Lượt soát 2: 3/3 tái kiểm chứng, 0 bỏ, 0 sửa (kiểm tra cơ học bắt 1 lỗi mã hoá `\n` trong bản nháp JSON — đã dựng lại từ CSV3, khớp tuyệt đối).
+- Chi tiết đầy đủ: `moan-hibikih5-hakudaku-enogu-REVIEW.md`; danh sách sửa: `moan-hibikih5-hakudaku-enogu-wrong.json`.
+- **Tổng cộng sau file này: 48 file / 1242 dòng sai (moan)** (cơ sở 47 file / 1239 dòng + 3 file này — cơ sở đã kiểm chứng trực tiếp dòng tổng của ROUTE-MOANS.md)
+- Parent kiểm chứng 22/11 ~03:00: JSON 3 mục dạng chuẩn, khóa string; khối TOML 3 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 3/3 (1 bộ duy nhất, 343 dòng); TOML md5 khớp audit; 1153 đếm lại bằng máy: JP 9 a + 1 n, fix 9 a đúng (áp lại fix audit đã loại với giá trị đúng); 1215 "Hà!" GIỮ — quy ước file はっ→"Hà" (8 dòng khác), "A!" cũ mất phụ âm h (sound-loss), TW 啊 không mâu thuẫn (TW vẫn diễn はっ thành 啊); 1255 "phù, u" theo tiền lệ 1190 (ふ、ぁ→"phù, a"); không dòng gasp Ư nào bị xem lại; không dòng "Kh" nào bị đổi; lượt soát 2: 3/3, 0 bỏ, 0 sửa.
+- FLAG (đợt thống nhất): F1 1189 đã quyết 22/11 ~02:47 (bỏ "đã bao phủ", áp ở đợt thống nhất — không thuộc moan). F2 (1215) đã quyết lúc gộp: giữ "Hà!".
+
+# Moan-fix snippet — 凪ふかみh2_みずあそび.txt.toml (moan-nagifukamih2-mizuasobi)
+
+- File: `凪ふかみh2_みずあそび.txt.toml` — route 07_Nagi_Fukami, 350 dòng script, audit trước đó 42 sai.
+- TOML md5: `dc5ff6dcb84a35650fb89a8465df9fe0` (khớp md5 audit), không có bản trùng. Lưu ý: disk path trong brief trỏ nhầm sang 凪h2_おとなの水着 (md5 `a581ef85...`); file đúng đã dùng là `#U51ea#U3075#U304b#U307fh2_#U307f#U305a#U3042#U305d#U3073.txt.toml`, md5 đã kiểm chứng.
+- CSV3: 1 bộ duy nhất, 350 dòng, 0 key trùng; JP trong comment TOML khớp CSV3 350/350 (kể cả 2 dòng CSV3 bị mojibake 1319/1386 đã kiểm chứng qua TOML).
+- Đã đọc 350/350 dòng; xét 135 dòng rên/SFX (86 thoại + 43 SFX độc thoại ngoặc + 3 độc thoại gasp + 2 độc thoại thở + 1 độc thoại （おおお）).
+- Đổi 5 dòng: 2 romaji (1300 ふ、あ→"Fu, a"; 1326 やっ→"Ya") + 2 đếm nguyên âm (1294 はぁ×3→"Hàà" + ああ～→"aa~", giữ Ư của audit; 1302 はぁぁぁぁ 5 a→"Hààààà") + 1 sai âm (1397 くおっ→"Kuo!").
+- Giữ 130 dòng rên/SFX: 34 fix romaji của audit đều đã đúng (1274 14u, 1277 9u kiểm chứng lại bằng máy); 5 gasp Ư sweep + 5 already-rendered không đụng; hơi thở ふっ/ふうっ→"phù" theo quy ước file; SFX miệng "liếm"/"chụt"; gằn Soutetsu "Hự"; cười "Ư hứ hứ"/"Ni hê hê~"; nói ngọng 1421/1455.
+- Sweep: 10 mục đã kiểm chứng trực tiếp (5 fix Ư + 5 already-rendered) — không đụng dòng gasp Ư nào; không dòng "Kh" nào bị đổi (file không có dòng "Kh"; "Kh..." ở 1412 là từ "khủng" bị lắp).
+- 1294 thay thế giá trị audit cùng key (giữ Ư của audit, thêm đếm nguyên âm) — áp MỘT giá trị moan mỗi key ở đợt thống nhất.
+- Flag: F1 1276 "Fukyu" vs "Phù kiu" (chờ Hieu, giữ "Fukyu" theo tiền lệ 3 file); F2 1299 baby-talk giữ "ưm"; F3 dạng tách fa "Fu, a" vs h7 giữ "phù——a" (cần quyết thống nhất); F4 1350 び bị rơi (TW cũng rơi, cần vòng audit); F5 quy ước độ dài SFX độc thoại （ ） (2132/2141/2149/2150/2154/2155/2160/2174/2182/2165); F6 1294 thay giá trị audit vừa gộp; F7 brief ghi sai disk path.
+- Lượt soát 2: tổng 5 / tái kiểm chứng 5 / bỏ 0 / sửa 0 (bắt 1 lỗi trước soát 2: 1300/1326 dùng newline thật thay vì `\n` literal — đã sửa). JSON 5 mục, khóa string, jp/tw/old_vn khớp CSV3 5/5. Khối TOML parse bằng tomllib: 5 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-nagifukamih2-mizuasobi-REVIEW.md`; danh sách sửa: `moan-nagifukamih2-mizuasobi-wrong.json`.
+
+**Tổng cộng sau file này: 49 file / 1247 dòng sai (moan)** (cơ sở 48 file / 1242 dòng + 5 file này — parent REBASE 22/11 ~03:00: snippet ghi cơ sở cũ 47/1239 vì 日々姫h5 đã gộp trước)
+- Parent kiểm chứng 22/11 ~03:00: JSON 5 mục dạng chuẩn, khóa string; khối TOML 5 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 5/5 (1 bộ duy nhất, 350 dòng); TOML md5 khớp audit; đếm nguyên âm kiểm chứng độc lập: 1294 9 a (2+2+2+1+2) ✓, 1302 5 a ✓; 1294 giữ Ư của audit, chỉ khác audit ở đếm nguyên âm — áp MỘT giá trị moan; 1300 "Fu, a" theo tiền lệ h9/lr-h1; 1326 "Ya" theo tiền lệ Paulette h3 (やっ→"Ya"); 1397 "Kuo!" (くおっ — "Ư!" cũ mất hẳn phụ âm k); không dòng gasp Ư nào bị đụng (1294 giữ Ư audit); file không có dòng "Kh"; lượt soát 2: 5/5, 0 bỏ, 0 sửa.
+- FLAG (đợt thống nhất): F1 1276 "Fukyu" vs "Phù kiu" (chờ Hieu); F2 1299 baby-talk giữ "ưm"; F3 dạng tách fa "Fu, a" vs h7 giữ "phù——a" (cần quyết một dạng toàn dự án); F4 1350 び rơi (cần vòng audit); F5 quy ước độ dài SFX độc thoại （ ）; F6 1294 thay giá trị audit vừa gộp (áp giá trị moan).
+- SỬA (parent): disk path trong queue.json của file này đã SAI (trỏ sang 凪h2_おとなの水着, md5 a581ef85 — file đã moan-merged từ trước); agent đã tự dùng đúng file 凪ふかみh2 (md5 dc5ff6dc, parent kiểm chứng lại bằng md5sum). Queue entry đã xóa khi gộp nên lỗi này không còn nguy cơ tái diễn; parent đã ghi vào log ngày.
