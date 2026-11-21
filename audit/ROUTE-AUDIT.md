@@ -3240,3 +3240,23 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 - Parent kiểm chứng 21/11 ~12:05: JSON 73 mục, TOML [script] 73 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 73/73. Đại từ kiểm chứng theo dòng kề (16 dòng Soutetsu "anh"→"tôi", Hachiroku là người đối thoại duy nhất trong file — đúng); 1236 cười ふふっ→"Fufu" đúng quy tắc tiếng cười; 1907 むぎゅっ→"Bóp chặt" theo JP (TW 刺啦 mâu thuẫn, JP thắng); 2 fix khác biệt lớn đã soát, không sửa nào bị loại. Cờ cho Hieu: mâu thuẫn quy tắc SFX ngắn + っ (brief 20/11 vs thực hành romaji hiện tại); phán đoán bỏ 't' cuối họ ちゅう (1277/1279/1283/1287) nhờ moan-fix loop xác nhận; 1224 っ×4 → "Fua!!!!!".
 
 **Tổng cộng sau file này: 153 file / 6.832 dòng sai** (cơ sở 152 file / 6.759 dòng sai + 73 file này)
+
+
+---
+
+## lr_真闇h1_僕のおねえちゃん — lr_真闇h1_僕のおねえちゃん.txt.toml — 59/317 (18,6%)
+
+- File: `lr_真闇h1_僕のおねえちゃん.txt.toml` — route 05_Mayami, 317 dòng script (monologue 141, thoại Soutetsu 90, thoại Mayami 86). Nội dung: cảnh H của Mayami ("chị của em") — Mayami mặc bộ đồ lót mới motif mèo đen (tai + đuôi mèo) khoe Soutetsu, trêu chọc rồi "dạy" em: oral, paizuri, quan hệ, xuất tinh trong; xen kẽ trò chuyện về lời khen và ước muốn có hai đứa con với nhau.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, key khớp tuyệt đối 317/317; VN khớp TOML 170/317 (147 dòng còn lại chỉ khác ở chỗ TOML-2 làm phẳng `\n` thành khoảng trắng — CSV3 là chuẩn). `[selections]` rỗng. 0 tag `%l`. Không có bản sao file này (md5 `4baa00ccc02ca48bed882887b182d798`).
+- Phân loại (59): đại từ 22 (Soutetsu "em"→"tôi" với Mayami — lỗi hệ thống, giống lr真闇追加02/03: 1385, 1388, 1397, 1425, 1483, 1562, 1572, 1584, 1586, 1591, 1593, 1595, 1598, 1600, 1601, 1604, 1607, 1610, 1673, 1686, 1865, 2189), gasp 21 (sweep 16: 1163, 1495, 1496, 1497, 1519, 1575, 1607, 1699, 1700, 1701, 1702, 1706, 1709, 1797, 1828, 1915 + sweep-missed 5: 1168, 1494, 1542, 1598, 1603), rên/nguyên âm 16 (1405, 1426, 1433, 1436, 1438, 1466, 1467, 1470, 1471, 1484, 1488, 1491, 1492, 1531, 1534, 1659 — romaji fallback + đếm nguyên âm theo công thức), SFX 1 (2145: 32 t → 11 t theo số mora-u), nghĩa 3 (1385, 1610 gộp đại từ; 1684 一生懸命→"hết sức").
+- Sweep kiểm chứng: 20 mục cho file, nhận 16 fix + 4 already-rendered (1428, 1503, 1698, 1803); quét máy bổ sung toàn bộ 239 dòng JP chứa っ — tìm thêm 5 gasp (1168 ×2 Ư, 1494, 1542, 1598, 1603). Quy tắc ひゃ-family 21/11 áp dụng cho 1405/1534/1438 (romaji Hya/Ya/Hyagu).
+- Giữ nguyên, ghi nhận đợt thống nhất: おまんこ "chỗ đó" (6 dòng) vs "lồn" (6 dòng) — tỉ lệ 6/6, chỉ khác mức độ trực tiếp, không sai nghĩa. SFX dài rút gọn trong từ Việt (2107, 2122, 2141, 2165, 2167, 2175...) — quy ước file, chỉ 2145 sửa vì 32 t vượt xa mọi tiền lệ.
+- Chi tiết đầy đủ: `audit-mayamih1-boku-no-oneechan-REVIEW.md`; danh sách sửa: `audit-mayamih1-boku-no-oneechan-wrong.json` (59 mục, khối TOML 59 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 59/59; lượt soát 2: 59/59, 0 bỏ, 1 sửa — 1603 khôi phục 「」 bị sót khi viết fix).
+
+
+- Parent kiểm chứng 21/11 ~12:10: JSON 59 mục, TOML [script] 59 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 59/59. Đại từ kiểm chứng theo dòng kề (22 dòng Soutetsu "em"→"tôi", Mayami là người đối thoại duy nhất — đúng quy tắc đã khóa, khớp tiền lệ lr真闇追加02/03); 1531 んふうううううっ→"Nfuuuuuu" đúng romaji fallback; 1503 already-rendered đúng là không fix; 2145 rút 32 t→11 t theo tiền lệ 2111/2121 (cờ, ít chắc chắn hơn). Không sửa nào bị loại. Cờ cho đợt thống nhất: おまんこ "chỗ đó" vs "lồn" 6/6 (giữ cả hai trong audit).
+
+**Tổng cộng sau file này: 154 file / 6.891 dòng sai** (cơ sở 153 file / 6.832 dòng sai + 59 file này)
+
+- Lưu ý rebase: task giao cơ sở 152 file / 6.759 dòng sai, nhưng file lr_ハチロクh3 (73 dòng sai) đã được gộp lúc ~12:05 trong khi audit này đang chạy — đã kiểm chứng trực tiếp dòng tổng cuối của ROUTE-AUDIT.md (153 file / 6.832) và dùng cơ sở mới.
+- Chờ Hieu (chỉ ghi nhận, không cần quyết ngay): おまんこ "chỗ đó" vs "lồn" 6/6 (thống nhất 1 dạng toàn tuyến Mayami hay giữ cả hai?); SFX dài rút gọn trong từ Việt (giữ quy ước file hay diễn độ dài?).
