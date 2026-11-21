@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **36 files / 846 rows changed**.
+Merged moan-fix log. Running totals: **37 files / 878 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -765,3 +765,17 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 
 **Tổng cộng sau file này: 36 file / 846 dòng sai (moan)** (cơ sở 35 file / 843 dòng + 3 file này)
 - FLAG (đợt thống nhất): 1555 — dùng giá trị moan 「A! Fua! A!!! Nguuuu~Ư!!」 (4 u) thay fix audit 5 u (JP んウゥゥぅ = 4 u, TW 4×唔). 1619 — dùng giá trị moan 'Aaaaaaan' (7 a) thay fix audit 8 a (JP あ+6ー = 7; audit áp nhầm giá trị của 1579).
+
+# Moan-fix snippet — れいなh3_おもらし自由化大作戦.txt.toml (moan-reinah3-omorashi-jiyuuka-daisakusen)
+
+- CSV3: 1 set duy nhất, 279 dòng, 0 trùng khóa; VN khớp TOML 279/279. TOML md5 `6c1b1c26745216faeebd6d942cc2e2f4` (khớp audit), không có bản trùng.
+- Đã đọc 279/279 dòng; xét 193 dòng ứng viên rên/SFX (181 lọc máy + 12 VN-only, 11 là dương tính giả do `ực` trong "thực/rần/rực"); sửa 32, giữ 161.
+- Đổi 32 dòng: romaji họ fa/fu 17 (1014, 1019, 1031, 1047, 1048, 1053, 1068, 1073, 1078, 1083, 1119, 1121, 1195, 1196, 1197, 1198, 1200 — ふぁ→Fa, ふあ→Fua, ふや→Fuya, ふぇ→Fue, ぷあ→Pua) + romaji họ ひあ 3 (1014, 1016, 1055 — ひあ→Hia) + romaji sai âm 3 (1018 ふゅあ→Fyua, 1040 やぁん→Yaan, 1193 ふゆ→Fuyu) + romaji mất phụ âm mora 2 (1043, 1045 くっ→Ku) + đếm nguyên âm 7 (1025 4u→3u, 1085 7u→8u, 1092 4u→5u, 1099 7u→4u, 1102 1u→2u, 1116 1u→2u, 1192 3a→2a) + độ dài ん 1 (1061 んんっ→ưmm).
+- 18/32 key trùng audit, chỉ khác fix audit ở đúng token rên; 14 key mới. 3 dòng hoàn lại đúng VN cũ (1048 "Fuya", 1119 "Fuei!", 1121 "Pua!" — audit đã Việt hoá romaji gốc).
+- Giữ 161 dòng ứng viên: gasp Ư của audit/sweep (1050, 1074, 1080, 1099 — 1099 chỉ sửa số lượng u), họ ん→"ưm" theo quy ước file (1056, 1090, 1130 — audit đã chốt), ふっ→"phù" toàn file, họ ちゅ→"chụt", romaji đã đúng (1013/1195 "Hya", 1064 "hyu", 1071 "ya"), tiếng cười, SFX trong （ ） dạng động từ Việt, っ nhấn mạnh / đã diễn.
+- Sweep: 4 mục đã kiểm chứng trực tiếp — nhận 3 fix audit (1074/1080/1099) + 1 already-rendered (1199); quét gasp lại toàn file: không còn gasp nào sót. Không dòng "Kh" nào bị đổi (file không có "Kh").
+- Lượt soát 2: tổng 32 / tái kiểm chứng 32 / bỏ 0 / sửa 0. JSON 32 mục, khóa string, jp/tw/old_vn khớp CSV3 32/32. Khối TOML parse bằng tomllib: 32 khóa, 0 sai lệch giá trị. Đếm nguyên âm kiểm chứng độc lập: 1018 11a, 1055 10a, 1193 20u, 1085 8u, 1092 5u, 1099 4u, 1025 3u, 1102 2u, 1116 2u, 1192 2a, 1040 2a, 1019 3a.
+- Chi tiết đầy đủ: `moan-reinah3-omorashi-jiyuuka-daisakusen-REVIEW.md`; danh sách sửa: `moan-reinah3-omorashi-jiyuuka-daisakusen-wrong.json`.
+
+**Tổng cộng sau file này: 37 file / 878 dòng sai (moan)** (cơ sở 36 file / 846 dòng + 32 file này — cơ sở đã cập nhật: loop gộp lr_日々姫真闇h1 (+3) trong lúc làm file này; lúc spawn cơ sở là 35/843)
+- FLAG (đợt thống nhất): F1 — 775 "Ư, m?" (む thành "m" — nói lắp hay mất âm); F2 — 1115 nói ngọng miệng đầy (audit đang chờ); F3 — 1133 ふえっ？ "hả?" hay "phuê?" (chờ Hieu); F4 — SFX （ ） chưa áp công thức đếm (1738/1740/1741/1747/1752/1753/1754/1721/1725); F5 — 1061 んんっ "ưmm" vs "nn" (mâu thuẫn ふかみh3 F8); F6 — 1091/1089 ちゅう… diễn bằng lặp t / bỏ u; F7 — 1094 っぐ→"gu" (っ đầu token); F8 — 1040 "Yaan~" (vị trí ~); F9 — 1192 "Waai!" (tiếng reo có thuộc phạm vi moan); F10 — 1025 bẫy codepoint ふぅぅ (không phải ふぉぅ); F11 — ふっ "phù" vs "Fu" (câu hỏi mở toàn dự án, reinah4 F2).
