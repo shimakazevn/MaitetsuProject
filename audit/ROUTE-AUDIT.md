@@ -4666,3 +4666,70 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 189 file / 8.881 dòng sai** (cơ sở 188 file / 8.866 dòng sai + 15 file này)
 
 - Parent kiểm chứng 22/11 ~01:35: JSON 15 mục (key chuỗi, list-of-dicts), khối TOML 15 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 15/15; second pass 15/15/0/0. Đại từ ĐÃ KIỂM CHỨNG: 876 "em" (người nghe Paulette — TW 你 + cuộc gọi 1404); 1404 "anh đây" (gọi Paulette); 1673 "em" (tiền lệ 仲国02 2596). 1542/2110 ナッパ服 "đồng phục bảo hộ" đúng chuẩn dự án. Không sửa nào bị loại. CỜ CHO HIEU: chuẩn 仲国 project-wide (Trung Quốc vs Trọng Quốc vs Zhongguo); Hachiroku "em" ×1 vs "tôi" ×5; ハチロク01 2718 cùng lỗi "Dịch vụ trang màu"; 876 suy luận người nghe, 2306 SFX theo mẫu nội bộ. B19 vẫn park.
+
+---
+
+## 日々姫12 — 日々姫12_風.txt.toml — 16/371 (4,3%)
+
+- File: `日々姫12_風.txt.toml` — route 02_Hibiki, 371 dòng script (66 thoại Soutetsu, 58 thoại Hibiki, 160 độc thoại). Nội dung: phương án A (họa tiết đồng hồ quả lắc của Hibiki) thắng phiếu bình chọn màu sơn toa xe; Soutetsu và Hibiki nắm tay đi dạo đêm tới lò rèn Minokasa; hôm sau ở Rail Shop Hibiki giúp bé gái sửa mô hình nhà; thay giá chuyển hướng cho toa hành khách mới ở xưởng đầu máy bằng đá; Kisaki mời Hibiki dự buổi tranh luận về phục hồi kinh tế Ohitoyo.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối về khóa 371/371 (212 dòng chỉ khác ở chỗ TOML-2 làm phẳng \n thành khoảng trắng, đã biết). `[selections]` rỗng. Không có thẻ `%l` nào lệch. TOML md5 `1fc7a9a1387d671263eb40405ed613db`; không có bản sao file này.
+- Phân loại (16): thuật ngữ 8 (2218, 1949, 2396, 1723, 3064, 2301, 2178: "Ohimitera"→"Ohitoyo"; 2294: gloss 帝鉄 "Đường sắt Hoàng gia"→"Teitetsu"), xưng hô 2 (2415: Paulette "Sou-chan"→"anh Soutetsu" theo khóa B4; 2161: Fukami→Hibiki "cậu"→"chị" theo 30 dòng tiền lệ), sai nghĩa 2 (2116: "Ngày kìa"→"Ngày kia" — しあさって; 2333: "chắc chắn… Nhỉ."→"có lẽ… đấy." — きっと…かも), lỗi nhỏ 4 (2391, 2315, 2256, 2067: "Ạ." đứng riêng câu của Fukami → gộp "ạ" vào câu trước).
+- Sweep kiểm chứng: 0 mục cho file này, đã kiểm tra trực tiếp; quét tay bổ sung không bắt thêm gasp nào bị mất.
+- Đại từ đã kiểm chứng: Soutetsu "anh" với Hibiki đúng, "tôi" với Kisaki đúng; độc thoại "tôi" xuyên suốt, 0 "mình" làm chủ ngữ; Kisaki "tôi" toàn file (bối cảnh công việc).
+- Chi tiết đầy đủ: `audit-hibiki12-kaze-REVIEW.md`; danh sách sửa: `audit-hibiki12-kaze-wrong.json` (16 mục, khối TOML 16 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 16/16; lượt soát 2: 16/16, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 190 file / 8.897 dòng sai** (cơ sở 189 file / 8.881 dòng sai + 16 file này)
+
+- Chờ Hieu: "Tuyến Yui" (2279 — đợt thống nhất); "Denshahime của Mouri" (2908 — 毛利の姫様 có phải Điện xa Cơ?); gloss 運転体 "thân chính" (2701 — "kíp lái" 26 dòng vs "thân vận hành" đề xuất); đại từ nhóm mơ hồ 2418 (giữ "anh"). B19 vẫn park.
+
+- Parent kiểm chứng 22/11 ~02:05: JSON 16 mục (key chuỗi, list-of-dicts), khối TOML 16 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 16/16; second pass 16/16/0/0. Đại từ ĐÃ KIỂM CHỨNG: 2415 Paulette "Sou-chan"→"anh Soutetsu" (B4 lock, JP 双鉄くん); 2161 Fukami→Hibiki "cậu"→"chị" (cảnh nhóm đưa Hibiki đi dạo + 30 dòng tiền lệ "chị Hibiki"). Không sửa nào bị loại. CỜ CHO HIEU: "Tuyến Yui" (2279); "Denshahime của Mouri" (2908); gloss 運転体 "thân chính" (2701); đại từ nhóm mơ hồ 2418. B19 vẫn park.
+
+---
+
+# Audit snippet — 真闇01_再蒸留.txt.toml (05_Mayami)
+
+- File 真闇01_再蒸留.txt.toml (371 dòng): 55 dòng sai (14,8%) — đại từ 44 (Soutetsu "em"→"tôi" với Mayami, lỗi hệ thống, cùng mẫu lr_真闇h1 / lr真闇追加02 / 真闇02: độc thoại 25 + thoại 19, gồm 2171, 2194, 2448, 2215, 2432, 2018, 1974, 2156, 1601, 2359, 2208, 2425, 2056, 1642, 2092, 1457, 2164, 2043, 2187, 1963, 2241, 1559, 2177, 2213, 2186, 2067, 2430, 1774, 1782, 1477, 1449, 1652, 1454, 1568, 1506, 1344, 1714, 1563, 1467, 1713, 1555, 1565, 1558, 1562), gasp 2 (1800, 1801 — cả 2 từ sweep, áp nguyên), thuật ngữ 2 (gloss 帝鉄 "Đường sắt Hoàng gia"→"Đường sắt Đế quốc" 1621 lần đầu + →"Teitetsu" 1930), sai nghĩa 4 (2074 "Frank"→"Pháp"; 1699 "trưởng hầm rượu của nơi đó"→"trưởng hầm rượu đó"; 1496 "Đấu trường"→"Cuộc đấu"; 2290 不明 "lo xa"→"chẳng hiểu gì cả"), ngữ điệu 1 (1656 "Vâng——"→"Ừ——"), thẻ %l 2 (gỡ thẻ VN tự thêm: 1745 ターミナル駅, 1067 8620). 0 lệch dòng / rotation / ô nhiễm chéo / mồ côi / chưa dịch / khóa trùng.
+- Đã kiểm chứng đúng — giữ nguyên: 1327 "anh" với Hibiki (người nghe Hibiki, 1638); 2429 "cô ấy" chỉ Paulette ngôi thứ ba (tiền lệ P13); 1977 共感 "đồng cảm" (người–người); gloss 杜氏 "trưởng hầm rượu" (1699/1278); ISC "Competition" (1558); 日ノ本 "Hinomoto" (1604); "mình" độc thoại 9 dòng đều đúng; Hachiroku "em"/"chúng em" nhất quán; "men kōji" (1457); 1350 hoàn thiện câu bỏ lửng theo mạch thoại; 2087 "con bé" chỉ Hibiki.
+- Cờ đợt thống nhất: Ohimitera→Ohitoyo 18×/16 dòng; Migitakazu→Migita Ichi ×3 (2444, 2164, 2366); Tuyến Yui→Yunoi ×2 (1641, 2415); Meikoku→Minh Quốc ×4 (1425, 1604, 1511, 1562); gloss 列車 "tàu"→"đoàn tàu" ×10 (1779, 1416, 1460, 1716, 1504, 1590, 1785, 1414, 1575, 1452). Cờ hỏi Hieu: 1726 やにわにだご — giữ "Yaniwa" hay dịch theo TW "bánh dango chống đói"; 1621/1930 gloss 帝鉄 (một số file trước để chờ đợt thống nhất).
+- Second pass: 55 / 55 / 0 / 0 (tổng / kiểm chứng lại / gỡ bỏ / sửa).
+
+**Tổng cộng sau file này: 191 file / 8.952 dòng sai** (cơ sở 190 file / 8.897 dòng sai + 55 file này)
+
+- Parent kiểm chứng 22/11 ~02:05: JSON 55 mục (key chuỗi, list-of-dicts), khối TOML 55 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 55/55; second pass 55/55/0/0. Đại từ ĐÃ KIỂM CHỨNG: 44 fix "em"→"tôi" với Mayami (spot-check 1344/1449: người nghe Mayami, kề 真闇 "双ちゃん"); 1496 "Đấu trường"→"Cuộc đấu" đúng JP 勝負/TW 對決; gloss 帝鉄 1621 "Đường sắt Đế quốc" (lần đầu) + 1930 "Teitetsu" đúng quy tắc tooltip đã chốt. Không sửa nào bị loại. CỜ CHO HIEU: 1726 やにわにだご (tên riêng hay mô tả?). B19 vẫn park.
+
+---
+
+## lr_ハチロクh1 — lr_ハチロクh1_今ひとたびの契り.txt.toml — 64/358 (17,9%)
+
+- File: `01_Hachiroku/lr_ハチロクh1_今ひとたびの契り.txt.toml` — route 01_Hachiroku, 358 dòng script (monologue 162, ハチロク 114, 双鉄 82). Nội dung: cảnh H "lời thề một lần nữa" của Hachiroku — sau buổi chụp hình Shiromuku ở đền Akai Aso, Soutetsu và Suzu kết lại lời thề hai kiếp, xen độc thoại giải thích về cơ thể Railord và hiện tượng triều xuy. KHÔNG phải file ハチロクh1_契り.txt.toml (đã audit trước, 57 sai) — file này có tiền tố `lr_`, audit mới hoàn toàn.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 bộ duy nhất, 358 dòng, 0 key trùng, 0 VN trống. TOML và CSV3 khớp tuyệt đối ngoài 181 dòng chênh ở `\n` literal bị TOML-2 làm phẳng (CSV3 là chuẩn). TOML md5 `8f78fbd3c8217603ed8dc08dc2eeea3d`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng. Không có thẻ `%l` nào trong file.
+- Phân loại (64): xưng hô 22 (853, 854, 1090, 1096, 1097, 1118, 1206, 1253, 1274, 1283, 1290, 1308, 1314, 1316, 1320, 1322, 1346, 1351, 1388, 1391, 1398, 1403 — Soutetsu "anh"→"tôi" với Hachiroku, tất cả 22 dòng còn "anh"; tiền lệ h1_契り 5 dòng cùng quy tắc), gasp 18 (17 từ sweep + 1 sweep bỏ sót 1156; 1314 kèm gasp), romaji 9 (1102, 1145, 1173, 1194, 1198, 1247, 1249, 1262, 1937 — mẫu "Ưm + X" cho ん+X theo tiền lệ h1_契り; 1145 きゃっ "Á"→"Kya" theo quy tắc ひゃ-family 21/11), đếm nguyên âm 7 (1174, 1238, 1263, 1947, 1998, 1999, 2000), thuật ngữ 3 (1256, 1294, 1790 — 御一夜 "Ohimitera"→"Ohitoyo" ×2; 潮吹き "squirting"→"triều xuy"), sai nghĩa 3 (1423 ぐいって "Cọ xát"→"Thúc vào"; 1641 くすぐられ "cọ xát"→"cù nhẹ"; 1869 đổi chủ ngữ "em ấy"→"tôi"), khác 2 (1277 giữ dấu cắt "ạ—"; 1401 ずずっ→"Zuzu!").
+- Gasp sweep: 18 mục cho file — 17 có fix (áp nguyên văn 15, gộp thêm sửa đếm 2: 1142, 1264); 1314 "needs-file-audit" đã xử lý (đại từ + gasp "rồi——Ư!"). Đã quét cơ học toàn bộ dòng JP có っ — 0 gasp bị bỏ sót thêm.
+- Đã kiểm chứng đúng — giữ nguyên: romaji "Sou, tetsu, sama" cho そうてつさま nói lắp; んふっ→"Nfu", んくっ→"Nku", んひゅっ→"Nhyu"; っ sau dấu câu không thêm Ư theo ranh giới gasp; 1965 "Xâm nhậpppp..." theo cách diễn "xâm nhập" của file; 1097 giữ "quá lãng phí" cho mottainai.
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 0 lệch số lượng, 0 lệch thuật ngữ JP. Không còn っ thô trong VN.
+- Lượt soát 2: 64/64, 0 bỏ, 0 sửa. (Trước soát 2, kiểm tra diff cơ học đã bắt và sửa 13 lỗi chép tay trong bản nháp: 4 dấu 。 Nhật thay "." và 9 cặp ngoặc 「」 thừa ở dòng monologue.) Khối TOML 64 khóa đã parse-kiểm chứng, 0 sai lệch giá trị so với JSON.
+- Cờ cho Hieu: 1314 gasp "rồi——Ư!" là phán đoán của audit (sweep chuyển cho audit quyết); 1401 "Zuzu!" giữ biến giọng; 1277 giữ dấu cắt; そうてつさま hiragana không nhất quán romaji vs "Ngài Soutetsu" (1139/1417 vs 1190/1421) — ứng viên thống nhất; 1965 SFX để vòng moan-fix phán lại; B19 vẫn park.
+- Chi tiết đầy đủ: `audit-lr-hachirokuh1-chigiri-REVIEW.md`; danh sách sửa: `audit-lr-hachirokuh1-chigiri-wrong.json` (64 mục).
+
+**Tổng cộng sau file này: 192 file / 9.016 dòng sai** (cơ sở 191 file / 8.952 dòng sai + 64 file này)
+
+- Parent kiểm chứng 22/11 ~02:05: JSON 64 mục (key chuỗi, list-of-dicts), khối TOML 64 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 64/64; second pass 64/64/0/0. Đại từ ĐÃ KIỂM CHỨNG: 22 fix "anh"→"tôi" với Hachiroku (spot-check 853/854: cảnh H với Hachiroku, kề 双鉄さま); 1145 きゃっ "Á"→"Kya" đúng quy tắc ひゃ-family 21/11; 1869 đổi chủ ngữ đúng TW. Không sửa nào bị loại. CỜ CHO HIEU: 1314 gasp; 1401 "Zuzu!"; 1277 giữ cắt; そうてつさま romaji không nhất quán (unification); 1965 SFX để vòng moan-fix. B19 vẫn park.
+
+---
+
+## 08_Niiroku ニイロク03_粉蔵の嵐.txt.toml — 36/357 (10,1%)
+
+- File: `08_Niiroku/ニイロク03_粉蔵の嵐.txt.toml` (route 08_Niiroku, 357 dòng script; monologue 125, ニイロク 83, 赤井 79, 先輩 23, 後東 18, 技工Ａ 13, 技工Ｂ 13, シロ 3). Nội dung: "cơn bão Kokura" — tin giải thể Teitetsu, Akai được nhờ đứng ra dẫn đầu phong trào, thu thập chữ ký (vượt 100), bốn vị Đoạn trưởng có thể "quay xe", Niiroku tỏ tình với Kiyoharu, cộng cảm/panic tràn vào, Kuha 26 là biểu tượng phục sinh của Teitetsu, Shiro đau khổ kéo phế xa về Moji; kết bằng cảnh Niiroku trốn trong tủ, hoảng loạn, "Thích Kiyoharu".
+- TOML md5 397367dc63b89391749b8876cd26ae90, không có bản trùng; CSV3 1 bộ 357 dòng, key khớp tuyệt đối, VN CSV3 khớp TOML về nội dung (239 khác biệt đều là kiểu làm phẳng `\n`→khoảng trắng của TOML-2), 0 dòng VN trống. [selections] rỗng.
+- Phân loại (36): thuật ngữ 22 (帝鉄 18: 1057, 1074, 1081, 1084, 1086, 1508, 1510, 1520, 1601, 1622, 1634, 1768, 2112, 2226, 2228, 2244, 2261, 2325; 帝労 2: 1444, 2072; 冥国 2: 1409, 1412 — 1081 mang cả 帝鉄 lẫn 冥国), xưng hô 7 (1846, 1985, 2019, 2138, 2328, 2331, 2333), gasp 5 (1036, 1426, 1451, 1812, 2083 — cả 5 từ sweep, nhận nguyên văn), SFX 1 (1429), thẻ %l 1 (1568).
+- Thuật ngữ: 帝鉄/帝労 "Đường sắt Hoàng gia"→"Teitetsu"/"Công đoàn Teitetsu" toàn bộ 20 dòng (quyết định Hieu 19/11 — 帝鉄 = 帝国鉄道, không phải Hoàng gia; tiền lệ ハチロク07 "Hoàng gia→Teitetsu 4"); sau sửa file không còn "Đường sắt Hoàng gia". 冥国 "Meikoku"→"Minh Quốc" (1081 ruby めいこく, không phải メリケン; 1409, 1412).
+- Xưng hô: 1846 技工Ｂ "Akai, cậu"→"Anh Akai, anh" (JP có 赤井さん; dạng đã thiết lập "anh Akai" ×3 trong file); 1985 độc thoại "ông ấy"→"anh ấy" (người xoa đầu là Kiyoharu — mạch 1980–1984 + TW 2193); độc thoại Niiroku "tôi"→"mình" 5 dòng (2019, 2138, 2328, 2331, 2333 — chuẩn nội bộ "mình" 38/43).
+- Gasp: 1036, 1426, 1451, 1812, 2083 (sweep 5/5, khớp JP; 1036/2083 giữ `\n` gốc CSV3). SFX: 1429 ふきゅっ "Fu kyu"→"Fukyu" (dạng romaji đa số dự án). Thẻ %l: 1568 gỡ thẻ gloss ビュッフェ VN tự thêm (JP không thẻ; gloss "Quầy ăn nhẹ" giữ làm text thường) — sau sửa VN 9 thẻ = JP 9 thẻ.
+- Đã kiểm chứng đúng — giữ nguyên: Niiroku gọi Soutetsu "anh" (1368, 1574, 1582 — tiền lệ ハチロク07 Soutetsu "anh" với Niiroku 2829); 1425 ひっ "Hí!!?" (tiền lệ cùng route ニイロク04 1710 giữ "Hí!?"); 1456 "A――aa!" (mẫu lặp toàn dự án); 1469 あっ→"A!", 1448 わっ→"Oa!?"; 1657 "Kiyoha" (tên cụt, không bịa); 1980 TW dịch sai thành ho khan — VN theo đúng JP; 1746 VN theo JP "このまま" (TW tự thêm 抱著我); 1404/1570 帝央 "Teiou"; 1734 共感 "cộng cảm"; 1086 số liệu 830 tỷ/37 nghìn tỷ yên đúng.
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 1 thẻ VN tự thêm đã gỡ, 0 lệch thuật ngữ JP. Không còn っ thô trong VN (các あっ/わっ còn lại đã diễn bằng "!").
+- Lượt soát 2: 36/36, 0 bỏ, 0 sửa. Khối TOML 36 khóa đã parse-kiểm chứng, 0 sai lệch giá trị so với JSON.
+- Cờ cho Hieu: 1802 người nghe mơ hồ (後東 "anh hỏi chúng tôi" — giữ "anh", chưa quyết); 2331 "Cứu mình với" vs "Cứu tôi với" (câu kêu cứu quen thuộc); 1429 dạng "Fukyu" (romaji) vs "Phù kiu".
+
+**Tổng cộng sau file này: 193 file / 9.053 dòng sai** (cơ sở 192 file / 9.016 dòng sai + 36 file này)
+
+- Parent kiểm chứng 22/11 ~02:05: JSON 36 mục (key chuỗi, list-of-dicts), khối TOML 36 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 36/36; second pass 36/36/0/0. Đại từ ĐÃ KIỂM CHỨNG: 1985 "ông ấy"→"anh ấy" đúng — người xoa đầu/ôm là Kiyoharu (TW 2193 清春; VN 1982 đã "Anh ấy"); monologue "tôi"→"mình" ×5 theo chuẩn nội bộ 38/43. Không sửa nào bị loại. CỜ CHO HIEU: 1802 người nghe mơ hồ (giữ "anh"); 2331 "Cứu mình với" vs "Cứu tôi với". B19 vẫn park.
