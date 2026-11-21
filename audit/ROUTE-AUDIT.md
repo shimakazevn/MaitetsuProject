@@ -3098,3 +3098,42 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 - Parent kiểm chứng 21/11 ~09:20: JSON 28 mục dạng chuẩn, khóa chuỗi; khối TOML 28 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 28/28; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa; lượt soát 2: 28/28, 0 bỏ, 0 sửa. Đại từ kiểm chứng theo dòng kề: 1256→1257 Hachiroku đáp; 1556 mạch cầu hôn với Hachiroku ("お前が僕を、きっと満たしてくれる"); 1692→1691 Hachiroku cảm ơn; 1834→1835 "なぁ、ハチロク" gọi tên trực tiếp; 1929 mạch đặt tên mới cho Hachiroku; 1952 tiếp mạch "かすか" với Hachiroku; 2020 là thoại trực tiếp ("お前を、好きだと") không thuộc ngoại lệ độc thoại nội tâm; 2021 Fukami tự xưng "Chị"→"Mình" đúng quy tắc đã chốt. Nghĩa kiểm chứng theo TW: 2592 TW "波萊特向她解釋" → Paulette là người giải thích; 2069 JP トで終わる → "chữ to"; 1700 JP うむ → "Ừ"; 1895 JP だろう khẳng định, bỏ "đúng không" đúng. Thuật ngữ: 御一夜→Ohitoyo 5 dòng (1526 có 2 chỗ), 湯医線→tuyến Yunoi 2673, 整備体 gloss 80, KiHa 74 — đều khớp JP. Gasp 8 kiểm chứng theo JP (1660 はぅぅ～～っ, 2088 hai gasp, 2368 độc thoại kết ――っ！？). Không sửa nào bị loại. Chờ Hieu: không có mục mới; B19 vẫn park.
 
 **Tổng cộng sau file này: 146 file / 6.556 dòng sai** (cơ sở 145 file / 6.528 dòng sai + 28 file này)
+
+---
+
+# ハチロク01_双鉄の目・ハチロクの目.txt.toml — 7/394 (1,78%)
+
+- File: `ハチロク01_双鉄の目・ハチロクの目.txt.toml` — route 01_Hachiroku, 394 dòng script (key 1345–2911), 0 key trùng. CSV3 1 set duy nhất. TOML md5 `ffe814ee27a9928f51f6c3525229f577`, không bản sao trùng, `[selections]` rỗng, thẻ %l cân bằng, không gloss rơi.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0.
+- Phân loại (7): xưng hô 3, gasp 1, thuật ngữ 1, diễn đạt 2.
+- Xưng hô 3 (2210, 2232, 1685: Paulette gọi Soutetsu "cậu" → "anh" theo B4 lock). Gasp 1 (1755: 「!」→「Ư!」— file chỉ có 1 mục sweep, đã kiểm chứng). Thuật ngữ 1 (2718: ナッパ服 "dịch vụ trang màu" → "quần áo nappa" — bịa theo TW sai 彩頁服). Diễn đạt 2 (1996 "gay go to" → "không chịu nổi mất"; 2423 lặp "gật đầu").
+- Chờ unification (18 dòng, không sửa trong audit): Ohimitera → Ohitoyo (10 dòng: 2908, 2839, 1926, 2827, 2829, 1345, 2086, 1936, 2049, 2894); "Đường sắt Ohito" → "Đường sắt Ohitoyo" (2109, 1710); まいてつ gloss "Maitetsu" → "chủ tàu" (5 dòng: 1361, 1394, 2475, 2224, 2041); 運転体 "kíp lái" (1719 — cần thống nhất toàn project với "thân chính"/"thân điều khiển").
+- Ghi nhận: Soutetsu "tôi" 25 dòng thoại đều giữ (nói với Hachiroku hoặc phát biểu trước nhóm, theo tiền lệ Paulette 14:1544); 2202 "Thị trưởng Paulette" và 1923 "cô" (Soutetsu→Paulette) đã xác minh đúng bằng bằng chứng project-wide.
+- Lượt soát 2: 7/7 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Kiểm chứng: JSON 7 mục dạng chuẩn, khóa chuỗi; khối TOML 7 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 7/7; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-hachiroku01-soutetsu-hachiroku-no-me-REVIEW.md`; danh sách sửa: `audit-hachiroku01-soutetsu-hachiroku-no-me-wrong.json` (7 mục).
+
+- Parent kiểm chứng 21/11 ~10:00: JSON 7 mục dạng chuẩn, khóa chuỗi; khối TOML 7 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 7/7; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa; lượt soát 2: 7/7, 0 bỏ, 0 sửa. Đại từ kiểm chứng theo dòng kề: 2210/2232 Paulette nói 双鉄くん → "Anh Soutetsu" theo B4 lock; 1685 Paulette đáp lời Soutetsu 1680/1681 ("nghe cậu nói thế") → "anh" đúng. Nghĩa kiểm chứng theo JP/TW: 1996 JP たまらなかろう + TW 不得了 → "không chịu nổi mất" đúng; 2718 ナッパ服 → "quần áo nappa" (TW 彩頁服 sai). Gasp 1755 là mục sweep duy nhất của file, áp nguyên. Không sửa nào bị loại. Chờ Hieu: không có mục mới; B19 vẫn park; 18 dòng Ohimitera/まいてつ/運転体 chờ đợt unification.
+
+**Tổng cộng sau file này: 147 file / 6.563 dòng sai** (cơ sở 146 file / 6.556 dòng sai + 7 file này)
+
+---
+
+# 日々姫05_市議会見学.txt.toml — 12/385 (3,1%)
+
+- File: `日々姫05_市議会見学.txt.toml` — route 02_Hibiki, 385 dòng script (monologue 167, 稀咲 64, 日々姫 57, 双鉄 38, ハチロク 22, 男性議員 10, ポーレット 10, ヤジ 8, 女教師 7, 議長 2). Nội dung: bài báo về vụ nghị sĩ quấy rối Paulette và việc ông ta từ chức trong ngày (cả nhóm Soutetsu/Hibiki/Kisaki đọc báo ở nhà); buổi học tự chọn — tham quan hội đồng thành phố: phiên họp hỗn loạn, Paulette chảy máu cam, Kisaki từ ghế dự thính quát thẳng mặt nghị sĩ quấy rối; các cảnh nấu ăn (hamburger mini, hamburger đậu hũ); Kisaki giảng về kinh tế — thuế suất, tiền tệ và chất lượng của tương lai, nhà máy Aircra.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 385 dòng, 0 key trùng, 0 VN trống. TOML và CSV3 khớp tuyệt đối (chênh 1 dòng duy nhất 1943 ở `\n` literal bị TOML-2 làm phẳng thành khoảng trắng — CSV3 là chuẩn). TOML md5 `c891d3ccfd1bc9fe96d4853fd6628453`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng. Comment `# JP:` đủ 402/402. Thẻ `%l`: JP = VN mọi dòng, 0 thẻ hỏng.
+- Phân loại (12): gasp 7, đại từ 2, nghĩa 3. Thoại 10/218 (4,6%), độc thoại 2/167 (1,2%). Theo nhân vật: 双鉄 3/38, 日々姫 2/57, ポーレット 2/10, monologue 2/167, 男性議員 1/10, 女教師 1/7, 稀咲 1/64 (2281 là hai giọng Kisaki & Hibiki cùng gasp).
+- Gasp 7 (sweep 8 mục, áp nguyên 7/7, 0 sửa lại): 1554, 1878, 1945 (っ thô trong VN), 2202, 2281 (2 gasp), 2284, 2744 (っ thô trong VN). Sweep không bỏ sót gasp nào (đã quét cơ học toàn bộ 178 dòng JP có っ → 39 ứng viên: 7 áp dụng + 1 đã diễn 2280 "Hừ!" + 31 không phải gasp — っ nhấn mạnh gắn từ có nội dung hoặc âm đã diễn).
+- Đại từ 2: 2063 Soutetsu "mình"→"anh" với Hibiki (cùng mạch nấu ăn 1806/1823; thoại trực tiếp, không thuộc ngoại lệ độc thoại nội tâm); 2120 Soutetsu gọi điện cho Paulette "Tôi đây"→"Anh đây" và "cô đọc"→"em đọc" (quy tắc đã chốt: Soutetsu "anh" với Paulette, gọi Paulette là "em").
+- Nghĩa 3: 1844 "kết nghĩa thành phố kết nghĩa" lặp thừa + "Chuyện đó ấy!!" → "việc kết nghĩa thành phố" + "Chính là chuyện đó!!"; 1924 bỏ "trốn" tự thêm (JP/TW không có); 2692 "lòng ham muốn"→"cơn thèm ăn" (欲 = thèm ăn, TW 食慾 xác nhận).
+- Mục thuộc đợt unification (không sửa trong audit): "Ohimitera" dạng cũ 9 chỗ / 7 dòng (1570 ×2, 1868, 1992, 2050, 2239, 2243, 2701 ×2).
+- Giữ nguyên có lý do: 2941 (コン、コンッ！) là tiếng gõ cửa → "Cộc, cộc!" (tiền lệ Common 13 3299); 2434 隈元 → "Kumamoto" (thống nhất toàn dự án); 2435 TW tự thêm 金髮, VN theo JP là đúng; 1538 オヤジギャグ (TW dịch sai thành 色狼); 1848 "Làm tốt lắm" (TW 做得好); 2197 "đợi cơm" (TW 等著開飯); độc thoại Soutetsu "tôi" 2427/2470/2497/2630/2879; 2455 "Mình nghĩ" là độc thoại nội tâm.
+- Cờ cho Hieu: 1562 Soutetsu "tôi" (người nghe hỗn hợp Hibiki + Kisaki), 1566 Kisaki "cá nhân tôi" (nhóm có cả Soutetsu lẫn Hibiki), 1947 Kisaki "giao cho cô" (người nghe chưa rõ: Soutetsu → "cậu", Hachiroku → "cô") — giữ nguyên VN cũ; B19 vẫn park.
+- Lượt soát 2: 12/12 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Kiểm chứng: JSON 12 mục dạng chuẩn, khóa chuỗi; khối TOML 12 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 12/12; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-hibiki05-shigikai-kengaku-REVIEW.md`; danh sách sửa: `audit-hibiki05-shigikai-kengaku-wrong.json` (12 mục).
+
+- Parent kiểm chứng 21/11 ~10:00: JSON 12 mục dạng chuẩn, khóa chuỗi; khối TOML 12 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 12/12; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa; lượt soát 2: 12/12, 0 bỏ, 0 sửa. Đại từ kiểm chứng theo dòng kề: 2063 Soutetsu "mình"→"anh" với Hibiki — cùng cảnh nấu ăn 1806/1823 đã dùng "anh"; 2120 gọi điện cho Paulette (JP ポーレットか？ 僕だ; 2121 Hibiki kêu "Chị Paulette") → "Anh đây" + "em đọc" đúng quy tắc đã chốt. Nghĩa kiểm chứng theo JP/TW: 2692 JP 欲 + TW 食慾 → "cơn thèm ăn" đúng; 1924 bỏ "trốn" tự thêm đúng; 2281 JP hai gasp っ. Gasp 7 kiểm chứng theo JP (1554/1878/1945/2202/2281/2284/2744 — っ thô hoặc っ cuối câu chưa diễn). Không sửa nào bị loại. CỜ CHO HIEU: 1562/1566/1947 người nghe chưa rõ — giữ nguyên VN cũ, chờ Hieu/đợt unification (ghi trong review); 9 chỗ "Ohimitera" chờ đợt unification; B19 vẫn park.
+
+**Tổng cộng sau file này: 148 file / 6.575 dòng sai** (cơ sở 147 file / 6.563 dòng sai + 12 file này)
