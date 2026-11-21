@@ -2979,3 +2979,62 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 - Parent kiểm chứng 21/11 ~02:55: JSON ban đầu 9 mục, khối TOML 9 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 9/9 — NHƯNG 1 sửa bị loại: 2764 Soutetsu "anh"→"tôi" với Hachiroku. Bằng chứng agent viện dẫn (key 233/237) không tồn tại trong file này; dòng kề thực tế (2760 Hibiki gọi "にぃにぃ… 兄さん", 2766 Soutetsu trấn an Hibiki, 2767 Hibiki đáp "Đúng vậy, anh trai") cho thấy người nghe là Hibiki → "anh" đúng, giữ nguyên old VN. Đã gỡ 2764 khỏi JSON + khối TOML + tổng số (9 → 8), ghi chú trong review §2. Tiền lệ file 09 key 2123. Snippet rebase: cơ sở 138/6.285 → 139/6.309 vì 日々姫14 gộp trước.
 
 **Tổng cộng sau file này: 140 file / 6.317 dòng sai** (cơ sở 139 file / 6.309 dòng sai + 8 file này)
+
+---
+
+## 01_Hachiroku — ハチロク03_客車試験.txt.toml — 68/436 (15,6%)
+
+- File: `ハチロク03_客車試験.txt.toml` — route 01_Hachiroku, 436 dòng script.
+- **Kết quả: 68/436 dòng sai (15,6%)** — 49 xưng hô (31 độc thoại Fukami “em”→“mình”, 11 Soutetsu “tôi”→“anh” với Paulette/Reina/Fukami/Nagi, 4 Paulette “tôi”→“em” với Soutetsu, 3 nhóm/người nghe khác), 9 thuật ngữ (御一夜→Ohitoyo 4, 湯医→Yunoi 3, 乗務鞄→túi công tác 1, 運転体→thân vận hành 1), 6 sai nghĩa, 2 gasp (1780 sweep + 1825), 2 SFX, 1 thẻ %l.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. Không chắc chắn 0 dòng (ghi chú 1826, 1913 trong review §5).
+- Kiểm chứng: JSON 68 mục dạng chuẩn, khóa chuỗi; khối TOML 68 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 68/68; lượt soát 2: 68/68, 0 bỏ, 0 sửa.
+- Chi tiết đầy đủ: `audit-hachiroku03-kyakusha-shiken-REVIEW.md`; danh sách sửa: `audit-hachiroku03-kyakusha-shiken-wrong.json` (68 mục).
+- Ghi chú: file này có 0 dòng 日ノ本 “Hinamoto” — 10 dòng đó thuộc file ハチロク03_冥国式レイルロオド (đã gộp, chờ đợt thống nhất). Key 94 (乗務鞄) đã sửa trong audit này nên đợt thống nhất còn 18 dòng túi công tác. Hợp nhất hai audit song song cùng file (60 + 8); một agent thứ ba cùng file vẫn đang chạy — parent đối chiếu lại trước khi merge.
+
+- Parent kiểm chứng 21/11 ~04:00: JSON 68 mục dạng chuẩn, khóa chuỗi; khối TOML 68 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 68/68; không có fix viết lại lớn; lượt soát 2: 68/68, 0 bỏ, 0 sửa; đại từ kiểm chứng theo dòng kề: 11 Soutetsu "tôi"→"anh" đúng đối tượng (Fukami 1808/1812/2121, Nagi 1879, Paulette+Reina 1887/1986/1996, Paulette 2080/2221/2270, Reina 2174); 31 độc thoại Fukami "em"→"mình" đúng quy tắc; 4 Paulette "tôi"→"em" với Soutetsu. Không sửa nào bị loại. Agent thứ ba (55f5d862) mà review §5 cảnh báo thực ra audit ハチロクh7, không chạm vào 3 file này — 3 file ghi lần cuối 20:47 UTC, agent xong 20:48 UTC, không bị ghi đè sau đó; bản gộp 60+8 đã đối chiếu xong. Chờ Hieu: 1826 (Fukami "Tớ"/"cảm ơn cậu" — người nghe Nagi), 1913 (Paulette "Tôi" — phát biểu trước nhóm).
+
+**Tổng cộng sau file này: 141 file / 6.385 dòng sai** (cơ sở 140 file / 6.317 dòng sai + 68 file này)
+
+---
+
+## 01_Hachiroku — ハチロクh7_レトロモダンメイクラヴ.txt.toml — 65/435 (14,9%)
+
+- File: `ハチロクh7_レトロモダンメイクラヴ.txt.toml` — route 01_Hachiroku, 435 dòng script (monologue 267, ハチロク 107, 双鉄 61). Nội dung: cảnh H — Soutetsu và Hachiroku trong trang phục lễ hội hoài cổ Taisho, xen kẽ độc thoại hồi tưởng về vụ tai nạn và "khoảng thời gian bị đóng băng" của Hachiroku.
+- **Hợp nhất hai audit song song cùng file** (A "meikuravu" 29 mục + B "love" 58 mục → 65 mục duy nhất; trùng 22 key, 10 khác fix đã giải quyết từng key theo JP/TW). Ba file của B đã đổi tên `.superseded-by-unified`; chỉ còn một snippet cho file này.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp phẳng TOML 435/435. TOML md5 `826355d088615a39f35716717fda637e`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng.
+- Phân loại (65): romaji 13, sai nghĩa 13, gasp 12, fa-fu 6, đại từ 5, đếm vần 4, độ dài SFX 3, hỗn hợp 7 (692, 736, 759, 763, 812, 813, 842), thuật ngữ 1, typo 1. Thoại 49/168 (29,2%), độc thoại 16/267 (6,0%). Theo nhân vật: ハチロク 36/107 (33,6%), 双鉄 13/61 (21,3%), monologue 16/267 (6,0%).
+- Đại từ 5 (Soutetsu "anh"→"tôi" với Hachiroku — áp quy tắc đã chốt; 947 "anh" kề ngay 948 "tôi", 879 "em là vợ của tôi" vẫn dùng "tôi" nên thanh ghi vợ chồng không tách được "anh"): 799 "Anh sẽ xuất tinh"→"Tôi sẽ xuất tinh"; 863 "Cả anh"→"Cả tôi"; 865 "Anh mới là"→"Tôi mới là"; 881 "làm anh xuất tinh… của anh"→"làm tôi xuất tinh… của tôi" (2 chỗ); 947 "Anh yêu em"→"Tôi yêu em".
+- Gasp 12 (sweep 14 mục: 12 áp nguyên + 759/783 sửa lại theo quy tắc gasp đã khóa — っ cuối sau ～～ mất hẳn → thêm Ư): raw-tsu 477/804/807/814/975/976/978, mất gasp cả dòng 974, gasp cuối 759/763 (っっ→ƯƯ)/783/1433/1444/1842.
+- Romaji 13+ (732 Kyua, 737 Kyafuu, 738 Hyagyu, 739 Hyan/Fuan, 741 Hya, 745/787 Ka, 753 Fuaa, 760 Hian, 761 Igyu, 777 Kuo, 827 Pua, 856 ka). fa/fu 6 (731/743/796/816/823/971, ふあ→"phùa", ふぁ→"phà"). Đếm vần 4 (819 phục hồi ん; 843 31u→17u; 844 kiuu→kiuuu + đủ 4 âm mũi; 845 yuuuu→yuu). Sai nghĩa 13 (757 ひまっ→"Hí ma"; 765 bỏ "trong" bịa + Kuu; 802 "cũng"→"rồi"; 1222 じくじく "rỉ máu"→"âm ỉ"; 1321 愛しい "đáng thương"→"thân thương"; 1349 グラインド "nắc"→"xoay nghiến"; 1364 くぱくぱ "mút mát"→"mở ra khép lại"; 1410 わわ "đáp lại"→"líu ríu đáp lại"; 1429 phản thực tại dịch ngược → "có lẽ tôi đã mãi mãi chẳng bao giờ được nếm trải"; 1836 ちゅぷっ "Bóp"→"Chụt"; 1878/1944 れるっ "mút"→"liếm"; 1909 にゅっ "Ngoạm"→"Siết"). SFX dài 3 (1820 16u→20p; 1824 3 âm→4p; 1844 chùn chụt→chùn chụttttt). Thuật ngữ 1 (1371 Ohimitera→Ohitoyo). Typo 1 (1382 "mãnh烈"→"mãnh liệt").
+- Xung đột đáng chú ý: 763 sửa cả hai agent ("Hu——a"/"Fu——a" → "Phù——a", tiền lệ 837/968 cùng mảnh JP ふ――あっ!); 842 giữ B ("Nyu", 18 a mirror đúng nhóm ぁ/あ); 844 giữ B (đủ 4 âm mũi); 759 giữ B (thêm Ư cuối + "phùa" + 4 u); 796 giữ B ("Phà" theo ふぁ→"phà"); 692 giữ B ("phùa"; giữ `\n` của VN cũ).
+- Lỗi kỹ thuật bắt được khi đối chiếu: fix 856 của B chứa backslash thừa (`\ka`) do đọc nhầm ký tự ngắt dòng literal `\n` thành từ "nha" — đã sửa thành "\nka" (かっ→"ka", はっ giữ "ha"; giữ ngắt dòng của VN cũ).
+- Fix giữ `\n` literal của VN cũ (CSV3 là chuẩn; không thêm `\n` mới). Parent đã khôi phục `\n` ở 30 fix khi kiểm chứng gộp (24 lấy từ bản B, 6 khôi phục theo vị trí trong VN cũ).
+- Lượt soát 2 (đối chiếu hợp nhất): 65/65 tái kiểm chứng, 0 bỏ, 1 sửa nội dung (763) + 1 sửa lỗi kỹ thuật (856) + parent khôi phục `\n` 30 fix.
+- Cờ cho Hieu (không quyết): họ れる/るっ/れろ (1878, 1944 → "liếm"; đề xuất "rộp" đang chờ); số 20 p ở 1820 là ước lượng theo cụm, vòng moan-fix có thể rà lại.
+- Kiểm chứng: JSON 65 mục dạng chuẩn, khóa chuỗi; khối TOML 65 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 65/65.
+- Chi tiết đầy đủ: `audit-hachirokuh7-retro-modern-meikuravu-REVIEW.md`; danh sách sửa: `audit-hachirokuh7-retro-modern-meikuravu-wrong.json` (65 mục).
+
+- Parent kiểm chứng 21/11 ~06:35: bộ hợp nhất 65 mục (A 29 + B 58 − 22 trùng) đã kiểm chứng cơ học đầy đủ — JSON 65 mục dạng chuẩn, khóa chuỗi; khối TOML 65 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 65/65; lượt soát 2: 65/65, 0 bỏ, 1 sửa nội dung (763) + 1 sửa lỗi kỹ thuật (856). Parent PHÁT HIỆN VÀ SỬA 1 lỗi hệ thống của agent đối chiếu: agent đã chuẩn hoá sai, chuyển `\n` literal của VN cũ thành khoảng trắng trong 30 fix — trái brief (CSV3 là chuẩn; cấm thêm `\n` mới, không phải xoá ngắt dòng sẵn có) và trái tiền lệ các file đã gộp (giữ `\n` 123/123: hachiroku03 50/50, hibiki06 6/6, hachiroku14 39/39, hibiki14 10/10, hachiroku02 18/18). Đã khôi phục `\n` ở cả 30 fix (24 lấy nguyên fix của B — B giữ đúng `\n` của VN cũ; 6 khôi phục theo vị trí trong VN cũ: 757, 763, 856, 865, 881, 1429), build lại khối TOML, ghi chú trong review + snippet. Sau khôi phục, mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa (trừ 5 dòng rên ngắn thay toàn bộ: 737/761/777/796/1820, đã nêu lý do trong review §5). Không sửa nào bị loại. Đại từ kiểm chứng: 5 Soutetsu "anh"→"tôi" với Hachiroku đúng quy tắc đã chốt (JP đều dùng 僕 như các dòng "tôi" cùng người nghe; 879 "em là vợ của tôi" vẫn dùng "tôi"). Lỗi 856 của B (backslash thừa do đọc nhầm `\n` thành "nha") đã sửa đúng. Chờ Hieu: đề xuất "rộp" cho họ れる/るっ/れろ (1878, 1944); 1820 "20 p" là ước lượng theo cụm, vòng moan-fix có thể rà lại.
+
+**Tổng cộng sau file này: 142 file / 6.450 dòng sai** (cơ sở 141 file / 6.385 dòng sai + 65 file này)
+
+---
+
+## 10_Chikuni — 仲国04_z49列車.txt.toml — 13/429 (3,0%)
+
+- File: `仲国04_z49列車.txt.toml` — route 10_Chikuni, 429 dòng script (monologue 201, 双鉄 76, ハチロク 40, 日々姫 39, 西瓜 29, 志寰 26, 姜 18). Nội dung: đoàn tàu giường nằm ba tầng ở Zhongguo — Hachiroku lần đầu đi tàu giường nằm, Hibiki phác họa, đổi vé lấy thẻ nhựa, bữa ăn toa ăn với ông lão và món vịt hun khói, rồi cảnh đêm ngắm sao qua rèm cửa.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp phẳng TOML 429/429. TOML md5 `3efc97591d70fe93c1967e9af68c8362`, BOM + CRLF, `[selections]` rỗng, không bản sao trùng.
+- Phân loại (13): đại từ 4, thuật ngữ 3, sai nghĩa 2, SFX 2, gasp 2. Thoại 10/228 (4,4%), độc thoại 3/201 (1,5%). Theo nhân vật: 双鉄 4, 西瓜 4, monologue 3, 志寰 1, 日々姫 1.
+- Đại từ 4 (Soutetsu "anh"→"tôi" với Hachiroku — 1671 gọi tên trực tiếp; 1916/1712 cùng mạch cảm động vì Hibiki trưởng thành, Hachiroku hỏi 「双鉄さま？」 2121, độc thoại 2306/2467 xác nhận Hachiroku là người đối thoại; Zhihuan "cậu"→"em" với Suika 2035 vì Suika là nữ).
+- Thuật ngữ 3 (2030 整備体 "cơ thể chỉnh bị"→"thân bảo trì"; 2078 機関士 "người lái tàu"→"lái tàu"; 1857 仲国 "Trung Quốc"→"Zhongguo", thống nhất theo 4 dòng còn lại trong file).
+- Sai nghĩa 2 (1706 白菜 "bắp cải xào"→"cải thảo xào", JP+TW đồng ý; 1663 おヒゲ "ông lão râu kẽm"→"ông lão râu bạc", TW 白鬍子 + 2360 白髪美髯).
+- SFX 2 (2848/2849 どんっ "Cạch"→"Đùng", TW 咚; "Cạch" để dành cho カタン ở 2852).
+- Gasp 2 (sweep: 2143 「っ！！！！」→「Ư!!!!」; 2846 っ cuối sau ―――― → thêm Ư; 1772 đã diễn sẵn "Hửm!?", không sửa).
+- Lượt soát 2: 13/13 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Cờ cho Hieu (không quyết): 1685 JP "9号車" vs TW "11車" (VN theo JP, toa 9); 1839/1750 JP cắt cụt, VN theo TW (không tính sai); 仲国 "Zhongguo" vs "Trung Quốc" chưa nằm trong thuật ngữ đã chốt — đợt thống nhất quyết chuẩn project-wide; tag [term,1] của JP chuyển thành %l ở VN là lệ thường (2790/1401/2131).
+- Kiểm chứng: JSON 13 mục dạng chuẩn, khóa chuỗi; khối TOML 13 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 13/13.
+- Chi tiết đầy đủ: `audit-chukuni04-z49-REVIEW.md`; danh sách sửa: `audit-chukuni04-z49-wrong.json` (13 mục).
+
+- Parent kiểm chứng 21/11 ~08:45: JSON 13 mục dạng chuẩn, khóa chuỗi; khối TOML 13 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 13/13; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa; lượt soát 2: 13/13, 0 bỏ, 0 sửa. Đại từ kiểm chứng theo dòng kề: 1671 gọi tên Hachiroku trực tiếp; 1916/1712 cùng mạch "được ban phúc nhờ các em gái" với Hachiroku là người đối thoại (2121 「双鉄さま？」, độc thoại 2306/2467); 2035 Zhihuan "cậu"→"em" với Suika (nữ, Zhihuan xưng "anh" ở 1709). Không sửa nào bị loại. LƯU Ý: key 1858 Soutetsu "Anh biết rồi, anh sẽ giữ hộ" — người nghe KHÔNG chắc chắn (JP/TW không ghi; dòng kề 1857 hỏi Jiang, 1855 Zhihuan khen tranh Hibiki 1853; có thể là Jiang, Hibiki, hoặc cả hai cô lúc thu vé 1822) — agent khẳng định "với Hibiki" ở §5 nhưng không có bằng chứng; giữ nguyên VN cũ theo quy tắc "khi nghi ngờ thì giữ và cờ", chờ Hieu/kiểm tra trong game. Chờ Hieu: 1685 JP toa 9 vs TW toa 11 (VN theo JP); 仲国 "Zhongguo" vs "Trung Quốc" chưa có chuẩn project-wide — đợt thống nhất quyết.
+
+**Tổng cộng sau file này: 143 file / 6.463 dòng sai** (cơ sở 142 file / 6.450 dòng sai + 13 file này)

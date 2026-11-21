@@ -1,0 +1,142 @@
+[
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "1433",
+  "kind": "lost-gasp-trailing",
+  "jp": "このまま溺れてしまいたい。すずの赤ちゃんになりたいと。\\nそんな愚かな欲望が――っ！？",
+  "tw": "我想沉溺於這一刻，成為鈴的小寶寶。真是愚蠢的欲望，但是——！？",
+  "old_vn": "Tôi muốn cứ thế này mà chìm đắm mãi. Tôi muốn trở thành em bé của Suzu. Cái ham muốn ngu ngốc đó——!?",
+  "fix": "Tôi muốn cứ thế này mà chìm đắm mãi. Tôi muốn trở thành em bé của Suzu. Cái ham muốn ngu ngốc đó——Ư!?",
+  "reason": "JP trailing gasp (dash/tilde/ellipsis + っ); VN kept the dash but dropped the gasp — inserted Ư after the dash."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "1444",
+  "kind": "lost-gasp-trailing",
+  "jp": "入り慣れてるおまんまんへと、旨く勃起を挿入できない。\\nイってるすずには、僕を導く余裕さえ無――っ！！",
+  "tw": "我甚至沒辦法把肉棒插進無比熟悉的小妹妹中。高潮中的鈴沒有了引導我的從容——！！",
+  "old_vn": "Tôi không thể đút côn thịt vào tiểu huyệt quen thuộc một cách trơn tru. Suzu đang lên đỉnh thậm chí còn chẳng còn tâm trí để dẫn dắt tôi——!!",
+  "fix": "Tôi không thể đút côn thịt vào tiểu huyệt quen thuộc một cách trơn tru. Suzu đang lên đỉnh thậm chí còn chẳng còn tâm trí để dẫn dắt tôi——Ư!!",
+  "reason": "JP trailing gasp (dash/tilde/ellipsis + っ); VN kept the dash but dropped the gasp — inserted Ư after the dash."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "1842",
+  "kind": "lost-gasp-trailing",
+  "jp": "（いきなりなどで――あるものか――っ！）",
+  "tw": "（哪有什麼突然不突然的——！）",
+  "old_vn": "（Làm gì có chuyện——đột nhiên chứ——!）",
+  "fix": "（Làm gì có chuyện——đột nhiên chứ——Ư!）",
+  "reason": "JP trailing gasp (dash/tilde/ellipsis + っ); VN kept the dash but dropped the gasp — inserted Ư after the dash."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "477",
+  "kind": "raw-tsu",
+  "jp": "「っ――」",
+  "tw": "「——」",
+  "old_vn": "「っ——」",
+  "fix": "「Ư——」",
+  "reason": "Raw Japanese っ left in Vietnamese display text; JP gasp っ rendered as Ư (precedent: Hachiroku 12 再開発 2103/2537)."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "804",
+  "kind": "raw-tsu",
+  "jp": "「っ！」",
+  "tw": "「啊！」",
+  "old_vn": "「っ!」",
+  "fix": "「Ư!」",
+  "reason": "Raw Japanese っ left in Vietnamese display text; JP gasp っ rendered as Ư (precedent: Hachiroku 12 再開発 2103/2537)."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "807",
+  "kind": "raw-tsu",
+  "jp": "「っ！！！！！！！！！！」",
+  "tw": "「啊！！！！！！！！！！」",
+  "old_vn": "「っ!!!!!!!!!!」",
+  "fix": "「Ư!!!!!!!!!!」",
+  "reason": "Raw Japanese っ left in Vietnamese display text; JP gasp っ rendered as Ư (precedent: Hachiroku 12 再開発 2103/2537)."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "814",
+  "kind": "raw-tsu",
+  "jp": "「っ！　（ごくっ）」",
+  "tw": "「嗚！（嗯）」",
+  "old_vn": "「っ! （Ực）」",
+  "fix": "「Ư! （Ực）」",
+  "reason": "Raw Japanese っ left in Vietnamese display text; JP gasp っ rendered as Ư (precedent: Hachiroku 12 再開発 2103/2537)."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "974",
+  "kind": "lost-gasp-whole",
+  "jp": "「っ！」",
+  "tw": "「！」",
+  "old_vn": "「!」",
+  "fix": "「Ư!」",
+  "reason": "JP whole-line gasp っ+punct; VN had only the punctuation — inserted Ư."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "975",
+  "kind": "raw-tsu",
+  "jp": "「っ！！」",
+  "tw": "「！！」",
+  "old_vn": "「っ!!」",
+  "fix": "「Ư!!」",
+  "reason": "Raw Japanese っ left in Vietnamese display text; JP gasp っ rendered as Ư (precedent: Hachiroku 12 再開発 2103/2537)."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "976",
+  "kind": "raw-tsu",
+  "jp": "「っ！！！」",
+  "tw": "「！！！」",
+  "old_vn": "「っ!!!」",
+  "fix": "「Ư!!!」",
+  "reason": "Raw Japanese っ left in Vietnamese display text; JP gasp っ rendered as Ư (precedent: Hachiroku 12 再開発 2103/2537)."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "978",
+  "kind": "raw-tsu",
+  "jp": "「っ！？」",
+  "tw": "「！？」",
+  "old_vn": "「っ!?」",
+  "fix": "「Ư!?」",
+  "reason": "Raw Japanese っ left in Vietnamese display text; JP gasp っ rendered as Ư (precedent: Hachiroku 12 再開発 2103/2537)."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "759",
+  "kind": "already-rendered",
+  "jp": "「ひあっ！　んっ――お尻――ふあっ――お尻、も……\\nです、から――今、は……んっ――んくぅぅぅ～～っ」",
+  "tw": "「咿啊！嗯——屁股——呼啊——屁股，也……——所以現在……嗯嗯——啾嗚～～」",
+  "old_vn": "「Hí a! Ưm——mông——phù a——mông, cũng……\\nmà——bây giờ, thì……ưm——ưm kuuu~~」",
+  "fix": "",
+  "reason": "VN đã diễn gasp bằng cách khác (Ư/Ự/Hự/Hức, câu cảm thán, hoặc SFX đã dịch); không phải gasp bị mất, không sửa."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "783",
+  "kind": "needs-file-audit",
+  "jp": "「あっ――ひっ――しょっ――くっ――んあっ――\\nゆっく――りっ――され、りゅっ――と――んぅ～っ！」",
+  "tw": "「啊——哈——嗚——嗯——啊——慢——慢一點！」",
+  "old_vn": "「A——hi——ức——khục——ưm a——\\nchậm——chậm——lại, đi——ưm~ !」",
+  "fix": "",
+  "reason": "VN là câu đầy đủ ở dòng khác (lệch dòng) hoặc JP/VN lệch số đoạn nên không đặt được gasp chắc chắn; để audit file xử lý."
+ },
+ {
+  "file": "01_Hachiroku/ハチロクh7_レトロモダンメイクラヴ.txt.toml",
+  "key": "763",
+  "kind": "lost-gasp-trailing",
+  "jp": "「ひうっ！？　ふ――あっ！？　そ、双鉄、さまっ！\\n待っ――待っ――まぁっ――っ！　～～～～っっ！！！」",
+  "tw": "「咿！？呼——啊！？雙，雙鐵少爺！等——等——等等——！～～～～！！！」",
+  "old_vn": "「Hiu!? Hu——a!? Ng, Ngài Soutetsu!\\nĐợi——đợi——đợi đã——! ~~~~!!!」",
+  "fix": "「Hiu!? Hu——a!? Ng, Ngài Soutetsu! Đợi——đợi——đợi đã——! ~~~~ƯƯ!!!」",
+  "reason": "Bổ sung 19/11 (phụ lục đa-っ): JP kết thúc bằng nhiều っ liên tiếp, mẫu liệt kê B1/B2 chỉ bắt đúng 1 っ nên dòng này bị sót; mỗi っ → 1 Ư, giữ nguyên mọi thứ khác."
+ }
+]

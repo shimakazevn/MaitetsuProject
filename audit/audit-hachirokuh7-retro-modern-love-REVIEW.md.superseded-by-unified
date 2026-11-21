@@ -1,0 +1,210 @@
+# Audit — ハチロクh7_レトロモダンメイクラヴ.txt.toml — 58/435 (13,3%)
+
+- File: `ハチロクh7_レトロモダンメイクラヴ.txt.toml` — route 01_Hachiroku, 435 dòng script.
+- Nội dung: H-scene h7 — Soutetsu và Hachiroku (Suzu) trong bối cảnh "retro-modern" (lễ hội hoài cổ Ohitoyo, 御一夜大詔レトロフェスタ, key 1371); cảnh thân mật xen độc thoại của Soutetsu về vụ tai nạn đã đưa hai người gặp nhau, về mối quan hệ vợ chồng (Hachiroku gọi Soutetsu 旦那様, Soutetsu gọi Hachiroku おまえ/妻) và cảm xúc của Soutetsu. Phần lớn thoại của Hachiroku là tiếng rên/thở và SFX.
+- Nhân vật: monologue 267, ハチロク 107, 双鉄 61.
+- Cơ sở tổng: 140 file / 6.317 dòng sai (đã tự kiểm chứng lại ROUTE-AUDIT.md — khớp với cơ sở được giao, không cần rebase).
+
+## Kiểm tra cấu trúc
+
+- TOML md5 `826355d088615a39f35716717fda637e`, BOM + CRLF, 435 dòng script, `[selections]` rỗng. Không có bản sao trùng của file này (md5 duy nhất trong sources/toml2).
+- CSV3: 1 set duy nhất (`01_Hachiroku`), 435 hàng, 0 trùng khóa, 0 VN trống, 0 TW trống. VN khớp phẳng TOML 435/435 (trừ 228 khác biệt chỉ do TOML-2 làm phẳng literal `\n` thành khoảng trắng — CSV3 là chuẩn). Comment `# JP:` trong TOML khớp CSV3 435/435.
+- Thẻ `%l`: 0 thẻ JP, 0 thẻ VN — file này không có thẻ `%l`.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0.
+  - VN trùng trong file: 6 nhóm, đều là SFX ngắn lặp hợp lệ (（Chụt）, （Phập）, （Siết chặt!）, 「Khục!」, （Phụt! Phụt! Phụt! Phụt!）, （Tuốt——tuốt——tuốt——tuốt——）) — 0 câu thoại đầy đủ nào bị đặt nhầm.
+
+## Phân loại (58)
+
+- Gasp 12, romaji 13, fa-fu 6, đếm vần 4, sai nghĩa 11, độ dài SFX 3, thuật ngữ 1, chính tả 1, dòng hỗn hợp 7 (692, 736, 759, 763, 812, 813, 842 — mỗi dòng 2–3 lỗi, xem §9). Thoại 43/168 (25,6%), độc thoại 15/267 (5,6%). Theo nhân vật: ハチロク 35/107 (32,7%), 双鉄 8/61 (13,1%), monologue 15/267 (5,6%).
+
+### §1. Gasp (12 — cả 12 đều là mục sweep, đã kiểm chứng)
+
+- **477** (双鉄, raw-tsu): JP 「っ――」. Old: 「っ——」 → Fix: 「Ư——」. Raw っ để nguyên trong VN; gasp → Ư (tiền lệ Hachiroku 12 再開発 2103/2537).
+- **804** (双鉄, raw-tsu): JP 「っ！」. Old: 「っ!」 → Fix: 「Ư!」.
+- **807** (ハチロク, raw-tsu): JP 「っ！！！！！！！！！！」. Old: 「っ!!!!!!!!!!」 → Fix: 「Ư!!!!!!!!!!」.
+- **814** (ハチロク, raw-tsu): JP 「っ！　（ごくっ）」. Old: 「っ! （Ực）」 → Fix: 「Ư! （Ực）」. (ごくっ → "Ực" giữ nguyên.)
+- **974** (双鉄, lost-gasp-whole): JP 「っ！」. Old: 「!」 → Fix: 「Ư!」. Cả dòng chỉ là gasp っ+!; VN chỉ còn dấu !.
+- **975** (双鉄, raw-tsu): JP 「っ！！」. Old: 「っ!!」 → Fix: 「Ư!!」.
+- **976** (ハチロク, raw-tsu): JP 「っ！！！」. Old: 「っ!!!」 → Fix: 「Ư!!!」.
+- **978** (双鉄, raw-tsu): JP 「っ！？」. Old: 「っ!?」 → Fix: 「Ư!?」.
+- **783** (ハチロク, lost-gasp-trailing): JP …んぅ～っ！. Old: …ưm~ ! → Fix: …ưm~Ư!. Sweep để lại "needs-file-audit" vì nghi lệch dòng — đã kiểm: JP/VN cùng 2 dòng, các đoạn khớp nhau (あっ/ひっ/しょっ/くっ/んあっ → A/hi/ức/khục/ưm a; ゆっくり → chậm——chậm), không lệch; chỉ gasp cuối (っ sau ～, trước !) bị mất → thêm Ư. Các っ giữa dòng (あっ――/ひっ――/んあっ――) giữ nguyên theo tiền lệ ハチロク01 2319 (ngắt đã có trong ――).
+- **1433** (monologue, lost-gasp-trailing): JP …欲望が――っ！？. Old: …đó——!? → Fix: …đó——Ư!?.
+- **1444** (monologue, lost-gasp-trailing): JP …無――っ！！. Old: …tôi——!! → Fix: …tôi——Ư!!.
+- **1842** (双鉄, lost-gasp-trailing): JP （いきなりなどで――あるものか――っ！）. Old: （…chứ——!） → Fix: （…chứ——Ư!）.
+
+### §2. Romaji fallback cho tiếng rên (13)
+
+- **732** (ハチロク): JP きゅあっ！. Old: 「Á a!」 → Fix: 「Kyua!」. きゅあ = kyua; VN "Á a" ngượng, mất âm kyua.
+- **737** (ハチロク): JP きゃふぅっ！！！. Old: 「Á phù!!!」 → Fix: 「Kyafuu!!!」. きゃふぅ = kyafuu.
+- **738** (ハチロク): JP ひゃぎゅっ！？. Old: 「Á hự!?」 → Fix: 「Hyagyu!?」. ひゃぎゅ = hyagyu.
+- **739** (ハチロク): JP ひゃん！…ふ……ぁんっ！！！. Old: 「Á! … phù……a!!!」 → Fix: 「Hyan! … Fuan!!!」. ひゃん = hyan; ふぁん = fuan (2 lỗi romaji trong 1 dòng).
+- **741** (ハチロク): JP ひゃっ！. Old: 「Á!」 → Fix: 「Hya!」.
+- **745** (ハチロク): JP か……. Old: 「A……」 → Fix: 「Ka……」. か = ka (tiền lệ 凪h2 2409 "Kahyu").
+- **753** (ハチロク): JP …ふああっ！. Old: …huaa! → Fix: …Fuaa!. ふああ dài → romaji "Fuaa" (khác ふあ ngắn → "phùa").
+- **760** (ハチロク): JP ひあんっ！！！. Old: 「Hí a!!!」 → Fix: 「Hian!!!」. ひあん = hian.
+- **761** (ハチロク): JP い"ぎゅっっっっっ！？. Old: 「Í aaaaaa!?」 → Fix: 「Igyu!?」. いぎゅ = igyu; "aaaaaa" là bịa (ぎゅ không phải "a"). Lưu ý: JP có dấu `"` thừa sau い — lỗi phía JP, không phải lỗi VN.
+- **777** (双鉄): JP くおっ！！. Old: 「Ư ô!!」 → Fix: 「Kuo!!」. くお = kuo.
+- **787** (ハチロク): JP か……ふっ――あっ！. Old: 「A……phù——a!」 → Fix: 「Ka……phù——a!」.
+- **827** (ハチロク): JP …ぷあっ――…. Old: …phù a——… → Fix: …Pua——…. ぷあ = pua (ぷ là p, không phải f — "phù" sai phụ âm đầu).
+- **856** (ハチロク): JP …かっ――…. Old: …nha——… → Fix: …ka——…. かっ là tiếng gasp "ka", không phải tiểu từ "nha".
+
+### §3. fa/fu (6)
+
+- **731** (ハチロク): JP …ふあっ――…. Old: …phù a——… → Fix: …phùa——…. ふあ → "phùa" (đã chốt).
+- **743** (ハチロク): JP …ふあっ――…ふあっ！…. Old: …Huaa——…huaa!… → Fix: …phùa——…phùa!…. 2 chỗ.
+- **796** (ハチロク): JP ふぁっ. Old: 「A」 → Fix: 「Phà」. ふぁ → "phà"; VN cũ chỉ giữ あ, mất ふ.
+- **816** (ハチロク): JP …ふ――ぁ――ん，…. Old: …hu——a——ưm,… → Fix: …phù——a——ưm,…. Dạng tách (ふ――ぁ): ふ → "phù" (tiếng thở dài; khác 763 ふ――あっ → "Fu" là tiếng rên — xem §9).
+- **823** (ハチロク): JP …ふぁ. Old: …phù. → Fix: …phà.. ふぁ → "phà".
+- **971** (ハチロク): JP …ふあっ！…. Old: …phù a!… → Fix: …phùa!….
+
+### §4. Đếm vần (4)
+
+- **819** (ハチロク): JP …ふぁああああんっ！！！. Old: …phù a a a a a!!! → Fix: …phù a a a a an!!!. Thiếu ん cuối (5 âm a đã đúng JP: ぁ+あ×4); chỉ phục hồi ん, giữ nguyên dạng tách "phù" (không đổi thành "phà").
+- **843** (ハチロク): JP んっきゅぅぅぅぅぅぅぅぅぅうっぅううううう！！. Old: 「Ưn kyuu…(31 u)…!!」 → Fix: 「Ưn kyuu…(17 u)…!!」. JP có 16 âm う/ぅ → VN phải có 1+16=17 u; VN cũ có 31 u (gần gấp đôi). Đã đếm bằng script.
+- **844** (ハチロク): JP んきゅううんんんっ！！！. Old: 「Ưm kiuu ưm ưm!!!」 → Fix: 「Ưm kiuuu ưm ưm ưm!!!」. きゅうう: 1+2=3 u (cũ 2, thiếu 1); んんん: 3 âm mũi (cũ 2, thiếu 1).
+- **845** (ハチロク): JP んゆぅっっっ！！！！. Old: 「Ưm yuuuu!!!!」 → Fix: 「Ưm yuu!!!!」. んゆぅ: 1+1=2 u (cũ 4, thừa 2).
+
+### §5. Sai nghĩa (11)
+
+- **765** (ハチロク): JP …挿入られ――てっ――くぅ. Old: …đút vào——trong——ư. → Fix: …đút vào——Kuu.. "trong" là bịa (てっ không phải "trong" — てっ chỉ là âm ngắt); くぅ → "Kuu" (romaji, 1+1=2 u).
+- **802** (ハチロク): JP …もぉっ！！！！. Old: …cũng!!!! → Fix: …rồi!!!!. もぉっ = もう "đã rồi" (TW 已經); VN dùng "cũng" lần 2 là sai (lần 1 cho も―― là đúng, giữ).
+- **1222** (monologue): JP …じくじく苛んだとて. Old: …rỉ máu hành hạ… → Fix: …âm ỉ hành hạ…. じくじく = đau âm ỉ/thốn, không phải chảy máu; TW (備受折磨) đồng ý.
+- **1321** (monologue): JP 可愛い、愛しい、美しい. Old: Đáng yêu, đáng thương, xinh đẹp. → Fix: Đáng yêu, thân thương, xinh đẹp.. 愛しい = đáng yêu/thân thương, không phải "đáng thương" (đáng tội nghiệp).
+- **1349** (monologue): JP …グラインド…. Old: …những cú nắc… → Fix: …những cú xoay nghiến…. グラインド = xoay nghiến (grind), không phải "nắc" (thrust); TW 摩擦 đồng ý.
+- **1364** (monologue): JP …くぱくぱ…. Old: …mút mát liên hồi. → Fix: …mở ra khép lại liên hồi.. くぱくぱ = mở ra khép lại liên hồi; TW 一張一合 đồng ý.
+- **1410** (monologue): JP …わわってくれてっ！. Old: …em đáp lại tôi! → Fix: …em líu ríu đáp lại tôi!. わわ = bập bẹ/líu ríu (nói không rõ), không chỉ "đáp lại".
+- **1836** (monologue): JP （くちゅっ！　ずちゅっ！　くちゅんっ！　ちゅぷっ！）. Old: （…Chụt! Bóp!） → Fix: （…Chụt! Chụt!）. ちゅぷっ = tiếng hôn/bật môi (ちゅ+ぷ), không phải "Bóp" (bóp/nắn). 2 tiếng "Chụt" trong 1 dòng đều là họ ちゅ, chấp nhận được.
+- **1878** (monologue): JP （れろっ――れるっ――れろおおおお――はぷっ！）. Old: （Liếm——mút——liếm dài——ngoạm!） → Fix: （Liếm——liếm——liếm dài——ngoạm!）. れるっ là tiếng liếm (cùng họ れろ), không phải "mút" (mút); trong file れろっ đã dịch "liếm" 3 chỗ.
+- **1909** (monologue): JP （にゅっ――ずっ――ず、ぶ――ずずっ）. Old: （Ngoạm——phập——…） → Fix: （Siết——phập——…）. にゅっ là tiếng siết/nhóp (squelch), không phải "Ngoạm" (cắn/ngoạm); trong file 1869 にゅっ đã dịch "Siết".
+- **1944** (双鉄): JP （ぺろっ――れろっ――れるっ――ぺりゅっ）. Old: （Liếm——liếm——mút——liếm） → Fix: （Liếm——liếm——liếm——liếm）. Như 1878.
+
+### §6. Độ dài SFX (3)
+
+- **1820** (monologue): JP （ずぶううううううううううううううううっ！！！） (16 âm う). Old: （Phập!!!） → Fix: （Phậpppppppppppppppppppp!!!） (20 p). Âm dài 16 u nhưng VN cũ không kéo dài gì cả — ngoại lệ duy nhất trong cụm ず (1811: 17い→22p; 1826: 10お→11p; 1829: 2お→4p đều kéo dài). Tỉ lệ file 1,1–1,5× → 20 p.
+- **1824** (monologue): JP （つぷうぅぅ） (3 nguyên âm). Old: （Phập） → Fix: （Phậpppp） (4 p). Đuôi うぅぅ bị mất hẳn; 1829 (2お→4p) và 1866 (2お→5t) đều kéo dài đuôi 2 âm.
+- **1844** (monologue): JP （くぽっっ――ちゅうううううっ――ぷりゅんっ！）. Old: （Mút——chùn chụt——bật nảy!） → Fix: （Mút——chùn chụttttt——bật nảy!）. ちゅううううう (5 âm う) không kéo dài; quy ước file cho họ ちゅう dài là 5 t (1854: 2–3う→5t; 1857: 2う→5t).
+
+### §7. Thuật ngữ (1)
+
+- **1371** (monologue): JP 御一夜大詔レトロフェスタ. Old: Lễ hội hoài cổ Taisho Ohimitera. → Fix: Lễ hội hoài cổ Taisho Ohitoyo.. Thuật ngữ đã chốt (Ohitoyo, không phải Ohimitera).
+
+### §8. Chính tả (1)
+
+- **1382** (monologue): JP …情愛を煽られる. Old: …mãnh烈. → Fix: …mãnh liệt.. Chữ 烈 (kanji) rò rỉ nguyên xi trong VN.
+
+### §9. Dòng hỗn hợp — 2–3 lỗi/dòng (7)
+
+- **692** (ハチロク): typo "Khônh!" → "Không!" + ふあっ "huaa!" → "phùa!".
+- **736** (ハチロク): ひぎゅっ "Hí gư!?" → "Higyu!?" (romaji, khớp 734 "Higyu") + きゅぅぅぅぅぅぅぅ (7 âm ぅ) "kiuuuuuuu" (7 u) → "kiuuuuuuuu" (8 u = 1+7, đã đếm bằng script).
+- **759** (ハチロク): ふあっ "phù a" → "phùa" (đã chốt, như 731/971) + んくぅぅぅ "kuuu" (3 u) → "kuuuu" (4 u = 1+3) + gasp cuối んくぅぅぅ～～っ → thêm Ư sau ~~ ("~~Ư"). Lưu ý: sweep xếp 759 là "already-rendered" — không đồng ý (xem Kiểm chứng): ~~ chỉ diễn ～～, không diễn っ; っ ở cuối tuyệt đối, không dấu câu → theo quy tắc gasp đã khóa phải thêm Ư (như 763 っっ→ƯƯ).
+- **763** (ハチロク): ふ――あっ "Hu——a" → "Fu——a" (romaji "Fu" cho ふ, khớp 739 "Fuan"/753 "Fuaa" trong file; khác 816 "phù" là tiếng thở dài) + gasp cuối ～～～～っっ → "~~~~ƯƯ" (mỗi っ → 1 Ư, mục sweep). Không thêm Ư cho まぁっ――っ (giữa dòng, tiếng lắp + ! đã diễn).
+- **812** (ハチロク): ふぁっ "Phù a" → "Phà" + んううっ "ưm ư" → "ưm ưư" (2 ư cho 2 âm う).
+- **813** (ハチロク): ふぁ……あっ "Phù……a" → "Phà……a" + あれ、ほどっ "rõ ràng, là." → "đến mức đó……" (あれほど = "đến mức đó"; JP cụt câu, không bịa phần kết — dùng ……).
+- **842** (ハチロク): JP んゅ――ぁぁぁああああぁぁぁぁぁぁあああああっ！ → Fix: 「Nyu——aaaAAAAaaaaaaAAAAA!」. んゅ → "Nyu" (khôi phục ゅ bị mất); 18 âm a theo JP (ぁ3+あ4+ぁ6+あ5), VN cũ có 20 âm a (thừa 2) và sai nhóm; chữ hoa/thường mirror ぁ/あ của JP.
+
+## Đã kiểm tra và không tính sai
+
+- **Đại từ:** Hachiroku tự xưng "em" với Soutetsu đúng mọi chỗ (480, 688…); Soutetsu gọi Hachiroku "em" đúng; Hachiroku gọi Soutetsu 双鉄様 → "Ngài Soutetsu" đúng; 旦那様 → "phu quân" (732, 765) đúng; Soutetsu độc thoại "tôi" (trừ 1845 "mình" — tự vấn cảm xúc, đúng ngoại lệ đã chốt). Xem thêm cờ ở mục Cờ.
+- **SFX/âm thanh giữ nguyên:** "chùn chụt" cho ちゅう (793, 939) là SFX mút hợp lệ trong tiếng Việt — giữ. Tiếng ư đơn く/ぐ → "ư" giữ (485, 745). くっ → "Khục" giữ (778, 846). ん → "ưm"/"Ưm" giữ toàn file. Dạng tách ふ……あっ / ふ―あっ giữ (485, 821, 837, 853, 968). ちゅう/ちゅうっ dịch đồng nhất "chụt"/"chùn chụt" (1852, 1867) — quy ước file, giữ. Họ きゅう dịch mô tả ("Siết chặt"/"Thít chặt", 1929/1932/1933) — quy ước chủ đạo trong file, giữ; chỉ 1930/1941 kéo dài. SFX dài đã kéo dài đúng tỉ lệ (1811, 1826, 1863, 1941) — giữ. 1819 ずんっ → "Phậpppp" giữ (âm ん kéo dài hợp lý). 1854 ちゅううっ/ちゅうううっ đều → "chụttttt" (5 t cố định) — quy ước file, giữ. 1858 ちゅうっ → "chụt" (không kéo dài với 1 âm う thêm) — quy ước file, giữ. 1922 みゅうっ → "Myuu" (romaji, đúng công thức 1+1=2) — giữ. 819 giữ "phù" dạng tách, chỉ phục hồi ん.
+- **Lỗi phía JP (không phải lỗi VN, không tính sai):** 1596 ももはや (lỗi đánh máy JP: も+もはや); 761 dấu `"` thừa sau い. 1457 膣内�� và 1662 おまんまんで、��� — ký tự �� chỉ xuất hiện trong CSV3/work-file, TOML JP sạch ("膣内に", "おまんまんで、だから") nên VN đúng, không tính sai. 1869 "M��t" cũng chỉ là artefact của work-file — TOML và CSV3 đều sạch ("Mút"), không tính sai, không đưa vào JSON.
+- **Khác:** 1659 JP cụt câu (すずの腕が僕の頭を――), TW hoàn thiện ("鈴抱住了我的頭") + key 1660 tiếp nối xác nhận là ôm — VN "Vòng tay Suzu ôm lấy đầu tôi" đúng, giữ. 783: され/りゅっ/と → "lại, đi" — diễn lỏng theo hướng mệnh lệnh, khớp TW ("慢——慢一點!"), giữ; chỉ sửa gasp cuối. 732 さまぁっ và 745 は――あっ — âm ngắt đã có trong ――, giữ. 1943 きちちちちちちち → "Siết chặt!" — diễn mô tả, giữ.
+
+## Cờ — Soutetsu "anh" với Hachiroku (799, 863, 865, 881, 947) — GIỮ NGUYÊN, CHƯA QUYẾT
+
+- Vấn đề: quy tắc đã chốt là Soutetsu "tôi" với Hachiroku, nhưng file này có 5 dòng Soutetsu tự xưng "anh" với Hachiroku, xen kẽ 4 dòng "tôi" cùng người nói/người nghe — trong đó 947 "anh" kề ngay 948 "tôi".
+- Bằng chứng "anh" (5 dòng, đều là lời Soutetsu nói với Hachiroku):
+  - 799: JP 「ああ――最奥に――お前の――子宮に――射精、する」 → VN 「Aa——Anh sẽ xuất tinh——vào sâu nhất——vào tử cung——của em」.
+  - 863: JP 「もう大丈夫だ。僕も、おまえも」 → VN 「Bây giờ không sao rồi. Cả anh, và cả em nữa」.
+  - 865: JP 「おまえに答えを強いている――僕の方がよほど、はしたなく、浅ましい男だろうさ」 → VN 「Ép buộc em phải trả lời——Anh mới là một gã đàn ông đê tiện và dâm đãng hơn nhiều đấy.」.
+  - 881: JP 「その手で、射精させてくれ。僕の濁りを――根こそぎ、絞り出してくれ」 → VN 「Hãy dùng bàn tay đó, làm anh xuất tinh đi. Hãy vắt kiệt——toàn bộ sự vẩn đục của anh ra đi」.
+  - 947: JP 「すず――好きだっ――お前っ――おまえがっ！！」 → VN 「Suzu——Anh yêu em——yêu em——yêu em!!」.
+- Bằng chứng "tôi" (4 dòng, cùng người nói/người nghe):
+  - 700: JP 「緩めるも何も。僕は全く動いてないぞ？」 → VN 「Nới lỏng cái gì chứ. Tôi hoàn toàn chưa hề cử động mà?」.
+  - 878: JP 「むしろ、僕には申し分無い。挿入したい気持ちを、この上なく煽られてるよ」 → VN 「Ngược lại, với tôi thế này là quá tuyệt vời. Cảm giác muốn đút vào đang bị kích thích tột độ đây này.」.
+  - 879: JP 「可愛らしいなと思っただけだ。お前が僕の妻で本当に幸せだな、と」 → VN 「Tôi chỉ đang nghĩ em đáng yêu quá thôi. Rằng tôi thật sự rất hạnh phúc khi có em làm vợ.」.
+  - 948: JP 「すず――僕もだ」 → VN 「Suzu——tôi cũng vậy.」 (kề ngay sau 947).
+- Ngữ cảnh: file này Hachiroku gọi Soutetsu 旦那様 (4 lần) và Soutetsu gọi Hachiroku おまえ (5 lần); 879 nói thẳng "お前が僕の妻" (em là vợ của tôi) — thanh ghi vợ chồng/thân mật, khác hẳn ngữ cảnh trang trọng 双鉄様 (10 lần) mà quy tắc "tôi" được xây dựng trên đó. Các dòng "anh" tập trung ở câu thân mật nhất (799, 881, 947), nhưng 879 cũng thân mật ("em là vợ của tôi… tôi rất hạnh phúc") mà vẫn dùng "tôi" — nên giả thuyết "thân mật→anh / trò chuyện→tôi" không sạch hoàn toàn.
+- Quyết định: GIỮ NGUYÊN old VN, không sửa trong audit này. Đây là cùng câu hỏi phạm vi đang chờ ở ハチロク03/09 (採決 1870, 2002, 2189, 2190, 2230) — cần chốt 1 lần cho toàn dự án (đợt thống nhất), không tự quyết lẻ trong 1 file. Các lựa chọn: (a) giữ "anh" ở 5 dòng này (và các dòng tương tự ở 03/09) vì thanh ghi vợ chồng; (b) đổi hết về "tôi" theo quy tắc đã chốt.
+
+## Chờ đợt thống nhất (không sửa trong audit này)
+
+- **れるっ → "liếm" (1878, 1944):** đã sửa theo cách diễn trong file (れろっ → "liếm"); đề xuất (6) "rộp" cho họ れる/るっ/れろ vẫn đang chờ Hieu — nếu chốt "rộp" thì 2 dòng này + các dòng れろっ/れるっ trong file sẽ đổi theo.
+- Không còn mục nào khác: file này không có Ohimitera (1371 đã sửa trong audit), Hinamoto, 乗務鞄, 乗員, 日ノ本 hay fa/fu tồn đọng — tất cả đã xử lý trong audit.
+
+## Kiểm chứng
+
+- JSON 58 mục dạng chuẩn (list of dicts, khóa chuỗi); khối TOML `[script]` 58 khóa, parse OK, 0 sai lệch giá trị (so sánh trực tiếp JSON↔khối TOML; `\\n` trong khối parse về đúng literal `\n` của CSV3).
+- jp/tw/old_vn khớp CSV3 tuyệt đối 58/58 (lấy trực tiếp từ CSV3 khi dựng JSON).
+- Diff-sanity: mỗi fix chỉ khác old VN ở đúng chỗ cần sửa (kiểm bằng thay thế chuỗi có kiểm chứng số lần xuất hiện = 1); không có fix viết lại lớn. Đếm vần đã kiểm bằng script: 736 (8 u), 842 (18 a), 843 (17 u), 844 (3 u + 3 ưm), 845 (2 u), 759 (4 u), 812 (2 ư), 819 (5 a + ん).
+- Sweep っ-gasp: 14 mục cho file này → 12 áp nguyên văn sau kiểm chứng (477, 804, 807, 814, 974, 975, 976, 978, 1433, 1444, 1842, 763-phần cuối); 1 sửa lại (759: sweep xếp "already-rendered" nhưng っ cuối sau ～～ không được diễn — ~~ chỉ diễn ～～, còn っ thì mất hẳn; theo quy tắc gasp đã khóa (cuối tuyệt đối, không dấu câu → thêm Ư) nên thêm Ư, đồng thời sửa đếm vần kuuu→kuuuu và fa/fu phù a→phùa); 1 xử lý theo audit file (783: sweep "needs-file-audit" vì nghi lệch dòng — đã kiểm, JP/VN không lệch, chỉ sửa gasp cuối).
+- Quét bổ sung toàn bộ các dòng JP có っ trong file — các っ còn lại đều đã diễn (Ư/Ự/Hự/Khục/Chụt/――) hoặc là っ nhấn mạnh gắn từ nội dung (không phải gasp) — 0 gasp sót.
+- Lượt soát 2: 58/58 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Lưu ý file trùng (duplicate agent): tồn tại `audit-hachirokuh7-retro-modern-meikuravu-wrong.json` (29 mục, slug khác) do 1 agent khác cùng audit file này — parent cần đối chiếu trước khi gộp; JSON này (58 mục, slug retro-modern-love) là bản của audit này.
+
+## Khối TOML (đã kiểm chứng parse)
+
+```toml
+[script]
+477 = "「Ư——」"
+692 = "「Không! Không được——đâu——Ngài Soutetsu——phùa!\\nEo ngài, cứ ngoáy, ngoáy——mông em——em, bị nong rộng ra, mất」"
+731 = "「Hí a——a——a——phùa——a!!」"
+732 = "「Kyua! A, ưm——vú——a\\nsướng……lắm, ạ——phu, quân——」"
+736 = "「Higyu!? A——hí, kiuuuuuuuu!!」"
+737 = "「Kyafuu!!!」"
+738 = "「Hyagyu!? A——khít——khít quá——ưm, a!!\\nCô, bé——hà, a——bị khoét, bị khoét sâu quá!」"
+739 = "「Hyan! Lại nữa——Fuan!!! Ưm……\\nvú……tê rần——tê dại——sướng, quá.」"
+741 = "「Hya!」"
+743 = "「Hya! A! Ưm!! phùa——hakyu——\\nphù——phùa! A! A! Aaa!!!!」"
+745 = "「Ka……ha……a——ư——ưm——như——vậy,\\nđột, nhiên——đột——nhiên——ưn kyuuu!!?」"
+753 = "「Hí——kyu——Fuaa! A! Mông, mông em!\\nCháy, mất——chặt——quá——nóng——phù!」"
+759 = "「Hí a! Ưm——mông——phùa——mông, cũng……\\nmà——bây giờ, thì……ưm——ưm kuuuu~~Ư」"
+760 = "「Hian!!!」"
+761 = "「Igyu!?」"
+763 = "「Hiu!? Fu——a!? Ng, Ngài Soutetsu!\\nĐợi——đợi——đợi đã——! ~~~~ƯƯ!!!」"
+765 = "「Hí!? A——tai——ưm——tai của, em——\\nlưỡi của phu, quân——đang,……đút vào——Kuu.」"
+777 = "「Kuo!!」"
+783 = "「A——hi——ức——khục——ưm a——\\nchậm——chậm——lại, đi——ưm~Ư!」"
+787 = "「Ka……phù——a!」"
+796 = "「Phà」"
+802 = "「A kiu! Ưm! Hà——sướng quá! Phù, a——\\nvú, cũng——cô, bé——rồi!!!!」"
+804 = "「Ư!」"
+807 = "「Ư!!!!!!!!!!」"
+812 = "「Phà……phù……hà……a……mông, cũng……bây giờ, thì\\n……vừa mới……lên đỉnh……xong……nên rất nhạy cảm……ưm ưư!」"
+813 = "「Phà……a——như thế……dễ……chịu quá……\\nlưỡi……của ngài……Soutetsu……ban nãy——đến mức đó……」"
+814 = "「Ư! （Ực）」"
+816 = "「Ưm——a……Ngài……Soutetsu……phù——a——ưm,\\nKhông sao……đâu……ạ? Ngoan nào……nhé? Ngoan nào……」"
+819 = "「Ưm……kiu——phù a a a a an!!!」"
+823 = "「Ưm……a——lưỡi……ấm quá……ưm——\\na……sau, gáy……ưm——nhột quá——phà.」"
+827 = "「Ưm……chụt——Pua——a……Ngài Soutetsu?」"
+842 = "「Nyu——aaaAAAAaaaaaaAAAAA!」"
+843 = "「Ưn kyuuuuuuuuuuuuuuuuu!!」"
+844 = "「Ưm kiuuu ưm ưm ưm!!!」"
+845 = "「Ưm yuu!!!!」"
+856 = "「Sướng——quá, nóng——quá——haa——\\ka——ha——bụng——tử cung——bị chạm, vào」"
+971 = "「Ngài Soutetsu? ——Ưm!? A……chụt——ưm——\\nphù——a——ưm——a——phùa! A!」"
+974 = "「Ư!」"
+975 = "「Ư!!」"
+976 = "「Ư!!!」"
+978 = "「Ư!?」"
+1222 = "Vì vậy, đôi khi, vết thương lại xé toạc lớp vảy,\\nvà âm ỉ hành hạ chúng tôi."
+1321 = "Đáng yêu, thân thương, xinh đẹp.\\nChính vì thế, tôi càng muốn làm em rối tung lên."
+1349 = "Sự siết chặt vẫn mãnh liệt như vậy, và dù là thế,\\nem vẫn tiếp nhận trọn vẹn những cú xoay nghiến của tôi."
+1364 = "Lỗ hậu siết chặt mãnh liệt đến mức chỉ cần đầu ngón tay cũng cảm thấy đau,\\nđang siết chặt lấy phần côn thịt của tôi, mở ra khép lại liên hồi."
+1371 = "Lễ hội hoài cổ Taisho Ohitoyo."
+1382 = "Vừa nghĩ đến đó, tình yêu trong tôi lại càng bùng cháy mãnh liệt.\\nThật đáng yêu."
+1410 = "Dù đã biết trước sự trao đổi đó, nhưng Suzu vẫn trông thật hạnh phúc,\\nthật hạnh phúc——với khuôn mặt tan chảy, em líu ríu đáp lại tôi!"
+1433 = "Tôi muốn cứ thế này mà chìm đắm mãi. Tôi muốn trở thành em bé của Suzu.\\nCái ham muốn ngu ngốc đó——Ư!?"
+1444 = "Tôi không thể đút côn thịt vào tiểu huyệt quen thuộc một cách trơn tru.\\nSuzu đang lên đỉnh thậm chí còn chẳng còn tâm trí để dẫn dắt tôi——Ư!!"
+1820 = "（Phậpppppppppppppppppppp!!!）"
+1824 = "（Phậpppp）"
+1836 = "（Nhóp nhép! Phập! Chụt! Chụt!）"
+1842 = "（Làm gì có chuyện——đột nhiên chứ——Ư!）"
+1844 = "（Mút——chùn chụttttt——bật nảy!）"
+1878 = "（Liếm——liếm——liếm dài——ngoạm!）"
+1909 = "（Siết——phập——phập, phập——phập）"
+1944 = "（Liếm——liếm——liếm——liếm）"
+```
+
+## Kết bài
+
+File ハチロクh7_レトロモダンメイクラヴ.txt.toml: 435 dòng đã đọc hết, **58 dòng sai (13,3%)** — gasp 12, romaji 13, fa-fu 6, đếm vần 4, sai nghĩa 11, độ dài SFX 3, thuật ngữ 1, chính tả 1, dòng hỗn hợp 7 (692, 736, 759, 763, 812, 813, 842). Lỗi tập trung ở thoại Hachiroku (35/107, 32,7% — hầu hết là tiếng rên/thở và SFX trong H-scene); độc thoại chỉ 15/267 (5,6%). Không lệch vị trí, không xoay chuỗi, không nhiễm chéo, không mồ côi, không chưa dịch, không trùng khóa. Cờ: Soutetsu "anh" với Hachiroku (799, 863, 865, 881, 947) giữ nguyên chờ chốt toàn dự án (cùng câu hỏi ở ハチロク03/09). Chờ đợt thống nhất: họ れる/るっ/れろ (đề xuất "rộp" đang chờ Hieu). Lượt soát 2: 58/58, 0 bỏ, 0 sửa. JSON + khối TOML đã kiểm chứng parse, 0 sai lệch.

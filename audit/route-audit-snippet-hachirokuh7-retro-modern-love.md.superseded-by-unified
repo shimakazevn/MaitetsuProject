@@ -1,0 +1,16 @@
+## 01_Hachiroku — ハチロクh7_レトロモダンメイクラヴ.txt.toml — 58/435 (13,3%)
+
+- File: `ハチロクh7_レトロモダンメイクラヴ.txt.toml` — route 01_Hachiroku, 435 dòng script đã đọc hết.
+- Nội dung: H-scene h7 — Soutetsu và Hachiroku (Suzu) trong bối cảnh "retro-modern" (lễ hội hoài cổ Ohitoyo); cảnh thân mật xen độc thoại về vụ tai nạn đã đưa hai người gặp nhau và mối quan hệ vợ chồng (旦那様 / おまえ / 妻).
+- **58 dòng sai (13,3%)** — gasp 12, romaji 13, fa-fu 6, đếm vần 4, sai nghĩa 11, độ dài SFX 3, thuật ngữ 1, chính tả 1, dòng hỗn hợp 7 (692, 736, 759, 763, 812, 813, 842). Thoại 43/168 (25,6%), độc thoại 15/267 (5,6%). Theo nhân vật: ハチロク 35/107 (32,7%), 双鉄 8/61 (13,1%), monologue 15/267 (5,6%).
+- 0 lệch vị trí, 0 xoay chuỗi, 0 nhiễm chéo, 0 mồ côi, 0 chưa dịch, 0 trùng khóa. TOML md5 `826355d088615a39f35716717fda637e`, BOM + CRLF, `[selections]` rỗng, không có bản sao trùng. CSV3 1 set duy nhất, 435 hàng, 0 VN trống. 0 thẻ `%l` trong file.
+- Gasp 12 (mục sweep, đã kiểm chứng): raw っ 477/804/807/814/975/976/978, mất gasp cả dòng 974, gasp cuối 783/1433/1444/1842. Romaji fallback 13+ (732 Kyua, 737 Kyafuu, 738 Hyagyu, 739 Hyan/Fuan, 741 Hya, 745/787 Ka, 753 Fuaa, 760 Hian, 761 Igyu, 777 Kuo, 827 Pua, 856 ka). fa/fu 6 (731/743/796/816/823/971, ふあ→"phùa", ふぁ→"phà"). Đếm vần 4 (819 phục hồi ん; 843 31u→17u; 844 kiuu→kiuuu + 2ưm→3ưm; 845 yuuuu→yuu). Sai nghĩa 11 (765 bỏ "trong" bịa + Kuu; 802 "cũng"→"rồi"; 1222 じくじく "rỉ máu"→"âm ỉ"; 1321 愛しい "đáng thương"→"thân thương"; 1349 グラインド "nắc"→"xoay nghiến"; 1364 くぱくぱ "mút mát"→"mở ra khép lại"; 1410 わわ "đáp lại"→"líu ríu đáp lại"; 1836 ちゅぷっ "Bóp"→"Chụt"; 1878/1944 れるっ "mút"→"liếm"; 1909 にゅっ "Ngoạm"→"Siết"). SFX dài 3 (1820 16u→20p; 1824 3 âm→4p; 1844 chùn chụt→chùn chụttttt). Thuật ngữ 1 (1371 Ohimitera→Ohitoyo). Chính tả 1 (1382 "mãnh烈"→"mãnh liệt").
+- Sweep っ-gasp: 14 mục → 12 áp nguyên văn (477, 804, 807, 814, 974, 975, 976, 978, 1433, 1444, 1842, 763-phần cuối); 1 sửa lại (759: sweep xếp "already-rendered" nhưng っ cuối sau ～～ mất hẳn → thêm Ư, đồng thời sửa đếm vần + fa/fu); 1 xử lý theo audit file (783: sweep nghi lệch dòng — đã kiểm, không lệch, chỉ sửa gasp cuối).
+- Lượt soát 2: 58/58 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Cờ cho Hieu (không quyết, giữ nguyên): Soutetsu "anh" với Hachiroku (799, 863, 865, 881, 947) xen kẽ "tôi" (700, 878, 879, 948 — 947 "anh" kề ngay 948 "tôi"); thanh ghi vợ chồng (旦那様 4×, おまえ 5×, 879 "em là vợ của tôi") nhưng 879 thân mật vẫn dùng "tôi" nên giả thuyết phân tách không sạch — cùng câu hỏi đang chờ ở ハチロク03/09, cần chốt 1 lần toàn dự án (đợt thống nhất).
+- Chờ đợt thống nhất: họ れる/るっ/れろ (1878, 1944 → "liếm" theo file; đề xuất "rộp" đang chờ Hieu).
+- Lưu ý: tồn tại file trùng do 1 agent khác cùng audit file này (`audit-hachirokuh7-retro-modern-meikuravu-wrong.json`, 29 mục, slug khác) — parent cần đối chiếu trước khi gộp; JSON này (58 mục) là bản của audit này.
+- Kiểm chứng: JSON 58 mục dạng chuẩn, khóa chuỗi; khối TOML 58 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 58/58; lượt soát 2: 58/58, 0 bỏ, 0 sửa.
+- Chi tiết đầy đủ: `audit-hachirokuh7-retro-modern-love-REVIEW.md`; danh sách sửa: `audit-hachirokuh7-retro-modern-love-wrong.json` (58 mục).
+
+**Tổng cộng sau file này: 141 file / 6.375 dòng sai** (cơ sở 140 file / 6.317 dòng sai + 58 file này)
