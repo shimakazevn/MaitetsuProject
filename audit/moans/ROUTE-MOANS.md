@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **19 files / 468 rows changed**.
+Merged moan-fix log. Running totals: **21 files / 476 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -405,3 +405,43 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 - Parent kiểm chứng: JSON 43 mục dạng chuẩn, khóa string; khối TOML 43 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 43/43 (1 bộ duy nhất, 584 dòng); TOML md5 khớp audit; 34/34 key trùng audit chỉ khác đúng token rên (phà/phùa/phù/phuê/phuya→Fa/Fua/Fu/Fue/Fuya, ひあ Hya→Hia) + đếm sửa 1967 ("phuya" 1a→"Fuyaa" 2a, audit thiếu 1a) và gasp mới 2459; 9 key mới đều moan-only; đếm nguyên âm kiểm chứng độc lập: 1979 16a (JP 12あ+4ぁ), 1984 7u, 2044 10u, 2155 3u, 2021 2n + っっっ→"!!!", 1994/2043 "chụụụt" 3ụ, 2047 "chụụt" 2ụ + "chumu" (tiền lệ h3); 5 key fix==old_vn (2015/2452/2453/2454/2457) đều là hoàn lại đúng token fa/fu audit đã đổi; không dòng "Kh" (file không có); lượt soát 2: 43/43, 0 bỏ, 0 sửa.
 - 2 GASP MỚI — parent CHỐT lúc gộp (giữ fix của agent): 1988 はぅうっ→"HauuƯ" (っ cuối tuyệt đối mất hẳn trong VN cũ "Hauu", tiền lệ lr-h2 1567) và 2459-final あっ→"aƯ" (っ cuối dòng mất hẳn, VN cũ kết "...Fua——a"); cả hai đều là っ mất hoàn toàn, không phải double-render.
 - FLAG (đợt thống nhất): F1 (Fa/Fua chặt vs h8); F2 (ふっ→"Fu" vs "phù"); F3 (họ ちゅう(っ) chụụt/chumu vs h7 giữ "chụt"); F4 (hơi thở tập thở 1883/2533/2562); F6 (2021 "Nhyan"); F7 (đếm audit sửa 1967); F8 (2288 chờ Hieu kiểm tra trong game).
+
+---
+
+# Moan-fix snippet — lr_真闇h1_僕のおねえちゃん.txt.toml (moan-lr-mayamih1-boku-no-oneechan)
+
+- File: `lr_真闇h1_僕のおねえちゃん.txt.toml` — route 05_Mayami, 317 dòng script, audit trước đó 59 sai.
+- TOML md5: `4baa00ccc02ca48bed882887b182d798`, không có bản trùng.
+- CSV3: 1 bộ duy nhất, 317 dòng, 0 key trùng; VN khớp TOML 314/317 (3 dòng còn lại chỉ khác TOML-2 làm phẳng `\n` thành khoảng trắng).
+- Đã đọc 317/317 dòng; xét 175 dòng rên/SFX/gasp (112 thoại rên + 63 SFX ngoặc đơn độc thoại).
+- Đổi 7 dòng: 1167 はぁっ×3 "Hà"→"Haa" (audit bỏ sót, cùng lỗi 1659); 1433 ふぅっっっ "Fuuuu"→"Fuu" (fix audit "Foo" sai nguyên âm — THAY THẾ giá trị audit); 1457 んふふっ "ưm fufu"→"Nfufu" (một âm, một cách diễn; tiền lệ toàn file); 1464 ァァァ "Aaaa"→"Aaa" (3 a); 1598 thêm "ha" cho はっ (THAY THẾ giá trị audit — giữ đại từ + gasp của audit); 1816 thêm "ku" cho くっ―― cuối độc thoại (TW 嗚); 2029 ああ cuối độc thoại "a"→"aa".
+- Kiểm chứng 17 fix rên/SFX của audit: 16 đúng (đếm cơ học lại 1466 12 a, 1467 8 a, 1492 19 u, 2145 11 t, 1531 6 u, 1484 3 a — đều đúng), chỉ 1433 sai nguyên âm. Không có dòng romaji mới cho họ ひゃ/ひあ/きゃ.
+- Giữ ~168 dòng rên/SFX (họ ふぁ→"Fua", はぁ→"Haa", くあ→"Kua", んひゅ→"Nhyu", cười "Nfufu"/"Ufufu", んっ→"Ưm", SFX từ Việt theo quy ước file; っ nhấn mạnh cuối câu không thêm Ư).
+- Sweep: 20 mục đã kiểm chứng — 16 audit đã áp đúng, 4 already-rendered (1428, 1503, 1698, 1803); không đụng dòng gasp Ư nào, không đổi dòng "Kh" nào.
+- Cờ cho đợt thống nhất: 2 (1433 — dùng "Fuu!!!!" thay "Foo!!!!" của audit; 1598 — dùng giá trị moan có "ha", thay giá trị audit).
+- Lượt soát 2: tổng 7 / tái kiểm chứng 7 / bỏ 0 / sửa 0. JSON 7 mục, khóa string, jp/tw/old_vn khớp CSV3 7/7. Khối TOML parse bằng tomllib: 7 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-lr-mayamih1-boku-no-oneechan-REVIEW.md`; danh sách sửa: `moan-lr-mayamih1-boku-no-oneechan-wrong.json`.
+
+**Tổng cộng sau file này: 20 file / 475 dòng sai (moan)** (cơ sở 19 file / 468 dòng + 7 file này)
+- FLAG (đợt thống nhất): 1433 — dùng giá trị moan 「Fuu!!!!」 thay fix audit 「Foo!!!!」 (JP ふぅ = fuu, codepoint U+3045; TW 呼嗚). 1598 — dùng giá trị moan có "ha——" thay giá trị audit (khôi phục hơi thở はっ, tiền lệ 1630).
+- Parent kiểm chứng 21/11 ~14:15: JSON 7 mục dạng chuẩn, khóa string; khối TOML 7 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 7/7 (1 bộ duy nhất, 317 dòng); TOML md5 khớp audit; 1433 chỉ khác fix audit đúng nguyên âm "oo"→"uu" (JP ふぅ = 2 u theo công thức); 1598 chỉ thêm "ha——" vào fix audit (đại từ "Tôi" + gasp Ư là của audit, không phải sửa mới); 5 key mới đều moan-only — đếm nguyên âm kiểm chứng độc lập: 1167 2a×3, 1464 3a, 2029 2a; 1457 "Nfufu" (tiền lệ toàn file); 1816 "ku" (tiền lệ Paulette h3 906); không dòng "Kh" nào bị đổi; lượt soát 2: 7/7, 0 bỏ, 0 sửa.
+- FLAG (đợt thống nhất): 1433 — dùng giá trị moan "Fuu!!!!" thay fix audit "Foo!!!!"; 1598 — dùng giá trị moan có "ha——" thay giá trị audit.
+---
+
+# Moan-fix snippet — ハチロクh1_契り.txt.toml (moan-hachiroku-h1-chigiri)
+
+- File: `ハチロクh1_契り.txt.toml` — 353 dòng script, TOML md5 `ea6d9621d4124d9a966b6842fe53b602`, không có bản trùng.
+- CSV3: 1 bộ duy nhất, 353 dòng, 0 key trùng, 0 VN trống; flat-match TOML 353/353.
+- Đã đọc 353/353 dòng; xét 101 dòng rên/SFX (63 thoại rên + 38 SFX trong ngoặc).
+- Đổi 1 dòng (1248): んううっ "Ưm ư"→"Ưm ưư" (thiếu 1 ư — audit áp sai tiền lệ h9 2144 chỉ có 1 う) + んひゅっ "ưm hyu"→"Nhyu" (quy tắc 3b; tiền lệ h8 2187 audit viện dẫn KHÔNG tồn tại — h8 không có key 2187).
+- Audit file này đã áp romaji rất kỹ: 39/40 dòng moan của audit kiểm chứng lại là đúng (chỉ thay thế 1248); fix moan khác fix audit chỉ ở 2 chỗ rên trên.
+- Hệ SFX trong ngoặc diễn theo nghĩa hành động GIỮ NGUYÊN (quyết theo tiền lệ moan-fix h8); 10 chỗ sai âm audit đã sửa đúng.
+- Sweep: 6 mục cho đúng file này đã kiểm chứng (1242, 1371, 1376, 1463, 1508, 1519 — audit áp đúng, không đụng lại); không đổi dòng "Kh" nào, không xem lại dòng gasp Ư nào.
+- Cờ cho Hieu: 1238 いっ→"I" (audit phán đoán, Hieu có thể trả về "Á").
+- Lượt soát 2: tổng 1 / tái kiểm chứng 1 / bỏ 0 / sửa 0. JSON 1 mục, khóa string, jp/tw/old_vn khớp CSV3 1/1. Khối TOML parse bằng tomllib: 1 khóa, 0 sai lệch giá trị.
+- Chi tiết đầy đủ: `moan-hachiroku-h1-chigiri-REVIEW.md`; danh sách sửa: `moan-hachiroku-h1-chigiri-wrong.json`.
+
+**Tổng cộng sau file này: 21 file / 476 dòng sai (moan)** (cơ sở 20 file / 475 dòng + 1 file này) [parent REBASE 21/11 ~14:15 — snippet ghi cơ sở cũ 19/468 vì lr_真闇h1 đã gộp trước]
+- FLAG (cho Hieu): 1238 いっ → "I" (audit phán đoán; nếu Hieu thấy "Á!" tự nhiên hơn thì trả về "Á" — một dòng, dễ revert).
+- Parent kiểm chứng 21/11 ~14:15: JSON 1 mục dạng chuẩn, khóa string; khối TOML 1 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 1/1 (1 bộ duy nhất, 353 dòng); TOML md5 khớp audit; 1248 chỉ khác fix audit đúng 2 token rên ("ưm ư"→"ưm ưư" — JP んううっ 2う; "ưm hyu"→"Nhyu" theo quy tắc 3b); tiền lệ "h8 2187" mà audit viện dẫn KHÔNG tồn tại (không có trong CSV3 lẫn audit wrong.json của h8); không dòng "Kh" nào bị đổi; lượt soát 2: 1/1, 0 bỏ, 0 sửa.
+- FLAG (cho Hieu): 1238 いっ → "I" (audit phán đoán; Hieu có thể trả về "Á" — 1 dòng, dễ revert).
