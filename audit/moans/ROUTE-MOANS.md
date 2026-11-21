@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **25 files / 561 rows changed**.
+Merged moan-fix log. Running totals: **26 files / 576 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -524,3 +524,21 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 - Parent kiểm chứng 21/11 ~15:35: JSON 33 mục dạng chuẩn, khóa string (32 của agent + 1 parent bổ sung 963); khối TOML 33 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 33/33 (1 bộ duy nhất, 292 dòng); TOML md5 khớp audit; đếm nguyên âm kiểm chứng độc lập: 923 10a, 957 5a, 962 8a, 980 4a, 1019 5u, 1021 11u, 1022 4u, 1023 6u, 929 2u+2a, 938 3u — đều đúng; 5 key trùng audit chỉ khác đúng token rên (923/932/956/957/991) — TRỪ 950 (xem dưới); 1003 "Khà"→"Kua": "Kh" đó là cách diễn sai của くあ, không phải Kh khóa cho っ; 1660 thống nhất theo 1645 (cùng JP （くちいっ）); lượt soát 2: 33/33, 0 bỏ, 1 sửa.
 - SỬA (parent): 950 — giá trị fix của agent xây trên VN cũ, bỏ mất 2 sửa của audit ("anh Soutetsu" + "Ư!" cuối dòng, sweep gasp); đã sửa thành giá trị xây trên fix audit (chỉ đổi "Hya un"→"Hyaun"). THÊM 963 — agent tưởng VN cũ romaji 11u đã đúng số lượng, nhưng JP đếm máy chỉ có 10u (ふ1u + う×9); VN cũ thừa 1u; fix romaji 10u "Afuuuuuuuuuun!!!", không áp fix audit "À phùuuuuuuuuun!!!" (đủ 10u nhưng Việt hoá theo lý do tiền-romaji-rule).
 - FLAG (đợt thống nhất): 963 — giữ romaji 10u (không áp fix audit); 960 nói ngọng để audit; 1001 くぅん sau tên giữ theo tiền lệ h1; 1639 "liếm" giữ. 5 dòng gasp Ư (952/985/1004/1135/950-cuối) đã có fix trong audit — áp ở đợt thống nhất; TOML-2 giữ VN cũ là đúng mô hình amendment, không thiếu gì.
+
+---
+
+# Moan-fix snippet — lr_日々姫ふかみh1_凪ちゃんの代わり.txt.toml
+
+- File: lr_日々姫ふかみh1_凪ちゃんの代わり.txt.toml (02_Hibiki, 485 dòng, audit 68 sai đã merge).
+- Đọc toàn bộ 485/485 dòng; xét các dòng rên/SFX theo mẫu quét (họ はぁ/はあ 10, họ hya 9, họ fa/fu 16, cười 10, rên ngắn, hôn/mút 42, SFX （） 66, gasp 48).
+- Đổi 15 dòng rên: 11 đếm nguyên âm (10 dòng はぁっ/はあっ thiếu 1 a: 933, 1385, 1389, 1422, 1423, 1505, 1740, 1741, 1742, 1743; 1475 audit đếm thiếu 1 u: "ryuu"→"ryuuu"); 2 mất âm (1334 やっ "Á"→"Ya", 1406 あぁ "ừm"→"aa"); 2 trộn 2 hệ trong một âm (1358 đuôi "ưm"→"nn" trong chuỗi romaji, 1440 "ư fufu"→"ufufu").
+- Lỗi nặng nhất: họ はぁ/はあ thiếu 1 a ở 10 dòng (16 token); audit đã sửa gasp nhưng giữ "hà" 1 a.
+- Kiểm chứng audit: 1357 (18 a), 1359 (9 a), 1447 (2 a), 1463 (11 a), 1328 (16 u), 1371 (6 a), 1446 (11 a), 1461 ("roooo"/"zuryuuu") đều đúng — giữ nguyên, không sửa lại.
+- Gasp Ư của audit (48 dòng) không đụng; không dòng "Kh" nào bị đổi; SFX （） 66 dòng giữ nguyên theo quyết định audit §537.
+- 5 giá trị moan xây trên fix audit (933, 1358, 1406, 1423, 1475) — áp thay fix audit ở đợt thống nhất; 10 giá trị còn lại xây trên VN cũ CSV3.
+- Cờ: F1 quy ước ふっ ("Hư" file này vs "phù"/"fu" file khác); F2 độ dài SFX （） (2467 ngắn vs 2468 kéo dài); F3 2451 くっ→"Ư" trong （）; F4 1475 audit đếm sai (đã sửa bằng giá trị moan); F5 5 dòng chồng audit.
+- Lượt soát 2: 15/15 tái kiểm chứng, 0 bỏ, 0 sửa. JSON 15 mục dạng chuẩn, khóa string, jp/tw/old_vn khớp CSV3 15/15; khối TOML 15 khóa parse đúng, 0 sai lệch.
+
+**Tổng cộng sau file này: 26 file / 576 dòng sai (moan)** (cơ sở 25 file / 561 dòng + 15 file này)
+- Parent kiểm chứng 21/11 ~15:45: JSON 15 mục dạng chuẩn, khóa string; khối TOML 15 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 15/15 (1 bộ duy nhất, 485 dòng); 5 key trùng audit chỉ khác đúng token rên (933/1358/1406/1423/1475), giữ nguyên phần gasp Ư của audit; đếm nguyên âm kiểm chứng độc lập: 1358 15u (ふぁ1u + ふゅ1u + ぅ×13), 1475 3u, 1406 2a — đều đúng; lượt soát 2: 15/15, 0 bỏ, 0 sửa.
+- FLAG (đợt thống nhất): F1 quy ước ふっ ("Hư" file này vs "phù"/"fu" file khác); F2 độ dài SFX （） 2467 vs 2468; F3 2451 くっ→"Ư" trong （）; F4 1475 audit đếm sai (đã sửa bằng giá trị moan); F5 5 dòng chồng audit.
