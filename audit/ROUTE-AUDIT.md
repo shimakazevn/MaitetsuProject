@@ -3260,3 +3260,21 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 
 - Lưu ý rebase: task giao cơ sở 152 file / 6.759 dòng sai, nhưng file lr_ハチロクh3 (73 dòng sai) đã được gộp lúc ~12:05 trong khi audit này đang chạy — đã kiểm chứng trực tiếp dòng tổng cuối của ROUTE-AUDIT.md (153 file / 6.832) và dùng cơ sở mới.
 - Chờ Hieu (chỉ ghi nhận, không cần quyết ngay): おまんこ "chỗ đó" vs "lồn" 6/6 (thống nhất 1 dạng toàn tuyến Mayami hay giữ cả hai?); SFX dài rút gọn trong từ Việt (giữ quy ước file hay diễn độ dài?).
+---
+
+## ハチロクh2_お勉強の成果 — ハチロクh2_お勉強の成果.txt.toml — 46/312 (14,7%)
+
+- File: `ハチロクh2_お勉強の成果.txt.toml` — route 01_Hachiroku, 312 dòng script. Nội dung: cảnh H của Hachiroku (Suzu) — "bài học" thực hành: oral, quan hệ lần đầu trong tư thế mới, xuất tinh trong; xen kẽ trò chuyện về cảm giác đau/lần đầu và lời hứa "vợ chồng".
+- Đọc 312/312 dòng (CSV3, 1 bộ duy nhất, 0 key trùng, 0 VN trống, 0 VN==TW); TOML↔CSV3 khớp 312/312 key. TOML md5 `76334dd708ac74656eebf9f65c140e97`, 1 bản duy nhất, BOM+CRLF, `[selections]` rỗng, 0 tag `%l`.
+- Phân loại (46): đại từ 16 (Soutetsu "anh"→"tôi" với Hachiroku — toàn bộ 16 dòng thoại có đại từ, 0 lần "tôi" đúng; độc thoại đã đúng "tôi"), gasp 13 (sweep 8 + sweep bỏ sót 3: 720/985/1202 + tên+っ 2: 990/1189; 1112 gộp gasp trong fix đại từ), sai nghĩa/bịa 3 (1014 bịa "ngài Soutetsu" + bỏ nửa JP; 1088 sai thì quá khứ→tương lai; 1145 bịa "mà vui"), thuật ngữ 膣口/膣 6 (dịch lẫn thành "âm đạo"/"tử cung" — chuẩn hóa 膣口→"cửa âm đạo", 膣→"âm đạo"), moan/SFX 8 (1053 んひゅ→"Nhyu", 1055 んきゅ→"Nkyu", 964 んきゅう×9→"Nkyuuuuuuuuuu" [10 u], 973 ふあああんっ→"Fuaaan!", 974 あんっ→"an!", 1045 れろっ→"liếm", 972/1148 うふふ→"Ufufu").
+- Sweep gasp: 9/9 mục kiểm chứng đúng, áp nguyên giá trị (8 fix gasp thuần + 1 gộp trong 1112).
+- 0 lệch vị trí, 0 chuỗi xoay vòng, 0 tràn chương, 0 dòng mồ côi, 0 chưa dịch, 0 key trùng. 43 VN trùng file khác đều là dòng ngắn chung (moan/SFX/"Vâng") — không tràn.
+- Ghi chú JP-side (không tính sai, VN đã chuẩn hóa đúng): 1174 JP thiếu 」 đóng; 1730 JP mở （ đóng 」.
+- Chi tiết đầy đủ: `audit-hachirokuh2-obenkyou-no-seika-REVIEW.md`; danh sách sửa: `audit-hachirokuh2-obenkyou-no-seika-wrong.json` (46 mục, khối TOML 46 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 46/46; lượt soát 2: 46/46, 0 bỏ, 0 sửa).
+
+
+- Parent kiểm chứng 21/11 ~12:45: JSON 46 mục, TOML [script] 46 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 46/46. Đại từ kiểm chứng theo dòng kề (16 dòng Soutetsu "anh"→"tôi", người đối thoại duy nhất là Hachiroku — đúng quy tắc đã khóa); 1014 gỡ "ngài Soutetsu" bịa + khôi phục nửa JP sau; 1088 sửa thì tương lai sai → quá khứ đúng theo JP; 1145 gỡ "mà vui" bịa; 膣口/膣 chuẩn hóa "cửa âm đạo"/"âm đạo" (6 dòng); 973 ふあああんっ→"Fuaaan!", 964 10 u theo công thức nguyên âm, 1053 んひゅ→"Nhyu" theo quy tắc romaji họ ひゃ. Không sửa nào bị loại.
+
+**Tổng cộng sau file này: 155 file / 6.937 dòng sai** (cơ sở 154 file / 6.891 dòng sai + 46 file này)
+
+- Ghi nhận đợt thống nhất / vòng moan: họ fa/fu "Phù a" giữ nguyên trong audit này, chờ xem xét romaji ở vòng moan / đợt thống nhất (quyết định 21/11 ~01:56). File H — vòng moan sẽ nhận khi tới lượt.

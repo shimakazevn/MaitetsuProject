@@ -1,0 +1,602 @@
+[
+  {
+    "key": "904",
+    "character": "双鉄",
+    "jp": "「――っ」",
+    "tw": "「——」",
+    "old_vn": "「——」",
+    "fix": "「——Ư」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-trailing áp nguyên: JP ――っ, VN chỉ còn —— → thêm Ư."
+  },
+  {
+    "key": "1153",
+    "character": "双鉄",
+    "jp": "「もっと、もっと強くしてほしい。僕はれいなで、\\nれいなのお口で、まずは一回、思い切り射精したい」",
+    "tw": "「再，再用力一點。我想在玲奈裡面，玲奈的嘴巴裡面，先盡情地射一次」",
+    "old_vn": "「Mạnh hơn, tôi muốn em làm mạnh hơn nữa. Tôi muốn với Reina,\\ntrước tiên là xuất tinh một lần thật thỏa thích vào miệng Reina.」",
+    "fix": "「Mạnh hơn, anh muốn em làm mạnh hơn nữa. Anh muốn với Reina,\\ntrước tiên là xuất tinh một lần thật thỏa thích vào miệng Reina.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu \"tôi\"→\"anh\" với Reina ×2 (quy tắc đã khóa; Reina gọi \"anh Soutetsu\"; thoại chỉ nói với Reina)."
+  },
+  {
+    "key": "1170",
+    "character": "れいな",
+    "jp": "「きゃあん」",
+    "tw": "「呀啊！」",
+    "old_vn": "「Á a!」",
+    "fix": "「Kyaan!」",
+    "kind": "moan",
+    "reason": "Quy tắc ひゃ-family 21/11: きゃあん→romaji \"Kyaan\"; \"Á a!\" mất phụ âm ky- và mất ん (tiền lệ Mayami h1 1407 きゃんっ→\"Kyan\", 1482 にゃあん→\"Nyaan\")."
+  },
+  {
+    "key": "1171",
+    "character": "れいな",
+    "jp": "「ひゅあっ！？　あっ！　あっ、あっ、しゅごっ、んっ、\\nれいなの、おまたっ、にっ――そうてつさん、がぁっ」",
+    "tw": "「呀啊！啊！啊，啊，好舒服，嗯，玲奈的，小穴裡——雙鐵先生，在裡面」",
+    "old_vn": "「Hyu a!? A! A, a, tuyệt quá, ưm,\\ntrong, chỗ đó của Reina——anh Soutetsu, đang——」",
+    "fix": "「Hyua!? A! A, a, tuyệt quá, ưm,\\ntrong, chỗ đó của Reina——anh Soutetsu, đang——」",
+    "kind": "moan",
+    "reason": "ひゅあっ→\"Hyua\" một từ romaji (cũ \"Hyu a\" tách rời)."
+  },
+  {
+    "key": "1173",
+    "character": "れいな",
+    "jp": "「きゃふうううううっ！？　ひゃっ！　ふあっ！！！\\nおく！　おなか！　れいな、ごちゅんて、ごちゅんして」",
+    "tw": "「呀嗚——————！？呀啊！呼啊！！！裡面！　肚子！　玲奈，咕滋，咕滋地」",
+    "old_vn": "「Kya phu ư ư ư ư ư!? Hya! Phu a!!!\\nBên trong! Bụng! Reina, bị đâm cạch cạch, bị đâm cạch cạch rồi」",
+    "fix": "「Kyafuuuuuu!? Hya! Fua!!!\\nBên trong! Bụng! Reina, bị đâm cạch cạch, bị đâm cạch cạch rồi」",
+    "kind": "moan",
+    "reason": "Một dòng = một cách diễn (romaji fallback): きゃふうううううっ→\"Kyafuuuuuu\" (kya+fu+6 u), ふあっ→\"Fua\"; cũ trộn \"Kya phu ư ư…\" + \"Phu a\"."
+  },
+  {
+    "key": "1174",
+    "character": "れいな",
+    "jp": "「ひゃううううんっ！」",
+    "tw": "「呀嗚嗚嗚嗚！」",
+    "old_vn": "「Hya ư ư ư ưn!」",
+    "fix": "「Hyauuuun!」",
+    "kind": "moan",
+    "reason": "ひゃううううんっ→\"Hyauuuun\" (hya+4 u+n); cũ trộn \"Hya ư ư ư ưn\" (romaji + Việt)."
+  },
+  {
+    "key": "1175",
+    "character": "れいな",
+    "jp": "「ひゃうっ！　ふあっ！　でも、でもっ――れいな、\\nそんなのっ――はずかっ――あっ――はずか、しっ、あ」",
+    "tw": "「呀嗚！呼啊！但是、但是——玲奈，這樣——好害羞——啊——害羞、啊」",
+    "old_vn": "「Hya ư! Phu a! Nhưng, nhưng mà——Reina,\\nnhư thế——xấu hổ——a——xấu hổ, lắm, a」",
+    "fix": "「Hyau! Fua! Nhưng, nhưng mà——Reina,\\nnhư thế——xấu hổ——a——xấu hổ, lắm, a」",
+    "kind": "moan",
+    "reason": "ひゃうっ→\"Hyau\", ふあっ→\"Fua\"; cũ trộn \"Hya ư\" + \"Phu a\"."
+  },
+  {
+    "key": "1176",
+    "character": "れいな",
+    "jp": "「ひゃうっ！　ずるって――おなか――おまたぁっ――\\nれいな！　ずるって――しゅごい！　ながぃぃいっ」",
+    "tw": "「呀嗚！滋溜地——肚子裡面——小穴——玲奈！　滋溜地——好厲害！　好長——」",
+    "old_vn": "「Hya ư! Trơn tuột——bụng——chỗ đó——\\nReina! Trơn tuột——tuyệt quá! Dài quá đi~」",
+    "fix": "「Hyau! Trơn tuột——bụng——chỗ đó——\\nReina! Trơn tuột——tuyệt quá! Dài quá đi~」",
+    "kind": "moan",
+    "reason": "ひゃうっ→\"Hyau\"; cũ \"Hya ư\" trộn romaji + Việt."
+  },
+  {
+    "key": "1177",
+    "character": "れいな",
+    "jp": "「ぴゃゃうっ！？」",
+    "tw": "「呀嗚！？」",
+    "old_vn": "「Pya ư!?」",
+    "fix": "「Pyayau!?」",
+    "kind": "moan",
+    "reason": "ぴゃゃうっ→\"Pyayau\" (pya-ya-u); cũ \"Pya ư\" trộn."
+  },
+  {
+    "key": "1179",
+    "character": "れいな",
+    "jp": "「ひゃっ！　あっ！　あ！　あ――ふぇっ――あっ――\\nれいな――れいな――そうてつ、さん――おも、らし」",
+    "tw": "「呀！啊！啊！啊——呼哎——啊——玲奈——玲奈——雙鐵先生——要尿出來了」",
+    "old_vn": "「Hya! A! A! A——phu e——a——\\nReina——Reina——anh Soutetsu——tè, dầm mất」",
+    "fix": "「Hya! A! A! A——Fe——a——\\nReina——Reina——anh Soutetsu——tè, dầm mất」",
+    "kind": "moan",
+    "reason": "ふぇっ (1 mora \"fe\") → \"Fe\"; cũ \"phu e\" tách 1 mora thành 2 âm tiết."
+  },
+  {
+    "key": "1180",
+    "character": "れいな",
+    "jp": "「ひゃっ！　あっ！　おなかっ！　おくっ、もっ！\\nごんごん、され、てっ――れいなっ――ふあっ！」",
+    "tw": "「呀！啊！肚子！！裡面，也！！緊繃繃，的——玲奈——呼啊！」",
+    "old_vn": "「Hya! A! Bụng! Bên trong, cũng!\\nBị đâm cạch cạch, rồi——Reina——phu a!」",
+    "fix": "「Hya! A! Bụng! Bên trong, cũng!\\nBị đâm cạch cạch, rồi——Reina——Fua!」",
+    "kind": "moan",
+    "reason": "ふあっ→\"Fua\" (romaji fallback họ fa/fu); cũ \"Phu a\"."
+  },
+  {
+    "key": "1183",
+    "character": "れいな",
+    "jp": "「ひゃっ！　んっ！　きゅっ！　ふぁんっ！　も、もうっ、\\nれいなっ！　れいな、おまたがっ！　いっぱい、でっ！」",
+    "tw": "「呀！嗯！嗚！哈嗯！玲、玲奈、已經！　玲奈的、小穴！　滿滿的，了」",
+    "old_vn": "「Hya! Ưm! Kyu! Phu a n! K-Không, chịu nổi nữa,\\nReina! Reina, chỗ đó! Lấp đầy, mất rồi!」",
+    "fix": "「Hya! Ưm! Kyu! Fan! K-Không, chịu nổi nữa,\\nReina! Reina, chỗ đó! Lấp đầy, mất rồi!」",
+    "kind": "moan",
+    "reason": "ふぁんっ (fa+n) → \"Fan\"; cũ \"Phu a n\" tách ふぁ thành 2 âm tiết."
+  },
+  {
+    "key": "1185",
+    "character": "れいな",
+    "jp": "「ひゃっ！？　びくって、そうてつさんの――しゅごっ！\\nふぁっ――いっつもよりも――あちゅい、おっきいっっ」",
+    "tw": "「呀！？雙鐵先生的，脹大了——嗚！！呼啊——比平時更——更熱、更大！」",
+    "old_vn": "「Hya!? Giật giật rồi, của anh Soutetsu——to quá!\\nPhu a——so với mọi khi——nóng hơn, bự hơn nữa~」",
+    "fix": "「Hya!? Giật giật rồi, của anh Soutetsu——to quá!\\nFa——so với mọi khi——nóng hơn, bự hơn nữa~」",
+    "kind": "moan",
+    "reason": "ふぁっ→\"Fa\"; cũ \"Phu a\" tách 1 mora thành 2 âm tiết."
+  },
+  {
+    "key": "1197",
+    "character": "れいな",
+    "jp": "「うふふぅ。たっぷりぬれましたぁ。\\nそうしたらぁ、お手々をきゅうくつな筒にして～」",
+    "tw": "「呵呵。已經整個濕透了啊。那就讓我的手圈成一個圓形～」",
+    "old_vn": "「Ư phu phu~. Ướt đẫm rồi nha~.\\nVậy thì~, làm đôi tay thành một cái ống chật chội nào~」",
+    "fix": "「Ufufuu~. Ướt đẫm rồi nha~.\\nVậy thì~, làm đôi tay thành một cái ống chật chội nào~」",
+    "kind": "moan",
+    "reason": "Cười うふふぅ là tiếng CƯỜI, không phải gasp: → \"Ufufuu~\" (tiền lệ h8: Fufu/Ufufu); cũ \"Ư phu phu~\" gắn Ư gasp."
+  },
+  {
+    "key": "1199",
+    "character": "れいな",
+    "jp": "「ふぇ？　わ！　――わぁああっ」",
+    "tw": "「呼哎？哇！——哇啊啊」",
+    "old_vn": "「Phu e? Oa! ——Oa a a」",
+    "fix": "「Fe? Oa! ——Oa a a a」",
+    "kind": "moan",
+    "reason": "ふぇ？→\"Fe?\"; わぁああっ (4 nguyên âm a) → \"Oa a a a\" (cũ \"Oa a a\" thiếu 1 a; \"Oa\" = /wa/ trong tiếng Việt, giữ nguyên)."
+  },
+  {
+    "key": "1201",
+    "character": "れいな",
+    "jp": "「ふえっ？　えっ！？　そうてつさん、そうてつさぁん」",
+    "tw": "「呼哎？哎！雙鐵先生，雙鐵先生～」",
+    "old_vn": "「Phu e? Ơ!? Anh Soutetsu, anh Soutetsu ơi~」",
+    "fix": "「Fue? Ơ!? Anh Soutetsu, anh Soutetsu ơi~」",
+    "kind": "moan",
+    "reason": "ふえっ (fu-e, 2 morae) → \"Fue\"; cũ \"Phu e\" (đúng số âm tiết nhưng chuyển romaji theo fallback họ fa/fu)."
+  },
+  {
+    "key": "1202",
+    "character": "れいな",
+    "jp": "「ふぁっ――はっ――はっ――はっ――\\nふぁぁっ――はぁっ――はぁ――はぁ――」",
+    "tw": "「呼啊——哈——哈——哈——呼啊——哈——哈——哈——」",
+    "old_vn": "「Phu a——ha——ha——ha——\\nphu a a——ha——ha——ha——」",
+    "fix": "「Fa——ha——ha——ha——\\nFaa——haa——haa——haa——」",
+    "kind": "moan",
+    "reason": "ふぁっ→\"Fa\", ふぁぁっ→\"Faa\" (2 a); はぁっ/はぁ (2 a) → \"haa\" (cũ \"ha\" thiếu 1 a; tiền lệ Mayami h1 1659: はぁっ = 2 a/lần)."
+  },
+  {
+    "key": "1203",
+    "character": "れいな",
+    "jp": "「ふぁ――あっ――ふあああああっ――」",
+    "tw": "「呼啊——啊——呼啊啊啊————」",
+    "old_vn": "「Phu a——a——phu a a a a a——」",
+    "fix": "「Fa——a——Fuaaaaa——」",
+    "kind": "moan",
+    "reason": "ふぁ――→\"Fa\"; ふあああああっ (fu+5 a) → \"Fuaaaaa\" (cũ \"phu a a a a a\" — đúng số âm tiết nhưng romaji fallback)."
+  },
+  {
+    "key": "1204",
+    "character": "れいな",
+    "jp": "「ふあっ――あっっ――あっ――あっ――\\nれいな――ンッ――なかに、いっぱいっ――ふぁっ」",
+    "tw": "「呼啊——啊——啊——啊————玲奈——嗯——裡面，滿滿的——呼啊」",
+    "old_vn": "「Phu a——a——a——a——\\nReina——ưm——bên trong, lấp đầy rồi——phu a」",
+    "fix": "「Fua——a——a——a——\\nReina——ưm——bên trong, lấp đầy rồi——Fua」",
+    "kind": "moan",
+    "reason": "ふあっ→\"Fua\" ×2 (đầu + cuối dòng); cũ \"Phu a\"."
+  },
+  {
+    "key": "1207",
+    "character": "れいな",
+    "jp": "「ふぁっ――あっ！　あん！　だからぁ、そうてつさぁん。\\nもっと――もっと――ゆっくり――ゆっくりぃ」",
+    "tw": "「呼啊——啊！啊嗯！所以呢，雙鐵先生～再——再——慢點——慢慢來」",
+    "old_vn": "「Phu a——a! A! Cho nên là~, anh Soutetsu ơi~.\\nNữa——nữa đi——chậm thôi——chậm thô~i」",
+    "fix": "「Fa——a! An! Cho nên là~, anh Soutetsu ơi~.\\nNữa——nữa đi——chậm thôi——chậm thô~i」",
+    "kind": "moan",
+    "reason": "ふぁっ→\"Fa\"; あん (a+n) → \"An\" (cũ \"A!\" mất ん; tiền lệ Mayami h1 1471 あんっ→\"An\")."
+  },
+  {
+    "key": "1208",
+    "character": "れいな",
+    "jp": "「ふぁっ――れいな――やぁっ――れいな――\\nおもらし――れいな、してる――みえてる、おもらし」",
+    "tw": "「呼啊——玲奈——呀——玲奈————尿尿了——玲奈、尿尿了——看見了——尿尿」",
+    "old_vn": "「Phu a——Reina——a——Reina——\\ntè dầm——Reina, đang tè dầm——thấy rồi, tè dầm」",
+    "fix": "「Fa——Reina——Yaa——Reina——\\ntè dầm——Reina, đang tè dầm——thấy rồi, tè dầm」",
+    "kind": "moan",
+    "reason": "ふぁっ→\"Fa\"; やぁっ (ya-a) → \"Yaa\" (cũ \"a\" mất phụ âm y; tiền lệ 1304 やっ→\"Ya!\")."
+  },
+  {
+    "key": "1210",
+    "character": "れいな",
+    "jp": "「ふぁ……あ……あっ――ふぁあ」",
+    "tw": "「呼啊……啊……啊——呼啊」",
+    "old_vn": "「Phu a…… a…… a——phu a」",
+    "fix": "「Fa…… a…… a——Faa」",
+    "kind": "moan",
+    "reason": "ふぁ→\"Fa\"; ふぁあ (fa+a) → \"Faa\"."
+  },
+  {
+    "key": "1211",
+    "character": "れいな",
+    "jp": "「ふあっ」",
+    "tw": "「呼啊」",
+    "old_vn": "「Phu a」",
+    "fix": "「Fua」",
+    "kind": "moan",
+    "reason": "ふあっ (fu-a) → \"Fua\"; cũ \"Phu a\" tách 2 morae thành \"Phu a\" — chuyển romaji theo fallback."
+  },
+  {
+    "key": "1212",
+    "character": "れいな",
+    "jp": "「ふぁああっ！　んっ！　れいなっ！　ふぁっ！　あっ！\\nおなかっ！　おなかぁっ！　ぐって！　ふぁ、あんっ！」",
+    "tw": "「呼啊啊！嗯！玲奈！呼啊！！啊！肚子！！　肚子裡面！！　被頂到了！　呼啊，啊嗯！」",
+    "old_vn": "「Phu a a a! Ưm! Reina! Phu a! A!\\nBụng! Bụng! Bị đâm! Phu, a n!」",
+    "fix": "「Faaa! Ưm! Reina! Fa! A!\\nBụng! Bụng! Bị đâm! Fa, an!」",
+    "kind": "moan",
+    "reason": "ふぁああっ (fa+2 a) → \"Faaa\"; ふぁっ→\"Fa\"; ふぁ、あんっ→\"Fa, an!\" (giữ dấu phẩy + ん)."
+  },
+  {
+    "key": "1214",
+    "character": "れいな",
+    "jp": "「ふぁ！　えへっ――えへへぇ」",
+    "tw": "「呼啊！哎嘿——哎嘿嘿」",
+    "old_vn": "「Oa! Hì hì——hì hì hì~」",
+    "fix": "「Fa! Hì hì——hì hì hì~」",
+    "kind": "moan",
+    "reason": "ふぁ！→\"Fa!\"; cũ \"Oa!\" mất phụ âm f (\"Oa\" = /wa/)."
+  },
+  {
+    "key": "1215",
+    "character": "れいな",
+    "jp": "「ふやっ！　あっ！　あっ！　あっ！　あっ！！！\\nおくっ！　おくっ！　んっ、んううっ、きもち、いいっ」",
+    "tw": "「呼啊！啊！啊！啊！啊！！！裡面！　裡面！　嗯、嗯嗚、好舒、服！」",
+    "old_vn": "「Phu ya! A! A! A! A!!!\\nBên trong! Bên trong! Ưm, ưm ư, sướng, quá đi」",
+    "fix": "「Fuya! A! A! A! A!!!\\nBên trong! Bên trong! Ưm, ưm ư, sướng, quá đi」",
+    "kind": "moan",
+    "reason": "ふやっ (fu-ya) → \"Fuya\"; cũ \"Phu ya\" (đúng số âm tiết nhưng romaji fallback; thuật ngữ \"phuya\" cũng là 1 từ, không tách)."
+  },
+  {
+    "key": "1217",
+    "character": "れいな",
+    "jp": "「ふあっ！　あっ！　あっ――ああっ！！！」",
+    "tw": "「呼啊！啊！啊，——啊！！」",
+    "old_vn": "「Phu a! A! A——a a!!!」",
+    "fix": "「Fua! A! A——a a!!!」",
+    "kind": "moan",
+    "reason": "ふあっ→\"Fua\"; cũ \"Phu a\"."
+  },
+  {
+    "key": "1218",
+    "character": "れいな",
+    "jp": "「ぷあっ！！？　ふあっ――あっ――あっ――おなかっ\\n――いき――ぜんぶ、でちゃうっ――ふあっ！　あっ！」",
+    "tw": "「呼啊！！？呼啊——啊——啊——肚子裡——要來了——全部，要出來了——呼啊！　啊！",
+    "old_vn": "「Phu a!!? Phu a——a——a——bụng——\\nra——ra hết, mất thôi——phu a! A!」",
+    "fix": "「Pua!? Fua——a——a——bụng——\\nra——ra hết, mất thôi——Fua! A!」",
+    "kind": "moan",
+    "reason": "ぷあっ (pu-a) → \"Pua\"; ふあっ→\"Fua\" ×2; cũ \"Phu a\"."
+  },
+  {
+    "key": "1226",
+    "character": "れいな",
+    "jp": "「わぁあ！　とっても元気ですねぇ」",
+    "tw": "「哇啊！真的好有精神哦」",
+    "old_vn": "「Oa! Cậu bé thật là sung sức quá đi~」",
+    "fix": "「Oa a a! Cậu bé thật là sung sức quá đi~」",
+    "kind": "vowel",
+    "reason": "わぁあ (wa+2 a = 3 nguyên âm a) → \"Oa a a\"; cũ \"Oa!\" chỉ 1 a (\"Oa\" = /wa/)."
+  },
+  {
+    "key": "1231",
+    "character": "れいな",
+    "jp": "「はうっ――かがみ――\\nれいな、れいなのかがみには――」",
+    "tw": "「哈嗚——鏡子裡——玲奈，玲奈在鏡子裡——」",
+    "old_vn": "「Ha ư——gương——\\nReina, trong gương của Reina thì——」",
+    "fix": "「Hau——gương——\\nReina, trong gương của Reina thì——」",
+    "kind": "moan",
+    "reason": "はうっ→\"Hau\" một từ romaji (tiền lệ hachirokuh3 giữ \"Hau\"); cũ \"Ha ư\" trộn."
+  },
+  {
+    "key": "1232",
+    "character": "れいな",
+    "jp": "「はうぅ～～……。\\nれいな……れいなぁ」",
+    "tw": "「哈嗚嗚～～……玲奈……玲奈啊」",
+    "old_vn": "「Ha ư ư~~……\\nReina…… Reina á~」",
+    "fix": "「Hauu~~……\\nReina…… Reina á~」",
+    "kind": "moan",
+    "reason": "はうぅ (ha+2 u) → \"Hauu\"; cũ \"Ha ư ư\" trộn."
+  },
+  {
+    "key": "1234",
+    "character": "双鉄",
+    "jp": "「ふむ――ならば、僕がご主人さまでよいのか？」",
+    "tw": "「唔——那麼，我就是主人了對嗎？」",
+    "old_vn": "「Hừm——Vậy thì, tôi làm chủ nhân có được không?」",
+    "fix": "「Hừm——Vậy thì, anh làm chủ nhân có được không?」",
+    "kind": "pronoun",
+    "reason": "Soutetsu \"tôi\"→\"anh\" với Reina (quy tắc đã khóa)."
+  },
+  {
+    "key": "1236",
+    "character": "れいな",
+    "jp": "「ふぇっ！？　あの、そおてつさん……これじゃれいな、\\nぎゅっーってするとこないですよぉ」",
+    "tw": "「唔哎！？那個，雙鐵先生……像這樣子，玲奈，沒辦法抱緊緊哦！」",
+    "old_vn": "「Hả!? Dạ, anh Soutetsu…… thế này thì Reina,\\nkhông có chỗ nào để ôm chặt anh đâu ạ~」",
+    "fix": "「Fe!? Dạ, anh Soutetsu…… thế này thì Reina,\\nkhông có chỗ nào để ôm chặt anh đâu ạ~」",
+    "kind": "moan",
+    "reason": "ふぇっ→\"Fe!?\"; cũ \"Hả!?\" mất hoàn toàn âm \"fe\" (chỉ còn nghĩa ngạc nhiên)."
+  },
+  {
+    "key": "1244",
+    "character": "双鉄",
+    "jp": "「ああ――気持ちいい……気持ちいい」",
+    "tw": "「啊——好舒服……好舒服」",
+    "old_vn": "「A——sướng quá…… sướng quá.」",
+    "fix": "「Aa——sướng quá…… sướng quá.」",
+    "kind": "vowel",
+    "reason": "ああ―― (2 a) → \"Aa——\"; cũ \"A——\" thiếu 1 a."
+  },
+  {
+    "key": "1257",
+    "character": "れいな",
+    "jp": "「あ！　そうてつさん、先っぽからよだれ垂らしてますぅ。\\nんふふ～っ、がまんしきれないんですねぇ」",
+    "tw": "「啊！雙鐵先生，你前面流口水了哦。嗯呵呵～看來已經受不了了」",
+    "old_vn": "「A! Anh Soutetsu, ở phần đỉnh đang chảy nước dãi kìa~.\\nƯ phu phu~, anh không chịu nổi nữa rồi nhỉ~」",
+    "fix": "「A! Anh Soutetsu, ở phần đỉnh đang chảy nước dãi kìa~.\\nNfufu~, anh không chịu nổi nữa rồi nhỉ~」",
+    "kind": "moan",
+    "reason": "Cười んふふ～っ là tiếng CƯỜI → \"Nfufu~\"; cũ \"Ư phu phu~\" gắn Ư gasp."
+  },
+  {
+    "key": "1258",
+    "character": "双鉄",
+    "jp": "「っ！！！」",
+    "tw": "「啊！！！」",
+    "old_vn": "「!!!」",
+    "fix": "「Ư!!!」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-whole áp nguyên: JP っ！！！, VN chỉ còn !!! → thêm Ư."
+  },
+  {
+    "key": "1279",
+    "character": "双鉄",
+    "jp": "「っっ！！！」",
+    "tw": "「嗚嗚！！！」",
+    "old_vn": "「Ư!!!」",
+    "fix": "「ƯƯ!!!」",
+    "kind": "sound",
+    "reason": "っっ！！！ = 2 gasp riêng → 2 Ư (TW 嗚嗚); cũ \"Ư!!!\" chỉ 1 Ư (quy tắc đa-っ: 1 Ư/1 っ; tiền lệ Mayami h1 1168)."
+  },
+  {
+    "key": "1282",
+    "character": "双鉄",
+    "jp": "「っ！！！！」",
+    "tw": "「嗚！！！！」",
+    "old_vn": "「!!!!」",
+    "fix": "「Ư!!!!」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-whole áp nguyên: JP っ！！！！, VN chỉ còn !!!! → thêm Ư."
+  },
+  {
+    "key": "1284",
+    "character": "双鉄",
+    "jp": "「ああ――」",
+    "tw": "「嗯——」",
+    "old_vn": "「A——」",
+    "fix": "「Aa——」",
+    "kind": "vowel",
+    "reason": "ああ―― (2 a) → \"Aa——\"; cũ \"A——\" thiếu 1 a."
+  },
+  {
+    "key": "1285",
+    "character": "双鉄",
+    "jp": "「ぉっ――ぁっ」",
+    "tw": "「嗯——啊」",
+    "old_vn": "「Ư——a」",
+    "fix": "「Ô——a」",
+    "kind": "sound",
+    "reason": "ぉっ (nguyên âm o + っ) → \"Ô\"; cũ \"Ư\" đổi nguyên âm o→ư (khác ぁっ→\"A\" giữ nguyên âm a)."
+  },
+  {
+    "key": "1288",
+    "character": "双鉄",
+    "jp": "「ぁあ」",
+    "tw": "「嗯」",
+    "old_vn": "「A.」",
+    "fix": "「Aa.」",
+    "kind": "vowel",
+    "reason": "ぁあ (2 a) → \"Aa.\"; cũ \"A.\" thiếu 1 a."
+  },
+  {
+    "key": "1298",
+    "character": "れいな",
+    "jp": "「んふふ～、ほれひゃあ、ひひはひゅひょ～」",
+    "tw": "「嗯呼呼～類個，好大！」",
+    "old_vn": "「Ư phu phu~, hế hày, ho há hứa ho~」",
+    "fix": "「Nfufu~, Horehyaa, Hihihahyuhyo~」",
+    "kind": "moan",
+    "reason": "Một dòng = một cách diễn (romaji): んふふ～→\"Nfufu~\" (cười), ほれひゃあ→\"Horehyaa\", ひひはひゅひょ～→\"Hihihahyuhyo~\"; cũ \"Ư phu phu~, hế hày, ho há hứa ho~\" diễn sai nguyên âm (ひ→o/á) và mất phụ âm hy-."
+  },
+  {
+    "key": "1299",
+    "character": "れいな",
+    "jp": "「んふふ～～」",
+    "tw": "「嗯呼呼～～」",
+    "old_vn": "「Ư phu phu~~」",
+    "fix": "「Nfufu~~」",
+    "kind": "moan",
+    "reason": "Cười んふふ～～ là tiếng CƯỜI → \"Nfufu~~\"; cũ \"Ư phu phu~~\" gắn Ư gasp."
+  },
+  {
+    "key": "1303",
+    "character": "れいな",
+    "jp": "「んきゅううううううううっっ！　ま、まって、\\nまって、そうてつさぁん！　ふっ、れいな、はやくてっ」",
+    "tw": "「嗯嗚————————！等、等等，等等，雙鐵先生！　呼，玲奈，快要」",
+    "old_vn": "「Ưm kyu ư ư ư ư ư ư ư ư! K-Khoan đã,\\nkhoan đã, anh Soutetsu ơi~! Phu, Reina, nhanh quá」",
+    "fix": "「Nkyuuuuuuuuu! K-Khoan đã,\\nkhoan đã, anh Soutetsu ơi~! Phu, Reina, nhanh quá」",
+    "kind": "moan",
+    "reason": "んきゅううううううううっっ (n+kyu+8 u) → \"Nkyuuuuuuuuu\" (9 u); cũ trộn \"Ưm kyu ư ư…\"."
+  },
+  {
+    "key": "1304",
+    "character": "れいな",
+    "jp": "「んきゅうううううう！　ひゃっ！　やっ！　やぁんっ、\\nおまたっ！　おなかっ――れいなっ――おされてっ！！」",
+    "tw": "「嗯嗚嗚嗚嗚！咿呀！呀！不要，小穴！　玲奈的——肚子——被按著！！」",
+    "old_vn": "「Ưm kyu ư ư ư ư ư ư! Hya! Ya! Ya a,\\nchỗ đó! Bụng——Reina——bị ấn vào!!」",
+    "fix": "「Nkyuuuuuuu! Hya! Ya! Yaan,\\nchỗ đó! Bụng——Reina——bị ấn vào!!」",
+    "kind": "moan",
+    "reason": "んきゅうううううう (n+kyu+6 u) → \"Nkyuuuuuuu\" (7 u); やぁんっ→\"Yaan\" (giữ ん); cũ trộn \"Ưm kyu ư ư…\" + \"Ya a\" mất ん."
+  },
+  {
+    "key": "1305",
+    "character": "双鉄",
+    "jp": "「んぉっ！？」",
+    "tw": "「嗯嗚！」",
+    "old_vn": "「Ưm!?」",
+    "fix": "「Ôm!?」",
+    "kind": "sound",
+    "reason": "んぉっ (n+o+っ) → \"Ôm\" (giữ nguyên âm o + mũi); cũ \"Ưm\" mất nguyên âm o."
+  },
+  {
+    "key": "1306",
+    "character": "れいな",
+    "jp": "「んひゅっ！　はっ、あっ――そうてつ、さぁん――んっ。\\nゆっくり、もっと、もっと――ゆっくりぃ――」",
+    "tw": "「嗯嗚！哈、啊——雙鐵、少爺——嗯。慢點，再，再——再慢點——」",
+    "old_vn": "「Ưm hya! Ha, a——anh Soutetsu, ơi~——ưm.\\nChậm thôi, nữa, nữa đi——chậm thô~i——」",
+    "fix": "「Nhyu! Ha, a——anh Soutetsu, ơi~——ưm.\\nChậm thôi, nữa, nữa đi——chậm thô~i——」",
+    "kind": "moan",
+    "reason": "んひゅっ→\"Nhyu\" (quy tắc ひゃ-family: んひゅ→Nhyu); cũ trộn \"Ưm hya\"."
+  },
+  {
+    "key": "1307",
+    "character": "れいな",
+    "jp": "「んひゅっ！！！」",
+    "tw": "「嗯嗚！！」",
+    "old_vn": "「Ưm hyu!!!」",
+    "fix": "「Nhyu!!!」",
+    "kind": "moan",
+    "reason": "んひゅっ→\"Nhyu\"; cũ \"Ưm hyu\" trộn."
+  },
+  {
+    "key": "1308",
+    "character": "れいな",
+    "jp": "「んきゅんっ！！！」",
+    "tw": "「嗯嗚！！！」",
+    "old_vn": "「Ưm kyun!!!」",
+    "fix": "「Nkyun!!!」",
+    "kind": "moan",
+    "reason": "んきゅんっ (n+kyu+n) → \"Nkyun\"; cũ \"Ưm kyun\" trộn."
+  },
+  {
+    "key": "1328",
+    "character": "れいな",
+    "jp": "「はぁい。うふふぅ。\\nれいな、おててせっくすもだいすきですよぉ」",
+    "tw": "「好的。嗚呼呼。玲奈，也很喜歡用小手手做愛」",
+    "old_vn": "「Vâng ạ~. Ư phu phu~.\\nReina cũng thích làm tình bằng tay lắm đó nha~」",
+    "fix": "「Vâng ạ~. Ufufuu~.\\nReina cũng thích làm tình bằng tay lắm đó nha~」",
+    "kind": "moan",
+    "reason": "Cười うふふぅ là tiếng CƯỜI → \"Ufufuu~\"; cũ \"Ư phu phu~\" gắn Ư gasp."
+  },
+  {
+    "key": "1339",
+    "character": "双鉄",
+    "jp": "「気持ちはいいが、ものたりなくある。もっと強く、\\n僕はれいなに、僕の勃起を可愛がってもらいたい」",
+    "tw": "「感覺很舒服，但是還不夠。再用力點，我希望玲奈快點疼愛我的勃起」",
+    "old_vn": "「Cảm giác rất tuyệt, nhưng vẫn chưa đủ. Mạnh hơn nữa đi,\\ntôi muốn Reina yêu chiều sự cương cứng của tôi.」",
+    "fix": "「Cảm giác rất tuyệt, nhưng vẫn chưa đủ. Mạnh hơn nữa đi,\\nanh muốn Reina yêu chiều sự cương cứng của anh.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu \"tôi\"→\"anh\" với Reina ×2 (cả tự xưng lẫn sở hữu \"của tôi\"→\"của anh\")."
+  },
+  {
+    "key": "1353",
+    "character": "双鉄",
+    "jp": "「ここから先はセックスだ。セックスならば子犬ではなく、\\nれいなと、僕は、したいと望む」",
+    "tw": "「接下來我們要做愛了。要做愛的話，那就不是我跟小狗，而是玲奈和我想要做。",
+    "old_vn": "「Từ đây trở đi là làm tình rồi. Nếu là làm tình thì không phải với cún con,\\nmà là với Reina, tôi muốn làm tình cùng em.」",
+    "fix": "「Từ đây trở đi là làm tình rồi. Nếu là làm tình thì không phải với cún con,\\nmà là với Reina, anh muốn làm tình cùng em.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu \"tôi\"→\"anh\" với Reina (quy tắc đã khóa)."
+  },
+  {
+    "key": "1423",
+    "character": "双鉄",
+    "jp": "「であらばれいな――\\nまずは、おててセックスから願いたい」",
+    "tw": "「那麼，玲奈——首先，麻煩你用小手吧」",
+    "old_vn": "「Nếu vậy thì Reina——\\nTrước tiên, tôi muốn nhờ em làm tình bằng tay.」",
+    "fix": "「Nếu vậy thì Reina——\\nTrước tiên, anh muốn nhờ em làm tình bằng tay.」",
+    "kind": "pronoun",
+    "reason": "Soutetsu \"tôi\"→\"anh\" với Reina (quy tắc đã khóa)."
+  },
+  {
+    "key": "1424",
+    "character": "れいな",
+    "jp": "「そぉてつ、さん、が――あっ――こんと、ろーる――\\nふ、あっ！　れいな――れいなの――おもらし、をっ」",
+    "tw": "「雙鐵、先生、幫玲奈——啊——控、制——呼，啊！　玲奈——玲奈——尿尿」",
+    "old_vn": "「Anh Soutetsu, sẽ——a——kiểm, soát——\\nphu, a! Reina——việc tè dầm——của Reina, sao」",
+    "fix": "「Anh Soutetsu, sẽ——a——kiểm, soát——\\nFu, a! Reina——việc tè dầm——của Reina, sao」",
+    "kind": "moan",
+    "reason": "ふ、あっ (fu, a — nói lắp) → \"Fu, a!\" (giữ dấu phẩy); cũ \"phu, a!\" — chuyển romaji theo fallback họ fa/fu."
+  },
+  {
+    "key": "1431",
+    "character": "双鉄",
+    "jp": "「っ！！！」",
+    "tw": "「！！！」",
+    "old_vn": "「!!!」",
+    "fix": "「Ư!!!」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-whole áp nguyên: JP っ！！！, VN chỉ còn !!! → thêm Ư."
+  },
+  {
+    "key": "1432",
+    "character": "双鉄",
+    "jp": "「っ！！！！」",
+    "tw": "「！！！！」",
+    "old_vn": "「!!!!」",
+    "fix": "「Ư!!!!」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-whole áp nguyên: JP っ！！！！, VN chỉ còn !!!! → thêm Ư."
+  },
+  {
+    "key": "1433",
+    "character": "双鉄",
+    "jp": "「っ！！！！！！」",
+    "tw": "「！！！！！！」",
+    "old_vn": "「!!!!!!」",
+    "fix": "「Ư!!!!!!」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-whole áp nguyên: JP っ！！！！！！, VN chỉ còn !!!!!! → thêm Ư."
+  },
+  {
+    "key": "1434",
+    "character": "双鉄",
+    "jp": "「っ！？」",
+    "tw": "「！？」",
+    "old_vn": "「!?」",
+    "fix": "「Ư!?」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-whole áp nguyên: JP っ！？, VN chỉ còn !? → thêm Ư."
+  },
+  {
+    "key": "1440",
+    "character": "れいな",
+    "jp": "「～～～～～～～～～～～～～～っ！！！！」",
+    "tw": "「～～～～～～～～～～～～～～嗚！！！！」",
+    "old_vn": "「~~~~~~~~~~~~~~!!!!」",
+    "fix": "「~~~~~~~~~~~~~~Ư!!!!」",
+    "kind": "gasp",
+    "reason": "Sweep lost-gasp-trailing áp nguyên: JP ～×14+っ！！！！, VN giữ ~ nhưng mất gasp → thêm Ư sau ~."
+  },
+  {
+    "key": "1584",
+    "character": "monologue",
+    "jp": "ああ――そうだ。れいなはレディで。\\nレディであると同時に深く……女であるのだ。",
+    "tw": "嗯——是啊。玲奈是個淑女。既是淑女，同時又深刻地……是個女人。",
+    "old_vn": "A——đúng rồi. Reina là một quý cô.\\nĐồng thời với việc là một quý cô, em ấy cũng sâu sắc là một…… người phụ nữ.",
+    "fix": "Aa——đúng rồi. Reina là một quý cô.\\nĐồng thời với việc là một quý cô, em ấy cũng sâu sắc là một…… người phụ nữ.",
+    "kind": "vowel",
+    "reason": "ああ―― (2 a, thốt \"à\" nhận ra) → \"Aa——\"; cũ \"A——\" thiếu 1 a."
+  }
+]
