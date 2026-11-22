@@ -1,7 +1,7 @@
 {
   "base": {
     "items": 21,
-    "rows": 585
+    "rows": 590
   },
   "investigations": [
     {
@@ -225,7 +225,7 @@
       ],
       "scope": "Munakata tao (incl. rows without clear ore), anh trai cua Hibiki, dai dien",
       "slug": "s2-munakata-misc",
-      "status": "queued"
+      "status": "running"
     },
     {
       "batch": "U10",
@@ -485,7 +485,7 @@
     },
     {
       "batch": "U2c",
-      "status": "running",
+      "status": "merged",
       "scope": "T1+T2 leftovers: bare \"Đường sắt Ohito\" remaining in folders 00-05 after U1/U2a (Hachiroku01 2467, Hachiroku12 1900/2089, Hibiki08 3719, Mayami h3 2524 + any other rows whose current value still contains bare Ohito in 00-05)"
     },
     {

@@ -7,7 +7,7 @@ Base state at pass start (22/11 ~11:00): audit COMPLETE 216/216, 9,927 wrong; mo
 
 ## Totals chain
 
-**Tổng cộng sau đợt này: 21 mục / 585 dòng sai (unification)** (cơ sở 18 mục / 479 dòng + đợt U6 §2 P2/P14/O1: 3 mục / 106 dòng — gộp 22/11 ~11:25, parent kiểm chứng: U6 JSON 106 = TOML block 106 (30 file, 1 fence 30 [script]), jp/tw CSV3-exact, old_vn khớp map hiện tại (102 CSV3 + 3 audit + 1 U1c), diff chỉ đổi đại từ (giữ 'Cô bé'/'công' nguyên — kiểm chứng từng dòng), second pass 106/106; Grand 01 2181 fix U6 đã bao gồm fix U1c)
+**Tổng cộng sau đợt này: 21 mục / 590 dòng sai (unification)** (cơ sở 21 mục / 585 dòng + đợt U2c T1+T2 leftovers 00–05: 5 dòng (cùng mục T1/T2) — gộp 22/11 ~11:35, parent kiểm chứng: U2c JSON 5 = TOML block 5, jp/tw CSV3-exact, old_vn khớp map hiện tại (U1a/U1b fixes), diff chỉ đổi 'Đường sắt Ohito'→'Đường sắt Ohitoyo', second pass 5/5; T1+T2 folders 00–05 HOÀN TẤT)
 
 ## Decisions log (coordinator decisions on OPEN items — evidence in batch reviews)
 
@@ -137,3 +137,18 @@ Base state at pass start (22/11 ~11:00): audit COMPLETE 216/216, 9,927 wrong; mo
   - M68 れろ: short → "liếm"; long (≥3) → romaji "Rero…" — Group 1 (4 rows, real loss: ハチロクh8 841, 日々姫h3 1857, れいなh2 1084, れいなh2 1114) + Group 2 (~10 rows, already render length via m-stretch/"dài" — CONVERT to romaji for uniformity, coordinator decision) + lr_日々姫ふかみh1 1461 normalize "rê roooo"→"Reroooo" + 凪h2 2546 "Ngoáyyyyyy"→romaji. "rộp" (14 rows) UNTOUCHED — waits for T77 (Hieu).
   - M70 きゅ: do NOT force long→romaji project-wide; per-file system (romaji-system files: short→meaning, long ≥3→romaji; VN-verb files: keep meaning + fix counts via M14); 1 row to re-check (真闇h2 1842, mixed in one row).
   - F1 list corrections (§0, to fix in UNIFICATION-LIST.md, not followed blindly): 6 wrong-file citations (M7 凪h2 1195→lr_ふかみh2; れいなh1 1225→lr_れいなh1; M8 lr_ふかみh2→lr_凪h2; M15 ハチロクh9 2323/2328→真闇h3; 凪ふかみh1 F5 1061→れいなh3 1061; M10 凪ふかみ01 1547→凪ふかみ01_流れ 1547); moan-h8 2187 precedent DOES exist (ポーレットh8 2187, startled やっ→"Á"); ROUTE-MOANS.md lr_ニイロクh F1 is a copy error (flag belongs to lr_稀咲h1 991/992); ふかみh1 967 "Hyaaann" CORRECT (3a+2n); "33 rows んっ→'ưn'" is a polluted count (real: 8 standalone, 2 bare); audit-obasan-wrong.json (255) has no fixes (already known — excluded from coordinator's maps).
+
+# Snippet — Unification U2c: §1 T1/T2 "Ohito" leftovers (folders 00–05)
+
+- Đợt U2c: mục §1 T1 (DECIDED 19/11, Hieu) + T2 (DECIDED 21/11 ~17:30, Muse theo uỷ quyền) — dạng cũ "Ohito" / "Đường sắt Ohito" còn sót trong 6 folder 00/01/02/03/04/05 sau các đợt U1a/U1b/U1c/U2a: **5 dòng sửa, 4 file** (ハチロク01 2467, ハチロク12 1900/2089, 日々姫08 3719, 真闇h3 2524). Cả 5 đều là T2 ("Đường sắt Ohito" → "Đường sắt Ohitoyo"); 0 dòng T1 trần, 0 dòng T1+T2. Cả 5 dòng đều chứa cả "Ohimitera" lẫn "Ohito" nên U2a đã loại, còn U1 chỉ sửa phần "Ohimitera".
+- Cả 5 dòng đều đọc JP (+TW) và xác nhận JP chứa 御一夜鉄道; TW đồng ý 5/5. 0 dòng flag misalignment; lượt soát 2: 5/5 xác nhận lại, 0 loại bỏ, 0 sửa lại. old_vn = fix U1a (4 dòng) / U1b (真闇h3 2524); kiểm chứng chéo TOML-2: 5/5 (sau khi quy đổi Ohimitera→Ohitoyo + dẹp `\\n`).
+- Ranh giới: "(Yui)" ở 日々姫08 3719 (JP （湯医）) thuộc mục T7, không đụng; 00_Common / 03_Paulette / 04_Reina: 0 dòng. Không đụng dòng gasp Ư hay dòng "Kh" nào; 0 lần "Ohito" trong gloss %l.
+- Quét toàn bộ 00–05: CSV3 VN có "Ohito" trần trong 253 dòng; 248 dòng đã đúng ở giá trị hiện tại (135 qua fix unification, 113 qua fix audit), chỉ 5 dòng còn sót. Lưu ý phương pháp: giá trị hiện tại đúng là unification (đã gộp) > moan > audit > CSV3 theo QUY TẮC REBUILD — thứ tự moan > audit > unification sẽ cho thừa 9 dòng đã sửa xong trong U2a (ハチロク04 1823/2112/1855/1920, ハチロク05 2960, ハチロク15b 1637, 日々姫16 2107, ポーレット03 1750, ハチロク12 2565), đã kiểm chứng từng dòng và không đưa vào đợt này.
+- File: `unification/unification-t1-ohito-leftovers-00-05-REVIEW.md` + `unification-t1-ohito-leftovers-00-05-wrong.json` (5 mục, kind="terminology", item="T2").
+
+**Tổng cộng sau đợt này: 21 mục / 590 dòng sai (unification)** (cơ sở 21 mục / 585 dòng + đợt U2c 5 dòng — T1 và T2 đều đã tính nên không cộng thêm mục; đối chiếu ROUTE-UNIFICATION.md 22/11 ~11:25, lúc U6 vừa gộp)
+
+
+- PRECEDENCE CORRECTION (22/11 ~11:35, U2c worker found, coordinator CONFIRMED): current-value order is **unification (merged, in merge order) > moan > audit > CSV3** — NOT moan > audit > unification as the original brief stated. Proof: U2c's old_vn for 3719 = U1a's merged fix; using the old order yields 14 false candidates vs the correct 5 (9 rows already fixed by U2a). All future verifications must load ONLY merged unification JSONs (in-progress worker files must NOT be in the map — U4's unmerged file briefly polluted a check with its "(Yunoi)" value for 3719).
+- OVERLAP WARNING (22/11 ~11:35): 日々姫08 3719 is in BOTH U2c (merged: "Đường sắt Ohito"→"Đường sắt Ohitoyo", keeps "(Yui)") and U4 (running: "(Yui)"→"(Yunoi)", keeps "Đường sắt Ohito"). Neither fix contains the other's change — when U4 completes, its 3719 fix MUST be corrected to the combined value 'Đoạn (Yunoi) - Ohitoyo - Hayato là của Đường sắt Ohitoyo.\n…' before merging, or the merge-order overwrite will regress one change. Same check required for every U4 row overlapping a merged batch.
+- U2c side notes: audit-obasan-wrong.json superseded by audit-paulette03-obasan-wrong.json (its 4 Ohito rows already fixed there); 2 audit entries have fix: null (凪ふかみ08a 2426, ポーレット13 1357 — known uncertain rows; treat as no-fix; verification maps must skip fix:null).

@@ -1,0 +1,9 @@
+# Snippet — Unification U2c: §1 T1/T2 "Ohito" leftovers (folders 00–05)
+
+- Đợt U2c: mục §1 T1 (DECIDED 19/11, Hieu) + T2 (DECIDED 21/11 ~17:30, Muse theo uỷ quyền) — dạng cũ "Ohito" / "Đường sắt Ohito" còn sót trong 6 folder 00/01/02/03/04/05 sau các đợt U1a/U1b/U1c/U2a: **5 dòng sửa, 4 file** (ハチロク01 2467, ハチロク12 1900/2089, 日々姫08 3719, 真闇h3 2524). Cả 5 đều là T2 ("Đường sắt Ohito" → "Đường sắt Ohitoyo"); 0 dòng T1 trần, 0 dòng T1+T2. Cả 5 dòng đều chứa cả "Ohimitera" lẫn "Ohito" nên U2a đã loại, còn U1 chỉ sửa phần "Ohimitera".
+- Cả 5 dòng đều đọc JP (+TW) và xác nhận JP chứa 御一夜鉄道; TW đồng ý 5/5. 0 dòng flag misalignment; lượt soát 2: 5/5 xác nhận lại, 0 loại bỏ, 0 sửa lại. old_vn = fix U1a (4 dòng) / U1b (真闇h3 2524); kiểm chứng chéo TOML-2: 5/5 (sau khi quy đổi Ohimitera→Ohitoyo + dẹp `\\n`).
+- Ranh giới: "(Yui)" ở 日々姫08 3719 (JP （湯医）) thuộc mục T7, không đụng; 00_Common / 03_Paulette / 04_Reina: 0 dòng. Không đụng dòng gasp Ư hay dòng "Kh" nào; 0 lần "Ohito" trong gloss %l.
+- Quét toàn bộ 00–05: CSV3 VN có "Ohito" trần trong 253 dòng; 248 dòng đã đúng ở giá trị hiện tại (135 qua fix unification, 113 qua fix audit), chỉ 5 dòng còn sót. Lưu ý phương pháp: giá trị hiện tại đúng là unification (đã gộp) > moan > audit > CSV3 theo QUY TẮC REBUILD — thứ tự moan > audit > unification sẽ cho thừa 9 dòng đã sửa xong trong U2a (ハチロク04 1823/2112/1855/1920, ハチロク05 2960, ハチロク15b 1637, 日々姫16 2107, ポーレット03 1750, ハチロク12 2565), đã kiểm chứng từng dòng và không đưa vào đợt này.
+- File: `unification/unification-t1-ohito-leftovers-00-05-REVIEW.md` + `unification-t1-ohito-leftovers-00-05-wrong.json` (5 mục, kind="terminology", item="T2").
+
+**Tổng cộng sau đợt này: 21 mục / 590 dòng sai (unification)** (cơ sở 21 mục / 585 dòng + đợt U2c 5 dòng — T1 và T2 đều đã tính nên không cộng thêm mục; đối chiếu ROUTE-UNIFICATION.md 22/11 ~11:25, lúc U6 vừa gộp)

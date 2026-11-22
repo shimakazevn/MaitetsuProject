@@ -1,6 +1,6 @@
 # Unification pass queue
 
-Base: **21 mục / 585 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head d552993e; sync record 95 entries.
+Base: **21 mục / 590 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head d552993e; sync record 95 entries.
 
 ## Investigations (evidence + recommendation only, no fixes)
 - E1 DECIDED 22/11 ~11:25 — §1 OPEN T56–T66 (11 items decided by coordinator; 173 rows for U13a)
@@ -20,7 +20,7 @@ Base: **21 mục / 585 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head d55
 - U7a RUNNING — §2 P4 Kisaki anh-Soutetsu, 03+06 files
 - U7b RUNNING — §2 P4 Kisaki anh-Soutetsu, tsuika + lr files (U8 must wait until U7b merges — same tsuika files, same rows, two changes each)
 - U8 QUEUED — §2 P3/P5/P6/P8 + §6 F17–F24 + O2/O3 (Niiroku + tsuika cluster)
-- U9 QUEUED — §2 P15 + O61 + §6 F28 + P7
+- U9 RUNNING — §2 P15 Munakata "tao" + O61 + P7 (F28 already done in U10 — removed from scope)
 - U10 MERGED 22/11 ~11:20 — §6 file-specific DECIDED: 16 mục / 32 dòng (F10 sửa theo CSV3; F36/F38 list errors ghi trong ROUTE)
 - U10b QUEUED — §6 F30 moan-beats-audit restorations
 - U11a QUEUED — §3 M1/M16/M17 fa/fu
@@ -33,7 +33,7 @@ Base: **21 mục / 585 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head d55
 ## PARKED (not in this pass)
 - §5 tag sweep S1–S5, S7 (B19 gate); §4 G13/G14; §1 T80 (in-game font check).
 
-- U2c RUNNING — T1+T2 leftovers: bare "Đường sắt Ohito" còn sót ở folders 00–05 sau U1/U2a (4 dòng đã biết + quét thêm)
+- U2c MERGED 22/11 ~11:35 — T1+T2 leftovers 00–05: 5 dòng (T1+T2 folders 00–05 hoàn tất)
 
 - U13a RUNNING — §1 OPEN T56–T66 application (173 rows, coordinator decisions 22/11 ~11:25)
 
