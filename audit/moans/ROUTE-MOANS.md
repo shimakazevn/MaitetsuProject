@@ -1130,3 +1130,21 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 - Parent kiểm chứng 22/11 ~09:55: JSON 26 mục dạng chuẩn, khóa string; khối TOML 26 khóa, 0 sai lệch giá trị; jp/tw khớp CSV3 26/26; old_vn khớp CSV3 13/13 (13 dòng còn lại old_vn = giá trị audit cùng key — diff moan-fix vs audit-fix chỉ khác đúng token rên, đã kiểm chứng cơ học 13/13); TOML md5 khớp agent; đếm nguyên âm kiểm chứng độc lập: 866 12u ✓, 1002 6u ✓, 931 5u ✓, 928 7a ✓, 1121 4i ✓, 987 2u/3u ✓, 952 2u ✓; sweep 32 mục (30 trong audit + 2 already-rendered 1718/956), 9 key trùng sweep chỉ khác đúng token rên, giữ nguyên mọi Ư của audit; không dòng "Kh"; lượt soát 2: 26/26, 0 bỏ, 0 sửa.
 - SỬA (parent): key 1000 "Ư iiiiiiii" (8 i) → "Ư iiiiiiiii" (9 i) — agent đếm thiếu 1: JP んひいいいいいいいいっ có ひ(1) + い×8 = 9 âm i (agent ghi "い×7"); đã sửa wrong.json + REVIEW (§3d, §7, khối TOML) + snippet.
 - FLAG (đợt thống nhất): F1–F3, F5–F7 như trên. F4 ĐÃ GIẢI QUYẾT lúc gộp: tiền lệ "moan-h8 2187" KHÔNG tồn tại (parent đã kiểm chứng ở lần gộp hachiroku-h1 21/11 ~14:15: h8 không có key 2187 trong CSV3 lẫn audit wrong.json) — "Ya" cho やっ giữ nguyên, không còn mâu thuẫn.
+
+# Moan-fix snippet — lr_日々姫h2_デザートは食事の前に.txt.toml (moan-lr-hibikih2-dessert-wa-shokuji-no-mae-ni)
+
+- File: `02_Hibiki/lr_日々姫h2_デザートは食事の前に.txt.toml` — H-scene Hibiki "món tráng miệng trước bữa ăn"; 288 dòng.
+- Đọc 288/288 dòng, xét 149 dòng rên/SFX (112 thoại + 4 độc thoại gasp + 33 SFX ngoặc), đổi 5 dòng, giữ 144 dòng.
+- Lỗi duy nhất: ふあっ (2 mora) bị render thiếu mora "u" thành "Fa"/"fa" — sửa "Fua"/"fua" (1172, 1173 token 2, 1174, 1175, 1176); tiền lệ moan-h4 ふあっ→"Fua", quy tắc romaji fallback 21/11 ~01:56.
+- ふぁ (1 mora) đã đúng, giữ: 1106 "fa", 1038 "famu"; ぷぁ/ぷあ giữ: 949/1051/1089 "pua"/"Pua!".
+- Họ ひゃ/ひゅ/ひあ → romaji đúng quy tắc 3b, giữ: 937 "Hyua" (14a/2n), 941 "Hyua", 942 "Hyagu", 943 "Hia", 946 "Hya", 1185 "hia".
+- Nói ngọng (miệng đầy) không phải dòng rên, giữ: 1033 "Hyababa, bafi", 1057 "meshiagare".
+- Grunt Soutetsu họ く/グッ → "Hự" nhất quán toàn file, giữ: 696, 697, 948, 968, 969, 970, 1159.
+- Cờ audit (6) đã giải quyết — giữ: 939 "fu"/"a", 984 "ha", 994 中っ (ngắt diễn bằng —— + "a!"), 1169/1170/1171 "ha" (ngắt diễn bằng ——/!).
+- Audit đếm nguyên âm/phụ âm kiểm chứng lại bằng máy, tất cả đúng: 937 14a/2n, 973 3u, 1001 10u/2n, 1016 2u/3u/8u, 1043 12o, 1066 10u, 1070 19t, 1088 6a, 1658 4ự, 1660 6i, 1677 13u, 1682 4o/2o, 1686 11i, 1687 10o, 1688 5i.
+- SFX ngoặc giữ toàn bộ (quy ước diễn nghĩa của file); không đụng dòng gasp Ư nào; file không có dòng "Kh".
+- Cờ đợt thống nhất: F1 công thức đếm t/c cho SFX ngoặc dài (1666 4t vs 1668 5t cùng 3u; 1679, 1681, 1682/1683); F2 1659 "Siết chặt!" không kéo dài; F3 "nfufu" vs "Nfufu"; F4 "Phùa" vs "Fua"; F5 1665 "phụ——t".
+- Sweep gasp kiểm tra trực tiếp 16/16 mục — đều đã nằm trong audit; không đụng dòng gasp Ư nào.
+- Lượt soát 2: 5/5 tái kiểm chứng, 0 bỏ, 0 sửa. TOML md5 `278bb98599c53cd1d22db62a29101c26`; CSV3 1 bộ 288 dòng, 0 key trùng; khối TOML 5 khóa parse OK, 0 sai lệch.
+
+**Tổng cộng sau file này: 56 file / 1351 dòng sai (moan)** (cơ sở 55 file / 1346 dòng + 5 file này)
