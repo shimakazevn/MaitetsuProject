@@ -1,0 +1,1373 @@
+﻿# グランドリライト01_オール御一夜、成立ならず.txt
+
+[info]
+
+[characters]
+# JP: ふかみ
+3174 = "Fukami"
+# JP: れいな
+3205 = "Reina"
+# JP: ハチロク
+3238 = "Hachiroku"
+# JP: ポーレット
+3249 = "Paulette"
+# JP: 元忠
+3326 = "Mototada"
+# JP: 凪
+3377 = "Nagi"
+# JP: 双鉄
+3397 = "Soutetsu"
+# JP: 日々姫
+3595 = "Hibiki"
+# JP: 浦上
+3675 = "Urakami"
+# JP: 登呂流湯主人
+3711 = "Chủ nhà tắm"
+# JP: 真闇
+3721 = "Mayami"
+# JP: 稀咲
+3756 = "Kisaki"
+# JP: 蓑笠
+3815 = "Minokasa"
+# JP: 赤井
+3882 = "Akai"
+# JP: 路子
+3889 = "Michiko"
+
+[character_subs]
+# JP: 全員
+3347 = "Tất cả"
+# JP: 八六
+3350 = "Hachiroku"
+# JP: 日日姬
+3614 = "Hibiki"
+# JP: 波萊特
+3668 = "Paulette"
+# JP: 深美
+3681 = "Fukami"
+# JP: 玲奈
+3694 = "Reina"
+# JP: 登呂流浴場老闆
+3705 = "Chủ nhà tắm"
+# JP: 稀咲＆波萊特
+3785 = "Kisaki & Paulette"
+# JP: 雙鐵
+3937 = "Soutetsu"
+# JP: 雙鐵＆波萊特
+3938 = "Soutetsu & Paulette"
+# JP: ３人
+3986 = "3 người"
+
+[script]
+# JP: ――みながみな、微妙な笑顔で去っていく。\n僕への応援の言葉を添えて。
+1484 = "——Tất cả mọi người, đều rời đi với những nụ cười gượng gạo.\\nKèm theo những lời động viên dành cho tôi."
+# JP: ――れいなさえもだ。それが、嬉しい。\nひときわ無邪気な凪以外、みながわかってくれている。
+1486 = "——Ngay cả Reina cũng vậy. Điều đó làm tôi thấy vui.\\nNgoài Nagi ngây thơ ra, mọi người đều hiểu rõ lý do."
+# JP: ――ほんの一瞬のフラッシュバック。\nこわばったのも、ただひとときであった筈。
+1488 = "——Chỉ là một thoáng hồi tưởng ngắn ngủi. Chắc tôi cũng chỉ cứng người lại trong chốc lát mà thôi."
+# JP: 『いずれ走らせるものですから』――
+1504 = "『Vì rồi sẽ có ngày cho nó chạy mà』——"
+# JP: ……ご指摘通り、確かに“銀行側”の意見だ。\n鹿兒銀も他の銀行も、同じ不足を指摘してくるだろうから。
+1508 = "……Đúng như ông ấy đã chỉ ra, quả thực đó là ý kiến của “phía ngân hàng”.\\nBởi vì Kagoshima Bank hay các ngân hàng khác, chắc chắn cũng sẽ chỉ ra những thiếu sót tương tự."
+# JP: ……心強さと嬉しさに、軽く頷いたその瞬間。
+1511 = "……Ngay khoảnh khắc tôi khẽ gật đầu vì vừa vững lòng vừa vui mừng."
+# JP: 「――『未来行き列車』か」
+1518 = "「——『Chuyến tàu đi đến tương lai』 sao.」"
+# JP: 「――っ」
+1519 = "「——Ư」"
+# JP: 「――さきほど、ハチロク君が言ったよね？\n『どの鉄道事業者も、強く復線を望んでいる』って」
+1521 = "「——Lúc nãy, Hachiroku đã nói rồi nhỉ? 'Bất cứ đơn vị kinh doanh đường sắt nào cũng đều mong muốn khôi phục tuyến đường một cách mạnh mẽ' ấy.」"
+# JP: 「――はいっ！　左様でございますね！\nそれでは、双鉄様の、家族として、相棒として」
+1522 = "「——Vâng! Ngài nói đúng ạ!\\nVậy thì, với tư cách là gia đình, là đối tác của ngài Soutetsu...」"
+# JP: 「――拝命します。喜んで」
+1524 = "「——Cháu xin nhận lệnh. Rất sẵn lòng.」"
+# JP: 「――はい」
+1526 = "「——Vâng.」"
+# JP: 「――わかった。\nにぃにがそうしたいなら、誘ってみるけん」
+1528 = "「——Em hiểu rồi.\\nNếu anh hai muốn vậy, em sẽ thử rủ xem sao.」"
+# JP: 「――稀咲はどうだ？」
+1530 = "「——Kisaki thì sao?」"
+# JP: 「――ありがとう、本当に心強い」
+1531 = "「——Cảm ơn mọi người, có mọi người ở đây tôi thấy vững lòng lắm.」"
+# JP: 「――ありがとうございます」
+1532 = "「——Xin cảm ơn ngài.」"
+# JP: 「『どこへだっていける』は、結局、\n『どこへもいかない』という選択肢をも浮き上がらせる」
+1548 = "「'Đi đâu cũng được' thì, rốt cuộc, cũng làm nổi bật lên cả lựa chọn 'chẳng đi đâu cả'.」"
+# JP: 「『御一夜鉄道未来行き列車を、必ずこの手で。\n僕らの重ねたこの手できっと！　走らせよう！』」
+1550 = "「'Chuyến tàu hướng tới tương lai của Đường sắt Ohitoyo, nhất định bằng đôi tay này.\\nBằng những đôi tay đang đan vào nhau này, chắc chắn! Sẽ lăn bánh!'」"
+# JP: 「っ」
+1556 = "「……」"
+# JP: 「……ほんなん、少しも気にせんでも、\n双ちゃん、ふだんからできとーよ？」
+1576 = "「……Chuyện đó, không cần bận tâm chút nào đâu,\\nSou-chan, bình thường em vẫn làm được mà?」"
+# JP: 「……“銀行”の力だけを望むのであれば、\n他にも、選択肢は出てきますので」
+1577 = "「……Nếu chỉ mong muốn sức mạnh của “ngân hàng”,\\nthì vẫn còn những lựa chọn khác nữa.」"
+# JP: 「……あらまぁ」
+1579 = "「……Ôi chao.」"
+# JP: 「……うーむ、それほど厳しい状況に見えるのか？\n会議の成果としては、上々の線だったかと思うが」
+1581 = "「……Hừm, tình hình trông có vẻ nghiêm trọng đến vậy sao?\\nTôi nghĩ kết quả của cuộc họp, cũng nằm ở mức khá tốt rồi mà.」"
+# JP: 「……まとめとなると、まとめた者の視点が混じろう。\nしかし僕は。今回ばかりは、一人で考えてみたいのだ」
+1583 = "「……Khi tóm tắt, góc nhìn của người tóm tắt sẽ bị trộn lẫn vào.\\nNhưng tôi thì. Chỉ riêng lần này, tôi muốn tự mình suy nghĩ.」"
+# JP: 「……今の僕が入っては、絵にならんのだ」
+1587 = "「……Nếu tôi vào chụp lúc này, sẽ phá hỏng bức ảnh mất.」"
+# JP: 「……練習すれば、どうでしょう？\nあれは、私にも出来ますか？」
+1588 = "「……Nếu em luyện tập, thì sao nhỉ?\\nCái đó, em cũng có thể làm được chứ?」"
+# JP: 「……そのとおりだ。やっぱり日々姫の目は素敵だね。\n現実の一番綺麗なあり方を、ボクに見せてくれる」
+1592 = "「……Đúng vậy. Quả nhiên mắt của Hibiki rất đẹp. Từ cậu, tôi được thấy dáng vẻ đẹp đẽ nhất của hiện thực.」"
+# JP: 「……だろうね」
+1594 = "「……Có lẽ là vậy nhỉ.」"
+# JP: 「……あるいはそれが、僕の色。僕の本質なのかもしれん。\nだとしても、正しい路を示せぬのであれば――」
+1601 = "「……Hoặc có lẽ đó là, màu sắc của tôi. Là bản chất của tôi.\\nDù vậy, nếu không thể chỉ ra con đường đúng đắn thì——」"
+# JP: 「……好意は、とてもありがたい。\nが――」
+1602 = "「……Lòng tốt của mọi người, tôi rất biết ơn.\\nNhưng mà——」"
+# JP: 「……線路はカタログ。駅は観光商品か。\nそれは――うん、個人的には、ほんの少しだけ面白い」
+1605 = "「……Tuyến đường là catalogue. Nhà ga là hàng hóa du lịch sao. Cái đó—— ừm, với cá nhân tôi thì, chỉ hơi thú vị một chút thôi.」"
+# JP: 「……このようなときには、\n『[エイエイオウ,4]曳・叡・王がふさわしいかと存じます』」
+1608 = "「……Trong những lúc thế này,\\ntôi nghĩ hô 'Ei ei ou' là thích hợp nhất ạ.」"
+# JP: 「……にぃにぃ」
+1609 = "「……Anh hai.」"
+# JP: 「……そうなのだが、な」
+1611 = "「……Đúng là vậy, nhưng mà.」"
+# JP: 「……御一夜銀行も、\nこの復線買収をすでに検討していたのですか？」
+1612 = "「……Ngân hàng Ohitoyo cũng,\\nđã xem xét việc mua lại để phục hồi tuyến đường này rồi sao?」"
+# JP: 「えい！　えい！」
+2036 = "「Ei! Ei!」"
+# JP: 「おー！」
+2042 = "「Ou!」"
+# JP: 「いや……。なるほど、僕は怖いのか」
+2047 = "「Không……. Ra là vậy, tôi đang sợ sao.」"
+# JP: 「いえ。宝生元忠氏、宝生稀咲氏。それに浦上氏。\nそれぞれ、個々人のお力をです」
+2050 = "「Không. Là ông Houshou Mototada, cô Houshou Kisaki. Và cả ông Uragami.\\nLà sức mạnh của từng cá nhân mỗi người.」"
+# JP: 「やのーて」
+2051 = "「Không phải thế.」"
+# JP: 「本線じゃなくて温線ばい！\n温泉のせんと、線路のせんをかけるばい！！」
+2052 = "「Không phải là tuyến chính mà là tuyến suối nóng đấy! Là chơi chữ giữa chữ 'tuyến' của suối nước nóng với chữ 'tuyến' của đường ray đấy!!」"
+# JP: 「銀行としてではなく、個人としてだ。\n行として検討するに足る案とは考えていない」
+2054 = "「Không phải với tư cách ngân hàng, mà là với tư cách cá nhân.\\nTôi không cho rằng đây là một phương án đáng để ngân hàng phải xem xét.」"
+# JP: 「構わない――というか、むしろ続けて欲しい。\n“興味深い”のは、エアクラ社としての見解？」
+2057 = "「Không sao đâu——hay đúng hơn là, tôi muốn ông cứ tiếp tục.\\n“Thú vị” là, kiến giải với tư cách của công ty Aircra sao?」"
+# JP: 「そいでも、調和は生めるけん」
+2064 = "「Nhưng mà, sự hòa hợp thì vẫn tạo ra được mà.」"
+# JP: 「けどね？　仮にそう出来たとしても」
+2065 = "「Nhưng mà này? Cho dù có làm được như vậy đi nữa——」"
+# JP: 「が、成功するものとは思えない。\n“宅地”の買収は、それほどに困難なものだ」
+2066 = "「Nhưng, ta không nghĩ là sẽ thành công.\\nViệc mua lại “đất ở”, là một việc khó khăn đến mức đó đấy.」"
+# JP: 「でも、そぎゃん方向はありと思うとっ――思います。\n例えば、“夕陽・湯煙線”みたいな愛称つけるとか」
+2067 = "「Nhưng mà, em nghĩ hướng đó cũng được đó—— em nghĩ vậy. Ví dụ như đặt một biệt danh kiểu 'Tuyến Hoàng hôn・Khói suối' chẳng hạn.」"
+# JP: 「しかし、何故日々姫はナッパ服なのだ？\nもちろん、この上なく似合ってはいるのだが――」
+2068 = "「Nhưng mà, sao Hibiki lại mặc đồ da nappa thế? Đương nhiên là, hợp với em vô cùng——」"
+# JP: 「けど？」
+2069 = "「Nhưng mà?」"
+# JP: 「いや、見込める。なぜなら[せんだい,1]千内－八ツ城間には、\n御一夜のような、いわゆる温泉観光地が無いゆえに」
+2071 = "「Không, có triển vọng đấy. Vì đoạn từ Sendai đến Yatsushiro không có nơi du lịch suối nước nóng như Ohitoyo đâu.」"
+# JP: 「いや、必要だ。絶対に」\n「いいえ、必要です、絶対に」
+2072 = "「Không, cần lắm. Nhất định.」\\n「Không, cần thiết ạ, nhất định ạ.」"
+# JP: 「つまり湯医線沿線に、同等レベル以上の施設を作れれば、\nそこは、より移送コストの低い受託先となり得ます」
+2078 = "「Tức là, nếu dọc theo tuyến Yunoi mà xây dựng được cơ sở vật chất ở mức tương đương trở lên, thì nơi đó có thể trở thành bên nhận thầu với chi phí vận chuyển thấp hơn.」"
+# JP: 「ほんなら、おねーちゃんもまざっちゃお」
+2081 = "「Vậy thì, chị cũng tham gia luôn nha.」"
+# JP: 「まぁその[きふう,1]気風も、今は昔ともなっていましょうが。\nしかし……なるほど、みかん鉄道と繋げますか」
+2096 = "「Ừm, cái khí chất đó thì giờ cũng đã thành chuyện xưa rồi. Nhưng mà…… ra là vậy, nối với Đường sắt Mikan sao.」"
+# JP: 「けれど、地道なご縁づくりは日々姫の、\n市政はそれこそ、ポーレット様の得意分野かと」
+2098 = "「Nhưng mà, việc tạo dựng các mối quan hệ một cách vững chắc là lĩnh vực sở trường của Hibiki,\\ncòn chính quyền thành phố thì lại là của cô Paulette.」"
+# JP: 「だが、調和できる。今回の復線が成れば、\nエアクラ工場立地の候補地も大きく広がる」
+2101 = "「Nhưng mà, có thể dung hòa được. Nếu việc phục hồi tuyến đường lần này thành công,\\ncác địa điểm ứng cử cho việc đặt nhà máy Aircra cũng sẽ được mở rộng đáng kể.」"
+# JP: 「だが、『将来的に』、『連携させれば』の話だろう？\nそれが果たせぬ段階では利用者が見込めないのだから」
+2103 = "「Nhưng mà, đó là chuyện 'trong tương lai', 'nếu liên kết được' đúng không? Ở giai đoạn chưa thực hiện được điều đó thì không thể trông đợi có người sử dụng đâu.」"
+# JP: 「銀行が、銀行としての協力を検討するためには、\n大きなものだけでも三つの要素が不足している」
+2105 = "「Để ngân hàng, xem xét việc hợp tác với tư cách là một ngân hàng,\\nthì chỉ tính những cái lớn thôi cũng đã thiếu mất ba yếu tố rồi.」"
+# JP: 「稀咲を存分に使ってくれて構わない。\n次に会うときは、より興味深い話を聞かせてくれ」
+2107 = "「Cứ thoải mái sử dụng Kisaki đi.\\nLần tới gặp mặt, hãy cho ta nghe một câu chuyện thú vị hơn nhé.」"
+# JP: 「一人でぜぇんぶ読みこなせると？\nそぎゃんことしとったら、一日じゃまるで足りんとよ？」
+2110 = "「Một mình em có thể đọc hết toàn bộ sao?\\nLàm thế thì một ngày làm sao mà đủ được?」"
+# JP: 「わかっているなら話が早い。\n双鉄くん。それは新たな火種にしかならんぞ」
+2112 = "「Nếu cậu đã hiểu thì dễ nói chuyện rồi.\\nCậu Soutetsu. Điều đó sẽ chỉ trở thành một mồi lửa mới mà thôi.」"
+# JP: 「だから、復線にかかるコストは分散・軽減できる？」
+2113 = "「Vậy nên, chi phí cho việc phục hồi tuyến đường có thể phân tán・giảm nhẹ được sao?」"
+# JP: 「いま、ものすごぉく小規模だけど、\nここに出来とぉのみたいな？」
+2115 = "「Giống như cái đang có ở đây,\\ndù quy mô hiện tại cực kỳ nhỏ bé sao?」"
+# JP: 「超重量物移送の問題だね？　それは、確かに、\nニーズがあれば大きなメリットになるだろうけれど」
+2116 = "「Là vấn đề vận chuyển vật siêu nặng nhỉ? Cái đó thì, quả thật, nếu có nhu cầu thì sẽ thành lợi thế lớn đấy, nhưng mà.」"
+# JP: 「当然のような顔をして、キミが、双鉄の側にいる。\n少なくともそのくらいの近さで、知りたいと」
+2119 = "「Cậu cứ đứng bên cạnh Soutetsu với vẻ mặt như thể đó là điều đương nhiên vậy. Ít nhất thì, với khoảng cách gần gũi cỡ đó, tôi cũng muốn được hiểu cậu ấy.」"
+# JP: 「復線って――\nそんなニーズは今時どこにも無いだろう？」
+2120 = "「Phục hồi tuyến đường á—— thời nay còn đâu nhu cầu như vậy nữa chứ?」"
+# JP: 「言われてみれば、確かにだ。\n全員の欲求を同時に、完全に満たすことなど不可能だ」
+2123 = "「Nghe mọi người nói vậy, quả đúng là thế. Không thể nào thỏa mãn hoàn toàn, đồng thời, mong muốn của tất cả mọi người được.」"
+# JP: 「飲んでみて？」
+2124 = "「Uống thử xem?」"
+# JP: 「『手形を切る』なら通常の商行為だけれど……\n不渡りの可能性も内包してしまうし、語呂もよくない」
+2127 = "「Nếu là 'Ký phát kỳ phiếu' thì là hành vi thương mại bình thường, nhưng mà...\\nNó cũng bao hàm khả năng không thanh toán được, mà nghe cũng không xuôi tai lắm.」"
+# JP: 「隈銀の力をか」
+2130 = "「Sức mạnh của Kumagin sao.」"
+# JP: 「夕方の乗務が終わった……\nそうですね、[じゅうはちじ,4]１８：００からでどうでしょう？」
+2132 = "「Sau khi kết thúc ca trực buổi chiều……\\nĐúng rồi nhỉ, bắt đầu từ 18:00 thì sao?」"
+# JP: 「僕にも、僕らにもそれは無理です。\nですので、お力をお借りしたく思っております」
+2133 = "「Đối với tôi, hay đối với chúng tôi thì điều đó là không thể.\\nVì vậy, tôi muốn mượn sức mạnh của các vị.」"
+# JP: 「まずラムネ。濃縮レモン、ジンジャーシロップ。\n軽くステアして、それからお醤油」
+2146 = "「Đầu tiên là Ramune. Nước chanh cô đặc, siro gừng. Khuấy nhẹ, rồi cho nước tương vào.」"
+# JP: 「ひかり？」
+2147 = "「Hikari?」"
+# JP: 「八ツ城は大きな港町です。港と繋がる線路を持つことは、\nエアクラの弱点を補完します」
+2154 = "「Yatsushiro là một thành phố cảng lớn. Việc có tuyến đường nối với cảng sẽ bổ sung cho điểm yếu của Aircra.」"
+# JP: 「八ツ城からも、鉄道の線路走っとるばい！」
+2156 = "「Từ phía Yatsushiro cũng có đường ray cho tàu chạy đó nè!」"
+# JP: 「ハチロクは――ナビも。\n絶対に、にぃに――兄さんのこと、困らせません」
+2158 = "「Hachiroku—— cả Navi nữa. Tuyệt đối sẽ không làm anh hai—— anh trai phải khó xử đâu.」"
+# JP: 「ハチロク」
+2159 = "「Hachiroku.」"
+# JP: 「ハチロクもどうだ？　イヤでなければ」
+2161 = "「Hachiroku cũng tham gia chứ? Nếu em không phiền.」"
+# JP: 「公平……ああ。言われてみれば――\n確かに、そうであるのかもしれん」
+2165 = "「Công bằng……A. Nghe mọi người nói vậy thì——\\nQuả thực, có lẽ là như vậy.」"
+# JP: 「具体的には、どうすればいい？」
+2170 = "「Cụ thể thì, nên làm thế nào?」"
+# JP: 「睡眠と休息。\nしっかりとらんと、危なかね？」
+2174 = "「Ngủ và nghỉ ngơi. Không nghỉ ngơi đàng hoàng, thì nguy hiểm đấy nhé?」"
+# JP: 「別のやり方？」
+2175 = "「Cách khác sao?」"
+# JP: 「今回の試験走行までで、御一夜のキーマンが何人も、\n双鉄くんを信頼してくれたと思いますし、その人脈も」
+2181 = "「Đến cuộc chạy thử lần này, tôi nghĩ đã có nhiều nhân vật chủ chốt của Ohitoyo,\\ntin tưởng anh Soutetsu, và cả những mối quan hệ đó nữa.」"
+# JP: 「その暁には、笑顔で――笑顔で！\n皆とともに、きっと写真におさめてもらおう」
+2183 = "「Vào khoảnh khắc ấy, tôi sẽ mỉm cười——chắc chắn sẽ mỉm cười!\\nVà chụp một bức ảnh cùng với mọi người.」"
+# JP: 「なるほど――僕が間違っていた」
+2186 = "「Ra là vậy—— tôi đã sai rồi.」"
+# JP: 「なるほど……けれど、復線が無くとも、\nそちらの需要は満たせるのでは？」
+2187 = "「Ra là vậy…… nhưng mà, dù không có phục hồi tuyến đường, nhu cầu bên đó chẳng phải vẫn đáp ứng được sao?」"
+# JP: 「なるほどね。八ツ城－御一夜間に線路があるだけで、\nその移送コストを大幅に圧縮できるのか」
+2188 = "「Ra là vậy nhỉ. Chỉ cần có tuyến đường giữa Yatsushiro - Ohitoyo thôi, là có thể cắt giảm đáng kể chi phí vận chuyển đó sao.」"
+# JP: 「なるほどね。で？　それが投下したコストの回収と\nどのように絡んでくるんだい？」
+2189 = "「Ra là vậy nhỉ. Vậy thì? Cái đó liên quan thế nào đến việc thu hồi chi phí đã bỏ ra?」"
+# JP: 「なるほど、全員が資料作成し、その説明を行って、\n情報を共有、それを案出しに繋げるのか。よいと思う」
+2190 = "「Ra là vậy, tất cả mọi người đều chuẩn bị tài liệu, rồi giải thích, chia sẻ thông tin, rồi từ đó dẫn đến việc đưa ra ý tưởng sao. Tôi thấy hay đấy.」"
+# JP: 「逆に、御一夜にはもちろん海がありません」
+2222 = "「Ngược lại, ở Ohitoyo thì dĩ nhiên là không có biển.」"
+# JP: 「理解“は”、ですか？」
+2224 = "「Là chuyện 'hiểu nhau', sao?」"
+# JP: 「ただ……ええと。\n条件づけとか、そういうのじゃ全然ないんだけど」
+2226 = "「Chỉ là……ờm.\\nKhông phải là ra điều kiện hay gì đâu nhé.」"
+# JP: 「線路を再びつなげたい――その想いはきっと、\nどの鉄道事業者も、同じく、強く有しております」
+2229 = "「Muốn nối lại tuyến đường—— tâm nguyện đó, chắc chắn, bất cứ đơn vị kinh doanh đường sắt nào cũng đều mang trong mình một cách mạnh mẽ.」"
+# JP: 「双鉄様のレールの上に、無数のひかりを走らせる。\nそうするために、わたくしでお役に立てますことを」
+2231 = "「Để cho vô số ánh sáng chạy trên đường ray của ngài Soutetsu. Để làm được điều đó, xin hãy để tôi được giúp sức.」"
+# JP: 「構わないよ。何かな？」
+2233 = "「Không sao đâu. Chuyện gì vậy?」"
+# JP: 「よかろう」
+2234 = "「Được thôi.」"
+# JP: 「レジュメ！　まとめ書きなら作れるけん！\nにぃにが指示してくれたら、その視点で」
+2236 = "「Tóm tắt! Nếu là viết tóm tắt thì em làm được!\\nNếu anh hai chỉ đạo, em sẽ làm theo góc nhìn đó.」"
+# JP: 「だとしても、技師がいないのでは？」
+2240 = "「Dù vậy, chẳng phải là không có kỹ sư sao?」"
+# JP: 「ですが――だからこそのチャンスであるのでは？\nその復線買収を成功させることが出来れば――」
+2242 = "「Nhưng mà——chính vì thế nên mới là cơ hội không phải sao?\\nNếu có thể mua lại thành công để phục hồi tuyến đường đó——」"
+# JP: 「繋げるための初めの一歩。\n御一夜－八ツ城間復線のハードルが、あまりに高い」
+2244 = "「Bước đầu tiên để kết nối lại.\\nRào cản cho việc phục hồi tuyến đường giữa Ohitoyo - Yatsushiro, là quá cao.」"
+# JP: 「ばってん、光は――光線は、\n混ぜれば、白に近づいてくけん！！」
+2246 = "「Nhưng mà, ánh sáng ấy—— càng trộn nhiều màu lại thì càng gần với màu trắng đấy!!」"
+# JP: 「にも関わらず、誰も復線に着手しなかった。\nその理由は？」
+2248 = "「Mặc dù vậy, nhưng lại không có ai bắt tay vào việc phục hồi tuyến đường.\\nLý do là gì?」"
+# JP: 「が？」
+2249 = "「Nhưng mà?」"
+# JP: 「かもしれんが――\n読むことまでは、さすがに手伝ってもらえんだろう」
+2250 = "「Có thể là vậy——\\nnhưng việc đọc thì, quả thực không thể nhờ mọi người giúp được rồi.」"
+# JP: 「なのかもしれません。\nそこまではわたしにはわかりませんけど」
+2255 = "「Có thể là vậy. Đến mức đó thì tôi cũng không rõ nữa.」"
+# JP: 「服だって、別におかしくなかとよ？」
+2256 = "「Quần áo cũng đâu có gì kỳ lạ đâu nè?」"
+# JP: 「ばってん、これじゃにーさんが写らんばい！」
+2258 = "「Nhưng mà, như vậy thì anh hai không có trong ảnh đâu nè!」"
+# JP: 「けど、双鉄は\x%l機関士;#00ffc040;機関士%l;#;だけにはとどまっていない。\nだろ？　こんな提案が出て来るんだから」
+2259 = "「Nhưng mà, Soutetsu không chỉ dừng lại ở việc là một \\x%l機関士;#00ffc040;lái tàu%l;#; thôi đâu. Đúng không? Bởi vì cậu ấy đã đưa ra một đề xuất như thế này cơ mà.」"
+# JP: 「成算を示せるのかね？　右田双鉄君」
+2262 = "「Cậu có thể chỉ ra kế hoạch thành công không? Cậu Migita Soutetsu.」"
+# JP: 「同感だね。どんな写真か、楽しみだ」
+2264 = "「Đồng cảm. Thật mong chờ không biết bức ảnh trông thế nào.」"
+# JP: 「きゃあ」
+2266 = "「Kyaa!」"
+# JP: 「！」
+2267 = "「!」"
+# JP: 「えと、手段と目的が少し混ざっちゃってるみたいに、\n今の兄さん、見えるかもって」
+2269 = "「Ờm, anh trai bây giờ, có vẻ như\\nđang hơi nhầm lẫn giữa phương tiện và mục đích ấy.」"
+# JP: 「え？　別に、普通に参加するつもりだけど」
+2271 = "「Hả? Không có gì, đương nhiên là em định tham gia rồi.」"
+# JP: 「うふふっ。よかポスターのできそうね」
+2273 = "「Ufufu. Chắc sẽ thành một tấm áp phích đẹp lắm đây.」"
+# JP: 「ふふ、ボクも。\nこの約束は、本当に大事な約束だろうし」
+2275 = "「Fufu, tôi nữa.\\nVì đây hẳn là một lời hứa thực sự quan trọng mà.」"
+# JP: 「御一夜の郷土史関係の本とか、\nここに置いておくんでよかと？」
+2277 = "「Sách liên quan đến lịch sử địa phương của Ohitoyo,\\nđể ở đây là được đúng không?」"
+# JP: 「エアクラ関係の資料ば、あんまり多くなかったけん。\nおねえちゃんの私物も、貸したげるねぇ」
+2279 = "「Tài liệu liên quan đến Aircra thì không có nhiều lắm.\\nChị sẽ cho mượn cả đồ cá nhân của chị nữa nhé.」"
+# JP: 「よかこと思いついたばい！！！」
+2281 = "「Em nghĩ ra một ý hay rồi nè!!!」"
+# JP: 「わぁぁ、それなら御一夜温泉の名前、\nみぃんながもっと、きっと、しってくれますですねぇ」
+2282 = "「Waaa, vậy thì tên của suối nước nóng Ohitoyo, mọi người sẽ biết đến nhiều hơn nữa, chắc chắn là vậy đó nha~」"
+# JP: 「ははっ。その判断を否定できる材料となると――\n確かに、私も持ってはおらんな」
+2286 = "「Haha. Nếu nói về tài liệu để phủ định phán đoán đó thì——\\nQuả thực, ta cũng không có.」"
+# JP: 「はうっ！」
+2287 = "「Hau!」"
+# JP: 「はぅぅ～」
+2288 = "「Hauu~」"
+# JP: 「へぇ……こうしてみると、案外たくさん、\n九洲内に鉄道路線は残ってる――」
+2290 = "「Hè…… nhìn như vậy thì, không ngờ là trong Kyushu vẫn còn lại khá nhiều tuyến đường sắt——」"
+# JP: 「あらまぁ。いつの間に？\n双ちゃんも上手になったとね」
+2292 = "「Ôi chao. Từ lúc nào vậy? Sou-chan cũng trở nên khéo ăn nói rồi nhỉ.」"
+# JP: 「おや市長。ボクにお声かけとは珍しい」
+2293 = "「Ôi chà, Thị trưởng. Cô lên tiếng gọi tôi thì đúng là hiếm thấy đấy.」"
+# JP: 「あら、もう撮られてしまったのですか？」
+2296 = "「Ô kìa, ngài đã chụp rồi sao ạ?」"
+# JP: 「えへへっ」
+2297 = "「Ehehe.」"
+# JP: 「えっへへ～！　いっぱい研究したけんね！」
+2299 = "「Ehehe~! Em đã nghiên cứu nhiều lắm đấy nhé!」"
+# JP: 「えっ！？　えええっ！！？」
+2300 = "「Hả!? Hảảả!!?」"
+# JP: 「まぁ、確かにね。\nボクたちとキミたちも、現状では対立している」
+2302 = "「Chà, quả thực là vậy nhỉ.\\nChúng tôi và các anh, trong tình hình hiện tại cũng đang đối lập nhau mà.」"
+# JP: 「おお――」
+2303 = "「Ồ——」"
+# JP: 「ほう。支店長として“も”か？」
+2304 = "「Hô. Ngay cả với tư cách Giám đốc chi nhánh “cũng” sao?」"
+# JP: 「ふむ」
+2305 = "「Hừm.」"
+# JP: 「っ！」\n「あ」
+2306 = "「Ư!」\\n「A.」"
+# JP: 「っ！」
+2308 = "「Ư!」"
+# JP: 「うん？　何だ。\n希望があるなら、遠慮したりせず言ってくれ」
+2310 = "「Hửm? Gì vậy.\\nNếu có mong muốn gì, cứ nói ra đừng ngại.」"
+# JP: 「あ――」
+2311 = "「A——」"
+# JP: 「ああ――さっきの――[さつま,1]颯馬の地域性の話か。\n帝都の指導を、みかん鉄道は受けたくない」
+2313 = "「A—— chuyện lúc nãy—— về tính cách vùng Satsuma ấy à. Đường sắt Mikan không muốn nhận sự chỉ đạo của Đế đô.」"
+# JP: 「ああ――うん。そうか。\n貨物列車が走っているなら――」
+2315 = "「A——ừm. Ra là vậy.\\nNếu có tàu chở hàng chạy thì——」"
+# JP: 「あー。\n黄色か紙に青ばぬったら、緑がかっちゃうみたいな？」
+2316 = "「A.\\nGiống như bôi màu xanh dương lên giấy màu vàng thì sẽ ngả sang màu xanh lá ấy hả?」"
+# JP: 「あ――本当。ええと……みかん鉄道？\nって、どうしてこれ――」
+2319 = "「A—— đúng thật. Ờm…… Đường sắt Mikan ấy? Sao mà nó vẫn còn——」"
+# JP: 「あー、ゆーたらピリピリしとったもんねぇ。\n双ちゃんがおらんかった時分の、ひーちゃん」
+2321 = "「A, nhắc mới nhớ lúc đó căng thẳng lắm nhỉ.\\nBé Hi, vào cái thời điểm mà Sou-chan không có ở đây ấy.」"
+# JP: 「あ……」
+2322 = "「A……」"
+# JP: 「え、ええと――\nおじゃまじゃないなら、参加したい。です」
+2324 = "「A, ờm——\\nNếu không phiền, thì em cũng muốn tham gia. Ạ.」"
+# JP: 「あ」
+2325 = "「A.」"
+# JP: 「あははっ！　なら、そのヘンな顔も撮っちゃお？\nね、にぃに。『チーズ』って言ってで、もう一枚！」
+2327 = "「A haha! Vậy thì chụp luôn cả biểu cảm kỳ quặc đó đi?\\nNè anh hai. Nói 'Cheese' rồi chụp thêm tấm nữa nha!」"
+# JP: 「！」
+2328 = "「!」"
+# JP: 「ああ！　ほんとに撮った！？\nやだやだ、いまの、消してくださぁい」
+2330 = "「A! Anh chụp thật luôn á!?\\nKhông chịu đâu, xóa tấm vừa rồi đi ạ.」"
+# JP: 「あ！　わたしも！\n双鉄くんと、大事な約束、したいです」
+2332 = "「A! Tôi nữa!\\nTôi cũng muốn lập lời hứa quan trọng này với anh Soutetsu.」"
+# JP: 「あ、さっすがハチロク！」
+2333 = "「A, đúng là Hachiroku có khác!」"
+# JP: 「ああ。うん。\nそうだな、今は、だ」
+2335 = "「À. Ừm.\\nĐúng vậy, chỉ là bây giờ thôi.」"
+# JP: 「あ、にぃに！？　私もあがるとっ！」
+2336 = "「A, anh hai!? Em cũng lên đây!」"
+# JP: 「ああ――」
+2337 = "「A——」"
+# JP: 「ああ――っ！！！」
+2338 = "「A——Ư!!!」"
+# JP: 「いや……そうか。今回の案件は、僕自身が望み――\nゆえに、すでに僕の色が滲んでいるのか」
+2339 = "「Không……ra là vậy. Vụ việc lần này, là do chính bản thân tôi mong muốn——\\nDo đó, màu sắc của tôi đã thấm vào rồi sao.」"
+# JP: 「うむ。\n日々姫の意見も、同様に理解できるからな」
+2343 = "「Ừm.\\nVì ý kiến của Hibiki, cũng có thể hiểu được tương tự mà.」"
+# JP: 「うむ。土台が色づいていては、それぞれの色を、\n濁らせず乗せてもらうことは、難しくなってしまおう」
+2345 = "「Ừm. Nếu nền tảng đã có màu, thì việc đặt từng màu sắc lên,\\nmà không làm chúng vẩn đục, sẽ trở nên rất khó khăn.」"
+# JP: 「うむ。実際、複数の技師さんが御一夜への移住を\n現時点でも希望してくださっている」
+2347 = "「Ừm. Thực tế là, ngay cả ở thời điểm hiện tại cũng đã có nhiều kỹ sư mong muốn được chuyển đến Ohitoyo.」"
+# JP: 「うん。僕が作りたいのは、各々の利害を超えた、\nいわば、オール御一夜の体制だ」
+2349 = "「Ừm. Thứ tôi muốn tạo ra là một thể chế vượt qua lợi ích của từng cá nhân,\\ncó thể gọi là thể chế All Ohitoyo.」"
+# JP: 「うむ。みかん鉄道沿線――八ツ城海の夕暮れの\n車窓風景は、日ノ本一とも呼ばれるほどだそうだ」
+2350 = "「Ừm. Nghe nói phong cảnh hoàng hôn trên biển Yatsushiro nhìn từ cửa sổ tàu dọc theo tuyến Đường sắt Mikan, đẹp đến mức được gọi là đẹp nhất Hinomoto đấy.」"
+# JP: 「ええ、日ノ本三大車窓の一つと称されたそうですね。\n将来、肥颯線も復線させれば、資源は更に連携します」
+2351 = "「Vâng, nghe nói nơi đó được xưng là một trong ba cảnh sắc nhìn từ cửa sổ tàu đẹp nhất Hinomoto. Trong tương lai, nếu tuyến Hisatsu cũng được phục hồi, tài nguyên du lịch sẽ càng được liên kết chặt chẽ hơn.」"
+# JP: 「うん」
+2353 = "「Vâng.」"
+# JP: 「稀咲に声をかけるとき――元忠氏と浦上さんにも\n会議参加を願えないかを稀咲から聞いて貰えないかと」
+2354 = "「Khi rủ Kisaki——em nhờ Kisaki hỏi thử xem ông Mototada và ông Uragami\\ncó thể tham gia cuộc họp được không.」"
+# JP: 「うん。そうしてくれ。\n起きたあとには、頼らせてもらうぞ」
+2356 = "「Ừm. Cứ làm vậy đi. Sau khi tỉnh dậy thì nhờ cậy nhé.」"
+# JP: 「ああ、見事だ」
+2357 = "「À, tuyệt vời thật.」"
+# JP: 「ふむ、市政という長いテコを使えば、作用も大きい。\nポーレットのいうこともまた、理解はできるな」
+2360 = "「Hừm, nếu sử dụng đòn bẩy dài là chính quyền thành phố, thì tác dụng cũng sẽ lớn.\\nNhững gì Paulette nói, cũng có thể hiểu được.」"
+# JP: 「うん。言ってみてくれ」
+2361 = "「Ừm. Cứ nói thử xem.」"
+# JP: 「うん。得意分野。仕事ば、段取り八分やけんね。\nおねーちゃんに任せてよかよ」
+2365 = "「Ừm. Lĩnh vực sở trường đấy. Công việc thì khâu chuẩn bị chiếm tám phần mà. Cứ giao cho chị đi.」"
+# JP: 「うむ。オール御一夜体制を築くための、土台。\nその素案は、誰の色を交えてもきっと、成り立たぬ」
+2366 = "「Ừm. Nền tảng để xây dựng thể chế All Ohitoyo.\\nBản nháp đó, nếu pha trộn màu sắc của bất kỳ ai thì chắc chắn, sẽ không thành lập được.」"
+# JP: 「ふぅん？」
+2367 = "「Hừm?」"
+# JP: 「ふぅん？　なるほど、ね……」
+2369 = "「Hừm? Ra là vậy, nhỉ……」"
+# JP: 「うふふっ」
+2370 = "「Ufufu.」"
+# JP: 「ぷあっ！」
+2371 = "「Phù!」"
+# JP: 「おお――」
+2372 = "「Ồ——」"
+# JP: 「ほう」
+2373 = "「Hô.」"
+# JP: 「ほう？　面白い。\nみかん鉄道とのコネクションはすでにあるというわけか」
+2374 = "「Hô? Thú vị đấy.\\nNghĩa là cậu đã có sẵn mối liên hệ với Đường sắt Mikan rồi sao.」"
+# JP: 「故に、双鉄様は今のレールをご[まいしん,1]邁進ください。\n双鉄様が[みち]路を開けば、必ず皆がその正しさに続きます」
+2378 = "「Do đó, xin ngài Soutetsu hãy dũng cảm tiến bước trên đường ray hiện tại.\\nNếu ngài Soutetsu mở đường, chắc chắn mọi người sẽ đi theo sự đúng đắn đó.」"
+# JP: 「『御一夜へ来てもらうためのポスター』なんですから。\n地元の方のお迎えは、絶対に必要なんです」
+2380 = "「Vì đây là tấm áp phích 'để mời mọi người đến Ohitoyo' mà. Sự đón tiếp của người dân địa phương là tuyệt đối cần thiết ạ.」"
+# JP: 「貨物需要と、観光需要があるからです。\nだから、鹿兒島県が主体となって廃線を阻止した」
+2381 = "「Vì có nhu cầu vận chuyển hàng hóa và nhu cầu du lịch. Vì vậy, tỉnh Kagoshima đã đứng ra ngăn chặn việc bãi bỏ tuyến đường.」"
+# JP: 「ブリーフィングのあとにも、二時間くらいは欲しかと。\n全体会議用の、見やすか資料とか作りたいけん」
+2383 = "「Sau buổi họp ngắn, em muốn có thêm khoảng hai tiếng nữa. Em muốn làm tài liệu dễ xem cho cuộc họp toàn thể.」"
+# JP: 「利害に関する“正しい”は、\n自分の利益を、望むだけ確保することやけん」
+2385 = "「Cái 'đúng đắn' liên quan đến lợi ích, là việc đảm bảo lợi ích của bản thân mình càng nhiều càng tốt mà.」"
+# JP: 「基本線は日々姫ちゃんと同じなんですけど、\nアプローチ、別のやりかたの方がもっといいかもって」
+2387 = "「Đường lối cơ bản thì giống với em Hibiki,\\nnhưng cách tiếp cận, có lẽ làm theo cách khác sẽ tốt hơn.」"
+# JP: 「にーさん、なかなかわかっとるばい！」
+2393 = "「Anh hai, đúng là người hiểu chuyện đấy nè!」"
+# JP: 「みんなあがると？　それなら凪さま！\nこのひろーか湯船をひとりじめばーい！」
+2395 = "「Mọi người lên hết à? Vậy thì Nagi đại nhân!\\nSẽ độc chiếm cái bồn tắm rộng rãiiii này đây!」"
+# JP: 「濁りば恐れず、さらに、足す。\nそぎゃんとして生まれる調和も、確かにあるけん」
+2403 = "「Không sợ bị vẩn đục, mà còn thêm vào nữa. Sự hài hòa sinh ra từ cách làm như vậy, quả thực là có đấy.」"
+# JP: 「おもしろそうばい！　参加するばい！」
+2406 = "「Có vẻ thú vị đấy! Nagi cũng tham gia!」"
+# JP: 「よかろう、御一夜支店長。業務命令だ。\n右田双鉄氏をサポートし、本件提案の可否を見極めろ」
+2408 = "「Được thôi, Giám đốc chi nhánh Ohitoyo. Đây là mệnh lệnh công việc.\\nHãy hỗ trợ cậu Migita Soutetsu, và xem xét tính khả thi của đề xuất này.」"
+# JP: 「ずるか！　にぃに、わたしとも」
+2410 = "「Ăn gian quá! Anh hai, em nữa.」"
+# JP: 「甘か――ばってん、ちょっぴり大人の味ばする。\nただのラムネより、わたしの口には美味しかと」
+2412 = "「Ngọt—— nhưng mà, lại có chút vị người lớn. Ngon hơn hẳn Ramune thường, hợp khẩu vị của em hơn.」"
+# JP: 「はい。必ず、そう運びます」
+2413 = "「Vâng. Chắc chắn, sẽ là như vậy.」"
+# JP: 「はい。ご参席、本当にありがとうございました」
+2415 = "「Vâng. Thực sự cảm ơn mọi người đã đến tham dự.」"
+# JP: 「よしっ！」
+2417 = "「Tốt!」"
+# JP: 「御一夜のことをもっと知ったほうがいいと思うの。\n兄さんが、この町を本当に復興させたいんなら」
+2418 = "「Em nghĩ anh nên tìm hiểu thêm về Ohitoyo.\\nNếu anh thực sự muốn phục hưng thị trấn này.」"
+# JP: 「家事やお前の手伝いに、もう少し目を向ければ、\nよりバランスがとれるかもしれぬというわけか」
+2421 = "「Nếu anh để mắt thêm một chút đến việc nhà và việc phụ giúp em,\\nthì có lẽ sẽ cân bằng hơn, ý em là vậy sao?」"
+# JP: 「おねーちゃんは、最初からずーっとそぎゃんしとるし」
+2423 = "「Chị thì, ngay từ đầu đã luôn làm như vậy rồi mà.」"
+# JP: 「おねーちゃんは、\nポスターに映らんでもよかと、って思うんやけど……」
+2424 = "「Chị thì, nghĩ là dù không xuất hiện trên áp phích cũng được mà……」"
+# JP: 「実際、僕らは、\nそして御一夜は、厳しい状況に置かれていますが」
+2434 = "「Thực tế thì, chúng tôi,\\nvà cả Ohitoyo, đang bị đặt vào một tình thế nghiêm trọng mà.」"
+# JP: 「実際、さきほど話にでたみかん鉄道さんも、\n検査には非常に大きなコストを強いられています」
+2435 = "「Thực tế là, Đường sắt Mikan mà chúng ta vừa nhắc đến lúc nãy, cũng đang phải chịu một khoản chi phí rất lớn cho việc kiểm tra.」"
+# JP: 「ああ、\x%l投炭;#00ffc040;投炭%l;#;だな。\nそう。あれをメインに、機関車の走行を助ける仕事だ」
+2439 = "「À, \\x%l投炭;#00ffc040;thêm than%l;#; nhỉ.\\nĐúng vậy. Đó là công việc chủ yếu hỗ trợ việc chạy đầu máy xe lửa.」"
+# JP: 「そうだな。怖い。決してしくじれないことで、\nその上に慣れぬ挑戦であるが故、神経質になっている」
+2441 = "「Đúng vậy. Tôi sợ. Vì đây là việc tuyệt đối không được thất bại,\\nhơn nữa lại là một thử thách không quen thuộc, nên tôi đang trở nên lo lắng.」"
+# JP: 「いいことって、なぁに？　凪ちゃん」
+2443 = "「Ý hay là gì thế? Nagi.」"
+# JP: 「誰もにとっての“正しい”なんて、\nこの世にあるわけなかとよ？　双ちゃん」
+2447 = "「Làm gì có cái gọi là “đúng đắn” đối với tất cả mọi người,\\ntrên cõi đời này chứ? Sou-chan.」"
+# JP: 「そいやけん、みんなで作るまとめには、\nそれぞれの色が混じりそうで――怖かと？」
+2448 = "「Vậy nên, em sợ rằng bản tóm tắt do mọi người cùng làm,\\nsẽ bị trộn lẫn màu sắc của mỗi người——phải không?」"
+# JP: 「『今は』入れんだけよね？　双ちゃん」
+2449 = "「'Bây giờ' mới không thể vào chụp thôi đúng không? Sou-chan.」"
+# JP: 「そぉですねぇ」
+2450 = "「Đúng vậy đó nha~」"
+# JP: 「その新観光列車で運べる全員が宿泊したとして。\n投下したコストの回収には何百年かかるのかな？」
+2453 = "「Cho dù tất cả những người mà chuyến tàu du lịch mới đó chở được đều ở lại qua đêm. Thì phải mất bao nhiêu trăm năm mới thu hồi được chi phí đã bỏ ra nhỉ?」"
+# JP: 「新しいビジネスモデルともなるだろうな。\n確かに、潜在的なニーズはある」
+2455 = "「Thì cũng sẽ trở thành một mô hình kinh doanh mới nhỉ.\\nQuả thực, nhu cầu tiềm năng là có.」"
+# JP: 「だが、もう大丈夫だ。ここからは、この資料群を」
+2459 = "「Nhưng mà, không sao rồi. Từ đây, tôi sẽ dựa vào đống tài liệu này——」"
+# JP: 「御一夜の経済復興を果たすための、\nオール御一夜体制を築くことだ」
+2461 = "「Là việc xây dựng thể chế All Ohitoyo, để thực hiện sự phục hưng kinh tế của Ohitoyo.」"
+# JP: 「簡単な話だ。旧帝鉄[こくら,1]粉蔵工場が解体された今、\n九洲の全ての鉄道会社は、検査に苦労している」
+2467 = "「Chuyện đơn giản thôi. Giờ đây khi nhà máy Kokura của Đường sắt Teitetsu cũ đã bị tháo dỡ, tất cả các công ty đường sắt ở Kyushu đều đang khổ sở vì việc kiểm tra.」"
+# JP: 「共に計画を進める仲間から、誰を一番近くに置くか。\nそれはもちろん、双鉄くんの自由ですよね？」
+2468 = "「Trong số những người cùng tiến hành kế hoạch, sẽ đặt ai ở vị trí gần nhất. Đó tất nhiên, là quyền tự do của cậu Soutetsu đúng không?」"
+# JP: 「北九洲から御一夜までは山に阻まれ陸送困難だ。\n東か西か、大回りを余儀なくされる」
+2469 = "「Từ Bắc Kyushu đến Ohitoyo bị núi chắn nên vận chuyển đường bộ rất khó khăn. Dù đi phía đông hay phía tây, đều buộc phải đi vòng rất xa.」"
+# JP: 「御一夜本線？」
+2485 = "「Tuyến chính Ohitoyo?」"
+# JP: 「御一夜温泉駅の機関庫群は、法定検査を\n受けられる設備としての、認可を得てるんです」
+2490 = "「Cụm nhà chứa đầu máy ở ga suối nước nóng Ohitoyo đã được cấp phép với tư cách là cơ sở có thể thực hiện kiểm tra theo luật định đấy ạ.」"
+# JP: 「御一夜での検査は、\n『帝都の検査官さんの指導を受けながら』ですから」
+2492 = "「Việc kiểm tra ở Ohitoyo là 'trong khi nhận sự chỉ đạo từ thanh tra viên đến từ Đế đô' mà.」"
+# JP: 「御一夜鉄道は？　どうやってその検査を？」
+2496 = "「Còn Đường sắt Ohitoyo thì sao? Làm thế nào để kiểm tra được?」"
+# JP: 「僕ら全員が是とする素案を作れなければ、論外だ。\n宝生親子に、おそらく見向きもされんだろう」
+2504 = "「Nếu không làm được một bản nháp mà tất cả chúng ta đều tán thành, thì khỏi bàn. Chắc hai cha con Houshou cũng chẳng thèm ngó tới đâu.」"
+# JP: 「エアクラ社としても興味を持つ話だろう。\nもしも実現可能性があるのなら――だが」
+2508 = "「Chắc hẳn công ty Aircra cũng sẽ hứng thú với câu chuyện này thôi.\\nNếu như có khả năng thực hiện được——thì mới nói.」"
+# JP: 「失礼いたしました。\nあまりに興味深いお話だったもので、つい」
+2510 = "「Thất lễ rồi.\\nVì câu chuyện quá đỗi thú vị nên, tôi lỡ lời.」"
+# JP: 「復線があまりに困難であり、\nかつ、利権関係での対立を呼びやすいものだからだ」
+2513 = "「Bởi vì việc phục hồi tuyến đường quá đỗi khó khăn,\\nvà hơn nữa, lại dễ gây ra xung đột về mặt lợi ích.」"
+# JP: 「復線？」
+2514 = "「Phục hồi tuyến đường?」"
+# JP: 「この計画に、“噛んでおきたい”と、\nお考えなのでしょうか？」
+2516 = "「Ngài có ý định muốn 'tham gia' vào kế hoạch này sao ạ?」"
+# JP: 「というと？」
+2517 = "「Nghĩa là sao ạ?」"
+# JP: 「わくわく、でございますか」
+2518 = "「Háo hức, sao ạ?」"
+# JP: 「一人で――で、ございますか？」
+2519 = "「Một mình——sao ạ?」"
+# JP: 「頭取としては、実現可能性に乏しいと？」
+2523 = "「Với tư cách là Tổng giám đốc ngân hàng, ngài cho rằng khả năng thực hiện được là rất thấp sao?」"
+# JP: 「御一夜支店長として“も”の、他に――\nいったい、どのようなお立場で」
+2524 = "「Ngoài việc “cũng” với tư cách là Giám đốc chi nhánh Ohitoyo ra——\\nrốt cuộc, cô đứng ở lập trường nào」"
+# JP: 「そこも、ご指摘の通りと感じます」
+2525 = "「Điểm đó, tôi cũng cảm thấy đúng như ngài đã chỉ ra.」"
+# JP: 「買収困難だということだ。売却された土地の多くは\n転売され、宅地分譲されてしまっているからな」
+2528 = "「Nghĩa là rất khó để mua lại. Phần lớn những mảnh đất đã bán\\nđều bị bán lại, và phân lô bán nền làm đất ở mất rồi.」"
+# JP: 「意見も、きっとおんなじで。\nだから――色じゃなくって、光」
+2533 = "「Ý kiến cũng, chắc là giống nhau thôi. Vì vậy—— không phải là màu sắc, mà là ánh sáng.」"
+# JP: 「意見は、ひかりか」
+2534 = "「Ý kiến, là ánh sáng sao.」"
+# JP: 「わ、わたしも、双鉄おにいさんのこと、お手伝いします、\nです！　……その方が、チャンス広がりそうですし」
+2539 = "「E-Em cũng sẽ giúp đỡ anh Soutetsu ạ! ……Vì làm vậy, có vẻ như cơ hội sẽ được mở rộng hơn.」"
+# JP: 「わ、わたしも、緊張しちゃったら、\nきっと、ヘンな顔しちゃってたって思うです。から」
+2540 = "「E-Em cũng nghĩ, nếu mà căng thẳng,\\nchắc chắn em sẽ làm ra biểu cảm kỳ quặc mất. Ạ......」"
+# JP: 「みんなでの集合写真でポスターをって聞いたとき、\n言葉、自然に浮かんできたんです」
+2543 = "「Khi nghe nói sẽ dùng ảnh chụp tập thể của mọi người để làm áp phích, những lời đó, tự nhiên đã hiện lên trong đầu em.」"
+# JP: 「私――兄さんを邪魔したくありません。\n兄さんのことを、ただ、支えたい」
+2545 = "「Em—— không muốn gây cản trở cho anh trai. Em chỉ muốn, lặng lẽ ủng hộ anh thôi.」"
+# JP: 「そいば嫌やけん、にぃにになんとかして欲しかとよ。\nにぃになら、そぎゃんとしてくれるって、思うけん」
+2547 = "「Vì không thích như vậy, nên em mới muốn anh hai làm gì đó.\\nVì em nghĩ, nếu là anh hai thì sẽ làm được như thế.」"
+# JP: 「イヤなどと、そのようなことは決して！\nけれど、\x%lレイルロオド;#00ffc040;レイルロオド%l;#;が、\x%l機関士;#00ffc040;機関士%l;#;に約束を強いるなど」
+2548 = "「Không phiền chút nào, tuyệt đối không ạ!\\nThế nhưng, một \\x%lレイルロオド;#00ffc040;Railord%l;#; sao có thể ép buộc \\x%l機関士;#00ffc040;lái tàu%l;#; hứa hẹn được...」"
+# JP: 「僕も、ここまでで退散しましょう。\n双鉄君、幸運を祈ってますよ」
+2552 = "「Tôi cũng, xin phép cáo lui tại đây.\\nCậu Soutetsu, chúc cậu may mắn nhé.」"
+# JP: 「私も、これで。失礼いたします」
+2553 = "「Tôi cũng, xin phép. Thất lễ rồi.」"
+# JP: 「わたくしも、同じ気持ちでございます。まして、\n双鉄様のこの先の[みちゆき,1]行路は、極めて厳しく思われますから」
+2556 = "「Tôi cũng có cùng cảm nghĩ như vậy. Hơn nữa, con đường phía trước của ngài Soutetsu, có vẻ sẽ vô cùng gian nan.」"
+# JP: 「わたしも、もちろん支えます。御一夜を支えてくれる、\n双鉄くんのこと――私利私欲抜きで、全力で」
+2557 = "「Tôi cũng, đương nhiên sẽ ủng hộ cậu ấy. Cậu Soutetsu, người đang ủng hộ Ohitoyo—— không vì tư lợi, mà bằng toàn bộ sức lực.」"
+# JP: 「わたくしも当然ながら、双鉄様にご一緒します」
+2558 = "「Tôi cũng đương nhiên, sẽ đi cùng với ngài Soutetsu.」"
+# JP: 「その方法がよろしいかと、わたくしも思います。\n情報整理は、\x%lレイルロオド;#00ffc040;レイルロオド%l;#;の得意とするところです」
+2559 = "「Tôi cũng nghĩ phương pháp đó rất tốt.\\nSắp xếp thông tin là sở trường của \\x%lレイルロオド;#00ffc040;Railord%l;#; mà.」"
+# JP: 「双鉄様の公平は、誰の意見も容れぬ公平ではなく、\n全ての意見を容れての公平と、わたくしも感じます」
+2563 = "「Sự công bằng của ngài Soutetsu, không phải là sự công bằng không chấp nhận ý kiến của ai,\\nmà là sự công bằng chấp nhận mọi ý kiến, tôi cũng cảm thấy như vậy.」"
+# JP: 「私もそう思います。\n兄さんは、普段からみんなの意見を綺麗に混ぜてます」
+2566 = "「Em cũng nghĩ vậy.\\nAnh trai, bình thường vẫn luôn kết hợp ý kiến của mọi người rất tuyệt mà.」"
+# JP: 「“銀行側”としての意見は、\nまぁこのようなところだが」
+2581 = "「Ý kiến với tư cách là “phía ngân hàng”,\\nchà, đại khái là như vậy.」"
+# JP: 「御一夜支店長としても、計画に噛んでおきたくは思う。\n放置するには、惜しい――と同時に、危険な案だから」
+2582 = "「Ngay cả với tư cách là Giám đốc chi nhánh Ohitoyo, cháu cũng muốn tham gia vào kế hoạch này.\\nVì nếu bỏ mặc thì thật đáng tiếc——đồng thời, đây cũng là một phương án nguy hiểm.」"
+# JP: 「わたくしが双鉄様のお側に仕えるのは当然のこと。\n\x%l機関士;#00ffc040;機関士%l;#;と、\x%lレイルロオド;#00ffc040;レイルロオド%l;#;との間柄なのですから」
+2585 = "「Việc tôi hầu hạ bên cạnh ngài Soutetsu là điều đương nhiên. Vì đó là mối quan hệ giữa \\x%l機関士;#00ffc040;lái tàu%l;#; và \\x%lレイルロオド;#00ffc040;Railord%l;#; mà.」"
+# JP: 「みかん鉄道側にも、この復線は大きなメリットを\n生みます。まずは単純に、観光需要の刺激」
+2587 = "「Việc phục hồi tuyến đường này cũng mang lại lợi ích lớn cho phía Đường sắt Mikan. Trước hết, đơn giản là kích thích nhu cầu du lịch.」"
+# JP: 「帝都から来る検査官さんの指導を受けながら、\n技師さんと、時間をかけて検査をクリアしていきます」
+2588 = "「Chúng tôi sẽ vừa nhận sự chỉ đạo từ thanh tra viên đến từ Đế đô, vừa cùng với kỹ sư, dành thời gian để vượt qua đợt kiểm tra.」"
+# JP: 「重ねてるの手だから、『手ぇきった』って――\nやだ！　そんなの縁起でもないっ」
+2589 = "「Vì đang xếp tay lên nhau, nên nói là 'chặt tay'——\\nKhông chịu đâu! Nghe xui xẻo quá đi.」"
+# JP: 「鉄道自体をブーム化させて、定着させることを目指す。\n『不便な交通』ではなく『旅の楽しみの手段』として」
+2590 = "「Mục tiêu là khiến cho bản thân đường sắt trở thành một trào lưu, và bám rễ lại. Không phải là 'phương tiện giao thông bất tiện', mà là 'phương tiện tận hưởng chuyến đi'.」"
+# JP: 「その不足とは、何でしょう？」
+2591 = "「Những yếu tố còn thiếu đó, là gì vậy?」"
+# JP: 「『これから走る観光列車』のポスターだからです。\n御一夜鉄道のレールの上を、御一夜へと、御一夜から」
+2592 = "「Vì đây là áp phích của 'chuyến tàu du lịch sẽ chạy từ bây giờ'. Trên đường ray của Đường sắt Ohitoyo, hướng đến Ohitoyo, rồi từ Ohitoyo đi.」"
+# JP: 「そのカタログイメージを際立たせる新観光列車を\n走らせて、乗車自体が旅の楽しみなのだと明示する」
+2593 = "「Cho chuyến tàu du lịch mới làm nổi bật hình ảnh catalogue đó chạy, để cho thấy rõ rằng bản thân việc lên tàu đã là niềm vui của chuyến đi.」"
+# JP: 「早速撮ろう。それ以上の何もいらん。\n『未来行き列車』『御一夜鉄道』。それだけで十分だ」
+2594 = "「Chụp ngay thôi. Không cần gì hơn nữa. 'Chuyến tàu đi đến tương lai', 'Đường sắt Ohitoyo'. Chỉ cần vậy là đủ rồi.」"
+# JP: 「現時点ではそこは計算していない。宿泊客増は、\n見込める経済効果のごく一部に過ぎんからな」
+2595 = "「Ở thời điểm hiện tại thì chúng tôi chưa tính đến mức đó. Vì tăng lượng khách lưu trú, chỉ là một phần rất nhỏ trong hiệu quả kinh tế có thể trông đợi mà thôi.」"
+# JP: 「\x%lレイルロオド;#00ffc040;レイルロオド%l;#;と[マスター,2]機関士でもあるが、それと同時に、\n僕らは仕事の相棒で、共に暮らす家族でもあるだろう？」
+2596 = "「Đúng là \\x%lレイルロオド;#00ffc040;Railord%l;#; và Master, nhưng đồng thời,\\nchúng ta cũng là đối tác công việc, là gia đình sống cùng nhau mà?」"
+# JP: 「相当に規模の大きなビジネスに繋がりそうにも\n思うのですが」
+2598 = "「Cháu nghĩ là nó có vẻ\\nsẽ dẫn đến một vụ làm ăn có quy mô khá lớn đấy chứ.」"
+# JP: 「僕は先にあがらせてもらう。\nみなはゆっくり、今日の疲れを流していってくれ」
+2601 = "「Tôi xin phép lên trước đây.\\nMọi người cứ thong thả ngâm mình, xua tan đi sự mệt mỏi của ngày hôm nay nhé.」"
+# JP: 「今よりもーっとたよってよかとよ？\n私、にぃにの妹やけん！」
+2603 = "「Anh hãy dựa dẫm vào em nhiều hơn nữa nhé? Vì em là em gái của anh hai mà!」"
+# JP: 「ボクは――正直、双鉄の案にかなりの興味を覚えている。\n現状での評価は中立か、エアクラ工場誘致案に劣るけど」
+2605 = "「Cháu thì——thành thật mà nói, cháu cảm thấy khá hứng thú với phương án của Soutetsu.\\nĐánh giá ở hiện tại là trung lập, hoặc kém hơn so với phương án thu hút nhà máy Aircra, nhưng mà」"
+# JP: 「全ての意見を尊重しようと望むばかりに、\n全ての意見を、排除しようとしていたのだな」
+2606 = "「Chỉ vì mong muốn tôn trọng mọi ý kiến, mà tôi lại đang loại bỏ mọi ý kiến sao.」"
+# JP: 「わたし自分が恥ずかしいです。双鉄くん、御一夜のため、\n御一夜鉄道のために、こんなに頑張ってくれてるのに」
+2609 = "「Tôi thấy xấu hổ về bản thân mình. Anh Soutetsu, vì Ohitoyo, vì Đường sắt Ohitoyo, đã cố gắng đến nhường này cơ mà.」"
+# JP: 「法定試験どうのの話は、視野に入ってもいなかった。\n双鉄君。君の提案。興味深い部分も少なくはなかった」
+2610 = "「Câu chuyện về kiểm tra theo luật định gì đó, ta còn chưa từng nghĩ tới.\\nCậu Soutetsu. Đề xuất của cậu. Có không ít điểm thú vị đâu.」"
+# JP: 「ボクは双鉄に興味を抱いている。\nその興味は、今回の提案を受けてさらに強まった」
+2613 = "「Tôi đang có hứng thú với Soutetsu. Và hứng thú đó, sau khi nghe đề xuất lần này, lại càng mạnh mẽ hơn.」"
+# JP: 「楽しみにしている。では、お先に失礼する」
+2616 = "「Ta rất mong chờ đấy. Vậy, ta xin phép đi trước.」"
+# JP: 「わたしも！　これからもそうするし」
+2617 = "「Em nữa! Từ giờ trở đi em cũng sẽ làm vậy!」"
+# JP: 「日々姫の、真闇姉の、ハチロクの――\nそれぞれの意見・要望を、まずは調和させたい」
+2618 = "「Tôi muốn, trước hết, hòa hợp ý kiến・mong muốn của Hibiki, chị Mayami, Hachiroku—— từng người một.」"
+# JP: 「わたくしは\x%lレイルロオド;#00ffc040;レイルロオド%l;#;ですので、深夜作業でも\n問題ありません。連続稼動の休止時間を確保できれば」
+2620 = "「Tôi là \\x%lレイルロオド;#00ffc040;Railord%l;#; nên dù là làm việc ban đêm cũng không có vấn đề gì. Chỉ cần đảm bảo được thời gian nghỉ sau khi vận hành liên tục là được.」"
+# JP: 「僕が……レール？」
+2622 = "「Tôi là……đường ray?」"
+# JP: 「わたくしは、双鉄様の\x%lレイルロオド;#00ffc040;レイルロオド%l;#;。\n常に、その勤めを最善の形で果たすのみでございます」
+2628 = "「Tôi là \\x%lレイルロオド;#00ffc040;Railord%l;#; của ngài Soutetsu. Luôn luôn, chỉ thực hiện nghĩa vụ đó dưới hình thái tốt nhất mà thôi.」"
+# JP: 「疲れ、もともとそれほどじゃないですし」
+2630 = "「Sự mệt mỏi, vốn dĩ cũng không đến mức đó mà.」"
+# JP: 「さぁこれからと意識して表情をつくってもらうより、\nずっと素敵なわくわくを、カメラに収められたと思う」
+2632 = "「Thay vì để mọi người cố ý tạo biểu cảm chuẩn bị chụp,\\ntôi nghĩ mình đã ghi lại được khoảnh khắc háo hức tự nhiên và tuyệt vời hơn nhiều.」"
+# JP: 「それで、よろしいのではないかと思います」
+2634 = "「Như vậy, chẳng phải là rất tốt sao ạ.」"
+# JP: 「時間が欲しい。丸一日で構わない。\n出来れば明後日――この全員で会議を持てるだろうか」
+2637 = "「Tôi cần thời gian. Trọn một ngày cũng được.\\nNếu có thể thì ngày mốt——chúng ta có thể tổ chức một cuộc họp với tất cả mọi người ở đây được không.」"
+# JP: 「御一夜鉄道\x%l機関士;#00ffc040;機関士%l;#;に、\x%lレイルロオド;#00ffc040;レイルロオド%l;#;に、客室乗務員。\n\x%l気動車;#00ffc040;気動車%l;#;運転士に――真闇姉は『地元、御一夜の方』だな」
+2640 = "「\\x%l機関士;#00ffc040;Lái tàu%l;#; của Đường sắt Ohitoyo, \\x%lレイルロオド;#00ffc040;Railord%l;#;, tiếp viên khoang hành khách. Người lái \\x%l気動車;#00ffc040;tàu diesel%l;#;—— còn chị Mayami là 'người dân địa phương Ohitoyo' nhỉ.」"
+# JP: 「だから、\x%l石造機関庫;#00ffc040;石造機関庫%l;#;が封鎖されてた時期も。\n奥のちっちゃい方の\x%l検修庫;#00ffc040;検修庫%l;#;で、自主検査できたんです」
+2643 = "「Vì vậy, ngay cả trong thời kỳ \\x%l石造機関庫;#00ffc040;nhà chứa đầu máy bằng đá%l;#; bị phong tỏa. Chúng tôi vẫn có thể tự kiểm tra, tại \\x%l検修庫;#00ffc040;xưởng bảo dưỡng%l;#; nhỏ hơn ở phía trong.」"
+# JP: 「だから、双鉄のことをもっと近くで知りたく思った。\nちょうど、ハチロク？」
+2647 = "「Vì vậy, tôi muốn tìm hiểu về Soutetsu ở một khoảng cách gần hơn. Giống như, Hachiroku vậy?」"
+# JP: 「だからこそのブームの極端化。誰かがよしとしたものに、\nわれもわれもと飛びついて――ああ」
+2649 = "「Chính vì vậy mới dẫn đến sự cực đoan hóa của các trào lưu. Hễ ai đó cho là tốt, thì người người nhà nhà đổ xô vào——A.」"
+# JP: 「ともないまして、稀咲様。\nひとつ、ご質問をお許しいただけますでしょうか？」
+2650 = "「Kèm theo đó, thưa cô Kisaki.\\nCô có thể cho phép tôi hỏi một câu được không ạ?」"
+# JP: 「そぎゃんこつなかとよー！\nにーさん、顔はいわゆるイケメンばい！」
+2653 = "「Đâu có chuyện đó đâu nè!\\nKhuôn mặt của anh hai cũng được coi là soái ca đó nha!」"
+# JP: 「旅行の楽しみを増大させるツールとしての、鉄道」
+2654 = "「Đường sắt, với tư cách là công cụ làm tăng thêm niềm vui du lịch.」"
+# JP: 「真闇姉にも、すまんが、眠る前にひと仕事頼みたい。\n全体の段取りを組んでみてほしいのだが」
+2656 = "「Chị Mayami, xin lỗi, trước khi ngủ chị làm giúp tôi một việc nữa nhé. Tôi muốn chị thử sắp xếp toàn bộ kế hoạch giúp tôi.」"
+# JP: 「なら、指切りばい！！\nあれ？　指？？」
+2658 = "「Vậy thì, ngoéo tay nào!!\\nỦa? Ngón tay??」"
+# JP: 「もう撮った」
+2660 = "「Tôi chụp xong rồi.」"
+# JP: 「でしたら、どうぞ双鉄様。\nわたくしに、なんなりとお命じ下さい」
+2668 = "「Vậy thì, xin mời ngài Soutetsu. Hãy cứ ra lệnh cho tôi bất cứ điều gì ạ.」"
+# JP: 「双鉄くんが納得できる一枚が撮れたなら、\nわたしは、それでオッケーだって思います」
+2670 = "「Nếu anh Soutetsu đã chụp được một bức ưng ý,\\nthì tôi thấy vậy là quá ổn rồi.」"
+# JP: 「日々姫は、今は早めに休んでおいてくれ。\n再終盤、日々姫にしか出来ない作業がいくことになる」
+2682 = "「Hibiki, hôm nay em hãy nghỉ sớm đi nhé. Đến giai đoạn cuối, sẽ có công việc chỉ mình Hibiki mới làm được đấy.」"
+# JP: 「日々姫はどうだ？」
+2683 = "「Hibiki thì sao?」"
+# JP: 「日ノ本一！　すごかとばい！\n凪さま、それだったら見てみたかとばい！！」
+2685 = "「Đẹp nhất Hinomoto! Tuyệt quá đi! Nagi đại nhân, nếu vậy thì muốn đi xem thử quá đi!!」"
+# JP: 「日ノ本一と、日ノ本三大車窓のひとつ。\n――その両方が一つの列車で結ばれたら、すごい。です」
+2687 = "「Cảnh đẹp nhất Hinomoto, và một trong ba cảnh sắc nhìn từ cửa sổ tàu đẹp nhất Hinomoto. ——Nếu cả hai thứ đó được kết nối bằng một chuyến tàu, thì tuyệt quá. Ạ.」"
+# JP: 「かしこまりました。単純作業となりますので、\nわたくしが知識を持たない分野のものでもこなせます」
+2691 = "「Đã rõ ạ. Vì là công việc đơn giản, nên dù là lĩnh vực tôi không có kiến thức, tôi cũng làm được ạ.」"
+# JP: 「わかった。『チーズ』」
+2692 = "「Được thôi. 'Cheese'.」"
+# JP: 「わかった。大丈夫。自分の出番に寝過ごさんよう、\nしっかり休んで、備えるけん」
+2694 = "「Em hiểu rồi. Không sao đâu. Để đến lượt mình em không ngủ quên, em sẽ nghỉ ngơi thật tốt và chuẩn bị sẵn sàng.」"
+# JP: 「心得た」
+2695 = "「Đã rõ.」"
+# JP: 「さっき、ポーレットさんが言ってたお話、です？」
+2697 = "「Là câu chuyện mà lúc nãy chị Paulette đã nói, phải không ạ?」"
+# JP: 「線路の名前ばい！　御一夜と八ツ城つなぐ線路ば、\n『御一夜温線』っていう名前にするばい！！」
+2698 = "「Là tên của tuyến đường đấy! Tuyến đường nối Ohitoyo với Yatsushiro, sẽ đặt tên là 'Tuyến suối nóng Ohitoyo' đấy!!」"
+# JP: 「だよな。――うむっ！？」
+2701 = "「Đúng không. ——Hửm!?」"
+# JP: 「ああ――」
+2702 = "「Đúng vậy——」"
+# JP: 「そーね。双ちゃんに、なにかハッパばかけてもらって」
+2705 = "「Đúng thế. Sou-chan, hô hào khích lệ mọi người đi nào.」"
+# JP: 「だな。そうするためには、お前の力が必要だ。\nそうして、日々姫、真闇姉」
+2707 = "「Đúng vậy. Để làm được điều đó, cần sức mạnh của em. Và cả Hibiki, chị Mayami nữa.」"
+# JP: 「だな。真闇姉ほど、『御一夜の町の空気感』を、\nしっとりと示してくれる存在は、他になかろう」
+2708 = "「Đúng vậy. Ngoài chị Mayami ra, chắc không còn ai có thể thể hiện 'không khí của thị trấn Ohitoyo' một cách đằm thắm như vậy đâu.」"
+# JP: 「そうだな。頭が鈍っていては良い案も出ん」
+2710 = "「Đúng vậy. Đầu óc mà trì trệ thì cũng không nghĩ ra được ý tưởng hay.」"
+# JP: 「そうねれいな。確かにあんまり、切って縁起がいいもの\n……って、わ。考えるとこれ、結構むつかしいかも」
+2712 = "「Đúng vậy nhỉ Reina. Quả thật, cắt thứ gì mà mang lại điềm lành thì...\\n...Á. Suy nghĩ kỹ thì có vẻ khá khó đấy.」"
+# JP: 「そうか、それは助かる」
+2713 = "「Vậy sao, thế thì giúp được nhiều lắm đấy.」"
+# JP: 「大昔に受けた認可が、いまも生きてるんですよぉ」
+2714 = "「Đó là giấy phép được cấp từ rất lâu rồi, mà đến giờ vẫn còn hiệu lực đó nha~」"
+# JP: 「[ひのしゃ,2]日ノ車ですか。でしたら技術も経験も技師も十二分。\n指導を受けずとも、検査を通せる施設ですね、確かに」
+2716 = "「Là Nippon Sharyo sao. Vậy thì kỹ thuật, kinh nghiệm lẫn kỹ sư đều đầy đủ. Đúng là cơ sở có thể vượt qua kiểm tra mà không cần nhận chỉ đạo nhỉ.」"
+# JP: 「ああ。そして、御一夜鉄道――\n僕らは、先般の8620の大改修を通じて――」
+2718 = "「À. Và Đường sắt Ohitoyo—— chúng tôi, thông qua đợt đại tu lớn của 8620 vừa rồi——」"
+# JP: 「はい」
+2720 = "「Vâng.」"
+# JP: 「はい。多分……ですけど、\nエアクラがもう、十二分に普及を果たしているから」
+2722 = "「Vâng. Chắc là vậy…… nhưng mà, vì Aircra giờ đã phổ biến đến mức quá đủ rồi.」"
+# JP: 「はい、だから、四年に一度、派遣してもらうんです。\n電車姫様――[ひろしま,1]廣島毛利電鉄さんのコネで、技師さんを」
+2724 = "「Vâng, vì vậy, cứ bốn năm một lần, chúng tôi lại nhờ họ phái người đến. Công chúa Tàu điện——nhờ mối quan hệ của Đường sắt điện Hiroshima Mouri, để mời kỹ sư đến.」"
+# JP: 「上手？　――ああいや、世辞などいわんし、言えん。\nただ、心底からそう思っただけのことだ」
+2729 = "「Khéo miệng? ——À không, em không nói nịnh đâu, cũng không biết nói nịnh. Chỉ là, em thực sự nghĩ như vậy từ tận đáy lòng thôi.」"
+# JP: 「大義名分があれば、各鉄道事業者の関係先――\n地元自治体や沿線住民の協力も仰ぎやすくなります」
+2731 = "「Nếu có danh nghĩa chính đáng, thì việc kêu gọi sự hợp tác từ các bên liên quan của mỗi nhà điều hành đường sắt—— các chính quyền địa phương và người dân dọc tuyến đường cũng sẽ dễ dàng hơn.」"
+# JP: 「可能性はある。まず御一夜-八ツ城間を復線の成功例と\nできたなら、その可能性は何十倍にも膨れあがろう」
+2733 = "「Có khả năng đấy. Trước hết, nếu có thể biến đoạn Ohitoyo - Yatsushiro thành ví dụ thành công của việc phục hồi tuyến đường, thì khả năng đó sẽ tăng lên gấp hàng chục lần.」"
+# JP: 「凪さまもそぎゃんと思うばい！」
+2737 = "「Nagi đại nhân cũng nghĩ vậy đấy!」"
+# JP: 「そうするためには、\n色を混じえぬことが必要かと思うのだ」
+2751 = "「Để làm được điều đó,\\ntôi nghĩ cần phải không để lẫn lộn màu sắc.」"
+# JP: 「赤井宮司がおっしゃってくださったとおり、\nみかん鉄道との\x%l接続;#00ffc040;接続%l;#;は、非常に大きな意味を持ちます」
+2754 = "「Đúng như đền chủ Akai đã nói, việc \\x%l接続;#00ffc040;kết nối%l;#; với Đường sắt Mikan, mang một ý nghĩa vô cùng to lớn.」"
+# JP: 「例えば、双鉄くんに政策秘書に入ってもらって、\n市政のレベルで観光振興に力を注いでもらう、とか」
+2756 = "「Ví dụ như, nhờ anh Soutetsu làm thư ký chính sách,\\nvà tập trung sức lực vào việc chấn hưng du lịch ở cấp độ chính quyền thành phố, chẳng hạn.」"
+# JP: 「双鉄がそこまで褒めてくれるとは思わなかったよ。\nけど――うん。少しも褒めすぎだとは感じ無い出来だ」
+2758 = "「Không ngờ Soutetsu lại khen đến mức đó đấy. Nhưng mà——ừm. Thành phẩm này khiến tôi không cảm thấy là cậu đang khen quá lời chút nào.」"
+# JP: 「ほんなん」「そんなの」\n「そのようなこと」
+2759 = "「Làm gì có」「Chuyện đó thì」\\n「Những chuyện như vậy」"
+# JP: 「そんな……」
+2761 = "「Đâu có đến mức đó……」"
+# JP: 「そのとおりだ。ゆえ、オール御一夜を描くためには、\n土台が真っ白であることが必須となるかと思うのだ」
+2762 = "「Đúng là vậy. Do đó, để vẽ nên bức tranh All Ohitoyo,\\ntôi nghĩ việc nền tảng phải hoàn toàn trắng tinh là điều bắt buộc.」"
+# JP: 「はい、その通りです。全般検査を通せる車両工場が\n次々に倒れ、けれども検査負担の軽減はなかったから」
+2763 = "「Vâng, đúng là vậy. Các nhà máy toa xe có thể thực hiện kiểm tra toàn diện cứ lần lượt sụp đổ, thế nhưng gánh nặng kiểm tra thì không hề giảm bớt.」"
+# JP: 「はい、例えば[せんだい,1]千内も、現実的な候補地に入ってきます」
+2764 = "「Vâng, ví dụ như Sendai, cũng sẽ được đưa vào làm địa điểm ứng cử thực tế.」"
+# JP: 「はい。双鉄様は、路を示される方なのです。\nその上をどう走るかは、わたくしたち、機関車の仕事」
+2765 = "「Vâng. Ngài Soutetsu, là người chỉ ra con đường.\\nViệc chạy trên đó như thế nào, là công việc của chúng tôi, những đầu máy xe lửa.」"
+# JP: 「そぎゃんと！　まっことそぎゃんとよ！」
+2766 = "「Đúng vậy đó! Đúng là như vậy đó!」"
+# JP: 「よね！　にぃにが帰ってきてくれんかったら、\nねぇねから、わたしずーっと逃げ回っとったと思うし」
+2767 = "「Đúng vậy! Nếu anh hai không trở về,\\nthì em nghĩ mình vẫn sẽ mãi trốn tránh chị hai mất.」"
+# JP: 「と、思いますが――古い鉄道屋の知識です。\n最新のものは、双鉄君からの補足があるのでは？」
+2768 = "「Tôi nghĩ là có——nhưng đó là kiến thức của một kẻ làm đường sắt già cỗi. Những thứ mới nhất, chẳng phải sẽ có cậu Soutetsu bổ sung sao?」"
+# JP: 「はい。復線です。それがなれば、\n御一夜の環境保全と経済復興とは、両立します」
+2769 = "「Vâng. Là phục hồi tuyến đường. Nếu làm được điều đó, việc bảo vệ môi trường của Ohitoyo và sự phục hưng kinh tế, đều có thể đạt được.」"
+# JP: 「ポーレットは、はずかしくなんてないですよぉ？」
+2786 = "「Chị Paulette, có gì đâu mà xấu hổ chứ~」"
+# JP: 「ポーレット、もうあがるですかぁ？\nそれなら、れいなもあがりますよぉ」
+2787 = "「Chị Paulette, chị lên rồi sao?\\nVậy thì, Reina cũng lên nha~」"
+# JP: 「浦上」
+2789 = "「Uragami.」"
+# JP: 「素案の立案。エアクラ誘致反対派も賛成派も\n参加を検討するに値する、経済復興のアイディアの」
+2790 = "「Việc lập ra bản nháp. Một ý tưởng phục hưng kinh tế mà cả phe phản đối lẫn phe ủng hộ việc thu hút nhà máy Aircra, đều thấy đáng để xem xét tham gia.」"
+# JP: 「更に力を貸して欲しい。オール御一夜の礎を、\nいま、この場所で固めるために」
+2793 = "「Tôi muốn mọi người cho mượn thêm sức mạnh. Để ngay tại nơi này, củng cố nền tảng của All Ohitoyo.」"
+# JP: 「れいなも、ポーレットといっしょに、\nそうてつさんのこと、ささえちゃいますよぉ」
+2797 = "「Reina cũng, cùng với chị Paulette, sẽ ủng hộ anh Soutetsu đó nha~」"
+# JP: 「れいな、ポーレットと一緒に参加しますよぉ」
+2800 = "「Reina, sẽ tham gia cùng với chị Paulette đó nha~」"
+# JP: 「れいなも、ポーレットといっしょにしますぅ」
+2801 = "「Reina cũng muốn hứa cùng với chị Paulette nữa~」"
+# JP: 「れいな、切りたいのってケーキくらいですぅ」
+2802 = "「Reina chỉ muốn cắt bánh kem thôi à~」"
+# JP: 「れいな、『ちーず』っていってませんよぉ」
+2805 = "「Reina còn chưa kịp nói 'Cheese' mà~」"
+# JP: 「確かにここからが大勝負ばい！！」
+2806 = "「Quả thực từ bây giờ mới là trận chiến lớn đấy!!」"
+# JP: 「今の段階では、個人としてのものです。\nですが――」
+2807 = "「Ở giai đoạn hiện tại, thì đó là với tư cách cá nhân.\\nNhưng mà——」"
+# JP: 「当然だろう？　誰を選ぶも、選ばないも」
+2813 = "「Đương nhiên rồi nhỉ? Dù chọn ai, hay không chọn ai cũng vậy.」"
+# JP: 「未来行き列車」
+2817 = "「Chuyến tàu đi đến tương lai.」"
+# JP: 「たしかに、情報過多による選択疲れは\n社会傾向として、顕著になってきつつはあるよね」
+2819 = "「Quả thực, sự mệt mỏi trong việc lựa chọn do quá tải thông tin, đang trở thành một xu hướng xã hội rõ rệt nhỉ.」"
+# JP: 「そのまま混ぜたらあたりばキツかね。\nばってん――」
+2821 = "「Trộn thẳng vào như vậy thì chắc là gắt lắm nhỉ. Nhưng mà——」"
+# JP: 「まっこと！？　にぃに、わたしもよかと？」
+2824 = "「Thật không!? Anh hai, em cũng được thử chứ?」"
+# JP: 「本当に？　この全ての鉄道会社が、定期検査に苦労して、\n莫大なコストをかけている？」
+2827 = "「Thật sao? Tất cả các công ty đường sắt này, đều đang gặp khó khăn trong việc kiểm tra định kỳ, và phải tốn một khoản chi phí khổng lồ?」"
+# JP: 「確かにな」
+2844 = "「Quả thực là vậy.」"
+# JP: 「確かに、だ。が、この協力体制とて、\nいざ工場誘致という話題となれば、壊れてしまう」
+2845 = "「Quả thực là vậy. Nhưng mà, ngay cả thể chế hợp tác này,\\nmột khi nhắc đến chủ đề thu hút nhà máy, cũng sẽ sụp đổ mất.」"
+# JP: 「確かに、お二方のご意見はともに、\n一理も二理もあるものですね」
+2846 = "「Quả thực, ý kiến của cả hai người,\\nđều có cái lý của nó nhỉ.」"
+# JP: 「確かに現行案で事業創出のメリットを受けるのは、\n移住者を多く含む鉄道技術者が中心となります」
+2847 = "「Quả thực với phương án hiện tại, những người nhận được lợi ích từ việc tạo ra công ăn việc làm,\\nchủ yếu sẽ là các kỹ sư đường sắt, bao gồm cả rất nhiều người nhập cư.」"
+# JP: 「稀咲、ふかみ、凪。まったく違った三人の個性を、\nしかし、それぞれ鮮やかに際立て、光らせている」
+2856 = "「Kisaki, Fukami, Nagi. Ba người với tính cách hoàn toàn khác nhau, nhưng mỗi người đều tỏa sáng rực rỡ theo cách riêng của mình.」"
+# JP: 「稀咲先輩？　っていうか……達、って？」
+2863 = "「Đàn chị Kisaki? Mà khoan……nhóm, là sao?」"
+# JP: 「ホームも、レールも――」
+2864 = "「Sân ga cũng vậy, đường ray cũng vậy——」"
+# JP: 「一点目は宅地買収への足掛かり。一切の足掛かりなしに\n宅地買収という困難な事業へは踏み出せない」
+2866 = "「Điểm thứ nhất là chỗ đứng để mua lại đất ở. Nếu không có bất kỳ chỗ đứng nào\\nthì không thể bước vào công việc khó khăn mang tên mua lại đất ở được.」"
+# JP: 「三点目。“御一夜市民”に与えるメリット。\n君の案では、御一夜市民の生活不安は解消されない」
+2869 = "「Điểm thứ ba. Lợi ích mang lại cho “người dân Ohitoyo”.\\nPhương án của cậu, không giải quyết được nỗi bất an trong cuộc sống của người dân Ohitoyo.」"
+# JP: 「二点目は、『新観光列車』なるもののビジョン。\nどのような物にするかが、一切具体的に示されていない」
+2871 = "「Điểm thứ hai là, tầm nhìn về cái gọi là 『chuyến tàu du lịch mới』.\\nSẽ làm ra một thứ như thế nào, hoàn toàn không được chỉ ra một cách cụ thể.」"
+# JP: 「ちょっ！？　凪ちゃん」
+2872 = "「Khoan đã!? Nagi.」"
+# JP: 「事実として、みかん鉄道は莫大なコストをかけて、\n本州――名児耶の車両工場に検査を委託している」
+2889 = "「Thực tế là, Đường sắt Mikan đang tốn một khoản chi phí khổng lồ, để ủy thác việc kiểm tra cho nhà máy chế tạo toa xe ở Honshu——Nagoya.」"
+# JP: 「\x%lディーゼルトレーラー;#00ffc040;ディーゼルトレーラー%l;#;による鉄道車両の陸送は、\n時間単位での、莫大なコストが発生するんです」
+2890 = "「Việc vận chuyển toa xe đường sắt trên đất liền bằng \\x%lディーゼルトレーラー;#00ffc040;xe rơ-moóc chạy dầu diesel%l;#;, sẽ phát sinh một khoản chi phí khổng lồ, tính theo đơn vị thời gian.」"
+# JP: 「できるな」
+2894 = "「Được chứ.」"
+# JP: 「怖いというのは、少し――」
+2895 = "「Sợ thì, có hơi——」"
+# JP: 「さつまのちいきせい、ですかぁ？」
+2903 = "「Tính vùng miền của Satsuma, sao ạ~?」"
+# JP: 「大昔から、[さつま,1]颯馬は帝都と仲の悪かと。\n中央の方針には、ともかく素直に従わん」
+2904 = "「Từ xưa đến nay, Satsuma với Đế đô vốn đã không hòa thuận rồi. Dù sao thì họ cũng chẳng ngoan ngoãn tuân theo phương châm của trung ương đâu.」"
+# JP: 「餅は餅屋、汽車は汽車屋です、双鉄様。\n双鉄様の\x%l機関士;#00ffc040;機関士%l;#;としての適正の高さは、明白です」
+2908 = "「Việc nào ra việc nấy, tàu hỏa thì để cho người làm tàu hỏa, thưa ngài Soutetsu.\\nSự phù hợp cao của ngài Soutetsu với tư cách là một \\x%l機関士;#00ffc040;lái tàu%l;#;, là điều hiển nhiên.」"
+# JP: 「ちょっ！　ねぇねぇ～っ」
+2912 = "「Khoan đã! Chị hai~Ư」"
+# JP: 「あの、にぃ――んんっ、兄さん？\n\x%l機関助士;#00ffc040;機関助士%l;#;って、兄さんがいつも練習している――」
+2913 = "「À này, anh hai——ưm, anh trai?\\n\\x%l機関助士;#00ffc040;Phụ lái tàu%l;#; là, cái mà anh luôn luyện tập đó hả——」"
+# JP: 「派遣してもらって、検査を受ける？」
+2917 = "「Nhờ họ phái người đến, và tiếp nhận kiểm tra sao?」"
+# JP: 「ありがとう」
+2918 = "「Cảm ơn em.」"
+# JP: 「ありがとう」
+2919 = "「Cảm ơn mọi người.」"
+# JP: 「ありがと、れいな」
+2920 = "「Cảm ơn em, Reina.」"
+# JP: 「みかん鉄道と線路が繋がることには、\n赤井宮司も納得されるほどのメリットが？」
+2935 = "「Việc kết nối đường ray với Đường sắt Mikan, có lợi ích lớn đến mức đền chủ Akai cũng phải đồng tình sao?」"
+# JP: 「[みち]路――」
+2938 = "「Con đường——」"
+# JP: 「線路をカタログ、駅名はそこに載る商品と位置づける。\nその価値観を明示し、線路にならではの意味を持たせる」
+2940 = "「Định vị tuyến đường là catalogue, tên ga là hàng hóa được ghi trong đó. Làm rõ giá trị quan đó, và mang lại cho tuyến đường ý nghĩa chỉ nó mới có.」"
+# JP: 「顔の造作のことではなく、な」
+2964 = "「Không phải vấn đề về ngoại hình đâu.」"
+# JP: 「それも、大廃線を加速させた要因なんだね？」
+2965 = "「Đó cũng là, yếu tố thúc đẩy cuộc Đại bãi bỏ các tuyến đường sắt nhỉ?」"
+# JP: 「まぁ、当然のことだろうね。\nああ、そうか――」
+2966 = "「Chà, đó cũng là chuyện đương nhiên nhỉ. À, ra là vậy——」"
+# JP: 「発注元となりうる――本州への移送コストをかけて\n検査を受けている鉄道会社が、これだけありますから」
+2967 = "「Có thể trở thành bên đặt hàng—— vì có rất nhiều công ty đường sắt đang tốn chi phí vận chuyển đến Honshu để kiểm tra mà.」"
+# JP: 「これは……話題を呼びそうだな」
+2968 = "「Cái này…… có vẻ sẽ trở thành chủ đề bàn tán đấy.」"
+# JP: 「それは――そうだな。\n僕らの列車が走ったときだ」
+2969 = "「Chuyện đó――ừm.\\nLà khi chuyến tàu của chúng ta khởi hành.」"
+# JP: 「それは――ハチロク。\n恐らく、キミと同じ理由だ」
+2970 = "「Chuyện đó—— là Hachiroku. Có lẽ, cũng là cùng lý do với cậu thôi.」"
+# JP: 「ズレとるねぇ。\nやけん、厳しか状況に置かれよるとよ」
+2971 = "「Lệch pha rồi đấy.\\nVì thế nên, mới bị đặt vào tình thế nghiêm trọng đấy.」"
+# JP: 「これは――旨いな。\n和風ジンジャーエールといった趣だ」
+2972 = "「Cái này—— ngon thật đấy. Có cảm giác như ginger ale kiểu Nhật vậy.」"
+# JP: 「こんラムネが、御一夜市の環境保持。\nで、こっちの――そうね、醤油が、商業振興」
+2973 = "「Ramune này, là việc bảo vệ môi trường của thành phố Ohitoyo. Còn bên này—— ừm, nước tương là, sự chấn hưng thương mại.」"
+# JP: 「それはですね、双鉄くん」
+2974 = "「Đó là vì, anh Soutetsu à.」"
+# JP: 「それでよい――とは」
+2975 = "「Như vậy là tốt——nghĩa là sao?」"
+# JP: 「そう出来たら、旅の目的地の選択肢に、\n御一夜と、八ツ城海とが、いっつも入るようになる」
+2976 = "「Nếu làm được như vậy, trong các lựa chọn về điểm đến du lịch, Ohitoyo, và biển Yatsushiro, sẽ luôn được đưa vào.」"
+# JP: 「この計画は、その想いに、強い裏付け――\n大義名分を与えてくれるものとなるように思います」
+2977 = "「Tôi nghĩ kế hoạch này, sẽ mang lại cho tâm nguyện đó một sự hậu thuẫn mạnh mẽ—— một danh nghĩa chính đáng.」"
+# JP: 「答えるまでも無いんじゃないかな？\n支店長ではないボクは、ただの宝生稀咲だよ」
+2978 = "「Có cần phải trả lời không nhỉ? Tôi, khi không phải là Giám đốc chi nhánh, chỉ là Houshou Kisaki bình thường thôi mà.」"
+# JP: 「もちろん！　いらんていわれても、\n力の押し売り、するつもりだったけん！！」
+2979 = "「Đương nhiên rồi! Dù anh có bảo là không cần, em vẫn định ra sức giúp đỡ đấy!!」"
+# JP: 「それほどに？　鉄道車両は、ガソリン自動車で\nトレーラー陸送できるだろう？　なら」
+2980 = "「Đến mức đó sao? Toa xe đường sắt, có thể dùng ô tô chạy xăng để vận chuyển bằng rơ-moóc đường bộ mà? Nếu vậy thì」"
+# JP: 「優秀な多数の技師との人脈を得た。\nつまり……常設の検査体制を整えられる？」
+2982 = "「Đã có được mối quan hệ với nhiều kỹ sư giỏi. Tức là…… có thể chuẩn bị được hệ thống kiểm tra thường trực sao?」"
+# JP: 「やっぱり一人はさみしかとばーい！！」
+2983 = "「Quả nhiên một mình thì buồn tẻ quá đi mất!!」"
+# JP: 「そんな指導をしてもらえるんだ」
+2984 = "「Vậy mà lại được nhận sự chỉ đạo như vậy nữa à.」"
+# JP: 「わたし、わたしも混ぜてほしい、です！」
+2985 = "「Cho, cho em tham gia với, ạ!」"
+# JP: 「わたし！　わたしもあがります。\nあの……えと――宿題、とか。あるです。し」
+2986 = "「Em! Em cũng lên đây.\\nÀ……ờm——bài tập về nhà, các thứ. Vẫn còn. Ạ.」"
+# JP: 「ならば」
+2987 = "「Nếu vậy thì.」"
+# JP: 「ほんなら……基礎資料を分担で作成。\n作成者からのブリーフィングを全体で共有。で、どう？」
+2989 = "「Vậy thì…… chia nhau làm tài liệu cơ bản. Rồi cả nhóm cùng chia sẻ buổi thuyết trình của người soạn. Thế thì sao?」"
+# JP: 「したらしたら！　動き出すばい！\nまず初めには、何ばしよると！！？」
+2992 = "「Vậy thì vậy thì! Bắt đầu hành động thôi! Trước tiên, chúng ta sẽ làm gì đây!!?」"
+# JP: 「なら、いつになったら入れると？」
+2993 = "「Vậy, chừng nào anh mới vào chụp được á?」"
+# JP: 「ええと――稀咲さん？」
+2995 = "「Ờm—— cô Kisaki?」"
+# JP: 「ならばハチロクには、目次のリスト化を頼みたい。\nそれがあれば、参照の時間を大いに節約できる」
+2997 = "「Vậy thì, tôi muốn nhờ Hachiroku làm danh sách mục lục. Có nó thì sẽ tiết kiệm được rất nhiều thời gian tra cứu.」"
+# JP: 「そのために、会議までの準備で必要なことは？」
+3000 = "「Để làm được điều đó, những việc cần chuẩn bị trước cuộc họp là gì?」"
+# JP: 「ならにーさん！\n凪さまとそいば約束するばい！！」
+3001 = "「Vậy anh hai!\\nMóc ngoéo hứa với Nagi-sama đi nè!!」"
+# JP: 「ならば良かった。で、だ。出来ればで構わんのだが\n――稀咲達も誘ってみてはくれんか？」
+3003 = "「Vậy thì tốt. Và này, nếu được thì cũng không sao\\n——em thử rủ cả nhóm Kisaki được không?」"
+# JP: 「それで話は決まりばい！！！」
+3005 = "「Vậy là quyết định rồi nhé!!!」"
+# JP: 「なら、ワシもこの辺で。\nああ、双鉄くん――大変じゃろうが、頑張って」
+3008 = "「Vậy thì, lão cũng xin phép tại đây.\\nA, cậu Soutetsu——chắc là vất vả lắm, nhưng hãy cố gắng lên nhé.」"
+# JP: 「なら、いこ！」
+3009 = "「Vậy thì, đi thôi!」"
+# JP: 「なら、私。練習してみて、できそうだったら、\nにぃに――んんっ――兄さんの、\x%l機関助士;#00ffc040;機関助士%l;#;になります」
+3011 = "「Vậy thì, em. Sẽ thử luyện tập xem sao, nếu có vẻ làm được,\\nthì em sẽ trở thành \\x%l機関助士;#00ffc040;phụ lái tàu%l;#; của anh hai——ưm——anh trai.」"
+# JP: 「では、ただの宝生稀咲様が、どのような理由で、\nこの計画への参加をご希望されるのですか？」
+3015 = "「Vậy thì, với lý do gì mà một Houshou Kisaki bình thường, lại mong muốn tham gia vào kế hoạch này?」"
+# JP: 「ボクもそうする。約束するよ。\n双鉄なら、いずれきっと、最適解を見出すだろうし」
+3017 = "「Tôi cũng sẽ làm vậy. Tôi hứa đấy. Nếu là Soutetsu, thì một lúc nào đó chắc chắn, sẽ tìm ra giải pháp tối ưu thôi.」"
+# JP: 「それこそエアクラを使えばいい話だ。海でも温泉でも、\n線路に縛られないで、どこへだっていける」
+3019 = "「Dùng Aircra là được chứ gì. Dù là biển hay suối nước nóng, cũng không bị ràng buộc bởi đường ray, đi đâu mà chẳng được.」"
+# JP: 「あのっ！　わたしも、それだったら希望っていうか、\n意見っていうか――」
+3021 = "「À này! Nếu vậy thì tôi cũng có mong muốn,\\nhay đúng hơn là ý kiến——」"
+# JP: 「ほんなら、おねーちゃんに聞かせて？\n双ちゃん、全体会議での目標は？」
+3022 = "「Vậy thì, cho chị nghe thử xem? Sou-chan, mục tiêu của em trong cuộc họp toàn thể là gì?」"
+# JP: 「ならばこの件、ひとまずは宝生稀咲支店長に預ける。\nいや、思ったより有意義な時間だった」
+3025 = "「Vậy thì vụ này, trước mắt ta sẽ giao cho Giám đốc chi nhánh Houshou Kisaki.\\nChà, một khoảng thời gian ý nghĩa hơn ta tưởng đấy.」"
+# JP: 「では、僕。右田双鉄は、ここにいる皆に約束しよう。\n僕は必ず、僕らの列車、未来行き列車を走らせて――」
+3026 = "「Vậy, tôi. Migita Soutetsu, xin hứa với tất cả mọi người ở đây.\\nTôi nhất định sẽ làm cho chuyến tàu của chúng ta, chuyến tàu hướng tới tương lai, lăn bánh——」"
+# JP: 「醤油とラムネか――\n全くもって相容れんな」
+3033 = "「Nước tương với Ramune sao—— hoàn toàn không hợp nhau chút nào.」"
+# JP: 「酒蔵のことも、私の看板描きやなにかも、\n御一夜の人と密着するお仕事でしょ？　だから――」
+3034 = "「Chuyện xưởng rượu, hay việc vẽ biển hiệu của em cũng vậy,\\nđều là những công việc gắn bó mật thiết với người dân Ohitoyo đúng không? Vì vậy——」"
+# JP: 「鉄道車両は、多数の旅客を運ぶ公共の交通機関だ。\n故に、法定検査は極めて厳重なものとなっている」
+3045 = "「Toa xe đường sắt, là phương tiện giao thông công cộng chuyên chở số lượng lớn hành khách. Do đó, kiểm tra theo luật định là vô cùng nghiêm ngặt.」"
+# JP: 「どぎゃんと？　にぃに」
+3048 = "「Sao rồi? Anh hai.」"
+# JP: 「にぃに？」「双鉄様？」\n「双ちゃん？」
+3051 = "「Anh hai?」「Ngài Soutetsu?」\\n「Sou-chan?」"
+# JP: 「御一夜から、[はやと,1]早戸側に抜ける路線。\nこれも廃線となりましたが、[ひさつせん,2]肥颯線[おこばえき,2]小畑駅近くの車窓も」
+3054 = "「Tuyến đường từ Ohitoyo đi về phía Hayato. Tuyến này cũng đã bị bãi bỏ, nhưng cảnh nhìn từ cửa sổ tàu gần ga Okoba trên tuyến Hisatsu cũng——」"
+# JP: 「面白いが……さすがに、他の沿線自治体の意向もある。\nそこまで地元利益誘導べったりの名前は難しかろうな」
+3055 = "「Thú vị đấy nhưng……quả thực, cũng phải xem xét ý định của các chính quyền địa phương dọc tuyến đường nữa. Một cái tên mang đậm tính lôi kéo lợi ích địa phương như vậy thì e là hơi khó.」"
+# JP: 「極端な意見ではあるが、しかし、理もある」
+3056 = "「Tuy là một ý kiến cực đoan, nhưng cũng có lý.」"
+# JP: 「双鉄様。復線に関する会議内容とは別に、\nいくつかの点で、状況確認が必要であるかと存じます」
+3057 = "「Ngài Soutetsu. Bỏ qua nội dung cuộc họp về việc phục hồi tuyến đường,\\ntôi nghĩ cần phải xác nhận tình hình ở một vài điểm.」"
+# JP: 「双鉄様は、レールなのですから。\n方向が定まっていて、当然なのです」
+3058 = "「Bởi vì ngài Soutetsu, là đường ray mà.\\nViệc phương hướng đã được định sẵn, là điều đương nhiên.」"
+# JP: 「ほんの半年。それだけあれば双鉄様も、清美\x%l機関士;#00ffc040;機関士%l;\n#;同様、\x%l機関助士;#00ffc040;機関助士%l;#;なしでの機関車運用も可能となります」
+3059 = "「Chỉ nửa năm thôi. Có chừng đó thời gian thì ngài Soutetsu cũng,\\ngiống như \\x%l機関士;#00ffc040;lái tàu%l;#; Kiyomi, có thể vận hành đầu máy xe lửa mà không cần \\x%l機関助士;#00ffc040;phụ lái tàu%l;#;.」"
+# JP: 「双鉄様。旧帝鉄[ゆのい,1]湯医線関係の書籍と資料とは、\nこの程度かと存じます」
+3061 = "「Ngài Soutetsu. Sách và tài liệu liên quan đến tuyến Yunoi của Teitetsu cũ,\\ntôi nghĩ chỉ có chừng này thôi ạ.」"
+# JP: 「双鉄様。\nわたくしもこれ以上は湯あたりしてしまいそうです」
+3062 = "「Ngài Soutetsu.\\nTôi mà ngâm thêm nữa chắc sẽ bị say nước nóng mất.」"
+# JP: 「双鉄様？」
+3063 = "「Ngài Soutetsu?」"
+# JP: 「ニーズは作り出せます。最初に復線させるのが、\n“御一夜－[やつしろ,2]八ツ城”間だからです」
+3065 = "「Nhu cầu thì có thể tạo ra được. Vì đoạn đầu tiên chúng ta phục hồi, là đoạn 'Ohitoyo - Yatsushiro' mà.」"
+# JP: 「色は、絵の具は、たくさんたくさん重ねると、\nどんどんどんどん、黒に近づいていっちゃうけど」
+3069 = "「Màu sắc, sơn màu ấy, càng chồng chất nhiều màu lên nhau, thì càng ngày càng tiến gần đến màu đen đấy.」"
+# JP: 「色――とは。つまり、立場、意見。あるいは、\n目的といったもののことでございましょうか？」
+3070 = "「Màu sắc——nghĩa là. Lập trường, ý kiến. Hoặc là,\\nnhững thứ như mục đích sao ạ?」"
+# JP: 「色？」
+3071 = "「Màu sắc?」"
+# JP: 「鹿兒島が主体となったとですか。\nなら、[さつま,1]颯馬の地域性もあるかもしれんですのぉ」
+3083 = "「Kagoshima đứng ra làm chủ thể sao. Vậy thì, có lẽ cũng có liên quan đến tính cách vùng Satsuma đấy.」"
+# JP: 「すまない、みんな。ありがとう」
+3085 = "「Xin lỗi vì đã làm phiền mọi người. Cảm ơn nhé.」"
+# JP: 「っ！！？　これダメっ！\nにげてっ！　にげてそーちゃんっ！！」
+3088 = "「!!! Cái này không được! Chạy đi! Chạy đi Sou-chan!!」"
+# JP: 僕らがこれから走らせる、その列車だけにとどまらず、\n全ての列車は――未来へ、僕らを運ぶのだ。
+3260 = "Không chỉ riêng chuyến tàu mà chúng tôi sắp cho chạy,\\nmà tất cả các chuyến tàu——đều chở chúng ta hướng về tương lai."
+# JP: なにか、おかしい。\n残ったみなが、ハチロクに注ぐ視線が、硬い。
+3262 = "Có gì đó, không ổn.\\nÁnh mắt của những người còn lại, đổ dồn vào Hachiroku, thật cứng nhắc."
+# JP: 訂正、凪もだ。\n全員が風呂から上がろうとする。
+3264 = "Đính chính, cả Nagi nữa.\\nTất cả mọi người đều chuẩn bị ra khỏi bồn tắm."
+# JP: なるほど。宮司もまた、稀咲が一目置いているだけはある。\n話をきちんと、繋げて僕へと戻してくれた。
+3266 = "Ra là vậy. Đền chủ cũng quả thật là người mà Kisaki phải nể trọng. Ông đã nối lại câu chuyện một cách gọn gàng, rồi đưa nó trở về với tôi."
+# JP: 悪くない――\n罰則ではなく信頼で、僕は約束を縛ってもらう。
+3268 = "Không tệ――\\nTôi được ràng buộc bởi lời hứa bằng niềm tin, chứ không phải hình phạt."
+# JP: エアクラ工場が建設されず、水を守って――\n産業も鉄道も復活せずに、人が飢えては意味が無い。
+3270 = "Dù không xây dựng nhà máy Aircra, và bảo vệ được nguồn nước——\\nnhưng nếu công nghiệp và đường sắt không phục sinh, con người phải chịu đói thì cũng vô nghĩa."
+# JP: なぜなのだろうかハチロクは、\n困惑させられているようにも見える。
+3272 = "Không hiểu sao Hachiroku, trông có vẻ như đang bị làm cho bối rối."
+# JP: それと同時に、何故だろう――\n空気が、どこか緊張をはらむ。
+3274 = "Đồng thời, không hiểu sao——\\nBầu không khí, bỗng mang theo chút gì đó căng thẳng."
+# JP: しかし、うむ。\n掛け値なく、実に優れた“鉄道”のポスターとなりそうだ。
+3276 = "Nhưng mà, ừm. Không hề phóng đại, có vẻ như nó sẽ trở thành một tấm áp phích 'đường sắt' thực sự xuất sắc."
+# JP: いや、違う。それさえもやはり一つの過程――\n御一夜を立て直すためのステップであるにすぎない。
+3278 = "Không, không phải. Ngay cả điều đó cũng chỉ là một quá trình——\\nchỉ là một bước đệm để vực dậy Ohitoyo mà thôi."
+# JP: 言い出したくて言い出せない、\nいつもの日々姫が出ていたのかと、今さら気付く。
+3281 = "Đến giờ tôi mới nhận ra, Hibiki của mọi khi,\\nmuốn nói mà không thể nói ra, lại xuất hiện rồi."
+# JP: 言われてみれば、その傾向はあるかもしれぬ。
+3290 = "Nghe em ấy nói vậy, có lẽ tôi cũng có xu hướng đó thật."
+# JP: 言外の意味が通じている。買収に僕らが着手するなら、\nその代行者が、隈銀と限られるものではないと。
+3293 = "Ý tứ ngoài lời nói đã được truyền đạt. Nếu chúng tôi bắt tay vào việc mua lại,\\nthì người đại diện, không nhất thiết chỉ giới hạn ở Kumagin."
+# JP: “隈銀”――ではなく、“銀行”と。
+3294 = "Không phải là “Kumagin”——mà là “ngân hàng”."
+# JP: 日々姫に代わり答えてきたのはポーレット――\nこのポスターの、発注者だ。
+3297 = "Thay Hibiki trả lời là Paulette—— người đặt hàng tấm áp phích này."
+# JP: 御一夜銀行サイドの三人は、\n全員が全員、この会議に出席してくれた。
+3298 = "Ba người bên phía Ngân hàng Ohitoyo, tất cả đều đã tham dự cuộc họp này."
+# JP: そのまま、言葉を発さない。\nであらば僕が言う他にない。
+3300 = "Ông ấy cứ giữ nguyên như vậy, không nói thêm lời nào.\\nNếu thế thì tôi đành phải nói thôi."
+# JP: けれど、それでも気づいてくれる。\n僕の異変に皆が気づいて、不安げな顔をしてくれる。
+3301 = "Nhưng mà, mọi người vẫn nhận ra. Mọi người nhận ra sự khác thường của tôi, và lộ ra vẻ mặt đầy bất an."
+# JP: 稀咲の声が、\n仕事のトーンまで低くなる。
+3302 = "Giọng của Kisaki, trầm xuống thành tông giọng của công việc."
+# JP: 意見がひかりであるのなら、\n閉ざしてしまえば、暗闇から動けなくなるというのに。
+3306 = "Nếu ý kiến là ánh sáng, thì một khi đã khép kín lại, sẽ không thể bước ra khỏi bóng tối được."
+# JP: 僕のほのめかしを理解した上で、\n元忠氏が切り返してきた意味もまた、明白だ。
+3328 = "Sau khi hiểu được lời ám chỉ của tôi,\\ný nghĩa của việc ông Mototada phản pháo lại, cũng rất rõ ràng."
+# JP: 元忠氏は鷹揚に――\nと表現するには、芝居気が混じりすぎる頷きを見せる。
+3331 = "Ông Mototada gật đầu một cách hào phóng——\\nhay nói đúng hơn là, pha lẫn quá nhiều sự kịch tính."
+# JP: 率直極まる稀咲の言葉に、\n元忠氏も、浦上さんも頷いている。
+3332 = "Trước những lời nói thẳng thắn đến cực điểm của Kisaki, cả ông Mototada lẫn ông Uragami đều đang gật đầu."
+# JP: 元忠氏と浦上さんとが去っていく。
+3333 = "Ông Mototada và ông Uragami rời đi."
+# JP: 元忠氏の分厚い手のひらが、僕の肩へと乗せられる。
+3336 = "Bàn tay dày cộp của ông Mototada, đặt lên vai tôi."
+# JP: 大きく、極めてわざとらしく、\n元忠氏は肩をすくめてみせる。
+3338 = "Ông Mototada nhún vai,\\nmột cách mạnh mẽ, và cực kỳ có chủ ý."
+# JP: きっぱりとそう言い切ってハチロクは、\n僕、日々姫、ポーレットとじゅんじゅん見渡す。
+3352 = "Hachiroku khẳng định một cách dứt khoát như vậy,\\nrồi lần lượt nhìn sang tôi, Hibiki, và Paulette."
+# JP: 完全に、ハチロクが気圧されて――いや？
+3354 = "Hachiroku hoàn toàn bị áp đảo—— hay là không nhỉ?"
+# JP: あ、と小さなハチロクの声。
+3356 = "“A”, tiếng kêu khe khẽ của Hachiroku."
+# JP: 登呂流湯のご主人の言葉を断ち切って、\nハチロクもまた、どこか緊張した声を出す。
+3358 = "Cắt ngang lời của chủ nhân nhà tắm Tororyu-yu,\\nHachiroku cũng cất lên giọng nói có phần căng thẳng."
+# JP: ハチロクの言は、一点突破で高いところ――\n誰もが目にするところに、旗を掲げろということだ。
+3359 = "Lời của Hachiroku là, đột phá tại một điểm và tiến lên vị trí cao——\\nhãy giương cao ngọn cờ ở nơi mà mọi người đều có thể nhìn thấy."
+# JP: いつもながらのハチロクの声、\n落ち着いた、穏やかな声に何故か凄みを感じてしまう。
+3362 = "Vẫn là giọng nói quen thuộc của Hachiroku, giọng nói bình tĩnh, dịu dàng, nhưng không hiểu sao tôi lại cảm thấy trong đó có sự đáng sợ."
+# JP: まったく迷いのない言葉。\n率直すぎる賞賛を、単純に嬉しく感じてしまう。
+3363 = "Những lời nói hoàn toàn không chút do dự.\\nTôi chỉ đơn thuần cảm thấy vui mừng trước lời khen ngợi quá đỗi thẳng thắn đó."
+# JP: ハチロクは、達成感を顔に出し、\n風呂にしずしず入ると同時、僕の膝の上へと座る。
+3366 = "Hachiroku, với vẻ mặt đầy cảm giác thành tựu,\\ntừ từ bước vào bồn tắm, đồng thời ngồi lên đùi tôi."
+# JP: “\x%lレイルロオド;#00ffc040;レイルロオド%l;#;らしく”という意識からだろう。
+3369 = "Có lẽ là từ ý thức 'hành xử cho ra dáng một \\x%lレイルロオド;#00ffc040;Railord%l;#;'."
+# JP: しず、とハチロクが頭を下げる。
+3372 = "Hachiroku lặng lẽ cúi đầu."
+# JP: ハチロクはいそいそと手袋を外し、\nその手を重なる手の上へ。
+3374 = "Hachiroku hăm hở tháo găng tay ra,\\nđặt tay mình lên trên những bàn tay đang xếp chồng."
+# JP: みな、同じことを言おうとしていたのであろう。\nそれぞれの開きかけた口から、笑いがこぼれる。
+3376 = "Có lẽ mọi người, cũng định nói điều tương tự. Từ những cái miệng đang hé mở của mỗi người, tiếng cười bật ra."
+# JP: よっぽど焦れていたのだろうか、\n凪がスパンと話を断ち切る。
+3386 = "Có lẽ do đã quá sốt ruột, nên Nagi cắt ngang câu chuyện một cách dứt khoát."
+# JP: 凪の無邪気な一言が、みなの笑顔を一瞬で消す。\n困惑と、沈鬱と――両者が混じった顔になる。
+3388 = "Câu nói ngây thơ của Nagi khiến nụ cười của mọi người tắt ngấm trong chớp mắt.\\nKhuôn mặt họ lộ rõ vẻ bối rối xen lẫn u buồn."
+# JP: 凪の挙手。椅子がガタリと音を立てる。
+3390 = "Nagi giơ tay lên. Chiếc ghế kêu lên một tiếng cạch."
+# JP: 沈黙を守り、話を聞き続けていたハチロクの口から、\n押し出されてきたような言葉が、あふれる。
+3396 = "Từ miệng của Hachiroku, người vẫn luôn giữ im lặng và lắng nghe câu chuyện, những lời nói như bị đẩy ra, tuôn trào."
+# JP: けれど今、僕が為そうと欲しているのは、\n誰の望みも混じえない――正反対のことなのだから。
+3411 = "Nhưng bây giờ, điều tôi muốn làm là,\\nkhông để lẫn lộn mong muốn của bất kỳ ai——một điều hoàn toàn trái ngược."
+# JP: さきほどと同じ鉄道地図には、\nいくつかの鉄道路線が、描き足されている。
+3418 = "Trên bản đồ đường sắt giống hệt lúc nãy, đã được vẽ thêm một vài tuyến đường sắt khác."
+# JP: それぞれの意見を、そのまま汲むことはせぬにせよ、\nこれからの方針の参考とすることは大いに有用だろう。
+3420 = "Dù không hoàn toàn tiếp thu ý kiến của từng người,\\nnhưng việc dùng làm tài liệu tham khảo cho phương hướng sắp tới sẽ rất hữu ích."
+# JP: なぜならそこには、僕の望みがなかったからだ。
+3425 = "Bởi vì ở đó, không có mong muốn của tôi."
+# JP: 僕自身の色が無いゆえに、\nどんな色でも、きっと濁らせず混色できた。
+3426 = "Bởi vì bản thân tôi không có màu sắc,\\nnên bất kỳ màu sắc nào, chắc chắn cũng có thể pha trộn mà không bị vẩn đục."
+# JP: それが面白かったのか、\nふかみが抑えた、けれども明るい声で笑う。
+3429 = "Có lẽ thấy điều đó thú vị, mà Fukami bật cười bằng giọng nói kìm nén, nhưng đầy vui vẻ."
+# JP: 視線の先では、浦上さんと元忠氏とが、\nなにやら小声で、熱心に話し合っている。
+3431 = "Nơi ánh mắt cô ấy hướng đến, ông Uragami và ông Mototada, đang nói nhỏ to bàn luận điều gì đó rất sôi nổi."
+# JP: こういうときこそ、忌憚の無い意見が飛び出してくる。\n聞き逃さぬよう集中する。
+3434 = "Chính những lúc thế này, những ý kiến thẳng thắn mới bật ra.\\nTôi tập trung để không bỏ sót lời nào."
+# JP: その手の上に次々と、小さな手たちが重なってくる。
+3442 = "Lần lượt, những bàn tay nhỏ bé xếp chồng lên tay tôi."
+# JP: 問われて答えたその声に、\nみなが、安堵の息を吐く。
+3444 = "Nghe câu trả lời của tôi,\\nmọi người đều thở phào nhẹ nhõm."
+# JP: 優しい声が、思い出させてくれる。僕が重ねてきたことを。\n日々姫に、ハチロクに、ポーレットに、ふかみに。
+3447 = "Những giọng nói dịu dàng, đã gợi nhớ lại cho tôi. Những điều mà tôi đã tích lũy.\\nCho Hibiki, cho Hachiroku, cho Paulette, cho Fukami."
+# JP: 望みがあり、けれどもどう果たせばいいかが判らない――\nそうしたことのいくつかに、なるほど、確かに路は示せた。
+3448 = "Có mong muốn, nhưng lại không biết phải làm thế nào để thực hiện——\\nTrong một vài trường hợp như vậy, quả thực, tôi đã chỉ ra được con đường."
+# JP: また、沈黙。\n畳み掛けようとすれば必ず、稀咲はペースを整え直す。
+3450 = "Lại là sự im lặng. Mỗi khi tôi định dồn ép, Kisaki chắc chắn sẽ điều chỉnh lại nhịp độ."
+# JP: れいなを洗ってやり終えたらしい。
+3451 = "Có vẻ như cô ấy đã tắm rửa xong cho Reina."
+# JP: 温まりかけた空気を稀咲は恐らく、\n意図的に沈めようとする。
+3453 = "Bầu không khí vừa mới ấm lên, có lẽ Kisaki, đang cố tình làm cho chìm xuống."
+# JP: それが、迷いを切り裂いていく。
+3455 = "Chính điều đó, đã cắt đứt sự do dự của tôi."
+# JP: 言われてみれば、\nなんと自分が鈍かったのかが恥ずかしくなる。
+3458 = "Nghe cô ấy nói vậy, tôi cảm thấy xấu hổ vì sự chậm tiêu của mình."
+# JP: 動き出しの、いや、再始動の今。\n――恐らく今しか、チャンスはない。
+3459 = "Lúc bắt đầu chuyển động, không, lúc khởi động lại như bây giờ.\\n——Có lẽ chỉ có bây giờ mới là cơ hội."
+# JP: もう一段階高いレベルに目線を置けば、僕はやはり、\n『手段と目的』を取り違えているのではなかろうか？
+3462 = "Nếu đặt tầm nhìn ở một mức độ cao hơn nữa, có lẽ tôi thực sự,\\nđã nhầm lẫn giữa 『phương tiện và mục đích』 chăng?"
+# JP: 宝生元忠。\n大立者の割り込みに、一瞬、言葉を呑まされる。
+3474 = "Houshou Mototada.\\nSự xen ngang của một nhân vật lớn, khiến tôi trong phút chốc phải nuốt lời."
+# JP: 宝生元忠、宝生稀咲親子がなにゆえ、\nエアクラ工場誘致を良しとしているのか。
+3475 = "Hai cha con Houshou Mototada, Houshou Kisaki vì lý do gì,\\nmà lại cho rằng việc thu hút nhà máy Aircra là tốt."
+# JP: エアクラ誘致、その一点で白と黒とを分け合うことない、\nオール御一夜で協力し合える、その体制を作るには。
+3481 = "Để tạo ra một thể chế mà tất cả Ohitoyo có thể hợp tác với nhau,\\nchứ không phân biệt trắng đen chỉ vì vấn đề thu hút nhà máy Aircra."
+# JP: 僕らの地域振興に無く、工場誘致が持つ物は何か――\nそこをまだ、僕は考え尽くしていない。
+3482 = "Thứ mà việc thu hút nhà máy có, nhưng việc chấn hưng khu vực của chúng tôi lại không có là gì——\\nĐiều đó, tôi vẫn chưa suy nghĩ thấu đáo."
+# JP: 幸いにして、資料は文字通り、山のようにある。
+3485 = "May mắn thay, tài liệu đúng nghĩa đen là chất cao như núi."
+# JP: 今から、未来へ。ここから、どこかへ。\nそれぞれの目的を果たすため、それぞれの旅をするために。
+3489 = "Từ hiện tại, đi đến tương lai. Từ nơi này, đi đến một nơi nào đó. Để thực hiện mục đích của mỗi người, để thực hiện chuyến đi của mỗi người."
+# JP: 鉄道は観光振興の、エアクラ工場誘致撤回のための\n手段のひとつにすぎぬはず。だが――
+3501 = "Đường sắt đáng lẽ chỉ là một trong những phương tiện,\\nđể chấn hưng du lịch, và thu hồi việc thu hút nhà máy Aircra. Nhưng mà——"
+# JP: “むらさき”という別名をなるほどと思わせられる、\n濃い紫のグラデーションが、思いもかけず美しい。
+3506 = "Màu tím đậm pha trộn thành gradient, khiến người ta phải công nhận biệt danh 'murasaki' ấy, đẹp đến bất ngờ."
+# JP: 恐らくはそうすることで、\n落ち込みかけた自分自身を立て直していく。
+3510 = "Có lẽ bằng cách làm như vậy, cô ấy đang tự xốc lại tinh thần đang có phần suy sụp của bản thân."
+# JP: 言葉と同時、日々姫が用意してくれていた\nパネルを示す。
+3516 = "Từ miệng Hachiroku, người nãy giờ vẫn giữ im lặng và lắng nghe câu chuyện,\\nnhững lời nói như bị dồn ép tuôn trào ra."
+# JP: 言葉の意味が、よくわからない。\n確かに、名こそは双鉄だけれど――
+3518 = "Tôi không hiểu rõ ý nghĩa của câu nói đó.\\nĐúng là, tên tôi có chữ Soutetsu (đường ray đôi) thật, nhưng mà——"
+# JP: ホーム上切符売り場横。\nその空間に、みながぴたり、構図どおりに収まっていく。
+3521 = "Bên cạnh quầy bán vé trên sân ga. Trong không gian đó, mọi người lần lượt đứng vào vị trí, đúng như bố cục."
+# JP: 日々姫の素直な信頼が、僕にも素直に染み通ってくる。\nそこから広がるイメージが、僕の言葉を助けてくれる。
+3523 = "Sự tin tưởng chân thành của Hibiki, cũng nhẹ nhàng thấm vào tôi.\\nHình ảnh mở rộng từ đó, đã giúp tôi tìm được lời để nói."
+# JP: 口の端に乗せた瞬間に、\n発案者――ふかみが、しあわせそうにはにかむ。
+3527 = "Vừa đặt lời nói lên môi, người khởi xướng——Fukami, bẽn lẽn cười đầy hạnh phúc."
+# JP: 言った瞬間、日々姫がはい！　と手を挙げる。
+3528 = "Ngay khoảnh khắc tôi vừa dứt lời, Hibiki giơ tay lên và nói “Dạ!”."
+# JP: いった瞬間、クっと稀咲が小さく笑う。
+3529 = "Khoảnh khắc tôi vừa dứt lời, Kisaki bật cười khúc khích."
+# JP: 違う、といいかけ、\nけれども続きを、喉から出せなくなってしまう。
+3530 = "Định nói là không phải,\\nnhưng phần tiếp theo, lại không thể thốt ra khỏi cổ họng."
+# JP: その言葉だけを繰り返す。
+3532 = "Tôi chỉ lặp lại đúng những lời đó."
+# JP: 手を差し出す。\nみんなが描く、輪の中心に。
+3535 = "Tôi đưa tay ra.\\nVào chính giữa vòng tròn mà mọi người tạo nên."
+# JP: 困惑の先、定め直そうとした目標を、\n真闇姉は、ただ一言で粉々に砕いてしまう。
+3537 = "Sau sự bối rối, mục tiêu mà tôi định đặt lại, chị Mayami chỉ bằng một lời nói đã đập tan nát."
+# JP: 脚立に座ってカメラを構える。\n瞬間に、全てが綺麗なひとつに収まる。
+3539 = "Tôi ngồi trên thang gấp và cầm máy ảnh lên. Trong khoảnh khắc, tất cả mọi thứ thu gọn lại thành một tổng thể tuyệt đẹp."
+# JP: 全員の意見を尊重しようと望みすぎ、\n全ての意見を、排除しようとしてしまっていた。
+3540 = "Vì quá mong muốn tôn trọng ý kiến của tất cả mọi người, mà tôi lại đang cố loại bỏ mọi ý kiến mất rồi."
+# JP: 頭を下げる。\nハチロクが、僕にそうしてくれたように。
+3543 = "Tôi cúi đầu. Giống như cách Hachiroku đã làm với tôi vậy."
+# JP: 真闇姉に、日々姫に、そしてハチロクに。\n心底からの感謝をこめて――繰り返す。
+3545 = "Với chị Mayami, với Hibiki, và với Hachiroku. Mang theo lòng biết ơn từ tận đáy lòng—— tôi lặp lại."
+# JP: いいざま、パネルを一枚めくる。
+3547 = "Một cách đầy đắc ý, tôi lật một tấm bảng lên."
+# JP: 脚立を降りれば、\n凪がゆびきりげんまんと、僕に小指を差し出してくる。
+3548 = "Vừa bước xuống thang,\\nNagi đã chìa ngón út ra đòi móc ngoéo hứa hẹn với tôi."
+# JP: 言葉にとてもできぬ感謝を――\n精一杯の言葉に、笑いに、こめたくて。
+3549 = "Lòng biết ơn mà lời nói không thể diễn tả được—— tôi muốn gửi gắm nó, bằng hết sức mình, qua lời nói, qua nụ cười."
+# JP: グラスを渡せば、日々姫もこくりと一口飲んで。\nそうしてほおっと、幸せそうに頬を赤らめる。
+3552 = "Tôi đưa ly cho Hibiki, em cũng uống một ngụm. Rồi em thở phào, má đỏ lên đầy hạnh phúc."
+# JP: 日々姫のパネルの地図の、八ツ城を示す。
+3554 = "Tôi chỉ vào Yatsushiro trên bản đồ trên tấm bảng của Hibiki."
+# JP: 未来を望むひかりで瞳を、同じようには輝かせ得ない。\nそうは出来ない曇りを抱え、晴らせずいるから。
+3556 = "Tôi không thể để ánh sáng hy vọng vào tương lai lấp lánh trong đôi mắt mình như mọi người.\\nBởi tôi mang trong mình đám mây mù không thể xua tan, khiến tôi không thể làm được điều đó."
+# JP: 両手に掬った湯を叩きつけるようにして顔を洗う。
+3558 = "Tôi vốc nước bằng cả hai tay rồi hất mạnh lên mặt để rửa."
+# JP: “僕の自由”を、稀咲が、ポーレットが定義していく。\nが、とても口を挟める状況には無い。
+3560 = "'Sự tự do của tôi', đang được Kisaki, và Paulette định nghĩa. Nhưng mà, tình hình này hoàn toàn không thể xen mồm vào được."
+# JP: 賞賛に輝く笑顔を間近にみれば、\nふっと疑問が湧いてくる。
+3562 = "Nhìn nụ cười rạng rỡ vì được khen ngợi ở khoảng cách gần, chợt một thắc mắc nảy sinh trong tôi."
+# JP: わがままだとはわかっている。
+3564 = "Tôi biết là mình đang ích kỷ."
+# JP: 死の感触も――路子が僕から離れてく、\nあのどうしようも無い絶望感も、ぶり返してくる。
+3566 = "Cảm giác về cái chết cũng vậy—— cảm giác tuyệt vọng không thể làm gì được khi Michiko rời xa tôi, cũng quay trở lại."
+# JP: 理解に困惑させられる。\nならば一体どうすれば――
+3568 = "Tôi cảm thấy bối rối trong việc thấu hiểu.\\nNếu vậy thì rốt cuộc phải làm sao——"
+# JP: 元忠氏がエアクラ誘致を強く推し、\nそれが広範に支持される理由を、今まで僕は軽視していた。
+3571 = "Ông Mototada thúc đẩy mạnh mẽ việc thu hút nhà máy Aircra,\\nvà lý do nó được ủng hộ rộng rãi, từ trước đến nay tôi đã xem nhẹ."
+# JP: なんと説明したものか。
+3574 = "Nên giải thích thế nào đây."
+# JP: 今この部屋にみちている、\nこれほどまぶしく、僕を照らしてくれるひかりに。
+3576 = "Tôi muốn hòa trộn thật tốt, ánh sáng chói lọi đang tràn ngập căn phòng này, đang chiếu sáng cho tôi."
+# JP: 御一夜が積み重ねてきた歴史を、失敗を整頓し、\n僕が見てきた、教えてもらった現状を加味して――
+3577 = "Sắp xếp lại lịch sử mà Ohitoyo đã tích lũy, những thất bại đã trải qua,\\nthêm vào đó là hiện trạng mà tôi đã nhìn thấy, đã được chỉ dạy——"
+# JP: こんなに飾らぬ表情は、初めて見る気がして何故か、\n少しドキリとさせられる。
+3580 = "Có cảm giác như đây là lần đầu tiên tôi nhìn thấy một biểu cảm không che đậy như vậy, không hiểu sao,\\nlại khiến tôi hơi giật mình."
+# JP: よい出来に仕上がるだろうとは思っていたが、\n実際見ると、想像以上に素晴らしい。
+3581 = "Tôi đã nghĩ là nó sẽ được hoàn thiện tốt, nhưng khi nhìn thực tế, nó còn tuyệt vời hơn cả tưởng tượng."
+# JP: 背面モニタですぐ確認する。\nイメージ通り――いや、それ以上だ。
+3582 = "Tôi liền xem lại trên màn hình phía sau máy ảnh.\\nĐúng như hình dung——không, còn tuyệt vời hơn thế."
+# JP: だから僕の目の前の、\nそれぞれ輝く、まばゆいひかりに目を向ける。
+3583 = "Vì vậy, tôi hướng ánh mắt về phía, từng ánh sáng rực rỡ, chói lọi trước mắt mình."
+# JP: だから、笑う。\n不器用な作り笑いに見えてしまうかもしれんが。
+3584 = "Vì vậy, tôi cười. Dù có thể trông như một nụ cười gượng gạo vụng về đi chăng nữa."
+# JP: みながわくわく、僕の言葉を待ってか\nこちらを見上げてくれている――っ！！
+3588 = "Mọi người đều háo hức, như đang chờ đợi lời tôi nói\\nngước nhìn lên tôi——Ư!!"
+# JP: いって、真闇姉は台所へと。\nそしてすぐ、二つの瓶と計量スプーンを持ってくる。
+3592 = "Nói rồi, chị Mayami đi vào bếp. Và ngay sau đó, chị mang ra hai cái chai và một cái thìa đong."
+# JP: なるほど、であらば――僕はレールであればいい。
+3594 = "Ra là vậy, nếu vậy thì—— tôi cứ là đường ray là được."
+# JP: 日々姫、ポーレット、ハチロク。
+3616 = "Hibiki, Paulette, Hachiroku."
+# JP: 安心したような日々姫の声。\nそこにぽちゃん、と、密やかな水音が重なってくる。
+3618 = "Giọng nói như yên tâm của Hibiki.\\nHòa cùng với đó là tiếng nước tĩnh lặng, róc rách."
+# JP: なにかのスイッチが入ったかのように、\n日々姫は、スケッチブックを大きく広げる。
+3620 = "Như thể có cái công tắc nào đó được bật lên, Hibiki mở rộng cuốn sổ phác thảo ra."
+# JP: 日々姫の言った、『手段と目的』。\n――その一言が、鼓膜の奥にこびりつく。
+3621 = "『Phương tiện và mục đích』 mà Hibiki đã nói.\\n——Câu nói đó, cứ bám chặt vào sâu trong màng nhĩ tôi."
+# JP: 日々姫はアクリル絵具を溶いて、\n僕の理解を助けてくれる。
+3623 = "Hibiki pha màu acrylic, giúp tôi hiểu được."
+# JP: 日々姫は地道なボトムアップ。\nポーレットは一気のトップダウン。
+3626 = "Hibiki là kiểu đi từ dưới lên một cách vững chắc.\\nPaulette là kiểu đi từ trên xuống một mạch."
+# JP: 日々姫が動けば、みんなも動く。\nラフ画が、すっかり頭に焼き付いているのだろう。
+3628 = "Hibiki vừa động đậy, mọi người cũng động đậy theo. Có lẽ bản phác thảo, đã in sâu vào tâm trí của mọi người rồi."
+# JP: ぽかんと、大きく開いた口。
+3630 = "Cái miệng há hốc ra vì ngạc nhiên."
+# JP: そこへ日々姫が口を挟む。
+3631 = "Đúng lúc đó, Hibiki xen vào."
+# JP: 声をかければ、日々姫は少し驚いたような顔をする。
+3632 = "Nghe tôi hỏi, Hibiki lộ vẻ mặt hơi ngạc nhiên."
+# JP: まばゆい、白の、ひかりのイメージ。\n日々姫が与えてくれたイメージ。
+3635 = "Hình ảnh ánh sáng trắng chói lọi, rực rỡ. Hình ảnh mà Hibiki đã mang đến cho tôi."
+# JP: ほっとしたような日々姫の笑顔。
+3636 = "Nụ cười như trút được gánh nặng của Hibiki."
+# JP: 誰かの望みを、使命を果たす。\nそうして誰かの役に立つ――それが、僕の贖罪だった。
+3637 = "Thực hiện mong muốn, sứ mệnh của ai đó.\\nVà như vậy trở nên có ích cho ai đó——đó là, sự chuộc tội của tôi."
+# JP: 地道に縁を築くこと。\n市政という道具を振り回すこと。
+3647 = "Tạo dựng các mối quan hệ một cách vững chắc.\\nSử dụng công cụ mang tên chính quyền thành phố."
+# JP: 御一夜復興のために一丸となる。\nオール御一夜――その体制の、[いしづえ]礎を。
+3648 = "Đoàn kết thành một khối vì sự phục hưng của Ohitoyo.\\nAll Ohitoyo——nền tảng của thể chế đó."
+# JP: みかん鉄道の線を通じて、鹿兒銀に――\nそれももちろん、選択肢としてはあるのだと。
+3652 = "Thông qua mối quan hệ của Đường sắt Mikan, để đến với Kagoshima Bank——\\nTất nhiên, đó cũng là một lựa chọn."
+# JP: 空気がふっと――一気に緩む。
+3654 = "Bầu không khí bỗng chốc——dịu đi hẳn."
+# JP: 引っ込み思案なあの日々姫が、\nきっぱりと、稀咲とポーレットを黙らせる。
+3657 = "Một Hibiki vốn rụt rè như vậy, lại dứt khoát làm cho Kisaki và Paulette phải im lặng."
+# JP: そうだ、ここで焦らず洗い直そう。\n8620が再び走り出した今こそ、地に足をつけ。
+3658 = "Đúng vậy, đừng vội vàng mà hãy xem xét lại từ đầu.\\nNgay lúc 8620 đã bắt đầu chạy lại này, phải thật vững bước."
+# JP: ポーレットと僕の声が重なる。
+3669 = "Giọng của Paulette và tôi hòa vào nhau."
+# JP: そう断言して、ポーレットが試作を兼ねて新調させた、\n御一夜鉄道、新観光列車の、客室乗務員用の制服。
+3670 = "Khẳng định như vậy, Paulette đã cho may mới kiêm luôn làm hàng mẫu, đồng phục dành cho tiếp viên khoang hành khách, của chuyến tàu du lịch mới thuộc Đường sắt Ohitoyo."
+# JP: ポーレットがれいなを抱きしめる。\n抱きしめながら、ゆっくりと撫ぜ――
+3671 = "Paulette ôm chầm lấy Reina. Vừa ôm, vừa từ từ vuốt ve——"
+# JP: ぷっと、ポーレットの頬が膨れる。
+3672 = "Paulette phồng má lên cái phựt."
+# JP: ちら、とポーレットの視線が動く。
+3673 = "Ánh mắt của Paulette khẽ liếc sang một bên."
+# JP: 実際、かなり珍しい。\nポーレットの目が、鋭い光を帯びている。
+3674 = "Thực tế thì, khá là hiếm thấy. Ánh mắt của Paulette, đang mang theo một tia sáng sắc bén."
+# JP: 浦上さんが下げた頭を、\nけれども稀咲は、笑ってすぐに戻させる。
+3679 = "Tuy nhiên, Kisaki cười và ngay lập tức bảo ông Uragami,\\nngười vừa cúi đầu, ngẩng lên."
+# JP: それを日々姫はきゅっと閉じ、\n力強い目で僕を見、頷く。
+3689 = "Hibiki mím chặt miệng lại,\\nnhìn tôi bằng ánh mắt mạnh mẽ, và gật đầu."
+# JP: そうして大きく息を吸い！
+3690 = "Rồi tôi hít một hơi thật sâu!"
+# JP: れいなと凪とが、ほんわりと、勢いよく。\n正反対の方向から、けれど同じくどこか能天気な声を出す。
+3695 = "Reina và Nagi, một người thì nhẹ nhàng, một người thì mạnh mẽ. Từ hai hướng hoàn toàn trái ngược nhau, nhưng đều cất lên giọng điệu có phần vô tư lự."
+# JP: “こうみえても力持ちなんですからぁ”と、腕をまげる。\nその様子をみて、稀咲がクク、と緩やかに笑う。
+3698 = "'Trông vậy thôi chứ em khỏe lắm đó nha~', cô bé gập cánh tay lại. Nhìn thấy bộ dạng đó, Kisaki khẽ cười khúc khích."
+# JP: エアクラ工場誘致賛成の日々姫。反対の真闇姉。\n究極的には、鉄道復権だけが望みのハチロク――
+3699 = "Hibiki tán thành việc thu hút nhà máy Aircra. Chị Mayami thì phản đối.\\nCuối cùng, Hachiroku chỉ mong muốn sự phục hưng của đường sắt——"
+# JP: 無論、そう考えて提案した、\nポスター作成ではあったのだが――
+3702 = "Tất nhiên, tôi đã suy nghĩ như vậy và đề xuất, việc tạo áp phích, nhưng mà——"
+# JP: 登呂流湯のご主人が残ってくれていた。\nなんとなく救われたような気がして、息が出る。
+3706 = "Chủ nhân nhà tắm Tororyu-yu vẫn còn ở lại.\\nKhông hiểu sao tôi cảm thấy như được cứu rỗi, khẽ thở hắt ra."
+# JP: 小山になった資料群を見れば、\nあらためて僕にも理解できる。
+3720 = "Nhìn vào đống tài liệu chất thành núi nhỏ,\\ntôi mới có thể hiểu được một lần nữa."
+# JP: 真闇姉、日々姫、ハチロク――\n三者の間で、視線が行き交う。
+3738 = "Chị Mayami, Hibiki, Hachiroku——\\nGiữa ba người, ánh mắt giao nhau."
+# JP: 真闇姉が、日々姫が、ハチロクがいったとおりに、\n一人でなら、資料探しで夜が終わってしまったことを。
+3740 = "Đúng như lời chị Mayami, Hibiki, và Hachiroku đã nói,\\nnếu chỉ có một mình, thì cả đêm nay sẽ chỉ dành cho việc tìm kiếm tài liệu mất."
+# JP: 真闇姉は一升瓶を取り出そうとし――\nけれどもすぐに、蒸気ラムネの瓶へと持ち変える。
+3742 = "Chị Mayami định lấy ra một chai rượu lớn—— nhưng ngay lập tức, chị đổi sang chai Ramune hơi nước."
+# JP: ただそれだけのやりとりで、\nイメージを現実に落としてもらえる。
+3744 = "Chỉ với một cuộc trao đổi nhỏ như vậy thôi, mà hình ảnh đã có thể trở thành hiện thực."
+# JP: 真闇姉がそう切り出せば、\n穏やかな声が折り重ねられる。
+3747 = "Khi chị Mayami mở lời như vậy,\\nnhững giọng nói ôn hòa cũng lần lượt vang lên."
+# JP: 真闇姉だ。\n僕が心底困ったときには、必ずするりと助けてくれる。
+3748 = "Là chị Mayami.\\nMỗi khi tôi thực sự bối rối, chị ấy luôn nhẹ nhàng giúp đỡ."
+# JP: そこまで言ってもらえて、落ち着く。\n真闇姉のいっていることは、ごくごく当然の理屈だ。
+3749 = "Được nói đến mức đó, tôi lại cảm thấy bình tĩnh lại. Những gì chị Mayami nói, đều là những lý lẽ hết sức hiển nhiên."
+# JP: 言われて、そうだなと気付かされる。
+3752 = "Nghe nói vậy, tôi mới nhận ra đúng là thế thật."
+# JP: 稀咲が僕へと、大きく一歩を踏み出してくる。
+3773 = "Kisaki bước một bước lớn về phía tôi."
+# JP: 無邪気ささえ感じるような感想が、途中で止まる。
+3774 = "Một cảm tưởng ngây thơ đến mức khiến người ta cảm nhận được sự vô tư, chợt dừng lại giữa chừng."
+# JP: 稀咲が発した質問は、\n僕らを援護する方向へと更に踏み込んできた。
+3775 = "Câu hỏi mà Kisaki đưa ra,\\ncàng lấn sâu hơn vào hướng hỗ trợ chúng tôi."
+# JP: 微かに稀咲が赤くなる。
+3778 = "Kisaki hơi đỏ mặt."
+# JP: 稀咲が一転、\n僕らサイドに近い意見を元忠氏へとぶつけていく。
+3780 = "Kisaki đột ngột thay đổi thái độ,\\nvà đưa ra những ý kiến nghiêng về phía chúng tôi để phản bác lại ông Mototada."
+# JP: 言って、沈黙。\n焦れるほど。
+3781 = "Nói xong, rồi im lặng. Im lặng đến mức sốt ruột."
+# JP: エアクラ工場の大規模な雇用創出には、\n“誰もができる単純作業”が極めて多く含まれる。
+3787 = "Việc tạo ra việc làm quy mô lớn của nhà máy Aircra,\\nbao gồm rất nhiều “công việc đơn giản mà ai cũng có thể làm được”."
+# JP: ふっと、胸の中でなにかがざわめく。\nそれは傷の痛みでもあり、それだけではない熱も帯びてる。
+3790 = "Chợt, có thứ gì đó xao động trong lồng ngực.\\nĐó vừa là nỗi đau của vết thương, vừa mang theo một sức nóng vượt xa hơn thế."
+# JP: ぞくり、と背筋が震えてしまう。
+3792 = "Sống lưng tôi, bỗng run lên một cái."
+# JP: 瞬間、こころがズキリと痛む。\nかつての傷が、まだ生々しい熱を発する。
+3794 = "Trong khoảnh khắc, trái tim tôi nhói đau.\\nVết thương thuở xưa, vẫn còn tỏa ra hơi nóng sống động."
+# JP: いや――これこそ本当の盲点か？\n体格的にも、日々姫なら十分に小柄なのだし――
+3797 = "Không——đây mới chính là điểm mù thực sự sao?\\nVề mặt thể cách, nếu là Hibiki thì cũng đủ nhỏ nhắn——"
+# JP: 赤、青、黄――単色ではそれぞれに鮮やかな色が、\nけれど重なりを増すごとに、確かに黒に近づいていく。
+3798 = "Màu đỏ, màu xanh dương, màu vàng—— từng màu đơn sắc đều rực rỡ, nhưng càng chồng chất lên nhau, thì chắc chắn càng tiến gần đến màu đen."
+# JP: 交通障害にならぬため、混雑時を避けての移送となる上、\n場所によっては、交通規制をお願いすることも必要になる。
+3802 = "Để không gây cản trở giao thông, việc vận chuyển phải tránh những giờ cao điểm, hơn nữa tùy từng địa điểm, còn cần phải nhờ đến sự điều tiết giao thông."
+# JP: それゆえに、喉にこもった僕の思いを、\n真闇姉のまなざしと声とが、引き出してくれる。
+3804 = "Chính vì thế, suy nghĩ đang mắc nghẹn trong cổ họng tôi,\\nđã được ánh mắt và giọng nói của chị Mayami kéo ra."
+# JP: オウム返しされ、気付かされる。ああ、そうだ。\n列車の旅は、レールの先は、「わくわく」なのだ。
+3805 = "Nghe Hachiroku lặp lại lời mình, tôi mới nhận ra. À, đúng vậy.\\nChuyến đi bằng tàu hỏa, điểm đến phía trước đường ray, chính là sự \"háo hức\"."
+# JP: 稀咲が頷く。\nほんのわずかに、慎重そうに。
+3806 = "Kisaki gật đầu. Chỉ một chút thôi, có vẻ thận trọng."
+# JP: その旗が正しき道筋を示すなら、\n目にした者は、必ず後に続いてくれるはずだ、と。
+3814 = "Nếu ngọn cờ đó chỉ ra con đường đúng đắn,\\nnhững người nhìn thấy nó, chắc chắn sẽ theo sau."
+# JP: 話に大きく区切りがついた。\nそう感じてか、蓑笠さんも、赤井宮司も――
+3819 = "Câu chuyện đã đi đến một dấu mốc lớn.\\nCó lẽ cảm nhận được điều đó, nên cả ông Minokasa và đền chủ Akai cũng——"
+# JP: ああ、と小さな声を出すのは、蓑笠老人だ。
+3820 = "Người khẽ cất tiếng 'À' là ông Minokasa."
+# JP: 走行試験の成功で、テンションがみなあがっている。\n恐らくは、酒を飲んでいるのと似たような状態だろう。
+3823 = "Sự thành công của cuộc chạy thử, khiến tinh thần của mọi người đều đang dâng cao.\\nCó lẽ, trạng thái này cũng giống như lúc uống rượu vậy."
+# JP: 余計なことをふきこんで、凪特有の無邪気さを、\nかけがえない長所を曇らせたくはないし――
+3828 = "Tôi không muốn nói những lời dư thừa, làm vẩn đục sự ngây thơ đặc trưng của Nagi,\\nưu điểm không thể thay thế của em ấy――"
+# JP: 思わず漏らしてしまった声に、\n元忠氏の口元が――笑みにも見える形に歪む。
+3831 = "Trước âm thanh mà tôi bất giác thốt ra,\\nkhóe miệng của ông Mototada——méo xệch đi thành một hình thù trông giống như một nụ cười."
+# JP: 最小規模の、オール御一夜。\nそれがいきなり走り始める。
+3832 = "Thể chế All Ohitoyo với quy mô nhỏ nhất. Nó bất ngờ bắt đầu chuyển động."
+# JP: デザイナーはもちろん日々姫。
+3860 = "Nhà thiết kế tất nhiên là Hibiki."
+# JP: 言って、敢えての一拍を置く。
+3863 = "Nói rồi, tôi cố tình ngừng lại một nhịp."
+# JP: 言ってゆっくり、元忠氏の目が僕を見る。
+3864 = "Nói rồi, ánh mắt của ông Mototada từ từ nhìn về phía tôi."
+# JP: 言えばグっと、再び手に手に力がこもる。
+3865 = "Vừa dứt lời, lực lại truyền vào những bàn tay đang nắm chặt."
+# JP: 言って、稀咲の瞳はポーレットを向く。
+3866 = "Nói rồi, ánh mắt của Kisaki hướng về phía Paulette."
+# JP: その一瞬に、稀咲が話を主導する。
+3869 = "Chỉ trong khoảnh khắc đó, Kisaki đã nắm thế chủ đạo câu chuyện."
+# JP: 鹿兒島のフォローをしつつの赤井宮司の頷きを、\n宝生稀咲は見逃さない。
+3885 = "Cái gật đầu của đền chủ Akai trong khi vẫn đang nói đỡ cho Kagoshima, không lọt qua khỏi mắt Houshou Kisaki."
+# JP: そこは考えるまでもない。\n日々姫は文武両道なうえ、努力を惜しまぬ性格だから。
+3902 = "Chuyện đó thì không cần phải nghĩ.\\nBởi vì Hibiki văn võ song toàn, lại còn có tính cách không ngại nỗ lực mà."
+# JP: それも、嬉しい。\n必ずできると、だから、思える。
+3903 = "Điều đó cũng khiến tôi thấy vui.\\nBởi vì, tôi cảm thấy chắc chắn chúng tôi sẽ làm được."
+# JP: それは日々姫とポーレット、それぞれが積み重ねた技。\n僕にいきなり学べるほどに、容易いものとも思えない。
+3904 = "Đó là những kỹ năng mà Hibiki và Paulette, mỗi người đã tích lũy được.\\nTôi không nghĩ nó dễ dàng đến mức tôi có thể học được ngay lập tức."
+# JP: 真闇姉が差し出すグラスだ。\nいささかのためらいも感じず飲める。
+3905 = "Đó là ly rượu mà chị Mayami đưa ra. Tôi uống mà không hề do dự chút nào."
+# JP: 一枚の、絵だ。\nなるほど真闇姉は必要だ。この全員が、不可欠だ。
+3906 = "Đây là một bức tranh.\\nRa là vậy, chị Mayami là cần thiết. Tất cả những người ở đây, đều không thể thiếu."
+# JP: ならば少なくとも稀咲は、\nこの案を評価にたるものとして捉えてくれているのだろう。
+3907 = "Nếu vậy thì ít nhất Kisaki,\\ncũng đang nhìn nhận phương án này như một thứ đáng để đánh giá."
+# JP: 僕らも、そこを調べてはいた。\n調べはついたが、広く知られた事実とはとても思えない。
+3908 = "Chúng tôi, cũng đã điều tra về chuyện đó.\\nTuy đã tra ra, nhưng tôi không nghĩ đó là một sự thật được nhiều người biết đến."
+# JP: みなが抱いているわくわくを、それぞれの未来への希望を。\n恐らく僕は、同じレベルで持ててはいない。
+3909 = "Sự háo hức mà mọi người đang ôm ấp, niềm hy vọng về tương lai của mỗi người.\\nCó lẽ tôi không có được ở cùng một mức độ như vậy."
+# JP: 僕らが一晩で調べられるような資料内のこと。\n予想通りに――当然ながら、稀咲は把握してくれている。
+3910 = "Những điều nằm trong các tài liệu mà chúng tôi có thể tra cứu được trong một đêm. Đúng như dự đoán——đương nhiên, Kisaki đã nắm bắt được."
+# JP: 議論百出の末に決まった、\nシンプル極まるキャッチコピー。
+3911 = "Sau muôn vàn tranh luận mới quyết định được, một câu slogan cực kỳ đơn giản."
+# JP: そう考えれば、納得できる。\n日々姫が描いたラフ画の意味を、ひときわに。
+3912 = "Nghĩ như vậy, tôi có thể hiểu được. Ý nghĩa của bản phác thảo mà Hibiki đã vẽ, một cách đặc biệt rõ ràng."
+# JP: 稀咲の言葉に、今度はハチロクが赤くなる。\nその反応は、見るからに稀咲に余裕を与える。
+3913 = "Trước lời nói của Kisaki, lần này đến lượt Hachiroku đỏ mặt. Phản ứng đó, nhìn qua cũng thấy là đã tạo cho Kisaki sự thong dong."
+# JP: 僕は路子を救えなかった。その路を守ってやれなかった。\nけれども、きっと――だからこそ――
+3918 = "Tôi đã không thể cứu được Michiko. Đã không thể bảo vệ con đường đó.\\nNhưng mà, chắc chắn——chính vì thế——"
+# JP: ならば僕からは真闇姉と蓑笠老人、赤井宮司に――\nそれにもちろん、登呂流湯のご主人も誘ってみよう。
+3919 = "Vậy thì từ phía tôi, tôi sẽ rủ chị Mayami, ông Minokasa, đền chủ Akai——\\nvà tất nhiên, cả chủ nhân nhà tắm Tororyu-yu nữa."
+# JP: 醤油が、底に沈んでいく。
+3922 = "Nước tương, đang chìm dần xuống đáy ly."
+# JP: 重要なのは、これで8620の安全な営業運転へ、\n更に一歩、大きく近づけたということだ。
+3926 = "Điều quan trọng là, với việc này, chúng ta đã tiến thêm một bước lớn nữa,\\nđến việc vận hành kinh doanh an toàn cho 8620."
+# JP: 凪を除いた全員が、ぞろぞろ風呂から――
+3931 = "Tất cả mọi người ngoại trừ Nagi, lần lượt ra khỏi bồn tắm——"
+# JP: 光が注ぐ。\n祝福されているように、全てがきらめく。ただ美しい。
+3932 = "Ánh sáng chiếu rọi.\\nTất cả đều lấp lánh như đang được chúc phúc. Đẹp đến nao lòng."
+# JP: 僕のではなく、8620のという方がより正しいが、\nそこまで細かなことを気にしても仕方がない。
+3935 = "Đúng hơn là của 8620 chứ không phải của tôi,\\nnhưng có bận tâm đến những chi tiết nhỏ nhặt như vậy cũng chẳng ích gì."
+# JP: 同じく観光振興、御一夜再生を目的として、\nしかし手段は百八十度異なっている。
+3936 = "Cùng với mục đích chấn hưng du lịch, tái thiết Ohitoyo,\\nnhưng phương tiện lại khác nhau 180 độ."
+# JP: ニーズは、作れる。いいや、自然と発生してくる。\nその確信があるからこそ、敢えて答えず話をすすめる。
+3940 = "Nhu cầu, có thể tạo ra được. Không, nó sẽ tự nhiên phát sinh. Chính vì có niềm tin đó, nên tôi mới cố tình không trả lời mà tiếp tục câu chuyện."
+# JP: まず目標を。\n明快に、誰の目にも見える形で。
+3945 = "Đầu tiên là mục tiêu. Một cách rõ ràng, dưới hình thức mà ai cũng có thể nhìn thấy."
+# JP: （だが――ひとまずは一人で考えねばな。\nそうせねば、皆のフラットな意見を聞き損ねてしまう）
+3963 = "（Nhưng mà——trước mắt phải tự mình suy nghĩ đã.\\nNếu không làm vậy, sẽ bỏ lỡ mất những ý kiến khách quan của mọi người.）"
+# JP: （だが――）
+3964 = "（Nhưng mà——）"
+# JP: （地域の協力、政治の活用、旗印の掲示――\nそれら全てを活用しても、まだまだ足りない）
+3966 = "（Sự hợp tác của khu vực, việc tận dụng chính trị, giương cao ngọn cờ——\\nDù có tận dụng tất cả những thứ đó, vẫn là chưa đủ.）"
+# JP: （おや）
+3969 = "（Ô.）"
+# JP: （パシャっ！！）
+3972 = "（Tách!!）"
+# JP: （パシャっ）
+3973 = "（Tách）"
+# JP: （ざばあっ！）
+3974 = "（Rào!）"
+# JP: （ざばっ）
+3975 = "（Rào）"
+# JP: （不出来でも、不十分でも構わない。\nとにかく、たたき台を作り、提案するんだ）
+3979 = "（Dù không hoàn hảo, dù không đầy đủ cũng không sao.\\nDù sao thì, cũng phải tạo ra một bản nháp, và đưa ra đề xuất.）"
+# JP: （ドクンっ）
+3981 = "（Thình thịch）"
+# JP: （そうして、小さくとも築くのだ）
+3983 = "（Và rồi, dù nhỏ bé nhưng vẫn sẽ xây dựng nên.）"
+# JP: （エアクラ工場誘致撤回と、水資源の保護――\nそれを目的――ゴールと定めて良いのだろうか？）
+3985 = "（Thu hồi việc thu hút nhà máy Aircra, và bảo vệ nguồn tài nguyên nước——\\nLấy đó làm mục đích——đích đến, liệu có được không?）"
+
+[selections]
