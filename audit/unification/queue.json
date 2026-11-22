@@ -1,7 +1,7 @@
 {
   "base": {
-    "items": 18,
-    "rows": 479
+    "items": 21,
+    "rows": 585
   },
   "investigations": [
     {
@@ -162,7 +162,7 @@
       ],
       "scope": "chu tau, tau dien, Banh xe chiu tai/chu dong, Tablet referents, Ryu, Kumamoto, De do, buong lai, gloss Liec xe + gloss Lai tau sweeps",
       "slug": "s1-misc-gloss",
-      "status": "queued"
+      "status": "running"
     },
     {
       "batch": "U6",
@@ -173,7 +173,7 @@
       ],
       "scope": "Soutetsu->Paulette co->em; Paulette->Soutetsu cau->anh Soutetsu + bare-name rows; O1 work-context boundary",
       "slug": "s2-paulette-pronouns",
-      "status": "running"
+      "status": "merged"
     },
     {
       "batch": "U7a",
@@ -182,7 +182,7 @@
       ],
       "scope": "Kisaki anh Soutetsu -> bare, files 03_Paulette + 06_Kisaki (Kisaki03/h1/h2/h3)",
       "slug": "s2-p4-kisaki-anh-soutetsu-a",
-      "status": "queued"
+      "status": "running"
     },
     {
       "batch": "U7b",
@@ -487,6 +487,11 @@
       "batch": "U2c",
       "status": "running",
       "scope": "T1+T2 leftovers: bare \"Đường sắt Ohito\" remaining in folders 00-05 after U1/U2a (Hachiroku01 2467, Hachiroku12 1900/2089, Hibiki08 3719, Mayami h3 2524 + any other rows whose current value still contains bare Ohito in 00-05)"
+    },
+    {
+      "batch": "U13a",
+      "status": "running",
+      "scope": "§1 OPEN T56-T66 application (coordinator decided 22/11 ~11:25): T56 Trung Quoc 124, T57 Anh Quoc 5, T58 Thi Hien Luu 3, T59 Quirquitium 1, T60 Tong giam doc 27, T61 cong ty holding 7, T63 Duong sat De quoc Hinomoto 4; T62/T64/T65 keep (0 rows)"
     }
   ],
   "started": "2026-11-22T11:00+07:00"

@@ -7,7 +7,7 @@ Base state at pass start (22/11 ~11:00): audit COMPLETE 216/216, 9,927 wrong; mo
 
 ## Totals chain
 
-**Tổng cộng sau đợt này: 18 mục / 479 dòng sai (unification)** (cơ sở 2 mục / 226 dòng + đợt U1a T1 Ohimitera 00–02: 221 dòng (cùng mục T1) + đợt U10 §6 file-specific DECIDED: 16 mục / 32 dòng — gộp 22/11 ~11:20, parent kiểm chứng: U1a JSON 221 = TOML block 221, U10 JSON 32 = TOML block 32 (26 script + 6 [characters]/[character_subs]), jp/tw CSV3-exact, old_vn khớp map hiện tại, second pass 221/221 + 32/32)
+**Tổng cộng sau đợt này: 21 mục / 585 dòng sai (unification)** (cơ sở 18 mục / 479 dòng + đợt U6 §2 P2/P14/O1: 3 mục / 106 dòng — gộp 22/11 ~11:25, parent kiểm chứng: U6 JSON 106 = TOML block 106 (30 file, 1 fence 30 [script]), jp/tw CSV3-exact, old_vn khớp map hiện tại (102 CSV3 + 3 audit + 1 U1c), diff chỉ đổi đại từ (giữ 'Cô bé'/'công' nguyên — kiểm chứng từng dòng), second pass 106/106; Grand 01 2181 fix U6 đã bao gồm fix U1c)
 
 ## Decisions log (coordinator decisions on OPEN items — evidence in batch reviews)
 
@@ -95,3 +95,31 @@ Base state at pass start (22/11 ~11:00): audit COMPLETE 216/216, 9,927 wrong; mo
 - U10 (22/11 ~11:20): F10 1691 — worker ghi nhầm "CSV3 thiếu dòng"; thực tế dòng CÓ trong CSV3 (07_Nagi_Fukami, 1 dòng, không dual-set). Coordinator sửa JSON theo CSV3: TW điền từ CSV3, old_vn/fix giữ nguyên `\n` (không dùng bản TOML-2 đã flatten `\n` thành khoảng trắng); REVIEW sửa theo (mục F10 + block TOML + ghi chú second-pass). F36: 6 dòng [characters]/[character_subs] 'Olive'→"Olivy" đã kiểm chứng trực tiếp từ TOML-2 (Grand 09 có ở cả 07_Nagi_Fukami + 09_Grand — duplicate group, fix phủ cả 2 bản). List errors: F36 ghi "Grand 09 (2823/3034)" sai file — 2823/3034 là của ハチロク02 (Grand 09 thật là 2180/2466); F38 key 1293 KHÔNG tồn tại (số dòng ROUTE-AUDIT.md bị nhầm thành key; nội dung Soutetsu "tôi" với Olivy đã kiểm chứng qua key mẫu 2459, không có dòng).
 - QUY TẮC REBUILD (22/11 ~11:20): Grand 01 2181 xuất hiện ở cả U1c (T1) và U6 (P14, đang chạy) — fix của U6 đã BAO GỒM fix U1c (old_vn của U6 = fix của U1c). Rebuild PHẢI áp dụng các fix list unification theo THỨ TỰ GỘP (batch sau ghi đè batch trước trên cùng (file,key)).
 - CÒN LẠI (U2c, sắp spawn): các dòng chứa "Đường sắt Ohito" trần còn sót sau U1/U2a ở folders 00–05 — ハチロク01 2467, ハチロク12 1900/2089, 日々姫08 3719 (U1a ghi chú), + Mayami h3 2524 (U1b ghi chú). Các dòng này chứa CẢ "Ohimitera" nên bị loại khỏi U2a; U1 chỉ sửa phần Ohimitera.
+
+# Snippet — Unification batch U6 (§2 Paulette pronouns: P2 + P14 + O1)
+
+- U6 / §2 P2 (quyết 19/11, Hieu): Soutetsu → Paulette "cô" → "em" — **99 dòng** trong 27 file (P09–12: 42; P01–08: 16; P-h7: 3; Common 14: 1; Hachiroku: 13; Hibiki: 9; Grand 04/05: 14; Kisaki 03: 1). Đã đọc kiểm chứng từng dòng kèm 3–5 dòng kề (602 dòng ứng viên "cô" của Soutetsu đã soát; 502 dòng giữ có lý do — xem REVIEW §3).
+- U6 / §2 P14 (khóa B4): Paulette → Soutetsu "cậu (Soutetsu)" → "anh Soutetsu" — **6 dòng**: 稀咲03 2138; Grand 01 2756, 2181; P16 2008, 2015, 2016 (tên trần → "anh Soutetsu"). 9 dòng ứng viên khác đã sửa trong audit (kiểm chứng, không sửa trùng); Grand 01 2468/2557 giữ (ngôi ba, xem REVIEW §2); Grand 08 1702 không tồn tại dòng Paulette (list ghi nhầm).
+- U6 / §7 O1 (QUYẾT theo ủy quyền Hieu): Paulette 06 key 2047 "Cô thấy sao, Paulette" → **"Em thấy sao, Paulette"** — thống nhất "em" cho MỌI ngữ cảnh, không ngoại lệ công việc (bằng chứng: "cô" xuất hiện cả trong cảnh thân mật P10; cùng mẫu câu 稀咲03 2006 trong họp đã về "em"; P13–16 dùng "em" cả khi làm việc, 0 dòng "cô"). **1 dòng.**
+- Lượt soát 2: **106/106 tái kiểm chứng, 0 loại, 0 sửa.** Khối TOML 30 file / 106 key parse-verified.
+- **Tổng cộng đợt U6: 3 mục mới (P2, P14, O1) / 106 dòng.**
+- **Tổng cộng sau đợt này: 21 mục / 585 dòng sai (unification)** (cơ sở 18 mục / 479 dòng + đợt U6 3 mục / 106 dòng — REBASE bởi parent: U1a (221) + U10 (32) gộp sau khi agent ghi snippet; 1 key trùng U1c (Grand 01 2181, fix U6 đã bao gồm fix U1c — áp dụng theo thứ tự gộp).
+- Trùng lặp: 0 key trùng với các file U1/U2 đã gộp, NGOẠI TRỪ Grand 01 key 2181 — đã nằm trong U1c (sửa "Ohitera"→"Ohitoyo"); đợt này sửa "cậu Soutetsu"→"anh Soutetsu" trên cùng dòng, `old_vn` đã lấy giá trị sau U1c — hai đợt cộng dồn, không đè nhau.
+- Nợ coordinator: mục mới cho Soutetsu→Hachiroku "cô" còn lại (27 dòng, xem REVIEW §3a/§5); Grand 01 2756/2181 sửa theo list/task (sau B4) trái với quy ước "giữ cả 4" của audit Grand 01 trước B4 (xem REVIEW §2).
+- File: `unification/unification-s2-paulette-pronouns-REVIEW.md`, `unification-s2-paulette-pronouns-wrong.json` (106 dòng).
+
+
+- E1 DECIDED by coordinator 22/11 ~11:25 (per Hieu's delegation; evidence read from investigation-open-terminology-t56-t66-REPORT.md):
+  - T56 仲国 → "Trung Quốc" (124 rows: 72 "Trọng Quốc" + 48 "Zhongguo" + 2 "Nakakuni"/"Chukoku" + 2 "tiếng Zhongguo"→"tiếng Trung"). Evidence: Grand08 1722 audit precedent (changed 冥国→"Minh Quốc" while KEEPING 仲国→"Trung Quốc" in the same line, ×5 lines) + ROUTE-AUDIT convention + JP itself writes 中国 for the same country + majority.
+  - T57 詠国 → "Anh Quốc" standalone (5 rows: 1848, 1529, 1833, 2533, 3529); KEEP "Anh" in compounds (8 rows); KEEP exceptions 真闇03 1687 (5-country parallel list) + ハチロク09 2102 (katakana pair with Minh Quốc).
+  - T58 次元流 → "Thị Hiện Lưu" (3 rows: 凪ふかみ02 2280/2377/3109). Evidence: TW 示現流 ×3 + real Jigen-ryū (first-strike school, matches 2377's definition) + furigana じげん pun.
+  - T59 キルクイティウム → "Quirquitium" (1 row: 日々姫10 2458). 5–1 majority + LOGIC P.13.
+  - T60 頭取 → "Tổng giám đốc" (27 rows). Evidence: JP 頭取 = bank president (operating head), TW 行長 ×29; 会長 already "Chủ tịch" and 社長 already "giám đốc" — both would collide if 頭取 took either. Formal intro (Common 11) already uses "tổng giám đốc". Flag: most contestable call — fallback "Chủ tịch" (13 rows) recorded if Hieu prefers it.
+  - T61 持株会社 → "công ty holding" (7 rows). "Công ty cổ phần" = 株式会社 (wrong concept); audit ハチロク12 already applied "công ty holding" in 3 rows.
+  - T62 民由連 → KEEP "Đảng Dân Do" (0 rows). JP 民由 vs TW 民友 (homophone error); JP wins.
+  - T63 帝有鉄道 → "Đường sắt Đế quốc Hinomoto" (4 rows: 1789, 60, 2082, 2248); 鉄道帝有法 (key 60) → "Đạo luật Đường sắt Đế quốc". Evidence: locked 帝鉄 full form + audit precedent Grand10 1134.
+  - T64 冥語 → KEEP "tiếng Minh Quốc" (0 rows; already applied in audit ハチロク05 3512).
+  - T65 橙汁 → KEEP-VARIANT (0 rows): "Trừng trấp" at 仲国01 1828/2089 (joke rows about the packaging), "nước cam" at 仲国08 2054 (plain request).
+  - T66 九国 → "chín tỉnh" (2 rows: グランドリライト07_真闇 2545/2546).
+  - E1 total: 173 rows. Cross-item flags for later batches: lr_日々姫ふかみh1 1689 still has old "Ohimitera" (T1 — check U1a/U1c coverage); 仲国03 2082 second half 帝鉄→"Đường sắt Hoàng gia" (banned form — T3 scope, VERIFY U3's T3 enumeration catches it; else U15); 真闇03 1687 five-country list is a future joint decision; ハチロク12 2381 audit fix lost a `\n` (TOML-2 flatten — check at rebuild).
+- U6 flags (22/11 ~11:25): Grand 08 key 1702 does NOT exist as a Paulette row (Kisaki speaking — P4 territory; list misattribution). Soutetsu→Hachiroku "cô" rows (27) have NO list item — needs a NEW item (U14/U15), not silently fixed. Common 05 2551/2721/2421/2275 KEPT (Paulette's deliberate くん→さん self-correction). Grand 01 2756/2181 fixed per post-B4 list (audit had kept all four "cậu Soutetsu" as third-person; 2468/2557 kept as third-person — noted in case Hieu wants all four unified).
