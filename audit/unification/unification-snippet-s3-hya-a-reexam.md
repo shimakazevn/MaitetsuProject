@@ -1,0 +1,9 @@
+# Snippet — Unification batch U11b (§3 M3: re-examine already-merged "Á" rows for the ひゃ/ひゅ/ひあ/きゃ family)
+
+- U11b / §3 M3 (quyết 21/11 ~11:55, Muse theo uỷ quyền): rà lại các dòng "Á" đã merge thuộc họ ひゃ/ひゅ/ひあ/きゃ trong dòng rên H-scene → romaji — **1 dòng sửa** (凪ふかみh1 1218: きゃあっ→"Kyaa", 2 a theo công thức; old_vn là moan fix 「Á——ưm——á——nóng quá——Fua——」, vòng rên trước đó chỉ đổi phù→Fua mà sót "Á" đầu dòng). Vòng rên đã làm sạch họ này: 8 dòng "Á" họ ひゃ trong cùng file đều đã thành romaji (1214/1216/1219/1221/1222/1223/1224/1226).
+- Liệt kê bằng máy theo thứ tự giá trị hiện tại (unification-đã-gộp > moan > audit > CSV3 good set): 441 dòng thô (Á/á + JP họ này) → 37 ứng viên token "Á" trong 63 file H → 1 lỗi; 36 dòng GIỮ có lý do từng dòng: "Á" diễn あっ (14), やっ theo M8 (5), tiểu từ địa phương ばい/けん/から (11), mora khác んあっ/にっ/こっ/ちゃんっ/もうっ (5), ranh giới tiếng hét giật mình (1: ふかみh1 995). Ngoài 37 ứng viên, quét đối chứng đọc thêm 6 dòng loại trừ (sweep A — くひゅ→"Khíu", lời kể, しなきゃ ngữ pháp, ひゅごっ diễn nghĩa, こぎゃん địa phương). 175 dòng "Á" ngoài file H (tiếng hét giật mình) ngoài phạm vi M3, không đụng. Không đụng dòng gasp-Ư hay "Kh" nào.
+- Lượt soát 2: **1/1 tái kiểm chứng, 0 loại, 0 sửa.** Khối TOML 1 file / 1 key parse-verified. Trùng lặp: 0 key trùng với các file unification đã gộp (không cần ghép).
+- **Tổng cộng đợt U11b: 1 mục mới (M3) / 1 dòng.**
+- **Tổng cộng sau đợt này: 72 mục / 2.339 dòng sai (unification)** (cơ sở 71 mục / 2.338 dòng + đợt U11b 1 mục mới (M3) / 1 dòng — REBASE: cơ sở lấy từ `unification/ROUTE-UNIFICATION.md` hiện tại, khớp con số spawn-time 71/2.338.)
+- Cờ cho coordinator: (F1) ranh giới M3 — tiếng hét giật mình きゃっ trong file H (ふかみh1 995, giữ "Á!?") có tính là dòng rên M3 không; nếu mở rộng thì cả các dòng hét ngoài file H cũng phải quyết riêng.
+- File: `unification/unification-s3-hya-a-reexam-REVIEW.md`, `unification/unification-s3-hya-a-reexam-wrong.json` (1 dòng, kind="moan", item="M3").
