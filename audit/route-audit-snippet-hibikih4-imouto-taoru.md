@@ -1,0 +1,13 @@
+# 日々姫h4_いもうとタオル.txt.toml — 29/296 (9,8%)
+
+- File: `02_Hibiki/日々姫h4_いもうとタオル.txt.toml` (route 02_Hibiki, 296 dòng script; monologue 163, 日々姫 81, 双鉄H 52). Nội dung: H-scene Hibiki — "khăn tắm em gái": Hibiki dùng cơ thể/khăn tắm phục vụ Soutetsu trong nhà tắm sau ca trực; xen kẽ đối thoại, độc thoại Soutetsu và SFX dài.
+- TOML md5 5d1c304fe9a442ab317f5087d5e53464, không có bản trùng; CSV3 1 bộ 296 dòng, key khớp tuyệt đối, VN khớp TOML 296/296 (chỉ khác dạng làm phẳng `\\n`→khoảng trắng), 0 dòng VN trống. [selections] rỗng; 0 tag %l; 2 marker ruby JP (971, 995) — VN đúng là không có tag.
+- Phân loại (29): moan/rên/thở/gasp 26 (romaji sai âm họ ひあ/ひう/ふや 7: 962, 963, 964, 966, 969, 972, 1075; họ fa/fu sai nguyên âm 8: 972, 988, 990, 991, 995, 1001, 1032, 1041; đếm nguyên âm sai 9 dòng: 962, 964, 967, 971, 1005, 1006, 1051, 1053, 1054; mất âm đơn mora 2: 960, 964; gasp mất 3: 1024, 1182, 1183; 993 っと→"Hự" — có dòng trùng nhóm), sai nghĩa 2 (1447 "Vừa véo tôi"→bỏ "tôi"; 1588 "đũng quần"→"vùng kín"), SFX 1 (1794 thêm SFX thứ hai bị mất "Nghiến chặt").
+- Sweep gasp: 3 mục đã kiểm tra trực tiếp — 1182/1183 áp nguyên văn, 1065 already-rendered; +1 gasp sweep bỏ sót (1024) tìm thêm bằng quét cơ học toàn bộ dòng JP có っ.
+- Đại từ: không sửa dòng nào — Soutetsu "anh" với Hibiki nhất quán, độc thoại "tôi" nhất quán, Hibiki "em" nhất quán.
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. VN trùng trong file (3 nhóm) đều hợp lệ (Ưm! ×2, Kẹp chặt ×2, Thúc mạnh!!! ×2 — 1794 sửa xong hết trùng). Không còn っ thô trong VN.
+- Lượt soát 2: 29/29 tái kiểm chứng, 0 bỏ, 0 sửa. JSON 29 mục (key chuỗi); khối TOML 29 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 29/29; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-hibikih4-imouto-taoru-REVIEW.md`; danh sách sửa: `audit-hibikih4-imouto-taoru-wrong.json` (29 mục).
+- Cờ cho Hieu: (1) fa/fu "Phùa" vs "Fua" chưa chốt → đợt thống nhất (file này dùng cả hai; 1006 sửa sang romaji cho nhất quán với 994); (2) 993 っと→"Hự" là phán đoán audit — vòng moan xác nhận; (3) SFX dài/dồn → vòng moan: 1754/1757/1758/1759/1760/1762/1765/1770/1783; (4) giữ nguyên chờ vòng moan: 1035/1040 (mất phụ âm sau ん), 1045 (っ giữa câu); (5) 1532 chủ ngữ mơ hồ (TW "cô ấy" vs VN "tôi" — giữ "tôi"); (6) B19 vẫn park.
+
+**Tổng cộng sau file này: 212 file / 9.725 dòng sai** (cơ sở 211 file / 9.696 dòng sai + 29 file này)
