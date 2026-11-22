@@ -4934,3 +4934,205 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 **Tổng cộng sau file này: 205 file / 9.374 dòng sai** (cơ sở 204 file / 9.311 dòng sai + 63 file này)
 
 - Parent kiểm chứng 22/11 ~03:45: JSON 63 mục, khối TOML 63 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 63/63; second pass 63/62/0/1 (1 fix nháp 1336 sai đếm đã sửa). **1346/1517/1545 ĐÃ KIỂM CHỨNG**: 1346 bỏ "với Niiroku" bịa thêm (JP に chỉ Niiroku là người nghe); 1517 bỏ "ngài" bịa thêm (JP/TW không có honorific); 1545 giữ câu cụt JP とめて、くれたら, "anh" = Akai. Không sửa đại từ nào. CỜ CHO HIEU: Niiroku "em"×15/"Tôi"×0 — phân bố ngược 01/02, đợt thống nhất xác nhận lại quyết định "Tôi"; 1439 "cơ thể, của mình" → đợt thống nhất. B19 vẫn park.
+
+---
+
+# lr稀咲追加h_お風呂は日ノ本式に限るね.txt.toml — 30/320 (9,4%)
+
+- File: `06_Kisaki/lr稀咲追加h_お風呂は日ノ本式に限るね.txt.toml` (route 06_Kisaki, 320 dòng script; monologue 139, 稀咲 106, 双鉄 75). Nội dung: sau chuyến khảo sát ở Trung Quốc, Soutetsu và Kisaki về muộn (máy bay hoãn, quá nửa đêm mới tới Fukuoka), ở lại một đêm ở nhà trọ có bồn tắm tốt; Kisaki dụ Soutetsu tắm chung bằng lotion rồi làm tình với mục tiêu mang thai. Phần lớn file là H-scene.
+- TOML md5 947b7e40987a5d77e8a0f963aed53302, không có bản trùng; CSV3 1 bộ 320 dòng, key khớp tuyệt đối, VN khớp TOML 320/320, 0 dòng VN trống. [selections] rỗng; 0 tag %l. [characters] 1468/1601 và [character_subs] 1729 trỏ key không có trong script (dư thừa vô hại, cùng mẫu Kisaki 1961).
+- Phân loại (30): gasp 10 (8 từ sweep áp nguyên văn 775/800/1079/1124/1133/1134/1135/1473 + 2 sweep bỏ sót 1080/1138), romaji 9 (1154 "Nhyu", 1159 "Nhyu" 11u, 1161 "Nkyun", 1163 "Nyu", 1158 "Nku", 1071 "Yaa"×2, 1074 "Ya", 1075 "Hyan", 1116 "Kua"), đếm nguyên âm 7 (1085 "Phùuu", 1111 "Aa", 1122 "Aa", 1077 "Yaaa", 1137 "Ư ư", 1363 "Soutetsuu", 1129 "Aa ưm"), fa/fu 2 (1112/1100 "Phùa"; 1074 gộp trong romaji), đếm phụ âm mũi 1 (1157 "nhịnn"), sai nghĩa/bịa thêm 1 (1319 bỏ "Bởi vì").
+- Sweep gasp: 8/8 mục đã kiểm tra trực tiếp — áp nguyên văn cả 8; +2 gasp sweep bỏ sót (1080, 1138) tìm thêm bằng quét cơ học toàn bộ dòng JP có っ. Không còn っ thô trong VN sau khi sửa.
+- Đại từ: không sửa dòng nào trong audit — cờ cho đợt thống nhất: Kisaki "anh Soutetsu" 37 dòng (15 "anh Soutetsu" + 12 "Anh Sou..." + 10 "anh" trần); Soutetsu tự xưng "Anh" 4 dòng (1290/1287/1317/1229); Soutetsu→Kisaki "em"→"cô" 9 dòng đối thoại (1110/1041/1168/1268/1043/1287/1229/1290/1180) — HIỆU CHỈNH quyết định 03:32 (ghi tsuika02 có 6 dòng, đếm thiếu 3 dòng 1180/1168/1043); Kisaki tự xưng "Tôi" 15 dòng → "em" theo ngữ cảnh (đợt thống nhất soát từng dòng, riêng 1184 ranh giới như 1744); monologue "em/em ấy" 14 dòng — câu hỏi cho đợt thống nhất (có đổi "cô ấy" trong tường thuật không?). Kisaki tự xưng "em" đã đúng ở 1223/1051, giữ nguyên.
+- Thuật ngữ: chỉ có 日ノ本 1033 → "Hinomoto" ĐÚNG. Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 0 lệch.
+- Lượt soát 2: 30/30 tái kiểm chứng, 0 bỏ, 0 sửa. JSON 30 mục (key chuỗi); khối TOML 30 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 30/30; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-lr-kisaki-tsuikah-ofuro-hinomoto-REVIEW.md`; danh sách sửa: `audit-lr-kisaki-tsuikah-ofuro-hinomoto-wrong.json` (30 mục).
+- Cờ cho Hieu: (1) đại từ Kisaki/Soutetsu → đợt thống nhất (xem trên, kèm hiệu chỉnh 6→9 dòng "em"); (2) 1091 ふああんっ→"Fuaan" giữ romaji (rên dài họ fa/fu — phân biệt với ふあ(っ) ngắn → "Phùa"); (3) B19 vẫn park.
+
+**Tổng cộng sau file này: 206 file / 9.404 dòng sai** (cơ sở 205 file / 9.374 dòng sai + 30 file này)
+
+- Parent kiểm chứng 22/11 ~04:40: JSON 30 mục, khối TOML 30 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 30/30; second pass 30/30/0/0. Không sửa đại từ nào (cờ → đợt thống nhất). CỜ CHO HIEU: hiệu chỉnh 03:32 — 9 dòng đối thoại "em"→"cô" trong file này (keys 1041–1290), quyết định 03:32 ghi tsuika02 có 6 dòng — đợt thống nhất cần đối chiếu lại đúng file; 1091 "Fuaan" giữ romaji; B19 vẫn park.
+
+---
+
+## lr真闇追加h_赤ちゃん、欲しか — lr真闇追加h_赤ちゃん、欲しか.txt.toml — 132/316 (41,8%)
+
+- File: `lr真闇追加h_赤ちゃん、欲しか.txt.toml` — route 05_Mayami, H-scene (Mayami muốn có em bé, sau tuần trăng mật), 316 dòng script (độc thoại 149, 真闇 100, 双鉄 67). Nội dung: Mayami muốn mang thai — tập cho con bú, Soutetsu làm "vật thí nghiệm"; cả hai thổ lộ muốn cùng nhau làm cha mẹ; kết bằng phòng ngủ vợ chồng sau tuần trăng mật.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối 316/316 (chỉ khác ở việc TOML-2 làm phẳng `\n` thành khoảng trắng — CSV3 là chuẩn). `[selections]` rỗng. Không có thẻ `%l` nào trong file. Không có bản sao file này (md5 `7968856545fdf8d9adb32df40193a073`).
+- Phân loại (132): đại từ 88 (Soutetsu "em"/"Anh"→"tôi" với Mayami 85 dòng — cùng lỗi hệ thống 真闇01/真闇02/tsuika02/lr_真闇h1; Mayami tự xưng "em"/"chị ấy"→"chị" 3 dòng: 1035, 1172, 1204; key 1542 gộp thêm gasp sweep), rên/moans 31 (họ ひゃ/きゃ→romaji 5: 1070, 1073, 1076, 1077, 1156; fa/fu→"phùa" 7: 1097, 1098, 1106, 1107, 1112, 1152, 1186; đếm nguyên âm 14: 1071, 1072, 1096, 1100, 1135, 1136, 1140, 1145, 1147, 1148, 1163, 1166, 1313, 1318; mất âm 5: 1121, 1124, 1143, 1164, 1165), gasp 11 (8 sweep + 3 sweep bỏ sót 1086, 1214, 1217 — 1214/1217 là っ độc lập giữa câu; entry sweep thứ 9 là 1542, gộp vào đại từ), sai nghĩa 2 (1224 gỡ "người đàn ông" bịa thêm cho JP cụt; 1234 thêm SFX ぴゅっ bị mất).
+- Sweep kiểm chứng: 9 mục cho file, nhận cả 9 (6 whole-line nguyên văn + 3 trailing áp theo dạng CSV3 giữ `\n`); quét máy bổ sung bắt thêm 3 gasp sweep bỏ sót (1086, 1214, 1217); 1116 っ đầu dòng đã diễn thành "Hự" nên giữ.
+- Soutetsu "tôi" với Mayami xuyên suốt sau sửa; giữ nguyên 1242 "Em yêu anh. Anh Soutetsu." (双鉄さん có chủ ý — tiền lệ 真闇h3 2451). "chị nuôi" 1472 (義姉) và "em trai nuôi" 1556 (義弟) đúng theo quy tắc 義 đã khóa. Không có thuật ngữ chờ đợt thống nhất trong file.
+- Chi tiết đầy đủ: `audit-lr-mayami-tsuikah-akachan-hoshika-REVIEW.md`; danh sách sửa: `audit-lr-mayami-tsuikah-akachan-hoshika-wrong.json` (132 mục, khối TOML 132 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 132/132; lượt soát 2: 132/132, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 207 file / 9.536 dòng sai** (cơ sở 206 file / 9.404 dòng sai + 132 file này)
+
+- Cờ cho vòng moan-fix: đếm lặp trong SFX (1800–1890, vd. 1824 "Siết" + 32 t cho 18 mora u; 1850 "dàiiiiiiiii" 10 i cho 7 u) và họ ちゅう (ちゅぶっ/ちゅむっ/ちゅずずっ→"chụt"/"chùn chụt", れる→"liếm") — giữ nguyên dạng từ VN, để vòng moan xét lại. Cờ cho Hieu: không có câu hỏi mới. B19 vẫn park.
+
+- Parent kiểm chứng 22/11 ~04:40: JSON 132 mục, khối TOML 132 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 132/132; second pass 132/132/0/0. Đại từ đã spot-check mẫu (1230/1282 双鉄 僕→"tôi"; 1512/1550/1705 độc thoại Soutetsu "em"→"tôi"; 1172 真闇 "Em"→"Chị") — đúng quy tắc "tôi" với Mayami; 1224 gỡ bịa thêm "người đàn ông" + 1234 khôi phục SFX ぴゅっ đã kiểm chứng. CỜ CHO HIEU: SFX 1800–1890 + họ ちゅ → vòng moan; B19 vẫn park.
+
+---
+
+# 真闇h2_無濾過.txt.toml — 17/316 (5,4%)
+
+- File: `05_Mayami/真闇h2_無濾過.txt.toml` (route 05_Mayami, 316 dòng script; monologue 182, 真闇 72, 双鉄H 62). Nội dung: Mayami cùng Soutetsu nếm thử shochu không lọc mới do cô phát triển, rồi làm tình bằng đường hậu môn; phần lớn file là H-scene.
+- TOML md5 6a7e62c050273bbf93e38135c93f7f15, không có bản trùng; CSV3 1 bộ 316 dòng, key khớp tuyệt đối, VN khớp TOML 316/316 (chỉ khác dạng làm phẳng `\n`→khoảng trắng), 0 dòng VN trống. [selections] rỗng; 0 tag %l.
+- Phân loại (17): gasp 7 (sweep 827/1158/1208/1209/1210/1211/1213 áp nguyên văn), fa/fu 4 (1040/1058/1088/1117 "phua"→"phùa" theo quy tắc đã chốt), nguyên âm 3 (1017 fuhiii→fuhiiiii 5 i; 1083 chu→chuuu 3 u; 1142 mất 11 t→13 t theo JP 13 u), romaji 1 (1018 やっ "Á"→"Ya" — mất phụ âm y-, tiền lệ ポーレットh3; cùng file 1020 "Ya" đúng), đại từ 1 (1021 Mayami tự xưng "Em"→"Chị" cho わらひ — tiền lệ đã kiểm chứng 真闇02 1773), sai nghĩa 1 (1032 抜いとる "cố thả lỏng"→"rút ra" — JP thắng TW; cùng file 1123 力を抜いてくれ mới là "thả lỏng").
+- Sweep gasp: 7 mục đã kiểm tra trực tiếp — áp nguyên văn cả 7; quét cơ học toàn bộ dòng JP có っ không còn gasp nào bỏ sót (các っ còn lại đã diễn hoặc gắn từ nội dung, không thêm Ư).
+- Đại từ: Soutetsu "tôi" với Mayami xuyên suốt, 0 dòng "anh" sai; Mayami gọi Soutetsu "em"/"Sou-chan" đúng; Mayami tự xưng "chị" (おねえちゃん ×9) — chỉ 1021 sai, đã sửa. Độc thoại nội tâm 1466 "Mình" giữ theo ngoại lệ.
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 0 lệch. Không còn っ thô trong VN.
+- Lượt soát 2: 17/17 tái kiểm chứng, 0 bỏ, 1 sửa (1032 dạng `\n` literal). JSON 17 mục (key chuỗi); khối TOML 17 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 17/17; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-mayamih2-muroka-REVIEW.md`; danh sách sửa: `audit-mayamih2-muroka-wrong.json` (17 mục).
+- Cờ cho Hieu: (1) 1032 đã sửa theo JP (TW "thả lỏng" là diễn giải lỏng — nếu Hieu thấy TW mới đúng ngữ cảnh trong game thì báo lại); (2) SFX độc thoại dài (1820/1823/1834/1846/1848/1872…) giữ nguyên dạng từ Việt ngắn theo tiền lệ — nếu muốn kéo dài theo đúng độ dài JP thì quyết riêng cho vòng moan-fix/SFX; (3) B19 vẫn park.
+- Ghi chú dữ liệu: JP trong CSV3 bị hỏng ký tự ở 1044/1615/1712 (ひあ���, 震え���, 焦らす��度) và cột Character ở 1203 ("���闇") — JP trong TOML sạch và VN dịch đúng theo TOML, đây là lỗi phía CSV3, không tính vào số sai.
+
+**Tổng cộng sau file này: 208 file / 9.553 dòng sai** (cơ sở 207 file / 9.536 dòng sai + 17 file này)
+
+- Parent kiểm chứng 22/11 ~04:40: JSON 17 mục, khối TOML 17 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 17/17; second pass 17/17/0/1 (1032 sửa dạng \n). 1021 "Em"→"Chị" đúng tiền lệ 真闇02 1773; 1032 "rút ra" đã kiểm chứng JP thắng TW. CỜ CHO HIEU: 1032 Hieu xác nhận ngữ cảnh trong game nếu cần; SFX độc thoại dài → vòng moan; B19 vẫn park.
+
+---
+
+# Audit: ハチロクh3_磨き洗い.txt.toml — 44/312 (14,1%)
+
+- Đại từ 14 (Soutetsu "anh"→"tôi" với Hachiroku: 990, 1074, 1076, 1096, 1101, 1102, 1108, 1110, 1112, 1114, 1115, 1164, 1205, 1209); gasp 27 (783, 784, 785, 964, 972, 1012, 1015, 1017, 1019, 1021, 1023, 1026, 1036, 1042, 1072, 1084, 1089, 1106, 1127, 1149, 1168, 1170, 1189, 1218, 1221, 1222, 1226); sai nghĩa 3 (1003, 1139, 1813).
+- Sweep: 23 mục trong file; áp nguyên văn 3 (1221/1222/1226); sửa lại giá trị 20 (sweep thêm Ư cho っ gắn vào từ — trái quy tắc audit); sweep bỏ sót 5 dòng (783/784/785/1015/1084) đã tự tìm thêm.
+- Lượt soát 2: 44/44 đúng, 0 loại, 0 sửa (trước soát 2 đã khôi phục dấu 「」 rớt ở 14 fix đại từ).
+- Cờ cho Hieu: (1) họ fa/fu "Phùa" vs romaji "Fua" chưa chốt toàn dự án (audit h5-hibiki dùng Fua, audit hachiroku-h5 + lr_ニイロクh dùng Phùa) → đợt thống nhất quyết; (2) cờ vòng moan: 1029/1030/1034/1064 đếm nguyên âm + mất âm đầu, SFX dài 1828/1829/1835/1836/1837, SFX nghi vấn 1794/1801; (3) B19 vẫn park.
+
+**Tổng cộng sau file này: 209 file / 9.597 dòng sai** (cơ sở 208 file / 9.553 dòng sai + 44 file này)
+
+- Parent kiểm chứng 22/11 ~04:40: JSON 44 mục, khối TOML 44 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 44/44; second pass 44/44/0/0. Đại từ 14 dòng spot-check đúng ("tôi" với Hachiroku); 20 giá trị sweep sửa lại đúng quy tắc gasp đã khóa (bỏ っ gắn từ, không thêm Ư); 1003/1139/1813 đã kiểm chứng. CỜ CHO HIEU: fa/fu "Phùa" vs "Fua" chưa chốt toàn dự án → đợt thống nhất; cờ moan 1029/1030/1034/1064 + SFX dài → vòng moan; B19 vẫn park.
+
+---
+
+# Audit: ハチロクh4_ゼリー・シリンジ・コンドーム.txt.toml — 49/306 (16,0%)
+
+- Đại từ 12 (Soutetsu "anh"→"tôi" với Hachiroku: 1072, 1045, 959, 1108, 875, 1081, 1037, 1270, 1047, 1036, 1107, 886); gasp 35 (677, 866, 867, 912, 914, 915, 918, 919, 926, 927, 931, 933, 935, 936, 938, 946, 947, 958, 962, 966, 983, 985, 988, 991, 1013, 1020, 1041, 1074, 1082, 1096, 1121, 1129, 1131, 1337, 1549); sfx 1 (942 "Ư fufu"→"Ufufu"); sai nghĩa 1 (949 いっちゃ "đừng ra"→"sắp ra").
+- Sweep: 32 mục trong file; áp nguyên văn 5 (962/1129/1131/1337/1549); sửa lại giá trị 25 (sweep thêm Ư cho っ gắn vào từ — trái quy tắc audit); sweep bỏ sót 1 dòng (926) đã tự tìm thêm.
+- Lượt soát 2: 49/49 đúng, 0 loại, 3 sửa (1270/1337/1549 bỏ dấu 「」 thừa).
+- Cờ cho Hieu: (1) họ fa/fu "Phùa" vs romaji "Fua" chưa chốt toàn dự án → đợt thống nhất quyết; (2) cờ vòng moan: đếm nguyên âm 928/1000/1121/866/1002/931/987, SFX dài 1666/1685/1669/1662/1714/1713/1691/1716, SFX nghi vấn 1684/1677; (3) giữ nguyên có cờ: 998 "em ấy mà?" (mơ hồ ngôi thứ ba), 1682 （ぐっ）→"Kéo", 1070 かはっ→"Á!"; (4) mâu thuẫn tiền lệ: やっ→"Ya" (vòng audit, h3) vs giữ "Á" (vòng moan, h8 2187) — cần parent xác nhận; (5) B19 vẫn park.
+
+**Tổng cộng sau file này: 210 file / 9.646 dòng sai** (cơ sở 209 file / 9.597 dòng sai + 49 file này)
+- Parent kiểm chứng 22/11 ~05:30: JSON 49 mục, khối TOML 49 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 49/49; second pass 49/49/0/3 (1270/1337/1549 bỏ 「」 thừa). Đại từ 12 dòng spot-check đúng ("tôi" với Hachiroku); 949 いっちゃ→"sắp ra" đã kiểm chứng (TW 要射了). CỜ CHO HIEU: fa/fu "Phùa" vs "Fua" chưa chốt → đợt thống nhất; cờ moan (đếm nguyên âm, SFX dài, 1684/1677) → vòng moan; 998 giữ nguyên có cờ; F6 やっ→"Ya" (h3) vs "Á" (h8 2187, vòng moan) tiền lệ mâu thuẫn → vòng moan; B19 vẫn park.
+
+---
+
+## 真闇h1_長期熟成 — 真闇h1_長期熟成.txt.toml — 50/298 (16,8%)
+
+- File: `真闇h1_長期熟成.txt.toml` — route 05_Mayami, 298 dòng script (monologue 147, thoại 真闇 76, thoại 双鉄H 75). Nội dung: cảnh H của Mayami ("ủ lâu năm") — Soutetsu say sóng nhiệt trong bồn tắm, Mayami cho gối đùi + quạt, trò chuyện về tuổi 25+ độc thân rồi quan hệ lần đầu (hôn, paizuri, oral, phá trinh, xuất tinh, hiệp hai), kết bằng chuyện con cái / gia đình mới.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối 298/298 (156 khác biệt chỉ là TOML-2 làm phẳng `\n` thành khoảng trắng). `[selections]` rỗng. Không có thẻ `%l` nào trong file. Không có bản sao file này (md5 `af87cd63e115c1890a4aa1a0a05fec4b`).
+- Phân loại (50): đại từ 28 (Soutetsu "em"→"tôi" với Mayami — lỗi hệ thống, Mayami là người đối thoại duy nhất cả file; "em" của Mayami gọi Soutetsu 1131/1171/1142 giữ nguyên; "mình" độc thoại đều đúng), gasp 7 (1181, 1218, 1272, 1273 từ sweep + 1249, 1065, 1214 tự tìm; 1092 already-rendered không sửa), rên/nguyên âm 5 (1014 Hya, 1086 Nhyu, 1025/1091/1048 đếm nguyên âm), SFX 8 (1069 kuchu, 1796 Kuchuri, 1815 Nuchu, 1793 ku, 1089 Nbu/Pue, 1094 Npu/Churu/Chumu, 1056 bỏ "fu" thừa, 1021 Phuya), nghĩa 1 (1097 bỏ "thì sao" bịa), nhỏ 1 (1064 kya→Kya).
+- Sweep kiểm chứng: 5 mục cho file, nhận 4 fix + 1 already-rendered (1092); quét máy bổ sung bắt thêm 3 gasp sweep bỏ sót (1249, 1065, 1214).
+- Thuật ngữ: 長期熟成 "ủ lâu năm" nhất quán cả file; おまんこ "Cái bướm" nhất quán (chờ đợt thống nhất); のぼせる "say sóng nhiệt" nhất quán. 0 thuật ngữ chờ sửa trong file.
+- Chi tiết đầy đủ: `audit-mayamih1-choki-jukusei-REVIEW.md`; danh sách sửa: `audit-mayamih1-choki-jukusei-wrong.json` (50 mục, khối TOML 50 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 50/50; lượt soát 2: 50/50, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 211 file / 9.696 dòng sai** (cơ sở 210 file / 9.646 dòng sai + 50 file này)
+
+- Chờ Hieu: 1014 (ひゃっ→"Hya" cho tiếng giật mình khi hôn — có giữ "Á" không?); cờ vòng moan: 1058, 1080, 1089 (ごくんっ), 1792, 1801/1803/1822 (Phụt ×4 gộp), 1173 (nữaaaa); nhỏ: 1011 (どろって). B19 vẫn park.
+- Parent kiểm chứng 22/11 ~05:30: JSON 50 mục, khối TOML 50 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 50/50; second pass 50/50/0/0. Đại từ 28 dòng spot-check đúng ("tôi" với Mayami — Mayami là người đối thoại duy nhất); 1796 （くちゅりっ）→"Kuchuri" đã kiểm chứng. CỜ CHO HIEU: 1014 Hya vs Á (tiếng giật mình khi hôn) → chờ Hieu; cờ moan 1058/1080/1089/1792/1801/1803/1822/1173 → vòng moan; B19 vẫn park.
+
+---
+
+# 日々姫h4_いもうとタオル.txt.toml — 29/296 (9,8%)
+
+- File: `02_Hibiki/日々姫h4_いもうとタオル.txt.toml` (route 02_Hibiki, 296 dòng script; monologue 163, 日々姫 81, 双鉄H 52). Nội dung: H-scene Hibiki — "khăn tắm em gái": Hibiki dùng cơ thể/khăn tắm phục vụ Soutetsu trong nhà tắm sau ca trực; xen kẽ đối thoại, độc thoại Soutetsu và SFX dài.
+- TOML md5 5d1c304fe9a442ab317f5087d5e53464, không có bản trùng; CSV3 1 bộ 296 dòng, key khớp tuyệt đối, VN khớp TOML 296/296 (chỉ khác dạng làm phẳng `\\n`→khoảng trắng), 0 dòng VN trống. [selections] rỗng; 0 tag %l; 2 marker ruby JP (971, 995) — VN đúng là không có tag.
+- Phân loại (29): moan/rên/thở/gasp 26 (romaji sai âm họ ひあ/ひう/ふや 7: 962, 963, 964, 966, 969, 972, 1075; họ fa/fu sai nguyên âm 8: 972, 988, 990, 991, 995, 1001, 1032, 1041; đếm nguyên âm sai 9 dòng: 962, 964, 967, 971, 1005, 1006, 1051, 1053, 1054; mất âm đơn mora 2: 960, 964; gasp mất 3: 1024, 1182, 1183; 993 っと→"Hự" — có dòng trùng nhóm), sai nghĩa 2 (1447 "Vừa véo tôi"→bỏ "tôi"; 1588 "đũng quần"→"vùng kín"), SFX 1 (1794 thêm SFX thứ hai bị mất "Nghiến chặt").
+- Sweep gasp: 3 mục đã kiểm tra trực tiếp — 1182/1183 áp nguyên văn, 1065 already-rendered; +1 gasp sweep bỏ sót (1024) tìm thêm bằng quét cơ học toàn bộ dòng JP có っ.
+- Đại từ: không sửa dòng nào — Soutetsu "anh" với Hibiki nhất quán, độc thoại "tôi" nhất quán, Hibiki "em" nhất quán.
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. VN trùng trong file (3 nhóm) đều hợp lệ (Ưm! ×2, Kẹp chặt ×2, Thúc mạnh!!! ×2 — 1794 sửa xong hết trùng). Không còn っ thô trong VN.
+- Lượt soát 2: 29/29 tái kiểm chứng, 0 bỏ, 0 sửa. JSON 29 mục (key chuỗi); khối TOML 29 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 29/29; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-hibikih4-imouto-taoru-REVIEW.md`; danh sách sửa: `audit-hibikih4-imouto-taoru-wrong.json` (29 mục).
+- Cờ cho Hieu: (1) fa/fu "Phùa" vs "Fua" chưa chốt → đợt thống nhất (file này dùng cả hai; 1006 sửa sang romaji cho nhất quán với 994); (2) 993 っと→"Hự" là phán đoán audit — vòng moan xác nhận; (3) SFX dài/dồn → vòng moan: 1754/1757/1758/1759/1760/1762/1765/1770/1783; (4) giữ nguyên chờ vòng moan: 1035/1040 (mất phụ âm sau ん), 1045 (っ giữa câu); (5) 1532 chủ ngữ mơ hồ (TW "cô ấy" vs VN "tôi" — giữ "tôi"); (6) B19 vẫn park.
+
+**Tổng cộng sau file này: 212 file / 9.725 dòng sai** (cơ sở 211 file / 9.696 dòng sai + 29 file này)
+- Parent kiểm chứng 22/11 ~05:30: JSON 29 mục, khối TOML 29 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 29/29; second pass 29/29/0/0. Nghĩa 1447/1588/1794 đã kiểm chứng; 993 っと→"Hự" giữ + cờ vòng moan. CỜ CHO HIEU: fa/fu "Phùa" vs "Fua" chưa chốt → đợt thống nhất; SFX dài → vòng moan; 1532 chủ ngữ mơ hồ giữ "tôi"; B19 vẫn park.
+
+---
+
+# Audit: lr_稀咲h1_おしおきとごほうび.txt.toml — 60/297 (20,2%)
+
+- File: `06_Kisaki/lr_稀咲h1_おしおきとごほうび.txt.toml` (route 06_Kisaki, 297 dòng script; monologue 113, 稀咲 103, 双鉄 81). Nội dung: Kisaki trừng phạt Soutetsu vì say rượu kể bí mật vợ chồng cho Paulette; phần lớn file là H-scene (Kisaki chủ động, Soutetsu bị trói tay).
+- TOML md5 439e80f22d9abfcda5843f8d2f2844ca, không có bản trùng; CSV3 1 bộ 297 dòng, key khớp tuyệt đối, VN khớp TOML 297/297, 0 dòng VN trống. [selections] rỗng; 0 tag %l.
+- Phân loại (60): gasp 20 (sweep 14 + mới 6), nguyên âm 16 (đếm bằng máy theo công thức 1 + số う/ぅ), đại từ 13 (Soutetsu→Kisaki "em"→"cô" 5 + trích lời Paulette 1 + Kisaki tự xưng "tôi"→"em" 7 theo ngữ cảnh 19:45), sai nghĩa 5 (1010 ああ→"Aa", 1133, 1166 いく→"ra", 1211 causative đảo ngược, 1390 にとにと→"cười tủm tỉm"), SFX 5 (1035 あぐっ, 1038 んぎっ, 1094 うふふっ→"Ufufu", 1690 くちゅっ→"Kuchu", 1720 ぃ×13 bị mất), chính tả 1 (1287 "tốt rồ"→"tốt rồi").
+- Sweep gasp: 17 mục cho file này — áp nguyên văn 9; 5 mục khôi phục `\n` literal (1341/1425/1429/1551/1619, sweep dùng dạng làm phẳng); 1 mục already-rendered SAI đã sửa (1262 — っ! cuối dòng 1 bị mất); 2 mục already-rendered đúng (1065/1073); quét cơ học toàn bộ dòng JP có っ tìm thêm 6 gasp (710/971/972/974/1235/1262); 1081 false positive (っていうか).
+- Đại từ: Soutetsu "tôi" với Kisaki xuyên suốt, 0 dòng "Anh" sai; Kisaki gọi Soutetsu "cậu"/tên trần, 0 dòng "anh Soutetsu"; キミ→"cậu" đúng cả 2 dòng. Kisaki tự xưng 18 dòng ボク/僕: 7 dòng "tôi"→"em" (rên/lên đỉnh/thú nhận mềm yếu), 11 dòng giữ "tôi" (ra lệnh/giải thích/quyết đoán).
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. Thẻ %l: 0 lệch. Không còn っ thô trong VN sau fix (1020 là っ thô duy nhất).
+- Lượt soát 2: 60/60 tái kiểm chứng, 0 bỏ, 1 sửa (1062 khôi phục `\n` literal). JSON 60 mục (key chuỗi); khối TOML 60 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 60/60; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-lr-kisakih1-oshioki-gohobi-REVIEW.md`; danh sách sửa: `audit-lr-kisakih1-oshioki-gohobi-wrong.json` (60 mục).
+- Cờ cho Hieu: (1) 1183 "Tôi"→"Em" là phán đoán biên, độ tin cậy thấp nhất — rà lại; (2) 1690 audit chọn "Kuchu" (theo 1688) thay "Chụt" — vòng moan xác nhận; (3) 1126 おちんぽっ và ペニス đều "Dương vật" — có cần từ thô riêng cho おちんぽ không? (4) fa/fu "Phùa" vs "Fua" chưa chốt → đợt thống nhất (file này dùng "Fua" nhất quán); (5) SFX độc thoại dài (1703–1709, 1720) → vòng moan; (6) B19 vẫn park.
+- Ghi chú dữ liệu: JP trong CSV3 hỏng ký tự ở 1560 (���直 — TOML sạch 正直, VN dịch đúng, không tính sai); 1425 có 」 thừa đã bỏ trong fix.
+
+**Tổng cộng sau file này: 213 file / 9.785 dòng sai** (cơ sở 212 file / 9.725 dòng sai + 60 file này)
+- Parent kiểm chứng 22/11 ~05:35: JSON 60 mục, khối TOML 60 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 60/60; second pass 60/60/0/1 (1062 khôi phục \\n). Đại từ 13 dòng spot-check đúng (Soutetsu→Kisaki "em"→"cô" 1119/1164; Kisaki "tôi"→"em" ngữ cảnh thân mật 955/1014; 1033 quote Paulette "anh Soutetsu" đúng B4 lock); 1010 ああ→"Aa!" đã kiểm chứng (TW 啊啊). CỜ CHO HIEU: 1183 "em" biên (ngữ cảnh mệt sau quan hệ) → chờ Hieu; 1690 Kuchu vs Chụt → vòng moan; 1126 おちんぽ chưa có quy tắc → chờ Hieu; fa/fu "Phùa" vs "Fua" → đợt thống nhất; SFX dài 1703–1709/1720 → vòng moan; B19 vẫn park.
+
+# Audit: lr稀咲追加03_新事業案.txt.toml — 46/295 (15,6%)
+
+
+- File: `lr稀咲追加03_新事業案.txt.toml` — route 06_Kisaki, 295 dòng script (thoại: 稀咲 92, 双鉄 75, 西瓜 33, 姜 27; độc thoại 68). Nội dung: Kisaki, Soutetsu, cô Khương và Suika ở Trọng Quốc bàn phương án kinh doanh mới — giải đấu 'Cúp Thế giới Railord' xoay quanh game nuôi dưỡng Dương Nương đấu sumo (闘羊), phát triển goods đặc sản địa phương, livestream tương tác; xen kẽ là những đoạn hai vợ chồng nhận ra mình cuồng công việc (nói chuyện công việc mọi lúc mọi nơi, cả trên máy bay lẫn trong phòng), tay đan tay, và Suika demo game.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 295 dòng, key 615–1714, 0 key trùng, 0 VN trống. TOML và CSV3 khớp tuyệt đối 295/295. TOML md5 `7ddb5f25b9ab16f611d41f2c7fb74c1f`, `[selections]` rỗng, không bản sao trùng. Không có thẻ `%l` nào trong JP lẫn VN, 0 thẻ hỏng.
+- Phân loại (46): transliteration (ああ→'À') 18, đại từ 17, tên riêng nhất quán 6, gasp 2, dịch sai nghĩa 1, lỗi đánh máy 1, thuật ngữ 1. Thoại 39/227 (17,2%), độc thoại 7/68 (10,3%). Theo nhân vật: 稀咲 19/92, 双鉄 12/75, monologue 7/68, 姜 4/27, 西瓜 4/33.
+- Transliteration 18: thán từ ああ bị phiên âm thành 'A' toàn file (615, 629, 932, 991, 1016, 1029, 1040, 1041, 1043, 1048, 1053, 1061, 1062, 1127, 1128, 1276, 1535, 1709 — kể cả 'A.' đọc như chữ cái và 'A' lên một tiếng ở độc thoại 1535) → 'À'/'À.'/'À!'/'À……'.
+- Đại từ 17: Soutetsu tự xưng 'anh'→'tôi' với Kisaki 4 (941, 1054, 1171, 1432); Soutetsu gọi Kisaki 'em'→'cô' 3 (963, 990, 1573 độc thoại ngôi ba); Kisaki gọi Soutetsu 'anh Soutetsu'→tên trần 4 (938, 1294, 1433, 1434) + 'anh'→'cậu' trực tiếp 3 (940, 1026, 1189); Kisaki tự xưng 'tôi'→'em' ở ngữ cảnh thân mật 4 (896, 906, 1007, 1026 — phán đoán biên, cờ cho Hieu). 940 giữ 'tôi' (giọng quả quyết); 1038 姜 gọi 'anh Soutetsu' đúng; Kisaki gọi Suika 'em' đúng; Soutetsu gọi Nagi 'em ấy' ở 1435 đúng.
+- Tên riêng nhất quán 6: 'cô Jiang'→'cô Khương' 4 (1275, 1537, 1578, 1714); 'Xigua'→'Suika' 3 (1364, 1702, 1714 — 1714 mang cả hai lỗi).
+- Gasp 2: sweep 1274 áp nguyên (しま――っ!!? → '——Ư!!?'); audit tự tìm 1301 (っ!!! độc lập → 'Ư!!!', sweep bỏ sót). Quét cơ học 90 dòng JP có っ, không còn gasp mất.
+- Dịch sai nghĩa 1: 903 いや 'Không có gì.'→'Không.'. Lỗi đánh máy 1: 1021 'chúng chúng ta'→'chúng ta'. Thuật ngữ 1: 1232 機関士 'kỹ sư lái tàu'→'lái tàu'.
+- Mục thuộc đợt unification (không sửa trong audit): 'Ohimitera' 4 dòng (1130, 1186 ×2, 1267, 1412 — 5 lần xuất hiện) → 'Ohitoyo', tiền lệ reina03 21/11.
+- Giữ nguyên có lý do: 627 JP 'ものうなずける' có vẻ lỗi đánh máy gốc, VN dịch đúng nghĩa; 1086 TW lệch JP (JP thắng); 1099/1141/1256 thẻ đọc giữ phiên âm + gloss; 1101 日ノ仲戦 'trận đấu Nhật-Trung'; 1200 あむっ 'Ngoạm'; 1239 脳汁 diễn nghĩa lóng (TW ủng hộ); 1276/1340 河蹼省 'tỉnh Hà Bộc' theo JP (TW khác chữ); 1425 金岩灘 'bãi biển Kim Nham' theo JP; 1432 副丘 'Fukuoka' (TW 福岡, chưa có quy tắc riêng); 1442 んくっ 'Ưm'; 1444 'Pocopoco Douga'; 1592/1595 độc thoại dịch sát.
+- Cờ cho Hieu: (1) Kisaki 'tôi'→'em' phán đoán biên 4 dòng (896, 906, 1007 độ tin cậy thấp nhất, 1026) — nhờ rà lại; (2) 940 giữ 'tôi' (giọng quả quyết) — biên; (3) 'Ohimitera' 4 dòng chờ unification; (4) B19 vẫn park.
+- Lượt soát 2: 46/46, 0 bỏ, 0 sửa.
+- Kiểm chứng: JSON 46 mục dạng chuẩn, khóa chuỗi; khối TOML 46 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 46/46; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-lr-kisakitsuika03-shinjigyouan-REVIEW.md`; danh sách sửa: `audit-lr-kisakitsuika03-shinjigyouan-wrong.json` (46 mục).
+
+**Tổng cộng sau file này: 214 file / 9.831 dòng sai** (cơ sở 213 file / 9.785 dòng sai + 46 file này)
+- Parent kiểm chứng 22/11 ~07:36: JSON 46 mục, khối TOML 46 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 46/46; second pass 46/46/0/0. Đại từ 17 dòng spot-check đúng (Soutetsu→Kisaki 'tôi'/'cô', Kisaki 'cậu'/tên trần, Kisaki 'em' ngữ cảnh thân mật); 903 いや→'Không.' đã kiểm chứng (TW 不是); tên riêng 'Suika'/'cô Khương' nhất quán nội bộ file. CỜ CHO HIEU: Kisaki 'tôi'→'em' biên 4 dòng (896/906/1007/1026, 1007 thấp nhất) → chờ Hieu; 940 giữ 'tôi' biên; 'Ohimitera' 4 dòng → đợt thống nhất; B19 vẫn park.
+
+# Audit: 凪h1_ふたりっきりのデート.txt.toml — 35/291 (12,0%)
+
+
+- File: `凪h1_ふたりっきりのデート.txt.toml` — route 07_Nagi_Fukami, 291 dòng script (77 thoại Nagi, 53 thoại Soutetsu, 161 độc thoại). Nội dung: H-scene hẹn hò chỉ có hai người dọc đường ray — Nagi phấn khích vì được hẹn hò riêng với anh hai, làm tình ngoài trời giữa cây cỏ, xen hồi tưởng lần đầu; kết bằng cảnh nắm tay nhau về "nhà" nơi có Fukami.
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, VN khớp TOML tuyệt đối 291/291. `[selections]` rỗng. Không có thẻ `%l` nào trong file. Không có bản sao file này (md5 `80187d06a1deaeb1799ea3eb800e662e`).
+- Phân loại (35): đại từ 7 (1008, 1044, 1129, 1132, 1172, 1175, 1218 — Soutetsu "tôi"→"anh" với Nagi), gasp 7 (850, 1069, 1083, 1116, 1152, 1214 — 6 mục sweep, nhận cả 6; + 1811 はっ→"Hà"), rên 17 (ひゃ-family 1048/1062/1108 ひあ→"Hia" + 1055/1056 Hyafun/Hyaun; ふや 1053/1057/1081→"Phuya"/"Phuyau"; ふぁん 1080/1082→"Fan"; くひゅん/ふきゅん 1096/1127→"Kyun"/"Fukyun"; ふぇ/ふえ 1046/1086/1087/1090/1091→"Phuê"), sai nghĩa 2 (1109 うんっ→"Ưm" thay "Vâng"; 1118 れるっ→"Chụt" thay "Ngoáy" bịa), SFX 2 (1195 じゅるっ→"Sụt sụt"; 1772 れろおおおっ→"Liếmmmm!").
+- Sweep kiểm chứng: 6 mục cho file, nhận cả 6; quét máy bổ sung không bắt thêm gasp nào. Giữ nguyên: 9 dòng fa/fu "Phù"/"Phù a" (1063, 1078, 1079, 1084, 1087, 1102, 1103, 1118, 1152) chờ đợt thống nhất; số lượng u rên dài 1060 (22 u cho 17 う) và độ dài kéo phụ âm SFX (1768/1794/1797/1808) giữ lỏng theo tiền lệ reina-h3, chờ Hieu.
+- Soutetsu "anh" với Nagi đúng sau sửa ("tôi" chỉ còn ở 1765 suy nghĩ trong ngoặc đơn + độc thoại). Nagi "em", "bé Fukami" (1095) đúng; không có "chị" cho Fukami.
+- Chi tiết đầy đủ: `audit-nagih1-futarikkiri-no-date-REVIEW.md`; danh sách sửa: `audit-nagih1-futarikkiri-no-date-wrong.json` (35 mục, khối TOML 35 khóa, 0 sai lệch giá trị, jp/tw/old_vn khớp CSV3 tuyệt đối 35/35; lượt soát 2: 35/35, 0 bỏ, 0 sửa).
+
+**Tổng cộng sau file này: 215 file / 9.866 dòng sai** (cơ sở 214 file / 9.831 dòng sai + 35 file này)
+
+- Chờ Hieu: 1080/1082 ("Fan" — vòng moan xác nhận); 1090 (theo quyết định reina-h3 1133 về ふえっ？); số lượng nguyên âm rên dài (1060); fa/fu "Phù" vs "Phùa" (9 dòng); 3 phán đoán biên 1118/1195/1772 (vòng moan rà lại). B19 vẫn park.
+- Parent kiểm chứng 22/11 ~07:40: JSON 35 mục, khối TOML 35 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 35/35; second pass 35/35/0/1 (1118 đổi "Được"→"Chụt" theo tiền lệ reina-h3 trước khi chốt). Đại từ 7 dòng spot-check đúng (Soutetsu 'anh' với Nagi: 1008/1044/1129/1172/1218); 1109 うんっ 'Vâng'→'Ưm' đã kiểm chứng (TW 嗯); 1118 れるっ→'Chụt' theo chuỗi hôn TW 啾; 1195/1772 SFX đã kiểm chứng. CỜ CHO HIEU: 1080/1082 'Fan' → vòng moan; 1090 theo quyết định reina-h3 1133; số lượng nguyên âm rên dài; fa/fu 'Phù' vs 'Phùa' → đợt thống nhất; 1118/1195/1772 phán đoán biên → vòng moan rà lại; B19 vẫn park.
+
+# Audit: 日々姫h2_洗って大丈夫なスーツ.txt.toml — 16/290 (5,5%)
+
+
+- File: `日々姫h2_洗って大丈夫なスーツ.txt.toml` — route 02_Hibiki, 290 dòng script (thoại: 日々姫 86, 双鉄H 60; độc thoại 144). Nội dung: Hibiki làm xong việc ở phòng thị trưởng rồi ngủ gật; Soutetsu bế em ấy (bế kiểu công chúa), cả hai thân mật trong phòng thị trưởng; xoay quanh bộ vest giặt được, chuyện tiết kiệm tiền giặt ủi, và mơ về ngôi nhà/gia đình chung. File H-scene (Hibiki route).
+- Lệch vị trí 0, chuỗi xoay 0, nhiễm chéo 0, mồ côi 0, chưa dịch 0, trùng khóa 0. CSV3 1 set duy nhất, 290 dòng, key 37–1816, 0 key trùng, 0 VN trống. TOML và CSV3 khớp tuyệt đối 290/290. TOML md5 `406a1ba5a7f06dc38f49413d0fbe2d47`, `[selections]` rỗng, không bản sao trùng. Không có thẻ `%l` nào trong JP lẫn VN, 0 thẻ hỏng.
+- Phân loại (16): gasp 4 (843, 1085, 1086, 1283), moan 6 (1055, 1071, 1074, 1079, 1081, 1123), nguyên âm dài 3 (1077, 1078, 1138), dịch sai nghĩa 2 (1186, 1414), bịa thêm 1 (1107). Thoại 15/146 (10,3%), độc thoại 1/144 (0,7%). Theo nhân vật: 日々姫 12/86, 双鉄H 3/60, monologue 1/144.
+- Gasp 4: sweep 3 áp nguyên (1085, 1086, 1283); audit tự tìm 1 sweep bỏ sót (843 「っ――」→"Ư——", tiền lệ 995/1490/1562). Quét cơ học 176 dòng JP có っ, không còn gasp mất.
+- Moan 6: 1055 やんっ→"Á" mất ん → "Yan!"; 1071 きゃっ→"Á" vi phạm quy tắc ひゃ-family → "Kya!?" + びゅうって bị mất → thêm "phụt" (TW 噗噗地); 1074 くはっ→"Kua" mất は → "Kuha"; 1079/1123 ふあっ→"Phù" mất あ → "Phùa" (quy tắc fa/fu); 1081 ふやんっ→"Huyan" → "Phuyan" (quy tắc khóa ふやぁ→"phuya").
+- Nguyên âm dài 3 (công thức 1 + số う/ぅ): 1077 ふ+ぅ×8 → 9 u (cũ 7); 1078 đoạn dài あ×7 → 7 a (cũ 8); 1138 きゅ+う×7+ぅ×4 → 12 u (cũ 8).
+- Dịch sai nghĩa 2: 1186 なるから "sẽ thành (có thai)" — cũ "Sẽ chảy mà!" bịa "chảy"; 1414 愛おしい "đáng quý" — cũ "đáng thương" sai nghĩa.
+- Bịa thêm 1: 1107 JP cụt ở おっきいの―― (TW cũng cụt), VN cũ bịa thêm "chứa được" → bỏ.
+- Đại từ 0 lỗi: Soutetsu "anh" với Hibiki ở thoại, "tôi" ở độc thoại (giọng kể) — nhất quán toàn file; 1552 義妹 → "em gái nuôi" đúng.
+- Cờ cho Hieu: (1) 1071 đuôi moan んううううう～っ → "Ưm~~~!" (dấu ~~~ thay nguyên âm dài) — vòng moan; (2) 1064 かっ bị mất (TW cũng bỏ) — vòng moan; (3) 1770 びゅくっ → "Giật" (TW toàn 噗噗 = phun) — vòng moan; (4) SFX phun 1764/1766/1771 dồn 4 biến thể びゅ thành "Phụt" — vòng moan; (5) fa/fu "Phùa" vs "Fua" → đợt thống nhất; (6) B19 vẫn park.
+- Lượt soát 2: 16/16, 0 bỏ, 0 sửa.
+- Kiểm chứng: JSON 16 mục dạng chuẩn, khóa chuỗi; khối TOML 16 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 16/16; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-hibikih2-aratte-daijoubu-na-suitsu-REVIEW.md`; danh sách sửa: `audit-hibikih2-aratte-daijoubu-na-suitsu-wrong.json` (16 mục).
+
+**Tổng cộng sau file này: 216 file / 9.882 dòng sai** (cơ sở 215 file / 9.866 dòng sai + 16 file này)
+- Parent kiểm chứng 22/11 ~07:45: JSON 16 mục, khối TOML 16 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 16/16; second pass 16/16/0/0. Spot-check đúng: 1071 きゃっ→"Kya!?" + びゅう→"phụt" (TW 噗噗); 1107 bỏ 'chứa được' bịa thêm; 1186 なるから→'Sẽ thành mà!'; 1414 愛おしい→'đáng quý'. Đại từ 0 lỗi (Soutetsu 'anh' với Hibiki, độc thoại 'tôi'). CỜ CHO HIEU: 1071 đuôi moan → vòng moan; 1770/1764/1766/1771 びゅ-variant; fa/fu 'Phùa' vs 'Fua' → đợt thống nhất; B19 vẫn park. LƯU Ý: agent báo /tmp bị ghi đè giữa chừng bởi tiến trình song song (cùng tiền tố hibikih2_*) — đã tự phát hiện và kiểm chứng lại toàn bộ từ CSV3/TOML; parent kiểm chứng độc lập, deliverables sạch.
+
+# Audit: lr_日々姫h2_デザートは食事の前に.txt.toml — 42/288 (14,6%)
+
+
+- File: `02_Hibiki/lr_日々姫h2_デザートは食事の前に.txt.toml` (route 02_Hibiki, 288 dòng script; monologue 127, 日々姫 94, 双鉄 67). Nội dung: H-scene Hibiki — "món tráng miệng trước bữa ăn": sau 3 ngày làm việc liên tục, Hibiki đòi "ăn" Soutetsu trước khi ăn cơm thật; xen kẽ đối thoại, độc thoại Soutetsu và SFX dài (đặc biệt cụm SFX trong ngoặc 1651–1693).
+- TOML md5 278bb98599c53cd1d22db62a29101c26, không có bản trùng; CSV3 1 bộ 288 dòng, key khớp tuyệt đối, VN khớp TOML 288/288 (chỉ khác dạng làm phẳng `\\n`→khoảng trắng), 0 dòng VN trống. [selections] rỗng; 1 tag %l (1199, đúng); 0 tag lệch.
+- Phân loại (42): gasp 13 (sweep 13, áp nguyên văn), moan 26 (đếm nguyên âm/phụ âm theo công thức 1 + số kana kéo dài), sai nghĩa 3 (1000 mất mora ん, 1060 いただきます thiếu đối tượng, 1352 イってた sai thì).
+- Sweep gasp: 16 mục đã kiểm tra trực tiếp — áp nguyên văn 13 mục lost-gasp; 973 already-rendered nhưng đếm nguyên âm sai → sửa phần đếm (Guuu); 1079 + 1663 already-rendered đúng, giữ nguyên; +0 gasp sweep bỏ sót (quét cơ học toàn bộ dòng JP có っ).
+- Đại từ: không sửa dòng nào — Soutetsu "anh" với Hibiki nhất quán, độc thoại "tôi" nhất quán, Hibiki "em"/"anh hai" nhất quán.
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. VN trùng duy nhất: 1000/1005 cùng "「A!」" — đã sửa 1000 → "An!". Không còn っ thô trong VN.
+- Lượt soát 2: 42/42 tái kiểm chứng, 0 bỏ, 0 sửa. JSON 42 mục (key chuỗi); khối TOML 42 khóa parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 42/42; mỗi fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Chi tiết đầy đủ: `audit-lr-hibikih2-dessert-wa-shokuji-no-mae-ni-REVIEW.md`; danh sách sửa: `audit-lr-hibikih2-dessert-wa-shokuji-no-mae-ni-wrong.json` (42 mục).
+- Cờ cho Hieu: (1) fa/fu "Fa"/"fa"/"famu"/"pua" (romaji) nhất quán toàn file — "Phùa" vs "Fua" chưa chốt → đợt thống nhất; (2) おちんちん → "chỗ đó" (943) và "thứ cứng ngắc đó" (1157) — cùng uyển ngữ "chỗ đó" dùng cho cả おまんこ, có cần phân biệt không? (3) 1057 ふぇひあふぁれ → "meshiagare" (romaji, nói ngọng) — giữ nguyên, phán đoán audit; (4) 1304 giữ nguyên "tôi ngã xuống người em ấy" — JP cụt nhưng 1420 (倒れる) xác nhận; (5) SFX dài/dồn trong ngoặc → vòng moan: 1665/1666/1668, 1676, 1679, 1681, 1683; (6) っ giữa câu → vòng moan: 939, 984, 994; (7) 942 わらひとっ → "Cùng nhau!" giữ nguyên; (8) 936 でぇっ → "tuyệt." giữ nguyên (TW ủng hộ); (9) 1199 tag %l đúng quy ước; (10) B19 vẫn park.
+
+**Tổng cộng sau file này: 217 file / 9.924 dòng sai** (cơ sở 216 file / 9.882 dòng sai + 42 file này)
+- Parent kiểm chứng 22/11 ~07:46: JSON 42 mục, khối TOML 42 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 42/42; second pass 42/42/0/0. Snippet rebase 215/9,873 → cơ sở 216/9,882 (đã gộp 日々姫h2 trước). Spot-check đúng: 973 'Guuu' theo công thức nguyên âm; 1000 あんっ→'An!' (TW 啊嗯); 1060 いただきます→'em xin phép thưởng thức' (TW 我開動了); 1352 イってた→'Đang lên đỉnh'. Đại từ 0 lỗi. CỜ CHO HIEU: おちんちん→'chỗ đó' trùng với おまんこ (943/1157) → chờ Hieu; SFX dài trong ngoặc → vòng moan; っ giữa câu mất (939/984/994) → vòng moan; fa/fu romaji → đợt thống nhất; B19 vẫn park.
