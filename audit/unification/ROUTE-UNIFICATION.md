@@ -7,7 +7,7 @@ Base state at pass start (22/11 ~11:00): audit COMPLETE 216/216, 9,927 wrong; mo
 
 ## Totals chain
 
-**Tổng cộng sau đợt này: 21 mục / 590 dòng sai (unification)** (cơ sở 21 mục / 585 dòng + đợt U2c T1+T2 leftovers 00–05: 5 dòng (cùng mục T1/T2) — gộp 22/11 ~11:35, parent kiểm chứng: U2c JSON 5 = TOML block 5, jp/tw CSV3-exact, old_vn khớp map hiện tại (U1a/U1b fixes), diff chỉ đổi 'Đường sắt Ohito'→'Đường sắt Ohitoyo', second pass 5/5; T1+T2 folders 00–05 HOÀN TẤT)
+**Tổng cộng sau đợt này: 21 mục / 662 dòng sai (unification)** (cơ sở 21 mục / 590 dòng + đợt U2b T1 Ohito + T2, folders 06–11: 72 dòng (cùng mục T1/T2) — gộp 22/11 ~11:40, parent kiểm chứng: U2b JSON 72 = TOML block 72, jp/tw CSV3-exact, old_vn khớp map hiện tại (17 audit + 55 CSV3, 0 moan), diff chỉ đổi thuật ngữ, 0 trùng với các batch đã gộp, second pass 72/72; **T1+T2 HOÀN TẤT project-wide: 136 + 72 + 5 = 213 dòng**)
 
 ## Decisions log (coordinator decisions on OPEN items — evidence in batch reviews)
 
@@ -152,3 +152,16 @@ Base state at pass start (22/11 ~11:00): audit COMPLETE 216/216, 9,927 wrong; mo
 - PRECEDENCE CORRECTION (22/11 ~11:35, U2c worker found, coordinator CONFIRMED): current-value order is **unification (merged, in merge order) > moan > audit > CSV3** — NOT moan > audit > unification as the original brief stated. Proof: U2c's old_vn for 3719 = U1a's merged fix; using the old order yields 14 false candidates vs the correct 5 (9 rows already fixed by U2a). All future verifications must load ONLY merged unification JSONs (in-progress worker files must NOT be in the map — U4's unmerged file briefly polluted a check with its "(Yunoi)" value for 3719).
 - OVERLAP WARNING (22/11 ~11:35): 日々姫08 3719 is in BOTH U2c (merged: "Đường sắt Ohito"→"Đường sắt Ohitoyo", keeps "(Yui)") and U4 (running: "(Yui)"→"(Yunoi)", keeps "Đường sắt Ohito"). Neither fix contains the other's change — when U4 completes, its 3719 fix MUST be corrected to the combined value 'Đoạn (Yunoi) - Ohitoyo - Hayato là của Đường sắt Ohitoyo.\n…' before merging, or the merge-order overwrite will regress one change. Same check required for every U4 row overlapping a merged batch.
 - U2c side notes: audit-obasan-wrong.json superseded by audit-paulette03-obasan-wrong.json (its 4 Ohito rows already fixed there); 2 audit entries have fix: null (凪ふかみ08a 2426, ポーレット13 1357 — known uncertain rows; treat as no-fix; verification maps must skip fix:null).
+
+# Snippet — Unification U2b: §1 T1 "Ohito" → "Ohitoyo" + T2 "Đường sắt Ohito" → "Đường sắt Ohitoyo" (folders 06–11)
+
+- Đợt U2b: mục §1 T1 (DECIDED 19/11, Hieu) + T2 (DECIDED 21/11 ~17:30, Muse theo uỷ quyền) — dạng cũ "Ohito" (trừ "Ohimitera", thuộc batch U1) trong 6 folder 06/07/08/09/10/11: **72 dòng sửa, 12 file** (Kisaki 38, Nagi-Fukami 19, Grand 15; Niiroku 0, Chikuni 0, Other 0).
+- Phân loại: T2 "Đường sắt Ohito" → "Đường sắt Ohitoyo": 29 dòng; T1 trần "Ohito" → "Ohitoyo": 40 dòng; cả hai dạng trong một dòng (T1+T2): 3 dòng (凪ふかみ08c 2199, グランドリライト02 2575/2319). 76 lần xuất hiện dạng cũ.
+- Cả 72 dòng đều đọc JP (+TW) và xác nhận JP chứa thuật ngữ: 御一夜鉄道 32, 御一夜 trần 40; TW đồng ý 72/72. 0 dòng flag misalignment; lượt soát 2: 72/72 xác nhận lại, 0 loại bỏ, 0 sửa lại.
+- Quyết định trong batch (theo uỷ quyền): "Thành phố Đường sắt Ohito" ở 凪ふかみ08c 2420/2341 xếp T1 (JP là 鉄道の町・御一夜, không phải tên công ty 御一夜鉄道 — chuỗi fix ra giống hệt nhau).
+- Ranh giới: 17 dòng audit-src (old_vn = giá trị audit, 0 dòng moan-src); 42 dòng "Ohimitera" trong 06–11 đã loại (thuộc U1b/U1c, 0 dòng chứa thêm "Ohito" trần); "Yui" ở Grand06 2146, "ông nội" Seki ở Grand06 2159 và "hợp đồng Maitetsu" ở 凪h2 1766 giữ nguyên chờ batch khác; 0 dòng "Ohito" trong gloss %l; không đụng dòng gasp Ư hay dòng "Kh" nào. Cờ F-T1T2-1: 5 dòng hai-dạng ("Ohimitera" + "Ohito") ở 01/02/05 còn sót sau U2a+U2b, chờ batch leftovers.
+- File: `unification/unification-t1-ohito-t2-06-11-REVIEW.md` + `unification-t1-ohito-t2-06-11-wrong.json` (72 mục, kind="terminology", item="T1"/"T2"/"T1+T2").
+
+**Tổng cộng sau đợt này: 21 mục / 662 dòng sai (unification)** (cơ sở 21 mục / 590 dòng + đợt U2b 72 dòng — T1/T2 đã tính nên không cộng thêm mục; REBASE bởi parent — snippet gốc ghi cơ sở 2/226 đã cũ vì U1a/U10/U6/U2c gộp trong lúc agent chạy; T1+T2 HOÀN TẤT project-wide: U2a 136 + U2b 72 + U2c 5 = 213)
+
+- U2b (22/11 ~11:40): decision D1 — "Thành phố Đường sắt Ohito" (凪ふかみ08c 2420/2341) classified T1, not T2 (JP is 鉄道の町・御一夜, town epithet, not the company 御一夜鉄道; fix string identical either way). Flag F-T1T2-1 (5 leftover rows) RESOLVED by U2c (same 5 rows). Worker used the OLD old_vn order (moan>audit>CSV3) — no errors resulted (0 overlap with merged batches, verified by coordinator with the corrected order).
