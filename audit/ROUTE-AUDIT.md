@@ -5136,3 +5136,32 @@ Ghi chú cho Hieu: thống nhất "Ohito"/"Ohimitera"→"Ohitoyo" (1543, 2524, 2
 
 **Tổng cộng sau file này: 217 file / 9.924 dòng sai** (cơ sở 216 file / 9.882 dòng sai + 42 file này)
 - Parent kiểm chứng 22/11 ~07:46: JSON 42 mục, khối TOML 42 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 42/42; second pass 42/42/0/0. Snippet rebase 215/9,873 → cơ sở 216/9,882 (đã gộp 日々姫h2 trước). Spot-check đúng: 973 'Guuu' theo công thức nguyên âm; 1000 あんっ→'An!' (TW 啊嗯); 1060 いただきます→'em xin phép thưởng thức' (TW 我開動了); 1352 イってた→'Đang lên đỉnh'. Đại từ 0 lỗi. CỜ CHO HIEU: おちんちん→'chỗ đó' trùng với おまんこ (943/1157) → chờ Hieu; SFX dài trong ngoặc → vòng moan; っ giữa câu mất (939/984/994) → vòng moan; fa/fu romaji → đợt thống nhất; B19 vẫn park.
+
+# Audit: 凪ふかみ07_分岐選択肢.txt.toml — 1/3 (33,3%)
+
+- File: `07_Nagi_Fukami/凪ふかみ07_分岐選択肢.txt.toml` (route 07_Nagi_Fukami), 3 dòng — tất cả `[selections]`, `[script]` rỗng (không có thoại). File nhánh rẽ cuối cảnh 凪ふかみ07 (tiêu đề `[info]` "回り始める動輪"): Soutetsu ngập ngừng gọi Fukami / cả hai / Nagi.
+- TOML md5 `36f17b848eff7c3c92106ec685609025`, không có bản trùng; UTF-8 BOM + CRLF, 237 byte. CSV3 1 bộ 3 dòng, key khớp tuyệt đối, VN khớp TOML 3/3, 0 dòng VN trống. Lưu ý: cột "JP Original" của CSV3 TRỐNG cho cả 3 dòng selections; cột TW giữ nguyên văn JP (「ふかみ……」/「ふたり、とも……」/「凪……」) nên dùng TW làm chứng cứ nguồn.
+- Phân loại (1): sai nghĩa 1 (key 86: 「ふたり、とも……」 → VN cũ 「Cả hai, người……」 dịch thừa "người" và làm mất とも; sửa → 「Cả hai người……」).
+- Sweep gasp: 0 mục cho file này (kiểm tra trực tiếp sweep-raw-gasp-wrong.json); không có っ trong file. Đại từ: không áp dụng (không có thoại).
+- Không lệch dòng, không chuỗi xoay, không nhiễm chéo, không dòng mồ côi, không dòng chưa dịch, không trùng khóa. 0 tag %l. Key 85 「Fukami……」 và 87 「Nagi……」 đúng.
+- Kiểm chứng: JSON 1 mục dạng chuẩn, khóa chuỗi; khối TOML 1 khóa, parse OK, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 tuyệt đối 1/1 (jp lấy từ cột TW do cột JP Original trống); fix chỉ khác VN cũ ở đúng chỗ cần sửa.
+- Lượt soát 2: 1/1 tái kiểm chứng, 0 bỏ, 0 sửa.
+- Chi tiết đầy đủ: `audit-nagifukami07-bunki-sentakushi-REVIEW.md`; danh sách sửa: `audit-nagifukami07-bunki-sentakushi-wrong.json` (1 mục).
+
+**Tổng cộng sau file này: 218 file / 9.925 dòng sai** (cơ sở 217 file / 9.924 dòng sai + 1 file này)
+- Parent kiểm chứng 22/11 ~09:30: JSON 1 mục, khối TOML 1 khóa ([selections] 86), 0 sai lệch; tw/old_vn khớp CSV3 tuyệt đối 1/1 (cột JP Original của CSV3 trống cho cả 3 dòng selections — jp lấy từ cột TW, TW giữ nguyên văn JP); second pass 1/1/0/0. Fix duy nhất 86 'Cả hai, người……'→'Cả hai người……' (bỏ dấu phẩy làm 'người' lơ lửng; ふたりとも = 'Cả hai người'). CỜ CHO HIEU: không có; B19 vẫn park.
+
+# Audit: 日々姫15_終着駅.txt.toml — 2/54 (3,7%)
+
+- File: 日々姫15_終着駅.txt.toml (02_Hibiki) — cảnh cuối route Hibiki, Soutetsu gặp Michiko ở ga cuối.
+- Đọc 54/54 dòng script (JP + TW + VN); key TOML = key CSV3; không key trùng, không dòng chưa dịch.
+- **Sai 2 dòng (3,7%) — cả hai đều sai chủ ngữ:**
+  - **484** (路子): 「なれたんだよ？ 大人に。そーちゃんが、大人になってくれたから」 — VN cũ "Em đã lớn rồi đấy?" gán việc lớn lên cho Michiko; câu này trả lời 483 của Soutetsu ("Anh đã trưởng thành rồi sao?") nên chủ ngữ là Soutetsu → "Anh đã lớn rồi đấy? Trở thành người lớn rồi.\nBởi vì Sou-chan, đã lớn lên mà。" (TW 「我長大了」 sai theo hướng này; JP thắng TW).
+  - **611** (monologue): 「あの事故の傷を抱えたままで、ずっと、心は子供のままで――」 — VN cũ "trái tim tôi" gán cho Soutetsu; bằng chứng 609 (Michiko cười như hồi nhỏ) + 570 (em ấy chết trước khi kịp lớn) + mạch 483–484 (Soutetsu ĐÃ trưởng thành) → "trái tim em ấy".
+- Đại từ 0 lỗi (Soutetsu "anh" với Michiko đúng quy tắc đã chốt; monologue "tôi" đúng). Tag `%l` 7 dòng đều đóng đúng, gloss đúng quy tắc (列車→"Đoàn tàu"). Sweep gasp: 0 mục cho file này. Không lệch dòng / xoay vòng / nhiễm chéo / dòng mồ côi.
+- Second pass: 2/2 re-verified, 0 removed, 0 corrected (pass 2 bắt được lỗi suýt mất cặp 「 」 ở key 484, đã sửa trước khi chốt).
+- Chi tiết đầy đủ: `audit-hibiki15-shuuchakueki-REVIEW.md`; danh sách sửa: `audit-hibiki15-shuuchakueki-wrong.json` (2 mục).
+- Cờ cho Hieu: không có. (Key 611 là phán đoán audit có bằng chứng đầy đủ trong review; nếu Hieu đọc khác chỉ cần đảo "em ấy" → "tôi".)
+
+**Tổng cộng sau file này: 219 file / 9.927 dòng sai** (cơ sở 218 file / 9.925 dòng sai + 2 file này)
+- Parent kiểm chứng 22/11 ~09:30: JSON 2 mục, khối TOML 2 khóa, 0 sai lệch; jp/tw/old_vn khớp CSV3 tuyệt đối 2/2; second pass 2/2/0/0. Spot-check đúng: 484 chủ ngữ Soutetsu (483 '僕は、大人になれたのか' hỏi về chính Soutetsu; TW sai cùng hướng, JP thắng TW); 611 'trái tim em ấy' (570 Michiko chết trước khi kịp lớn + 609 nụ cười trẻ con; mạch 483–484 Soutetsu ĐÃ trưởng thành). CỜ CHO HIEU: không có (611 là phán đoán có bằng chứng đầy đủ; nếu Hieu đọc khác chỉ cần đảo 'em ấy'→'tôi'); B19 vẫn park.
