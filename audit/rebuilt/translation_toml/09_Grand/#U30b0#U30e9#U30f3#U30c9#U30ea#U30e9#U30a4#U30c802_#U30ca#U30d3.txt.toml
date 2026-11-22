@@ -1,0 +1,901 @@
+﻿# グランドリライト02_ナビ.txt
+
+[info]
+
+[characters]
+# JP: ナビ
+2029 = "Navi"
+# JP: ハチロク
+2058 = "Hachiroku"
+# JP: 双鉄
+2165 = "Soutetsu"
+# JP: 日々姫
+2384 = "Hibiki"
+# JP: 真闇
+2444 = "Mayami"
+# JP: 路子
+2521 = "Michiko"
+
+[character_subs]
+# JP: 八六
+2142 = "Hachiroku"
+# JP: 日日姬
+2391 = "Hibiki"
+# JP: 雙鐵
+2590 = "Soutetsu"
+# JP: Ｎａｖｉ
+2627 = "Navi"
+
+[script]
+# JP: ――雑草だ。\nまずは、これを……お墓を、綺麗に掃除しよう。
+1013 = "――Cỏ dại.\\nTrước tiên phải dọn dẹp... làm sạch mộ đã."
+# JP: ――あの事故のあと、二年かかった。\n路子の夢を、見ることができるようになるまで。
+1015 = "――Sau tai nạn đó, phải mất hai năm.\\nTôi mới có thể nhìn thấy Michiko trong giấc mơ."
+# JP: ――ナビが再び、まっすぐに飛ぶ。\n御一夜目指して、まっすぐに。
+1017 = "――Navi lại tiếp tục bay thẳng.\\nHướng thẳng về phía Ohitoyo."
+# JP: “家族で相棒”。\n遠慮をしていたハチロクに、かけた言葉を思い出す。
+1033 = "\"Là gia đình, là đối tác\".\\nTôi nhớ lại lời mình đã nói với Hachiroku khi cô ấy còn e dè."
+# JP: ……ひどく、疲れた。\n口を開くのもおっくうなほど。
+1053 = "……Mệt mỏi vô cùng.\\nĐến mức lười cả mở miệng."
+# JP: ……今の僕が考えたところで、堂々めぐりだ。\nひとつの答えを、はっきり望んでいるのだから。
+1060 = "……Dù tôi bây giờ có suy nghĩ thì cũng chỉ là luẩn quẩn.\\nBởi vì tôi đang mong muốn một câu trả lời rõ ràng."
+# JP: ……随分と田舎だったのだなと、ぼんやり思う。\n帝都から、ほんの一時間ほどの場所だというのに。
+1061 = "……Tôi thầm nghĩ, nơi này quả thực rất hẻo lánh.\\nMặc dù chỉ cách Đế đô khoảng một giờ đồng hồ."
+# JP: ……思い立ったが吉日、と、\n昔の人は、まこと、良い言葉を残してくれた。
+1064 = "……Nghĩ là làm ngay,\\nNgười xưa quả thật đã để lại một câu nói rất hay."
+# JP: ……それきりナビは黙ってしまう。\n沈黙が続けばやはり、悩んでしまう。
+1066 = "……Kể từ đó, Navi im lặng.\\nSự im lặng kéo dài quả nhiên khiến tôi phải suy nghĩ."
+# JP: ……もちろん、返事は帰ってこない。\n当然だ。
+1069 = "……Tất nhiên, không có tiếng trả lời.\\nĐó là lẽ đương nhiên."
+# JP: ……父さんと母さんに、\n義父さん、義母さんのことはなかなか、報告しづらい。
+1073 = "……Rất khó để báo cáo với bố mẹ,\\nvề bố nuôi và mẹ nuôi."
+# JP: ……それもまた、確かな事実だ。\n例えば今日の墓参ひとつをとってみても。
+1075 = "……Đó cũng là một sự thật chắc chắn.\\nChẳng hạn như việc đi viếng mộ hôm nay."
+# JP: ……届いてないかもしれないと、\nそう思っても、放ったままでは帰れない。
+1078 = "……Dù nghĩ rằng có thể chưa truyền đến được,\\nnhưng tôi cũng không thể bỏ mặc mà về."
+# JP: ……とはいえ同時に、仕方なかったとも思う。\nただ生きること――死なないことで、精一杯であったから。
+1079 = "……Nhưng đồng thời, tôi cũng nghĩ đó là chuyện bất khả kháng.\\nBởi vì tôi đã phải dốc toàn lực chỉ để sống――để không phải chết."
+# JP: ……ずっと頭上で、ナビは見ていた。\n僕をモニターしつづけていた。
+1081 = "……Navi vẫn luôn quan sát từ trên đỉnh đầu.\\nNó vẫn luôn theo dõi tôi."
+# JP: ……ナビが着水してもなお、\n僕の思考は、どこにも落ち着くことができない。
+1082 = "……Ngay cả khi Navi đã đáp xuống nước,\\nsuy nghĩ của tôi vẫn không thể tĩnh lại được."
+# JP: 「――わがままではなく。甘えることをせず。守られない。\nそういう風に、双鉄様は変わられたのですか？」
+1086 = "「――Không ích kỷ. Không làm nũng. Không được bảo vệ.\\nNgài Soutetsu đã thay đổi theo hướng như vậy sao?」"
+# JP: 「――だけどね、父さん、母さん。\nどうやら、それは、杞憂だったみたいだ」
+1088 = "「――Nhưng mà này, bố, mẹ.\\nCó vẻ như, đó chỉ là nỗi lo hão huyền thôi.」"
+# JP: 「――ああ」
+1090 = "「――A.」"
+# JP: 「――うん」
+1091 = "「――Ừ.」"
+# JP: 「――ひさしぶりです。父さん、母さん」
+1092 = "「――Đã lâu không gặp. Bố, mẹ.」"
+# JP: 「――あんな思いは、二度とさせない」
+1095 = "「――Anh sẽ không bao giờ để em phải trải qua cảm giác đó nữa.」"
+# JP: 「――きっと、迷っているんだと思う。\n僕が再会できたとき、路子は……喜んで、大泣きをした」
+1097 = "「――Chắc hẳn con bé đang rất lạc lõng.\\nKhi con gặp lại con bé, Michiko……đã khóc nức nở vì vui mừng.」"
+# JP: 「――ああ」
+1098 = "「――Ừ.」"
+# JP: 「――今の僕は、弱ってみえるか？」
+1100 = "「――Tôi bây giờ, trông có yếu đuối không?」"
+# JP: 「――そーだったんだぁ」
+1102 = "「――Thì ra là vậy.」"
+# JP: 「――それじゃあ、また。\n今度はもっと、しっかり話そう」
+1104 = "「――Vậy thì, hẹn gặp lại.\\nLần tới chúng ta hãy nói chuyện nhiều hơn nhé.」"
+# JP: 「――双鉄様に、\nナビが質問をしてもよろしいでしょうか？」
+1105 = "「――Navi có thể hỏi ngài Soutetsu\\nmột câu được không ạ?」"
+# JP: 「……考えてみれば、常にだな。\n常に、僕は、ナビに守られ続けてきている」
+1145 = "「……Nghĩ lại thì, lúc nào cũng vậy nhỉ.\\nLúc nào, tôi cũng được Navi bảo vệ.」"
+# JP: 「……多分、な。それがどこまで果たせているかを、\n僕自身では計れんが」
+1158 = "「……Có lẽ vậy. Mặc dù chính bản thân tôi cũng không thể đo lường được\\nmình đã làm được đến mức nào.」"
+# JP: 「……ハチロク、だ。お人形ではなくて。\n名を持つ、ひとりの――あれは、意思を持つものだ」
+1159 = "「……Là Hachiroku. Không phải búp bê.\\nCô ấy có tên, là một cá thể――có ý chí riêng.」"
+# JP: 「…………こんなものかな」
+1161 = "「…………Chắc thế này là được rồi nhỉ.」"
+# JP: 「……イヤなものか」
+1163 = "「……Phiền gì chứ.」"
+# JP: 「……僕は、今は。\n鉄道に関係する仕事をしているんだ」
+1165 = "「……Bây giờ, con.\\nĐang làm công việc liên quan đến đường sắt.」"
+# JP: 「……なぁ、ナビ」
+1166 = "「……Này, Navi.」"
+# JP: 「……昔の自分に会うことが、\n怖かったからなのかもしれない」
+1168 = "「……Có lẽ là vì,\\ncon sợ phải đối mặt với bản thân mình trong quá khứ.」"
+# JP: 「……墓参をして、僕は、ひどく混乱したのだ。\n昔の僕に、ひとときであったが、戻ってしまった」
+1171 = "「……Sau khi viếng mộ, tôi đã vô cùng bối rối.\\nDù chỉ một khoảnh khắc, tôi đã trở lại là bản thân trong quá khứ.」"
+# JP: 「……そうだな。僕自身としては、大きく変化を\nしてしまったかと――恐らく、感じているからだ」
+1175 = "「……Đúng vậy. Bản thân tôi――có lẽ cảm thấy rằng\\nmình đã thay đổi rất nhiều.」"
+# JP: 「……いろいろな意味で、いっぱいいっぱいになりそうだ。\nゆえ――」
+1177 = "「……Theo nhiều nghĩa, chắc tôi sẽ phải lo liệu rất nhiều thứ.\\nVì vậy――」"
+# JP: 「……しかし、ナビにはそう見えるのか。\n事故直後の僕と、今の僕では――――ああ、いや」
+1182 = "「……Nhưng, trong mắt Navi lại thấy vậy sao.\\nTôi ngay sau vụ tai nạn, và tôi của bây giờ――――A, không.」"
+# JP: 「……あれに対しては、ナビに対するときと同じく、\n何を身構えなくてすむ。そういう意味で、気楽な相手だ」
+1185 = "「……Đối với cô ấy, cũng giống như với Navi,\\ntôi không cần phải đề phòng gì cả. Theo nghĩa đó, cô ấy là một người khiến tôi thoải mái.」"
+# JP: 「……路子は、まだ列車に乗ってるんだ。\n事故が起きる前の列車に――あのまま、ずうっと」
+1189 = "「……Michiko vẫn đang ở trên tàu.\\nTrên chuyến tàu trước khi xảy ra tai nạn――Cứ như vậy, mãi mãi.」"
+# JP: 「……僕には、大きすぎる目標だ。\n僕の力では、及ぶはずもない目標なんだ」
+1191 = "「……Đó là một mục tiêu quá lớn đối với con.\\nMột mục tiêu mà sức con không thể nào với tới được.」"
+# JP: 「……それなら路子も。\nこの列車に、ずっと乗ってちゃだめなんだ」
+1193 = "「……Nếu vậy thì Michiko cũng thế.\\nEm không thể cứ đi mãi trên chuyến tàu này được.」"
+# JP: 「……仲良しというようなベタついた感じでも無いが――\n確かに――うむ。言われてみれば、仲良くはある」
+1194 = "「……Cũng không hẳn là dính lấy nhau như kiểu thân thiết lắm, nhưng――\\nĐúng là――ừm. Nói mới để ý, cũng coi là thân thiết.」"
+# JP: 「……[あのこ,3]8620を放っておけないことも確かなのですが――\n本当に、お供さしあげなくて大丈夫でしょうか？」
+1195 = "「……Mặc dù không thể bỏ mặc 8620 cũng là sự thật, nhưng――\\nThực sự không cần em đi cùng ngài sao ạ?」"
+# JP: 「きっとそうだよ！\nだっていまも！　そーちゃん、なんだか楽しそう！」
+1405 = "「Chắc chắn là vậy rồi!\\nBởi vì ngay cả bây giờ! Trông Sou-chan cũng rất vui vẻ!」"
+# JP: 「いってらっしゃい、にぃに！　気をつけて！」
+1406 = "「Đi đường cẩn thận nha, anh hai! Nhớ chú ý an toàn!」"
+# JP: 「いや――それでも、もっと早くに来れた。\nもっと早くに、報告に、お願いに来なきゃいけなかった」
+1408 = "「Không――Dù vậy, con đáng lẽ phải đến sớm hơn.\\nĐáng lẽ con phải đến báo cáo, đến thỉnh cầu sớm hơn.」"
+# JP: 「いや――うむ」
+1410 = "「Không――ừm.」"
+# JP: 「わがままで甘えん坊で守られることが当然の状態から\n変化をされたのであれば――」
+1414 = "「Nếu ngài đã thay đổi từ trạng thái ích kỷ, hay làm nũng và coi việc được bảo vệ là điều hiển nhiên――」"
+# JP: 「示し続けて、示し続けて、示し続けて――\n僕は、今の僕になれた。だから僕は、僕を恥じない」
+1416 = "「Không ngừng chứng minh, không ngừng chứng minh, không ngừng chứng minh――\\nTôi mới có thể trở thành tôi của hiện tại. Vì vậy, tôi không hổ thẹn với chính mình.」"
+# JP: 「ではなく――\nああ、つまり。人間としての、社会的な生という意味だ」
+1418 = "「Không phải vậy――\\nA, ý tôi là. Sự sống mang tính xã hội, với tư cách là một con người.」"
+# JP: 「そんなことはない！」
+1419 = "「Không có chuyện đó đâu!」"
+# JP: 「いいえ双鉄様。そうした方々ももちろん含みますが、\nそれだけではない方々ともです」
+1421 = "「Không ạ, thưa ngài Soutetsu. Tất nhiên là bao gồm cả những người đó,\\nnhưng không chỉ dừng lại ở đó đâu ạ.」"
+# JP: 「いえ、違います双鉄様」
+1422 = "「Không, không phải vậy đâu ạ, ngài Soutetsu.」"
+# JP: 「向き合う……真闇姉や日々姫――\nあの頃の僕を、知っているような人たちとか？」
+1427 = "「Đối diện... Chị Mayami hay Hibiki――\\nNhững người biết tôi vào khoảng thời gian đó sao?」"
+# JP: 「なんだ？　ナビ」
+1432 = "「Gì vậy? Navi.」"
+# JP: 「推奨するとは、いったい何をだ」
+1433 = "「Khuyến nghị, rốt cuộc là chuyện gì?」"
+# JP: 「あれほど憎み、恨みに思っていた鉄道を――\n不思議なことに、今、僕は仕事にしているんだ」
+1440 = "「Ngành đường sắt mà con từng vô cùng căm ghét, hận thù――\\nThật kỳ lạ, bây giờ con lại đang làm việc cho nó.」"
+# JP: 「だけどね――父さん、母さん。\n僕の両親は、やっぱり、父さんと母さんなんだ」
+1443 = "「Nhưng mà――Bố, mẹ.\\nBố mẹ của con, vẫn luôn là hai người.」"
+# JP: 「が、汰斗さんに教えられ。真闇姉に守られ、\n日々姫の目に見開かされて――僕は、変わった」
+1445 = "「Nhưng, được ngài Taito chỉ bảo. Được chị Mayami bảo vệ,\\nĐược đôi mắt của Hibiki làm cho thức tỉnh――Tôi đã thay đổi.」"
+# JP: 「けれど、あの事故に遭い、僕は変わった。\n生きていくために、変わらなければならなかったから」
+1447 = "「Nhưng sau khi gặp phải tai nạn đó, tôi đã thay đổi.\\nVì để sống sót, tôi buộc phải thay đổi.」"
+# JP: 「おみやげとかはいらんけん、\n早く、元気に帰ってきてね！！」
+1451 = "「Không cần quà cáp gì đâu,\\nanh mau chóng khỏe mạnh trở về nhé!!」"
+# JP: 「見ていただろう。僕は、ひどく混乱した。\nいつもの僕なら吐かない弱音を、無様に漏らした」
+1454 = "「Cô cũng thấy rồi mà. Tôi đã vô cùng bối rối.\\nThậm chí còn thảm hại buông những lời yếu đuối mà bình thường tôi chẳng bao giờ nói ra.」"
+# JP: 「どうやって？　そーちゃん、だって――この列車に、\nそーちゃんがずっとのってちゃ、ダメなんだよ？」
+1456 = "「Bằng cách nào? Sou-chan, vì――trên chuyến tàu này,\\nSou-chan không thể đi mãi được đâu?」"
+# JP: 「同じといったか？　今の僕と――\nあの頃の、ただの子供であった僕とが」
+1457 = "「Cô nói là giống nhau sao? Tôi của hiện tại và――\\nTôi của ngày đó, khi chỉ là một đứa trẻ.」"
+# JP: 「姿勢修正とやらも、なかなかに爽快だな。\nたまには、こうした滑空も悪くない」
+1460 = "「Cái gọi là điều chỉnh tư thế này, cũng khá là sảng khoái đấy.\\nThỉnh thoảng lượn lờ thế này cũng không tệ.」"
+# JP: 「その行為は、双鉄様がお抱えになった重大な矛盾を\n解消するために役立つものと、ナビは推測します」
+1462 = "「Navi suy đoán rằng hành động đó sẽ hữu ích trong việc giải quyết\\nmâu thuẫn nghiêm trọng mà ngài Soutetsu đang mang trong mình ạ.」"
+# JP: 「ハチロク――ちゃん。\nそーちゃん、あのこと、なかよしだよね？」
+1480 = "「Chị Hachiroku.\\nSou-chan, anh và chị ấy, thân thiết lắm đúng không?」"
+# JP: 「ハチロク？　ハチロク」
+1481 = "「Hachiroku? Hachiroku.」"
+# JP: 「具体的な方法は、双鉄様にお任せします。\nとにかく、成長を促した要素と深く向き合って下さい」
+1485 = "「Phương pháp cụ thể, Navi xin nhường lại cho ngài Soutetsu quyết định.\\nNói chung, xin hãy đối diện sâu sắc với những yếu tố đã thúc đẩy sự trưởng thành của ngài.」"
+# JP: 「そしたら、みち……そーちゃんにおいてかれちゃう。\nひとりぼっちに、またなっちゃうねぇ」
+1492 = "「Khi đó, Michi……sẽ bị Sou-chan bỏ lại mất.\\nLại trở nên cô đơn một mình rồi.」"
+# JP: 「そのときには会って欲しい。紹介させて欲しい。\n僕の家族に――僕の家族を」
+1493 = "「Khi đó tôi muốn hai người đến gặp họ. Hãy để tôi giới thiệu.\\nVới gia đình tôi――gia đình của tôi.」"
+# JP: 「さっきも言ったが――幼いころの僕は、\nわがままで、甘えっ子で、弱かった」
+1494 = "「Như tôi đã nói lúc nãy――Tôi khi còn nhỏ,\\ních kỷ, hay làm nũng, và yếu đuối.」"
+# JP: 「誤った[ルート,1]航路を取ってしまうところでした。\n双鉄様の生命と安全を維持するために、修正します」
+1495 = "「Suýt chút nữa tôi đã đi sai đường bay.\\nĐể duy trì tính mạng và sự an toàn cho ngài Soutetsu, tôi xin phép điều chỉnh lại ạ.」"
+# JP: 「平気ではいられなかったのでしょうか？」
+1497 = "「Ngài đã không thể bình tĩnh được sao ạ?」"
+# JP: 「構わん。なんだ？」
+1514 = "「Được thôi. Chuyện gì?」"
+# JP: 「ですが、双鉄様の――OS的な部分には、\n大きな変化は発生していないと、ナビは観測します」
+1516 = "「Tuy nhiên, Navi quan trắc thấy――phần mang tính Hệ điều hành (OS)\\ncủa ngài Soutetsu không hề phát sinh thay đổi lớn nào.」"
+# JP: 「昔の自分を思い出したら、二度と頑張れなくなると――\nこころの底が、それを恐れてたのかもしれない」
+1518 = "「Nếu nhớ lại bản thân trong quá khứ, con sẽ không thể cố gắng được nữa――\\nCó lẽ tận đáy lòng con đã sợ hãi điều đó.」"
+# JP: 「ひゃっ！？」
+1527 = "「Hya!?」"
+# JP: 「ふぅ」
+1529 = "「Phù.」"
+# JP: 「え！？　うん！\nそいば、すごく！　すごく良かことって思う！！」
+1531 = "「Hả!? Vâng!\\nChuyện đó, tuyệt lắm! Em nghĩ đó là một điều rất tuyệt vời!!」"
+# JP: 「ふむ」
+1533 = "「Hừm.」"
+# JP: 「！」
+1534 = "「!」"
+# JP: 「うむっ！？」
+1535 = "「Hả!?」"
+# JP: 「うむ、そうか？　珍しいことだな」
+1537 = "「Ừm, vậy sao? Hiếm thấy thật đấy.」"
+# JP: 「うむ！？」
+1538 = "「Hả!?」"
+# JP: 「ああ――」
+1539 = "「A——」"
+# JP: 「ああ……それはそうだ。そうだよな」
+1541 = "「A……Đúng là vậy. Phải rồi nhỉ.」"
+# JP: 「あ」
+1542 = "「A.」"
+# JP: 「あ！　おかえり、にぃにー！」
+1544 = "「A! Mừng anh hai về nhà!」"
+# JP: 「ああ、いや……路子はここにはいないんだよな」
+1546 = "「A, không……Michiko không có ở đây nhỉ.」"
+# JP: 「ああ、そうではなく。バイタルではなく――」
+1548 = "「A, không phải vậy. Không phải chỉ số sinh tồn――」"
+# JP: 「あぁ……」
+1549 = "「À……」"
+# JP: 「おお――」
+1550 = "「Ồ――」"
+# JP: 「おお。ただいま、日々姫。\n日々姫もちょうどいま帰りか」
+1551 = "「Ồ. Anh về rồi đây, Hibiki.\\nEm cũng vừa mới về à?」"
+# JP: 「うおっ！？」
+1553 = "「Uo!?」"
+# JP: 「うん――」
+1554 = "「Vâng――」"
+# JP: 「ああ――絶対に、待っていてくれる」
+1556 = "「Ừ――Chắc chắn, họ đang đợi em.」"
+# JP: 「ああ――そうだ。挫けぬように、思考さえ、\n僕は、ガチガチに縛っているんだ」
+1558 = "「A――Đúng vậy. Để không bị khuất phục, ngay cả suy nghĩ,\\ncon cũng đang trói buộc nó thật chặt.」"
+# JP: 「ああ、うむ――そうだろうな」
+1560 = "「À, ừm――Chắc là vậy rồi.」"
+# JP: 「うむ。ありがとう」
+1561 = "「Ừm. Cảm ơn cô.」"
+# JP: 「うん」
+1563 = "「Ừ.」"
+# JP: 「うんっ！」
+1564 = "「Vâng!」"
+# JP: 「うん！　盛り上がって長引いた打ち合わせやけん！\nしかも、そのおかげでばったりにぃにと会えちゃったし」
+1566 = "「Vâng! Vì buổi họp sôi nổi quá nên mới kéo dài mà!\\nHơn nữa, nhờ vậy em mới tình cờ gặp được anh hai nữa.」"
+# JP: 「うん！　打ち合わせがかなり長引いたけん、\nそんおかげで、ちょうどにぃにとここで会えたと！」
+1567 = "「Vâng! Buổi họp kéo dài khá lâu,\\nnhờ vậy mà em mới tình cờ gặp được anh hai ở đây nè!」"
+# JP: 「ああ、頼む」
+1570 = "「Ừ, nhờ cô nhé.」"
+# JP: 「うん？」
+1571 = "「Ừ?」"
+# JP: 「帰れる場所が、今はあるから。\n新しい僕の家も、やっぱり、僕の家なんだ」
+1574 = "「Bởi vì bây giờ, con đã có nơi để trở về.\\nNgôi nhà mới của con, quả nhiên vẫn là nhà của con.」"
+# JP: 「なにせ、父さんと母さんに会うのも久しぶりだ」
+1575 = "「Dù sao thì, cũng đã lâu lắm rồi tôi mới gặp lại bố mẹ.」"
+# JP: 「鉄道を、復活させること。みんなはそれを望んでる。\n僕は、だから、それに応えようとしている」
+1577 = "「Phục sinh đường sắt. Mọi người đều mong muốn điều đó.\\nVì vậy, con đang cố gắng đáp lại kỳ vọng ấy.」"
+# JP: 「失礼しました。姿勢修正の必要が生じました」
+1580 = "「Thất lễ rồi ạ. Có sự cố cần phải điều chỉnh lại tư thế.」"
+# JP: 「久しぶりに会えて――話ができて、嬉しかった。\n話したいこと。もっとたくさんあったのだけれど」
+1581 = "「Đã lâu không gặp――Được trò chuyện với hai người, con rất vui.\\nChuyện muốn nói. Vẫn còn rất nhiều nhưng mà.」"
+# JP: 「じっくりと、向き合う――\nどぎゃんして、ナビはそんなこと？」
+1584 = "「Dành thời gian, đối diện sâu sắc――\\nSao Navi lại nói vậy chứ?」"
+# JP: 「はい。双鉄様は、とてもお強く成長されたと、\nナビも、そのように観測します」
+1585 = "「Vâng. Navi cũng quan trắc được rằng,\\nngài Soutetsu đã trưởng thành và trở nên vô cùng mạnh mẽ.」"
+# JP: 「そうか」
+1587 = "「Vậy sao.」"
+# JP: 「はぁい、いってらっしゃい」
+1588 = "「Ừm, đi đường cẩn thận nha.」"
+# JP: 「はい。必ず。\nそのときには、わたくしにもご挨拶をさせてください」
+1589 = "「Vâng. Nhất định ạ.\\nKhi đó, xin hãy cho phép tôi được gửi lời chào.」"
+# JP: 「よか！　よかよ！　もちろん、大歓迎っ！！」
+1591 = "「Được! Được chứ! Tất nhiên là vô cùng hoan nghênh rồi!!」"
+# JP: 「そうしなければ、望まれることを果たせなかった。\n望まれることを果たせなければ、生きられなかった」
+1594 = "「Nếu không làm vậy, tôi đã không thể hoàn thành những gì được kỳ vọng.\\nNếu không hoàn thành những gì được kỳ vọng, tôi đã không thể sống sót.」"
+# JP: 「そうしていただけるのでしたら、ナビも、\nナビの職務を全うできる可能性を向上させられます」
+1596 = "「Nếu ngài làm như vậy, Navi cũng có thể\\nnâng cao khả năng hoàn thành trọn vẹn chức vụ của mình ạ.」"
+# JP: 「僕の声が――届いていればいいのだけれど。\n路子は、だって、ずっと一人でさまよってるから」
+1598 = "「Giọng nói của con――Nếu có thể truyền đến hai người thì tốt biết mấy.\\nBởi vì Michiko vẫn luôn lang thang một mình.」"
+# JP: 「僕が成長できたというなら、\nナビこそが、その源を支えてくれた」
+1600 = "「Nếu nói tôi đã trưởng thành,\\nthì chính Navi là người đã nâng đỡ cội nguồn đó.」"
+# JP: 「ごめん。\n会いに来るのが、こんなに遅くなってしまって」
+1604 = "「Con xin lỗi.\\nĐã đến thăm hai người muộn thế này.」"
+# JP: 「幼いころの僕は――当然ながら、単なる子供だったのだ。\nわがままで、甘えん坊で、守られることが当然だった」
+1608 = "「Tôi khi còn nhỏ――đương nhiên, chỉ là một đứa trẻ đơn thuần.\\nÍch kỷ, hay làm nũng, và việc được bảo vệ là điều hiển nhiên.」"
+# JP: 「みち、ね？　見たの。\nれっ車の中から、みちにも見えたの」
+1610 = "「Michi, anh biết không? Đã thấy đó.\\nTừ trong tàu, Michi cũng nhìn thấy.」"
+# JP: 「そーちゃんは、さ。\nあのれっ車」
+1611 = "「Sou-chan, này.\\nChuyến tàu đó ấy.」"
+# JP: 「そーちゃん？」
+1612 = "「Sou-chan?」"
+# JP: 「右田の役に立つことだ。誰かの役に立つことだ。\n望まれたことを、必ず叶えて、示すことだ」
+1615 = "「Là trở nên có ích cho nhà Migita. Là trở nên có ích cho một ai đó.\\nLà nhất định phải hoàn thành những gì được kỳ vọng và chứng minh điều đó.」"
+# JP: 「人とつながって、人に必要とされて生きるという意味だ。\nただ庇護を受けることが、僕には耐えられなかったゆえ」
+1616 = "「Có nghĩa là kết nối với mọi người, sống và được mọi người cần đến.\\nBởi vì tôi không thể chịu đựng được việc chỉ biết nhận sự che chở.」"
+# JP: 「と、いうと……ハチロクなどともか」
+1617 = "「Nói vậy là……cả Hachiroku nữa sao.」"
+# JP: 「重大な矛盾……」
+1620 = "「Mâu thuẫn nghiêm trọng……」"
+# JP: 「路子に――路子だけじゃなく、父さんと母さんにも、\nあの日の旅を……今度こそ、楽しんでほしいんだ」
+1622 = "「Con muốn Michiko――Không chỉ Michiko, mà cả bố và mẹ nữa,\\nchuyến đi ngày hôm đó... lần này, mong mọi người hãy tận hưởng nó.」"
+# JP: 「それからときどき夢で会うんだ。あの頃のままの路子に。\n路子は、僕を――断片的に、見てくれている」
+1631 = "「Kể từ đó, thỉnh thoảng con lại gặp con bé trong mơ. Vẫn là Michiko của ngày xưa.\\nMichiko――đã dõi theo con từng chút một.」"
+# JP: 「どうした、路子。なにかあったか？」
+1638 = "「Sao vậy, Michiko. Có chuyện gì à?」"
+# JP: 「なんだ、随分と嬉しそうだな」
+1639 = "「Sao thế, trông em có vẻ vui quá nhỉ.」"
+# JP: 「ばってん、なんで急にそぎゃんこと？」
+1640 = "「Nhưng mà, sao tự dưng anh lại nói vậy?」"
+# JP: 「一面なものか。文字通りの立体視ではないか」
+1641 = "「Một phía gì chứ. Rõ ràng là cái nhìn lập thể đúng nghĩa đen mà.」"
+# JP: 「過去の双鉄様と、今の双鉄様を『違うものだと』、\n双鉄様は評価されることを望んでいます」
+1642 = "「Ngài Soutetsu mong muốn được đánh giá rằng,\\nngài Soutetsu của quá khứ và ngài Soutetsu của hiện tại là 'hai người khác nhau'.」"
+# JP: 「昔の僕に、ひととき、戻ってしまった気がして――\nだから、そうだな……今も、少しだけ不安なのだ」
+1644 = "「Tôi có cảm giác như mình đã quay lại làm bản thân trong quá khứ một chốc――\\nThế nên, ừm……bây giờ tôi cũng hơi bất an một chút.」"
+# JP: 「僕は――僕は――頑張ってるんだ。\n頑張っていて、けれども全然、足りてないんだ」
+1647 = "「Con――Con――đang rất cố gắng.\\nCon đang cố gắng, nhưng vẫn hoàn toàn chưa đủ.」"
+# JP: 「僕は――今は――」
+1649 = "「Con――Bây giờ――」"
+# JP: 「僕が必ず送り届ける。\n路子のことを、父さんと母さんが待ってる場所に」
+1651 = "「Anh nhất định sẽ đưa em đến.\\nĐến nơi mà bố và mẹ đang đợi Michiko.」"
+# JP: 「父さんの実家の――[しこく,1]四國のお墓にも、ずっといけてない。\n本当にごめん。なにもかも、[おろそ]疎かにしてしまって」
+1652 = "「Ngôi mộ ở quê nội――ở Shikoku, con cũng chưa từng đến viếng.\\nThật sự xin lỗi. Mọi thứ, con đều đã bỏ bê.」"
+# JP: 「生命反応としての生ではなくて――」
+1654 = "「Không phải sự sống dưới góc độ phản ứng sinh tồn――」"
+# JP: 「わからん」
+1656 = "「Anh không biết.」"
+# JP: 「無理だと言えない。出来ないとは言えない。\n――いや。そう思うことさえ、普段の僕には、叶わない」
+1657 = "「Con không thể nói là vô lý. Không thể nói là không làm được.\\n――Không. Ngay cả việc nghĩ như vậy, đối với con thường ngày, cũng là điều bất khả thi.」"
+# JP: 「約束する。\n路子を決して、置き去りにしたりはしない」
+1661 = "「Anh hứa.\\nSẽ tuyệt đối không bao giờ bỏ rơi Michiko.」"
+# JP: 「はい。なんでしょう、双鉄様」
+1663 = "「Vâng. Có chuyện gì vậy ạ, ngài Soutetsu.」"
+# JP: 「僕が、ここに来るのが怖かったのは――」
+1664 = "「Lý do con sợ phải đến đây là――」"
+# JP: 「僕は、今の家を好きなんだ。\n今の家族を、今の仲間を、とても大事に思っているんだ」
+1667 = "「Con rất thích ngôi nhà hiện tại.\\nCon vô cùng trân trọng gia đình hiện tại, những người đồng đội hiện tại.」"
+# JP: 「向き合いたいのだ。まずは日々姫と。\nそうして、他のみんなとも――大切な何かを、学ぶため」
+1669 = "「Anh muốn đối diện. Trước tiên là với Hibiki.\\nSau đó là với những người khác nữa――để học hỏi một điều gì đó quan trọng.」"
+# JP: 「そう育てたと、思ったのだ。だから、墓参も平気だと\n――いつもの僕で挨拶できると、思ったのだが」
+1670 = "「Tôi cứ tưởng mình đã trưởng thành như vậy. Thế nên tôi nghĩ đi viếng mộ cũng chẳng sao\\n――nghĩ rằng mình có thể đến chào hỏi với tư cách là tôi thường ngày.」"
+# JP: 「わかる。そーちゃん、あのおにんぎょう――\nハチロクちゃんと、楽しそうにおはなししてるから」
+1673 = "「Michi hiểu mà. Vì Sou-chan, nói chuyện với con búp bê đó――\\nchị Hachiroku, trông rất vui vẻ.」"
+# JP: 「わかった」
+1674 = "「Tôi hiểu rồi.」"
+# JP: 「また来る、必ず――\nああ」
+1675 = "「Con sẽ lại đến, nhất định――\\nA.」"
+# JP: 「気が利かなくて、ごめん」
+1676 = "「Xin lỗi vì con đã không chu đáo.」"
+# JP: 「承知している」
+1678 = "「Tôi biết.」"
+# JP: 「承知した上で、感謝している。\nナビ――いつも僕を守ってくれて、ありがとう」
+1679 = "「Biết vậy, nhưng tôi vẫn rất biết ơn.\\nNavi――Cảm ơn cô vì đã luôn bảo vệ tôi.」"
+# JP: 「訂正だ。一人旅ではないな。\nナビと、僕との二人旅を」
+1681 = "「Đính chính lại. Không phải đi một mình.\\nMà là chuyến đi của hai người, Navi và tôi.」"
+# JP: 「御一夜で、[うち]家でやりたいことが山のようにある。\nできるだけ早く、無論、元気に帰ってくるさ」
+1684 = "「Ở Ohitoyo, ở nhà còn chất đống chuyện anh muốn làm.\\nAnh sẽ cố gắng về sớm nhất có thể, tất nhiên là sẽ khỏe mạnh trở về rồi.」"
+# JP: 「ゆっくり、しっかり。\nいろんな話ば、できたらよかとね？」
+1686 = "「Cứ từ từ, thong thả.\\nKể cho hai bác nghe thật nhiều chuyện, được chứ?」"
+# JP: 「僕は――\nだから、列車を走らせたいんだ」
+1687 = "「Anh――\\nVì vậy, anh muốn chuyến tàu lăn bánh.」"
+# JP: 「だから、きっとそーちゃんは」
+1689 = "「Thế nên, chắc chắn Sou-chan sẽ」"
+# JP: 「だから、迎えにいってあげてほしいんだ。\nもし出来るなら、父さんと母さんに、路子を、迎えに」
+1691 = "「Thế nên, con mong hai người hãy đến đón con bé.\\nNếu có thể, bố và mẹ, hãy đến đón Michiko.」"
+# JP: 「だから、僕は――“今の僕”を、好きなんだ」
+1694 = "「Vì thế, con――rất thích 'bản thân hiện tại'.」"
+# JP: 「ゆえ、改めてナビに問おう。\n今の僕は、普段の僕と変わらずいるか？」
+1695 = "「Vậy, tôi hỏi lại Navi nhé.\\nTôi của hiện tại, có gì khác so với tôi thường ngày không?」"
+# JP: 「だから、汰斗さんに[こいねが]希った。僕は願って――\n『人として生きていくための方法』を、教わったのだ」
+1698 = "「Vì vậy, tôi đã thỉnh cầu ngài Taito. Tôi đã xin――\\nvà được ngài dạy cho 'cách để sống như một con người'.」"
+# JP: 「ゆえに、僕は向き合いたいのだ」
+1699 = "「Thế nên, anh muốn đối diện với em.」"
+# JP: 「ですので双鉄様は。そうした人たちと、\nより深く向き合うようになさってください」
+1700 = "「Vì vậy, ngài Soutetsu. Xin ngài hãy\\nđối diện và thấu hiểu những người đó sâu sắc hơn.」"
+# JP: 「ですので、ナビは、双鉄様に、\n強く推奨をいたします」
+1703 = "「Vì vậy, Navi đặc biệt khuyến nghị\\nngài Soutetsu.」"
+# JP: 「ですのでナビは、ナビが観測し、記録している範囲で、\n双鉄様のご質問に返答いたします」
+1704 = "「Vì vậy, Navi sẽ trả lời câu hỏi của ngài Soutetsu\\ntrong phạm vi mà Navi đã quan trắc và ghi nhận được ạ.」"
+# JP: 「OS的な部分」
+1709 = "「Phần mang tính OS.」"
+# JP: 「日々姫、僕は――\n御一夜を、もっと知りたいと思うんだ」
+1713 = "「Hibiki này, anh――\\nmuốn hiểu thêm về Ohitoyo.」"
+# JP: 「仕事帰りか」
+1720 = "「Em đi làm về à?」"
+# JP: 「どのようにでしょうか？」
+1722 = "「Như thế nào ạ?」"
+# JP: 「ああ……うん。\n言われてみれば、そのとおりだ」
+1726 = "「A……Ừ.\\nNói mới thấy, đúng là vậy.」"
+# JP: 「だな。恐らく乗務にあたるだろうし、\nみなも、乗車をしてくれるだろう」
+1729 = "「Ừ. Có lẽ anh sẽ đảm nhận công việc trên tàu,\\nvà mọi người cũng sẽ lên tàu đi cùng.」"
+# JP: 「はい。そうですね双鉄様」
+1730 = "「Vâng. Đúng vậy ạ, ngài Soutetsu.」"
+# JP: 「そうだな」
+1731 = "「Đúng vậy.」"
+# JP: 「ほんとにちょうど！\nえへへっ、すっごいタイミング」
+1732 = "「Thật sự là vừa khít luôn!\\nEhehe, đúng lúc ghê.」"
+# JP: 「そっかー。そうだったんだねー。\nみらいいき列車は、みちをおいてく列車じゃなくて」
+1733 = "「Ra vậy. Thì ra là thế.\\nChuyến tàu hướng tới tương lai không phải là chuyến tàu bỏ lại Michi, mà là...」"
+# JP: 「そうか」
+1734 = "「Vậy sao.」"
+# JP: 「それは、つまりは本質か。出会った頃も、今も。\n僕の本質には変化は無いと、ナビはみるか」
+1735 = "「Đó, tức là bản chất sao. Cả lúc mới gặp nhau, và bây giờ.\\nNavi thấy bản chất của tôi không hề thay đổi ư.」"
+# JP: 「ポーレットとれいなだな」
+1738 = "「Là Paulette và Reina nhỉ.」"
+# JP: 「はい」
+1739 = "「Vâng.」"
+# JP: 「そーなんだ」
+1742 = "「Ra là vậy.」"
+# JP: 「左様でございますか」
+1743 = "「Vậy sao ạ.」"
+# JP: 「ナビに、勧められたのだ。僕の周囲のひとりひとりと、\nじっくりと向き合うように、と」
+1745 = "「Là Navi khuyên anh đấy. Khuyên anh nên dành thời gian\\nđể đối diện sâu sắc với từng người xung quanh mình.」"
+# JP: 「そうか？」
+1747 = "「Vậy sao?」"
+# JP: 「うん！　それからね、ひびきちゃんとも、\nきんぱつのおねーさんとおちびちゃんとも」
+1749 = "「Vâng! Hơn nữa nhé, với chị Hibiki,\\nvới chị tóc vàng và cả cô bé nhỏ nhắn nữa.」"
+# JP: 「双鉄様の生命は、ナビが、いつでも守っておりますが」
+1751 = "「Sinh mạng của ngài Soutetsu, lúc nào cũng có Navi bảo vệ mà ạ.」"
+# JP: 「この上なく、光栄なことと存じます」
+1752 = "「Thật là một niềm vinh hạnh không gì sánh bằng ạ.」"
+# JP: 「はい。ハチロクやポーレット様。れいな、稀咲様。\n凪様、ふかみ様。そうした方々とも、必ず」
+1755 = "「Vâng. Hachiroku và ngài Paulette. Reina, ngài Kisaki.\\nNgài Nagi, ngài Fukami. Với cả những người đó nữa, nhất định ạ.」"
+# JP: 「双鉄様は、間違いなく強く成長されました。\n以前に出来なかった事を、多くできるようになりました」
+1757 = "「Ngài Soutetsu chắc chắn đã trưởng thành và trở nên mạnh mẽ hơn.\\nNgài đã có thể làm được rất nhiều điều mà trước đây ngài không thể.」"
+# JP: 「いいえ、双鉄様。\n体温、脈拍、呼吸、全てが正常の範囲内にあります」
+1759 = "「Không ạ, ngài Soutetsu.\\nThân nhiệt, nhịp đập, nhịp thở, tất cả đều nằm trong phạm vi bình thường.」"
+# JP: 「きれいなポスター。『みらいいき列車』」
+1761 = "「Tấm áp phích đẹp lắm. 'Chuyến tàu hướng tới tương lai'.」"
+# JP: 「そのために、まずは日々姫をもっと知りたい。\n日々姫の仕事を――見学させてもらっても構わんか？」
+1763 = "「Để làm được điều đó, trước tiên anh muốn hiểu thêm về Hibiki.\\nAnh có thể――đến xem em làm việc được không?」"
+# JP: 「そうして僕は、家族として迎えてもらえているんだ。\n右田の家に――真闇姉と、日々姫とに」
+1767 = "「Và con đã được đón nhận như một thành viên trong gia đình.\\nTại nhà Migita――Cùng với chị Mayami và Hibiki.」"
+# JP: 「父さん――母さん――」
+1773 = "「Bố――Mẹ――」"
+# JP: 「パパとママ！　まっててくれるの？\nみちのこと」
+1775 = "「Bố và mẹ! Đang đợi Michi sao?」"
+# JP: 「路子は、会いたがっているんだ。父さんと母さんに。\nだから列車で――ずっと、待っているのかもしれない」
+1777 = "「Michiko rất muốn gặp hai người. Bố và mẹ.\\nVì vậy có lẽ con bé――vẫn luôn đợi trên chuyến tàu đó.」"
+# JP: 「今ここにいる双鉄様も、\nお墓の前で弱音を吐かれていた双鉄様も、変わりません」
+1779 = "「Ngài Soutetsu đang ở đây lúc này,\\nvà ngài Soutetsu buông lời yếu đuối trước bia mộ kia, đều không có gì khác biệt.」"
+# JP: 「鉄道を恨み、人を憎み。どうしようも無い状態だった。\n――生きながらにして死んでいたと、今なら思う」
+1781 = "「Căm hận đường sắt, oán ghét con người. Một trạng thái vô phương cứu chữa.\\n――Bây giờ nghĩ lại, lúc đó tôi chẳng khác nào một kẻ sống dở chết dở.」"
+# JP: 「もちろんにぃにがのんびりしたいだけのんびりしてきて。\nその……つもる話とかもあるだろうし――あうっ！？」
+1782 = "「Tất nhiên là anh hai cứ thong thả bao lâu tùy thích.\\nÀ thì... chắc cũng có nhiều chuyện muốn nói mà――Auu!?」"
+# JP: 「ゆえ恐らく、その理由を考えることもまた、\n僕にとっての、大事な課題なのだろう」
+1783 = "「Vì vậy có lẽ, việc suy nghĩ về lý do đó\\ncũng là một bài toán quan trọng đối với anh.」"
+# JP: 「僕は、ナビには甘えてきたものな。\nナビの前では、わがままも言うし、弱音も吐く」
+1784 = "「Tôi, vẫn luôn làm nũng với Navi mà.\\nTrước mặt Navi, tôi nói những lời ích kỷ, và cả những lời yếu đuối nữa.」"
+# JP: 「わたくし、\n大変に気の利かないことを申してしまいました」
+1785 = "「Tôi,\\nđã nói ra một điều thật vô ý.」"
+# JP: 「見えた……何がだ？」
+1787 = "「Nhìn thấy……Cái gì cơ?」"
+# JP: 「確かに話したいことはたくさんだ。\nとはいえ、そう長居をするつもりもない」
+1796 = "「Quả thật có rất nhiều chuyện muốn nói.\\nTuy nhiên, anh cũng không định nán lại lâu.」"
+# JP: 「確かに弱音を吐かれていました」
+1797 = "「Quả thực ngài đã nói những lời yếu đuối.」"
+# JP: 「社会的な生とは、どのような意味でしょうか」
+1802 = "「Sự sống mang tính xã hội, là có ý nghĩa như thế nào ạ?」"
+# JP: 「……そーちゃんは、みらいいき列車がはしったら、\nきっと、みんなとのるんだよね？」
+1804 = "「……Sou-chan, khi chuyến tàu hướng tới tương lai khởi hành,\\nchắc chắn anh sẽ đi cùng mọi người đúng không?」"
+# JP: 「それに、ね。最近は――“今の僕”も変わってきたんだ。\n『みんながそれを望むから』っていうだけじゃなく」
+1808 = "「Hơn nữa nhé. Gần đây――'bản thân hiện tại' cũng đã thay đổi.\\nKhông chỉ vì 'mọi người mong muốn điều đó' nữa.」"
+# JP: 「誰かの役に立つことで、もう一度の生を生き始めた。\nゆえ……やはり僕は、大きな変化を遂げている、と」
+1810 = "「Bằng cách trở nên có ích cho ai đó, tôi đã bắt đầu một cuộc sống mới.\\nThế nên……quả thực tôi đã trải qua một sự thay đổi lớn.」"
+# JP: 「どうぞごゆっくりお過ごしください。\n幸せな――親子水入らずのお時間を」
+1826 = "「Xin ngài cứ thong thả nghỉ ngơi.\\nCùng tận hưởng khoảng thời gian hạnh phúc――riêng tư của gia đình ạ.」"
+# JP: 「ご安心下さい双鉄様。\nナビは必ず安全に、双鉄様を目的地へとお送りします」
+1827 = "「Xin ngài hãy yên tâm, ngài Soutetsu.\\nNavi nhất định sẽ đưa ngài Soutetsu đến đích an toàn ạ.」"
+# JP: 「ありがとう――いってくる」
+1828 = "「Cảm ơn mọi người――Tôi đi đây.」"
+# JP: 「凪やふかみともか。より深く向き合う――とは、\nそれは例えば、二人で過ごす時間を作るような感じか？」
+1833 = "「Cả Nagi và Fukami nữa sao. Đối diện sâu sắc hơn――có nghĩa là,\\nví dụ như, dành thời gian ở riêng với nhau chăng?」"
+# JP: 「ぽーれっとちゃんとれいなちゃんとも――そーちゃん、\nだんだん楽しそうにはなすようになってるよ！」
+1835 = "「Với chị Paulette và Reina cũng vậy――Sou-chan,\\nanh đang dần nói chuyện vui vẻ hơn rồi đấy!」"
+# JP: 「それは他の誰のでもない、“今の僕”自身の望みだ。\nだから必ず叶えてみせる。どれほど果て無い道のりでも」
+1849 = "「Đó không phải mong muốn của ai khác, mà là của chính 'bản thân hiện tại'.\\nVì thế con nhất định sẽ biến nó thành hiện thực. Dù con đường đó có dài đằng đẵng đến đâu.」"
+# JP: 「単なる物品による、一面からだけの観測ですので」
+1850 = "「Đây chỉ là quan trắc từ một phía, của một vật phẩm đơn thuần thôi ạ.」"
+# JP: 「それは恐らく、双鉄様にとっての、重大な危機に。\n生命に纏わる危機に繋がりかねない欲求です」
+1851 = "「Điều đó có lẽ sẽ dẫn đến một cuộc khủng hoảng nghiêm trọng đối với ngài Soutetsu.\\nMột khao khát có thể liên quan đến cả tính mạng.」"
+# JP: 「まぁ今回は、そういうわけだが、\nもしいずれ、機会があったら――」
+1852 = "「À thì lần này là vậy,\\nnhưng nếu sau này có cơ hội――」"
+# JP: 「であらば、その評価も当然か」
+1853 = "「Nếu vậy, đánh giá đó cũng là điều hiển nhiên thôi.」"
+# JP: 「その状態で事故に遭い、僕は、変わった。\nナビと出会った当初の僕は――」
+1855 = "「Gặp tai nạn trong trạng thái đó, tôi đã thay đổi.\\nTôi lúc mới gặp Navi――」"
+# JP: 「昔の双鉄様、ですか？」
+1858 = "「Ngài Soutetsu của quá khứ, sao ạ?」"
+# JP: 「わたし！　わたしも！！\nもしも、にぃにが、イヤじゃなければだけど」
+1859 = "「Em! Cả em nữa!!\\nNếu anh hai không phiền.」"
+# JP: 「そうしたら、みち」
+1862 = "「Nếu vậy, Michi」"
+# JP: 「ほんなら、そんときに双ちゃんのお父さんとお母さんを、\n驚かせてしまわんよーに」
+1863 = "「Vậy thì, để lúc đó không làm bố mẹ Sou-chan bất ngờ nha.」"
+# JP: 「それがナビの職務ですので」
+1865 = "「Vì đó là chức vụ của Navi mà ạ.」"
+# JP: 「何よりのことです」
+1866 = "「Vậy thì tốt quá rồi ạ.」"
+# JP: 「……ならば、僕は。仕事を楽しめているのだな」
+1867 = "「……Nếu vậy, anh. Chắc hẳn đang rất tận hưởng công việc.」"
+# JP: 「それは、どのような方法だったのですか？」
+1869 = "「Đó là phương pháp như thế nào ạ?」"
+# JP: 「路子の未来を――\n僕らの未来を、つなげる列車だ」
+1871 = "「Là chuyến tàu kết nối――\\nTương lai của Michiko và tương lai của chúng ta.」"
+# JP: 「まだ無い列車。みらいいき列車。\nあのおにんぎょうと、はしらせたいんだよね？」
+1872 = "「Chuyến tàu vẫn chưa xuất hiện. Chuyến tàu hướng tới tương lai.\\nAnh muốn chạy nó cùng với con búp bê đó đúng không?」"
+# JP: 「にぃに？　どぎゃんしたと？」
+1880 = "「Anh hai? Có chuyện gì sao?」"
+# JP: 「お前の気持ちは嬉しいが、[ハチロク,3]8620のことが無くとも――\n今回だけは、僕は、一人旅をしたいのだ」
+1881 = "「Tôi rất vui vì tấm lòng của em, nhưng dù không có chuyện của 8620――\\nChỉ lần này thôi, tôi muốn đi một mình.」"
+# JP: 「頼みにくるのが、こんなにも、\n遅くなってしまったのは――」
+1884 = "「Con đến nhờ vả chuyện này,\\nmuộn màng như thế là vì――」"
+# JP: 「双鉄様。どうぞ――\nご安全に、素敵な旅を」
+1885 = "「Ngài Soutetsu. Chúc ngài――\\nThượng lộ bình an, có một chuyến đi tuyệt vời.」"
+# JP: 「双鉄様」
+1886 = "「Ngài Soutetsu.」"
+# JP: 「双鉄様は、双鉄様です」
+1887 = "「Ngài Soutetsu vẫn là ngài Soutetsu ạ.」"
+# JP: 「何故、双鉄様は、今の双鉄様と過去の双鉄様とに、\n顕著な変化が認められるという評価を望まれますか？」
+1888 = "「Tại sao ngài Soutetsu lại mong muốn được đánh giá rằng,\\ngiữa ngài Soutetsu của hiện tại và quá khứ có sự thay đổi rõ rệt ạ?」"
+# JP: 「――双鉄様、お疲れ様でした。\n目的地に到着しました」
+1889 = "「――Ngài Soutetsu, ngài vất vả rồi.\\nChúng ta đã đến đích ạ.」"
+# JP: 「ナビは、\n初めてお迎えした以前の双鉄様のことを存じ上げません」
+1893 = "「Navi không biết về ngài Soutetsu\\ntrước thời điểm lần đầu tiên chúng ta gặp nhau ạ.」"
+# JP: 「双鉄様の成長は、ナビも観測しています。\nその成長は、双鉄様の生命維持に有意だとも認識します」
+1894 = "「Navi cũng quan trắc được sự trưởng thành của ngài Soutetsu.\\nVà cũng nhận thức được rằng sự trưởng thành đó có ý nghĩa quan trọng trong việc duy trì sự sống của ngài.」"
+# JP: 「ナビの職務か」
+1898 = "「Chức vụ của Navi sao.」"
+# JP: 「他ならぬナビ先生のお見立てだ。\nいわれたとおりにしてみよう」
+1900 = "「Đây là nhận định của không ai khác ngoài thầy Navi.\\nTôi sẽ làm theo những gì cô nói.」"
+# JP: 「その成長を著しく促したのは、双鉄様の身の回りの、\n右田家や、御一夜鉄道に纏わる人々だと観測します」
+1901 = "「Navi quan trắc thấy rằng, những người xung quanh ngài Soutetsu,\\nnhững người liên quan đến nhà Migita và Đường sắt Ohitoyo, đã thúc đẩy sự trưởng thành đó một cách đáng kể.」"
+# JP: 「ナビがさほど変化をしていないと評価したのは、\n感情的な行動の有無という一面によってではなく――」
+1903 = "「Việc Navi đánh giá ngài không có nhiều thay đổi,\\nkhông phải dựa trên khía cạnh có hay không có những hành động mang tính cảm xúc――」"
+# JP: 何も変わらず、ずっと変わらず、\nただ僕を――愚直に、見守り続けてくれている。
+2066 = "Không có gì thay đổi, mãi mãi không thay đổi,\\nnó chỉ đơn giản――chân thành, tiếp tục dõi theo tôi."
+# JP: 言ってしまえば、止まらなくなる。
+2067 = "Một khi đã nói ra, sẽ không thể dừng lại được."
+# JP: 言えば恐らく自分が崩れる――\nそうと理性が警告しても。
+2068 = "Nếu nói ra, có lẽ bản thân tôi sẽ sụp đổ――\\nDù lý trí có cảnh báo như vậy."
+# JP: 一瞬、機体が大きく揺れる。
+2072 = "Trong thoáng chốc, thân máy bay rung lắc mạnh."
+# JP: 日陰が出来る。\nまた日向になる。
+2076 = "Bóng râm phủ xuống.\\nRồi lại ngập tràn ánh nắng."
+# JP: 次の瞬間、ひょっこりと、\n不思議そうな顔が持ち上がる。
+2078 = "Khoảnh khắc tiếp theo, em ấy bất chợt ngẩng lên\\nvới vẻ mặt đầy thắc mắc."
+# JP: 声など聞こえるはずもない――\nその当然の状況が、急に不安になってくる。
+2080 = "Làm sao có thể nghe thấy giọng nói cơ chứ――\\nTình huống hiển nhiên đó, bỗng dưng khiến tôi cảm thấy bất an."
+# JP: 違う。これだけでは言葉が足りていない。\n僕の気持ちを、まっすぐ伝えきれてはいない。
+2083 = "Không phải. Chỉ bấy nhiêu lời là chưa đủ.\\nTôi vẫn chưa truyền đạt trọn vẹn cảm xúc của mình."
+# JP: いや、おかしいか。\n生家の墓参に、今の家族を紹介するというのも。
+2084 = "Không, nghe kỳ cục nhỉ.\\nĐi viếng mộ gia đình ruột thịt mà lại giới thiệu gia đình hiện tại."
+# JP: 手先の痛みを不意に感じて、手を解く。\nいつの間にひどく冷え切って、握りしめきっていた手を。
+2089 = "Bất chợt cảm thấy đau nhói ở đầu ngón tay, tôi buông tay ra.\\nBàn tay đã lạnh buốt và nắm chặt tự lúc nào."
+# JP: いつの間に、墓石がカラカラに乾いている。\nだから、たっぷりと水をかける。
+2092 = "Từ lúc nào, bia mộ đã khô khốc.\\nThế nên, tôi lại tưới thật nhiều nước lên."
+# JP: きっかけがどれほど歪であろうと、\n強いられた物であろうとも、そこを見失うことは無い。
+2093 = "Dù cho khởi đầu có méo mó đến đâu,\\ndù là bị ép buộc, tôi cũng sẽ không đánh mất nơi đó."
+# JP: けれどももしも、それが僕に取りついてくれるのならば。\n僕とともに、路子の魂がいまもあるのだとするのなら――
+2101 = "Nhưng giả sử, nếu nó bám vào tôi.\\nNếu linh hồn của Michiko hiện tại vẫn đang ở cùng tôi――"
+# JP: ナビには確かな体温があり――\nそのぬくもりに、僕はいつでも、守られていると。
+2104 = "Rằng Navi có một hơi ấm thực sự――\\nVà tôi luôn được chở che bởi hơi ấm đó."
+# JP: けれども僕は、確かに知った。\nハチロクと、れいなと出会い、教えてもらえた。
+2106 = "Nhưng tôi đã thực sự hiểu ra.\\nKhi gặp Hachiroku và Reina, tôi đã được chỉ bảo."
+# JP: が、あの事故という、そして路子の喪失という、\n極めて大きな断絶が――いや――
+2107 = "Nhưng vụ tai nạn đó, và sự ra đi của Michiko,\\nlà một sự đứt gãy vô cùng lớn――Không――"
+# JP: けれども、寂しい。\nひとりでいるのを、どうしようもなく辛いと感じる。
+2110 = "Thế nhưng, lại thấy cô đơn.\\nCảm giác ở một mình thật khó chịu không sao tả xiết."
+# JP: だけれど、無理やり声を出す。\n沈黙も動揺も、路子をきっと、怯えさせる。
+2112 = "Nhưng tôi vẫn cố gắng cất tiếng.\\nSự im lặng hay bối rối của tôi, chắc chắn sẽ khiến Michiko sợ hãi."
+# JP: けれども、尽くした。\nそのときどきの僕の全てをフルに使って。
+2114 = "Thế nhưng, tôi đã dốc hết sức.\\nSử dụng toàn bộ những gì tôi có ở từng thời điểm."
+# JP: けれどもふっと、路子が下を向いてしまう。
+2116 = "Thế nhưng đột nhiên, Michiko cúi gằm mặt xuống."
+# JP: けれども今は、その時ではない。\n届いているかを疑いながら――そんな話は空虚であるから。
+2118 = "Nhưng bây giờ chưa phải lúc.\\nVừa nghi ngờ không biết có truyền đến được không――Thì những lời đó thật trống rỗng."
+# JP: 思い出すだけでこころが痛む。\nかさぶたに、じくりと新しい血が滲む。
+2141 = "Chỉ cần nhớ lại thôi cũng thấy đau lòng.\\nMáu mới rịn ra từ lớp vảy vết thương."
+# JP: レールが刻む列車の音に、安堵を覚える。\n戻ってこれたという感覚。
+2146 = "Tiếng tàu hỏa chạy trên đường ray khiến tôi cảm thấy nhẹ nhõm.\\nCảm giác như đã trở về."
+# JP: 不満げだったハチロクが、スッ――と静かな一礼をする。\nとても穏やかな顔をして、いたわるような声を出す。
+2151 = "Hachiroku, người mới nãy còn vẻ bất mãn, bỗng nhẹ nhàng――cúi chào tĩnh lặng.\\nVới khuôn mặt vô cùng điềm đạm, cô ấy cất giọng đầy quan tâm."
+# JP: 日々姫が安心してくれた、と、思うやいなやのハチロクだ。\nやはり、冴えない顔をしている。
+2152 = "Vừa nghĩ Hibiki đã an tâm rồi, thì đến lượt Hachiroku.\\nQuả nhiên, khuôn mặt cô ấy trông không được vui vẻ cho lắm."
+# JP: 覚えた安堵がぐるりとひっくり返される。
+2153 = "Cảm giác an tâm vừa nhen nhóm lập tức bị đảo lộn hoàn toàn."
+# JP: それでも、果たすまでやらねばならない。\nくじけること、膝をつくことは許されない。
+2159 = "Dù vậy, tôi vẫn phải làm cho đến khi hoàn thành.\\nKhông được phép nản lòng, không được phép quỳ gối."
+# JP: なるほど、聞き方が悪かった。
+2161 = "Ra là vậy, do cách hỏi của tôi không tốt."
+# JP: なるほど、それは恐らく、\n“ナビにしかし得ない”評価であろう。
+2162 = "Ra là vậy, đó có lẽ là đánh giá\\n\"chỉ có Navi mới có thể đưa ra\"."
+# JP: 安心してしまったせいなのか、世界が揺らめく。\n――ああ、目覚めるな――
+2169 = "Có lẽ vì đã an tâm nên thế giới bắt đầu rung rinh.\\n――A, sắp tỉnh dậy rồi――"
+# JP: ああ、本当に路子は同じだ。
+2193 = "A, Michiko thực sự vẫn vậy."
+# JP: それで、落ち着く――落ち着ける。\n半ば無理やり深呼吸すれば、体の震えもいくらか収まる。
+2205 = "Nhờ vậy, tôi bình tĩnh lại――có thể bình tĩnh lại.\\nCố gắng ép mình hít một hơi thật sâu, cơ thể cũng bớt run đi phần nào."
+# JP: そうと確信できたから、確信できるようになったから。\nあるいは僕は今日ここへ、やっと、来れたのかもしれない。
+2206 = "Bởi vì tôi có thể tin chắc như vậy, bởi vì tôi đã trở nên tin chắc như vậy.\\nHoặc có lẽ, cuối cùng tôi cũng có thể đến đây vào ngày hôm nay."
+# JP: 自覚するから、\n少し早口に言葉をつむぐ。
+2207 = "Vì nhận thức được điều đó,\\ntôi nói nhanh hơn một chút."
+# JP: 頑張ったから、居場所を作れた。\n頑張ったから、たくさんの笑顔と向き合えた。
+2208 = "Vì đã cố gắng, nên tôi đã tạo ra được nơi chốn cho riêng mình.\\nVì đã cố gắng, nên tôi có thể đối diện với rất nhiều nụ cười."
+# JP: だって、こんなに甘えている。\n“できない自分”を、これほど素直に許せている。
+2209 = "Bởi vì, tôi đang làm nũng thế này cơ mà.\\nCó thể ngoan ngoãn tha thứ cho \"bản thân vô dụng\" đến nhường này."
+# JP: だって、ひとつだけは変わらないから。\n産まれたときから、今に至って、死ぬ時にまで。
+2210 = "Bởi vì, có một điều duy nhất không bao giờ thay đổi.\\nTừ khi sinh ra, cho đến tận bây giờ, và cho đến lúc chết đi."
+# JP: だって、止まった。\n震えを止めた。
+2211 = "Bởi vì, nó đã dừng lại.\\nSự run rẩy đã ngừng lại."
+# JP: 御一夜を離れてからの六年半。\nその一時間を、僕は、どうしても使えなかった。
+2213 = "Sáu năm rưỡi kể từ khi rời khỏi Ohitoyo.\\nTôi đã không thể nào dành ra được một giờ đồng hồ đó."
+# JP: 向き合うこと。仕事をみること。くらしをみること。\nひとりひとりと重ねていけば、その果てに――
+2217 = "Đối diện. Nhìn nhận công việc. Nhìn nhận cuộc sống.\\nNếu cứ tiếp tục gắn kết với từng người một, thì cuối cùng――"
+# JP: だから、迷わず出かけられる。
+2219 = "Nhờ vậy, tôi có thể cất bước mà không chút do dự."
+# JP: みんなで作った輪の中に、\n路子の姿を――僕は、交えてやれなかったから。
+2223 = "Trong vòng tròn mà mọi người cùng nhau tạo nên,\\ntôi đã không thể――đưa hình bóng của Michiko vào."
+# JP: 崩れてしまいたかった膝を――\n見えないけれど暖かな手が、支えてくれた。
+2224 = "Đôi đầu gối muốn gục ngã――\\nĐã được một bàn tay vô hình nhưng ấm áp nâng đỡ."
+# JP: 僕は鉄路と、レールだと、言ってもらった。\nそれが自らのあり方なのだと、納得できた。
+2228 = "Tôi đã được bảo rằng mình là tuyến đường sắt, là đường ray.\\nTôi đã chấp nhận đó là cách tồn tại của bản thân."
+# JP: かなり激しく。\n靴をいっそ、脱ぎ落としてでもしまいたいかのように。
+2230 = "Khá là mạnh.\\nNhư thể muốn văng cả giày ra ngoài vậy."
+# JP: 同行したい――\x%lレイルロオド;#00ffc040;レイルロオド%l;#;の責任感があるのだろうか？\nこれはまさしく文字通り、“私的”な旅であるというのに。
+2233 = "Muốn đi cùng――Liệu có phải vì tinh thần trách nhiệm của một \\x%lレイルロオド;#00ffc040;Railord%l;#; không?\\nTrong khi đây đúng nghĩa đen là một chuyến đi \"cá nhân\"."
+# JP: あの日あの時と変わらずに、\n今でも僕を少しでも、死から遠ざけようとしてくれる。
+2235 = "Không hề thay đổi so với ngày đó, khoảnh khắc đó,\\nNgay cả bây giờ con bé vẫn cố gắng đẩy tôi ra xa cái chết dù chỉ một chút."
+# JP: そう言われると、照れくさい。\n同時になにやら、申し訳無さも感じてしまう。
+2237 = "Nghe vậy, tôi thấy hơi ngại.\\nĐồng thời cũng cảm thấy có chút áy náy."
+# JP: 吐き気がする。体が震える。喉がカラカラに乾いている。\nだからか――涙はでてこない。
+2239 = "Buồn nôn. Cơ thể run rẩy. Cổ họng khô khốc.\\nCó lẽ vì vậy――mà nước mắt không tuôn rơi."
+# JP: 最初からこう尋ねていれば、\nナビはすぐさま、正確な評価をくれただろう。
+2241 = "Nếu hỏi như thế này ngay từ đầu,\\nNavi hẳn đã đưa ra đánh giá chính xác ngay lập tức rồi."
+# JP: もしも届いていないなら――\n思った瞬間、立ち上がっている。
+2243 = "Nhỡ đâu không truyền đến được thì sao――\\nKhoảnh khắc nghĩ vậy, tôi liền đứng bật dậy."
+# JP: 路子が繰り返し繰り返す、\nいまだ終わらせられない旅の、慰めとなるのなら。
+2244 = "Nếu điều đó có thể trở thành niềm an ủi,\\ncho chuyến đi lặp đi lặp lại mãi chưa kết thúc của Michiko."
+# JP: そう問うて、\nハチロクならば、きっと答えてくれようが――
+2247 = "Nếu hỏi như vậy,\\nHachiroku chắc chắn sẽ trả lời cho tôi――"
+# JP: であるのならば、幸いだ。\n路子の瞳に映る姿が、路子を少しでも喜ばせるなら。
+2249 = "Nếu được vậy thì tốt quá.\\nNếu hình ảnh phản chiếu trong đôi mắt Michiko có thể khiến con bé vui vẻ dù chỉ một chút."
+# JP: 終えられなかった家族旅行を。\n越えられなかった橋を越え――終着駅へと、旅して欲しい。
+2257 = "Chuyến du lịch gia đình dang dở.\\nVượt qua cây cầu chưa thể vượt qua――Tôi muốn họ du hành đến ga cuối cùng."
+# JP: 自覚してしまった瞬間に、\n足元全てが、ぐらぐらと、崩れ落ちていく感覚がある。
+2259 = "Khoảnh khắc nhận thức được điều đó,\\ntôi có cảm giác mọi thứ dưới chân đang rung chuyển, sụp đổ."
+# JP: “右田の家にいる価値”を示さなければ、\n日々の食事も施しとなると、少年ながらに考えたのだ。
+2266 = "Dù chỉ là một cậu thiếu niên, tôi đã nghĩ rằng nếu không chứng minh được \"giá trị khi ở nhà Migita\",\\nthì những bữa ăn hằng ngày cũng chỉ là sự bố thí."
+# JP: 凍えてしまう冬の夜から、温かい家にようやく戻り――\n安心できた瞬間不意に、寒さを思い出すかのように。
+2268 = "Từ đêm đông lạnh giá, cuối cùng cũng trở về ngôi nhà ấm áp――\\nNhư thể chợt nhớ lại cái lạnh buốt ngay khoảnh khắc cảm thấy an tâm."
+# JP: 影が落ち。空を見上げる。\nナビは変わらず、旋回している。
+2278 = "Bóng râm buông xuống. Tôi ngước nhìn bầu trời.\\nNavi vẫn không đổi, đang bay lượn vòng quanh."
+# JP: 最悪の底にいたころから、\n今もこうして――そうして恐らく、将来も。
+2280 = "Từ lúc ở tận cùng của sự tồi tệ,\\nđến bây giờ vẫn vậy――và có lẽ, cả trong tương lai nữa."
+# JP: 不意に、沈黙。\nナビはいったい、何を演算しているのだろう。
+2288 = "Bất chợt, im lặng.\\nRốt cuộc Navi đang tính toán điều gì vậy."
+# JP: 恐怖が、いきなり這い登ってくる。\n怖い、怖い、怖い、怖い。
+2289 = "Nỗi sợ hãi bất chợt bò lên.\\nSợ, sợ, sợ, sợ quá."
+# JP: 小さなころの僕と路子が面白がって、\nひしゃくの取り合いをしていたことを、ふと思い出す。
+2291 = "Tôi chợt nhớ lại hồi nhỏ, tôi và Michiko hay tranh nhau cái gáo\\nvì thấy nó rất thú vị."
+# JP: ナビは恐らく大事なことを――\n極めて重要な何かを僕に、言おうとしている。
+2295 = "Navi có lẽ đang định nói với tôi――\\nmột điều gì đó cực kỳ quan trọng."
+# JP: 路子のつないでくれた命を、無駄には出来ない。\nその一念で生きていただけの日々が余りに、長かったから。
+2304 = "Không thể để mạng sống mà Michiko đã cứu lấy trở nên vô ích.\\nNhững ngày tháng chỉ sống bằng niềm tin đó đã quá dài."
+# JP: 僕は路子を、必ず救い出さねばならない。\nいや、本当は――もっと早くに動き出さねばならなかった。
+2306 = "Tôi nhất định phải cứu Michiko ra.\\nKhông, đáng lẽ ra――tôi phải hành động sớm hơn."
+# JP: ズラす。思考を。\n無理やりズラして、息苦しくない場所を求める。
+2308 = "Đánh trống lảng. Dòng suy nghĩ.\\nCố gắng đánh trống lảng, tìm kiếm một nơi không bị ngột ngạt."
+# JP: 僕と路子は、ずっとふたごで。\n僕は、路子の――おにいちゃんだから。
+2311 = "Tôi và Michiko, mãi mãi là anh em sinh đôi.\\nVì tôi là――anh trai của Michiko."
+# JP: とてもうれしく、ありがたい。
+2313 = "Tôi rất vui và biết ơn."
+# JP: 立たねばならない。そうであるなら、なおさらのこと。\n父と母とを、僕が、見つけ出さねばならない。
+2314 = "Phải đứng lên. Nếu đã như vậy thì càng phải thế.\\nTôi phải tìm ra bố và mẹ."
+# JP: ぞくりと、背筋に寒気を感じる。
+2317 = "Một luồng khí lạnh chạy dọc sống lưng."
+# JP: 御一夜のこと。\n御一夜鉄道のこと。
+2319 = "Về Ohitoyo.\\nVề Đường sắt Ohitoyo."
+# JP: 霊園近くのコンビニエンスストアには、\n線香もライターも、菓子も生花も売っていた。
+2320 = "Ở cửa hàng tiện lợi gần nghĩa trang,\\ncó bán cả nhang, bật lửa, bánh kẹo và hoa tươi."
+# JP: たましいは、熱のようなものだと感じる。\nそれが体を離れたのなら、はかなく蒸散するのだろうと。
+2323 = "Tôi cảm thấy linh hồn giống như một dạng nhiệt lượng.\\nNếu nó rời khỏi cơ thể, có lẽ nó sẽ mong manh bốc hơi mất."
+# JP: 顔をあげれば、\nナビはゆっくりゆっくりと、僕の頭上を旋回している。
+2325 = "Ngẩng mặt lên,\\ntôi thấy Navi đang chầm chậm lượn vòng trên đỉnh đầu."
+# JP: 安堵したなら恐怖も薄れる、\n言葉がつぎつぎ、喉から出ていく。
+2326 = "Nếu cảm thấy an tâm, nỗi sợ hãi cũng phai nhạt dần,\\nnhững lời nói liên tiếp tuôn ra từ cổ họng."
+# JP: 単なる夢だと思っていた。\nいいや、今でも――僕の夢、無意識の働きと思っている。
+2328 = "Tôi từng nghĩ đó chỉ là một giấc mơ.\\nKhông, ngay cả bây giờ――tôi vẫn cho rằng đó là giấc mơ, là sự hoạt động của vô thức."
+# JP: なんとか行こうと試みて、けれども果たせず諦めた。\nそんな日がいくつもあったことを、ナビだけは知っている。
+2329 = "Đã cố gắng đi, nhưng không thể và đành bỏ cuộc.\\nChỉ có Navi mới biết đã có bao nhiêu ngày như thế."
+# JP: ナビには僕は、たましいを感じたことがなかった。\nけれども、常に感じている。
+2332 = "Tôi chưa từng cảm nhận được linh hồn ở Navi.\\nThế nhưng, tôi luôn cảm nhận được."
+# JP: 綺麗になったお墓にたっぷり、\nひしゃくの水を、何度も注ぐ。
+2334 = "Tôi múc nước bằng gáo,\\ntưới nhiều lần lên ngôi mộ đã được dọn sạch."
+# JP: 僕が見ている路子はきっと、僕の投影――\n幽霊だの、亡霊だのでは、恐らくない、と。
+2336 = "Michiko mà tôi nhìn thấy chắc chắn là hình bóng của chính tôi――\\nCó lẽ không phải là hồn ma hay vong linh gì cả."
+# JP: 答えが見える。
+2338 = "Tôi đã nhìn thấy câu trả lời."
+# JP: ここまで来れるようになったと――自分で自分を評価する。\n今は、それだけで構わない。
+2339 = "Tôi tự đánh giá bản thân――rằng mình đã có thể đi đến bước này.\\nHiện tại, chỉ cần thế là đủ."
+# JP: 自ら蓋してしまった言葉を、\nハチロクが、日々姫が、導いてくれた。
+2342 = "Những lời định giấu nhẹm đi,\\nlại được Hachiroku và Hibiki khơi gợi ra."
+# JP: 右田の家に引き取られ――\n罪悪感を抱えたままに、それでも、確かな落ち着きを得て。
+2344 = "Được nhà Migita nhận nuôi――\\nMang trong mình cảm giác tội lỗi, nhưng dẫu vậy, tôi đã tìm được sự bình yên thực sự."
+# JP: ナビの評価を認めながらも、それに納得できぬのは、\nなるほど――『変化があると評価されたい』故だろう。
+2345 = "Dù công nhận đánh giá của Navi, nhưng vẫn không thể chấp nhận được,\\nra là vậy――Có lẽ là vì tôi \"muốn được đánh giá là đã thay đổi\"."
+# JP: 情けないなと、つくづく思う。\nけれどだからこそ、きちんと報告せねばならない。
+2347 = "Tôi thực sự cảm thấy mình quá thảm hại.\\nNhưng chính vì vậy, tôi phải báo cáo một cách đàng hoàng."
+# JP: そうであったと、苦笑が浮かぶ。
+2352 = "Nhớ ra điều đó, tôi nở nụ cười khổ."
+# JP: 路子の命と引き換えにして守ってもらった僕の命の。\n価値をそうして――僕は、少しでも高めたかった。
+2353 = "Sinh mạng của tôi được bảo vệ bằng cách đánh đổi lấy sinh mạng của Michiko.\\nBằng cách đó――tôi muốn nâng cao giá trị của nó dù chỉ một chút."
+# JP: ナビのいう“重大な矛盾”を、\n強化してしまうだけの結果しか招き得ぬだろう。
+2354 = "Điều đó có lẽ chỉ dẫn đến kết quả\\nlà làm tăng thêm \"mâu thuẫn nghiêm trọng\" mà Navi nói đến."
+# JP: 元忠氏に出された課題の解決があり、\nオール御一夜体制を築けるような、そんな気もする。
+2355 = "Tôi có cảm giác rằng mình sẽ giải quyết được bài toán mà ông Mototada đặt ra,\\nvà có thể xây dựng nên một thể chế toàn Ohitoyo."
+# JP: だから、そうした。\nそうし続けたから、生きられた。
+2358 = "Thế nên, tôi đã làm vậy.\\nVì tiếp tục làm vậy, tôi mới có thể sống sót."
+# JP: だから僕は、歪み得ない。だから僕は、ゆるみ得ない。\nみんなの前では、決して、決して――何があろうと。
+2360 = "Vì thế, tôi không thể sai lệch. Vì thế, tôi không thể lỏng lẻo.\\nTrước mặt mọi người, tuyệt đối, tuyệt đối――dù có chuyện gì xảy ra."
+# JP: だから、嬉しい。\n今まで重ねてきたことが、正しかったと評価され。
+2363 = "Thế nên, tôi thấy vui.\\nKhi những gì tôi đã tích lũy từ trước đến nay được đánh giá là đúng đắn."
+# JP: だからこれは、次のときでもいいかと思う。\n思った瞬間、可笑しくなる。ふわりほのかに、幸せになる。
+2364 = "Thế nên tôi nghĩ để lần sau kể cũng được.\\nKhoảnh khắc nghĩ vậy, tôi thấy thật buồn cười. Một niềm hạnh phúc nhẹ nhàng lan tỏa."
+# JP: だから、言葉が止まらなくなる。\nだから思いが止まらなくなる。
+2366 = "Thế nên, những lời nói không ngừng tuôn ra.\\nThế nên, những suy nghĩ không ngừng cuộn trào."
+# JP: だから、日々姫をまっすぐ見つめる。\n日々姫は少し慌てたように、背筋をぴんと伸ばしてくれる。
+2369 = "Vì vậy, tôi nhìn thẳng vào Hibiki.\\nHibiki có vẻ hơi bối rối, vội vàng ngồi thẳng lưng lên."
+# JP: ゆえに伝わらぬこともある。\n知っているから、ゆっくり意味を噛み砕いていく。
+2370 = "Vì vậy, cũng có những điều nó không hiểu được.\\nTôi biết điều đó, nên mới từ từ giải thích cho nó hiểu."
+# JP: だから、戻れる。\n“昔の僕”を思い出しても――“今の僕”へと。
+2373 = "Vì vậy, tôi có thể quay lại.\\nDù có nhớ lại \"bản thân trong quá khứ\"――tôi vẫn có thể trở về với \"bản thân hiện tại\"."
+# JP: だから、開く。\nこれほどに重く感じていても、瞳を、そして唇を。
+2374 = "Vì vậy, tôi mở miệng.\\nDù cảm thấy nặng nề đến nhường này, cả đôi mắt và đôi môi."
+# JP: ならば、その認識は、少なくともナビにとっては真実だ。\nそうして僕は――ナビを信じる。
+2376 = "Nếu vậy, nhận thức đó, ít nhất đối với Navi, là sự thật.\\nVà tôi――tin tưởng Navi."
+# JP: 僕の命を救うこと。\nそれがナビに刻み込まれた、唯一・至上の命令だ。
+2382 = "Cứu mạng tôi.\\nĐó là mệnh lệnh tối thượng và duy nhất được khắc sâu vào Navi."
+# JP: そうすればナビは答えてくれる。\nいままでとまったく変わらずに。
+2383 = "Làm vậy Navi sẽ trả lời tôi.\\nGiống hệt như từ trước đến nay."
+# JP: 言ってすぐ、日々姫は『しまった！』という顔になり、\n自分の口を手で覆う。
+2393 = "Vừa nói xong, khuôn mặt Hibiki lộ vẻ \"Tiêu rồi!\",\\nvà vội lấy tay che miệng lại."
+# JP: しまったという顔を再度され、\n少しあわてて、日々姫の言葉を言葉で断ち切る。
+2394 = "Thấy em ấy lại lộ vẻ \"Tiêu rồi\",\\ntôi hơi bối rối, bèn dùng lời nói cắt ngang lời Hibiki."
+# JP: 日々姫がもっとも日々姫らしくある時間――\nそれは日々姫が真剣に、仕事に向き合っている時だろう。
+2397 = "Khoảng thời gian Hibiki được là chính mình nhất――\\nCó lẽ là khi em ấy đang nghiêm túc đối diện với công việc."
+# JP: 今度は一転、はにかむ笑顔に思い出す。\nそれは日々姫が、僕に勧めてくれていたことだと。
+2399 = "Nụ cười bẽn lẽn chợt lóe lên nhắc tôi nhớ lại.\\nRằng đó chính là điều mà Hibiki đã từng khuyên tôi."
+# JP: 眩しいほどの日々姫の笑顔が、答えをくれる。\n“向き合う”とは、つまりこのことだ。
+2400 = "Nụ cười rạng rỡ của Hibiki đã cho tôi câu trả lời.\\n\"Đối diện\", tóm lại chính là thế này đây."
+# JP: わかったような、わからぬような。\n納得をしているようで、どこか残念そうにも聞こえる声。
+2403 = "Như hiểu, lại như không hiểu.\\nGiọng nói nghe có vẻ như đã chấp nhận, nhưng lại phảng phất chút tiếc nuối."
+# JP: ぴょこん、と日々姫は小さくはねて、\n体を縮めてガッツポーズをしてみせる。
+2404 = "Hibiki khẽ nhảy cẫng lên,\\nthu người lại và làm động tác ăn mừng."
+# JP: 嬉しげに日々姫が小さく跳ねれば、\n肩から提げてる長い筒――図面ケースもぴょこんと踊る。
+2407 = "Hibiki vui vẻ nhảy cẫng lên,\\nchiếc ống dài đeo trên vai――ống đựng bản vẽ cũng nhảy múa theo."
+# JP: 当然なのに、寂しくなる。\n当然なのに、不安になる。
+2411 = "Rõ ràng là đương nhiên, nhưng lại thấy cô đơn.\\nRõ ràng là đương nhiên, nhưng lại thấy bất an."
+# JP: 僕の生家の、[そごう,1]十川家の墓。\n父さんと、母さんと、路子と――三人だけの、眠る墓。
+2413 = "Mộ của gia đình Sogou, gia đình ruột thịt của tôi.\\nMộ của bố, mẹ, và Michiko――Nơi an nghỉ của chỉ ba người."
+# JP: そうだ。確かにそう考えた。\nあの頃から、事故被害者として扱われることは嫌だった。
+2415 = "Đúng vậy. Quả thực tôi đã nghĩ như thế.\\nTừ hồi đó, tôi đã ghét việc bị đối xử như một nạn nhân của vụ tai nạn."
+# JP: ポーレットのこと、れいなのこと、ハチロクのこと。\n話せば、そこからつながっていく。
+2421 = "Về Paulette, về Reina, về Hachiroku.\\nCứ kể ra, rồi mọi chuyện sẽ kết nối với nhau."
+# JP: “たましい”としかいいようのない何ものかが、\nこの世には、確かに存在するのだということを。
+2423 = "Một thứ gì đó chỉ có thể gọi là \"linh hồn\",\\nthực sự tồn tại trên cõi đời này."
+# JP: 汰斗さんが、そうすれば生き延びられると教えてくれた。\nそうすることが、僕の贖罪で、報恩なのだと。
+2433 = "Ngài Taito đã dạy tôi rằng làm như vậy mới có thể sống sót.\\nRằng làm như vậy chính là sự chuộc tội, là sự đền đáp của tôi."
+# JP: にもかかわらずの質問に、\n僕の方が、不思議な気持ちにさせられる。
+2435 = "Mặc dù vậy mà nó vẫn hỏi câu đó,\\nkhiến chính tôi cũng cảm thấy thật kỳ lạ."
+# JP: 気づいたときには、向かい合わせに座っている。\nそうしたという感覚も無く。
+2437 = "Khi nhận ra, tôi đã ngồi đối diện con bé.\\nMà chẳng hề có cảm giác mình đã làm vậy."
+# JP: そうかと思えば、苦笑が浮かぶ。
+2438 = "Vừa nghĩ vậy, tôi liền nở nụ cười khổ."
+# JP: 成るほど確かに、矛盾かもしれん。\n“過去の自分”と“今の自分”を、分かつことは。
+2441 = "Ra là vậy, quả thực có thể là một mâu thuẫn.\\nViệc phân biệt \"bản thân trong quá khứ\" và \"bản thân hiện tại\"."
+# JP: 日々姫をひどく、やきもきさせてしまっている。
+2442 = "Tôi đã khiến Hibiki vô cùng lo lắng bồn chồn."
+# JP: ぽんっと軽く、背中を押される。\n真闇姉の優しい腕と、言葉とに。
+2448 = "Lưng tôi được vỗ nhẹ một cái.\\nBởi cánh tay dịu dàng và những lời nói của chị Mayami."
+# JP: 実際に、あれほど体が、こころが震えた。
+2454 = "Thực tế, cơ thể và trái tim tôi đã run rẩy đến thế."
+# JP: 瞬間、ふっと影が落ちる。\nハチロクの顔にではなく、地面の上に。
+2456 = "Trong khoảnh khắc, một bóng đen vụt đổ xuống.\\nKhông phải trên khuôn mặt Hachiroku, mà là trên mặt đất."
+# JP: メンタル面で、と、言いかけ言葉を飲んでしまう。
+2472 = "Về mặt tinh thần cơ, định nói vậy nhưng tôi lại nuốt ngược vào trong."
+# JP: そうしてやっと夢で再会できたとき、\n路子は一人、泣いていた。
+2473 = "Và rồi khi cuối cùng cũng gặp lại nhau trong mơ,\\nMichiko đang khóc một mình."
+# JP: 問われて、気づく。
+2475 = "Được hỏi, tôi mới nhận ra."
+# JP: 商売上手というよりも、\n恐らくは、それも見込んでの出店なのだろう。
+2482 = "Thay vì nói là giỏi kinh doanh,\\ncó lẽ họ mở cửa hàng ở đây cũng là để nhắm tới lượng khách này."
+# JP: そして同時に、罪悪感。\n路子の背中が、あまりにちいさく、か弱く見えて。
+2483 = "Và đồng thời, là cảm giác tội lỗi.\\nBóng lưng của Michiko trông quá đỗi nhỏ bé và yếu ớt."
+# JP: 例え0.1\%でも、路子の魂が今もなお、\nこの世にあって、迷ってしまっている恐れがあるなら――
+2484 = "Dù chỉ là 0.1%, nếu linh hồn của Michiko vẫn còn tồn tại trên cõi đời này,\\nvà có nguy cơ đang lạc lối――"
+# JP: 言葉が、喉に詰まってしまう。\nあのポスターは、『みんな』をうつしたポスターだから。
+2509 = "Lời nói nghẹn lại nơi cổ họng.\\nBởi vì tấm áp phích đó, là tấm áp phích có hình ảnh của 'mọi người'."
+# JP: その一言が出ると自然に、頭が下がる。ゆえ、気づく。\n気づかなかった自分がひどく、恥ずかしくなる。
+2510 = "Vừa nói xong, tôi bất giác cúi đầu. Nhờ đó, tôi nhận ra.\\nTôi cảm thấy vô cùng xấu hổ vì sự vô tâm của chính mình."
+# JP: 言った途端に、そうかと気づく。\n父さんと母さんだって、心配してるに決まってる。
+2511 = "Vừa dứt lời, tôi chợt nhận ra.\\nChắc chắn bố và mẹ cũng đang lo lắng."
+# JP: 言ってしまえば、力が抜ける。\nどうしようもなく不安になる。
+2512 = "Nói ra rồi, tôi như kiệt sức.\\nMột cảm giác bất an tột độ ập đến."
+# JP: 言って、数秒待ってみる。\n……ナビからは、何の補足も送られてこない。
+2513 = "Nói xong, tôi chờ vài giây.\\n……Navi không gửi thêm bất kỳ lời giải thích nào."
+# JP: 路子と列車で出会ってすぐに、\nそのことを、真っ先に報告に来るべきであったと――
+2519 = "Ngay sau khi gặp Michiko trên chuyến tàu,\\nlẽ ra tôi nên đến báo tin này đầu tiên mới phải――"
+# JP: 路子は、笑ってくれている。\n『楽しそうにしている』僕を、素直に喜んでくれている。
+2543 = "Michiko đang mỉm cười với tôi.\\nCon bé hồn nhiên vui mừng khi thấy tôi \"trông có vẻ vui vẻ\"."
+# JP: 噛みしめるように。自分を納得させるかのように。\n路子はゆっくり、ハチロクの名を繰り返す。
+2545 = "Như đang nghiền ngẫm. Như đang cố thuyết phục bản thân.\\nMichiko chậm rãi lặp lại cái tên Hachiroku."
+# JP: 路子が足をぶらぶらさせる。\nぶらぶら、ぶらぶら。
+2547 = "Michiko đung đưa chân.\\nĐung đưa, đung đưa."
+# JP: 路子は、僕をじっと見ている。\nあどけない目で、じいっと見ている。
+2549 = "Michiko đang nhìn chằm chằm vào tôi.\\nBằng đôi mắt ngây thơ, con bé cứ nhìn chằm chằm."
+# JP: 路子の笑顔が、定めてくれる。\n終着駅を――ずっと探してたその場所を。
+2550 = "Nụ cười của Michiko đã quyết định giúp tôi.\\nGa cuối――Nơi mà tôi vẫn luôn tìm kiếm."
+# JP: 路子が見ている僕はおそらく、駅での僕だ。\n車窓から見える景色だけが、路子に見える全てであるのだ。
+2553 = "Hình ảnh tôi mà Michiko nhìn thấy có lẽ là tôi ở nhà ga.\\nNhững cảnh vật nhìn từ cửa sổ tàu là tất cả những gì con bé có thể thấy."
+# JP: 路子が笑う。\n安心しきった――懐かしい、あまえっこの路子の顔で。
+2554 = "Michiko mỉm cười.\\nVô cùng an tâm――Với khuôn mặt hay làm nũng đầy hoài niệm của Michiko."
+# JP: 小さな頷き。\nそうして路子は、まっすぐ僕を見つめてくる。
+2556 = "Một cái gật đầu nhẹ.\\nRồi Michiko nhìn thẳng vào tôi."
+# JP: 元気なころの姿のままで、事故にあう前の路子のままで。\nだけれど一人、泣いていた。
+2559 = "Vẫn giữ nguyên dáng vẻ khỏe mạnh, vẫn là Michiko trước khi gặp tai nạn.\\nThế nhưng con bé lại khóc một mình."
+# JP: そこを疑う余地はない。\nだからこそ……困惑が、理解に遅れてやってくる。
+2569 = "Không có chỗ nào để nghi ngờ điều đó.\\nChính vì thế……Sự bối rối mới ập đến sau khi tôi đã hiểu ra."
+# JP: 感じた瞬間、こみ上げてくる。\n大きな大きな塊が、自分の底からこみ上げてくる。
+2570 = "Khoảnh khắc cảm nhận được điều đó, một cảm xúc trào dâng.\\nMột khối lớn vô cùng trào lên từ tận đáy lòng."
+# JP: 言える、それは。\n無理なく、苦もなく。
+2571 = "Tôi có thể nói điều đó.\\nKhông hề khiên cưỡng, không hề đau khổ."
+# JP: 平凡な、けれど初めて目にする墓石。\n父さんと、母さんと――路子との墓。
+2572 = "Tấm bia mộ bình dị, nhưng đây là lần đầu tiên tôi nhìn thấy.\\nMộ của bố, mẹ và――Michiko."
+# JP: 突拍子もない言葉がかえって、理解を助ける。
+2573 = "Từ ngữ bất ngờ đó ngược lại lại giúp tôi dễ hiểu hơn."
+# JP: それが、嬉しい。\n――路子がいまも、変わらず路子でいてくれることが。
+2574 = "Điều đó khiến tôi thấy vui.\\n――Vì Michiko bây giờ, vẫn luôn là Michiko không hề thay đổi."
+# JP: 御一夜に帰ってきて初めての休暇の申し出を\n右田家も、御一夜鉄道も、即座に快諾してくれた。
+2575 = "Lời đề nghị xin nghỉ phép đầu tiên kể từ khi trở về Ohitoyo\\nđã được nhà Migita và Đường sắt Ohitoyo nhanh chóng chấp thuận."
+# JP: “何故怖いのか”、それを考えるのさえ怖い。\nひゅっ、ひゅっ。浅くて早い呼吸が聞こえ、息苦しくなる。
+2576 = "\"Tại sao lại sợ\", ngay cả việc nghĩ về điều đó cũng thấy sợ.\\nPhù, phù. Tôi nghe thấy tiếng thở nông và nhanh của mình, cảm thấy khó thở."
+# JP: いま、ぶり返してきた、“昔の自分”。\n何も知らない、無邪気な――単なる子供だった、僕。
+2577 = "Bây giờ, \"bản thân trong quá khứ\" đã quay trở lại.\\nMột đứa trẻ ngây thơ, không biết gì――chỉ là một đứa trẻ đơn thuần."
+# JP: 義務感でギチギチに縛らなくとも――父と母と路子とが、\n注いでくれる愛情だけで、立てていた僕。
+2581 = "Không bị trói buộc bởi cảm giác nghĩa vụ――chỉ cần tình yêu thương của bố, mẹ và Michiko,\\nlà tôi đã có thể đứng vững."
+# JP: “終着駅に”――抱え続けていた思いと今とが、\nカチャン、と音を立て連結される。
+2582 = "\"Tới ga cuối\"――Tâm tư tôi luôn mang theo và hiện tại,\\nKeng một tiếng, đã kết nối lại với nhau."
+# JP: れいなの名が出て、真闇姉の名が出なかった。\nだから、容易に推測できる。
+2584 = "Tên của Reina được nhắc đến, nhưng tên chị Mayami thì không.\\nVì thế, tôi có thể dễ dàng suy đoán."
+# JP: 素人の僕には無意味な挙動とも思えるが、\nナビが無意味なことをする筈も有り得ぬし――
+2585 = "Đối với một kẻ nghiệp dư như tôi thì hành động này có vẻ vô nghĩa,\\nnhưng Navi không thể nào làm những việc vô nghĩa được――"
+# JP: 気の毒でもあるし、嬉しくもある。\nだから、少しでもこころ穏やかにしてやりたい。
+2586 = "Vừa thấy tội nghiệp, lại vừa thấy vui.\\nThế nên, tôi muốn làm em ấy an tâm dù chỉ một chút."
+# JP: 考えなしに言ったことだが――\nいや、考えなしなら、それは僕の、本心に近いものだろう。
+2587 = "Dù lúc đó nói ra mà không suy nghĩ――\\nKhông, nếu không suy nghĩ, thì đó hẳn là những lời gần với tiếng lòng của tôi nhất."
+# JP: もう決して、路子と共に大人になることはできないが――\nそうであっても、僕は路子を、ひとりにしない。
+2588 = "Dù không bao giờ có thể cùng Michiko trưởng thành được nữa――\\nNhưng dẫu vậy, tôi cũng sẽ không để Michiko phải cô đơn."
+# JP: あのとき、離れてしまったとはいえ――\n僕らはやっぱり、いまでも、ふたごなのだから。
+2589 = "Dù lúc đó đã phải chia lìa――\\nNhưng chúng tôi, ngay cả bây giờ, vẫn là anh em sinh đôi mà."
+# JP: 風が吹く。\n霊園を囲む木々を揺らして、ざわめかせる。
+2599 = "Gió thổi.\\nLàm rung rinh những tán cây bao quanh nghĩa trang, tạo nên những tiếng xào xạc."
+# JP: （……もしか、したら）
+2602 = "（……Biết đâu, có khi nào）"
+# JP: （ふっ――）
+2614 = "（Phù――）"
+# JP: （カトン、トトン、\nタタン、タタン――）
+2616 = "（Cọc cạch, cọc cạch,\\nxình xịch, xình xịch——）"
+# JP: （どくんっ）
+2617 = "（Thịch）"
+# JP: （向き合う、か――\n果たして、どのようにすればいいのか）
+2618 = "（Đối diện sao――\\nRốt cuộc, mình nên làm thế nào đây）"
+# JP: （そうだ。それに――仕事は、くらしだ。\nそれぞれの仕事に、きちんと向き合うことができたなら）
+2621 = "（Đúng vậy. Hơn nữa――công việc, chính là cuộc sống.\\nNếu có thể nghiêm túc đối diện với công việc của mỗi người）"
+# JP: （ザリっ）
+2622 = "（Lạo xạo）"
+# JP: （父さんと、母さんも――\n列車に乗って、さまよい続けているのかもしれない）
+2625 = "（Bố và mẹ――\\nCó lẽ cũng đang ở trên chuyến tàu đó, tiếp tục lang thang vô định.）"
+# JP: ナビは、僕のメンタルまでには気を配れない。\nゆえに決して、世辞は言わない。
+2628 = "Navi không thể bận tâm đến cả khía cạnh tinh thần của tôi.\\nDo đó, nó tuyệt đối không biết nịnh nọt."
+# JP: ナビは変わらず、僕の頭上を旋回している。\n……その他に何も聞こえない。誰の声さえ、響かない。
+2630 = "Navi vẫn không đổi, lượn vòng trên đỉnh đầu tôi.\\n……Ngoài ra không nghe thấy gì khác. Ngay cả giọng nói của ai đó cũng không vang lên."
+# JP: ナビと日々姫と。\n勧めた理由は、それぞれ異なっているのだろうが――
+2631 = "Navi và Hibiki.\\nLý do họ khuyên tôi có lẽ khác nhau, nhưng――"
+# JP: ナビならば、上空を何度も旋回し、\n僕をずうっと、待っていてくれる。
+2633 = "Navi vẫn đang lượn vòng trên không trung hết lần này đến lần khác,\\nkiên nhẫn chờ đợi tôi."
+# JP: 承知しているはずのことを、ナビは問う。\nだから答える。単なる過去の事実を、問われたままに。
+2636 = "Navi hỏi một điều mà đáng lẽ nó phải biết.\\nThế nên tôi trả lời. Chỉ đơn thuần thuật lại sự thật trong quá khứ theo đúng như những gì được hỏi."
+# JP: ナビの受け答えは、人間には有りえぬ程に直線的だ。\nそれゆえときに、普段は考えぬことを考えさせられる。
+2639 = "Cách đối đáp của Navi thẳng thắn đến mức con người không thể có được.\\nVì vậy, đôi khi nó khiến tôi phải suy nghĩ về những điều mà bình thường tôi chẳng màng tới."
+# JP: ナビの声音は、一切の変化というものを見せない。\nけれども、感じる。焦り、あるいは怯えに近い何かを。
+2641 = "Giọng nói của Navi không hề có chút thay đổi nào.\\nThế nhưng, tôi cảm nhận được. Một sự vội vã, hay thứ gì đó gần giống như sự sợ hãi."
+# JP: ナビが下す評価ならば妥当――\nわかっているのに、納得できない。
+2642 = "Nếu là đánh giá do Navi đưa ra thì chắc chắn là thỏa đáng――\\nBiết vậy, nhưng tôi vẫn không thể chấp nhận được."
+# JP: ナビは決して嘘をつかない。\n冗談など、言おうとしても言えないだろう。
+2644 = "Navi tuyệt đối không bao giờ nói dối.\\nNgay cả khi muốn nói đùa, nó cũng không thể nói được."
+# JP: 大きく、ナビが旋回する。\nぐるり、360度近く。
+2646 = "Navi lượn một vòng lớn.\\nXoay tròn, gần như 360 độ."
+# JP: ナビは、ナビだ。\n常に、少しも変わらない。
+2649 = "Navi vẫn là Navi.\\nLúc nào cũng vậy, không hề thay đổi chút nào."
+# JP: 珍しく、ナビが沈黙する。
+2650 = "Hiếm khi thấy Navi im lặng."
+
+[selections]
