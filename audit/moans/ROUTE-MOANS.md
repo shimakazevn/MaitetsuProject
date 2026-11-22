@@ -1251,3 +1251,33 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 - Lượt soát 2: 28/28 tái kiểm chứng, 0 bỏ, 0 sửa. TOML md5 `6a7e62c050273bbf93e38135c93f7f15`; CSV3 1 bộ 316 dòng, 0 key trùng; khối TOML 28 khóa parse OK, 0 sai lệch.
 
 **Tổng cộng sau file này: 62 file / 1475 dòng sai (moan)** (cơ sở 61 file / 1447 dòng + 28 file này) [REBASE 22/11 ~10:38 — snippet ghi cơ sở cũ 60/1418 vì 日々姫h4 (29 dòng) đã gộp trước trong cùng đợt; parent đã gộp 日々姫h4, GitHub 3d6eae6c là cơ sở trước]
+
+# Moan snippet — lr稀咲追加h_お風呂は日ノ本式に限るね.txt.toml (06_Kisaki)
+
+- File: `lr稀咲追加h_お風呂は日ノ本式に限るね.txt.toml` (06_Kisaki) — TOML md5 `947b7e40987a5d77e8a0f963aed53302`, 320 dòng script, CSV3 1 bộ duy nhất, 0 key trùng.
+- Đọc 320/320 dòng; xét 137 dòng rên (92 thoại + 45 SFX độc thoại); đổi 25 dòng.
+- fa/fu → romaji (7): 782 ふっ→"Fu", 1074 ふあっ→"Fua", 1085 ふうぅ→"Fuuu", 1100 ふあっ→"Fua", 1112 ふっ→"Fu" + ふあっ→"Fua", 1144 ふ、ふっ→"Fu, fu", 1147 ふ→"Fu, a".
+- Romaji (9): 784 ぷあ→"Pua", 1114 んうっ→"Nu", 1162 んあっ→"Na", 1265 ぺちゅううっ→"chụụụt" + ぷあ→"Pua", 1296 んうっ→"Nu", 1819 ずちゅううううっ→"Zuchuuuuu" (6u), 1823 にちゃあああああああっ→"Nichaaaaaaaa" (8a), 1857 にゅるうううううううううっっ→"Nyuruuuuuuuuuu" (11u), 1883 くちいいいっっっっっ→"Kuchiiii" (4i).
+- Vowel-count (6): 1110 ああ→"Aa", 1121 ううっ→"Uu", 1180 ああ→"Aa", 1834 c 8→9, 1867 c 13→15, 1880 c 9→10.
+- SFX thiếu âm (3): 1828 +じゅくっ→"Nhóp nhép", 1839 +しこっ→"Sột soạt", 1848 +しゅちゅっ→"Nhóp nhép".
+- Không đụng dòng Ư gasp đã khóa (sweep 8 mục đã áp bởi audit); old_vn = audit fix với 4 key (1074/1085/1100/1112), còn lại CSV3 VN.
+- Cờ unification F1–F9: F1 1861 "Thọc sâub…" (17b/11u), F2 1865 "Siết chặtt…" (21t/13u) — lớp verb-render + kéo dài; F3 1162 んあっ→"Na" (phạm vi còn mở, cf. ROUTE-MOANS F8); F4 1110/1180 ああ→"Aa" (tiếng thở giao tiếp); F5 1820/1845 dưới ngưỡng romaji; F6 1817 dạng động từ lỏng; F7 1071 もっとおおおっ; F8 1860 giữ (5ụ=5, trùng ハチロクh3 1860); F9 1124 "ra rồiiiii".
+- Second pass: 25/25 đọc lại, 0 loại bỏ, 2 sửa (1819 đếm lại 5u→6u; 1112 sửa dấu gạch). JSON 25 = TOML block 25, parse 0 mismatch, jp/tw/old_vn 0 lệch, đếm nguyên âm dài bằng máy.
+
+**Tổng cộng sau file này: 63 file / 1500 dòng sai (moan)** (cơ sở 62 file / 1475 dòng + 25 file này) [REBASE 22/11 — cơ sở giao lúc spawn 58/1399 đã cũ vì 凪h1 (15), 稀咲h2 (4), 日々姫h4 (29), 真闇h2 (28) đã gộp trong khi agent chạy; đã kiểm chứng với ROUTE-MOANS.md]
+
+# Moan-fix snippet — 日々姫h2_洗って大丈夫なスーツ.txt.toml (moan-hibikih2-aratte-daijoubu-na-suits)
+
+- File: `02_Hibiki/日々姫h2_洗って大丈夫なスーツ.txt.toml` — H-scene Hibiki (ngủ gật ở phòng thị trưởng → bế về → cởi vest "giặt được" → trước gương); 290 dòng, audit sai 16.
+- Đọc 290/290 dòng, xét 98 dòng rên/SFX (35 SFX độc thoại + 24 thoại token rên + 39 thoại gasp), đổi 8 dòng.
+- Mất âm (1): 1064 かっ bị mất → thêm "Ka——" (audit §4(2) cờ cho vòng moan; TW cũng bỏ).
+- Đuôi moan dài (1): 1071 んううううう～っ → "Nuuuuu!" (ん+5う = 5u; audit §4(1) để vòng moan quyết; tiền lệ ハチロクh3 1064).
+- fa/fu → romaji (2): 1079, 1123 ふあっ→"Fua" (audit đổi "Phù"→"Phùa" giữ mora あ; moan pass chuyển romaji theo fallback Hieu duyệt — tiền lệ lr_日々姫h2/日々姫h3/ハチロクh3).
+- んきゅ → romaji (3): 1126 んきゅっ→"Nkyu", 1138 んきゅ+7う+4ぅ→"Nkyuuuuuuuuuuuu" (12u; audit đã sửa số lượng 8→12u đúng, chỉ còn tách "Ưm kyu..."), 1139 んきゅんっ→"Nkyun" (tiền lệ ハチロクh3 1218 + quy tắc 3b んひゅ→"Nhyu"/んひゅん→"Nhyun").
+- SFX (1): 1770 びゅくっ→"Phụt——" (TW toàn 噗噗 = phun; "Giật" diễn co giật sai lớp; audit §4(3)).
+- Giữ nguyên: gasp Ư audit (843/1085/1086/1283); audit sửa đúng 1074 "Kuha", 1077 "Fuuuuuuuuun!" (9u), 1078 "Aaaaaaan" (8a), 1081 "Phuyan"; họ ひゃ/きゃ đã romaji (1058/1062/1064/1069/1070/1061); ふっ→"Phù" giữ (1096/1126/1133/1263); 1076 ふあ……ぁ……→"Phù... a..." giữ theo lý do audit §3 (đủ cả hai mora, ngữ cảnh nhẹ); cười "Nhehe"/"Ê hê hê"; ngủ "Khò"; SFX phun đồng nhất "Phụt!" (1764/1766/1771/1772).
+- Cờ đợt thống nhất: F1 họ や ("A"/"Á"/"Yan" vs "Ya" — 1055/1060/1066/1067/1220, quyết định toàn dự án vẫn mở); F2 ふっ "Phù" (file này) vs "Fu" (日々姫h3); F3 ふや "Phuyan" vs "Fuya" (lr_凪h1); F4 độ dài SFX phụ âm t/c (1787/1797/1798); F5 くっ SFX tả 1757 "chụt"; F6 SFX phun dồn đồng nhất "Phụt!"; F7 1076 "Phù... a..." vs "Fua"; F8 fa/fu "Phùa" vs "Fua" đã chốt cho file này (→"Fua"), còn lại cho dòng audit ngoài file H.
+- Sweep gasp kiểm tra trực tiếp 4/4 mục — 3 nằm trong audit (gasp), 1 already-rendered (1071, không sửa gasp); không đụng dòng gasp Ư nào; không đổi dòng "Kh" nào.
+- Lượt soát 2: 8/8 tái kiểm chứng, 0 bỏ, 0 sửa. TOML md5 `406a1ba5a7f06dc38f49413d0fbe2d47`; CSV3 1 bộ 290 dòng, 0 key trùng; khối TOML 8 khóa parse OK, 0 sai lệch.
+
+**Tổng cộng sau file này: 64 file / 1508 dòng sai (moan)** (cơ sở 63 file / 1500 dòng + 8 file này) [REBASE 22/11 ~10:50 — snippet ghi cơ sở cũ 62/1475 vì lr稀咲追加h (25 dòng) đã gộp trước trong cùng đợt; parent đã gộp lr稀咲追加h]
