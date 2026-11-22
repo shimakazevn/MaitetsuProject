@@ -1,7 +1,7 @@
 {
   "base": {
-    "items": 1,
-    "rows": 52
+    "items": 18,
+    "rows": 479
   },
   "investigations": [
     {
@@ -69,7 +69,7 @@
       ],
       "scope": "Ohimitera, folders 00_Common/01_Hachiroku/02_Hibiki",
       "slug": "t1-ohimitera-00-02",
-      "status": "running"
+      "status": "merged"
     },
     {
       "batch": "U1b",
@@ -87,7 +87,7 @@
       ],
       "scope": "Ohimitera, folders 07_Nagi_Fukami/08_Niiroku/09_Grand/10_Chikuni/11_Other",
       "slug": "t1-ohimitera-07-11",
-      "status": "running"
+      "status": "merged"
     },
     {
       "batch": "U2a",
@@ -97,7 +97,7 @@
       ],
       "scope": "Ohito bare + Duong sat Ohito, folders 00-05",
       "slug": "t1-ohito-t2-00-05",
-      "status": "running"
+      "status": "merged"
     },
     {
       "batch": "U2b",
@@ -121,7 +121,7 @@
       ],
       "scope": "Hoang gia, Densha Hime, Miyaji variants, Migita, Jutsusen + 3 flips, tui cong tac",
       "slug": "s1-set2-hoanggia-densha-miyaji-migita-jutsusen-tui",
-      "status": "queued"
+      "status": "running"
     },
     {
       "batch": "U4",
@@ -142,7 +142,7 @@
       ],
       "scope": "Hinomoto, Yui, Okoba, Suntai, KiHa, Meikoku, Master Controller, ve luot, Nhan giong, than van hanh/bao tri, nhan vien tau, Seki",
       "slug": "s1-set3-yui-hinomoto-okoba-kiha",
-      "status": "queued"
+      "status": "running"
     },
     {
       "batch": "U5",
@@ -259,7 +259,7 @@
       ],
       "scope": "File-specific DECIDED rows (F29 = cancel 2 fukami-h1 audit fixes; F34 = machine re-check Nagih2 2500)",
       "slug": "s6-file-specific-decided",
-      "status": "running"
+      "status": "merged"
     },
     {
       "batch": "U10b",
@@ -482,6 +482,11 @@
       "scope": "Gloss OPEN (VN-added tags, ruby, Gegege) + remaining moan OPEN/OPEN-confirm flags",
       "slug": "s4-gloss-open-leftover",
       "status": "queued"
+    },
+    {
+      "batch": "U2c",
+      "status": "running",
+      "scope": "T1+T2 leftovers: bare \"Đường sắt Ohito\" remaining in folders 00-05 after U1/U2a (Hachiroku01 2467, Hachiroku12 1900/2089, Hibiki08 3719, Mayami h3 2524 + any other rows whose current value still contains bare Ohito in 00-05)"
     }
   ],
   "started": "2026-11-22T11:00+07:00"

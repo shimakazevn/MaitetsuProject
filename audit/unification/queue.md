@@ -1,6 +1,6 @@
 # Unification pass queue
 
-Base: **1 mục / 52 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head 8eae66a5; sync record 93 entries.
+Base: **18 mục / 479 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head 8eae66a5; sync record 93 entries.
 
 ## Investigations (evidence + recommendation only, no fixes)
 - E1 RUNNING — §1 OPEN T56–T66 (open-terminology-t56-t66)
@@ -8,13 +8,13 @@ Base: **1 mục / 52 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head 8eae6
 - F1 RUNNING — §3 OPEN moan questions M7/M8/M9/M10/M11/M14/M15/M19/M68/M70 (open-moan-questions)
 
 ## Application batches
-- U1a RUNNING — T1 Ohimitera, folders 00–02 (t1-ohimitera-00-02)
+- U1a MERGED 22/11 ~11:20 — T1 Ohimitera, folders 00–02: 221 dòng / 25 file (T1 hoàn tất project-wide: 311)
 - U1b MERGED 22/11 ~11:10 — T1 Ohimitera, folders 03–06: 52 dòng / 12 file
-- U1c RUNNING — T1 Ohimitera, folders 07–11 (t1-ohimitera-07-11)
-- U2a RUNNING — T1 Ohito + T2, folders 00–05 (t1-ohito-t2-00-05)
+- U1c MERGED 22/11 ~11:15 — T1 Ohimitera, folders 07–11: 38 dòng / 5 file
+- U2a MERGED 22/11 ~11:15 — T1 Ohito + T2, folders 00–05: 136 dòng / 26 file
 - U2b RUNNING — T1 Ohito + T2, folders 06–11 (t1-ohito-t2-06-11)
-- U3 QUEUED — §1 set-2: T3/T10/T13/T14/T17/T18
-- U4 QUEUED — §1 set-3: T6/T7/T15/T16/T41/T45/T47/T54/T55/T11/T12/T19/T20
+- U3 RUNNING — §1 set-2: T3/T10/T13/T14/T17/T18
+- U4 RUNNING — §1 set-3: T6/T7/T15/T16/T41/T45/T47/T54/T55/T11/T12/T19/T20
 - U5 QUEUED — §1 misc + G1/G2 gloss sweeps
 - U6 RUNNING — §2 P2 + P14 + O1 (s2-paulette-pronouns)
 - U7a QUEUED — §2 P4 Kisaki anh-Soutetsu, 03+06 files
@@ -32,3 +32,5 @@ Base: **1 mục / 52 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head 8eae6
 
 ## PARKED (not in this pass)
 - §5 tag sweep S1–S5, S7 (B19 gate); §4 G13/G14; §1 T80 (in-game font check).
+
+- U2c RUNNING — T1+T2 leftovers: bare "Đường sắt Ohito" còn sót ở folders 00–05 sau U1/U2a (4 dòng đã biết + quét thêm)
