@@ -1,6 +1,6 @@
 # ROUTE-MOANS — H-scene moan fixes (romaji fallback)
 
-Merged moan-fix log. Running totals: **53 files / 1312 rows changed**.
+Merged moan-fix log. Running totals: **54 files / 1320 rows changed**.
 
 Rule (Hieu approved 21/11 ~01:56): when a Vietnamese rendering of a moan/breath sounds ngượng, use romaji of the JP sound instead. Ư gasp rows are NOT revisited. "Kh" for glottal-stop っ KEEPS. One row = one rendering (VN or romaji, never mixed).
 
@@ -1093,3 +1093,19 @@ Fixes here are amendments — applied with the unification pass (after all 216 a
 - Tiền lệ đã kiểm chứng: h6 §3c (くっ→"Ku", んくっ→"ưm ku"), h6 843 (んぁ→"Na"), paulette-h2 928 (んぎゅ→"Ngyu"), h5 1181 (かはっ→"Kaha"), や→"Ya" nhiều file.
 - GHI CHÚ: 1094 "Ư"→"Ku……" và 1127 "Ưm"→"Ngyu" — 2 chỗ "Ư" cũ diễn mora KHÔNG phải gasp (く…… / んぎゅ, đều không có っ), không thuộc diện cấm xem lại dòng gasp Ư; nhãn "False" trong log kiểm tra của agent đã được giải thích (JP dòng 1094 có っ ở token khác — ふっ/あっ — đã giữ nguyên).
 - FLAG (đợt thống nhất): F1 (độ dài lặp SFX （ ） diễn bằng từ); F2 (1087 "Kiu" chỉ có tương tự); F3 (1078/1185 "Kuha" tương tự Kaha); F4 (1276 っふ có thể là gasp bị mất); F5 (1067 ッッ―― có thể là gasp bị mất); F6 (ranh giới grunt-vs-rên họ く — audit §7 giữ "hự"); F7 (dạng tách "Fu, a" vs h7 "phù, a"); F8 (phạm vi họ や + んあっ→"Na"); F9 (7 dòng thay thế giá trị audit); F10 (1095 giữ theo audit §7).
+
+---
+
+# Moan-fix snippet — 真闇h1_長期熟成.txt.toml (moan-mayamih1-chouki-jukusei)
+
+- File: `真闇h1_長期熟成.txt.toml` (route 05_Mayami), 298 dòng script; audit đã gộp 50 dòng sai.
+- Đọc toàn bộ 298 dòng; xét 113 dòng rên/thở/gasp/SFX (78 thoại + 35 SFX ngoặc đơn).
+- Đổi 8 dòng rên: 1010 やっ→"Ya", 1011 や→"Ya", 1050 あんっ→"An!", 1058 ちゅるるっ→"Chururu" + んちゅうっ→"ưm chuu", 1071 ふあっ→"fua" (Hepburn, audit giữ "phua" sai dạng), 1090 んあっっ→"Na!!?", 1173 "nữaaaa"→"nữaa" (4 a thừa → 2 a), 1792 （みち…っっ）→"Michiiiiiiiiii!!" (romaji, 9 い đếm bằng máy — audit ghi 11 い sai).
+- Giữ 105 dòng, gồm các quyết định: 1080 んふっ→"ưm phư" (quy ước file), 1089 ごくんっ→"ực" (mất ん — cờ thống nhất), 1801/1803/1822 "Phụt!" gộp (phong cách file, tiền lệ lr-mayamih1), 1014 "Hya" (cờ Hieu vẫn mở).
+- Cờ đợt thống nhất/Hieu: F1 1014 Hya vs Á (Hieu); F2 1089 ごくんっ (gokun?); F3 độ dài SFX びゅ; F4 1011 どろって; F5 1241 よぉ; F6 くっ→"Ư" vs "Ku".
+- Lượt soát 2: 8 tổng / 8 tái kiểm chứng / 0 bỏ / 0 sửa.
+- Kiểm chứng: JSON 8 mục khóa string, jp/tw/old_vn khớp CSV3 8/8; khối TOML 8 khóa parse OK, 0 sai lệch; 0 key trùng audit; không chạm dòng "Kh" hay Ư gasp.
+
+**Tổng cộng sau file này: 54 file / 1320 dòng sai (moan)** (cơ sở 53 file / 1312 dòng + 8 file này)
+- Parent kiểm chứng 22/11 ~09:45: JSON 8 mục dạng chuẩn, khóa string; khối TOML 8 khóa, 0 sai lệch giá trị; jp/tw/old_vn khớp CSV3 8/8 (1 bộ duy nhất, 298 dòng, 0 key trùng); TOML md5 af87cd63e115c1890a4aa1a0a05fec4b khớp agent; 0 key trùng audit (50 key audit); đếm nguyên âm kiểm chứng độc lập: 1792 JP 9 い, fix "Michiiiiiiiiii" = chi-i + 9 い ✓; 1173 よぉ 2a ✓; 1058 ちゅう 2u ✓; sweep 5 mục, 0 trùng 8 key sửa; không dòng gasp Ư nào bị đụng; không dòng "Kh"; lượt soát 2: 8/8, 0 bỏ, 0 sửa. Newline trong fix (1011/1071/1173) là real newline — khớp 43 tiền lệ đã gộp (vd. hachiroku-h5), game auto-wrap, không ảnh hưởng.
+- FLAG (đợt thống nhất): F1–F6 như trên; thêm: 1058 "ưm chuu" trộn "ưm" VN + romaji trong một âm — tiền lệ mâu thuẫn (lr-h1 1097 giữ "Ưm kyu" vs ポーレットh2 sửa 7 dòng tương tự về romaji thuần "Nhyu"/"Nkyu"); chờ quyết chung dạng ん+romaji.
