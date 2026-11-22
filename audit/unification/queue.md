@@ -5,7 +5,7 @@ Base: **21 mục / 585 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head d55
 ## Investigations (evidence + recommendation only, no fixes)
 - E1 DECIDED 22/11 ~11:25 — §1 OPEN T56–T66 (11 items decided by coordinator; 173 rows for U13a)
 - E2 RUNNING — §1 OPEN T67–T81 (open-terminology-t67-t81)
-- F1 RUNNING — §3 OPEN moan questions M7/M8/M9/M10/M11/M14/M15/M19/M68/M70 (open-moan-questions)
+- F1 DECIDED 22/11 ~11:30 — §3 OPEN moan questions (10 rules decided by coordinator; U12a/U12b apply)
 
 ## Application batches
 - U1a MERGED 22/11 ~11:20 — T1 Ohimitera, folders 00–02: 221 dòng / 25 file (T1 hoàn tất project-wide: 311)
@@ -18,7 +18,7 @@ Base: **21 mục / 585 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head d55
 - U5 RUNNING — §1 misc + G1/G2 gloss sweeps
 - U6 MERGED 22/11 ~11:25 — §2 P2/P14/O1: 3 mục / 106 dòng (P2 99 — list estimated 43; O1 decided "em")
 - U7a RUNNING — §2 P4 Kisaki anh-Soutetsu, 03+06 files
-- U7b QUEUED — §2 P4 Kisaki anh-Soutetsu, tsuika + lr files
+- U7b RUNNING — §2 P4 Kisaki anh-Soutetsu, tsuika + lr files (U8 must wait until U7b merges — same tsuika files, same rows, two changes each)
 - U8 QUEUED — §2 P3/P5/P6/P8 + §6 F17–F24 + O2/O3 (Niiroku + tsuika cluster)
 - U9 QUEUED — §2 P15 + O61 + §6 F28 + P7
 - U10 MERGED 22/11 ~11:20 — §6 file-specific DECIDED: 16 mục / 32 dòng (F10 sửa theo CSV3; F36/F38 list errors ghi trong ROUTE)
@@ -36,3 +36,6 @@ Base: **21 mục / 585 dòng** (pass bắt đầu 22/11 ~11:00). GitHub head d55
 - U2c RUNNING — T1+T2 leftovers: bare "Đường sắt Ohito" còn sót ở folders 00–05 sau U1/U2a (4 dòng đã biết + quét thêm)
 
 - U13a RUNNING — §1 OPEN T56–T66 application (173 rows, coordinator decisions 22/11 ~11:25)
+
+- U12a RUNNING — §3 moan rules, dialogue tokens (M7/M8/M9/M10/M11/M15/M68/M70)
+- U12b RUNNING — §3 M14 descriptive-SFX counting batch + M19 re-checks (machine counting per token)

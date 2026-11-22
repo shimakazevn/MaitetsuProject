@@ -191,7 +191,7 @@
       ],
       "scope": "Kisaki anh Soutetsu -> bare, tsuika01/02 + lr files + 11_Other",
       "slug": "s2-p4-kisaki-anh-soutetsu-b",
-      "status": "queued"
+      "status": "running"
     },
     {
       "batch": "U8",
@@ -492,6 +492,16 @@
       "batch": "U13a",
       "status": "running",
       "scope": "§1 OPEN T56-T66 application (coordinator decided 22/11 ~11:25): T56 Trung Quoc 124, T57 Anh Quoc 5, T58 Thi Hien Luu 3, T59 Quirquitium 1, T60 Tong giam doc 27, T61 cong ty holding 7, T63 Duong sat De quoc Hinomoto 4; T62/T64/T65 keep (0 rows)"
+    },
+    {
+      "batch": "U12a",
+      "status": "running",
+      "scope": "§3 moan rules application, dialogue tokens: M7 dialogue Ku + 5 lone Hu, M8 Ya/A (64 + 1203), M9 within-file fu, M10 Fue/He (6 rows), M11 Fuya (~16), M15 N-consonant (~11), M68 Rero (~16), M70 recheck 1842"
+    },
+    {
+      "batch": "U12b",
+      "status": "running",
+      "scope": "§3 M14 descriptive SFX counting batch (~122 lost-length + ~20 miscounts + 1679/1681 vowel-stretch) + M19 3 re-check rows; machine counting per token required"
     }
   ],
   "started": "2026-11-22T11:00+07:00"
